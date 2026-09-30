@@ -78,15 +78,21 @@ test("events on the same date are grouped on the axis but listed separately", ()
   const t = layoutTimeline(M("example-lab.orbit-2"), ctx());
   const node = t.nodes.find(n => n.label.startsWith("Released"));
   assert.equal(node.label, "Released +2");   // release, Mini and the launch post on 11 June 2024
+  assert.equal(node.meta, "Lifecycle · 11 Jun 2024");
   assert.equal(t.list.filter(e => e.date === "11 June 2024").length, 3);
+  // The page opens scrolled to the model's own timeline date: exactly that node is marked.
+  assert.deepEqual(t.nodes.filter(n => n.focus).map(n => n.label), ["Released +2"]);
+  assert.equal(layoutTimeline(M("other-lab.nova-6"), ctx()).nodes.some(n => n.focus), false, "no date, no focus");
+  assert.equal(layoutTimeline(M("example-lab.orbit-lite-1"), ctx()).nodes.find(n => n.focus).meta, "Lifecycle · 2025?");
 });
 
 test("AI Radar coverage is one range item; the list notes that snapshots are kept", () => {
   const t = layoutTimeline(M("example-lab.orbit-2"), ctx({ "example-lab.orbit-2": [{ publishedAt: "2026-07-02T15:00:00Z" }, { publishedAt: "2026-08-14T00:00:00Z" }] }));
   const n = t.nodes.find(x => x.kind === "news");
   assert.equal(n.label, "2 news items");
-  assert.equal(n.meta, "AI Radar · July 2026 – August 2026");
+  assert.equal(n.meta, "Jul 2026 – Aug 2026", "short months on the axis label; the list has the full range");
   const l = t.list.find(x => x.kind === "AI Radar");
+  assert.equal(l.date, "July 2026 – August 2026");
   assert.equal(l.note, "Snapshots kept after items leave the live feed");
   assert.equal(t.count, modelEvents(M("example-lab.orbit-2"), ctx()).length + 1);
 });

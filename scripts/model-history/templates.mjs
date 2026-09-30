@@ -1,27 +1,42 @@
-/* Model History: HTML string templates for the generated pages (Explorer, Company Model
-   History, Model Detail, redirect stubs). Pure functions: they receive the compiled site
-   from build.mjs and return strings; nothing here reads files or the clock.
+/* Model History: HTML string templates for the generated pages, in the chosen design:
+   1c Release Explorer (/models/), 1a-style Company Model History (/models/<org>/),
+   1e Model Detail (/models/<org>/<slug>/), 3a Model Timeline (/models/<org>/<slug>/timeline/)
+   and redirect stubs. Pure functions: they receive the compiled site from build.mjs and
+   return strings; nothing here reads files or the clock.
 
-   The markup is a semantic contract, not a design: headings, lists, <time datetime>,
-   text labels and data-mh-* attributes that assets/models.js and the later design build
-   on (spec §34). Every text goes through escapeHtml. The only unescaped markup is the
-   inline logo SVG from assets/registry.js, which is repo code, not data.
+   The design lives in assets/models.css; this file keeps the semantic contract underneath
+   it (spec §34): headings, lists, <time datetime>, text labels, and the data-mh-* attributes
+   and ids that assets/models.js (Explorer), assets/model-pages.js (family chips, timeline
+   tools) and the tests rely on. Every text goes through escapeHtml.
+   The only unescaped markup is the inline logo SVG from assets/registry.js (repo code).
 
    Sections: labels · small helpers · page shell · Explorer · Company · Model Detail ·
-   redirect stub. */
+   Model Timeline · redirect stub. */
 import { SITE, escapeHtml as esc, formatDate, datetimeAttr, parseDate, normalize } from "./lib.mjs";
+import { layoutTimeline, ZOOMS, LABEL_W, LABEL_H, PAD_X, UNKNOWN_DX } from "./timeline.mjs";
 
-/* ---------- Labels (English site text, spec §16.4, §21.4) ---------- */
+/* ---------- Labels (English site text, spec §16.4, §21.4; design 1c/1e) ---------- */
 export const EVIDENCE_LABEL = {
   "primary-source": "Primary source available",
   "archived-primary-source": "Archived primary source",
   "secondary-sources": "Verified through secondary sources",
   "insufficient-evidence": "Historical evidence incomplete"
 };
+// The design uses these short forms in lists and per claim; the long form is in the
+// model's evidence card and in the title attribute everywhere.
+export const EVIDENCE_SHORT = {
+  "primary-source": "Primary source",
+  "archived-primary-source": "Archived primary",
+  "secondary-sources": "Secondary sources",
+  "insufficient-evidence": "Evidence incomplete"
+};
+// Shape glyphs as a second carrier next to the text, never alone (WCAG 1.4.1, design 1c).
+export const EVIDENCE_GLYPH = { "primary-source": "●", "archived-primary-source": "◐", "secondary-sources": "○", "insufficient-evidence": "◌" };
 export const FLAG_LABEL = {
   "original-unavailable": "Original source unavailable",
   "some-claims-incomplete": "Some details lack sources"
 };
+export const STUB_LABEL = "Incomplete record";
 // A capability that is not disclosed and has no sources makes no claim (spec §9.4): it is
 // not an evidence gap, so it never gets the "incomplete" label of a real gap.
 export const NOT_APPLICABLE_LABEL = "No claim made";
@@ -34,12 +49,11 @@ export const EMPTY_COVERAGE = "AI Radar coverage starts in June 2026; no coverag
 const PROMINENCE_LABEL = { milestone: "Milestone", standard: "Standard release", minor: "Minor release" };
 const DATE_LABEL = { announced: "Announced", released: "Released", deprecated: "Deprecated", retired: "Retired" };
 const REL_LABEL = { "successor-of": "Successor of", "variant-of": "Variant of", "revision-of": "Revision of", "derived-from": "Derived from" };
-const REL_INCOMING = { "successor-of": "successor", "variant-of": "variant", "revision-of": "revision", "derived-from": "derived model" };
-const AVAIL_LABEL = { active: "Online", archived: "Original gone, archived copy available", unavailable: "Original unavailable, no archived copy", unknown: "Not yet verified" };
-const PROV_LABEL = { primary: "Primary source", "archived-primary": "Archived primary source", secondary: "Secondary source" };
+const AVAIL_LABEL = { active: "Active", archived: "Archived copy", unavailable: "Unavailable", unknown: "Not yet verified" };
+const PROV_LABEL = { primary: "Primary", "archived-primary": "Archived primary", secondary: "Secondary" };
 const PROVIDER_LABEL = { "internet-archive": "Internet Archive capture", publisher: "Publisher archive", arxiv: "arXiv version", github: "GitHub permalink",
   huggingface: "Hugging Face revision", "software-heritage": "Software Heritage archive", "other-approved": "Archived copy" };
-const CAP_LABEL = { inputModalities: "Input modalities", outputModalities: "Output modalities", features: "Features", openWeights: "Open weights",
+const CAP_LABEL = { inputModalities: "Input", outputModalities: "Output", features: "Features", openWeights: "Open weights",
   contextWindowTokens: "Context window", parameters: "Parameters", access: "Access" };
 const SPECIAL = { api: "API", "3d": "3D", "api-reference": "API reference", "audio-speech": "Audio and speech",
   "retrieval-reranking": "Retrieval and reranking", "open-weights-download": "Open-weights download", "on-device": "On device" };
@@ -59,14 +73,31 @@ export function instantHtml(v, dateOnly) {
   if (!day || !parseDate(day)) return "";
   return `<time datetime="${esc(dateOnly || v.length === 10 ? day : v)}">${esc(formatDate({ value: day }))}</time>`;
 }
-export const timelineHtml = td => (!td ? "Date unknown"
-  : td.kind === "released" ? `Released ${dateHtml(td.dv)}` : `Announced ${dateHtml(td.dv)}, release date unknown`);
+export const timelineHtml = td => (!td ? "Date unknown" : dateHtml(td.dv));
+// What the shown date means (design 1c/1a): never a precision the source does not give.
+export function precNote(td) {
+  if (!td) return "No timeline date";
+  const p = parseDate(td.dv.value).precision, q = td.dv.qualifier;
+  if (td.kind === "announced") return "Announced, release date unknown";
+  if (p === "month") return q === "approximate" ? "Approximate month" : q === "uncertain" ? "Uncertain month" : "Day not given";
+  if (p === "year") return q === "approximate" ? "Approximate year" : q === "uncertain" ? "Uncertain year" : "Month not given";
+  return q === "approximate" ? "Approximate date" : q === "uncertain" ? "Uncertain date" : "Released";
+}
 // The four statuses and "not-applicable" have their own text; any other value is not a
 // known state and fails closed to the gap label, never to a label that claims proof.
-const evText = e => (Object.hasOwn(EVIDENCE_LABEL, e) ? EVIDENCE_LABEL[e] : e === "not-applicable" ? NOT_APPLICABLE_LABEL : EVIDENCE_LABEL["insufficient-evidence"]);
+const known = e => Object.hasOwn(EVIDENCE_LABEL, e);
+const evLong = e => (known(e) ? EVIDENCE_LABEL[e] : e === "not-applicable" ? NOT_APPLICABLE_LABEL : EVIDENCE_LABEL["insufficient-evidence"]);
+const evShortText = e => (known(e) ? EVIDENCE_SHORT[e] : e === "not-applicable" ? NOT_APPLICABLE_LABEL : EVIDENCE_SHORT["insufficient-evidence"]);
+const glyph = e => (known(e) ? `<span class="mh-glyph" aria-hidden="true">${EVIDENCE_GLYPH[e]}</span> ` : "");
+// Evidence label: glyph + text; data-mh-evidence always matches the visible text (AC-20).
+export const evShort = e => `<span class="mh-ev" data-mh-evidence="${esc(e)}" title="${esc(evLong(e))}">${glyph(e)}${esc(evShortText(e))}</span>`;
+const evLongHtml = e => `<span class="mh-ev mh-ev-long" data-mh-evidence="${esc(e)}">${glyph(e)}${esc(evLong(e))}</span>`;
+const flagHtml = (f, tag = "span") => `<${tag} class="mh-flag" data-mh-flag="${esc(f)}">${esc(FLAG_LABEL[f] || f)}</${tag}>`;
 const plural = (n, one, many) => `${n} ${n === 1 ? one : many}`;
 const jsonScript = v => JSON.stringify(v).replace(/</g, "\\u003c").replace(/>/g, "\\u003e").replace(/&/g, "\\u0026");
 const safeHref = u => (typeof u === "string" && /^https?:\/\//i.test(u) ? u : null);
+const lifeText = m => LIFECYCLE_LABEL[m.lifecycle && m.lifecycle.value] || LIFECYCLE_LABEL.unknown;
+const catsText = m => (m.categories || []).map(label).join(", ");
 
 // Per-page state: citation numbers in order of first use, and the logo id counter.
 export const newCtx = () => ({ cites: new Map(), uid: 0 });
@@ -83,6 +114,7 @@ function coAttrs(site, orgId, cls) {
   const h = site.style(orgId).hue;
   return Number.isFinite(h) ? ` class="${cls}" style="--h:${h}"` : ` class="${cls} co-neutral"`;
 }
+const coSpan = (site, orgId, inner) => `<span${coAttrs(site, orgId, "mh-co")}>${inner}</span>`;
 function modelLink(site, id, fromOrg) {
   const t = site.modelById.get(id);
   if (!t) return `<span class="mh-missing">${esc(id)}</span>`;
@@ -91,8 +123,7 @@ function modelLink(site, id, fromOrg) {
 }
 const orgLink = (site, id) => (site.orgById.has(id) ? `<a href="${esc(site.orgById.get(id).url)}">${esc(site.orgName(id))}</a>` : esc(site.orgName(id)));
 // Siblings also include the inline variants of the record a model is a variant or revision
-// of (spec §12.4, §13.3). The derived id sets (§12.5) only hold records, and an inline
-// variant has no page, so these link to its anchor on that record's page.
+// of (spec §12.4, §13.3); an inline variant has no page, so these link to its anchor.
 function inlineSiblings(site, i) {
   const out = [], seen = new Set();
   for (const x of i.outRel) {
@@ -102,37 +133,38 @@ function inlineSiblings(site, i) {
       const key = v && typeof v.id === "string" && v.id ? `${p.id}#${v.id}` : null;
       if (!key || seen.has(key)) continue;
       seen.add(key);
-      out.push(`<li><a href="${esc(p.url)}#variant-${esc(v.id)}">${esc(v.name || v.id)}</a> <span class="mh-muted">(inline variant in the record of ${esc(p.m.name)})</span></li>`);
+      out.push(`<li><a href="${esc(p.url)}#variant-${esc(v.id)}">${esc(v.name || v.id)}</a> <span class="mh-muted">· inline variant of ${esc(p.m.name)}</span></li>`);
     }
   }
   return out;
 }
 
-// Source references of one claim, as links to the page's source list (with locator).
+// Source references of one claim, as [n] links to the page's source list (design 1e).
 function refs(ctx, list) {
   const rs = (Array.isArray(list) ? list : []).filter(r => r && typeof r.id === "string");
-  if (!rs.length) return `<span class="mh-refs mh-refs-none">No source recorded</span>`;
-  const items = rs.map(r => `<a class="mh-ref" href="#source-${esc(r.id)}">[${cite(ctx, r.id)}]</a>${r.locator ? ` <span class="mh-locator">${esc(r.locator)}</span>` : ""}`);
-  return `<span class="mh-refs">${rs.length > 1 ? "Sources" : "Source"}: ${items.join(", ")}</span>`;
-}
-function evHtml(ev) {
-  const flag = ev.originalUnavailable ? ` <span class="mh-flag" data-mh-flag="original-unavailable">${esc(FLAG_LABEL["original-unavailable"])}</span>` : "";
-  return `<span class="mh-ev" data-mh-evidence="${esc(ev.evidence)}">${esc(evText(ev.evidence))}</span>${flag}`;
+  if (!rs.length) return `<span class="mh-refs mh-refs-none">No source</span>`;
+  const items = rs.map(r => `<a class="mh-ref" href="#source-${esc(r.id)}" aria-label="Source ${cite(ctx, r.id)}${r.locator ? `, ${esc(r.locator)}` : ""}">[${cite(ctx, r.id)}]</a>${r.locator ? `<span class="mh-locator">${esc(r.locator)}</span>` : ""}`);
+  return `<span class="mh-refs">${items.join(" ")}</span>`;
 }
 // Differing values from other sources are shown, never silently dropped (spec §19.3).
 function altHtml(ctx, claim) {
   const alts = Array.isArray(claim.alternatives) ? claim.alternatives.filter(a => a && a.value) : [];
   if (!alts.length) return "";
-  return ` <span class="mh-alt">Other sources give: ${alts.map(a => `${dateHtml(a)} ${refs(ctx, a.sources)}${a.note ? ` <span class="mh-note">${esc(a.note)}</span>` : ""}`).join("; ")}</span>`;
+  return `<span class="mh-alt">Other sources give: ${alts.map(a => `${dateHtml(a)} ${refs(ctx, a.sources)}${a.note ? ` <span class="mh-note">${esc(a.note)}</span>` : ""}`).join("; ")}</span>`;
 }
-// One claim element: its value, its own evidence label and its own sources (spec §8, AC-31).
-function claimEl(ctx, tag, c, body, cls = "") {
+// One row of "Claims and evidence" (design 1e): label, value, its own evidence and sources (AC-31).
+function claimRow(ctx, c, labelText, valueHtml) {
   const dated = c.kind === "date" || c.kind === "variant-date" || c.kind === "milestone";
-  const note = c.claim.note ? ` <span class="mh-note">${esc(c.claim.note)}</span>` : "";
-  return `<${tag} class="mh-claim${cls ? " " + cls : ""}" data-mh-claim="${esc(c.path)}" data-mh-evidence="${esc(c.evidence)}">${body} ${evHtml(c)} ${refs(ctx, c.claim.sources)}${dated ? altHtml(ctx, c.claim) : ""}${note}</${tag}>`;
+  const note = c.claim.note ? `<span class="mh-note">${esc(c.claim.note)}</span>` : "";
+  const alt = dated ? altHtml(ctx, c.claim) : "";
+  return `<li class="mh-claim" data-mh-claim="${esc(c.path)}" data-mh-evidence="${esc(c.evidence)}">
+<span class="mh-claim-label">${esc(labelText)}</span>
+<span class="mh-claim-value">${valueHtml}${note}${alt}</span>
+<span class="mh-claim-ev">${evShort(c.evidence)}${c.originalUnavailable ? flagHtml("original-unavailable") : ""}${refs(ctx, c.claim.sources)}</span>
+</li>`;
 }
-const section = (id, title, body) => `<section id="${id}" class="mh-section">\n<h2>${esc(title)}</h2>\n${body}\n</section>`;
 const ul = (items, attrs = "") => `<ul${attrs}>\n${items.join("\n")}\n</ul>`;
+const h2 = (text, id) => `<h2 class="mh-h2"${id ? ` id="${id}"` : ""}>${esc(text)}</h2>`;
 
 /* ---------- Page shell (same template as about.html) ---------- */
 // Pre-paint: reads only the current keys; the legacy "mm-theme" key is not read here (spec §37.2).
@@ -155,7 +187,7 @@ const PREPAINT = `<script>
   })();
 </script>`;
 
-// aria-current="page" only on /models/ itself; the detail pages are inside the section.
+// aria-current="page" only on /models/ itself; the other pages are inside the section.
 const header = current => `<header class="site-header">
   <div class="container">
     <a class="brand" href="/">
@@ -164,8 +196,8 @@ const header = current => `<header class="site-header">
     </a>
     <nav class="site-nav" aria-label="Main">
       <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="${current}">Model History</a>
       <a class="nav-link" href="/about">About</a>
-      <a class="nav-link" href="/models/" aria-current="${current}">Models</a>
       <a class="nav-link" href="/feed.xml">RSS</a>
       <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
       <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
@@ -174,14 +206,14 @@ const header = current => `<header class="site-header">
   </div>
 </header>`;
 
-// The header links are hidden on phones (pages.css), so Models is in the footer too.
+// The header links are hidden on phones (pages.css), so Model History is in the footer too.
 const footer = current => `<footer class="site-footer">
   <div class="container">
     <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
     <nav class="footer-links" aria-label="Footer">
       <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="${current}">Model History</a>
       <a href="/about">About</a>
-      <a href="/models/" aria-current="${current}">Models</a>
       <a href="/contact">Contact</a>
       <a href="/privacy">Privacy</a>
       <a href="/disclaimer">Disclaimer</a>
@@ -256,8 +288,12 @@ ${footer(current)}
 </html>
 `;
 }
-function crumbsHtml(crumbs) {
-  const items = crumbs.map((c, i) => (i === crumbs.length - 1 ? `<li aria-current="page">${esc(c.name)}</li>` : `<li><a href="${esc(c.url)}">${esc(c.name)}</a></li>`));
+// Design crumb: "Model History › Org › …" in mono; the organisation in its company colour.
+function crumbsHtml(site, crumbs, orgId) {
+  const items = crumbs.map((c, i) => {
+    const text = orgId && c.org ? coSpan(site, orgId, esc(c.name)) : esc(c.name);
+    return i === crumbs.length - 1 ? `<li aria-current="page">${text}</li>` : `<li><a href="${esc(c.url)}">${text}</a></li>`;
+  });
   return `<nav class="mh-crumbs" aria-label="Breadcrumb"><ol>${items.join("")}</ol></nav>`;
 }
 // Descriptions stay under ~155 characters and end on a whole word.
@@ -267,53 +303,63 @@ export function clip(s, n = 155) {
   const cut = t.slice(0, n - 1), sp = cut.lastIndexOf(" ");
   return (sp > 40 ? cut.slice(0, sp) : cut).replace(/[\s,;:.-]+$/, "") + "…";
 }
+const flagsOf = i => [...i.ev.flags.map(f => flagHtml(f)), i.m.coverage === "stub" ? `<span class="mh-flag" data-mh-flag="stub">${STUB_LABEL}</span>` : ""].join("");
 
-/* ---------- Shared list item (Explorer and chronology) ---------- */
-function itemBody(site, i, withOrg) {
+/* ---------- Explorer (/models/, design 1c) ---------- */
+function explorerRow(site, i) {
   const m = i.m, fam = m.familyId && site.famById.get(m.familyId);
-  const flags = i.ev.flags.map(f => `<span class="mh-item-flag" data-mh-flag="${esc(f)}">${esc(FLAG_LABEL[f] || f)}</span>`).join(" ");
-  return [
-    `<a class="mh-item-name" href="${esc(i.url)}">${esc(m.name)}</a>`,
-    withOrg ? `<span class="mh-item-org">${esc(site.orgName(i.org))}</span>` : null,
-    fam ? `<span class="mh-item-family">${esc(fam.name)}</span>` : null,
-    `<span class="mh-item-date">${timelineHtml(i.td)}</span>`,
-    `<span class="mh-item-life">${esc(LIFECYCLE_LABEL[m.lifecycle && m.lifecycle.value] || LIFECYCLE_LABEL.unknown)}</span>`,
-    `<span class="mh-item-ev" data-mh-evidence="${esc(i.ev.evidence)}">${esc(evText(i.ev.evidence))}</span>`,
-    flags || null,
-    m.coverage === "stub" ? `<span class="mh-item-stub">Incomplete record</span>` : null
-  ].filter(Boolean).join("\n");
+  const kicker = [coSpan(site, i.org, site.orgById.has(i.org) ? `<a href="${esc(site.orgById.get(i.org).url)}">${esc(site.orgName(i.org))}</a>` : esc(site.orgName(i.org))), fam ? esc(fam.name) : null].filter(Boolean).join(" · ");
+  return `<li${coAttrs(site, i.org, "mh-row")} data-mh-model="${esc(i.id)}" data-mh-prominence="${esc(m.prominence || "")}">
+<div class="mh-row-model">
+<span class="mh-kicker">${kicker}</span>
+<a class="mh-row-name" href="${esc(i.url)}">${esc(m.name)}</a>
+<span class="mh-row-cats">${esc(catsText(m))}</span>
+</div>
+<div class="mh-row-date"><span class="mh-date">${timelineHtml(i.td)}</span><span class="mh-prec">${esc(precNote(i.td))}</span></div>
+<span class="mh-row-life">${esc(lifeText(m))}</span>
+<div class="mh-row-ev">${evShort(i.ev.evidence)}${flagsOf(i)}</div>
+</li>`;
 }
-
-/* ---------- Explorer (/models/) ---------- */
 export function explorerPage(site) {
   const orgs = site.orgs.filter(o => o.routed.length);
-  const items = site.explorer.map(i => `<li${coAttrs(site, i.org, "mh-item")} data-mh-model="${esc(i.id)}">\n${itemBody(site, i, true)}\n</li>`);
-  const main = `<main id="main" class="container mh" data-mh-view="explorer">
-<header class="mh-head">
-<h1>Model History</h1>
-<p class="mh-lead">${esc(`${plural(site.models.length, "model", "models")} from ${plural(orgs.length, "organisation", "organisations")}: when each was announced and released, how the models relate, and the sources behind every fact. Dates are only as precise as their sources.`)}</p>
-</header>
-<nav class="mh-orgs" aria-label="Organisations">
-${ul(orgs.map(o => `<li><a href="${esc(o.url)}">${esc(o.o.name)}</a> <span class="mh-count">${esc(plural(o.routed.length, "model", "models"))}</span></li>`))}
-</nav>
+  const n = site.models.length;
+  const main = `<main id="main" class="mh mh-explorer" data-mh-view="explorer">
+<header class="mh-hero container">
+<h1 class="mh-title">Model History</h1>
+<p class="mh-lead">Which models each organisation released, when, and what changed. Every claim links to its sources.</p>
 <div id="mh-controls" class="mh-controls" hidden>
-<input type="search" id="mh-search" aria-label="Search models" autocomplete="off" spellcheck="false" placeholder="Search models">
-<label for="mh-sort">Sort</label>
-<select id="mh-sort">
-<option value="date-desc" selected>Newest first</option>
-<option value="date-asc">Oldest first</option>
-<option value="name">Name</option>
-<option value="org">Organisation</option>
-</select>
-<div id="mh-facets"></div>
-<button type="button" id="mh-clear">Clear filters</button>
+<input type="search" id="mh-search" aria-label="Search models" autocomplete="off" spellcheck="false" placeholder="Search models, aliases, families or organisations">
+<div id="mh-sort" class="mh-seg" role="group" aria-label="Sort">
+<button type="button" data-sort="date-desc" aria-pressed="true">Newest first</button>
+<button type="button" data-sort="date-asc" aria-pressed="false">Oldest first</button>
+<button type="button" data-sort="name" aria-pressed="false">Name</button>
+<button type="button" data-sort="org" aria-pressed="false">Organisation</button>
 </div>
-<p id="mh-count" aria-live="polite"></p>
-<p id="mh-empty" hidden>No models match these filters.</p>
-<p id="mh-error" hidden>Search and filters could not be loaded. The full list below still works. <button type="button" id="mh-retry">Retry</button></p>
+<button type="button" id="mh-filter-toggle" class="mh-filter-toggle" aria-expanded="false" aria-controls="mh-facets">Filters</button>
+</div>
+</header>
+<div class="mh-explorer-body container">
+<aside class="mh-facets-col" aria-label="Filters">
+<div id="mh-facets" class="mh-facets"></div>
+<nav class="mh-orglist" aria-label="Organisations">
+<h2 class="mh-legend">Organisations</h2>
+${ul(orgs.map(o => `<li><a href="${esc(o.url)}">${esc(o.o.name)}</a> <span class="mh-num">${o.routed.length}</span></li>`))}
+</nav>
+</aside>
+<section class="mh-results" aria-labelledby="mh-results-title">
+<h2 id="mh-results-title" class="mh-visually-hidden">Models</h2>
+<div class="mh-results-head">
+<p id="mh-count" aria-live="polite">${esc(plural(n, "model", "models"))} from ${esc(plural(orgs.length, "organisation", "organisations"))}</p>
+<button type="button" id="mh-clear" class="mh-btn-small" hidden>Clear filters</button>
+</div>
+<div class="mh-cols" aria-hidden="true"><span>Model</span><span>Timeline date</span><span>Status</span><span>Evidence</span></div>
+<div id="mh-empty" class="mh-empty" hidden><p>No models match these filters.</p><button type="button" id="mh-empty-clear" class="mh-btn-dark">Clear filters</button></div>
+<p id="mh-error" class="mh-error" hidden>Search and filters could not be loaded. The full list below still works. <button type="button" id="mh-retry">Retry</button></p>
 <ol id="mh-list" class="mh-list">
-${items.join("\n")}
+${site.explorer.map(i => explorerRow(site, i)).join("\n")}
 </ol>
+</section>
+</div>
 </main>`;
   // Always indexable (spec §5.1 "ja", §30); sitemapXml always lists /models/ to match.
   return page({ path: "/models/", title: "Model History · AI Radar", indexable: true, main, scripts: ["/assets/models.js"],
@@ -321,84 +367,115 @@ ${items.join("\n")}
     crumbs: [{ name: "Model History", url: "/models/" }] });
 }
 
-/* ---------- Company Model History (/models/<org>/) ---------- */
-// Chronology groups: year -> month -> day entries; coarser dates form their own
-// "exact date unknown" group at the start of their period (spec §21.3, AC-04).
+/* ---------- Company Model History (/models/<org>/, design 1a style) ---------- */
+// Design 1a: years newest first; within a year day- and month-dated models newest first
+// (the precision note says when the day is missing), then the year-only models under
+// "<year> · exact date unknown"; models without any date come last (spec §21.3).
 export function groupChronology(items) {
-  const years = [], unknown = [];
+  const years = new Map(), unknown = [];
   for (const it of items) {
     const p = it.td && parseDate(it.td.dv.value);
     if (!p) { unknown.push(it); continue; }
-    let y = years[years.length - 1];
-    if (!y || y.year !== p.y) years.push(y = { year: p.y, yearOnly: [], months: [] });
-    if (p.precision === "year") { y.yearOnly.push(it); continue; }
-    let mo = y.months[y.months.length - 1];
-    if (!mo || mo.month !== p.m) y.months.push(mo = { month: p.m, monthOnly: [], days: [] });
-    (p.precision === "month" ? mo.monthOnly : mo.days).push(it);
+    if (!years.has(p.y)) years.set(p.y, { year: p.y, known: [], yearOnly: [] });
+    (p.precision === "year" ? years.get(p.y).yearOnly : years.get(p.y).known).push(it);
   }
-  return { years, unknown };
+  const desc = (a, b) => (a.key < b.key ? 1 : a.key > b.key ? -1 : a.m.name.localeCompare(b.m.name));
+  const list = [...years.values()].sort((a, b) => b.year - a.year);
+  list.forEach(y => { y.known.sort(desc); y.yearOnly.sort(desc); });
+  return { years: list, unknown };
 }
-function chronoEntry(site, org, i) {
-  const m = i.m;
-  const codev = i.org !== org.id
-    ? `\n<span class="mh-entry-note">Co-developed; listed under ${orgLink(site, i.org)}</span>` : "";
-  // Only id and prominence as attributes: in-page filters reuse index.json, like the Explorer (§7).
-  return `<li class="mh-entry" data-mh-model="${esc(i.id)}" data-mh-prominence="${esc(m.prominence || "")}">
-${itemBody(site, i, false)}
-<span class="mh-entry-prom">${esc(PROMINENCE_LABEL[m.prominence] || "")}</span>${codev}
+function chronoItem(site, ctx, org, i) {
+  const m = i.m, fam = m.familyId && site.famById.get(m.familyId);
+  const meta = [fam ? esc(fam.name) : null, esc(catsText(m)), m.prominence === "milestone" ? "Milestone" : null].filter(Boolean).join(" · ");
+  const sum = i.claims.get("summary");
+  const changes = (m.changes || []).slice(0, 2).map(x => `<li>${esc(x.text || "")}</li>`);
+  const codev = i.org !== org.id ? `<span class="mh-note">Co-developed; listed under ${orgLink(site, i.org)}</span>` : "";
+  const newsN = i.news.length ? plural(i.news.length, "news item", "news items") : "no news linked";
+  return `<li class="mh-chrono-item" data-mh-model="${esc(i.id)}" data-mh-family="${esc(m.familyId || "")}" data-mh-prominence="${esc(m.prominence || "")}">
+<div class="mh-chrono-date"><span class="mh-date">${timelineHtml(i.td)}</span><span class="mh-prec">${esc(precNote(i.td))}</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">${meta}</span>
+<a class="mh-chrono-name" href="${esc(i.url)}">${esc(m.name)}</a>
+${sum ? `<p class="mh-chrono-sum">${esc(sum.claim.text || "")}</p>` : ""}${changes.length ? `\n<ul class="mh-changes-mini">${changes.join("")}</ul>` : ""}
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill">${evShort(i.ev.evidence)}</span>
+<span class="mh-kicker">${esc(lifeText(m))} · ${esc(newsN)}</span>
+${flagsOf(i)}${codev}
+</div>
 </li>`;
 }
-function chronologyHtml(site, org, items) {
+function chronologyHtml(site, ctx, org, items) {
   const { years, unknown } = groupChronology(items);
-  const entries = list => `<ol class="mh-entries">\n${list.map(i => chronoEntry(site, org, i)).join("\n")}\n</ol>`;
-  const bucket = (value, list) => `<div class="mh-bucket" data-mh-bucket="${esc(value)}">\n<p class="mh-bucket-label">${esc(formatDate({ value }))}, exact date unknown</p>\n${entries(list)}\n</div>`;
-  const lines = list => list.filter(Boolean).join("\n");
-  const out = years.map(y => {
-    const months = y.months.map(mo => {
-      const v = `${y.year}-${String(mo.month).padStart(2, "0")}`;
-      return lines([`<li class="mh-month" data-mh-period="${v}">`, `<h4>${esc(formatDate({ value: v }))}</h4>`,
-        mo.monthOnly.length && bucket(v, mo.monthOnly), mo.days.length && entries(mo.days), `</li>`]);
-    });
-    return lines([`<li class="mh-year" data-mh-period="${y.year}">`, `<h3>${y.year}</h3>`,
-      y.yearOnly.length && bucket(String(y.year), y.yearOnly), months.length && `<ol class="mh-months">\n${months.join("\n")}\n</ol>`, `</li>`]);
-  });
-  if (unknown.length) out.push(`<li class="mh-year mh-year-unknown" data-mh-period="unknown">\n<h3>Date unknown</h3>\n${entries(unknown)}\n</li>`);
+  const block = (title, count, list, groupHead) => `<li class="mh-year">
+<div class="mh-year-head"><h3>${esc(title)}</h3><span class="mh-year-count">${esc(plural(count, "model", "models"))}</span></div>
+${list}
+</li>`;
+  const items_ = (list, head) => list.length ? `${head ? `<p class="mh-group-head">${esc(head)}</p>\n` : ""}<ol class="mh-chrono-items">\n${list.map(i => chronoItem(site, ctx, org, i)).join("\n")}\n</ol>` : "";
+  const out = years.map(y => block(String(y.year), y.known.length + y.yearOnly.length,
+    [items_(y.known), items_(y.yearOnly, `${y.year} · exact date unknown`)].filter(Boolean).join("\n")));
+  if (unknown.length) out.push(block("Date unknown", unknown.length, items_(unknown)));
   return out.length ? `<ol class="mh-chrono">\n${out.join("\n")}\n</ol>` : `<p class="mh-none">No models recorded yet.</p>`;
 }
 // Text-first lineage (spec §7, §31): per model, its relations by type as lists of links.
 // A merge shows the model under each parent as a link, never as a duplicated subtree.
 function lineageLists(site, i, fromOrg) {
   const out = i.outRel, inn = site.inRel.get(i.id) || [];
-  const typed = (list, key, fn) => list.map(x => `<li>${modelLink(site, x[key], fromOrg)}${fn ? ` <span class="mh-rel-type">(${esc(fn(x.r))})</span>` : ""}</li>`);
+  const REL_IN = { "successor-of": "successor", "variant-of": "variant", "revision-of": "revision", "derived-from": "derived" };
+  const typed = (list, key, fn) => list.map(x => `<li>${modelLink(site, x[key], fromOrg)}${fn ? ` <span class="mh-muted">· ${esc(fn(x.r))}</span>` : ""}</li>`);
   const outLabel = r => (r.type === "derived-from" && r.method ? `derived: ${lower(r.method)}` : lower(r.type.replace(/-of$/, "")));
-  const inLabel = r => (r.type === "derived-from" && r.method ? `derived: ${lower(r.method)}` : REL_INCOMING[r.type] || r.type);
+  const inLabel = r => (r.type === "derived-from" && r.method ? `derived: ${lower(r.method)}` : REL_IN[r.type] || r.type);
   const groups = [
     ["predecessors", "Predecessors", typed(out.filter(x => x.r.type === "successor-of"), "target", null)],
     ["successors", "Successors", typed(inn.filter(x => x.r.type === "successor-of"), "from", null)],
-    ["parents", "Parents", typed(out.filter(x => x.r.type !== "successor-of"), "target", outLabel)],
-    ["children", "Children", typed(inn.filter(x => x.r.type !== "successor-of"), "from", inLabel)],
+    ["parents", "Based on", typed(out.filter(x => x.r.type !== "successor-of"), "target", outLabel)],
+    ["children", "Variants and derived", typed(inn.filter(x => x.r.type !== "successor-of"), "from", inLabel)],
     ["siblings", "Siblings", [...site.sortIds(i.g.siblings).map(id => `<li>${modelLink(site, id, fromOrg)}</li>`), ...inlineSiblings(site, i)]]
   ].filter(g => g[2].length);
   if (!groups.length) return `<p class="mh-none">No recorded relations.</p>`;
-  return `<dl class="mh-lineage">\n${groups.map(([k, t, items]) => `<dt>${t}</dt>\n<dd>${ul(items, ` data-mh-lineage="${k}"`)}</dd>`).join("\n")}\n</dl>`;
+  return `<div class="mh-lineage-grid mh-lineage-compact">\n${groups.map(([k, t, items]) => `<div class="mh-lineage-group"><h4 class="mh-legend">${t}</h4>\n${ul(items, ` class="mh-rel" data-mh-lineage="${k}"`)}</div>`).join("\n")}\n</div>`;
+}
+function evidenceOverview(site, org) {
+  const rows = Object.keys(EVIDENCE_LABEL).map(e => [e, org.routed.filter(i => i.ev.evidence === e).length]);
+  const lost = org.routed.filter(i => i.ev.flags.includes("original-unavailable")).length;
+  const weak = site.chrono(org.routed.filter(i => i.ev.evidence === "insufficient-evidence" || i.ev.flags.includes("some-claims-incomplete")));
+  const lostList = site.chrono(org.routed.filter(i => i.ev.flags.includes("original-unavailable")));
+  const note = (i, t) => `<li><a href="${esc(i.url)}">${esc(i.m.name)}</a> <span class="mh-muted">${esc(t)}</span></li>`;
+  return `<dl class="mh-ev-overview">
+${rows.map(([e, n]) => `<div data-mh-evidence="${e}"><dt>${glyph(e)}${esc(EVIDENCE_SHORT[e])}</dt><dd>${n}</dd></div>`).join("\n")}
+<div data-mh-flag="original-unavailable"><dt>${esc(FLAG_LABEL["original-unavailable"])}</dt><dd>${lost}</dd></div>
+</dl>${weak.length ? `\n<h3 class="mh-legend">Incomplete evidence</h3>\n${ul(weak.map(i => note(i, [i.ev.evidence === "insufficient-evidence" ? EVIDENCE_LABEL[i.ev.evidence] : "",
+    i.ev.flags.includes("some-claims-incomplete") ? FLAG_LABEL["some-claims-incomplete"] : ""].filter(Boolean).join("; "))), ' class="mh-mini-list" data-mh-list="incomplete"')}` : ""}${lostList.length ? `\n<h3 class="mh-legend">Original source unavailable</h3>\n${ul(lostList.map(i => note(i, evLong(i.ev.evidence))), ' class="mh-mini-list" data-mh-list="original-unavailable"')}` : ""}`;
 }
 export function companyPage(site, org) {
   const ctx = newCtx(), o = org.o;
   const all = site.chrono([...org.routed, ...org.coDev]);
   const oc = org.claims;
-  // Organisation facts: description and former names are claims with their own sources.
+  // Organisation facts (sourced claims): description, former names, units, website.
   const facts = [];
-  if (oc.get("description")) facts.push(claimEl(ctx, "p", oc.get("description"), esc(o.description.text), "mh-description"));
+  const desc = oc.get("description");
   const former = (o.formerNames || []).map((f, k) => {
     const c = oc.get(`formerNames[${k}]`);
     const span = [f.from ? `from ${dateHtml(f.from)}` : "", f.until ? `until ${dateHtml(f.until)}` : ""].filter(Boolean).join(" ");
-    return c ? claimEl(ctx, "li", c, `${esc(f.name)}${span ? ` <span class="mh-period">(${span})</span>` : ""}`) : null;
+    return c ? claimRow(ctx, c, "Former name", `${esc(f.name)}${span ? ` <span class="mh-period">(${span})</span>` : ""}`) : null;
   }).filter(Boolean);
-  if (former.length) facts.push(`<h3>Former names</h3>\n${ul(former, ' class="mh-claims"')}`);
+  if (desc) facts.push(claimRow(ctx, desc, "Description", esc(o.description.text)));
+  facts.push(...former);
   const units = site.unitsOf(o.id).map(id => site.org(id)).filter(Boolean);
-  if (units.length) facts.push(`<h3>Units</h3>\n${ul(units.map(u => `<li>${esc(u.name)} <span class="mh-muted">(${esc(label(u.type || "unit"))})</span></li>`))}`);
   const web = safeHref(o.website);
-  facts.push(`<p class="mh-facts-line">${esc(label(o.type || "company"))}${web ? ` · <a href="${esc(web)}">${esc(o.website)}</a>` : ""} · ${esc(plural(org.routed.length, "model", "models"))} listed here</p>`);
+  const extra = [units.length ? `<p class="mh-facts-line">Units: ${units.map(u => esc(u.name)).join(", ")}</p>` : "",
+    `<p class="mh-facts-line">${esc(label(o.type || "company"))}${web ? ` · <a href="${esc(web)}">${esc(o.website)}</a>` : ""} · ${esc(plural(org.routed.length, "model", "models"))} listed here</p>`].filter(Boolean).join("\n");
+
+  // Lead text: the description, and a former name in plain words (the claims are below).
+  const formerText = (o.formerNames || []).filter(f => f && f.name).map(f => `Known as ${f.name}${f.until && f.until.value ? ` until ${formatDate(f.until)}` : ""}.`).join(" ");
+  const lead = [o.description && o.description.text ? o.description.text : `Models released by ${o.name}, in timeline order, with lineage and sources.`, formerText].filter(Boolean).join(" ");
+
+  // Family chips (design 1a): filter the chronology in the browser; hidden without JS.
+  const famChips = org.families.filter(f => all.some(i => i.m.familyId === f.id));
+  const chips = famChips.length > 1 ? `<div id="mh-family-chips" class="mh-chips" role="group" aria-label="Family" hidden>
+<button type="button" data-family="" aria-pressed="true">All families</button>
+${famChips.map(f => `<button type="button" data-family="${esc(f.id)}" aria-pressed="false">${esc(f.name)}</button>`).join("\n")}
+</div>` : "";
 
   // Optional editorial story (spec §10.3): chapters are claims with sources.
   const chapters = ((o.narrative && o.narrative.chapters) || []).map((ch, k) => {
@@ -406,7 +483,12 @@ export function companyPage(site, org) {
     if (!c) return null;
     const per = ch.period ? [ch.period.from, ch.period.to].filter(Boolean).map(v => dateHtml({ value: v })).join("–") : "";
     const ms = (ch.modelIds || []).filter(id => site.modelById.has(id)).map(id => modelLink(site, id, o.id));
-    return claimEl(ctx, "li", c, `<h3>${esc(ch.title || "")}</h3>${per ? `\n<p class="mh-period">${per}</p>` : ""}\n<p>${esc(ch.text || "")}</p>${ms.length ? `\n<p class="mh-chapter-models">Models: ${ms.join(", ")}</p>` : ""}\n`, "mh-chapter");
+    return `<li class="mh-chapter mh-claim" data-mh-claim="${esc(c.path)}" data-mh-evidence="${esc(c.evidence)}">
+<span class="mh-kicker">Chapter ${k + 1}${per ? ` · ${per}` : ""} · <span class="mh-editorial">Editorial</span></span>
+<h3>${esc(ch.title || "")}</h3>
+<p>${esc(ch.text || "")}</p>${ms.length ? `\n<p class="mh-chapter-models">Models: ${ms.join(", ")}</p>` : ""}
+<span class="mh-claim-ev">${evShort(c.evidence)}${refs(ctx, c.claim.sources)}</span>
+</li>`;
   }).filter(Boolean);
 
   // Families as a tree (parentId), each with its models in timeline order.
@@ -417,59 +499,73 @@ export function companyPage(site, org) {
     const kids = org.families.filter(x => x.parentId === f.id && !placed.has(x.id));
     kids.forEach(x => placed.add(x.id));
     const ms = site.chrono(org.routed.filter(i => i.m.familyId === f.id)).map(i => `<li><a href="${esc(i.url)}">${esc(i.m.name)}</a> <span class="mh-muted">${timelineHtml(i.td)}</span></li>`);
-    return `<li id="family-${esc(f.id)}" class="mh-family">\n<h3>${esc(f.name)}</h3>\n${ms.length ? `<ol class="mh-family-models">\n${ms.join("\n")}\n</ol>` : `<p class="mh-none">No models listed yet.</p>`}${kids.length ? `\n${ul(kids.map(famItem), ' class="mh-families"')}` : ""}\n</li>`;
+    return `<li id="family-${esc(f.id)}" class="mh-family">\n<h3>${esc(f.name)}</h3>\n${ms.length ? `<ol class="mh-mini-list">\n${ms.join("\n")}\n</ol>` : `<p class="mh-none">No models listed yet.</p>`}${kids.length ? `\n${ul(kids.map(famItem), ' class="mh-families"')}` : ""}\n</li>`;
   };
   const roots = org.families.filter(f => !f.parentId || !famIds.has(f.parentId));
   const loose = site.chrono(org.routed.filter(i => !i.m.familyId || !famIds.has(i.m.familyId)));
   const famHtml = [roots.length ? ul(roots.map(famItem), ' class="mh-families"') : "",
-    loose.length ? `<h3>Not in a family</h3>\n${ul(loose.map(i => `<li><a href="${esc(i.url)}">${esc(i.m.name)}</a></li>`))}` : ""].filter(Boolean).join("\n") || `<p class="mh-none">No families recorded.</p>`;
+    loose.length ? `<h3>Not in a family</h3>\n${ul(loose.map(i => `<li><a href="${esc(i.url)}">${esc(i.m.name)}</a></li>`), ' class="mh-mini-list"')}` : ""].filter(Boolean).join("\n") || `<p class="mh-none">No families recorded.</p>`;
 
-  const lineage = all.length ? `<ol class="mh-lineage-models">\n${all.map(i => `<li id="lineage-${esc(i.id)}">\n<a href="${esc(i.url)}">${esc(i.m.name)}</a>\n${lineageLists(site, i, o.id)}\n</li>`).join("\n")}\n</ol>` : `<p class="mh-none">No models recorded yet.</p>`;
-
-  // Evidence overview: models per status, which ones have incomplete evidence, and which
-  // rest on an archived copy. A lost original with a sound archive is not "incomplete" (§16.4).
-  const counts = Object.keys(EVIDENCE_LABEL).map(e => [e, org.routed.filter(i => i.ev.evidence === e).length]).filter(x => x[1]);
-  const weak = site.chrono(org.routed.filter(i => i.ev.evidence === "insufficient-evidence" || i.ev.flags.includes("some-claims-incomplete")));
-  const lost = site.chrono(org.routed.filter(i => i.ev.flags.includes("original-unavailable")));
-  const modelNote = (i, text) => `<li><a href="${esc(i.url)}">${esc(i.m.name)}</a> <span class="mh-muted">${esc(text)}</span></li>`;
-  const evHtmlBlock = `<dl class="mh-ev-summary">\n${counts.map(([e, n]) => `<dt data-mh-evidence="${e}">${esc(EVIDENCE_LABEL[e])}</dt><dd>${esc(plural(n, "model", "models"))}</dd>`).join("\n")}\n</dl>` +
-    (weak.length ? `\n<h3>Models with incomplete evidence</h3>\n${ul(weak.map(i => modelNote(i, [i.ev.evidence === "insufficient-evidence" ? EVIDENCE_LABEL[i.ev.evidence] : "",
-      i.ev.flags.includes("some-claims-incomplete") ? FLAG_LABEL["some-claims-incomplete"] : ""].filter(Boolean).join("; "))), ' data-mh-list="incomplete"')}` : "") +
-    (lost.length ? `\n<h3>Models whose original source is unavailable</h3>\n${ul(lost.map(i => modelNote(i, `${evText(i.ev.evidence)}; ${FLAG_LABEL["original-unavailable"]}`)), ' data-mh-list="original-unavailable"')}` : "");
+  const lineage = all.length ? `<ol class="mh-lineage-models">\n${all.map(i => `<li id="lineage-${esc(i.id)}">\n<a class="mh-lineage-name" href="${esc(i.url)}">${esc(i.m.name)}</a>\n${lineageLists(site, i, o.id)}\n</li>`).join("\n")}\n</ol>` : `<p class="mh-none">No models recorded yet.</p>`;
 
   const news = org.news.slice(0, 10);
-  const newsHtml = (news.length ? ul(news.map(n => newsItem(site, n, o.id)), ' class="mh-news"') : `<p class="mh-empty">${esc(EMPTY_COVERAGE)}</p>`) + dashboardLink(site, o.id);
-
-  const sections = [
-    section("organization", "About the organisation", facts.join("\n")),
-    chapters.length ? section("story", "Story", `<ol class="mh-chapters">\n${chapters.join("\n")}\n</ol>`) : null,
-    section("families", "Families", famHtml),
-    section("chronology", "Chronology", chronologyHtml(site, org, all)),
-    section("lineage", "Lineage", lineage),
-    section("evidence", "Evidence overview", counts.length ? evHtmlBlock : `<p class="mh-none">No models listed under this organisation yet.</p>`),
-    section("coverage", "Related AI Radar coverage", newsHtml),
-    ctx.cites.size ? section("sources", "Sources", sourceList(site, ctx, [])) : null
-  ].filter(Boolean);
+  const newsHtml = (news.length ? ul(news.map(n => newsRow(site, n, o.id, true)), ' class="mh-news-side"') : `<p class="mh-empty-text">${esc(EMPTY_COVERAGE)}</p>`) + dashboardLink(site, o.id);
   const notice = org.indexable ? "" : `\n<p class="mh-notice">Research on this organisation has not started yet: its model records are stubs or are listed under another organisation.</p>`;
-  const main = `<main id="main"${coAttrs(site, o.id, "container mh")} data-mh-view="company" data-mh-org="${esc(o.id)}">
-${crumbsHtml([{ name: "Model History", url: "/models/" }, { name: o.name, url: org.url }])}
-<header class="mh-head">
-${logoHtml(site, ctx, o.id)}<h1>${esc(o.name)}</h1>
-<p class="mh-lead">${esc(`Model history of ${o.name}: ${plural(org.routed.length, "model", "models")}, in timeline order, with lineage and sources.`)}</p>${notice}
-</header>
-${sections.join("\n")}
+
+  const main = `<main id="main"${coAttrs(site, o.id, "mh mh-company")} data-mh-view="company" data-mh-org="${esc(o.id)}">
+<div class="mh-page-head container">
+<div class="mh-head-main">
+${crumbsHtml(site, [{ name: "Model History", url: "/models/" }, { name: o.name, url: org.url, org: true }], o.id)}
+<h1 class="mh-title">${logoHtml(site, ctx, o.id)}${esc(o.name)} models</h1>
+<p class="mh-lead">${esc(lead)}</p>${notice}
+${chips}
+</div>
+<aside class="mh-head-side" id="evidence" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence overview</h2>
+${evidenceOverview(site, org)}
+</aside>
+</div>
+<div class="mh-page-body container">
+<div class="mh-body-main">
+<section id="chronology" aria-labelledby="mh-chrono-title">
+<h2 class="mh-visually-hidden" id="mh-chrono-title">Chronology</h2>
+${chronologyHtml(site, ctx, org, all)}
+</section>
+${chapters.length ? `<section id="story">\n${h2("The story so far")}\n<ol class="mh-chapters">\n${chapters.join("\n")}\n</ol>\n</section>` : ""}
+<section id="lineage">
+${h2("Lineage")}
+${lineage}
+</section>
+<section id="families">
+${h2("Families")}
+${famHtml}
+</section>
+<section id="organization">
+${h2("About the organisation")}
+${facts.length ? ul(facts, ' class="mh-claim-rows"') : ""}
+${extra}
+</section>
+${ctx.cites.size ? `<section id="sources">\n${h2("Sources")}\n${sourceList(site, ctx, [])}\n</section>` : ""}
+</div>
+<aside class="mh-body-side" id="coverage" aria-labelledby="mh-cov-title">
+<h2 class="mh-legend" id="mh-cov-title">Related AI Radar coverage</h2>
+${newsHtml}
+</aside>
+</div>
 <script type="application/json" id="mh-graph">${jsonScript(org.embed)}</script>
 </main>`;
-  const desc = o.description && o.description.text ? clip(o.description.text) : clip(`Models released by ${o.name}, with release dates, lineage and sources, in AI Radar Model History.`);
-  return page({ path: org.url, title: `${o.name} models · Model History · AI Radar`, description: desc, indexable: org.indexable, main,
+  const description = o.description && o.description.text ? clip(o.description.text) : clip(`Models released by ${o.name}, with release dates, lineage and sources, in AI Radar Model History.`);
+  return page({ path: org.url, title: `${o.name} models · Model History · AI Radar`, description, indexable: org.indexable, main,
+    scripts: chips ? ["/assets/model-pages.js"] : [],
     crumbs: [{ name: "Model History", url: "/models/" }, { name: o.name, url: org.url }] });
 }
 function dashboardLink(site, orgId) {
   const rid = (site.org(orgId) || {}).radarCompanyId;
   if (!rid) return "";
-  return `\n<p class="mh-dashboard-link"><a href="/?view=timeline&amp;cat=model-releases&amp;company=${esc(encodeURIComponent(rid))}">Model-release news from ${esc(site.orgName(orgId))} on the dashboard</a></p>`;
+  return `\n<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=${esc(encodeURIComponent(rid))}">All model releases from ${esc(site.orgName(orgId))} on AI Radar →</a></p>`;
 }
-function newsItem(site, n, fromOrg) {
+// One coverage row (design 1e/1a): the title links to the original article.
+function newsRow(site, n, fromOrg, side) {
   const href = safeHref(n.link);
   const title = href ? `<a href="${esc(href)}">${esc(n.title)}</a>` : esc(n.title);
   const about = fromOrg && n.models ? n.models.map(x => {
@@ -479,10 +575,13 @@ function newsItem(site, n, fromOrg) {
   }).filter(Boolean) : [];
   const variant = !fromOrg && n.variantId && n.variantName ? ` · about ${esc(n.variantName)}` : "";
   const via = [n.company, n.source].filter(Boolean).map(esc).join(" · ");
-  return `<li class="mh-news-item">${title} <span class="mh-news-meta">${via}${via ? " · " : ""}${instantHtml(n.publishedAt, n.dateOnly)}${variant}${about.length ? ` · about ${about.join(", ")}` : ""}</span></li>`;
+  const meta = `${via}${via ? " · " : ""}${instantHtml(n.publishedAt, n.dateOnly)}${variant}${about.length ? ` · about ${about.join(", ")}` : ""}`;
+  return side
+    ? `<li class="mh-news-item"><span class="mh-kicker">${meta}</span><span class="mh-news-title">${title}</span></li>`
+    : `<li class="mh-news-item"><span class="mh-news-title">${title}</span><span class="mh-kicker">${meta}</span></li>`;
 }
 
-/* ---------- Model Detail (/models/<org>/<slug>/) ---------- */
+/* ---------- Model Detail (/models/<org>/<slug>/, design 1e) ---------- */
 function sourceList(site, ctx, extraIds) {
   // Cited sources in order of first citation, then any other source the record names.
   const ids = [...ctx.cites.keys()];
@@ -491,18 +590,20 @@ function sourceList(site, ctx, extraIds) {
     const n = ctx.cites.get(id), v = site.source(id);
     if (!v) return `<li id="source-${esc(id)}" class="mh-source mh-source-missing"><span class="mh-source-n">[${n}]</span> Unknown source <code>${esc(id)}</code></li>`;
     const s = v.s, href = !s.suppressLink && safeHref(s.url), arch = !s.suppressLink && safeHref(s.archiveUrl);
-    const meta = [label(s.type), s.publisher ? esc(s.publisher) : "", s.publishedAt && s.publishedAt.value ? `published ${dateHtml(s.publishedAt)}` : ""].filter(Boolean).join(" · ");
-    const rows = [
-      ["Availability", esc(AVAIL_LABEL[v.avail] || v.avail)],
-      ["Provenance", esc(PROV_LABEL[v.prov] || v.prov)],
-      s.archiveUrl ? ["Archived copy", `${arch ? `<a href="${esc(arch)}">${esc(PROVIDER_LABEL[s.archiveProvider] || "Archived copy")}</a>` : esc(PROVIDER_LABEL[s.archiveProvider] || "Archived copy")}${s.archivedAt ? `, captured ${instantHtml(s.archivedAt)}` : ""}${v.archiveGone ? " (the archived copy is also gone)" : ""}`] : null,
-      ["Last checked", v.lastChecked ? instantHtml(v.lastChecked) || esc(v.lastChecked) : "Not yet checked"],
-      ["Original URL", `<span class="mh-url">${esc(s.url || "")}</span>${s.suppressLink ? " (not linked at the request of the rights holder)" : ""}`]
-    ].filter(Boolean);
+    const live = v.avail === "active" || v.avail === "unknown";
+    const archive = s.archiveUrl ? `${arch ? `<a href="${esc(arch)}">${esc(PROVIDER_LABEL[s.archiveProvider] || "Archived copy")} ↗</a>` : esc(PROVIDER_LABEL[s.archiveProvider] || "Archived copy")}${s.archivedAt ? ` <span class="mh-muted">captured ${instantHtml(s.archivedAt)}</span>` : ""}${v.archiveGone ? ` <span class="mh-flag">The archived copy is also gone</span>` : ""}` : "";
     return `<li id="source-${esc(id)}" class="mh-source" data-mh-availability="${esc(v.avail)}" data-mh-provenance="${esc(v.prov)}">
-<span class="mh-source-n">[${n}]</span> <cite>${href ? `<a href="${esc(href)}">${esc(s.title)}</a>` : esc(s.title)}</cite>
-<span class="mh-source-meta">${meta}</span>
-<dl class="mh-source-status">${rows.map(([k, val]) => `<dt>${k}</dt><dd>${val}</dd>`).join("")}</dl>
+<p class="mh-source-title"><span class="mh-source-n">[${n}]</span> <cite>${esc(s.title)}</cite></p>
+<p class="mh-kicker">${[esc(label(s.type)), s.publisher ? esc(s.publisher) : "", s.publishedAt && s.publishedAt.value ? `published ${dateHtml(s.publishedAt)}` : ""].filter(Boolean).join(" · ")}</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>${esc(PROV_LABEL[v.prov] || v.prov)}</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="${esc(v.avail)}">${esc(AVAIL_LABEL[v.avail] || v.avail)}</dd>
+<dt>Last checked</dt><dd>${v.lastChecked ? instantHtml(v.lastChecked) || esc(v.lastChecked) : "Not yet checked"}</dd>
+</dl>
+<div class="mh-source-links">
+${s.suppressLink ? `<span class="mh-muted">Not linked at the request of the rights holder</span>` : live && href ? `<a href="${esc(href)}">Original ↗</a>` : `<span class="mh-muted">Original no longer available</span>`}
+<span class="mh-url">${esc(s.url || "")}</span>${archive ? `\n${archive}` : ""}${s.notes ? `\n<span class="mh-note">${esc(s.notes)}</span>` : ""}
+</div>
 </li>`;
   });
   return items.length ? `<ol class="mh-sources">\n${items.join("\n")}\n</ol>` : `<p class="mh-none">No sources recorded.</p>`;
@@ -519,91 +620,80 @@ function capValue(key, c) {
   if (Array.isArray(v)) return v.length ? v.map(lower).join(", ") : "None recorded";
   return v == null ? "Not recorded" : String(v);
 }
+const timelineUrl = i => `${i.url}timeline/`;
 export function modelPage(site, i) {
   const ctx = newCtx(), m = i.m, cl = i.claims, org = site.orgById.get(i.org);
   const fam = m.familyId && site.famById.get(m.familyId);
   const d = m.dates || {};
+  const orgName = site.orgName(i.org);
 
-  // Identity
-  const orgs = (m.organizations || []).map(x => {
-    const top = site.topOrg(x.id), unit = top && top !== x.id ? ` <span class="mh-muted">(unit of ${orgLink(site, top)})</span>` : "";
-    const name = site.orgById.has(x.id) ? orgLink(site, x.id) : esc(site.orgName(x.id));
-    return `<li>${logoHtml(site, ctx, x.id)}${name}${unit} <span class="mh-role">${esc(x.role || "")}</span></li>`;
-  });
-  const aliases = [...new Set((m.aliases || []).map(a => a && a.text).filter(t => t && normalize(t) !== normalize(m.name)))];
-  const promoted = typeof m.promotedFrom === "string" && m.promotedFrom.split("#");
-  const idRows = [
-    ["Name", esc(m.name)],
-    ["Organisations", ul(orgs, ' class="mh-orgs-list"')],
-    fam ? ["Family", site.orgById.has(i.org) ? `<a href="${esc(org.url)}#family-${esc(fam.id)}">${esc(fam.name)}</a>` : esc(fam.name)] : null,
-    m.generation ? ["Generation", esc(m.generation)] : null,
-    ["Categories", esc((m.categories || []).map(label).join(", "))],
-    m.prominence ? ["Prominence", `${esc(PROMINENCE_LABEL[m.prominence] || m.prominence)} <span class="mh-editorial">(editorial)</span>`] : null,
-    aliases.length ? ["Also known as", esc(aliases.join(", "))] : null,
-    promoted && site.modelById.has(promoted[0]) ? ["Previously", `a variant in the record of ${modelLink(site, promoted[0], i.org)}`] : null,
-    ["Record", m.coverage === "stub" ? "Stub: only minimal details have been researched so far" : "Full record"]
-  ].filter(Boolean);
-  const identity = `<dl class="mh-facts">\n${idRows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("\n")}\n</dl>`;
+  // Head: summary (a claim, with its own sources and evidence), stub notice, timeline link.
+  const sc = cl.get("summary");
+  const summary = sc
+    ? `<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="${esc(sc.evidence)}">${esc(sc.claim.text || "")} ${refs(ctx, sc.claim.sources)} ${evShort(sc.evidence)}</p>`
+    : `<p id="summary" class="mh-summary mh-none">No summary yet.</p>`;
+  const sub = [lifeText(m), catsText(m), m.prominence === "milestone" ? "Milestone" : null].filter(Boolean).map(esc).join(" · ");
+  const stub = m.coverage === "stub" ? `\n<p class="mh-stub">Incomplete record: this model is only partly described.</p>` : "";
 
-  // Dates: every value with its precision and qualifier; no invented day (spec §21.4).
-  const rows = [];
+  // Claims and evidence (design 1e): every claim with its own sources and status (AC-31).
+  const dateRows = [];
   for (const k of ["announced", "released", "deprecated", "retired"]) {
     const c = cl.get(`dates.${k}`);
-    if (c) rows.push(claimEl(ctx, "li", c, `<span class="mh-label">${DATE_LABEL[k]}</span> ${dateHtml(c.claim)}`));
-    if (k === "released" && !c && d.announced) rows.push(`<li class="mh-dates-gap">Release date unknown</li>`);
+    if (c) dateRows.push(claimRow(ctx, c, DATE_LABEL[k], dateHtml(c.claim)));
+    if (k === "released" && !c && d.announced) dateRows.push(`<li class="mh-claim-gap"><span class="mh-claim-label">Released</span><span class="mh-claim-value">Release date unknown</span><span class="mh-claim-ev"></span></li>`);
   }
+  if (!i.td && !d.announced) dateRows.push(`<li class="mh-claim-gap"><span class="mh-claim-label">Released</span><span class="mh-claim-value">Date unknown${d.note ? `<span class="mh-note">${esc(d.note)}</span>` : ""}</span><span class="mh-claim-ev"><span class="mh-refs mh-refs-none">No source</span></span></li>`);
   (m.milestones || []).forEach((x, k) => {
     const c = cl.get(`milestones[${k}].date`);
-    if (c) rows.push(claimEl(ctx, "li", c, `<span class="mh-label">${esc(x.label || "Milestone")}</span> ${dateHtml(c.claim)}`));
+    if (c) dateRows.push(claimRow(ctx, c, x.label || "Milestone", dateHtml(c.claim)));
   });
-  const dates = (rows.length ? ul(rows, ' class="mh-claims"') : `<p class="mh-none">Date unknown.</p>`) + (d.note ? `\n<p class="mh-note">${esc(d.note)}</p>` : "");
-
-  // Lifecycle status and the lifecycle successor (not lineage, spec §12.1).
   const lc = cl.get("lifecycle"), rb = cl.get("replacedBy");
-  const lifecycle = [lc ? claimEl(ctx, "p", lc, `<span class="mh-value">${esc(LIFECYCLE_LABEL[lc.claim.value] || LIFECYCLE_LABEL.unknown)}</span>`) : `<p>${LIFECYCLE_LABEL.unknown}</p>`,
-    rb ? claimEl(ctx, "p", rb, `Replaced by ${modelLink(site, rb.claim.modelId, i.org)}`) : null].filter(Boolean).join("\n");
-
-  // Evidence: the model status is the evidence for its existence and release date.
-  const scope = i.td ? `for the ${i.td.kind === "released" ? "release" : "announcement"} date` : "no release or announcement date is recorded";
-  const sum = i.ev.summary;
-  // Undisclosed capabilities are counted apart, so the rows add up to every claim shown.
-  const na = i.ev.claims.filter(c => c.evidence === "not-applicable").length;
-  const sumRows = [...Object.keys(EVIDENCE_LABEL).map(e => [EVIDENCE_LABEL[e], sum[e] || 0, e]), na ? [NOT_APPLICABLE_LABEL, na, "not-applicable"] : null,
-    [FLAG_LABEL["original-unavailable"], sum.originalUnavailable || 0, "original-unavailable"]].filter(Boolean);
-  const evidence = `<p class="mh-ev-model"><span class="mh-ev" data-mh-evidence="${esc(i.ev.evidence)}">${esc(evText(i.ev.evidence))}</span> <span class="mh-muted">${esc(scope)}</span></p>` +
-    (i.ev.flags.length ? `\n${ul(i.ev.flags.map(f => `<li data-mh-flag="${esc(f)}">${esc(FLAG_LABEL[f] || f)}</li>`), ' class="mh-flags"')}` : "") +
-    `\n<p class="mh-muted">Claims in this record by evidence:</p>\n<dl class="mh-ev-summary">\n${sumRows.map(([t, n, k]) => `<dt data-mh-summary="${k}">${esc(t)}</dt><dd>${esc(plural(n, "claim", "claims"))}</dd>`).join("\n")}\n</dl>`;
-
-  // Lineage: own relations are claims with sources; incoming ones are claims of the other
-  // record (data-mh-incoming), shown with their sources too; the chains are derived.
-  const relOut = x => {
+  const lifeRows = [lc ? claimRow(ctx, lc, "Status", esc(LIFECYCLE_LABEL[lc.claim.value] || LIFECYCLE_LABEL.unknown)) : null,
+    rb ? claimRow(ctx, rb, "Replaced by", modelLink(site, rb.claim.modelId, i.org)) : null].filter(Boolean);
+  const relRows = i.outRel.map(x => {
     const c = cl.get(x.path);
+    if (!c) return null;
     const kind = `${REL_LABEL[x.r.type] || x.r.type}${x.r.type === "derived-from" && x.r.method ? ` (${lower(x.r.method)})` : ""}`;
-    const ed = x.r.basis === "editorial" ? ` <span class="mh-editorial">Editorial grouping</span>` : "";
-    return c ? claimEl(ctx, "li", c, `<span class="mh-rel-type">${esc(kind)}</span> ${modelLink(site, x.target, i.org)}${ed}`) : "";
-  };
-  const relIn = x => {
-    const src = site.modelById.get(x.from), c = src && src.claims.get(x.path);
-    if (!c) return "";
-    const kind = `${REL_INCOMING[x.r.type] || x.r.type}${x.r.type === "derived-from" && x.r.method ? ` (${lower(x.r.method)})` : ""}`;
-    const ed = x.r.basis === "editorial" ? ` <span class="mh-editorial">Editorial grouping</span>` : "";
-    const note = x.r.note ? ` <span class="mh-note">${esc(x.r.note)}</span>` : "";
-    return `<li class="mh-incoming" data-mh-incoming="${esc(x.from + "#" + x.path)}" data-mh-evidence="${esc(c.evidence)}">${modelLink(site, x.from, i.org)} <span class="mh-rel-type">(${esc(kind)})</span>${ed} ${evHtml(c)} ${refs(ctx, x.r.sources)}${note}</li>`;
-  };
+    const ed = x.r.basis === "editorial" ? ` <span class="mh-editorial">Editorial</span>` : "";
+    return claimRow(ctx, c, kind, `${modelLink(site, x.target, i.org)}${ed}`);
+  }).filter(Boolean);
+  const predIds = i.outRel.filter(x => x.r.type === "successor-of").map(x => x.target);
+  const changeRows = (m.changes || []).map((x, k) => {
+    const c = cl.get(`changes[${k}]`);
+    if (!c) return null;
+    const rel = x.relativeTo || (predIds.length === 1 ? predIds[0] : null);   // the default is the single predecessor
+    return claimRow(ctx, c, `Change · ${label(x.aspect || "other")}`, `${esc(x.text || "")}${rel ? `<span class="mh-note">Compared with ${modelLink(site, rel, i.org)}</span>` : ""}`);
+  }).filter(Boolean);
+  const capRows = [];
+  const caps = m.capabilities || {};
+  for (const key of Object.keys(CAP_LABEL)) {
+    if (key === "features") {
+      (caps.features || []).forEach((f, k) => { const c = cl.get(`capabilities.features[${k}]`); if (c) capRows.push(claimRow(ctx, c, "Feature", esc(label(f.key)))); });
+      continue;
+    }
+    const c = cl.get(`capabilities.${key}`);
+    if (c) capRows.push(claimRow(ctx, c, CAP_LABEL[key], esc(capValue(key, c.claim))));
+  }
+  const group = (id, name, rows) => (rows.length ? `<ul id="${id}" class="mh-claim-rows" aria-label="${esc(name)}">\n${rows.join("\n")}\n</ul>` : `<ul id="${id}" class="mh-claim-rows" aria-label="${esc(name)}"></ul>`);
+
+  // Lineage (design 1e): six groups of links, plus all descendants (spec §8).
   const inn = site.inRel.get(i.id) || [];
-  const links = ids => site.sortIds(ids).map(id => `<li>${modelLink(site, id, i.org)}</li>`);
-  const preds = i.outRel.filter(x => x.r.type === "successor-of").map(relOut);
+  const metaOf = (id, rel) => {
+    const t = site.modelById.get(id); if (!t) return "";
+    return [t.org !== i.org ? site.orgName(t.org) : null, t.td ? formatDate(t.td.dv) : "Date unknown", rel].filter(Boolean).join(" · ");
+  };
+  const item = (id, rel) => `<li>${modelLink(site, id, null)} <span class="mh-muted">· ${esc(metaOf(id, rel))}</span></li>`;
+  const relName = r => (r.type === "variant-of" ? "variant" : r.type === "revision-of" ? "revision" : r.type === "derived-from" ? `derived (${lower(r.method || "other")})` : null);
   const groups = [
-    ["predecessors", "Predecessors", preds, "No known predecessor."],
-    ["successors", "Successors", inn.filter(x => x.r.type === "successor-of").map(relIn)],
-    ["parents", "Parents", i.outRel.filter(x => x.r.type !== "successor-of").map(relOut)],
-    ["children", "Children", inn.filter(x => x.r.type !== "successor-of").map(relIn)],
-    ["siblings", "Siblings", [...links(i.g.siblings), ...inlineSiblings(site, i)]],
-    ["ancestors", "All ancestors", links(i.g.ancestors)],
-    ["descendants", "All descendants", links(i.g.descendants)]
+    ["predecessors", "Predecessors", i.outRel.filter(x => x.r.type === "successor-of").map(x => item(x.target)), "No known predecessor."],
+    ["successors", "Successors", inn.filter(x => x.r.type === "successor-of").map(x => item(x.from)), "No known successor."],
+    ["parents", "Based on", i.outRel.filter(x => x.r.type !== "successor-of").map(x => item(x.target, relName(x.r))), "Not derived from another model."],
+    ["children", "Variants and derived", inn.filter(x => x.r.type !== "successor-of").map(x => item(x.from, relName(x.r))), "None recorded."],
+    ["siblings", "Siblings", [...site.sortIds(i.g.siblings).map(id => item(id)), ...inlineSiblings(site, i)], "None recorded."],
+    ["ancestors", "All ancestors", site.sortIds(i.g.ancestors).map(id => item(id)), "None."],
+    ["descendants", "All descendants", site.sortIds(i.g.descendants).map(id => item(id)), "None."]
   ];
-  const lineage = groups.filter(g => g[2].length || g[3]).map(([k, t, items, none]) =>
-    `<h3>${t}</h3>\n${items.length ? ul(items, ` class="mh-rel" data-mh-lineage="${k}"`) : `<p class="mh-none" data-mh-lineage="${k}">${none}</p>`}`).join("\n");
+  const lineage = `<div class="mh-lineage-grid">\n${groups.map(([k, t, items, none]) => `<div class="mh-lineage-group"><h3 class="mh-legend">${t}</h3>\n${items.length ? ul(items, ` class="mh-rel" data-mh-lineage="${k}"`) : `<p class="mh-none" data-mh-lineage="${k}">${none}</p>`}</div>`).join("\n")}\n</div>`;
 
   // Variants: an anchor per inline variant, plus placeholders for promoted ones (spec §13).
   const seen = new Set();
@@ -611,90 +701,117 @@ export function modelPage(site, i) {
     if (!v || !v.id || seen.has(v.id)) return null;
     seen.add(v.id);
     const vc = cl.get(`variants[${k}]`);
-    const vd = ["announced", "released", "deprecated", "retired"].map(dk => [dk, cl.get(`variants[${k}].dates.${dk}`)]).filter(x => x[1])
-      .map(([dk, c]) => claimEl(ctx, "li", c, `<span class="mh-label">${DATE_LABEL[dk]}</span> ${dateHtml(c.claim)}`));
+    const vd = ["announced", "released", "deprecated", "retired"].map(dk => [dk, cl.get(`variants[${k}].dates.${dk}`)]).filter(x => x[1]);
     const va = [...new Set((v.aliases || []).map(a => a && a.text).filter(t => t && normalize(t) !== normalize(v.name)))];
     // Not claims in the §19.1 list: shown with their own sources and an explicit "not assessed".
     const unassessed = `<span class="mh-ev mh-ev-unassessed">${esc(UNASSESSED_LABEL)}</span>`;
     const vcap = v.capabilities && typeof v.capabilities === "object" ? v.capabilities : {};
-    const caps = Object.keys(CAP_LABEL).filter(key => key !== "features" && vcap[key] && typeof vcap[key] === "object")
+    const capsV = Object.keys(CAP_LABEL).filter(key => key !== "features" && vcap[key] && typeof vcap[key] === "object")
       .map(key => `<li data-mh-variant-claim="capabilities.${key}">${CAP_LABEL[key]}: <span class="mh-value">${esc(capValue(key, vcap[key]))}</span> ${unassessed} ${refs(ctx, vcap[key].sources)}</li>`);
     const vl = v.lifecycle && typeof v.lifecycle === "object" && v.lifecycle.value
       ? `\n<p data-mh-variant-claim="lifecycle">Status: <span class="mh-value">${esc(LIFECYCLE_LABEL[v.lifecycle.value] || v.lifecycle.value)}</span> ${unassessed} ${refs(ctx, v.lifecycle.sources)}</p>` : "";
     return `<section id="variant-${esc(v.id)}" class="mh-variant">
-<h3>${esc(v.name || v.id)}</h3>
-${vc ? claimEl(ctx, "p", vc, "Inline variant in this record.") : `<p>Inline variant in this record.${v.note ? ` <span class="mh-note">${esc(v.note)}</span>` : ""}</p>`}
-${vd.length ? ul(vd, ' class="mh-claims"') : `<p class="mh-muted">Same dates as ${esc(m.name)}.</p>`}${vl}${va.length ? `\n<p>Also known as: ${esc(va.join(", "))}</p>` : ""}${caps.length ? `\n<p>Differs in:</p>\n${ul(caps, ' class="mh-variant-caps"')}` : ""}
+<h3 class="mh-variant-name">${esc(v.name || v.id)}</h3>
+${vd.length ? ul(vd.map(([dk, c]) => claimRow(ctx, c, DATE_LABEL[dk], dateHtml(c.claim))), ' class="mh-claim-rows"') : `<p class="mh-muted">Same dates as ${esc(m.name)}.</p>`}
+${vc ? ul([claimRow(ctx, vc, "Variant", "Inline variant in this record.")], ' class="mh-claim-rows"') : `<p class="mh-muted">Inline variant in this record.${v.note ? ` ${esc(v.note)}` : ""}</p>`}${vl}${va.length ? `\n<p class="mh-muted">Also known as: ${esc(va.join(", "))}</p>` : ""}${capsV.length ? `\n<p class="mh-muted">Differs in:</p>\n${ul(capsV, ' class="mh-variant-caps"')}` : ""}
 </section>`;
   }).filter(Boolean);
   for (const p of site.promotedTo.get(i.id) || []) {
     if (seen.has(p.variantId)) continue;
     seen.add(p.variantId);
-    variants.push(`<section id="variant-${esc(p.variantId)}" class="mh-variant mh-promoted">\n<h3>${esc(p.info.m.name)}</h3>\n<p>This variant now has its own page: <a href="${esc(p.info.url)}">${esc(p.info.m.name)}</a>.</p>\n</section>`);
+    variants.push(`<section id="variant-${esc(p.variantId)}" class="mh-variant mh-promoted">\n<h3 class="mh-variant-name">${esc(p.info.m.name)}</h3>\n<p>This variant now has its own page: <a href="${esc(p.info.url)}">${esc(p.info.m.name)}</a>.</p>\n</section>`);
   }
 
-  // Summary, changes, capabilities
-  const sc = cl.get("summary");
-  const summary = sc ? claimEl(ctx, "p", sc, esc(sc.claim.text || "")) : `<p class="mh-none">No summary yet.</p>`;
-  const predIds = i.outRel.filter(x => x.r.type === "successor-of").map(x => x.target);
-  const changes = (m.changes || []).map((x, k) => {
-    const c = cl.get(`changes[${k}]`);
-    if (!c) return null;
-    const rel = x.relativeTo || (predIds.length === 1 ? predIds[0] : null);   // the default is the single predecessor
-    const kind = `${label(x.aspect || "other")}${x.direction ? " " + x.direction : ""}`;
-    return claimEl(ctx, "li", c, `<span class="mh-change-kind">${esc(kind)}</span>${rel ? ` <span class="mh-change-rel">compared with ${modelLink(site, rel, i.org)}</span>` : ""}: ${esc(x.text || "")}`);
-  }).filter(Boolean);
-  const capRows = [];
-  const caps = m.capabilities || {};
-  for (const key of Object.keys(CAP_LABEL)) {
-    if (key === "features") {
-      const fs = (caps.features || []).map((f, k) => cl.get(`capabilities.features[${k}]`) && claimEl(ctx, "li", cl.get(`capabilities.features[${k}]`), esc(label(f.key)))).filter(Boolean);
-      if (fs.length) capRows.push(`<dt>Features</dt><dd>${ul(fs, ' class="mh-claims"')}</dd>`);
-      continue;
-    }
-    const c = cl.get(`capabilities.${key}`);
-    if (c) capRows.push(`<dt>${CAP_LABEL[key]}</dt>${claimEl(ctx, "dd", c, `<span class="mh-value">${esc(capValue(key, c.claim))}</span>`)}`);
-  }
+  // Evidence card (design 1e): the status for existence and release, flags, claim counts.
+  const scope = i.td ? `Evidence for ${i.td.kind === "released" ? "existence and release" : "existence and announcement"}` : "Evidence for existence";
+  const sum = i.ev.summary;
+  const na = i.ev.claims.filter(c => c.evidence === "not-applicable").length;
+  const total = i.ev.claims.length;
+  const counts = [...Object.keys(EVIDENCE_SHORT).filter(e => sum[e]).map(e => `<span data-mh-summary="${e}">${esc(EVIDENCE_SHORT[e])}: ${sum[e]}</span>`),
+    na ? `<span data-mh-summary="not-applicable">${esc(NOT_APPLICABLE_LABEL)}: ${na}</span>` : null].filter(Boolean);
+  const evidence = `<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">${esc(scope)}</h2>
+<p class="mh-ev-status">${evLongHtml(i.ev.evidence)}</p>
+${i.ev.flags.length || m.coverage === "stub" ? ul([...i.ev.flags.map(f => flagHtml(f, "li")), m.coverage === "stub" ? `<li class="mh-flag" data-mh-flag="stub">${STUB_LABEL}</li>` : ""].filter(Boolean), ' class="mh-flags"') : ""}
+<p class="mh-ev-counts">${esc(plural(total, "claim", "claims"))}${counts.length ? " · " + counts.join(" · ") : ""}${sum.originalUnavailable ? ` · <span data-mh-summary="original-unavailable">Original unavailable: ${sum.originalUnavailable}</span>` : ""}</p>
+</aside>`;
 
-  const sections = [
-    section("identity", "Identity", identity),
-    section("dates", "Dates", dates),
-    section("lifecycle", "Lifecycle status", lifecycle),
-    section("evidence", "Evidence", evidence),
-    section("lineage", "Lineage", lineage),
-    section("variants", "Variants", variants.length ? variants.join("\n") : `<p class="mh-none">No variants recorded in this record.</p>`),
-    section("summary", "Summary", summary),
-    section("changes", "Key changes", changes.length ? ul(changes, ' class="mh-claims mh-changes"') : `<p class="mh-none">No changes recorded.</p>`),
-    section("capabilities", "Capabilities", capRows.length ? `<dl class="mh-caps">\n${capRows.join("\n")}\n</dl>` : `<p class="mh-none">No capabilities recorded.</p>`)
-  ];
-  // The source list comes after every citing section, so the numbering is final.
-  sections.push(section("sources", "Sources", sourceList(site, ctx, i.refIds)));
-  const news = i.news.map(n => newsItem(site, { ...n, variantName: n.variantId && ((m.variants || []).find(v => v && v.id === n.variantId) || {}).name }, null));
-  sections.push(section("coverage", "Related AI Radar coverage", (news.length ? ul(news, ' class="mh-news"') : `<p class="mh-empty">${esc(EMPTY_COVERAGE)}</p>`) + dashboardLink(site, i.org)));
+  // Facts (aside, design 1e) = the identity section.
+  const orgs = (m.organizations || []).map(x => {
+    const top = site.topOrg(x.id), unit = top && top !== x.id ? ` <span class="mh-muted">(unit of ${orgLink(site, top)})</span>` : "";
+    const name = site.orgById.has(x.id) ? orgLink(site, x.id) : esc(site.orgName(x.id));
+    return `${logoHtml(site, ctx, x.id)}${name}${unit}${x.role && x.role !== "developer" ? ` <span class="mh-muted">${esc(x.role)}</span>` : ""}`;
+  });
+  const aliases = [...new Set((m.aliases || []).map(a => a && a.text).filter(t => t && normalize(t) !== normalize(m.name)))];
+  const promoted = typeof m.promotedFrom === "string" && m.promotedFrom.split("#");
+  const facts = [
+    ["Organisation", orgs.join("<br>")],
+    fam ? ["Family", org ? `<a href="${esc(org.url)}#family-${esc(fam.id)}">${esc(fam.name)}</a>` : esc(fam.name)] : null,
+    m.generation ? ["Generation", esc(m.generation)] : null,
+    ["Timeline date", `${timelineHtml(i.td)}<br><span class="mh-muted">${esc(precNote(i.td))}</span>`],
+    m.prominence ? ["Prominence", `${esc(PROMINENCE_LABEL[m.prominence] || m.prominence)} <span class="mh-editorial">Editorial</span>`] : null,
+    aliases.length ? ["Also known as", esc(aliases.join(", "))] : null,
+    promoted && site.modelById.has(promoted[0]) ? ["Previously", `a variant of ${modelLink(site, promoted[0], i.org)}`] : null,
+    ["Record", m.coverage === "stub" ? "Stub" : "Full record"],
+    m.lastReviewedAt && parseDate(m.lastReviewedAt) ? ["Last reviewed", dateHtml({ value: m.lastReviewedAt })] : null
+  ].filter(Boolean);
 
-  // Previous/next in the family and in the organisation's timeline.
-  const nav = [];
-  const around = (list, labelPrev, labelNext) => {
-    const k = list.indexOf(i);
-    if (k > 0) nav.push(`<li>${esc(labelPrev)}: ${modelLink(site, list[k - 1].id, i.org)}</li>`);
-    if (k >= 0 && k < list.length - 1) nav.push(`<li>${esc(labelNext)}: ${modelLink(site, list[k + 1].id, i.org)}</li>`);
-  };
-  if (fam) around(site.chrono(site.models.filter(x => x.m.familyId === fam.id)), `Previous in ${fam.name}`, `Next in ${fam.name}`);
-  if (org) around(site.chrono(org.routed), `Earlier at ${org.o.name}`, `Later at ${org.o.name}`);
-  const reviewed = m.lastReviewedAt && parseDate(m.lastReviewedAt) ? `\n<p class="mh-reviewed">Last reviewed ${dateHtml({ value: m.lastReviewedAt })}</p>` : "";
+  // Previous/next: in the family (design 1e), else in the organisation's timeline.
+  const scopeList = fam ? site.chrono(site.models.filter(x => x.m.familyId === fam.id)) : org ? site.chrono(org.routed) : [];
+  const where = fam ? fam.name : orgName;
+  const k = scopeList.indexOf(i), prev = k > 0 ? scopeList[k - 1] : null, next = k >= 0 && k < scopeList.length - 1 ? scopeList[k + 1] : null;
+  const pager = prev || next ? `<nav class="mh-pager" aria-label="More models">
+${prev ? `<a class="mh-pager-prev" href="${esc(prev.url)}"><span class="mh-muted">← Earlier in ${esc(where)}</span><span>${esc(prev.m.name)}</span></a>` : "<span></span>"}
+${next ? `<a class="mh-pager-next" href="${esc(next.url)}"><span class="mh-muted">Later in ${esc(where)} →</span><span>${esc(next.m.name)}</span></a>` : "<span></span>"}
+</nav>` : "";
 
-  const orgName = site.orgName(i.org);
-  const stub = m.coverage === "stub" ? `\n<p class="mh-notice">This is a stub record: only minimal details have been researched so far, and the evidence is incomplete.</p>` : "";
-  const main = `<main id="main"${coAttrs(site, i.org, "container mh")} data-mh-view="model" data-mh-model="${esc(m.id)}">
-${crumbsHtml([{ name: "Model History", url: "/models/" }, { name: orgName, url: `/models/${i.org}/` }, { name: m.name, url: i.url }])}
-<article class="mh-record">
-<header class="mh-head">
-${logoHtml(site, ctx, i.org)}<h1>${esc(m.name)}</h1>
-<p class="mh-lead">${[orgLink(site, i.org), fam ? esc(fam.name) : null, timelineHtml(i.td), `<span class="mh-ev" data-mh-evidence="${esc(i.ev.evidence)}">${esc(evText(i.ev.evidence))}</span>`].filter(Boolean).join(" · ")}</p>${stub}
-</header>
-${sections.join("\n")}
-${nav.length ? `<nav class="mh-pager" aria-label="More models">\n${ul(nav)}\n</nav>` : ""}${reviewed}
+  const news = i.news.map(n => newsRow(site, { ...n, variantName: n.variantId && ((m.variants || []).find(v => v && v.id === n.variantId) || {}).name }, null, false));
+  const coverage = `<section id="coverage">
+${h2("Related AI Radar coverage")}
+${news.length ? ul(news, ' class="mh-news"') : `<p class="mh-empty-text">${esc(EMPTY_COVERAGE)}</p>`}${dashboardLink(site, i.org)}
+</section>`;
+
+  // The source list is rendered last, so its numbering follows the first citations.
+  const claimsHtml = [group("dates", "Dates", dateRows), group("lifecycle", "Lifecycle", lifeRows), group("relations", "Relations", relRows),
+    group("changes", "Key changes", changeRows), group("capabilities", "Capabilities", capRows)].join("\n");
+  const lineageHtml = `<section id="lineage">\n${h2("Lineage")}\n${lineage}\n</section>`;
+  const variantsHtml = `<section id="variants">\n${variants.length ? `${h2("Variants")}\n${variants.join("\n")}` : `<h2 class="mh-visually-hidden">Variants</h2>\n<p class="mh-visually-hidden">No variants recorded in this record.</p>`}\n</section>`;
+  const sources = sourceList(site, ctx, i.refIds);
+
+  const main = `<main id="main"${coAttrs(site, i.org, "mh mh-model")} data-mh-view="model" data-mh-model="${esc(m.id)}">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+${crumbsHtml(site, [{ name: "Model History", url: "/models/" }, { name: orgName, url: `/models/${i.org}/`, org: true }, ...(fam && org ? [{ name: fam.name, url: `${org.url}#family-${fam.id}` }] : []), { name: m.name, url: i.url }], i.org)}
+<h1 class="mh-title">${logoHtml(site, ctx, i.org)}${esc(m.name)}</h1>
+<p class="mh-sub">${sub}</p>
+${summary}${stub}
+<p class="mh-actions"><a class="mh-btn-outline" href="${esc(timelineUrl(i))}">Timeline of ${esc(m.name)} →</a></p>
+</div>
+${evidence}
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+${h2("Claims and evidence", "mh-claims-title")}
+${claimsHtml}
+</section>
+${lineageHtml}
+${variantsHtml}
+${coverage}
+${pager}
 </article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+${facts.map(([k2, v]) => `<div><dt>${k2}</dt><dd>${v}</dd></div>`).join("\n")}
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+${sources}
+</section>
+</aside>
+</div>
 </main>`;
   const when = i.td ? `${i.td.kind === "released" ? "released" : "announced"} ${formatDate(i.td.dv)}` : "release date unknown";
   const desc = sc && sc.claim.text ? clip(sc.claim.text) : clip(`${m.name} is a model by ${orgName}${fam ? ` in the ${fam.name} family` : ""}, ${when}.`);
@@ -702,10 +819,97 @@ ${nav.length ? `<nav class="mh-pager" aria-label="More models">\n${ul(nav)}\n</n
     crumbs: [{ name: "Model History", url: "/models/" }, { name: orgName, url: `/models/${i.org}/` }, { name: m.name, url: i.url }] });
 }
 
+/* ---------- Model Timeline (/models/<org>/<slug>/timeline/, design 3a) ---------- */
+const num = v => (Math.round(v * 10000) / 10000).toString();
+// Timeline context for timeline.mjs: accessors on the compiled site; "now" is the as-of day.
+function timelineCtx(site) {
+  return {
+    byId: id => (site.modelById.get(id) || {}).m || null,
+    href: o => (site.modelById.get(o.id) || {}).url || null,
+    graph: Object.fromEntries(site.models.map(x => [x.id, x.g])),
+    sources: m => { const x = site.modelById.get(m.id); return x ? x.refIds.map(id => site.idx.srcById.get(id)).filter(Boolean) : []; },
+    status: id => site.idx.status[id] || null,
+    news: m => { const x = site.modelById.get(m.id); return x ? x.news : []; },
+    now: new Date((site.asOf || "2026-01-01") + "T12:00:00Z")
+  };
+}
+const KIND_CLASS = { life: "k-life", mile: "k-mile", lin: "k-lin", src: "k-src", news: "k-news" };
+export function timelinePage(site, i) {
+  const m = i.m, orgName = site.orgName(i.org), fam = m.familyId && site.famById.get(m.familyId);
+  const t = layoutTimeline(m, timelineCtx(site));
+  // Not "--h…": tokens.css treats any inline style containing "--h" as a company hue.
+  const zoomVars = Object.keys(ZOOMS).map(z => `--axis-${z[0]}:${t.geometry[z].axis}px;--tlh-${z[0]}:${t.geometry[z].height}px`).join(";");
+  const nodes = t.nodes.map(n => {
+    const lane = Object.keys(ZOOMS).map(z => `--s-${z[0]}:${n.lane[z].s};--o-${z[0]}:${n.lane[z].o}px`).join(";");
+    const above = Object.keys(ZOOMS).filter(z => n.lane[z].s < 0).map(z => z[0]).join(" ");
+    const pos = n.unknown ? `--t:${num(t.span)};--dx:${UNKNOWN_DX}px` : `--t:${num(n.rel.t)};--r0:${num(n.rel.r0)};--r1:${num(n.rel.r1)}`;
+    return `<div class="mh-tl-node ${KIND_CLASS[n.kind]}${n.unknown ? " mh-tl-unknown" : ""}" style="${pos};${lane}" data-above="${above}"${n.focus ? " data-focus" : ""}>${n.ranged ? `<span class="mh-tl-range"></span>` : ""}<span class="mh-tl-stem"></span><span class="mh-tl-dot"></span><span class="mh-tl-label"><span class="mh-tl-name">${esc(n.label)}</span><span class="mh-tl-meta">${esc(n.meta)}</span></span></div>`;
+  });
+  const years = t.years.map(y => `<div class="mh-tl-year" style="--t:${num(y.t)}"><span>${y.year}</span></div>`);
+  const asOfText = site.asOf ? `As of ${formatDate({ value: site.asOf })}` : "Today";
+  const list = t.list.map(e => `<li>
+<span class="mh-tl-list-date">${e.dt ? `<time datetime="${esc(e.dt)}">${esc(e.date)}</time>` : esc(e.date)}</span>
+<span class="mh-tl-list-kind">${esc(e.kind)}</span>
+<span class="mh-tl-list-label">${e.href ? `<a href="${esc(e.href)}">${esc(e.label)}</a>` : esc(e.label)}${e.note ? ` <span class="mh-muted">· ${esc(e.note)}</span>` : ""}</span>
+</li>`);
+  const picker = site.chrono(site.models).map(x => `<option value="${esc(timelineUrl(x))}"${x === i ? " selected" : ""}>${esc(x.m.name)} · ${esc(site.orgName(x.org))}</option>`);
+  const sub = [lifeText(m), catsText(m), m.prominence === "milestone" ? "Milestone" : null].filter(Boolean).map(esc).join(" · ");
+  const main = `<main id="main"${coAttrs(site, i.org, "mh mh-timeline")} data-mh-view="timeline" data-mh-model="${esc(m.id)}">
+<div class="mh-page-head mh-tl-head container">
+<div class="mh-head-main">
+${crumbsHtml(site, [{ name: "Model History", url: "/models/" }, { name: orgName, url: `/models/${i.org}/`, org: true }, { name: m.name, url: i.url }, { name: "Timeline", url: timelineUrl(i) }], i.org)}
+<h1 class="mh-title">${esc(m.name)}</h1>
+<p class="mh-sub">${sub} · ${evLongHtml(i.ev.evidence)}</p>
+</div>
+<div class="mh-tl-tools">
+<div id="mh-tl-picker" class="mh-tl-picker" hidden><label for="mh-tl-pick">Another model</label>
+<div class="mh-tl-pick-row"><select id="mh-tl-pick">
+${picker.join("\n")}
+</select><button type="button" id="mh-tl-go" class="mh-btn-dark">Open</button></div></div>
+<div id="mh-tl-zoom" class="mh-seg" role="group" aria-label="Zoom" hidden>
+<button type="button" data-zoom="compact" aria-pressed="false">Compact</button>
+<button type="button" data-zoom="normal" aria-pressed="true">Normal</button>
+<button type="button" data-zoom="wide" aria-pressed="false">Wide</button>
+</div>
+</div>
+</div>
+<div class="container">
+<ul class="mh-tl-legend" aria-label="Legend">
+<li><span class="mh-tl-key k-life"></span>Lifecycle</li>
+<li><span class="mh-tl-key k-mile"></span>Milestone or variant</li>
+<li><span class="mh-tl-key k-lin"></span>Related model</li>
+<li><span class="mh-tl-key k-src"></span>Source event</li>
+<li><span class="mh-tl-key k-news"></span>AI Radar coverage</li>
+<li><span class="mh-tl-key k-range"></span>Only month or year known</li>
+<li class="mh-tl-count">${esc(plural(t.count, "event", "events"))}</li>
+</ul>
+<div class="mh-tl-scroll" role="img" tabindex="0" aria-label="${esc(`Timeline of ${m.name}; the same events are listed below`)}">
+<div id="mh-tl" class="mh-tl" data-zoom="normal" data-t0="${num(t.T0)}" data-span="${num(t.span)}" style="--span:${num(t.span)};--today:${num(t.today)};${zoomVars};--lw:${LABEL_W}px;--lh:${LABEL_H}px;--pad:${PAD_X}px">
+${years.join("\n")}
+<div class="mh-tl-today"><span id="mh-tl-today-label">${esc(asOfText)}</span></div>${t.nodes.some(n => n.unknown) ? `\n<div class="mh-tl-unknown-zone"><span>Date unknown</span></div>` : ""}
+<div class="mh-tl-axis"></div>
+${nodes.join("\n")}
+</div>
+</div>
+<section class="mh-tl-events" aria-labelledby="mh-tl-list-title">
+<h2 class="mh-legend" id="mh-tl-list-title">All events, in order</h2>
+<ol class="mh-tl-list">
+${list.join("\n")}
+</ol>
+<p class="mh-more"><a href="${esc(i.url)}">← The full record of ${esc(m.name)}, with every claim and its sources</a></p>
+</section>
+</div>
+</main>`;
+  const desc = clip(`Timeline of ${m.name} by ${orgName}: announcement, release, milestones, related models, source events and AI Radar coverage, with dates at their real precision.`);
+  return page({ path: timelineUrl(i), title: `${m.name} timeline · ${orgName} · Model History · AI Radar`, description: desc, indexable: m.coverage === "full", main,
+    scripts: ["/assets/model-pages.js"],
+    crumbs: [{ name: "Model History", url: "/models/" }, { name: orgName, url: `/models/${i.org}/` }, { name: m.name, url: i.url }, { name: "Timeline", url: timelineUrl(i) }] });
+}
+
 /* ---------- Redirect stub (previousSlugs / previousRoutes, spec §5.4) ---------- */
 export function redirectPage(site, r) {
   const main = `<main id="main" class="container mh" data-mh-view="redirect">
-<h1>This page has moved</h1>
+<h1 class="mh-title">This page has moved</h1>
 <p><a href="${esc(r.to.url)}">${esc(r.to.m.name)}</a> now has a new address.</p>
 </main>`;
   return page({ path: r.from, redirectTo: r.to.url, title: `${r.to.m.name} · Model History · AI Radar`, indexable: false, main,

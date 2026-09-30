@@ -16,7 +16,8 @@ import vm from "node:vm";
 import { VOCAB, loadDataset, normalize, fold, compact, parseDate, sortKey } from "../lib.mjs";
 import { buildIndex, modelEvidence, timelineDate, EVIDENCE } from "../derive.mjs";
 import { compile, indexJson, renderSite } from "../build.mjs";
-import { EVIDENCE_LABEL, FLAG_LABEL, LIFECYCLE_LABEL, label } from "../templates.mjs";
+import { fakeDom } from "./fake-dom.mjs";
+import { EVIDENCE_SHORT, EVIDENCE_GLYPH, FLAG_LABEL, LIFECYCLE_LABEL, label } from "../templates.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const repo = join(here, "..", "..", "..");
@@ -47,7 +48,8 @@ const pick = (r, a) => a[Math.floor(r() * a.length)];
 
 /* The generator's output for the basic fixture, built in memory (the publish gate keeps
    models/ out of the repo, so there is no file to read). hrefOrg is what start() reads in
-   the browser: the organisation in each list item's first model link. */
+   the browser: the organisation in each list item's first model link (the organisation
+   link in the row's kicker comes first and is skipped, as start() skips it). */
 const ORIGIN = "https://ai-radar.eu";
 function generated(dir) {
   const ds = loadDataset(dir), site = compile(ds);
@@ -55,11 +57,11 @@ function generated(dir) {
   const main = fakeDom().parse(/<main[\s>][\s\S]*<\/main>/.exec(html)[0]);
   const list = main.getElementsByTagName("ol").find(n => n.getAttribute("id") === "mh-list");
   const items = list.children.map(li => ({ id: li.getAttribute("data-mh-model"),
-    href: (li.getElementsByTagName("a").map(a => a.getAttribute("href")).find(h => /^\/models\//.test(h || "")) || null) }));
+    href: (li.getElementsByTagName("a").map(a => a.getAttribute("href")).find(h => api.orgFromHref(h, ORIGIN)) || null) }));
   const hrefOrg = Object.fromEntries(items.map(it => [it.id, api.orgFromHref(it.href, ORIGIN)]));
   return { ds, idx: buildIndex(ds), index, html, items, hrefOrg };
 }
-const FX = generated(FIXTURE);   // fakeDom (below) is a function declaration, so hoisted
+const FX = generated(FIXTURE);
 const fixtureCtx = () => api.buildRecords(FX.index, FX.hrefOrg);
 const dsModel = id => FX.ds.models.find(m => m.id === id);
 const emptySel = () => Object.fromEntries(api.FACET_KEYS.map(f => [f, []]));
@@ -106,15 +108,25 @@ test("vocabularies match lib.mjs and derive.mjs", () => {
   for (const l of VOCAB.lifecycle) assert.ok(api.LABELS.status[l], l);
 });
 
-// The facet labels must read like the list items the generator renders (templates.mjs).
+// The facet labels must read like the list items the generator renders (templates.mjs):
+// the short evidence forms and glyphs of the rows (design 1c), open weights as on the model page.
 test("facet labels match the page labels in templates.mjs", () => {
-  assert.deepEqual(plain(api.LABELS.evidence), { ...EVIDENCE_LABEL, ...FLAG_LABEL });
+  assert.deepEqual(plain(api.LABELS.evidence), { ...EVIDENCE_SHORT, ...FLAG_LABEL });
+  assert.deepEqual(plain(api.GLYPHS), EVIDENCE_GLYPH);
   // The one intentional difference: inside the Status fieldset "Unknown", on the page "Status unknown".
   assert.deepEqual(plain(api.LABELS.status), { ...LIFECYCLE_LABEL, unknown: "Unknown" });
   assert.equal(LIFECYCLE_LABEL.unknown, "Status unknown");
   assert.deepEqual(plain(api.LABELS.category), Object.fromEntries(VOCAB.category.map(c => [c, label(c)])));
-  assert.deepEqual(plain(api.LABELS.open), { yes: "Yes", no: "No", unknown: "Unknown" });
+  assert.deepEqual(plain(api.LABELS.open), { yes: "Yes", no: "No", unknown: "Not recorded" });
   assert.deepEqual(plain(api.LABELS.year), { unknown: "Unknown" });
+});
+
+test("count text: all models, or how many of them are shown", () => {
+  assert.equal(api.countText(11, 11, false), "All 11 models");
+  assert.equal(api.countText(4, 11, true), "Showing 4 of 11 models");
+  assert.equal(api.countText(0, 11, true), "Showing 0 of 11 models");
+  assert.equal(api.countText(1, 1, false), "1 model");
+  assert.equal(api.countText(1, 1, true), "Showing 1 of 1 model");
 });
 
 test("normalize, fold and compact are identical to lib.mjs", () => {
@@ -538,110 +550,6 @@ test("spec §9.4: the index carries derive.modelEvidence's status and flags (Orb
 });
 
 /* ---------- DOM smoke test (fake DOM, the real browser path) ---------- */
-function fakeDom() {
-  let active = null;
-  const touched = [];
-  class N {
-    constructor(tag, nodeType = 1) {
-      this.nodeType = nodeType; this.tagName = tag ? tag.toUpperCase() : null; this.attrs = new Map();
-      this.childNodes = []; this.parentNode = null; this.listeners = {}; this._text = ""; this.value = ""; this.checked = false;
-    }
-    getAttribute(k) { return this.attrs.has(k) ? this.attrs.get(k) : null; }
-    setAttribute(k, v) { this.attrs.set(k, String(v)); }
-    hasAttribute(k) { return this.attrs.has(k); }
-    removeAttribute(k) { this.attrs.delete(k); }
-    get hidden() { return this.attrs.has("hidden"); }
-    set hidden(v) { if (v) this.attrs.set("hidden", ""); else this.attrs.delete("hidden"); }
-    get className() { return this.getAttribute("class") || ""; }
-    set className(v) { this.setAttribute("class", v); }
-    get type() { return this.getAttribute("type") || ""; }
-    set type(v) { this.setAttribute("type", v); }
-    get children() { return this.childNodes.filter(n => n.nodeType === 1); }
-    get firstChild() { return this.childNodes[0] || null; }
-    get nextSibling() { const p = this.parentNode; return p ? p.childNodes[p.childNodes.indexOf(this) + 1] || null : null; }
-    insertBefore(n, ref) {
-      if (!ref) return this.appendChild(n);
-      if (n.parentNode) n.parentNode.removeChild(n);
-      n.parentNode = this;
-      this.childNodes.splice(this.childNodes.indexOf(ref), 0, n);
-      return n;
-    }
-    appendChild(n) {
-      if (n.nodeType === 11) { n.childNodes.slice().forEach(c => this.appendChild(c)); return n; }
-      if (n.parentNode) n.parentNode.removeChild(n);
-      n.parentNode = this;
-      this.childNodes.push(n);
-      return n;
-    }
-    removeChild(n) {
-      const i = this.childNodes.indexOf(n);
-      if (i >= 0) this.childNodes.splice(i, 1);
-      if (active && n.contains(active)) active = null;   // like a browser: removing the focused node blurs it
-      n.parentNode = null;
-      return n;
-    }
-    contains(n) { for (let x = n; x; x = x.parentNode) if (x === this) return true; return false; }
-    get textContent() { return this.nodeType === 3 ? this._text : this.childNodes.map(c => c.textContent).join(""); }
-    set textContent(v) {
-      if (this.nodeType === 3) { this._text = String(v); return; }
-      this.childNodes.forEach(c => { c.parentNode = null; });
-      this.childNodes = [];
-      if (String(v) !== "") this.appendChild(text(v));
-    }
-    getElementsByTagName(t) {
-      const out = [], T = t.toUpperCase();
-      const walk = n => n.children.forEach(c => { if (c.tagName === T) out.push(c); walk(c); });
-      walk(this);
-      return out;
-    }
-    addEventListener(t, fn) { (this.listeners[t] = this.listeners[t] || []).push(fn); }
-    dispatch(type) { const ev = { type, target: this }; for (let n = this; n; n = n.parentNode) (n.listeners[type] || []).forEach(fn => fn(ev)); }
-    focus() { active = this; }
-  }
-  const text = v => { const t = new N(null, 3); t._text = String(v); return t; };
-  const h = (tag, attrs = {}, ...kids) => {
-    const n = new N(tag);
-    for (const [k, v] of Object.entries(attrs)) if (k === "value") n.value = v; else n.setAttribute(k, v);
-    kids.forEach(k => n.appendChild(typeof k === "string" ? text(k) : k));
-    return n;
-  };
-  /* Minimal HTML parser for the generator's own, well-formed markup: elements, attributes,
-     text and comments. Enough to rebuild the /models/ <main> as fake DOM nodes. */
-  const VOID = new Set(["area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "source", "track", "wbr"]);
-  const ENT = { amp: "&", lt: "<", gt: ">", quot: "\"", apos: "'", nbsp: "\xa0", middot: "\xb7" };
-  const decode = s => s.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, e) => (e[0] === "#"
-    ? String.fromCodePoint(e[1] === "x" || e[1] === "X" ? parseInt(e.slice(2), 16) : +e.slice(1)) : ENT[e.toLowerCase()] ?? m));
-  const parse = html => {
-    const top = new N("template");
-    let cur = top;
-    for (const m of html.matchAll(/<!--[\s\S]*?-->|<(\/?)([a-zA-Z][a-zA-Z0-9-]*)((?:[^>"']|"[^"]*"|'[^']*')*)>|([^<]+)/g)) {
-      if (m[4] !== undefined) { cur.appendChild(text(decode(m[4]))); continue; }
-      if (!m[2]) continue;
-      const tag = m[2].toUpperCase();
-      if (m[1]) { for (let x = cur; x && x !== top; x = x.parentNode) if (x.tagName === tag) { cur = x.parentNode; break; } continue; }
-      const n = new N(tag);
-      for (const a of m[3].matchAll(/([^\s=/]+)(?:\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'>]+)))?/g)) {
-        const v = decode(a[2] ?? a[3] ?? a[4] ?? "");
-        n.setAttribute(a[1].toLowerCase(), v);
-        if (a[1].toLowerCase() === "value") n.value = v;
-      }
-      cur.appendChild(n);
-      if (!VOID.has(tag.toLowerCase()) && !/\/\s*$/.test(m[3])) cur = n;
-    }
-    return top.children[0];
-  };
-  const root = h("html");
-  const document = {
-    readyState: "complete",
-    createElement: t => new N(t), createTextNode: text, createDocumentFragment: () => new N(null, 11),
-    getElementById: id => { let hit = null; const walk = n => n.children.forEach(c => { if (!hit && c.getAttribute("id") === id) hit = c; if (!hit) walk(c); }); walk(root); return hit; },
-    getElementsByTagName: t => root.getElementsByTagName(t),
-    get activeElement() { return active; },
-    get cookie() { touched.push("cookie"); return ""; }, set cookie(v) { touched.push("cookie"); }
-  };
-  return { h, root, document, touched, parse };
-}
-
 /* The real /models/ page from the generator (or another html): its <main> goes into a fake
    DOM, then models.js runs against it. extraItems adds list items; mutate(el) runs before
    the script. */
@@ -650,7 +558,8 @@ function explorerPage(url, fetchImpl, { extraItems = [], mutate = null, html = F
   const main = parse(/<main[\s>][\s\S]*<\/main>/.exec(html)[0]);
   root.appendChild(h("body", {}, main));
   const el = {};
-  for (const k of ["controls", "search", "sort", "facets", "clear", "count", "empty", "error", "retry", "list"]) el[k] = document.getElementById("mh-" + k);
+  for (const k of ["controls", "search", "sort", "facets", "clear", "count", "empty", "error", "retry", "list", "empty-clear", "filter-toggle"]) el[k] = document.getElementById("mh-" + k);
+  el.main = main;
   extraItems.forEach(([id, href]) => el.list.appendChild(h("li", { "data-mh-model": id }, h("a", { href }, id))));
   if (mutate) mutate(el);
   // The children of every list item before the script runs: they must survive untouched.
@@ -673,8 +582,15 @@ function explorerPage(url, fetchImpl, { extraItems = [], mutate = null, html = F
   const visible = () => el.list.children.filter(li => !li.hidden).map(li => li.getAttribute("data-mh-model"));
   const input = (f, v) => el.facets.getElementsByTagName("input").find(i => i.getAttribute("data-mh-facet") === f && i.value === v);
   const untouched = () => [...contents].every(([li, kids]) => li.childNodes.length === kids.length && kids.every((k, n) => li.childNodes[n] === k));
-  return { el, location, replaced, fetched, touched, flushTimers, visible, input, document, untouched };
+  // The sort is a group of buttons (design 1c): click one; read the pressed one.
+  const sortButtons = () => el.sort.getElementsByTagName("button");
+  const sortBy = mode => sortButtons().find(b => b.getAttribute("data-sort") === mode).dispatch("click");
+  const pressed = () => sortButtons().filter(b => b.getAttribute("aria-pressed") === "true").map(b => b.getAttribute("data-sort"));
+  return { el, location, replaced, fetched, touched, flushTimers, visible, input, document, untouched, sortBy, pressed };
 }
+// A model's own link in a pre-rendered row (the kicker's organisation link comes first).
+const modelLinkOf = li => li.getElementsByTagName("a").find(a => a.getAttribute("class") === "mh-row-name");
+const rowOf = n => { while (n && n.tagName !== "LI") n = n.parentNode; return n; };
 const tick = () => new Promise(r => setImmediate(r));
 const ok = () => ({ ok: true, status: 200, json: async () => JSON.parse(JSON.stringify(FX.index)) });
 
@@ -686,19 +602,26 @@ test("DOM: loads the index, applies URL state, filters in place, keeps the searc
   assert.equal(el.controls.hidden, false);
   assert.equal(el.error.hidden, true);
   assert.equal(el.search.value, "", "?q= is never read into the search field");
-  assert.equal(el.sort.value, "name");
+  assert.deepEqual(p.pressed(), ["name"], "the URL's sort is the one pressed button");
+  assert.match(el.main.getAttribute("class"), /(^| )mh-js( |$)/, "main gets mh-js once the controls work");
   assert.equal(el.facets.getElementsByTagName("fieldset").length, 7);
   assert.equal(p.input("org", "example-lab").checked, true);
   assert.equal(p.visible().length, 9);
   assert.ok(p.visible().every(id => FX.hrefOrg[id] === "example-lab"));
-  assert.equal(el.count.textContent, "9 of 11 models");
+  assert.equal(el.count.textContent, "Showing 9 of 11 models");
   assert.equal(el.count.getAttribute("aria-live"), null, "the first count is written while the region is not live");
   assert.deepEqual(p.replaced, [], "loading does not rewrite the URL");
+  assert.equal(el.clear.hidden, false, "Clear filters shows while a filter is active");
+  assert.equal(el["filter-toggle"].textContent, "Filters (1)");
   // Families follow the organisation filter.
   assert.equal(p.input("family", "other-lab.nova").parentNode.parentNode.hidden, true);
   assert.equal(p.input("family", "example-lab.orbit").parentNode.parentNode.hidden, false);
-  // Facet labels: name, then the count with a screen-reader unit.
+  // Facet labels: name, then the count with a screen-reader unit. Evidence has the rows' glyph.
   assert.equal(p.input("org", "other-lab").parentNode.textContent, "Other Lab 2 models");
+  const primary = p.input("evidence", "primary-source").parentNode;
+  assert.equal(primary.textContent, "● Primary source 5 models");
+  assert.equal(primary.getElementsByTagName("span").find(s => s.className === "mh-glyph").getAttribute("aria-hidden"), "true");
+  assert.equal(p.input("open", "unknown").parentNode.textContent.replace(/ \d+ models?$/, ""), "Not recorded");
 
   // Typing filters at once; the live count waits for a pause. The first action makes the
   // region live before its text changes.
@@ -707,9 +630,9 @@ test("DOM: loads the index, applies URL state, filters in place, keeps the searc
   assert.equal(p.visible()[0], "example-lab.orbit-2");
   assert.equal(p.visible().length, 4);
   assert.equal(el.count.getAttribute("aria-live"), "polite");
-  assert.equal(el.count.textContent, "9 of 11 models");
+  assert.equal(el.count.textContent, "Showing 9 of 11 models");
   p.flushTimers();
-  assert.equal(el.count.textContent, "4 of 11 models");
+  assert.equal(el.count.textContent, "Showing 4 of 11 models");
   assert.deepEqual(p.replaced, [], "search never touches the URL");
 
   el.search.value = "nothing like this";
@@ -717,12 +640,17 @@ test("DOM: loads the index, applies URL state, filters in place, keeps the searc
   assert.equal(p.visible().length, 0);
   assert.equal(el.empty.hidden, false);
 
-  // Clear: search and facets reset, sort stays, other parameters stay.
-  el.clear.dispatch("click");
+  // Clear (here the one in the empty state): search and facets reset, sort stays, other
+  // parameters stay. A focused Clear button disappears, so focus moves to the search field.
+  el["empty-clear"].focus();
+  el["empty-clear"].dispatch("click");
   assert.equal(el.search.value, "");
+  assert.equal(p.document.activeElement, el.search);
   assert.equal(p.visible().length, 11);
   assert.equal(el.empty.hidden, true);
-  assert.equal(el.count.textContent, "11 models");
+  assert.equal(el.clear.hidden, true, "nothing to clear");
+  assert.equal(el["filter-toggle"].textContent, "Filters");
+  assert.equal(el.count.textContent, "All 11 models");
   assert.equal(p.input("org", "example-lab").checked, false);
   assert.equal(p.location.search, "?utm_source=x&q=secret&sort=name");
 
@@ -735,29 +663,46 @@ test("DOM: loads the index, applies URL state, filters in place, keeps the searc
   assert.equal(p.input("org", "example-lab").parentNode.textContent, "Example Lab 0 models");
   assert.equal(p.input("org", "other-lab").parentNode.textContent, "Other Lab 1 model");
 
-  // Sorting reorders the existing items. The count stays "11 models", yet the change is
+  // Sorting reorders the existing items. The count stays "All 11 models", yet the change is
   // announced: the live region text toggles a trailing no-break space (spec §6).
-  code.checked = false;
-  code.dispatch("change");
+  code.focus();
+  el.clear.dispatch("click");
+  assert.equal(p.document.activeElement, code, "focus stays where it was when Clear was not focused");
   const said = el.count.textContent;
-  el.sort.value = "date-asc";
-  el.sort.dispatch("change");
+  p.sortBy("date-asc");
+  assert.deepEqual(p.pressed(), ["date-asc"]);
   assert.notEqual(el.count.textContent, said, "a sort change re-announces the count");
-  assert.equal(el.count.textContent.trim(), "11 models");
-  el.sort.value = "date-asc";
-  el.sort.dispatch("change");
+  assert.equal(el.count.textContent.trim(), "All 11 models");
+  p.sortBy("date-asc");
   assert.equal(el.count.textContent, said, "and again on the next unchanged action");
   const order = el.list.children.map(li => li.getAttribute("data-mh-model"));
   assert.equal(order[0], "example-lab-research.orbit-0");
   assert.equal(order[order.length - 1], "other-lab.nova-6", "unknown date last");
   assert.equal(p.location.search, "?utm_source=x&q=secret&sort=date-asc");
   assert.equal(el.list.children.length, 11, "items are moved, never rebuilt or duplicated");
-  const main = el.list.parentNode;
-  assert.equal(main.getAttribute("data-mh-view"), "explorer", "the list is back in place after a reorder");
-  assert.equal(main.children[main.children.length - 1], el.list);
+  const box = el.list.parentNode;
+  assert.equal(box.getAttribute("class"), "mh-results", "the list is back in place after a reorder");
+  assert.equal(box.children[box.children.length - 1], el.list);
+  // A click between the buttons (on the group itself) changes nothing.
+  el.sort.dispatch("click");
+  assert.deepEqual(p.pressed(), ["date-asc"]);
   assert.ok(p.untouched(), "item contents untouched");
   assert.ok(p.replaced.every(u => !/orbit2|nothing/.test(u)));
   assert.deepEqual(p.touched, [], "no cookies or storage");
+});
+
+test("DOM: the Filters button opens and closes the facets column (phones)", async () => {
+  const p = explorerPage("/models/", ok);
+  for (let i = 0; i < 5; i++) await tick();
+  const t = p.el["filter-toggle"], col = p.el.facets.parentNode;
+  assert.equal(t.getAttribute("aria-expanded"), "false");
+  assert.equal(t.getAttribute("aria-controls"), "mh-facets");
+  t.dispatch("click");
+  assert.equal(t.getAttribute("aria-expanded"), "true");
+  assert.ok(col.hasAttribute("data-open"));
+  t.dispatch("click");
+  assert.equal(t.getAttribute("aria-expanded"), "false");
+  assert.ok(!col.hasAttribute("data-open"));
 });
 
 test("DOM: a failed load keeps the static list and offers Retry; a failed Retry is announced", async () => {
@@ -770,6 +715,8 @@ test("DOM: a failed load keeps the static list and offers Retry; a failed Retry 
   assert.equal(el.error.getAttribute("role"), "status", "a status region, so its changes are announced");
   assert.equal(note(), undefined, "the first failure shows the message only");
   assert.equal(el.controls.hidden, true);
+  assert.equal(el.clear.hidden, true);
+  assert.doesNotMatch(el.main.getAttribute("class"), /mh-js/, "without working controls the facets column is not collapsed on phones");
   assert.equal(p.visible().length, 11, "the pre-rendered list stays");
   el.retry.focus();
   el.retry.dispatch("click");
@@ -787,11 +734,11 @@ test("DOM: a failed load keeps the static list and offers Retry; a failed Retry 
   assert.equal(el.controls.hidden, false);
   assert.equal(p.document.activeElement, el.search, "focus moves from the hidden Retry to the search field");
   assert.equal(p.fetched.length, 4);
-  assert.equal(el.count.textContent, "11 models");
+  assert.equal(el.count.textContent, "All 11 models");
   assert.equal(el.count.getAttribute("aria-live"), null);
   p.flushTimers();
   assert.equal(el.count.getAttribute("aria-live"), "polite", "live again after a pause, with no text change");
-  assert.equal(el.count.textContent, "11 models");
+  assert.equal(el.count.textContent, "All 11 models");
   assert.deepEqual(p.touched, []);
 });
 
@@ -831,20 +778,20 @@ test("DOM: list items the index does not know stay listed until something filter
   const { el } = p, ghost = () => el.list.children.find(li => li.getAttribute("data-mh-model") === "ghost-lab.ghost-1");
   assert.equal(el.controls.hidden, false);
   assert.equal(ghost().hidden, false);
-  assert.equal(el.count.textContent, "12 models");
+  assert.equal(el.count.textContent, "All 12 models");
   assert.equal(el.list.children[el.list.children.length - 1], ghost(), "kept after the known items");
   el.search.value = "orbit";
   el.search.dispatch("input");
   p.flushTimers();
   assert.equal(ghost().hidden, true);
-  assert.equal(el.count.textContent, "9 of 12 models");
+  assert.equal(el.count.textContent, "Showing 9 of 12 models");
   el.clear.dispatch("click");
   assert.equal(ghost().hidden, false);
   assert.equal(el.list.children.length, 12);
 });
 
 test("DOM: only same-origin page links decide the organisation", async () => {
-  const relink = (el, id, href) => el.list.children.find(li => li.getAttribute("data-mh-model") === id).getElementsByTagName("a")[0].setAttribute("href", href);
+  const relink = (el, id, href) => modelLinkOf(el.list.children.find(li => li.getAttribute("data-mh-model") === id)).setAttribute("href", href);
   const p = explorerPage("/models/?org=example-lab", ok, { mutate: el => {
     relink(el, "other-lab.nova-7", "https://evil.example/models/example-lab/nova-7/");       // ignored: prefix says other-lab
     relink(el, "example-lab.orbit-2", "https://ai-radar.eu/models/example-lab/orbit-2/");    // same origin: accepted
@@ -857,7 +804,7 @@ test("DOM: only same-origin page links decide the organisation", async () => {
 });
 
 test("DOM: a link focused in the list keeps focus when the index loads and reorders the list", async () => {
-  const link = el => el.list.children.find(li => li.getAttribute("data-mh-model") === "other-lab.nova-7").getElementsByTagName("a")[0];
+  const link = el => modelLinkOf(el.list.children.find(li => li.getAttribute("data-mh-model") === "other-lab.nova-7"));
   // ?sort=name starts the load at once and needs a reorder (the page is newest first).
   const p = explorerPage("/models/?sort=name", ok);
   link(p.el).focus();
@@ -870,7 +817,7 @@ test("DOM: a link focused in the list keeps focus when the index loads and reord
   const q = explorerPage("/models/?org=example-lab&sort=name", ok);
   link(q.el).focus();
   for (let i = 0; i < 5; i++) await tick();
-  assert.equal(link(q.el).parentNode.hidden, true);
+  assert.equal(rowOf(link(q.el)).hidden, true);
   assert.notEqual(q.document.activeElement, link(q.el));
 });
 
@@ -880,15 +827,15 @@ test("DOM: a link focused in the list keeps focus when the index loads and reord
    own work; the sign-off in a browser uses the snippet in the explorer report. */
 test("DOM, 1000 models: every update through the real handlers takes < 50 ms and shows the right items in order", async () => {
   const index = syntheticIndex(1000, 42);
-  const lis = index.models.map(m => `<li data-mh-model="${m.id}">\n<a class="mh-item-name" href="/models/${m.id.split(".")[0]}/${m.slug}/">${m.name}</a>\n` +
-    `<span class="mh-item-date">${m.date ? m.date.v : "Date unknown"}</span>\n</li>`);
-  const html = `<main id="main" data-mh-view="explorer">
-<div id="mh-controls" hidden><input type="search" id="mh-search"><select id="mh-sort"><option value="date-desc" selected>Newest first</option>
-<option value="date-asc">Oldest first</option><option value="name">Name</option><option value="org">Organisation</option></select>
-<div id="mh-facets"></div><button type="button" id="mh-clear">Clear filters</button></div>
-<p id="mh-count" aria-live="polite"></p><p id="mh-empty" hidden>No models match these filters.</p>
+  const lis = index.models.map(m => `<li class="mh-row" data-mh-model="${m.id}">\n<a class="mh-row-name" href="/models/${m.id.split(".")[0]}/${m.slug}/">${m.name}</a>\n` +
+    `<span class="mh-date">${m.date ? m.date.v : "Date unknown"}</span>\n</li>`);
+  // The minimal markup models.js needs; #mh-empty-clear and #mh-filter-toggle are optional.
+  const html = `<main id="main" class="mh mh-explorer" data-mh-view="explorer">
+<div id="mh-controls" hidden><input type="search" id="mh-search"><div id="mh-sort" role="group" aria-label="Sort"><button type="button" data-sort="date-desc" aria-pressed="true">Newest first</button>
+<button type="button" data-sort="date-asc" aria-pressed="false">Oldest first</button><button type="button" data-sort="name" aria-pressed="false">Name</button><button type="button" data-sort="org" aria-pressed="false">Organisation</button></div></div>
+<div><div id="mh-facets"></div></div><section class="mh-results"><p id="mh-count" aria-live="polite"></p><button type="button" id="mh-clear" hidden>Clear filters</button><div id="mh-empty" hidden>No models match these filters.</div>
 <p id="mh-error" hidden>Search and filters could not be loaded. <button type="button" id="mh-retry">Retry</button></p>
-<ol id="mh-list">\n${lis.join("\n")}\n</ol></main>`;
+<ol id="mh-list">\n${lis.join("\n")}\n</ol></section></main>`;
   const p = explorerPage("/models/", () => ({ ok: true, status: 200, json: async () => JSON.parse(JSON.stringify(index)) }), { html });
   for (let i = 0; i < 5; i++) await tick();
   const { el } = p;
@@ -903,7 +850,7 @@ test("DOM, 1000 models: every update through the real handlers takes < 50 ms and
     const k = r(), a = performance.now();
     if (k < 0.45) { const inp = pick(r, inputs.filter(shown)); inp.checked = !inp.checked; inp.dispatch("change"); }
     else if (k < 0.8) { const nm = pick(r, names); el.search.value = r() < 0.5 ? pick(r, queries) : nm.slice(0, 1 + Math.floor(r() * nm.length)); el.search.dispatch("input"); }
-    else if (k < 0.95) { el.sort.value = pick(r, api.SORT_KEYS); el.sort.dispatch("change"); }
+    else if (k < 0.95) p.sortBy(pick(r, api.SORT_KEYS));
     else el.clear.dispatch("click");
     const ms = performance.now() - a;
     max = Math.max(max, ms);
@@ -912,7 +859,7 @@ test("DOM, 1000 models: every update through the real handlers takes < 50 ms and
       // The visible items, in DOM order, are exactly the pure result for the page's state.
       const sel = emptySel();
       for (const inp of inputs) if (inp.checked) sel[inp.getAttribute("data-mh-facet")].push(inp.value);
-      const exp = ids(api.applyFilters(ctx.records, { query: el.search.value, sort: el.sort.value, sel }));
+      const exp = ids(api.applyFilters(ctx.records, { query: el.search.value, sort: p.pressed()[0], sel }));
       assert.deepEqual(p.visible(), exp, `update ${i}`);
     }
   }

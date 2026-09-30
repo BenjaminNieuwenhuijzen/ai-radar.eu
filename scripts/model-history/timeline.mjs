@@ -8,7 +8,8 @@ import { parseDate, interval, sortKey, formatDate, toInstant } from "./lib.mjs";
 import { timelineDate } from "./derive.mjs";
 
 export const ZOOMS = { compact: 160, normal: 260, wide: 420 };   // px per year, as in the design
-export const LABEL_W = 128, LABEL_H = 52, AXIS = 280, PAD_X = 40, UNKNOWN_DX = 70, HEIGHT = 560;
+// LABEL_W fits "Milestone · 30 Sep 2024" in the 10px mono meta line.
+export const LABEL_W = 140, LABEL_H = 52, AXIS = 280, PAD_X = 40, UNKNOWN_DX = 70, HEIGHT = 560;
 // Label lanes: the design's six (three above, three below the axis). When a busy stretch
 // fills them all, more lanes are added further out instead of letting labels overlap.
 const LANE_STEP = 68, MAX_LANES = 16, TOP_ROOM = 40, BOTTOM_ROOM = 24;
@@ -38,6 +39,9 @@ export function yearRange(value) {
 }
 const isoDay = v => (typeof v === "string" ? v.slice(0, 10) : null);
 const fmtDay = v => formatDate({ value: isoDay(v) });
+// Labels on the axis are LABEL_W wide: "Lineage · 2 Dec 2024" fits, the full month does not.
+const MONTH = /\b(January|February|March|April|June|July|August|September|October|November|December)\b/;
+const shortDate = dv => formatDate(dv).replace(MONTH, m => m.slice(0, 3));
 
 /* ---------- Events ----------
    Each event: { kind, label, dv: {value, qualifier} | null, note, href? }.
@@ -49,7 +53,7 @@ export function modelEvents(m, ctx) {
   const d = m.dates || {};
   const td = timelineDate(m);
   if (d.announced && (!td || td.kind !== "announced")) add("life", "Announced", d.announced);
-  if (td) add("life", td.kind === "announced" ? "Announced" : "Released", td.dv);
+  if (td) { add("life", td.kind === "announced" ? "Announced" : "Released", td.dv); ev[ev.length - 1].focus = true; }
   else add("life", "Released", null, "No date in any source");
   if (d.deprecated) add("life", "Deprecated", d.deprecated);
   if (d.retired) add("life", "Retired", d.retired);
@@ -107,14 +111,17 @@ export function layoutTimeline(m, ctx) {
   for (const list of groups.values()) {
     const sorted = list.slice().sort((a, b) => KIND_ORDER[a.kind] - KIND_ORDER[b.kind]);
     const head = sorted[0], r = yearRange(head.dv.value);
-    items.push({ kind: head.kind, label: head.label + (sorted.length > 1 ? ` +${sorted.length - 1}` : ""), meta: `${KIND_LABEL[head.kind]} · ${formatDate(head.dv)}`, r, t: (r[0] + r[1]) / 2, ranged: parseDate(head.dv.value).precision !== "day" });
+    // focus: the model's own timeline date; the page opens scrolled to it.
+    items.push({ kind: head.kind, label: head.label + (sorted.length > 1 ? ` +${sorted.length - 1}` : ""), meta: `${KIND_LABEL[head.kind]} · ${shortDate(head.dv)}`, r, t: (r[0] + r[1]) / 2, ranged: parseDate(head.dv.value).precision !== "day", focus: list.some(e => e.focus) });
   }
   let newsItem = null;
   if (news.length) {
     const a = yearRange(isoDay(news[0].publishedAt)), b = yearRange(isoDay(news[news.length - 1].publishedAt));
     const m0 = isoDay(news[0].publishedAt).slice(0, 7), m1 = isoDay(news[news.length - 1].publishedAt).slice(0, 7);
     const rangeLabel = formatDate({ value: m0 }) + (m0 !== m1 ? ` – ${formatDate({ value: m1 })}` : "");
-    newsItem = { kind: "news", label: `${news.length} ${news.length === 1 ? "news item" : "news items"}`, meta: `${KIND_LABEL.news} · ${rangeLabel}`, r: [a[0], b[1]], t: (a[0] + b[1]) / 2, ranged: news.length > 1, rangeLabel };
+    // On the axis the label already says "news items"; the meta is only the (short) range.
+    const shortRange = shortDate({ value: m0 }) + (m0 !== m1 ? ` – ${shortDate({ value: m1 })}` : "");
+    newsItem = { kind: "news", label: `${news.length} ${news.length === 1 ? "news item" : "news items"}`, meta: shortRange, r: [a[0], b[1]], t: (a[0] + b[1]) / 2, ranged: news.length > 1, rangeLabel };
     items.push(newsItem);
   }
   const starts = items.map(i => i.r[0]), ends = items.map(i => i.r[1]);

@@ -1,4 +1,4 @@
-/* AI Radar Model History: Explorer enhancement of the pre-rendered list on /models/.
+/* AI Radar Model History: Explorer enhancement of the pre-rendered list on /models/ (design 1c).
    Loads /models/index.json (same-origin, its only request), then filters the existing
    <li data-mh-model> items by toggling `hidden` and reordering, never rebuilding them.
    Privacy: the search term stays in memory; only facets and sort go into the URL
@@ -8,7 +8,7 @@
 
 /* ---------- Config ---------- */
 const INDEX_URL = "/models/index.json";
-const DEFAULT_SORT = "date-desc";   // newest first (spec O7 proposal); the page's selected <option> wins
+const DEFAULT_SORT = "date-desc";   // newest first (spec O7 proposal); the page's pressed sort button wins
 const ANNOUNCE_MS = 600;            // quiet time before a typed search updates the live count
 const DEBOUNCE_ABOVE = 1000;        // spec §23.2: above 1000 models the search waits 100 ms
 const DEBOUNCE_MS = 100;
@@ -28,7 +28,8 @@ const FLAGS = ["original-unavailable", "some-claims-incomplete"];
 const OPEN = ["yes", "no", "unknown"];
 
 // Text labels (§16.4, §31), by the templates.mjs label() rule. In the Status fieldset
-// "Unknown" replaces the page's "Status unknown".
+// "Unknown" replaces the page's "Status unknown". Evidence uses the short forms and glyphs
+// of the list rows (design 1c); open weights reads like the model page.
 const SPECIAL = { "audio-speech": "Audio and speech", "retrieval-reranking": "Retrieval and reranking" };
 const labelsOf = list => {
   const o = {};
@@ -36,14 +37,15 @@ const labelsOf = list => {
   return o;
 };
 const LABELS = {
-  category: labelsOf(CATEGORIES), status: labelsOf(LIFECYCLE), open: labelsOf(OPEN), year: labelsOf(["unknown"]),
-  evidence: { "primary-source": "Primary source available", "archived-primary-source": "Archived primary source",
-    "secondary-sources": "Verified through secondary sources", "insufficient-evidence": "Historical evidence incomplete",
+  category: labelsOf(CATEGORIES), status: labelsOf(LIFECYCLE), open: { yes: "Yes", no: "No", unknown: "Not recorded" }, year: labelsOf(["unknown"]),
+  evidence: { "primary-source": "Primary source", "archived-primary-source": "Archived primary",
+    "secondary-sources": "Secondary sources", "insufficient-evidence": "Evidence incomplete",
     "original-unavailable": "Original source unavailable", "some-claims-incomplete": "Some details lack sources" }
 };
+const GLYPHS = { "primary-source": "●", "archived-primary-source": "◐", "secondary-sources": "○", "insufficient-evidence": "◌" };
 // Spec §23.3 order. The URL uses the same keys (§5.3).
 const FACETS = [
-  { key: "org", label: "Organization" }, { key: "family", label: "Family" }, { key: "category", label: "Category" },
+  { key: "org", label: "Organisation" }, { key: "family", label: "Family" }, { key: "category", label: "Category" },
   { key: "year", label: "Year" }, { key: "status", label: "Status" }, { key: "evidence", label: "Evidence" },
   { key: "open", label: "Open weights" }
 ];
@@ -252,7 +254,7 @@ function facetCounts(records, st, ranks) {
 }
 const countText = (n, total, active) => {
   const unit = total === 1 ? "model" : "models";
-  return active ? `${n} of ${total} ${unit}` : `${total} ${unit}`;
+  return active ? `Showing ${n} of ${total} ${unit}` : total === 1 ? "1 model" : `All ${total} models`;
 };
 
 /* ---------- URL state ----------
@@ -301,9 +303,8 @@ const mk = (tag, cls, text) => {
 const setText = (n, t) => { if (n.textContent !== t) n.textContent = t; };
 const setHidden = (n, h) => { if (n.hidden !== h) n.hidden = h; };
 
-/* One fieldset of plain checkboxes per facet (mh- classes, textContent only), built once per
-   load. Updates change counts, checked states and `hidden` in place. The " models" suffix
-   is for screen readers (mh-visually-hidden). */
+/* One fieldset of checkboxes per facet (textContent only), built once per load; updates
+   change counts, checked states and `hidden` in place. " models" is for screen readers. */
 function renderFacets() {
   while (el.facets.firstChild) el.facets.removeChild(el.facets.firstChild);
   facetUi = {};
@@ -321,7 +322,15 @@ function renderFacets() {
       count.appendChild(num);
       count.appendChild(unit);
       label.appendChild(input);
-      label.appendChild(mk("span", "mh-facet-name", v.label));
+      const name = label.appendChild(mk("span", "mh-facet-name"));
+      if (f.key === "evidence" && own(GLYPHS, v.value)) {
+        // The glyph is a second carrier next to the words, never read out (as on the rows).
+        const g = name.appendChild(mk("span", "mh-glyph", GLYPHS[v.value]));
+        g.setAttribute("aria-hidden", "true");
+        li.setAttribute("data-mh-evidence", v.value);
+        name.appendChild(document.createTextNode(" "));
+      }
+      name.appendChild(document.createTextNode(v.label));
       label.appendChild(document.createTextNode(" "));
       label.appendChild(count);
       li.appendChild(label);
@@ -369,9 +378,8 @@ function setCount(text, now, repeat) {
 }
 const shownIn = (n, root) => { for (let x = n; x && x !== root; x = x.parentNode) if (x.hidden) return false; return true; };
 
-/* Reorder only when the matches are out of relative order. 1000 items in Chrome: moving each
-   child ~30-40 ms, emptying the detached list and appending the same nodes ~3 ms. Detaching
-   blurs a focused link in the list; update() gives focus back. */
+/* Reorder only when the matches are out of order, on the detached list (1000 items in Chrome:
+   ~3 ms, against ~35 ms moving each child in place). update() gives a blurred link focus back. */
 function inOrder(shown) {
   let prev = -1;
   for (let j = 0; j < shown.length; j++) { const p = domPos.get(shown[j].id); if (p < prev) return false; prev = p; }
@@ -408,8 +416,26 @@ function update(now, repeat) {
   syncFacets(counts);
   const n = shown.length + (active ? 0 : ctx.orphans.length);
   setHidden(el.empty, n > 0);
+  setHidden(el.clear, !active);
+  if (el.toggle) {
+    const k = FACET_KEYS.reduce((s, f) => s + state.sel[f].length, 0);
+    setText(el.toggle, k ? `Filters (${k})` : "Filters");
+  }
   setCount(countText(n, items.size, active), now, repeat);
 }
+// The sort is a group of buttons (design 1c); exactly one is pressed.
+function syncSort() {
+  const bs = el.sort.getElementsByTagName("button");
+  for (let i = 0; i < bs.length; i++) {
+    const p = bs[i].getAttribute("data-sort") === state.sort ? "true" : "false";
+    if (bs[i].getAttribute("aria-pressed") !== p) bs[i].setAttribute("aria-pressed", p);
+  }
+}
+const setJs = on => {
+  const c = el.main.className.split(" ").filter(x => x && x !== "mh-js");
+  if (on) c.push("mh-js");
+  el.main.className = c.join(" ");
+};
 
 function syncUrl() {
   const s = serializeUrlState(state, location.search, defaultSort);
@@ -425,10 +451,11 @@ function ready(index) {
   state = parseUrlState(location.search, ctx.domains, defaultSort);
   state.query = el.search.value;   // a value the browser restored on Back applies too
   renderFacets();
-  el.sort.value = state.sort;
+  syncSort();
   const hadFocus = el.error.contains(document.activeElement);
   el.error.hidden = true;
   el.controls.hidden = false;
+  setJs(true);
   if (hadFocus) el.search.focus();   // Retry disappears; keep focus on the next useful control
   // The first count is not news: announced, it would come unprompted after the page load.
   if (liveAttr) el.count.removeAttribute("aria-live");
@@ -462,7 +489,9 @@ async function load() {
     items.forEach(li => setHidden(li, false));
     el.controls.hidden = true;
     el.empty.hidden = true;
+    el.clear.hidden = true;
     el.error.hidden = false;
+    setJs(false);
     if (liveAttr) goLive();
     if (retrying) noteFailure();
   } finally {
@@ -479,9 +508,13 @@ function bindEvents() {
     if (ctx.records.length > DEBOUNCE_ABOVE) searchTimer = setTimeout(() => update(false), DEBOUNCE_MS);
     else update(false);
   });
-  el.sort.addEventListener("change", () => {
-    if (!ctx || !own(SORTS, el.sort.value)) return;
-    state.sort = el.sort.value;
+  el.sort.addEventListener("click", e => {
+    let b = e.target;
+    while (b && b !== el.sort && !(b.getAttribute && b.getAttribute("data-sort"))) b = b.parentNode;
+    const s = b && b !== el.sort ? b.getAttribute("data-sort") : null;
+    if (!ctx || !own(SORTS, s)) return;
+    state.sort = s;
+    syncSort();
     syncUrl();
     update(true, true);
   });
@@ -495,15 +528,26 @@ function bindEvents() {
     syncUrl();
     update(true, true);
   });
-  // Clears search and facets; the sort is a view choice, not a filter, so it stays.
-  el.clear.addEventListener("click", () => {
+  // Clears search and facets; the sort is a view choice, not a filter, so it stays. A
+  // focused Clear button disappears with the filters, so focus moves to the search field.
+  const clear = () => {
     if (!ctx) return;
+    const a = document.activeElement, had = a === el.clear || a === el.emptyClear;
     el.search.value = "";
     state.query = "";
     FACET_KEYS.forEach(f => { state.sel[f] = []; });
     clearTimeout(searchTimer);
     syncUrl();
     update(true, true);
+    if (had) el.search.focus();
+  };
+  el.clear.addEventListener("click", clear);
+  if (el.emptyClear) el.emptyClear.addEventListener("click", clear);
+  // Phones: the facets column opens under the Filters button (models.css, design 1f).
+  if (el.toggle) el.toggle.addEventListener("click", () => {
+    const open = el.toggle.getAttribute("aria-expanded") !== "true";
+    el.toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    if (open) el.facets.parentNode.setAttribute("data-open", ""); else el.facets.parentNode.removeAttribute("data-open");
   });
   el.retry.addEventListener("click", () => load());
 }
@@ -515,6 +559,9 @@ function start() {
   const ids = ["controls", "search", "sort", "facets", "clear", "count", "empty", "error", "retry", "list"];
   ids.forEach(k => { el[k] = document.getElementById("mh-" + k); });
   if (ids.some(k => !el[k])) return;   // not the expected markup: leave the static list alone
+  el.main = main;
+  el.emptyClear = document.getElementById("mh-empty-clear");   // optional
+  el.toggle = document.getElementById("mh-filter-toggle");      // optional
   const kids = el.list.children;
   for (let i = 0; i < kids.length; i++) {
     const li = kids[i], id = li.getAttribute("data-mh-model");
@@ -527,8 +574,8 @@ function start() {
       if (o) { hrefOrg[id] = o; break; }
     }
   }
-  const opts = el.sort.getElementsByTagName("option");
-  for (let i = 0; i < opts.length; i++) if (opts[i].hasAttribute("selected") && own(SORTS, opts[i].value)) defaultSort = opts[i].value;
+  const bs = el.sort.getElementsByTagName("button");
+  for (let i = 0; i < bs.length; i++) if (bs[i].getAttribute("aria-pressed") === "true" && own(SORTS, bs[i].getAttribute("data-sort"))) defaultSort = bs[i].getAttribute("data-sort");
   retryLabel = el.retry.textContent;
   liveAttr = el.count.getAttribute("aria-live");
   // A status region (WCAG 4.1.3), set long before any failure so its changes are announced.
@@ -542,7 +589,7 @@ function start() {
 
 const api = { normalize, fold, compact, parseDate, sortKey, orgFromHref, prepQuery, buildRecords, matchQuery, rankAll, isActive,
   applyFilters, facetCounts, countText, urlHasState, parseUrlState, serializeUrlState,
-  CATEGORIES, LIFECYCLE, EVIDENCE, FLAGS, FACET_KEYS, SORT_KEYS, DEFAULT_SORT, LABELS };
+  CATEGORIES, LIFECYCLE, EVIDENCE, FLAGS, FACET_KEYS, SORT_KEYS, DEFAULT_SORT, LABELS, GLYPHS };
 // Tests set __MH_TEST__ = true in node:vm. Strict, so an element named __MH_TEST__ cannot.
 if (typeof globalThis !== "undefined" && globalThis.__MH_TEST__ === true) globalThis.__MH__ = api;
 else if (typeof document !== "undefined") start();

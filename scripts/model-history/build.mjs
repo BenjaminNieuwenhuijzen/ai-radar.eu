@@ -16,7 +16,7 @@ import { dirname, join, resolve, relative, isAbsolute, basename, parse as parseP
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { SITE, RE, idPrefix, normalize, fold, parseDate, toInstant, loadDataset, loadRegistry } from "./lib.mjs";
 import { buildIndex, deriveGraph, modelEvidence, orgClaims, claimEvidence, sourceView, timelineDate, modelSortKey } from "./derive.mjs";
-import { explorerPage, companyPage, modelPage, redirectPage } from "./templates.mjs";
+import { explorerPage, companyPage, modelPage, timelinePage, redirectPage } from "./templates.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const REPO = resolve(HERE, "..", "..");
@@ -29,7 +29,8 @@ const UNKNOWN_KEY = "9999-99-99-9";
 
 // Route segments that may become a path inside the output directory: <org>/, <org>/<slug>/.
 // The last guard against a bad id writing outside it when validation is skipped (C8).
-const OUT_PATH = /^(?:[a-z0-9]+(?:-[a-z0-9]+)*\/){0,2}index\.(?:html|json)$/;
+// /models/, /models/<org>/, /models/<org>/<slug>/ and the per-model timeline /models/<org>/<slug>/timeline/.
+const OUT_PATH = /^(?:(?:[a-z0-9]+(?:-[a-z0-9]+)*\/){0,2}index\.(?:html|json)|[a-z0-9]+(?:-[a-z0-9]+)*\/[a-z0-9]+(?:-[a-z0-9]+)*\/timeline\/index\.html)$/;
 
 /* ---------- News (state links + news.include − news.exclude, §22) ---------- */
 const newsTime = n => { const t = Date.parse(n && n.publishedAt); return Number.isNaN(t) ? null : t; };
@@ -192,8 +193,19 @@ export function compile(ds, { registry = null } = {}) {
     return { s, avail: v.avail, prov: v.prov, archiveGone: v.archiveGone, lastChecked: last };
   };
 
+  // "As of" day for the model timelines: the newest day the data itself mentions (checks,
+  // reviews, news). Not the clock, so the same input always gives the same pages (AC-26);
+  // assets/model-pages.js moves the marker to the real today in the browser.
+  const days = [];
+  const day = v => { if (typeof v === "string" && /^\d{4}-\d{2}-\d{2}/.test(v) && parseDate(v.slice(0, 10))) days.push(v.slice(0, 10)); };
+  ds.sources.forEach(s => day(s && s.lastCheckedAt));
+  Object.values(idx.status).forEach(st => st && day(st.lastCheckedAt));
+  links.forEach(l => l && day(l.publishedAt));
+  ds.models.forEach(m => m && day(m.lastReviewedAt));
+  const asOf = days.length ? days.sort()[days.length - 1] : null;
+
   const site = { ds, idx, graph, registry, warnings, models, modelById, explorer, orgs, orgById, redirects, inRel, promotedTo,
-    famById: idx.famById, org, orgName, topOrg: idx.topOrg, unitsOf: idx.unitsOf, style, source, chrono, sortIds };
+    famById: idx.famById, org, orgName, topOrg: idx.topOrg, unitsOf: idx.unitsOf, style, source, chrono, sortIds, asOf };
   for (const o of orgs) { o.graph = orgGraph(site, o); o.embed = embedOf(o.graph); }
   return site;
 }
@@ -316,6 +328,7 @@ export function sitemapXml(site) {
     // lastmod only where it is verifiably right: the curator's review date (§30).
     const lm = typeof i.m.lastReviewedAt === "string" && /^\d{4}-\d{2}-\d{2}$/.test(i.m.lastReviewedAt) && parseDate(i.m.lastReviewedAt) ? i.m.lastReviewedAt : null;
     urls.push({ loc: SITE + i.url, lastmod: lm });
+    urls.push({ loc: SITE + i.url + "timeline/", lastmod: lm });   // same indexing rule as the model page
   }
   urls.sort((a, b) => cmp(a.loc, b.loc));
   const xmlEsc = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -342,10 +355,17 @@ export function renderSite(site) {
     put(`${o.id}/index.html`, companyPage(site, o));
     put(`${o.id}/index.json`, toJson(orgJson(site, o)));
   }
-  for (const i of site.models) put(`${i.org}/${i.slug}/index.html`, modelPage(site, i));
-  for (const r of site.redirects) put(`${r.from.replace(/^\/models\//, "")}index.html`, redirectPage(site, r));
+  for (const i of site.models) {
+    put(`${i.org}/${i.slug}/index.html`, modelPage(site, i));
+    put(`${i.org}/${i.slug}/timeline/index.html`, timelinePage(site, i));
+  }
+  for (const r of site.redirects) {
+    put(`${r.from.replace(/^\/models\//, "")}index.html`, redirectPage(site, r));
+    // The old address of the timeline subpage moves along with the model page.
+    put(`${r.from.replace(/^\/models\//, "")}timeline/index.html`, redirectPage(site, { from: r.from + "timeline/", to: { ...r.to, url: r.to.url + "timeline/" } }));
+  }
   for (const [rel, text] of files) {
-    const limit = rel === "index.json" ? BUDGET.index : /^[^/]+\/index\.html$/.test(rel) ? BUDGET.company : /^[^/]+\/[^/]+\/index\.html$/.test(rel) ? BUDGET.model : null;
+    const limit = rel === "index.json" ? BUDGET.index : /^[^/]+\/index\.html$/.test(rel) ? BUDGET.company : /^[^/]+\/[^/]+\/(?:timeline\/)?index\.html$/.test(rel) ? BUDGET.model : null;
     if (limit && Buffer.byteLength(text) > limit) warn.push(`${rel} is ${Math.round(Buffer.byteLength(text) / 1024)} KB, over the ${limit / 1024} KB budget (§32)`);
   }
   return { files: new Map([...files].sort((a, b) => cmp(a[0], b[0]))), sitemap: sitemapXml(site) };
