@@ -5,7 +5,7 @@
 <link>https://ai-radar.eu/</link>
 <description>Combined updates from leading AI companies.</description>
 <language>en</language>
-<lastBuildDate>Tue, 29 Sep 2026 22:16:43 GMT</lastBuildDate>
+<lastBuildDate>Wed, 30 Sep 2026 01:20:51 GMT</lastBuildDate>
 <item>
 <title>[Changelog] Announcing Cohere's Embed 5 Models</title>
 <link>https://docs.cohere.com/changelog/embed-v5</link>
@@ -14,53 +14,11 @@
 <description>Release announcement for Embed 5 Pro and Embed 5 Fast, Cohere's most powerful family of embeddings models for enterprise search and retrieval.</description>
 </item>
 <item>
-<title>[Google News] After summit with tech titans, Trump calls for ‘tremendous self-regulation’ by AI companies - NBC News</title>
-<link>https://news.google.com/rss/articles/CBMiogFBVV95cUxNTjV0bUtBZ25mSXdRaS1vSkdYdnptUk9kdEpaLTg5dlhMZWVUMExuM01LYTU3cWxRT01yLWFnMmlQT0lfakgwdGpRUGZKX3haZF9NbXA1Zk01U2t0ME1QaVhxQV9EYVBZY05Pd0hOS2ZBUDJlY2NFdmVyOUppZzNzUVpiN1lsc3E3WV8tWml4TTU4aS1Sb1p3MkxaVTFZMi1udUE?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiogFBVV95cUxNTjV0bUtBZ25mSXdRaS1vSkdYdnptUk9kdEpaLTg5dlhMZWVUMExuM01LYTU3cWxRT01yLWFnMmlQT0lfakgwdGpRUGZKX3haZF9NbXA1Zk01U2t0ME1QaVhxQV9EYVBZY05Pd0hOS2ZBUDJlY2NFdmVyOUppZzNzUVpiN1lsc3E3WV8tWml4TTU4aS1Sb1p3MkxaVTFZMi1udUE?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 21:33:14 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Trump hails 'morally binding' AI self-regulation pledge after tech boss lunch - Le Monde.fr</title>
-<link>https://news.google.com/rss/articles/CBMitAFBVV95cUxPVDNieWk1VXNJdVpoNDhHbmZrd2ZSSnRtbnJuTTFpZ3NTWjd2QllmWlRfZFlJSkE4Y1g3N3NKNEYxaDVCWTFmUWc5SU4zUjVfaVpRQVNDV1p6TEdNQk5Mek5TRlZZaWFsOUV5UjdjMC15Q25uSGowMFNFNDRNbU16bDBGZDhZTzBhTVZCRS1VRWxJdk5KN0tqVU5qamh2aUQtVTVpQVE1RXZRbWVzR2Z5N1AtQzM?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitAFBVV95cUxPVDNieWk1VXNJdVpoNDhHbmZrd2ZSSnRtbnJuTTFpZ3NTWjd2QllmWlRfZFlJSkE4Y1g3N3NKNEYxaDVCWTFmUWc5SU4zUjVfaVpRQVNDV1p6TEdNQk5Mek5TRlZZaWFsOUV5UjdjMC15Q25uSGowMFNFNDRNbU16bDBGZDhZTzBhTVZCRS1VRWxJdk5KN0tqVU5qamh2aUQtVTVpQVE1RXZRbWVzR2Z5N1AtQzM?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 20:55:10 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] China’s AI Safety Catch-Up Is Hiding in Plain Sight - thewirechina.com</title>
-<link>https://news.google.com/rss/articles/CBMilgFBVV95cUxPclo1OFZiYmlfbnpYM054bW42VEpUek1jQ1p0cU03bkViQ1E0dGFzVU00YmZSdDdBN19WdEhXWEd2U2dOdDhJeS0xbVE0aUdpOGJ1dE5nU05vMDhnaXUtUWkzdXFYWUt4YU5pb2V4OGNmVkUtOTNGUEt6Z094NVpQRHQtWmsxR1NVNl9Fb3Z0U3k0cFRnNkE?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMilgFBVV95cUxPclo1OFZiYmlfbnpYM054bW42VEpUek1jQ1p0cU03bkViQ1E0dGFzVU00YmZSdDdBN19WdEhXWEd2U2dOdDhJeS0xbVE0aUdpOGJ1dE5nU05vMDhnaXUtUWkzdXFYWUt4YU5pb2V4OGNmVkUtOTNGUEt6Z094NVpQRHQtWmsxR1NVNl9Fb3Z0U3k0cFRnNkE?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 20:44:46 GMT</pubDate>
-
-</item>
-<item>
 <title>[Developer] AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect</title>
 <link>https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/</link>
 <guid isPermaLink="false">https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/</guid>
 <pubDate>Tue, 29 Sep 2026 19:10:51 GMT</pubDate>
 <description>Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around coding agents NVIDIA TensorRT...</description>
-</item>
-<item>
-<title>[YouTube] Vertically Integrated, Horizontally Open | AI Factory Insider Ep 5</title>
-<link>https://www.youtube.com/watch?v=mFv4VRoFj-k</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=mFv4VRoFj-k</guid>
-<pubDate>Tue, 29 Sep 2026 19:00:28 GMT</pubDate>
-<description>How can an AI platform be optimized from hardware to software while staying open to developers and partners at every layer? In Episode 5 of AI Factory Insider, host Kaushik Shirhatti (VP, AI Factory, NVIDIA) is joined by Pradeep Gupta (VP, Industries Solutions Architecture, NVIDIA) and Stephen Jones</description>
-</item>
-<item>
-<title>[YouTube] Build faster with Ultrafast</title>
-<link>https://www.youtube.com/watch?v=sKltfHvsDQM</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=sKltfHvsDQM</guid>
-<pubDate>Tue, 29 Sep 2026 18:47:34 GMT</pubDate>
-<description>Ultrafast is our fastest way to build with Astra yet: in Codex, it runs up to 8x faster than Astra Standard and 4x faster than Astra Fast. Bring your ideas to life as fast as you can type them.</description>
-</item>
-<item>
-<title>[YouTube] OpenAI DevDay 2026 Keynote (FULL)</title>
-<link>https://www.youtube.com/watch?v=Fls_onRviPM</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=Fls_onRviPM</guid>
-<pubDate>Tue, 29 Sep 2026 18:42:29 GMT</pubDate>
-<description>Watch Sam Altman, Romain Huet, Tejal Patwardhan, and Holly Li announce and demo 20+ launches at OpenAI DevDay, including dots, ChatGPT Spaces, GPT-6.1 Sol, Astra Ultrafast, and more.</description>
 </item>
 <item>
 <title>[Research] How Diffusion Controller unifies and simplifies AI image generation</title>
@@ -77,41 +35,6 @@
 <description>Vision-language models have made it possible to build visual AI agents that understand video at production scale. The harder problem is turning that capability...</description>
 </item>
 <item>
-<title>[YouTube] Meet the all new Codex Cloud</title>
-<link>https://www.youtube.com/watch?v=7Bv68f5szSU</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=7Bv68f5szSU</guid>
-<pubDate>Tue, 29 Sep 2026 18:18:13 GMT</pubDate>
-<description>Start a Codex task, close your laptop, and pick it up from your phone. See how to create a reusable cloud environment with your repositories, networking, and secrets, then share it with your team.</description>
-</item>
-<item>
-<title>[YouTube] Introducing dots, always-on agents built to handle everything.</title>
-<link>https://www.youtube.com/watch?v=uXspbC2srEQ</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=uXspbC2srEQ</guid>
-<pubDate>Tue, 29 Sep 2026 18:04:41 GMT</pubDate>
-<description>Dots are frontier intelligence that have your back. Powered by GPT‑6 Astra, they have their own cloud computer, learn from feedback over time, and can work towards your goals 24/7. Through our ecosystem of plugins, they can readily connect to over 4,000 apps, giving them the tools to help wherever y</description>
-</item>
-<item>
-<title>[Google News] A Complete Guide To DeepSeek’s 2026 IPO: What It Means For China ETF KSTR - Seeking Alpha</title>
-<link>https://news.google.com/rss/articles/CBMioAFBVV95cUxPeG9iTm5qUFZwbS1YUF9qVGVtOXBtS2UzQTRBWF9BX2ZVLUJCNXJUTnpxV0FhaUI4ZnhyUHF2Z1lUUzFHcXJvdmRRUk40MVBpUTJBRWEyR0JKcjY4dEVVZk92ZUxIcmV3MkVCblN0XzlLYkZyMFcxLUxQRXFZY0hkMC1LWnM3UDhFTVh0dUR0ZFR5M1BUcGg1OS1RVTF5c3k5?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMioAFBVV95cUxPeG9iTm5qUFZwbS1YUF9qVGVtOXBtS2UzQTRBWF9BX2ZVLUJCNXJUTnpxV0FhaUI4ZnhyUHF2Z1lUUzFHcXJvdmRRUk40MVBpUTJBRWEyR0JKcjY4dEVVZk92ZUxIcmV3MkVCblN0XzlLYkZyMFcxLUxQRXFZY0hkMC1LWnM3UDhFTVh0dUR0ZFR5M1BUcGg1OS1RVTF5c3k5?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 17:04:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[YouTube] Meet the builders of our time - the Codex Originals.</title>
-<link>https://www.youtube.com/watch?v=m8VkCbkFAKA</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=m8VkCbkFAKA</guid>
-<pubDate>Tue, 29 Sep 2026 17:00:15 GMT</pubDate>
-<description>These builders aren’t just writing code. They’re rewriting what’s possible.</description>
-</item>
-<item>
-<title>[YouTube] How to use Automations | Perplexity Academy</title>
-<link>https://www.youtube.com/watch?v=hbGlQEe0gJU</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=hbGlQEe0gJU</guid>
-<pubDate>Tue, 29 Sep 2026 16:29:25 GMT</pubDate>
-<description>Automations handle ongoing work, from daily briefings to release notes, without starting from scratch each time. Set the assignment once, choose a schedule or trigger, and let Computer pick up where it left off. A scheduled task runs at a set time, like an industry digest every morning. A trigger-ba</description>
-</item>
-<item>
 <title>[Newsroom] Find Your Community With Forum, a Dedicated App for Facebook Groups</title>
 <link>https://about.fb.com/news/2026/09/find-community-forum-dedicated-app-facebook-groups/</link>
 <guid isPermaLink="false">https://about.fb.com/news/2026/09/find-community-forum-dedicated-app-facebook-groups/</guid>
@@ -126,32 +49,11 @@
 
 </item>
 <item>
-<title>[Google News] A Complete Guide to DeepSeek’s 2026 IPO: What It Means For China ETF KSTR - KraneShares</title>
-<link>https://news.google.com/rss/articles/CBMinAFBVV95cUxNMTNod1pnd1pVN1d4QWpvWW4zbUxIcW9RWjI0ZjZzekZ4OXM2NmgxRnFMd2xaQjllZmZFY3B4N29Rblk1bVdPNWxqbEZfZzhZaE1XdlRTWkdCbkhUOTdMVE45cExfRWlhVl9FdTcwaGExUC1fWUs1bmZUQVFWNnZGMnVaLTNsYThUTXEzNFFmVmpKb3FFaGtBUjVXakE?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMinAFBVV95cUxNMTNod1pnd1pVN1d4QWpvWW4zbUxIcW9RWjI0ZjZzekZ4OXM2NmgxRnFMd2xaQjllZmZFY3B4N29Rblk1bVdPNWxqbEZfZzhZaE1XdlRTWkdCbkhUOTdMVE45cExfRWlhVl9FdTcwaGExUC1fWUs1bmZUQVFWNnZGMnVaLTNsYThUTXEzNFFmVmpKb3FFaGtBUjVXakE?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 14:04:05 GMT</pubDate>
-
-</item>
-<item>
 <title>[Research] Introducing Quine: An AI research system designed for the complexity of biology</title>
 <link>https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/</link>
 <guid isPermaLink="false">https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/</guid>
 <pubDate>Tue, 29 Sep 2026 14:00:02 +0000</pubDate>
 <description>Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine helps scientists computationally search a space far larger th</description>
-</item>
-<item>
-<title>[Google News] The Limits of the Nuclear Analogy in Frontier Artificial Intelligence Governance - debuglies.com</title>
-<link>https://news.google.com/rss/articles/CBMitAFBVV95cUxPWEZkMFN1My05QlhWdk1WZWVESEdIYXZUc3hIaldPS1hkRndWb1VuTzNoMUR0Y2xpUVhCbnVubjk5Z1pIUUdublVFZmlGSzNZM3FOS2xmOVhUc3hRampQSG44SW42NzluTWZXLWYzLXY5NWVaTDVXR1R6N19ObGd3c05JWmZZQmo1Z1RpVEE1dGsweUdZUlpsSXRSQ3Y5QVlER1VZTEd2OXVwdGR6REpZb0VnS0U?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitAFBVV95cUxPWEZkMFN1My05QlhWdk1WZWVESEdIYXZUc3hIaldPS1hkRndWb1VuTzNoMUR0Y2xpUVhCbnVubjk5Z1pIUUdublVFZmlGSzNZM3FOS2xmOVhUc3hRampQSG44SW42NzluTWZXLWYzLXY5NWVaTDVXR1R6N19ObGd3c05JWmZZQmo1Z1RpVEE1dGsweUdZUlpsSXRSQ3Y5QVlER1VZTEd2OXVwdGR6REpZb0VnS0U?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 13:39:25 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] US tech leaders are urgently calling for rules on AI – China already has them - theconversation.com</title>
-<link>https://news.google.com/rss/articles/CBMirwFBVV95cUxQSTlHRDNpbHh1Q2tGamgyWWlmZEdqb05UMGpKY29VUkFvOWlzWlotOEhaVko3ZkhoSGI4SkViUzRZTm9uYUxkSUtudEJPX3AzZXNOcVdrOVZKLXFQTk54aEc5T0JTZHdPV1p5aXJXd3FhNmpfUXBHUWJLeTRfbVZYSks4YThHV2tpWmNERWRSR0NKWENKVjM1aFMyWnNrcUtRT0V2dkx5dGRzd3p3WDJV?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMirwFBVV95cUxQSTlHRDNpbHh1Q2tGamgyWWlmZEdqb05UMGpKY29VUkFvOWlzWlotOEhaVko3ZkhoSGI4SkViUzRZTm9uYUxkSUtudEJPX3AzZXNOcVdrOVZKLXFQTk54aEc5T0JTZHdPV1p5aXJXd3FhNmpfUXBHUWJLeTRfbVZYSks4YThHV2tpWmNERWRSR0NKWENKVjM1aFMyWnNrcUtRT0V2dkx5dGRzd3p3WDJV?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 13:08:58 GMT</pubDate>
-
 </item>
 <item>
 <title>[Blog] Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents</title>
@@ -168,53 +70,11 @@
 <description>We're expanding our School Partnership Program to give verified school partners, verified students, and parents new features to stay connected and informed. The post Expanding Instagram’s School Partnership Program to Help Teens Stay Informed appeared first on Meta Newsroom .</description>
 </item>
 <item>
-<title>[Google News] GT Economic Investigates: What does DeepSeek's doubling annualized revenue mean for China’s AI commercialization? - Global Times</title>
-<link>https://news.google.com/rss/articles/CBMiYkFVX3lxTE56RVI1Qzh5c1Z0MFBuMlhTcGcwNy1UYXFtVWszSnhqeEZNXzdsN3dCdU5JVFI5SjNld25Ua2JCSnN5VTFDSmxxRzNLaHZmQnJuMGJ3UEtXWlpDSm4ycGEzTHFR?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiYkFVX3lxTE56RVI1Qzh5c1Z0MFBuMlhTcGcwNy1UYXFtVWszSnhqeEZNXzdsN3dCdU5JVFI5SjNld25Ua2JCSnN5VTFDSmxxRzNLaHZmQnJuMGJ3UEtXWlpDSm4ycGEzTHFR?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 12:40:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Bret Taylor Says Superintelligence Is Already Here - StartupHub.ai</title>
-<link>https://news.google.com/rss/articles/CBMiswFBVV95cUxPUE96VzFGcURrOU9hQmV3Unl5SnlObjYxQzJYa2ZwRTJVV2F0V1Aydi1MWFNzSDM5aGVqelFPMzEzd2xZZFJNU0lyQ01FSXV2MENXYWxla1p6cG10Q3RxbFZpaC0xdTlxRmE5bmpLdlF6M1RUbWlNbjBrS2c3bjBkeVk4cWFDZTlwRmxLeVFtSWxnU1BlbE5TVXAzT1ZrODBKbXVKb0dVNHRIamZRMy1IMVFNZw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiswFBVV95cUxPUE96VzFGcURrOU9hQmV3Unl5SnlObjYxQzJYa2ZwRTJVV2F0V1Aydi1MWFNzSDM5aGVqelFPMzEzd2xZZFJNU0lyQ01FSXV2MENXYWxla1p6cG10Q3RxbFZpaC0xdTlxRmE5bmpLdlF6M1RUbWlNbjBrS2c3bjBkeVk4cWFDZTlwRmxLeVFtSWxnU1BlbE5TVXAzT1ZrODBKbXVKb0dVNHRIamZRMy1IMVFNZw?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 10:55:34 GMT</pubDate>
-
-</item>
-<item>
 <title>[MIT Tech Review] Making AI an asset, not an expense</title>
 <link>https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/</link>
 <guid isPermaLink="false">https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/</guid>
 <pubDate>Tue, 29 Sep 2026 10:43:45 +0000</pubDate>
 <description>When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation goes. As AI moves from experimentation to</description>
-</item>
-<item>
-<title>[Google News] Xiaomi Claims an 80% Compute Cost Drop for Unreleased MiMo V3 - Geeky Gadgets</title>
-<link>https://news.google.com/rss/articles/CBMicEFVX3lxTE5lXzRxVzNPOHRNeTFMYXpaM0pBQS1CZ3IweEVUT2pKY3U1WnZLZWNkek5HSEJHZWo0SFVia1pBbXVQTFl0RVBkVmpHUWxmZVQ5QTVzelU4akloMWd0REdKd3hpYlliYXhYR0E0X2N0M3I?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMicEFVX3lxTE5lXzRxVzNPOHRNeTFMYXpaM0pBQS1CZ3IweEVUT2pKY3U1WnZLZWNkek5HSEJHZWo0SFVia1pBbXVQTFl0RVBkVmpHUWxmZVQ5QTVzelU4akloMWd0REdKd3hpYlliYXhYR0E0X2N0M3I?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 10:17:45 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Your browser can run LLMs now. So what? - StartupHub.ai</title>
-<link>https://news.google.com/rss/articles/CBMiogFBVV95cUxPTmtMVjBuZkdOOWdlNkZrWGlkRnFXZGpUeGxocl9mTXNDWjZwRl9aUGRfaFp4RkRnMEpVeE9Lb09SQkw3cGxKR2ZlbGF6QXgtcUpPcWhackpSZkhraFNVTnoycnZQeDVIRU1NUU5tbTFwdFdwTWxUOGw0d3RMZnQxcjlXUHRUX0tqTUE0YlBER2hiSEE3VTdqWjlobmpmVlJuekE?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiogFBVV95cUxPTmtMVjBuZkdOOWdlNkZrWGlkRnFXZGpUeGxocl9mTXNDWjZwRl9aUGRfaFp4RkRnMEpVeE9Lb09SQkw3cGxKR2ZlbGF6QXgtcUpPcWhackpSZkhraFNVTnoycnZQeDVIRU1NUU5tbTFwdFdwTWxUOGw0d3RMZnQxcjlXUHRUX0tqTUE0YlBER2hiSEE3VTdqWjlobmpmVlJuekE?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 10:07:12 GMT</pubDate>
-
-</item>
-<item>
-<title>[YouTube] The Defender's Window at enterprise scale with Standard Chartered</title>
-<link>https://www.youtube.com/watch?v=a75xDflRooI</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=a75xDflRooI</guid>
-<pubDate>Tue, 29 Sep 2026 10:01:43 GMT</pubDate>
-<description>Matt Weaver, Head of Applied AI Architects at OpenAI, and Reuben Athaide, Head of Innovation, Applications &amp; Assurance at Standard Chartered, discuss how the global bank is using OpenAI Daybreak to stay ahead of attackers.</description>
-</item>
-<item>
-<title>[YouTube] Building the partner ecosystem with Sophos</title>
-<link>https://www.youtube.com/watch?v=zoohZ1BiHs0</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=zoohZ1BiHs0</guid>
-<pubDate>Tue, 29 Sep 2026 10:00:28 GMT</pubDate>
-<description>Claire Lawlor, Digital Native AD EMEA at OpenAI, and John Peterson, CTO at Sophos, explain the role of technology partnerships in keeping organizations safe from cyber threats</description>
 </item>
 <item>
 <title>[News] Introducing GPT-6.1 Sol</title>
@@ -245,32 +105,11 @@
 <description>As scams grow more sophisticated and difficult to detect, keeping people safe takes more than technology alone – it also requires education. Today, we’re sharing progress on our “One Step Ahead” anti-scam education campaign designed to help people across Asia-Pacific take simple, practical steps to </description>
 </item>
 <item>
-<title>[Google News] AMD to buy Fei-Fei Li’s World Labs AI startup for US$8.2 bil - The Edge Singapore</title>
-<link>https://news.google.com/rss/articles/CBMisgFBVV95cUxQNVYxd3hEazNKQ216bGZMNUlGTDJmSm5TNzU2ZThsMnJpODBJMkZqQkpycEh3REhmOVNMektCSFhFblUtVGhSYkxPdUZHRXR1b292dS1yMnVyekw5T0ZSWFl5SkhnVl9CMjYwdThObVZHS1RIeF9UREk5ZEF4V2F5cUFqNDVvdlhnRjNkUmE3WTFWNFUyOFBxRVZ5cHF3TW5zZEFXMWdHMnpKY1hubzZUdF9R0gG3AUFVX3lxTE9sYThoZHBfajFhSUQwcjcydjdkbFZKMTA4bjB2bzh4OXU3SklGRG9HWE5QU1RUVXVPek5kZDM3VUZVNHZQN2VIZVdTWEkxbEFkZVhFYVNjVVJIY1pPVUViWmNzTWsxWmhPRy0wUDJPMndlSXVIVjRSY28zcURvYXZYLVRVSE90N29JSmR1RHJtcS03T0Rxd3BNdDI4VEVxNk1pRTVlcjlmTXl4TUtBb3lVYm8tQ1NvQQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMisgFBVV95cUxQNVYxd3hEazNKQ216bGZMNUlGTDJmSm5TNzU2ZThsMnJpODBJMkZqQkpycEh3REhmOVNMektCSFhFblUtVGhSYkxPdUZHRXR1b292dS1yMnVyekw5T0ZSWFl5SkhnVl9CMjYwdThObVZHS1RIeF9UREk5ZEF4V2F5cUFqNDVvdlhnRjNkUmE3WTFWNFUyOFBxRVZ5cHF3TW5zZEFXMWdHMnpKY1hubzZUdF9R0gG3AUFVX3lxTE9sYThoZHBfajFhSUQwcjcydjdkbFZKMTA4bjB2bzh4OXU3SklGRG9HWE5QU1RUVXVPek5kZDM3VUZVNHZQN2VIZVdTWEkxbEFkZVhFYVNjVVJIY1pPVUViWmNzTWsxWmhPRy0wUDJPMndlSXVIVjRSY28zcURvYXZYLVRVSE90N29JSmR1RHJtcS03T0Rxd3BNdDI4VEVxNk1pRTVlcjlmTXl4TUtBb3lVYm8tQ1NvQQ?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 03:29:56 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] US, Chinese Firms Clash Over AI Distillation Techniques - 조선일보</title>
-<link>https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMV9FU3ZITGg5Q1Z1VEoyTEZKNDRRVzQyMThEdlJOdXZBVHltQms3Sl9nYWtyT3FDOGNHQ2pDSmwwSTZURXBnNjVqTWdkZUk2NzNyWXd6RnBaQ1NVa2tMbHQ1SnI2Y2xKNHlyWGNoLVphR2xpNWdCVWFnX1ZnTHplREx3cXJIZnlH?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMV9FU3ZITGg5Q1Z1VEoyTEZKNDRRVzQyMThEdlJOdXZBVHltQms3Sl9nYWtyT3FDOGNHQ2pDSmwwSTZURXBnNjVqTWdkZUk2NzNyWXd6RnBaQ1NVa2tMbHQ1SnI2Y2xKNHlyWGNoLVphR2xpNWdCVWFnX1ZnTHplREx3cXJIZnlH?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 02:27:33 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] AMD buys software firm World Labs founded by 'godmother of AI' for $8.2 bn - electronics.economictimes.indiatimes.com</title>
-<link>https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMVRpYlllRXhyMy1UZDlUaUhoUG03NWQ1UFREbWNjNTgzQXNVT2FJRnVKNUFMNkVSVXltNEdIbllJT0NtaVgyT0N1MG1oSUVyWVNCT3owelc3S0JMcWIzMm5qX0pxQnlNSHVuZ1F4SmgtUFlPMExONTVpV25DcDZnVmZEbGpRdHNxVUR3VllwMnhSX0o5RjVZQkg5U0MzN2V1X1RGWkVsYXZ3LWdUZEU1S2dSNTRfRUk0dEIzX2Y1RUVjRF94SXZRS1JQQWZIQkFROEQyUFpOeDNKUUFLRXBrUmtOWdIB6AFBVV95cUxOempVTmpmam9zY3dmUWZuaFdtYldncWo3WXBlT1lfRE4yZDBHRFVNcHRNMlBVNkw2cGx6NldhMXlCUFh3eWpzN1hIUEVqRkQ2NzZUQVBtNjNXSzd1ZV9nMGFtMFU3LWdQVkV4LUI1dDFSb1hKWGdsOVRJbk82eTlZUmlFS0wxSG45XzVFSWxUTTUzN1hBcE9HSEstV2p5aE1TbHdXUEJNdFQzd0RIbG1ZcUk5ZHFEdDgxWFBVNllYdHBJV2ozRDl5SUc1ZzJ5T1A0T3hYSTJIOWcydzZwMFlaeEdXOWVBcmE4?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMVRpYlllRXhyMy1UZDlUaUhoUG03NWQ1UFREbWNjNTgzQXNVT2FJRnVKNUFMNkVSVXltNEdIbllJT0NtaVgyT0N1MG1oSUVyWVNCT3owelc3S0JMcWIzMm5qX0pxQnlNSHVuZ1F4SmgtUFlPMExONTVpV25DcDZnVmZEbGpRdHNxVUR3VllwMnhSX0o5RjVZQkg5U0MzN2V1X1RGWkVsYXZ3LWdUZEU1S2dSNTRfRUk0dEIzX2Y1RUVjRF94SXZRS1JQQWZIQkFROEQyUFpOeDNKUUFLRXBrUmtOWdIB6AFBVV95cUxOempVTmpmam9zY3dmUWZuaFdtYldncWo3WXBlT1lfRE4yZDBHRFVNcHRNMlBVNkw2cGx6NldhMXlCUFh3eWpzN1hIUEVqRkQ2NzZUQVBtNjNXSzd1ZV9nMGFtMFU3LWdQVkV4LUI1dDFSb1hKWGdsOVRJbk82eTlZUmlFS0wxSG45XzVFSWxUTTUzN1hBcE9HSEstV2p5aE1TbHdXUEJNdFQzd0RIbG1ZcUk5ZHFEdDgxWFBVNllYdHBJV2ozRDl5SUc1ZzJ5T1A0T3hYSTJIOWcydzZwMFlaeEdXOWVBcmE4?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 02:27:10 GMT</pubDate>
-
-</item>
-<item>
 <title>[News] Introducing dots</title>
 <link>https://openai.com/index/introducing-dots</link>
 <guid isPermaLink="false">https://openai.com/index/introducing-dots</guid>
 <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-<description>Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.</description>
+<description>Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.</description>
 </item>
 <item>
 <title>[Research] GLM-5.3 and the spread of advanced cyber capabilities</title>
@@ -294,32 +133,11 @@
 <description>Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review </description>
 </item>
 <item>
-<title>[Google News] Spanberger calls for federal oversight of artificial intelligence - WWBT</title>
-<link>https://news.google.com/rss/articles/CBMioAFBVV95cUxOc1NtRGREeWEydGN6ZUdrejhpQ1V5djQ4WWlORHlUVVQ2X201QzFJT3pzeDdraXNpMm40WHpqcEw3YWhsZjFFbXJnRWlrSURNSDR5dk5Cak5wREhFUG8yZlk3VEgxTzVMdzlZcU9fbjhkdVctNTNJUTNUUVVaRDJ4RG1pekRKdG1McE5Vc0dkSkNDU0RwM2pSWU5fX05mRFZa0gG0AUFVX3lxTE85VzFxNnRaUjBMbmFWd015NDZ5QUoyYXlEcjNXcVVMM0lBdnVsWWw1NXhNc2hubUQwaDBtMlVvYW9idlRIVFJUbm1yVjJ1Z1ltTTVQekd6TFlNYWw0dXZ3WWtxR1NfUHh2Q09Za19RSUFXcmNfb1ZDNkRSc2h2ajR5TjRUS2lMWDhfX2JJQ0k0NmVsbUVkNzc5a1UzYTl1WENySGNLZERicVQ4SGw2N3ZScE9veA?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMioAFBVV95cUxOc1NtRGREeWEydGN6ZUdrejhpQ1V5djQ4WWlORHlUVVQ2X201QzFJT3pzeDdraXNpMm40WHpqcEw3YWhsZjFFbXJnRWlrSURNSDR5dk5Cak5wREhFUG8yZlk3VEgxTzVMdzlZcU9fbjhkdVctNTNJUTNUUVVaRDJ4RG1pekRKdG1McE5Vc0dkSkNDU0RwM2pSWU5fX05mRFZa0gG0AUFVX3lxTE85VzFxNnRaUjBMbmFWd015NDZ5QUoyYXlEcjNXcVVMM0lBdnVsWWw1NXhNc2hubUQwaDBtMlVvYW9idlRIVFJUbm1yVjJ1Z1ltTTVQekd6TFlNYWw0dXZ3WWtxR1NfUHh2Q09Za19RSUFXcmNfb1ZDNkRSc2h2ajR5TjRUS2lMWDhfX2JJQ0k0NmVsbUVkNzc5a1UzYTl1WENySGNLZERicVQ4SGw2N3ZScE9veA?oc=5</guid>
-<pubDate>Mon, 28 Sep 2026 22:14:00 GMT</pubDate>
-
-</item>
-<item>
 <title>[Research] One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact</title>
 <link>https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/</link>
 <guid isPermaLink="false">https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/</guid>
 <pubDate>Mon, 28 Sep 2026 21:00:00 +0000</pubDate>
 <description>Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across government, academia, and industry, and explored how frontier AI research can create real-world value. The post One year in: How Microsoft Research Asia – Singap</description>
-</item>
-<item>
-<title>[Google News] Contradicting Trump, Pope Leo says artificial intelligence safety concerns not 'fake news' - ABC7 Los Angeles</title>
-<link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLUxGancxZ1Zya095b0xkOHA4M2RNSi1CN2VpWGUwdURDblVHTFI5SjlzcE5fRkNGd0JYYm15anl5Z3BOcERLWklpNi1LWUVNeTdkM0hXcHF4eHpfZXJHZS1sR0J6cjZidXozSFktMFkxSDRpUzRQQmRIbkJMVkUzVXN2dE5kdzhKUzlCQ3pHRTRrZ3UxSkNBX3dWR2c2U01xVGV1cGxWaEVaVG5fWDZ1TUR2ODVVRXVQSGd30gHAAUFVX3lxTE96aDc2LUZIM0RxT3llMlVZeUY3OWdhTTZwMS14MFloQlp2V3J5NHNiWVBrWDhlYy01LUZOVXhWendVMFJvdlpUeWV4bl9nUjdUSVpUU3lYV1NPWTEyLXRsNnNYdnBGOHZnVG4tUUlSNVVIelNlMnhFMFVvRjl4ZTNHdlpqdHJBVldhZzNtZDNMeGxiZnZuaU5tVDY3TDhZbVRub0s5cDduRVZpaThhb0txdy02UVcyOWpfdDc0M1UwOA?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuwFBVV95cUxPLUxGancxZ1Zya095b0xkOHA4M2RNSi1CN2VpWGUwdURDblVHTFI5SjlzcE5fRkNGd0JYYm15anl5Z3BOcERLWklpNi1LWUVNeTdkM0hXcHF4eHpfZXJHZS1sR0J6cjZidXozSFktMFkxSDRpUzRQQmRIbkJMVkUzVXN2dE5kdzhKUzlCQ3pHRTRrZ3UxSkNBX3dWR2c2U01xVGV1cGxWaEVaVG5fWDZ1TUR2ODVVRXVQSGd30gHAAUFVX3lxTE96aDc2LUZIM0RxT3llMlVZeUY3OWdhTTZwMS14MFloQlp2V3J5NHNiWVBrWDhlYy01LUZOVXhWendVMFJvdlpUeWV4bl9nUjdUSVpUU3lYV1NPWTEyLXRsNnNYdnBGOHZnVG4tUUlSNVVIelNlMnhFMFVvRjl4ZTNHdlpqdHJBVldhZzNtZDNMeGxiZnZuaU5tVDY3TDhZbVRub0s5cDduRVZpaThhb0txdy02UVcyOWpfdDc0M1UwOA?oc=5</guid>
-<pubDate>Mon, 28 Sep 2026 20:54:58 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] AI White House Meeting: Trump To Convene Tech Giants For Landmark AI Summit As House Speaker Johnson Urges ‘Balance’ On Regulation; Zuckerberg, Amodei And Brockman To Join High-Stakes Talks - sundayguardianlive.com</title>
-<link>https://news.google.com/rss/articles/CBMizgJBVV95cUxPcW03TWc2WkJla1g5QlNaVlVMTUpnQzFQMDJVS1JTbmJ1d093TVJHckN5NW42c1U3WFUwRDlhWlo0VHFmQ05rcWpjM0h3YTU1ZnVDd1JkRlVUaVJpWWNISDZOaTZMNW96ZVNFWnBua2RvOGd6ZVFNanJZM3c0N2RWbHQ5NkthVS16bXA4NndRQTVrbkZpNkVQdlptVWYwU2wyTDlsamthUE1UVVh4WER4eEZDZGRBUTFwNVJBVlVWQ0RuTDhfdWpMM1Izb2hDRnhmZFhya1haWVZsY19oaGU5YmE0aGl3Ync1X25Ha1VmREduMnFvSm0wMS0yZGt4WEp0cHd2a0lfMkRxZlFKMmQ1VW8xT3ZVWnJWSDdISjhCM1hmZDZEVU9qc3lpenl2TFMwMkNNcjVJUHZUNzRXRFZtbkxzU2hhOVVfX0I3N3NR0gHTAkFVX3lxTE9DZVVuanlpR1M5TGNaQ3VlNnNQcXdULVotVmxhaVktRjJjMVlDTHI5S2J0dGpqZ2pia0ppSmtNbmx3cVNWdHlXY2M5Z0VRekU1bEV1eXpLazF5UzBscU5hV19kRGg3aVFVeXJRWmRidElUOXR0UnRMTS1EWE84ajdiTW5PMVpOX0RhUG1ueDdobUNrZjhfVC05N0ZlTThhSlhmY1hXeWlmSVM3bDBfNENFVkF5d29oWG1PUG4xNmxPQ2JVbl8tb3drMXpZaFc1OHNRU0Uta0E2X3Y1MUh6Y1hDc1M5bkZmOTVLSmxTWExNdC1TMW1VS1VFeVhzZFYwWXVBS2wyOWpNVnctYmo0dkxGb2w1MjJtWXJMWnRSOURrbmtscm9ZOGZTbEtSaVdBSjBwY1prNjVYZGxYMVRReVRTOWZwT2h3R1JIY0lmdUlyQXdPNA?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMizgJBVV95cUxPcW03TWc2WkJla1g5QlNaVlVMTUpnQzFQMDJVS1JTbmJ1d093TVJHckN5NW42c1U3WFUwRDlhWlo0VHFmQ05rcWpjM0h3YTU1ZnVDd1JkRlVUaVJpWWNISDZOaTZMNW96ZVNFWnBua2RvOGd6ZVFNanJZM3c0N2RWbHQ5NkthVS16bXA4NndRQTVrbkZpNkVQdlptVWYwU2wyTDlsamthUE1UVVh4WER4eEZDZGRBUTFwNVJBVlVWQ0RuTDhfdWpMM1Izb2hDRnhmZFhya1haWVZsY19oaGU5YmE0aGl3Ync1X25Ha1VmREduMnFvSm0wMS0yZGt4WEp0cHd2a0lfMkRxZlFKMmQ1VW8xT3ZVWnJWSDdISjhCM1hmZDZEVU9qc3lpenl2TFMwMkNNcjVJUHZUNzRXRFZtbkxzU2hhOVVfX0I3N3NR0gHTAkFVX3lxTE9DZVVuanlpR1M5TGNaQ3VlNnNQcXdULVotVmxhaVktRjJjMVlDTHI5S2J0dGpqZ2pia0ppSmtNbmx3cVNWdHlXY2M5Z0VRekU1bEV1eXpLazF5UzBscU5hV19kRGg3aVFVeXJRWmRidElUOXR0UnRMTS1EWE84ajdiTW5PMVpOX0RhUG1ueDdobUNrZjhfVC05N0ZlTThhSlhmY1hXeWlmSVM3bDBfNENFVkF5d29oWG1PUG4xNmxPQ2JVbl8tb3drMXpZaFc1OHNRU0Uta0E2X3Y1MUh6Y1hDc1M5bkZmOTVLSmxTWExNdC1TMW1VS1VFeVhzZFYwWXVBS2wyOWpNVnctYmo0dkxGb2w1MjJtWXJMWnRSOURrbmtscm9ZOGZTbEtSaVdBSjBwY1prNjVYZGxYMVRReVRTOWZwT2h3R1JIY0lmdUlyQXdPNA?oc=5</guid>
-<pubDate>Mon, 28 Sep 2026 19:52:40 GMT</pubDate>
-
 </item>
 <item>
 <title>[News] Towards safety cases for frontier AI training</title>
@@ -340,20 +158,6 @@
 <link>https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/</link>
 <guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/</guid>
 <pubDate>Mon, 28 Sep 2026 19:00:00 +0000</pubDate>
-
-</item>
-<item>
-<title>[YouTube] GPT-6 Astra in practice: Turning ideas into projects</title>
-<link>https://www.youtube.com/watch?v=6wNqpZdHE_s</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=6wNqpZdHE_s</guid>
-<pubDate>Mon, 28 Sep 2026 18:05:42 GMT</pubDate>
-<description>See what members of the OpenAI Developer Experience team are building with Astra, from a YouTube thumbnail generator and visual learning tools to music workflows, a hardware prototype, and a tactical RPG. The team shares how Astra helps them turn loosely defined ideas into working projects, navigate</description>
-</item>
-<item>
-<title>[Google News] Accountable Artificial Intelligence Series - Just Security</title>
-<link>https://news.google.com/rss/articles/CBMihgFBVV95cUxOdkRWRl9pUS1DRTVIY0hoYkhyb3VwbzZsdW1fbGFXTV8xZXRSamU0Z1RRU192VWdMaVVFUTBXSXE4aTFVRTM5dTdpRllfal9XWmxIUmMzSWxrRWNHMndUNlBJTTM3VEJqemhTSlJmNjl6clA4U0ljMjFZV2RndTRMSFV4VEZKQQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMihgFBVV95cUxOdkRWRl9pUS1DRTVIY0hoYkhyb3VwbzZsdW1fbGFXTV8xZXRSamU0Z1RRU192VWdMaVVFUTBXSXE4aTFVRTM5dTdpRllfal9XWmxIUmMzSWxrRWNHMndUNlBJTTM3VEJqemhTSlJmNjl6clA4U0ljMjFZV2RndTRMSFV4VEZKQQ?oc=5</guid>
-<pubDate>Mon, 28 Sep 2026 17:51:11 GMT</pubDate>
 
 </item>
 <item>
@@ -399,32 +203,228 @@
 <description>Our Virtual Machine Lifecycle policy guides how we manage these transitions, giving Azure customers transparency, predictability, and guidance. The post Enhancing Microsoft Azure Virtual Machine lifecycle appeared first on Microsoft Azure Blog .</description>
 </item>
 <item>
-<title>[Google News] What If Automating AI R&amp;D Triggers an Intelligence Explosion? - The Foundation for American Innovation</title>
-<link>https://news.google.com/rss/articles/CBMimAFBVV95cUxNVVdrUHY4bW4tUUMtT1Rack5BelM4aUl0M0FxWlREaUFSazRHQ25rZm5GTVRwVV9nT25GbjhFb2VCU1RFUnpYTHFEbkctdGc0al83SFFjLW9MaGJvUjFVekdNWlhYcDVGV3dibFZNMGRVQ0pxSUJ2dkl0anZ2a05MdjVvemtlMFdXSWpjQWhIYVByb0xTeVdWeQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMimAFBVV95cUxNVVdrUHY4bW4tUUMtT1Rack5BelM4aUl0M0FxWlREaUFSazRHQ25rZm5GTVRwVV9nT25GbjhFb2VCU1RFUnpYTHFEbkctdGc0al83SFFjLW9MaGJvUjFVekdNWlhYcDVGV3dibFZNMGRVQ0pxSUJ2dkl0anZ2a05MdjVvemtlMFdXSWpjQWhIYVByb0xTeVdWeQ?oc=5</guid>
-<pubDate>Mon, 28 Sep 2026 14:41:42 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Training on entrepreneurship, startup culture, and artificial intelligence held at Baku Engineering University - AZƏRTAC – Azərbaycan Dövlət İnformasiya Agentliyi</title>
-<link>https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcUhFT0hRclZQQ1dVaDhHb3ZNa2RDa0EyaHBqOHpxNk9NZVdNLUdtUGJHQ1JUOEJ5N3pNLVp4aUdPajVralBjNkhaWmVNUWRJd0pCRm9IQ3pSYkJtbFJLWTdkU0tWeGhUT3dHa08zQ2RkR0FfUWloRFJpNFVFTTBBSXFsXzl1R2gzalhjUXNubjQyck0tSXBNeXlvYU9uRFdKbnpGeEl2dnlNQTljTGptdGk5aUlQMkhfZzNYM0dVaG9YTXFXOFJCN1l0RC1TOVZvTW83UkotbGVDVTdL?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcUhFT0hRclZQQ1dVaDhHb3ZNa2RDa0EyaHBqOHpxNk9NZVdNLUdtUGJHQ1JUOEJ5N3pNLVp4aUdPajVralBjNkhaWmVNUWRJd0pCRm9IQ3pSYkJtbFJLWTdkU0tWeGhUT3dHa08zQ2RkR0FfUWloRFJpNFVFTTBBSXFsXzl1R2gzalhjUXNubjQyck0tSXBNeXlvYU9uRFdKbnpGeEl2dnlNQTljTGptdGk5aUlQMkhfZzNYM0dVaG9YTXFXOFJCN1l0RC1TOVZvTW83UkotbGVDVTdL?oc=5</guid>
-<pubDate>Mon, 28 Sep 2026 13:34:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[YouTube] The Defender's Window: Cyber security keynote</title>
-<link>https://www.youtube.com/watch?v=3jDhHA9JGUE</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=3jDhHA9JGUE</guid>
-<pubDate>Mon, 28 Sep 2026 13:29:06 GMT</pubDate>
-<description>OpenAI's security experts explain why every organization needs a cyber defence factory, and how to build it with Daybreak.</description>
-</item>
-<item>
 <title>[Newsroom (AI)] Launching Meta Enterprise Platform</title>
 <link>https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/</link>
 <guid isPermaLink="false">https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/</guid>
 <pubDate>Mon, 28 Sep 2026 12:36:14 +0000</pubDate>
 <description>Today we are starting Meta Enterprise Platform to help businesses use AI to grow, and Chirantan "CJ" Desai will join Meta as Chief Enterprise Platform Officer The post Launching Meta Enterprise Platform appeared first on Meta Newsroom .</description>
+</item>
+<item>
+<title>[Newsroom] NVIDIA Announces a $150 Billion Share Repurchase Authorization Increase</title>
+<link>https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase</link>
+<guid isPermaLink="false">https://nvidianews.nvidia.com/news/nvidia-announces-a-150-billion-share-repurchase-authorization-increase</guid>
+<pubDate>Mon, 28 Sep 2026 11:00:00 GMT</pubDate>
+<description>NVIDIA today announced that its Board of Directors has authorized an additional $150 billion under the company’s existing share repurchase program, increasing the total remaining amount authorized to $235 billion.</description>
+</item>
+<item>
+<title>[Blog] Holo4: powering generalist computer-use agents</title>
+<link>https://huggingface.co/blog/Hcompany/holo4</link>
+<guid isPermaLink="false">https://huggingface.co/blog/Hcompany/holo4</guid>
+<pubDate>Mon, 28 Sep 2026 09:44:05 GMT</pubDate>
+
+</item>
+<item>
+<title>[Newsroom] NVIDIA Launches Open Agent Safety Platform to Secure Agents From Testing to Deployment</title>
+<link>https://nvidianews.nvidia.com/news/open-agent-safety-platform</link>
+<guid isPermaLink="false">https://nvidianews.nvidia.com/news/open-agent-safety-platform</guid>
+<pubDate>Mon, 28 Sep 2026 09:00:00 GMT</pubDate>
+<description>NVIDIA today announced NVIDIA Open Agent Safety Platform, an open software platform and reference system design to strengthen AI security from agent testing to deployment, with full-stack governance and control across software and the hardware, compute and robotics systems that run agents.</description>
+</item>
+<item>
+<title>[Developer] NVIDIA Open Agent Safety Platform: A Reference for Continuous In-Silicon Agent Monitoring</title>
+<link>https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/</guid>
+<pubDate>Mon, 28 Sep 2026 08:56:55 GMT</pubDate>
+<description>To understand where agentic AI stands today, consider the last seismic shift in technology: the rise of the internet in the 90s. It was new and full of...</description>
+</item>
+<item>
+<title>[Developer] Add Runtime Controls to AI Agents with NVIDIA OpenShell</title>
+<link>https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/</guid>
+<pubDate>Mon, 28 Sep 2026 08:55:00 GMT</pubDate>
+<description>AI agents can be given a goal, write code, use tools, and keep working as new information becomes available. This opens the door to applications that...</description>
+</item>
+<item>
+<title>[MIT Tech Review] Who’s liable when AI agents go rogue?</title>
+<link>https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/</link>
+<guid isPermaLink="false">https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/</guid>
+<pubDate>Mon, 28 Sep 2026 08:06:22 +0000</pubDate>
+<description>MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of cyberattacks by AI agents has stunned the world. In July, OpenAI disclosed that a </description>
+</item>
+<item>
+<title>[News] The Lenfest Institute grows landmark program with expanded OpenAI support</title>
+<link>https://openai.com/index/lenfest-ai-collaborative-expansion</link>
+<guid isPermaLink="false">https://openai.com/index/lenfest-ai-collaborative-expansion</guid>
+<pubDate>Mon, 28 Sep 2026 07:00:00 GMT</pubDate>
+<description>OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.</description>
+</item>
+<item>
+<title>[Developer] How NVIDIA DSX MaxLPS Maximizes AI Factory Throughput and Efficiency</title>
+<link>https://developer.nvidia.com/blog/how-nvidia-dsx-maxlps-maximizes-ai-factory-throughput-and-efficiency/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/how-nvidia-dsx-maxlps-maximizes-ai-factory-throughput-and-efficiency/</guid>
+<pubDate>Mon, 28 Sep 2026 01:00:00 GMT</pubDate>
+<description>Every unused watt is capacity left on the table. AI factories are typically provisioned for the unlikely moment when every GPU reaches peak power, creating a...</description>
+</item>
+<item>
+<title>[News] Are you a Codex Original?</title>
+<link>https://openai.com/form/codex-originals</link>
+<guid isPermaLink="false">https://openai.com/form/codex-originals</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<description>We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.</description>
+</item>
+<item>
+<title>[News] Basis completes a tax workbook 2x faster with GPT-6 Astra</title>
+<link>https://openai.com/index/basis-tax-workbook-with-astra</link>
+<guid isPermaLink="false">https://openai.com/index/basis-tax-workbook-with-astra</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<description>GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.</description>
+</item>
+<item>
+<title>[News] Proaction boosts sales 60% and saves 75+ hours with Codex</title>
+<link>https://openai.com/index/proaction</link>
+<guid isPermaLink="false">https://openai.com/index/proaction</guid>
+<pubDate>Fri, 25 Sep 2026 19:00:00 GMT</pubDate>
+<description>With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.</description>
+</item>
+<item>
+<title>[Cloud AI] Best practices guide for customizing Gemini models via Reinforcement Learning (RL)</title>
+<link>https://cloud.google.com/blog/topics/developers-practitioners/best-practices-guide-for-customizing-gemini-models/</link>
+<guid isPermaLink="false">https://cloud.google.com/blog/topics/developers-practitioners/best-practices-guide-for-customizing-gemini-models/</guid>
+<pubDate>Fri, 25 Sep 2026 16:00:00 +0000</pubDate>
+<description>Reinforcement learning (RL) has been a keystone of modern LLM post-training, but it demands large training clusters and access to model internals that external customers can't have with proprietary models like Gemini. So here at Google Cloud, we packaged it into a managed RL fine-tuning service (RLF</description>
+</item>
+<item>
+<title>[Microsoft 365] Introducing the new Copilot with Home, Code and Autopilot</title>
+<link>https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/</link>
+<guid isPermaLink="false">https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/</guid>
+<pubDate>Fri, 25 Sep 2026 12:07:25 +0000</pubDate>
+<description>We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the new Copilot with Home, Code and Autopilot appeared first on AI at Work Blog .</description>
+</item>
+<item>
+<title>[MIT Tech Review] The Pentagon wants $30 million to build an AI-powered lie detector</title>
+<link>https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/</link>
+<guid isPermaLink="false">https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/</guid>
+<pubDate>Fri, 25 Sep 2026 09:16:25 +0000</pubDate>
+<description>The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning a</description>
+</item>
+<item>
+<title>[Research] Yes, Claude can do Nine Loops</title>
+<link>https://www.anthropic.com/research/yes-claude-can-do-nine-loops</link>
+<guid isPermaLink="false">https://www.anthropic.com/research/yes-claude-can-do-nine-loops</guid>
+<pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+<description>Claude computes a nine-loop amplitude in N=4 super-Yang-Mills</description>
+</item>
+<item>
+<title>[Newsroom (AI)] The Biggest News From Connect 2026</title>
+<link>https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/</link>
+<guid isPermaLink="false">https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/</guid>
+<pubDate>Thu, 24 Sep 2026 21:15:55 +0000</pubDate>
+<description>Yesterday at Connect, we announced that we're bringing Muse to our AI glasses, launched Meta VR Glasses, and more. The post The Biggest News From Connect 2026 appeared first on Meta Newsroom .</description>
+</item>
+<item>
+<title>[Research] Automating coherent long-form video generation</title>
+<link>https://research.google/blog/coherent-long-form-video-generation/</link>
+<guid isPermaLink="false">https://research.google/blog/coherent-long-form-video-generation/</guid>
+<pubDate>Thu, 24 Sep 2026 19:40:00 +0000</pubDate>
+
+</item>
+<item>
+<title>[Azure] Ship agents faster with expanded model choice, voice agents, and continuous optimization</title>
+<link>https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/</link>
+<guid isPermaLink="false">https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/</guid>
+<pubDate>Thu, 24 Sep 2026 18:00:00 +0000</pubDate>
+<description>The best model for your business will keep changing. Adopting it should move your business forward, not send your team back to rebuild the architecture around it. The post Ship agents faster with expanded model choice, voice agents, and continuous optimization appeared first on Microsoft Azure Blog </description>
+</item>
+<item>
+<title>[DeepMind] Introducing Gemini 3.8 Live with Live Avatar</title>
+<link>https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/</link>
+<guid isPermaLink="false">https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/</guid>
+<pubDate>Thu, 24 Sep 2026 16:20:39 +0000</pubDate>
+
+</item>
+<item>
+<title>[Gemini] Introducing Gemini 3.8 Live with Live Avatar</title>
+<link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/</link>
+<guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/</guid>
+<pubDate>Thu, 24 Sep 2026 15:30:00 +0000</pubDate>
+
+</item>
+<item>
+<title>[Agent Framework] What’s new in Microsoft Agent Framework: Interactive experiences, memory, and resilient execution</title>
+<link>https://devblogs.microsoft.com/agent-framework/interactive-experiences-memory-and-resilient-execution/</link>
+<guid isPermaLink="false">https://devblogs.microsoft.com/agent-framework/interactive-experiences-memory-and-resilient-execution/</guid>
+<pubDate>Thu, 24 Sep 2026 15:00:14 +0000</pubDate>
+<description>An agent that answers a question is a starting point. An agent that completes useful work needs more: an interface users can interact with, memory beyond the current conversation, an appropriate environment for executing code, and a way to recover when work is interrupted. Recent Microsoft Agent Fra</description>
+</item>
+<item>
+<title>[Cloud AI] Power your agents: Gemini 3.8 Live with Live Avatar is now generally available</title>
+<link>https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available/</link>
+<guid isPermaLink="false">https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available/</guid>
+<pubDate>Thu, 24 Sep 2026 15:00:00 +0000</pubDate>
+<description>Following our announcement of Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking last week, we are thrilled to share that Gemini 3.8 Live with Live Avatar is now generally available in Gemini Enterprise . First previewed at Google Cloud Next 2026 , the technology is now officially ready for enter</description>
+</item>
+<item>
+<title>[Developer] Efficient MoE Training for Biological Foundation Models</title>
+<link>https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/efficient-moe-training-for-biological-foundation-models/</guid>
+<pubDate>Thu, 24 Sep 2026 15:00:00 GMT</pubDate>
+<description>As language models grow, scaling dense architectures becomes increasingly expensive. In a dense transformer, every token passes through every layer, so adding...</description>
+</item>
+<item>
+<title>[Cloud AI] How growing Latin American midsize businesses are building in the AI era</title>
+<link>https://cloud.google.com/blog/topics/customers/how-midsize-latam-companies-build-with-ai/</link>
+<guid isPermaLink="false">https://cloud.google.com/blog/topics/customers/how-midsize-latam-companies-build-with-ai/</guid>
+<pubDate>Thu, 24 Sep 2026 14:30:00 +0000</pubDate>
+<description>Latin America’s small and medium-sized businesses are the heartbeat of the region's economy — accounting for more than 60% of total employment in the region, according to United Nations estimates. And just like their enterprise peers, everywhere you look, ambitious teams are moving fast to embrace A</description>
+</item>
+<item>
+<title>[Blog] Accelerating vision-language models with LFM2.5-VL-DSpark</title>
+<link>https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark</link>
+<guid isPermaLink="false">https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark</guid>
+<pubDate>Thu, 24 Sep 2026 14:08:57 GMT</pubDate>
+
+</item>
+<item>
+<title>[Blog] How Open Science Can Help Researchers Prepare for the Next Pandemic</title>
+<link>https://blogs.nvidia.com/blog/open-protein-dataset/</link>
+<guid isPermaLink="false">https://blogs.nvidia.com/blog/open-protein-dataset/</guid>
+<pubDate>Thu, 24 Sep 2026 14:00:50 +0000</pubDate>
+<description>When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalit</description>
+</item>
+<item>
+<title>[Blog] Contain the Chaos: ‘CONTROL Resonant’ Launches on GeForce NOW</title>
+<link>https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/</link>
+<guid isPermaLink="false">https://blogs.nvidia.com/blog/geforce-now-thursday-control-resonant/</guid>
+<pubDate>Thu, 24 Sep 2026 13:00:36 +0000</pubDate>
+<description>A warped Manhattan is waiting in the cloud this week. Remedy Entertainment’s CONTROL Resonant brings Dylan Faden’s extraordinary abilities and a paranatural crisis to GeForce NOW at launch. With the release comes the final days of the CONTROL Resonant Ultimate Membership Bundle. Purchase a 12-month </description>
+</item>
+<item>
+<title>[Cloud AI] The three things today's hottest startups are looking for in their AI stack</title>
+<link>https://cloud.google.com/blog/topics/startups/the-three-things-todays-hottest-startups-are-looking-for-in-their-ai-stack/</link>
+<guid isPermaLink="false">https://cloud.google.com/blog/topics/startups/the-three-things-todays-hottest-startups-are-looking-for-in-their-ai-stack/</guid>
+<pubDate>Thu, 24 Sep 2026 13:00:00 +0000</pubDate>
+<description>Google Cloud has become the platform of choice for startups building AI. Our uniquely complete stack — including a choice of first- and third-party compute and models ; our platform for building and managing agents; and our products for securing AI workloads — has emerged as the single most importan</description>
+</item>
+<item>
+<title>[Research] EconomicsProject Swap: What happens when agents trade for us?</title>
+<link>https://www.anthropic.com/research/project-swap</link>
+<guid isPermaLink="false">https://www.anthropic.com/research/project-swap</guid>
+<pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+<description>To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.</description>
+</item>
+<item>
+<title>[Developer] Introducing NV-Reason-CT Open 3D CT VLM for Radiologist Chain-of-Thought Reasoning</title>
+<link>https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/introducing-nv-reason-ct-open-3d-ct-vlm-for-radiologist-chain-of-thought-reasoning/</guid>
+<pubDate>Wed, 23 Sep 2026 22:54:56 GMT</pubDate>
+<description>Radiology AI has made remarkable strides in detecting abnormalities across chest X-rays, pathology slides, and 2D scans. Yet one of the most clinically rich and...</description>
+</item>
+<item>
+<title>[Developer] Validate GPU Cluster Readiness Before AI Workloads Land</title>
+<link>https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/validate-gpu-cluster-readiness-before-ai-workloads-land/</guid>
+<pubDate>Wed, 23 Sep 2026 19:45:19 GMT</pubDate>
+<description>A GPU cluster can pass every health check and still fail to run an AI workload. Even when every GPU, network link, and pod reports healthy, a 512-GPU training...</description>
 </item>
 </channel>
 </rss>
