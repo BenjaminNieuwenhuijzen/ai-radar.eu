@@ -9,6 +9,79 @@ can see exactly what changed between any two versions.
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-09-30
+
+A redesign of the dashboard and the content pages (direction 1c "Hybrid"), on the same
+feed pipeline. The redesign block comes first. The entries after it went live on
+ai-radar.eu between 1.0.0 and the redesign and are part of this release too; the
+redesign replaces a few of them (for example drag-to-reorder, the masonry grid and the
+top-story block), as listed under its **Changed** and **Removed** headings.
+
+### Changed — redesign
+
+#### Added
+- **Today in AI** carousel with up to five top stories. Without a digest they are
+  auto-selected and labelled **Auto-selected**: recent model releases first, one per
+  company, posts with an image from the last 72 hours (widened to 7 days when that is
+  too thin). Autoplay every 7 seconds with a progress bar; it pauses on hover, on keyboard
+  focus, in a background tab and with motion off, and a pause button (always shown on
+  phones) stops it. Arrows, arrow keys and swipe navigate.
+- **Latest** column with the five newest posts, next to the carousel.
+- Live status in the header: last update, a countdown to the next scheduled build and
+  the number of sources. The page checks `data.json` every five minutes and when the
+  countdown ends; new posts wait behind a "↑ N new posts" pill. A failed check shows an
+  Offline state and a Retry bar; a failed first load shows a message with Retry.
+- **Motion** toggle, stored as `airadar-motion`, following the system's reduced-motion
+  setting until used.
+- View and category in the URL (`?view=timeline&cat=model-releases`), so a filtered view
+  can be shared.
+- Across AI posts show the logo of the company they are about, or the outlet's initials.
+- `data.json` fields: a stable `id` per item, `about` on Across AI items that name a
+  tracked company, and `lastFetchedAt`, `nextFetchAt`, `intervalMinutes`, `sources` and
+  `digest` at the top level. The dashboard derives the missing ones for older files.
+- Digest format v2 in the build: 3 to 5 items, each tied to a `data.json` post by
+  `sourcePostId`. The page requests `digest.json` only when `data.json` says
+  `"digest": true`. Still optional and dormant without `ANTHROPIC_API_KEY`.
+- Shared design tokens (`assets/tokens.css`) and a new `favicon.svg`; the about,
+  contact, privacy and disclaimer pages share the new header, footer and theme toggle
+  (`assets/pages.css`, `assets/pages.js`).
+
+#### Changed
+- The dashboard moved out of the single `index.html` into `assets/app.js`,
+  `assets/app.css` and `assets/tokens.css`: plain JavaScript, no dependencies, no build
+  step.
+- Company cards sit in a three-, two- or one-column grid, ordered by posts this week and
+  then the newest post. A card shows its latest post plus three rows (two on mobile) and
+  expands to at most 12, with "All N in Timeline →" for the rest. The card's source
+  label reads "Official feed", "Community feed" or, for Across AI, "Industry news".
+- The timeline groups posts by day with a count per day and pages 50 rows at a time.
+- Categories are a row of chips in a sticky filter bar, together with the view switch,
+  search and Saved.
+- The "Saved only" checkbox is now a "Saved · N" toggle, and every post has a bookmark
+  button. Saved posts are stored as post ids in `airadar-saved`; the old link list
+  (`mm-saved-v1`) is migrated.
+- All times and the day grouping are in UTC, like the build schedule, with short
+  relative times ("12m", "3h") on the cards. This replaces the local-timezone
+  "today, 13:00" format.
+- The theme control is a Light/Dark toggle that follows the system setting until used;
+  the key is now `airadar-theme` (migrated from `mm-theme`).
+- System fonts only, no web fonts. Each company has one colour hue; company names set as
+  text use a darker shade so every hue passes WCAG AA.
+- The about and privacy pages describe the auto-selected stories, the new storage keys
+  and the absence of third-party requests.
+- The `feed.xml` digest item reads both v1 and v2 digests.
+
+#### Removed
+- Drag-to-reorder of the company cards and the **"Auto order"** button (`mm-order-v1`).
+- The company multi-select (`mm-companies-v1`), the period filter and the **Filters**
+  disclosure.
+- "New since your last visit" markers (`mm-seen-v1`) and the remembered view (`mm-view`).
+- The localStorage feed cache (`ai-dashboard-cache-v3`) and the live-feed fallback
+  through public CORS proxies, so the page makes no third-party requests at all.
+- The top-story hero with its "More top stories" rail, the separate digest list, the
+  masonry card layout, the footer's **About AI Radar** paragraph and the per-card source
+  links. Keys of removed features are deleted from localStorage on the first visit.
+
 ### Added
 - Custom domain **ai-radar.eu**: added a `CNAME` and pointed all site URLs (README,
   `feed.xml`, build script, Blogtrottr link) at it, plus branding/SEO meta tags
@@ -132,5 +205,6 @@ scheduled GitHub Action.
 - English README, MIT license, `.gitignore`, and all code comments translated to
   English.
 
-[Unreleased]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/releases/tag/v1.0.0

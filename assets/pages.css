@@ -1,0 +1,328 @@
+/* AI Radar content pages (about, contact, privacy, disclaimer).
+   Builds on tokens.css; header and footer follow the dashboard (redesign 1c),
+   the reading column uses the serif for body text, as the handoff prescribes
+   for reading. Standalone on purpose: these pages do not load app.css. */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+/* scrollbar-gutter as on the dashboard: the header does not shift sideways
+   between pages that scroll and pages that fit the window. */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scrollbar-gutter: stable; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main { flex: 1 0 auto; }
+
+a { color: inherit; }
+
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* Only visible when reached with the keyboard. */
+.skip-link {
+  position: absolute;
+  left: var(--gutter);
+  top: -100px;
+  z-index: 20;
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: var(--ink);
+  color: var(--bg);
+  font-weight: 500;
+  text-decoration: none;
+}
+.skip-link:focus { top: 10px; }
+
+/* ---------- Header ---------- */
+
+/* line-height normal, as on the dashboard; 1.5 is for the reading column. */
+.site-header { border-bottom: 1px solid var(--line); line-height: normal; }
+
+.site-header .container {
+  height: 60px;               /* + 1px border, as the dashboard header */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 44px;           /* comfortable tap target without changing the look */
+  color: var(--ink);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Radar logo: pure CSS, a ring with a centre dot and a sweeping hand. */
+.radar {
+  position: relative;
+  flex: none;
+  width: 20px;
+  height: 20px;
+  border: 1.5px solid var(--ink);
+  border-radius: 50%;
+}
+.radar-hand {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 8px;
+  height: 1.5px;
+  margin-top: -0.75px;
+  background: var(--ink);
+  transform-origin: 0 50%;    /* rests at 0deg, as on the dashboard */
+  animation: radar-sweep 6s linear infinite;  /* 60 degrees per second */
+}
+.radar-dot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  margin: -2px 0 0 -2px;
+  border-radius: 50%;
+  background: var(--ink);
+}
+@keyframes radar-sweep { to { transform: rotate(360deg); } }
+/* Motion off (stored choice) stops the sweep; so does the system setting
+   unless the visitor explicitly turned motion on. */
+:root[data-motion="off"] .radar-hand { animation: none; }
+@media (prefers-reduced-motion: reduce) {
+  :root:not([data-motion="on"]) .radar-hand { animation: none; }
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.nav-link { color: var(--muted); text-decoration: none; white-space: nowrap; }
+.nav-link:hover { text-decoration: underline; text-underline-offset: 2px; }
+.nav-link[aria-current="page"] { color: var(--ink); }
+
+.theme-btn,
+.motion-btn {
+  position: relative;
+  margin: 0;
+  padding: 6px 10px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink);
+  font: 12px var(--font-mono);
+  white-space: nowrap;
+  cursor: pointer;
+}
+.theme-btn:hover,
+.motion-btn:hover { background: var(--soft); }
+
+/* The theme label names the mode you switch to, the motion label the current
+   state (as on the dashboard). Both labels are in the markup and CSS picks
+   one, so the buttons are right before any script has run. */
+.theme-to-light { display: none; }
+:root[data-theme="dark"] .theme-to-dark { display: none; }
+:root[data-theme="dark"] .theme-to-light { display: inline; }
+.motion-is-off { display: none; }
+:root[data-motion="off"] .motion-is-on { display: none; }
+:root[data-motion="off"] .motion-is-off { display: inline; }
+
+.subscribe-btn {
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: var(--ink);
+  color: var(--bg);
+  font-weight: 500;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.subscribe-btn:hover { opacity: .88; }
+
+/* ---------- Reading column ---------- */
+
+.doc {
+  max-width: 720px;
+  padding: 48px 0 64px;
+  font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.doc-title {
+  margin: 0 0 12px;
+  font-family: var(--font-serif);
+  font-size: 38px;
+  line-height: 1.12;
+  font-weight: 500;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+
+.updated {
+  margin: 0 0 28px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.lead {
+  margin: 0 0 36px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+  font-size: 19px;
+  line-height: 1.5;
+  color: var(--ink-2);
+}
+.doc .lead p { margin: 0; }
+/* The contact card belongs with the lead above it, so it sits closer. */
+.lead:has(+ .email-card) { margin-bottom: 16px; }
+.lead strong { color: var(--ink); }
+
+.doc h2 {
+  margin: 36px 0 10px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+  font-family: var(--font-serif);
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 500;
+  text-wrap: balance;
+}
+.doc h2:first-of-type { padding-top: 0; border-top: 0; }
+
+.doc p { margin: 0 0 16px; text-wrap: pretty; }
+.doc ul { margin: 0 0 16px; padding-left: 24px; }
+.doc li { margin: 6px 0; text-wrap: pretty; }
+.doc li::marker { color: var(--muted); }
+.doc strong { font-weight: 600; }
+.muted { color: var(--muted); }
+
+.doc a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+.doc a:hover { text-decoration-thickness: 2px; }
+
+/* Contact page: the address as the page's one call to action. */
+.email-card {
+  margin: 0 0 36px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+}
+.email-card .label {
+  margin: 0 0 6px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.email-card a {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 500;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: normal;        /* as on the dashboard */
+  color: var(--muted);
+}
+.site-footer .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.footer-links { display: flex; flex-wrap: wrap; gap: 6px 18px; }
+/* Padding widens the tap target, the negative margin keeps the layout. */
+.footer-links a { padding: 4px 0; margin: -4px 0; color: inherit; text-decoration: none; }
+.footer-links a:hover { text-decoration: underline; text-underline-offset: 2px; }
+.footer-links a[aria-current="page"] { color: var(--ink); }
+
+/* ---------- Mobile (< 768px) ---------- */
+
+/* .98: fractional viewport widths (Windows scaling, zoom) must not fall
+   between the mobile and desktop rules. */
+@media (max-width: 767.98px) {
+  .brand { gap: 8px; font-size: 17px; }
+  .radar { width: 18px; height: 18px; }
+  .radar-hand { width: 7px; }
+
+  /* Logo, name, motion and theme buttons only, with the dashboard's mobile
+     gaps; the links (RSS included) are in the footer. The 4px top padding
+     centres the row at y=32 like the dashboard's mobile header (16px padding
+     + 32px buttons), so nothing jumps when moving between the pages. */
+  .site-header .container { gap: 12px; padding-top: 4px; }
+  .site-nav { gap: 8px; }
+  .nav-link, .subscribe-btn { display: none; }
+  .theme-btn, .motion-btn { padding: 8px 10px; }
+
+  .doc { padding: 32px 0 48px; }
+  .doc-title { font-size: 28px; }
+}
+@media (max-width: 374.98px) {
+  .narrow-hide { display: none; }   /* "Dark mode" -> "Dark", as on the dashboard */
+}
+
+/* ---------- Touch and small screens: tap targets, as on the dashboard ---------- */
+
+/* Buttons: 44px+ tap target without changing the look (mobile: 32px button,
+   48px target; wider touch screens: 28px, 44px). The inset counts from inside
+   the border; the sides meet in the gap between the buttons without overlapping. */
+@media (pointer: coarse), (max-width: 767.98px) {
+  .theme-btn::after, .motion-btn::after { content: ""; position: absolute; inset: -9px -5px; }
+}
+/* Text links: taller tap targets; the negative margin keeps the layout. */
+@media (pointer: coarse) {
+  .nav-link, .footer-links a { padding-block: 8px; margin-block: -8px; }
+}
+
+@media print {
+  .skip-link, .site-nav { display: none; }
+  .lead, .email-card { border-color: #ccc; }
+}
