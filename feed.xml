@@ -5,7 +5,91 @@
 <link>https://ai-radar.eu/</link>
 <description>Combined updates from leading AI companies.</description>
 <language>en</language>
-<lastBuildDate>Wed, 30 Sep 2026 14:32:56 GMT</lastBuildDate>
+<lastBuildDate>Wed, 30 Sep 2026 16:26:51 GMT</lastBuildDate>
+<item>
+<title>[Cloud AI] Empower your agents with the Google Cloud CLI remote MCP server</title>
+<link>https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/</link>
+<guid isPermaLink="false">https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/</guid>
+<pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
+<description>Today, we’re expanding our ecosystem of managed remote MCP servers by introducing the Google Cloud CLI remote MCP server in preview. Powered by the popular gcloud and bq (BigQuery) command-line tools, this new server gives AI agents immediate, broad access to command-line operations for managing Goo</description>
+</item>
+<item>
+<title>[Cloud AI] What’s new in AI infrastructure and orchestration in September</title>
+<link>https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/</link>
+<guid isPermaLink="false">https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/</guid>
+<pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
+<description>We hereby declare September to be scalability month! As the world prepares for a surge of agentic fleets, we are shoring up our AI infrastructure and orchestration offerings to gracefully — and quickly — respond to that demand, all while maintaining workload isolation and security, and keeping costs</description>
+</item>
+<item>
+<title>[Gemini] Let skills in Gemini tackle your most repetitive tasks</title>
+<link>https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/</link>
+<guid isPermaLink="false">https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/</guid>
+<pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
+<description>Now you can automate your most repetitive tasks more easily with reusable custom instructions through skills, which will be replacing gems.</description>
+</item>
+<item>
+<title>[Research] Forecasting space weather risks on power grids</title>
+<link>https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/</link>
+<guid isPermaLink="false">https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/</guid>
+<pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
+<description>Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new machine learning system can predict where damage is likely to occur 30-60 minutes before a storm arrives. The post Forecasting space weather risks on power grids appeared first on </description>
+</item>
+<item>
+<title>[Developer] Tracing Agent Harness Behavior with NVIDIA NeMo Relay</title>
+<link>https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/</guid>
+<pubDate>Wed, 30 Sep 2026 16:00:00 GMT</pubDate>
+<description>An agent can finish a task and still take an inefficient path. A failed search can trigger another search. A truncated file read can lead to a command fetching...</description>
+</item>
+<item>
+<title>[Google News] Ex-Genentech, Meta, AWS AI leaders launch health AI lab with $500M backing - Fierce Healthcare</title>
+<link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUDY1bWJHTFc4REktRWs1Sno5S1FtZGQ0by16WXNoMy1GZDc5OVdhUVR6dkxYb0x1ZEkxSVo2T2cxNDdsaGxZLUpvOE1CcUxzMUt5UVVuZkJyNUd6Q1JiU3NhcTBGWHdVY2RCWFpNaE1rVWJfZ2dNb2NqOWRFaTVHU1oteldjb1ZGaTgwSFNWMVlER0MtYndqMVB3SGNvOWs2UWF5RUdrSjU4UUlqekZseklpV1J2aUstSWo5Vy1BSkU?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUDY1bWJHTFc4REktRWs1Sno5S1FtZGQ0by16WXNoMy1GZDc5OVdhUVR6dkxYb0x1ZEkxSVo2T2cxNDdsaGxZLUpvOE1CcUxzMUt5UVVuZkJyNUd6Q1JiU3NhcTBGWHdVY2RCWFpNaE1rVWJfZ2dNb2NqOWRFaTVHU1oteldjb1ZGaTgwSFNWMVlER0MtYndqMVB3SGNvOWs2UWF5RUdrSjU4UUlqekZseklpV1J2aUstSWo5Vy1BSkU?oc=5</guid>
+<pubDate>Wed, 30 Sep 2026 15:30:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[DeepMind] Introducing SynthID Bio</title>
+<link>https://deepmind.google/blog/introducing-synthid-bio/</link>
+<guid isPermaLink="false">https://deepmind.google/blog/introducing-synthid-bio/</guid>
+<pubDate>Wed, 30 Sep 2026 15:03:07 +0000</pubDate>
+<description>Proof of concept for watermarking AI-generated proteins while preserving biological function.</description>
+</item>
+<item>
+<title>[Blog] From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI</title>
+<link>https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/</link>
+<guid isPermaLink="false">https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/</guid>
+<pubDate>Wed, 30 Sep 2026 15:00:00 +0000</pubDate>
+<description>Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to prod</description>
+</item>
+<item>
+<title>[Google News] DeepSeek invests $2.56 billion in Huawei Ascend 950DT for data center, faces challenges in transitioning from CUDA - KuCoin</title>
+<link>https://news.google.com/rss/articles/CBMixwFBVV95cUxQRTRKVy1DOU5Gb1l6R0lGdW9BTnl0YUY4cFBaVU4yMkRZVG5XZldzTUtIYVZ1eDA5d2I5V0lSY1U3U1VWaGtEYVZwVjdJUWtHQmtRbDBOQ0VlRVNHck5LaUZXXzNYY01lNXZ2QllkaXFqMzVKVVhaanh0bUJFZ1hCdU1KeFlIX3A3NUtXeGYxU1k5cW9RRTlZa1VPNkIwNTRUTGlWdWR0UE93RTVVRlBDY3NwWDBpVUJDeVhZaDRaak1WSTlaaXI0?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMixwFBVV95cUxQRTRKVy1DOU5Gb1l6R0lGdW9BTnl0YUY4cFBaVU4yMkRZVG5XZldzTUtIYVZ1eDA5d2I5V0lSY1U3U1VWaGtEYVZwVjdJUWtHQmtRbDBOQ0VlRVNHck5LaUZXXzNYY01lNXZ2QllkaXFqMzVKVVhaanh0bUJFZ1hCdU1KeFlIX3A3NUtXeGYxU1k5cW9RRTlZa1VPNkIwNTRUTGlWdWR0UE93RTVVRlBDY3NwWDBpVUJDeVhZaDRaak1WSTlaaXI0?oc=5</guid>
+<pubDate>Wed, 30 Sep 2026 14:48:20 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] China's AI industry closes ranks as Deepseek ships open-source software for Huawei's Ascend chips - the-decoder.com</title>
+<link>https://news.google.com/rss/articles/CBMivAFBVV95cUxPZlQycWp6TUpST2t5bnViR29jRnVFY1BabjFfejhDcnFpWjFQNFJ1Y25EdjV5QlJvc2ZfWVBnUHhSSGlnY0tCd3ZQVW9JYVpYVU5lZGowY1ZJYUU0TmdabTlqV3RkUlVuazRXNzh2VGtJeG5KRVB0Y1ZWRmtkcXc3ZWQzcXBiai03UXpONmp0YWo1OVhOTkVwTmhMT3o1bmZRaENnMHUyc1hFWVF2QTg2eUtHbXJ1dk1SWFg0NQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivAFBVV95cUxPZlQycWp6TUpST2t5bnViR29jRnVFY1BabjFfejhDcnFpWjFQNFJ1Y25EdjV5QlJvc2ZfWVBnUHhSSGlnY0tCd3ZQVW9JYVpYVU5lZGowY1ZJYUU0TmdabTlqV3RkUlVuazRXNzh2VGtJeG5KRVB0Y1ZWRmtkcXc3ZWQzcXBiai03UXpONmp0YWo1OVhOTkVwTmhMT3o1bmZRaENnMHUyc1hFWVF2QTg2eUtHbXJ1dk1SWFg0NQ?oc=5</guid>
+<pubDate>Wed, 30 Sep 2026 14:40:23 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Clark Atlanta University receives nearly $10 million to expand artificial intelligence research - 95.5 WSB</title>
+<link>https://news.google.com/rss/articles/CBMi6wFBVV95cUxNY0tpTmt0czN3VnJfZGdhOTd1RXpfZHBrMzc3WUVINUlIWGNCMHZ2S05PdURTb3RuSlRxWHhSV2ZoXzMwampaUzJJcmJYd3FzY3I4SEhpSkxxTkxwMkxFc1hwSnJTd3BRdUVWNU90WHVMbVMzZTdUZWFScW4yWGwtU1B2V3J2WjFjeHVsaXNpLXVvcGFfY0xjRHdPSTFnOHFzZTY4c2dGb3FOQmdtd1ZOcmt4NnZhMHNQbktUNUFDSnBJUmxfbUF5V05fSDduWm1JQjZLMFZnUGk2LVE0ajB0M0FfSEhWQkV3RXFN0gH_AUFVX3lxTE9FWXEyV0NnRGRObTBDcGdlZEs3d3lVZ0NiQnVMc0pUTHZqRGZVWlpZVkhEYlNqNFR3MmoyU05fSks3cHhjWHhqR05PZ3JWSGZEQW4yNUVmbExzSlRwc3lnaUVvNWh1YmZmc1ZYWFhxNjdKd3ctSXVoNUJmM0dvM3RvdGcybTJzTmJMZkticERTcXJVLWVjMzRaQ0xjV01WdTZNUERGNklVVlpOLXMzVGNMTjB2bWNEbGppNXJaeUVDM256RWZJSTMtVV9TQlk0NlZQYVdTdnZrTUl2T1d3RUp6Rlp1aU5JMnoxVTZoRHA3Rk15ZDhWcVNmaDJlX2Qzcw?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi6wFBVV95cUxNY0tpTmt0czN3VnJfZGdhOTd1RXpfZHBrMzc3WUVINUlIWGNCMHZ2S05PdURTb3RuSlRxWHhSV2ZoXzMwampaUzJJcmJYd3FzY3I4SEhpSkxxTkxwMkxFc1hwSnJTd3BRdUVWNU90WHVMbVMzZTdUZWFScW4yWGwtU1B2V3J2WjFjeHVsaXNpLXVvcGFfY0xjRHdPSTFnOHFzZTY4c2dGb3FOQmdtd1ZOcmt4NnZhMHNQbktUNUFDSnBJUmxfbUF5V05fSDduWm1JQjZLMFZnUGk2LVE0ajB0M0FfSEhWQkV3RXFN0gH_AUFVX3lxTE9FWXEyV0NnRGRObTBDcGdlZEs3d3lVZ0NiQnVMc0pUTHZqRGZVWlpZVkhEYlNqNFR3MmoyU05fSks3cHhjWHhqR05PZ3JWSGZEQW4yNUVmbExzSlRwc3lnaUVvNWh1YmZmc1ZYWFhxNjdKd3ctSXVoNUJmM0dvM3RvdGcybTJzTmJMZkticERTcXJVLWVjMzRaQ0xjV01WdTZNUERGNklVVlpOLXMzVGNMTjB2bWNEbGppNXJaeUVDM256RWZJSTMtVV9TQlk0NlZQYVdTdnZrTUl2T1d3RUp6Rlp1aU5JMnoxVTZoRHA3Rk15ZDhWcVNmaDJlX2Qzcw?oc=5</guid>
+<pubDate>Wed, 30 Sep 2026 14:33:31 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek and Huawei Just Took Aim at Nvidia's Biggest Software Advantage - TradingView</title>
+<link>https://news.google.com/rss/articles/CBMizAFBVV95cUxNNUdJLWt6b2RmTlVxUXpfUzM3U3FFSlduM0dyYTBvMWpqQkpuNGJGaENZcExhTU9KdmVZMGpEajQ5QmE4RTVLRUtvZGZjc2NHUEtqRzZHNWpYVFB4QWszdGt4SXpGRnVLRUwzLXZWOHF0NlpFOWg4SUFoWTl6cFFYYUpCOHo4V1dwdjcxRFlaYmJDblVVckg0MVBBa0l3X2dVRVBYZUhZYlRpNjVBa2p3WlR5SzNXZ0YweTktdGdDeXB2emVhdGxZMTUzNXE?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMizAFBVV95cUxNNUdJLWt6b2RmTlVxUXpfUzM3U3FFSlduM0dyYTBvMWpqQkpuNGJGaENZcExhTU9KdmVZMGpEajQ5QmE4RTVLRUtvZGZjc2NHUEtqRzZHNWpYVFB4QWszdGt4SXpGRnVLRUwzLXZWOHF0NlpFOWg4SUFoWTl6cFFYYUpCOHo4V1dwdjcxRFlaYmJDblVVckg0MVBBa0l3X2dVRVBYZUhZYlRpNjVBa2p3WlR5SzNXZ0YweTktdGdDeXB2emVhdGxZMTUzNXE?oc=5</guid>
+<pubDate>Wed, 30 Sep 2026 14:27:40 GMT</pubDate>
+
+</item>
 <item>
 <title>[Google News] Is DeepSeek's 128 Chip Huawei Ascend Toolkit the Start of Nvidia's CUDA Moat Eroding in China? - kalkine.ca</title>
 <link>https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWkFmMkM4NzI3cVZ1dWhYTEctSHZNdVNNQm9HdWRTdmJ3MTRUSldLZlk3XzZPQjFPNjFPcjRJLU1aT1l1ZmZ0NXJkbFVEZTZGMHBtSnlDSThQcGNwYjdiTGRjMGRZQjYxNm9ndS11bUs2V3lMX0g1OUFOQjBjYXlZWXhrSTVOUDJJOE9mWGswcDROWWktMV9XQUR3MTZZTjU1X2QzTml4QXpRNFVXdDU3R1RncHhSY2VIUHV1VWlzSENINVZYSkNnYUp3cWZkYnJ2M1pBaWhn?oc=5</link>
@@ -24,27 +108,13 @@
 <title>[Google News] DeepSeek partners with Huawei on open-source programming infrastructure - National Technology News</title>
 <link>https://news.google.com/rss/articles/CBMirAFBVV95cUxNSzdJMHJFYWlmMFR5WWtramF3NUg1Y05TQ2x1Vl9fX3ppODZJYmcxRnk5SXBCb3NEVmxYU21sSGQzbkF0cXhjVmNpT3Q4dXBIbHVURTdPb0tVZFVGSThqaGZVSkEtVUhVZENIYjVLYkFzWThsQjB0QUxPbTJuSVd5eGFpRUU1YjRUYzBXbXBqUG5MejNNdE1nck5vV25uWHRia21KaDRUZllZMkwx?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxNSzdJMHJFYWlmMFR5WWtramF3NUg1Y05TQ2x1Vl9fX3ppODZJYmcxRnk5SXBCb3NEVmxYU21sSGQzbkF0cXhjVmNpT3Q4dXBIbHVURTdPb0tVZFVGSThqaGZVSkEtVUhVZENIYjVLYkFzWThsQjB0QUxPbTJuSVd5eGFpRUU1YjRUYzBXbXBqUG5MejNNdE1nck5vV25uWHRia21KaDRUZllZMkwx?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 13:49:32 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Nvidia’s Software Advantage Under Threat by DeepSeek-Huawei Alliance - Benzinga</title>
-<link>https://news.google.com/rss/articles/CBMiowFBVV95cUxNTGVnYlhvZXhFczNqTHFXLUlLaC1mRTdFQWFFdGg0T09XeFRLaVRScmZlem02WVRpYTVwa3dnMDlJbmcyVnNCSE04bmxDcnQ4RVVWazZCcnh5S3FQTEtuM2dIMjVaOWtpNllUWDlJOWJJTUZNYndsRS15NUJBZi00WXV6alNhTG9CREFwbUJFaVRXLXVNb2VZbXZnUUliQnRuQ19j?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiowFBVV95cUxNTGVnYlhvZXhFczNqTHFXLUlLaC1mRTdFQWFFdGg0T09XeFRLaVRScmZlem02WVRpYTVwa3dnMDlJbmcyVnNCSE04bmxDcnQ4RVVWazZCcnh5S3FQTEtuM2dIMjVaOWtpNllUWDlJOWJJTUZNYndsRS15NUJBZi00WXV6alNhTG9CREFwbUJFaVRXLXVNb2VZbXZnUUliQnRuQ19j?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 13:40:19 GMT</pubDate>
+<pubDate>Wed, 30 Sep 2026 13:49:06 GMT</pubDate>
 
 </item>
 <item>
 <title>[Google News] DeepSeek and Huawei Target a Key Source of Nvidia’s A.I. Dominance - The New York Times</title>
 <link>https://news.google.com/rss/articles/CBMifkFVX3lxTFBSVnEtX2xUV3VfaDRUanAyY2Y0Q2o1WEZRM2hTVEFIRDg0SGIxYUtGR1lNbkpRaFgwS0NHSGdvOXNfaUpkMmxCTDZ0dEhuaWRjZkwxejNjTkU4LW9tMlpEUl9rUFF3MmFYZnRJY244UkFzNkZzZmtVcDZpY0JEQQ?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMifkFVX3lxTFBSVnEtX2xUV3VfaDRUanAyY2Y0Q2o1WEZRM2hTVEFIRDg0SGIxYUtGR1lNbkpRaFgwS0NHSGdvOXNfaUpkMmxCTDZ0dEhuaWRjZkwxejNjTkU4LW9tMlpEUl9rUFF3MmFYZnRJY244UkFzNkZzZmtVcDZpY0JEQQ?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 13:36:53 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek and Huawei Just Took Aim at Nvidia's Biggest Software A - gurufocus.com</title>
-<link>https://news.google.com/rss/articles/CBMirwFBVV95cUxONkdhRjh6ZDFBa09jZXhMbDBCUk1tOHVwWGlMcXhMbGE5dXY5N2hKZWxEUTZxeXBxaGxSYzlaR1U1SjE0eXRZclpST3N1b0k1aE44YUxCRkZleXY2b1UxdlhKSDMxR0J1Q3dIM1MtcTllVFAwRzNmSVBlb3FXZ2xRRmVfQUFIYWpYMFFfaTlWYlB2ZjVBTjEzVDdZb2MwVHhQcHA1S043QmE5MTZZcnFB?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMirwFBVV95cUxONkdhRjh6ZDFBa09jZXhMbDBCUk1tOHVwWGlMcXhMbGE5dXY5N2hKZWxEUTZxeXBxaGxSYzlaR1U1SjE0eXRZclpST3N1b0k1aE44YUxCRkZleXY2b1UxdlhKSDMxR0J1Q3dIM1MtcTllVFAwRzNmSVBlb3FXZ2xRRmVfQUFIYWpYMFFfaTlWYlB2ZjVBTjEzVDdZb2MwVHhQcHA1S043QmE5MTZZcnFB?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 13:36:53 GMT</pubDate>
 
 </item>
@@ -60,6 +130,13 @@
 <link>https://news.google.com/rss/articles/CBMingFBVV95cUxNMEpwdEJGZDV2X2wweXhHUmRSMkJ0SmQ2V1B6dHF4RmV5UU9pczFiSTdwZ2RVc0hTbGY5Zk1ZTHdrNlVid1NxUjBjcmpzUi16U211YXRqSG1ZVUZiSGcwaGZQRzZtbmU1TlRWUjEtdUFwMmduZlRtc1Y0b3VEcktOUjFxcjh6US13VFZraTV1VlBzLTJxcy1fSTd3ejZuUQ?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMingFBVV95cUxNMEpwdEJGZDV2X2wweXhHUmRSMkJ0SmQ2V1B6dHF4RmV5UU9pczFiSTdwZ2RVc0hTbGY5Zk1ZTHdrNlVid1NxUjBjcmpzUi16U211YXRqSG1ZVUZiSGcwaGZQRzZtbmU1TlRWUjEtdUFwMmduZlRtc1Y0b3VEcktOUjFxcjh6US13VFZraTV1VlBzLTJxcy1fSTd3ejZuUQ?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 12:59:38 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Trump tells federal agencies to use the term 'Super Intelligence ' instead of artificial intelligence — President insists that AI is only suffering from a branding problem - Tom's Hardware</title>
+<link>https://news.google.com/rss/articles/CBMivAJBVV95cUxNc1RYaHhma3Jtd1JIdmR4ZWltbDYteks2aUl4cVJYRjB6OXg4eldfeVdfWXRBUndNc2pfeHVJSTE0b3FiYnlOWjMwNDBwNnR3NThDdWVhU2ZfWUhzMVgyd1J4QTV4eHVCV3VRc1ZSWWQ3OEphd3k5Y2NlWjRLSmxXMV8xa05hQ3ZEZkRZTEZJblJpQmc0QWZoZlJvNlctZDVRbmViSkFGanpHMGtWUzE4ZDk3eUEwYmpic3dxY1ZjMEVYbVVfaG4tSVZaOUtmeVhsNGRvS0JHS1RBMVYtT0g0NDJDTEpqNGtrRFFLS3p0azRuMkkyVEhPaE8zSU95cHZNZXoySjZpSEszN0VBdzYyS3ZLdGZRbW9vMVRYUHo2cDVtbjY1a3Ytc2hzSlRReVRwdWM1ZmlmZGItOWVk?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivAJBVV95cUxNc1RYaHhma3Jtd1JIdmR4ZWltbDYteks2aUl4cVJYRjB6OXg4eldfeVdfWXRBUndNc2pfeHVJSTE0b3FiYnlOWjMwNDBwNnR3NThDdWVhU2ZfWUhzMVgyd1J4QTV4eHVCV3VRc1ZSWWQ3OEphd3k5Y2NlWjRLSmxXMV8xa05hQ3ZEZkRZTEZJblJpQmc0QWZoZlJvNlctZDVRbmViSkFGanpHMGtWUzE4ZDk3eUEwYmpic3dxY1ZjMEVYbVVfaG4tSVZaOUtmeVhsNGRvS0JHS1RBMVYtT0g0NDJDTEpqNGtrRFFLS3p0azRuMkkyVEhPaE8zSU95cHZNZXoySjZpSEszN0VBdzYyS3ZLdGZRbW9vMVRYUHo2cDVtbjY1a3Ytc2hzSlRReVRwdWM1ZmlmZGItOWVk?oc=5</guid>
+<pubDate>Wed, 30 Sep 2026 12:51:29 GMT</pubDate>
 
 </item>
 <item>
@@ -84,14 +161,14 @@
 
 </item>
 <item>
-<title>[Google News] DeepSeek Just Gave Huawei a New Weapon in the Race Against Nvidia - finance.yahoo.com</title>
+<title>[Google News] DeepSeek Just Gave Huawei a New Weapon in the Race Against Nvidia - Yahoo Finance</title>
 <link>https://news.google.com/rss/articles/CBMinAFBVV95cUxPYXhlU2VTenA5cTNvLUVXVTlCNEx4M3RadDNfVVlSQUdsOTU3RzdmWnFpcW9meWJ1Vmtwb1JpaklmbktrTkhzVUxRTXEySjN3cDVQMGEzSEJTejk3LWlLZFA1dmk4ZC1aX0tKd3N0cjYzTEVyV2h4RkJ3dmQ0bU8wbllCdHctUjZrNExvTERNSWRldlVLdHBmajFaWEs?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMinAFBVV95cUxPYXhlU2VTenA5cTNvLUVXVTlCNEx4M3RadDNfVVlSQUdsOTU3RzdmWnFpcW9meWJ1Vmtwb1JpaklmbktrTkhzVUxRTXEySjN3cDVQMGEzSEJTejk3LWlLZFA1dmk4ZC1aX0tKd3N0cjYzTEVyV2h4RkJ3dmQ0bU8wbllCdHctUjZrNExvTERNSWRldlVLdHBmajFaWEs?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 12:10:17 GMT</pubDate>
 
 </item>
 <item>
-<title>[Google News] DeepSeek Targets Nvidia's Software Moat With Huawei Partnership - finance.yahoo.com</title>
+<title>[Google News] DeepSeek Targets Nvidia's Software Moat With Huawei Partnership - Yahoo Finance</title>
 <link>https://news.google.com/rss/articles/CBMipAFBVV95cUxOUmR1bTdTTE1CNFV3NElnVFZMUWhpMnhmTlgxWjR4R2RPckQ0VFFyX0ZSLXdIU25DTThTMkt0YVBOaGxuQ0dKbmZNbVJ6ZUFoMUt0dXlIbUw0aVpBaElsNjJSNkNXcVhUN2FhQjNBWlhIYjY0QVZ5MkN5Q2NRNGZUazBnMkN1LXQ5YncyUjBtUmZWWmRzcVl2N216VjR0ZjV2Ti15VQ?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMipAFBVV95cUxOUmR1bTdTTE1CNFV3NElnVFZMUWhpMnhmTlgxWjR4R2RPckQ0VFFyX0ZSLXdIU25DTThTMkt0YVBOaGxuQ0dKbmZNbVJ6ZUFoMUt0dXlIbUw0aVpBaElsNjJSNkNXcVhUN2FhQjNBWlhIYjY0QVZ5MkN5Q2NRNGZUazBnMkN1LXQ5YncyUjBtUmZWWmRzcVl2N216VjR0ZjV2Ti15VQ?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 12:06:15 GMT</pubDate>
@@ -112,14 +189,14 @@
 
 </item>
 <item>
-<title>[Google News] Top 10: Generative AI Companies - aimagazine.com</title>
+<title>[Google News] Top 10: Generative AI Companies - AI Magazine</title>
 <link>https://news.google.com/rss/articles/CBMia0FVX3lxTFBaMkFUQVdoLVlURF96NmpHRy1SX00xTjRXWWNZYmEtejBDSjJZVktOam8xSzVtMWxlZkJLREg2cFdoMEhCQzNaam1BRVFzRFB5eGFFelVlQWNuMi1DQThJMl9kMTB5XzZ6dFQw?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMia0FVX3lxTFBaMkFUQVdoLVlURF96NmpHRy1SX00xTjRXWWNZYmEtejBDSjJZVktOam8xSzVtMWxlZkJLREg2cFdoMEhCQzNaam1BRVFzRFB5eGFFelVlQWNuMi1DQThJMl9kMTB5XzZ6dFQw?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 11:32:53 GMT</pubDate>
 
 </item>
 <item>
-<title>[Google News] DeepSeek Just Gave Huawei a New Weapon in the Race Against Nvidi - gurufocus.com</title>
+<title>[Google News] DeepSeek Just Gave Huawei a New Weapon in the Race Against Nvidi - GuruFocus</title>
 <link>https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEp0cDZ0RHlaX1FzbnYzdDEyV0k1S0dodGpvdFhGLURsVWxtR3Joakl5cFNwWGc0cGxBUUJwQXh4Tk5rYVJWREtZS2QycTRxUnh6c0ViQzdXMG45eW50TkJfYUUtT3dMalFZdXRUa2VuSmdpRXllY1lxU0huY3paVEFSM3NMSV9EVzBnVjV2ZlFWOHptVmRoci0ybmdJSTcyVzB2UFZHZw?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMipwFBVV95cUxQOEp0cDZ0RHlaX1FzbnYzdDEyV0k1S0dodGpvdFhGLURsVWxtR3Joakl5cFNwWGc0cGxBUUJwQXh4Tk5rYVJWREtZS2QycTRxUnh6c0ViQzdXMG45eW50TkJfYUUtT3dMalFZdXRUa2VuSmdpRXllY1lxU0huY3paVEFSM3NMSV9EVzBnVjV2ZlFWOHptVmRoci0ybmdJSTcyVzB2UFZHZw?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 11:18:29 GMT</pubDate>
@@ -152,6 +229,13 @@
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSUx6REw4bUZZeEY2ZWJqM1RYamFCY2QzWDBUWkFmQ29kVXFHWC1oTWktYXd5aF80cEdJWlJPZTlqSFFDTC1xX3AyWDBpb2VVc1ZsNVl5M1c2SkV1ZEZwUTdLcnB5d0VFaEhwc0R5YTducFdLaDcxREllbTZiTzBsdUJ5SS1ULUlqVjZMUkoxNW9ZcHZGbUk5TDEwUVhHd28zRnN3ZHpzMUc?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 10:24:39 GMT</pubDate>
 
+</item>
+<item>
+<title>[News] Helping small businesses put AI to work</title>
+<link>https://openai.com/index/helping-small-businesses-put-ai-to-work</link>
+<guid isPermaLink="false">https://openai.com/index/helping-small-businesses-put-ai-to-work</guid>
+<pubDate>Wed, 30 Sep 2026 10:00:00 GMT</pubDate>
+<description>OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.</description>
 </item>
 <item>
 <title>[Google News] China's DeepSeek Teams Up With Huawei To Advance Ascend Chip Infra, Cut Nvidia Reliance - NDTV Profit</title>
@@ -189,24 +273,10 @@
 
 </item>
 <item>
-<title>[Google News] DeepSeek unveils development tools for Huawei AI chips, targeting Nvidia CUDA - 디지털투데이</title>
-<link>https://news.google.com/rss/articles/CBMivwFBVV95cUxNUkpPU2NTUnZRMDI3Mm9qRUdQUGVReC1IeVpmTHNNWFFYZmZFSjB3dHBWMnItVFNuQmlBdHdoaTFoSU9mRWhBZEFrUnZOS3lKN0tIT2hSTG9WM2huWDFONFBuSkFoRHd3cFRHYWpTUGVxNXFneHdyakw4d09pLTlwaDdoUWp1eXAzWWdoSEpuU1U5ajVtcWwyZmdXR2pabHRxRHk5QS12akZkQ18wNWZhTFRfUWJHYThydkJTeFBGZw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivwFBVV95cUxNUkpPU2NTUnZRMDI3Mm9qRUdQUGVReC1IeVpmTHNNWFFYZmZFSjB3dHBWMnItVFNuQmlBdHdoaTFoSU9mRWhBZEFrUnZOS3lKN0tIT2hSTG9WM2huWDFONFBuSkFoRHd3cFRHYWpTUGVxNXFneHdyakw4d09pLTlwaDdoUWp1eXAzWWdoSEpuU1U5ajVtcWwyZmdXR2pabHRxRHk5QS12akZkQ18wNWZhTFRfUWJHYThydkJTeFBGZw?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 08:18:33 GMT</pubDate>
-
-</item>
-<item>
 <title>[Google News] DeepSeek Open-Sources Ascend Versions of TileLang, DeepGEMM and DeepEP as Huawei Details SuperPoD Flex - Pandaily</title>
 <link>https://news.google.com/rss/articles/CBMijgFBVV95cUxNSU8yang1QzBwSmFEMU9tWVNnR2lhOWRmdHpRbU1HX0MxZEx1Y0xDM2RzRUFaM1hMNUlfTVlhM1VxZHA0SmZ6OXJTcUZpVXNCQ3ViT3hPbDUxNzluRlNUYmNyZnZQRldELVh3Ukk2eEhNSjE1T0Z2RnROSlhNMUEwQXJXLW8xNVFka01NY3dn?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijgFBVV95cUxNSU8yang1QzBwSmFEMU9tWVNnR2lhOWRmdHpRbU1HX0MxZEx1Y0xDM2RzRUFaM1hMNUlfTVlhM1VxZHA0SmZ6OXJTcUZpVXNCQ3ViT3hPbDUxNzluRlNUYmNyZnZQRldELVh3Ukk2eEhNSjE1T0Z2RnROSlhNMUEwQXJXLW8xNVFka01NY3dn?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 08:05:48 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek introduces new core tools to push Huawei AI chips beat Nvidia - Huawei Central</title>
-<link>https://news.google.com/rss/articles/CBMibkFVX3lxTE9zMXJrNW9oQWxFMkZQZVhJeUpkRzIzRWUxcFBFaUVzLWdlU2pLN0REbUxfbUN4cGNvVkxmRENQRjBRVW5neXhuOWYwYTNacmo4NDJ3dzhRZlJzbTNvN1BoeVZqNll3VlNqTXVfcTNR0gFzQVVfeXFMUE04QWtWeExIQW9SanNkVW15cDVsUF9xeXJRLVVaTEg3YnowOTRKdjVQVjJ3RjdwTzI5YmdnS3VFZV9jcTd4cGs1ZUlBUHV6b0VraER2eXYyaDVnWFlybGg0ZVhHVklpTWQ1WTZENlBKc0Rlaw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMibkFVX3lxTE9zMXJrNW9oQWxFMkZQZVhJeUpkRzIzRWUxcFBFaUVzLWdlU2pLN0REbUxfbUN4cGNvVkxmRENQRjBRVW5neXhuOWYwYTNacmo4NDJ3dzhRZlJzbTNvN1BoeVZqNll3VlNqTXVfcTNR0gFzQVVfeXFMUE04QWtWeExIQW9SanNkVW15cDVsUF9xeXJRLVVaTEg3YnowOTRKdjVQVjJ3RjdwTzI5YmdnS3VFZV9jcTd4cGs1ZUlBUHV6b0VraER2eXYyaDVnWFlybGg0ZVhHVklpTWQ1WTZENlBKc0Rlaw?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 07:57:47 GMT</pubDate>
 
 </item>
 <item>
@@ -238,7 +308,7 @@
 
 </item>
 <item>
-<title>[Google News] DeepSeek brings AI software to Huawei’s Ascend chips - Techzine Global</title>
+<title>[Google News] DeepSeek brings AI software to Huawei’s Ascend chips - techzine.eu</title>
 <link>https://news.google.com/rss/articles/CBMimwFBVV95cUxOMW9mc0IyX1NSMnJmSW43dHUxb2VUVmZSWTRSVVJoOE9wM1BhaFpjMUNtR0JJMmdkazdPRHg5bmVReWhTdk4wRGhxS2pGLV83S042bXozOXpRVU1qSXNOUk1odXRIM1I3bTFCVUNVVUhwTE9UQ0taRGNBVmFKY2prYUJSLUZYNVFDdnBvR29ReGFsbFdmUGxfOWUtbw?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMimwFBVV95cUxOMW9mc0IyX1NSMnJmSW43dHUxb2VUVmZSWTRSVVJoOE9wM1BhaFpjMUNtR0JJMmdkazdPRHg5bmVReWhTdk4wRGhxS2pGLV83S042bXozOXpRVU1qSXNOUk1odXRIM1I3bTFCVUNVVUhwTE9UQ0taRGNBVmFKY2prYUJSLUZYNVFDdnBvR29ReGFsbFdmUGxfOWUtbw?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 07:43:13 GMT</pubDate>
@@ -259,7 +329,7 @@
 
 </item>
 <item>
-<title>[Google News] DeepSeek unveils Huawei AI chip tools that may replace Nvidia’s - The Edge Malaysia</title>
+<title>[Google News] DeepSeek unveils Huawei AI chip tools that may replace Nvidia’s - theedgemalaysia.com</title>
 <link>https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BYS1YakdUZ0REcjUwV1M4OWR4LUVPUmI5Y2RVdk1tU1UzSjV4U2dRUDhCX2lWQnBpQkY1elJqc1AyaFM2QmdrM05TU3A1b2wt?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiUEFVX3lxTE9BYS1YakdUZ0REcjUwV1M4OWR4LUVPUmI5Y2RVdk1tU1UzSjV4U2dRUDhCX2lWQnBpQkY1elJqc1AyaFM2QmdrM05TU3A1b2wt?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 06:57:14 GMT</pubDate>
@@ -273,17 +343,10 @@
 
 </item>
 <item>
-<title>[Google News] I Installed DeepSeek Harness v0.2 So You Don’t Have To - vocal.media</title>
+<title>[Google News] I Installed DeepSeek Harness v0.2 So You Don’t Have To - Vocal</title>
 <link>https://news.google.com/rss/articles/CBMigAFBVV95cUxPZjNUNHM3U2l3S08yM2dFbW9mQUdfWVFiSklfNElzM3J1S0RINDlpaHRRb0VrXzN5bFBvZS05clZqOHRLeUl5R2FrY2hEQVdralhhTXNUdEJsdE9NUkk5aTZqYUxXOWxmNUlOSk1yWXp2cm00Ump5MkFqU2o1SmdEVA?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMigAFBVV95cUxPZjNUNHM3U2l3S08yM2dFbW9mQUdfWVFiSklfNElzM3J1S0RINDlpaHRRb0VrXzN5bFBvZS05clZqOHRLeUl5R2FrY2hEQVdralhhTXNUdEJsdE9NUkk5aTZqYUxXOWxmNUlOSk1yWXp2cm00Ump5MkFqU2o1SmdEVA?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 06:33:01 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] China's DeepSeek launches open-sourced software with Huawei; May rival Nvidia's CUDA - CNBC TV18</title>
-<link>https://news.google.com/rss/articles/CBMi6AFBVV95cUxQR2FneFh6NlB6Q25CMWtEdmM2cTdSSk5BSnJGVHFZeXIycG45MDBvZjRlMm9FTVl5QmVCRXpjZGhxaElMUkh3cFZyeTZTZ0QybUltbktLY3JMY0lNY0J5SlFiN2x3LXBCUlFyWFROOU1GNFB1b3dFcC1iTHI1aWpXRlRyRFlGd0ZfbkZyb2ZOQkp5V3FzNUFwX1c0bV91SEs4amdxdmZ2ajAxT25PU0pEdzMzMUViOFJCNDVQWHlDUnRndG56RWUtMHNIbGlFWENOMlozbTQ3VVpVTGVwMi1EbHg2R3RseU140gHuAUFVX3lxTE9HTmhoVnh5dWlNa29pX09qSkxMdHJhcG9CcUhXejFZNzExd1piUGJWcGRTSjZqZ1h2NlNuSEl5ZWczOTB0WVdkNnRCdzMtcU1MYnJIc3FGaGNFSFYwX1pDUmpmT044d1pjUWx0bVhkMHVzOWs4RlRXcWdycHdkYngwTkh6dGVhVllRSFNRXzZXLTJrQmE5REpTY0E3STRXcExUblI1YlVpVGxKbm4zc01MVjktWTdqSEM0bWk5dFN4bnZ3dkdJQkpJVktGT2YxT0NrTG93blpXQlpheEEyV29UTlR3cGZVbmhsTFZidUE?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi6AFBVV95cUxQR2FneFh6NlB6Q25CMWtEdmM2cTdSSk5BSnJGVHFZeXIycG45MDBvZjRlMm9FTVl5QmVCRXpjZGhxaElMUkh3cFZyeTZTZ0QybUltbktLY3JMY0lNY0J5SlFiN2x3LXBCUlFyWFROOU1GNFB1b3dFcC1iTHI1aWpXRlRyRFlGd0ZfbkZyb2ZOQkp5V3FzNUFwX1c0bV91SEs4amdxdmZ2ajAxT25PU0pEdzMzMUViOFJCNDVQWHlDUnRndG56RWUtMHNIbGlFWENOMlozbTQ3VVpVTGVwMi1EbHg2R3RseU140gHuAUFVX3lxTE9HTmhoVnh5dWlNa29pX09qSkxMdHJhcG9CcUhXejFZNzExd1piUGJWcGRTSjZqZ1h2NlNuSEl5ZWczOTB0WVdkNnRCdzMtcU1MYnJIc3FGaGNFSFYwX1pDUmpmT044d1pjUWx0bVhkMHVzOWs4RlRXcWdycHdkYngwTkh6dGVhVllRSFNRXzZXLTJrQmE5REpTY0E3STRXcExUblI1YlVpVGxKbm4zc01MVjktWTdqSEM0bWk5dFN4bnZ3dkdJQkpJVktGT2YxT0NrTG93blpXQlpheEEyV29UTlR3cGZVbmhsTFZidUE?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 06:26:12 GMT</pubDate>
 
 </item>
 <item>
@@ -294,6 +357,13 @@
 
 </item>
 <item>
+<title>[Google News] DeepSeek unveils Huawei AI chip software to challenge Nvidia - Seeking Alpha</title>
+<link>https://news.google.com/rss/articles/CBMinwFBVV95cUxOaWtGQm56WHh4UkJrYnJUaDY1bmR6TnNFOUpXckkta0RyNGNEVVJubWpjdDBRTXJQNWlwTHlEaEJjSUpDQ0dQZ2dhVllUVmtYUlYxUC1lSW5ULVdjN0lUb1p1THd3SHUxQndfS3IxUmFEZkJUODcwUlFUQUVkV2w0Q25xODc0aHZ0TDBpallCdUlvRURLWFhySVZQSHVHSnc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMinwFBVV95cUxOaWtGQm56WHh4UkJrYnJUaDY1bmR6TnNFOUpXckkta0RyNGNEVVJubWpjdDBRTXJQNWlwTHlEaEJjSUpDQ0dQZ2dhVllUVmtYUlYxUC1lSW5ULVdjN0lUb1p1THd3SHUxQndfS3IxUmFEZkJUODcwUlFUQUVkV2w0Q25xODc0aHZ0TDBpallCdUlvRURLWFhySVZQSHVHSnc?oc=5</guid>
+<pubDate>Wed, 30 Sep 2026 06:07:13 GMT</pubDate>
+
+</item>
+<item>
 <title>[Google News] It’s Official: No Longer Artificial Intelligence, It's Super Intelligence! - Tupaki English</title>
 <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxNenBzWl9pQWRmQ2tpMDJmX01mM1lLOTBVRTVfRnpQWXZMcW0yWUtUUXlneDlWR1NNQVREbXV1aWJjVTNoNDItaGhFRjdWdVNNVi1PTm1LVHE5bnoxcDdMd0FabWhtZjQzR0NrZTJuRjRjdWdYUEVTdjRyUnFoUjAtekg4aDVPZ01PR1RaU01aSTFrbmvSAZgBQVVfeXFMTllCejJxTkZXVDRnajFxN2VHcWdaNURQS0t2YlF1V3pKbU5sUzdoQ1ZxZDdZb2tQNFZYUXN3QkZHdV9waHVvRDFFWmdVeHBSMzVXWVNvMUJOejB2S3kzZ3BGVGltZUNGbnQ3VlJzQ2k1UGg2U3BJbl85WXhfRWswbkpMeDVxbVNuY1Q4MnByV2phQ1YtZ2xvTXc?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMikwFBVV95cUxNenBzWl9pQWRmQ2tpMDJmX01mM1lLOTBVRTVfRnpQWXZMcW0yWUtUUXlneDlWR1NNQVREbXV1aWJjVTNoNDItaGhFRjdWdVNNVi1PTm1LVHE5bnoxcDdMd0FabWhtZjQzR0NrZTJuRjRjdWdYUEVTdjRyUnFoUjAtekg4aDVPZ01PR1RaU01aSTFrbmvSAZgBQVVfeXFMTllCejJxTkZXVDRnajFxN2VHcWdaNURQS0t2YlF1V3pKbU5sUzdoQ1ZxZDdZb2tQNFZYUXN3QkZHdV9waHVvRDFFWmdVeHBSMzVXWVNvMUJOejB2S3kzZ3BGVGltZUNGbnQ3VlJzQ2k1UGg2U3BJbl85WXhfRWswbkpMeDVxbVNuY1Q4MnByV2phQ1YtZ2xvTXc?oc=5</guid>
@@ -301,14 +371,7 @@
 
 </item>
 <item>
-<title>[Google News] DeepSeek ties up with Huawei on chip programming tools amid pivot from Nvidia - finance.yahoo.com</title>
-<link>https://news.google.com/rss/articles/CBMiowFBVV95cUxNM1JIV2VpRkxZdmtOV09OcloxZ2E4Vl9CYnBYaFh4ZFJxMENJcUF6YTVSMUdiejdOSENMeWtuaTNaaC0wRFpNTnVtb3NZVEk5U1Q3YlR3SmVHZllCR1V0aXBhM0Z0VzkwV0xCQ0lqT01ieXNmeU9UUm1JcDJONHdRSXNIbFlobDFuTko1bGowekMwR2JiRUFsMGFma1pSQ1pXQk80?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiowFBVV95cUxNM1JIV2VpRkxZdmtOV09OcloxZ2E4Vl9CYnBYaFh4ZFJxMENJcUF6YTVSMUdiejdOSENMeWtuaTNaaC0wRFpNTnVtb3NZVEk5U1Q3YlR3SmVHZllCR1V0aXBhM0Z0VzkwV0xCQ0lqT01ieXNmeU9UUm1JcDJONHdRSXNIbFlobDFuTko1bGowekMwR2JiRUFsMGFma1pSQ1pXQk80?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 06:03:32 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek And Huawei Team Up To Build Beyond Nvidia - finimize.com</title>
+<title>[Google News] DeepSeek And Huawei Team Up To Build Beyond Nvidia - Finimize</title>
 <link>https://news.google.com/rss/articles/CBMihgFBVV95cUxPajl0TjVYZHdHR3JnVER3UVRHU2phR2dJWVNqbW9XTzY5ZkxHT1l4MnBrWmF3bmsxcFBPVmd4MVR6alZUdmZUbUtqOFlpVk9DNVJyUENId0lwYUgxYS0yejFBUmo2UUlSUEtPdnpNMlh3WXMyOWtwdGJXSXBpLU9HeDBLOW9uZw?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMihgFBVV95cUxPajl0TjVYZHdHR3JnVER3UVRHU2phR2dJWVNqbW9XTzY5ZkxHT1l4MnBrWmF3bmsxcFBPVmd4MVR6alZUdmZUbUtqOFlpVk9DNVJyUENId0lwYUgxYS0yejFBUmo2UUlSUEtPdnpNMlh3WXMyOWtwdGJXSXBpLU9HeDBLOW9uZw?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 05:54:12 GMT</pubDate>
@@ -322,10 +385,24 @@
 
 </item>
 <item>
+<title>[Google News] DeepSeek ties up with Huawei on chip programming tools amid pivot from Nvidia - Investing.com</title>
+<link>https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSWg2U2tVUnhKbkJiOGlKSEcxNXpIa1pxNFZZVGRFNDk0Y1BOT0ZvbVFqYUYzT0xUNGh2cWdoWWJ5eG80cDZwTmtnZFNxRlJJZTBwUUxXTVhFU3pCaURtYXdCVW5ya1hYR1lnSXNjbU9nMTRLb2haWkNqMnNVa1NvZ0QtV1FpUkZ6SHpFY3lYek5vcFlBOC1WbGlSSnRIdi01bk81SV9YWUNWZFZYOHNyRmdkQWg3dkdrbGVhRWRReUVOSlpqejA0Si1MbWF0dVdo?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSWg2U2tVUnhKbkJiOGlKSEcxNXpIa1pxNFZZVGRFNDk0Y1BOT0ZvbVFqYUYzT0xUNGh2cWdoWWJ5eG80cDZwTmtnZFNxRlJJZTBwUUxXTVhFU3pCaURtYXdCVW5ya1hYR1lnSXNjbU9nMTRLb2haWkNqMnNVa1NvZ0QtV1FpUkZ6SHpFY3lYek5vcFlBOC1WbGlSSnRIdi01bk81SV9YWUNWZFZYOHNyRmdkQWg3dkdrbGVhRWRReUVOSlpqejA0Si1MbWF0dVdo?oc=5</guid>
+<pubDate>Wed, 30 Sep 2026 05:41:58 GMT</pubDate>
+
+</item>
+<item>
 <title>[Google News] DeepSeek Partners With Huawei to Develop Chip Programming Tools, Reducing Reliance on Nvidia - CXO Digitalpulse</title>
 <link>https://news.google.com/rss/articles/CBMiwgFBVV95cUxOblBWX3N3N1JKeHM0cjN4TmVIZG9PR3NaelpBakRwcHFLNG81WTBleEJFVlFQM292bnJhVS02U2xKc2xnSGwwYWhLZWpQQ3hzblZieEhHSlAwZ1c5N2stY0U0c1c3bUhBVjJEQ3FJUlJJUktSRktfTmFqTWROeUZEZUpRU1FEU0gxd1dNT1BEZUxWTy0xd1FfQlZqMThYV0lYZWdTa2c3LWNhOU1CRVQtZWhTc3NNTS1SY2w3X3U2RGNwUQ?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwgFBVV95cUxOblBWX3N3N1JKeHM0cjN4TmVIZG9PR3NaelpBakRwcHFLNG81WTBleEJFVlFQM292bnJhVS02U2xKc2xnSGwwYWhLZWpQQ3hzblZieEhHSlAwZ1c5N2stY0U0c1c3bUhBVjJEQ3FJUlJJUktSRktfTmFqTWROeUZEZUpRU1FEU0gxd1dNT1BEZUxWTy0xd1FfQlZqMThYV0lYZWdTa2c3LWNhOU1CRVQtZWhTc3NNTS1SY2w3X3U2RGNwUQ?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 05:37:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek, Huawei team up on AI chip software as China builds Nvidia alternatives - Latest news from Azerbaijan</title>
+<link>https://news.google.com/rss/articles/CBMiogFBVV95cUxNamxxRzREclVNUU4wazdzM2dNWDhWV0xQMmt0MDJWSGhGR0ZtV19PdTBTYVBDMHZhQ0JMRmRwQ2MzVGllUDJaSFcteU5maFB0OVZkYlJYblQ5ejVsdVBrSmlpcWNOZ0xhWlVPZlN2ay1GaGZiY2pIeEJCWE1kOHB4R0lCR1pEdlpIY3JJR3c3VjZyY3JfS2NtUm44bWQ1Y1hNMXc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiogFBVV95cUxNamxxRzREclVNUU4wazdzM2dNWDhWV0xQMmt0MDJWSGhGR0ZtV19PdTBTYVBDMHZhQ0JMRmRwQ2MzVGllUDJaSFcteU5maFB0OVZkYlJYblQ5ejVsdVBrSmlpcWNOZ0xhWlVPZlN2ay1GaGZiY2pIeEJCWE1kOHB4R0lCR1pEdlpIY3JJR3c3VjZyY3JfS2NtUm44bWQ1Y1hNMXc?oc=5</guid>
+<pubDate>Wed, 30 Sep 2026 05:20:33 GMT</pubDate>
 
 </item>
 <item>
@@ -336,95 +413,18 @@
 
 </item>
 <item>
-<title>[Google News] OpenAI targets US$30b in funding at US$1.4t value - The Malaysian Reserve</title>
+<title>[Google News] OpenAI targets US$30b in funding at US$1.4t value - themalaysianreserve.com</title>
 <link>https://news.google.com/rss/articles/CBMilgFBVV95cUxQWkZfaWxtWUw3ZThhc3RSZ1FJM1RPMHhSRXppVXpGakpva3YtQlVyYlQ2eVZlZGZXc0x4Tkw3U0Y2OU55Wmc4VjhBMVVsQlM5T2JINVRSeHhIU25tS0JDczNSXzVLNkRlVWJQbGNpTVpnWDBFYXA2RHMzRk1qaTVrR2Zkdk50NEpkRjR3dFlhNWVGSXVMTlE?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMilgFBVV95cUxQWkZfaWxtWUw3ZThhc3RSZ1FJM1RPMHhSRXppVXpGakpva3YtQlVyYlQ2eVZlZGZXc0x4Tkw3U0Y2OU55Wmc4VjhBMVVsQlM5T2JINVRSeHhIU25tS0JDczNSXzVLNkRlVWJQbGNpTVpnWDBFYXA2RHMzRk1qaTVrR2Zkdk50NEpkRjR3dFlhNWVGSXVMTlE?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 02:23:30 GMT</pubDate>
 
 </item>
 <item>
-<title>[Google News] Trump signs order renaming artificial intelligence as ‘Super Intelligence’ - firstpost.com</title>
+<title>[Google News] Trump signs order renaming artificial intelligence as ‘Super Intelligence’ - Firstpost</title>
 <link>https://news.google.com/rss/articles/CBMizAFBVV95cUxNMGVzUGdYRVcwbVlKbjlIeWlnaUpTbzctSjAtdkkwUjR3NV85clB5dGJCclM4Y0JVd3M2ZnFKeWZVcXBCSDNmbFl5aHRwVV82THduQTdnTVpuSVROdWlIY2l3enAzRk1FSE5qaWRhWnN0YXU0VTlNX0lpUWJteXRjOU9mZ2dybDdRLU1ZNE56UzJ6SWJSOThvUjJBaDRia2V2TEhqOVowbjQwUGhPcmdtS1VHQklTbVFCR1FFT3l1NVJNRzZaZVRpSW1yNzPSAdIBQVVfeXFMUDVKV2VHZXFtZWgtZ0xFRGZzN2VNUnlXc1J1MkNoMjZ1LWRMWmVwb2Y0YlYyZ0d2SkNqNFBoZGRYaHJnbE9TbjU0WjIyRDd6a2xaSGo3MXgxbmlEZHFZdlgwZElyV1RNZ0xYY0UzU1lZd3RzRjB5Wmo4ZWhVRDg0Q2poZmUxMU9RTExlUjZjbkUtUjRYbFBydThIOGhSTzhjclY4MHFhRzZGTjJrOXRBbWo0UVdCcDlXTkEydVNoaFNQUXJ1VDU2OHVvUVhhS1ZOYU5n?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMizAFBVV95cUxNMGVzUGdYRVcwbVlKbjlIeWlnaUpTbzctSjAtdkkwUjR3NV85clB5dGJCclM4Y0JVd3M2ZnFKeWZVcXBCSDNmbFl5aHRwVV82THduQTdnTVpuSVROdWlIY2l3enAzRk1FSE5qaWRhWnN0YXU0VTlNX0lpUWJteXRjOU9mZ2dybDdRLU1ZNE56UzJ6SWJSOThvUjJBaDRia2V2TEhqOVowbjQwUGhPcmdtS1VHQklTbVFCR1FFT3l1NVJNRzZaZVRpSW1yNzPSAdIBQVVfeXFMUDVKV2VHZXFtZWgtZ0xFRGZzN2VNUnlXc1J1MkNoMjZ1LWRMWmVwb2Y0YlYyZ0d2SkNqNFBoZGRYaHJnbE9TbjU0WjIyRDd6a2xaSGo3MXgxbmlEZHFZdlgwZElyV1RNZ0xYY0UzU1lZd3RzRjB5Wmo4ZWhVRDg0Q2poZmUxMU9RTExlUjZjbkUtUjRYbFBydThIOGhSTzhjclY4MHFhRzZGTjJrOXRBbWo0UVdCcDlXTkEydVNoaFNQUXJ1VDU2OHVvUVhhS1ZOYU5n?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 01:04:48 GMT</pubDate>
 
-</item>
-<item>
-<title>[Google News] AI bosses sign ‘morally binding’ safety accord after lunch with Trump - AFR</title>
-<link>https://news.google.com/rss/articles/CBMirAFBVV95cUxPUUhFb1dhV3BBbDM4cldfUnpUb05XdE90QVRqaDZieDU1VkoxMWl4emZsbUI3QjZXSDVJWE1LVWQteENvWk45alV0VmhTWDRuRmVLSnE4QTFzZWFZeGgzTHI0cVJFRFg3NmRfNmVtbG9SMFJSeS1uNzBBYTRTMjh0YlY2dEtzd0dndGpHVkxlYzBhMmx0VHRNeDJ5allVakp3TDV2MDQ3SS14VWRk?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxPUUhFb1dhV3BBbDM4cldfUnpUb05XdE90QVRqaDZieDU1VkoxMWl4emZsbUI3QjZXSDVJWE1LVWQteENvWk45alV0VmhTWDRuRmVLSnE4QTFzZWFZeGgzTHI0cVJFRFg3NmRfNmVtbG9SMFJSeS1uNzBBYTRTMjh0YlY2dEtzd0dndGpHVkxlYzBhMmx0VHRNeDJ5allVakp3TDV2MDQ3SS14VWRk?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 00:33:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] RANGE Artificial Intelligence (AI) policy - RANGE Media</title>
-<link>https://news.google.com/rss/articles/CBMidEFVX3lxTFA4Nno4OXJDZXRDc2Q0SEpzd3lKTUNXb3BPbkh2QXB4YkZGczdZZTdYc01aUGFrY1lmMy1hN2F2TVU5NFltazN0b3dHODgtRzRkZzJaSzRZWXI3M2Y0YkUtNXhCQW1XVkt2TC1za2VwTFdqRXZD?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidEFVX3lxTFA4Nno4OXJDZXRDc2Q0SEpzd3lKTUNXb3BPbkh2QXB4YkZGczdZZTdYc01aUGFrY1lmMy1hN2F2TVU5NFltazN0b3dHODgtRzRkZzJaSzRZWXI3M2Y0YkUtNXhCQW1XVkt2TC1za2VwTFdqRXZD?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 00:14:04 GMT</pubDate>
-
-</item>
-<item>
-<title>[Changelog] Announcing Cohere's Embed 5 Models</title>
-<link>https://docs.cohere.com/changelog/embed-v5</link>
-<guid isPermaLink="false">https://docs.cohere.com/changelog/embed-v5</guid>
-<pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-<description>Release announcement for Embed 5 Pro and Embed 5 Fast, Cohere's most powerful family of embeddings models for enterprise search and retrieval.</description>
-</item>
-<item>
-<title>[Google News] Trump signs agreement on AI regulation and oversight body - Around Prague</title>
-<link>https://news.google.com/rss/articles/CBMipAFBVV95cUxNQWZvUjBQc0JSX1lFbzZVSlJKMm85MjFibHJYaFliMzJ6ZnBaMTVZcVBEOUIwSjBVNU5JUGY4NlVsZlp2MGQ2bzBqelV3NFVSNWtvNnBGdnM0TDEtcndLQnlFZENFcFJMYkR5RnQ4Q3RlTjY3NTR2aDNTdFVhYXVpZEtKeEtpVXEtZ0ZyUkFmWVk0cEdPSHZzeUM3X1ZPdURxcjJRTg?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMipAFBVV95cUxNQWZvUjBQc0JSX1lFbzZVSlJKMm85MjFibHJYaFliMzJ6ZnBaMTVZcVBEOUIwSjBVNU5JUGY4NlVsZlp2MGQ2bzBqelV3NFVSNWtvNnBGdnM0TDEtcndLQnlFZENFcFJMYkR5RnQ4Q3RlTjY3NTR2aDNTdFVhYXVpZEtKeEtpVXEtZ0ZyUkFmWVk0cEdPSHZzeUM3X1ZPdURxcjJRTg?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 23:54:09 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Trump signs executive order renaming AI to ‘super intelligence’ - Politico</title>
-<link>https://news.google.com/rss/articles/CBMisAFBVV95cUxPNFg3S3prLVYtei1ELWhSY0Z5SVlQdzJkV1YzVWRFM2lGMk96U0NHbjRNek9mMnZJY2hGdHlDdTN0ZHpLTnB4R0FtOHItOVc4V0RVMVNWam05MktkVWtHMVJpUWpPNklHeENxYTBRWGNsMjZ1Qk5WZHRtTkZEajNjUURXSWNscjRtWmpIUXZON2l2U3hmU1ZlNkpNNmI0OGpNZG9OQVRIeE1wcllrX21GRQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMisAFBVV95cUxPNFg3S3prLVYtei1ELWhSY0Z5SVlQdzJkV1YzVWRFM2lGMk96U0NHbjRNek9mMnZJY2hGdHlDdTN0ZHpLTnB4R0FtOHItOVc4V0RVMVNWam05MktkVWtHMVJpUWpPNklHeENxYTBRWGNsMjZ1Qk5WZHRtTkZEajNjUURXSWNscjRtWmpIUXZON2l2U3hmU1ZlNkpNNmI0OGpNZG9OQVRIeE1wcllrX21GRQ?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 23:47:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Trump AI deal rebrands ‘artificial intelligence’ as ‘superintelligence’ - The Guardian</title>
-<link>https://news.google.com/rss/articles/CBMikwFBVV95cUxNOFVZQVZWMk1XVVREWXRWcVZaWGZrb0dGSURLVkl4MUg0ZHFoTHNWckY5WU9hWXJuOXhnU21xY1NHM0hMM2FiQkRKdUtmWlpRcHdGbEg1MmphUXFWaEE1VC1YSGgwTlJIVlhwX0tOcl9HV2F1UnhMOHZPV3hQMkEwdWI3c2N6TGxYOWVJS052Q3E3UmM?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMikwFBVV95cUxNOFVZQVZWMk1XVVREWXRWcVZaWGZrb0dGSURLVkl4MUg0ZHFoTHNWckY5WU9hWXJuOXhnU21xY1NHM0hMM2FiQkRKdUtmWlpRcHdGbEg1MmphUXFWaEE1VC1YSGgwTlJIVlhwX0tOcl9HV2F1UnhMOHZPV3hQMkEwdWI3c2N6TGxYOWVJS052Q3E3UmM?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 23:21:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] New York's top leaders brainstorm AI policy recommendations - CBS News</title>
-<link>https://news.google.com/rss/articles/CBMihwFBVV95cUxOX3lkQmFEb2JrRFo4X045ZlhhZkR6RDdXNERDV2pvbjlkcjhETmFjeDlWWHIwNG1XeE1rd2ZGdlhaei1FaHBycmstb2JkVEpmMWdnRlJublQzOG9Yd1VEbFV1Um5CTW05dU16dnlVWTU4YjZFenZuS3B4TUIwQ1ZSN1Y1dmlWcGM?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMihwFBVV95cUxOX3lkQmFEb2JrRFo4X045ZlhhZkR6RDdXNERDV2pvbjlkcjhETmFjeDlWWHIwNG1XeE1rd2ZGdlhaei1FaHBycmstb2JkVEpmMWdnRlJublQzOG9Yd1VEbFV1Um5CTW05dU16dnlVWTU4YjZFenZuS3B4TUIwQ1ZSN1Y1dmlWcGM?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 23:11:25 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Trump orders US government to call AI ‘Super Intelligence’ - The Verge</title>
-<link>https://news.google.com/rss/articles/CBMijgFBVV95cUxNWVE5aXFYTUFIMDZobk8zUEVvSm1JeDRlLVZmXzIxdWxRZktybzN2RWtPdkpRQVRETFc1OGlDSmdkMUlBY1U5SS1WanU4WElkMFVIcFVlTHNWekJpeFV6WTMzU0M0NUVCalMxeVBmWFB6TnoxYk9ab2lfajJQUG5pX213N3BCckhXYnFpNUtB?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMijgFBVV95cUxNWVE5aXFYTUFIMDZobk8zUEVvSm1JeDRlLVZmXzIxdWxRZktybzN2RWtPdkpRQVRETFc1OGlDSmdkMUlBY1U5SS1WanU4WElkMFVIcFVlTHNWekJpeFV6WTMzU0M0NUVCalMxeVBmWFB6TnoxYk9ab2lfajJQUG5pX213N3BCckhXYnFpNUtB?oc=5</guid>
-<pubDate>Tue, 29 Sep 2026 22:25:45 GMT</pubDate>
-
-</item>
-<item>
-<title>[Developer] AI Native by Design: Lessons Learned from Building NVIDIA TensorRT Model Connect</title>
-<link>https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/</link>
-<guid isPermaLink="false">https://developer.nvidia.com/blog/ai-native-by-design-lessons-learned-from-building-nvidia-tensorrt-model-connect/</guid>
-<pubDate>Tue, 29 Sep 2026 19:10:51 GMT</pubDate>
-<description>Parallel work, model-family isolation, reversible changes, and GPU-backed validation shaped an open source project designed around coding agents NVIDIA TensorRT...</description>
-</item>
-<item>
-<title>[YouTube] Vertically Integrated, Horizontally Open | AI Factory Insider Ep 5</title>
-<link>https://www.youtube.com/watch?v=mFv4VRoFj-k</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=mFv4VRoFj-k</guid>
-<pubDate>Tue, 29 Sep 2026 19:00:28 GMT</pubDate>
-<description>How can an AI platform be optimized from hardware to software while staying open to developers and partners at every layer? In Episode 5 of AI Factory Insider, host Kaushik Shirhatti (VP, AI Factory, NVIDIA) is joined by Pradeep Gupta (VP, Industries Solutions Architecture, NVIDIA) and Stephen Jones</description>
-</item>
-<item>
-<title>[YouTube] Build faster with Ultrafast</title>
-<link>https://www.youtube.com/watch?v=sKltfHvsDQM</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=sKltfHvsDQM</guid>
-<pubDate>Tue, 29 Sep 2026 18:47:34 GMT</pubDate>
-<description>Ultrafast is our fastest way to build with Astra yet: in Codex, it runs up to 8x faster than Astra Standard and 4x faster than Astra Fast. Bring your ideas to life as fast as you can type them.</description>
 </item>
 </channel>
 </rss>
