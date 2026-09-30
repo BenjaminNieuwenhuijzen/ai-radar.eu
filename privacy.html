@@ -7,186 +7,147 @@
 <title>Privacy Statement · AI Radar</title>
 <meta name="description" content="How AI Radar handles data: no accounts, no analytics and no tracking. Everything runs in your browser. Read the full privacy statement.">
 <link rel="canonical" href="https://ai-radar.eu/privacy">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f56c4'/%3E%3Cpath d='M31 34 L31 17 A17 17 0 0 1 43 22 Z' fill='%23fff' opacity='.18'/%3E%3Ccircle cx='31' cy='34' r='17' fill='none' stroke='%23fff' stroke-width='2.4' opacity='.4'/%3E%3Ccircle cx='31' cy='34' r='11' fill='none' stroke='%23fff' stroke-width='2.4' opacity='.6'/%3E%3Cline x1='31' y1='34' x2='43' y2='22' stroke='%23fff' stroke-width='2.4' stroke-linecap='round' opacity='.9'/%3E%3Ccircle cx='31' cy='34' r='3' fill='%23fff'/%3E%3Ccircle cx='40' cy='25' r='3.6' fill='%237cc4ff' stroke='%231f56c4' stroke-width='2.4'/%3E%3C/svg%3E">
-<style>
-  /* Same theme tokens as the dashboard, so light/dark match. */
-  :root {
-    --bg: #f5f6f8; --card: #ffffff; --border: #e3e6ea;
-    --text: #1a1d23; --muted: #5f6672; --link: #1f56c4;
-    --shadow: 0 1px 2px rgba(16, 24, 40, .05);
-  }
-  :root[data-theme="dark"] {
-    --bg: #111418; --card: #1a1e25; --border: #2a2f38;
-    --text: #e8eaee; --muted: #9aa1ad; --link: #82a8ff;
-    --shadow: 0 1px 2px rgba(0, 0, 0, .3);
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: var(--bg); color: var(--text); line-height: 1.6;
-    min-height: 100vh;
-  }
-  a { color: var(--link); }
-  :focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
-
-  header {
-    position: sticky; top: 0; z-index: 10;
-    background: var(--card); border-bottom: 1px solid var(--border);
-    padding: 14px 32px; display: flex; align-items: center;
-    justify-content: space-between; gap: 12px 28px; flex-wrap: wrap;
-  }
-  .brand { display: flex; align-items: center; gap: 11px; }
-  .brand svg { width: 30px; height: 30px; display: block; flex: none; }
-  .brand h1 { margin: 0; font-size: 18px; font-weight: 650; }
-  .back { font-size: 13px; text-decoration: none; color: var(--muted); }
-  .back:hover { color: var(--link); text-decoration: underline; }
-
-  main {
-    max-width: 760px; margin: 0 auto; padding: 40px 32px 64px;
-  }
-  .doc-title { font-size: 26px; font-weight: 680; margin: 0 0 4px; }
-  .updated { color: var(--muted); font-size: 13px; margin: 0 0 28px; }
-  .lead {
-    background: var(--card); border: 1px solid var(--border);
-    border-radius: 12px; padding: 16px 18px; box-shadow: var(--shadow);
-    margin: 0 0 32px;
-  }
-  .lead p { margin: 0; }
-  h2 {
-    font-size: 16px; font-weight: 640; margin: 32px 0 8px;
-    padding-top: 18px; border-top: 1px solid var(--border);
-  }
-  h2:first-of-type { border-top: 0; padding-top: 0; }
-  p { margin: 0 0 12px; }
-  ul { margin: 0 0 12px; padding-left: 22px; }
-  li { margin: 4px 0; }
-  .muted { color: var(--muted); }
-  footer {
-    max-width: 760px; margin: 0 auto; padding: 0 32px 48px;
-    color: var(--muted); font-size: 12.5px;
-    display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: space-between;
-  }
-  footer .links { display: flex; gap: 18px; }
-  footer a { text-decoration: none; }
-  footer a:hover { text-decoration: underline; }
-  @media (max-width: 600px) {
-    header { padding: 12px 16px; }
-    main { padding: 28px 18px 48px; }
-    footer { padding: 0 18px 36px; }
-  }
-</style>
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <script>
-  /* Match the dashboard's theme choice (same localStorage key), no flash. */
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; the old "mm-theme" key is carried
+     over once. Without a saved choice the system settings decide. */
   (function () {
+    var d = document.documentElement, t = null, m = null;
     try {
-      var t = localStorage.getItem('mm-theme');
+      t = localStorage.getItem('airadar-theme');
       if (t !== 'light' && t !== 'dark') {
-        t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        t = localStorage.getItem('mm-theme');
+        if (t === 'light' || t === 'dark') localStorage.setItem('airadar-theme', t);
       }
-      document.documentElement.setAttribute('data-theme', t);
+      m = localStorage.getItem('airadar-motion');
     } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
   })();
 </script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<script src="/assets/pages.js" defer></script>
 </head>
 <body>
 
-<header>
-  <a class="brand" href="/" style="text-decoration:none;color:inherit">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#1f56c4"/><path d="M31 34 L31 17 A17 17 0 0 1 43 22 Z" fill="#fff" opacity=".18"/><circle cx="31" cy="34" r="17" fill="none" stroke="#fff" stroke-width="2.4" opacity=".4"/><circle cx="31" cy="34" r="11" fill="none" stroke="#fff" stroke-width="2.4" opacity=".6"/><line x1="31" y1="34" x2="43" y2="22" stroke="#fff" stroke-width="2.4" stroke-linecap="round" opacity=".9"/><circle cx="31" cy="34" r="3" fill="#fff"/><circle cx="40" cy="25" r="3.6" fill="#7cc4ff" stroke="#1f56c4" stroke-width="2.4"/></svg>
-    <h1>AI Radar</h1>
-  </a>
-  <a class="back" href="/">&larr; Back to the dashboard</a>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
 </header>
 
-<main>
-  <h1 class="doc-title">Privacy Statement</h1>
-  <p class="updated">Last updated: 19 June 2026</p>
+<main id="main" class="container">
+  <article class="doc">
+    <h1 class="doc-title">Privacy Statement</h1>
+    <p class="updated">Last updated: 30 September 2026</p>
 
-  <div class="lead">
-    <p><strong>The short version.</strong> AI Radar is a free, personal, non-commercial
-    dashboard that shows publicly available AI news. There are no accounts, no advertising,
-    no analytics and no tracking cookies. Everything runs in your own browser. Because the
-    only data stored on your device is strictly functional, no cookie-consent banner is
-    required.</p>
-  </div>
+    <div class="lead">
+      <p><strong>The short version.</strong> AI Radar is a free, personal, non-commercial
+      dashboard that shows publicly available AI news. There are no accounts, no advertising,
+      no analytics and no tracking cookies. Everything runs in your own browser. Because the
+      only data stored on your device is strictly functional, no cookie-consent banner is
+      required.</p>
+    </div>
 
-  <h2>1. Who is responsible</h2>
-  <p>AI Radar is a personal project by Benjamin Nieuwenhuijzen. It is not a commercial
-  service. For privacy questions you can reach the maintainer by email at
-  <a href="mailto:info@ai-radar.eu">info@ai-radar.eu</a> or via the
-  <a href="/contact">contact page</a>.</p>
+    <h2>1. Who is responsible</h2>
+    <p>AI Radar is a personal project by Benjamin Nieuwenhuijzen. It is not a commercial
+    service. For privacy questions you can reach the maintainer by email at
+    <a href="mailto:info@ai-radar.eu">info@ai-radar.eu</a> or via the
+    <a href="/contact">contact page</a>.</p>
 
-  <h2>2. What is stored on your device</h2>
-  <p>AI Radar keeps a small amount of information in your browser's local storage so the
-  dashboard remembers how you like to use it and loads instantly. This includes:</p>
-  <ul>
-    <li>your theme preference (auto, light or dark);</li>
-    <li>your filter choices, such as which companies, category and time period you selected;</li>
-    <li>which posts you have already seen (to mark new items);</li>
-    <li>a local cache of recently loaded posts, so the page shows content immediately on your next visit.</li>
-  </ul>
-  <p>This information stays on your device. It is never sent to AI Radar or to anyone else,
-  and it is not used to identify or track you. Because it is strictly necessary for the
-  functionality you requested, no consent is required for it under the GDPR and the ePrivacy
-  rules. You can remove it at any time by clearing your browser's site data for this site.</p>
+    <h2>2. What is stored on your device</h2>
+    <p>AI Radar keeps a small amount of information in your browser's local storage so the
+    dashboard remembers how you like to use it. This includes:</p>
+    <ul>
+      <li>your theme preference (light or dark);</li>
+      <li>your motion preference (on or off);</li>
+      <li>the list of posts you saved.</li>
+    </ul>
+    <p>This information stays on your device. It is never sent to AI Radar or to anyone else,
+    and it is not used to identify or track you. Because it is strictly necessary for the
+    functionality you requested, no consent is required for it under the GDPR and the ePrivacy
+    rules. You can remove it at any time by clearing your browser's site data for this site.
+    The view and category you select are not stored at all: they are kept in the page address
+    (URL).</p>
 
-  <h2>3. Hosting and server logs</h2>
-  <p>The dashboard is hosted on GitHub Pages (GitHub, Inc.). As with any website, the host
-  automatically receives standard technical request data &mdash; including your IP address,
-  the type of browser you use and the page you requested &mdash; in order to deliver the page
-  and keep the service secure. This processing is carried out by GitHub as the hosting
-  provider. AI Radar has no analytics layer of its own and does not combine this data with
-  anything else to identify you. GitHub's handling of this data is described in the
-  <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub Privacy Statement</a>.</p>
+    <h2>3. Hosting and server logs</h2>
+    <p>The dashboard is hosted on GitHub Pages (GitHub, Inc.). As with any website, the host
+    automatically receives standard technical request data &mdash; including your IP address,
+    the type of browser you use and the page you requested &mdash; in order to deliver the page
+    and keep the service secure. This processing is carried out by GitHub as the hosting
+    provider. AI Radar has no analytics layer of its own and does not combine this data with
+    anything else to identify you. GitHub's handling of this data is described in the
+    <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">GitHub Privacy Statement</a>.</p>
 
-  <h2>4. Where the content comes from</h2>
-  <p>The posts you see are loaded primarily from AI Radar's own data file, served from the
-  same domain. This file is prepared in advance and contains no information about you, so
-  viewing the dashboard normally involves no third party other than the host described above.</p>
-  <p>If that file is temporarily unavailable, the dashboard can fall back to fetching feeds
-  live. In that fallback case the request may pass through a public proxy service
-  (such as allorigins.win, corsproxy.io or codetabs.com) or go directly to the source. Like
-  any web request, this exposes your IP address to that service. These are independent third
-  parties with their own privacy policies; they are used only as a fallback and not during
-  normal use of the published site.</p>
-  <p>When you open an article, the link takes you to the original publisher's website, which
-  is outside AI Radar's control and has its own privacy policy.</p>
+    <h2>4. Where the content comes from</h2>
+    <p>The posts you see are loaded from AI Radar's own data file, served from the same domain.
+    This file is prepared in advance and contains no information about you, so viewing the
+    dashboard involves no third party other than the host described above. Images are served
+    from ai-radar.eu itself and the page loads no fonts from other services, so your browser
+    makes no requests to third parties such as Google Fonts or image hosts.</p>
+    <p>When you open an article, the link takes you to the original publisher's website, which
+    is outside AI Radar's control and has its own privacy policy.</p>
 
-  <h2>5. Email subscription (optional)</h2>
-  <p>If you choose to subscribe to the AI Radar feed by email, this is handled by the
-  third-party service Blogtrottr. You enter your email address at Blogtrottr and confirm it
-  by email; your address never reaches AI Radar. The subscription is governed by
-  <a href="https://blogtrottr.com/privacy/" target="_blank" rel="noopener">Blogtrottr's privacy policy</a>,
-  and you can unsubscribe from any email.</p>
+    <h2>5. Email subscription (optional)</h2>
+    <p>If you choose to subscribe to the AI Radar feed by email, this is handled by the
+    third-party service Blogtrottr. You enter your email address at Blogtrottr and confirm it
+    by email; your address never reaches AI Radar. The subscription is governed by
+    <a href="https://blogtrottr.com/privacy/" target="_blank" rel="noopener">Blogtrottr's privacy policy</a>,
+    and you can unsubscribe from any email.</p>
 
-  <h2>6. No personal data collected by AI Radar</h2>
-  <p>AI Radar itself has no accounts, no contact forms, no newsletter list and no profiling.
-  It does not collect, sell or share personal data.</p>
+    <h2>6. No personal data collected by AI Radar</h2>
+    <p>AI Radar itself has no accounts, no contact forms, no newsletter list and no profiling.
+    It does not collect, sell or share personal data.</p>
 
-  <h2>7. Your rights</h2>
-  <p>Under the GDPR you have rights to access, correct and erase personal data, among others.
-  Because AI Radar holds no personal data about you, there is nothing on its side to access
-  or erase. For the data stored on your own device, you are in control: clear it through your
-  browser at any time. For the technical request data handled by the host, see the GitHub
-  Privacy Statement linked above. For any question, use the contact channel in section 1.</p>
+    <h2>7. Your rights</h2>
+    <p>Under the GDPR you have rights to access, correct and erase personal data, among others.
+    Because AI Radar holds no personal data about you, there is nothing on its side to access
+    or erase. For the data stored on your own device, you are in control: clear it through your
+    browser at any time. For the technical request data handled by the host, see the GitHub
+    Privacy Statement linked above. For any question, use the contact channel in section 1.</p>
 
-  <h2>8. Audience</h2>
-  <p>AI Radar is a general-interest news dashboard and is not directed at children.</p>
+    <h2>8. Audience</h2>
+    <p>AI Radar is a general-interest news dashboard and is not directed at children.</p>
 
-  <h2>9. Changes to this statement</h2>
-  <p>This statement may be updated if the dashboard changes. The date at the top shows when
-  it was last revised.</p>
+    <h2>9. Changes to this statement</h2>
+    <p>This statement may be updated if the dashboard changes. The date at the top shows when
+    it was last revised.</p>
+  </article>
 </main>
 
-<footer>
-  <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
-  <span class="links">
-    <a href="/">Dashboard</a>
-    <a href="/about">About</a>
-    <a href="/disclaimer">Disclaimer</a>
-    <a href="/contact">Contact</a>
-  </span>
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy" aria-current="page">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
 </footer>
 
 </body>

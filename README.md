@@ -6,34 +6,41 @@ A live dashboard of the latest news from the leading AI companies, aggregated fr
 
 ## What it does
 
-AI Radar follows 12 companies (OpenAI, Anthropic, Google AI & DeepMind, Meta AI, Microsoft AI, NVIDIA, Hugging Face, xAI, Perplexity, Mistral, Cohere, DeepSeek), plus an **Across AI** card for industry news that is not tied to a single company (policy, funding, society), fed by a Google News query and MIT Technology Review with optional hand-picked items from `curated.json`. It brings the updates together as:
+AI Radar follows 12 companies (OpenAI, Anthropic, Google AI & DeepMind, Meta AI, Microsoft AI, NVIDIA, Hugging Face, xAI, Perplexity, Mistral, Cohere, DeepSeek), plus an **Across AI** card for industry news that is not tied to a single company (policy, funding, society), fed by a Google News query and MIT Technology Review with optional hand-picked items from `curated.json`. In total the build reads 41 RSS and Atom feeds: 39 for the companies and 2 for Across AI. The dashboard brings the updates together as:
 
-- **By company** grid, ordered by how active each company has recently been in the news. Drag a card by its grip handle to set your own order; it is remembered in your browser, and an **"Auto order"** button returns to the activity ranking.
-- **Timeline** view of every update in chronological order, with a "Load more" control.
-- A **top story** hero with a "more top stories" rail of other recent headlines.
-- An optional daily **"Today in AI"** briefing generated during the build (see below).
-- Filters by category, company and period, plus free-text search and a per-article **save** list.
-- Light / dark / auto theme. No analytics, no tracking, no cookies; preferences (theme, company selection, card order, saved articles) are stored only locally in the browser.
+- A **Today in AI** carousel with up to five top stories. By default they are picked automatically and labelled **Auto-selected**: recent model releases first, one story per company, only posts with an image, from the last 72 hours (widened to 7 days on a quiet day). The carousel advances every 7 seconds and pauses on hover, on keyboard focus, in a background tab or with motion turned off; the arrows, the progress segments, the arrow keys and a swipe move between slides. With the optional digest (see below) it shows the AI-written briefing instead.
+- A **Latest** column with the five newest posts.
+- A **live status** line in the header: when the data was last updated, a countdown to the next scheduled build and the number of sources. The page checks `data.json` every five minutes and when the countdown runs out. New posts wait behind a "↑ N new posts" pill, so nothing moves while you read; if a check fails, the status switches to Offline and a bar offers Retry.
+- **By company**: one card per company, ordered by the number of posts this week, then by the newest post. A card shows its latest post plus three more (two on mobile) and expands to at most 12, with an "All N in Timeline →" link when there are more. Across AI posts show the logo of the company they are about.
+- **Timeline**: every post in chronological order, grouped by day with a post count per day, 50 at a time with "Load more".
+- **Category chips** (Model releases, Products, Research, Developer, Hardware, Applied AI, Business, Safety & policy, Other), free-text search ("/" jumps to the field) and **saved posts**: bookmark any post and show only those with "Saved · N". The view and category are kept in the URL (for example `?view=timeline&cat=model-releases`), so a filtered view can be shared.
+- **Motion** and **theme** toggles. Both follow the system setting (reduced motion, light or dark) until you choose, and the choice carries over to the about, contact, privacy and disclaimer pages.
+
+All times and the day grouping are in UTC, like the build schedule. No analytics, no tracking, no cookies, no web fonts and zero third-party requests: text uses the system fonts, logos are inline and images are served from the site itself. The only data stored is kept in the browser's localStorage under `airadar-theme`, `airadar-motion` and `airadar-saved` (the ids of saved posts). Keys from the previous version (`mm-theme`, `mm-saved-v1` and the other `mm-*` keys, `ai-dashboard-cache-v3`) are migrated or removed on the first visit.
 
 ## How it works
 
-A GitHub Action (`.github/workflows/build-feed.yml` running `scripts/build-feed.mjs`) runs every two hours and writes three files to the repository root:
+A GitHub Action (`.github/workflows/build-feed.yml` running `scripts/build-feed.mjs`) runs every two hours (minute 17 of every even UTC hour) and writes three files to the repository root:
 
-- `data.json` — structured items (title, link, date, summary, image, company); the dashboard's primary data source.
+- `data.json` — structured items (title, link, date, summary, image, company, source) plus the build schedule; the dashboard's only data source.
 - `feed.xml` — a combined RSS feed used for the email subscription via Blogtrottr.
 - `digest.json` — the optional daily briefing (only when enabled; see below).
 
-`index.html` reads `data.json` from its own domain. If that is unreachable (for example when the file is opened locally) it falls back to fetching each feed live through public CORS proxies. Missing thumbnails and summaries are backfilled from each article's Open Graph tags during the build, cached across runs. Article images are downloaded, resized and committed to `img/`, so visitors' browsers make no third-party requests.
+The dashboard (`index.html` with `assets/app.js`) reads `data.json` from its own domain. There is no fallback to live feeds or proxies: if the file cannot be loaded, the page says so and offers Retry and the RSS feed. Missing thumbnails and summaries are backfilled from each article's Open Graph tags during the build, cached across runs. Article images are downloaded, resized and committed to `img/`, so visitors' browsers make no third-party requests.
+
+Besides `items`, `data.json` carries `generated` and `lastFetchedAt` (build time), `nextFetchAt` (the next scheduled build, which drives the countdown), `intervalMinutes` (120), `sources` (the number of source feeds, shown as "N sources") and `digest` (true only when a usable `digest.json` exists). Each item has a stable `id`, a hash of its normalised link that bookmarks and digest items refer to, and Across AI items that name a tracked company get `about`. The dashboard uses `about` as the build wrote it: an item with an `id` but no `about` is not about a tracked company. The new fields are additive: the dashboard also works with an older `data.json` without them. It then computes `id` and `about` itself, with a copy of the build's rules (`ABOUT_RULES` in `scripts/build-feed.mjs` and `assets/app.js` must stay identical), shows the card count as the number of sources and derives the next refresh from the cron schedule.
 
 ## Daily briefing (optional)
 
-When the repository secret `ANTHROPIC_API_KEY` is set, the build generates a five-item "Today in AI" briefing once per UTC day with the Anthropic Messages API (Claude Haiku), writes it to `digest.json`, and prepends it to `feed.xml` for email subscribers. Without the secret the feature stays dormant and the rest of the build is unaffected.
+The briefing is optional and the site does not need it. Without an API key no `digest.json` is written, `data.json` says `"digest": false`, the page never requests the file, and the carousel auto-selects its stories as described above.
+
+When the repository secret `ANTHROPIC_API_KEY` is set, the build generates a "Today in AI" briefing once per UTC day with the Anthropic Messages API (Claude Haiku), writes it to `digest.json`, sets `"digest": true` in `data.json`, and prepends the briefing to `feed.xml` for email subscribers. The digest uses format v2: 3 to 5 items, each with a title, one or two sentences of text and the `sourcePostId` of the `data.json` post it is based on, so the carousel can show that post's image, company and link. Items that point at an unknown post are dropped, and a result with fewer than three valid items keeps the previous digest; a legacy v1 digest is replaced on the next run. The page shows a digest from today or yesterday (UTC), labelled **AI-generated**, and otherwise falls back to the auto-selected stories. Without the secret the feature stays dormant and the rest of the build is unaffected.
 
 To enable it: add the secret under **Settings → Secrets and variables → Actions**, then run the workflow (it also runs on the two-hour schedule).
 
 ## Local preview
 
-The dashboard is a single self-contained file. Serve the repository folder with any static web server and open `index.html`. The build script needs Node 20+, but it only runs in CI.
+The site is plain HTML, CSS and JavaScript with no build step and no dependencies: `index.html` with `assets/tokens.css`, `assets/app.css` and `assets/app.js` for the dashboard, and `assets/pages.css` and `assets/pages.js` for the about, contact, privacy and disclaimer pages. Serve the repository root with any static web server and open `/`. The pages use root-relative paths (`/data.json`, `/assets/…`), so opening `index.html` straight from disk does not work, and the internal links are extensionless (`/about`), which GitHub Pages resolves to `about.html`. In the browser console, `window.__airadar.poll()` checks for a new build right away. The build script only runs in CI and needs Node 20+. ImageMagick is optional: when it is installed (as in CI), the build resizes the downloaded article images; without it, the originals are kept.
 
 ## Versioning and releases
 
@@ -45,8 +52,8 @@ To make per-change history easy to review, prefer pull requests over direct push
 
 ```
 # cut a release once changes are on main
-git tag -a v1.1.0 -m "AI Radar 1.1.0"
-git push origin v1.1.0
+git tag -a v2.0.0 -m "AI Radar 2.0.0"
+git push origin v2.0.0
 ```
 
 ## Sources and disclaimer

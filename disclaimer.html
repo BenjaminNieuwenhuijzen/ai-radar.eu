@@ -7,149 +7,118 @@
 <title>Disclaimer · AI Radar</title>
 <meta name="description" content="AI Radar is an aggregator, not a source. It reads publicly available AI news feeds and shows them unchanged, each linking to the original article.">
 <link rel="canonical" href="https://ai-radar.eu/disclaimer">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f56c4'/%3E%3Cpath d='M31 34 L31 17 A17 17 0 0 1 43 22 Z' fill='%23fff' opacity='.18'/%3E%3Ccircle cx='31' cy='34' r='17' fill='none' stroke='%23fff' stroke-width='2.4' opacity='.4'/%3E%3Ccircle cx='31' cy='34' r='11' fill='none' stroke='%23fff' stroke-width='2.4' opacity='.6'/%3E%3Cline x1='31' y1='34' x2='43' y2='22' stroke='%23fff' stroke-width='2.4' stroke-linecap='round' opacity='.9'/%3E%3Ccircle cx='31' cy='34' r='3' fill='%23fff'/%3E%3Ccircle cx='40' cy='25' r='3.6' fill='%237cc4ff' stroke='%231f56c4' stroke-width='2.4'/%3E%3C/svg%3E">
-<style>
-  /* Same theme tokens as the dashboard, so light/dark match. */
-  :root {
-    --bg: #f5f6f8; --card: #ffffff; --border: #e3e6ea;
-    --text: #1a1d23; --muted: #5f6672; --link: #1f56c4;
-    --shadow: 0 1px 2px rgba(16, 24, 40, .05);
-  }
-  :root[data-theme="dark"] {
-    --bg: #111418; --card: #1a1e25; --border: #2a2f38;
-    --text: #e8eaee; --muted: #9aa1ad; --link: #82a8ff;
-    --shadow: 0 1px 2px rgba(0, 0, 0, .3);
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: var(--bg); color: var(--text); line-height: 1.6;
-    min-height: 100vh;
-  }
-  a { color: var(--link); }
-  :focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
-
-  header {
-    position: sticky; top: 0; z-index: 10;
-    background: var(--card); border-bottom: 1px solid var(--border);
-    padding: 14px 32px; display: flex; align-items: center;
-    justify-content: space-between; gap: 12px 28px; flex-wrap: wrap;
-  }
-  .brand { display: flex; align-items: center; gap: 11px; }
-  .brand svg { width: 30px; height: 30px; display: block; flex: none; }
-  .brand h1 { margin: 0; font-size: 18px; font-weight: 650; }
-  .back { font-size: 13px; text-decoration: none; color: var(--muted); }
-  .back:hover { color: var(--link); text-decoration: underline; }
-
-  main { max-width: 760px; margin: 0 auto; padding: 40px 32px 64px; }
-  .doc-title { font-size: 26px; font-weight: 680; margin: 0 0 4px; }
-  .updated { color: var(--muted); font-size: 13px; margin: 0 0 28px; }
-  .lead {
-    background: var(--card); border: 1px solid var(--border);
-    border-radius: 12px; padding: 16px 18px; box-shadow: var(--shadow);
-    margin: 0 0 32px;
-  }
-  .lead p { margin: 0; }
-  h2 {
-    font-size: 16px; font-weight: 640; margin: 32px 0 8px;
-    padding-top: 18px; border-top: 1px solid var(--border);
-  }
-  h2:first-of-type { border-top: 0; padding-top: 0; }
-  p { margin: 0 0 12px; }
-  footer {
-    max-width: 760px; margin: 0 auto; padding: 0 32px 48px;
-    color: var(--muted); font-size: 12.5px;
-    display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: space-between;
-  }
-  footer .links { display: flex; gap: 18px; }
-  footer a { text-decoration: none; }
-  footer a:hover { text-decoration: underline; }
-  @media (max-width: 600px) {
-    header { padding: 12px 16px; }
-    main { padding: 28px 18px 48px; }
-    footer { padding: 0 18px 36px; }
-  }
-</style>
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <script>
-  /* Match the dashboard's theme choice (same localStorage key), no flash. */
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; the old "mm-theme" key is carried
+     over once. Without a saved choice the system settings decide. */
   (function () {
+    var d = document.documentElement, t = null, m = null;
     try {
-      var t = localStorage.getItem('mm-theme');
+      t = localStorage.getItem('airadar-theme');
       if (t !== 'light' && t !== 'dark') {
-        t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        t = localStorage.getItem('mm-theme');
+        if (t === 'light' || t === 'dark') localStorage.setItem('airadar-theme', t);
       }
-      document.documentElement.setAttribute('data-theme', t);
+      m = localStorage.getItem('airadar-motion');
     } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
   })();
 </script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<script src="/assets/pages.js" defer></script>
 </head>
 <body>
 
-<header>
-  <a class="brand" href="/" style="text-decoration:none;color:inherit">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#1f56c4"/><path d="M31 34 L31 17 A17 17 0 0 1 43 22 Z" fill="#fff" opacity=".18"/><circle cx="31" cy="34" r="17" fill="none" stroke="#fff" stroke-width="2.4" opacity=".4"/><circle cx="31" cy="34" r="11" fill="none" stroke="#fff" stroke-width="2.4" opacity=".6"/><line x1="31" y1="34" x2="43" y2="22" stroke="#fff" stroke-width="2.4" stroke-linecap="round" opacity=".9"/><circle cx="31" cy="34" r="3" fill="#fff"/><circle cx="40" cy="25" r="3.6" fill="#7cc4ff" stroke="#1f56c4" stroke-width="2.4"/></svg>
-    <h1>AI Radar</h1>
-  </a>
-  <a class="back" href="/">&larr; Back to the dashboard</a>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
 </header>
 
-<main>
-  <h1 class="doc-title">Disclaimer</h1>
-  <p class="updated">Last updated: 19 June 2026</p>
+<main id="main" class="container">
+  <article class="doc">
+    <h1 class="doc-title">Disclaimer</h1>
+    <p class="updated">Last updated: 19 June 2026</p>
 
-  <div class="lead">
-    <p><strong>In short.</strong> AI Radar is an aggregator, not a source. It reads publicly
-    available feeds and shows them unchanged, with a link to each original article. No rights
-    can be derived from what is shown, and AI Radar is not affiliated with any of the
-    companies listed.</p>
-  </div>
+    <div class="lead">
+      <p><strong>In short.</strong> AI Radar is an aggregator, not a source. It reads publicly
+      available feeds and shows them unchanged, with a link to each original article. No rights
+      can be derived from what is shown, and AI Radar is not affiliated with any of the
+      companies listed.</p>
+    </div>
 
-  <h2>1. An aggregator, not a source</h2>
-  <p>The content shown on AI Radar is not owned by its creator. AI Radar only reads publicly
-  available sources &mdash; the news feeds of the companies listed and community feeds &mdash;
-  and displays them unchanged, each with a link to the original article. All rights to the
-  posts remain with the original sources.</p>
+    <h2>1. An aggregator, not a source</h2>
+    <p>The content shown on AI Radar is not owned by its creator. AI Radar only reads publicly
+    available sources &mdash; the news feeds of the companies listed and community feeds &mdash;
+    and displays them unchanged, each with a link to the original article. All rights to the
+    posts remain with the original sources.</p>
 
-  <h2>2. No warranty and no rights</h2>
-  <p>No rights can be derived from the information shown. The creator offers no guarantee as
-  to the accuracy, completeness or timeliness of the data, and accepts no responsibility or
-  liability for incorrect, outdated or incomplete posts, nor for any decisions made based on
-  them. Community feeds in particular may lag behind the official source.</p>
+    <h2>2. No warranty and no rights</h2>
+    <p>No rights can be derived from the information shown. The creator offers no guarantee as
+    to the accuracy, completeness or timeliness of the data, and accepts no responsibility or
+    liability for incorrect, outdated or incomplete posts, nor for any decisions made based on
+    them. Community feeds in particular may lag behind the official source.</p>
 
-  <h2>3. Automated categorisation</h2>
-  <p>Each post is automatically assigned a category based on its title and summary. This is an
-  automated estimate, not an editorial judgement, and it is not foolproof. Posts may
-  occasionally be placed in a less fitting category.</p>
+    <h2>3. Automated categorisation</h2>
+    <p>Each post is automatically assigned a category based on its title and summary. This is an
+    automated estimate, not an editorial judgement, and it is not foolproof. Posts may
+    occasionally be placed in a less fitting category.</p>
 
-  <h2>4. Brand names and intellectual property</h2>
-  <p>Brand names and logos mentioned are the property of their respective owners and are used
-  here for identification purposes only. AI Radar is not affiliated with, sponsored by or
-  endorsed by any of the companies listed.</p>
+    <h2>4. Brand names and intellectual property</h2>
+    <p>Brand names and logos mentioned are the property of their respective owners and are used
+    here for identification purposes only. AI Radar is not affiliated with, sponsored by or
+    endorsed by any of the companies listed.</p>
 
-  <h2>5. External links</h2>
-  <p>The dashboard links to external websites. AI Radar has no control over those sites and
-  is not responsible for their content, availability, terms or privacy practices. Visiting
-  them is at your own discretion.</p>
+    <h2>5. External links</h2>
+    <p>The dashboard links to external websites. AI Radar has no control over those sites and
+    is not responsible for their content, availability, terms or privacy practices. Visiting
+    them is at your own discretion.</p>
 
-  <h2>6. Email delivery</h2>
-  <p>The optional email subscription is provided by the third-party service Blogtrottr. Your
-  email address never reaches AI Radar, and the delivery of those emails falls outside the
-  creator's responsibility.</p>
+    <h2>6. Email delivery</h2>
+    <p>The optional email subscription is provided by the third-party service Blogtrottr. Your
+    email address never reaches AI Radar, and the delivery of those emails falls outside the
+    creator's responsibility.</p>
 
-  <h2>7. A personal project</h2>
-  <p>AI Radar is a personal, non-commercial project. How it handles your data is described in
-  the <a href="/privacy">Privacy Statement</a>.</p>
+    <h2>7. A personal project</h2>
+    <p>AI Radar is a personal, non-commercial project. How it handles your data is described in
+    the <a href="/privacy">Privacy Statement</a>.</p>
+  </article>
 </main>
 
-<footer>
-  <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
-  <span class="links">
-    <a href="/">Dashboard</a>
-    <a href="/about">About</a>
-    <a href="/privacy">Privacy</a>
-    <a href="/contact">Contact</a>
-  </span>
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer" aria-current="page">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
 </footer>
 
 </body>

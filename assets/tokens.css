@@ -1,0 +1,86 @@
+/* AI Radar design tokens (redesign 1c "Hybrid").
+   Shared by the dashboard and the about/contact/privacy/disclaimer pages.
+   Theme switches via data-theme="light|dark" on <html>; a pre-paint inline
+   script sets it from localStorage (airadar-theme) or prefers-color-scheme. */
+
+:root,
+:root[data-theme="light"] {
+  --bg: #f7f6f2;
+  --panel: #ffffff;
+  --ink: #15171c;
+  --ink-2: #33363c;
+  --muted: #5c5f66;
+  --line: #e2e0d9;
+  /* Boundaries that identify a control or its state (search field, selected view,
+     slide progress track): >= 3:1 on --bg, --panel and --soft (WCAG 1.4.11). */
+  --line-strong: #848279;
+  --soft: #eeece6;
+  --fresh: oklch(0.95 0.06 90);
+  --live: #2f9e5b;
+
+  /* Company colours: oklch(L C H), only the hue differs per company.
+     --co-l/--co-c are the design values, used for graphics (3px card bar, dots).
+     --co-text-l is used for company names set as text: in light mode L 0.55
+     misses WCAG AA (4.5:1) on --bg for several hues (e.g. hue 180 = 3.95:1),
+     L 0.51 passes for every hue on both --bg and --panel. */
+  --co-l: 0.55;
+  --co-c: 0.14;
+  --co-text-l: 0.51;
+  --co-neutral: #6b6860;          /* Across AI */
+
+  --shadow-card: 0 14px 34px rgba(20, 20, 30, .10);
+  --shadow-pill: 0 6px 20px rgba(0, 0, 0, .15);
+
+  /* No web fonts on purpose: no font files are hosted and no font requests go
+     to third parties (privacy). The design faces are used when a visitor has
+     them installed; otherwise each stack picks the closest system face per
+     platform (Sitka/Charter/Iowan for the serif, Segoe UI/SF for the sans,
+     Cascadia/SF Mono/Consolas for the mono). Listing a family never triggers
+     a download; only @font-face url() would. */
+  --font-serif: "Source Serif 4", "Source Serif Pro", "Sitka Text", "Iowan Old Style", Charter, "Bitstream Charter", Cambria, Georgia, serif;
+  --font-sans: "Geist", system-ui, -apple-system, "Segoe UI Variable Text", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SF Mono", SFMono-Regular, "Cascadia Mono", "Cascadia Code", Consolas, "Roboto Mono", Menlo, "Liberation Mono", monospace;
+
+  --container: 1280px;
+  --gutter: 36px;
+
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bg: #111215;
+  --panel: #1a1c20;
+  --ink: #eceae4;
+  --ink-2: #cfcdc7;
+  --muted: #9ea1a8;
+  --line: #2c2f35;
+  --line-strong: #70737a;
+  --soft: #23262b;
+  --fresh: oklch(0.33 0.05 85);
+  --live: #2f9e5b;
+
+  --co-l: 0.76;
+  --co-c: 0.12;
+  --co-text-l: 0.76;
+  --co-neutral: #a9a69e;
+
+  color-scheme: dark;
+}
+
+/* Same specificity as the theme blocks above, or :root[data-theme="light"] would keep 36px.
+   .98: a fractional viewport width (Windows scaling, zoom) must not fall between ranges. */
+@media (max-width: 767.98px) {
+  :root, :root[data-theme] { --gutter: 18px; }
+}
+
+/* Company colour helpers. Put style="--h: 55" (the company hue) on any element;
+   descendants can then use var(--co) for graphics and var(--co-text) for text.
+   For the neutral Across AI card set class "co-neutral" instead of --h. */
+[style*="--h"] {
+  --co: oklch(var(--co-l) var(--co-c) var(--h));
+  --co-text: oklch(var(--co-text-l) var(--co-c) var(--h));
+}
+.co-neutral {
+  --co: var(--co-neutral);
+  --co-text: var(--co-neutral);
+}

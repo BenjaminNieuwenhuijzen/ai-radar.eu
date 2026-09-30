@@ -7,7 +7,8 @@
 <title>Contact · AI Radar</title>
 <meta name="description" content="Get in touch with AI Radar. Send feedback, report a correction, request removal of a post, or ask about press and partnerships by email.">
 <link rel="canonical" href="https://ai-radar.eu/contact">
-<meta name="theme-color" content="#1f56c4">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="AI Radar">
 <meta property="og:title" content="Contact · AI Radar">
@@ -16,154 +17,110 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Contact · AI Radar">
 <meta name="twitter:description" content="Get in touch with AI Radar by email — feedback, corrections, removal requests, press and partnerships.">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231f56c4'/%3E%3Cpath d='M31 34 L31 17 A17 17 0 0 1 43 22 Z' fill='%23fff' opacity='.18'/%3E%3Ccircle cx='31' cy='34' r='17' fill='none' stroke='%23fff' stroke-width='2.4' opacity='.4'/%3E%3Ccircle cx='31' cy='34' r='11' fill='none' stroke='%23fff' stroke-width='2.4' opacity='.6'/%3E%3Cline x1='31' y1='34' x2='43' y2='22' stroke='%23fff' stroke-width='2.4' stroke-linecap='round' opacity='.9'/%3E%3Ccircle cx='31' cy='34' r='3' fill='%23fff'/%3E%3Ccircle cx='40' cy='25' r='3.6' fill='%237cc4ff' stroke='%231f56c4' stroke-width='2.4'/%3E%3C/svg%3E">
-<style>
-  /* Same theme tokens as the dashboard, so light/dark match. */
-  :root {
-    --bg: #f5f6f8; --card: #ffffff; --border: #e3e6ea;
-    --text: #1a1d23; --muted: #5f6672; --link: #1f56c4;
-    --shadow: 0 1px 2px rgba(16, 24, 40, .05);
-  }
-  :root[data-theme="dark"] {
-    --bg: #111418; --card: #1a1e25; --border: #2a2f38;
-    --text: #e8eaee; --muted: #9aa1ad; --link: #82a8ff;
-    --shadow: 0 1px 2px rgba(0, 0, 0, .3);
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background: var(--bg); color: var(--text); line-height: 1.6;
-    min-height: 100vh;
-  }
-  a { color: var(--link); }
-  :focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
-
-  header {
-    position: sticky; top: 0; z-index: 10;
-    background: var(--card); border-bottom: 1px solid var(--border);
-    padding: 14px 32px; display: flex; align-items: center;
-    justify-content: space-between; gap: 12px 28px; flex-wrap: wrap;
-  }
-  .brand { display: flex; align-items: center; gap: 11px; }
-  .brand svg { width: 30px; height: 30px; display: block; flex: none; }
-  .brand h1 { margin: 0; font-size: 18px; font-weight: 650; }
-  .back { font-size: 13px; text-decoration: none; color: var(--muted); }
-  .back:hover { color: var(--link); text-decoration: underline; }
-
-  main { max-width: 760px; margin: 0 auto; padding: 40px 32px 64px; }
-  .doc-title { font-size: 26px; font-weight: 680; margin: 0 0 4px; }
-  .updated { color: var(--muted); font-size: 13px; margin: 0 0 28px; }
-  .lead {
-    background: var(--card); border: 1px solid var(--border);
-    border-radius: 12px; padding: 16px 18px; box-shadow: var(--shadow);
-    margin: 0 0 32px;
-  }
-  .lead p { margin: 0; }
-  .email-card {
-    background: var(--card); border: 1px solid var(--border);
-    border-radius: 12px; padding: 18px 20px; box-shadow: var(--shadow);
-    margin: 0 0 32px; text-align: center;
-  }
-  .email-card .label { color: var(--muted); font-size: 13px; margin: 0 0 6px; }
-  .email-card a { font-size: 20px; font-weight: 640; text-decoration: none; }
-  .email-card a:hover { text-decoration: underline; }
-  h2 {
-    font-size: 16px; font-weight: 640; margin: 32px 0 8px;
-    padding-top: 18px; border-top: 1px solid var(--border);
-  }
-  h2:first-of-type { border-top: 0; padding-top: 0; }
-  p { margin: 0 0 12px; }
-  ul { margin: 0 0 12px; padding-left: 22px; }
-  li { margin: 4px 0; }
-  .muted { color: var(--muted); }
-  footer {
-    max-width: 760px; margin: 0 auto; padding: 0 32px 48px;
-    color: var(--muted); font-size: 12.5px;
-    display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: space-between;
-  }
-  footer .links { display: flex; gap: 18px; }
-  footer a { text-decoration: none; }
-  footer a:hover { text-decoration: underline; }
-  @media (max-width: 600px) {
-    header { padding: 12px 16px; }
-    main { padding: 28px 18px 48px; }
-    footer { padding: 0 18px 36px; }
-  }
-</style>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <script>
-  /* Match the dashboard's theme choice (same localStorage key), no flash. */
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; the old "mm-theme" key is carried
+     over once. Without a saved choice the system settings decide. */
   (function () {
+    var d = document.documentElement, t = null, m = null;
     try {
-      var t = localStorage.getItem('mm-theme');
+      t = localStorage.getItem('airadar-theme');
       if (t !== 'light' && t !== 'dark') {
-        t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        t = localStorage.getItem('mm-theme');
+        if (t === 'light' || t === 'dark') localStorage.setItem('airadar-theme', t);
       }
-      document.documentElement.setAttribute('data-theme', t);
+      m = localStorage.getItem('airadar-motion');
     } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
   })();
 </script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<script src="/assets/pages.js" defer></script>
 </head>
 <body>
 
-<header>
-  <a class="brand" href="/" style="text-decoration:none;color:inherit">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#1f56c4"/><path d="M31 34 L31 17 A17 17 0 0 1 43 22 Z" fill="#fff" opacity=".18"/><circle cx="31" cy="34" r="17" fill="none" stroke="#fff" stroke-width="2.4" opacity=".4"/><circle cx="31" cy="34" r="11" fill="none" stroke="#fff" stroke-width="2.4" opacity=".6"/><line x1="31" y1="34" x2="43" y2="22" stroke="#fff" stroke-width="2.4" stroke-linecap="round" opacity=".9"/><circle cx="31" cy="34" r="3" fill="#fff"/><circle cx="40" cy="25" r="3.6" fill="#7cc4ff" stroke="#1f56c4" stroke-width="2.4"/></svg>
-    <h1>AI Radar</h1>
-  </a>
-  <a class="back" href="/">&larr; Back to the dashboard</a>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
 </header>
 
-<main>
-  <h1 class="doc-title">Contact</h1>
-  <p class="updated">AI Radar is a personal, non-commercial project by Benjamin Nieuwenhuijzen.</p>
+<main id="main" class="container">
+  <article class="doc">
+    <h1 class="doc-title">Contact</h1>
+    <p class="updated">AI Radar is a personal, non-commercial project by Benjamin Nieuwenhuijzen.</p>
 
-  <div class="lead">
-    <p>Questions, feedback or a request about AI Radar? The fastest way to reach me is by
-    email. I read everything and try to reply within a few days.</p>
-  </div>
+    <div class="lead">
+      <p>Questions, feedback or a request about AI Radar? The fastest way to reach me is by
+      email. I read everything and try to reply within a few days.</p>
+    </div>
 
-  <div class="email-card">
-    <p class="label">Email</p>
-    <a href="mailto:info@ai-radar.eu">info@ai-radar.eu</a>
-  </div>
+    <div class="email-card">
+      <p class="label">Email</p>
+      <a href="mailto:info@ai-radar.eu">info@ai-radar.eu</a>
+    </div>
 
-  <h2>What you can write about</h2>
-  <ul>
-    <li><strong>Feedback and suggestions</strong> &mdash; ideas for new companies or sources to follow, features, or anything that feels off.</li>
-    <li><strong>Corrections</strong> &mdash; a post in the wrong category, a broken link, or a source that is out of date.</li>
-    <li><strong>Removal requests</strong> &mdash; see the note below if you are a rights holder.</li>
-    <li><strong>Press and partnerships</strong> &mdash; collaborations, listings or anything commercial.</li>
-  </ul>
+    <h2>What you can write about</h2>
+    <ul>
+      <li><strong>Feedback and suggestions</strong> &mdash; ideas for new companies or sources to follow, features, or anything that feels off.</li>
+      <li><strong>Corrections</strong> &mdash; a post in the wrong category, a broken link, or a source that is out of date.</li>
+      <li><strong>Removal requests</strong> &mdash; see the note below if you are a rights holder.</li>
+      <li><strong>Press and partnerships</strong> &mdash; collaborations, listings or anything commercial.</li>
+    </ul>
 
-  <h2>Source and removal requests</h2>
-  <p>AI Radar is an aggregator: it reads publicly available feeds and links each item back to
-  the original article. All rights to the posts remain with their original sources, as set out
-  in the <a href="/disclaimer">Disclaimer</a>. If you are a rights holder and would like a
-  reference to your content removed, email <a href="mailto:info@ai-radar.eu">info@ai-radar.eu</a>
-  with the link in question and I will act on reasonable requests promptly.</p>
+    <h2>Source and removal requests</h2>
+    <p>AI Radar is an aggregator: it reads publicly available feeds and links each item back to
+    the original article. All rights to the posts remain with their original sources, as set out
+    in the <a href="/disclaimer">Disclaimer</a>. If you are a rights holder and would like a
+    reference to your content removed, email <a href="mailto:info@ai-radar.eu">info@ai-radar.eu</a>
+    with the link in question and I will act on reasonable requests promptly.</p>
 
-  <h2>Privacy</h2>
-  <p>Emailing me means I receive your email address and your message, used only to reply to you.
-  AI Radar has no contact form and stores nothing on its side. How the dashboard itself handles
-  data is described in the <a href="/privacy">Privacy Statement</a>.</p>
+    <h2>Privacy</h2>
+    <p>Emailing me means I receive your email address and your message, used only to reply to you.
+    AI Radar has no contact form and stores nothing on its side. How the dashboard itself handles
+    data is described in the <a href="/privacy">Privacy Statement</a>.</p>
 
-  <h2>Elsewhere</h2>
-  <p>You can also find me on
-  <a href="https://www.linkedin.com/in/benjamin-nieuwenhuijzen-58a16b105/" target="_blank" rel="noopener">LinkedIn</a>,
-  <a href="https://x.com/BenNieuwenhuijz" target="_blank" rel="noopener">X</a>,
-  <a href="https://www.instagram.com/bnieuwenhuijzen/" target="_blank" rel="noopener">Instagram</a> and
-  <a href="https://github.com/BenjaminNieuwenhuijzen" target="_blank" rel="noopener">GitHub</a>.</p>
+    <h2>Elsewhere</h2>
+    <p>You can also find me on
+    <a href="https://www.linkedin.com/in/benjamin-nieuwenhuijzen-58a16b105/" target="_blank" rel="noopener">LinkedIn</a>,
+    <a href="https://x.com/BenNieuwenhuijz" target="_blank" rel="noopener">X</a>,
+    <a href="https://www.instagram.com/bnieuwenhuijzen/" target="_blank" rel="noopener">Instagram</a> and
+    <a href="https://github.com/BenjaminNieuwenhuijzen" target="_blank" rel="noopener">GitHub</a>.</p>
+  </article>
 </main>
 
-<footer>
-  <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
-  <span class="links">
-    <a href="/">Dashboard</a>
-    <a href="/about">About</a>
-    <a href="/privacy">Privacy</a>
-    <a href="/disclaimer">Disclaimer</a>
-  </span>
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/about">About</a>
+      <a href="/contact" aria-current="page">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
 </footer>
 
 </body>
