@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "links": [
+    { "modelId": "acme.rocket-1", "variantId": null, "postId": "p4", "link": "https://news.example.com/rocket-compared",
+      "title": "Rocket 1 and Rocket 2 compared", "publishedAt": "2026-07-10T09:00:00Z", "dateOnly": false,
+      "company": "Acme AI", "source": "Blog", "method": "auto", "alias": "rocket 1", "firstSeenAt": "2026-07-10T10:17:00Z", "firstSeenIn": "0000001" },
+    { "modelId": "acme.rocket-2", "variantId": null, "postId": "p1", "link": "https://acme.example/blog/rocket-2",
+      "title": "Rocket 2 is here", "publishedAt": "2026-07-01T12:00:00Z", "dateOnly": false,
+      "company": "Acme AI", "source": "Blog", "method": "auto", "alias": "rocket 2", "firstSeenAt": "2026-07-01T12:17:00Z", "firstSeenIn": "0000002" },
+    { "modelId": "acme.rocket-2", "variantId": null, "postId": "p2", "link": "https://news.google.example/redirect/abc",
+      "title": "Rocket 2 is here", "publishedAt": "2026-07-02T08:00:00Z", "dateOnly": false,
+      "company": "Across AI", "source": "Google News", "method": "auto", "alias": "rocket 2", "firstSeenAt": "2026-07-02T08:17:00Z", "firstSeenIn": "0000003" },
+    { "modelId": "acme.rocket-2", "variantId": null, "postId": "p3", "link": "https://news.example.com/rocket-2-review",
+      "title": "Rocket 2 review", "publishedAt": "2026-07-05T00:00:00Z", "dateOnly": true,
+      "company": "Across AI", "source": "Example News", "method": "auto", "alias": "rocket 2", "firstSeenAt": "2026-07-05T02:17:00Z", "firstSeenIn": "0000004" },
+    { "modelId": "acme.rocket-2", "variantId": null, "postId": "p4", "link": "https://news.example.com/rocket-compared",
+      "title": "Rocket 1 and Rocket 2 compared", "publishedAt": "2026-07-10T09:00:00Z", "dateOnly": false,
+      "company": "Acme AI", "source": "Blog", "method": "auto", "alias": "rocket 2", "firstSeenAt": "2026-07-10T10:17:00Z", "firstSeenIn": "0000001" },
+    { "modelId": "acme.rocket-2", "variantId": null, "postId": "p5", "link": "https://acme.example/blog/rocket-2-again",
+      "title": "Rocket 2 is here", "publishedAt": "2026-07-20T12:00:00Z", "dateOnly": false,
+      "company": "Acme AI", "source": "Blog", "method": "auto", "alias": "rocket 2", "firstSeenAt": "2026-07-20T12:17:00Z", "firstSeenIn": "0000005" },
+    { "modelId": "acme.rocket-2", "variantId": "mini", "postId": "p6", "link": "https://news.example.com/rocket-2-mini",
+      "title": "Rocket 2 Mini tested", "publishedAt": "2026-08-01T07:30:00Z", "dateOnly": false,
+      "company": "Across AI", "source": "Example News", "method": "auto", "alias": "rocket 2 mini", "firstSeenAt": "2026-08-01T08:17:00Z", "firstSeenIn": "0000006" }
+  ]
+}

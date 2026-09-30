@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "other-lab.nova-7",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nova-7",
+  "name": "Nova 7",
+  "aliases": [
+    {
+      "text": "Nova 7",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "other-lab",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "other-lab.nova",
+  "generation": "7",
+  "categories": [
+    "language",
+    "code"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.other-lab.nova-7-launch"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02-14",
+      "sources": [
+        {
+          "id": "src.other-lab.nova-7-launch"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "other-lab.nova-6",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.other-lab.nova-7-launch"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Code-capable language model from Other Lab.",
+    "sources": [
+      {
+        "id": "src.other-lab.nova-7-launch"
+      }
+    ]
+  }
+}

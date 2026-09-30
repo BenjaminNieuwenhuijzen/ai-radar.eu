@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "organizations": [
+    {
+      "id": "example-lab",
+      "name": "Example Lab",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": null,
+      "coverage": "external",
+      "aliases": [
+        "ExampleLab"
+      ],
+      "website": "https://example.org/",
+      "hue": 40,
+      "formerNames": [
+        {
+          "name": "Example Research",
+          "until": {
+            "value": "2021-09",
+            "sources": [
+              {
+                "id": "src.example-lab.rename"
+              }
+            ]
+          },
+          "sources": [
+            {
+              "id": "src.example-lab.rename"
+            }
+          ]
+        }
+      ],
+      "description": {
+        "text": "Fictional AI lab used as test data for AI Radar Model History.",
+        "sources": [
+          {
+            "id": "src.example-lab.history"
+          }
+        ]
+      },
+      "narrative": {
+        "chapters": [
+          {
+            "id": "research-era",
+            "title": "Research models",
+            "period": {
+              "from": "2019",
+              "to": "2021"
+            },
+            "text": "Early research models that were never offered as a product.",
+            "modelIds": [
+              "example-lab-research.orbit-0",
+              "example-lab.orbit-1"
+            ],
+            "sources": [
+              {
+                "id": "src.example-lab.history"
+              }
+            ]
+          },
+          {
+            "id": "orbit-2-generation",
+            "title": "The Orbit 2 generation",
+            "period": {
+              "from": "2024",
+              "to": "2025"
+            },
+            "text": "Orbit 2 added image input and was followed by several branches.",
+            "modelIds": [
+              "example-lab.orbit-2",
+              "example-lab.orbit-2-5",
+              "example-lab.orbit-lite-1",
+              "example-lab.orbit-3"
+            ],
+            "sources": [
+              {
+                "id": "src.example-lab.history"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "example-lab-research",
+      "name": "Example Lab Research",
+      "type": "unit",
+      "parentId": "example-lab",
+      "radarCompanyId": null,
+      "coverage": "external",
+      "hue": 40
+    },
+    {
+      "id": "other-lab",
+      "name": "Other Lab",
+      "type": "research-lab",
+      "parentId": null,
+      "radarCompanyId": null,
+      "coverage": "external",
+      "website": "https://other.example/",
+      "hue": 200,
+      "description": {
+        "text": "Second fictional lab, used for relations across organisations.",
+        "sources": [
+          {
+            "id": "src.other-lab.site"
+          }
+        ]
+      }
+    }
+  ]
+}

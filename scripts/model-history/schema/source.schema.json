@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model History sources",
+  "description": "model-history/sources/<top-level-org>.json and sources/shared.json (spec §15-18). Documents the structure for editors; scripts/model-history/validate.mjs is the authority and also checks the publisher archive rule, references, usage and the data.json ids.",
+  "type": "object",
+  "required": ["schemaVersion", "sources"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "sources": { "type": "array", "items": { "$ref": "#/$defs/source" } }
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["id", "type", "title", "url", "publisher", "provenance", "availability"],
+      "properties": {
+        "id": { "$ref": "model.schema.json#/$defs/sourceId" },
+        "type": { "$ref": "#/$defs/sourceType" },
+        "title": { "$ref": "model.schema.json#/$defs/titleText", "description": "Title as published." },
+        "url": { "type": "string", "pattern": "^https?://(?![^/?#]*@)", "description": "The original URL as published. Stays in the data when it stops working; a historical http:// URL is allowed (W14)." },
+        "publisher": { "$ref": "model.schema.json#/$defs/nameText" },
+        "publisherOrgId": { "anyOf": [ { "$ref": "model.schema.json#/$defs/orgId" }, { "type": "null" } ] },
+        "publishedAt": { "$ref": "#/$defs/publishedAt" },
+        "language": { "type": "string", "pattern": "^[a-z]{2,3}(?:-[A-Za-z0-9]{2,8})*$", "description": "BCP 47; default en." },
+        "provenance": { "$ref": "#/$defs/provenance" },
+        "availability": { "$ref": "#/$defs/availability", "description": "The curator's verdict about the original (spec §17)." },
+        "lastCheckedAt": { "anyOf": [ { "$ref": "model.schema.json#/$defs/day" }, { "$ref": "model.schema.json#/$defs/isoInstant" } ], "description": "When the curator determined availability; a date alone counts as 23:59:59Z of that day." },
+        "archiveUrl": { "anyOf": [ { "type": "string", "pattern": "^https://(?![^/?#]*@)" }, { "type": "null" } ], "description": "A legitimate archive capture (spec §18)." },
+        "archiveProvider": { "anyOf": [ { "$ref": "#/$defs/archiveProvider" }, { "type": "null" } ] },
+        "archivedAt": { "anyOf": [ { "$ref": "model.schema.json#/$defs/day" }, { "$ref": "model.schema.json#/$defs/isoInstant" }, { "type": "null" } ] },
+        "alternativeOf": { "anyOf": [ { "$ref": "model.schema.json#/$defs/sourceId" }, { "type": "null" } ], "description": "The vanished source this one replaces; the old source stays." },
+        "radarPostId": { "anyOf": [ { "$ref": "model.schema.json#/$defs/postId" }, { "type": "null" } ] },
+        "healthCheck": { "$ref": "#/$defs/healthCheck" },
+        "suppressLink": { "type": "boolean", "description": "After a justified request by a rights holder: url and archiveUrl are not shown as links. Needs the reason in notes (E27)." },
+        "notes": { "$ref": "model.schema.json#/$defs/plainText" }
+      },
+      "allOf": [
+        { "if": { "properties": { "provenance": { "const": "archived-primary" } }, "required": ["provenance"] }, "then": { "required": ["archiveUrl", "archiveProvider"], "properties": { "archiveUrl": { "type": "string" } } } },
+        { "if": { "properties": { "availability": { "const": "archived" } }, "required": ["availability"] }, "then": { "required": ["archiveUrl"], "properties": { "archiveUrl": { "type": "string" } } } },
+        { "if": { "properties": { "availability": { "enum": ["active", "archived", "unavailable"] } }, "required": ["availability"] }, "then": { "required": ["lastCheckedAt"] } },
+        { "if": { "properties": { "archiveUrl": { "type": "string" } }, "required": ["archiveUrl"] }, "then": { "required": ["archiveProvider", "archivedAt"], "properties": { "archiveProvider": { "$ref": "#/$defs/archiveProvider" }, "archivedAt": { "type": "string" } } } },
+        { "if": { "properties": { "suppressLink": { "const": true } }, "required": ["suppressLink"] }, "then": { "required": ["notes"], "properties": { "notes": { "minLength": 1 } } } },
+        { "if": { "properties": { "archiveProvider": { "const": "internet-archive" } }, "required": ["archiveProvider"] }, "then": { "properties": { "archiveUrl": { "pattern": "^https://web\\.archive\\.org/web/\\d{14}/" } } } },
+        { "if": { "properties": { "archiveProvider": { "const": "arxiv" } }, "required": ["archiveProvider"] }, "then": { "properties": { "archiveUrl": { "pattern": "^https://arxiv\\.org/abs/[^?#]+v\\d+$" } } } },
+        { "if": { "properties": { "archiveProvider": { "const": "github" } }, "required": ["archiveProvider"] }, "then": { "properties": { "archiveUrl": { "pattern": "^https://github\\.com/[^/]+/[^/]+/(?:(?:tree|blob)/[0-9a-f]{7,40}(?:/|$)|releases/tag/[^/?#]+$)" } } } },
+        { "if": { "properties": { "archiveProvider": { "const": "huggingface" } }, "required": ["archiveProvider"] }, "then": { "properties": { "archiveUrl": { "pattern": "^https://huggingface\\.co/.+/(?:blob|tree)/[0-9a-f]{7,40}(?:/|$)" } } } },
+        { "if": { "properties": { "archiveProvider": { "const": "software-heritage" } }, "required": ["archiveProvider"] }, "then": { "properties": { "archiveUrl": { "pattern": "^https://archive\\.softwareheritage\\.org/" } } } }
+      ]
+    },
+    "publishedAt": {
+      "type": "object", "required": ["value"],
+      "properties": {
+        "value": { "$ref": "model.schema.json#/$defs/dateString" },
+        "qualifier": { "anyOf": [ { "$ref": "model.schema.json#/$defs/qualifier" }, { "type": "null" } ] },
+        "note": { "$ref": "model.schema.json#/$defs/noteText" }
+      },
+      "description": "A date value without sources: the publication date is metadata, not a claim."
+    },
+    "sourceType": { "enum": ["announcement", "blog-post", "model-card", "system-card", "technical-report", "research-paper", "documentation", "api-reference", "release-notes", "changelog", "deprecation-notice", "press-release", "repository", "code-release", "model-hub-page", "news-article", "interview", "encyclopedia", "other"] },
+    "provenance": { "enum": ["primary", "archived-primary", "secondary"] },
+    "availability": { "enum": ["active", "archived", "unavailable", "unknown"] },
+    "archiveProvider": { "enum": ["internet-archive", "publisher", "arxiv", "github", "huggingface", "software-heritage", "other-approved"], "description": "archive.today is deliberately not allowed (spec §18.1)." },
+    "healthCheck": { "enum": ["check", "skip"], "description": "skip for hosts that block bots; the reason goes in notes (W13)." }
+  }
+}

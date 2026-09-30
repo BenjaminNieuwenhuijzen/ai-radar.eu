@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "quiet-lab.whisper-1",
+  "slug": "whisper-1",
+  "name": "Whisper 1",
+  "aliases": [{ "text": "Whisper 1", "match": "candidate" }],
+  "organizations": [{ "id": "quiet-lab", "role": "developer", "primary": true }],
+  "familyId": null,
+  "generation": null,
+  "categories": ["audio-speech"],
+  "prominence": "standard",
+  "lifecycle": { "value": "unknown", "sources": [], "note": "Not yet researched." },
+  "dates": { "announced": null, "released": null, "deprecated": null, "retired": null, "note": "No date sourced yet." },
+  "coverage": "stub",
+  "lastReviewedAt": "2026-09-22"
+}

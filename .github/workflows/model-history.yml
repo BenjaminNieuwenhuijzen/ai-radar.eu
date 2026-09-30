@@ -1,0 +1,112 @@
+name: Model History
+
+# Validates the curated Model History data on every PR and push that touches it, and
+# regenerates models/ after a push to main, after every successful feed build (new
+# data.json = possibly new news links) or on a manual dispatch from main (a dispatch on
+# another branch only validates). Only the build job writes to main, in its own
+# concurrency group: never shared with the feed build, because a shared group cancels a
+# waiting run and a cancelled feed build loses a news update. See
+# MODEL_TIMELINE_ARCHITECTURE.md §27.2-27.4.
+on:
+  pull_request:
+    paths:
+      - "model-history/**"
+      - "scripts/model-history/**"
+      - "assets/registry.js"
+      - "assets/app.js"
+      - "scripts/build-feed.mjs"
+      - ".github/workflows/model-history.yml"
+  push:
+    branches: [main]
+    paths:
+      - "model-history/**"
+      - "scripts/model-history/**"
+      - "assets/registry.js"
+      - "assets/app.js"
+      - "scripts/build-feed.mjs"
+      - ".github/workflows/model-history.yml"
+  workflow_run:
+    workflows: ["Build combined feed"]
+    types: [completed]
+    # Only feed builds on main: a hand-dispatched feed build on another branch would
+    # otherwise start a build that checks out and pushes to main (github.ref is the default
+    # branch for workflow_run).
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    # A failed or cancelled feed build changes nothing worth rebuilding.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Validate Model History data
+        run: node scripts/model-history/validate.mjs
+      - name: Run Model History tests
+        if: github.event_name == 'pull_request'
+        run: node --test "scripts/model-history/test/*.test.mjs"
+
+  build:
+    needs: validate
+    # Only main is a writer (§27.4). push is already limited to main and workflow_run runs
+    # on the default branch; this stops a dispatch on a feature branch from committing
+    # generated files there (it still validates).
+    if: >-
+      github.ref == 'refs/heads/main' &&
+      github.event_name != 'pull_request' &&
+      (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    # A hung git or network step must not hold the model-history-writer slot for GitHub's
+    # default 6 hours while newer writers queue up behind it.
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    concurrency:
+      group: model-history-writer   # own group, NOT shared with the feed build
+      cancel-in-progress: false
+    env:
+      MODEL_HISTORY_PUBLISH: ${{ vars.MODEL_HISTORY_PUBLISH }}   # publish gate, §27.9 ("on" or empty)
+    steps:
+      # The branch tip at job start, not the triggering commit: this job may have waited
+      # for source-health in the same group, and building on its output avoids a rebase
+      # conflict in the generated models/ files. The tip can be newer than what the
+      # validate job saw, so it is validated again before anything is generated.
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          # Enough history for match-news to name the feed commit a news item first
+          # appeared in (firstSeenIn); a depth-1 clone can only say "unknown".
+          fetch-depth: 50
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Validate Model History data (branch tip)
+        run: node scripts/model-history/validate.mjs
+      - name: Match AI Radar news to models
+        run: node scripts/model-history/match-news.mjs
+      - name: Build models/ and sitemap-models.xml
+        run: node scripts/model-history/build.mjs
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add model-history/state
+          if [ "$MODEL_HISTORY_PUBLISH" = "on" ]; then git add models sitemap-models.xml; fi
+          git diff --cached --quiet && exit 0
+          git commit -m "Update model history"
+          # Another writer (feed build, source-health, a manual push) may have pushed in
+          # the meantime; they touch other files, so a rebase is enough.
+          for i in 1 2 3; do
+            if git pull --rebase && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 10
+          done
+          exit 1

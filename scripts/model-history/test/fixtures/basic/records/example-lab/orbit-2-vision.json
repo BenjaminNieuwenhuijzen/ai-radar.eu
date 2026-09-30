@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "example-lab.orbit-2-vision",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "orbit-2-vision",
+  "name": "Orbit 2 Vision",
+  "aliases": [
+    {
+      "text": "Orbit 2 Vision",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "example-lab",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "example-lab.orbit",
+  "generation": "2",
+  "categories": [
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.shared.news-report-1"
+      },
+      {
+        "id": "src.shared.news-report-2"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-08",
+      "sources": [
+        {
+          "id": "src.shared.news-report-1"
+        },
+        {
+          "id": "src.shared.news-report-2"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "variant-of",
+      "target": "example-lab.orbit-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.shared.news-report-1"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Image-focused variant of Orbit 2, known from press coverage.",
+    "sources": [
+      {
+        "id": "src.shared.news-report-1"
+      },
+      {
+        "id": "src.shared.news-report-2"
+      }
+    ]
+  }
+}

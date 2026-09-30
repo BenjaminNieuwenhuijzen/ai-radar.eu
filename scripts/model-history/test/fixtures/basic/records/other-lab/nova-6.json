@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "other-lab.nova-6",
+  "coverage": "stub",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nova-6",
+  "name": "Nova 6",
+  "aliases": [
+    {
+      "text": "Nova 6",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "other-lab",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "other-lab.nova",
+  "generation": "6",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "Not yet researched."
+  },
+  "dates": {
+    "announced": null,
+    "released": null,
+    "deprecated": null,
+    "retired": null,
+    "note": "Release date not yet sourced."
+  }
+}

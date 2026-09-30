@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    { "id": "src.shared.review", "type": "news-article", "title": "Rocket 1 rolls out wider", "url": "https://news.example.com/rocket-1-rollout",
+      "publisher": "Example News", "provenance": "secondary", "availability": "active", "lastCheckedAt": "2026-09-20" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model History families",
+  "description": "model-history/families.json (spec §11.2). Documents the structure for editors; scripts/model-history/validate.mjs is the authority and also checks the owner, the parent and parent loops.",
+  "type": "object",
+  "required": ["schemaVersion", "families"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "families": { "type": "array", "items": { "$ref": "#/$defs/family" } }
+  },
+  "$defs": {
+    "family": {
+      "type": "object",
+      "required": ["id", "organizationId", "name"],
+      "properties": {
+        "id": { "$ref": "model.schema.json#/$defs/scopedId", "description": "<orgId>.<name>, for example example-lab.orbit." },
+        "organizationId": { "$ref": "model.schema.json#/$defs/orgId", "description": "Owner." },
+        "name": { "$ref": "model.schema.json#/$defs/nameText" },
+        "parentId": { "anyOf": [ { "$ref": "model.schema.json#/$defs/scopedId" }, { "type": "null" } ], "description": "Nested family, for example a sub-series." },
+        "description": { "$ref": "model.schema.json#/$defs/descriptionClaim" }
+      }
+    }
+  }
+}

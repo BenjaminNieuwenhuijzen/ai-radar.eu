@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "families": [
+    {
+      "id": "example-lab.orbit",
+      "organizationId": "example-lab",
+      "name": "Orbit",
+      "parentId": null
+    },
+    {
+      "id": "example-lab.orbit-lite",
+      "organizationId": "example-lab",
+      "name": "Orbit Lite",
+      "parentId": "example-lab.orbit"
+    },
+    {
+      "id": "other-lab.nova",
+      "organizationId": "other-lab",
+      "name": "Nova",
+      "parentId": null
+    }
+  ]
+}

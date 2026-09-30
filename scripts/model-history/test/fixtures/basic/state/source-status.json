@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "generated": "2026-10-05T03:12:00Z",
+  "sources": {
+    "src.example-lab.orbit-0-card": {
+      "state": "unavailable",
+      "stateSince": "2026-10-05T03:11:42Z",
+      "lastCheckedAt": "2026-10-05T03:11:42Z",
+      "lastResult": "gone",
+      "httpStatus": 404,
+      "finalUrl": null,
+      "lastDefinitiveAt": "2026-10-05T03:11:42Z",
+      "consecutiveFailures": 3,
+      "firstFailureAt": "2026-09-26T03:10:05Z",
+      "lastOkAt": null,
+      "firstFingerprint": null,
+      "lastFingerprint": {
+        "title": "Page not found",
+        "bytes": 3120,
+        "truncated": false
+      },
+      "archiveState": null,
+      "archiveSuggestion": null
+    },
+    "src.example-lab.orbit-2-docs": {
+      "state": "active",
+      "stateSince": "2026-07-01T03:09:00Z",
+      "lastCheckedAt": "2026-10-05T03:11:50Z",
+      "lastResult": "ok",
+      "httpStatus": 200,
+      "finalUrl": null,
+      "lastDefinitiveAt": "2026-10-05T03:11:50Z",
+      "consecutiveFailures": 0,
+      "firstFailureAt": null,
+      "lastOkAt": "2026-10-05T03:11:50Z",
+      "firstFingerprint": {
+        "title": "Orbit 2 documentation",
+        "bytes": 51234,
+        "truncated": false
+      },
+      "lastFingerprint": {
+        "title": "Orbit 2 documentation",
+        "bytes": 51190,
+        "truncated": false
+      },
+      "archiveState": null,
+      "archiveSuggestion": null
+    }
+  }
+}

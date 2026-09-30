@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "example-lab.orbit-lite-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "orbit-lite-1",
+  "name": "Orbit Lite 1",
+  "aliases": [
+    {
+      "text": "Orbit Lite 1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "example-lab",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "example-lab.orbit-lite",
+  "generation": "1",
+  "categories": [
+    "language"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "No source states whether it is still offered."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025",
+      "qualifier": "uncertain",
+      "sources": [
+        {
+          "id": "src.shared.blog-mention"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "example-lab.orbit-2",
+      "basis": "editorial",
+      "note": "Grouped here because it is based on the Orbit 2 line.",
+      "sources": [
+        {
+          "id": "src.shared.blog-mention"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Lightweight model mentioned in a single independent post.",
+    "sources": [
+      {
+        "id": "src.shared.blog-mention"
+      }
+    ]
+  }
+}

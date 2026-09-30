@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 2,
+  "sources": [
+    { "id": "src.test-lab.launch", "type": "announcement", "title": "Introducing Model A", "url": "https://example.org/blog/model-a",
+      "publisher": "Test Lab", "publisherOrgId": "test-lab", "provenance": "primary", "availability": "active", "lastCheckedAt": "2026-10-01" }
+  ]
+}

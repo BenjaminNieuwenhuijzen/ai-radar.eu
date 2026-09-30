@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "families": [
+    { "id": "acme.rocket", "organizationId": "acme", "name": "Rocket", "parentId": null },
+    { "id": "zenith.star", "organizationId": "zenith", "name": "Star", "parentId": null }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "example-lab-research.orbit-0",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "orbit-0",
+  "name": "Orbit 0",
+  "aliases": [
+    {
+      "text": "Orbit 0",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "example-lab-research",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "example-lab.orbit",
+  "generation": "0",
+  "categories": [
+    "language"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "research-only",
+    "sources": [
+      {
+        "id": "src.example-lab.orbit-0-card"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2019",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-0-card"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Research-only precursor of the Orbit family.",
+    "sources": [
+      {
+        "id": "src.example-lab.orbit-0-card"
+      }
+    ]
+  }
+}

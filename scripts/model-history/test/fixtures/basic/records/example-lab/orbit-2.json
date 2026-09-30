@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "id": "example-lab.orbit-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "orbit-2",
+  "name": "Orbit 2",
+  "aliases": [
+    {
+      "text": "Orbit 2",
+      "match": "auto"
+    },
+    {
+      "text": "Orbit-2",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "example-lab",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "example-lab.orbit",
+  "generation": "2",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.example-lab.deprecations"
+      }
+    ]
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-05",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-preview-post"
+        }
+      ]
+    },
+    "released": {
+      "value": "2024-06-11",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-launch"
+        },
+        {
+          "id": "src.shared.news-report-1"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2025",
+      "qualifier": "approximate",
+      "sources": [
+        {
+          "id": "src.example-lab.deprecations"
+        }
+      ]
+    }
+  },
+  "milestones": [
+    {
+      "id": "open-weights",
+      "label": "Open weights published",
+      "date": {
+        "value": "2024-07",
+        "sources": [
+          {
+            "id": "src.example-lab.orbit-2-repo"
+          }
+        ]
+      }
+    }
+  ],
+  "replacedBy": {
+    "modelId": "example-lab.orbit-3",
+    "sources": [
+      {
+        "id": "src.example-lab.deprecations"
+      }
+    ]
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "example-lab.orbit-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-launch",
+          "locator": "first paragraph"
+        }
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": "mini",
+      "name": "Orbit 2 Mini",
+      "aliases": [
+        {
+          "text": "Orbit 2 Mini",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2024-06-11",
+          "sources": [
+            {
+              "id": "src.example-lab.orbit-2-launch"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-launch"
+        }
+      ],
+      "note": "Smaller variant released on the same day."
+    }
+  ],
+  "summary": {
+    "text": "Second-generation Orbit model that added image input.",
+    "sources": [
+      {
+        "id": "src.example-lab.orbit-2-launch"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "text": "Accepts image input in addition to text.",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-model-card",
+          "locator": "section 2"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "aspect": "context-length",
+      "direction": "increased",
+      "text": "Longer context window than Orbit 1.",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-docs"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-model-card"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-model-card"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "tool-use",
+        "sources": [
+          {
+            "id": "src.example-lab.orbit-2-docs"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-repo"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-docs"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Example Lab."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-launch"
+        }
+      ]
+    }
+  },
+  "news": {
+    "include": [],
+    "exclude": []
+  }
+}

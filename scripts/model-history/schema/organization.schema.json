@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model History organizations",
+  "description": "model-history/organizations.json (spec §10). Documents the structure for editors; scripts/model-history/validate.mjs is the authority and also checks references, parent loops, the AI Radar registry link (E04/E25) and chapter membership.",
+  "type": "object",
+  "required": ["schemaVersion", "organizations"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "organizations": { "type": "array", "items": { "$ref": "#/$defs/organization" } }
+  },
+  "$defs": {
+    "organization": {
+      "type": "object",
+      "required": ["id", "name", "type", "coverage"],
+      "properties": {
+        "id": { "$ref": "model.schema.json#/$defs/orgId", "description": "Immutable. For a top-level tracked organization this equals radarCompanyId." },
+        "name": { "$ref": "model.schema.json#/$defs/nameText", "description": "Current name." },
+        "type": { "$ref": "#/$defs/orgType" },
+        "parentId": { "anyOf": [ { "$ref": "model.schema.json#/$defs/orgId" }, { "type": "null" } ], "description": "Parent organization (a unit, or after an acquisition). Organizations with a parent get no route of their own." },
+        "radarCompanyId": { "type": ["string", "null"], "description": "Id in the AI Radar registry (assets/registry.js); null = not followed by AI Radar. Never the aggregate item (across)." },
+        "coverage": { "$ref": "#/$defs/orgCoverage", "description": "tracked exactly when radarCompanyId is set." },
+        "aliases": { "type": "array", "items": { "$ref": "model.schema.json#/$defs/aliasText" } },
+        "formerNames": { "type": "array", "items": { "$ref": "#/$defs/formerName" } },
+        "website": { "type": "string", "pattern": "^https://(?![^/?#]*@)" },
+        "description": { "$ref": "model.schema.json#/$defs/descriptionClaim" },
+        "narrative": { "type": "object", "required": ["chapters"], "properties": { "chapters": { "type": "array", "items": { "$ref": "#/$defs/chapter" } } } },
+        "hue": { "anyOf": [ { "type": "number", "minimum": 0, "maximum": 360 }, { "type": "null" } ], "description": "Only for organizations without radarCompanyId; null = neutral grey." }
+      },
+      "allOf": [
+        { "if": { "properties": { "coverage": { "const": "tracked" } }, "required": ["coverage"] }, "then": { "required": ["radarCompanyId"], "properties": { "radarCompanyId": { "type": "string" } } } },
+        { "if": { "properties": { "coverage": { "const": "external" } }, "required": ["coverage"] }, "then": { "properties": { "radarCompanyId": { "type": "null" } } } }
+      ]
+    },
+    "formerName": {
+      "type": "object", "required": ["name", "sources"],
+      "properties": {
+        "name": { "$ref": "model.schema.json#/$defs/nameText" },
+        "from": { "$ref": "model.schema.json#/$defs/dateValue" },
+        "until": { "$ref": "model.schema.json#/$defs/dateValue" },
+        "sources": { "$ref": "model.schema.json#/$defs/nonEmptySourceRefs" }
+      }
+    },
+    "chapter": {
+      "type": "object", "required": ["id", "title", "text", "sources"],
+      "properties": {
+        "id": { "$ref": "model.schema.json#/$defs/localId" },
+        "title": { "$ref": "model.schema.json#/$defs/chapterTitle" },
+        "period": { "type": "object", "properties": { "from": { "$ref": "model.schema.json#/$defs/dateString" }, "to": { "$ref": "model.schema.json#/$defs/dateString" } } },
+        "text": { "$ref": "model.schema.json#/$defs/chapterText" },
+        "modelIds": { "type": "array", "items": { "$ref": "model.schema.json#/$defs/scopedId" }, "description": "Existing models of this organization or its units." },
+        "sources": { "$ref": "model.schema.json#/$defs/nonEmptySourceRefs" }
+      },
+      "description": "Editorial chapter: adds no new facts; every factual sentence is covered by its sources or those of the listed models."
+    },
+    "orgType": { "enum": ["company", "research-lab", "unit", "nonprofit", "academic", "consortium", "government"] },
+    "orgCoverage": { "enum": ["tracked", "external"] }
+  }
+}

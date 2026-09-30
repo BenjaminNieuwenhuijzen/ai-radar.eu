@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "example-lab.orbit-3-merge",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "orbit-3-merge",
+  "name": "Orbit 3 Merge",
+  "aliases": [
+    {
+      "text": "Orbit 3 Merge",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "example-lab",
+      "role": "developer",
+      "primary": true
+    },
+    {
+      "id": "other-lab",
+      "role": "co-developer"
+    }
+  ],
+  "familyId": "example-lab.orbit",
+  "generation": "3",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "preview",
+    "sources": [
+      {
+        "id": "src.example-lab.orbit-3-merge-report"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-11",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-3-merge-report"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "method": "merge",
+      "target": "example-lab.orbit-3",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-3-merge-report",
+          "locator": "section 3"
+        }
+      ]
+    },
+    {
+      "type": "derived-from",
+      "method": "merge",
+      "target": "other-lab.nova-7",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-3-merge-report",
+          "locator": "section 3"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Joint model made by merging Orbit 3 with Nova 7.",
+    "sources": [
+      {
+        "id": "src.example-lab.orbit-3-merge-report"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "merge",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "example-lab.orbit-3",
+      "text": "Combines weights of two parent models.",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-3-merge-report"
+        }
+      ]
+    }
+  ]
+}
