@@ -5,18 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="index, follow">
 <title>About · AI Radar</title>
-<meta name="description" content="What AI Radar is, where the posts come from, which parts are automated, and who makes it.">
+<meta name="description" content="What AI Radar and its Model History are, where the posts and the model data come from, which parts are automated, and who makes it.">
 <link rel="canonical" href="https://ai-radar.eu/about">
 <meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="AI Radar">
 <meta property="og:title" content="About · AI Radar">
-<meta property="og:description" content="What AI Radar is, where the posts come from, which parts are automated, and who makes it.">
+<meta property="og:description" content="What AI Radar and its Model History are, where the posts and the model data come from, which parts are automated, and who makes it.">
 <meta property="og:url" content="https://ai-radar.eu/about">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="About · AI Radar">
-<meta name="twitter:description" content="What AI Radar is, where the posts come from, which parts are automated, and who makes it.">
+<meta name="twitter:description" content="What AI Radar and its Model History are, where the posts and the model data come from, which parts are automated, and who makes it.">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <script>
   /* Apply the saved theme and motion choice before first paint, so there is
@@ -56,6 +56,7 @@
     </a>
     <nav class="site-nav" aria-label="Main">
       <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/">Model History</a>
       <a class="nav-link" href="/about" aria-current="page">About</a>
       <a class="nav-link" href="/feed.xml">RSS</a>
       <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
@@ -72,8 +73,9 @@
 
     <div class="lead">
       <p>AI Radar is a live dashboard that collects the latest news and updates from the leading
-      AI companies on one page. Every post links straight to the original article. AI Radar
-      publishes nothing of its own.</p>
+      AI companies on one page. Every post links straight to the original article. Next to the
+      news, <a href="/models/">Model History</a> records which AI models those companies released,
+      when, and what changed, with the sources behind every fact.</p>
     </div>
 
     <h2>What the dashboard shows</h2>
@@ -96,8 +98,20 @@
     and rebuilds the page data. Nothing is rewritten or shortened by hand; posts appear as their
     source published them.</p>
 
+    <h2>Model History</h2>
+    <p>Model History is AI Radar's own content: a history of the models of the same companies,
+    with a page per company, a page and a timeline per model, and the relations between models
+    (which one succeeded, revised or was derived from which). Dates are shown exactly as precisely
+    as the sources give them: if a source names only the month, the page shows only the month.
+    Every fact links to its sources, and each source shows whether the original is still online
+    or only available as an archived copy.</p>
+    <p>The records are compiled from the organisations' own announcements, model cards and
+    documentation. The summaries and change notes are drafted with the help of an AI assistant
+    from those sources and checked against them before they are published. It is not a benchmark
+    or a ranking: there are no scores, and claims made by a company are attributed to it.</p>
+
     <h2>What is automated, and therefore fallible</h2>
-    <p>Three things on the page are produced by software rather than a person, and each one can
+    <p>Several things on the site are produced by software rather than a person, and each one can
     be wrong:</p>
     <ul>
       <li><strong>Categories</strong> (Model releases, Products, Research and so on) are assigned from
@@ -107,6 +121,13 @@
       <li><strong>The "Today in AI" stories</strong> at the top are picked by a simple rule:
       recent model releases first, at most one per company. No AI model writes or rewrites them;
       each slide shows the post's own title and summary.</li>
+      <li><strong>Source status</strong> in Model History ("Active", "Archived copy",
+      "Unavailable") comes partly from a daily automatic check of each source address, run on
+      GitHub's servers. A site that blocks the check or is briefly down can be marked wrongly
+      for a while.</li>
+      <li><strong>Related AI Radar coverage</strong> on a model page is linked automatically when
+      a post's title or summary contains one of the model's names. A link can be missing or, now
+      and then, point to the wrong model.</li>
     </ul>
     <p>For anything that matters, click through and read the original article.</p>
 
@@ -127,6 +148,7 @@
     <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
     <nav class="footer-links" aria-label="Footer">
       <a href="/">Dashboard</a>
+      <a href="/models/">Model History</a>
       <a href="/about" aria-current="page">About</a>
       <a href="/contact">Contact</a>
       <a href="/privacy">Privacy</a>

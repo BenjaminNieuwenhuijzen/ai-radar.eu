@@ -9,6 +9,38 @@ can see exactly what changed between any two versions.
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-10-02
+
+**Model History**: a source-based history of AI models, starting with Anthropic's 32 models; the other tracked companies follow. At
+[/models/](https://ai-radar.eu/models/).
+
+### Added
+- **Explorer** (`/models/`) with search, filters (organisation, family, category, year,
+  status, evidence, open weights) and sorting; the filters live in the URL, the search term
+  never does.
+- A page per **organisation** with its chronology by year, family chips, lineage, an
+  evidence overview and related AI Radar coverage.
+- A page per **model**: every claim (dates, status, relations, changes, capabilities) with its
+  own evidence label and sources; lineage; variants; related coverage.
+- A **timeline** per model (`/models/<org>/<slug>/timeline/`) with lifecycle, milestones,
+  related models, source events and coverage on one axis, three zoom levels and the same
+  events as a list.
+- Dates keep the precision of the source (a month stays a month); sources show whether the
+  original is active, only archived or unavailable.
+- Automatic links from AI Radar posts to models, kept as snapshots after the posts leave
+  the live feed; a daily check of every source address.
+- "Model History" in the header and footer of every page; a `404` page; `sitemap.xml` is now
+  an index of `sitemap-pages.xml` and `sitemap-models.xml`.
+
+### Changed
+- The company registry (companies and logos) moved from `assets/app.js` to
+  `assets/registry.js`, shared by the dashboard and Model History.
+- The feed build rebases before it pushes, so it and the Model History build can both write
+  to `main`.
+- About, Privacy, Disclaimer and Contact describe Model History: its own editorial content
+  (drafted with AI assistance from the cited sources), the automatic source status and news
+  links, links to archived copies, and how removal requests work for historical records.
+
 ### Fixed
 - A feed that fails during a build (an HTTP error, a timeout, or no usable items) now keeps its
   items from the previous build instead of disappearing until the next one. On 1 October 2026
@@ -210,6 +242,7 @@ scheduled GitHub Action.
 - English README, MIT license, `.gitignore`, and all code comments translated to
   English.
 
-[Unreleased]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/compare/v2.0.0...HEAD
+[Unreleased]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/compare/v1.0.0...v2.0.0
 [1.0.0]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/releases/tag/v1.0.0
