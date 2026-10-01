@@ -323,10 +323,13 @@ function explorerRow(site, i) {
 export function explorerPage(site) {
   const orgs = site.orgs.filter(o => o.routed.length);
   const n = site.models.length;
+  // Not one full record yet: the page says so and is not indexed (see sitemapXml).
+  const hasFull = site.models.some(i => i.m.coverage === "full");
+  const notice = hasFull ? "" : `\n<p class="mh-notice">Model History is being prepared: ${n ? "the records below are not complete yet" : "no model records are published yet"}.</p>`;
   const main = `<main id="main" class="mh mh-explorer" data-mh-view="explorer">
 <header class="mh-hero container">
 <h1 class="mh-title">Model History</h1>
-<p class="mh-lead">Which models each organisation released, when, and what changed. Every claim links to its sources.</p>
+<p class="mh-lead">Which models each organisation released, when, and what changed. Every claim links to its sources.</p>${notice}
 <div id="mh-controls" class="mh-controls" hidden>
 <input type="search" id="mh-search" aria-label="Search models" autocomplete="off" spellcheck="false" placeholder="Search models, aliases, families or organisations">
 <div id="mh-sort" class="mh-seg" role="group" aria-label="Sort">
@@ -361,8 +364,8 @@ ${site.explorer.map(i => explorerRow(site, i)).join("\n")}
 </section>
 </div>
 </main>`;
-  // Always indexable (spec §5.1 "ja", §30); sitemapXml always lists /models/ to match.
-  return page({ path: "/models/", title: "Model History · AI Radar", indexable: true, main, scripts: ["/assets/models.js"],
+  // Indexable once a full record exists; sitemapXml lists /models/ under the same rule.
+  return page({ path: "/models/", title: "Model History · AI Radar", indexable: hasFull, main, scripts: ["/assets/models.js"],
     description: "Every AI model in AI Radar Model History, with release dates at their real precision, lineage, and the sources behind each fact.",
     crumbs: [{ name: "Model History", url: "/models/" }] });
 }

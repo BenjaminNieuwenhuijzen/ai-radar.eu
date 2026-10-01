@@ -10,7 +10,7 @@
 
    Sections: codes · helpers · shape · field checks · organizations · families · models ·
    sources · state · dataset-wide rules · repository guards · validate() · CLI. */
-import { existsSync, readFileSync, statSync } from "node:fs";
+import { appendFileSync, existsSync, readFileSync, statSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
@@ -965,6 +965,27 @@ function loadRegistryFile(p) {
   if (!Array.isArray(r) && !(isObj(r) && Array.isArray(r.companies))) throw new Error("no companies list (expected window.AIRadarRegistry.companies or a JSON { companies: [] })");
   return r;
 }
+/* Maintenance lists for the job summary (§28.3-28.4): the models whose evidence is weak (W03)
+   and the records not reviewed for a year (W04), plus a count per warning code. The summary
+   is public in the Actions tab and size-limited, so each list is capped. */
+export function maintenanceSummary(findings, limit = 40) {
+  const errors = findings.filter(x => x.level === "error").length;
+  const byCode = {};
+  for (const x of findings) byCode[x.code] = (byCode[x.code] || 0) + 1;
+  const out = ["### Model History: data maintenance", "",
+    `${errors} error${errors === 1 ? "" : "s"} · ${findings.length - errors} warning${findings.length - errors === 1 ? "" : "s"}` +
+    (findings.length ? ` (${Object.keys(byCode).sort().map(k => `${k} ${byCode[k]}`).join(", ")})` : "")];
+  const list = (code, title) => {
+    const xs = findings.filter(x => x.code === code);
+    if (!xs.length) return;
+    out.push("", `#### ${title} (${xs.length})`, "");
+    for (const x of xs.slice(0, limit)) out.push(`- \`${x.file || "-"}\`: ${x.message.replace(/[\r\n]+/g, " ")}`);
+    if (xs.length > limit) out.push(`- … and ${xs.length - limit} more (full list in the job log)`);
+  };
+  list("W03", "Models with incomplete evidence");
+  list("W04", "Records not reviewed for more than 12 months");
+  return out.join("\n") + "\n";
+}
 function main() {
   let args;
   try { args = parseArgs(process.argv.slice(2)); } catch (e) { console.error(e.message + "\n" + USAGE); process.exitCode = 2; return; }
@@ -988,6 +1009,7 @@ function main() {
       `(${ds.models.length} models, ${ds.organizations.length} organizations, ${ds.families.length} families, ${ds.sources.length} sources)` +
       (findings.length ? `\nby code: ${Object.keys(byCode).sort().map(k => `${k} ${byCode[k]}`).join(", ")}` : ""));
   }
+  if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, maintenanceSummary(findings));
   process.exitCode = errors ? 1 : 0;
 }
 if (process.argv[1] && resolve(process.argv[1]).toLowerCase() === fileURLToPath(import.meta.url).toLowerCase()) main();

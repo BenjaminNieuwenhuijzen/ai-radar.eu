@@ -11,7 +11,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 import { loadDataset, readJson, VOCAB, LIMITS, RE } from "../lib.mjs";
-import { validate, CODES } from "../validate.mjs";
+import { validate, CODES, maintenanceSummary } from "../validate.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const FIX = join(here, "fixtures");
@@ -270,4 +270,16 @@ test("schema id patterns and text limits equal lib.mjs", () => {
   const limits = { summary: "summaryText", change: "changeText", description: "descriptionText", chapterText: "chapterText",
     chapterTitle: "chapterTitle", name: "nameText", alias: "aliasText", note: "noteText", title: "titleText", label: "labelText" };
   for (const [k, def] of Object.entries(limits)) assert.equal(d[def].maxLength, LIMITS[k], def);
+});
+
+test("the job summary lists models with weak evidence (W03) and stale reviews (W04), capped", () => {
+  const f = (code, file, message, level = "warning") => ({ code, level, file, path: "", message });
+  const findings = [f("W03", "records/a/x.json", "evidence insufficient-evidence"), f("W04", "records/a/y.json", "last reviewed 2024-01-01, more than 12 months ago"),
+    f("E04", "records/a/z.json", "unknown reference", "error"), ...Array.from({ length: 45 }, (_, i) => f("W03", `records/b/m${i}.json`, "evidence secondary-sources"))];
+  const s = maintenanceSummary(findings);
+  assert.match(s, /^### Model History: data maintenance\n\n1 error · 47 warnings \(E04 1, W03 46, W04 1\)/);
+  assert.match(s, /#### Models with incomplete evidence \(46\)\n\n- `records\/a\/x\.json`: evidence insufficient-evidence/);
+  assert.match(s, /- … and 6 more \(full list in the job log\)/);
+  assert.match(s, /#### Records not reviewed for more than 12 months \(1\)\n\n- `records\/a\/y\.json`: last reviewed 2024-01-01/);
+  assert.equal(maintenanceSummary([]), "### Model History: data maintenance\n\n0 errors · 0 warnings\n");
 });

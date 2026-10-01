@@ -320,9 +320,12 @@ export function orgJson(site, o) {
 }
 
 /* ---------- Sitemap (§30): indexable pages only ---------- */
-// The Explorer is always indexable (§5.1), so /models/ is always listed, like its robots meta.
+// The Explorer is indexable once one full record exists (decision 13 of the launch checklist,
+// replacing "always" of §5.1: an empty or stub-only Explorer is never indexed), and is then
+// listed here, like its robots meta.
+export const hasFullRecord = site => site.models.some(i => i.m.coverage === "full");
 export function sitemapXml(site) {
-  const urls = [{ loc: SITE + "/models/" }];
+  const urls = hasFullRecord(site) ? [{ loc: SITE + "/models/" }] : [];
   for (const o of site.orgs) if (o.indexable) urls.push({ loc: SITE + o.url });
   for (const i of site.models) if (i.m.coverage === "full") {
     // lastmod only where it is verifiably right: the curator's review date (§30).

@@ -9,6 +9,19 @@
 (function () {
 "use strict";
 
+/* An index.html cached from before assets/registry.js existed (the CDN keeps pages up to
+   10 minutes) loads this file without the registry. Load it, then run this file once more. */
+if (!window.AIRadarRegistry) {
+  if (!window.__airadarRegistryRetry) {
+    window.__airadarRegistryRetry = true;
+    const reg = document.createElement("script");
+    reg.src = "/assets/registry.js";
+    reg.onload = () => { const again = document.createElement("script"); again.src = "/assets/app.js"; document.head.appendChild(again); };
+    document.head.appendChild(reg);
+  }
+  return;
+}
+
 /* ---------- Config ---------- */
 const SLIDE_SECONDS = 7;          // carousel autoplay interval
 const MAX_SLIDES = 5;

@@ -10,7 +10,7 @@ import { fileURLToPath } from "node:url";
 import { execFileSync, spawnSync } from "node:child_process";
 import { loadDataset, postId } from "../lib.mjs";
 import { prepare, findHits, matchItems, itemView, runMatch, parseArgs, feedCommit, seenAt, FIELDS, collectAliases,
-  openCandidates, formatReport, md, SUMMARY_LIMIT, splitOutlet, feedTime } from "../match-news.mjs";
+  openCandidates, formatReport, md, SUMMARY_LIMIT, splitOutlet, feedTime, newModelNames, knownNames } from "../match-news.mjs";
 import { processSnapshots, parseLog, filterCommits, backfillReport } from "../backfill-news.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -467,4 +467,28 @@ test("backfill: git log parsing and --since/--limit", () => {
 test("the basic fixture itself is not modified by the tests", () => {
   assert.deepEqual(readJ(join(BASIC, "state", "news-links.json")), { schemaVersion: 1, links: [] });
   assert.ok(!existsSync(join(BASIC, "state", "news-links.json.tmp")));
+});
+
+/* ---------- Possible new models (job summary) ---------- */
+test("possible new models: versioned names in titles that no record, variant or alias knows", () => {
+  const ds = loadDataset(BASIC);
+  ds.models.push({ id: "openai.gpt-5", name: "GPT-5", aliases: [{ text: "gpt-5-2025-08-07", match: "auto" }],
+    variants: [{ id: "mini", name: "GPT-5 mini", aliases: [{ text: "GPT-5 nano", match: "never" }] }] },
+    { id: "google.gemini-2-5-pro", name: "Gemini 2.5 Pro" });
+  const item = (title, date = "2026-09-20T10:00:00Z", n = title) => ({ title, link: `https://example.org/${encodeURIComponent(n)}`, date, company: "x", source: "y" });
+  const items = [item("Introducing GPT-6"), item("GPT-6 in practice", "2026-09-28T10:00:00Z"), item("GPT-5 mini and GPT-5 nano for everyone"),
+    item("What GPT-5 means"), item("Gemini 2.5 rollout"), item("Gemini 3.8 Flash arrives"), item("Claude Opus 4.10 is not a thing either"),
+    item("GPT-5.2 prompting guide"), item("Nothing versioned here"), item("Llama 3.1 405B weights")];
+  const found = newModelNames(items, ds);
+  const names = found.map(x => x.name);
+  assert.deepEqual(names.slice(0, 1), ["gpt-6"], "most titles first");
+  assert.equal(found[0].count, 2);
+  assert.match(found[0].title, /in practice/, "the latest title is the example");
+  for (const n of ["gemini 3.8 flash", "gpt-5.2", "llama 3.1", "claude opus 4.10"]) assert.ok(names.includes(n), n);
+  for (const n of ["gpt-5", "gpt-5 mini", "gpt-5 nano", "gemini 2.5"]) assert.ok(!names.includes(n), `${n} is known (name, variant, never-alias or prefix of a name)`);
+  assert.ok(knownNames(ds).has("gpt-5 nano"), "never aliases count as known: the curator decided");
+  const rep = formatReport({ newNames: found });
+  assert.match(rep, /#### Possible new models/);
+  assert.match(rep, /- "gpt-6" · 2 titles · latest: \[GPT-6 in practice\]/);
+  assert.ok(!formatReport({}).includes("Possible new models"), "no section without names");
 });

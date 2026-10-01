@@ -287,7 +287,7 @@ export const MORE_HINT = "run `node scripts/model-history/match-news.mjs --dry-r
 export const capped = (xs, line, limit, what, more = MORE_HINT) =>
   xs.length > limit ? [...xs.slice(0, limit).map(line), "", `${xs.length - limit} more ${what} not shown here; ${more}`] : xs.map(line);
 // limit caps each list (the facts line keeps the totals); Infinity gives the full report.
-export function formatReport({ heading = "Model History: news matching", facts = [], added = [], candidates = [], dryRun = false, skipped = null, limit = Infinity, more = MORE_HINT }) {
+export function formatReport({ heading = "Model History: news matching", facts = [], added = [], candidates = [], newNames = [], dryRun = false, skipped = null, limit = Infinity, more = MORE_HINT }) {
   const out = [`### ${heading}`, ""];
   if (skipped) return out.concat(`Skipped: ${md(skipped)}. Nothing was changed.`).join("\n") + "\n";
   out.push([...facts, plural(added.length, "new link"), plural(candidates.length, "candidate")].join(" · ") + (dryRun ? " (dry run: nothing written)" : ""));
@@ -295,6 +295,9 @@ export function formatReport({ heading = "Model History: news matching", facts =
   if (candidates.length) out.push("", "#### Candidates for review", "",
     "Only aliases set to `auto` link automatically. To accept a candidate, set the alias to `auto` or add a `news.include` to the record; otherwise ignore it.",
     "", ...capped(candidates, candidateLine, limit, "candidates", more));
+  if (newNames.length) out.push("", "#### Possible new models", "",
+    "Versioned model names in AI Radar titles that no record or alias knows yet. Add a record (or an alias) if the organisation released it.",
+    "", ...capped(newNames, newNameLine, Math.min(limit, 50), "names", more));
   return out.join("\n") + "\n";
 }
 // stdout gets the full report, the public job summary the capped one.
@@ -302,6 +305,51 @@ export function emitReport(report, summary = report) {
   process.stdout.write(report);
   if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary + "\n");
 }
+
+/* ---------- Possible new models (§28.4) ----------
+   Versioned names of the tracked companies' model lines in feed titles that no record knows
+   yet: the curator's to-do list for new releases. Report only; nothing is linked or stored.
+   A name is known when a record name, variant name or alias (any match value, "never" too)
+   equals it or starts with it at a word boundary ("gemini 2.5" is known from "gemini 2.5 pro"). */
+const V = "\\d+(?:\\.\\d+)?";
+export const NEW_NAME_RE = new RegExp("(?<![a-z0-9])(?:" + [
+  `gpt-${V}o?(?:[ -](?:mini|nano|pro|turbo))?`, `o\\d(?:-(?:mini|pro|preview))?`, `gpt-oss`,
+  `claude (?:(?:opus|sonnet|haiku|fable|mythos) ${V}|${V}(?: (?:opus|sonnet|haiku))?)`,
+  `gemini ${V}(?: (?:pro|flash|ultra|nano)(?:[ -]lite)?)?`, `gemma ${V}n?`, `llama ${V}`, `grok[ -]${V}(?: (?:mini|fast|heavy))?`,
+  `(?:mistral|magistral|ministral|pixtral|mixtral)(?: (?:large|medium|small))? ${V}`, `deepseek[ -](?:v${V}|r\\d+)`,
+  `phi-${V}(?:-(?:mini|reasoning|multimodal))?`, `nemotron(?:[ -]${V})?(?: (?:nano|super|ultra))?`,
+  `command (?:a(?: (?:vision|reasoning))?|r7b|r\\+?)`, `aya (?:expanse|vision|${V})`, `sonar(?: (?:pro|reasoning(?: pro)?|deep research))?`,
+  `smollm${V}?`, `smolvlm${V}?`
+].join("|") + ")(?![a-z0-9]|\\.\\d)", "g");
+export function knownNames(ds) {
+  const out = new Set();
+  const add = t => { const n = typeof t === "string" ? normalize(t) : ""; if (n) out.add(n); };
+  for (const m of ds.models) {
+    add(m && m.name);
+    for (const a of arr(m && m.aliases)) add(a && a.text);
+    for (const v of arr(m && m.variants)) { add(v && v.name); for (const a of arr(v && v.aliases)) add(a && a.text); }
+  }
+  return out;
+}
+export function newModelNames(items, ds) {
+  const known = [...knownNames(ds)];
+  const isKnown = n => known.some(k => k === n || (k.startsWith(n) && /^[ -]/.test(k.slice(n.length))));
+  const found = new Map();
+  for (const it of arr(items)) {
+    const v = itemView(it);
+    if (!v) continue;
+    for (const m of normalize(v.title).matchAll(NEW_NAME_RE)) {
+      const n = m[0];
+      if (isKnown(n)) continue;
+      const e = found.get(n) || { name: n, count: 0, title: v.title, link: v.link, publishedAt: v.publishedAt };
+      e.count++;
+      if (v.publishedAt > e.publishedAt) Object.assign(e, { title: v.title, link: v.link, publishedAt: v.publishedAt });
+      found.set(n, e);
+    }
+  }
+  return [...found.values()].sort((a, b) => b.count - a.count || cmp(a.name, b.name));
+}
+export const newNameLine = x => `- "${md(x.name)}" · ${plural(x.count, "title")} · latest: [${md(x.title)}](${mdUrl(x.link)}) · ${String(x.publishedAt).slice(0, 10)}`;
 
 /* ---------- Run ---------- */
 export function loadCurated(dataDir) {
@@ -319,16 +367,17 @@ export function runMatch({ dataDir, feedPath, dryRun = false, now = Date.now(), 
     const report = formatReport({ skipped: feed.problem });
     return { status: "skipped", reason: feed.problem, added: [], candidates: [], written: false, report, summary: report };
   }
-  const ctx = prepare(loadCurated(dataDir));
+  const ds = loadCurated(dataDir), ctx = prepare(ds);
   const statePath = join(dataDir, STATE_FILE), state = readState(statePath);
   const { found, candidates } = matchItems(feed.json.items, ctx);
+  const newNames = newModelNames(feed.json.items, ds);
   const merged = mergeLinks(state.links, found, { firstSeenAt: seenAt(feed.json, now), firstSeenIn: commit || feedCommit(feedPath) });
   const open = openCandidates(candidates, merged.links, ctx);
   const text = serializeState(merged.links);
   const changed = state.raw === null || state.raw.replace(/\r\n/g, "\n") !== text;
   const written = !dryRun && writeIfChanged(statePath, state.raw, text);
-  const rep = { facts: [plural(feed.json.items.length, "feed item")], added: flagW01(merged.added, w01Keys(found)), candidates: open, dryRun };
-  return { status: "ok", added: merged.added, candidates: open, links: merged.links, changed, written,
+  const rep = { facts: [plural(feed.json.items.length, "feed item")], added: flagW01(merged.added, w01Keys(found)), candidates: open, newNames, dryRun };
+  return { status: "ok", added: merged.added, candidates: open, newNames, links: merged.links, changed, written,
     report: formatReport(rep), summary: formatReport({ ...rep, limit: SUMMARY_LIMIT }) };
 }
 

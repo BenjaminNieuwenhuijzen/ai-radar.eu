@@ -12,7 +12,7 @@ import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 import { loadDataset, loadRegistry } from "../lib.mjs";
 import { buildIndex, deriveGraph } from "../derive.mjs";
-import { run, compile, indexJson, finalize, syncInPlace, writeFileAtomic, displayNews, parseArgs, buildTime } from "../build.mjs";
+import { run, compile, indexJson, finalize, syncInPlace, writeFileAtomic, displayNews, parseArgs, buildTime, renderSite, sitemapXml } from "../build.mjs";
 import { modelPage, EVIDENCE_LABEL, EVIDENCE_SHORT, EVIDENCE_GLYPH, NOT_APPLICABLE_LABEL } from "../templates.mjs";
 import { layoutTimeline } from "../timeline.mjs";
 
@@ -566,13 +566,28 @@ test("syncInPlace removes a linked directory as a link, never the files it point
   assert.deepEqual([...tree(out).keys()], ["example-lab/index.html", "index.html"]);
 });
 
-test("the Explorer is indexable and in the sitemap before any full record exists (§5.1, AC-25)", async () => {
+// Launch-checklist decision 13 replaces AC-25 ("always indexable"): an Explorer without a
+// single full record says so, is noindex and is not in the sitemap, so a gate opened too
+// early never gets an empty page indexed.
+test("an Explorer without a full record is noindex, says so and is not in the sitemap; with one it is indexable", async () => {
   const d = tmp(), data = join(d, "data");
   mkdirSync(data);
   const code = await run({ data, out: join(d, "models"), sitemap: join(d, "sitemap-models.xml"), publish: true, validate: async () => [], registry: null, now: "2026-10-01T00:00:00Z", ...quiet });
   assert.equal(code, 0);
-  assert.match(readFileSync(join(d, "models", "index.html"), "utf8"), /<meta name="robots" content="index, follow">/);
-  assert.match(readFileSync(join(d, "sitemap-models.xml"), "utf8"), /<loc>https:\/\/ai-radar\.eu\/models\/<\/loc>/);
+  const empty = readFileSync(join(d, "models", "index.html"), "utf8");
+  assert.match(empty, /<meta name="robots" content="noindex, follow">/);
+  assert.match(empty, /<p class="mh-notice">Model History is being prepared: no model records are published yet\.<\/p>/);
+  assert.ok(!readFileSync(join(d, "sitemap-models.xml"), "utf8").includes("<loc>"), "no URLs at all");
+  // Stubs only: still not indexed, and the notice says the records are incomplete.
+  const ds = loadDataset(BASIC);
+  for (const m of ds.models) m.coverage = "stub";
+  const stubs = compile(ds);
+  assert.match(renderSite(stubs).files.get("index.html"), /<meta name="robots" content="noindex, follow">[\s\S]*the records below are not complete yet/);
+  assert.ok(!sitemapXml(stubs).includes("<loc>https://ai-radar.eu/models/</loc>"));
+  // The basic fixture has full records: indexable and listed, without the notice.
+  assert.match(page("index.html"), /<meta name="robots" content="index, follow">/);
+  assert.ok(!page("index.html").includes("mh-notice"));
+  assert.match(readFileSync(SITEMAP, "utf8"), /<loc>https:\/\/ai-radar\.eu\/models\/<\/loc>/);
 });
 
 test("index.json names and aliases are folded like the search term (§23.2)", () => {

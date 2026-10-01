@@ -104,7 +104,7 @@ Aliases drive the news matching. They default to `match: "candidate"` (reported,
 - Retired models and vanished sources stay. Corrections go through git and update `lastReviewedAt`.
 - Uncertainty stays visible: qualifiers, alternatives and incomplete evidence are never smoothed over.
 - Corrections and removal requests arrive via info@ai-radar.eu; there is no form (§25.12, §37). A justified request from a rights holder sets `suppressLink: true` on the source, with the reason in `notes`. The model and the metadata stay.
-- No AI-generated text.
+- Summaries, change notes and descriptions are drafted with AI assistance from the cited sources, then checked against those sources and these rules before they are merged. The About page says so. Every text claim keeps its own sources, so a reader can check it.
 
 ## Commands
 
@@ -135,9 +135,18 @@ The preview server behaves like GitHub Pages for this site: `/dir` redirects to 
 
 - `.github/workflows/model-history.yml`: on a pull request it validates and runs the tests. On a push to `main`, after every successful feed build and on manual dispatch from `main` it validates, matches news, builds and commits "Update model history". Dispatched on any other branch it only validates.
 - `.github/workflows/source-health.yml`: daily at 03:41 UTC and on manual dispatch. It checks sources and archive copies and commits `state/source-status.json`, on `main` only (dispatched on another branch it runs the check and the report but commits nothing). Two runs never overlap: a run started while another is still checking waits for it (concurrency group `source-health-<branch>`), because the later run must build on the earlier run's counters. Only one run can wait, so a third start cancels the waiting one. Its publish job also shares the `model-history-writer` group with the Model History build. When it is still waiting as a Model History build queues up, GitHub cancels it and that day's check is lost. The next day checks again; to recover sooner, start the workflow by hand (Actions → Model History source health → Run workflow).
-- Their reports go to the job summary, which is **public** in the Actions tab.
+- Their reports go to the job summary, which is **public** in the Actions tab: the validator's maintenance lists (models with incomplete evidence, W03; records not reviewed for a year, W04), the news matcher's new links, candidates and **possible new models** (versioned model names in AI Radar titles that no record knows yet), and the source-health report.
 - **The publish gate** is the repository variable `MODEL_HISTORY_PUBLISH` (Settings → Secrets and variables → Actions → Variables). While it is not `on`, the workflows only validate and update `state/`; they never generate or commit `models/` or `sitemap-models.xml`, so **nothing appears on ai-radar.eu/models/ until it is switched on** at launch. The raw files in this folder are reachable on `main` either way.
+
+## Rolling back
+
+| Situation | What to do |
+|---|---|
+| One record or source is wrong | Correct it in a pull request. With the gate on, the next build regenerates the page; a removed model disappears from `models/`. |
+| Freeze the pages | Set `MODEL_HISTORY_PUBLISH` to anything other than `on`. The pages stay as they are and nothing new is published. |
+| Take Model History offline | First switch the gate off (otherwise the next run generates everything again). Then, in one commit: delete `models/` and `sitemap-models.xml`, turn `sitemap.xml` back into a plain `<urlset>` of the site pages, and remove the "Model History" links from the header and footer of the five site pages. The CDN shows the old version for up to 10 minutes; remove the URLs in Search Console if needed. |
+| The dashboard breaks after the merge of the foundation | `git revert` the merge commit: it moved the company registry into `assets/registry.js` and changed `index.html` and `assets/app.js`. |
 
 ## Licence
 
-The MIT licence in `LICENSE` covers the code only. The licence for the data in this folder is **not decided yet** (open decision O3). The proposal is CC BY 4.0 for the curator's own work: the structure, the records, the relations and the curator's own text fields. Titles and headlines of sources and news snapshots are third-party material, are not covered by it and remain with their respective rights holders. Until the decision is made, no licence is granted for the data.
+The MIT licence in `LICENSE` covers the code only. The data in this folder (the structure, the records, the relations and the text fields written for Model History) is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**, see `LICENSE.md` in this folder. Titles and headlines of sources and news snapshots are third-party material: they are not covered by it and remain with their respective rights holders.

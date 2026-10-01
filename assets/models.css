@@ -282,12 +282,14 @@
 .mh-tl-key.k-src { width: 10px; height: 10px; border-radius: 2px; background: var(--ink); }
 .mh-tl-key.k-news { width: 12px; height: 12px; border-radius: 50%; background: var(--mh-news-dot); }
 .mh-tl-key.k-range { width: 26px; height: 8px; border-radius: 4px; background: var(--mh-range); }
-.mh-tl-scroll { overflow-x: auto; overflow-y: hidden; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
+.mh-tl-scroll { overflow-x: auto; overflow-y: hidden; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); container-type: inline-size; }
 .mh-tl-scroll:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-.mh-tl { position: relative; --z: 260px; --axis: var(--axis-n); --tlh: var(--tlh-n);
+/* px per year: the zoom level, or more when a short timeline would not fill the box (--fill;
+   cqw = the scroll box). Spreading never moves two labels closer, so the build's lanes hold. */
+.mh-tl { position: relative; --fill: calc((100cqw - var(--pad) - 160px) / var(--span)); --z: max(260px, var(--fill)); --axis: var(--axis-n); --tlh: var(--tlh-n);
   width: calc(var(--pad) + var(--span) * var(--z) + 160px); height: var(--tlh); }
-.mh-tl[data-zoom="compact"] { --z: 160px; --axis: var(--axis-c); --tlh: var(--tlh-c); }
-.mh-tl[data-zoom="wide"] { --z: 420px; --axis: var(--axis-w); --tlh: var(--tlh-w); }
+.mh-tl[data-zoom="compact"] { --z: max(160px, var(--fill)); --axis: var(--axis-c); --tlh: var(--tlh-c); }
+.mh-tl[data-zoom="wide"] { --z: max(420px, var(--fill)); --axis: var(--axis-w); --tlh: var(--tlh-w); }
 .mh-tl[data-zoom="compact"] .mh-tl-node { --s: var(--s-c); --o: var(--o-c); }
 .mh-tl[data-zoom="normal"] .mh-tl-node { --s: var(--s-n); --o: var(--o-n); }
 .mh-tl[data-zoom="wide"] .mh-tl-node { --s: var(--s-w); --o: var(--o-w); }
