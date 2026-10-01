@@ -257,14 +257,41 @@ async function pool(tasks, size) {
 }
 
 // ---- fetch source feeds (handles both RSS <item> and Atom <entry>) ----
+// A feed that fails this run (HTTP error, timeout, unreadable XML, or no usable items where
+// the previous build had some) keeps its items from the previous data.json, so a temporary
+// outage does not empty a card: Google News answering 503 for one run emptied the DeepSeek
+// card on 2026-10-01. Carried items keep their stored title, summary and local image; only
+// items from the last CARRY_DAYS days are kept, so a feed that stays down fades out.
 const items = [];
+const CARRY_DAYS = 30;
+const prevByFeed = new Map();
+try {
+  const prevData = JSON.parse(readFileSync("data.json", "utf8"));
+  for (const it of prevData.items || []) {
+    const t = Date.parse(it.date);
+    if (!it.title || !it.link || isNaN(t) || it.curated || Date.now() - t > CARRY_DAYS * 86400000) continue;
+    const k = it.company + "\u0000" + (it.source || "");
+    if (!prevByFeed.has(k)) prevByFeed.set(k, []);
+    prevByFeed.get(k).push({ company: it.company, source: it.source || "", title: it.title, link: it.link,
+      pubDate: new Date(t).toUTCString(), t, desc: it.summary || "", image: it.image || "" });
+  }
+} catch { /* first run: nothing to carry over */ }
+const carried = new Set();   // one carry-over per company+source, even when two feeds share it
+function carryOver(feed, why) {
+  const k = feed.company + "\u0000" + (feed.source || "");
+  const prevItems = prevByFeed.get(k) || [];
+  if (carried.has(k) || !prevItems.length) { console.error(`${feed.company}/${feed.source || "-"}: ${why}; nothing to keep`); return; }
+  carried.add(k);
+  items.push(...prevItems);
+  console.error(`${feed.company}/${feed.source || "-"}: ${why}; kept ${prevItems.length} items from the previous build`);
+}
 for (const feed of FEEDS) {
   try {
     const res = await fetch(feed.url, {
       signal: AbortSignal.timeout(20000),
       headers: { "user-agent": "Mozilla/5.0 (compatible; AIRadarBot/1.0)" }
     });
-    if (!res.ok) { console.error(`${feed.company}/${feed.source || "-"}: HTTP ${res.status}`); continue; }
+    if (!res.ok) { carryOver(feed, `HTTP ${res.status}`); continue; }
     const xml = await res.text();
     // Atom = has <entry> and no <item>. (RSS feeds may carry an <atom:link> self-ref,
     // so we must NOT detect on the Atom namespace alone.)
@@ -301,10 +328,13 @@ for (const feed of FEEDS) {
     }
     parsed.sort((a, b) => b.t - a.t);
     const count = Math.min(parsed.length, feed.max || PER_FEED);
+    // An answer without a single usable item where there were items before is treated as
+    // a failure too (an error page served with 200, a consent wall, a truncated body).
+    if (!count) { carryOver(feed, "0 usable items"); continue; }
     items.push(...parsed.slice(0, count));
     console.log(`${feed.company}/${feed.source || "-"}: ${count} items${isAtom ? " (atom)" : ""}`);
   } catch (e) {
-    console.error(`${feed.company}/${feed.source || "-"}: ${e.message}`);
+    carryOver(feed, e.message);
   }
 }
 

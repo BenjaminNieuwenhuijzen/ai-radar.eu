@@ -9,6 +9,11 @@ can see exactly what changed between any two versions.
 
 ## [Unreleased]
 
+### Fixed
+- A feed that fails during a build (an HTTP error, a timeout, or no usable items) now keeps its
+  items from the previous build instead of disappearing until the next one. On 1 October 2026
+  Google News answered 503 once and the DeepSeek card showed only two old GitHub releases.
+
 ## [2.0.0] - 2026-09-30
 
 A redesign of the dashboard and the content pages (direction 1c "Hybrid"), on the same
