@@ -158,7 +158,7 @@ test("timeline: the picker opens another model's timeline only on its button, an
   const picker = p.byId("mh-tl-picker"), pick = p.byId("mh-tl-pick"), go = p.byId("mh-tl-go");
   assert.equal(picker.hidden, false);
   const values = pick.getElementsByTagName("option").map(o => o.getAttribute("value"));
-  assert.equal(values.length, SITE.models.length);
+  assert.equal(values.length, SITE.models.filter(x => x.org === "example-lab").length, "the organisation's own models");
   assert.ok(values.every(v => /^\/models\/[a-z0-9-]+\/[a-z0-9-]+\/timeline\/$/.test(v)));
   go.dispatch("click");
   assert.deepEqual(p.assigned, [], "the current model: nothing to open");
