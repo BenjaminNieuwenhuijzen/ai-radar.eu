@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.shared.news-report-1",
+      "type": "news-article",
+      "title": "Example Lab ships Orbit 2",
+      "url": "https://news.example.com/orbit-2",
+      "publisher": "Example News",
+      "provenance": "secondary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.shared.news-report-2",
+      "type": "news-article",
+      "title": "Orbit 2 Vision spotted",
+      "url": "https://weekly.example.net/orbit-2-vision",
+      "publisher": "Sample Tech Weekly",
+      "provenance": "secondary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.shared.blog-mention",
+      "type": "blog-post",
+      "title": "Trying Orbit Lite",
+      "url": "https://blog.example.com/orbit-lite",
+      "publisher": "Independent Blog",
+      "provenance": "secondary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01"
+    }
+  ]
+}

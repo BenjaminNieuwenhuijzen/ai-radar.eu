@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "test-lab.model-a",
+  "slug": "model-a",
+  "name": "Model A",
+  "organizations": [ { "id": "test-lab", "role": "developer", "primary": true } ],
+  "categories": ["language"],
+  "prominence": "standard",
+  "lifecycle": { "value": "available", "sources": [ { "id": "src.test-lab.launch" } ] },
+  "dates": { "announced": null, "released": { "value": "2025-03", "sources": [ { "id": "src.test-lab.launch" } ] }, "deprecated": null, "retired": null },
+  "summary": { "text": "Fictional model used to test the validator.", "sources": [ { "id": "src.test-lab.launch" } ] },
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01"
+}

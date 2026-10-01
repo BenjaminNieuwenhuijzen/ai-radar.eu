@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "example-lab.orbit-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "orbit-1",
+  "name": "Orbit 1",
+  "aliases": [
+    {
+      "text": "Orbit 1",
+      "match": "auto"
+    },
+    {
+      "text": "Orbit",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "example-lab",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "example-lab.orbit",
+  "generation": "1",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.example-lab.deprecations"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2021-03",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-1-docs"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2024",
+      "qualifier": "approximate",
+      "sources": [
+        {
+          "id": "src.example-lab.deprecations"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "example-lab-research.orbit-0",
+      "basis": "editorial",
+      "note": "Presented as the first product after the research model.",
+      "sources": [
+        {
+          "id": "src.example-lab.history"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "First Orbit model offered through an API.",
+    "sources": [
+      {
+        "id": "src.example-lab.orbit-1-docs"
+      }
+    ]
+  }
+}

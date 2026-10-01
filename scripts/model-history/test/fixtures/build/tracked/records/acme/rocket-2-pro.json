@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "acme.rocket-2-pro",
+  "slug": "rocket-2-pro",
+  "promotedFrom": "acme.rocket-2#pro",
+  "name": "Rocket 2 Pro",
+  "aliases": [{ "text": "Rocket 2 Pro", "match": "auto" }],
+  "organizations": [{ "id": "acme", "role": "developer", "primary": true }],
+  "familyId": "acme.rocket",
+  "generation": "2",
+  "categories": ["language"],
+  "prominence": "standard",
+  "lifecycle": { "value": "available", "sources": [{ "id": "src.acme.rocket-2-pro-notes" }] },
+  "dates": {
+    "announced": null,
+    "released": { "value": "2024-05", "sources": [{ "id": "src.acme.rocket-2-pro-notes" }] },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    { "type": "variant-of", "target": "acme.rocket-2", "basis": "sourced", "sources": [{ "id": "src.acme.rocket-2-pro-notes" }] }
+  ],
+  "summary": { "text": "Larger variant of Rocket 2 that now has its own record.", "sources": [{ "id": "src.acme.rocket-2-pro-notes" }] },
+  "coverage": "full",
+  "lastReviewedAt": "2026-09-21"
+}

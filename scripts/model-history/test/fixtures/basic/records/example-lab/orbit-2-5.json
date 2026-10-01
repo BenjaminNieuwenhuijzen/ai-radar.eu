@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "example-lab.orbit-2-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "orbit-2-5",
+  "name": "Orbit 2.5",
+  "aliases": [
+    {
+      "text": "Orbit 2.5",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "example-lab",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "example-lab.orbit",
+  "generation": "2.5",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.example-lab.orbit-2-5-launch"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-12-02",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-5-launch"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "example-lab.orbit-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-2-5-launch"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Intermediate release between Orbit 2 and Orbit 3.",
+    "sources": [
+      {
+        "id": "src.example-lab.orbit-2-5-launch"
+      }
+    ]
+  }
+}

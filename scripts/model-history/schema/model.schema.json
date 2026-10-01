@@ -1,0 +1,271 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model History model record",
+  "description": "One model per file: model-history/records/<route-org>/<id after the first dot>.json (spec §11-14, §19). This schema documents the structure for editors. scripts/model-history/validate.mjs is the authority: it also checks references, the relation graph, date order, provenance and content rules (spec §26). The $defs below are shared with organization, family and source schemas; vocabulary $defs are named after the VOCAB keys in scripts/model-history/lib.mjs, and a test keeps them equal.",
+  "type": "object",
+  "required": ["schemaVersion", "id", "slug", "name", "organizations", "categories", "prominence", "lifecycle", "dates", "coverage", "lastReviewedAt"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": 1 },
+    "id": { "$ref": "#/$defs/scopedId", "description": "Immutable, globally unique: <orgId at time of entry>.<name>." },
+    "slug": { "$ref": "#/$defs/slug", "description": "URL segment, unique within the route organization; no dots (\"orbit-2-5\" for Orbit 2.5)." },
+    "previousSlugs": { "type": "array", "items": { "$ref": "#/$defs/slug" }, "description": "Old slugs within the same organization; each gets a redirect stub." },
+    "previousRoutes": { "type": "array", "items": { "type": "string", "pattern": "^/models/[a-z0-9]+(?:-[a-z0-9]+)*/[a-z0-9]+(?:-[a-z0-9]+)*/$" }, "description": "Full old paths after a move to another organization." },
+    "promotedFrom": { "type": ["string", "null"], "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*\\.[a-z0-9]+(?:-[a-z0-9]+)*#[a-z0-9]+(?:-[a-z0-9]+)*$", "description": "<model-id>#<variant-id> when this record is a promoted inline variant (E28)." },
+    "name": { "$ref": "#/$defs/nameText", "description": "Official name at release." },
+    "aliases": { "type": "array", "items": { "$ref": "#/$defs/alias" } },
+    "organizations": {
+      "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/organizationRole" },
+      "contains": { "type": "object", "properties": { "role": { "const": "developer" }, "primary": { "const": true } }, "required": ["role", "primary"] },
+      "minContains": 1, "maxContains": 1,
+      "description": "Exactly one entry has role developer and primary true; it decides route, folder and slug scope (E24)."
+    },
+    "familyId": { "anyOf": [ { "$ref": "#/$defs/scopedId" }, { "type": "null" } ] },
+    "generation": { "type": ["string", "null"], "description": "Generation label as the organization uses it (\"2\", \"3.5\")." },
+    "categories": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/category" } },
+    "prominence": { "$ref": "#/$defs/prominence" },
+    "lifecycle": { "$ref": "#/$defs/lifecycleClaim" },
+    "dates": { "$ref": "#/$defs/dates" },
+    "milestones": { "type": "array", "items": { "$ref": "#/$defs/milestone" } },
+    "replacedBy": {
+      "type": "object", "required": ["modelId", "sources"],
+      "properties": { "modelId": { "$ref": "#/$defs/scopedId" }, "sources": { "$ref": "#/$defs/nonEmptySourceRefs" }, "note": { "$ref": "#/$defs/noteText" } },
+      "description": "Lifecycle successor as the organization names it. Not lineage."
+    },
+    "relations": { "type": "array", "items": { "$ref": "#/$defs/relation" } },
+    "variants": { "type": "array", "items": { "$ref": "#/$defs/variant" } },
+    "summary": { "$ref": "#/$defs/summaryClaim" },
+    "changes": { "type": "array", "items": { "$ref": "#/$defs/change" } },
+    "capabilities": { "$ref": "#/$defs/capabilities" },
+    "news": {
+      "type": "object",
+      "properties": {
+        "include": { "type": "array", "items": { "$ref": "#/$defs/newsSnapshot" } },
+        "exclude": { "type": "array", "items": { "$ref": "#/$defs/postId" } }
+      }
+    },
+    "coverage": { "$ref": "#/$defs/modelCoverage" },
+    "lastReviewedAt": { "$ref": "#/$defs/day" },
+    "notes": { "$ref": "#/$defs/plainText", "description": "Internal; not rendered, but public in the repository." }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "coverage": { "const": "full" } }, "required": ["coverage"] },
+      "then": {
+        "required": ["summary"],
+        "properties": { "dates": { "anyOf": [
+          { "properties": { "released": { "$ref": "#/$defs/knownDate" } }, "required": ["released"] },
+          { "properties": { "announced": { "$ref": "#/$defs/knownDate" } }, "required": ["announced"] }
+        ] } }
+      }
+    },
+    {
+      "if": { "properties": { "coverage": { "const": "stub" } }, "required": ["coverage"] },
+      "then": { "properties": { "dates": { "anyOf": [
+        { "properties": { "released": { "$ref": "#/$defs/knownDate" } }, "required": ["released"] },
+        { "properties": { "announced": { "$ref": "#/$defs/knownDate" } }, "required": ["announced"] },
+        { "required": ["note"] }
+      ] } } }
+    }
+  ],
+  "$defs": {
+    "plainText": { "type": "string", "not": { "pattern": "<\\/?[A-Za-z][^>]*>|&[A-Za-z]+;|&#\\d+;" }, "description": "Plain text, English: no HTML, no entities, no markdown (E14)." },
+    "nameText": { "$ref": "#/$defs/plainText", "minLength": 1, "maxLength": 120 },
+    "aliasText": { "$ref": "#/$defs/plainText", "minLength": 1, "maxLength": 120 },
+    "noteText": { "$ref": "#/$defs/plainText", "maxLength": 1000 },
+    "summaryText": { "$ref": "#/$defs/plainText", "minLength": 1, "maxLength": 500 },
+    "changeText": { "$ref": "#/$defs/plainText", "minLength": 1, "maxLength": 200 },
+    "descriptionText": { "$ref": "#/$defs/plainText", "minLength": 1, "maxLength": 500 },
+    "chapterText": { "$ref": "#/$defs/plainText", "minLength": 1, "maxLength": 1200 },
+    "chapterTitle": { "$ref": "#/$defs/plainText", "minLength": 1, "maxLength": 120 },
+    "titleText": { "$ref": "#/$defs/plainText", "minLength": 1, "maxLength": 300 },
+    "labelText": { "$ref": "#/$defs/plainText", "minLength": 1, "maxLength": 120 },
+
+    "orgId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "scopedId": { "type": "string", "pattern": "^([a-z0-9]+(?:-[a-z0-9]+)*)\\.([a-z0-9]+(?:-[a-z0-9]+)*)$", "description": "<orgId>.<name>, used by families and models." },
+    "sourceId": { "type": "string", "pattern": "^src\\.([a-z0-9]+(?:-[a-z0-9]+)*)\\.([a-z0-9]+(?:-[a-z0-9]+)*)$", "description": "src.<orgId|shared>.<name>" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$" },
+    "localId": { "type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$", "description": "Unique within its list: variants, changes, milestones, chapters." },
+    "postId": { "type": "string", "pattern": "^[0-9a-z]{1,16}$", "description": "AI Radar post id: cyrb53(postKey(link)) in base 36; the id in data.json leads." },
+    "day": { "type": "string", "pattern": "^\\d{4}-(?:0[1-9]|1[0-2])-(?:0[1-9]|[12]\\d|3[01])$" },
+    "dateString": { "type": "string", "pattern": "^\\d{4}(?:-(?:0[1-9]|1[0-2])(?:-(?:0[1-9]|[12]\\d|3[01]))?)?$", "description": "YYYY, YYYY-MM or YYYY-MM-DD; the precision follows from the format. Never fill in an unknown day or month." },
+    "isoInstant": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}(?::\\d{2}(?:\\.\\d+)?)?Z$" },
+
+    "sourceRef": {
+      "type": "object", "required": ["id"],
+      "properties": { "id": { "$ref": "#/$defs/sourceId" }, "locator": { "$ref": "#/$defs/plainText", "description": "Section, page or timecode." } }
+    },
+    "sourceRefs": { "type": "array", "items": { "$ref": "#/$defs/sourceRef" } },
+    "nonEmptySourceRefs": { "$ref": "#/$defs/sourceRefs", "minItems": 1 },
+
+    "dateValue": {
+      "type": "object", "required": ["value", "sources"],
+      "properties": {
+        "value": { "anyOf": [ { "$ref": "#/$defs/dateString" }, { "type": "null", "description": "Unknown: allowed with empty sources and a note." } ] },
+        "qualifier": { "anyOf": [ { "$ref": "#/$defs/qualifier" }, { "type": "null" } ] },
+        "sources": { "$ref": "#/$defs/sourceRefs" },
+        "note": { "$ref": "#/$defs/noteText" },
+        "alternatives": {
+          "type": "array",
+          "items": { "type": "object", "required": ["value", "sources"], "properties": { "value": { "$ref": "#/$defs/dateString" }, "sources": { "$ref": "#/$defs/nonEmptySourceRefs" }, "note": { "$ref": "#/$defs/noteText" } } },
+          "description": "Differing values from other sources (spec §19.3)."
+        }
+      },
+      "allOf": [ { "if": { "properties": { "sources": { "maxItems": 0 } }, "required": ["sources"] }, "then": { "required": ["note"], "properties": { "value": { "type": "null" }, "note": { "minLength": 1 } } } } ]
+    },
+    "knownDate": { "type": "object", "required": ["value"], "properties": { "value": { "$ref": "#/$defs/dateString" } } },
+    "dates": {
+      "type": "object",
+      "properties": {
+        "announced": { "anyOf": [ { "$ref": "#/$defs/dateValue" }, { "type": "null" } ] },
+        "released": { "anyOf": [ { "$ref": "#/$defs/dateValue" }, { "type": "null" } ] },
+        "deprecated": { "anyOf": [ { "$ref": "#/$defs/dateValue" }, { "type": "null" } ] },
+        "retired": { "anyOf": [ { "$ref": "#/$defs/dateValue" }, { "type": "null" } ] },
+        "note": { "$ref": "#/$defs/noteText", "description": "Required on a stub without dates." }
+      }
+    },
+    "lifecycleClaim": {
+      "type": "object", "required": ["value", "sources"],
+      "properties": { "value": { "$ref": "#/$defs/lifecycle" }, "sources": { "$ref": "#/$defs/sourceRefs" }, "note": { "$ref": "#/$defs/noteText" } },
+      "allOf": [ { "if": { "properties": { "sources": { "maxItems": 0 } }, "required": ["sources"] }, "then": { "required": ["note"], "properties": { "value": { "const": "unknown" }, "note": { "minLength": 1 } } } } ]
+    },
+    "summaryClaim": { "type": "object", "required": ["text", "sources"], "properties": { "text": { "$ref": "#/$defs/summaryText" }, "sources": { "$ref": "#/$defs/nonEmptySourceRefs" } } },
+    "descriptionClaim": { "type": "object", "required": ["text", "sources"], "properties": { "text": { "$ref": "#/$defs/descriptionText" }, "sources": { "$ref": "#/$defs/nonEmptySourceRefs" } } },
+    "alias": {
+      "type": "object", "required": ["text"],
+      "properties": { "text": { "$ref": "#/$defs/aliasText" }, "match": { "$ref": "#/$defs/aliasMatch", "description": "auto links news automatically; candidate (default) only reports; never is ignored by the matcher." } }
+    },
+    "organizationRole": {
+      "type": "object", "required": ["id", "role"],
+      "properties": { "id": { "$ref": "#/$defs/orgId" }, "role": { "$ref": "#/$defs/role" }, "primary": { "type": "boolean" } },
+      "allOf": [ { "if": { "properties": { "primary": { "const": true } }, "required": ["primary"] }, "then": { "properties": { "role": { "const": "developer" } } } } ]
+    },
+    "milestone": {
+      "type": "object", "required": ["id", "label", "date"],
+      "properties": { "id": { "$ref": "#/$defs/localId" }, "label": { "$ref": "#/$defs/labelText" }, "date": { "$ref": "#/$defs/dateValue" } }
+    },
+    "relation": {
+      "type": "object", "required": ["type", "target", "basis", "sources"],
+      "properties": {
+        "type": { "$ref": "#/$defs/relationType" },
+        "target": { "$ref": "#/$defs/scopedId" },
+        "method": { "$ref": "#/$defs/derivedMethod" },
+        "basis": { "$ref": "#/$defs/basis" },
+        "sources": { "$ref": "#/$defs/nonEmptySourceRefs" },
+        "note": { "anyOf": [ { "$ref": "#/$defs/noteText" }, { "type": "null" } ] }
+      },
+      "allOf": [
+        { "if": { "properties": { "type": { "const": "derived-from" } }, "required": ["type"] }, "then": { "required": ["method"] } },
+        { "if": { "required": ["method"] }, "then": { "properties": { "type": { "const": "derived-from" } } } },
+        { "if": { "properties": { "basis": { "const": "editorial" } }, "required": ["basis"] }, "then": { "required": ["note"], "properties": { "note": { "type": "string", "minLength": 1 } } } }
+      ],
+      "description": "Stored once, on the younger or derived model; the build derives the reverse side."
+    },
+    "variant": {
+      "type": "object", "required": ["id", "name"],
+      "properties": {
+        "id": { "$ref": "#/$defs/localId" },
+        "name": { "$ref": "#/$defs/nameText" },
+        "aliases": { "type": "array", "items": { "$ref": "#/$defs/alias" } },
+        "dates": { "$ref": "#/$defs/dates", "description": "Optional; the record's dates apply otherwise." },
+        "capabilities": { "$ref": "#/$defs/capabilities", "description": "Only the differences from the record." },
+        "lifecycle": { "$ref": "#/$defs/lifecycleClaim" },
+        "note": { "$ref": "#/$defs/noteText" },
+        "sources": { "$ref": "#/$defs/nonEmptySourceRefs" }
+      },
+      "anyOf": [ { "required": ["sources"] }, { "required": ["dates"] } ]
+    },
+    "change": {
+      "type": "object", "required": ["id", "aspect", "text", "sources"],
+      "properties": {
+        "id": { "$ref": "#/$defs/localId" },
+        "aspect": { "$ref": "#/$defs/aspect" },
+        "direction": { "$ref": "#/$defs/direction" },
+        "relativeTo": { "$ref": "#/$defs/scopedId", "description": "Required when the model has zero or several predecessors (E20)." },
+        "text": { "$ref": "#/$defs/changeText" },
+        "sources": { "$ref": "#/$defs/nonEmptySourceRefs" }
+      },
+      "allOf": [ { "if": { "properties": { "direction": { "enum": ["increased", "decreased"] } }, "required": ["direction"] }, "then": { "properties": { "aspect": { "$ref": "#/$defs/quantityAspect" } } } } ],
+      "description": "No benchmark scores, rankings or marketing language (spec §14.2)."
+    },
+    "listClaim": {
+      "type": "object", "required": ["value", "sources"],
+      "properties": { "value": { "type": ["array", "null"] }, "disclosure": { "$ref": "#/$defs/disclosure" }, "sources": { "$ref": "#/$defs/sourceRefs" }, "note": { "$ref": "#/$defs/noteText" } },
+      "allOf": [
+        { "$ref": "#/$defs/capabilityDisclosure" },
+        { "if": { "not": { "properties": { "disclosure": { "enum": ["not-disclosed", "unknown"] } }, "required": ["disclosure"] } }, "then": { "properties": { "value": { "type": "array" } } } }
+      ]
+    },
+    "capabilityDisclosure": {
+      "allOf": [
+        { "if": { "properties": { "disclosure": { "enum": ["not-disclosed", "unknown"] } }, "required": ["disclosure"] },
+          "then": { "properties": { "value": { "anyOf": [ { "type": "null" }, { "type": "array", "maxItems": 0 } ] } } },
+          "else": { "properties": { "sources": { "minItems": 1 } } } },
+        { "if": { "properties": { "sources": { "maxItems": 0 } }, "required": ["sources"] }, "then": { "required": ["note"] } }
+      ],
+      "description": "Spec §9.4: a non-numeric capability with disclosure not-disclosed or unknown asserts nothing. It holds null or an empty list (E13), may have empty sources and then needs a note (E08). disclosure official needs a primary or archived-primary source (E13, checked by validate.mjs)."
+    },
+    "numericCapability": {
+      "type": "object", "required": ["disclosure", "sources"],
+      "properties": {
+        "value": { "anyOf": [ { "type": "number", "minimum": 0 }, { "type": "null" } ], "description": "For sorting and filtering only." },
+        "asStated": { "$ref": "#/$defs/labelText", "description": "The figure as the source gives it (\"128K\", \"70B\"); this is what is shown." },
+        "qualifier": { "anyOf": [ { "$ref": "#/$defs/qualifier" }, { "type": "null" } ] },
+        "disclosure": { "$ref": "#/$defs/disclosure" },
+        "sources": { "$ref": "#/$defs/sourceRefs" },
+        "note": { "$ref": "#/$defs/noteText" }
+      },
+      "allOf": [
+        { "if": { "properties": { "disclosure": { "const": "official" } }, "required": ["disclosure"] }, "then": { "properties": { "sources": { "minItems": 1 } } },
+          "else": { "properties": { "value": { "type": "null" } } } },
+        { "if": { "properties": { "sources": { "maxItems": 0 } }, "required": ["sources"] }, "then": { "required": ["note"] } }
+      ],
+      "description": "A value only with disclosure official, backed by a primary or archived-primary source (E13). No third-party estimates."
+    },
+    "capabilities": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "inputModalities": { "$ref": "#/$defs/listClaim", "properties": { "value": { "items": { "$ref": "#/$defs/modality" } } } },
+        "outputModalities": { "$ref": "#/$defs/listClaim", "properties": { "value": { "items": { "$ref": "#/$defs/modality" } } } },
+        "features": { "type": "array", "items": { "type": "object", "required": ["key", "sources"], "properties": { "key": { "$ref": "#/$defs/feature" }, "disclosure": { "const": "official", "description": "A feature always asserts its key, so only official fits (E13); leave an undisclosed feature out." }, "sources": { "$ref": "#/$defs/nonEmptySourceRefs" }, "note": { "$ref": "#/$defs/noteText" } } } },
+        "openWeights": { "type": "object", "required": ["value", "sources"], "properties": { "value": { "type": ["boolean", "null"], "description": "null = not recorded; never shown as no." }, "disclosure": { "$ref": "#/$defs/disclosure" }, "sources": { "$ref": "#/$defs/sourceRefs" }, "note": { "$ref": "#/$defs/noteText" } }, "allOf": [ { "$ref": "#/$defs/capabilityDisclosure" } ] },
+        "contextWindowTokens": { "$ref": "#/$defs/numericCapability" },
+        "parameters": { "$ref": "#/$defs/numericCapability" },
+        "access": { "$ref": "#/$defs/listClaim", "properties": { "value": { "items": { "$ref": "#/$defs/access" } } } }
+      }
+    },
+    "newsSnapshot": {
+      "type": "object", "required": ["postId", "link", "title", "publishedAt", "dateOnly", "company", "source"],
+      "properties": {
+        "postId": { "$ref": "#/$defs/postId" },
+        "variantId": { "anyOf": [ { "$ref": "#/$defs/localId" }, { "type": "null" } ] },
+        "link": { "type": "string", "pattern": "^https?://(?![^/?#]*@)" },
+        "title": { "type": "string", "minLength": 1 },
+        "publishedAt": { "$ref": "#/$defs/isoInstant" },
+        "dateOnly": { "type": "boolean", "description": "true for date-only items, stored as YYYY-MM-DDT00:00:00Z." },
+        "company": { "type": "string", "minLength": 1 },
+        "source": { "type": "string", "minLength": 1 }
+      },
+      "description": "Full snapshot, so the link keeps working after the post leaves data.json (E17)."
+    },
+
+    "category": { "enum": ["language", "multimodal", "code", "reasoning", "image-generation", "video-generation", "audio-speech", "music", "embedding", "retrieval-reranking", "agentic", "robotics", "scientific", "game-playing", "safety-classifier", "other"] },
+    "prominence": { "enum": ["milestone", "standard", "minor"], "description": "Editorial: generation versus intermediate release. Not a quality judgement." },
+    "lifecycle": { "enum": ["announced", "preview", "available", "deprecated", "retired", "research-only", "unknown"] },
+    "relationType": { "enum": ["successor-of", "variant-of", "revision-of", "derived-from"] },
+    "derivedMethod": { "enum": ["fine-tune", "distillation", "quantization", "merge", "adapter", "continued-pretraining", "other"] },
+    "basis": { "enum": ["sourced", "editorial"] },
+    "aspect": { "enum": ["modality", "context-length", "reasoning", "tool-use", "languages", "efficiency", "size", "training-data", "safety", "licensing", "availability", "architecture", "other"] },
+    "direction": { "enum": ["added", "removed", "increased", "decreased", "changed"] },
+    "quantityAspect": { "enum": ["context-length", "size", "languages"], "description": "The only aspects that may use increased/decreased (E26)." },
+    "modality": { "enum": ["text", "image", "audio", "video", "code", "3d", "structured-data", "actions"] },
+    "feature": { "enum": ["tool-use", "function-calling", "reasoning-mode", "long-context", "fine-tuning-available", "multilingual", "real-time", "computer-use", "retrieval", "other"] },
+    "disclosure": { "enum": ["official", "not-disclosed", "unknown"] },
+    "access": { "enum": ["api", "consumer-app", "open-weights-download", "cloud-partner", "research-only", "on-device"] },
+    "aliasMatch": { "enum": ["auto", "candidate", "never"] },
+    "modelCoverage": { "enum": ["full", "stub"] },
+    "qualifier": { "enum": ["approximate", "uncertain"] },
+    "role": { "enum": ["developer", "co-developer", "publisher"] }
+  }
+}

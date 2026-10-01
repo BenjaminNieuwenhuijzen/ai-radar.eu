@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "organizations": [
+    {
+      "id": "acme",
+      "name": "Acme AI",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "acme",
+      "coverage": "tracked",
+      "aliases": ["Acme"],
+      "website": "https://acme.example/",
+      "description": {
+        "text": "Fictional tracked lab used to test registry hues and logos.",
+        "sources": [{ "id": "src.acme.about" }]
+      }
+    },
+    {
+      "id": "zenith",
+      "name": "Zenith Labs",
+      "type": "research-lab",
+      "parentId": null,
+      "radarCompanyId": "zenith",
+      "coverage": "tracked",
+      "website": "https://zenith.example/"
+    },
+    {
+      "id": "quiet-lab",
+      "name": "Quiet Lab",
+      "type": "academic",
+      "parentId": null,
+      "radarCompanyId": null,
+      "coverage": "external",
+      "hue": null
+    }
+  ]
+}

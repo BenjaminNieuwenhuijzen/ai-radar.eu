@@ -1,0 +1,121 @@
+{
+  "schemaVersion": 1,
+  "id": "example-lab.orbit-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "orbit-3",
+  "name": "Orbit 3",
+  "aliases": [
+    {
+      "text": "Orbit 3",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "example-lab",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "example-lab.orbit",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.example-lab.orbit-3-launch"
+      }
+    ]
+  },
+  "dates": {
+    "announced": {
+      "value": "2025-05",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-3-launch"
+        }
+      ]
+    },
+    "released": {
+      "value": "2025-06-10",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-3-launch"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "example-lab.orbit-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-3-launch"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Third-generation Orbit model with a reasoning mode.",
+    "sources": [
+      {
+        "id": "src.example-lab.orbit-3-launch"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "reasoning-mode",
+      "aspect": "reasoning",
+      "direction": "added",
+      "text": "Adds an optional reasoning mode.",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-3-launch"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "sources": [
+          {
+            "id": "src.example-lab.orbit-3-launch"
+          }
+        ]
+      },
+      {
+        "key": "computer-use",
+        "sources": [
+          {
+            "id": "src.shared.blog-mention"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.example-lab.orbit-3-launch"
+        }
+      ]
+    }
+  }
+}

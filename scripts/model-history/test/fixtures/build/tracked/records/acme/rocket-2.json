@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "acme.rocket-2",
+  "slug": "rocket-2",
+  "previousSlugs": ["rocket-two"],
+  "previousRoutes": ["/models/zenith/rocket-2/"],
+  "name": "Rocket 2",
+  "aliases": [{ "text": "Rocket 2", "match": "auto" }],
+  "organizations": [{ "id": "acme", "role": "developer", "primary": true }],
+  "familyId": "acme.rocket",
+  "generation": "2",
+  "categories": ["language", "reasoning"],
+  "prominence": "milestone",
+  "lifecycle": { "value": "available", "sources": [{ "id": "src.acme.rocket-2-launch" }] },
+  "dates": {
+    "announced": { "value": "2024-01", "sources": [{ "id": "src.acme.rocket-2-launch" }] },
+    "released": { "value": "2024-02-10", "sources": [{ "id": "src.acme.rocket-2-launch", "locator": "first paragraph" }] },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    { "type": "successor-of", "target": "acme.rocket-1", "basis": "sourced", "sources": [{ "id": "src.acme.rocket-2-launch" }] }
+  ],
+  "variants": [
+    { "id": "mini", "name": "Rocket 2 Mini", "aliases": [{ "text": "Rocket 2 Mini", "match": "auto" }],
+      "sources": [{ "id": "src.acme.rocket-2-launch" }] }
+  ],
+  "summary": { "text": "Second Rocket model with a \"reasoning\" mode & tool use.", "sources": [{ "id": "src.acme.rocket-2-launch" }] },
+  "changes": [
+    { "id": "reasoning", "aspect": "reasoning", "direction": "added", "text": "Adds a reasoning mode.", "sources": [{ "id": "src.acme.rocket-2-launch" }] }
+  ],
+  "news": { "include": [], "exclude": ["p3"] },
+  "coverage": "full",
+  "lastReviewedAt": "2026-09-21"
+}

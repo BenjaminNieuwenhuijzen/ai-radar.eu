@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "zenith.star-1",
+  "slug": "star-1",
+  "name": "Star 1",
+  "aliases": [{ "text": "Star 1", "match": "auto" }],
+  "organizations": [{ "id": "zenith", "role": "developer", "primary": true }],
+  "familyId": "zenith.star",
+  "generation": "1",
+  "categories": ["scientific"],
+  "prominence": "milestone",
+  "lifecycle": { "value": "research-only", "sources": [{ "id": "src.zenith.star-1-paper" }] },
+  "dates": {
+    "announced": null,
+    "released": { "value": "2022", "sources": [{ "id": "src.zenith.star-1-paper" }] },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": { "text": "Research model described in a paper by Zenith Labs.", "sources": [{ "id": "src.zenith.star-1-paper" }] },
+  "coverage": "full",
+  "lastReviewedAt": "2026-09-22"
+}

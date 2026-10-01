@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.example-lab.rename",
+      "type": "press-release",
+      "title": "Example Research becomes Example Lab",
+      "url": "https://example.org/news/new-name",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab",
+      "publishedAt": {
+        "value": "2021-09-01"
+      }
+    },
+    {
+      "id": "src.example-lab.history",
+      "type": "blog-post",
+      "title": "A short history of Orbit",
+      "url": "https://example.org/blog/history",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab"
+    },
+    {
+      "id": "src.example-lab.orbit-0-card",
+      "type": "model-card",
+      "title": "Orbit 0 model card",
+      "url": "https://example.org/orbit-0/card",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "unavailable",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab",
+      "notes": "Original removed; no legitimate archive capture found."
+    },
+    {
+      "id": "src.example-lab.orbit-1-docs",
+      "type": "documentation",
+      "title": "Orbit 1 API reference",
+      "url": "https://docs.example.org/orbit-1",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "archived",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab",
+      "archiveUrl": "https://web.archive.org/web/20210401000000/https://docs.example.org/orbit-1",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2021-04-01T00:00:00Z",
+      "notes": "Original page removed; archived capture checked against the original title."
+    },
+    {
+      "id": "src.example-lab.orbit-2-preview-post",
+      "type": "blog-post",
+      "title": "A first look at Orbit 2",
+      "url": "https://example.org/blog/orbit-2-preview",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab",
+      "publishedAt": {
+        "value": "2024-05-20"
+      }
+    },
+    {
+      "id": "src.example-lab.orbit-2-launch",
+      "type": "announcement",
+      "title": "Introducing Orbit 2",
+      "url": "https://example.org/blog/orbit-2",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab",
+      "publishedAt": {
+        "value": "2024-06-11"
+      }
+    },
+    {
+      "id": "src.example-lab.orbit-2-model-card",
+      "type": "model-card",
+      "title": "Orbit 2 model card",
+      "url": "https://example.org/orbit-2/card",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab"
+    },
+    {
+      "id": "src.example-lab.orbit-2-docs",
+      "type": "documentation",
+      "title": "Orbit 2 documentation",
+      "url": "https://docs.example.org/orbit-2",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab"
+    },
+    {
+      "id": "src.example-lab.orbit-2-repo",
+      "type": "repository",
+      "title": "orbit-2 repository",
+      "url": "https://github.com/example-lab/orbit-2",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab"
+    },
+    {
+      "id": "src.example-lab.orbit-2-sept-notes",
+      "type": "release-notes",
+      "title": "Release notes, September 2024",
+      "url": "https://docs.example.org/release-notes/2024-09",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab"
+    },
+    {
+      "id": "src.example-lab.orbit-2-5-launch",
+      "type": "announcement",
+      "title": "Orbit 2.5",
+      "url": "https://example.org/blog/orbit-2-5",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab"
+    },
+    {
+      "id": "src.example-lab.orbit-3-launch",
+      "type": "announcement",
+      "title": "Introducing Orbit 3",
+      "url": "https://example.org/blog/orbit-3",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab"
+    },
+    {
+      "id": "src.example-lab.orbit-3-merge-report",
+      "type": "technical-report",
+      "title": "Orbit 3 Merge technical report",
+      "url": "https://example.org/research/orbit-3-merge",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab"
+    },
+    {
+      "id": "src.example-lab.deprecations",
+      "type": "deprecation-notice",
+      "title": "Model deprecations",
+      "url": "https://docs.example.org/deprecations",
+      "publisher": "Example Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "example-lab"
+    }
+  ]
+}

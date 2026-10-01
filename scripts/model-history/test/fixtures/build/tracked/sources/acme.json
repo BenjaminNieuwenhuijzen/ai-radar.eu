@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    { "id": "src.acme.about", "type": "documentation", "title": "About Acme AI", "url": "https://acme.example/about",
+      "publisher": "Acme AI", "publisherOrgId": "acme", "provenance": "primary", "availability": "active", "lastCheckedAt": "2026-09-20" },
+    { "id": "src.acme.rocket-1-launch", "type": "announcement", "title": "Introducing Rocket 1", "url": "https://acme.example/blog/rocket-1",
+      "publisher": "Acme AI", "publisherOrgId": "acme", "publishedAt": { "value": "2023-03" }, "provenance": "primary", "availability": "active", "lastCheckedAt": "2026-09-20" },
+    { "id": "src.acme.rocket-1-docs", "type": "documentation", "title": "Rocket 1 docs", "url": "https://docs.acme.example/rocket-1",
+      "publisher": "Acme AI", "publisherOrgId": "acme", "provenance": "primary", "availability": "archived", "lastCheckedAt": "2026-09-20",
+      "archiveUrl": "https://web.archive.org/web/20230501000000/https://docs.acme.example/rocket-1", "archiveProvider": "internet-archive",
+      "archivedAt": "2023-05-01T00:00:00Z", "notes": "Original removed; capture checked against the original title." },
+    { "id": "src.acme.rocket-2-launch", "type": "announcement", "title": "Rocket 2 is here", "url": "https://acme.example/blog/rocket-2",
+      "publisher": "Acme AI", "publisherOrgId": "acme", "publishedAt": { "value": "2024-02-10" }, "provenance": "primary", "availability": "active", "lastCheckedAt": "2026-09-21" },
+    { "id": "src.acme.rocket-2-pro-notes", "type": "release-notes", "title": "Rocket 2 Pro release notes", "url": "https://acme.example/notes/rocket-2-pro?utm_source=feed",
+      "publisher": "Acme AI", "publisherOrgId": "acme", "provenance": "primary", "availability": "active", "lastCheckedAt": "2026-09-21",
+      "suppressLink": true, "notes": "Link suppressed after a request by the rights holder (fixture)." }
+  ]
+}

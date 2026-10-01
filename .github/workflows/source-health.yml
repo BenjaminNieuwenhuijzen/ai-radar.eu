@@ -1,0 +1,97 @@
+name: Model History source health
+
+# Daily check of the original URLs and archive copies behind Model History sources. The
+# long network part (check) stays out of model-history-writer; only the short writing part
+# (publish) joins it, so the check never holds up the Model History build and never touches
+# the feed build. Writes only model-history/state/source-status.json (plus models/ when the
+# publish gate is on), and only on main: a dispatch on another branch runs the check and its
+# report, but publishes nothing. See MODEL_TIMELINE_ARCHITECTURE.md §20, §27.3.
+on:
+  schedule:
+    - cron: "41 3 * * *"   # off the full hour, where GitHub delays or drops scheduled runs most
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Whole runs are serialised per branch. Each check computes a complete new state from its
+# own checkout, and publish replaces the file wholesale (a rebase cannot merge that), so two
+# overlapping runs (the cron plus a manual dispatch during an up-to-60-minute check) would
+# let the older state overwrite the newer counters (consecutiveFailures, stateSince, §17.3).
+# This group is separate from model-history-writer, which only publish holds: the Model
+# History build never waits for a check. As with any group, only one run can wait: a third
+# run cancels the waiting one, which is harmless because the next run checks again.
+concurrency:
+  group: source-health-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Check sources
+        run: node scripts/model-history/check-sources.mjs
+      - name: Hand the new state to the publish job
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-status
+          path: model-history/state/source-status.json
+          if-no-files-found: error
+          retention-days: 7
+
+  publish:
+    needs: check
+    # Only main is a writer (§27.4); schedule always runs on the default branch.
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15   # never hold the model-history-writer slot for the default 6 hours
+    permissions:
+      contents: write
+    # Shared with model-history.yml, NOT with the feed build. Known trade-off: a group keeps
+    # one pending run, so a publish still waiting when a Model History build queues behind
+    # the running one is cancelled, and that day's check is lost. The next daily run checks
+    # again; to recover sooner, start this workflow by hand (Run workflow).
+    concurrency:
+      group: model-history-writer
+      cancel-in-progress: false
+    env:
+      MODEL_HISTORY_PUBLISH: ${{ vars.MODEL_HISTORY_PUBLISH }}   # publish gate, §27.9 ("on" or empty)
+    steps:
+      # The branch tip at job start (see model-history.yml): a Model History build may have
+      # pushed new models/ while the check was running.
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Take over the checked state
+        uses: actions/download-artifact@v4
+        with:
+          name: source-status
+          path: model-history/state
+      # Same order as the Model History build: nothing is generated from invalid data.
+      - name: Validate Model History data
+        run: node scripts/model-history/validate.mjs
+      # The effective availability, and with it the evidence status, may have changed.
+      - name: Build models/ and sitemap-models.xml
+        run: node scripts/model-history/build.mjs
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add model-history/state/source-status.json
+          if [ "$MODEL_HISTORY_PUBLISH" = "on" ]; then git add models sitemap-models.xml; fi
+          git diff --cached --quiet && exit 0
+          git commit -m "Update model history source status"
+          for i in 1 2 3; do
+            if git pull --rebase && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 10
+          done
+          exit 1

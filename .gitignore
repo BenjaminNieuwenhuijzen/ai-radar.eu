@@ -12,3 +12,10 @@ npm-debug.log*
 # Local env / secrets
 .env
 .env.*
+
+# Local Model History preview builds (served with scripts/model-history/serve.mjs --overlay)
+.preview/
+# Temporary folders of an interrupted atomic Model History build
+/.models.tmp-*
+/.models.old-*
+/sitemap-models.xml.tmp-*

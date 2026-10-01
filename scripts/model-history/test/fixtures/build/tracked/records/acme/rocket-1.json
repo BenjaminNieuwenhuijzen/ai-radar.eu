@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "acme.rocket-1",
+  "slug": "rocket-1",
+  "name": "Rocket 1",
+  "aliases": [{ "text": "Rocket 1", "match": "auto" }, { "text": "Rocket-1", "match": "auto" }],
+  "organizations": [
+    { "id": "acme", "role": "developer", "primary": true },
+    { "id": "zenith", "role": "co-developer" }
+  ],
+  "familyId": "acme.rocket",
+  "generation": "1",
+  "categories": ["language"],
+  "prominence": "milestone",
+  "lifecycle": { "value": "deprecated", "sources": [{ "id": "src.acme.rocket-1-launch" }] },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-03",
+      "sources": [{ "id": "src.acme.rocket-1-launch" }],
+      "alternatives": [{ "value": "2023-04", "sources": [{ "id": "src.shared.review" }], "note": "Press report of the wider rollout." }]
+    },
+    "deprecated": { "value": "2024", "qualifier": "approximate", "sources": [{ "id": "src.acme.rocket-1-docs" }] },
+    "retired": null
+  },
+  "summary": { "text": "First Rocket model, made together with Zenith Labs.", "sources": [{ "id": "src.acme.rocket-1-launch" }] },
+  "capabilities": {
+    "contextWindowTokens": { "value": 8000, "asStated": "8K", "qualifier": "approximate", "disclosure": "official", "sources": [{ "id": "src.acme.rocket-1-docs" }] },
+    "openWeights": { "value": false, "sources": [{ "id": "src.acme.rocket-1-launch" }] }
+  },
+  "news": {
+    "include": [
+      { "postId": "m1", "variantId": null, "link": "https://news.example.com/rocket-1-hands-on", "title": "Hands-on with Rocket 1",
+        "publishedAt": "2026-07-02T00:00:00Z", "dateOnly": true, "company": "Across AI", "source": "Example News" }
+    ],
+    "exclude": []
+  },
+  "coverage": "full",
+  "lastReviewedAt": "2026-09-20",
+  "notes": "Internal note that must not appear in the generated HTML."
+}

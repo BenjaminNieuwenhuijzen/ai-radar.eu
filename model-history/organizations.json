@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "organizations": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "openai",
+      "coverage": "tracked"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "anthropic",
+      "coverage": "tracked"
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "mistral",
+      "coverage": "tracked"
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "xai",
+      "coverage": "tracked"
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "nvidia",
+      "coverage": "tracked"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "perplexity",
+      "coverage": "tracked"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "deepseek",
+      "coverage": "tracked"
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "microsoft",
+      "coverage": "tracked"
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "google",
+      "coverage": "tracked"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "meta",
+      "coverage": "tracked"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "huggingface",
+      "coverage": "tracked"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "cohere",
+      "coverage": "tracked"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    { "id": "src.zenith.star-1-paper", "type": "research-paper", "title": "Star 1: a fictional research model", "url": "https://zenith.example/papers/star-1",
+      "publisher": "Zenith Labs", "publisherOrgId": "zenith", "provenance": "primary", "availability": "active", "lastCheckedAt": "2026-09-22" }
+  ]
+}

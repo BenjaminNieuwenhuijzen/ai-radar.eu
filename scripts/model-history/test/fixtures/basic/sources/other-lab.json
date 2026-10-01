@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.other-lab.site",
+      "type": "documentation",
+      "title": "About Other Lab",
+      "url": "https://other.example/about",
+      "publisher": "Other Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "other-lab"
+    },
+    {
+      "id": "src.other-lab.nova-7-launch",
+      "type": "announcement",
+      "title": "Nova 7",
+      "url": "https://other.example/blog/nova-7",
+      "publisher": "Other Lab",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01",
+      "publisherOrgId": "other-lab"
+    }
+  ]
+}

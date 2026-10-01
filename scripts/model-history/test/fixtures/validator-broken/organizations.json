@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "organizations": [
+    { "id": "test-lab", "name": "Test Lab", "type": "company", "parentId": null, "radarCompanyId": null, "coverage": "external", "website": "https://example.org/", "hue": 10 }
+  ]
+}
