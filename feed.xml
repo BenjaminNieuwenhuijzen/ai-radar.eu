@@ -5,7 +5,70 @@
 <link>https://ai-radar.eu/</link>
 <description>Combined updates from leading AI companies.</description>
 <language>en</language>
-<lastBuildDate>Fri, 02 Oct 2026 12:36:29 GMT</lastBuildDate>
+<lastBuildDate>Fri, 02 Oct 2026 19:19:39 GMT</lastBuildDate>
+<item>
+<title>[YouTube] Alexander Panfilov - Stolen Thoughts Stealing Reasoning Traces from Proprietary LLM APIs</title>
+<link>https://www.youtube.com/watch?v=BUO7Lly6MwY</link>
+<guid isPermaLink="false">https://www.youtube.com/watch?v=BUO7Lly6MwY</guid>
+<pubDate>Fri, 02 Oct 2026 17:36:28 GMT</pubDate>
+<description>​Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of encrypted text, which the clie</description>
+</item>
+<item>
+<title>[YouTube] Release Recap - Building Multilingual Bridges Data Mixing as the Pillar of Generalization</title>
+<link>https://www.youtube.com/watch?v=bE6A5hOnM_8</link>
+<guid isPermaLink="false">https://www.youtube.com/watch?v=bE6A5hOnM_8</guid>
+<pubDate>Fri, 02 Oct 2026 17:28:03 GMT</pubDate>
+<description>​Join us as Mehrnaz Mofakhami, Research Scholar at Cohere Labs, discusses her latest paper, “Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning.” ​Mehrnaz will share insights from the research, explore what the findings mean for multilingual reasonin</description>
+</item>
+<item>
+<title>[News] A model guide for the GPT-6 family</title>
+<link>https://openai.com/index/practical-guide-building-gpt-6</link>
+<guid isPermaLink="false">https://openai.com/index/practical-guide-building-gpt-6</guid>
+<pubDate>Fri, 02 Oct 2026 16:15:00 GMT</pubDate>
+<description>Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.</description>
+</item>
+<item>
+<title>[YouTube] Accelerating No-Code Enterprise AI: Inside Simplismart’s NVIDIA Inception Journey</title>
+<link>https://www.youtube.com/watch?v=UxOQ2qyY6Qo</link>
+<guid isPermaLink="false">https://www.youtube.com/watch?v=UxOQ2qyY6Qo</guid>
+<pubDate>Fri, 02 Oct 2026 16:00:20 GMT</pubDate>
+<description>Simplismart eliminates ML Ops complexity with a no-code platform that lets enterprises design, train, and deploy custom AI models without managing infrastructure. Powered by NVIDIA GPUs, Triton™ Inference Server, TensorRT-LLM, and NVIDIA NIM™ microservices, Simplismart delivers ultra-low latency, au</description>
+</item>
+<item>
+<title>[MIT Tech Review] Redefining enterprise intelligence with autonomous AI</title>
+<link>https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/</link>
+<guid isPermaLink="false">https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/</guid>
+<pubDate>Fri, 02 Oct 2026 15:49:04 +0000</pubDate>
+<description>Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. F</description>
+</item>
+<item>
+<title>[Blog] Open-sourcing AstaBrief, the fast report-generation model in Asta</title>
+<link>https://huggingface.co/blog/allenai/astabrief</link>
+<guid isPermaLink="false">https://huggingface.co/blog/allenai/astabrief</guid>
+<pubDate>Fri, 02 Oct 2026 15:19:50 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google AI] The latest AI news we announced in September 2026</title>
+<link>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/</link>
+<guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/</guid>
+<pubDate>Fri, 02 Oct 2026 15:00:00 +0000</pubDate>
+<description>Here are Google’s latest AI updates from September 2026</description>
+</item>
+<item>
+<title>[Research] Toward provably private learning from federated data</title>
+<link>https://research.google/blog/toward-provably-private-learning-from-federated-data/</link>
+<guid isPermaLink="false">https://research.google/blog/toward-provably-private-learning-from-federated-data/</guid>
+<pubDate>Fri, 02 Oct 2026 14:57:41 +0000</pubDate>
+<description>Mobile Systems</description>
+</item>
+<item>
+<title>[Blog] NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI</title>
+<link>https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/</link>
+<guid isPermaLink="false">https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/</guid>
+<pubDate>Fri, 02 Oct 2026 13:00:39 +0000</pubDate>
+<description>Local AI is becoming more useful by the token. As AI agents move from experiments into everyday development, increasingly capable open models are shrinking to fit on more devices, giving builders more to run locally. Coming this month, NVIDIA DGX Spark will be available with 64GB of unified memory f</description>
+</item>
 <item>
 <title>[Google News] Why Dario Amodei needs AI regulation for Anthropic to stay on top - Washington Examiner</title>
 <link>https://news.google.com/rss/articles/CBMirgFBVV95cUxOQXRJM2hNUDQ3Q1JBT01WWW1KQ1R4X2h3VklSTXFXV25ud2NKYlctZU92Vmp1enZIbjlsOFo3NTNlNEdGNWh3ZXkweC1IMDZ1SC05MzJ0Nm1XeXloZ0Fpci1ib0dKcnh6QkxBeHpmMXBsbVk1Tm9XUU1OMUlGMmRnUV84aWhYcDdnUjhWTzJ6MFE4ZlJoaWJyQk5jVHNWVHNyT0ltUDJGUTB2amVyakE?oc=5</link>
@@ -61,6 +124,20 @@
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi1AFBVV95cUxONnhXWXhIUnFDcS1FMm81eXZIRUNxWF80azAwVURXb1NZQVQtRmFyQ0RnZEZDRXlZcGRTQlpVOU4zeFVybzY4akJiRFhua1hKUVVNcWljbklBdTBpak9SOTNsN25KcmQyLXBGMmhsaG5rRHAtSXlHVGpMQmRXZW9BLVZqUDNQZDN5dFRXbV9DTkp1UDJXUi1rT2RwcWZCeEEtV2E3Q01aX19pZnlTM1dTVjNpS2lyV3l1WTk4NG5xZkRiSmtoN19PdkpJM1hZZkJIU0lEVtIB1AFBVV95cUxNdUh0dXo3MVI4YzllZGlPYl9BdnNIWC1qTnR5SzBrVzF3Qjd3SVhMbWg5dW9XV1NPS2FXV1YwZzZLdHVNZFRTUm1Iek5fWlpKM21CZ3VSdE01M1hUOEs3Sl9CUGVuWUdOeTY1S3JPQkVfSzhjVzI2X0R5TnZNNWZ3YXZjaHY0SjhKTWl5SFA0ajRfVGhsVnNGSG92c0xRRGZvTEVFMEZWYl95SlZxZ1BFZWJOUDRQR3JKNEpXWGhzMVNyR2FKNjl0RFhraGo1WGdORjdYSA?oc=5</guid>
 <pubDate>Fri, 02 Oct 2026 02:00:18 GMT</pubDate>
 
+</item>
+<item>
+<title>[News] Chatham scales its capital markets expertise with OpenAI</title>
+<link>https://openai.com/index/chatham-financial</link>
+<guid isPermaLink="false">https://openai.com/index/chatham-financial</guid>
+<pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+<description>Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.</description>
+</item>
+<item>
+<title>[News] Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap</title>
+<link>https://www.anthropic.com/news/claude-frontier-academy</link>
+<guid isPermaLink="false">https://www.anthropic.com/news/claude-frontier-academy</guid>
+<pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+<description>Claude Frontier Academy trains Frontier Deployed Engineers to the standard of Anthropic’s own — a $100 million commitment to train 10,000 by the end of 2027.</description>
 </item>
 <item>
 <title>[Blog] How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast</title>
@@ -144,13 +221,6 @@
 <link>https://news.google.com/rss/articles/CBMirAJBVV95cUxPUHVfQzdlaGVSOWM2VERQTEYxTEJVTUFlWFptNXVoN21UZHN4R2NnTG9JVU5tX1BDcldzZ3pUS3hnUHN1T3lzVjFRSkVVRGczMnNQczFLN2kyV0dNUXp2TmxnMlFfUDhZdHd4Wm5ieHk5cWw0VjBURUhVY1RrQ1loM2pnWFpUdlJ4V0pXSmFZUXlDWDdLZFhrNU1aU1RjNWY3NUZJdzU5NllZVDJySDhCZ0ExZXFzcVFNV2plMGxKd0NsUzFrVTZwc2d3dVhzTjdoaG11MWx0NnVUb1UxY2NmWVdxdFowUDYwRy1nRlhuR2RVNzFMREstWkZxZThwRUlMeXpkQkNYbmhwYkpiSWNiTVNhZ0lPNmNabDBFaEdSZEVUaFBzWHhFd1MzMzTSAbICQVVfeXFMUHhxU3hKTWZEZU5ueDVpaXBncUVBQ1BmU3ppZzNkdl9iWG5ILXp3QVZfeWp3S3ZrZDdueXVfdzlQdU9INS1fdEhTZWd4WFVHZXFrSXF4OTR1azhVY0ZqcGR2dEdJT2cwUWplUXRaYW5jUUdlU0pjaXpiaXJGQTU2X0dOMUphYS1ST1hodnU5d2hKUWl6M1lDcFo4a3dGWmZ0bVJwQmpGNkhTRnhYOFVxbnBWZFdVazVocUVfT1RMUHl0RnhBam92ZDc3T3dvMFhFMThWS1NjazlROWZ3alVrSE5SNkthOXktRU1oRXNfNlNCNUVBd01zSklTRFNvU0RiZl9pMmpsajZOS2N4dXpDdmNQMXVlSlRRMkt3NVFJWlBXTlR4bXlXX1BSY1ZIOTFuRTBR?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAJBVV95cUxPUHVfQzdlaGVSOWM2VERQTEYxTEJVTUFlWFptNXVoN21UZHN4R2NnTG9JVU5tX1BDcldzZ3pUS3hnUHN1T3lzVjFRSkVVRGczMnNQczFLN2kyV0dNUXp2TmxnMlFfUDhZdHd4Wm5ieHk5cWw0VjBURUhVY1RrQ1loM2pnWFpUdlJ4V0pXSmFZUXlDWDdLZFhrNU1aU1RjNWY3NUZJdzU5NllZVDJySDhCZ0ExZXFzcVFNV2plMGxKd0NsUzFrVTZwc2d3dVhzTjdoaG11MWx0NnVUb1UxY2NmWVdxdFowUDYwRy1nRlhuR2RVNzFMREstWkZxZThwRUlMeXpkQkNYbmhwYkpiSWNiTVNhZ0lPNmNabDBFaEdSZEVUaFBzWHhFd1MzMzTSAbICQVVfeXFMUHhxU3hKTWZEZU5ueDVpaXBncUVBQ1BmU3ppZzNkdl9iWG5ILXp3QVZfeWp3S3ZrZDdueXVfdzlQdU9INS1fdEhTZWd4WFVHZXFrSXF4OTR1azhVY0ZqcGR2dEdJT2cwUWplUXRaYW5jUUdlU0pjaXpiaXJGQTU2X0dOMUphYS1ST1hodnU5d2hKUWl6M1lDcFo4a3dGWmZ0bVJwQmpGNkhTRnhYOFVxbnBWZFdVazVocUVfT1RMUHl0RnhBam92ZDc3T3dvMFhFMThWS1NjazlROWZ3alVrSE5SNkthOXktRU1oRXNfNlNCNUVBd01zSklTRFNvU0RiZl9pMmpsajZOS2N4dXpDdmNQMXVlSlRRMkt3NVFJWlBXTlR4bXlXX1BSY1ZIOTFuRTBR?oc=5</guid>
 <pubDate>Thu, 01 Oct 2026 15:42:01 GMT</pubDate>
-
-</item>
-<item>
-<title>[Blog] Introducing Olmo-core 3: Open, scalable training infrastructure for large MoEs</title>
-<link>https://huggingface.co/blog/allenai/olmocore3</link>
-<guid isPermaLink="false">https://huggingface.co/blog/allenai/olmocore3</guid>
-<pubDate>Thu, 01 Oct 2026 15:01:43 GMT</pubDate>
 
 </item>
 <item>
@@ -355,76 +425,6 @@
 <guid isPermaLink="false">https://www.youtube.com/shorts/UPmU8AG_548</guid>
 <pubDate>Wed, 30 Sep 2026 19:30:29 GMT</pubDate>
 <description>Exclusive GTC Berlin merch will be available at the onsite Gear Store, only for registered attendees. Join us: https://nvda.ws/46YomSK</description>
-</item>
-<item>
-<title>[Developer] Expanding AI Storage Access with NVIDIA cuObject and the NVIDIA SCADA Server SDK</title>
-<link>https://developer.nvidia.com/blog/expanding-ai-storage-access-with-nvidia-cuobject-and-the-nvidia-scada-server-sdk/</link>
-<guid isPermaLink="false">https://developer.nvidia.com/blog/expanding-ai-storage-access-with-nvidia-cuobject-and-the-nvidia-scada-server-sdk/</guid>
-<pubDate>Wed, 30 Sep 2026 19:13:02 GMT</pubDate>
-<description>AI infrastructure engineers, storage developers, and cloud service providers need fast and secure access to high-capacity file and object storage to support AI...</description>
-</item>
-<item>
-<title>[YouTube] NVIDIA DOCA Skills vs No Skills: Building RDMA on NVIDIA BlueField-3 with Fewer Commands &amp; Less Code</title>
-<link>https://www.youtube.com/watch?v=vmAIpEHrCok</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=vmAIpEHrCok</guid>
-<pubDate>Wed, 30 Sep 2026 19:09:36 GMT</pubDate>
-<description>This demo is a side-by-side comparison of two AI coding agents tasked with building a Go-based RDMA application using NVIDIA DOCA on a BlueField-3 platform. Both agents are given the same goal: implement a working RDMA data path and verify that bytes successfully arrive on hardware. The key differen</description>
-</item>
-<item>
-<title>[Blog] NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000</title>
-<link>https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/</link>
-<guid isPermaLink="false">https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/</guid>
-<pubDate>Wed, 30 Sep 2026 17:00:21 +0000</pubDate>
-<description>Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to do</description>
-</item>
-<item>
-<title>[Cloud AI] What’s new in AI infrastructure and orchestration in September</title>
-<link>https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/</link>
-<guid isPermaLink="false">https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/</guid>
-<pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
-<description>We hereby declare September to be scalability month! As the world prepares for a surge of agentic fleets, we are shoring up our AI infrastructure and orchestration offerings to gracefully — and quickly — respond to that demand, all while maintaining workload isolation and security, and keeping costs</description>
-</item>
-<item>
-<title>[Cloud AI] Empower your agents with the Google Cloud CLI remote MCP server</title>
-<link>https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/</link>
-<guid isPermaLink="false">https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-cli-remote-mcp-server-in-preview/</guid>
-<pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
-<description>Today, we’re expanding our ecosystem of managed remote MCP servers by introducing the Google Cloud CLI remote MCP server in preview. Powered by the popular gcloud and bq (BigQuery) command-line tools, this new server gives AI agents immediate, broad access to command-line operations for managing Goo</description>
-</item>
-<item>
-<title>[Gemini] Let skills in Gemini tackle your most repetitive tasks</title>
-<link>https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/</link>
-<guid isPermaLink="false">https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/</guid>
-<pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
-<description>Now you can automate your most repetitive tasks more easily with reusable custom instructions through skills, which will be replacing gems.</description>
-</item>
-<item>
-<title>[Research] Forecasting space weather risks on power grids</title>
-<link>https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/</link>
-<guid isPermaLink="false">https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/</guid>
-<pubDate>Wed, 30 Sep 2026 16:00:00 +0000</pubDate>
-<description>Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new machine learning system can predict where damage is likely to occur 30-60 minutes before a storm arrives. The post Forecasting space weather risks on power grids appeared first on </description>
-</item>
-<item>
-<title>[Developer] Tracing Agent Harness Behavior with NVIDIA NeMo Relay</title>
-<link>https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/</link>
-<guid isPermaLink="false">https://developer.nvidia.com/blog/tracing-agent-harness-behavior-with-nvidia-nemo-relay/</guid>
-<pubDate>Wed, 30 Sep 2026 16:00:00 GMT</pubDate>
-<description>An agent can finish a task and still take an inefficient path. A failed search can trigger another search. A truncated file read can lead to a command fetching...</description>
-</item>
-<item>
-<title>[DeepMind] Introducing SynthID Bio</title>
-<link>https://deepmind.google/blog/introducing-synthid-bio/</link>
-<guid isPermaLink="false">https://deepmind.google/blog/introducing-synthid-bio/</guid>
-<pubDate>Wed, 30 Sep 2026 15:03:07 +0000</pubDate>
-<description>Proof of concept for watermarking AI-generated proteins while preserving biological function.</description>
-</item>
-<item>
-<title>[Blog] From Training to Production, NVIDIA and CoreWeave Close the Loop on Agentic AI</title>
-<link>https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/</link>
-<guid isPermaLink="false">https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/</guid>
-<pubDate>Wed, 30 Sep 2026 15:00:00 +0000</pubDate>
-<description>Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to prod</description>
 </item>
 </channel>
 </rss>
