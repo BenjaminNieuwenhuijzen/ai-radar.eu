@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-3-5-sonnet-2024-10",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-3-5-sonnet-2024-10",
+  "name": "Claude 3.5 Sonnet (New)",
+  "aliases": [
+    {
+      "text": "claude-3-5-sonnet-20241022",
+      "match": "auto"
+    },
+    {
+      "text": "Claude 3.5 Sonnet (New)",
+      "match": "auto"
+    },
+    {
+      "text": "upgraded Claude 3.5 Sonnet",
+      "match": "auto"
+    },
+    {
+      "text": "new Claude 3.5 Sonnet",
+      "match": "candidate"
+    },
+    {
+      "text": "Claude 3.5 Sonnet",
+      "match": "candidate"
+    },
+    {
+      "text": "Claude Sonnet 3.5",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-sonnet",
+  "generation": "3.5",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Deprecation history, 2025-08-13"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-10-22",
+      "sources": [
+        {
+          "id": "src.anthropic.3-5-models-and-computer-use-announcement",
+          "locator": "first paragraphs"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "October 22nd, 2024"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-08-13",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Deprecation history, 2025-08-13"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "August 13, 2025"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-10-28",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Deprecation history, 2025-08-13"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "October 28, 2025"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "anthropic.claude-3-5-sonnet",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.3-5-models-and-computer-use-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.anthropic.claude-3-5-october-model-card-addendum",
+          "locator": "Introduction"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "The October 2024 revision of Claude 3.5 Sonnet is an upgraded version of that Anthropic language model for text and image input, released under the same name but with its own API id, claude-3-5-sonnet-20241022. It introduced computer use as a public beta on the Anthropic API, Amazon Bedrock and Google Cloud Vertex AI, and Anthropic says it kept the price and speed of the June 2024 model.",
+    "sources": [
+      {
+        "id": "src.anthropic.3-5-models-and-computer-use-announcement"
+      },
+      {
+        "id": "src.anthropic.model-deprecations"
+      },
+      {
+        "id": "src.anthropic.api-release-notes"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "computer-use",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "anthropic.claude-3-5-sonnet",
+      "text": "Adds computer use in public beta: the model works with a computer by looking at a screen, moving a cursor, clicking and typing. Anthropic called the feature experimental.",
+      "sources": [
+        {
+          "id": "src.anthropic.3-5-models-and-computer-use-announcement"
+        },
+        {
+          "id": "src.anthropic.api-release-notes"
+        }
+      ]
+    },
+    {
+      "id": "improvements",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-3-5-sonnet",
+      "text": "Anthropic reports improvements across the board, especially in agentic coding and tool use, at the same price and speed as the June 2024 model.",
+      "sources": [
+        {
+          "id": "src.anthropic.3-5-models-and-computer-use-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-5-october-model-card-addendum",
+          "locator": "Introduction; vision evaluations"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.anthropic.3-5-models-and-computer-use-announcement",
+            "locator": "second paragraph"
+          },
+          {
+            "id": "src.anthropic.api-release-notes",
+            "locator": "October 22nd, 2024"
+          }
+        ],
+        "note": "Public beta at release."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.3-5-models-and-computer-use-announcement",
+          "locator": "fourth paragraph"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "October 22nd, 2024"
+        }
+      ]
+    }
+  },
+  "notes": "Released under the unchanged name Claude 3.5 Sonnet; the parenthetical in name is an editorial disambiguation (Anthropic says upgraded or new Claude 3.5 Sonnet; the October addendum tables use Claude 3.5 Sonnet (New)). Context window not restated in the live October sources, so left out. The announcement says the model is available for all users; claude.ai access is not spelled out, so consumer-app is left out. Dates apply to Anthropic-operated platforms (deprecations page)."
+}

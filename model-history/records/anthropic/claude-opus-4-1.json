@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-opus-4-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-opus-4-1",
+  "name": "Claude Opus 4.1",
+  "aliases": [
+    {
+      "text": "Claude Opus 4.1",
+      "match": "auto"
+    },
+    {
+      "text": "claude-opus-4-1-20250805",
+      "match": "auto"
+    },
+    {
+      "text": "Opus 4.1",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-opus",
+  "generation": "4.1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "anthropic.claude-opus-4-8",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "2026-06-05: Claude Opus 4.1 model"
+      }
+    ],
+    "note": "Recommended replacement as listed on the deprecations page when checked on 2026-10-01. The release notes entry of 2026-08-05 recommends Claude Opus 5 instead."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-08-05",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-1-announcement"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "August 5, 2025"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-06-05",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2026-06-05: Claude Opus 4.1 model"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "June 5, 2026"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-08-05",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2026-06-05: Claude Opus 4.1 model"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "August 5, 2026"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-opus-4",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-1-announcement"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "August 5, 2025"
+        },
+        {
+          "id": "src.anthropic.claude-opus-4-1-system-card",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Opus 4.1 is a language model in Anthropic's Opus line, offered to paid Claude users, in Claude Code, on the Anthropic API, Amazon Bedrock and Google Cloud Vertex AI at the same price as Claude Opus 4. Anthropic calls it an incremental update to Opus 4 and deployed it under the same ASL-3 Standard.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-opus-4-1-announcement"
+      },
+      {
+        "id": "src.anthropic.api-release-notes",
+        "locator": "August 5, 2025"
+      },
+      {
+        "id": "src.anthropic.claude-opus-4-1-system-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "stated-upgrade",
+      "aspect": "other",
+      "relativeTo": "anthropic.claude-opus-4",
+      "text": "Anthropic describes it as an upgrade on agentic tasks, real-world coding and reasoning; the release notes call it an incremental update.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-1-announcement"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "August 5, 2025"
+        }
+      ]
+    },
+    {
+      "id": "sampling-parameters",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-opus-4",
+      "text": "Does not accept the temperature and top_p parameters in the same request; only one of the two may be set.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "August 5, 2025"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.anthropic.claude-opus-4-1-system-card",
+            "locator": "section 2.1"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-1-announcement"
+        }
+      ]
+    }
+  },
+  "notes": "No primary source found that states the input modalities or context window of Claude Opus 4.1 itself; the Transparency Hub refers to the Claude Opus 4 model report instead. For that reason multimodal and inputModalities are left out."
+}

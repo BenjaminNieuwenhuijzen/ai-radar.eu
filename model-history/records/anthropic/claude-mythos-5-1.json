@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-mythos-5-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-mythos-5-1",
+  "name": "Claude Mythos 5.1",
+  "aliases": [
+    {
+      "text": "Claude Mythos 5.1",
+      "match": "auto"
+    },
+    {
+      "text": "Mythos 5.1",
+      "match": "auto"
+    },
+    {
+      "text": "claude-mythos-5-1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-mythos",
+  "generation": "5.1",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status table"
+      },
+      {
+        "id": "src.anthropic.claude-mythos-5-1-docs",
+        "locator": "Availability: Status"
+      }
+    ],
+    "note": "Invitation only, through Project Glasswing and Anthropic's trusted access programs."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-09-01",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-1-docs",
+          "locator": "Availability: Released"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "September 1, 2026"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-mythos-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-1-mythos-5-1-announcement",
+          "locator": "Safety, security, and alignment"
+        },
+        {
+          "id": "src.anthropic.claude-mythos-5-docs"
+        }
+      ]
+    },
+    {
+      "type": "variant-of",
+      "target": "anthropic.claude-fable-5-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-1-mythos-5-1-announcement",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.anthropic.claude-mythos-5-1-docs"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Mythos 5.1 is a language model in Anthropic's Claude Mythos line and the successor to Claude Mythos 5, released on 1 September 2026 for Project Glasswing participants alongside Claude Fable 5.1. Anthropic says it is identical to Fable 5.1 but has more permissive safeguards for vetted organisations and individuals in cybersecurity and the life sciences. Access is by invitation only.",
+    "sources": [
+      {
+        "id": "src.anthropic.api-release-notes",
+        "locator": "September 1, 2026"
+      },
+      {
+        "id": "src.anthropic.claude-fable-5-1-mythos-5-1-announcement"
+      },
+      {
+        "id": "src.anthropic.claude-mythos-5-1-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "trusted-access",
+      "aspect": "availability",
+      "direction": "changed",
+      "text": "Offered through Project Glasswing and the Life Sciences Verification Program, at launch only to a set of US organizations; Anthropic plans to add it to its Cyber Verification Program.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-1-mythos-5-1-announcement"
+        }
+      ]
+    },
+    {
+      "id": "cache-price-watermark",
+      "aspect": "other",
+      "direction": "changed",
+      "text": "Cache reads cost 0.25 USD per million tokens, and generated text carries Anthropic's text watermark.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "September 1, 2026"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "aspect": "safety",
+      "direction": "changed",
+      "text": "Anthropic reports lower rates of reward hacking and of reaching for resources outside its test environment than Mythos 5.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-1-mythos-5-1-announcement",
+          "locator": "Safety, security, and alignment"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-1-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-1-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-1-docs",
+          "locator": "Capabilities: Context window"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-1-docs",
+          "locator": "Availability: Platforms"
+        }
+      ],
+      "note": "Invitation only, through Project Glasswing and Anthropic's trusted access programs."
+    }
+  }
+}

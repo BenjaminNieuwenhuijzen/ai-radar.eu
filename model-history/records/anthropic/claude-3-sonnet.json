@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-3-sonnet",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-3-sonnet",
+  "name": "Claude 3 Sonnet",
+  "aliases": [
+    {
+      "text": "Claude 3 Sonnet",
+      "match": "auto"
+    },
+    {
+      "text": "claude-3-sonnet-20240229",
+      "match": "auto"
+    },
+    {
+      "text": "Claude Sonnet 3",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-sonnet",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Deprecation history, 2025-01-21"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-03-04",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement",
+          "locator": "Model availability"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-01-21",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Deprecation history, 2025-01-21"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "January 21st, 2025"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-07-21",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Deprecation history, 2025-01-21"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "July 21, 2025"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-2-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement",
+          "locator": "title; Near-instant results"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Claude 3 Sonnet is the middle model of Anthropic's Claude 3 family: a language model that accepts text and images, responds in text and, according to Anthropic, balances intelligence and speed for enterprise workloads. At launch it powered the free tier of claude.ai and was offered through the Claude API and Amazon Bedrock, with a private preview on Google Cloud Vertex AI.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-3-family-announcement"
+      },
+      {
+        "id": "src.anthropic.claude-3-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "text": "Adds image input next to text, which the Claude 3 model card names as a key enhancement of the family; output remains text.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-model-card"
+        }
+      ]
+    },
+    {
+      "id": "speed",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "text": "Anthropic says it is about twice as fast as Claude 2 and Claude 2.1 for most workloads.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement"
+        }
+      ]
+    },
+    {
+      "id": "fewer-refusals",
+      "aspect": "safety",
+      "direction": "changed",
+      "text": "Anthropic says the Claude 3 models refuse borderline but harmless prompts less often than earlier Claude models.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "text": "Knowledge cutoff of August 2023, according to the Claude 3 model card.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-model-card",
+          "locator": "Abstract; 1 Introduction"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-model-card",
+          "locator": "1 Introduction"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement",
+          "locator": "Model availability"
+        }
+      ]
+    }
+  },
+  "notes": "Access as stated at launch: Claude API, the free claude.ai experience, Amazon Bedrock, and a private preview on Google Cloud Vertex AI. The 20240229 in the API id is a snapshot date, not the release date. Deprecation and retirement dates apply to Anthropic-operated platforms (deprecations page)."
+}

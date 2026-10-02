@@ -206,7 +206,7 @@ export function compile(ds, { registry = null } = {}) {
 
   const site = { ds, idx, graph, registry, warnings, models, modelById, explorer, orgs, orgById, redirects, inRel, promotedTo,
     famById: idx.famById, org, orgName, topOrg: idx.topOrg, unitsOf: idx.unitsOf, style, source, chrono, sortIds, asOf };
-  for (const o of orgs) { o.graph = orgGraph(site, o); o.embed = embedOf(o.graph); }
+  for (const o of orgs) o.graph = orgGraph(site, o);
   return site;
 }
 
@@ -263,10 +263,8 @@ function orgGraph(site, o) {
   const externalNodes = Object.fromEntries([...ext].filter(id => site.modelById.has(id)).sort().map(id => [id, nodeOf(site.modelById.get(id))]));
   return { edges, externalNodes };
 }
-// Compact graph for the company page (#mh-graph, for a later graphical lineage, §31/§34 C11):
-// edges as [from, type, to, method, basis]; own models are in the page (data-mh-model +
-// link), other models in externalNodes. The full data is in models/<org>/index.json.
-const embedOf = g => ({ edges: g.edges.map(e => [e.from, e.type, e.to, e.method, e.basis]), externalNodes: g.externalNodes });
+// The organisation graph (edges and externalNodes) is published in models/<org>/index.json;
+// the company page no longer embeds a copy (no script read it, and §32 caps the page).
 const strip = (obj, keys) => Object.fromEntries(Object.entries(obj).filter(([k]) => !keys.includes(k)));
 const newsOut = (n, withModels) => ({ postId: n.postId, variantId: n.variantId, link: n.link, title: n.title, publishedAt: n.publishedAt,
   dateOnly: n.dateOnly, company: n.company, source: n.source, ...(withModels ? { models: n.models } : {}) });

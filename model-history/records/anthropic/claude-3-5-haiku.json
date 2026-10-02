@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-3-5-haiku",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-3-5-haiku",
+  "name": "Claude 3.5 Haiku",
+  "aliases": [
+    {
+      "text": "Claude 3.5 Haiku",
+      "match": "auto"
+    },
+    {
+      "text": "claude-3-5-haiku-20241022",
+      "match": "auto"
+    },
+    {
+      "text": "Claude Haiku 3.5",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-haiku",
+  "generation": "3.5",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status; Deprecation history, 2025-12-19"
+      },
+      {
+        "id": "src.anthropic.api-release-notes",
+        "locator": "February 19, 2026"
+      }
+    ],
+    "note": "Retired on the Claude API. The release notes say it remained available on Amazon Bedrock and Google Cloud."
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-10-22",
+      "sources": [
+        {
+          "id": "src.anthropic.3-5-models-and-computer-use-announcement",
+          "locator": "first paragraph; Claude 3.5 Haiku section"
+        }
+      ]
+    },
+    "released": {
+      "value": "2024-11-04",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "November 4th, 2024"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-12-19",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Deprecation history, 2025-12-19"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "December 19, 2025"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-02-19",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Deprecation history, 2025-12-19"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "February 19, 2026"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-3-haiku",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.3-5-models-and-computer-use-announcement",
+          "locator": "Claude 3.5 Haiku section"
+        },
+        {
+          "id": "src.anthropic.claude-3-5-october-model-card-addendum",
+          "locator": "Introduction"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Claude 3.5 Haiku is a language model from Anthropic, presented as the next generation of its Haiku model at a speed similar to Claude 3 Haiku. It became available on the Claude API on 2024-11-04 as a text-only model, with image input added on 2025-02-24, and Anthropic also announced it for Amazon Bedrock and Google Cloud Vertex AI.",
+    "sources": [
+      {
+        "id": "src.anthropic.3-5-models-and-computer-use-announcement"
+      },
+      {
+        "id": "src.anthropic.api-release-notes"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "changed",
+      "text": "Released for text input only, unlike Claude 3 Haiku, which accepted images; image input was added on 2025-02-24.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes"
+        },
+        {
+          "id": "src.anthropic.claude-3-model-card"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "direction": "changed",
+      "text": "Knowledge cutoff moved to July 2024, from August 2023 for Claude 3 Haiku.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-5-october-model-card-addendum"
+        },
+        {
+          "id": "src.anthropic.claude-3-model-card"
+        }
+      ]
+    },
+    {
+      "id": "focus",
+      "aspect": "other",
+      "direction": "changed",
+      "text": "Anthropic highlights coding, improved instruction following and more accurate tool use, at a speed similar to Claude 3 Haiku.",
+      "sources": [
+        {
+          "id": "src.anthropic.3-5-models-and-computer-use-announcement"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "aspect": "other",
+      "direction": "changed",
+      "text": "Revised list price (update of 2024-12-03) of 0.80 USD per million input tokens and 4 USD per million output tokens, against 0.25 USD and 1.25 USD for Claude 3 Haiku.",
+      "sources": [
+        {
+          "id": "src.anthropic.3-5-models-and-computer-use-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-3-family-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "November 4th, 2024; February 24th, 2025"
+        }
+      ],
+      "note": "Text-only at release; image input added on 2025-02-24."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.3-5-models-and-computer-use-announcement",
+          "locator": "Claude 3.5 Haiku section"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "November 4th, 2024; February 19, 2026"
+        }
+      ]
+    }
+  },
+  "notes": "Announced 2024-10-22 for release later that month; the release notes date API availability to 2024-11-04, as a text-only model. Vision support was added on 2025-02-24 (release notes), which is why multimodal is set. Context window not stated in the live primary sources, so left out. The announcement page carries a 12/03/2024 update revising the price."
+}

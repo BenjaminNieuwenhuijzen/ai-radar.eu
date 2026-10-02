@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-mythos-preview",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-mythos-preview",
+  "name": "Claude Mythos Preview",
+  "aliases": [
+    {
+      "text": "Claude Mythos Preview",
+      "match": "candidate"
+    },
+    {
+      "text": "Mythos Preview",
+      "match": "candidate"
+    },
+    {
+      "text": "claude-mythos-preview",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-mythos",
+  "generation": null,
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status table"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "anthropic.claude-mythos-5",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-fable-5-migration-guide",
+        "locator": "Migrating from Claude Mythos Preview"
+      },
+      {
+        "id": "src.anthropic.claude-fable-5-mythos-5-announcement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": {
+      "value": "2026-04-07",
+      "sources": [
+        {
+          "id": "src.anthropic.project-glasswing",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "April 7, 2026"
+        }
+      ]
+    },
+    "released": {
+      "value": "2026-04-07",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "April 7, 2026"
+        }
+      ],
+      "note": "Made available on this date as an invitation-only gated research preview for Project Glasswing participants, not as a general release."
+    },
+    "deprecated": {
+      "value": "2026-06-09",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Model status table"
+        }
+      ]
+    },
+    "retired": null
+  },
+  "summary": {
+    "text": "Claude Mythos Preview is a general-purpose model that Anthropic announced on 7 April 2026 with Project Glasswing, a defensive cybersecurity initiative. It was offered as an invitation-only research preview for Glasswing participants through the Claude API and major cloud platforms; Anthropic said it did not plan general availability and later called it the first Mythos-class model.",
+    "sources": [
+      {
+        "id": "src.anthropic.project-glasswing"
+      },
+      {
+        "id": "src.anthropic.api-release-notes",
+        "locator": "April 7, 2026"
+      },
+      {
+        "id": "src.anthropic.claude-fable-5-mythos-5-announcement"
+      }
+    ]
+  },
+  "capabilities": {
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.project-glasswing",
+          "locator": "pricing and access paragraph"
+        }
+      ],
+      "note": "Invitation only, for Project Glasswing participants."
+    }
+  },
+  "notes": "Anthropic stated it did not plan to make this model generally available. The deprecations page lists its retirement date as to be announced. No per-model docs page exists; input modalities and context window are not recorded."
+}

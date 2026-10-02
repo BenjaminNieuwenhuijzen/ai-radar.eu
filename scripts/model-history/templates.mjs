@@ -399,7 +399,7 @@ function chronoItem(site, ctx, org, i) {
 <div class="mh-chrono-body">
 <span class="mh-kicker">${meta}</span>
 <a class="mh-chrono-name" href="${esc(i.url)}">${esc(m.name)}</a>
-${sum ? `<p class="mh-chrono-sum">${esc(sum.claim.text || "")}</p>` : ""}${changes.length ? `\n<ul class="mh-changes-mini">${changes.join("")}</ul>` : ""}
+${sum ? `<p class="mh-chrono-sum">${esc(clip(sum.claim.text || "", 200))}</p>` : ""}${changes.length ? `\n<ul class="mh-changes-mini">${changes.join("")}</ul>` : ""}
 </div>
 <div class="mh-chrono-side">
 <span class="mh-pill">${evShort(i.ev.evidence)}</span>
@@ -436,7 +436,9 @@ function lineageLists(site, i, fromOrg) {
     ["siblings", "Siblings", [...site.sortIds(i.g.siblings).map(id => `<li>${modelLink(site, id, fromOrg)}</li>`), ...inlineSiblings(site, i)]]
   ].filter(g => g[2].length);
   if (!groups.length) return `<p class="mh-none">No recorded relations.</p>`;
-  return `<div class="mh-lineage-grid mh-lineage-compact">\n${groups.map(([k, t, items]) => `<div class="mh-lineage-group"><h4 class="mh-legend">${t}</h4>\n${ul(items, ` class="mh-rel" data-mh-lineage="${k}"`)}</div>`).join("\n")}\n</div>`;
+  // One compact line per group (a company page lists every model; §32 keeps it under 150 KB).
+  const inline = items => items.map(x => x.replace(/^<li>|<\/li>$/g, "")).join("; ");
+  return `<dl class="mh-lineage-lines">\n${groups.map(([k, t, items]) => `<div><dt>${t}</dt><dd data-mh-lineage="${k}">${inline(items)}</dd></div>`).join("\n")}\n</dl>`;
 }
 function evidenceOverview(site, org) {
   const rows = Object.keys(EVIDENCE_LABEL).map(e => [e, org.routed.filter(i => i.ev.evidence === e).length]);
@@ -501,15 +503,16 @@ ${famChips.map(f => `<button type="button" data-family="${esc(f.id)}" aria-press
     placed.add(f.id);
     const kids = org.families.filter(x => x.parentId === f.id && !placed.has(x.id));
     kids.forEach(x => placed.add(x.id));
-    const ms = site.chrono(org.routed.filter(i => i.m.familyId === f.id)).map(i => `<li><a href="${esc(i.url)}">${esc(i.m.name)}</a> <span class="mh-muted">${timelineHtml(i.td)}</span></li>`);
-    return `<li id="family-${esc(f.id)}" class="mh-family">\n<h3>${esc(f.name)}</h3>\n${ms.length ? `<ol class="mh-mini-list">\n${ms.join("\n")}\n</ol>` : `<p class="mh-none">No models listed yet.</p>`}${kids.length ? `\n${ul(kids.map(famItem), ' class="mh-families"')}` : ""}\n</li>`;
+    // The chronology above has the dates; here one line of links per family, oldest first.
+    const ms = site.chrono(org.routed.filter(i => i.m.familyId === f.id)).map(i => `<a href="${esc(i.url)}">${esc(i.m.name)}</a>`);
+    return `<li id="family-${esc(f.id)}" class="mh-family">\n<h3>${esc(f.name)}</h3>\n${ms.length ? `<p class="mh-family-models">${ms.join(" · ")}</p>` : `<p class="mh-none">No models listed yet.</p>`}${kids.length ? `\n${ul(kids.map(famItem), ' class="mh-families"')}` : ""}\n</li>`;
   };
   const roots = org.families.filter(f => !f.parentId || !famIds.has(f.parentId));
   const loose = site.chrono(org.routed.filter(i => !i.m.familyId || !famIds.has(i.m.familyId)));
   const famHtml = [roots.length ? ul(roots.map(famItem), ' class="mh-families"') : "",
     loose.length ? `<h3>Not in a family</h3>\n${ul(loose.map(i => `<li><a href="${esc(i.url)}">${esc(i.m.name)}</a></li>`), ' class="mh-mini-list"')}` : ""].filter(Boolean).join("\n") || `<p class="mh-none">No families recorded.</p>`;
 
-  const lineage = all.length ? `<ol class="mh-lineage-models">\n${all.map(i => `<li id="lineage-${esc(i.id)}">\n<a class="mh-lineage-name" href="${esc(i.url)}">${esc(i.m.name)}</a>\n${lineageLists(site, i, o.id)}\n</li>`).join("\n")}\n</ol>` : `<p class="mh-none">No models recorded yet.</p>`;
+  const lineage = all.length ? `<ol class="mh-lineage-models">\n${all.map(i => `<li id="lineage-${esc(i.id)}">\n<a href="${esc(i.url)}">${esc(i.m.name)}</a>\n${lineageLists(site, i, o.id)}\n</li>`).join("\n")}\n</ol>` : `<p class="mh-none">No models recorded yet.</p>`;
 
   const news = org.news.slice(0, 10);
   const newsHtml = (news.length ? ul(news.map(n => newsRow(site, n, o.id, true)), ' class="mh-news-side"') : `<p class="mh-empty-text">${esc(EMPTY_COVERAGE)}</p>`) + dashboardLink(site, o.id);
@@ -555,7 +558,6 @@ ${ctx.cites.size ? `<section id="sources">\n${h2("Sources")}\n${sourceList(site,
 ${newsHtml}
 </aside>
 </div>
-<script type="application/json" id="mh-graph">${jsonScript(org.embed)}</script>
 </main>`;
   const description = o.description && o.description.text ? clip(o.description.text) : clip(`Models released by ${o.name}, with release dates, lineage and sources, in AI Radar Model History.`);
   return page({ path: org.url, title: `${o.name} models · Model History · AI Radar`, description, indexable: org.indexable, main,
@@ -855,7 +857,9 @@ export function timelinePage(site, i) {
 <span class="mh-tl-list-kind">${esc(e.kind)}</span>
 <span class="mh-tl-list-label">${e.href ? `<a href="${esc(e.href)}">${esc(e.label)}</a>` : esc(e.label)}${e.note ? ` <span class="mh-muted">· ${esc(e.note)}</span>` : ""}</span>
 </li>`);
-  const picker = site.chrono(site.models).map(x => `<option value="${esc(timelineUrl(x))}"${x === i ? " selected" : ""}>${esc(x.m.name)} · ${esc(site.orgName(x.org))}</option>`);
+  // The picker offers the models of the same organisation (all models would cost ~90 bytes
+  // each on every timeline page; §32 caps a page at 60 KB). Other organisations: via the Explorer.
+  const picker = site.chrono(site.models.filter(x => x.org === i.org)).map(x => `<option value="${esc(timelineUrl(x))}"${x === i ? " selected" : ""}>${esc(x.m.name)}</option>`);
   const sub = [lifeText(m), catsText(m), m.prominence === "milestone" ? "Milestone" : null].filter(Boolean).map(esc).join(" · ");
   const main = `<main id="main"${coAttrs(site, i.org, "mh mh-timeline")} data-mh-view="timeline" data-mh-model="${esc(m.id)}">
 <div class="mh-page-head mh-tl-head container">

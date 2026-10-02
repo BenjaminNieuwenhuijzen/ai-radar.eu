@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-fable-5-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-fable-5-1",
+  "name": "Claude Fable 5.1",
+  "aliases": [
+    {
+      "text": "Claude Fable 5.1",
+      "match": "auto"
+    },
+    {
+      "text": "Fable 5.1",
+      "match": "auto"
+    },
+    {
+      "text": "claude-fable-5-1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-fable",
+  "generation": "5.1",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.anthropic.models-overview",
+        "locator": "Compare models table"
+      },
+      {
+        "id": "src.anthropic.claude-fable-5-1-docs",
+        "locator": "Availability"
+      },
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status table"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-09-01",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-1-docs",
+          "locator": "Availability: Released"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "September 1, 2026"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-fable-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "September 1, 2026"
+        },
+        {
+          "id": "src.anthropic.claude-fable-5-1-mythos-5-1-announcement",
+          "locator": "A new performance frontier"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Fable 5.1 is a language model in Anthropic's Claude Fable line and the successor to Claude Fable 5, released on 1 September 2026 on the Claude apps, the Claude API and major cloud platforms. Anthropic says it is the same model as Claude Mythos 5.1 with different safeguards; token prices match Fable 5, cache reads cost less, and its text carries Anthropic's watermark.",
+    "sources": [
+      {
+        "id": "src.anthropic.api-release-notes",
+        "locator": "September 1, 2026"
+      },
+      {
+        "id": "src.anthropic.claude-fable-5-1-mythos-5-1-announcement",
+        "locator": "Introduction; Cost and availability"
+      },
+      {
+        "id": "src.anthropic.claude-fable-5-1-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "cache-price",
+      "aspect": "other",
+      "direction": "changed",
+      "text": "Cache reads cost 0.25 USD per million tokens, 0.025 times the input price instead of 0.1 times; input and output prices are unchanged.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "September 1, 2026"
+        }
+      ]
+    },
+    {
+      "id": "cyber-safeguards",
+      "aspect": "safety",
+      "direction": "changed",
+      "text": "Revised cyber safeguards allow vulnerability discovery; penetration testing, exploit generation and binary-based vulnerability scanning are still redirected to Anthropic's Opus models.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-1-mythos-5-1-announcement"
+        }
+      ]
+    },
+    {
+      "id": "forced-tool-choice",
+      "aspect": "tool-use",
+      "direction": "removed",
+      "text": "Forced tool choice (tool_choice types any and tool) returns an error; auto and none still work.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "September 1, 2026"
+        }
+      ]
+    },
+    {
+      "id": "text-watermark",
+      "aspect": "other",
+      "direction": "added",
+      "text": "Generated text carries Anthropic's text watermark.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "September 1, 2026"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-1-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-1-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-1-docs",
+          "locator": "Capabilities: Context window"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-1-mythos-5-1-announcement",
+          "locator": "A new performance frontier"
+        },
+        {
+          "id": "src.anthropic.claude-fable-5-1-docs",
+          "locator": "Availability: Platforms"
+        }
+      ]
+    }
+  },
+  "notes": "The announcement page is dated September 2026 without a day; the day comes from the release notes and the model page."
+}

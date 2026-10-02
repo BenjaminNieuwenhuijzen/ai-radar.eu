@@ -10,6 +10,7 @@ import { tmpdir } from "node:os";
 import { join, dirname, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
+import { performance } from "node:perf_hooks";
 import { loadDataset, loadRegistry } from "../lib.mjs";
 import { buildIndex, deriveGraph } from "../derive.mjs";
 import { run, compile, indexJson, finalize, syncInPlace, writeFileAtomic, displayNews, parseArgs, buildTime, renderSite, sitemapXml } from "../build.mjs";
@@ -323,7 +324,7 @@ test("variant capabilities and lifecycle show their sources and are marked as no
 
 test("company page: organisation facts, families, story, evidence overview, graph data", () => {
   const html = page("example-lab/index.html");
-  for (const id of ["organization", "story", "families", "chronology", "lineage", "evidence", "coverage", "sources", "mh-graph", "mh-family-chips", "family-example-lab.orbit", "family-example-lab.orbit-lite"]) assert.ok(idsOf(html).includes(id), id);
+  for (const id of ["organization", "story", "families", "chronology", "lineage", "evidence", "coverage", "sources", "mh-family-chips", "family-example-lab.orbit", "family-example-lab.orbit-lite"]) assert.ok(idsOf(html).includes(id), id);
   assert.match(html, /<main id="main" class="mh mh-company" style="--h:40" data-mh-view="company" data-mh-org="example-lab">/);
   assert.match(html, /<h1 class="mh-title">Example Lab models<\/h1>/);
   assert.match(html, /<p class="mh-lead">Fictional AI lab[^<]*Known as Example Research until September 2021\.<\/p>/);
@@ -346,9 +347,14 @@ test("company page: organisation facts, families, story, evidence overview, grap
   assert.match(incomplete, />Orbit 3<\/a> <span class="mh-muted">Some details lack sources</);
   assert.ok(!incomplete.includes(">Orbit 1<") && !incomplete.includes(">Orbit 2<"));
   assert.match(/<ul class="mh-mini-list" data-mh-list="original-unavailable">([\s\S]*?)<\/ul>/.exec(evs)[1], />Orbit 1<\/a> <span class="mh-muted">Archived primary source</);
-  const g = JSON.parse(/<script type="application\/json" id="mh-graph">([\s\S]*?)<\/script>/.exec(html)[1]);
-  assert.deepEqual(g.edges.find(e => e[2] === "other-lab.nova-7"), ["example-lab.orbit-3-merge", "derived-from", "other-lab.nova-7", "merge", "sourced"]);
+  // The graph is published in models/<org>/index.json only (the page embeds no copy, §32).
+  assert.ok(!html.includes('id="mh-graph"'));
+  const g = JSON.parse(page("example-lab/index.json"));
+  assert.ok(g.models.find(m => m.id === "example-lab.orbit-3-merge").graph.parents.includes("other-lab.nova-7"));
   assert.equal(g.externalNodes["other-lab.nova-7"].name, "Nova 7");
+  // Families: one line of links per family, oldest first; lineage: one line per relation group.
+  assert.match(sectionOf(html, "families"), /<li id="family-example-lab\.orbit-lite" class="mh-family">\n<h3>Orbit Lite<\/h3>\n<p class="mh-family-models"><a href="\/models\/example-lab\/orbit-lite-1\/">Orbit Lite 1<\/a><\/p>/);
+  assert.match(sectionOf(html, "lineage"), /<li id="lineage-example-lab\.orbit-2">\n<a href="\/models\/example-lab\/orbit-2\/">Orbit 2<\/a>\n<dl class="mh-lineage-lines">\n<div><dt>Predecessors<\/dt><dd data-mh-lineage="predecessors"><a href="\/models\/example-lab\/orbit-1\/">Orbit 1<\/a><\/dd><\/div>/);
   const other = page("other-lab/index.html");
   assert.match(other, /data-mh-model="example-lab\.orbit-3-merge"[\s\S]*?Co-developed; listed under <a href="\/models\/example-lab\/">Example Lab<\/a>/);
   assert.match(sectionOf(html, "coverage"), /no coverage linked yet/);
@@ -670,7 +676,7 @@ test("every model has a timeline page: the axis, the same events as a list, tool
   assert.match(n6, /<span class="mh-tl-list-date">Date unknown<\/span>\n<span class="mh-tl-list-kind">Lifecycle<\/span>\n<span class="mh-tl-list-label">Released <span class="mh-muted">· No date in any source<\/span><\/span>\n<\/li>\n<\/ol>/);
   // The picker offers every model, the current one selected, as timeline paths.
   const opts = [...o2.matchAll(/<option value="([^"]+)"( selected)?>/g)];
-  assert.equal(opts.length, ds.models.length);
+  assert.equal(opts.length, ds.models.filter(m => idx.routeOrg(m) === "example-lab").length, "the models of the same organisation");
   assert.deepEqual(opts.filter(o => o[2]).map(o => o[1]), ["/models/example-lab/orbit-2/timeline/"]);
   assert.ok(opts.every(o => /^\/models\/[a-z0-9-]+\/[a-z0-9-]+\/timeline\/$/.test(o[1])));
   // Same layout as timeline.mjs for the page's own as-of day.
@@ -789,4 +795,42 @@ test("escaping, suppressed links, alternatives, qualifiers and private notes", (
   assert.match(r1, /<time datetime="2024">c\. 2024<\/time>/);
   assert.match(r1, /data-mh-claim="capabilities\.openWeights" data-mh-evidence="primary-source">\n<span class="mh-claim-label">Open weights<\/span>\n<span class="mh-claim-value">No<\/span>/);
   for (const [rel, h] of TF) assert.ok(!h.includes("Internal note"), `${rel}: record notes are not published`);
+});
+
+/* AC-32 at scale: 1000 full models over 10 organisations (100 each), each a copy of the rich
+   fixture record Orbit 2 with its own id, a successor chain and the fixture's sources. The
+   budgets of §32 must hold and the in-memory build must stay well under a minute. */
+test("AC-32: 1000 models build within the page and index budgets of §32", () => {
+  const ds = loadDataset(BASIC);
+  const tpl = ds.models.find(m => m.id === "example-lab.orbit-2");
+  const orgTpl = ds.organizations.find(o => o.id === "other-lab");
+  const models = [], orgs = [], fams = [];
+  for (let k = 0; k < 10; k++) {
+    const org = `scale-${k}`;
+    orgs.push({ ...structuredClone(orgTpl), id: org, name: `Scale Lab ${k}`, coverage: "external", radarCompanyId: null, aliases: [], formerNames: [], narrative: undefined });
+    fams.push({ id: `${org}.line`, organizationId: org, name: `Line ${k}`, parentId: null });
+    for (let j = 0; j < 100; j++) {
+      const m = structuredClone(tpl);
+      Object.assign(m, { id: `${org}.model-${j}`, slug: `model-${j}`, name: `Scale ${k} Model ${j}`, familyId: `${org}.line`,
+        organizations: [{ id: org, role: "developer", primary: true }], previousSlugs: [], previousRoutes: [],
+        aliases: [{ text: `Scale ${k} Model ${j}`, match: "auto" }] });
+      const src = (tpl.relations && tpl.relations[0] && tpl.relations[0].sources) || tpl.summary.sources;
+      m.relations = j ? [{ type: "successor-of", target: `${org}.model-${j - 1}`, sources: src }] : [];
+      m.changes = (m.changes || []).map(c => ({ ...c, relativeTo: j ? `${org}.model-${j - 1}` : undefined }));
+      const y = 2010 + Math.floor(j / 7), mo = 1 + (j % 12), d = 1 + (j % 27);
+      m.dates = { ...m.dates, announced: null, released: { value: `${y}-${String(mo).padStart(2, "0")}-${String(d).padStart(2, "0")}`, sources: m.dates.released.sources }, deprecated: null, retired: null };
+      models.push(m);
+    }
+  }
+  ds.models = models; ds.organizations.push(...orgs); ds.families.push(...fams);
+  const t0 = performance.now();
+  const site = compile(ds), out = renderSite(site);
+  const ms = performance.now() - t0;
+  const kb = rel => Buffer.byteLength(out.files.get(rel)) / 1024;
+  console.log(`# AC-32: ${out.files.size} files in ${(ms / 1000).toFixed(1)} s; index.json ${kb("index.json").toFixed(0)} KB, company ${kb("scale-0/index.html").toFixed(0)} KB, model ${kb("scale-0/model-50/index.html").toFixed(0)} KB, timeline ${kb("scale-0/model-50/timeline/index.html").toFixed(0)} KB`);
+  assert.ok(ms < 60000, `build took ${ms} ms`);
+  assert.ok(kb("index.json") <= 350, "models/index.json ≤ 350 KB at 1000 models");
+  for (let k = 0; k < 10; k++) assert.ok(kb(`scale-${k}/index.html`) <= 150, `company page ${k} ≤ 150 KB at 100 models`);
+  for (const [rel, text] of out.files) if (/^[^/]+\/[^/]+\/(?:timeline\/)?index\.html$/.test(rel)) assert.ok(Buffer.byteLength(text) <= 60 * 1024, `${rel} ≤ 60 KB`);
+  assert.equal(out.files.size, 1 + 1 + 10 * 2 + 1000 * 2 + [...out.files.keys()].filter(r => /^[^/]+\/[^/]+\/index\.html$/.test(r) && !r.startsWith("scale-")).length, "explorer, index.json, two files per organisation and two pages per model");
 });

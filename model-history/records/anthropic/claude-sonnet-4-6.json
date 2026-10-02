@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-sonnet-4-6",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-sonnet-4-6",
+  "name": "Claude Sonnet 4.6",
+  "aliases": [
+    {
+      "text": "Claude Sonnet 4.6",
+      "match": "auto"
+    },
+    {
+      "text": "Sonnet 4.6",
+      "match": "auto"
+    },
+    {
+      "text": "claude-sonnet-4-6",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-sonnet",
+  "generation": "4.6",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-sonnet-4-6-docs",
+        "locator": "Availability"
+      },
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status table"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-02-17",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-4-6-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-sonnet-4-6-docs",
+          "locator": "Availability: Released"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-sonnet-4-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-4-6-announcement",
+          "locator": "computer use section"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Sonnet 4.6 is a language model in Anthropic's Claude Sonnet line, released on 17 February 2026 on all Claude plans, Claude Code, the Claude API and major cloud platforms at the same price as Sonnet 4.5. It takes text and image input, supports adaptive and extended thinking, and became the default model for Free and Pro users on claude.ai.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-sonnet-4-6-announcement"
+      },
+      {
+        "id": "src.anthropic.claude-sonnet-4-6-docs",
+        "locator": "Capabilities"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "adaptive-thinking",
+      "aspect": "reasoning",
+      "direction": "added",
+      "text": "Adds support for adaptive thinking alongside extended thinking.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-4-6-announcement"
+        }
+      ]
+    },
+    {
+      "id": "default-model",
+      "aspect": "availability",
+      "direction": "changed",
+      "text": "Became the default model for Free and Pro plans on claude.ai and in Claude Cowork.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-4-6-announcement"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "aspect": "safety",
+      "direction": "changed",
+      "text": "Anthropic reports improved resistance to prompt injection compared with Sonnet 4.5.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-4-6-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-4-6-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-4-6-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-4-6-docs",
+          "locator": "Capabilities: Context window"
+        }
+      ],
+      "note": "The launch announcement offered the 1M token context window in beta; the model page lists 1M tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-4-6-announcement",
+          "locator": "availability paragraph"
+        }
+      ]
+    }
+  }
+}

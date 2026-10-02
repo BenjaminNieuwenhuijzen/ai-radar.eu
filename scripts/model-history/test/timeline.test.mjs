@@ -123,3 +123,13 @@ test("the axis starts before the first event and ends after today", () => {
   assert.ok(t.today > 0 && t.today < t.span);
   assert.ok(t.years.every(y => y.t >= 0 && y.t <= t.span));
 });
+
+test("a document published before the model's first date is not an event in its timeline", () => {
+  for (const m of ds.models) {
+    const d = m.dates || {}, firsts = [d.announced, d.released].filter(x => x && x.value).map(x => yearRange(x.value)[0]);
+    if (!firsts.length) continue;
+    const first = Math.min(...firsts);
+    for (const e of modelEvents(m, ctx()).filter(e => e.kind === "src" && / published$/.test(e.label)))
+      assert.ok(yearRange(e.dv.value)[1] > first, `${m.id}: "${e.label}" (${e.dv.value}) predates the model`);
+  }
+});

@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-opus-4-7",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-opus-4-7",
+  "name": "Claude Opus 4.7",
+  "aliases": [
+    {
+      "text": "Claude Opus 4.7",
+      "match": "auto"
+    },
+    {
+      "text": "Opus 4.7",
+      "match": "auto"
+    },
+    {
+      "text": "claude-opus-4-7",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-opus",
+  "generation": "4.7",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-opus-4-7-docs",
+        "locator": "Availability"
+      },
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status table"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-04-16",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-7-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-opus-4-7-docs",
+          "locator": "Availability: Released"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-opus-4-6",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-7-announcement",
+          "locator": "migration paragraph"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Opus 4.7 is a language model in Anthropic's Claude Opus line, released on 16 April 2026 across Claude products, the Claude API and major cloud platforms at the Opus 4.6 price. It accepts higher-resolution images and uses an updated tokenizer; Anthropic released it with safeguards that detect and block prohibited or high-risk cybersecurity requests.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-opus-4-7-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-resolution",
+      "aspect": "modality",
+      "direction": "changed",
+      "text": "Accepts higher-resolution images, up to 2,576 pixels on the long edge instead of 1,568.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-7-announcement"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "April 16, 2026"
+        }
+      ]
+    },
+    {
+      "id": "tokenizer",
+      "aspect": "other",
+      "direction": "changed",
+      "text": "Uses an updated tokenizer; Anthropic says the same input can map to roughly 1.0 to 1.35 times as many tokens.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-7-announcement"
+        }
+      ]
+    },
+    {
+      "id": "cyber-safeguards",
+      "aspect": "safety",
+      "direction": "added",
+      "text": "Ships with safeguards that automatically detect and block prohibited or high-risk cybersecurity requests.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-7-announcement"
+        }
+      ]
+    },
+    {
+      "id": "sampling-parameters",
+      "aspect": "other",
+      "direction": "removed",
+      "text": "Non-default values for temperature, top_p or top_k are no longer accepted and return an error.",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "API parameter deprecations"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "May 28, 2026"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-7-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-7-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-7-docs",
+          "locator": "Capabilities: Context window"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-7-announcement",
+          "locator": "availability paragraph"
+        }
+      ]
+    }
+  }
+}

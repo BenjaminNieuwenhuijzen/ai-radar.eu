@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-1",
+  "name": "Claude",
+  "aliases": [
+    {
+      "text": "Claude 1",
+      "match": "auto"
+    },
+    {
+      "text": "Claude 1.3",
+      "match": "candidate"
+    },
+    {
+      "text": "claude-1.0",
+      "match": "auto"
+    },
+    {
+      "text": "claude-1.1",
+      "match": "auto"
+    },
+    {
+      "text": "claude-1.2",
+      "match": "auto"
+    },
+    {
+      "text": "claude-1.3",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude",
+  "generation": "1",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "2024-09-04: Claude 1 and Instant models"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-03-14",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-1-announcement"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2024-09-04",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2024-09-04: Claude 1 and Instant models"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "September 4th, 2024"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2024-11-06",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2024-09-04: Claude 1 and Instant models"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "November 6th, 2024"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "text": "Claude is a language model that Anthropic introduced in March 2023 together with the lighter Claude Instant, after a closed alpha with partners including Notion, Quora and DuckDuckGo. Businesses could request access through a chat interface and the API in Anthropic's developer console; in May 2023 Anthropic raised its context window from 9K to 100K tokens.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-1-announcement"
+      },
+      {
+        "id": "src.anthropic.100k-context-windows-announcement"
+      }
+    ]
+  },
+  "capabilities": {
+    "contextWindowTokens": {
+      "value": 100000,
+      "asStated": "100K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.100k-context-windows-announcement"
+        }
+      ],
+      "note": "Raised from 9K to 100K tokens in the API on 2023-05-11, per the source; not stated in the launch post."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-1-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-2-amazon-bedrock-announcement",
+          "locator": "Claude 1.3 on Amazon Bedrock since its April 2023 launch"
+        }
+      ]
+    }
+  },
+  "notes": "Released under the name Claude; the deprecations page calls this line Claude 1. The record covers the API versions claude-1.0 to claude-1.3, which have no separate Anthropic announcement."
+}

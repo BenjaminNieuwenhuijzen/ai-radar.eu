@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-instant-1-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-instant-1-2",
+  "name": "Claude Instant 1.2",
+  "aliases": [
+    {
+      "text": "Claude Instant 1.2",
+      "match": "auto"
+    },
+    {
+      "text": "claude-instant-1.2",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-instant",
+  "generation": "1.2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "2024-09-04: Claude 1 and Instant models"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-08-09",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-instant-1-2-announcement"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2024-09-04",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2024-09-04: Claude 1 and Instant models"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2024-11-06",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2024-09-04: Claude 1 and Instant models"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "November 6th, 2024"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-instant-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-instant-1-2-announcement",
+          "locator": "third paragraph"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Instant 1.2 is an updated version of Claude Instant, which Anthropic positions as its quicker, lower-cost language model for tasks such as dialogue, text analysis, summarisation and document comprehension; it was released through the API in August 2023. Anthropic says it draws on strengths of Claude 2 and improves on Claude Instant 1.1 in maths, coding, reasoning and safety.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-instant-1-2-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "maths-coding-reasoning",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-instant-1",
+      "text": "Anthropic reports gains over Claude Instant 1.1 in maths, coding and reasoning.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-instant-1-2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "response-format",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-instant-1",
+      "text": "Gives longer, more structured responses and follows formatting instructions more closely, according to Anthropic, with better quote extraction and question answering.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-instant-1-2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "multilingual",
+      "aspect": "languages",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-instant-1",
+      "text": "Anthropic reports improved multilingual capabilities, without naming languages or figures.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-instant-1-2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "hallucinations-jailbreaks",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-instant-1",
+      "text": "Hallucinates less and resists jailbreaks better, according to Anthropic's automated red-teaming evaluation.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-instant-1-2-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-instant-1-2-announcement"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-opus-4-8",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-opus-4-8",
+  "name": "Claude Opus 4.8",
+  "aliases": [
+    {
+      "text": "Claude Opus 4.8",
+      "match": "auto"
+    },
+    {
+      "text": "Opus 4.8",
+      "match": "auto"
+    },
+    {
+      "text": "claude-opus-4-8",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-opus",
+  "generation": "4.8",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-opus-4-8-docs",
+        "locator": "Availability"
+      },
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status table"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-05-28",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-8-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-opus-4-8-docs",
+          "locator": "Availability: Released"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-opus-4-7",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-8-announcement",
+          "locator": "opening paragraph"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Opus 4.8 is a language model in Anthropic's Claude Opus line, released on 28 May 2026 at the Opus 4.7 price and available on the Claude API and major cloud platforms. It takes text and image input with a 1M token context window, added mid-conversation system messages, and later served as the fallback for requests that Claude Fable 5's safeguards blocked.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-opus-4-8-announcement"
+      },
+      {
+        "id": "src.anthropic.claude-opus-4-8-docs"
+      },
+      {
+        "id": "src.anthropic.api-release-notes",
+        "locator": "May 28, 2026"
+      },
+      {
+        "id": "src.anthropic.claude-fable-5-mythos-5-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "mid-conversation-system-messages",
+      "aspect": "other",
+      "direction": "added",
+      "text": "Accepts system messages sent mid-conversation, after a user turn, while keeping prompt cache hits.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "May 28, 2026"
+        }
+      ]
+    },
+    {
+      "id": "alignment",
+      "aspect": "safety",
+      "direction": "changed",
+      "text": "Anthropic reports lower rates of misaligned behaviour than Opus 4.7 in its alignment assessment.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-8-announcement"
+        }
+      ]
+    },
+    {
+      "id": "uncertainty",
+      "aspect": "other",
+      "direction": "changed",
+      "text": "Anthropic says early testers found it more likely to flag uncertainty about its own work and less likely to make unsupported claims.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-8-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-8-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-8-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-8-docs",
+          "locator": "Capabilities: Context window"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-8-announcement",
+          "locator": "availability paragraph"
+        },
+        {
+          "id": "src.anthropic.claude-opus-4-8-docs",
+          "locator": "Availability: Platforms"
+        }
+      ]
+    }
+  }
+}

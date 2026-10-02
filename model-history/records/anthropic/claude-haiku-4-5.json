@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-haiku-4-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-haiku-4-5",
+  "name": "Claude Haiku 4.5",
+  "aliases": [
+    {
+      "text": "Claude Haiku 4.5",
+      "match": "auto"
+    },
+    {
+      "text": "claude-haiku-4-5-20251001",
+      "match": "auto"
+    },
+    {
+      "text": "claude-haiku-4-5",
+      "match": "auto"
+    },
+    {
+      "text": "Haiku 4.5",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-haiku",
+  "generation": "4.5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.anthropic.models-overview",
+        "locator": "Compare models"
+      },
+      {
+        "id": "src.anthropic.claude-haiku-4-5-docs",
+        "locator": "Availability"
+      },
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status"
+      }
+    ],
+    "note": "Listed as active; Anthropic commits to retirement not sooner than 2026-10-15."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-10-15",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-haiku-4-5-announcement"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "October 15, 2025"
+        },
+        {
+          "id": "src.anthropic.claude-haiku-4-5-docs",
+          "locator": "Availability"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-3-5-haiku",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-haiku-4-5-system-card",
+          "locator": "section 1"
+        },
+        {
+          "id": "src.anthropic.claude-haiku-4-5-announcement"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Haiku 4.5 is a language model in Anthropic's Haiku line of small, fast models that accepts text and images, with a 200K-token context window and an extended thinking mode. It is offered in the Claude apps, Claude Code, on the Anthropic API, Amazon Bedrock and Google Cloud Vertex AI, and Anthropic presents it as a drop-in replacement for Claude 3.5 Haiku and Claude Sonnet 4.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-haiku-4-5-system-card"
+      },
+      {
+        "id": "src.anthropic.claude-haiku-4-5-docs",
+        "locator": "Capabilities"
+      },
+      {
+        "id": "src.anthropic.claude-haiku-4-5-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "extended-thinking",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "anthropic.claude-3-5-haiku",
+      "text": "Adds an extended thinking mode, a first for the Haiku line; the system card notes that Claude 3.5 Haiku had none.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-haiku-4-5-system-card",
+          "locator": "section 1.1.2"
+        },
+        {
+          "id": "src.anthropic.claude-haiku-4-5-docs",
+          "locator": "Capabilities"
+        }
+      ]
+    },
+    {
+      "id": "context-awareness",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "anthropic.claude-3-5-haiku",
+      "text": "Trained to keep track of how much of its context window it has used; the window was 200K tokens at release.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-haiku-4-5-system-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-haiku-4-5-docs",
+          "locator": "Capabilities"
+        },
+        {
+          "id": "src.anthropic.transparency-hub-model-report",
+          "locator": "Claude Haiku 4.5 Summary Table, Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-haiku-4-5-docs",
+          "locator": "Capabilities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.anthropic.claude-haiku-4-5-docs",
+            "locator": "Capabilities"
+          },
+          {
+            "id": "src.anthropic.claude-haiku-4-5-system-card",
+            "locator": "section 1.1.2"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-haiku-4-5-docs",
+          "locator": "Capabilities"
+        },
+        {
+          "id": "src.anthropic.claude-haiku-4-5-system-card",
+          "locator": "section 1.1.3"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-haiku-4-5-announcement"
+        }
+      ]
+    }
+  },
+  "notes": "The pinned API snapshot id carries the date 20251001, while the model was released on 2025-10-15."
+}

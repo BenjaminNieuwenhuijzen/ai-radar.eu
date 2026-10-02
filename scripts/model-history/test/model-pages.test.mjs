@@ -50,7 +50,7 @@ test("the script makes no requests, sets no cookies or storage and stays small",
   for (const w of ["fetch(", "XMLHttpRequest", "sendBeacon", "WebSocket", "EventSource", "import(", "localStorage", "sessionStorage", "indexedDB",
     "cookie", "innerHTML", "insertAdjacentHTML", "document.write", "history."]) assert.ok(!code.includes(w), `model-pages.js must not use ${w}`);
   assert.ok(!/["'`]https?:/.test(code), "no absolute URLs");
-  assert.ok(Buffer.byteLength(SCRIPT) <= 8 * 1024, "small: two page enhancements");
+  assert.ok(Buffer.byteLength(SCRIPT.replace(/\r\n/g, "\n")) <= 8 * 1024, "small: two page enhancements");
 });
 
 /* ---------- Company page: family chips ---------- */
@@ -158,7 +158,7 @@ test("timeline: the picker opens another model's timeline only on its button, an
   const picker = p.byId("mh-tl-picker"), pick = p.byId("mh-tl-pick"), go = p.byId("mh-tl-go");
   assert.equal(picker.hidden, false);
   const values = pick.getElementsByTagName("option").map(o => o.getAttribute("value"));
-  assert.equal(values.length, SITE.models.length);
+  assert.equal(values.length, SITE.models.filter(x => x.org === "example-lab").length, "the organisation's own models");
   assert.ok(values.every(v => /^\/models\/[a-z0-9-]+\/[a-z0-9-]+\/timeline\/$/.test(v)));
   go.dispatch("click");
   assert.deepEqual(p.assigned, [], "the current model: nothing to open");
