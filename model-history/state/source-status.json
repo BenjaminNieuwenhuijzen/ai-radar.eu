@@ -1,5 +1,1794 @@
 {
-  "generated": null,
+  "generated": "2026-10-02T10:02:38Z",
   "schemaVersion": 1,
-  "sources": {}
+  "sources": {
+    "src.anthropic.100k-context-windows-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20240118225720",
+        "url": "https://web.archive.org/web/20240118225720/https://www.anthropic.com/news/100k-context-windows",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 144433,
+        "title": "Introducing 100K context windows \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 144433,
+        "title": "Introducing 100K context windows \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/100k-context-windows"
+    },
+    "src.anthropic.3-5-models-and-computer-use-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20241022151101",
+        "url": "https://web.archive.org/web/20241022151101/https://www.anthropic.com/news/3-5-models-and-computer-use",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 162716,
+        "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 162716,
+        "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use"
+    },
+    "src.anthropic.api-release-notes": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261001111333",
+        "url": "https://web.archive.org/web/20261001111333/https://platform.claude.com/docs/en/release-notes/overview",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Platform release notes - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Platform release notes - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    "src.anthropic.claude-1-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20240117131957",
+        "url": "https://web.archive.org/web/20240117131957/https://www.anthropic.com/news/introducing-claude",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 173680,
+        "title": "Introducing Claude \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 173680,
+        "title": "Introducing Claude \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/introducing-claude"
+    },
+    "src.anthropic.claude-2-1-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20240119203135",
+        "url": "https://web.archive.org/web/20240119203135/https://www.anthropic.com/news/claude-2-1",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 156856,
+        "title": "Introducing Claude 2.1 \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 156856,
+        "title": "Introducing Claude 2.1 \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-2-1"
+    },
+    "src.anthropic.claude-2-amazon-bedrock-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20251104190929",
+        "url": "https://web.archive.org/web/20251104190929/https://claude.com/blog/claude-2-amazon-bedrock",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude 2 on Amazon Bedrock | Claude by Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude 2 on Amazon Bedrock | Claude by Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://claude.com/blog/claude-2-amazon-bedrock"
+    },
+    "src.anthropic.claude-2-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20240117223805",
+        "url": "https://web.archive.org/web/20240117223805/https://www.anthropic.com/news/claude-2",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 175144,
+        "title": "Claude 2 \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 175144,
+        "title": "Claude 2 \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-2"
+    },
+    "src.anthropic.claude-2-model-card": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": "https://www-cdn.anthropic.com/5c49cc247484cecf107c699baf29250302e5da70/ModelCardClaudev2_with_appendix_v1.pdf",
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": null,
+        "truncated": true
+      },
+      "lastOkAt": null,
+      "lastResult": "moved",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://www.anthropic.com/claude-2-model-card"
+    },
+    "src.anthropic.claude-3-5-october-model-card-addendum": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260920085402",
+        "url": "https://web.archive.org/web/20260920085402/https://www-cdn.anthropic.com/c7822cdc35ad788ec87e14b3a9d45010f1f86c38.pdf",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": null,
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": null,
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www-cdn.anthropic.com/c7822cdc35ad788ec87e14b3a9d45010f1f86c38.pdf"
+    },
+    "src.anthropic.claude-3-5-sonnet-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20240621003438",
+        "url": "https://web.archive.org/web/20240621003438/https://www.anthropic.com/news/claude-3-5-sonnet",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 161409,
+        "title": "Introducing Claude 3.5 Sonnet \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 161409,
+        "title": "Introducing Claude 3.5 Sonnet \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet"
+    },
+    "src.anthropic.claude-3-5-sonnet-model-card-addendum": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260930143450",
+        "url": "https://web.archive.org/web/20260930143450/https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": null,
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": null,
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf"
+    },
+    "src.anthropic.claude-3-7-sonnet-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20250225000132",
+        "url": "https://web.archive.org/web/20250225000132/https://www.anthropic.com/news/claude-3-7-sonnet",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 183380,
+        "title": "Claude 3.7 Sonnet and Claude Code \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 183380,
+        "title": "Claude 3.7 Sonnet and Claude Code \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet"
+    },
+    "src.anthropic.claude-3-7-sonnet-system-card": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": "https://www-cdn.anthropic.com/9ff93dfa8f445c932415d335c88852ef47f1201e/claude-3-7-sonnet-system-card.pdf",
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": null,
+        "truncated": true
+      },
+      "lastOkAt": null,
+      "lastResult": "moved",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://www.anthropic.com/claude-3-7-sonnet-system-card"
+    },
+    "src.anthropic.claude-3-family-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20240304234826",
+        "url": "https://web.archive.org/web/20240304234826/https://www.anthropic.com/news/claude-3-family",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 197295,
+        "title": "Introducing the next generation of Claude \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 197295,
+        "title": "Introducing the next generation of Claude \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-3-family"
+    },
+    "src.anthropic.claude-3-haiku-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20240313234138",
+        "url": "https://web.archive.org/web/20240313234138/https://www.anthropic.com/news/claude-3-haiku",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 145445,
+        "title": "Claude 3 Haiku: our fastest model yet \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 145445,
+        "title": "Claude 3 Haiku: our fastest model yet \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-3-haiku"
+    },
+    "src.anthropic.claude-3-model-card": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": "https://www-cdn.anthropic.com/c6a80a657af445f40e31afac050f3bf76d3b1404/Claude%203%20Model%20Card.pdf",
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": null,
+        "truncated": true
+      },
+      "lastOkAt": null,
+      "lastResult": "moved",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://www.anthropic.com/claude-3-model-card"
+    },
+    "src.anthropic.claude-4-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20250523011015",
+        "url": "https://web.archive.org/web/20250523011015/https://www.anthropic.com/news/claude-4",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 178351,
+        "title": "Introducing Claude 4 \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 178351,
+        "title": "Introducing Claude 4 \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-4"
+    },
+    "src.anthropic.claude-4-system-card": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": "https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285/Claude%204%20System%20Card.pdf",
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": null,
+        "truncated": true
+      },
+      "lastOkAt": null,
+      "lastResult": "moved",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://www.anthropic.com/claude-4-system-card"
+    },
+    "src.anthropic.claude-fable-5-1-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260930195544",
+        "url": "https://web.archive.org/web/20260930195544/https://platform.claude.com/docs/en/models/fable-5-1/overview",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Fable 5.1 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Fable 5.1 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/fable-5-1/overview"
+    },
+    "src.anthropic.claude-fable-5-1-mythos-5-1-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260902025243",
+        "url": "https://web.archive.org/web/20260902025243/https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 \\ Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 \\ Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+    },
+    "src.anthropic.claude-fable-5-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260925171357",
+        "url": "https://web.archive.org/web/20260925171357/https://platform.claude.com/docs/en/models/fable-5/overview",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Fable 5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Fable 5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/fable-5/overview"
+    },
+    "src.anthropic.claude-fable-5-migration-guide": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260922181204",
+        "url": "https://web.archive.org/web/20260922181204/https://platform.claude.com/docs/en/models/fable-5/migration-guide",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Migrating to Claude Mythos 5 and Claude Fable 5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Migrating to Claude Mythos 5 and Claude Fable 5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/fable-5/migration-guide"
+    },
+    "src.anthropic.claude-fable-5-mythos-5-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260610002853",
+        "url": "https://web.archive.org/web/20260610002853/https://www.anthropic.com/news/claude-fable-5-mythos-5",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    },
+    "src.anthropic.claude-haiku-4-5-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20251015170339",
+        "url": "https://web.archive.org/web/20251015170339/https://www.anthropic.com/news/claude-haiku-4-5",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 212684,
+        "title": "Introducing Claude Haiku 4.5 \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 212684,
+        "title": "Introducing Claude Haiku 4.5 \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-haiku-4-5"
+    },
+    "src.anthropic.claude-haiku-4-5-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260930195624",
+        "url": "https://web.archive.org/web/20260930195624/https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Haiku 4.5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Haiku 4.5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview"
+    },
+    "src.anthropic.claude-haiku-4-5-system-card": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": "https://www-cdn.anthropic.com/7aad69bf12627d42234e01ee7c36305dc2f6a970/Claude%20Haiku%204.5%20System%20Card.pdf",
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": null,
+        "truncated": true
+      },
+      "lastOkAt": null,
+      "lastResult": "moved",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://www.anthropic.com/claude-haiku-4-5-system-card"
+    },
+    "src.anthropic.claude-instant-1-2-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 143527,
+        "title": "Releasing Claude Instant 1.2 \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 143527,
+        "title": "Releasing Claude Instant 1.2 \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/releasing-claude-instant-1-2"
+    },
+    "src.anthropic.claude-mythos-5-1-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260926183203",
+        "url": "https://web.archive.org/web/20260926183203/https://platform.claude.com/docs/en/models/mythos-5-1/overview",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Mythos 5.1 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Mythos 5.1 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview"
+    },
+    "src.anthropic.claude-mythos-5-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260928182102",
+        "url": "https://web.archive.org/web/20260928182102/https://platform.claude.com/docs/en/models/mythos-5/overview",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Mythos 5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Mythos 5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/mythos-5/overview"
+    },
+    "src.anthropic.claude-opus-4-1-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20250806001332",
+        "url": "https://web.archive.org/web/20250806001332/https://www.anthropic.com/news/claude-opus-4-1",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 152126,
+        "title": "Claude Opus 4.1 \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 152126,
+        "title": "Claude Opus 4.1 \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-opus-4-1"
+    },
+    "src.anthropic.claude-opus-4-1-system-card": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": "https://www-cdn.anthropic.com/9fa30625273bafdf5af82c93719d7ca606485a16/Claude%204.1%20System%20Card.pdf",
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": null,
+        "truncated": true
+      },
+      "lastOkAt": null,
+      "lastResult": "moved",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://www.anthropic.com/claude-opus-4-1-system-card"
+    },
+    "src.anthropic.claude-opus-4-5-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20251124230121",
+        "url": "https://web.archive.org/web/20251124230121/https://www.anthropic.com/news/claude-opus-4-5",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Opus 4.5 \\ Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Opus 4.5 \\ Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5"
+    },
+    "src.anthropic.claude-opus-4-5-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260928182130",
+        "url": "https://web.archive.org/web/20260928182130/https://platform.claude.com/docs/en/models/opus-4-5/overview",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 4.5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 4.5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/opus-4-5/overview"
+    },
+    "src.anthropic.claude-opus-4-5-system-card": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": "https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47/Claude%20Opus%204.5%20System%20Card.pdf",
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": null,
+        "truncated": true
+      },
+      "lastOkAt": null,
+      "lastResult": "moved",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://www.anthropic.com/claude-opus-4-5-system-card"
+    },
+    "src.anthropic.claude-opus-4-6-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260205234152",
+        "url": "https://web.archive.org/web/20260205234152/https://www.anthropic.com/news/claude-opus-4-6",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 4.6 \\ Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 4.6 \\ Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6"
+    },
+    "src.anthropic.claude-opus-4-6-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260928182106",
+        "url": "https://web.archive.org/web/20260928182106/https://platform.claude.com/docs/en/models/opus-4-6/overview",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 4.6 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 4.6 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/opus-4-6/overview"
+    },
+    "src.anthropic.claude-opus-4-7-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260417004437",
+        "url": "https://web.archive.org/web/20260417004437/https://www.anthropic.com/news/claude-opus-4-7",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Opus 4.7 \\ Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Opus 4.7 \\ Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    "src.anthropic.claude-opus-4-7-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260923153712",
+        "url": "https://web.archive.org/web/20260923153712/https://platform.claude.com/docs/en/models/opus-4-7/overview",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 4.7 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 4.7 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/opus-4-7/overview"
+    },
+    "src.anthropic.claude-opus-4-8-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260529001436",
+        "url": "https://web.archive.org/web/20260529001436/https://www.anthropic.com/news/claude-opus-4-8",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 233195,
+        "title": "Introducing Claude Opus 4.8 \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 233195,
+        "title": "Introducing Claude Opus 4.8 \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8"
+    },
+    "src.anthropic.claude-opus-4-8-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260901175622",
+        "url": "https://web.archive.org/web/20260901175622/https://platform.claude.com/docs/en/models/opus-4-8/overview",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 4.8 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 4.8 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/opus-4-8/overview"
+    },
+    "src.anthropic.claude-opus-5-5-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260922224924",
+        "url": "https://web.archive.org/web/20260922224924/https://www.anthropic.com/claude-opus-5-5",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Opus 5.5 \\ Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Opus 5.5 \\ Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/claude-opus-5-5"
+    },
+    "src.anthropic.claude-opus-5-5-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261001143608",
+        "url": "https://web.archive.org/web/20261001143608/https://platform.claude.com/docs/en/models/opus-5-5/overview",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 5.5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 5.5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/opus-5-5/overview"
+    },
+    "src.anthropic.claude-opus-5-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260725000255",
+        "url": "https://web.archive.org/web/20260725000255/https://www.anthropic.com/news/claude-opus-5",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Opus 5 \\ Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Opus 5 \\ Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-opus-5"
+    },
+    "src.anthropic.claude-opus-5-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260924112422",
+        "url": "https://web.archive.org/web/20260924112422/https://platform.claude.com/docs/en/models/opus-5/overview",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Opus 5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/opus-5/overview"
+    },
+    "src.anthropic.claude-pro-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20240118225715",
+        "url": "https://web.archive.org/web/20240118225715/https://www.anthropic.com/news/claude-pro",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 141284,
+        "title": "Introducing Claude Pro \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 141284,
+        "title": "Introducing Claude Pro \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-pro"
+    },
+    "src.anthropic.claude-sonnet-4-5-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20250930004306",
+        "url": "https://web.archive.org/web/20250930004306/https://www.anthropic.com/news/claude-sonnet-4-5",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Sonnet 4.5 \\ Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Sonnet 4.5 \\ Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-5"
+    },
+    "src.anthropic.claude-sonnet-4-5-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260928182112",
+        "url": "https://web.archive.org/web/20260928182112/https://platform.claude.com/docs/en/models/sonnet-4-5/overview",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Sonnet 4.5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Sonnet 4.5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview"
+    },
+    "src.anthropic.claude-sonnet-4-5-system-card": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": "https://www-cdn.anthropic.com/963373e433e489a87a10c823c52a0a013e9172dd/Claude%20Sonnet%204.5%20System%20Card.pdf",
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": null,
+        "truncated": true
+      },
+      "lastOkAt": null,
+      "lastResult": "moved",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://www.anthropic.com/claude-sonnet-4-5-system-card"
+    },
+    "src.anthropic.claude-sonnet-4-6-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Sonnet 4.6 \\ Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Sonnet 4.6 \\ Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6"
+    },
+    "src.anthropic.claude-sonnet-4-6-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260901175641",
+        "url": "https://web.archive.org/web/20260901175641/https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Sonnet 4.6 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Sonnet 4.6 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview"
+    },
+    "src.anthropic.claude-sonnet-5-5-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260929000459",
+        "url": "https://web.archive.org/web/20260929000459/https://www.anthropic.com/claude-sonnet-5-5",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Sonnet 5.5 \\ Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Sonnet 5.5 \\ Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5"
+    },
+    "src.anthropic.claude-sonnet-5-5-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261001143635",
+        "url": "https://web.archive.org/web/20261001143635/https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Sonnet 5.5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Sonnet 5.5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview"
+    },
+    "src.anthropic.claude-sonnet-5-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260630175737",
+        "url": "https://web.archive.org/web/20260630175737/https://www.anthropic.com/news/claude-sonnet-5",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Sonnet 5 \\ Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Claude Sonnet 5 \\ Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    "src.anthropic.claude-sonnet-5-docs": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260926183216",
+        "url": "https://web.archive.org/web/20260926183216/https://platform.claude.com/docs/en/models/sonnet-5/overview",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Sonnet 5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Claude Sonnet 5 - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-5/overview"
+    },
+    "src.anthropic.company-page": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261001225229",
+        "url": "https://web.archive.org/web/20261001225229/https://www.anthropic.com/company",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 176680,
+        "title": "Company \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 176680,
+        "title": "Company \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/company"
+    },
+    "src.anthropic.model-deprecations": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261001143559",
+        "url": "https://web.archive.org/web/20261001143559/https://platform.claude.com/docs/en/about-claude/model-deprecations",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Model deprecations - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Model deprecations - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations"
+    },
+    "src.anthropic.models-overview": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260930104447",
+        "url": "https://web.archive.org/web/20260930104447/https://platform.claude.com/docs/en/models/overview",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Models overview - Claude Platform Docs",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Models overview - Claude Platform Docs",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://platform.claude.com/docs/en/models/overview"
+    },
+    "src.anthropic.project-glasswing": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260407224242",
+        "url": "https://web.archive.org/web/20260407224242/https://www.anthropic.com/glasswing",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 230484,
+        "title": "Project Glasswing: Securing critical software for the AI era \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 230484,
+        "title": "Project Glasswing: Securing critical software for the AI era \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/glasswing"
+    },
+    "src.anthropic.redeploying-fable-5": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260701031621",
+        "url": "https://web.archive.org/web/20260701031621/https://www.anthropic.com/news/redeploying-fable-5",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 215396,
+        "title": "Redeploying Claude Fable 5 \\ Anthropic",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 215396,
+        "title": "Redeploying Claude Fable 5 \\ Anthropic",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5"
+    },
+    "src.anthropic.transparency-hub-model-report": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260923180854",
+        "url": "https://web.archive.org/web/20260923180854/https://www.anthropic.com/transparency/model-report",
+        "via": "wayback-availability-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-02T10:02:38Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Anthropic’s Transparency Hub \\ Anthropic",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-02T10:02:38Z",
+      "lastDefinitiveAt": "2026-10-02T10:02:38Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Anthropic’s Transparency Hub \\ Anthropic",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-02T10:02:38Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-02T10:02:38Z",
+      "url": "https://www.anthropic.com/transparency/model-report"
+    }
+  }
 }
