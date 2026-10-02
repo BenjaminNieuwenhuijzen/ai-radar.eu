@@ -1,7 +1,10 @@
 # robots.txt for https://ai-radar.eu/
-# Allow all well-behaved crawlers full access.
+# Well-behaved crawlers may index the whole site except the raw data and the scripts.
 User-agent: *
 Allow: /
+# Raw data and build scripts; the published pages are under /models/.
+Disallow: /model-history/
+Disallow: /scripts/
 
 # Sitemap location (helps search engines discover all pages).
 Sitemap: https://ai-radar.eu/sitemap.xml
