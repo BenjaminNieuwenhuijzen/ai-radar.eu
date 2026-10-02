@@ -5,7 +5,28 @@
 <link>https://ai-radar.eu/</link>
 <description>Combined updates from leading AI companies.</description>
 <language>en</language>
-<lastBuildDate>Thu, 01 Oct 2026 22:42:37 GMT</lastBuildDate>
+<lastBuildDate>Fri, 02 Oct 2026 05:38:27 GMT</lastBuildDate>
+<item>
+<title>[Blog] AutoSynthData: Generating Training Data for Enterprise Agents</title>
+<link>https://huggingface.co/blog/ServiceNow-AI/autosynthdata</link>
+<guid isPermaLink="false">https://huggingface.co/blog/ServiceNow-AI/autosynthdata</guid>
+<pubDate>Fri, 02 Oct 2026 04:01:31 GMT</pubDate>
+<description>A Blog post by ServiceNow-AI on Hugging Face</description>
+</item>
+<item>
+<title>[Google News] DeepSeek effect? How China’s quant funds thrive amid tight regulatory scrutiny - South China Morning Post</title>
+<link>https://news.google.com/rss/articles/CBMi1AFBVV95cUxONnhXWXhIUnFDcS1FMm81eXZIRUNxWF80azAwVURXb1NZQVQtRmFyQ0RnZEZDRXlZcGRTQlpVOU4zeFVybzY4akJiRFhua1hKUVVNcWljbklBdTBpak9SOTNsN25KcmQyLXBGMmhsaG5rRHAtSXlHVGpMQmRXZW9BLVZqUDNQZDN5dFRXbV9DTkp1UDJXUi1rT2RwcWZCeEEtV2E3Q01aX19pZnlTM1dTVjNpS2lyV3l1WTk4NG5xZkRiSmtoN19PdkpJM1hZZkJIU0lEVg?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi1AFBVV95cUxONnhXWXhIUnFDcS1FMm81eXZIRUNxWF80azAwVURXb1NZQVQtRmFyQ0RnZEZDRXlZcGRTQlpVOU4zeFVybzY4akJiRFhua1hKUVVNcWljbklBdTBpak9SOTNsN25KcmQyLXBGMmhsaG5rRHAtSXlHVGpMQmRXZW9BLVZqUDNQZDN5dFRXbV9DTkp1UDJXUi1rT2RwcWZCeEEtV2E3Q01aX19pZnlTM1dTVjNpS2lyV3l1WTk4NG5xZkRiSmtoN19PdkpJM1hZZkJIU0lEVg?oc=5</guid>
+<pubDate>Fri, 02 Oct 2026 02:00:18 GMT</pubDate>
+
+</item>
+<item>
+<title>[Blog] How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast</title>
+<link>https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/</link>
+<guid isPermaLink="false">https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/</guid>
+<pubDate>Thu, 01 Oct 2026 23:44:13 +0000</pubDate>
+<description>GPT-6 Astra Ultrafast, running on NVIDIA Blackwell GPUs, is available now in the OpenAI API and to eligible ChatGPT Work and Codex users. Accelerated by inference optimizations through OpenAI’s models that tap into the capabilities of the NVIDIA Blackwell architecture, Ultrafast offers up to 8x fast</description>
+</item>
 <item>
 <title>[Google News] TA419 phishing campaign targeted AI policy experts - BetaNews</title>
 <link>https://news.google.com/rss/articles/CBMicEFVX3lxTE94TW45MG1XaTBlcWQtNGl3MlBsTmNfZkhncHVhcjZqUW9MbXUxcDJkdjdtZGJ5ZnZQZVp1czMxa1Y5eTV1cVhKYmo3bEFpWlY1WTdrZDBaZ0VUWktWU1dRdWR6OWFmN3ZaZWllMnhITEs?oc=5</link>
@@ -28,7 +49,7 @@
 <description>Adding AI models to local applications requires a portable model format, a reliable runtime, and acceleration that works across target systems. Do Inference Now...</description>
 </item>
 <item>
-<title>[Google News] [Blog] Artificial Intelligence in Mauritius: Progress, Regulation, and the Road Ahead - Défi Media</title>
+<title>[Google News] [Blog] Artificial Intelligence in Mauritius: Progress, Regulation, and the Road Ahead - Defimedia</title>
 <link>https://news.google.com/rss/articles/CBMinAFBVV95cUxQQkR1QmFEalFCUEl1NnRtOFJzTFJfX08tQ2hNNnF1NTVON3JHMFIwQmUyNVM2bHRHUVdsakJXbWJNU0lrQm5VUDlha0FDdmFZb2xJNmxWdFBrUnJLZVAyLVRhSmtDcUhldkk1V08weEwtV2dTc3RaTDNrWGhvbFpvV1BmNkZNLXVRNWk3aUY2UG5oNTdLNHNkbERmX2w?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMinAFBVV95cUxQQkR1QmFEalFCUEl1NnRtOFJzTFJfX08tQ2hNNnF1NTVON3JHMFIwQmUyNVM2bHRHUVdsakJXbWJNU0lrQm5VUDlha0FDdmFZb2xJNmxWdFBrUnJLZVAyLVRhSmtDcUhldkk1V08weEwtV2dTc3RaTDNrWGhvbFpvV1BmNkZNLXVRNWk3aUY2UG5oNTdLNHNkbERmX2w?oc=5</guid>
 <pubDate>Thu, 01 Oct 2026 17:23:53 GMT</pubDate>
@@ -70,7 +91,7 @@
 <description>Guided Vision in Gemini Live is built alongside the blind and low-vision community and offers real-time visual assistance.</description>
 </item>
 <item>
-<title>[Google News] Gender Bias Study: Anthropic’s Claude Sonnet 4.6 And OpenAI’s GPT-5.5 Say It’s OK To Abuse A Man But Not A Woman To Prevent Nuclear Apocalypse, While DeepSeek’s V4-Flash Shows No Such Bias - Wccftech</title>
+<title>[Google News] Gender Bias Study: Anthropic’s Claude Sonnet 4.6 And OpenAI’s GPT-5.5 Say It’s OK To Abuse A Man But Not A Woman To Prevent Nuclear Apocalypse, While DeepSeek’s V4-Flash Shows No Such Bias - wccftech.com</title>
 <link>https://news.google.com/rss/articles/CBMirAJBVV95cUxPUHVfQzdlaGVSOWM2VERQTEYxTEJVTUFlWFptNXVoN21UZHN4R2NnTG9JVU5tX1BDcldzZ3pUS3hnUHN1T3lzVjFRSkVVRGczMnNQczFLN2kyV0dNUXp2TmxnMlFfUDhZdHd4Wm5ieHk5cWw0VjBURUhVY1RrQ1loM2pnWFpUdlJ4V0pXSmFZUXlDWDdLZFhrNU1aU1RjNWY3NUZJdzU5NllZVDJySDhCZ0ExZXFzcVFNV2plMGxKd0NsUzFrVTZwc2d3dVhzTjdoaG11MWx0NnVUb1UxY2NmWVdxdFowUDYwRy1nRlhuR2RVNzFMREstWkZxZThwRUlMeXpkQkNYbmhwYkpiSWNiTVNhZ0lPNmNabDBFaEdSZEVUaFBzWHhFd1MzMzTSAbICQVVfeXFMUHhxU3hKTWZEZU5ueDVpaXBncUVBQ1BmU3ppZzNkdl9iWG5ILXp3QVZfeWp3S3ZrZDdueXVfdzlQdU9INS1fdEhTZWd4WFVHZXFrSXF4OTR1azhVY0ZqcGR2dEdJT2cwUWplUXRaYW5jUUdlU0pjaXpiaXJGQTU2X0dOMUphYS1ST1hodnU5d2hKUWl6M1lDcFo4a3dGWmZ0bVJwQmpGNkhTRnhYOFVxbnBWZFdVazVocUVfT1RMUHl0RnhBam92ZDc3T3dvMFhFMThWS1NjazlROWZ3alVrSE5SNkthOXktRU1oRXNfNlNCNUVBd01zSklTRFNvU0RiZl9pMmpsajZOS2N4dXpDdmNQMXVlSlRRMkt3NVFJWlBXTlR4bXlXX1BSY1ZIOTFuRTBR?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAJBVV95cUxPUHVfQzdlaGVSOWM2VERQTEYxTEJVTUFlWFptNXVoN21UZHN4R2NnTG9JVU5tX1BDcldzZ3pUS3hnUHN1T3lzVjFRSkVVRGczMnNQczFLN2kyV0dNUXp2TmxnMlFfUDhZdHd4Wm5ieHk5cWw0VjBURUhVY1RrQ1loM2pnWFpUdlJ4V0pXSmFZUXlDWDdLZFhrNU1aU1RjNWY3NUZJdzU5NllZVDJySDhCZ0ExZXFzcVFNV2plMGxKd0NsUzFrVTZwc2d3dVhzTjdoaG11MWx0NnVUb1UxY2NmWVdxdFowUDYwRy1nRlhuR2RVNzFMREstWkZxZThwRUlMeXpkQkNYbmhwYkpiSWNiTVNhZ0lPNmNabDBFaEdSZEVUaFBzWHhFd1MzMzTSAbICQVVfeXFMUHhxU3hKTWZEZU5ueDVpaXBncUVBQ1BmU3ppZzNkdl9iWG5ILXp3QVZfeWp3S3ZrZDdueXVfdzlQdU9INS1fdEhTZWd4WFVHZXFrSXF4OTR1azhVY0ZqcGR2dEdJT2cwUWplUXRaYW5jUUdlU0pjaXpiaXJGQTU2X0dOMUphYS1ST1hodnU5d2hKUWl6M1lDcFo4a3dGWmZ0bVJwQmpGNkhTRnhYOFVxbnBWZFdVazVocUVfT1RMUHl0RnhBam92ZDc3T3dvMFhFMThWS1NjazlROWZ3alVrSE5SNkthOXktRU1oRXNfNlNCNUVBd01zSklTRFNvU0RiZl9pMmpsajZOS2N4dXpDdmNQMXVlSlRRMkt3NVFJWlBXTlR4bXlXX1BSY1ZIOTFuRTBR?oc=5</guid>
 <pubDate>Thu, 01 Oct 2026 15:42:01 GMT</pubDate>
@@ -133,10 +154,10 @@
 
 </item>
 <item>
-<title>[Google News] Use.ai Surpasses 1 Million Monthly Active Users Within First Year - citybiz</title>
-<link>https://news.google.com/rss/articles/CBMipwFBVV95cUxQWFJTYnY3ejRad1l5OHZydjBkN0oxN2FyaUlVS1dmVEdwc1Mya1hWanhSQmRHUVJmQmxRQXl2bzFoWE9neHlmWW95bFpHejlMZWhFd18xTURVWGVHT09XWXk3MUEzTW53ZGUyRENjV0M1VHd4eXRZLXVfU1lSelZuUUFMY0pvTEZHbG1Td0QwWjhRMUplcmVPLXJneFNtTU5GZzFFS1liaw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMipwFBVV95cUxQWFJTYnY3ejRad1l5OHZydjBkN0oxN2FyaUlVS1dmVEdwc1Mya1hWanhSQmRHUVJmQmxRQXl2bzFoWE9neHlmWW95bFpHejlMZWhFd18xTURVWGVHT09XWXk3MUEzTW53ZGUyRENjV0M1VHd4eXRZLXVfU1lSelZuUUFMY0pvTEZHbG1Td0QwWjhRMUplcmVPLXJneFNtTU5GZzFFS1liaw?oc=5</guid>
-<pubDate>Thu, 01 Oct 2026 12:28:10 GMT</pubDate>
+<title>[Google News] Google Antigravity bets models manage themselves - StartupHub.ai</title>
+<link>https://news.google.com/rss/articles/CBMisAFBVV95cUxPRWY4eHpPUFhZMUV3YWd3Y0FJcFQ1WnM4dUhBWkFUTlNrb2dSV1BOSUNxa3g4SWZ2RFMxa3YzWGc5S2h1MFROTGl3RUZzcE9FbEZHZWRYNU5odmVzVUJzOFl2NlIwbzZCRWo3aGRhOXBxUi00N1hhLTFwZVFxWkxlNHNnM3F3Ql9LcC1Xb3ZCZ3MtdVZReWNBZ3gzcVRFeVF5aWx1TWt6S0VKSjBiSEZRUg?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMisAFBVV95cUxPRWY4eHpPUFhZMUV3YWd3Y0FJcFQ1WnM4dUhBWkFUTlNrb2dSV1BOSUNxa3g4SWZ2RFMxa3YzWGc5S2h1MFROTGl3RUZzcE9FbEZHZWRYNU5odmVzVUJzOFl2NlIwbzZCRWo3aGRhOXBxUi00N1hhLTFwZVFxWkxlNHNnM3F3Ql9LcC1Xb3ZCZ3MtdVZReWNBZ3gzcVRFeVF5aWx1TWt6S0VKSjBiSEZRUg?oc=5</guid>
+<pubDate>Thu, 01 Oct 2026 12:11:18 GMT</pubDate>
 
 </item>
 <item>
@@ -175,10 +196,10 @@
 
 </item>
 <item>
-<title>[Google News] Utah schools face new requirements for AI use in classrooms - KMYU</title>
-<link>https://news.google.com/rss/articles/CBMirAFBVV95cUxPNmduTHczMTQyRGtCbHJwcGFaYnhPZHN2d2tRYXcxMkplVEpGcTE2RFBMMzUtTjIzbWVkSlc0LXU1LWJHc1FHVXdqZ1VkZnJxQUw3TVpKZTN0QVRlWEx6RUhxSUp6NG9MYllZNkxFWm5VT0ZVNEYtSkxsTFNlS2pWWl9sTGpDM3lBbHJFUGl6bEVGQkZjX2gxREFzNzhacGVjRkNIZGZ1STV2MTNv?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxPNmduTHczMTQyRGtCbHJwcGFaYnhPZHN2d2tRYXcxMkplVEpGcTE2RFBMMzUtTjIzbWVkSlc0LXU1LWJHc1FHVXdqZ1VkZnJxQUw3TVpKZTN0QVRlWEx6RUhxSUp6NG9MYllZNkxFWm5VT0ZVNEYtSkxsTFNlS2pWWl9sTGpDM3lBbHJFUGl6bEVGQkZjX2gxREFzNzhacGVjRkNIZGZ1STV2MTNv?oc=5</guid>
-<pubDate>Thu, 01 Oct 2026 10:04:14 GMT</pubDate>
+<title>[Google News] Utah schools face new requirements for AI use in classrooms - kjzz.com</title>
+<link>https://news.google.com/rss/articles/CBMirgFBVV95cUxNNkdPWHZzRDctSTJsdlpRU1VVRllyb2Zma3ZKcDN2QlBmOEhFOEZINWVPRXdXUExkSkU4UEpsekNlZTcxM09GbzV4bGlBM3NyTnM2R0hJdTdrMW9ldnZBbTNZUTZxeTU3MGwzMmFIX0s3Wlh4MldkaWprc1ItWVd1cXNIamFpaVAyQ0tnR1Z4T29GeERvNUlwNl9LTnRSYzV4UVR5VURMd05udzU4cGc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMirgFBVV95cUxNNkdPWHZzRDctSTJsdlpRU1VVRllyb2Zma3ZKcDN2QlBmOEhFOEZINWVPRXdXUExkSkU4UEpsekNlZTcxM09GbzV4bGlBM3NyTnM2R0hJdTdrMW9ldnZBbTNZUTZxeTU3MGwzMmFIX0s3Wlh4MldkaWprc1ItWVd1cXNIamFpaVAyQ0tnR1Z4T29GeERvNUlwNl9LTnRSYzV4UVR5VURMd05udzU4cGc?oc=5</guid>
+<pubDate>Thu, 01 Oct 2026 10:05:53 GMT</pubDate>
 
 </item>
 <item>
@@ -189,17 +210,24 @@
 
 </item>
 <item>
-<title>[Google News] Startup Accelerated by Unicorn Factory Lisboa Wins International AI Award in Taiwan - manilatimes.net</title>
+<title>[Google News] Startup Accelerated by Unicorn Factory Lisboa Wins International AI Award in Taiwan - The Manila Times</title>
 <link>https://news.google.com/rss/articles/CBMi7gFBVV95cUxPU2pWZVdnbVFpRzlMc2dEbGpwejJQSFc3QW1nbzBRMVdHQVowdHZqQmktTjRhbEdHdlJYNzBsX0NLUnlTQUQzcHVmZlFqOFlGT0l3cVlXRHZlXzdyWnNhVTVpa25meXdHalFLcG43Y3ppMjVOMVRtMWpWUk5DRzllUlNoMnNuY0RZX0hUYkQxRFZhdGoxbFd1NS1VYm1jZk40X1BvWGdabUFiRUtZVy1ZZGFTOFZRTjBxMm9LQ3dfYVMzQnFOOTRXcXNNbXZtYU90YWZpZGY3VzRaRDE0T2RpZzA0V2x0RF9rUEhIZFR30gHzAUFVX3lxTE80OVJCOVVFT3JVbERrdkFYeUY0QnZ0ekdCM1QzVnctOEloQzJRWjJ4T2k4MV96bXlzbnowcTlILVFpREZDN1ZfX0dDUC1tT05KbmEzYmlENXVDeHJScGdudGlOVU9xX215SUpGWE0zQTZwX0xYT2tTNXp3YzNnYndRcHZFTHpRUlJodm9XZGVyOWhJZFhQRlNKck9OeFFkcWpOa2szSTlwanlhbzEzMmdROTh1cTlqdWtjcU9MdzM1dHVzR0R5T2RGOG1mdTUzOW1vUUNBcC16bTQwc3pHUTlmYURYVkhoSXYyOVNkMm92bDJiZw?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi7gFBVV95cUxPU2pWZVdnbVFpRzlMc2dEbGpwejJQSFc3QW1nbzBRMVdHQVowdHZqQmktTjRhbEdHdlJYNzBsX0NLUnlTQUQzcHVmZlFqOFlGT0l3cVlXRHZlXzdyWnNhVTVpa25meXdHalFLcG43Y3ppMjVOMVRtMWpWUk5DRzllUlNoMnNuY0RZX0hUYkQxRFZhdGoxbFd1NS1VYm1jZk40X1BvWGdabUFiRUtZVy1ZZGFTOFZRTjBxMm9LQ3dfYVMzQnFOOTRXcXNNbXZtYU90YWZpZGY3VzRaRDE0T2RpZzA0V2x0RF9rUEhIZFR30gHzAUFVX3lxTE80OVJCOVVFT3JVbERrdkFYeUY0QnZ0ekdCM1QzVnctOEloQzJRWjJ4T2k4MV96bXlzbnowcTlILVFpREZDN1ZfX0dDUC1tT05KbmEzYmlENXVDeHJScGdudGlOVU9xX215SUpGWE0zQTZwX0xYT2tTNXp3YzNnYndRcHZFTHpRUlJodm9XZGVyOWhJZFhQRlNKck9OeFFkcWpOa2szSTlwanlhbzEzMmdROTh1cTlqdWtjcU9MdzM1dHVzR0R5T2RGOG1mdTUzOW1vUUNBcC16bTQwc3pHUTlmYURYVkhoSXYyOVNkMm92bDJiZw?oc=5</guid>
 <pubDate>Thu, 01 Oct 2026 09:17:37 GMT</pubDate>
 
 </item>
 <item>
-<title>[Google News] Huawei collaborates with DeepSeek on AI chip software - TahawulTech.com</title>
+<title>[Google News] Huawei collaborates with DeepSeek on AI chip software - tahawultech.com</title>
 <link>https://news.google.com/rss/articles/CBMimAFBVV95cUxOYnNueFVzZTAyLXYwNUpKWGZudHkxOFQ5VW03MDdSa0FmVXN6Si00QzdmbjV3VFVuTzl1eGVMMy0xTlNDYzRIOGFpWDlyY3JOcWNmeWYzdjUwaVN3LV94M0FBRDB5YzhVQlA1RnZhc1BoX3AzN1hvXzFYMEZfeFpZSFdYbm53YTN6NE1aLXB1YmhXalpCUERjYg?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMimAFBVV95cUxOYnNueFVzZTAyLXYwNUpKWGZudHkxOFQ5VW03MDdSa0FmVXN6Si00QzdmbjV3VFVuTzl1eGVMMy0xTlNDYzRIOGFpWDlyY3JOcWNmeWYzdjUwaVN3LV94M0FBRDB5YzhVQlA1RnZhc1BoX3AzN1hvXzFYMEZfeFpZSFdYbm53YTN6NE1aLXB1YmhXalpCUERjYg?oc=5</guid>
 <pubDate>Thu, 01 Oct 2026 08:34:35 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] California governor orders agencies to retain ‘artificial intelligence’ terminology - Operativ Məlumat Mərkəzi</title>
+<link>https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOVN6WkZseFAyajljN2cxcXVneFJlRXB5bW9yQ3JjVHBnX19zMFBEcFFPNU5SME5tLXFuZGRrMGwxRzZiQmpIX0pmbE9vT25PQnZKSHBPUWQ0dmo1SHVodzFaMjJ5dTZsSVdIckhlbEFKeUpBUnFhb1Z0UnUyX3JQNW1BS3JJb2Y5ZFJjSWw3MzNoMWpSdzlzLVExcmIxZE9PdWU2NzVQVUV3MjJlUV9TOWgwMDcxT3VL?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOVN6WkZseFAyajljN2cxcXVneFJlRXB5bW9yQ3JjVHBnX19zMFBEcFFPNU5SME5tLXFuZGRrMGwxRzZiQmpIX0pmbE9vT25PQnZKSHBPUWQ0dmo1SHVodzFaMjJ5dTZsSVdIckhlbEFKeUpBUnFhb1Z0UnUyX3JQNW1BS3JJb2Y5ZFJjSWw3MzNoMWpSdzlzLVExcmIxZE9PdWU2NzVQVUV3MjJlUV9TOWgwMDcxT3VL?oc=5</guid>
+<pubDate>Thu, 01 Oct 2026 07:03:09 GMT</pubDate>
 
 </item>
 <item>
@@ -252,6 +280,13 @@
 
 </item>
 <item>
+<title>[Google News] Industry Advocates Testify on Risks of Artificial Intelligence - C-SPAN</title>
+<link>https://news.google.com/rss/articles/CBMitgFBVV95cUxPenBHaHk5b3kwRlFJOUJTclFlaE1ndmV6VGx0MEtWMWxyLUY4UUJISVVvdjItLVlzZzNpYWdCZkVjbmpuWWpKODNkaXN0TXNVbkp5UWlWTURWZDJqSnNIT3V3SEVZRWdfTjZFR1Jmc09KOE9EckFZMDRna1hxWlE2SDFaRDRJVWVULUxzVDluT0JUdmFSNG50SkoydENTMHJva05QRHB6eG5BYnFQbzFQNzc1UXlJdw?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitgFBVV95cUxPenBHaHk5b3kwRlFJOUJTclFlaE1ndmV6VGx0MEtWMWxyLUY4UUJISVVvdjItLVlzZzNpYWdCZkVjbmpuWWpKODNkaXN0TXNVbkp5UWlWTURWZDJqSnNIT3V3SEVZRWdfTjZFR1Jmc09KOE9EckFZMDRna1hxWlE2SDFaRDRJVWVULUxzVDluT0JUdmFSNG50SkoydENTMHJva05QRHB6eG5BYnFQbzFQNzc1UXlJdw?oc=5</guid>
+<pubDate>Thu, 01 Oct 2026 00:04:37 GMT</pubDate>
+
+</item>
+<item>
 <title>[News] The Den frees up 10-15 hours a week to grow with ChatGPT Work</title>
 <link>https://openai.com/index/the-den-family-social</link>
 <guid isPermaLink="false">https://openai.com/index/the-den-family-social</guid>
@@ -287,7 +322,7 @@
 
 </item>
 <item>
-<title>[Google News] Rapid City Legal and Finance Committee review Artificial Intelligence policy for city staff - newscenter1.tv</title>
+<title>[Google News] Rapid City Legal and Finance Committee review Artificial Intelligence policy for city staff - NewsCenter1</title>
 <link>https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazN0WjZMeUptRHFja2JxeEVlV2hud2JlTlRoVFFrdzJEMVo0QVI4VnoxQ1kyc2thOFpUOGc5ZkpSajMyWXZsRm9raExac3B2cXplakIwdDNxZm5UMFQyZ2ZzYlhodHc5VjRxZkFnaEZTcWxGSm54dkU5YVlWYVJmUy1xVjJyVWhiVDdfQWs4OF9rZW1ZbE9JVXNFOW4yWC1mVHN5OWs0UEF1Z0RwY2liT05OWTc1M3Z5NlhfdFpXdWVtTUh5b0Zodg?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiyAFBVV95cUxQazN0WjZMeUptRHFja2JxeEVlV2hud2JlTlRoVFFrdzJEMVo0QVI4VnoxQ1kyc2thOFpUOGc5ZkpSajMyWXZsRm9raExac3B2cXplakIwdDNxZm5UMFQyZ2ZzYlhodHc5VjRxZkFnaEZTcWxGSm54dkU5YVlWYVJmUy1xVjJyVWhiVDdfQWs4OF9rZW1ZbE9JVXNFOW4yWC1mVHN5OWs0UEF1Z0RwY2liT05OWTc1M3Z5NlhfdFpXdWVtTUh5b0Zodg?oc=5</guid>
 <pubDate>Wed, 30 Sep 2026 22:51:42 GMT</pubDate>
@@ -299,13 +334,6 @@
 <guid isPermaLink="false">https://developer.nvidia.com/blog/deploying-an-hstu-generative-recommender-with-nvidia-dynamo-triton/</guid>
 <pubDate>Wed, 30 Sep 2026 20:54:59 GMT</pubDate>
 <description>Generative recommender (GR) systems are emerging as a powerful new approach for large-scale personalization. Instead of treating recommendation as a set of...</description>
-</item>
-<item>
-<title>[Google News] Artificial Intelligence: Gabon Prepares Its Strategy - Powers of Africa</title>
-<link>https://news.google.com/rss/articles/CBMilgFBVV95cUxOZjRaOFlZemNNb25NazR1TVlKS0prTHNydUM4OHpLbDNIZy1IcnlPeUZtRzJwangxR3BhbGJHaVBuVFl0ZkYzNWJ3N2hZcEQyWWlhNXJjZ1Z0bTlNOS1zcWoycGd0V0kyY0dBMGFmdmctOU1BQVRVR2o2WUF3V0U2aHlxanB5T2l3bDBUMG5xc01VdkhrT0HSAZsBQVVfeXFMTmZ5SjZxWFZpdEo3NkJfZThOQmJhSWszbVFRYXh5dW1TeVN5b3BISkxsRlhSUng4S0pnRHFrdlFhZ3NRRjJOaFdfZFE3WTF5cjA0cU9OZENnVHJtSDYyRVl5VS1DbFZ1SkxHcHQzOU9FaEM0OTg3UEJERURwNGllSHNvZUlRSU0ycHpNSzU3NmdIY3pCN1BJakVNblk?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMilgFBVV95cUxOZjRaOFlZemNNb25NazR1TVlKS0prTHNydUM4OHpLbDNIZy1IcnlPeUZtRzJwangxR3BhbGJHaVBuVFl0ZkYzNWJ3N2hZcEQyWWlhNXJjZ1Z0bTlNOS1zcWoycGd0V0kyY0dBMGFmdmctOU1BQVRVR2o2WUF3V0U2aHlxanB5T2l3bDBUMG5xc01VdkhrT0HSAZsBQVVfeXFMTmZ5SjZxWFZpdEo3NkJfZThOQmJhSWszbVFRYXh5dW1TeVN5b3BISkxsRlhSUng4S0pnRHFrdlFhZ3NRRjJOaFdfZFE3WTF5cjA0cU9OZENnVHJtSDYyRVl5VS1DbFZ1SkxHcHQzOU9FaEM0OTg3UEJERURwNGllSHNvZUlRSU0ycHpNSzU3NmdIY3pCN1BJakVNblk?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 20:26:53 GMT</pubDate>
-
 </item>
 <item>
 <title>[DeepMind] Gemini 4 Argon: our next era of frontier intelligence</title>
@@ -341,20 +369,6 @@
 <guid isPermaLink="false">https://www.youtube.com/watch?v=vmAIpEHrCok</guid>
 <pubDate>Wed, 30 Sep 2026 19:09:36 GMT</pubDate>
 <description>This demo is a side-by-side comparison of two AI coding agents tasked with building a Go-based RDMA application using NVIDIA DOCA on a BlueField-3 platform. Both agents are given the same goal: implement a working RDMA data path and verify that bytes successfully arrive on hardware. The key differen</description>
-</item>
-<item>
-<title>[Google News] Brazilian Startup Wins Global Award in Taiwan for AI Solution for Corporate Data - manilatimes.net</title>
-<link>https://news.google.com/rss/articles/CBMi6gFBVV95cUxPb1F3b09yVEZPdU1keGkweHcwenk3NWpsVXpreUxtZGhtQWtHd19vMzRsMGxVS2pfNE8weTFBMHZ5MFFqX2xiWTJIeFdpVlFlTmgzemJYU1NPX2VPMUh0Zk1tTnBJYWRyMW5vbm9IaEt5eFlWd25JZGJ6YkJuSjVVWXBjRF9oakVqVFR0SzFEN0tNcU1qTThXcEU2Y3FzcnJJejZ5SXREbEtBYlRNZGY1N0E0LS0wRnVCdjZ2NjZxZ28zalNHdmxETW1OemxjNjFVMzAyTHB6YnhPQ1EyT1BrbHloMDN6UVJPLXfSAe8BQVVfeXFMT1NwU3pMSUc4LVdTbWJTTnQ5RllIZW8yd3N6bm9tSmRzS2p1YmhDaGdLVnZSQlhPRnFCaGlTQTZKd3lici1Xa0k0M21VbGhHZUxjYjN3WVhnYnl5MVFJT3NMQXdvcGhPSEYwNFYtcVowV1l6ckhXemtLNUVlampVQkh1VnRNUUxXd3JDbTc3SW5NeDhFYlBMd1dQZG9LclJtZVJSQ2NvYWZISTlqU1lnZExrUkU0MVVrMWViNURUS19ORVJmOURFMzd5dGdVcUtVS0FURFhuMjgwYlNpYnNjOV9JZXAxV21zU2FVaEpGcW8?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi6gFBVV95cUxPb1F3b09yVEZPdU1keGkweHcwenk3NWpsVXpreUxtZGhtQWtHd19vMzRsMGxVS2pfNE8weTFBMHZ5MFFqX2xiWTJIeFdpVlFlTmgzemJYU1NPX2VPMUh0Zk1tTnBJYWRyMW5vbm9IaEt5eFlWd25JZGJ6YkJuSjVVWXBjRF9oakVqVFR0SzFEN0tNcU1qTThXcEU2Y3FzcnJJejZ5SXREbEtBYlRNZGY1N0E0LS0wRnVCdjZ2NjZxZ28zalNHdmxETW1OemxjNjFVMzAyTHB6YnhPQ1EyT1BrbHloMDN6UVJPLXfSAe8BQVVfeXFMT1NwU3pMSUc4LVdTbWJTTnQ5RllIZW8yd3N6bm9tSmRzS2p1YmhDaGdLVnZSQlhPRnFCaGlTQTZKd3lici1Xa0k0M21VbGhHZUxjYjN3WVhnYnl5MVFJT3NMQXdvcGhPSEYwNFYtcVowV1l6ckhXemtLNUVlampVQkh1VnRNUUxXd3JDbTc3SW5NeDhFYlBMd1dQZG9LclJtZVJSQ2NvYWZISTlqU1lnZExrUkU0MVVrMWViNURUS19ORVJmOURFMzd5dGdVcUtVS0FURFhuMjgwYlNpYnNjOV9JZXAxV21zU2FVaEpGcW8?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 18:10:18 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] US Federal Agencies Ordered to Rebrand Artificial Intelligence as ‘Super Intelligence’ - azat.tv</title>
-<link>https://news.google.com/rss/articles/CBMic0FVX3lxTE5fQjVzTnpKU3FLV0UxUG1EYXg3SWFpcnFyQzI3NVd5SDEtWEw3Zzk0b1VXX2RMc1l0TzU2VkxMcVAzWkxtMndLRGRhS3Q1VVJhM3VWamJYTW0wVzhZdXlDejNacTdIcmNTdnc0Wi02Q1NiY0k?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMic0FVX3lxTE5fQjVzTnpKU3FLV0UxUG1EYXg3SWFpcnFyQzI3NVd5SDEtWEw3Zzk0b1VXX2RMc1l0TzU2VkxMcVAzWkxtMndLRGRhS3Q1VVJhM3VWamJYTW0wVzhZdXlDejNacTdIcmNTdnc0Wi02Q1NiY0k?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 18:00:00 GMT</pubDate>
-
 </item>
 <item>
 <title>[Blog] NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000</title>
@@ -411,20 +425,6 @@
 <guid isPermaLink="false">https://blogs.nvidia.com/blog/coreweave-agentic-ai-vera-rubin/</guid>
 <pubDate>Wed, 30 Sep 2026 15:00:00 +0000</pubDate>
 <description>Building on nearly a decade of co-engineering, CoreWeave has built NVIDIA compute, networking and software into a cloud purpose-built for AI that’s still returning on investment across multiple generations of deployment. Now, CoreWeave is bringing the next generation of NVIDIA infrastructure to prod</description>
-</item>
-<item>
-<title>[Google News] DeepSeek, Huawei team on AI chip software - Mobile World Live</title>
-<link>https://news.google.com/rss/articles/CBMiigFBVV95cUxQQl9DUnFEUS12TGdGMzJOQTRpYVlZYnBETnhzakZwRU5GSXl4MTVXUmt0UDdUZUU4Y2NCVmgtY2JDa1BSc3p0c0NnUEpBMjJNd2ZqdTBsUEc4NGpjLS1RTGtyMWM1dW1yVWs1aWJaTkVQemVUdjBYdG5mQ0ZxRTBMaWJpUkY5dFVyU2c?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiigFBVV95cUxQQl9DUnFEUS12TGdGMzJOQTRpYVlZYnBETnhzakZwRU5GSXl4MTVXUmt0UDdUZUU4Y2NCVmgtY2JDa1BSc3p0c0NnUEpBMjJNd2ZqdTBsUEc4NGpjLS1RTGtyMWM1dW1yVWs1aWJaTkVQemVUdjBYdG5mQ0ZxRTBMaWJpUkY5dFVyU2c?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 14:43:57 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] China's AI industry closes ranks as Deepseek ships open-source software for Huawei's Ascend chips - The Decoder</title>
-<link>https://news.google.com/rss/articles/CBMivAFBVV95cUxPZlQycWp6TUpST2t5bnViR29jRnVFY1BabjFfejhDcnFpWjFQNFJ1Y25EdjV5QlJvc2ZfWVBnUHhSSGlnY0tCd3ZQVW9JYVpYVU5lZGowY1ZJYUU0TmdabTlqV3RkUlVuazRXNzh2VGtJeG5KRVB0Y1ZWRmtkcXc3ZWQzcXBiai03UXpONmp0YWo1OVhOTkVwTmhMT3o1bmZRaENnMHUyc1hFWVF2QTg2eUtHbXJ1dk1SWFg0NQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivAFBVV95cUxPZlQycWp6TUpST2t5bnViR29jRnVFY1BabjFfejhDcnFpWjFQNFJ1Y25EdjV5QlJvc2ZfWVBnUHhSSGlnY0tCd3ZQVW9JYVpYVU5lZGowY1ZJYUU0TmdabTlqV3RkUlVuazRXNzh2VGtJeG5KRVB0Y1ZWRmtkcXc3ZWQzcXBiai03UXpONmp0YWo1OVhOTkVwTmhMT3o1bmZRaENnMHUyc1hFWVF2QTg2eUtHbXJ1dk1SWFg0NQ?oc=5</guid>
-<pubDate>Wed, 30 Sep 2026 14:40:23 GMT</pubDate>
-
 </item>
 </channel>
 </rss>
