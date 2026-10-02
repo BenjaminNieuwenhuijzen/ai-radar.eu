@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-sonnet-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-sonnet-5",
+  "name": "Claude Sonnet 5",
+  "aliases": [
+    {
+      "text": "Claude Sonnet 5",
+      "match": "auto"
+    },
+    {
+      "text": "Sonnet 5",
+      "match": "auto"
+    },
+    {
+      "text": "claude-sonnet-5",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-sonnet",
+  "generation": "5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-sonnet-5-docs",
+        "locator": "Availability"
+      },
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status table"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-06-30",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-5-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-sonnet-5-docs",
+          "locator": "Availability: Released"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-sonnet-4-6",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-5-announcement",
+          "locator": "opening section"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "June 30, 2026"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Sonnet 5 is a language model that Anthropic calls the next generation of its Sonnet family, released on 30 June 2026 on all Claude plans, the Claude API and major cloud platforms, and made the default for Free and Pro users. It takes text and image input with a 1M token context window, has adaptive thinking on by default and launched with cyber safeguards enabled.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-sonnet-5-announcement"
+      },
+      {
+        "id": "src.anthropic.api-release-notes",
+        "locator": "June 30, 2026"
+      },
+      {
+        "id": "src.anthropic.claude-sonnet-5-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "adaptive-thinking-default",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "text": "Adaptive thinking is on by default; manual extended thinking budgets, deprecated on Sonnet 4.6, now return an error.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "June 30, 2026"
+        }
+      ]
+    },
+    {
+      "id": "tokenizer",
+      "aspect": "other",
+      "direction": "changed",
+      "text": "Uses a new tokenizer; the release notes estimate about 30% more tokens for the same text, depending on the content.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "June 30, 2026"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "aspect": "other",
+      "direction": "changed",
+      "text": "Priced at 2 USD input and 10 USD output per million tokens, against 3 and 15 USD for Sonnet 4.6; the introductory price became standard on 10 August 2026.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "June 30, 2026; August 10, 2026"
+        },
+        {
+          "id": "src.anthropic.claude-sonnet-4-6-announcement"
+        }
+      ]
+    },
+    {
+      "id": "cyber-safeguards",
+      "aspect": "safety",
+      "direction": "added",
+      "text": "Launched with cyber safeguards on by default, the same as on Claude Opus 4.7 and Opus 4.8.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-5-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-5-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-5-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-5-docs",
+          "locator": "Capabilities: Context window"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-sonnet-5-announcement",
+          "locator": "opening section"
+        },
+        {
+          "id": "src.anthropic.claude-sonnet-5-docs",
+          "locator": "Availability: Platforms"
+        }
+      ]
+    }
+  }
+}

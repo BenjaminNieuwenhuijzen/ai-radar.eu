@@ -77,10 +77,15 @@ export function modelEvents(m, ctx) {
     rel(r.type === "variant-of" ? "Variant" : r.type === "revision-of" ? "Revision" : "Derived", id);
   });
   // Source events: only the model's own (primary) documents; secondary coverage is not part of its life.
+  // A document published before the model was first announced or released is about an earlier
+  // model (cited for comparison), so its publication is not an event in this model's life.
+  const firstDay = [d.announced, d.released, td && td.dv].map(x => x && interval(x.value)).filter(Boolean).map(iv => iv[0]);
+  const start = firstDay.length ? Math.min(...firstDay) : null;
   for (const s of ctx.sources(m)) {
     if (s.provenance === "secondary") continue;
     const noun = SOURCE_NOUN[s.type] || "Source";
-    if (s.publishedAt && parseDate(s.publishedAt.value)) add("src", `${noun} published`, s.publishedAt);
+    const pub = s.publishedAt && interval(s.publishedAt.value);
+    if (pub && !(start !== null && pub[1] < start)) add("src", `${noun} published`, s.publishedAt);
     if (s.archiveUrl && s.archivedAt && parseDate(isoDay(s.archivedAt))) add("src", `${noun} archived`, { value: isoDay(s.archivedAt) });
     const st = ctx.status(s.id);
     const archiveInUse = s.archiveUrl && !(st && st.archiveState === "gone") ? "Archived copy in use" : null;

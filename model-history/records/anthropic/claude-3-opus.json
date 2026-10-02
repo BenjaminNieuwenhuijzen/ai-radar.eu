@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-3-opus",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-3-opus",
+  "name": "Claude 3 Opus",
+  "aliases": [
+    {
+      "text": "Claude 3 Opus",
+      "match": "auto"
+    },
+    {
+      "text": "claude-3-opus-20240229",
+      "match": "auto"
+    },
+    {
+      "text": "Claude Opus 3",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-opus",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Deprecation history, 2025-06-30"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-03-04",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement",
+          "locator": "Model availability"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-06-30",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Deprecation history, 2025-06-30"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "June 30, 2025"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-01-05",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Deprecation history, 2025-06-30"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "January 5, 2026"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-2-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement",
+          "locator": "title; Near-instant results; Improved accuracy"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Claude 3 Opus is a language model from Anthropic that accepts text and images and responds in text. It was introduced with Claude 3 Sonnet and Claude 3 Haiku as the Claude 3 family, which Anthropic ordered by capability with Opus above the other two, and was offered through the Claude API and on claude.ai for Claude Pro subscribers.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-3-family-announcement"
+      },
+      {
+        "id": "src.anthropic.claude-3-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "text": "Accepts images such as tables, graphs and photos next to text; the Claude 3 model card names multimodal input as a key enhancement of the family.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-model-card"
+        }
+      ]
+    },
+    {
+      "id": "fewer-refusals",
+      "aspect": "safety",
+      "direction": "changed",
+      "text": "Anthropic says the Claude 3 models refuse borderline but harmless prompts less often than earlier Claude models.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement"
+        }
+      ]
+    },
+    {
+      "id": "factual-accuracy",
+      "aspect": "other",
+      "direction": "changed",
+      "text": "Anthropic says it answers difficult open-ended factual questions correctly more often than Claude 2.1, and gives fewer incorrect answers.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "text": "Knowledge cutoff of August 2023, according to the Claude 3 model card.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-model-card",
+          "locator": "Abstract; 1 Introduction"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-model-card",
+          "locator": "1 Introduction"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement",
+          "locator": "Model details; Long context and near-perfect recall"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement",
+          "locator": "Model availability"
+        }
+      ]
+    }
+  },
+  "notes": "Access as stated at launch: Claude API and claude.ai for Claude Pro subscribers; Amazon Bedrock and Google Cloud Vertex AI were announced as coming soon. The announcement marks the 200K window with a footnote that 1M tokens were available for specific use cases on request. The 20240229 in the API id is a snapshot date, not the release date. Deprecation and retirement dates apply to Anthropic-operated platforms (deprecations page)."
+}

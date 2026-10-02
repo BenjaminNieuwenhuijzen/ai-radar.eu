@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-2",
+  "name": "Claude 2",
+  "aliases": [
+    {
+      "text": "Claude 2",
+      "match": "auto"
+    },
+    {
+      "text": "Claude 2.0",
+      "match": "auto"
+    },
+    {
+      "text": "claude-2.0",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "2025-01-21: Claude 2, Claude 2.1, and Claude Sonnet 3 models"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-07-11",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-announcement"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-01-21",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2025-01-21: Claude 2, Claude 2.1, and Claude Sonnet 3 models"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "January 21st, 2025"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-07-21",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2025-01-21: Claude 2, Claude 2.1, and Claude Sonnet 3 models"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "July 21, 2025"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.anthropic.claude-2-model-card",
+          "locator": "section 2, Claude 2 Model Card"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude 2 is the successor to Anthropic's Claude language model, released in July 2023 through the API and claude.ai, a new public beta chat site open to users in the US and UK. It accepted prompts of up to 100K tokens, and Anthropic's model card describes it as an evolution of its earlier Claude models rather than a major change. It was later also offered on Amazon Bedrock.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-2-announcement"
+      },
+      {
+        "id": "src.anthropic.claude-2-model-card",
+        "locator": "section 2, Claude 2 Model Card"
+      },
+      {
+        "id": "src.anthropic.claude-2-amazon-bedrock-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "claude-ai-beta",
+      "aspect": "availability",
+      "direction": "added",
+      "relativeTo": "anthropic.claude-1",
+      "text": "Launched with claude.ai, a public beta chat site for users in the US and UK; Claude had been offered through a console chat interface, the API and partner products.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-1-announcement"
+        }
+      ]
+    },
+    {
+      "id": "coding-maths-reasoning",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-1",
+      "text": "Anthropic reports better coding, maths and reasoning than its previous models, and longer responses of up to a few thousand tokens in one go.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-1",
+      "text": "Trained on more recent data, according to Anthropic; the model card puts the end of the training data in early 2023.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-2-model-card"
+        }
+      ]
+    },
+    {
+      "id": "harmless-responses",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-1",
+      "text": "Gave harmless responses more often than Claude 1.3 in Anthropic's internal red-teaming evaluation.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "contextWindowTokens": {
+      "value": 100000,
+      "asStated": "100K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-2-model-card",
+          "locator": "Claude 2.1 Model Card Appendix, section 2"
+        }
+      ],
+      "note": "100K tokens per prompt at launch. The model card states the model was trained for 200K tokens; full 200K support came with Claude 2.1."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-pro-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-2-amazon-bedrock-announcement"
+        }
+      ]
+    }
+  }
+}

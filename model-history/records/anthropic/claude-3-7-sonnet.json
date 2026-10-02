@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-3-7-sonnet",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-3-7-sonnet",
+  "name": "Claude 3.7 Sonnet",
+  "aliases": [
+    {
+      "text": "Claude 3.7 Sonnet",
+      "match": "auto"
+    },
+    {
+      "text": "Claude Sonnet 3.7",
+      "match": "auto"
+    },
+    {
+      "text": "claude-3-7-sonnet-20250219",
+      "match": "auto"
+    },
+    {
+      "text": "Sonnet 3.7",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-sonnet",
+  "generation": "3.7",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02-24",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-7-sonnet-announcement"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "February 24th, 2025"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-10-28",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2025-10-28: Claude Sonnet 3.7 model"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "October 28, 2025"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-02-19",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2025-10-28: Claude Sonnet 3.7 model"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "February 19, 2026"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-3-5-sonnet-2024-10",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-7-sonnet-announcement"
+        }
+      ],
+      "note": "The announcement presents the standard mode as an upgraded Claude 3.5 Sonnet without naming a snapshot; the October 2024 upgrade was the current Claude 3.5 Sonnet at the time."
+    }
+  ],
+  "summary": {
+    "text": "Claude 3.7 Sonnet is a language model in Anthropic's Sonnet line that accepts text and images and was offered in the Claude apps, on the Anthropic API, Amazon Bedrock and Google Cloud Vertex AI. Anthropic calls it a hybrid reasoning model: it gives standard answers or, in an extended thinking mode, shows its reasoning step by step.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-3-7-sonnet-announcement"
+      },
+      {
+        "id": "src.anthropic.transparency-hub-model-report",
+        "locator": "Claude 3.7 Sonnet Summary Table, Modalities"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "extended-thinking",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "anthropic.claude-3-5-sonnet-2024-10",
+      "text": "Adds an optional extended thinking mode that shows step-by-step reasoning before the answer; the standard mode remains available.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-7-sonnet-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-3-7-sonnet-system-card",
+          "locator": "section 1.2"
+        }
+      ]
+    },
+    {
+      "id": "thinking-budget",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "anthropic.claude-3-5-sonnet-2024-10",
+      "text": "API users can set a thinking budget in tokens, up to an output limit that the announcement gives as 128K tokens.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-7-sonnet-announcement"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-3-5-sonnet-2024-10",
+      "text": "Trained on public web data through November 2024, with a knowledge cutoff at the end of October 2024.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-7-sonnet-system-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.transparency-hub-model-report",
+          "locator": "Claude 3.7 Sonnet Summary Table, Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.transparency-hub-model-report",
+          "locator": "Claude 3.7 Sonnet Summary Table, Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.anthropic.claude-3-7-sonnet-announcement"
+          },
+          {
+            "id": "src.anthropic.claude-3-7-sonnet-system-card",
+            "locator": "section 1.2"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-7-sonnet-announcement"
+        }
+      ]
+    }
+  },
+  "notes": "Later Anthropic pages (deprecations page, release notes, Claude 4 system card) call this model Claude Sonnet 3.7. The system card places it in the Claude 3 family. No current primary source states its context window, so contextWindowTokens is left out."
+}

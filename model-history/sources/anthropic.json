@@ -1,0 +1,811 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.anthropic.100k-context-windows-announcement",
+      "type": "announcement",
+      "title": "Introducing 100K context windows",
+      "url": "https://www.anthropic.com/news/100k-context-windows",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-05-11"
+      },
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.3-5-models-and-computer-use-announcement",
+      "type": "announcement",
+      "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
+      "url": "https://www.anthropic.com/news/3-5-models-and-computer-use",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2024-10-22"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Carries an update note dated 12/03/2024 revising the Claude 3.5 Haiku price.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.api-release-notes",
+      "type": "release-notes",
+      "title": "Claude Platform release notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page; content as seen on 2026-10-01; earliest entry May 2024. The old address https://docs.anthropic.com/en/release-notes/api redirects here (301 to platform.claude.com/docs/en/release-notes/api, then 307).",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-1-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude",
+      "url": "https://www.anthropic.com/news/introducing-claude",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-03-14"
+      },
+      "notes": "Announces both Claude and Claude Instant.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-2-1-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude 2.1",
+      "url": "https://www.anthropic.com/news/claude-2-1",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-11-21"
+      },
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-2-amazon-bedrock-announcement",
+      "type": "announcement",
+      "title": "Claude 2 on Amazon Bedrock",
+      "url": "https://claude.com/blog/claude-2-amazon-bedrock",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-08-23"
+      },
+      "notes": "Originally published at https://www.anthropic.com/news/claude-2-amazon-bedrock, which now redirects (308) to this claude.com address; the page declares the claude.com URL as canonical.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-2-announcement",
+      "type": "announcement",
+      "title": "Claude 2",
+      "url": "https://www.anthropic.com/news/claude-2",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-07-11"
+      },
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-2-model-card",
+      "type": "model-card",
+      "title": "Model Card and Evaluations for Claude Models",
+      "url": "https://www.anthropic.com/claude-2-model-card",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Published link to a PDF. It redirects (307, temporary) via https://www.anthropic.com/document/claude-2-model-card to a content-hashed file that changes with each revision; on 2026-10-01 that was https://www-cdn.anthropic.com/5c49cc247484cecf107c699baf29250302e5da70/ModelCardClaudev2_with_appendix_v1.pdf. The PDF ends with a Claude 2.1 Model Card Appendix; the document says the appendix was added on 2023-11-21. A copy without the appendix is at https://www-cdn.anthropic.com/bd2a28d2535bfb0494cc8e2a3bf135d2e7523226/Model-Card-Claude-2.pdf.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-3-5-october-model-card-addendum",
+      "type": "model-card",
+      "title": "Model Card Addendum: Claude 3.5 Haiku and Upgraded Claude 3.5 Sonnet",
+      "url": "https://www-cdn.anthropic.com/c7822cdc35ad788ec87e14b3a9d45010f1f86c38.pdf",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "The October 2024 announcement links https://assets.anthropic.com/m/1cd9d098ac3e6467/original/Claude-3-Model-Card-October-Addendum.pdf, which redirects (301) to this URL. The docs Model cards page links this URL directly as Claude Haiku 3.5 and Sonnet 3.5 System Card. The document itself states no date.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-3-5-sonnet-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude 3.5 Sonnet",
+      "url": "https://www.anthropic.com/news/claude-3-5-sonnet",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2024-06-21"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Title from the HTML title; the page heading reads Claude 3.5 Sonnet. The page shows Jun 21, 2024, while the API release notes and the Claude 3 model card update note give June 20, 2024 for the launch.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-3-5-sonnet-model-card-addendum",
+      "type": "model-card",
+      "title": "Claude 3.5 Sonnet Model Card Addendum",
+      "url": "https://www-cdn.anthropic.com/fed9cc193a14b84131812372d8d5857f8f304c52/Model_Card_Claude_3_Addendum.pdf",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "PDF linked from the Claude 3.5 Sonnet announcement. The document itself states no date.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-3-7-sonnet-announcement",
+      "type": "announcement",
+      "title": "Claude 3.7 Sonnet and Claude Code",
+      "url": "https://www.anthropic.com/news/claude-3-7-sonnet",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2025-02-24"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-3-7-sonnet-system-card",
+      "type": "system-card",
+      "title": "Claude 3.7 Sonnet System Card",
+      "url": "https://www.anthropic.com/claude-3-7-sonnet-system-card",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Published link to a PDF. It redirects (307, temporary) via https://www.anthropic.com/document/claude-3-7-sonnet-system-card to a content-hashed file that changes with each revision; on 2026-10-01 that was https://www-cdn.anthropic.com/9ff93dfa8f445c932415d335c88852ef47f1201e/claude-3-7-sonnet-system-card.pdf. No date is printed on it.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-3-family-announcement",
+      "type": "announcement",
+      "title": "Introducing the next generation of Claude",
+      "url": "https://www.anthropic.com/news/claude-3-family",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2024-03-04"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-3-haiku-announcement",
+      "type": "announcement",
+      "title": "Claude 3 Haiku: our fastest model yet",
+      "url": "https://www.anthropic.com/news/claude-3-haiku",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2024-03-13"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-3-model-card",
+      "type": "model-card",
+      "title": "The Claude 3 Model Family: Opus, Sonnet, Haiku",
+      "url": "https://www.anthropic.com/claude-3-model-card",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Link as published in the Claude 3 announcement and on the docs Model cards page (listed there as Claude 3 Model Card). On 2026-10-01 it answered with temporary 307 redirects via https://www.anthropic.com/document/claude-3-model-card to the PDF https://www-cdn.anthropic.com/c6a80a657af445f40e31afac050f3bf76d3b1404/Claude%203%20Model%20Card.pdf. The current PDF carries update notes dated June 20, 2024 and October 22, 2024 and includes both 3.5 addenda. No publication date stated for the original card.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-4-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude 4",
+      "url": "https://www.anthropic.com/news/claude-4",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2025-05-22"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Announces Claude Opus 4 and Claude Sonnet 4 together.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-4-system-card",
+      "type": "system-card",
+      "title": "System Card: Claude Opus 4 & Claude Sonnet 4",
+      "url": "https://www.anthropic.com/claude-4-system-card",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2025-05"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Published link to a PDF. It redirects (307, temporary) via https://www.anthropic.com/document/claude-4-system-card to a content-hashed file that changes with each revision; on 2026-10-01 that was https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285/Claude%204%20System%20Card.pdf. The cover gives May 2025; the changelog inside lists revisions dated 2025-07-16 and 2025-09-02.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-fable-5-1-docs",
+      "type": "documentation",
+      "title": "Claude Fable 5.1",
+      "url": "https://platform.claude.com/docs/en/models/fable-5-1/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-fable-5-1-mythos-5-1-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-09"
+      },
+      "notes": "Title from the HTML title; the page is dated September 2026 without a day. Lives outside /news/; https://www.anthropic.com/news/claude-fable-and-mythos-5-1 returns 404.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-fable-5-docs",
+      "type": "documentation",
+      "title": "Claude Fable 5",
+      "url": "https://platform.claude.com/docs/en/models/fable-5/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-fable-5-migration-guide",
+      "type": "documentation",
+      "title": "Migrating to Claude Mythos 5 and Claude Fable 5",
+      "url": "https://platform.claude.com/docs/en/models/fable-5/migration-guide",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-fable-5-mythos-5-announcement",
+      "type": "announcement",
+      "title": "Claude Fable 5 and Claude Mythos 5",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-06-09"
+      },
+      "notes": "The page carries later update notices dated Jun 12, 2026 (access suspended) and Jul 1, 2026 (models redeployed).",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-haiku-4-5-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Haiku 4.5",
+      "url": "https://www.anthropic.com/news/claude-haiku-4-5",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2025-10-15"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-haiku-4-5-docs",
+      "type": "documentation",
+      "title": "Claude Haiku 4.5",
+      "url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the Claude Platform docs; living page, content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-haiku-4-5-system-card",
+      "type": "system-card",
+      "title": "System Card: Claude Haiku 4.5",
+      "url": "https://www.anthropic.com/claude-haiku-4-5-system-card",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2025-10"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Published link to a PDF. It redirects (307, temporary) via https://www.anthropic.com/document/claude-haiku-4-5-system-card to a content-hashed file that changes with each revision; on 2026-10-01 that was https://www-cdn.anthropic.com/7aad69bf12627d42234e01ee7c36305dc2f6a970/Claude%20Haiku%204.5%20System%20Card.pdf. The cover gives October 2025.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-instant-1-2-announcement",
+      "type": "announcement",
+      "title": "Releasing Claude Instant 1.2",
+      "url": "https://www.anthropic.com/news/releasing-claude-instant-1-2",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-08-09"
+      },
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-mythos-5-1-docs",
+      "type": "documentation",
+      "title": "Claude Mythos 5.1",
+      "url": "https://platform.claude.com/docs/en/models/mythos-5-1/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-mythos-5-docs",
+      "type": "documentation",
+      "title": "Claude Mythos 5",
+      "url": "https://platform.claude.com/docs/en/models/mythos-5/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-4-1-announcement",
+      "type": "announcement",
+      "title": "Claude Opus 4.1",
+      "url": "https://www.anthropic.com/news/claude-opus-4-1",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2025-08-05"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-4-1-system-card",
+      "type": "system-card",
+      "title": "System Card Addendum: Claude Opus 4.1",
+      "url": "https://www.anthropic.com/claude-opus-4-1-system-card",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2025-08"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Published link to a PDF. It redirects (307, temporary) via https://www.anthropic.com/document/claude-opus-4-1-system-card to a content-hashed file that changes with each revision; on 2026-10-01 that was https://www-cdn.anthropic.com/9fa30625273bafdf5af82c93719d7ca606485a16/Claude%204.1%20System%20Card.pdf. The cover gives August 2025; the changelog inside lists a revision dated 2025-09-15.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-4-5-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Opus 4.5",
+      "url": "https://www.anthropic.com/news/claude-opus-4-5",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2025-11-24"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-4-5-docs",
+      "type": "documentation",
+      "title": "Claude Opus 4.5",
+      "url": "https://platform.claude.com/docs/en/models/opus-4-5/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the Claude Platform docs; living page, content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-4-5-system-card",
+      "type": "system-card",
+      "title": "System Card: Claude Opus 4.5",
+      "url": "https://www.anthropic.com/claude-opus-4-5-system-card",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2025-11"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Published link to a PDF. It redirects (307, temporary) via https://www.anthropic.com/document/claude-opus-4-5-system-card to a content-hashed file that changes with each revision; on 2026-10-01 that was https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47/Claude%20Opus%204.5%20System%20Card.pdf. The cover gives November 2025; the changelog inside lists revisions dated 2025-11-24, 2025-11-25 and 2025-12-05.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-4-6-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Opus 4.6",
+      "url": "https://www.anthropic.com/news/claude-opus-4-6",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-02-05"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Claude Opus 4.6.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-4-6-docs",
+      "type": "documentation",
+      "title": "Claude Opus 4.6",
+      "url": "https://platform.claude.com/docs/en/models/opus-4-6/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-4-7-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Opus 4.7",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-04-16"
+      },
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-4-7-docs",
+      "type": "documentation",
+      "title": "Claude Opus 4.7",
+      "url": "https://platform.claude.com/docs/en/models/opus-4-7/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-4-8-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-05-28"
+      },
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-4-8-docs",
+      "type": "documentation",
+      "title": "Claude Opus 4.8",
+      "url": "https://platform.claude.com/docs/en/models/opus-4-8/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-5-5-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Opus 5.5",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-09-22"
+      },
+      "notes": "Title from the HTML title. https://www.anthropic.com/news/claude-opus-5-5 redirects (307) here.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-5-5-docs",
+      "type": "documentation",
+      "title": "Claude Opus 5.5",
+      "url": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-5-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Opus 5",
+      "url": "https://www.anthropic.com/news/claude-opus-5",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-07-24"
+      },
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-opus-5-docs",
+      "type": "documentation",
+      "title": "Claude Opus 5",
+      "url": "https://platform.claude.com/docs/en/models/opus-5/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-pro-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Pro",
+      "url": "https://www.anthropic.com/news/claude-pro",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-09-07"
+      },
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-sonnet-4-5-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Sonnet 4.5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-5",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2025-09-29"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-sonnet-4-5-docs",
+      "type": "documentation",
+      "title": "Claude Sonnet 4.5",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-4-5/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the Claude Platform docs; living page, content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-sonnet-4-5-system-card",
+      "type": "system-card",
+      "title": "System Card: Claude Sonnet 4.5",
+      "url": "https://www.anthropic.com/claude-sonnet-4-5-system-card",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "publishedAt": {
+        "value": "2025-09"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Published link to a PDF. It redirects (307, temporary) via https://www.anthropic.com/document/claude-sonnet-4-5-system-card to a content-hashed file that changes with each revision; on 2026-10-01 that was https://www-cdn.anthropic.com/963373e433e489a87a10c823c52a0a013e9172dd/Claude%20Sonnet%204.5%20System%20Card.pdf. The cover gives September 2025; the changelog inside lists revisions dated 2025-10-10 and 2025-12-03.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-sonnet-4-6-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Sonnet 4.6",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-02-17"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Introducing Sonnet 4.6.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-sonnet-4-6-docs",
+      "type": "documentation",
+      "title": "Claude Sonnet 4.6",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-sonnet-5-5-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Sonnet 5.5",
+      "url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-09-28"
+      },
+      "notes": "Title from the HTML title. Lives outside /news/; https://www.anthropic.com/news/claude-sonnet-5-5 returns 404.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-sonnet-5-5-docs",
+      "type": "documentation",
+      "title": "Claude Sonnet 5.5",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-sonnet-5-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-06-30"
+      },
+      "notes": "The page contains an edit note dated August 10, 2026 about pricing.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-sonnet-5-docs",
+      "type": "documentation",
+      "title": "Claude Sonnet 5",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.company-page",
+      "type": "other",
+      "title": "Company \\ Anthropic",
+      "url": "https://www.anthropic.com/company",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-02",
+      "notes": "Living page; content as seen on 2026-10-02."
+    },
+    {
+      "id": "src.anthropic.model-deprecations",
+      "type": "deprecation-notice",
+      "title": "Model deprecations",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page; content as seen on 2026-10-01. The old address https://docs.anthropic.com/en/docs/about-claude/model-deprecations redirects here (301, then 307 via platform.claude.com/docs/en/docs/about-claude/model-deprecations). The page says its dates apply to the Claude API, Claude Platform on AWS and Microsoft Foundry; Amazon Bedrock and Google Cloud set their own schedules.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.models-overview",
+      "type": "documentation",
+      "title": "Models overview",
+      "url": "https://platform.claude.com/docs/en/models/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page that changes with each release; content as seen on 2026-10-01. Older addresses redirect here: https://docs.anthropic.com/en/docs/about-claude/models/overview (301) and https://platform.claude.com/docs/en/about-claude/models/overview (307).",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.project-glasswing",
+      "type": "announcement",
+      "title": "Project Glasswing: Securing critical software for the AI era",
+      "url": "https://www.anthropic.com/glasswing",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-04-07"
+      },
+      "notes": "Announces Project Glasswing and Claude Mythos Preview; the page text is dated April 7, 2026.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.redeploying-fable-5",
+      "type": "announcement",
+      "title": "Redeploying Fable 5",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-06-30"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Redeploying Claude Fable 5. An update notice dated Jul 1, 2026 sits at the top.",
+      "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.transparency-hub-model-report",
+      "type": "model-card",
+      "title": "Anthropic’s Transparency Hub",
+      "url": "https://www.anthropic.com/transparency/model-report",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model Report section with one summary table per model (description, release month, access surfaces, modalities, knowledge cutoff). Living page; content as seen on 2026-10-01. https://www.anthropic.com/transparency shows the same content.",
+      "lastCheckedAt": "2026-10-01"
+    }
+  ]
+}

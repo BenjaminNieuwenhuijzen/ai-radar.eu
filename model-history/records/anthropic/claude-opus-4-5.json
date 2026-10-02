@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-opus-4-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-opus-4-5",
+  "name": "Claude Opus 4.5",
+  "aliases": [
+    {
+      "text": "Claude Opus 4.5",
+      "match": "auto"
+    },
+    {
+      "text": "claude-opus-4-5-20251101",
+      "match": "auto"
+    },
+    {
+      "text": "claude-opus-4-5",
+      "match": "auto"
+    },
+    {
+      "text": "Opus 4.5",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-opus",
+  "generation": "4.5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-opus-4-5-docs",
+        "locator": "Availability"
+      },
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status"
+      }
+    ],
+    "note": "Listed by Anthropic as a legacy model that is still available; retirement not sooner than 2026-11-24."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-11-24",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-5-announcement"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "November 24, 2025"
+        },
+        {
+          "id": "src.anthropic.claude-opus-4-5-docs",
+          "locator": "Availability"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-opus-4-1",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-5-announcement"
+        }
+      ],
+      "note": "Editorial link along the Opus tier: the announcement compares the model with earlier Opus models without naming a predecessor, and Claude Opus 4.1 was the most recent Opus release before it."
+    }
+  ],
+  "summary": {
+    "text": "Claude Opus 4.5 is a language model in Anthropic's Opus line that accepts text and images, with a 200K-token context window, extended thinking and an effort parameter for trading thoroughness against token use. It is offered in the Claude apps, on the Anthropic API, Amazon Bedrock, Google Cloud Vertex AI and Microsoft Foundry, at a lower price than earlier Opus models.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-opus-4-5-docs",
+        "locator": "Capabilities"
+      },
+      {
+        "id": "src.anthropic.claude-opus-4-5-announcement"
+      },
+      {
+        "id": "src.anthropic.transparency-hub-model-report",
+        "locator": "Claude Opus 4.5 Summary Table, Access Surfaces"
+      },
+      {
+        "id": "src.anthropic.api-release-notes",
+        "locator": "November 24, 2025"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "price",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-opus-4-1",
+      "text": "Priced at $5 and $25 per million input and output tokens, against $15 and $75 for Claude Opus 4.1, which kept the Opus 4 price.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-5-announcement"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "November 24, 2025"
+        },
+        {
+          "id": "src.anthropic.claude-opus-4-1-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-4-announcement"
+        }
+      ]
+    },
+    {
+      "id": "effort-parameter",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "anthropic.claude-opus-4-1",
+      "text": "Supports the effort parameter, in public beta at launch, which trades response thoroughness against token use.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "November 24, 2025"
+        },
+        {
+          "id": "src.anthropic.claude-opus-4-5-system-card",
+          "locator": "section 1.1.2"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-5-docs",
+          "locator": "Capabilities"
+        },
+        {
+          "id": "src.anthropic.transparency-hub-model-report",
+          "locator": "Claude Opus 4.5 Summary Table, Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-5-docs",
+          "locator": "Capabilities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.anthropic.claude-opus-4-5-docs",
+            "locator": "Capabilities"
+          },
+          {
+            "id": "src.anthropic.claude-opus-4-5-system-card",
+            "locator": "section 1.1.2"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-5-docs",
+          "locator": "Capabilities"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-4-5-announcement"
+        },
+        {
+          "id": "src.anthropic.transparency-hub-model-report",
+          "locator": "Claude Opus 4.5 Summary Table, Access Surfaces"
+        }
+      ]
+    }
+  },
+  "notes": "The pinned API snapshot id carries the date 20251101, while the model was released on 2025-11-24."
+}

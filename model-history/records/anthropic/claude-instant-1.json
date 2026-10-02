@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-instant-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-instant-1",
+  "name": "Claude Instant",
+  "aliases": [
+    {
+      "text": "Claude Instant 1",
+      "match": "auto"
+    },
+    {
+      "text": "Claude Instant",
+      "match": "never"
+    },
+    {
+      "text": "Claude Instant 1.1",
+      "match": "candidate"
+    },
+    {
+      "text": "claude-instant-1.0",
+      "match": "auto"
+    },
+    {
+      "text": "claude-instant-1.1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-instant",
+  "generation": "1",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "2024-09-04: Claude 1 and Instant models"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-03-14",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-1-announcement"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2024-09-04",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2024-09-04: Claude 1 and Instant models"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2024-11-06",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2024-09-04: Claude 1 and Instant models"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "November 6th, 2024"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "text": "Claude Instant is a language model that Anthropic introduced in March 2023 together with Claude, presenting it as the faster, lighter and lower-cost of the two versions. It was offered through Anthropic's API; this record covers the API versions claude-instant-1.0 and claude-instant-1.1.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-1-announcement"
+      },
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "2024-09-04: Claude 1 and Instant models"
+      }
+    ]
+  },
+  "capabilities": {
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-1-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-2-amazon-bedrock-announcement",
+          "locator": "Claude Instant on Amazon Bedrock since its April 2023 launch"
+        }
+      ]
+    }
+  },
+  "notes": "Covers the API versions claude-instant-1.0 and claude-instant-1.1; Claude Instant 1.1 has no separate Anthropic announcement. Claude Instant 1.2 has its own record."
+}

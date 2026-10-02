@@ -50,7 +50,7 @@ test("the script makes no requests, sets no cookies or storage and stays small",
   for (const w of ["fetch(", "XMLHttpRequest", "sendBeacon", "WebSocket", "EventSource", "import(", "localStorage", "sessionStorage", "indexedDB",
     "cookie", "innerHTML", "insertAdjacentHTML", "document.write", "history."]) assert.ok(!code.includes(w), `model-pages.js must not use ${w}`);
   assert.ok(!/["'`]https?:/.test(code), "no absolute URLs");
-  assert.ok(Buffer.byteLength(SCRIPT) <= 8 * 1024, "small: two page enhancements");
+  assert.ok(Buffer.byteLength(SCRIPT.replace(/\r\n/g, "\n")) <= 8 * 1024, "small: two page enhancements");
 });
 
 /* ---------- Company page: family chips ---------- */

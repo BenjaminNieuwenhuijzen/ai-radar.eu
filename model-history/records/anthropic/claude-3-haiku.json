@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-3-haiku",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-3-haiku",
+  "name": "Claude 3 Haiku",
+  "aliases": [
+    {
+      "text": "Claude 3 Haiku",
+      "match": "auto"
+    },
+    {
+      "text": "claude-3-haiku-20240307",
+      "match": "auto"
+    },
+    {
+      "text": "Claude Haiku 3",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-haiku",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status; Deprecation history, 2026-02-19"
+      }
+    ]
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-03-04",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement",
+          "locator": "first paragraphs; Model availability"
+        }
+      ]
+    },
+    "released": {
+      "value": "2024-03-13",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-haiku-announcement",
+          "locator": "first paragraph"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-02-19",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Deprecation history, 2026-02-19"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "February 19, 2026"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-04-20",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Deprecation history, 2026-02-19"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "April 20, 2026"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-instant-1-2",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement",
+          "locator": "Model details"
+        }
+      ],
+      "note": "Editorial link: Claude 3 Haiku took the fast, low-cost place in the lineup that Claude Instant held. The launch posts do not name a predecessor."
+    }
+  ],
+  "summary": {
+    "text": "Claude 3 Haiku is a language model from Anthropic that accepts text and images, positioned by Anthropic as the fast, low-cost model of the Claude 3 family for uses such as live customer chats and data extraction. Named on 2024-03-04 and released on 2024-03-13, it was offered through the Claude API, on claude.ai for Claude Pro subscribers and on Amazon Bedrock.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-3-family-announcement"
+      },
+      {
+        "id": "src.anthropic.claude-3-haiku-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "text": "Adds image input next to text, which the Claude 3 model card names as a key enhancement of the family; output remains text.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-model-card"
+        }
+      ]
+    },
+    {
+      "id": "fewer-refusals",
+      "aspect": "safety",
+      "direction": "changed",
+      "text": "Anthropic says the Claude 3 models refuse borderline but harmless prompts less often than earlier Claude models.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "text": "Knowledge cutoff of August 2023, according to the Claude 3 model card.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-model-card",
+          "locator": "Abstract; 1 Introduction"
+        },
+        {
+          "id": "src.anthropic.claude-3-haiku-announcement",
+          "locator": "first paragraph"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-model-card",
+          "locator": "1 Introduction"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-family-announcement",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-haiku-announcement",
+          "locator": "last paragraph"
+        }
+      ]
+    }
+  },
+  "notes": "Named in the 2024-03-04 family announcement with availability soon; released 2024-03-13. Access as stated at release: Claude API, claude.ai for Claude Pro subscribers and Amazon Bedrock; Google Cloud Vertex AI announced as coming soon. The 20240307 in the API id is a snapshot date. Deprecation and retirement dates apply to Anthropic-operated platforms (deprecations page)."
+}

@@ -1,4 +1,47 @@
 {
   "schemaVersion": 1,
-  "families": []
+  "families": [
+    {
+      "id": "anthropic.claude",
+      "organizationId": "anthropic",
+      "name": "Claude",
+      "parentId": null
+    },
+    {
+      "id": "anthropic.claude-instant",
+      "organizationId": "anthropic",
+      "name": "Claude Instant",
+      "parentId": "anthropic.claude"
+    },
+    {
+      "id": "anthropic.claude-haiku",
+      "organizationId": "anthropic",
+      "name": "Claude Haiku",
+      "parentId": "anthropic.claude"
+    },
+    {
+      "id": "anthropic.claude-sonnet",
+      "organizationId": "anthropic",
+      "name": "Claude Sonnet",
+      "parentId": "anthropic.claude"
+    },
+    {
+      "id": "anthropic.claude-opus",
+      "organizationId": "anthropic",
+      "name": "Claude Opus",
+      "parentId": "anthropic.claude"
+    },
+    {
+      "id": "anthropic.claude-fable",
+      "organizationId": "anthropic",
+      "name": "Claude Fable",
+      "parentId": "anthropic.claude"
+    },
+    {
+      "id": "anthropic.claude-mythos",
+      "organizationId": "anthropic",
+      "name": "Claude Mythos",
+      "parentId": "anthropic.claude"
+    }
+  ]
 }

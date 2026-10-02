@@ -92,7 +92,7 @@ test("the script makes no storage access and exactly one same-origin request", (
   assert.match(code, /fetch\(INDEX_URL, \{ cache: "no-cache" \}\)/);
   assert.match(code, /const INDEX_URL = "\/models\/index\.json";/);
   assert.ok(!/["'`]https?:/.test(code), "no absolute URL literals (no third-party requests)");
-  assert.ok(Buffer.byteLength(SCRIPT) <= 30 * 1024, "spec §32: own JS ≤ 30 KB");
+  assert.ok(Buffer.byteLength(SCRIPT.replace(/\r\n/g, "\n")) <= 30 * 1024, "spec §32: own JS ≤ 30 KB (as published: LF line endings)");
 });
 
 /* ---------- Parity with lib.mjs / derive.mjs ---------- */

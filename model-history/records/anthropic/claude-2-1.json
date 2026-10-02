@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-2-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-2-1",
+  "name": "Claude 2.1",
+  "aliases": [
+    {
+      "text": "Claude 2.1",
+      "match": "auto"
+    },
+    {
+      "text": "claude-2.1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude",
+  "generation": "2.1",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "2025-01-21: Claude 2, Claude 2.1, and Claude Sonnet 3 models"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-11-21",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-1-announcement"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-01-21",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2025-01-21: Claude 2, Claude 2.1, and Claude Sonnet 3 models"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "January 21st, 2025"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-07-21",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2025-01-21: Claude 2, Claude 2.1, and Claude Sonnet 3 models"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "July 21, 2025"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-1-announcement",
+          "locator": "2x Decrease in Hallucination Rates"
+        },
+        {
+          "id": "src.anthropic.claude-2-model-card",
+          "locator": "Claude 2.1 Model Card Appendix, section 1"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude 2.1 is an update to Anthropic's Claude 2 language model, released in November 2023 through the API and as the model behind claude.ai. It raised the context window to 200K tokens and added system prompts and a beta tool-use feature; the model card appendix says it builds on Claude 2.0 rather than being a new base model.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-2-1-announcement"
+      },
+      {
+        "id": "src.anthropic.claude-2-model-card",
+        "locator": "Claude 2.1 Model Card Appendix, section 1"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-200k",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "anthropic.claude-2",
+      "text": "Context window doubled from 100K to 200K tokens; on claude.ai the full window was reserved for Claude Pro users.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-1-announcement",
+          "locator": "200K Context Window"
+        },
+        {
+          "id": "src.anthropic.claude-2-model-card",
+          "locator": "Claude 2.1 Model Card Appendix, section 2"
+        }
+      ]
+    },
+    {
+      "id": "tool-use-beta",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "anthropic.claude-2",
+      "text": "Tool use added as a beta API feature, letting developers define functions or APIs for the model to call.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-1-announcement",
+          "locator": "API Tool Use"
+        }
+      ]
+    },
+    {
+      "id": "system-prompts",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "anthropic.claude-2",
+      "text": "System prompts introduced, so users can give the model custom instructions and set context such as a role.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-1-announcement",
+          "locator": "Developer Experience"
+        }
+      ]
+    },
+    {
+      "id": "fewer-false-statements",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-2",
+      "text": "Anthropic reports fewer false statements than Claude 2.0 and fewer incorrect answers about long documents.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-1-announcement",
+          "locator": "2x Decrease in Hallucination Rates"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.anthropic.claude-2-1-announcement",
+            "locator": "API Tool Use"
+          }
+        ],
+        "note": "Offered as a beta feature at launch."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-1-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-2-model-card",
+          "locator": "Claude 2.1 Model Card Appendix, section 2"
+        }
+      ],
+      "note": "On claude.ai the full 200K window was reserved for Claude Pro users at launch."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-2-1-announcement"
+        }
+      ]
+    }
+  }
+}

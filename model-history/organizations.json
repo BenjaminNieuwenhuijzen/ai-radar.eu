@@ -15,7 +15,19 @@
       "type": "company",
       "parentId": null,
       "radarCompanyId": "anthropic",
-      "coverage": "tracked"
+      "coverage": "tracked",
+      "website": "https://www.anthropic.com",
+      "description": {
+        "text": "Anthropic describes itself as an AI safety and research company that builds reliable, interpretable and steerable AI systems and deploys them through partnerships and products. Its language models are released under the Claude name.",
+        "sources": [
+          {
+            "id": "src.anthropic.company-page"
+          },
+          {
+            "id": "src.anthropic.models-overview"
+          }
+        ]
+      }
     },
     {
       "id": "mistral",

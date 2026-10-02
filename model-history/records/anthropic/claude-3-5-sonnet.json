@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-3-5-sonnet",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-3-5-sonnet",
+  "name": "Claude 3.5 Sonnet",
+  "aliases": [
+    {
+      "text": "Claude 3.5 Sonnet",
+      "match": "candidate"
+    },
+    {
+      "text": "claude-3-5-sonnet-20240620",
+      "match": "auto"
+    },
+    {
+      "text": "Claude Sonnet 3.5",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-sonnet",
+  "generation": "3.5",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Deprecation history, 2025-08-13"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-06-20",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "June 20th, 2024"
+        },
+        {
+          "id": "src.anthropic.claude-3-model-card",
+          "locator": "update note on the first page"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2024-06-21",
+          "sources": [
+            {
+              "id": "src.anthropic.claude-3-5-sonnet-announcement",
+              "locator": "page date"
+            }
+          ],
+          "note": "Date shown on the announcement page."
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-08-13",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Deprecation history, 2025-08-13"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "August 13, 2025"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-10-28",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "Deprecation history, 2025-08-13"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "October 28, 2025"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-3-sonnet",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-5-sonnet-announcement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Editorial link: the announcement presents Claude 3.5 Sonnet at the speed and cost of Claude 3 Sonnet, Anthropic's mid-tier model, without naming a predecessor."
+    }
+  ],
+  "summary": {
+    "text": "Claude 3.5 Sonnet is a language model from Anthropic that accepts text and images, the first release of its Claude 3.5 family. It was free on claude.ai and the Claude iOS app and offered through the Anthropic API, Amazon Bedrock and Google Cloud Vertex AI; Anthropic says it kept the speed and cost of Claude 3 Sonnet and ran at twice the speed of Claude 3 Opus.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-3-5-sonnet-announcement"
+      },
+      {
+        "id": "src.anthropic.api-release-notes"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "vision",
+      "aspect": "modality",
+      "direction": "changed",
+      "text": "Anthropic reports improved vision, for example in reading charts and graphs and in transcribing text from imperfect images.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-5-sonnet-announcement"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "direction": "changed",
+      "text": "Knowledge cutoff moved to April 2024, from August 2023 for the Claude 3 models.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-5-october-model-card-addendum"
+        },
+        {
+          "id": "src.anthropic.claude-3-model-card"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "aspect": "other",
+      "text": "Same list price as Claude 3 Sonnet: 3 USD per million input tokens and 15 USD per million output tokens.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-5-sonnet-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-3-family-announcement"
+        }
+      ]
+    },
+    {
+      "id": "output-length",
+      "aspect": "other",
+      "direction": "added",
+      "text": "Output of up to 8,192 tokens per response became available in beta on 2024-07-15 and without a beta header from 2024-08-19.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-5-sonnet-announcement",
+          "locator": "State-of-the-art vision"
+        },
+        {
+          "id": "src.anthropic.claude-3-5-sonnet-model-card-addendum",
+          "locator": "Vision Capabilities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-5-sonnet-announcement",
+          "locator": "second paragraph"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-3-5-sonnet-announcement",
+          "locator": "second paragraph"
+        }
+      ]
+    }
+  },
+  "notes": "Release date: the API release notes and the Claude 3 model card update note say June 20, 2024; the announcement page shows Jun 21, 2024 (kept as an alternative). The October 2024 upgrade kept the same name and is a separate record (anthropic.claude-3-5-sonnet-2024-10). Deprecated and retired together with that upgrade. Dates apply to Anthropic-operated platforms (deprecations page)."
+}

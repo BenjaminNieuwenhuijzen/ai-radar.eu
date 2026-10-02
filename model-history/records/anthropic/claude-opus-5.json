@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-opus-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-opus-5",
+  "name": "Claude Opus 5",
+  "aliases": [
+    {
+      "text": "Claude Opus 5",
+      "match": "auto"
+    },
+    {
+      "text": "Opus 5",
+      "match": "auto"
+    },
+    {
+      "text": "claude-opus-5",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-opus",
+  "generation": "5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-opus-5-docs",
+        "locator": "Availability"
+      },
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status table"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-07-24",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-opus-5-docs",
+          "locator": "Availability: Released"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-opus-4-8",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-announcement",
+          "locator": "Performance and cost-effectiveness"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Opus 5 is a language model in Anthropic's Claude Opus line, released on 24 July 2026 on all platforms at the same price as Claude Opus 4.8 and made the default model on Claude Max. It takes text and image input with a 1M token context window, has thinking on by default, and uses cyber classifiers that allow finding vulnerabilities in source code but block exploit generation.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-opus-5-announcement"
+      },
+      {
+        "id": "src.anthropic.api-release-notes",
+        "locator": "July 24, 2026"
+      },
+      {
+        "id": "src.anthropic.claude-opus-5-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "thinking-default",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "text": "Thinking is on by default, and it can be disabled only at effort high or below.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "July 24, 2026"
+        }
+      ]
+    },
+    {
+      "id": "cyber-classifiers",
+      "aspect": "safety",
+      "direction": "changed",
+      "text": "Cyber safeguards similar to Opus 4.8's, with stronger guardrails on binary vulnerability scanning, penetration testing and exploit generation; flagged requests fall back to Opus 4.8.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-announcement"
+        }
+      ]
+    },
+    {
+      "id": "max-default",
+      "aspect": "availability",
+      "direction": "changed",
+      "text": "Became the default model on the Claude Max plan.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-docs",
+          "locator": "Capabilities: Context window"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-announcement",
+          "locator": "opening section and availability paragraph"
+        },
+        {
+          "id": "src.anthropic.claude-opus-5-docs",
+          "locator": "Availability: Platforms"
+        }
+      ]
+    }
+  }
+}

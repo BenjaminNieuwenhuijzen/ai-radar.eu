@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-mythos-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-mythos-5",
+  "name": "Claude Mythos 5",
+  "aliases": [
+    {
+      "text": "Claude Mythos 5",
+      "match": "auto"
+    },
+    {
+      "text": "Mythos 5",
+      "match": "auto"
+    },
+    {
+      "text": "claude-mythos-5",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-mythos",
+  "generation": "5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status table"
+      },
+      {
+        "id": "src.anthropic.claude-mythos-5-docs",
+        "locator": "Availability: Status"
+      },
+      {
+        "id": "src.anthropic.redeploying-fable-5",
+        "locator": "update of Jul 1, 2026"
+      }
+    ],
+    "note": "Invitation only, through Project Glasswing."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-06-09",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-mythos-5-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-mythos-5-docs",
+          "locator": "Availability: Released"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-mythos-preview",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-migration-guide",
+          "locator": "Migrating from Claude Mythos Preview"
+        },
+        {
+          "id": "src.anthropic.claude-fable-5-mythos-5-announcement",
+          "locator": "opening section"
+        }
+      ]
+    },
+    {
+      "type": "variant-of",
+      "target": "anthropic.claude-fable-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-mythos-5-announcement",
+          "locator": "opening section"
+        },
+        {
+          "id": "src.anthropic.claude-mythos-5-docs"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Mythos 5 is a language model in Anthropic's Claude Mythos line, launched on 9 June 2026 alongside Claude Fable 5 and offered by invitation only through Project Glasswing to a small group of cyber defenders and infrastructure providers. Anthropic says it is the same underlying model as Fable 5 with safeguards lifted in some areas, deployed as an upgrade to Claude Mythos Preview.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-fable-5-mythos-5-announcement"
+      },
+      {
+        "id": "src.anthropic.claude-mythos-5-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "price",
+      "aspect": "other",
+      "direction": "changed",
+      "text": "Priced at 10 USD input and 50 USD output per million tokens, against 25 and 125 USD for Mythos Preview.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-docs"
+        },
+        {
+          "id": "src.anthropic.claude-fable-5-mythos-5-announcement"
+        },
+        {
+          "id": "src.anthropic.project-glasswing",
+          "locator": "pricing and access paragraph"
+        }
+      ]
+    },
+    {
+      "id": "adaptive-thinking-only",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "text": "Adaptive thinking is the only thinking mode; disabling thinking or setting a manual thinking budget returns an error.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-migration-guide",
+          "locator": "Migrating from Claude Mythos Preview"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "June 9, 2026"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-docs",
+          "locator": "Capabilities: Context window"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-docs",
+          "locator": "Availability: Platforms"
+        }
+      ],
+      "note": "Invitation only, through Project Glasswing."
+    }
+  }
+}

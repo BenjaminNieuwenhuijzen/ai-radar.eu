@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-sonnet-4",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-sonnet-4",
+  "name": "Claude Sonnet 4",
+  "aliases": [
+    {
+      "text": "Claude Sonnet 4",
+      "match": "auto"
+    },
+    {
+      "text": "claude-sonnet-4-20250514",
+      "match": "auto"
+    },
+    {
+      "text": "Sonnet 4",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-sonnet",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "anthropic.claude-sonnet-4-6",
+    "sources": [
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "2026-04-14: Claude Sonnet 4 and Claude Opus 4 models"
+      }
+    ],
+    "note": "Recommended replacement as listed on the deprecations page when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-05-22",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-4-announcement"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "May 22, 2025"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-04-14",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2026-04-14: Claude Sonnet 4 and Claude Opus 4 models"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "April 14, 2026"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-06-15",
+      "sources": [
+        {
+          "id": "src.anthropic.model-deprecations",
+          "locator": "2026-04-14: Claude Sonnet 4 and Claude Opus 4 models"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "June 15, 2026"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-3-7-sonnet",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-4-announcement"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Sonnet 4 is a language model in Anthropic's Sonnet line that accepts text and images, released together with Claude Opus 4. It was offered to free and paid Claude users, on the Anthropic API, Amazon Bedrock and Google Cloud Vertex AI, with near-instant answers and an extended thinking mode, and Anthropic presents it as an upgrade to Claude 3.7 Sonnet.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-4-announcement"
+      },
+      {
+        "id": "src.anthropic.transparency-hub-model-report",
+        "locator": "Claude Opus 4 and Claude Sonnet 4 Summary Table, Modalities"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "tools-in-thinking",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "anthropic.claude-3-7-sonnet",
+      "text": "Can use tools such as web search during extended thinking; this was in beta at launch.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-4-announcement"
+        }
+      ]
+    },
+    {
+      "id": "thinking-summaries",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-3-7-sonnet",
+      "text": "Long thought processes are condensed by a smaller model, where Claude 3.7 Sonnet always showed its raw thinking; Anthropic says this is needed in about 5% of cases.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-4-system-card"
+        },
+        {
+          "id": "src.anthropic.claude-4-announcement"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "anthropic.claude-3-7-sonnet",
+      "text": "Training data includes public web data as of March 2025, against November 2024 for Claude 3.7 Sonnet.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-4-system-card"
+        },
+        {
+          "id": "src.anthropic.claude-3-7-sonnet-system-card"
+        }
+      ]
+    },
+    {
+      "id": "1m-context-beta",
+      "aspect": "context-length",
+      "relativeTo": "anthropic.claude-3-7-sonnet",
+      "text": "A 1M-token context window was offered in beta from 2025-08-12, after launch; Anthropic ended that beta for this model on 2026-04-30.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "August 12, 2025; March 30, 2026; April 30, 2026"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.transparency-hub-model-report",
+          "locator": "Claude Opus 4 and Claude Sonnet 4 Summary Table, Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.transparency-hub-model-report",
+          "locator": "Claude Opus 4 and Claude Sonnet 4 Summary Table, Modalities"
+        }
+      ],
+      "note": "The model report also mentions audio output through text-to-speech in the Claude apps."
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.anthropic.claude-4-announcement"
+          },
+          {
+            "id": "src.anthropic.claude-4-system-card",
+            "locator": "section 1.1.2"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-4-announcement"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "March 30, 2026"
+        }
+      ],
+      "note": "A 1M-token window was in beta from 2025-08-12 and was retired for this model on 2026-04-30."
+    }
+  },
+  "notes": "Announced and released together with Claude Opus 4 in the post Introducing Claude 4; both share one system card. A 1M-token context window entered beta on 2025-08-12 and was retired for this model on 2026-04-30 (release notes); the release notes of 2026-03-30 give 200k tokens as the standard context window."
+}

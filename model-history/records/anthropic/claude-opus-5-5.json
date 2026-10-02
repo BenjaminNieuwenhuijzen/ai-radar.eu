@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-opus-5-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "claude-opus-5-5",
+  "name": "Claude Opus 5.5",
+  "aliases": [
+    {
+      "text": "Claude Opus 5.5",
+      "match": "auto"
+    },
+    {
+      "text": "Opus 5.5",
+      "match": "auto"
+    },
+    {
+      "text": "claude-opus-5-5",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-opus",
+  "generation": "5.5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.anthropic.models-overview",
+        "locator": "Compare models table"
+      },
+      {
+        "id": "src.anthropic.claude-opus-5-5-docs",
+        "locator": "Availability"
+      },
+      {
+        "id": "src.anthropic.model-deprecations",
+        "locator": "Model status table"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-09-22",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-5-announcement"
+        },
+        {
+          "id": "src.anthropic.claude-opus-5-5-docs",
+          "locator": "Availability: Released"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-opus-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-5-announcement",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.anthropic.claude-opus-5-docs"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Opus 5.5 is a language model in Anthropic's Claude Opus line and, according to Anthropic, the first model of its Claude 5.5 family, released on 22 September 2026 on all platforms. It costs less per token than Claude Opus 5, has adaptive thinking that cannot be switched off, is available with zero data retention and carries Anthropic's output watermarking.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-opus-5-5-announcement"
+      },
+      {
+        "id": "src.anthropic.api-release-notes",
+        "locator": "September 22, 2026"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "price",
+      "aspect": "other",
+      "direction": "changed",
+      "text": "Priced at 4 USD input and 20 USD output per million tokens, down from 5 and 25 USD for Opus 5; cache reads cost 0.20 USD.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-5-announcement"
+        },
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "September 22, 2026"
+        }
+      ]
+    },
+    {
+      "id": "thinking-always-on",
+      "aspect": "reasoning",
+      "direction": "removed",
+      "text": "Thinking can no longer be switched off; its depth is set with the effort parameter.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "September 22, 2026"
+        }
+      ]
+    },
+    {
+      "id": "forced-tool-choice",
+      "aspect": "tool-use",
+      "direction": "removed",
+      "text": "Forced tool choice (tool_choice types any and tool) returns an error.",
+      "sources": [
+        {
+          "id": "src.anthropic.api-release-notes",
+          "locator": "September 22, 2026"
+        }
+      ]
+    },
+    {
+      "id": "safeguards-watermark",
+      "aspect": "safety",
+      "direction": "changed",
+      "text": "Deployed with safeguards similar to those on Claude Fable 5.1 and with Anthropic's output watermarking.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-5-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-5-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-5-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-5-docs",
+          "locator": "Capabilities: Context window"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-opus-5-5-announcement",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.anthropic.claude-opus-5-5-docs",
+          "locator": "Availability: Platforms"
+        }
+      ]
+    }
+  }
+}
