@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Anthropic models · Model History · AI Radar</title>
+<meta name="description" content="Anthropic describes itself as an AI safety and research company that builds reliable, interpretable and steerable AI systems and deploys them through…">
+<link rel="canonical" href="https://ai-radar.eu/models/anthropic/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Anthropic models · Model History · AI Radar">
+<meta property="og:description" content="Anthropic describes itself as an AI safety and research company that builds reliable, interpretable and steerable AI systems and deploys them through…">
+<meta property="og:url" content="https://ai-radar.eu/models/anthropic/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Anthropic models · Model History · AI Radar">
+<meta name="twitter:description" content="Anthropic describes itself as an AI safety and research company that builds reliable, interpretable and steerable AI systems and deploys them through…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script src="/assets/model-pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/anthropic/","url":"https://ai-radar.eu/models/anthropic/","name":"Anthropic models · Model History · AI Radar","description":"Anthropic describes itself as an AI safety and research company that builds reliable, interpretable and steerable AI systems and deploys them through…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/anthropic/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/anthropic/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Anthropic","item":"https://ai-radar.eu/models/anthropic/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-company" style="--h:55" data-mh-view="company" data-mh-org="anthropic">
+<div class="mh-page-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li aria-current="page"><span class="mh-co" style="--h:55">Anthropic</span></li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#d97757" stroke-width="2.2" stroke-linecap="round"><line x1="12" y1="12" x2="21" y2="12"/><line x1="12" y1="12" x2="18.5" y2="15.75"/><line x1="12" y1="12" x2="16.5" y2="19.8"/><line x1="12" y1="12" x2="12" y2="19"/><line x1="12" y1="12" x2="8" y2="19.5"/><line x1="12" y1="12" x2="4.2" y2="16.5"/><line x1="12" y1="12" x2="5" y2="12"/><line x1="12" y1="12" x2="4.6" y2="7.75"/><line x1="12" y1="12" x2="8.5" y2="5.9"/><line x1="12" y1="12" x2="12" y2="3"/><line x1="12" y1="12" x2="15.75" y2="5.5"/><line x1="12" y1="12" x2="19.5" y2="8"/></svg></span>Anthropic models</h1>
+<p class="mh-lead">Anthropic describes itself as an AI safety and research company that builds reliable, interpretable and steerable AI systems and deploys them through partnerships and products. Its language models are released under the Claude name.</p>
+<div id="mh-family-chips" class="mh-chips" role="group" aria-label="Family" hidden>
+<button type="button" data-family="" aria-pressed="true">All families</button>
+<button type="button" data-family="anthropic.claude" aria-pressed="false">Claude</button>
+<button type="button" data-family="anthropic.claude-fable" aria-pressed="false">Claude Fable</button>
+<button type="button" data-family="anthropic.claude-haiku" aria-pressed="false">Claude Haiku</button>
+<button type="button" data-family="anthropic.claude-instant" aria-pressed="false">Claude Instant</button>
+<button type="button" data-family="anthropic.claude-mythos" aria-pressed="false">Claude Mythos</button>
+<button type="button" data-family="anthropic.claude-opus" aria-pressed="false">Claude Opus</button>
+<button type="button" data-family="anthropic.claude-sonnet" aria-pressed="false">Claude Sonnet</button>
+</div>
+</div>
+<aside class="mh-head-side" id="evidence" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence overview</h2>
+<dl class="mh-ev-overview">
+<div data-mh-evidence="primary-source"><dt><span class="mh-glyph" aria-hidden="true">●</span> Primary source</dt><dd>32</dd></div>
+<div data-mh-evidence="archived-primary-source"><dt><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</dt><dd>0</dd></div>
+<div data-mh-evidence="secondary-sources"><dt><span class="mh-glyph" aria-hidden="true">○</span> Secondary sources</dt><dd>0</dd></div>
+<div data-mh-evidence="insufficient-evidence"><dt><span class="mh-glyph" aria-hidden="true">◌</span> Evidence incomplete</dt><dd>0</dd></div>
+<div data-mh-flag="original-unavailable"><dt>Original source unavailable</dt><dd>0</dd></div>
+</dl>
+</aside>
+</div>
+<div class="mh-page-body container">
+<div class="mh-body-main">
+<section id="chronology" aria-labelledby="mh-chrono-title">
+<h2 class="mh-visually-hidden" id="mh-chrono-title">Chronology</h2>
+<ol class="mh-chrono">
+<li class="mh-year">
+<div class="mh-year-head"><h3>2026</h3><span class="mh-year-count">14 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-sonnet-5-5" data-mh-family="anthropic.claude-sonnet" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-09-28">28 September 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Sonnet · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-sonnet-5-5/">Claude Sonnet 5.5</a>
+<p class="mh-chrono-sum">Claude Sonnet 5.5 is a language model in Anthropic&#39;s Claude Sonnet line, released on 28 September 2026 on all platforms at the same price as Claude Sonnet 5; Anthropic calls it the second model of…</p>
+<ul class="mh-changes-mini"><li>Adds safety classifiers that block reasoning extraction, which Anthropic says is a first for a Sonnet model.</li><li>Up-front thinking is turned off with the new between_tools setting instead of the disabled value, at high effort or below.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-haiku-5-5" data-mh-family="anthropic.claude-haiku" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-09-22">22 September 2026</time></span><span class="mh-prec">Announced, release date unknown</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Haiku · Language</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-haiku-5-5/">Claude Haiku 5.5</a>
+<p class="mh-chrono-sum">Claude Haiku 5.5 is a forthcoming model in Anthropic&#39;s Claude Haiku line, first named in the Claude Opus 5.5 announcement of 22 September 2026 as following within weeks. Anthropic says it is aimed…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Announced · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-opus-5-5" data-mh-family="anthropic.claude-opus" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-09-22">22 September 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Opus · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-opus-5-5/">Claude Opus 5.5</a>
+<p class="mh-chrono-sum">Claude Opus 5.5 is a language model in Anthropic&#39;s Claude Opus line and, according to Anthropic, the first model of its Claude 5.5 family, released on 22 September 2026 on all platforms. It costs…</p>
+<ul class="mh-changes-mini"><li>Priced at 4 USD input and 20 USD output per million tokens, down from 5 and 25 USD for Opus 5; cache reads cost 0.20 USD.</li><li>Thinking can no longer be switched off; its depth is set with the effort parameter.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 2 news items</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-fable-5-1" data-mh-family="anthropic.claude-fable" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-09-01">1 September 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Fable · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-fable-5-1/">Claude Fable 5.1</a>
+<p class="mh-chrono-sum">Claude Fable 5.1 is a language model in Anthropic&#39;s Claude Fable line and the successor to Claude Fable 5, released on 1 September 2026 on the Claude apps, the Claude API and major cloud platforms…</p>
+<ul class="mh-changes-mini"><li>Cache reads cost 0.25 USD per million tokens, 0.025 times the input price instead of 0.1 times; input and output prices are unchanged.</li><li>Revised cyber safeguards allow vulnerability discovery; penetration testing, exploit generation and binary-based vulnerability scanning are still redirected to Anthropic&#39;s Opus models.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 2 news items</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-mythos-5-1" data-mh-family="anthropic.claude-mythos" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-09-01">1 September 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Mythos · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-mythos-5-1/">Claude Mythos 5.1</a>
+<p class="mh-chrono-sum">Claude Mythos 5.1 is a language model in Anthropic&#39;s Claude Mythos line and the successor to Claude Mythos 5, released on 1 September 2026 for Project Glasswing participants alongside Claude Fable…</p>
+<ul class="mh-changes-mini"><li>Offered through Project Glasswing and the Life Sciences Verification Program, at launch only to a set of US organizations; Anthropic plans to add it to its Cyber Verification Program.</li><li>Cache reads cost 0.25 USD per million tokens, and generated text carries Anthropic&#39;s text watermark.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-opus-5" data-mh-family="anthropic.claude-opus" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-07-24">24 July 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Opus · Language, Multimodal, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-opus-5/">Claude Opus 5</a>
+<p class="mh-chrono-sum">Claude Opus 5 is a language model in Anthropic&#39;s Claude Opus line, released on 24 July 2026 on all platforms at the same price as Claude Opus 4.8 and made the default model on Claude Max. It takes…</p>
+<ul class="mh-changes-mini"><li>Thinking is on by default, and it can be disabled only at effort high or below.</li><li>Cyber safeguards similar to Opus 4.8&#39;s, with stronger guardrails on binary vulnerability scanning, penetration testing and exploit generation; flagged requests fall back to Opus 4.8.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-sonnet-5" data-mh-family="anthropic.claude-sonnet" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-06-30">30 June 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Sonnet · Language, Multimodal, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-sonnet-5/">Claude Sonnet 5</a>
+<p class="mh-chrono-sum">Claude Sonnet 5 is a language model that Anthropic calls the next generation of its Sonnet family, released on 30 June 2026 on all Claude plans, the Claude API and major cloud platforms, and made…</p>
+<ul class="mh-changes-mini"><li>Adaptive thinking is on by default; manual extended thinking budgets, deprecated on Sonnet 4.6, now return an error.</li><li>Uses a new tokenizer; the release notes estimate about 30% more tokens for the same text, depending on the content.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-fable-5" data-mh-family="anthropic.claude-fable" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-06-09">9 June 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Fable · Language, Multimodal, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-fable-5/">Claude Fable 5</a>
+<p class="mh-chrono-sum">Claude Fable 5 is a language model in Anthropic&#39;s Fable line, launched on 9 June 2026 on the Claude apps, the API and major cloud platforms. Anthropic describes it as a Mythos-class model whose…</p>
+<ul class="mh-changes-mini"><li>Open to all customers, whereas Claude Mythos Preview was an invitation-only research preview for Project Glasswing participants.</li><li>Priced at 10 USD input and 50 USD output per million tokens, which Anthropic says is less than half the Mythos Preview price.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 6 news items</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-mythos-5" data-mh-family="anthropic.claude-mythos" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-06-09">9 June 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Mythos · Language, Multimodal, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-mythos-5/">Claude Mythos 5</a>
+<p class="mh-chrono-sum">Claude Mythos 5 is a language model in Anthropic&#39;s Claude Mythos line, launched on 9 June 2026 alongside Claude Fable 5 and offered by invitation only through Project Glasswing to a small group of…</p>
+<ul class="mh-changes-mini"><li>Priced at 10 USD input and 50 USD output per million tokens, against 25 and 125 USD for Mythos Preview.</li><li>Adaptive thinking is the only thinking mode; disabling thinking or setting a manual thinking budget returns an error.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 2 news items</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-opus-4-8" data-mh-family="anthropic.claude-opus" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-05-28">28 May 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Opus · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-opus-4-8/">Claude Opus 4.8</a>
+<p class="mh-chrono-sum">Claude Opus 4.8 is a language model in Anthropic&#39;s Claude Opus line, released on 28 May 2026 at the Opus 4.7 price and available on the Claude API and major cloud platforms. It takes text and image…</p>
+<ul class="mh-changes-mini"><li>Accepts system messages sent mid-conversation, after a user turn, while keeping prompt cache hits.</li><li>Anthropic reports lower rates of misaligned behaviour than Opus 4.7 in its alignment assessment.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-opus-4-7" data-mh-family="anthropic.claude-opus" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-04-16">16 April 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Opus · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-opus-4-7/">Claude Opus 4.7</a>
+<p class="mh-chrono-sum">Claude Opus 4.7 is a language model in Anthropic&#39;s Claude Opus line, released on 16 April 2026 across Claude products, the Claude API and major cloud platforms at the Opus 4.6 price. It accepts…</p>
+<ul class="mh-changes-mini"><li>Accepts higher-resolution images, up to 2,576 pixels on the long edge instead of 1,568.</li><li>Uses an updated tokenizer; Anthropic says the same input can map to roughly 1.0 to 1.35 times as many tokens.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-mythos-preview" data-mh-family="anthropic.claude-mythos" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-04-07">7 April 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Mythos · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-mythos-preview/">Claude Mythos Preview</a>
+<p class="mh-chrono-sum">Claude Mythos Preview is a general-purpose model that Anthropic announced on 7 April 2026 with Project Glasswing, a defensive cybersecurity initiative. It was offered as an invitation-only research…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-sonnet-4-6" data-mh-family="anthropic.claude-sonnet" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-02-17">17 February 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Sonnet · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-sonnet-4-6/">Claude Sonnet 4.6</a>
+<p class="mh-chrono-sum">Claude Sonnet 4.6 is a language model in Anthropic&#39;s Claude Sonnet line, released on 17 February 2026 on all Claude plans, Claude Code, the Claude API and major cloud platforms at the same price as…</p>
+<ul class="mh-changes-mini"><li>Adds support for adaptive thinking alongside extended thinking.</li><li>Became the default model for Free and Pro plans on claude.ai and in Claude Cowork.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-opus-4-6" data-mh-family="anthropic.claude-opus" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-02-05">5 February 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Opus · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-opus-4-6/">Claude Opus 4.6</a>
+<p class="mh-chrono-sum">Claude Opus 4.6 is a language model in Anthropic&#39;s Claude Opus line, released on 5 February 2026 on claude.ai, the Claude API and major cloud platforms. It takes text and image input, launched with…</p>
+<ul class="mh-changes-mini"><li>Anthropic says it is the first Opus-class model with a 1M token context window, offered in beta at launch and out of beta from 13 March 2026.</li><li>Adds adaptive thinking, in which the model decides how much to think, steered by the effort setting; manual thinking budgets are deprecated.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 3 news items</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2025</h3><span class="mh-year-count">7 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-opus-4-5" data-mh-family="anthropic.claude-opus" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-11-24">24 November 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Opus · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-opus-4-5/">Claude Opus 4.5</a>
+<p class="mh-chrono-sum">Claude Opus 4.5 is a language model in Anthropic&#39;s Opus line that accepts text and images, with a 200K-token context window, extended thinking and an effort parameter for trading thoroughness…</p>
+<ul class="mh-changes-mini"><li>Priced at $5 and $25 per million input and output tokens, against $15 and $75 for Claude Opus 4.1, which kept the Opus 4 price.</li><li>Supports the effort parameter, in public beta at launch, which trades response thoroughness against token use.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-haiku-4-5" data-mh-family="anthropic.claude-haiku" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-10-15">15 October 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Haiku · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-haiku-4-5/">Claude Haiku 4.5</a>
+<p class="mh-chrono-sum">Claude Haiku 4.5 is a language model in Anthropic&#39;s Haiku line of small, fast models that accepts text and images, with a 200K-token context window and an extended thinking mode. It is offered in…</p>
+<ul class="mh-changes-mini"><li>Adds an extended thinking mode, a first for the Haiku line; the system card notes that Claude 3.5 Haiku had none.</li><li>Trained to keep track of how much of its context window it has used; the window was 200K tokens at release.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-sonnet-4-5" data-mh-family="anthropic.claude-sonnet" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-09-29">29 September 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Sonnet · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-sonnet-4-5/">Claude Sonnet 4.5</a>
+<p class="mh-chrono-sum">Claude Sonnet 4.5 is a language model in Anthropic&#39;s Sonnet line that accepts text and images, with a 200K-token context window and an extended thinking mode. It is offered in the Claude apps, on…</p>
+<ul class="mh-changes-mini"><li>Released under the ASL-3 Standard, with classifiers aimed at CBRN-related content; Claude Sonnet 4 was released under ASL-2.</li><li>Training data includes public web data as of July 2025, against March 2025 for Claude Sonnet 4.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-opus-4-1" data-mh-family="anthropic.claude-opus" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-08-05">5 August 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Opus · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-opus-4-1/">Claude Opus 4.1</a>
+<p class="mh-chrono-sum">Claude Opus 4.1 is a language model in Anthropic&#39;s Opus line, offered to paid Claude users, in Claude Code, on the Anthropic API, Amazon Bedrock and Google Cloud Vertex AI at the same price as…</p>
+<ul class="mh-changes-mini"><li>Anthropic describes it as an upgrade on agentic tasks, real-world coding and reasoning; the release notes call it an incremental update.</li><li>Does not accept the temperature and top_p parameters in the same request; only one of the two may be set.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-opus-4" data-mh-family="anthropic.claude-opus" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-05-22">22 May 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Opus · Language, Multimodal, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-opus-4/">Claude Opus 4</a>
+<p class="mh-chrono-sum">Claude Opus 4 is a language model in Anthropic&#39;s Opus line that accepts text and images, released together with Claude Sonnet 4 and offered in paid Claude plans, on the Anthropic API, Amazon Bedrock…</p>
+<ul class="mh-changes-mini"><li>Adds an extended thinking mode next to near-instant answers.</li><li>Can use tools such as web search during extended thinking, alternating between reasoning and tool use; this was in beta at launch.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-sonnet-4" data-mh-family="anthropic.claude-sonnet" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-05-22">22 May 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Sonnet · Language, Multimodal, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-sonnet-4/">Claude Sonnet 4</a>
+<p class="mh-chrono-sum">Claude Sonnet 4 is a language model in Anthropic&#39;s Sonnet line that accepts text and images, released together with Claude Opus 4. It was offered to free and paid Claude users, on the Anthropic API…</p>
+<ul class="mh-changes-mini"><li>Can use tools such as web search during extended thinking; this was in beta at launch.</li><li>Long thought processes are condensed by a smaller model, where Claude 3.7 Sonnet always showed its raw thinking; Anthropic says this is needed in about 5% of cases.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-3-7-sonnet" data-mh-family="anthropic.claude-sonnet" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-02-24">24 February 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Sonnet · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-3-7-sonnet/">Claude 3.7 Sonnet</a>
+<p class="mh-chrono-sum">Claude 3.7 Sonnet is a language model in Anthropic&#39;s Sonnet line that accepts text and images and was offered in the Claude apps, on the Anthropic API, Amazon Bedrock and Google Cloud Vertex AI…</p>
+<ul class="mh-changes-mini"><li>Adds an optional extended thinking mode that shows step-by-step reasoning before the answer; the standard mode remains available.</li><li>API users can set a thinking budget in tokens, up to an output limit that the announcement gives as 128K tokens.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2024</h3><span class="mh-year-count">6 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-3-5-haiku" data-mh-family="anthropic.claude-haiku" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-11-04">4 November 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Haiku · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-3-5-haiku/">Claude 3.5 Haiku</a>
+<p class="mh-chrono-sum">Claude 3.5 Haiku is a language model from Anthropic, presented as the next generation of its Haiku model at a speed similar to Claude 3 Haiku. It became available on the Claude API on 2024-11-04 as…</p>
+<ul class="mh-changes-mini"><li>Released for text input only, unlike Claude 3 Haiku, which accepted images; image input was added on 2025-02-24.</li><li>Knowledge cutoff moved to July 2024, from August 2023 for Claude 3 Haiku.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-3-5-sonnet-2024-10" data-mh-family="anthropic.claude-sonnet" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-10-22">22 October 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Sonnet · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-3-5-sonnet-2024-10/">Claude 3.5 Sonnet (New)</a>
+<p class="mh-chrono-sum">The October 2024 revision of Claude 3.5 Sonnet is an upgraded version of that Anthropic language model for text and image input, released under the same name but with its own API id…</p>
+<ul class="mh-changes-mini"><li>Adds computer use in public beta: the model works with a computer by looking at a screen, moving a cursor, clicking and typing. Anthropic called the feature experimental.</li><li>Anthropic reports improvements across the board, especially in agentic coding and tool use, at the same price and speed as the June 2024 model.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-3-5-sonnet" data-mh-family="anthropic.claude-sonnet" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-06-20">20 June 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Sonnet · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-3-5-sonnet/">Claude 3.5 Sonnet</a>
+<p class="mh-chrono-sum">Claude 3.5 Sonnet is a language model from Anthropic that accepts text and images, the first release of its Claude 3.5 family. It was free on claude.ai and the Claude iOS app and offered through the…</p>
+<ul class="mh-changes-mini"><li>Anthropic reports improved vision, for example in reading charts and graphs and in transcribing text from imperfect images.</li><li>Knowledge cutoff moved to April 2024, from August 2023 for the Claude 3 models.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-3-haiku" data-mh-family="anthropic.claude-haiku" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-03-13">13 March 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Haiku · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-3-haiku/">Claude 3 Haiku</a>
+<p class="mh-chrono-sum">Claude 3 Haiku is a language model from Anthropic that accepts text and images, positioned by Anthropic as the fast, low-cost model of the Claude 3 family for uses such as live customer chats and…</p>
+<ul class="mh-changes-mini"><li>Adds image input next to text, which the Claude 3 model card names as a key enhancement of the family; output remains text.</li><li>Anthropic says the Claude 3 models refuse borderline but harmless prompts less often than earlier Claude models.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-3-opus" data-mh-family="anthropic.claude-opus" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-03-04">4 March 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Opus · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-3-opus/">Claude 3 Opus</a>
+<p class="mh-chrono-sum">Claude 3 Opus is a language model from Anthropic that accepts text and images and responds in text. It was introduced with Claude 3 Sonnet and Claude 3 Haiku as the Claude 3 family, which Anthropic…</p>
+<ul class="mh-changes-mini"><li>Accepts images such as tables, graphs and photos next to text; the Claude 3 model card names multimodal input as a key enhancement of the family.</li><li>Anthropic says the Claude 3 models refuse borderline but harmless prompts less often than earlier Claude models.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-3-sonnet" data-mh-family="anthropic.claude-sonnet" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-03-04">4 March 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Sonnet · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-3-sonnet/">Claude 3 Sonnet</a>
+<p class="mh-chrono-sum">Claude 3 Sonnet is the middle model of Anthropic&#39;s Claude 3 family: a language model that accepts text and images, responds in text and, according to Anthropic, balances intelligence and speed for…</p>
+<ul class="mh-changes-mini"><li>Adds image input next to text, which the Claude 3 model card names as a key enhancement of the family; output remains text.</li><li>Anthropic says it is about twice as fast as Claude 2 and Claude 2.1 for most workloads.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2023</h3><span class="mh-year-count">5 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-2-1" data-mh-family="anthropic.claude" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-11-21">21 November 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude · Language</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-2-1/">Claude 2.1</a>
+<p class="mh-chrono-sum">Claude 2.1 is an update to Anthropic&#39;s Claude 2 language model, released in November 2023 through the API and as the model behind claude.ai. It raised the context window to 200K tokens and added…</p>
+<ul class="mh-changes-mini"><li>Context window doubled from 100K to 200K tokens; on claude.ai the full window was reserved for Claude Pro users.</li><li>Tool use added as a beta API feature, letting developers define functions or APIs for the model to call.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-instant-1-2" data-mh-family="anthropic.claude-instant" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-08-09">9 August 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Instant · Language</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-instant-1-2/">Claude Instant 1.2</a>
+<p class="mh-chrono-sum">Claude Instant 1.2 is an updated version of Claude Instant, which Anthropic positions as its quicker, lower-cost language model for tasks such as dialogue, text analysis, summarisation and document…</p>
+<ul class="mh-changes-mini"><li>Anthropic reports gains over Claude Instant 1.1 in maths, coding and reasoning.</li><li>Gives longer, more structured responses and follows formatting instructions more closely, according to Anthropic, with better quote extraction and question answering.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-2" data-mh-family="anthropic.claude" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-07-11">11 July 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-2/">Claude 2</a>
+<p class="mh-chrono-sum">Claude 2 is the successor to Anthropic&#39;s Claude language model, released in July 2023 through the API and claude.ai, a new public beta chat site open to users in the US and UK. It accepted prompts…</p>
+<ul class="mh-changes-mini"><li>Launched with claude.ai, a public beta chat site for users in the US and UK; Claude had been offered through a console chat interface, the API and partner products.</li><li>Anthropic reports better coding, maths and reasoning than its previous models, and longer responses of up to a few thousand tokens in one go.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-1" data-mh-family="anthropic.claude" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-03-14">14 March 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-1/">Claude</a>
+<p class="mh-chrono-sum">Claude is a language model that Anthropic introduced in March 2023 together with the lighter Claude Instant, after a closed alpha with partners including Notion, Quora and DuckDuckGo. Businesses…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="anthropic.claude-instant-1" data-mh-family="anthropic.claude-instant" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-03-14">14 March 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Claude Instant · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/anthropic/claude-instant-1/">Claude Instant</a>
+<p class="mh-chrono-sum">Claude Instant is a language model that Anthropic introduced in March 2023 together with Claude, presenting it as the faster, lighter and lower-cost of the two versions. It was offered through…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</section>
+
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<ol class="mh-lineage-models">
+<li id="lineage-anthropic.claude-1">
+<a href="/models/anthropic/claude-1/">Claude</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-2/">Claude 2</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-instant-1">
+<a href="/models/anthropic/claude-instant-1/">Claude Instant</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-instant-1-2/">Claude Instant 1.2</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-2">
+<a href="/models/anthropic/claude-2/">Claude 2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-1/">Claude</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-2-1/">Claude 2.1</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-instant-1-2">
+<a href="/models/anthropic/claude-instant-1-2/">Claude Instant 1.2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-instant-1/">Claude Instant</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-3-haiku/">Claude 3 Haiku</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-2-1">
+<a href="/models/anthropic/claude-2-1/">Claude 2.1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-2/">Claude 2</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-3-opus/">Claude 3 Opus</a>; <a href="/models/anthropic/claude-3-sonnet/">Claude 3 Sonnet</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-3-opus">
+<a href="/models/anthropic/claude-3-opus/">Claude 3 Opus</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-2-1/">Claude 2.1</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-opus-4/">Claude Opus 4</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-3-sonnet">
+<a href="/models/anthropic/claude-3-sonnet/">Claude 3 Sonnet</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-2-1/">Claude 2.1</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-3-5-sonnet/">Claude 3.5 Sonnet</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-3-haiku">
+<a href="/models/anthropic/claude-3-haiku/">Claude 3 Haiku</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-instant-1-2/">Claude Instant 1.2</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-3-5-haiku/">Claude 3.5 Haiku</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-3-5-sonnet">
+<a href="/models/anthropic/claude-3-5-sonnet/">Claude 3.5 Sonnet</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-3-sonnet/">Claude 3 Sonnet</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/anthropic/claude-3-5-sonnet-2024-10/">Claude 3.5 Sonnet (New)</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-3-5-sonnet-2024-10">
+<a href="/models/anthropic/claude-3-5-sonnet-2024-10/">Claude 3.5 Sonnet (New)</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-3-7-sonnet/">Claude 3.7 Sonnet</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/anthropic/claude-3-5-sonnet/">Claude 3.5 Sonnet</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-3-5-haiku">
+<a href="/models/anthropic/claude-3-5-haiku/">Claude 3.5 Haiku</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-3-haiku/">Claude 3 Haiku</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-haiku-4-5/">Claude Haiku 4.5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-3-7-sonnet">
+<a href="/models/anthropic/claude-3-7-sonnet/">Claude 3.7 Sonnet</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-3-5-sonnet-2024-10/">Claude 3.5 Sonnet (New)</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-sonnet-4/">Claude Sonnet 4</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-opus-4">
+<a href="/models/anthropic/claude-opus-4/">Claude Opus 4</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-3-opus/">Claude 3 Opus</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-opus-4-1/">Claude Opus 4.1</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-sonnet-4">
+<a href="/models/anthropic/claude-sonnet-4/">Claude Sonnet 4</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-3-7-sonnet/">Claude 3.7 Sonnet</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-sonnet-4-5/">Claude Sonnet 4.5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-opus-4-1">
+<a href="/models/anthropic/claude-opus-4-1/">Claude Opus 4.1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-opus-4/">Claude Opus 4</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-opus-4-5/">Claude Opus 4.5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-sonnet-4-5">
+<a href="/models/anthropic/claude-sonnet-4-5/">Claude Sonnet 4.5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-sonnet-4/">Claude Sonnet 4</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-sonnet-4-6/">Claude Sonnet 4.6</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-haiku-4-5">
+<a href="/models/anthropic/claude-haiku-4-5/">Claude Haiku 4.5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-3-5-haiku/">Claude 3.5 Haiku</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-opus-4-5">
+<a href="/models/anthropic/claude-opus-4-5/">Claude Opus 4.5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-opus-4-1/">Claude Opus 4.1</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-opus-4-6/">Claude Opus 4.6</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-opus-4-6">
+<a href="/models/anthropic/claude-opus-4-6/">Claude Opus 4.6</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-opus-4-5/">Claude Opus 4.5</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-opus-4-7/">Claude Opus 4.7</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-sonnet-4-6">
+<a href="/models/anthropic/claude-sonnet-4-6/">Claude Sonnet 4.6</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-sonnet-4-5/">Claude Sonnet 4.5</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-sonnet-5/">Claude Sonnet 5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-mythos-preview">
+<a href="/models/anthropic/claude-mythos-preview/">Claude Mythos Preview</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-mythos-5/">Claude Mythos 5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-opus-4-7">
+<a href="/models/anthropic/claude-opus-4-7/">Claude Opus 4.7</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-opus-4-6/">Claude Opus 4.6</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-opus-4-8/">Claude Opus 4.8</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-opus-4-8">
+<a href="/models/anthropic/claude-opus-4-8/">Claude Opus 4.8</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-opus-4-7/">Claude Opus 4.7</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-opus-5/">Claude Opus 5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-fable-5">
+<a href="/models/anthropic/claude-fable-5/">Claude Fable 5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-fable-5-1/">Claude Fable 5.1</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/anthropic/claude-mythos-5/">Claude Mythos 5</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-mythos-5">
+<a href="/models/anthropic/claude-mythos-5/">Claude Mythos 5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-mythos-preview/">Claude Mythos Preview</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-mythos-5-1/">Claude Mythos 5.1</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/anthropic/claude-fable-5/">Claude Fable 5</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-sonnet-5">
+<a href="/models/anthropic/claude-sonnet-5/">Claude Sonnet 5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-sonnet-4-6/">Claude Sonnet 4.6</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-sonnet-5-5/">Claude Sonnet 5.5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-opus-5">
+<a href="/models/anthropic/claude-opus-5/">Claude Opus 5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-opus-4-8/">Claude Opus 4.8</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/anthropic/claude-opus-5-5/">Claude Opus 5.5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-fable-5-1">
+<a href="/models/anthropic/claude-fable-5-1/">Claude Fable 5.1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-fable-5/">Claude Fable 5</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/anthropic/claude-mythos-5-1/">Claude Mythos 5.1</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-mythos-5-1">
+<a href="/models/anthropic/claude-mythos-5-1/">Claude Mythos 5.1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-mythos-5/">Claude Mythos 5</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/anthropic/claude-fable-5-1/">Claude Fable 5.1</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-haiku-5-5">
+<a href="/models/anthropic/claude-haiku-5-5/">Claude Haiku 5.5</a>
+<p class="mh-none">No recorded relations.</p>
+</li>
+<li id="lineage-anthropic.claude-opus-5-5">
+<a href="/models/anthropic/claude-opus-5-5/">Claude Opus 5.5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-opus-5/">Claude Opus 5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-anthropic.claude-sonnet-5-5">
+<a href="/models/anthropic/claude-sonnet-5-5/">Claude Sonnet 5.5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/anthropic/claude-sonnet-5/">Claude Sonnet 5</a></dd></div>
+</dl>
+</li>
+</ol>
+</section>
+<section id="families">
+<h2 class="mh-h2">Families</h2>
+<ul class="mh-families">
+<li id="family-anthropic.claude" class="mh-family">
+<h3>Claude</h3>
+<p class="mh-family-models"><a href="/models/anthropic/claude-1/">Claude</a> · <a href="/models/anthropic/claude-2/">Claude 2</a> · <a href="/models/anthropic/claude-2-1/">Claude 2.1</a></p>
+<ul class="mh-families">
+<li id="family-anthropic.claude-fable" class="mh-family">
+<h3>Claude Fable</h3>
+<p class="mh-family-models"><a href="/models/anthropic/claude-fable-5/">Claude Fable 5</a> · <a href="/models/anthropic/claude-fable-5-1/">Claude Fable 5.1</a></p>
+</li>
+<li id="family-anthropic.claude-haiku" class="mh-family">
+<h3>Claude Haiku</h3>
+<p class="mh-family-models"><a href="/models/anthropic/claude-3-haiku/">Claude 3 Haiku</a> · <a href="/models/anthropic/claude-3-5-haiku/">Claude 3.5 Haiku</a> · <a href="/models/anthropic/claude-haiku-4-5/">Claude Haiku 4.5</a> · <a href="/models/anthropic/claude-haiku-5-5/">Claude Haiku 5.5</a></p>
+</li>
+<li id="family-anthropic.claude-instant" class="mh-family">
+<h3>Claude Instant</h3>
+<p class="mh-family-models"><a href="/models/anthropic/claude-instant-1/">Claude Instant</a> · <a href="/models/anthropic/claude-instant-1-2/">Claude Instant 1.2</a></p>
+</li>
+<li id="family-anthropic.claude-mythos" class="mh-family">
+<h3>Claude Mythos</h3>
+<p class="mh-family-models"><a href="/models/anthropic/claude-mythos-preview/">Claude Mythos Preview</a> · <a href="/models/anthropic/claude-mythos-5/">Claude Mythos 5</a> · <a href="/models/anthropic/claude-mythos-5-1/">Claude Mythos 5.1</a></p>
+</li>
+<li id="family-anthropic.claude-opus" class="mh-family">
+<h3>Claude Opus</h3>
+<p class="mh-family-models"><a href="/models/anthropic/claude-3-opus/">Claude 3 Opus</a> · <a href="/models/anthropic/claude-opus-4/">Claude Opus 4</a> · <a href="/models/anthropic/claude-opus-4-1/">Claude Opus 4.1</a> · <a href="/models/anthropic/claude-opus-4-5/">Claude Opus 4.5</a> · <a href="/models/anthropic/claude-opus-4-6/">Claude Opus 4.6</a> · <a href="/models/anthropic/claude-opus-4-7/">Claude Opus 4.7</a> · <a href="/models/anthropic/claude-opus-4-8/">Claude Opus 4.8</a> · <a href="/models/anthropic/claude-opus-5/">Claude Opus 5</a> · <a href="/models/anthropic/claude-opus-5-5/">Claude Opus 5.5</a></p>
+</li>
+<li id="family-anthropic.claude-sonnet" class="mh-family">
+<h3>Claude Sonnet</h3>
+<p class="mh-family-models"><a href="/models/anthropic/claude-3-sonnet/">Claude 3 Sonnet</a> · <a href="/models/anthropic/claude-3-5-sonnet/">Claude 3.5 Sonnet</a> · <a href="/models/anthropic/claude-3-5-sonnet-2024-10/">Claude 3.5 Sonnet (New)</a> · <a href="/models/anthropic/claude-3-7-sonnet/">Claude 3.7 Sonnet</a> · <a href="/models/anthropic/claude-sonnet-4/">Claude Sonnet 4</a> · <a href="/models/anthropic/claude-sonnet-4-5/">Claude Sonnet 4.5</a> · <a href="/models/anthropic/claude-sonnet-4-6/">Claude Sonnet 4.6</a> · <a href="/models/anthropic/claude-sonnet-5/">Claude Sonnet 5</a> · <a href="/models/anthropic/claude-sonnet-5-5/">Claude Sonnet 5.5</a></p>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="organization">
+<h2 class="mh-h2">About the organisation</h2>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="description" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Description</span>
+<span class="mh-claim-value">Anthropic describes itself as an AI safety and research company that builds reliable, interpretable and steerable AI systems and deploys them through partnerships and products. Its language models are released under the Claude name.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.anthropic.company-page" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.anthropic.models-overview" aria-label="Source 2">[2]</a></span></span>
+</li>
+</ul>
+<p class="mh-facts-line">Company · <a href="https://www.anthropic.com">https://www.anthropic.com</a> · 32 models listed here</p>
+</section>
+<section id="sources">
+<h2 class="mh-h2">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.anthropic.company-page" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Company \ Anthropic</cite></p>
+<p class="mh-kicker">Other · Anthropic</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-02">2 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://www.anthropic.com/company">Original ↗</a>
+<span class="mh-url">https://www.anthropic.com/company</span>
+<span class="mh-note">Living page; content as seen on 2026-10-02.</span>
+</div>
+</li>
+<li id="source-src.anthropic.models-overview" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Models overview</cite></p>
+<p class="mh-kicker">Documentation · Anthropic</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://platform.claude.com/docs/en/models/overview">Original ↗</a>
+<span class="mh-url">https://platform.claude.com/docs/en/models/overview</span>
+<span class="mh-note">Living page that changes with each release; content as seen on 2026-10-01. Older addresses redirect here: https://docs.anthropic.com/en/docs/about-claude/models/overview (301) and https://platform.claude.com/docs/en/about-claude/models/overview (307).</span>
+</div>
+</li>
+</ol>
+</section>
+</div>
+<aside class="mh-body-side" id="coverage" aria-labelledby="mh-cov-title">
+<h2 class="mh-legend" id="mh-cov-title">Related AI Radar coverage</h2>
+<ul class="mh-news-side">
+<li class="mh-news-item"><span class="mh-kicker">DeepSeek · wccftech.com · <time datetime="2026-10-01T15:42:01Z">1 October 2026</time> · about <a href="/models/anthropic/claude-sonnet-4-6/">Claude Sonnet 4.6</a></span><span class="mh-news-title"><a href="https://news.google.com/rss/articles/CBMirAJBVV95cUxPUHVfQzdlaGVSOWM2VERQTEYxTEJVTUFlWFptNXVoN21UZHN4R2NnTG9JVU5tX1BDcldzZ3pUS3hnUHN1T3lzVjFRSkVVRGczMnNQczFLN2kyV0dNUXp2TmxnMlFfUDhZdHd4Wm5ieHk5cWw0VjBURUhVY1RrQ1loM2pnWFpUdlJ4V0pXSmFZUXlDWDdLZFhrNU1aU1RjNWY3NUZJdzU5NllZVDJySDhCZ0ExZXFzcVFNV2plMGxKd0NsUzFrVTZwc2d3dVhzTjdoaG11MWx0NnVUb1UxY2NmWVdxdFowUDYwRy1nRlhuR2RVNzFMREstWkZxZThwRUlMeXpkQkNYbmhwYkpiSWNiTVNhZ0lPNmNabDBFaEdSZEVUaFBzWHhFd1MzMzTSAbICQVVfeXFMUHhxU3hKTWZEZU5ueDVpaXBncUVBQ1BmU3ppZzNkdl9iWG5ILXp3QVZfeWp3S3ZrZDdueXVfdzlQdU9INS1fdEhTZWd4WFVHZXFrSXF4OTR1azhVY0ZqcGR2dEdJT2cwUWplUXRaYW5jUUdlU0pjaXpiaXJGQTU2X0dOMUphYS1ST1hodnU5d2hKUWl6M1lDcFo4a3dGWmZ0bVJwQmpGNkhTRnhYOFVxbnBWZFdVazVocUVfT1RMUHl0RnhBam92ZDc3T3dvMFhFMThWS1NjazlROWZ3alVrSE5SNkthOXktRU1oRXNfNlNCNUVBd01zSklTRFNvU0RiZl9pMmpsajZOS2N4dXpDdmNQMXVlSlRRMkt3NVFJWlBXTlR4bXlXX1BSY1ZIOTFuRTBR?oc=5">Gender Bias Study: Anthropic’s Claude Sonnet 4.6 And OpenAI’s GPT-5.5 Say It’s OK To Abuse A Man But Not A Woman To Prevent Nuclear Apocalypse, While DeepSeek’s V4-Flash Shows No Such Bias</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">DeepSeek · TheSequence | Jesus Rodriguez · <time datetime="2026-09-30T11:03:44Z">30 September 2026</time> · about <a href="/models/anthropic/claude-opus-5-5/">Claude Opus 5.5</a></span><span class="mh-news-title"><a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE1rSENpUnZvSjZnUjRuVmJicDFoQl9fVU81cVJLSXNDSzBqamhKN2FQbnFHaV95ejFMU2xiMWtBRjE5SUprSy1CaUFYNEdjRGVmZW9WUmczQ0dQckVJa1V3a3d6QVRuNGdJVW5QUFJnU21Sa0xlb0x1bjQyTQ?oc=5">The Sequence Learning Loop - Issue 942: Learning About Opus 5.5, DeepSeek’s Training Grounds, and Claude’s DNA Discovery</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Microsoft AI · Azure · <time datetime="2026-09-22T17:00:25Z">22 September 2026</time> · about <a href="/models/anthropic/claude-opus-5-5/">Claude Opus 5.5</a></span><span class="mh-news-title"><a href="https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051">Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Anthropic · YouTube · <time datetime="2026-09-01T19:21:24Z">1 September 2026</time> · about <a href="/models/anthropic/claude-fable-5-1/">Claude Fable 5.1</a></span><span class="mh-news-title"><a href="https://www.youtube.com/shorts/uVS88gnaxcg">Meet Claude Fable 5.1</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Anthropic · YouTube · <time datetime="2026-09-01T18:02:31Z">1 September 2026</time> · about <a href="/models/anthropic/claude-fable-5-1/">Claude Fable 5.1</a></span><span class="mh-news-title"><a href="https://www.youtube.com/watch?v=ROF2Nv_KjOM">Introducing Claude Fable 5.1</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Anthropic · News · <time datetime="2026-08-07">7 August 2026</time> · about <a href="/models/anthropic/claude-fable-5/">Claude Fable 5</a></span><span class="mh-news-title"><a href="https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards">Improving Fable 5&#39;s biology safeguards</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Anthropic · News · <time datetime="2026-07-24">24 July 2026</time> · about <a href="/models/anthropic/claude-opus-5/">Claude Opus 5</a></span><span class="mh-news-title"><a href="https://www.anthropic.com/news/claude-opus-5">Introducing Claude Opus 5</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Anthropic · News · <time datetime="2026-07-02">2 July 2026</time> · about <a href="/models/anthropic/claude-fable-5/">Claude Fable 5</a></span><span class="mh-news-title"><a href="https://www.anthropic.com/news/fable-safeguards-jailbreak-framework">More details on Fable 5’s cyber safeguards and our jailbreak framework</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Anthropic · News · <time datetime="2026-06-30">30 June 2026</time> · about <a href="/models/anthropic/claude-fable-5/">Claude Fable 5</a></span><span class="mh-news-title"><a href="https://www.anthropic.com/news/redeploying-fable-5">Redeploying Fable 5</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Anthropic · News · <time datetime="2026-06-30">30 June 2026</time> · about <a href="/models/anthropic/claude-sonnet-5/">Claude Sonnet 5</a></span><span class="mh-news-title"><a href="https://www.anthropic.com/news/claude-sonnet-5">Introducing Claude Sonnet 5</a></span></li>
+</ul>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=anthropic">All model releases from Anthropic on AI Radar →</a></p>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
