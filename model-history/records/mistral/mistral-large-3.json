@@ -25,6 +25,10 @@
     {
       "text": "Large 3",
       "match": "candidate"
+    },
+    {
+      "text": "Mistral 3",
+      "match": "never"
     }
   ],
   "organizations": [
