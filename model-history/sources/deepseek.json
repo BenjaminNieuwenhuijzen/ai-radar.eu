@@ -165,11 +165,12 @@
       "publisher": "DeepSeek",
       "publisherOrgId": "deepseek",
       "provenance": "primary",
-      "availability": "unknown",
+      "availability": "active",
       "publishedAt": {
         "value": "2025-05-28"
       },
-      "notes": "English news page on deepseek.com, dated May 28, 2025; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/r1-0528/."
+      "notes": "English news page on deepseek.com, dated May 28, 2025; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/r1-0528/. Checked on 2026-10-05 through deepseek.com without www (same page, HTTP 200); the www host failed the TLS handshake from the checking network.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.deepseek.deepseek-r1-announcement",
@@ -235,11 +236,12 @@
       "publisher": "DeepSeek",
       "publisherOrgId": "deepseek",
       "provenance": "primary",
-      "availability": "unknown",
+      "availability": "active",
       "publishedAt": {
         "value": "2024-11-20"
       },
-      "notes": "English news page on deepseek.com, dated November 20, 2024; same text as the API docs news page. The HTML title adds the prefix DeepSeek | . URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/r1-lite-preview/."
+      "notes": "English news page on deepseek.com, dated November 20, 2024; same text as the API docs news page. The HTML title adds the prefix DeepSeek | . URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/r1-lite-preview/. Checked on 2026-10-05 through deepseek.com without www (same page, HTTP 200); the www host failed the TLS handshake from the checking network.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.deepseek.deepseek-r1-news",
@@ -249,11 +251,12 @@
       "publisher": "DeepSeek",
       "publisherOrgId": "deepseek",
       "provenance": "primary",
-      "availability": "unknown",
+      "availability": "active",
       "publishedAt": {
         "value": "2025-01-20"
       },
-      "notes": "English news page on deepseek.com, dated January 20, 2025; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/deepseek-r1/."
+      "notes": "English news page on deepseek.com, dated January 20, 2025; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/deepseek-r1/. Checked on 2026-10-05 through deepseek.com without www (same page, HTTP 200); the www host failed the TLS handshake from the checking network.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.deepseek.deepseek-r1-paper",
@@ -335,11 +338,12 @@
       "publisher": "DeepSeek",
       "publisherOrgId": "deepseek",
       "provenance": "primary",
-      "availability": "unknown",
+      "availability": "active",
       "publishedAt": {
         "value": "2024-12-10"
       },
-      "notes": "English news page on deepseek.com, dated December 10, 2024; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/v2-5-final/."
+      "notes": "English news page on deepseek.com, dated December 10, 2024; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/v2-5-final/. Checked on 2026-10-05 through deepseek.com without www (same page, HTTP 200); the www host failed the TLS handshake from the checking network.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.deepseek.deepseek-v2-5-announcement",
@@ -492,11 +496,12 @@
       "publisher": "DeepSeek",
       "publisherOrgId": "deepseek",
       "provenance": "primary",
-      "availability": "unknown",
+      "availability": "active",
       "publishedAt": {
         "value": "2025-03-25"
       },
-      "notes": "English news page on deepseek.com, dated March 25, 2025; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/v3-0324/."
+      "notes": "English news page on deepseek.com, dated March 25, 2025; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/v3-0324/. Checked on 2026-10-05 through deepseek.com without www (same page, HTTP 200); the www host failed the TLS handshake from the checking network.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.deepseek.deepseek-v3-1-announcement",
@@ -705,8 +710,9 @@
       "publisher": "DeepSeek",
       "publisherOrgId": "deepseek",
       "provenance": "primary",
-      "availability": "unknown",
-      "notes": "Hugging Face model card of the base model; essentially the same content as the DeepSeek-V3 card. Undated; the Hugging Face API gives the repository creation time as 2024-12-25, a day before the announcement. Public and ungated on 2026-10-01."
+      "availability": "active",
+      "notes": "Hugging Face model card of the base model; essentially the same content as the DeepSeek-V3 card. Undated; the Hugging Face API gives the repository creation time as 2024-12-25, a day before the announcement. Public and ungated on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.deepseek.deepseek-v3-github",
@@ -728,8 +734,9 @@
       "publisher": "DeepSeek",
       "publisherOrgId": "deepseek",
       "provenance": "primary",
-      "availability": "unknown",
-      "notes": "Hugging Face model card of the chat model; same content as the GitHub README (model summary, downloads table with 671B total, 37B activated and 128K context, chat website and API platform, licence). Notes that the Hugging Face upload is 685B, including 14B of Multi-Token Prediction module weights. Undated; the Hugging Face API gives the repository creation time as 2024-12-25. Public and ungated on 2026-10-01."
+      "availability": "active",
+      "notes": "Hugging Face model card of the chat model; same content as the GitHub README (model summary, downloads table with 671B total, 37B activated and 128K context, chat website and API platform, licence). Notes that the Hugging Face upload is 685B, including 14B of Multi-Token Prediction module weights. Undated; the Hugging Face API gives the repository creation time as 2024-12-25. Public and ungated on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.deepseek.deepseek-v3-news",
@@ -739,11 +746,12 @@
       "publisher": "DeepSeek",
       "publisherOrgId": "deepseek",
       "provenance": "primary",
-      "availability": "unknown",
+      "availability": "active",
       "publishedAt": {
         "value": "2024-12-26"
       },
-      "notes": "English news page on deepseek.com, dated December 26, 2024; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/deepseek-v3/."
+      "notes": "English news page on deepseek.com, dated December 26, 2024; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/deepseek-v3/. Checked on 2026-10-05 through deepseek.com without www (same page, HTTP 200); the www host failed the TLS handshake from the checking network.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.deepseek.deepseek-v3-paper",
@@ -845,8 +853,9 @@
       "publisher": "DeepSeek",
       "publisherOrgId": "deepseek",
       "provenance": "primary",
-      "availability": "unknown",
-      "notes": "Model card (citation title DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression); links the technical report PDF https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf. Pipeline tag image-text-to-text; public, ungated weights under the MIT License. Living page; last modified 2026-10-01 according to Hugging Face metadata."
+      "availability": "active",
+      "notes": "Model card (citation title DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression); links the technical report PDF https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf. Pipeline tag image-text-to-text; public, ungated weights under the MIT License. Living page; last modified 2026-10-01 according to Hugging Face metadata.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.deepseek.hf-deepseek-v4-flash",
@@ -1060,8 +1069,9 @@
       "publisher": "DeepSeek",
       "publisherOrgId": "deepseek",
       "provenance": "primary",
-      "availability": "unknown",
-      "notes": "English homepage, linked from the Chinese homepage; links DeepSeek Web, app downloads, DeepSeek Harness, the API platform and the API docs. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine, while https://deepseek.com/en/ served the same page; the site declares www.deepseek.com canonical. Living page."
+      "availability": "active",
+      "notes": "English homepage, linked from the Chinese homepage; links DeepSeek Web, app downloads, DeepSeek Harness, the API platform and the API docs. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine, while https://deepseek.com/en/ served the same page; the site declares www.deepseek.com canonical. Living page. Checked on 2026-10-05 through deepseek.com without www (same page, HTTP 200); the www host failed the TLS handshake from the checking network.",
+      "lastCheckedAt": "2026-10-05"
     }
   ]
 }
