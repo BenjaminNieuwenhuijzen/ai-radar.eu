@@ -76,10 +76,8 @@
 <aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
 <h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
 <p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
-<ul class="mh-flags">
-<li class="mh-flag" data-mh-flag="some-claims-incomplete">Some details lack sources</li>
-</ul>
-<p class="mh-ev-counts">17 claims · <span data-mh-summary="primary-source">Primary source: 12</span> · <span data-mh-summary="insufficient-evidence">Evidence incomplete: 5</span></p>
+
+<p class="mh-ev-counts">17 claims · <span data-mh-summary="primary-source">Primary source: 17</span></p>
 </aside>
 </div>
 <div class="mh-page-body container">
@@ -108,20 +106,20 @@
 </li>
 </ul>
 <ul id="changes" class="mh-claim-rows" aria-label="Key changes">
-<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="insufficient-evidence">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
 <span class="mh-claim-label">Change · Modality</span>
 <span class="mh-claim-value">Processes images natively together with text, trained jointly from the start of pre-training; the previous Flash model accepted text only.<span class="mh-note">Compared with <a href="/models/deepseek/deepseek-v4-flash-0731/">DeepSeek-V4-Flash-0731</a></span></span>
-<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="insufficient-evidence" title="Historical evidence incomplete"><span class="mh-glyph" aria-hidden="true">◌</span> Evidence incomplete</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.hf-deepseek-v4-1-flash" aria-label="Source 1, Introduction">[1]</a><span class="mh-locator">Introduction</span></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.hf-deepseek-v4-1-flash" aria-label="Source 1, Introduction">[1]</a><span class="mh-locator">Introduction</span></span></span>
 </li>
-<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="insufficient-evidence">
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
 <span class="mh-claim-label">Change · Architecture</span>
 <span class="mh-claim-value">Switches to a Causal Encoder-Decoder design with 8B active parameters for input and 16B for output, plus CSA2 sparse attention and Engram conditional memory.<span class="mh-note">Compared with <a href="/models/deepseek/deepseek-v4-flash-0731/">DeepSeek-V4-Flash-0731</a></span></span>
-<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="insufficient-evidence" title="Historical evidence incomplete"><span class="mh-glyph" aria-hidden="true">◌</span> Evidence incomplete</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.hf-deepseek-v4-1-flash" aria-label="Source 1, Introduction">[1]</a><span class="mh-locator">Introduction</span></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.hf-deepseek-v4-1-flash" aria-label="Source 1, Introduction">[1]</a><span class="mh-locator">Introduction</span></span></span>
 </li>
-<li class="mh-claim" data-mh-claim="changes[2]" data-mh-evidence="insufficient-evidence">
+<li class="mh-claim" data-mh-claim="changes[2]" data-mh-evidence="primary-source">
 <span class="mh-claim-label">Change · Training data</span>
 <span class="mh-claim-value">Trained from scratch on a 45T-token multimodal corpus, rather than derived from a V4 checkpoint.<span class="mh-note">Compared with <a href="/models/deepseek/deepseek-v4-flash-0731/">DeepSeek-V4-Flash-0731</a></span></span>
-<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="insufficient-evidence" title="Historical evidence incomplete"><span class="mh-glyph" aria-hidden="true">◌</span> Evidence incomplete</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.hf-deepseek-v4-1-flash" aria-label="Source 1">[1]</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.hf-deepseek-v4-1-flash" aria-label="Source 1">[1]</a></span></span>
 </li>
 <li class="mh-claim" data-mh-claim="changes[3]" data-mh-evidence="primary-source">
 <span class="mh-claim-label">Change · Efficiency</span>
@@ -135,10 +133,10 @@
 <span class="mh-claim-value">text, image</span>
 <span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.hf-deepseek-v4-1-flash" aria-label="Source 1, Introduction">[1]</a><span class="mh-locator">Introduction</span> <a class="mh-ref" href="#source-src.deepseek.models-pricing" aria-label="Source 4, Model Details: Features, Vision">[4]</a><span class="mh-locator">Model Details: Features, Vision</span></span></span>
 </li>
-<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="insufficient-evidence">
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
 <span class="mh-claim-label">Output</span>
 <span class="mh-claim-value">text</span>
-<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="insufficient-evidence" title="Historical evidence incomplete"><span class="mh-glyph" aria-hidden="true">◌</span> Evidence incomplete</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.hf-deepseek-v4-1-flash" aria-label="Source 1, Introduction">[1]</a><span class="mh-locator">Introduction</span></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.hf-deepseek-v4-1-flash" aria-label="Source 1, Introduction">[1]</a><span class="mh-locator">Introduction</span></span></span>
 </li>
 <li class="mh-claim" data-mh-claim="capabilities.features[0]" data-mh-evidence="primary-source">
 <span class="mh-claim-label">Feature</span>
@@ -150,10 +148,10 @@
 <span class="mh-claim-value">Function calling</span>
 <span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.models-pricing" aria-label="Source 4, Model Details: Features, Tool Calls">[4]</a><span class="mh-locator">Model Details: Features, Tool Calls</span></span></span>
 </li>
-<li class="mh-claim" data-mh-claim="capabilities.features[2]" data-mh-evidence="insufficient-evidence">
+<li class="mh-claim" data-mh-claim="capabilities.features[2]" data-mh-evidence="primary-source">
 <span class="mh-claim-label">Feature</span>
 <span class="mh-claim-value">Long context</span>
-<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="insufficient-evidence" title="Historical evidence incomplete"><span class="mh-glyph" aria-hidden="true">◌</span> Evidence incomplete</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.hf-deepseek-v4-1-flash" aria-label="Source 1, Introduction">[1]</a><span class="mh-locator">Introduction</span></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.hf-deepseek-v4-1-flash" aria-label="Source 1, Introduction">[1]</a><span class="mh-locator">Introduction</span></span></span>
 </li>
 <li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="primary-source">
 <span class="mh-claim-label">Open weights</span>
@@ -244,13 +242,13 @@
 <section id="sources" aria-labelledby="mh-src-title">
 <h2 class="mh-legend" id="mh-src-title">Sources</h2>
 <ol class="mh-sources">
-<li id="source-src.deepseek.hf-deepseek-v4-1-flash" class="mh-source" data-mh-availability="unknown" data-mh-provenance="primary">
+<li id="source-src.deepseek.hf-deepseek-v4-1-flash" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
 <p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>deepseek-ai/DeepSeek-V4.1-Flash · Hugging Face</cite></p>
 <p class="mh-kicker">Model card · DeepSeek</p>
 <dl class="mh-source-status">
 <dt>Provenance</dt><dd>Primary</dd>
-<dt>Availability</dt><dd class="mh-avail" data-mh-availability="unknown">Not yet verified</dd>
-<dt>Last checked</dt><dd>Not yet checked</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
 </dl>
 <div class="mh-source-links">
 <a href="https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash">Original ↗</a>
