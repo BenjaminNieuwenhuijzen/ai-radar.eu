@@ -134,9 +134,11 @@ export function splitOutlet(title, source) {
 // Only the id rule (a valid build id is leading, else hash the link), the link check, the
 // Google News split and the first-occurrence dedupe follow app.js normalize(). app.js also
 // drops companies it does not know; the matcher keeps them, which is harmless for the
-// stored (modelId, postId) pair. An empty source is kept too: the current data.json has
-// such items (no E17 check on state). The match text uses the item title as it is in
-// data.json (§22.4), as app.js does for its own classification.
+// stored (modelId, postId) pair. Some feeds (xAI) give no source; the snapshot then names the
+// link's host ("x.ai"), because the validator requires a source on every snapshot (E17). The
+// match text uses the item title as it is in data.json (§22.4), as app.js does for its own
+// classification.
+const hostOf = link => { try { return new URL(link).hostname.replace(/^www\./, ""); } catch { return ""; } };
 export function itemView(it) {
   if (!it || typeof it !== "object") return null;
   const link = typeof it.link === "string" && /^https?:\/\/\S+$/i.test(it.link.trim()) ? it.link.trim() : "";
@@ -148,7 +150,7 @@ export function itemView(it) {
   const { title, source } = splitOutlet(rawTitle, str(it.source));
   return {
     postId: typeof it.id === "string" && RE.postId.test(it.id) ? it.id : postId(link),
-    link, title, publishedAt: iso(t), dateOnly, company: str(it.company), source,
+    link, title, publishedAt: iso(t), dateOnly, company: str(it.company), source: source || hostOf(link),
     text: normalize(rawTitle + " " + str(it.summary))
   };
 }
