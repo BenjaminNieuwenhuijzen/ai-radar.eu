@@ -1,0 +1,87 @@
+name: Model History auto-merge
+
+# A cloud Claude routine (claude.ai, daily) works the open "new-model" issues: it adds the
+# record, its sources and aliases on a claude/ branch whose head commit carries
+# "[model-history]". This workflow checks such a push the way the main build would (merged
+# with the current main: only curated data files changed, validate, tests, validate again
+# after news matching) and, when everything passes, merges it through a pull request and
+# starts the Model History build (a merge made with GITHUB_TOKEN does not trigger the push
+# workflows; a dispatch does). On a failure it comments on the linked issues, so the owner
+# gets a notification. Nothing here runs on anyone's computer.
+on:
+  push:
+    branches: ["claude/**"]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+
+concurrency:
+  group: model-history-auto
+  cancel-in-progress: false
+
+jobs:
+  merge:
+    if: contains(github.event.head_commit.message, '[model-history]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Merge the current main into the branch (locally)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git merge --no-edit origin/main
+      - name: Only curated data files changed
+        run: |
+          bad=$(git diff --name-only origin/main HEAD | grep -vE '^model-history/(records/[a-z0-9-]+/[a-z0-9.-]+\.json|sources/[a-z0-9-]+\.json|families\.json|organizations\.json)$' || true)
+          if [ -n "$bad" ]; then echo "::error::Files outside the curated Model History data:"; echo "$bad"; exit 1; fi
+          git diff --quiet origin/main HEAD && { echo "::error::No changes against main"; exit 1; } || true
+      - name: Validate
+        run: node scripts/model-history/validate.mjs
+      - name: Tests
+        run: node --test "scripts/model-history/test/*.test.mjs"
+      - name: Validate after news matching (as the main build does)
+        run: node scripts/model-history/match-news.mjs && node scripts/model-history/validate.mjs
+      - name: Open and merge the pull request, start the build
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = context.ref.replace("refs/heads/", "");
+            const { data: commits } = await github.rest.repos.compareCommitsWithBasehead({ ...context.repo, basehead: `main...${branch}` });
+            const messages = commits.commits.map(c => c.commit.message);
+            const issues = [...new Set(messages.join("\n").match(/(?<=\b(?:Closes|Fixes|Resolves) #)\d+/gi) || [])];
+            const title = (messages[messages.length - 1] || "Model History update").split("\n")[0].replace(/\s*\[model-history\]\s*/i, "").trim();
+            const body = [messages.map(m => m.replace(/\[model-history\]/gi, "").trim()).join("\n\n---\n\n"), "",
+              "Added by the Model History cloud routine and merged automatically after the checks in `model-history-auto.yml` passed (curated data only, validation, tests, validation after news matching).",
+              ...issues.map(n => `Closes #${n}`)].join("\n");
+            const open = await github.rest.pulls.list({ ...context.repo, head: `${context.repo.owner}:${branch}`, state: "open" });
+            const pr = open.data[0] || (await github.rest.pulls.create({ ...context.repo, head: branch, base: "main", title, body })).data;
+            try { await github.rest.issues.addLabels({ ...context.repo, issue_number: pr.number, labels: ["feature"] }); } catch {}
+            await github.rest.pulls.merge({ ...context.repo, pull_number: pr.number, merge_method: "squash", commit_title: `${title} (#${pr.number})`, sha: context.sha });
+            for (const n of issues) {
+              try { await github.rest.issues.update({ ...context.repo, issue_number: Number(n), state: "closed", state_reason: "completed" }); } catch {}
+            }
+            try { await github.rest.git.deleteRef({ ...context.repo, ref: `heads/${branch}` }); } catch {}
+            await github.rest.actions.createWorkflowDispatch({ ...context.repo, workflow_id: "model-history.yml", ref: "main" });
+            core.info(`Merged #${pr.number}; closed ${issues.join(", ") || "no issues"}; Model History build started.`);
+      - name: Report a failure on the linked issues
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branch = context.ref.replace("refs/heads/", "");
+            const msg = context.payload.head_commit ? context.payload.head_commit.message : "";
+            const all = (context.payload.commits || []).map(c => c.message).concat(msg).join("\n");
+            const issues = [...new Set(all.match(/(?<=\b(?:Closes|Fixes|Resolves) #)\d+/gi) || [])];
+            const run = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            for (const n of issues) await github.rest.issues.createComment({ ...context.repo, issue_number: Number(n),
+              body: `The cloud routine pushed \`${branch}\` for this issue, but the automatic checks failed, so nothing was published. See ${run}. The branch is kept for review.` });
