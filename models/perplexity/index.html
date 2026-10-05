@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Perplexity models · Model History · AI Radar</title>
+<meta name="description" content="Perplexity offers an answer engine that gives cited answers, Perplexity Computer for multi-step research and workflow tasks, the Comet AI browser and an…">
+<link rel="canonical" href="https://ai-radar.eu/models/perplexity/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Perplexity models · Model History · AI Radar">
+<meta property="og:description" content="Perplexity offers an answer engine that gives cited answers, Perplexity Computer for multi-step research and workflow tasks, the Comet AI browser and an…">
+<meta property="og:url" content="https://ai-radar.eu/models/perplexity/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Perplexity models · Model History · AI Radar">
+<meta name="twitter:description" content="Perplexity offers an answer engine that gives cited answers, Perplexity Computer for multi-step research and workflow tasks, the Comet AI browser and an…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script src="/assets/model-pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/perplexity/","url":"https://ai-radar.eu/models/perplexity/","name":"Perplexity models · Model History · AI Radar","description":"Perplexity offers an answer engine that gives cited answers, Perplexity Computer for multi-step research and workflow tasks, the Comet AI browser and an…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/perplexity/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/perplexity/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Perplexity","item":"https://ai-radar.eu/models/perplexity/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-company" style="--h:158" data-mh-view="company" data-mh-org="perplexity">
+<div class="mh-page-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li aria-current="page"><span class="mh-co" style="--h:158">Perplexity</span></li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 1.5v21"/><path d="M4.5 3l15 18"/><path d="M19.5 3l-15 18"/><rect x="3" y="8" width="18" height="8"/></svg></span>Perplexity models</h1>
+<p class="mh-lead">Perplexity offers an answer engine that gives cited answers, Perplexity Computer for multi-step research and workflow tasks, the Comet AI browser and an API platform for developers. It describes routing work across models from several providers and calls Sonar its in-house model, optimised for answer quality in its default search mode.</p>
+<div id="mh-family-chips" class="mh-chips" role="group" aria-label="Family" hidden>
+<button type="button" data-family="" aria-pressed="true">All families</button>
+<button type="button" data-family="perplexity.pplx" aria-pressed="false">PPLX</button>
+<button type="button" data-family="perplexity.sonar-reasoning-series" aria-pressed="false">Sonar Reasoning</button>
+<button type="button" data-family="perplexity.sonar-series" aria-pressed="false">Sonar</button>
+</div>
+</div>
+<aside class="mh-head-side" id="evidence" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence overview</h2>
+<dl class="mh-ev-overview">
+<div data-mh-evidence="primary-source"><dt><span class="mh-glyph" aria-hidden="true">●</span> Primary source</dt><dd>11</dd></div>
+<div data-mh-evidence="archived-primary-source"><dt><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</dt><dd>1</dd></div>
+<div data-mh-evidence="secondary-sources"><dt><span class="mh-glyph" aria-hidden="true">○</span> Secondary sources</dt><dd>0</dd></div>
+<div data-mh-evidence="insufficient-evidence"><dt><span class="mh-glyph" aria-hidden="true">◌</span> Evidence incomplete</dt><dd>0</dd></div>
+<div data-mh-flag="original-unavailable"><dt>Original source unavailable</dt><dd>1</dd></div>
+</dl>
+<h3 class="mh-legend">Original source unavailable</h3>
+<ul class="mh-mini-list" data-mh-list="original-unavailable">
+<li><a href="/models/perplexity/llama-3-sonar/">Llama 3 Sonar</a> <span class="mh-muted">Archived primary source</span></li>
+</ul>
+</aside>
+</div>
+<div class="mh-page-body container">
+<div class="mh-body-main">
+<section id="chronology" aria-labelledby="mh-chrono-title">
+<h2 class="mh-visually-hidden" id="mh-chrono-title">Chronology</h2>
+<ol class="mh-chrono">
+<li class="mh-year">
+<div class="mh-year-head"><h3>2026</h3><span class="mh-year-count">1 model</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="perplexity.pplx-27b" data-mh-family="perplexity.pplx" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-08-25">25 August 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">PPLX · Language</span>
+<a class="mh-chrono-name" href="/models/perplexity/pplx-27b/">PPLX 27B</a>
+<p class="mh-chrono-sum">PPLX 27B is a language model that Perplexity post-trained from Qwen 3.8 27B, introduced on 25 August 2026 with Portable Computer, a version of Perplexity Computer that runs entirely on a local…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2025</h3><span class="mh-year-count">7 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="perplexity.r1-1776" data-mh-family="perplexity.sonar-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-02-18">18 February 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Sonar · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/perplexity/r1-1776/">R1 1776</a>
+<p class="mh-chrono-sum">R1 1776 is a version of DeepSeek-R1 that Perplexity post-trained to remove Chinese Communist Party censorship, published as open weights under the MIT licence on 18 February 2025 and offered in the…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="perplexity.sonar-2025-02" data-mh-family="perplexity.sonar-series" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-02-11">11 February 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Sonar · Language</span>
+<a class="mh-chrono-name" href="/models/perplexity/sonar-2025-02/">Sonar (February 2025)</a>
+<p class="mh-chrono-sum">The February 2025 version of Sonar is Perplexity&#39;s in-house model built on Llama 3.3 70B, released under the unchanged name Sonar for Perplexity Pro users in the app and also usable through the…</p>
+<ul class="mh-changes-mini"><li>Built on Llama 3.3 70B and further trained for answer factuality and readability in Perplexity&#39;s default search mode.</li><li>Offered to Perplexity Pro users in the app, who could set it as their default model, in addition to the Sonar API.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="perplexity.sonar-deep-research" data-mh-family="perplexity.sonar-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-02">February 2025</time></span><span class="mh-prec">Day not given</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Sonar · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/perplexity/sonar-deep-research/">Sonar Deep Research</a>
+<p class="mh-chrono-sum">Sonar Deep Research is the research model of Perplexity&#39;s Sonar API, first listed in the API docs in late February 2025 and offered only through the API. Perplexity&#39;s docs say it runs dozens of…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="perplexity.sonar-reasoning-pro" data-mh-family="perplexity.sonar-reasoning-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-02">February 2025?</time></span><span class="mh-prec">Uncertain month</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Sonar Reasoning · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/perplexity/sonar-reasoning-pro/">Sonar Reasoning Pro</a>
+<p class="mh-chrono-sum">Sonar Reasoning Pro is a reasoning model in Perplexity&#39;s Sonar API, first listed in the API docs in early February 2025, that returns its chain of thought in the response. Perplexity&#39;s docs say it…</p>
+<ul class="mh-changes-mini"><li>Perplexity&#39;s docs describe it as powered by DeepSeek R1 with chain of thought.</li><li>Has an 8k maximum output, a limit the docs state for this model and Sonar Pro but not for Sonar Reasoning.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="perplexity.sonar" data-mh-family="perplexity.sonar-series" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-01-21">21 January 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Sonar · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/perplexity/sonar/">Sonar</a>
+<p class="mh-chrono-sum">Sonar is the lightweight model of Perplexity&#39;s Sonar API, launched on 21 January 2025 together with Sonar Pro and offered only through the API. Perplexity aimed it at companies that need quick…</p>
+<ul class="mh-changes-mini"><li>Comes with citations included and source customisation; Perplexity also opened JSON mode and search domain filters to more usage tiers.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="perplexity.sonar-pro" data-mh-family="perplexity.sonar-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-01-21">21 January 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Sonar · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/perplexity/sonar-pro/">Sonar Pro</a>
+<p class="mh-chrono-sum">Sonar Pro is the higher tier of Perplexity&#39;s Sonar API, made generally available to developers on 21 January 2025 alongside Sonar. Perplexity positions it for enterprises with in-depth, multi-step…</p>
+<ul class="mh-changes-mini"><li>Context length of 200k tokens, up from 127k for the llama-3.1-sonar online models it replaced.</li><li>Perplexity says it returns on average twice as many citations per search as Sonar and is meant for multi-step queries.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="perplexity.sonar-reasoning" data-mh-family="perplexity.sonar-reasoning-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-01">January 2025</time></span><span class="mh-prec">Day not given</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Sonar Reasoning · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/perplexity/sonar-reasoning/">Sonar Reasoning</a>
+<p class="mh-chrono-sum">Sonar Reasoning was a reasoning model in Perplexity&#39;s Sonar API, first listed in the API docs at the end of January 2025, that returned its chain of thought in the response. It had a 127k context…</p>
+<ul class="mh-changes-mini"><li>Adds chain-of-thought reasoning, returned in the response, on top of Sonar&#39;s web search with citations.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2024</h3><span class="mh-year-count">3 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="perplexity.llama-3-1-sonar" data-mh-family="perplexity.sonar-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-07">July 2024</time></span><span class="mh-prec">Day not given</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Sonar · Language</span>
+<a class="mh-chrono-name" href="/models/perplexity/llama-3-1-sonar/">Llama 3.1 Sonar</a>
+<p class="mh-chrono-sum">Llama 3.1 Sonar covers Perplexity API language models launched in July 2024: llama-3.1-sonar-small-128k and llama-3.1-sonar-large-128k as online (search) and chat ids, joined by August 2024 by an…</p>
+<ul class="mh-changes-mini"><li>Context length grew to 131,072 tokens for the chat ids and 127,072 for the online ids, from 32768 and 28000.</li><li>Adds a third, online-only model, llama-3.1-sonar-huge-128k, listed at 405B parameters; it was on the API docs by August 2024.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="perplexity.llama-3-sonar" data-mh-family="perplexity.sonar-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-05">May 2024?</time></span><span class="mh-prec">Uncertain month</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Sonar · Language</span>
+<a class="mh-chrono-name" href="/models/perplexity/llama-3-sonar/">Llama 3 Sonar</a>
+<p class="mh-chrono-sum">Llama 3 Sonar covers two Perplexity API language models, llama-3-sonar-small-32k and llama-3-sonar-large-32k, each offered as a chat id and an online id with search, listed at 7B and 70B parameters…</p>
+<ul class="mh-changes-mini"><li>Context length grew to 32768 tokens for the chat ids and 28000 for the online ids, from 16384 and 12000.</li><li>The larger tier is listed at 70B parameters, where sonar-medium was listed at 8x7B.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="archived-primary-source" title="Archived primary source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+<span class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</span>
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="perplexity.sonar-2024-02" data-mh-family="perplexity.sonar-series" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-02-23">23 February 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Sonar · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/perplexity/sonar-2024-02/">Sonar (February 2024)</a>
+<p class="mh-chrono-sum">Sonar (February 2024) refers to Perplexity&#39;s sonar-small and sonar-medium language models, launched on 23 February 2024 on the Perplexity API, each as a chat id and a search-enhanced online id. The…</p>
+<ul class="mh-changes-mini"><li>Context length of 16384 tokens for the chat ids and 12000 for the online ids, up from 4096 for the PPLX online models at release.</li><li>The larger tier, sonar-medium, is listed at 8x7B parameters in mixture-of-experts notation; the larger PPLX online model was pplx-70b-online.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2023</h3><span class="mh-year-count">1 model</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="perplexity.pplx-online-llms" data-mh-family="perplexity.pplx" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-11-29">29 November 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">PPLX · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/perplexity/pplx-online-llms/">PPLX Online LLMs</a>
+<p class="mh-chrono-sum">PPLX Online LLMs were two Perplexity language models, pplx-7b-online and pplx-70b-online, released on 29 November 2023 through pplx-api and the Perplexity Labs playground. Perplexity says they were…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</section>
+
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<ol class="mh-lineage-models">
+<li id="lineage-perplexity.pplx-online-llms">
+<a href="/models/perplexity/pplx-online-llms/">PPLX Online LLMs</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/perplexity/sonar-2024-02/">Sonar (February 2024)</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-7b/">Mistral 7B</a> <span class="mh-org-tag">(Mistral AI)</span> <span class="mh-muted">· derived: fine tune</span>; <a href="/models/meta/llama-2/">Llama 2</a> <span class="mh-org-tag">(Meta)</span> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-perplexity.sonar-2024-02">
+<a href="/models/perplexity/sonar-2024-02/">Sonar (February 2024)</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/perplexity/pplx-online-llms/">PPLX Online LLMs</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/perplexity/llama-3-sonar/">Llama 3 Sonar</a></dd></div>
+</dl>
+</li>
+<li id="lineage-perplexity.llama-3-sonar">
+<a href="/models/perplexity/llama-3-sonar/">Llama 3 Sonar</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/perplexity/sonar-2024-02/">Sonar (February 2024)</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/perplexity/llama-3-1-sonar/">Llama 3.1 Sonar</a></dd></div>
+</dl>
+</li>
+<li id="lineage-perplexity.llama-3-1-sonar">
+<a href="/models/perplexity/llama-3-1-sonar/">Llama 3.1 Sonar</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/perplexity/llama-3-sonar/">Llama 3 Sonar</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/perplexity/sonar/">Sonar</a>; <a href="/models/perplexity/sonar-pro/">Sonar Pro</a></dd></div>
+</dl>
+</li>
+<li id="lineage-perplexity.sonar-reasoning">
+<a href="/models/perplexity/sonar-reasoning/">Sonar Reasoning</a>
+<p class="mh-none">No recorded relations.</p>
+</li>
+<li id="lineage-perplexity.sonar">
+<a href="/models/perplexity/sonar/">Sonar</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/perplexity/llama-3-1-sonar/">Llama 3.1 Sonar</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/perplexity/sonar-2025-02/">Sonar (February 2025)</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-perplexity.sonar-pro">
+<a href="/models/perplexity/sonar-pro/">Sonar Pro</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/perplexity/llama-3-1-sonar/">Llama 3.1 Sonar</a></dd></div>
+</dl>
+</li>
+<li id="lineage-perplexity.sonar-deep-research">
+<a href="/models/perplexity/sonar-deep-research/">Sonar Deep Research</a>
+<p class="mh-none">No recorded relations.</p>
+</li>
+<li id="lineage-perplexity.sonar-reasoning-pro">
+<a href="/models/perplexity/sonar-reasoning-pro/">Sonar Reasoning Pro</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a> <span class="mh-org-tag">(DeepSeek)</span> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-perplexity.sonar-2025-02">
+<a href="/models/perplexity/sonar-2025-02/">Sonar (February 2025)</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/perplexity/sonar/">Sonar</a> <span class="mh-muted">· revision</span>; <a href="/models/meta/llama-3-3/">Llama 3.3</a> <span class="mh-org-tag">(Meta)</span> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-perplexity.r1-1776">
+<a href="/models/perplexity/r1-1776/">R1 1776</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a> <span class="mh-org-tag">(DeepSeek)</span> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-perplexity.pplx-27b">
+<a href="/models/perplexity/pplx-27b/">PPLX 27B</a>
+<p class="mh-none">No recorded relations.</p>
+</li>
+</ol>
+</section>
+<section id="families">
+<h2 class="mh-h2">Families</h2>
+<ul class="mh-families">
+<li id="family-perplexity.pplx" class="mh-family">
+<h3>PPLX</h3>
+<p class="mh-family-models"><a href="/models/perplexity/pplx-online-llms/">PPLX Online LLMs</a> · <a href="/models/perplexity/pplx-27b/">PPLX 27B</a></p>
+</li>
+<li id="family-perplexity.sonar-series" class="mh-family">
+<h3>Sonar</h3>
+<p class="mh-family-models"><a href="/models/perplexity/sonar-2024-02/">Sonar (February 2024)</a> · <a href="/models/perplexity/llama-3-sonar/">Llama 3 Sonar</a> · <a href="/models/perplexity/llama-3-1-sonar/">Llama 3.1 Sonar</a> · <a href="/models/perplexity/sonar/">Sonar</a> · <a href="/models/perplexity/sonar-pro/">Sonar Pro</a> · <a href="/models/perplexity/sonar-deep-research/">Sonar Deep Research</a> · <a href="/models/perplexity/sonar-2025-02/">Sonar (February 2025)</a> · <a href="/models/perplexity/r1-1776/">R1 1776</a></p>
+<ul class="mh-families">
+<li id="family-perplexity.sonar-reasoning-series" class="mh-family">
+<h3>Sonar Reasoning</h3>
+<p class="mh-family-models"><a href="/models/perplexity/sonar-reasoning/">Sonar Reasoning</a> · <a href="/models/perplexity/sonar-reasoning-pro/">Sonar Reasoning Pro</a></p>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="organization">
+<h2 class="mh-h2">About the organisation</h2>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="description" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Description</span>
+<span class="mh-claim-value">Perplexity offers an answer engine that gives cited answers, Perplexity Computer for multi-step research and workflow tasks, the Comet AI browser and an API platform for developers. It describes routing work across models from several providers and calls Sonar its in-house model, optimised for answer quality in its default search mode.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.hub-home" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.perplexity.meet-new-sonar" aria-label="Source 2">[2]</a></span></span>
+</li>
+</ul>
+<p class="mh-facts-line">Company · <a href="https://www.perplexity.ai">https://www.perplexity.ai</a> · 12 models listed here</p>
+</section>
+<section id="sources">
+<h2 class="mh-h2">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.perplexity.hub-home" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Perplexity | AI for the Curious</cite></p>
+<p class="mh-kicker">Other · Perplexity</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://www.perplexity.ai/hub">Original ↗</a>
+<span class="mh-url">https://www.perplexity.ai/hub</span>
+<a href="https://web.archive.org/web/20260902120903/https://www.perplexity.ai/hub">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2026-09-02">2 September 2026</time></span>
+<span class="mh-note">Company overview page. perplexity.ai answers 403 to scripted requests, so the health check is skipped; content was read via the Internet Archive capture of 2026-09-02.</span>
+</div>
+</li>
+<li id="source-src.perplexity.meet-new-sonar" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Meet New Sonar: A blazing fast model optimized for Perplexity search</cite></p>
+<p class="mh-kicker">Announcement · Perplexity · published <time datetime="2025-02-11">11 February 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://www.perplexity.ai/hub/blog/meet-new-sonar">Original ↗</a>
+<span class="mh-url">https://www.perplexity.ai/hub/blog/meet-new-sonar</span>
+<a href="https://web.archive.org/web/20260920191527/https://www.perplexity.ai/hub/blog/meet-new-sonar">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2026-09-20">20 September 2026</time></span>
+<span class="mh-note">Title from the page heading; the HTML title reads Meet New Sonar: A Blazing Fast Model Optimized for Perplexity Search. Page shows Feb 11, 2025. perplexity.ai answers automated requests with 403, so the content was read from the Internet Archive capture of 2026-09-20.</span>
+</div>
+</li>
+</ol>
+</section>
+</div>
+<aside class="mh-body-side" id="coverage" aria-labelledby="mh-cov-title">
+<h2 class="mh-legend" id="mh-cov-title">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=perplexity">All model releases from Perplexity on AI Radar →</a></p>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

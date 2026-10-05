@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>R1 1776 · Perplexity · Model History · AI Radar</title>
+<meta name="description" content="R1 1776 is a version of DeepSeek-R1 that Perplexity post-trained to remove Chinese Communist Party censorship, published as open weights under the MIT…">
+<link rel="canonical" href="https://ai-radar.eu/models/perplexity/r1-1776/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="R1 1776 · Perplexity · Model History · AI Radar">
+<meta property="og:description" content="R1 1776 is a version of DeepSeek-R1 that Perplexity post-trained to remove Chinese Communist Party censorship, published as open weights under the MIT…">
+<meta property="og:url" content="https://ai-radar.eu/models/perplexity/r1-1776/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="R1 1776 · Perplexity · Model History · AI Radar">
+<meta name="twitter:description" content="R1 1776 is a version of DeepSeek-R1 that Perplexity post-trained to remove Chinese Communist Party censorship, published as open weights under the MIT…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/perplexity/r1-1776/","url":"https://ai-radar.eu/models/perplexity/r1-1776/","name":"R1 1776 · Perplexity · Model History · AI Radar","description":"R1 1776 is a version of DeepSeek-R1 that Perplexity post-trained to remove Chinese Communist Party censorship, published as open weights under the MIT…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/perplexity/r1-1776/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/perplexity/r1-1776/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Perplexity","item":"https://ai-radar.eu/models/perplexity/"},{"@type":"ListItem","position":4,"name":"R1 1776","item":"https://ai-radar.eu/models/perplexity/r1-1776/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:158" data-mh-view="model" data-mh-model="perplexity.r1-1776">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/perplexity/"><span class="mh-co" style="--h:158">Perplexity</span></a></li><li><a href="/models/perplexity/#family-perplexity.sonar-series">Sonar</a></li><li aria-current="page">R1 1776</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 1.5v21"/><path d="M4.5 3l15 18"/><path d="M19.5 3l-15 18"/><rect x="3" y="8" width="18" height="8"/></svg></span>R1 1776</h1>
+<p class="mh-sub">Retired · Language, Reasoning</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">R1 1776 is a version of DeepSeek-R1 that Perplexity post-trained to remove Chinese Communist Party censorship, published as open weights under the MIT licence on 18 February 2025 and offered in the Sonar API as an offline chat model without search. Perplexity removed it from the API on 1 August 2025; a Llama 70B distilled version was also published. <span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.open-sourcing-r1-1776" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.perplexity.r1-1776-hf-card" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.perplexity.model-cards-2025-02-26" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.perplexity.changelog" aria-label="Source 4">[4]</a> <a class="mh-ref" href="#source-src.perplexity.r1-1776-distill-llama-70b-hf-card" aria-label="Source 5">[5]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/perplexity/r1-1776/timeline/">Timeline of R1 1776 →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">13 claims · <span data-mh-summary="primary-source">Primary source: 8</span> · <span data-mh-summary="archived-primary-source">Archived primary: 4</span> · <span data-mh-summary="not-applicable">No claim made: 1</span> · <span data-mh-summary="original-unavailable">Original unavailable: 4</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2025-02-18">18 February 2025</time><span class="mh-note">Weights released on Hugging Face and the model offered through the Sonar API, per the post of 2025-02-18; the API model list captured on 2025-02-22 includes r1-1776.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.open-sourcing-r1-1776" aria-label="Source 1, first paragraph">[1]</a><span class="mh-locator">first paragraph</span> <a class="mh-ref" href="#source-src.perplexity.model-cards-2025-02-22" aria-label="Source 6, Supported Models table">[6]</a><span class="mh-locator">Supported Models table</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.deprecated" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Deprecated</span>
+<span class="mh-claim-value"><time datetime="2025-08">August 2025</time><span class="mh-note">The notice is labelled August 2025 (month only) and gives the removal date of 2025-08-01.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.changelog" aria-label="Source 4, August 2025: API model deprecation notice">[4]</a><span class="mh-locator">August 2025: API model deprecation notice</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.retired" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Retired</span>
+<span class="mh-claim-value"><time datetime="2025-08-01">1 August 2025</time><span class="mh-note">Removal from the Perplexity API.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.changelog" aria-label="Source 4, August 2025: API model deprecation notice">[4]</a><span class="mh-locator">August 2025: API model deprecation notice</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Retired<span class="mh-note">Removed from the API on 2025-08-01. The Hugging Face repositories perplexity-ai/r1-1776 and perplexity-ai/r1-1776-distill-llama-70b answered 401 on 2026-10-05 and are absent from the perplexity-ai model listing, so the weights are no longer offered by Perplexity there.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.changelog" aria-label="Source 4, August 2025: API model deprecation notice">[4]</a><span class="mh-locator">August 2025: API model deprecation notice</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="replacedBy" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Replaced by</span>
+<span class="mh-claim-value"><a href="/models/perplexity/sonar-reasoning-pro/">Sonar Reasoning Pro</a><span class="mh-note">The notice recommends switching to Sonar Pro Reasoning, the changelog&#39;s wording for Sonar Reasoning Pro.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.changelog" aria-label="Source 4, August 2025: API model deprecation notice">[4]</a><span class="mh-locator">August 2025: API model deprecation notice</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="archived-primary-source">
+<span class="mh-claim-label">Derived from (fine tune)</span>
+<span class="mh-claim-value"><a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a> <span class="mh-org-tag">(DeepSeek)</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="archived-primary-source" title="Archived primary source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</span><span class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.open-sourcing-r1-1776" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.perplexity.r1-1776-hf-card" aria-label="Source 2">[2]</a></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes"></ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="archived-primary-source">
+<span class="mh-claim-label">Open weights</span>
+<span class="mh-claim-value">Yes<span class="mh-note">Weights published on Hugging Face under the MIT licence tag in February 2025; the repository is no longer reachable (401 on 2026-10-05).</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="archived-primary-source" title="Archived primary source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</span><span class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.open-sourcing-r1-1776" aria-label="Source 1, first paragraph">[1]</a><span class="mh-locator">first paragraph</span> <a class="mh-ref" href="#source-src.perplexity.r1-1776-hf-card" aria-label="Source 2">[2]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">128k tokens<span class="mh-note">Context length of the API offering.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.model-cards-2025-02-22" aria-label="Source 6, Supported Models table">[6]</a><span class="mh-locator">Supported Models table</span> <a class="mh-ref" href="#source-src.perplexity.r1-1776-model-page" aria-label="Source 7, Context Length">[7]</a><span class="mh-locator">Context Length</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="not-applicable">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">Not disclosed<span class="mh-note">The model card text states no count. The Hugging Face page widget showed a size computed by Hugging Face from the weight files, not a figure stated by Perplexity.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="not-applicable" title="No claim made">No claim made</span><span class="mh-refs mh-refs-none">No source</span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">Open-weights download, API<span class="mh-note">As offered in 2025; neither route is available any more.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.open-sourcing-r1-1776" aria-label="Source 1, first paragraph">[1]</a><span class="mh-locator">first paragraph</span> <a class="mh-ref" href="#source-src.perplexity.model-cards-2025-02-22" aria-label="Source 6, Supported Models table">[6]</a><span class="mh-locator">Supported Models table</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<p class="mh-none" data-mh-lineage="predecessors">No known predecessor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<p class="mh-none" data-mh-lineage="successors">No known successor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<ul class="mh-rel" data-mh-lineage="parents">
+<li><a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a> <span class="mh-muted">· DeepSeek · 20 January 2025 · derived (fine tune)</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/deepseek/deepseek-llm/">DeepSeek LLM</a> <span class="mh-muted">· DeepSeek · 29 November 2023</span></li>
+<li><a href="/models/deepseek/deepseek-v2/">DeepSeek-V2</a> <span class="mh-muted">· DeepSeek · 6 May 2024</span></li>
+<li><a href="/models/deepseek/deepseek-v2-chat-0628/">DeepSeek-V2-Chat-0628</a> <span class="mh-muted">· DeepSeek · 28 June 2024</span></li>
+<li><a href="/models/deepseek/deepseek-v2-5/">DeepSeek-V2.5</a> <span class="mh-muted">· DeepSeek · 5 September 2024</span></li>
+<li><a href="/models/deepseek/deepseek-r1-lite-preview/">DeepSeek-R1-Lite-Preview</a> <span class="mh-muted">· DeepSeek · 20 November 2024</span></li>
+<li><a href="/models/deepseek/deepseek-v2-5-1210/">DeepSeek-V2.5-1210</a> <span class="mh-muted">· DeepSeek · 10 December 2024</span></li>
+<li><a href="/models/deepseek/deepseek-v3/">DeepSeek-V3</a> <span class="mh-muted">· DeepSeek · 26 December 2024</span></li>
+<li><a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a> <span class="mh-muted">· DeepSeek · 20 January 2025</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<p class="mh-none" data-mh-lineage="descendants">None.</p></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-h2">Variants</h2>
+<section id="variant-distill-llama-70b" class="mh-variant">
+<h3 class="mh-variant-name">R1 1776 Distill Llama 70B</h3>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[0].dates.released" data-mh-evidence="archived-primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2025-02">February 2025</time><span class="mh-note">Not in the post of 2025-02-18; the repository data gives createdAt 2025-02-21 and the archived card is of 2025-02-22. Public release day not stated.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="archived-primary-source" title="Archived primary source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</span><span class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.r1-1776-distill-llama-70b-hf-card" aria-label="Source 5">[5]</a></span></span>
+</li>
+</ul>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[0]" data-mh-evidence="archived-primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">Described by Perplexity as a Llama 70B distilled version of R1 1776; the card&#39;s base_model metadata is deepseek-ai/DeepSeek-R1-Distill-Llama-70B. Offered only as weights on Hugging Face, not through the API.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="archived-primary-source" title="Archived primary source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</span><span class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.r1-1776-distill-llama-70b-hf-card" aria-label="Source 5">[5]</a></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: r1-1776-distill-llama-70b, perplexity-ai/r1-1776-distill-llama-70b</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.openWeights">Open weights: <span class="mh-value">Yes</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.r1-1776-distill-llama-70b-hf-card" aria-label="Source 5">[5]</a></span></li>
+</ul>
+</section>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=perplexity">All model releases from Perplexity on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<a class="mh-pager-prev" href="/models/perplexity/sonar-2025-02/"><span class="mh-muted">← Earlier in Sonar</span><span>Sonar (February 2025)</span></a>
+<span></span>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 1.5v21"/><path d="M4.5 3l15 18"/><path d="M19.5 3l-15 18"/><rect x="3" y="8" width="18" height="8"/></svg></span><a href="/models/perplexity/">Perplexity</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/perplexity/#family-perplexity.sonar-series">Sonar</a></dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2025-02-18">18 February 2025</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Standard release <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>R1-1776, r1-1776, perplexity-ai/r1-1776</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.perplexity.open-sourcing-r1-1776" class="mh-source" data-mh-availability="archived" data-mh-provenance="archived-primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Open-sourcing R1 1776</cite></p>
+<p class="mh-kicker">Announcement · Perplexity · published <time datetime="2025-02-18">18 February 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Archived primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="archived">Archived copy</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<span class="mh-muted">Original no longer available</span>
+<span class="mh-url">https://www.perplexity.ai/hub/blog/open-sourcing-r1-1776</span>
+<a href="https://web.archive.org/web/20250219025612/https://www.perplexity.ai/hub/blog/open-sourcing-r1-1776">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2025-02-19">19 February 2025</time></span>
+<span class="mh-note">Page shows Written by AI Team, Published on Feb 18, 2025. Internet Archive captures of the original URL return 404 from 2026-05-18 on (last 200 capture 2026-05-05), so the post appears to have been taken down; the content was read from the capture of 2025-02-19. On 2026-10-05 the live page showed Blog post not found; the Internet Archive capture remains.</span>
+</div>
+</li>
+<li id="source-src.perplexity.r1-1776-hf-card" class="mh-source" data-mh-availability="archived" data-mh-provenance="archived-primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>perplexity-ai/r1-1776</cite></p>
+<p class="mh-kicker">Model hub page · Perplexity</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Archived primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="archived">Archived copy</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<span class="mh-muted">Original no longer available</span>
+<span class="mh-url">https://huggingface.co/perplexity-ai/r1-1776</span>
+<a href="https://web.archive.org/web/20250413084956/https://huggingface.co/perplexity-ai/r1-1776">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2025-04-13">13 April 2025</time></span>
+<span class="mh-note">Hugging Face model card in the perplexity-ai organisation: R1 1776 is a DeepSeek-R1 reasoning model post-trained by Perplexity AI to remove Chinese Communist Party censorship; license tag mit; base_model metadata deepseek-ai/DeepSeek-R1 (finetune); repository createdAt 2025-02-18 in the page data. The repository answered 401 on 2026-10-05 and is missing from the perplexity-ai model listing, so the weights are no longer offered there.</span>
+</div>
+</li>
+<li id="source-src.perplexity.model-cards-2025-02-26" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Supported Models</cite></p>
+<p class="mh-kicker">Documentation · Perplexity</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.perplexity.ai/guides/model-cards">Original ↗</a>
+<span class="mh-url">https://docs.perplexity.ai/guides/model-cards</span>
+<a href="https://web.archive.org/web/20250226034221/https://docs.perplexity.ai/guides/model-cards">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2025-02-26">26 February 2025</time></span>
+<span class="mh-note">Historical state of the API model list. First capture after the one of 2025-02-22 and the first that lists sonar-deep-research, with a context length of 60k (128k from the capture of 2025-03-16 on). The URL now redirects (308) to the Agent API Models page, so only the archive copy shows this content.</span>
+</div>
+</li>
+<li id="source-src.perplexity.changelog" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Changelog</cite></p>
+<p class="mh-kicker">Changelog · Perplexity</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.perplexity.ai/docs/resources/changelog">Original ↗</a>
+<span class="mh-url">https://docs.perplexity.ai/docs/resources/changelog</span>
+<span class="mh-note">Living page; content as seen on 2026-10-05. Entries carry month labels only. Its oldest entry is the April 2024 Model Deprecation Notice, shortened to its first five model ids (codellama-70b-instruct, mistral-7b-instruct, mixtral-8x22b-instruct, pplx-7b-chat, pplx-7b-online); the February 2024 entries and the sonar-small and sonar-medium ids are no longer on it. Old readme.io addresses such as https://docs.perplexity.ai/changelog/api-updates-february-2024 and https://docs.perplexity.ai/changelog/changelog redirect (308) here.</span>
+</div>
+</li>
+<li id="source-src.perplexity.r1-1776-distill-llama-70b-hf-card" class="mh-source" data-mh-availability="archived" data-mh-provenance="archived-primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>perplexity-ai/r1-1776-distill-llama-70b</cite></p>
+<p class="mh-kicker">Model hub page · Perplexity</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Archived primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="archived">Archived copy</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<span class="mh-muted">Original no longer available</span>
+<span class="mh-url">https://huggingface.co/perplexity-ai/r1-1776-distill-llama-70b</span>
+<a href="https://web.archive.org/web/20250222035310/https://huggingface.co/perplexity-ai/r1-1776-distill-llama-70b">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2025-02-22">22 February 2025</time></span>
+<span class="mh-note">Hugging Face model card: a Llama 70B distilled version of R1 1776; license tag mit; base_model metadata deepseek-ai/DeepSeek-R1-Distill-Llama-70B (finetune); repository createdAt 2025-02-21 in the page data. The repository answered 401 on 2026-10-05.</span>
+</div>
+</li>
+<li id="source-src.perplexity.model-cards-2025-02-22" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[6]</span> <cite>Supported Models</cite></p>
+<p class="mh-kicker">Documentation · Perplexity</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.perplexity.ai/guides/model-cards">Original ↗</a>
+<span class="mh-url">https://docs.perplexity.ai/guides/model-cards</span>
+<a href="https://web.archive.org/web/20250222091536/https://docs.perplexity.ai/guides/model-cards">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2025-02-22">22 February 2025</time></span>
+<span class="mh-note">Historical state of the API model list. Lists r1-1776 (128k) as an offline chat model that does not use the search subsystem; sonar-deep-research is not yet listed. The URL now redirects (308) to the Agent API Models page, so only the archive copy shows this content.</span>
+</div>
+</li>
+<li id="source-src.perplexity.r1-1776-model-page" class="mh-source" data-mh-availability="archived" data-mh-provenance="archived-primary">
+<p class="mh-source-title"><span class="mh-source-n">[7]</span> <cite>R1-1776</cite></p>
+<p class="mh-kicker">Documentation · Perplexity</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Archived primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="archived">Archived copy</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<span class="mh-muted">Original no longer available</span>
+<span class="mh-url">https://docs.perplexity.ai/models/models/r1-1776</span>
+<a href="https://web.archive.org/web/20250521045352/https://docs.perplexity.ai/models/models/r1-1776">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2025-05-21">21 May 2025</time></span>
+<span class="mh-note">Per-model API documentation page; HTML title R1-1776 - Perplexity. Offline chat model without real-time search, context length 128k. The URL returned 404 on 2026-10-05, so the content was read from the archive copy.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

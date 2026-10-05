@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Llama 3 Sonar · Perplexity · Model History · AI Radar</title>
+<meta name="description" content="Llama 3 Sonar covers two Perplexity API language models, llama-3-sonar-small-32k and llama-3-sonar-large-32k, each offered as a chat id and an online id…">
+<link rel="canonical" href="https://ai-radar.eu/models/perplexity/llama-3-sonar/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Llama 3 Sonar · Perplexity · Model History · AI Radar">
+<meta property="og:description" content="Llama 3 Sonar covers two Perplexity API language models, llama-3-sonar-small-32k and llama-3-sonar-large-32k, each offered as a chat id and an online id…">
+<meta property="og:url" content="https://ai-radar.eu/models/perplexity/llama-3-sonar/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Llama 3 Sonar · Perplexity · Model History · AI Radar">
+<meta name="twitter:description" content="Llama 3 Sonar covers two Perplexity API language models, llama-3-sonar-small-32k and llama-3-sonar-large-32k, each offered as a chat id and an online id…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/perplexity/llama-3-sonar/","url":"https://ai-radar.eu/models/perplexity/llama-3-sonar/","name":"Llama 3 Sonar · Perplexity · Model History · AI Radar","description":"Llama 3 Sonar covers two Perplexity API language models, llama-3-sonar-small-32k and llama-3-sonar-large-32k, each offered as a chat id and an online id…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/perplexity/llama-3-sonar/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/perplexity/llama-3-sonar/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Perplexity","item":"https://ai-radar.eu/models/perplexity/"},{"@type":"ListItem","position":4,"name":"Llama 3 Sonar","item":"https://ai-radar.eu/models/perplexity/llama-3-sonar/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:158" data-mh-view="model" data-mh-model="perplexity.llama-3-sonar">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/perplexity/"><span class="mh-co" style="--h:158">Perplexity</span></a></li><li><a href="/models/perplexity/#family-perplexity.sonar-series">Sonar</a></li><li aria-current="page">Llama 3 Sonar</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 1.5v21"/><path d="M4.5 3l15 18"/><path d="M19.5 3l-15 18"/><rect x="3" y="8" width="18" height="8"/></svg></span>Llama 3 Sonar</h1>
+<p class="mh-sub">Retired · Language</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Llama 3 Sonar covers two Perplexity API language models, llama-3-sonar-small-32k and llama-3-sonar-large-32k, each offered as a chat id and an online id with search, listed at 7B and 70B parameters. Perplexity pointed users to them in May 2024 when it removed its February 2024 Sonar models; they were removed on 12 August 2024. <span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.model-cards-2024-05" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.perplexity.changelog-model-deprecation-notice-2024-05" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.perplexity.changelog" aria-label="Source 3, July 2024, [Action Required] Model Deprecation Notice">[3]</a><span class="mh-locator">July 2024, [Action Required] Model Deprecation Notice</span></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/perplexity/llama-3-sonar/timeline/">Timeline of Llama 3 Sonar →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="archived-primary-source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary source</span></p>
+<ul class="mh-flags">
+<li class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</li>
+</ul>
+<p class="mh-ev-counts">13 claims · <span data-mh-summary="primary-source">Primary source: 6</span> · <span data-mh-summary="archived-primary-source">Archived primary: 7</span> · <span data-mh-summary="original-unavailable">Original unavailable: 7</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="archived-primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2024-05">May 2024?</time><span class="mh-note">No dated launch post was found. The ids are absent from the model cards captured on 2024-04-29, are the recommended replacements in the deprecation notice created in May 2024, and are listed on the model cards captured on 2024-05-21.</span><span class="mh-alt">Other sources give: <time datetime="2024-04">April 2024</time> <span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.changelog" aria-label="Source 3, April 2024, Model Deprecation Notice">[3]</a><span class="mh-locator">April 2024, Model Deprecation Notice</span></span> <span class="mh-note">The live changelog files the notice that recommends the Llama 3 family under April 2024.</span></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="archived-primary-source" title="Archived primary source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</span><span class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.changelog-model-deprecation-notice-2024-05" aria-label="Source 2, page data createdAt 2024-05-07T03:53Z">[2]</a><span class="mh-locator">page data createdAt 2024-05-07T03:53Z</span> <a class="mh-ref" href="#source-src.perplexity.model-cards-2024-04" aria-label="Source 4">[4]</a> <a class="mh-ref" href="#source-src.perplexity.model-cards-2024-05" aria-label="Source 1, Perplexity Models table">[1]</a><span class="mh-locator">Perplexity Models table</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.deprecated" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Deprecated</span>
+<span class="mh-claim-value"><time datetime="2024-07">July 2024</time><span class="mh-note">Month of the notice that announced the removal.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.changelog" aria-label="Source 3, July 2024, [Action Required] Model Deprecation Notice">[3]</a><span class="mh-locator">July 2024, [Action Required] Model Deprecation Notice</span> <a class="mh-ref" href="#source-src.perplexity.changelog-new-and-improved-sonar-models" aria-label="Source 5">[5]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.retired" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Retired</span>
+<span class="mh-claim-value"><time datetime="2024-08-12">12 August 2024</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.changelog" aria-label="Source 3, July 2024, [Action Required] Model Deprecation Notice">[3]</a><span class="mh-locator">July 2024, [Action Required] Model Deprecation Notice</span> <a class="mh-ref" href="#source-src.perplexity.changelog-new-and-improved-sonar-models" aria-label="Source 5">[5]</a></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Retired</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.changelog" aria-label="Source 3, July 2024, [Action Required] Model Deprecation Notice">[3]</a><span class="mh-locator">July 2024, [Action Required] Model Deprecation Notice</span> <a class="mh-ref" href="#source-src.perplexity.changelog-new-and-improved-sonar-models" aria-label="Source 5">[5]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="replacedBy" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Replaced by</span>
+<span class="mh-claim-value"><a href="/models/perplexity/llama-3-1-sonar/">Llama 3.1 Sonar</a><span class="mh-note">The notice recommends switching to models in the Llama-3.1 family, among them the llama-3.1-sonar ids.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.changelog-new-and-improved-sonar-models" aria-label="Source 5">[5]</a> <a class="mh-ref" href="#source-src.perplexity.changelog" aria-label="Source 3, July 2024, [Action Required] Model Deprecation Notice">[3]</a><span class="mh-locator">July 2024, [Action Required] Model Deprecation Notice</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Successor of</span>
+<span class="mh-claim-value"><a href="/models/perplexity/sonar-2024-02/">Sonar (February 2024)</a><span class="mh-note">The deprecation notice removes sonar-small and sonar-medium and recommends switching to llama-3-sonar-small-32k and llama-3-sonar-large-32k.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.changelog-model-deprecation-notice-2024-05" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.perplexity.changelog-2024-12" aria-label="Source 6, Model Deprecation Notice, April 2024">[6]</a><span class="mh-locator">Model Deprecation Notice, April 2024</span></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="archived-primary-source">
+<span class="mh-claim-label">Change · Context length</span>
+<span class="mh-claim-value">Context length grew to 32768 tokens for the chat ids and 28000 for the online ids, from 16384 and 12000.<span class="mh-note">Compared with <a href="/models/perplexity/sonar-2024-02/">Sonar (February 2024)</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="archived-primary-source" title="Archived primary source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</span><span class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.model-cards-2024-05" aria-label="Source 1, Perplexity Models table, Context Length">[1]</a><span class="mh-locator">Perplexity Models table, Context Length</span> <a class="mh-ref" href="#source-src.perplexity.model-cards-2024-03" aria-label="Source 7, Perplexity Models table, Context Length">[7]</a><span class="mh-locator">Perplexity Models table, Context Length</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="archived-primary-source">
+<span class="mh-claim-label">Change · Size</span>
+<span class="mh-claim-value">The larger tier is listed at 70B parameters, where sonar-medium was listed at 8x7B.<span class="mh-note">Compared with <a href="/models/perplexity/sonar-2024-02/">Sonar (February 2024)</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="archived-primary-source" title="Archived primary source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</span><span class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.model-cards-2024-05" aria-label="Source 1, Perplexity Models table, Parameter Count">[1]</a><span class="mh-locator">Perplexity Models table, Parameter Count</span> <a class="mh-ref" href="#source-src.perplexity.model-cards-2024-03" aria-label="Source 7, Perplexity Models table, Parameter Count">[7]</a><span class="mh-locator">Perplexity Models table, Parameter Count</span></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.features[0]" data-mh-evidence="archived-primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Retrieval<span class="mh-note">The online ids have a search subsystem.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="archived-primary-source" title="Archived primary source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</span><span class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.model-cards-2024-05" aria-label="Source 1, Online LLMs">[1]</a><span class="mh-locator">Online LLMs</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="archived-primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">API</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="archived-primary-source" title="Archived primary source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</span><span class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.model-cards-2024-05" aria-label="Source 1">[1]</a></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<ul class="mh-rel" data-mh-lineage="predecessors">
+<li><a href="/models/perplexity/sonar-2024-02/">Sonar (February 2024)</a> <span class="mh-muted">· 23 February 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/perplexity/llama-3-1-sonar/">Llama 3.1 Sonar</a> <span class="mh-muted">· July 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<p class="mh-none" data-mh-lineage="parents">Not derived from another model.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/meta/llama-1/">LLaMA</a> <span class="mh-muted">· Meta · 24 February 2023</span></li>
+<li><a href="/models/meta/llama-2/">Llama 2</a> <span class="mh-muted">· Meta · 18 July 2023</span></li>
+<li><a href="/models/mistral/mistral-7b/">Mistral 7B</a> <span class="mh-muted">· Mistral AI · 27 September 2023</span></li>
+<li><a href="/models/perplexity/pplx-online-llms/">PPLX Online LLMs</a> <span class="mh-muted">· 29 November 2023</span></li>
+<li><a href="/models/perplexity/sonar-2024-02/">Sonar (February 2024)</a> <span class="mh-muted">· 23 February 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/perplexity/llama-3-1-sonar/">Llama 3.1 Sonar</a> <span class="mh-muted">· July 2024</span></li>
+<li><a href="/models/perplexity/sonar/">Sonar</a> <span class="mh-muted">· 21 January 2025</span></li>
+<li><a href="/models/perplexity/sonar-pro/">Sonar Pro</a> <span class="mh-muted">· 21 January 2025</span></li>
+<li><a href="/models/perplexity/sonar-2025-02/">Sonar (February 2025)</a> <span class="mh-muted">· 11 February 2025</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-h2">Variants</h2>
+<section id="variant-llama-3-sonar-small-32k" class="mh-variant">
+<h3 class="mh-variant-name">llama-3-sonar-small-32k</h3>
+<p class="mh-muted">Same dates as Llama 3 Sonar.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[0]" data-mh-evidence="archived-primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="archived-primary-source" title="Archived primary source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</span><span class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.model-cards-2024-05" aria-label="Source 1">[1]</a></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: llama-3-sonar-small-32k-chat, llama-3-sonar-small-32k-online</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.contextWindowTokens">Context window: <span class="mh-value">32768 tokens</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.model-cards-2024-05" aria-label="Source 1, Perplexity Models table, Context Length">[1]</a><span class="mh-locator">Perplexity Models table, Context Length</span></span></li>
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">7B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.model-cards-2024-05" aria-label="Source 1, Perplexity Models table, Parameter Count">[1]</a><span class="mh-locator">Perplexity Models table, Parameter Count</span></span></li>
+</ul>
+</section>
+<section id="variant-llama-3-sonar-large-32k" class="mh-variant">
+<h3 class="mh-variant-name">llama-3-sonar-large-32k</h3>
+<p class="mh-muted">Same dates as Llama 3 Sonar.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[1]" data-mh-evidence="archived-primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="archived-primary-source" title="Archived primary source"><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</span><span class="mh-flag" data-mh-flag="original-unavailable">Original source unavailable</span><span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.model-cards-2024-05" aria-label="Source 1">[1]</a></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: llama-3-sonar-large-32k-chat, llama-3-sonar-large-32k-online</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.contextWindowTokens">Context window: <span class="mh-value">32768 tokens</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.model-cards-2024-05" aria-label="Source 1, Perplexity Models table, Context Length">[1]</a><span class="mh-locator">Perplexity Models table, Context Length</span></span></li>
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">70B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.perplexity.model-cards-2024-05" aria-label="Source 1, Perplexity Models table, Parameter Count">[1]</a><span class="mh-locator">Perplexity Models table, Parameter Count</span></span></li>
+</ul>
+</section>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=perplexity">All model releases from Perplexity on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<a class="mh-pager-prev" href="/models/perplexity/sonar-2024-02/"><span class="mh-muted">← Earlier in Sonar</span><span>Sonar (February 2024)</span></a>
+<a class="mh-pager-next" href="/models/perplexity/llama-3-1-sonar/"><span class="mh-muted">Later in Sonar →</span><span>Llama 3.1 Sonar</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M12 1.5v21"/><path d="M4.5 3l15 18"/><path d="M19.5 3l-15 18"/><rect x="3" y="8" width="18" height="8"/></svg></span><a href="/models/perplexity/">Perplexity</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/perplexity/#family-perplexity.sonar-series">Sonar</a></dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2024-05">May 2024?</time><br><span class="mh-muted">Uncertain month</span></dd></div>
+<div><dt>Prominence</dt><dd>Standard release <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.perplexity.model-cards-2024-05" class="mh-source" data-mh-availability="archived" data-mh-provenance="archived-primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Supported Models</cite></p>
+<p class="mh-kicker">Documentation · Perplexity</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Archived primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="archived">Archived copy</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<span class="mh-muted">Original no longer available</span>
+<span class="mh-url">https://docs.perplexity.ai/docs/model-cards</span>
+<a href="https://web.archive.org/web/20240521003703/https://docs.perplexity.ai/docs/model-cards">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2024-05-21">21 May 2024</time></span>
+<span class="mh-note">readme.io docs page; the URL returned 404 on 2026-10-05. Checked in the capture: Perplexity Models lists llama-3-sonar-small-32k-chat (7B, 32768), llama-3-sonar-small-32k-online (7B, 28000), llama-3-sonar-large-32k-chat (70B, 32768) and llama-3-sonar-large-32k-online (70B, 28000); the search subsystem of the online LLMs does not attend to the system prompt; API access to citations in closed beta.</span>
+</div>
+</li>
+<li id="source-src.perplexity.changelog-model-deprecation-notice-2024-05" class="mh-source" data-mh-availability="archived" data-mh-provenance="archived-primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Model Deprecation Notice</cite></p>
+<p class="mh-kicker">Deprecation notice · Perplexity · published <time datetime="2024-05">May 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Archived primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="archived">Archived copy</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<span class="mh-muted">Original no longer available</span>
+<span class="mh-url">https://docs.perplexity.ai/changelog/new-models-llama-3-sonar-family</span>
+<a href="https://web.archive.org/web/20240513183305/https://docs.perplexity.ai/changelog/new-models-llama-3-sonar-family">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2024-05-13">13 May 2024</time></span>
+<span class="mh-note">readme.io changelog post by Aarash Heydari; the slug suggests it was first titled as a Llama 3 Sonar launch post, but the capture shows the title Model Deprecation Notice. The URL returned 404 on 2026-10-05. Checked in the capture: as of May 14 the names pplx-7b-chat/pplx-7b-online, sonar-small-chat/sonar-small-online, pplx-70b-chat/pplx-70b-online, pplx-8x7b-chat/pplx-8x7b-online and sonar-medium-chat/sonar-medium-online are no longer available; users are told to switch to models from the Llama 3 family, among them llama-3-sonar-small-32k and llama-3-sonar-large-32k (chat and online).</span>
+</div>
+</li>
+<li id="source-src.perplexity.changelog" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Changelog</cite></p>
+<p class="mh-kicker">Changelog · Perplexity</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.perplexity.ai/docs/resources/changelog">Original ↗</a>
+<span class="mh-url">https://docs.perplexity.ai/docs/resources/changelog</span>
+<span class="mh-note">Living page; content as seen on 2026-10-05. Entries carry month labels only. Its oldest entry is the April 2024 Model Deprecation Notice, shortened to its first five model ids (codellama-70b-instruct, mistral-7b-instruct, mixtral-8x22b-instruct, pplx-7b-chat, pplx-7b-online); the February 2024 entries and the sonar-small and sonar-medium ids are no longer on it. Old readme.io addresses such as https://docs.perplexity.ai/changelog/api-updates-february-2024 and https://docs.perplexity.ai/changelog/changelog redirect (308) here.</span>
+</div>
+</li>
+<li id="source-src.perplexity.model-cards-2024-04" class="mh-source" data-mh-availability="archived" data-mh-provenance="archived-primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Supported Models</cite></p>
+<p class="mh-kicker">Documentation · Perplexity</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Archived primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="archived">Archived copy</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<span class="mh-muted">Original no longer available</span>
+<span class="mh-url">https://docs.perplexity.ai/docs/model-cards</span>
+<a href="https://web.archive.org/web/20240429183702/https://docs.perplexity.ai/docs/model-cards">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2024-04-29">29 April 2024</time></span>
+<span class="mh-note">readme.io docs page; the URL returned 404 on 2026-10-05. Checked in the capture: Perplexity Models still lists only the sonar-small and sonar-medium ids; llama-3-8b-instruct and llama-3-70b-instruct are listed as open-source models; the llama-3-sonar ids are not listed.</span>
+</div>
+</li>
+<li id="source-src.perplexity.changelog-new-and-improved-sonar-models" class="mh-source" data-mh-availability="archived" data-mh-provenance="archived-primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>Introducing New and Improved Sonar Models</cite></p>
+<p class="mh-kicker">Changelog · Perplexity · published <time datetime="2024-07">July 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Archived primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="archived">Archived copy</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<span class="mh-muted">Original no longer available</span>
+<span class="mh-url">https://docs.perplexity.ai/changelog/introducing-new-and-improved-sonar-models</span>
+<a href="https://web.archive.org/web/20240803160834/https://docs.perplexity.ai/changelog/introducing-new-and-improved-sonar-models">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2024-08-03">3 August 2024</time></span>
+<span class="mh-note">readme.io changelog post by Aarash Heydari; the URL returned 404 on 2026-10-05. The same text is on the live changelog under July 2024. Checked in the capture: launch of llama-3.1-sonar-small-128k and llama-3.1-sonar-large-128k (online and chat); the llama-3-sonar ids are no longer accessible effective 8/12/2024.</span>
+</div>
+</li>
+<li id="source-src.perplexity.changelog-2024-12" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[6]</span> <cite>Changelog</cite></p>
+<p class="mh-kicker">Changelog · Perplexity</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.perplexity.ai/changelog/changelog">Original ↗</a>
+<span class="mh-url">https://docs.perplexity.ai/changelog/changelog</span>
+<a href="https://web.archive.org/web/20241219230513/https://docs.perplexity.ai/changelog/changelog">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2024-12-19">19 December 2024</time></span>
+<span class="mh-note">Earlier version of the Perplexity API changelog at its December 2024 address; the URL now redirects (308) to https://docs.perplexity.ai/docs/resources/changelog, which no longer carries the February 2024 entries or the full April 2024 deprecation list. Checked in the capture: the April 2024 Model Deprecation Notice lists all thirteen ids removed as of May 14, including sonar-small-chat, sonar-small-online, sonar-medium-chat, sonar-medium-online, pplx-70b-chat and pplx-70b-online, and the API Updates February 2024 entry is present.</span>
+</div>
+</li>
+<li id="source-src.perplexity.model-cards-2024-03" class="mh-source" data-mh-availability="archived" data-mh-provenance="archived-primary">
+<p class="mh-source-title"><span class="mh-source-n">[7]</span> <cite>Supported Models</cite></p>
+<p class="mh-kicker">Documentation · Perplexity</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Archived primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="archived">Archived copy</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<span class="mh-muted">Original no longer available</span>
+<span class="mh-url">https://docs.perplexity.ai/docs/model-cards</span>
+<a href="https://web.archive.org/web/20240301095120/https://docs.perplexity.ai/docs/model-cards">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2024-03-01">1 March 2024</time></span>
+<span class="mh-note">readme.io docs page; the URL returned 404 on 2026-10-05. Checked in the capture: table Perplexity Models lists sonar-small-chat (7B, 16384), sonar-small-online (7B, 12000), sonar-medium-chat (8x7B, 16384) and sonar-medium-online (8x7B, 12000).</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
