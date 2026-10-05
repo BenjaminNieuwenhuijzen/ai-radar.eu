@@ -73,6 +73,7 @@ jobs:
     timeout-minutes: 15
     permissions:
       contents: write
+      issues: write   # one issue per possible new model (see the step below)
     concurrency:
       group: model-history-writer   # own group, NOT shared with the feed build
       cancel-in-progress: false
@@ -95,7 +96,44 @@ jobs:
       - name: Validate Model History data (branch tip)
         run: node scripts/model-history/validate.mjs
       - name: Match AI Radar news to models
-        run: node scripts/model-history/match-news.mjs
+        run: node scripts/model-history/match-news.mjs --new-names "$RUNNER_TEMP/new-names.json"
+      # The curator's to-do list for new releases, as issues: one per versioned model name in
+      # the feed that no record or alias knows yet. A closed issue (handled, or not a model) is
+      # never opened again; at most 5 new issues per run. Never fails the build.
+      - name: Open issues for possible new models
+        continue-on-error: true
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const file = `${process.env.RUNNER_TEMP}/new-names.json`;
+            if (!fs.existsSync(file)) return;
+            const names = JSON.parse(fs.readFileSync(file, "utf8"));
+            if (!names.length) return;
+            const label = "new-model";
+            try { await github.rest.issues.getLabel({ ...context.repo, name: label }); }
+            catch { await github.rest.issues.createLabel({ ...context.repo, name: label, color: "1d76db", description: "Possible new model found in the AI Radar feed" }); }
+            const existing = await github.paginate(github.rest.issues.listForRepo, { ...context.repo, labels: label, state: "all", per_page: 100 });
+            const seen = new Set(existing.map(i => i.title.toLowerCase()));
+            // Feed titles are third-party text: no @mentions, no markdown links of their own.
+            const clean = s => String(s).replace(/@/g, "@​").replace(/[\[\]]/g, "");
+            let opened = 0;
+            for (const n of names) {
+              const title = `Possible new model: ${clean(n.name)}`;
+              if (seen.has(title.toLowerCase())) continue;
+              if (opened === 5) { core.info("More names wait for the next run."); break; }
+              const link = /^https?:\/\//.test(n.link) ? n.link : "";
+              await github.rest.issues.create({ ...context.repo, title, labels: [label], body: [
+                `The AI Radar feed mentions **${clean(n.name)}** in ${n.count} title(s), and no Model History record or alias knows this name yet.`,
+                "",
+                `Latest: ${link ? `[${clean(n.title)}](${link})` : clean(n.title)} (${String(n.publishedAt).slice(0, 10)})`,
+                "",
+                "If the organisation released this model: add a record (or an alias to an existing record) in `model-history/` and close this issue with the PR.",
+                "If it is not a new model: close the issue. A closed issue is not opened again; to stop the name for good, add it as an alias with `\"match\": \"never\"`."
+              ].join("\n") });
+              opened++;
+            }
+            core.info(`Opened ${opened} issue(s).`);
       - name: Build models/ and sitemap-models.xml
         run: node scripts/model-history/build.mjs
       - name: Commit and push

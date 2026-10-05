@@ -347,6 +347,12 @@ test("CLI: arguments, stdout report and GITHUB_STEP_SUMMARY", () => withCopy(p =
   assert.match(out, /#### New links/);
   assert.match(readFileSync(summary, "utf8"), /`example-lab\.orbit-2#mini`/);
   assert.equal(readJ(p.state).links.length, 0);                          // dry run
+  // --new-names writes the possible new models as JSON for the issue step of the workflow.
+  const names = join(p.dir, "new-names.json");
+  execFileSync(process.execPath, [SCRIPT, "--data", p.dir, "--feed", p.feed, "--dry-run", "--new-names", names], { encoding: "utf8" });
+  const listed = readJ(names);
+  assert.ok(Array.isArray(listed));
+  for (const x of listed) assert.deepEqual(Object.keys(x).sort(), ["count", "link", "name", "publishedAt", "title"]);
   assert.throws(() => parseArgs(["--bogus"], { flags: ["dry-run"], options: ["data"] }), /unknown argument/);
   assert.throws(() => parseArgs(["--data"], { flags: [], options: ["data"] }), /needs a value/);
   for (const a of [["--data="], ["--data", ""], ["--data", "  "], ["--data", "--dry-run"]]) assert.throws(() => parseArgs(a, { flags: ["dry-run"], options: ["data"] }), /--data needs a value/, a.join(" "));

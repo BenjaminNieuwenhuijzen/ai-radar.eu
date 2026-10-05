@@ -410,12 +410,14 @@ export function isMain(url) {
 
 if (isMain(import.meta.url)) {
   try {
-    const args = parseArgs(process.argv.slice(2), { flags: ["dry-run"], options: ["data", "feed"] });
+    const args = parseArgs(process.argv.slice(2), { flags: ["dry-run"], options: ["data", "feed", "new-names"] });
     const r = runMatch({
       dataDir: args.data || join(REPO, "model-history"),
       feedPath: args.feed || join(REPO, "data.json"),
       dryRun: !!args["dry-run"]
     });
+    // The possible new models as JSON, for the workflow step that opens one issue per name.
+    if (args["new-names"]) writeFileSync(args["new-names"], JSON.stringify(r.newNames || [], null, 2) + "\n");
     if (r.status === "skipped") console.log(`match-news: skipped, ${r.reason}; nothing changed`);
     else console.log(`match-news: ${r.added.length} new, ${r.links.length} total, ${r.candidates.length} candidates; ${r.written ? "state written" : r.changed ? "state not written (dry run)" : "state unchanged"}`);
     emitReport(r.report, r.summary);
