@@ -9,14 +9,6 @@
     {
       "text": "New Sonar",
       "match": "candidate"
-    },
-    {
-      "text": "sonar",
-      "match": "candidate"
-    },
-    {
-      "text": "perplexity/sonar",
-      "match": "candidate"
     }
   ],
   "organizations": [
