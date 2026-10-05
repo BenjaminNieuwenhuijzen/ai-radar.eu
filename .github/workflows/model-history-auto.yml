@@ -4,9 +4,9 @@ name: Model History auto-merge
 # record, its sources and aliases on a claude/ branch whose head commit carries
 # "[model-history]". This workflow checks such a push the way the main build would (merged
 # with the current main: only curated data files changed, validate, tests, validate again
-# after news matching) and, when everything passes, merges it through a pull request and
-# starts the Model History build (a merge made with GITHUB_TOKEN does not trigger the push
-# workflows; a dispatch does). On a failure it comments on the linked issues, so the owner
+# after news matching) and, when everything passes, pushes it to main as one squash commit
+# and starts the Model History build (a push made with GITHUB_TOKEN does not trigger the
+# push workflows; a dispatch does). On a failure it comments on the linked issues, so the owner
 # gets a notification. Nothing here runs on anyone's computer.
 on:
   push:
@@ -14,7 +14,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
   issues: write
   actions: write
 
@@ -51,28 +50,39 @@ jobs:
         run: node --test "scripts/model-history/test/*.test.mjs"
       - name: Validate after news matching (as the main build does)
         run: node scripts/model-history/match-news.mjs && node scripts/model-history/validate.mjs
-      - name: Open and merge the pull request, start the build
+      # One squash commit on main, pushed like the build bot's own commits (GitHub Actions may
+      # not open pull requests in this repository). The commit lists the branch commits.
+      - name: Squash the branch onto main and push
+        run: |
+          git reset -q --hard   # drop the local news-matching output and the test merge
+          git log --reverse --format='%B' origin/main.."$GITHUB_SHA" | sed 's/\s*\[model-history\]//I' > "$RUNNER_TEMP/body.txt"
+          title=$(git log -1 --format=%s "$GITHUB_SHA" | sed 's/\s*\[model-history\]//I')
+          grep -oiE '(closes|fixes|resolves) #[0-9]+' "$RUNNER_TEMP/body.txt" | grep -oE '[0-9]+' | sort -u > "$RUNNER_TEMP/issues.txt" || true
+          { echo "$title"; echo; cat "$RUNNER_TEMP/body.txt"; echo; echo "Added by the Model History cloud routine (branch ${GITHUB_REF_NAME}) and merged automatically after the checks in model-history-auto.yml passed."; } > "$RUNNER_TEMP/msg.txt"
+          git checkout -q -B publish origin/main
+          git merge --squash "$GITHUB_SHA"
+          git commit -q -F "$RUNNER_TEMP/msg.txt"
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push origin HEAD:main; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 10
+          done
+          exit 1
+      - name: Close the issues, delete the branch, start the build
         uses: actions/github-script@v7
         with:
           script: |
-            const branch = context.ref.replace("refs/heads/", "");
-            const { data: commits } = await github.rest.repos.compareCommitsWithBasehead({ ...context.repo, basehead: `main...${branch}` });
-            const messages = commits.commits.map(c => c.commit.message);
-            const issues = [...new Set(messages.join("\n").match(/(?<=\b(?:Closes|Fixes|Resolves) #)\d+/gi) || [])];
-            const title = (messages[messages.length - 1] || "Model History update").split("\n")[0].replace(/\s*\[model-history\]\s*/i, "").trim();
-            const body = [messages.map(m => m.replace(/\[model-history\]/gi, "").trim()).join("\n\n---\n\n"), "",
-              "Added by the Model History cloud routine and merged automatically after the checks in `model-history-auto.yml` passed (curated data only, validation, tests, validation after news matching).",
-              ...issues.map(n => `Closes #${n}`)].join("\n");
-            const open = await github.rest.pulls.list({ ...context.repo, head: `${context.repo.owner}:${branch}`, state: "open" });
-            const pr = open.data[0] || (await github.rest.pulls.create({ ...context.repo, head: branch, base: "main", title, body })).data;
-            try { await github.rest.issues.addLabels({ ...context.repo, issue_number: pr.number, labels: ["feature"] }); } catch {}
-            await github.rest.pulls.merge({ ...context.repo, pull_number: pr.number, merge_method: "squash", commit_title: `${title} (#${pr.number})`, sha: context.sha });
+            const fs = require("fs");
+            const issues = fs.readFileSync(`${process.env.RUNNER_TEMP}/issues.txt`, "utf8").split("\n").filter(Boolean);
             for (const n of issues) {
-              try { await github.rest.issues.update({ ...context.repo, issue_number: Number(n), state: "closed", state_reason: "completed" }); } catch {}
+              try {
+                await github.rest.issues.createComment({ ...context.repo, issue_number: Number(n), body: `Added to Model History by the cloud routine and published automatically after the checks passed (branch \`${process.env.GITHUB_REF_NAME}\`).` });
+                await github.rest.issues.update({ ...context.repo, issue_number: Number(n), state: "closed", state_reason: "completed" });
+              } catch (e) { core.warning(`issue #${n}: ${e.message}`); }
             }
-            try { await github.rest.git.deleteRef({ ...context.repo, ref: `heads/${branch}` }); } catch {}
+            try { await github.rest.git.deleteRef({ ...context.repo, ref: `heads/${process.env.GITHUB_REF_NAME}` }); } catch {}
             await github.rest.actions.createWorkflowDispatch({ ...context.repo, workflow_id: "model-history.yml", ref: "main" });
-            core.info(`Merged #${pr.number}; closed ${issues.join(", ") || "no issues"}; Model History build started.`);
+            core.info(`Closed ${issues.join(", ") || "no issues"}; Model History build started.`);
       - name: Report a failure on the linked issues
         if: failure()
         uses: actions/github-script@v7
