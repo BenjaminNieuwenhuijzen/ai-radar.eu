@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "id": "perplexity.sonar-2025-02",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "sonar-2025-02",
+  "name": "Sonar (February 2025)",
+  "aliases": [
+    {
+      "text": "New Sonar",
+      "match": "candidate"
+    },
+    {
+      "text": "sonar",
+      "match": "candidate"
+    },
+    {
+      "text": "perplexity/sonar",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "perplexity",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "perplexity.sonar-series",
+  "categories": [
+    "language"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.perplexity.migrate-from-sonar",
+        "locator": "introduction"
+      },
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "July 2026: Sonar Chat Completions migration"
+      },
+      {
+        "id": "src.perplexity.agent-api-models",
+        "locator": "Perplexity"
+      }
+    ],
+    "note": "Set as for the API id sonar: Sonar Chat Completions support ended on 2026-09-27 and requests are being reformulated as Agent API requests; the Agent API still lists perplexity/sonar without naming a version. Whether this version is still a selectable model in the Perplexity app is not stated in the sources found."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02-11",
+      "sources": [
+        {
+          "id": "src.perplexity.meet-new-sonar",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Available from that day to all Perplexity Pro users in the app; the post says it can also be used through the Sonar API."
+    },
+    "deprecated": {
+      "value": "2026-07",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "July 2026: Sonar Chat Completions migration"
+        }
+      ],
+      "note": "Applies to the Sonar API offering; changelog entry tagged Deprecation, labelled July 2026 (month only)."
+    },
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "perplexity.sonar",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.perplexity.meet-new-sonar",
+          "locator": "first paragraph; Use Sonar Today"
+        }
+      ],
+      "note": "Perplexity presents it as the latest version of Sonar, usable through the Sonar API."
+    },
+    {
+      "type": "derived-from",
+      "target": "meta.llama-3-3",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.perplexity.meet-new-sonar"
+        }
+      ],
+      "note": "Built on Llama 3.3 70B Instruct."
+    }
+  ],
+  "summary": {
+    "text": "The February 2025 version of Sonar is Perplexity's in-house model built on Llama 3.3 70B, released under the unchanged name Sonar for Perplexity Pro users in the app and also usable through the Sonar API. Perplexity says it was further trained for answer factuality and readability in its default search mode; in the app it runs on Cerebras inference infrastructure.",
+    "sources": [
+      {
+        "id": "src.perplexity.meet-new-sonar"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "llama-3-3-base",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "perplexity.sonar",
+      "text": "Built on Llama 3.3 70B and further trained for answer factuality and readability in Perplexity's default search mode.",
+      "sources": [
+        {
+          "id": "src.perplexity.meet-new-sonar"
+        }
+      ]
+    },
+    {
+      "id": "pro-app",
+      "aspect": "availability",
+      "direction": "added",
+      "relativeTo": "perplexity.sonar",
+      "text": "Offered to Perplexity Pro users in the app, who could set it as their default model, in addition to the Sonar API.",
+      "sources": [
+        {
+          "id": "src.perplexity.meet-new-sonar",
+          "locator": "Use Sonar Today"
+        }
+      ]
+    },
+    {
+      "id": "cerebras",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "perplexity.sonar",
+      "text": "Runs on Cerebras inference infrastructure in the Perplexity app; the API version did not yet run on Cerebras at launch.",
+      "sources": [
+        {
+          "id": "src.perplexity.meet-new-sonar"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.perplexity.meet-new-sonar",
+            "locator": "Sonar Excels at Providing Factual and High Quality Answers"
+          }
+        ],
+        "note": "Optimised to answer with facts grounded in search results in Perplexity's default search mode."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not stated for Sonar itself; Perplexity says it is built on top of Llama 3.3 70B (base model Llama 3.3 70B Instruct)."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.meet-new-sonar",
+          "locator": "first paragraph; Use Sonar Today"
+        }
+      ]
+    }
+  },
+  "notes": "Released under the unchanged name Sonar; the parenthetical in name is an editorial disambiguation (Perplexity says New Sonar or the latest version of Sonar). The post says the in-app version runs on Cerebras inference infrastructure and that the API version did not yet. Built on Meta's Llama 3.3 70B; that cross-organisation link is not stored in this record. No Perplexity source says when the API id sonar switched to this version. The curator may instead fold this release into perplexity.sonar."
+}

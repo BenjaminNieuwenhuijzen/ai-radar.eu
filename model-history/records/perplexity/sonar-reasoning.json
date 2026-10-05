@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "perplexity.sonar-reasoning",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "sonar-reasoning",
+  "name": "Sonar Reasoning",
+  "aliases": [
+    {
+      "text": "sonar-reasoning",
+      "match": "auto"
+    },
+    {
+      "text": "Sonar Reasoning",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "perplexity",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "perplexity.sonar-reasoning-series",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "December 2025: Model Deprecation: sonar-reasoning Removed"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "perplexity.sonar-reasoning-pro",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "December 2025: Model Deprecation: sonar-reasoning Removed"
+      }
+    ],
+    "note": "The changelog recommends migrating to sonar-reasoning-pro."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-01",
+      "qualifier": null,
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2025-01-30",
+          "locator": "Supported Models table"
+        },
+        {
+          "id": "src.perplexity.model-cards-2025-01-28",
+          "locator": "Supported Models table"
+        }
+      ],
+      "note": "No dated announcement found. The API model list does not show sonar-reasoning in the capture of 2025-01-28 and does in the capture of 2025-01-30. Secondary sources give 2025-01-29, which no Perplexity source confirms."
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2025-12-15",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "December 2025: Model Deprecation: sonar-reasoning Removed"
+        }
+      ],
+      "note": "The changelog says the model was deprecated and removed from the API as of this date; no earlier deprecation notice was found."
+    }
+  },
+  "summary": {
+    "text": "Sonar Reasoning was a reasoning model in Perplexity's Sonar API, first listed in the API docs at the end of January 2025, that returned its chain of thought in the response. It had a 127k context window and was removed from the API on 15 December 2025, when Perplexity recommended moving to Sonar Reasoning Pro.",
+    "sources": [
+      {
+        "id": "src.perplexity.model-cards-2025-01-30"
+      },
+      {
+        "id": "src.perplexity.changelog"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "chain-of-thought",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "perplexity.sonar",
+      "text": "Adds chain-of-thought reasoning, returned in the response, on top of Sonar's web search with citations.",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2025-01-30",
+          "locator": "Supported Models table"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.perplexity.sonar-reasoning-model-page",
+            "locator": "Model Type; Key Features"
+          },
+          {
+            "id": "src.perplexity.model-cards-2025-01-30",
+            "locator": "notes under the table"
+          }
+        ],
+        "note": "A reasoning model that outputs its chain of thought in the response."
+      },
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.perplexity.sonar-reasoning-model-page",
+            "locator": "Key Features"
+          }
+        ],
+        "note": "Real-time web search with citations."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 127000,
+      "asStated": "127k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2025-01-30",
+          "locator": "Supported Models table"
+        }
+      ],
+      "note": "Listed as 127k at launch; later model lists and the model page give 128k."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Perplexity."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.sonar-reasoning-model-page",
+          "locator": "Try it out"
+        }
+      ]
+    }
+  },
+  "notes": "First reasoning model in the Sonar API. The Perplexity sources found do not name its base model: the April 2025 model list attributes DeepSeek R1 only to sonar-reasoning-pro, and the archived sonar-reasoning page names no base model."
+}

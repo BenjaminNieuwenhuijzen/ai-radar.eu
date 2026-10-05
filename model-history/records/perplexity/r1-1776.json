@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "id": "perplexity.r1-1776",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "r1-1776",
+  "name": "R1 1776",
+  "aliases": [
+    {
+      "text": "R1 1776",
+      "match": "auto"
+    },
+    {
+      "text": "R1-1776",
+      "match": "auto"
+    },
+    {
+      "text": "r1-1776",
+      "match": "auto"
+    },
+    {
+      "text": "perplexity-ai/r1-1776",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "perplexity",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "perplexity.sonar-series",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "August 2025: API model deprecation notice"
+      }
+    ],
+    "note": "Removed from the API on 2025-08-01. The Hugging Face repositories perplexity-ai/r1-1776 and perplexity-ai/r1-1776-distill-llama-70b answered 401 on 2026-10-05 and are absent from the perplexity-ai model listing, so the weights are no longer offered by Perplexity there."
+  },
+  "replacedBy": {
+    "modelId": "perplexity.sonar-reasoning-pro",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "August 2025: API model deprecation notice"
+      }
+    ],
+    "note": "The notice recommends switching to Sonar Pro Reasoning, the changelog's wording for Sonar Reasoning Pro."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02-18",
+      "sources": [
+        {
+          "id": "src.perplexity.open-sourcing-r1-1776",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.perplexity.model-cards-2025-02-22",
+          "locator": "Supported Models table"
+        }
+      ],
+      "note": "Weights released on Hugging Face and the model offered through the Sonar API, per the post of 2025-02-18; the API model list captured on 2025-02-22 includes r1-1776."
+    },
+    "deprecated": {
+      "value": "2025-08",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "August 2025: API model deprecation notice"
+        }
+      ],
+      "note": "The notice is labelled August 2025 (month only) and gives the removal date of 2025-08-01."
+    },
+    "retired": {
+      "value": "2025-08-01",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "August 2025: API model deprecation notice"
+        }
+      ],
+      "note": "Removal from the Perplexity API."
+    }
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "deepseek.deepseek-r1",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.perplexity.open-sourcing-r1-1776"
+        },
+        {
+          "id": "src.perplexity.r1-1776-hf-card"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "R1 1776 is a version of DeepSeek-R1 that Perplexity post-trained to remove Chinese Communist Party censorship, published as open weights under the MIT licence on 18 February 2025 and offered in the Sonar API as an offline chat model without search. Perplexity removed it from the API on 1 August 2025; a Llama 70B distilled version was also published.",
+    "sources": [
+      {
+        "id": "src.perplexity.open-sourcing-r1-1776"
+      },
+      {
+        "id": "src.perplexity.r1-1776-hf-card"
+      },
+      {
+        "id": "src.perplexity.model-cards-2025-02-26"
+      },
+      {
+        "id": "src.perplexity.changelog"
+      },
+      {
+        "id": "src.perplexity.r1-1776-distill-llama-70b-hf-card"
+      }
+    ]
+  },
+  "capabilities": {
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.open-sourcing-r1-1776",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.perplexity.r1-1776-hf-card"
+        }
+      ],
+      "note": "Weights published on Hugging Face under the MIT licence tag in February 2025; the repository is no longer reachable (401 on 2026-10-05)."
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2025-02-22",
+          "locator": "Supported Models table"
+        },
+        {
+          "id": "src.perplexity.r1-1776-model-page",
+          "locator": "Context Length"
+        }
+      ],
+      "note": "Context length of the API offering."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "The model card text states no count. The Hugging Face page widget showed a size computed by Hugging Face from the weight files, not a figure stated by Perplexity."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.open-sourcing-r1-1776",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.perplexity.model-cards-2025-02-22",
+          "locator": "Supported Models table"
+        }
+      ],
+      "note": "As offered in 2025; neither route is available any more."
+    }
+  },
+  "variants": [
+    {
+      "id": "distill-llama-70b",
+      "name": "R1 1776 Distill Llama 70B",
+      "aliases": [
+        {
+          "text": "r1-1776-distill-llama-70b",
+          "match": "auto"
+        },
+        {
+          "text": "perplexity-ai/r1-1776-distill-llama-70b",
+          "match": "auto"
+        },
+        {
+          "text": "R1 1776 Distill Llama 70B",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-02",
+          "sources": [
+            {
+              "id": "src.perplexity.r1-1776-distill-llama-70b-hf-card"
+            }
+          ],
+          "note": "Not in the post of 2025-02-18; the repository data gives createdAt 2025-02-21 and the archived card is of 2025-02-22. Public release day not stated."
+        }
+      },
+      "capabilities": {
+        "openWeights": {
+          "value": true,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.r1-1776-distill-llama-70b-hf-card"
+            }
+          ],
+          "note": "Published under the MIT licence tag; repository no longer reachable on 2026-10-05."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.perplexity.r1-1776-distill-llama-70b-hf-card"
+        }
+      ],
+      "note": "Described by Perplexity as a Llama 70B distilled version of R1 1776; the card's base_model metadata is deepseek-ai/DeepSeek-R1-Distill-Llama-70B. Offered only as weights on Hugging Face, not through the API."
+    }
+  ],
+  "notes": "A post-trained version of DeepSeek-R1 from DeepSeek; that cross-organisation link is not stored in this record. In the API it was an offline chat model that did not use Perplexity's search subsystem. familyId perplexity.sonar-series is a placeholder from the scope: R1 1776 is not a Sonar model, and the curator may prefer null or a separate family. The launch post appears to have been taken down (Internet Archive captures return 404 from 2026-05-18)."
+}

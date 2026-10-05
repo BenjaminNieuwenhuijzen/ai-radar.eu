@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "id": "perplexity.llama-3-sonar",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-3-sonar",
+  "name": "Llama 3 Sonar",
+  "aliases": [
+    {
+      "text": "Llama 3 Sonar",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "perplexity",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "perplexity.sonar-series",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "July 2024, [Action Required] Model Deprecation Notice"
+      },
+      {
+        "id": "src.perplexity.changelog-new-and-improved-sonar-models"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "perplexity.llama-3-1-sonar",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog-new-and-improved-sonar-models"
+      },
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "July 2024, [Action Required] Model Deprecation Notice"
+      }
+    ],
+    "note": "The notice recommends switching to models in the Llama-3.1 family, among them the llama-3.1-sonar ids."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-05",
+      "qualifier": "uncertain",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-model-deprecation-notice-2024-05",
+          "locator": "page data createdAt 2024-05-07T03:53Z"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-04"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-05",
+          "locator": "Perplexity Models table"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2024-04",
+          "sources": [
+            {
+              "id": "src.perplexity.changelog",
+              "locator": "April 2024, Model Deprecation Notice"
+            }
+          ],
+          "note": "The live changelog files the notice that recommends the Llama 3 family under April 2024."
+        }
+      ],
+      "note": "No dated launch post was found. The ids are absent from the model cards captured on 2024-04-29, are the recommended replacements in the deprecation notice created in May 2024, and are listed on the model cards captured on 2024-05-21."
+    },
+    "deprecated": {
+      "value": "2024-07",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "July 2024, [Action Required] Model Deprecation Notice"
+        },
+        {
+          "id": "src.perplexity.changelog-new-and-improved-sonar-models"
+        }
+      ],
+      "note": "Month of the notice that announced the removal."
+    },
+    "retired": {
+      "value": "2024-08-12",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "July 2024, [Action Required] Model Deprecation Notice"
+        },
+        {
+          "id": "src.perplexity.changelog-new-and-improved-sonar-models"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "perplexity.sonar-2024-02",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-model-deprecation-notice-2024-05"
+        },
+        {
+          "id": "src.perplexity.changelog-2024-12",
+          "locator": "Model Deprecation Notice, April 2024"
+        }
+      ],
+      "note": "The deprecation notice removes sonar-small and sonar-medium and recommends switching to llama-3-sonar-small-32k and llama-3-sonar-large-32k."
+    }
+  ],
+  "summary": {
+    "text": "Llama 3 Sonar covers two Perplexity API language models, llama-3-sonar-small-32k and llama-3-sonar-large-32k, each offered as a chat id and an online id with search, listed at 7B and 70B parameters. Perplexity pointed users to them in May 2024 when it removed its February 2024 Sonar models; they were removed on 12 August 2024.",
+    "sources": [
+      {
+        "id": "src.perplexity.model-cards-2024-05"
+      },
+      {
+        "id": "src.perplexity.changelog-model-deprecation-notice-2024-05"
+      },
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "July 2024, [Action Required] Model Deprecation Notice"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "perplexity.sonar-2024-02",
+      "text": "Context length grew to 32768 tokens for the chat ids and 28000 for the online ids, from 16384 and 12000.",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2024-05",
+          "locator": "Perplexity Models table, Context Length"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-03",
+          "locator": "Perplexity Models table, Context Length"
+        }
+      ]
+    },
+    {
+      "id": "larger-tier",
+      "aspect": "size",
+      "direction": "changed",
+      "relativeTo": "perplexity.sonar-2024-02",
+      "text": "The larger tier is listed at 70B parameters, where sonar-medium was listed at 8x7B.",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2024-05",
+          "locator": "Perplexity Models table, Parameter Count"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-03",
+          "locator": "Perplexity Models table, Parameter Count"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.perplexity.model-cards-2024-05",
+            "locator": "Online LLMs"
+          }
+        ],
+        "note": "The online ids have a search subsystem."
+      }
+    ],
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2024-05"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "llama-3-sonar-small-32k",
+      "name": "llama-3-sonar-small-32k",
+      "aliases": [
+        {
+          "text": "llama-3-sonar-small-32k-chat",
+          "match": "auto"
+        },
+        {
+          "text": "llama-3-sonar-small-32k-online",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 7000000000,
+          "asStated": "7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-05",
+              "locator": "Perplexity Models table, Parameter Count"
+            }
+          ],
+          "note": "As listed on the model cards page."
+        },
+        "contextWindowTokens": {
+          "value": 32768,
+          "asStated": "32768",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-05",
+              "locator": "Perplexity Models table, Context Length"
+            }
+          ],
+          "note": "32768 for the chat id; 28000 for the online id."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2024-05"
+        }
+      ]
+    },
+    {
+      "id": "llama-3-sonar-large-32k",
+      "name": "llama-3-sonar-large-32k",
+      "aliases": [
+        {
+          "text": "llama-3-sonar-large-32k-chat",
+          "match": "auto"
+        },
+        {
+          "text": "llama-3-sonar-large-32k-online",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 70000000000,
+          "asStated": "70B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-05",
+              "locator": "Perplexity Models table, Parameter Count"
+            }
+          ]
+        },
+        "contextWindowTokens": {
+          "value": 32768,
+          "asStated": "32768",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-05",
+              "locator": "Perplexity Models table, Context Length"
+            }
+          ],
+          "note": "32768 for the chat id; 28000 for the online id."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2024-05"
+        }
+      ]
+    }
+  ],
+  "notes": "Perplexity used only the API ids; the name follows the ids and the changelog’s reference to the Llama 3 family. The readme.io slug of the May 2024 notice (new-models-llama-3-sonar-family) suggests a launch post that was later rewritten as a deprecation notice; no capture of the launch text exists. Perplexity does not state in these sources how the models relate to Meta’s Llama 3; the cross-organisation relation is not recorded. The model cards list 7B for the small model."
+}

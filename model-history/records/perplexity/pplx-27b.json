@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "perplexity.pplx-27b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "pplx-27b",
+  "name": "PPLX 27B",
+  "aliases": [
+    {
+      "text": "PPLX 27B",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "perplexity",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "perplexity.pplx",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.perplexity.portable-computer-announcement",
+        "locator": "Local-first AI stack; closing section"
+      }
+    ],
+    "note": "Offered as a model choice in Portable Computer on the NVIDIA DGX Spark for Pro and Max subscribers (Linux first)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-08-25",
+      "sources": [
+        {
+          "id": "src.perplexity.portable-computer-announcement"
+        },
+        {
+          "id": "src.perplexity.local-first-agent-research"
+        }
+      ],
+      "note": "Released with Portable Computer; both posts are dated Aug 25, 2026."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "PPLX 27B is a language model that Perplexity post-trained from Qwen 3.8 27B, introduced on 25 August 2026 with Portable Computer, a version of Perplexity Computer that runs entirely on a local NVIDIA DGX Spark. It is available on the device to Pro and Max subscribers, and Perplexity trained it on synthetic tasks for its local Computer harness.",
+    "sources": [
+      {
+        "id": "src.perplexity.portable-computer-announcement"
+      },
+      {
+        "id": "src.perplexity.local-first-agent-research"
+      }
+    ]
+  },
+  "capabilities": {
+    "parameters": {
+      "value": 27000000000,
+      "asStated": "27B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.local-first-agent-research",
+          "locator": "Post-training for the harness and knowledge work"
+        }
+      ],
+      "note": "From the official model name and Perplexity's statement that it is Qwen 3.8 27B post-trained; no separate parameter figure is given for PPLX 27B."
+    },
+    "access": {
+      "value": [
+        "on-device"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.portable-computer-announcement",
+          "locator": "Local-first AI stack"
+        }
+      ],
+      "note": "Runs locally in Portable Computer; no API or weights release is mentioned."
+    }
+  },
+  "notes": "Post-trained by Perplexity from Alibaba's Qwen 3.8 27B; that cross-organisation link is not stored in this record. An on-device agent model rather than a web-search model, so the curator may decide whether it stays in scope. Perplexity says a technical report on the training will follow. Hugging Face repositories named pplx-computer-qwen-3-8-27b-dflash2-* exist in the perplexity-ai organisation but are not labelled PPLX 27B and describe themselves as private, so openWeights is left out. The research post gives a 260K context window for on-device models such as Qwen 3.8 27B, not for PPLX 27B, so no context window is recorded."
+}

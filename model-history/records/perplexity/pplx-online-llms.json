@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "id": "perplexity.pplx-online-llms",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "pplx-online-llms",
+  "name": "PPLX Online LLMs",
+  "aliases": [
+    {
+      "text": "PPLX Online LLMs",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "perplexity",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "perplexity.pplx",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "April 2024, Model Deprecation Notice"
+      },
+      {
+        "id": "src.perplexity.changelog-api-updates-february-2024",
+        "locator": "Model Deprecation Notice"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "perplexity.llama-3-sonar",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog-model-deprecation-notice-2024-05"
+      }
+    ],
+    "note": "The May 2024 notice that removed pplx-7b-online recommends switching to models from the Llama 3 family, among them the llama-3-sonar ids. No replacement was named for pplx-70b-online in February 2024."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-11-29",
+      "sources": [
+        {
+          "id": "src.perplexity.introducing-pplx-online-llms",
+          "locator": "page date; Accessing Perplexity’s Online Models"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2024-05-14",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "April 2024, Model Deprecation Notice"
+        },
+        {
+          "id": "src.perplexity.changelog-model-deprecation-notice-2024-05"
+        }
+      ],
+      "note": "Date on which the last of the two models, pplx-7b-online, stopped being available through the API; pplx-70b-online was announced for removal earlier, as of 2024-03-15 (see the variants). The notice gives May 14 without a year; it was published in 2024."
+    }
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "mistral.mistral-7b",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.perplexity.introducing-pplx-online-llms"
+        }
+      ],
+      "note": "pplx-7b-online is built on Mistral 7B."
+    },
+    {
+      "type": "derived-from",
+      "target": "meta.llama-2",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.perplexity.introducing-pplx-online-llms"
+        }
+      ],
+      "note": "pplx-70b-online is built on Llama 2 70B."
+    }
+  ],
+  "summary": {
+    "text": "PPLX Online LLMs were two Perplexity language models, pplx-7b-online and pplx-70b-online, released on 29 November 2023 through pplx-api and the Perplexity Labs playground. Perplexity says they were fine-tuned from mistral-7b and llama2-70b to answer with website excerpts from its own search index; both had left the API by 14 May 2024.",
+    "sources": [
+      {
+        "id": "src.perplexity.introducing-pplx-online-llms"
+      },
+      {
+        "id": "src.perplexity.changelog-online-llms-general-availability"
+      },
+      {
+        "id": "src.perplexity.changelog-model-deprecation-notice-2024-05"
+      }
+    ]
+  },
+  "capabilities": {
+    "contextWindowTokens": {
+      "value": 4096,
+      "asStated": "4096",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2023-12",
+          "locator": "Supported Models table"
+        }
+      ],
+      "note": "Both online models at release. The February 2024 changelog says the context of all Perplexity models was doubled from 8k to 16k, with 4k reserved for search results in online models."
+    },
+    "features": [
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.perplexity.introducing-pplx-online-llms",
+            "locator": "PPLX Online LLMs"
+          }
+        ],
+        "note": "Responses draw on website excerpts (snippets) from Perplexity’s own search index."
+      }
+    ],
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.introducing-pplx-online-llms",
+          "locator": "first paragraph; Accessing Perplexity’s Online Models"
+        },
+        {
+          "id": "src.perplexity.changelog-online-llms-general-availability"
+        }
+      ],
+      "note": "API: pplx-api, which left beta for general release with this launch. consumer-app: the Perplexity Labs playground."
+    }
+  },
+  "variants": [
+    {
+      "id": "pplx-7b-online",
+      "name": "pplx-7b-online",
+      "aliases": [
+        {
+          "text": "pplx-7b-online",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "deprecated": {
+          "value": "2024-05",
+          "qualifier": "uncertain",
+          "sources": [
+            {
+              "id": "src.perplexity.changelog-model-deprecation-notice-2024-05",
+              "locator": "page data createdAt 2024-05-07T03:53Z"
+            }
+          ],
+          "alternatives": [
+            {
+              "value": "2024-04",
+              "sources": [
+                {
+                  "id": "src.perplexity.changelog",
+                  "locator": "April 2024, Model Deprecation Notice"
+                }
+              ],
+              "note": "The live changelog files the same notice under April 2024."
+            }
+          ],
+          "note": "Month of the deprecation notice."
+        },
+        "retired": {
+          "value": "2024-05-14",
+          "sources": [
+            {
+              "id": "src.perplexity.changelog",
+              "locator": "April 2024, Model Deprecation Notice"
+            },
+            {
+              "id": "src.perplexity.changelog-model-deprecation-notice-2024-05"
+            }
+          ]
+        }
+      },
+      "lifecycle": {
+        "value": "retired",
+        "sources": [
+          {
+            "id": "src.perplexity.changelog",
+            "locator": "April 2024, Model Deprecation Notice"
+          }
+        ]
+      },
+      "capabilities": {
+        "parameters": {
+          "value": null,
+          "disclosure": "not-disclosed",
+          "sources": [],
+          "note": "No parameter count is stated; the model name carries 7b and Perplexity says the model was fine-tuned from mistral-7b."
+        }
+      },
+      "note": "Perplexity says it was fine-tuned from Mistral AI’s mistral-7b. An offline companion, pplx-7b-chat, is not covered by this record.",
+      "sources": [
+        {
+          "id": "src.perplexity.introducing-pplx-online-llms",
+          "locator": "Generating Model Responses"
+        }
+      ]
+    },
+    {
+      "id": "pplx-70b-online",
+      "name": "pplx-70b-online",
+      "aliases": [
+        {
+          "text": "pplx-70b-online",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "deprecated": {
+          "value": "2024-02-23",
+          "sources": [
+            {
+              "id": "src.perplexity.changelog-api-updates-february-2024",
+              "locator": "Model Deprecation Notice; page data createdAt 2024-02-23T23:21Z"
+            }
+          ],
+          "note": "Date of the February 2024 changelog post that announced the removal."
+        },
+        "retired": {
+          "value": "2024-03-15",
+          "sources": [
+            {
+              "id": "src.perplexity.changelog-api-updates-february-2024",
+              "locator": "Model Deprecation Notice"
+            },
+            {
+              "id": "src.perplexity.changelog-2024-12",
+              "locator": "API Updates, February 2024"
+            }
+          ],
+          "alternatives": [
+            {
+              "value": "2024-05-14",
+              "sources": [
+                {
+                  "id": "src.perplexity.changelog-model-deprecation-notice-2024-05"
+                },
+                {
+                  "id": "src.perplexity.changelog-2024-12",
+                  "locator": "Model Deprecation Notice, April 2024"
+                }
+              ],
+              "note": "The May 2024 notice lists pplx-70b-chat and pplx-70b-online again among the model names and aliases no longer accessible as of May 14, which suggests the id was still accepted after March 15."
+            }
+          ],
+          "note": "The February notice gives March 15 without a year; it was published in February 2024."
+        }
+      },
+      "lifecycle": {
+        "value": "retired",
+        "sources": [
+          {
+            "id": "src.perplexity.changelog-api-updates-february-2024",
+            "locator": "Model Deprecation Notice"
+          },
+          {
+            "id": "src.perplexity.changelog-model-deprecation-notice-2024-05"
+          }
+        ]
+      },
+      "capabilities": {
+        "parameters": {
+          "value": null,
+          "disclosure": "not-disclosed",
+          "sources": [],
+          "note": "No parameter count is stated; the model name carries 70b and Perplexity says the model was fine-tuned from llama2-70b."
+        }
+      },
+      "note": "Perplexity says it was fine-tuned from Meta’s llama2-70b. An offline companion, pplx-70b-chat, is not covered by this record.",
+      "sources": [
+        {
+          "id": "src.perplexity.introducing-pplx-online-llms",
+          "locator": "Generating Model Responses"
+        }
+      ]
+    }
+  ],
+  "notes": "Perplexity announced two online models, pplx-7b-online and pplx-70b-online, in one post and calls them PPLX models or PPLX online LLMs; they are inline variants here. The offline pplx-7b-chat and pplx-70b-chat, which left alpha at the same time, are not covered. Perplexity names the base models (mistral-7b and llama2-70b); those cross-organisation relations are not recorded in this file. The May 2024 notice also lists pplx-8x7b-chat and pplx-8x7b-online, ids not documented elsewhere; they are not recorded. The original blog address was https://blog.perplexity.ai/blog/introducing-pplx-online-llms."
+}

@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "perplexity.sonar-pro",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "sonar-pro",
+  "name": "Sonar Pro",
+  "aliases": [
+    {
+      "text": "Sonar Pro",
+      "match": "auto"
+    },
+    {
+      "text": "sonar-pro",
+      "match": "auto"
+    },
+    {
+      "text": "Sonar Pro API",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "perplexity",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "perplexity.sonar-series",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.perplexity.migrate-from-sonar",
+        "locator": "introduction; How Sonar Chat Completions maps to Agent API presets"
+      },
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "July 2026: Sonar Chat Completions migration"
+      }
+    ],
+    "note": "Sonar Chat Completions support ended on 2026-09-27. Synchronous and streaming requests keep working but are being reformulated as Agent API requests, rolling out gradually by model; the migration guide maps this model to the fast preset. The Agent API Models page lists no id for this model."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-01-21",
+      "sources": [
+        {
+          "id": "src.perplexity.sonar-pro-api-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.perplexity.model-cards-2025-01-22",
+          "locator": "Supported Models table"
+        },
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "January 2025: Build with Perplexity's new APIs"
+        }
+      ],
+      "note": "Generally available to all developers from the day of the announcement; listed in the API model list captured on 2025-01-22."
+    },
+    "deprecated": {
+      "value": "2026-07",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "July 2026: Sonar Chat Completions migration"
+        }
+      ],
+      "note": "Changelog entry tagged Deprecation, labelled July 2026 (month only). The migration guide gives 2026-09-27 as the end of Sonar Chat Completions support."
+    },
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "perplexity.llama-3-1-sonar",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "January 2025: API model deprecation notice"
+        }
+      ],
+      "note": "The January 2025 notice removes the llama-3.1-sonar online models on 2025-02-22 and recommends the recently released Sonar or Sonar Pro."
+    }
+  ],
+  "summary": {
+    "text": "Sonar Pro is the higher tier of Perplexity's Sonar API, made generally available to developers on 21 January 2025 alongside Sonar. Perplexity positions it for enterprises with in-depth, multi-step queries; it has a 200k context window, accepted image input from April 2025, and Sonar Chat Completions support ended on 27 September 2026.",
+    "sources": [
+      {
+        "id": "src.perplexity.sonar-pro-api-announcement"
+      },
+      {
+        "id": "src.perplexity.model-cards-2025-01-28"
+      },
+      {
+        "id": "src.perplexity.changelog"
+      },
+      {
+        "id": "src.perplexity.migrate-from-sonar"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "perplexity.llama-3-1-sonar",
+      "text": "Context length of 200k tokens, up from 127k for the llama-3.1-sonar online models it replaced.",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2025-01-28",
+          "locator": "Supported Models table"
+        }
+      ]
+    },
+    {
+      "id": "citations",
+      "aspect": "other",
+      "relativeTo": "perplexity.sonar",
+      "text": "Perplexity says it returns on average twice as many citations per search as Sonar and is meant for multi-step queries.",
+      "sources": [
+        {
+          "id": "src.perplexity.sonar-pro-api-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.image-attachments-guide",
+          "locator": "Overview; Request Format"
+        },
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "April 2025: Image uploads now available for all users"
+        }
+      ],
+      "note": "Image input was opened to all API users in April 2025, not at launch."
+    },
+    "features": [
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.perplexity.sonar-pro-model-page",
+            "locator": "Key Features"
+          },
+          {
+            "id": "src.perplexity.sonar-pro-api-announcement",
+            "locator": "second and fourth paragraphs"
+          }
+        ],
+        "note": "Answers grounded in real-time web search, with citations."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2025-01-22",
+          "locator": "Supported Models table"
+        },
+        {
+          "id": "src.perplexity.sonar-pro-model-page",
+          "locator": "Context Length"
+        }
+      ],
+      "note": "Maximum output listed as 8k tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Perplexity."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.sonar-pro-api-announcement",
+          "locator": "second paragraph"
+        }
+      ]
+    }
+  },
+  "notes": "Higher tier of the January 2025 Sonar API, launched together with Sonar. Recorded as successor of Llama 3.1 Sonar because the January 2025 deprecation notice names both Sonar and Sonar Pro as replacements; the curator may prefer to treat it only as a tier. Later additions per the changelog: image uploads (April 2025), file attachments (September 2025), Pro Search with automated multi-step tool use generally available (November 2025)."
+}
