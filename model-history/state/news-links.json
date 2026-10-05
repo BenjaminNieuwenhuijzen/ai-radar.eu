@@ -377,6 +377,21 @@
       "firstSeenIn": "dcab53f"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "25onrupclrh",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQjNNanZJSTNHWlZvemptMHd0UTNrSkhwNkhDc3N2eVZ4SG9wOHZ2U3QwNmZKMVAzcHp4ejNQOVk5QzVNUkxkQ2R5ZkxOZldGS21xLXdQUFBrN3cwbEtlVU5kTlh0LXFjRnZiUFhXWTlRc2VpWEx2UUNZZ092QnNNQTVHN2l5MkFaWTVoTHhVOGdzalJKc1dzeEdJcnhwaHRmTU52NDhJMzVpTTBic19VRktrcmItRmlZVFNWb2dwTmp4aHpDaTdabXhUc0w3U0sxbS1aVFg0ODV6VTd4UlgxS3dOaGVYUzRoUHoxNUYxS1dkbi1ZNVNJ0gH8AUFVX3lxTE8zUWhzamVfTmswMzNsbnFJaEhaMHhjX1dGV0kySDRGQm11ekxaNkc2bFBkX2dXZHhRVjNncUp2TlA4TnVuMDNZY3dRSUlFdG5GendCZ2lyVlkzLU92ZTB5VFpDR1NOTGxjMjFNN1kwOTBPU2hTQUQwWnVEV0JzSjM4U1BjbUZfRzFmcElUdFRrWmhycnc0d2d2bWQtM0tVM3drMmd0Nk9OVUdUcDhpa08ycVR4NW9PSE5yOTFsVTRFc0t2WVZhTzNKUU40TS13ZE1VelBVQ0NJT1NIUXc4LV83SWYxc1diU1RaUTc5QUgyMVVxRUZuaXZGVWJIcw?oc=5",
+      "title": "The 552B DeepSeek V4.1-Flash Model Offers A Peak Output Of 494 Tokens/Second When Powered By An At-Home Rig Spanning 4x NVIDIA DGX Spark Units",
+      "publishedAt": "2026-10-05T16:46:30Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Wccftech",
+      "method": "auto",
+      "alias": "v4.1-flash",
+      "firstSeenAt": "2026-10-05T22:38:24Z",
+      "firstSeenIn": "43a90e1"
+    },
+    {
       "modelId": "google.gemini-3-5-flash",
       "variantId": null,
       "postId": "16gd1ei2g8d",
