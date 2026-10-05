@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Llama 3.2 · Meta · Model History · AI Radar</title>
+<meta name="description" content="Llama 3.2 is a set of open-weight Meta models released on 25 September 2024: text-only 1B and 3B models aimed at on-device use, and 11B and 90B Vision…">
+<link rel="canonical" href="https://ai-radar.eu/models/meta/llama-3-2/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Llama 3.2 · Meta · Model History · AI Radar">
+<meta property="og:description" content="Llama 3.2 is a set of open-weight Meta models released on 25 September 2024: text-only 1B and 3B models aimed at on-device use, and 11B and 90B Vision…">
+<meta property="og:url" content="https://ai-radar.eu/models/meta/llama-3-2/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Llama 3.2 · Meta · Model History · AI Radar">
+<meta name="twitter:description" content="Llama 3.2 is a set of open-weight Meta models released on 25 September 2024: text-only 1B and 3B models aimed at on-device use, and 11B and 90B Vision…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/meta/llama-3-2/","url":"https://ai-radar.eu/models/meta/llama-3-2/","name":"Llama 3.2 · Meta · Model History · AI Radar","description":"Llama 3.2 is a set of open-weight Meta models released on 25 September 2024: text-only 1B and 3B models aimed at on-device use, and 11B and 90B Vision…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/meta/llama-3-2/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/meta/llama-3-2/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Meta","item":"https://ai-radar.eu/models/meta/"},{"@type":"ListItem","position":4,"name":"Llama 3.2","item":"https://ai-radar.eu/models/meta/llama-3-2/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:285" data-mh-view="model" data-mh-model="meta.llama-3-2">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/meta/"><span class="mh-co" style="--h:285">Meta</span></a></li><li><a href="/models/meta/#family-meta.llama">Llama</a></li><li aria-current="page">Llama 3.2</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="metagmh1" gradientUnits="userSpaceOnUse" x1="12" y1="0" x2="12" y2="24"><stop offset="0%" stop-color="#E04AFD"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#4845F5"/></linearGradient></defs><g fill="url(#metagmh1)"><ellipse cx="12" cy="5" rx="2.8" ry="4.6"/><ellipse cx="17.47" cy="7.63" rx="2.8" ry="4.6" transform="rotate(51.43 17.47 7.63)"/><ellipse cx="18.83" cy="13.56" rx="2.8" ry="4.6" transform="rotate(102.86 18.83 13.56)"/><ellipse cx="15.04" cy="18.31" rx="2.8" ry="4.6" transform="rotate(154.29 15.04 18.31)"/><ellipse cx="8.96" cy="18.31" rx="2.8" ry="4.6" transform="rotate(205.71 8.96 18.31)"/><ellipse cx="5.17" cy="13.56" rx="2.8" ry="4.6" transform="rotate(257.14 5.17 13.56)"/><ellipse cx="6.53" cy="7.63" rx="2.8" ry="4.6" transform="rotate(308.57 6.53 7.63)"/></g></svg></span>Llama 3.2</h1>
+<p class="mh-sub">Available · Language, Multimodal</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Llama 3.2 is a set of open-weight Meta models released on 25 September 2024: text-only 1B and 3B models aimed at on-device use, and 11B and 90B Vision models, which Meta describes as the first Llama models to support vision tasks. The small models were distilled from Llama 3.1, and the Vision models add an image adapter to Llama 3.1 text models. <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.meta.llama-3-2-model-card" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.meta.llama-3-2-hf-collection" aria-label="Source 4">[4]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/meta/llama-3-2/timeline/">Timeline of Llama 3.2 →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">18 claims · <span data-mh-summary="primary-source">Primary source: 18</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2024-09-25">25 September 2024</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, page date; Takeaways">[1]</a><span class="mh-locator">page date; Takeaways</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3, Model Release Date">[3]</a><span class="mh-locator">Model Release Date</span> <a class="mh-ref" href="#source-src.meta.llama-models-repository" aria-label="Source 5, README, Llama Models table">[5]</a><span class="mh-locator">README, Llama Models table</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Available<span class="mh-note">Meta publishes no deprecation page for Llama models; the weights of all four sizes and the quantized 1B and 3B builds are still listed in Meta&#39;s Hugging Face organisation (gated, license acceptance required) as seen on 2026-10-01.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-hf-collection" aria-label="Source 4">[4]</a></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Derived from (distillation)</span>
+<span class="mh-claim-value"><a href="/models/meta/llama-3-1/">Llama 3.1</a><span class="mh-note">The 1B and 3B models were pruned from Llama 3.1 8B and trained with logits from Llama 3.1 8B and 70B as token-level targets. The 11B and 90B Vision models start from pretrained Llama 3.1 text models and add a separately trained image adapter and encoder, leaving the language model weights unchanged.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, Lightweight models; Vision models">[1]</a><span class="mh-locator">Lightweight models; Vision models</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-model-card" aria-label="Source 2, Training Data">[2]</a><span class="mh-locator">Training Data</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3, Model Architecture">[3]</a><span class="mh-locator">Model Architecture</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="relations[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Successor of</span>
+<span class="mh-claim-value"><a href="/models/meta/llama-3-1/">Llama 3.1</a> <span class="mh-editorial">Editorial</span><span class="mh-note">Editorial link along the Llama 3 version line: the announcement presents Llama 3.2 as the release after the Llama 3.1 herd, without calling it a successor.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1">[1]</a></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Modality</span>
+<span class="mh-claim-value">Adds image input in the 11B and 90B Vision models; for image plus text tasks English is the only supported language.<span class="mh-note">Compared with <a href="/models/meta/llama-3-1/">Llama 3.1</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, Vision models">[1]</a><span class="mh-locator">Vision models</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3, Model Information">[3]</a><span class="mh-locator">Model Information</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Size</span>
+<span class="mh-claim-value">Adds 1B and 3B text models for mobile and edge devices, enabled for Qualcomm and MediaTek hardware and optimised for Arm processors.<span class="mh-note">Compared with <a href="/models/meta/llama-3-1/">Llama 3.1</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, Takeaways; Lightweight models">[1]</a><span class="mh-locator">Takeaways; Lightweight models</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Efficiency</span>
+<span class="mh-claim-value">Quantized builds of the 1B and 3B Instruct models followed on 24 October 2024, limited to 8K context for mobile devices.<span class="mh-note">Compared with <a href="/models/meta/llama-3-1/">Llama 3.1</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.quantized-llama-models-announcement" aria-label="Source 6">[6]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[3]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Licensing</span>
+<span class="mh-claim-value">The acceptable use policy does not grant the license rights for the multimodal models to individuals or companies based in the European Union.<span class="mh-note">Compared with <a href="/models/meta/llama-3-1/">Llama 3.1</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-acceptable-use-policy" aria-label="Source 7, paragraph on multimodal models after the list of prohibited uses">[7]</a><span class="mh-locator">paragraph on multimodal models after the list of prohibited uses</span></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text<span class="mh-note">Applies to the 1B and 3B text models; the two Vision variants also accept images.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-model-card" aria-label="Source 2, Model Information table, Input modalities">[2]</a><span class="mh-locator">Model Information table, Input modalities</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text, code</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-model-card" aria-label="Source 2, Model Information table, Output modalities">[2]</a><span class="mh-locator">Model Information table, Output modalities</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Open weights</span>
+<span class="mh-claim-value">Yes<span class="mh-note">Weights under the custom Llama 3.2 Community License, after accepting the license. The acceptable use policy does not grant the license rights for the multimodal models to individuals or companies based in the European Union; end users of products that include them are exempt.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, Takeaways">[1]</a><span class="mh-locator">Takeaways</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-hf-collection" aria-label="Source 4">[4]</a> <a class="mh-ref" href="#source-src.meta.llama-3-2-acceptable-use-policy" aria-label="Source 7, paragraph on multimodal models after the list of prohibited uses">[7]</a><span class="mh-locator">paragraph on multimodal models after the list of prohibited uses</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">128K tokens<span class="mh-note">The quantized 1B and 3B builds of October 2024 are limited to 8k.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, Takeaways (1B and 3B)">[1]</a><span class="mh-locator">Takeaways (1B and 3B)</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-model-card" aria-label="Source 2, Model Information table, Context Length (128k)">[2]</a><span class="mh-locator">Model Information table, Context Length (128k)</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3, Model Information table, Context length (128k)">[3]</a><span class="mh-locator">Model Information table, Context length (128k)</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">Open-weights download, cloud partner, On device, consumer app<span class="mh-note">On-device: the 1B and 3B models (and their quantized builds) target mobile and edge hardware. Consumer access: Meta says the Vision models can be tried in Meta AI.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, Takeaways">[1]</a><span class="mh-locator">Takeaways</span> <a class="mh-ref" href="#source-src.meta.quantized-llama-models-announcement" aria-label="Source 6, Takeaways">[6]</a><span class="mh-locator">Takeaways</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<ul class="mh-rel" data-mh-lineage="predecessors">
+<li><a href="/models/meta/llama-3-1/">Llama 3.1</a> <span class="mh-muted">· 23 July 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/meta/llama-3-3/">Llama 3.3</a> <span class="mh-muted">· 6 December 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<ul class="mh-rel" data-mh-lineage="parents">
+<li><a href="/models/meta/llama-3-1/">Llama 3.1</a> <span class="mh-muted">· 23 July 2024 · derived (distillation)</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/meta/llama-1/">LLaMA</a> <span class="mh-muted">· 24 February 2023</span></li>
+<li><a href="/models/meta/llama-2/">Llama 2</a> <span class="mh-muted">· 18 July 2023</span></li>
+<li><a href="/models/meta/meta-llama-3/">Meta Llama 3</a> <span class="mh-muted">· 18 April 2024</span></li>
+<li><a href="/models/meta/llama-3-1/">Llama 3.1</a> <span class="mh-muted">· 23 July 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/meta/llama-3-3/">Llama 3.3</a> <span class="mh-muted">· 6 December 2024</span></li>
+<li><a href="/models/nvidia/llama-3-3-nemotron-super-49b-v1/">Llama-3.3-Nemotron-Super-49B-v1</a> <span class="mh-muted">· NVIDIA · 18 March 2025</span></li>
+<li><a href="/models/meta/llama-4-maverick/">Llama 4 Maverick</a> <span class="mh-muted">· 5 April 2025</span></li>
+<li><a href="/models/meta/llama-4-scout/">Llama 4 Scout</a> <span class="mh-muted">· 5 April 2025</span></li>
+<li><a href="/models/nvidia/llama-3-3-nemotron-super-49b-v1-5/">Llama-3.3-Nemotron-Super-49B-v1.5</a> <span class="mh-muted">· NVIDIA · 25 July 2025</span></li>
+<li><a href="/models/nvidia/nemotron-3-super/">Nemotron 3 Super</a> <span class="mh-muted">· NVIDIA · 11 March 2026</span></li>
+<li><a href="/models/meta/muse-spark/">Muse Spark</a> <span class="mh-muted">· 8 April 2026</span></li>
+<li><a href="/models/meta/muse-spark-1-1/">Muse Spark 1.1</a> <span class="mh-muted">· 9 July 2026</span></li>
+<li><a href="/models/meta/muse-spark-1-2/">Muse Spark 1.2</a> <span class="mh-muted">· 5 August 2026</span></li>
+<li><a href="/models/meta/muse-glimmer/">Muse Glimmer</a> <span class="mh-muted">· 10 August 2026</span></li>
+<li><a href="/models/meta/muse-spark-1-3/">Muse Spark 1.3</a> <span class="mh-muted">· 2 September 2026</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-h2">Variants</h2>
+<section id="variant-llama-3-2-1b" class="mh-variant">
+<h3 class="mh-variant-name">Llama 3.2 1B</h3>
+<p class="mh-muted">Same dates as Llama 3.2.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">Text-only, pretrained and instruction-tuned. Quantized QLoRA and SpinQuant builds of the Instruct model followed on 2024-10-24, with context limited to 8k.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, Takeaways; Lightweight models">[1]</a><span class="mh-locator">Takeaways; Lightweight models</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-model-card" aria-label="Source 2, Model Information">[2]</a><span class="mh-locator">Model Information</span> <a class="mh-ref" href="#source-src.meta.quantized-llama-models-announcement" aria-label="Source 6">[6]</a> <a class="mh-ref" href="#source-src.meta.llama-3-2-hf-collection" aria-label="Source 4">[4]</a></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: Llama-3.2-1B, Llama-3.2-1B-Instruct, Llama-3.2-1B-Instruct-QLORA_INT4_EO8, Llama-3.2-1B-Instruct-SpinQuant_INT4_EO8</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">1B (1.23B)</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-model-card" aria-label="Source 2, Model Information table, Params">[2]</a><span class="mh-locator">Model Information table, Params</span></span></li>
+</ul>
+</section>
+<section id="variant-llama-3-2-3b" class="mh-variant">
+<h3 class="mh-variant-name">Llama 3.2 3B</h3>
+<p class="mh-muted">Same dates as Llama 3.2.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">Text-only, pretrained and instruction-tuned. Quantized QLoRA and SpinQuant builds of the Instruct model followed on 2024-10-24, with context limited to 8k.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, Takeaways; Lightweight models">[1]</a><span class="mh-locator">Takeaways; Lightweight models</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-model-card" aria-label="Source 2, Model Information">[2]</a><span class="mh-locator">Model Information</span> <a class="mh-ref" href="#source-src.meta.quantized-llama-models-announcement" aria-label="Source 6">[6]</a> <a class="mh-ref" href="#source-src.meta.llama-3-2-hf-collection" aria-label="Source 4">[4]</a></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: Llama-3.2-3B, Llama-3.2-3B-Instruct, Llama-3.2-3B-Instruct-QLORA_INT4_EO8, Llama-3.2-3B-Instruct-SpinQuant_INT4_EO8</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">3B (3.21B)</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-model-card" aria-label="Source 2, Model Information table, Params">[2]</a><span class="mh-locator">Model Information table, Params</span></span></li>
+</ul>
+</section>
+<section id="variant-llama-3-2-11b-vision" class="mh-variant">
+<h3 class="mh-variant-name">Llama 3.2 11B Vision</h3>
+<p class="mh-muted">Same dates as Llama 3.2.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">Pretrained and instruction-tuned. For image plus text tasks the model card lists English as the only supported language.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, Takeaways; Vision models">[1]</a><span class="mh-locator">Takeaways; Vision models</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3, Model Information">[3]</a><span class="mh-locator">Model Information</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-hf-collection" aria-label="Source 4">[4]</a></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: Llama-3.2-11B-Vision, Llama-3.2-11B-Vision-Instruct, Llama 3.2 11B</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.inputModalities">Input: <span class="mh-value">text, image</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3, Model Information table, Input modalities">[3]</a><span class="mh-locator">Model Information table, Input modalities</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, Vision models">[1]</a><span class="mh-locator">Vision models</span></span></li>
+<li data-mh-variant-claim="capabilities.outputModalities">Output: <span class="mh-value">text</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3, Model Information table, Output modalities">[3]</a><span class="mh-locator">Model Information table, Output modalities</span></span></li>
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">11B (10.6)</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3, Model Information table, Params">[3]</a><span class="mh-locator">Model Information table, Params</span></span></li>
+</ul>
+</section>
+<section id="variant-llama-3-2-90b-vision" class="mh-variant">
+<h3 class="mh-variant-name">Llama 3.2 90B Vision</h3>
+<p class="mh-muted">Same dates as Llama 3.2.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[3]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">Pretrained and instruction-tuned. For image plus text tasks the model card lists English as the only supported language.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, Takeaways; Vision models">[1]</a><span class="mh-locator">Takeaways; Vision models</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3, Model Information">[3]</a><span class="mh-locator">Model Information</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-hf-collection" aria-label="Source 4">[4]</a></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: Llama-3.2-90B-Vision, Llama-3.2-90B-Vision-Instruct, Llama 3.2 90B</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.inputModalities">Input: <span class="mh-value">text, image</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3, Model Information table, Input modalities">[3]</a><span class="mh-locator">Model Information table, Input modalities</span> <a class="mh-ref" href="#source-src.meta.llama-3-2-announcement" aria-label="Source 1, Vision models">[1]</a><span class="mh-locator">Vision models</span></span></li>
+<li data-mh-variant-claim="capabilities.outputModalities">Output: <span class="mh-value">text</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3, Model Information table, Output modalities">[3]</a><span class="mh-locator">Model Information table, Output modalities</span></span></li>
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">90B (88.8)</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-3-2-vision-model-card" aria-label="Source 3, Model Information table, Params">[3]</a><span class="mh-locator">Model Information table, Params</span></span></li>
+</ul>
+</section>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=meta">All model releases from Meta on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<a class="mh-pager-prev" href="/models/meta/llama-3-1/"><span class="mh-muted">← Earlier in Llama</span><span>Llama 3.1</span></a>
+<a class="mh-pager-next" href="/models/meta/llama-3-3/"><span class="mh-muted">Later in Llama →</span><span>Llama 3.3</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="metagmh0" gradientUnits="userSpaceOnUse" x1="12" y1="0" x2="12" y2="24"><stop offset="0%" stop-color="#E04AFD"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#4845F5"/></linearGradient></defs><g fill="url(#metagmh0)"><ellipse cx="12" cy="5" rx="2.8" ry="4.6"/><ellipse cx="17.47" cy="7.63" rx="2.8" ry="4.6" transform="rotate(51.43 17.47 7.63)"/><ellipse cx="18.83" cy="13.56" rx="2.8" ry="4.6" transform="rotate(102.86 18.83 13.56)"/><ellipse cx="15.04" cy="18.31" rx="2.8" ry="4.6" transform="rotate(154.29 15.04 18.31)"/><ellipse cx="8.96" cy="18.31" rx="2.8" ry="4.6" transform="rotate(205.71 8.96 18.31)"/><ellipse cx="5.17" cy="13.56" rx="2.8" ry="4.6" transform="rotate(257.14 5.17 13.56)"/><ellipse cx="6.53" cy="7.63" rx="2.8" ry="4.6" transform="rotate(308.57 6.53 7.63)"/></g></svg></span><a href="/models/meta/">Meta</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/meta/#family-meta.llama">Llama</a></dd></div>
+<div><dt>Generation</dt><dd>3.2</dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2024-09-25">25 September 2024</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Standard release <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>Llama 3.2-Vision</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.meta.llama-3-2-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Llama 3.2: Revolutionizing edge AI and vision with open, customizable models</cite></p>
+<p class="mh-kicker">Announcement · Meta · published <time datetime="2024-09-25">25 September 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/">Original ↗</a>
+<span class="mh-url">https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/</span>
+<span class="mh-note">Meta AI blog post dated September 25, 2024 (Meta Connect 2024). It links the Llama 3.2 acceptable use policy on GitHub for multimodal availability in Europe.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-3-2-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>llama-models/models/llama3_2/MODEL_CARD.md at main · meta-llama/llama-models · GitHub</cite></p>
+<p class="mh-kicker">Model card · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md">Original ↗</a>
+<span class="mh-url">https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md</span>
+<span class="mh-note">Model card for the Llama 3.2 1B and 3B text models, including the quantized builds; the file has no title heading, so the title is the GitHub page title. Its Model Release Date now reads Oct 24, 2024, the date the quantized builds were released; the Hugging Face model cards of meta-llama/Llama-3.2-1B and -3B give Sept 25, 2024.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-3-2-vision-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>llama-models/models/llama3_2/MODEL_CARD_VISION.md at main · meta-llama/llama-models · GitHub</cite></p>
+<p class="mh-kicker">Model card · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md">Original ↗</a>
+<span class="mh-url">https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md</span>
+<span class="mh-note">Model card for Llama 3.2-Vision 11B and 90B; the file has no title heading, so the title is the GitHub page title. States Model Release Date Sept 25, 2024.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-3-2-hf-collection" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Llama 3.2 - a meta-llama Collection</cite></p>
+<p class="mh-kicker">Model hub page · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/collections/meta-llama/llama-32">Original ↗</a>
+<span class="mh-url">https://huggingface.co/collections/meta-llama/llama-32</span>
+<span class="mh-note">Collection in Meta&#39;s Hugging Face organisation listing Llama-3.2-1B, -3B, their Instruct versions, the QLORA_INT4_EO8 and SpinQuant_INT4_EO8 builds, Llama-3.2-11B-Vision, -90B-Vision and their Instruct versions (gated), plus Llama Guard 3 models. The older address https://huggingface.co/collections/meta-llama/llama-32-66f448ffc8c32f949b04c8cf redirects here.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-models-repository" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>GitHub - meta-llama/llama-models: Utilities intended for use with Llama models. · GitHub</cite></p>
+<p class="mh-kicker">Repository · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://github.com/meta-llama/llama-models">Original ↗</a>
+<span class="mh-url">https://github.com/meta-llama/llama-models</span>
+<span class="mh-note">Meta&#39;s central repository for Llama model cards, licenses and use policies. Its README has a table with launch date, model sizes and context length per release (Llama 2 7/18/2023, 4K; Llama 3 4/18/2024, 8K; Llama 3.1 7/23/2024, 128K; Llama 3.2 and Llama 3.2-Vision 9/25/2024, 128K; Llama 3.3 12/04/2024, 128K). Living page; content as seen on 2026-10-01.</span>
+</div>
+</li>
+<li id="source-src.meta.quantized-llama-models-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[6]</span> <cite>Introducing quantized Llama models with increased speed and a reduced memory footprint</cite></p>
+<p class="mh-kicker">Announcement · Meta · published <time datetime="2024-10-24">24 October 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://ai.meta.com/blog/meta-llama-quantized-lightweight-models/">Original ↗</a>
+<span class="mh-url">https://ai.meta.com/blog/meta-llama-quantized-lightweight-models/</span>
+<span class="mh-note">Meta AI blog post dated October 24, 2024 announcing QLoRA and SpinQuant builds of Llama 3.2 1B and 3B Instruct.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-3-2-acceptable-use-policy" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[7]</span> <cite>Llama 3.2 Acceptable Use Policy</cite></p>
+<p class="mh-kicker">Documentation · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/USE_POLICY.md">Original ↗</a>
+<span class="mh-url">https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/USE_POLICY.md</span>
+<span class="mh-note">Linked from the Llama 3.2 announcement; the title is the document heading (GitHub page title: llama-models/models/llama3_2/USE_POLICY.md at main). The document names https://www.llama.com/llama3_2/use-policy as the most recent copy; that address now redirects to https://dev.meta.ai/llama/llama3-2/use-policy, which did not render the policy text when fetched without a browser.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

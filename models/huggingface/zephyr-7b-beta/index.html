@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Zephyr 7B β · Hugging Face · Model History · AI Radar</title>
+<meta name="description" content="Zephyr 7B β is the second model in Hugging Face&#39;s Zephyr series, a 7B chat assistant fine-tuned from Mistral 7B v0.1 and published as open weights under…">
+<link rel="canonical" href="https://ai-radar.eu/models/huggingface/zephyr-7b-beta/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Zephyr 7B β · Hugging Face · Model History · AI Radar">
+<meta property="og:description" content="Zephyr 7B β is the second model in Hugging Face&#39;s Zephyr series, a 7B chat assistant fine-tuned from Mistral 7B v0.1 and published as open weights under…">
+<meta property="og:url" content="https://ai-radar.eu/models/huggingface/zephyr-7b-beta/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Zephyr 7B β · Hugging Face · Model History · AI Radar">
+<meta name="twitter:description" content="Zephyr 7B β is the second model in Hugging Face&#39;s Zephyr series, a 7B chat assistant fine-tuned from Mistral 7B v0.1 and published as open weights under…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/huggingface/zephyr-7b-beta/","url":"https://ai-radar.eu/models/huggingface/zephyr-7b-beta/","name":"Zephyr 7B β · Hugging Face · Model History · AI Radar","description":"Zephyr 7B β is the second model in Hugging Face's Zephyr series, a 7B chat assistant fine-tuned from Mistral 7B v0.1 and published as open weights under…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/huggingface/zephyr-7b-beta/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/huggingface/zephyr-7b-beta/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Hugging Face","item":"https://ai-radar.eu/models/huggingface/"},{"@type":"ListItem","position":4,"name":"Zephyr 7B β","item":"https://ai-radar.eu/models/huggingface/zephyr-7b-beta/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:325" data-mh-view="model" data-mh-model="huggingface.zephyr-7b-beta">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/huggingface/"><span class="mh-co" style="--h:325">Hugging Face</span></a></li><li><a href="/models/huggingface/#family-huggingface.zephyr">Zephyr</a></li><li aria-current="page">Zephyr 7B β</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#FFB000"><path d="M12.025 1.13c-5.77 0-10.449 4.647-10.449 10.378 0 1.112.178 2.181.503 3.185.064-.222.203-.444.416-.577a.96.96 0 0 1 .524-.15c.293 0 .584.124.84.284.278.173.48.408.71.694.226.282.458.611.684.951v-.014c.017-.324.106-.622.264-.874s.403-.487.762-.543c.3-.047.596.06.787.203s.31.313.4.467c.15.257.212.468.233.542.01.026.653 1.552 1.657 2.54.616.605 1.01 1.223 1.082 1.912.055.537-.096 1.059-.38 1.572.637.121 1.294.187 1.967.187.657 0 1.298-.063 1.921-.178-.287-.517-.44-1.041-.384-1.581.07-.69.465-1.307 1.081-1.913 1.004-.987 1.647-2.513 1.657-2.539.021-.074.083-.285.233-.542.09-.154.208-.323.4-.467a1.08 1.08 0 0 1 .787-.203c.359.056.604.29.762.543s.247.55.265.874v.015c.225-.34.457-.67.683-.952.23-.286.432-.52.71-.694.257-.16.547-.284.84-.285a.97.97 0 0 1 .524.151c.228.143.373.388.43.625l.006.04a10.3 10.3 0 0 0 .534-3.273c0-5.731-4.678-10.378-10.449-10.378M8.327 6.583a1.5 1.5 0 0 1 .713.174 1.487 1.487 0 0 1 .617 2.013c-.183.343-.762-.214-1.102-.094-.38.134-.532.914-.917.71a1.487 1.487 0 0 1 .69-2.803m7.486 0a1.487 1.487 0 0 1 .689 2.803c-.385.204-.536-.576-.916-.71-.34-.12-.92.437-1.103.094a1.487 1.487 0 0 1 .617-2.013 1.5 1.5 0 0 1 .713-.174m-10.68 1.55a.96.96 0 1 1 0 1.921.96.96 0 0 1 0-1.92m13.838 0a.96.96 0 1 1 0 1.92.96.96 0 0 1 0-1.92M8.489 11.458c.588.01 1.965 1.157 3.572 1.164 1.607-.007 2.984-1.155 3.572-1.164.196-.003.305.12.305.454 0 .886-.424 2.328-1.563 3.202-.22-.756-1.396-1.366-1.63-1.32q-.011.001-.02.006l-.044.026-.01.008-.03.024q-.018.017-.035.036l-.032.04a1 1 0 0 0-.058.09l-.014.025q-.049.088-.11.19a1 1 0 0 1-.083.116 1.2 1.2 0 0 1-.173.18q-.035.029-.075.058a1.3 1.3 0 0 1-.251-.243 1 1 0 0 1-.076-.107c-.124-.193-.177-.363-.337-.444-.034-.016-.104-.008-.2.022q-.094.03-.216.087-.06.028-.125.063l-.13.074q-.067.04-.136.086a3 3 0 0 0-.135.096 3 3 0 0 0-.26.219 2 2 0 0 0-.12.121 2 2 0 0 0-.106.128l-.002.002a2 2 0 0 0-.09.132l-.001.001a1.2 1.2 0 0 0-.105.212q-.013.036-.024.073c-1.139-.875-1.563-2.317-1.563-3.203 0-.334.109-.457.305-.454m.836 10.354c.824-1.19.766-2.082-.365-3.194-1.13-1.112-1.789-2.738-1.789-2.738s-.246-.945-.806-.858-.97 1.499.202 2.362c1.173.864-.233 1.45-.685.64-.45-.812-1.683-2.896-2.322-3.295s-1.089-.175-.938.647 2.822 2.813 2.562 3.244-1.176-.506-1.176-.506-2.866-2.567-3.49-1.898.473 1.23 2.037 2.16c1.564.932 1.686 1.178 1.464 1.53s-3.675-2.511-4-1.297c-.323 1.214 3.524 1.567 3.287 2.405-.238.839-2.71-1.587-3.216-.642-.506.946 3.49 2.056 3.522 2.064 1.29.33 4.568 1.028 5.713-.624m5.349 0c-.824-1.19-.766-2.082.365-3.194 1.13-1.112 1.789-2.738 1.789-2.738s.246-.945.806-.858.97 1.499-.202 2.362c-1.173.864.233 1.45.685.64.451-.812 1.683-2.896 2.322-3.295s1.089-.175.938.647-2.822 2.813-2.562 3.244 1.176-.506 1.176-.506 2.866-2.567 3.49-1.898-.473 1.23-2.037 2.16c-1.564.932-1.686 1.178-1.464 1.53s3.675-2.511 4-1.297c.323 1.214-3.524 1.567-3.287 2.405.238.839 2.71-1.587 3.216-.642.506.946-3.49 2.056-3.522 2.064-1.29.33-4.568 1.028-5.713-.624"/></svg></span>Zephyr 7B β</h1>
+<p class="mh-sub">Available · Language</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Zephyr 7B β is the second model in Hugging Face&#39;s Zephyr series, a 7B chat assistant fine-tuned from Mistral 7B v0.1 and published as open weights under the MIT licence. Its technical report describes distilled supervised fine-tuning followed by distilled preference optimization on AI feedback, without human annotation; the training code followed in the Alignment Handbook. <span class="mh-refs"><a class="mh-ref" href="#source-src.huggingface.zephyr-7b-beta-model-card" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.huggingface.zephyr-technical-report" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.huggingface.alignment-handbook" aria-label="Source 3, README, News: November 10, 2023">[3]</a><span class="mh-locator">README, News: November 10, 2023</span></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/huggingface/zephyr-7b-beta/timeline/">Timeline of Zephyr 7B β →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">11 claims · <span data-mh-summary="primary-source">Primary source: 11</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2023-10">October 2023</time><span class="mh-note">The technical report was submitted on 2023-10-25 and the public model repository was created on 2023-10-26; no announcement giving a single release day was found, so only the month is recorded.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.huggingface.zephyr-technical-report" aria-label="Source 2, arXiv submission history, v1 of 2023-10-25">[2]</a><span class="mh-locator">arXiv submission history, v1 of 2023-10-25</span> <a class="mh-ref" href="#source-src.huggingface.zephyr-7b-beta-model-card" aria-label="Source 1, Hub commit history: repository created 2023-10-26">[1]</a><span class="mh-locator">Hub commit history: repository created 2023-10-26</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Available<span class="mh-note">Weights are downloadable from the HuggingFaceH4 organisation on the Hub. Hugging Face publishes no deprecation page for its models.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.huggingface.zephyr-7b-beta-model-card" aria-label="Source 1, Hub repository HuggingFaceH4/zephyr-7b-beta, Files and versions">[1]</a><span class="mh-locator">Hub repository HuggingFaceH4/zephyr-7b-beta, Files and versions</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Successor of</span>
+<span class="mh-claim-value"><a href="/models/huggingface/zephyr-7b-alpha/">Zephyr 7B Alpha</a></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.huggingface.zephyr-7b-beta-model-card" aria-label="Source 1, first paragraph">[1]</a><span class="mh-locator">first paragraph</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="relations[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Derived from (fine tune)</span>
+<span class="mh-claim-value"><a href="/models/mistral/mistral-7b/">Mistral 7B</a> <span class="mh-org-tag">(Mistral AI)</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.huggingface.zephyr-7b-beta-model-card" aria-label="Source 1">[1]</a></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Training data</span>
+<span class="mh-claim-value">Trained on a filtered and preprocessed version of UltraChat and a binarized version of UltraFeedback, whose completions were scored by GPT-4.<span class="mh-note">Compared with <a href="/models/huggingface/zephyr-7b-alpha/">Zephyr 7B Alpha</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.huggingface.zephyr-7b-beta-model-card" aria-label="Source 1">[1]</a></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.huggingface.zephyr-7b-beta-model-card" aria-label="Source 1, first paragraph; Model description">[1]</a><span class="mh-locator">first paragraph; Model description</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.huggingface.zephyr-7b-beta-model-card" aria-label="Source 1, first paragraph; Model description">[1]</a><span class="mh-locator">first paragraph; Model description</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Open weights</span>
+<span class="mh-claim-value">Yes<span class="mh-note">MIT licence.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.huggingface.zephyr-7b-beta-model-card" aria-label="Source 1, Model description, License">[1]</a><span class="mh-locator">Model description, License</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">7B</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.huggingface.zephyr-7b-beta-model-card" aria-label="Source 1, Model description, Model type">[1]</a><span class="mh-locator">Model description, Model type</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">Open-weights download</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.huggingface.zephyr-7b-beta-model-card" aria-label="Source 1, Intended uses and limitations">[1]</a><span class="mh-locator">Intended uses and limitations</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<ul class="mh-rel" data-mh-lineage="predecessors">
+<li><a href="/models/huggingface/zephyr-7b-alpha/">Zephyr 7B Alpha</a> <span class="mh-muted">· October 2023</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/huggingface/zephyr-7b-gemma/">Zephyr 7B Gemma</a> <span class="mh-muted">· 1 March 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<ul class="mh-rel" data-mh-lineage="parents">
+<li><a href="/models/mistral/mistral-7b/">Mistral 7B</a> <span class="mh-muted">· Mistral AI · 27 September 2023 · derived (fine tune)</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/mistral/mistral-7b/">Mistral 7B</a> <span class="mh-muted">· Mistral AI · 27 September 2023</span></li>
+<li><a href="/models/huggingface/zephyr-7b-alpha/">Zephyr 7B Alpha</a> <span class="mh-muted">· October 2023</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/huggingface/zephyr-7b-gemma/">Zephyr 7B Gemma</a> <span class="mh-muted">· 1 March 2024</span></li>
+<li><a href="/models/huggingface/zephyr-141b-a35b/">Zephyr 141B-A35B</a> <span class="mh-muted">· 12 April 2024</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-visually-hidden">Variants</h2>
+<p class="mh-visually-hidden">No variants recorded in this record.</p>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=huggingface">All model releases from Hugging Face on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<a class="mh-pager-prev" href="/models/huggingface/zephyr-7b-alpha/"><span class="mh-muted">← Earlier in Zephyr</span><span>Zephyr 7B Alpha</span></a>
+<a class="mh-pager-next" href="/models/huggingface/zephyr-7b-gemma/"><span class="mh-muted">Later in Zephyr →</span><span>Zephyr 7B Gemma</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#FFB000"><path d="M12.025 1.13c-5.77 0-10.449 4.647-10.449 10.378 0 1.112.178 2.181.503 3.185.064-.222.203-.444.416-.577a.96.96 0 0 1 .524-.15c.293 0 .584.124.84.284.278.173.48.408.71.694.226.282.458.611.684.951v-.014c.017-.324.106-.622.264-.874s.403-.487.762-.543c.3-.047.596.06.787.203s.31.313.4.467c.15.257.212.468.233.542.01.026.653 1.552 1.657 2.54.616.605 1.01 1.223 1.082 1.912.055.537-.096 1.059-.38 1.572.637.121 1.294.187 1.967.187.657 0 1.298-.063 1.921-.178-.287-.517-.44-1.041-.384-1.581.07-.69.465-1.307 1.081-1.913 1.004-.987 1.647-2.513 1.657-2.539.021-.074.083-.285.233-.542.09-.154.208-.323.4-.467a1.08 1.08 0 0 1 .787-.203c.359.056.604.29.762.543s.247.55.265.874v.015c.225-.34.457-.67.683-.952.23-.286.432-.52.71-.694.257-.16.547-.284.84-.285a.97.97 0 0 1 .524.151c.228.143.373.388.43.625l.006.04a10.3 10.3 0 0 0 .534-3.273c0-5.731-4.678-10.378-10.449-10.378M8.327 6.583a1.5 1.5 0 0 1 .713.174 1.487 1.487 0 0 1 .617 2.013c-.183.343-.762-.214-1.102-.094-.38.134-.532.914-.917.71a1.487 1.487 0 0 1 .69-2.803m7.486 0a1.487 1.487 0 0 1 .689 2.803c-.385.204-.536-.576-.916-.71-.34-.12-.92.437-1.103.094a1.487 1.487 0 0 1 .617-2.013 1.5 1.5 0 0 1 .713-.174m-10.68 1.55a.96.96 0 1 1 0 1.921.96.96 0 0 1 0-1.92m13.838 0a.96.96 0 1 1 0 1.92.96.96 0 0 1 0-1.92M8.489 11.458c.588.01 1.965 1.157 3.572 1.164 1.607-.007 2.984-1.155 3.572-1.164.196-.003.305.12.305.454 0 .886-.424 2.328-1.563 3.202-.22-.756-1.396-1.366-1.63-1.32q-.011.001-.02.006l-.044.026-.01.008-.03.024q-.018.017-.035.036l-.032.04a1 1 0 0 0-.058.09l-.014.025q-.049.088-.11.19a1 1 0 0 1-.083.116 1.2 1.2 0 0 1-.173.18q-.035.029-.075.058a1.3 1.3 0 0 1-.251-.243 1 1 0 0 1-.076-.107c-.124-.193-.177-.363-.337-.444-.034-.016-.104-.008-.2.022q-.094.03-.216.087-.06.028-.125.063l-.13.074q-.067.04-.136.086a3 3 0 0 0-.135.096 3 3 0 0 0-.26.219 2 2 0 0 0-.12.121 2 2 0 0 0-.106.128l-.002.002a2 2 0 0 0-.09.132l-.001.001a1.2 1.2 0 0 0-.105.212q-.013.036-.024.073c-1.139-.875-1.563-2.317-1.563-3.203 0-.334.109-.457.305-.454m.836 10.354c.824-1.19.766-2.082-.365-3.194-1.13-1.112-1.789-2.738-1.789-2.738s-.246-.945-.806-.858-.97 1.499.202 2.362c1.173.864-.233 1.45-.685.64-.45-.812-1.683-2.896-2.322-3.295s-1.089-.175-.938.647 2.822 2.813 2.562 3.244-1.176-.506-1.176-.506-2.866-2.567-3.49-1.898.473 1.23 2.037 2.16c1.564.932 1.686 1.178 1.464 1.53s-3.675-2.511-4-1.297c-.323 1.214 3.524 1.567 3.287 2.405-.238.839-2.71-1.587-3.216-.642-.506.946 3.49 2.056 3.522 2.064 1.29.33 4.568 1.028 5.713-.624m5.349 0c-.824-1.19-.766-2.082.365-3.194 1.13-1.112 1.789-2.738 1.789-2.738s.246-.945.806-.858.97 1.499-.202 2.362c-1.173.864.233 1.45.685.64.451-.812 1.683-2.896 2.322-3.295s1.089-.175.938.647-2.822 2.813-2.562 3.244 1.176-.506 1.176-.506 2.866-2.567 3.49-1.898-.473 1.23-2.037 2.16c-1.564.932-1.686 1.178-1.464 1.53s3.675-2.511 4-1.297c.323 1.214-3.524 1.567-3.287 2.405.238.839 2.71-1.587 3.216-.642.506.946-3.49 2.056-3.522 2.064-1.29.33-4.568 1.028-5.713-.624"/></svg></span><a href="/models/huggingface/">Hugging Face</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/huggingface/#family-huggingface.zephyr">Zephyr</a></dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2023-10">October 2023</time><br><span class="mh-muted">Day not given</span></dd></div>
+<div><dt>Prominence</dt><dd>Standard release <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>Zephyr-7B-β, Zephyr 7B Beta, zephyr-7b-beta, Zephyr-7B</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.huggingface.zephyr-7b-beta-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Model Card for Zephyr 7B β</cite></p>
+<p class="mh-kicker">Model card · Hugging Face</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/HuggingFaceH4/zephyr-7b-beta">Original ↗</a>
+<span class="mh-url">https://huggingface.co/HuggingFaceH4/zephyr-7b-beta</span>
+<span class="mh-note">Model card of the Hub repository HuggingFaceH4/zephyr-7b-beta. The card states no date; the commit history shows the repository created on 2023-10-26 (duplicated from HuggingFaceH4-colab/zephyr-7b-beta-sharded) and the card written the same day. Links arXiv 2310.16944 as its technical report.</span>
+</div>
+</li>
+<li id="source-src.huggingface.zephyr-technical-report" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Zephyr: Direct Distillation of LM Alignment</cite></p>
+<p class="mh-kicker">Technical report · Hugging Face · published <time datetime="2023-10-25">25 October 2023</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://arxiv.org/abs/2310.16944">Original ↗</a>
+<span class="mh-url">https://arxiv.org/abs/2310.16944</span>
+<span class="mh-note">arXiv technical report by the Hugging Face H4 team; one version, v1, submitted 2023-10-25. It calls the model Zephyr-7B; the Zephyr 7B β model card links it as its technical report.</span>
+</div>
+</li>
+<li id="source-src.huggingface.alignment-handbook" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>The Alignment Handbook</cite></p>
+<p class="mh-kicker">Repository · Hugging Face</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://github.com/huggingface/alignment-handbook">Original ↗</a>
+<span class="mh-url">https://github.com/huggingface/alignment-handbook</span>
+<span class="mh-note">Hugging Face GitHub repository; title from the README heading (GitHub page title: huggingface/alignment-handbook: Robust recipes to align language models with human and AI preferences). Living README. Its News section has dated release entries, as seen in October 2026: November 10, 2023 (training code for Zephyr-7b-beta), March 1, 2024 (Zephyr 7B Gemma), March 12, 2024 (StarChat2 15B), April 12, 2024 (Zephyr 141B (A35B)).</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

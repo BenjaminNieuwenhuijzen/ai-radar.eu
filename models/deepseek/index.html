@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>DeepSeek models · Model History · AI Radar</title>
+<meta name="description" content="DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.) is a Chinese AI company that says it was founded in 2023. It describes itself as a…">
+<link rel="canonical" href="https://ai-radar.eu/models/deepseek/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="DeepSeek models · Model History · AI Radar">
+<meta property="og:description" content="DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.) is a Chinese AI company that says it was founded in 2023. It describes itself as a…">
+<meta property="og:url" content="https://ai-radar.eu/models/deepseek/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="DeepSeek models · Model History · AI Radar">
+<meta name="twitter:description" content="DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.) is a Chinese AI company that says it was founded in 2023. It describes itself as a…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script src="/assets/model-pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/deepseek/","url":"https://ai-radar.eu/models/deepseek/","name":"DeepSeek models · Model History · AI Radar","description":"DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.) is a Chinese AI company that says it was founded in 2023. It describes itself as a…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/deepseek/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/deepseek/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"DeepSeek","item":"https://ai-radar.eu/models/deepseek/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-company" style="--h:180" data-mh-view="company" data-mh-org="deepseek">
+<div class="mh-page-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li aria-current="page"><span class="mh-co" style="--h:180">DeepSeek</span></li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#4d6bfe"><path d="M23.748 4.651c-.254-.124-.364.113-.512.233-.051.04-.094.09-.137.137-.372.397-.806.657-1.373.626-.829-.046-1.537.214-2.163.848-.133-.782-.575-1.248-1.247-1.548-.352-.155-.708-.311-.955-.65-.172-.24-.219-.509-.305-.774-.055-.16-.11-.323-.293-.35-.2-.031-.278.136-.356.276-.313.572-.434 1.202-.422 1.84.027 1.436.633 2.58 1.838 3.393.137.094.172.187.129.323-.082.28-.18.553-.266.833-.055.179-.137.218-.328.14a5.5 5.5 0 0 1-1.737-1.179c-.857-.828-1.631-1.743-2.597-2.46a12 12 0 0 0-.689-.47c-.985-.957.13-1.743.387-1.836.27-.098.094-.433-.778-.428-.872.003-1.67.295-2.687.685a3 3 0 0 1-.465.136 9.6 9.6 0 0 0-2.883-.101c-1.885.21-3.39 1.1-4.497 2.622C.082 8.776-.231 10.854.152 13.02c.403 2.284 1.568 4.175 3.36 5.653 1.857 1.533 3.997 2.284 6.438 2.14 1.482-.085 3.132-.284 4.994-1.86.47.234.962.328 1.78.398.629.058 1.235-.031 1.705-.129.735-.155.684-.836.418-.961-2.155-1.004-1.682-.595-2.112-.926 1.095-1.295 2.768-3.598 3.284-6.733.05-.346.115-.834.108-1.114-.004-.171.035-.238.23-.257a4.2 4.2 0 0 0 1.545-.475c1.397-.763 1.96-2.016 2.093-3.517.02-.23-.004-.467-.247-.588M11.58 18.168c-2.088-1.642-3.101-2.183-3.52-2.16-.39.024-.32.472-.234.763.09.288.207.487.371.74.114.167.192.416-.113.603-.673.416-1.842-.14-1.897-.168-1.361-.801-2.5-1.86-3.301-3.306-.775-1.393-1.225-2.888-1.299-4.482-.02-.385.094-.522.477-.592a4.7 4.7 0 0 1 1.53-.038c2.131.311 3.946 1.264 5.467 2.774.868.86 1.525 1.887 2.202 2.89.72 1.066 1.494 2.082 2.48 2.915.348.291.626.513.892.677-.802.09-2.14.109-3.055-.615zm1.001-6.44a.306.306 0 0 1 .415-.287.3.3 0 0 1 .113.074.3.3 0 0 1 .086.214c0 .17-.136.307-.308.307a.303.303 0 0 1-.306-.307m3.11 1.596c-.2.081-.4.151-.591.16a1.25 1.25 0 0 1-.798-.254c-.274-.23-.47-.358-.551-.758a1.7 1.7 0 0 1 .015-.588c.07-.327-.007-.537-.238-.727-.188-.156-.426-.199-.689-.199a.6.6 0 0 1-.254-.078.253.253 0 0 1-.114-.358 1 1 0 0 1 .192-.21c.356-.202.767-.136 1.146.016.352.144.618.408 1.001.782.392.451.462.576.685.915.176.264.336.536.446.848.066.194-.02.353-.25.45"/></svg></span>DeepSeek models</h1>
+<p class="mh-lead">DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.) is a Chinese AI company that says it was founded in 2023. It describes itself as a research team focused on fundamental model research with an open-source approach, and says it releases model weights under the MIT License with a technical report for each model. It offers its models through a web chat, mobile apps and an API platform.</p>
+<div id="mh-family-chips" class="mh-chips" role="group" aria-label="Family" hidden>
+<button type="button" data-family="" aria-pressed="true">All families</button>
+<button type="button" data-family="deepseek.deepseek" aria-pressed="false">DeepSeek</button>
+<button type="button" data-family="deepseek.deepseek-flash" aria-pressed="false">DeepSeek Flash</button>
+<button type="button" data-family="deepseek.deepseek-pro" aria-pressed="false">DeepSeek Pro</button>
+<button type="button" data-family="deepseek.deepseek-r" aria-pressed="false">DeepSeek-R</button>
+<button type="button" data-family="deepseek.deepseek-v" aria-pressed="false">DeepSeek-V</button>
+</div>
+</div>
+<aside class="mh-head-side" id="evidence" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence overview</h2>
+<dl class="mh-ev-overview">
+<div data-mh-evidence="primary-source"><dt><span class="mh-glyph" aria-hidden="true">●</span> Primary source</dt><dd>23</dd></div>
+<div data-mh-evidence="archived-primary-source"><dt><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</dt><dd>0</dd></div>
+<div data-mh-evidence="secondary-sources"><dt><span class="mh-glyph" aria-hidden="true">○</span> Secondary sources</dt><dd>0</dd></div>
+<div data-mh-evidence="insufficient-evidence"><dt><span class="mh-glyph" aria-hidden="true">◌</span> Evidence incomplete</dt><dd>0</dd></div>
+<div data-mh-flag="original-unavailable"><dt>Original source unavailable</dt><dd>0</dd></div>
+</dl>
+<h3 class="mh-legend">Incomplete evidence</h3>
+<ul class="mh-mini-list" data-mh-list="incomplete">
+<li><a href="/models/deepseek/deepseek-v3/">DeepSeek-V3</a> <span class="mh-muted">Some details lack sources</span></li>
+<li><a href="/models/deepseek/deepseek-v4-1-flash/">DeepSeek-V4.1-Flash</a> <span class="mh-muted">Some details lack sources</span></li>
+</ul>
+</aside>
+</div>
+<div class="mh-page-body container">
+<div class="mh-body-main">
+<section id="chronology" aria-labelledby="mh-chrono-title">
+<h2 class="mh-visually-hidden" id="mh-chrono-title">Chronology</h2>
+<ol class="mh-chrono">
+<li class="mh-year">
+<div class="mh-year-head"><h3>2026</h3><span class="mh-year-count">6 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v4-1-flash" data-mh-family="deepseek.deepseek-flash" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-09-10">10 September 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek Flash · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v4-1-flash/">DeepSeek-V4.1-Flash</a>
+<p class="mh-chrono-sum">DeepSeek-V4.1-Flash is a Mixture-of-Experts model with 552B backbone parameters that takes text and images and generates text, released on 2026-09-10 in the DeepSeek API as deepseek-flash and with…</p>
+<ul class="mh-changes-mini"><li>Processes images natively together with text, trained jointly from the start of pre-training; the previous Flash model accepted text only.</li><li>Switches to a Causal Encoder-Decoder design with 8B active parameters for input and 16B for output, plus CSA2 sparse attention and Engram conditional memory.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+<span class="mh-flag" data-mh-flag="some-claims-incomplete">Some details lack sources</span>
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v4-flash-vision-exp" data-mh-family="deepseek.deepseek-flash" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-08-21">21 August 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek Flash · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v4-flash-vision-exp/">DeepSeek-V4-Flash-Vision-Exp</a>
+<p class="mh-chrono-sum">DeepSeek-V4-Flash-Vision-Exp is an experimental model that DeepSeek calls its first multimodal model in the DeepSeek-V4 family, built on the V4-Flash architecture with added visual modules. It…</p>
+<ul class="mh-changes-mini"><li>Adds image input next to text; images can be sent as base64, as external URLs or through the new Files API.</li><li>Adds visual modules to the V4-Flash architecture, followed by continued training.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v4-pro-0813" data-mh-family="deepseek.deepseek-pro" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-08-13">13 August 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek Pro · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v4-pro-0813/">DeepSeek-V4-Pro-0813</a>
+<p class="mh-chrono-sum">DeepSeek-V4-Pro-0813 is the general-availability release of DeepSeek-V4-Pro, rolled out on 2026-08-13 in the DeepSeek app, web chat (Expert Mode) and API under the unchanged name deepseek-v4-pro…</p>
+<ul class="mh-changes-mini"><li>Adds an attached DSpark speculative decoding module on top of the preview&#39;s model structure.</li><li>Natively supports the OpenAI Responses API format, adapted for Codex with a one-click setup script.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v4-flash-0731" data-mh-family="deepseek.deepseek-flash" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-07-31">31 July 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek Flash · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v4-flash-0731/">DeepSeek-V4-Flash-0731</a>
+<p class="mh-chrono-sum">DeepSeek-V4-Flash-0731 is the official, non-preview release of DeepSeek-V4-Flash, with open weights under the MIT License, served in the DeepSeek API from 2026-07-31 under the unchanged name…</p>
+<ul class="mh-changes-mini"><li>Ships with an attached DSpark speculative decoding module; DeepSeek says architecture and size are otherwise unchanged and only post-training was redone.</li><li>Reasoning effort is set through a reasoning_effort parameter with three levels: low, high and max.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v4-flash" data-mh-family="deepseek.deepseek-flash" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-04-24">24 April 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek Flash · Language, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v4-flash/">DeepSeek-V4-Flash</a>
+<p class="mh-chrono-sum">DeepSeek-V4-Flash is an open-weights Mixture-of-Experts language model with 284B total and 13B active parameters, the smaller model of the DeepSeek-V4 preview released on 2026-04-24 alongside…</p>
+<ul class="mh-changes-mini"><li>Uses the V4 hybrid attention design (Compressed Sparse Attention plus Heavily Compressed Attention), Manifold-Constrained Hyper-Connections and the Muon optimizer.</li><li>284B total and 13B activated parameters, against 671B total and 37B activated for DeepSeek-V3.2-Base in the card&#39;s base-model table.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v4-pro" data-mh-family="deepseek.deepseek-pro" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-04-24">24 April 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek Pro · Language, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v4-pro/">DeepSeek-V4-Pro</a>
+<p class="mh-chrono-sum">DeepSeek-V4-Pro is an open-weights Mixture-of-Experts language model with 1.6T total and 49B active parameters, released on 2026-04-24 as the preview of the DeepSeek-V4 series alongside…</p>
+<ul class="mh-changes-mini"><li>Introduces hybrid attention (Compressed Sparse Attention plus Heavily Compressed Attention), Manifold-Constrained Hyper-Connections and training with the Muon optimizer.</li><li>At a 1M-token context it needs about 27% of the single-token inference FLOPs and 10% of the KV cache of DeepSeek-V3.2, according to DeepSeek.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2025</h3><span class="mh-year-count">9 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v3-2" data-mh-family="deepseek.deepseek-v" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-12-01">1 December 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-V · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v3-2/">DeepSeek-V3.2</a>
+<p class="mh-chrono-sum">DeepSeek-V3.2 is a text-only language model in DeepSeek&#39;s V line with thinking and non-thinking modes, released on 1 December 2025 in the app, web chat and API, with open weights under the MIT…</p>
+<ul class="mh-changes-mini"><li>Integrates thinking directly into tool use, which DeepSeek says is a first for its models, and supports tool use in both thinking and non-thinking modes.</li><li>Trained with synthesised agent data that DeepSeek says covers more than 1,800 environments and 85,000 complex instructions.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v3-2-speciale" data-mh-family="deepseek.deepseek-v" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-12-01">1 December 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-V · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v3-2-speciale/">DeepSeek-V3.2-Speciale</a>
+<p class="mh-chrono-sum">DeepSeek-V3.2-Speciale is a high-compute variant of DeepSeek-V3.2 designed for deep reasoning tasks, announced with it on 1 December 2025 and released with open weights under the MIT License. It…</p>
+<ul class="mh-changes-mini"><li>Trained only on reasoning data with a reduced length penalty in reinforcement learning, plus the DeepSeekMath-V2 dataset and reward method for mathematical proofs.</li><li>Does not support tool calling.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v3-2-exp" data-mh-family="deepseek.deepseek-v" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-09-29">29 September 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-V · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v3-2-exp/">DeepSeek-V3.2-Exp</a>
+<p class="mh-chrono-sum">DeepSeek-V3.2-Exp is an experimental language model in DeepSeek&#39;s V line, released on 29 September 2025 in the app, web chat and API, with open weights under the MIT License. It adds DeepSeek Sparse…</p>
+<ul class="mh-changes-mini"><li>Adds DeepSeek Sparse Attention, a fine-grained sparse attention mechanism with a lightning indexer; DeepSeek says this is the only architectural change.</li><li>DeepSeek says sparse attention makes long-context training and inference more efficient; it cut API prices by more than 50 percent with this release.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v3-1-terminus" data-mh-family="deepseek.deepseek-v" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-09-22">22 September 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-V · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v3-1-terminus/">DeepSeek-V3.1-Terminus</a>
+<p class="mh-chrono-sum">DeepSeek-V3.1-Terminus is an update of DeepSeek-V3.1, released on 22 September 2025 in the DeepSeek app, web chat and API, with open weights under the MIT License. DeepSeek says it keeps the…</p>
+<ul class="mh-changes-mini"><li>Less mixing of Chinese and English and fewer occasional abnormal characters in output, according to DeepSeek.</li><li>DeepSeek reports better Code Agent and Search Agent performance; the search-agent template and tool set were updated.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v3-1" data-mh-family="deepseek.deepseek-v" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-08-21">21 August 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-V · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v3-1/">DeepSeek-V3.1</a>
+<p class="mh-chrono-sum">DeepSeek-V3.1 is a hybrid language model in DeepSeek&#39;s V line that offers a thinking and a non-thinking mode in one model, launched on 21 August 2025 in DeepSeek&#39;s web chat and API. Its weights and…</p>
+<ul class="mh-changes-mini"><li>One hybrid model serves both a thinking and a non-thinking mode; in the API these modes had been served by separate models, DeepSeek-V3-0324 and DeepSeek-R1-0528.</li><li>DeepSeek says post-training improved tool use and performance on agent tasks.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-r1-0528" data-mh-family="deepseek.deepseek-r" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-05-28">28 May 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-R · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-r1-0528/">DeepSeek-R1-0528</a>
+<p class="mh-chrono-sum">DeepSeek-R1-0528 is a minor version upgrade of DeepSeek-R1, served behind deepseek-reasoner in the DeepSeek API from 28 May 2025, in the web chat and as open weights under the MIT License. DeepSeek…</p>
+<ul class="mh-changes-mini"><li>JSON output and function calling support are listed as part of the upgrade.</li><li>Deeper reasoning, which DeepSeek attributes to more compute and algorithmic optimisation in post-training; complex tasks may use more tokens.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v3-0324" data-mh-family="deepseek.deepseek-v" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-03-24">24 March 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-V · Language</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v3-0324/">DeepSeek-V3-0324</a>
+<p class="mh-chrono-sum">DeepSeek-V3-0324 is an updated version of DeepSeek-V3 with the same model structure, served behind deepseek-chat in the DeepSeek API from 24 March 2025, in the web chat and as open weights under the…</p>
+<ul class="mh-changes-mini"><li>Weights released under the MIT License instead of the DeepSeek Model License used for DeepSeek-V3.</li><li>Improved reasoning, according to DeepSeek, with the model structure unchanged.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-r1" data-mh-family="deepseek.deepseek-r" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-01-20">20 January 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-R · Language, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a>
+<p class="mh-chrono-sum">DeepSeek-R1 is a reasoning language model built on DeepSeek-V3-Base, released on 20 January 2025 in the DeepSeek web chat (DeepThink), in the API as deepseek-reasoner and as open weights under the…</p>
+<ul class="mh-changes-mini"><li>Offered in the API and as open weights, while DeepSeek-R1-Lite-Preview was available only in the DeepSeek web chat at launch.</li><li>Code and weights under the MIT License, and DeepSeek allows the weights and API outputs to be used for fine-tuning and distillation.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-r1-zero" data-mh-family="deepseek.deepseek-r" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-01-20">20 January 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-R · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-r1-zero/">DeepSeek-R1-Zero</a>
+<p class="mh-chrono-sum">DeepSeek-R1-Zero is one of DeepSeek&#39;s first-generation reasoning models, trained with large-scale reinforcement learning directly on DeepSeek-V3-Base without supervised fine-tuning first, and…</p>
+<ul class="mh-changes-mini"><li>Reasoning is learned through large-scale reinforcement learning (GRPO) applied directly to DeepSeek-V3-Base, with no supervised fine-tuning stage first.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2024</h3><span class="mh-year-count">7 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v3" data-mh-family="deepseek.deepseek-v" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-12-26">26 December 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-V · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v3/">DeepSeek-V3</a>
+<p class="mh-chrono-sum">DeepSeek-V3 is a mixture-of-experts language model with 671B total and 37B activated parameters, offered in DeepSeek&#39;s web chat, through its API and as open weights together with the base model…</p>
+<ul class="mh-changes-mini"><li>Total parameters rise to 671B with 37B activated per token, from the 236B total and 21B activated that DeepSeek lists for DeepSeek-V2 and V2.5.</li><li>Adds an auxiliary-loss-free load-balancing strategy and a multi-token prediction training objective to the DeepSeek-V2 architecture.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+<span class="mh-flag" data-mh-flag="some-claims-incomplete">Some details lack sources</span>
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v2-5-1210" data-mh-family="deepseek.deepseek-v" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-12-10">10 December 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-V · Language</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v2-5-1210/">DeepSeek-V2.5-1210</a>
+<p class="mh-chrono-sum">DeepSeek-V2.5-1210 is an upgraded version of DeepSeek-V2.5, released on 10 December 2024 behind deepseek-chat in the DeepSeek API and as open weights on Hugging Face. DeepSeek presented it as the…</p>
+<ul class="mh-changes-mini"><li>DeepSeek reports improvements in maths, coding, writing and reasoning over DeepSeek-V2.5.</li><li>DeepSeek says the update improves the user experience for file upload and web page summarisation.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-r1-lite-preview" data-mh-family="deepseek.deepseek-r" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-11-20">20 November 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-R · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-r1-lite-preview/">DeepSeek-R1-Lite-Preview</a>
+<p class="mh-chrono-sum">DeepSeek-R1-Lite-Preview is a preview of a DeepSeek reasoning model that went live in the DeepSeek web chat on 20 November 2024. DeepSeek highlighted that it shows its thought process in real time…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Status unknown · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v2-5" data-mh-family="deepseek.deepseek-v" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-09-05">5 September 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-V · Language</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v2-5/">DeepSeek-V2.5</a>
+<p class="mh-chrono-sum">DeepSeek-V2.5 is a language model that DeepSeek made by merging DeepSeek-V2-0628 with its code model DeepSeek-Coder-V2-0724, to combine general conversation and coding in one model. It was released…</p>
+<ul class="mh-changes-mini"><li>Merges the general chat model DeepSeek-V2-0628 with the code model DeepSeek-Coder-V2-0724 into one model.</li><li>One model now serves both the deepseek-chat and deepseek-coder API models, which DeepSeek kept for backward compatibility.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v2-chat-0628" data-mh-family="deepseek.deepseek-v" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-06-28">28 June 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-V · Language</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v2-chat-0628/">DeepSeek-V2-Chat-0628</a>
+<p class="mh-chrono-sum">DeepSeek-V2-Chat-0628 is a revised DeepSeek-V2 chat model that went live in the DeepSeek API on 2024-06-28 as DeepSeek-V2-0628 and was later published as open weights under the DeepSeek Model…</p>
+<ul class="mh-changes-mini"><li>Built on the Coder-V2 base model instead of the DeepSeek-V2 base; DeepSeek says the switch was meant to improve code generation and reasoning.</li><li>Instruction following in the system prompt improved, which the model card says helps tasks such as immersive translation and retrieval-augmented generation.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-v2" data-mh-family="deepseek.deepseek-v" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-05-06">6 May 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek-V · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-v2/">DeepSeek-V2</a>
+<p class="mh-chrono-sum">DeepSeek-V2 is a mixture-of-experts language model from DeepSeek with 236B total parameters, 21B of them activated per token, and a 128K-token context, released as open weights and offered on…</p>
+<ul class="mh-changes-mini"><li>Moves from a dense transformer to a mixture-of-experts design (DeepSeekMoE) and adds the new Multi-head Latent Attention.</li><li>Context length of 128K tokens, up from the 4,096-token sequence length of DeepSeek LLM.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseekmoe-16b" data-mh-family="deepseek.deepseek" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-01-11">11 January 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek · Language</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseekmoe-16b/">DeepSeekMoE 16B</a>
+<p class="mh-chrono-sum">DeepSeekMoE 16B is an open-weights mixture-of-experts language model from DeepSeek with 16.4B total and about 2.8B activated parameters, released as a Base and a Chat checkpoint with the DeepSeekMoE…</p>
+<ul class="mh-changes-mini"><li>Uses a sparse mixture-of-experts architecture (DeepSeekMoE) instead of the dense transformer of DeepSeek LLM 7B.</li><li>DeepSeek reports results comparable with its dense DeepSeek 7B, trained on the same corpus, with about 40% of the computation.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2023</h3><span class="mh-year-count">1 model</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="deepseek.deepseek-llm" data-mh-family="deepseek.deepseek" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-11-29">29 November 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">DeepSeek · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/deepseek/deepseek-llm/">DeepSeek LLM</a>
+<p class="mh-chrono-sum">DeepSeek LLM is a general-purpose language model series from DeepSeek, released as open weights in 7B and 67B sizes, each as a Base and a Chat model, under the DeepSeek Model License, which permits…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</section>
+
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<ol class="mh-lineage-models">
+<li id="lineage-deepseek.deepseek-llm">
+<a href="/models/deepseek/deepseek-llm/">DeepSeek LLM</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/deepseek/deepseek-v2/">DeepSeek-V2</a></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseekmoe-16b">
+<a href="/models/deepseek/deepseekmoe-16b/">DeepSeekMoE 16B</a>
+<p class="mh-none">No recorded relations.</p>
+</li>
+<li id="lineage-deepseek.deepseek-v2">
+<a href="/models/deepseek/deepseek-v2/">DeepSeek-V2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/deepseek/deepseek-llm/">DeepSeek LLM</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/deepseek/deepseek-v2-chat-0628/">DeepSeek-V2-Chat-0628</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v2-chat-0628">
+<a href="/models/deepseek/deepseek-v2-chat-0628/">DeepSeek-V2-Chat-0628</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v2/">DeepSeek-V2</a> <span class="mh-muted">· revision</span></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/deepseek/deepseek-v2-5/">DeepSeek-V2.5</a> <span class="mh-muted">· derived: merge</span></dd></div>
+<div><dt>Siblings</dt><dd data-mh-lineage="siblings"><a href="/models/deepseek/deepseek-v2/#variant-base">DeepSeek-V2 (base model)</a> <span class="mh-muted">· inline variant of DeepSeek-V2</span>; <a href="/models/deepseek/deepseek-v2/#variant-chat">DeepSeek-V2-Chat</a> <span class="mh-muted">· inline variant of DeepSeek-V2</span>; <a href="/models/deepseek/deepseek-v2/#variant-lite">DeepSeek-V2-Lite</a> <span class="mh-muted">· inline variant of DeepSeek-V2</span>; <a href="/models/deepseek/deepseek-v2/#variant-lite-chat">DeepSeek-V2-Lite-Chat</a> <span class="mh-muted">· inline variant of DeepSeek-V2</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v2-5">
+<a href="/models/deepseek/deepseek-v2-5/">DeepSeek-V2.5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v2-chat-0628/">DeepSeek-V2-Chat-0628</a> <span class="mh-muted">· derived: merge</span></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/deepseek/deepseek-v2-5-1210/">DeepSeek-V2.5-1210</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-r1-lite-preview">
+<a href="/models/deepseek/deepseek-r1-lite-preview/">DeepSeek-R1-Lite-Preview</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v2-5-1210">
+<a href="/models/deepseek/deepseek-v2-5-1210/">DeepSeek-V2.5-1210</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/deepseek/deepseek-v3/">DeepSeek-V3</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v2-5/">DeepSeek-V2.5</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v3">
+<a href="/models/deepseek/deepseek-v3/">DeepSeek-V3</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/deepseek/deepseek-v2-5-1210/">DeepSeek-V2.5-1210</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a> <span class="mh-muted">· derived: fine tune</span>; <a href="/models/deepseek/deepseek-r1-zero/">DeepSeek-R1-Zero</a> <span class="mh-muted">· derived: other</span>; <a href="/models/deepseek/deepseek-v3-0324/">DeepSeek-V3-0324</a> <span class="mh-muted">· revision</span>; <a href="/models/deepseek/deepseek-v3-1/">DeepSeek-V3.1</a> <span class="mh-muted">· derived: continued pretraining</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-r1">
+<a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/deepseek/deepseek-r1-lite-preview/">DeepSeek-R1-Lite-Preview</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v3/">DeepSeek-V3</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/deepseek/deepseek-r1-0528/">DeepSeek-R1-0528</a> <span class="mh-muted">· revision</span>; <a href="/models/microsoft/mai-ds-r1/">MAI-DS-R1</a> <span class="mh-org-tag">(Microsoft)</span> <span class="mh-muted">· derived: fine tune</span>; <a href="/models/microsoft/phi-4-mini-flash-reasoning/">Phi-4-mini-flash-reasoning</a> <span class="mh-org-tag">(Microsoft)</span> <span class="mh-muted">· derived: distillation</span>; <a href="/models/microsoft/phi-4-mini-reasoning/">Phi-4-mini-reasoning</a> <span class="mh-org-tag">(Microsoft)</span> <span class="mh-muted">· derived: distillation</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-r1-zero">
+<a href="/models/deepseek/deepseek-r1-zero/">DeepSeek-R1-Zero</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v3/">DeepSeek-V3</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v3-0324">
+<a href="/models/deepseek/deepseek-v3-0324/">DeepSeek-V3-0324</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/deepseek/deepseek-v3-1/">DeepSeek-V3.1</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v3/">DeepSeek-V3</a> <span class="mh-muted">· revision</span></dd></div>
+<div><dt>Siblings</dt><dd data-mh-lineage="siblings"><a href="/models/deepseek/deepseek-v3/#variant-base">DeepSeek-V3-Base</a> <span class="mh-muted">· inline variant of DeepSeek-V3</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-r1-0528">
+<a href="/models/deepseek/deepseek-r1-0528/">DeepSeek-R1-0528</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v3-1">
+<a href="/models/deepseek/deepseek-v3-1/">DeepSeek-V3.1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/deepseek/deepseek-v3-0324/">DeepSeek-V3-0324</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v3/">DeepSeek-V3</a> <span class="mh-muted">· derived: continued pretraining</span></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/deepseek/deepseek-v3-1-terminus/">DeepSeek-V3.1-Terminus</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v3-1-terminus">
+<a href="/models/deepseek/deepseek-v3-1-terminus/">DeepSeek-V3.1-Terminus</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v3-1/">DeepSeek-V3.1</a> <span class="mh-muted">· revision</span></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/deepseek/deepseek-v3-2-exp/">DeepSeek-V3.2-Exp</a> <span class="mh-muted">· derived: continued pretraining</span></dd></div>
+<div><dt>Siblings</dt><dd data-mh-lineage="siblings"><a href="/models/deepseek/deepseek-v3-1/#variant-deepseek-v3-1-base">DeepSeek-V3.1-Base</a> <span class="mh-muted">· inline variant of DeepSeek-V3.1</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v3-2-exp">
+<a href="/models/deepseek/deepseek-v3-2-exp/">DeepSeek-V3.2-Exp</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/deepseek/deepseek-v3-2/">DeepSeek-V3.2</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v3-1-terminus/">DeepSeek-V3.1-Terminus</a> <span class="mh-muted">· derived: continued pretraining</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v3-2">
+<a href="/models/deepseek/deepseek-v3-2/">DeepSeek-V3.2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/deepseek/deepseek-v3-2-exp/">DeepSeek-V3.2-Exp</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/deepseek/deepseek-v4-flash/">DeepSeek-V4-Flash</a>; <a href="/models/deepseek/deepseek-v4-pro/">DeepSeek-V4-Pro</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/deepseek/deepseek-v3-2-speciale/">DeepSeek-V3.2-Speciale</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v3-2-speciale">
+<a href="/models/deepseek/deepseek-v3-2-speciale/">DeepSeek-V3.2-Speciale</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v3-2/">DeepSeek-V3.2</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v4-flash">
+<a href="/models/deepseek/deepseek-v4-flash/">DeepSeek-V4-Flash</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/deepseek/deepseek-v3-2/">DeepSeek-V3.2</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/deepseek/deepseek-v4-flash-0731/">DeepSeek-V4-Flash-0731</a> <span class="mh-muted">· revision</span>; <a href="/models/deepseek/deepseek-v4-flash-vision-exp/">DeepSeek-V4-Flash-Vision-Exp</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v4-pro">
+<a href="/models/deepseek/deepseek-v4-pro/">DeepSeek-V4-Pro</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/deepseek/deepseek-v3-2/">DeepSeek-V3.2</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/deepseek/deepseek-v4-pro-0813/">DeepSeek-V4-Pro-0813</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v4-flash-0731">
+<a href="/models/deepseek/deepseek-v4-flash-0731/">DeepSeek-V4-Flash-0731</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/deepseek/deepseek-v4-1-flash/">DeepSeek-V4.1-Flash</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v4-flash/">DeepSeek-V4-Flash</a> <span class="mh-muted">· revision</span></dd></div>
+<div><dt>Siblings</dt><dd data-mh-lineage="siblings"><a href="/models/deepseek/deepseek-v4-flash/#variant-base">DeepSeek-V4-Flash-Base</a> <span class="mh-muted">· inline variant of DeepSeek-V4-Flash</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v4-pro-0813">
+<a href="/models/deepseek/deepseek-v4-pro-0813/">DeepSeek-V4-Pro-0813</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v4-pro/">DeepSeek-V4-Pro</a> <span class="mh-muted">· revision</span></dd></div>
+<div><dt>Siblings</dt><dd data-mh-lineage="siblings"><a href="/models/deepseek/deepseek-v4-pro/#variant-base">DeepSeek-V4-Pro-Base</a> <span class="mh-muted">· inline variant of DeepSeek-V4-Pro</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v4-flash-vision-exp">
+<a href="/models/deepseek/deepseek-v4-flash-vision-exp/">DeepSeek-V4-Flash-Vision-Exp</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/deepseek/deepseek-v4-flash/">DeepSeek-V4-Flash</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-deepseek.deepseek-v4-1-flash">
+<a href="/models/deepseek/deepseek-v4-1-flash/">DeepSeek-V4.1-Flash</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/deepseek/deepseek-v4-flash-0731/">DeepSeek-V4-Flash-0731</a></dd></div>
+</dl>
+</li>
+</ol>
+</section>
+<section id="families">
+<h2 class="mh-h2">Families</h2>
+<ul class="mh-families">
+<li id="family-deepseek.deepseek" class="mh-family">
+<h3>DeepSeek</h3>
+<p class="mh-family-models"><a href="/models/deepseek/deepseek-llm/">DeepSeek LLM</a> · <a href="/models/deepseek/deepseekmoe-16b/">DeepSeekMoE 16B</a></p>
+<ul class="mh-families">
+<li id="family-deepseek.deepseek-r" class="mh-family">
+<h3>DeepSeek-R</h3>
+<p class="mh-family-models"><a href="/models/deepseek/deepseek-r1-lite-preview/">DeepSeek-R1-Lite-Preview</a> · <a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a> · <a href="/models/deepseek/deepseek-r1-zero/">DeepSeek-R1-Zero</a> · <a href="/models/deepseek/deepseek-r1-0528/">DeepSeek-R1-0528</a></p>
+</li>
+<li id="family-deepseek.deepseek-v" class="mh-family">
+<h3>DeepSeek-V</h3>
+<p class="mh-family-models"><a href="/models/deepseek/deepseek-v2/">DeepSeek-V2</a> · <a href="/models/deepseek/deepseek-v2-chat-0628/">DeepSeek-V2-Chat-0628</a> · <a href="/models/deepseek/deepseek-v2-5/">DeepSeek-V2.5</a> · <a href="/models/deepseek/deepseek-v2-5-1210/">DeepSeek-V2.5-1210</a> · <a href="/models/deepseek/deepseek-v3/">DeepSeek-V3</a> · <a href="/models/deepseek/deepseek-v3-0324/">DeepSeek-V3-0324</a> · <a href="/models/deepseek/deepseek-v3-1/">DeepSeek-V3.1</a> · <a href="/models/deepseek/deepseek-v3-1-terminus/">DeepSeek-V3.1-Terminus</a> · <a href="/models/deepseek/deepseek-v3-2-exp/">DeepSeek-V3.2-Exp</a> · <a href="/models/deepseek/deepseek-v3-2/">DeepSeek-V3.2</a> · <a href="/models/deepseek/deepseek-v3-2-speciale/">DeepSeek-V3.2-Speciale</a></p>
+<ul class="mh-families">
+<li id="family-deepseek.deepseek-flash" class="mh-family">
+<h3>DeepSeek Flash</h3>
+<p class="mh-family-models"><a href="/models/deepseek/deepseek-v4-flash/">DeepSeek-V4-Flash</a> · <a href="/models/deepseek/deepseek-v4-flash-0731/">DeepSeek-V4-Flash-0731</a> · <a href="/models/deepseek/deepseek-v4-flash-vision-exp/">DeepSeek-V4-Flash-Vision-Exp</a> · <a href="/models/deepseek/deepseek-v4-1-flash/">DeepSeek-V4.1-Flash</a></p>
+</li>
+<li id="family-deepseek.deepseek-pro" class="mh-family">
+<h3>DeepSeek Pro</h3>
+<p class="mh-family-models"><a href="/models/deepseek/deepseek-v4-pro/">DeepSeek-V4-Pro</a> · <a href="/models/deepseek/deepseek-v4-pro-0813/">DeepSeek-V4-Pro-0813</a></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="organization">
+<h2 class="mh-h2">About the organisation</h2>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="description" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Description</span>
+<span class="mh-claim-value">DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.) is a Chinese AI company that says it was founded in 2023. It describes itself as a research team focused on fundamental model research with an open-source approach, and says it releases model weights under the MIT License with a technical report for each model. It offers its models through a web chat, mobile apps and an API platform.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.deepseek.huggingface-organization" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.deepseek.privacy-policy" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.deepseek.model-mechanism-and-training-methods" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.deepseek.website-en" aria-label="Source 4">[4]</a></span></span>
+</li>
+</ul>
+<p class="mh-facts-line">Company · <a href="https://www.deepseek.com/">https://www.deepseek.com/</a> · 23 models listed here</p>
+</section>
+<section id="sources">
+<h2 class="mh-h2">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.deepseek.huggingface-organization" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>deepseek-ai (DeepSeek)</cite></p>
+<p class="mh-kicker">Model hub page · DeepSeek</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/deepseek-ai">Original ↗</a>
+<span class="mh-url">https://huggingface.co/deepseek-ai</span>
+<span class="mh-note">DeepSeek&#39;s verified organisation page on Hugging Face. Its organisation card (the README of https://huggingface.co/spaces/deepseek-ai/README) says DeepSeek (深度求索) was founded in 2023 and is a Chinese company dedicated to making AGI a reality. Living page; content as seen on 2026-10-01.</span>
+</div>
+</li>
+<li id="source-src.deepseek.privacy-policy" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>DeepSeek Privacy Policy</cite></p>
+<p class="mh-kicker">Other · DeepSeek</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html">Original ↗</a>
+<span class="mh-url">https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html</span>
+<span class="mh-note">Names Hangzhou DeepSeek Artificial Intelligence Co., Ltd., with its registered address in China, as the provider and controller of the services. The page shows Last Update: Feb 10, 2026. Living page.</span>
+</div>
+</li>
+<li id="source-src.deepseek.model-mechanism-and-training-methods" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Model Mechanism and Training Methods of DeepSeek</cite></p>
+<p class="mh-kicker">Documentation · DeepSeek</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://cdn.deepseek.com/policies/en-US/model-algorithm-disclosure.html">Original ↗</a>
+<span class="mh-url">https://cdn.deepseek.com/policies/en-US/model-algorithm-disclosure.html</span>
+<span class="mh-note">Linked from the Transparency Center (https://www.deepseek.com/en/transparency/) as Model Principles and Training Methodology. The page states no date. It refers to the company as Hangzhou DeepSeek Artificial Intelligence Co., Ltd.</span>
+</div>
+</li>
+<li id="source-src.deepseek.website-en" class="mh-source" data-mh-availability="unknown" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>DeepSeek | Into the Unknown</cite></p>
+<p class="mh-kicker">Other · DeepSeek</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="unknown">Not yet verified</dd>
+<dt>Last checked</dt><dd>Not yet checked</dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://www.deepseek.com/en/">Original ↗</a>
+<span class="mh-url">https://www.deepseek.com/en/</span>
+<span class="mh-note">English homepage, linked from the Chinese homepage; links DeepSeek Web, app downloads, DeepSeek Harness, the API platform and the API docs. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine, while https://deepseek.com/en/ served the same page; the site declares www.deepseek.com canonical. Living page.</span>
+</div>
+</li>
+</ol>
+</section>
+</div>
+<aside class="mh-body-side" id="coverage" aria-labelledby="mh-cov-title">
+<h2 class="mh-legend" id="mh-cov-title">Related AI Radar coverage</h2>
+<ul class="mh-news-side">
+<li class="mh-news-item"><span class="mh-kicker">DeepSeek · Asian Movie Pulse · <time datetime="2026-10-05T03:44:08Z">5 October 2026</time> · about <a href="/models/deepseek/deepseek-v4-1-flash/">DeepSeek-V4.1-Flash</a></span><span class="mh-news-title"><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPeXljbmVBaWZ6c3h4b1BLal9aTGFnRTAyTklTbHVBTThfRld6bEhMTzhsLUxlTHdQSzM2ZDdsT2pQUUhRWWdJTUFNdFBvYTRTRW1YMERpWHNJb3cwMGw3WlRBMk1TNVNnV0JOMFNDMEpxVEY1b1pmTTRvMjQwanpLb2FoelUtZXNDRUozYks2M3ZXVWY1SFBRa1RLbjhsMkt4VUxCSnNjQ1A4ZDE2bGdOUUtrWTkyMlV1bWhseA?oc=5">DeepSeek V4.1 Flash: Two Rates for One Model, and a Legacy Id That Now Serves Another</a></span></li>
+</ul>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=deepseek">All model releases from DeepSeek on AI Radar →</a></p>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Muse Glimmer · Meta · Model History · AI Radar</title>
+<meta name="description" content="Muse Glimmer is a 30-billion-parameter open-weights model in Meta&#39;s Muse series, released on Hugging Face under the Apache 2.0 licence for self-hosting…">
+<link rel="canonical" href="https://ai-radar.eu/models/meta/muse-glimmer/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Muse Glimmer · Meta · Model History · AI Radar">
+<meta property="og:description" content="Muse Glimmer is a 30-billion-parameter open-weights model in Meta&#39;s Muse series, released on Hugging Face under the Apache 2.0 licence for self-hosting…">
+<meta property="og:url" content="https://ai-radar.eu/models/meta/muse-glimmer/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Muse Glimmer · Meta · Model History · AI Radar">
+<meta name="twitter:description" content="Muse Glimmer is a 30-billion-parameter open-weights model in Meta&#39;s Muse series, released on Hugging Face under the Apache 2.0 licence for self-hosting…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/meta/muse-glimmer/","url":"https://ai-radar.eu/models/meta/muse-glimmer/","name":"Muse Glimmer · Meta · Model History · AI Radar","description":"Muse Glimmer is a 30-billion-parameter open-weights model in Meta's Muse series, released on Hugging Face under the Apache 2.0 licence for self-hosting…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/meta/muse-glimmer/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/meta/muse-glimmer/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Meta","item":"https://ai-radar.eu/models/meta/"},{"@type":"ListItem","position":4,"name":"Muse Glimmer","item":"https://ai-radar.eu/models/meta/muse-glimmer/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:285" data-mh-view="model" data-mh-model="meta.muse-glimmer">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/meta/"><span class="mh-co" style="--h:285">Meta</span></a></li><li><a href="/models/meta/#family-meta.muse">Muse</a></li><li aria-current="page">Muse Glimmer</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="metagmh1" gradientUnits="userSpaceOnUse" x1="12" y1="0" x2="12" y2="24"><stop offset="0%" stop-color="#E04AFD"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#4845F5"/></linearGradient></defs><g fill="url(#metagmh1)"><ellipse cx="12" cy="5" rx="2.8" ry="4.6"/><ellipse cx="17.47" cy="7.63" rx="2.8" ry="4.6" transform="rotate(51.43 17.47 7.63)"/><ellipse cx="18.83" cy="13.56" rx="2.8" ry="4.6" transform="rotate(102.86 18.83 13.56)"/><ellipse cx="15.04" cy="18.31" rx="2.8" ry="4.6" transform="rotate(154.29 15.04 18.31)"/><ellipse cx="8.96" cy="18.31" rx="2.8" ry="4.6" transform="rotate(205.71 8.96 18.31)"/><ellipse cx="5.17" cy="13.56" rx="2.8" ry="4.6" transform="rotate(257.14 5.17 13.56)"/><ellipse cx="6.53" cy="7.63" rx="2.8" ry="4.6" transform="rotate(308.57 6.53 7.63)"/></g></svg></span>Muse Glimmer</h1>
+<p class="mh-sub">Available · Language, Multimodal, Reasoning</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Muse Glimmer is a 30-billion-parameter open-weights model in Meta&#39;s Muse series, released on Hugging Face under the Apache 2.0 licence for self-hosting. It accepts text and images and reasons before answering; Meta says it was distilled from Muse Spark outputs and aims it at local agent workflows on a Mac or PC with a single consumer GPU. <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-blog" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.meta.muse-glimmer-docs" aria-label="Source 2">[2]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/meta/muse-glimmer/timeline/">Timeline of Muse Glimmer →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">17 claims · <span data-mh-summary="primary-source">Primary source: 17</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2026-08-10">10 August 2026</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-blog" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.meta.muse-glimmer-30b-model-card" aria-label="Source 3, Model Release Date: August 2026">[3]</a><span class="mh-locator">Model Release Date: August 2026</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Available<span class="mh-note">Weights downloadable from Meta&#39;s Hugging Face organisation meta-models (not gated) as of 2026-10-01.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-30b-model-card" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.meta.muse-glimmer-docs" aria-label="Source 2">[2]</a></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Derived from (distillation)</span>
+<span class="mh-claim-value"><a href="/models/meta/muse-spark/">Muse Spark</a> <span class="mh-editorial">Editorial</span><span class="mh-note">Meta says Muse Glimmer was trained on Muse Spark outputs with logit distillation but names the teacher only as Muse Spark, not a version; the link to the first Muse Spark record is an editorial choice.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-blog" aria-label="Source 1, How We Trained Muse Glimmer">[1]</a><span class="mh-locator">How We Trained Muse Glimmer</span> <a class="mh-ref" href="#source-src.meta.muse-glimmer-docs" aria-label="Source 2, Architecture">[2]</a><span class="mh-locator">Architecture</span> <a class="mh-ref" href="#source-src.meta.muse-glimmer-30b-model-card" aria-label="Source 3, introduction">[3]</a><span class="mh-locator">introduction</span></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Licensing</span>
+<span class="mh-claim-value">First Muse model with published weights, under the Apache 2.0 licence; the Muse Spark models are offered only as hosted services.<span class="mh-note">Compared with <a href="/models/meta/muse-spark/">Muse Spark</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-blog" aria-label="Source 1">[1]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Size</span>
+<span class="mh-claim-value">A dense 30B model that Meta designed to run on a Mac or PC with a single consumer GPU.<span class="mh-note">Compared with <a href="/models/meta/muse-spark/">Muse Spark</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-blog" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.meta.muse-glimmer-docs" aria-label="Source 2, Model variants">[2]</a><span class="mh-locator">Model variants</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Architecture</span>
+<span class="mh-claim-value">Ships with a DFlash-based speculative-decoding drafter and 4-bit quantized weights for local deployment.<span class="mh-note">Compared with <a href="/models/meta/muse-spark/">Muse Spark</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-30b-model-card" aria-label="Source 3, Released Artifacts">[3]</a><span class="mh-locator">Released Artifacts</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[3]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Context length</span>
+<span class="mh-claim-value">Default context window of 128K tokens, with longer contexts supported.<span class="mh-note">Compared with <a href="/models/meta/muse-spark/">Muse Spark</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-docs" aria-label="Source 2, Model variants">[2]</a><span class="mh-locator">Model variants</span></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text, image</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-docs" aria-label="Source 2, Model variants">[2]</a><span class="mh-locator">Model variants</span> <a class="mh-ref" href="#source-src.meta.muse-glimmer-30b-model-card" aria-label="Source 3, Supported modalities">[3]</a><span class="mh-locator">Supported modalities</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-docs" aria-label="Source 2, Model variants">[2]</a><span class="mh-locator">Model variants</span> <a class="mh-ref" href="#source-src.meta.muse-glimmer-30b-model-card" aria-label="Source 3, Supported modalities">[3]</a><span class="mh-locator">Supported modalities</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Reasoning mode<span class="mh-note">Reasons before answering; reasoning strength low, medium, high or xhigh is set in the system prompt.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-docs" aria-label="Source 2, introduction">[2]</a><span class="mh-locator">introduction</span> <a class="mh-ref" href="#source-src.meta.muse-glimmer-30b-model-card" aria-label="Source 3, Best Practices: Reasoning Strength">[3]</a><span class="mh-locator">Best Practices: Reasoning Strength</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Function calling</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-blog" aria-label="Source 1, Built for Agents">[1]</a><span class="mh-locator">Built for Agents</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Multilingual<span class="mh-note">Trained on data from more than 100 languages.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-docs" aria-label="Source 2, Supported languages">[2]</a><span class="mh-locator">Supported languages</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Open weights</span>
+<span class="mh-claim-value">Yes<span class="mh-note">Apache 2.0 licence.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-blog" aria-label="Source 1, first paragraph">[1]</a><span class="mh-locator">first paragraph</span> <a class="mh-ref" href="#source-src.meta.muse-glimmer-30b-model-card" aria-label="Source 3, License; Released Artifacts">[3]</a><span class="mh-locator">License; Released Artifacts</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">128K tokens by default; longer contexts supported tokens<span class="mh-note">The Hugging Face model card gives the context length as 131,072+.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-docs" aria-label="Source 2, Model variants">[2]</a><span class="mh-locator">Model variants</span> <a class="mh-ref" href="#source-src.meta.muse-glimmer-30b-model-card" aria-label="Source 3, Context length">[3]</a><span class="mh-locator">Context length</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">30B<span class="mh-note">The Hugging Face model card gives about 29.6B including the vision encoder (a perception encoder of about 1.8B parameters). Dense architecture.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-blog" aria-label="Source 1, second paragraph">[1]</a><span class="mh-locator">second paragraph</span> <a class="mh-ref" href="#source-src.meta.muse-glimmer-docs" aria-label="Source 2, Model variants">[2]</a><span class="mh-locator">Model variants</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">Open-weights download<span class="mh-note">Self-hosted; not served on the Meta Model API. The blog said hosted access through partners such as Together AI, Fireworks AI and OpenRouter would follow in the coming days.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.muse-glimmer-blog" aria-label="Source 1, Get Started With Muse Glimmer Today">[1]</a><span class="mh-locator">Get Started With Muse Glimmer Today</span> <a class="mh-ref" href="#source-src.meta.model-api-models" aria-label="Source 4, Muse Glimmer">[4]</a><span class="mh-locator">Muse Glimmer</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<p class="mh-none" data-mh-lineage="predecessors">No known predecessor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<p class="mh-none" data-mh-lineage="successors">No known successor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<ul class="mh-rel" data-mh-lineage="parents">
+<li><a href="/models/meta/muse-spark/">Muse Spark</a> <span class="mh-muted">· 8 April 2026 · derived (distillation)</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/meta/llama-1/">LLaMA</a> <span class="mh-muted">· 24 February 2023</span></li>
+<li><a href="/models/meta/llama-2/">Llama 2</a> <span class="mh-muted">· 18 July 2023</span></li>
+<li><a href="/models/meta/meta-llama-3/">Meta Llama 3</a> <span class="mh-muted">· 18 April 2024</span></li>
+<li><a href="/models/meta/llama-3-1/">Llama 3.1</a> <span class="mh-muted">· 23 July 2024</span></li>
+<li><a href="/models/meta/llama-3-2/">Llama 3.2</a> <span class="mh-muted">· 25 September 2024</span></li>
+<li><a href="/models/meta/llama-3-3/">Llama 3.3</a> <span class="mh-muted">· 6 December 2024</span></li>
+<li><a href="/models/meta/llama-4-behemoth/">Llama 4 Behemoth</a> <span class="mh-muted">· 5 April 2025</span></li>
+<li><a href="/models/meta/llama-4-maverick/">Llama 4 Maverick</a> <span class="mh-muted">· 5 April 2025</span></li>
+<li><a href="/models/meta/muse-spark/">Muse Spark</a> <span class="mh-muted">· 8 April 2026</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<p class="mh-none" data-mh-lineage="descendants">None.</p></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-visually-hidden">Variants</h2>
+<p class="mh-visually-hidden">No variants recorded in this record.</p>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<ul class="mh-news">
+<li class="mh-news-item"><span class="mh-news-title"><a href="https://huggingface.co/blog/muse-glimmer">Meta is back with Muse Glimmer: local, agentic, multimodal, and open source</a></span><span class="mh-kicker">Hugging Face · Blog · <time datetime="2026-08-10">10 August 2026</time></span></li>
+</ul>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=meta">All model releases from Meta on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<a class="mh-pager-prev" href="/models/meta/muse-spark-1-2/"><span class="mh-muted">← Earlier in Muse</span><span>Muse Spark 1.2</span></a>
+<a class="mh-pager-next" href="/models/meta/muse-spark-1-3/"><span class="mh-muted">Later in Muse →</span><span>Muse Spark 1.3</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="metagmh0" gradientUnits="userSpaceOnUse" x1="12" y1="0" x2="12" y2="24"><stop offset="0%" stop-color="#E04AFD"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#4845F5"/></linearGradient></defs><g fill="url(#metagmh0)"><ellipse cx="12" cy="5" rx="2.8" ry="4.6"/><ellipse cx="17.47" cy="7.63" rx="2.8" ry="4.6" transform="rotate(51.43 17.47 7.63)"/><ellipse cx="18.83" cy="13.56" rx="2.8" ry="4.6" transform="rotate(102.86 18.83 13.56)"/><ellipse cx="15.04" cy="18.31" rx="2.8" ry="4.6" transform="rotate(154.29 15.04 18.31)"/><ellipse cx="8.96" cy="18.31" rx="2.8" ry="4.6" transform="rotate(205.71 8.96 18.31)"/><ellipse cx="5.17" cy="13.56" rx="2.8" ry="4.6" transform="rotate(257.14 5.17 13.56)"/><ellipse cx="6.53" cy="7.63" rx="2.8" ry="4.6" transform="rotate(308.57 6.53 7.63)"/></g></svg></span><a href="/models/meta/">Meta</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/meta/#family-meta.muse">Muse</a></dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2026-08-10">10 August 2026</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Standard release <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>Muse-Glimmer-30B, Muse Glimmer 30B, Muse Glimmer-30B</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.meta.muse-glimmer-blog" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Introducing Muse Glimmer: An Open Agentic Model That Runs on Your Device</cite></p>
+<p class="mh-kicker">Announcement · Meta · published <time datetime="2026-08-10">10 August 2026</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model">Original ↗</a>
+<span class="mh-url">https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model</span>
+<span class="mh-note">Meta AI Research blog, author Meta Superintelligence Labs. The HTML title adds the suffix | Meta AI Research.</span>
+</div>
+</li>
+<li id="source-src.meta.muse-glimmer-docs" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Muse Glimmer</cite></p>
+<p class="mh-kicker">Documentation · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://dev.meta.ai/docs/muse-glimmer">Original ↗</a>
+<span class="mh-url">https://dev.meta.ai/docs/muse-glimmer</span>
+<span class="mh-note">Living page in the Meta Model API docs; content as seen on 2026-10-01. HTML title Muse Glimmer - Meta Model API. Gives 30B parameters, dense multimodal architecture, 128K default context, Apache 2.0 licence, distilled from Muse Spark.</span>
+</div>
+</li>
+<li id="source-src.meta.muse-glimmer-30b-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Muse Glimmer Model Card</cite></p>
+<p class="mh-kicker">Model card · Meta · published <time datetime="2026-08">August 2026</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/meta-models/Muse-Glimmer-30B">Original ↗</a>
+<span class="mh-url">https://huggingface.co/meta-models/Muse-Glimmer-30B</span>
+<span class="mh-note">Model card in Meta&#39;s own Hugging Face organisation meta-models (repo not gated; HTML title meta-models/Muse-Glimmer-30B · Hugging Face). Living page; content as seen on 2026-10-01. Sibling repos Muse-Glimmer-30B-GGUF, Muse-Glimmer-30B-assistant (DFlash drafter) and Muse-Glimmer-30B-ExecuTorch-PTE are builds of the same model.</span>
+</div>
+</li>
+<li id="source-src.meta.model-api-models" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Models</cite></p>
+<p class="mh-kicker">Documentation · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://dev.meta.ai/docs/models">Original ↗</a>
+<span class="mh-url">https://dev.meta.ai/docs/models</span>
+<span class="mh-note">Living page in the Meta Model API docs; content as seen on 2026-10-01 (HTML title Models - Meta Model API). Lists muse-spark-1.3, 1.3-contributor, 1.2, 1.2-contributor and 1.1 with modalities and a 1,048,576-token context window; calls 1.1 the original version and 1.2 the previous version; says Muse Glimmer is distilled from Muse Spark and self-hosted only. Meta has no deprecation page: https://dev.meta.ai/docs/deprecations returns an empty shell.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>PaLM 2 · Google · Model History · AI Radar</title>
+<meta name="description" content="PaLM 2 is Google&#39;s second-generation PaLM language model, announced at Google I/O in May 2023 in four sizes named Gecko, Otter, Bison and Unicorn, and…">
+<link rel="canonical" href="https://ai-radar.eu/models/google/palm-2/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="PaLM 2 · Google · Model History · AI Radar">
+<meta property="og:description" content="PaLM 2 is Google&#39;s second-generation PaLM language model, announced at Google I/O in May 2023 in four sizes named Gecko, Otter, Bison and Unicorn, and…">
+<meta property="og:url" content="https://ai-radar.eu/models/google/palm-2/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PaLM 2 · Google · Model History · AI Radar">
+<meta name="twitter:description" content="PaLM 2 is Google&#39;s second-generation PaLM language model, announced at Google I/O in May 2023 in four sizes named Gecko, Otter, Bison and Unicorn, and…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/google/palm-2/","url":"https://ai-radar.eu/models/google/palm-2/","name":"PaLM 2 · Google · Model History · AI Radar","description":"PaLM 2 is Google's second-generation PaLM language model, announced at Google I/O in May 2023 in four sizes named Gecko, Otter, Bison and Unicorn, and…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/google/palm-2/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/google/palm-2/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Google","item":"https://ai-radar.eu/models/google/"},{"@type":"ListItem","position":4,"name":"PaLM 2","item":"https://ai-radar.eu/models/google/palm-2/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:255" data-mh-view="model" data-mh-model="google.palm-2">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/google/"><span class="mh-co" style="--h:255">Google</span></a></li><li><a href="/models/google/#family-google.palm">PaLM</a></li><li aria-current="page">PaLM 2</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="gemclipmh1"><path d="M12 0C12.96 6.5 17.5 11.04 24 12 17.5 12.96 12.96 17.5 12 24 11.04 17.5 6.5 12.96 0 12 6.5 11.04 11.04 6.5 12 0Z"/></clipPath><radialGradient id="gemredmh1" gradientUnits="userSpaceOnUse" cx="12" cy="2" r="11"><stop offset="0%" stop-color="#FF4641"/><stop offset="100%" stop-color="#FF4641" stop-opacity="0"/></radialGradient><radialGradient id="gemyellowmh1" gradientUnits="userSpaceOnUse" cx="2" cy="12" r="11"><stop offset="0%" stop-color="#FFC400"/><stop offset="100%" stop-color="#FFC400" stop-opacity="0"/></radialGradient><radialGradient id="gemgreenmh1" gradientUnits="userSpaceOnUse" cx="12" cy="22" r="11"><stop offset="0%" stop-color="#00A661"/><stop offset="100%" stop-color="#00A661" stop-opacity="0"/></radialGradient></defs><g clip-path="url(#gemclipmh1)"><rect width="24" height="24" fill="#4285F4"/><rect width="24" height="24" fill="url(#gemredmh1)"/><rect width="24" height="24" fill="url(#gemyellowmh1)"/><rect width="24" height="24" fill="url(#gemgreenmh1)"/></g></svg></span>PaLM 2</h1>
+<p class="mh-sub">Retired · Language · Milestone</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">PaLM 2 is Google&#39;s second-generation PaLM language model, announced at Google I/O in May 2023 in four sizes named Gecko, Otter, Bison and Unicorn, and offered the same day in Bard, through the PaLM API and in Vertex AI. Google withheld its parameter counts; on Vertex AI the text-bison and chat-bison models were retired in April 2025. <span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.google.palm-2-technical-report" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.google.agent-platform-model-versions" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.google.vertex-palm-2-for-text-reference" aria-label="Source 4">[4]</a> <a class="mh-ref" href="#source-src.google.vertex-palm-2-for-chat-reference" aria-label="Source 5">[5]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/google/palm-2/timeline/">Timeline of PaLM 2 →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">19 claims · <span data-mh-summary="primary-source">Primary source: 19</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2023-05-10">10 May 2023</time><span class="mh-note">Announced at Google I/O and offered the same day in Bard, through PaLM API sign-ups and in Vertex AI.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-announcement" aria-label="Source 1">[1]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.retired" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Retired</span>
+<span class="mh-claim-value"><time datetime="2025-04-21">21 April 2025</time><span class="mh-note">Vertex AI models text-bison (PaLM 2 for Text) and chat-bison (PaLM 2 for Chat).</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.agent-platform-model-versions" aria-label="Source 3, Retired models: text-bison, chat-bison">[3]</a><span class="mh-locator">Retired models: text-bison, chat-bison</span> <a class="mh-ref" href="#source-src.google.vertex-palm-2-for-text-reference" aria-label="Source 4, first paragraph">[4]</a><span class="mh-locator">first paragraph</span> <a class="mh-ref" href="#source-src.google.vertex-palm-2-for-chat-reference" aria-label="Source 5, first paragraph">[5]</a><span class="mh-locator">first paragraph</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Retired<span class="mh-note">Retirement as listed for text-bison and chat-bison on Vertex AI (now Gemini Enterprise Agent Platform); archived Vertex AI references name these models PaLM 2 for Text and PaLM 2 for Chat. No current Google page gives the shutdown date of the PaLM API.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.agent-platform-model-versions" aria-label="Source 3, Retired models: text-bison, chat-bison">[3]</a><span class="mh-locator">Retired models: text-bison, chat-bison</span> <a class="mh-ref" href="#source-src.google.vertex-palm-2-for-text-reference" aria-label="Source 4, first paragraph">[4]</a><span class="mh-locator">first paragraph</span> <a class="mh-ref" href="#source-src.google.vertex-palm-2-for-chat-reference" aria-label="Source 5, first paragraph">[5]</a><span class="mh-locator">first paragraph</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="replacedBy" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Replaced by</span>
+<span class="mh-claim-value"><a href="/models/google/gemini-2-5-flash-lite/">Gemini 2.5 Flash-Lite</a><span class="mh-note">Recommended upgrade for text-bison and chat-bison as listed when checked on 2026-10-01.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.agent-platform-model-versions" aria-label="Source 3, Retired models: text-bison, chat-bison">[3]</a><span class="mh-locator">Retired models: text-bison, chat-bison</span> <a class="mh-ref" href="#source-src.google.vertex-palm-2-for-text-reference" aria-label="Source 4, first paragraph">[4]</a><span class="mh-locator">first paragraph</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Successor of</span>
+<span class="mh-claim-value"><a href="/models/google/palm-1/">PaLM</a></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-announcement" aria-label="Source 1, Introducing PaLM 2">[1]</a><span class="mh-locator">Introducing PaLM 2</span> <a class="mh-ref" href="#source-src.google.palm-2-technical-report" aria-label="Source 2, Abstract">[2]</a><span class="mh-locator">Abstract</span></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Languages</span>
+<span class="mh-claim-value">Pre-trained much more heavily on multilingual text spanning more than 100 languages; the data mix also adds more code, mathematics and parallel multilingual documents.<span class="mh-note">Compared with <a href="/models/google/palm-1/">PaLM</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.google.palm-2-technical-report" aria-label="Source 2">[2]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Architecture</span>
+<span class="mh-claim-value">Trained with a tuned mixture of pre-training objectives, following UL2; Google says this makes it more compute-efficient than PaLM, with faster inference.<span class="mh-note">Compared with <a href="/models/google/palm-1/">PaLM</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-technical-report" aria-label="Source 2">[2]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Size</span>
+<span class="mh-claim-value">Google says the biggest PaLM 2 model is significantly smaller than the biggest PaLM model, although it used more training compute; exact sizes were not disclosed.<span class="mh-note">Compared with <a href="/models/google/palm-1/">PaLM</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-technical-report" aria-label="Source 2">[2]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[3]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Availability</span>
+<span class="mh-claim-value">Offered in Google products such as Bard and to developers through the PaLM API and Vertex AI, whereas PaLM was a research model.<span class="mh-note">Compared with <a href="/models/google/palm-1/">PaLM</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.google.palm-paper" aria-label="Source 6, Table 30 (PaLM Model Card): Application">[6]</a><span class="mh-locator">Table 30 (PaLM Model Card): Application</span></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-technical-report" aria-label="Source 2, Table 31 (PaLM 2 Model Card): Input(s)">[2]</a><span class="mh-locator">Table 31 (PaLM 2 Model Card): Input(s)</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-technical-report" aria-label="Source 2, Table 31 (PaLM 2 Model Card): Output(s)">[2]</a><span class="mh-locator">Table 31 (PaLM 2 Model Card): Output(s)</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Multilingual<span class="mh-note">Trained more heavily on multilingual text spanning more than 100 languages.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-announcement" aria-label="Source 1, Introducing PaLM 2">[1]</a><span class="mh-locator">Introducing PaLM 2</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">Not disclosed<span class="mh-note">Google withheld model sizes; the report says only that the largest PaLM 2 model is significantly smaller than the largest PaLM model.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-technical-report" aria-label="Source 2, section 1; Table 31 (PaLM 2 Model Card): Model Architecture, Model Stats">[2]</a><span class="mh-locator">section 1; Table 31 (PaLM 2 Model Card): Model Architecture, Model Stats</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">API, consumer app<span class="mh-note">PaLM API sign-ups for developers, Vertex AI for Google Cloud customers, and Bard.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-announcement" aria-label="Source 1, Powering over 25 Google products and features">[1]</a><span class="mh-locator">Powering over 25 Google products and features</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<ul class="mh-rel" data-mh-lineage="predecessors">
+<li><a href="/models/google/palm-1/">PaLM</a> <span class="mh-muted">· 4 April 2022</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<p class="mh-none" data-mh-lineage="successors">No known successor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<p class="mh-none" data-mh-lineage="parents">Not derived from another model.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/google/palm-1/">PaLM</a> <span class="mh-muted">· 4 April 2022</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<p class="mh-none" data-mh-lineage="descendants">None.</p></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-h2">Variants</h2>
+<section id="variant-gecko" class="mh-variant">
+<h3 class="mh-variant-name">Gecko</h3>
+<p class="mh-muted">Same dates as PaLM 2.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">Google says Gecko is light enough to run on mobile devices, also offline.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-announcement" aria-label="Source 1, A versatile family of models">[1]</a><span class="mh-locator">A versatile family of models</span></span></span>
+</li>
+</ul>
+</section>
+<section id="variant-otter" class="mh-variant">
+<h3 class="mh-variant-name">Otter</h3>
+<p class="mh-muted">Same dates as PaLM 2.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-announcement" aria-label="Source 1, A versatile family of models">[1]</a><span class="mh-locator">A versatile family of models</span></span></span>
+</li>
+</ul>
+</section>
+<section id="variant-bison" class="mh-variant">
+<h3 class="mh-variant-name">Bison</h3>
+<p class="mh-muted">Same dates as PaLM 2.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">Archived Vertex AI references name text-bison PaLM 2 for Text (stable versions text-bison@001 of 2023-06-07 and text-bison@002 of 2023-12-06) and chat-bison PaLM 2 for Chat (chat-bison@001 of 2023-07-10, chat-bison@002 of 2023-12-06). The Agent Platform table lists both with release May 2023 and retirement 2025-04-21. Attributing these ids to the Bison size follows the ids; no source states it in so many words.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-announcement" aria-label="Source 1, A versatile family of models">[1]</a><span class="mh-locator">A versatile family of models</span> <a class="mh-ref" href="#source-src.google.vertex-palm-2-for-text-reference" aria-label="Source 4, first paragraph; Model versions">[4]</a><span class="mh-locator">first paragraph; Model versions</span> <a class="mh-ref" href="#source-src.google.vertex-palm-2-for-chat-reference" aria-label="Source 5, first paragraph; Model versions">[5]</a><span class="mh-locator">first paragraph; Model versions</span> <a class="mh-ref" href="#source-src.google.agent-platform-model-versions" aria-label="Source 3, Retired models: text-bison, chat-bison">[3]</a><span class="mh-locator">Retired models: text-bison, chat-bison</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: text-bison, chat-bison</p>
+</section>
+<section id="variant-unicorn" class="mh-variant">
+<h3 class="mh-variant-name">Unicorn</h3>
+<p class="mh-muted">Same dates as PaLM 2.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[3]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">The archived PaLM 2 for Text reference lists text-unicorn (text-unicorn@001, released 2023-11-30) next to text-bison.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-2-announcement" aria-label="Source 1, A versatile family of models">[1]</a><span class="mh-locator">A versatile family of models</span> <a class="mh-ref" href="#source-src.google.vertex-palm-2-for-text-reference" aria-label="Source 4, first paragraph; Model versions">[4]</a><span class="mh-locator">first paragraph; Model versions</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: text-unicorn</p>
+</section>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=google">All model releases from Google on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<a class="mh-pager-prev" href="/models/google/palm-1/"><span class="mh-muted">← Earlier in PaLM</span><span>PaLM</span></a>
+<span></span>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="gemclipmh0"><path d="M12 0C12.96 6.5 17.5 11.04 24 12 17.5 12.96 12.96 17.5 12 24 11.04 17.5 6.5 12.96 0 12 6.5 11.04 11.04 6.5 12 0Z"/></clipPath><radialGradient id="gemredmh0" gradientUnits="userSpaceOnUse" cx="12" cy="2" r="11"><stop offset="0%" stop-color="#FF4641"/><stop offset="100%" stop-color="#FF4641" stop-opacity="0"/></radialGradient><radialGradient id="gemyellowmh0" gradientUnits="userSpaceOnUse" cx="2" cy="12" r="11"><stop offset="0%" stop-color="#FFC400"/><stop offset="100%" stop-color="#FFC400" stop-opacity="0"/></radialGradient><radialGradient id="gemgreenmh0" gradientUnits="userSpaceOnUse" cx="12" cy="22" r="11"><stop offset="0%" stop-color="#00A661"/><stop offset="100%" stop-color="#00A661" stop-opacity="0"/></radialGradient></defs><g clip-path="url(#gemclipmh0)"><rect width="24" height="24" fill="#4285F4"/><rect width="24" height="24" fill="url(#gemredmh0)"/><rect width="24" height="24" fill="url(#gemyellowmh0)"/><rect width="24" height="24" fill="url(#gemgreenmh0)"/></g></svg></span><a href="/models/google/">Google</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/google/#family-google.palm">PaLM</a></dd></div>
+<div><dt>Generation</dt><dd>2</dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2023-05-10">10 May 2023</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Milestone <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.google.palm-2-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Introducing PaLM 2</cite></p>
+<p class="mh-kicker">Announcement · Google · published <time datetime="2023-05-10">10 May 2023</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://blog.google/innovation-and-ai/products/google-palm-2-ai-large-language-model/">Original ↗</a>
+<span class="mh-url">https://blog.google/innovation-and-ai/products/google-palm-2-ai-large-language-model/</span>
+<span class="mh-note">Headline as shown on the page; the HTML title is Google AI: What to know about the PaLM 2 large language model. The page carries the line Updated September 12, 2023. The old address https://blog.google/technology/ai/google-palm-2-ai-large-language-model/ redirects (301) here. The technical report link in the post, https://ai.google/static/documents/palm2techreport.pdf, returned 404 on 2026-10-01; the arXiv version is src.google.palm-2-technical-report.</span>
+</div>
+</li>
+<li id="source-src.google.palm-2-technical-report" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>PaLM 2 Technical Report</cite></p>
+<p class="mh-kicker">Technical report · Google · published <time datetime="2023-05-17">17 May 2023</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://arxiv.org/abs/2305.10403">Original ↗</a>
+<span class="mh-url">https://arxiv.org/abs/2305.10403</span>
+<span class="mh-note">Report by Google authors on arXiv; publishedAt is the date of v1. Versions: v1 2023-05-17, v2 2023-09-11, v3 2023-09-13. The model card is Table 31 in Appendix D.10 (v3).</span>
+</div>
+</li>
+<li id="source-src.google.agent-platform-model-versions" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Model versions and lifecycle | Gemini Enterprise Agent Platform | Google Cloud Documentation</cite></p>
+<p class="mh-kicker">Documentation · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions">Original ↗</a>
+<span class="mh-url">https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions</span>
+<span class="mh-note">Living page (last updated 2026-10-01 UTC); lists release dates, retirement dates and replacement model IDs for Gemini models on Gemini Enterprise Agent Platform. Its dates apply to Agent Platform only; the page says models may remain accessible through the Gemini API after them.</span>
+</div>
+</li>
+<li id="source-src.google.vertex-palm-2-for-text-reference" class="mh-source" data-mh-availability="active" data-mh-provenance="archived-primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Text</cite></p>
+<p class="mh-kicker">API reference · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Archived primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text">Original ↗</a>
+<span class="mh-url">https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text</span>
+<a href="https://web.archive.org/web/20240101182211/https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2024-01-01">1 January 2024</time></span>
+<span class="mh-note">Vertex AI model API reference for PaLM 2 for Text; HTML title Text | Vertex AI | Google Cloud. The original address now redirects to the unrelated Text embeddings API page of Gemini Enterprise Agent Platform, so the page is cited through the Internet Archive capture of 2024-01-01, which shows the PaLM 2 for Text (text-bison, text-unicorn) description and the stable version table.</span>
+</div>
+</li>
+<li id="source-src.google.vertex-palm-2-for-chat-reference" class="mh-source" data-mh-availability="archived" data-mh-provenance="archived-primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>Text chat</cite></p>
+<p class="mh-kicker">API reference · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Archived primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="archived">Archived copy</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<span class="mh-muted">Original no longer available</span>
+<span class="mh-url">https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text-chat</span>
+<a href="https://web.archive.org/web/20231208072835/https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text-chat">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2023-12-08">8 December 2023</time></span>
+<span class="mh-note">Vertex AI model API reference for PaLM 2 for Chat; HTML title Text chat | Vertex AI | Google Cloud. The original address returned 404 on 2026-10-01; the Internet Archive capture of 2023-12-08 shows the PaLM 2 for Chat (chat-bison) description and the stable version table.</span>
+</div>
+</li>
+<li id="source-src.google.palm-paper" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[6]</span> <cite>PaLM: Scaling Language Modeling with Pathways</cite></p>
+<p class="mh-kicker">Research paper · Google · published <time datetime="2022-04-05">5 April 2022</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://arxiv.org/abs/2204.02311">Original ↗</a>
+<span class="mh-url">https://arxiv.org/abs/2204.02311</span>
+<span class="mh-note">Paper by Google authors on arXiv; publishedAt is the date of v1. Versions: v1 2022-04-05 to v5 2022-10-05. The model card is Table 30 in Appendix E.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

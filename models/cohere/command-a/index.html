@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Command A · Cohere · Model History · AI Radar</title>
+<meta name="description" content="Command A is an enterprise-focused language model in Cohere&#39;s Command family with 111 billion parameters and a 256K-token context window, offered on the…">
+<link rel="canonical" href="https://ai-radar.eu/models/cohere/command-a/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Command A · Cohere · Model History · AI Radar">
+<meta property="og:description" content="Command A is an enterprise-focused language model in Cohere&#39;s Command family with 111 billion parameters and a 256K-token context window, offered on the…">
+<meta property="og:url" content="https://ai-radar.eu/models/cohere/command-a/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Command A · Cohere · Model History · AI Radar">
+<meta name="twitter:description" content="Command A is an enterprise-focused language model in Cohere&#39;s Command family with 111 billion parameters and a 256K-token context window, offered on the…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/cohere/command-a/","url":"https://ai-radar.eu/models/cohere/command-a/","name":"Command A · Cohere · Model History · AI Radar","description":"Command A is an enterprise-focused language model in Cohere's Command family with 111 billion parameters and a 256K-token context window, offered on the…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/cohere/command-a/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/cohere/command-a/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Cohere","item":"https://ai-radar.eu/models/cohere/"},{"@type":"ListItem","position":4,"name":"Command A","item":"https://ai-radar.eu/models/cohere/command-a/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:352" data-mh-view="model" data-mh-model="cohere.command-a">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/cohere/"><span class="mh-co" style="--h:352">Cohere</span></a></li><li><a href="/models/cohere/#family-cohere.command-a-family">Command A family</a></li><li aria-current="page">Command A</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><image href="data:image/png;base64,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" width="24" height="24"/></svg></span>Command A</h1>
+<p class="mh-sub">Available · Language · Milestone</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Command A is an enterprise-focused language model in Cohere&#39;s Command family with 111 billion parameters and a 256K-token context window, offered on the Cohere API and as research-use open weights on Hugging Face. Cohere positions it for tool use, agents, retrieval-augmented generation with citations and business tasks in 23 languages. <span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.changelog-command-a" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.cohere.command-a-announcement" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.cohere.command-a-model-card" aria-label="Source 3">[3]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/cohere/command-a/timeline/">Timeline of Command A →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">15 claims · <span data-mh-summary="primary-source">Primary source: 15</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2025-03-13">13 March 2025</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.command-a-announcement" aria-label="Source 2, date line; Availability">[2]</a><span class="mh-locator">date line; Availability</span> <a class="mh-ref" href="#source-src.cohere.changelog-command-a" aria-label="Source 1, March 13, 2025">[1]</a><span class="mh-locator">March 13, 2025</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Available</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.models-overview" aria-label="Source 4, Command table: command-a-03-2025, Live">[4]</a><span class="mh-locator">Command table: command-a-03-2025, Live</span> <a class="mh-ref" href="#source-src.cohere.command-a-model-card" aria-label="Source 3">[3]</a></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Successor of</span>
+<span class="mh-claim-value"><a href="/models/cohere/command-r-plus-08-2024/">Command R+ 08-2024</a><span class="mh-note">The release notes call Command R+ 08-2024 its predecessor.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.changelog-command-a" aria-label="Source 1, second paragraph">[1]</a><span class="mh-locator">second paragraph</span></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Context length</span>
+<span class="mh-claim-value">Context window doubles to 256K tokens, from 128K for Command R+ 08-2024.<span class="mh-note">Compared with <a href="/models/cohere/command-r-plus-08-2024/">Command R+ 08-2024</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.models-overview" aria-label="Source 4, Command table: command-a-03-2025">[4]</a><span class="mh-locator">Command table: command-a-03-2025</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Efficiency</span>
+<span class="mh-claim-value">Cohere reports 150 percent higher throughput than Command R+ 08-2024 and says the model needs only two A100 or H100 GPUs.<span class="mh-note">Compared with <a href="/models/cohere/command-r-plus-08-2024/">Command R+ 08-2024</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.changelog-command-a" aria-label="Source 1, second paragraph">[1]</a><span class="mh-locator">second paragraph</span></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.command-a-model-card" aria-label="Source 3, Model Details: Input">[3]</a><span class="mh-locator">Model Details: Input</span> <a class="mh-ref" href="#source-src.cohere.models-overview" aria-label="Source 4, Command table: command-a-03-2025, Modality">[4]</a><span class="mh-locator">Command table: command-a-03-2025, Modality</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.command-a-model-card" aria-label="Source 3, Model Details: Output">[3]</a><span class="mh-locator">Model Details: Output</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Tool use</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.command-a-model-card" aria-label="Source 3, Tool Use Capabilities">[3]</a><span class="mh-locator">Tool Use Capabilities</span> <a class="mh-ref" href="#source-src.cohere.command-a-announcement" aria-label="Source 2, Enterprise-ready capabilities">[2]</a><span class="mh-locator">Enterprise-ready capabilities</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Retrieval<span class="mh-note">Retrieval-augmented generation with verifiable citations.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.command-a-model-card" aria-label="Source 3, RAG Capabilities">[3]</a><span class="mh-locator">RAG Capabilities</span> <a class="mh-ref" href="#source-src.cohere.command-a-announcement" aria-label="Source 2, Enterprise-ready capabilities">[2]</a><span class="mh-locator">Enterprise-ready capabilities</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Multilingual<span class="mh-note">23 languages.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.command-a-model-card" aria-label="Source 3, Model Details: Languages covered">[3]</a><span class="mh-locator">Model Details: Languages covered</span> <a class="mh-ref" href="#source-src.cohere.command-a-announcement" aria-label="Source 2, Enterprise-ready capabilities">[2]</a><span class="mh-locator">Enterprise-ready capabilities</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Open weights</span>
+<span class="mh-claim-value">Yes<span class="mh-note">Weights released for research use under CC-BY-NC with Cohere Labs&#39; Acceptable Use Policy; download is gated behind accepting the conditions.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.command-a-announcement" aria-label="Source 2, Availability">[2]</a><span class="mh-locator">Availability</span> <a class="mh-ref" href="#source-src.cohere.command-a-model-card" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.cohere.command-a-technical-report" aria-label="Source 5, Abstract">[5]</a><span class="mh-locator">Abstract</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">256K tokens<span class="mh-note">The blog writes 256k. The Hugging Face configuration ships set to 128K, which the card says can be raised.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.command-a-model-card" aria-label="Source 3, Context length">[3]</a><span class="mh-locator">Context length</span> <a class="mh-ref" href="#source-src.cohere.changelog-command-a" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.cohere.models-overview" aria-label="Source 4, Command table: command-a-03-2025">[4]</a><span class="mh-locator">Command table: command-a-03-2025</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">111B</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.changelog-command-a" aria-label="Source 1, second paragraph">[1]</a><span class="mh-locator">second paragraph</span> <a class="mh-ref" href="#source-src.cohere.command-a-model-card" aria-label="Source 3, Model Size">[3]</a><span class="mh-locator">Model Size</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">API, Open-weights download, cloud partner<span class="mh-note">At release on the Cohere platform and Hugging Face, with major cloud providers announced as coming soon. As of 2026-10-01 the models overview lists an Oracle OCI id, per-deployment ids on SageMaker and Azure AI Foundry, and Bedrock as coming soon.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.command-a-announcement" aria-label="Source 2, Availability">[2]</a><span class="mh-locator">Availability</span> <a class="mh-ref" href="#source-src.cohere.models-overview" aria-label="Source 4, Using Command Models on Different Platforms">[4]</a><span class="mh-locator">Using Command Models on Different Platforms</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<ul class="mh-rel" data-mh-lineage="predecessors">
+<li><a href="/models/cohere/command-r-plus-08-2024/">Command R+ 08-2024</a> <span class="mh-muted">· 30 August 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/cohere/command-a-plus/">Command A+</a> <span class="mh-muted">· 20 May 2026</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<p class="mh-none" data-mh-lineage="parents">Not derived from another model.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<ul class="mh-rel" data-mh-lineage="children">
+<li><a href="/models/cohere/command-a-reasoning/">Command A Reasoning</a> <span class="mh-muted">· 21 August 2025 · derived (fine tune)</span></li>
+<li><a href="/models/cohere/command-a-translate/">Command A Translate</a> <span class="mh-muted">· 28 August 2025 · derived (fine tune)</span></li>
+<li><a href="/models/cohere/command-a-vision/">Command A Vision</a> <span class="mh-muted">· 31 July 2025 · derived (fine tune)</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/cohere/command-1/">Command</a> <span class="mh-muted">· 8 November 2022</span></li>
+<li><a href="/models/cohere/command-r-plus/">Command R+</a> <span class="mh-muted">· 4 April 2024</span></li>
+<li><a href="/models/cohere/command-r-plus-08-2024/">Command R+ 08-2024</a> <span class="mh-muted">· 30 August 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/cohere/command-a-vision/">Command A Vision</a> <span class="mh-muted">· 31 July 2025</span></li>
+<li><a href="/models/cohere/command-a-reasoning/">Command A Reasoning</a> <span class="mh-muted">· 21 August 2025</span></li>
+<li><a href="/models/cohere/command-a-translate/">Command A Translate</a> <span class="mh-muted">· 28 August 2025</span></li>
+<li><a href="/models/cohere/command-a-plus/">Command A+</a> <span class="mh-muted">· 20 May 2026</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-visually-hidden">Variants</h2>
+<p class="mh-visually-hidden">No variants recorded in this record.</p>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=cohere">All model releases from Cohere on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<span></span>
+<a class="mh-pager-next" href="/models/cohere/command-a-vision/"><span class="mh-muted">Later in Command A family →</span><span>Command A Vision</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><image href="data:image/png;base64,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" width="24" height="24"/></svg></span><a href="/models/cohere/">Cohere</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/cohere/#family-cohere.command-a-family">Command A family</a></dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2025-03-13">13 March 2025</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Milestone <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>command-a-03-2025, c4ai-command-a-03-2025, Cohere Labs Command A</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.cohere.changelog-command-a" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Announcing Command A</cite></p>
+<p class="mh-kicker">Release notes · Cohere · published <time datetime="2025-03-13">13 March 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.cohere.com/changelog/command-a">Original ↗</a>
+<span class="mh-url">https://docs.cohere.com/changelog/command-a</span>
+<span class="mh-note">Cohere release notes entry dated March 13, 2025; names Command R+ 08-2024 as the predecessor and gives the API id command-a-03-2025.</span>
+</div>
+</li>
+<li id="source-src.cohere.command-a-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Introducing Command A: Max performance, minimal compute</cite></p>
+<p class="mh-kicker">Announcement · Cohere · published <time datetime="2025-03-13">13 March 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://cohere.com/blog/command-a">Original ↗</a>
+<span class="mh-url">https://cohere.com/blog/command-a</span>
+<span class="mh-note">Cohere blog post; the page shows Mar 13, 2025 (datePublished metadata 2025-03-13T08:55-04:00; dateModified 2025-07-10).</span>
+</div>
+</li>
+<li id="source-src.cohere.command-a-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Model Card for Cohere Labs Command A</cite></p>
+<p class="mh-kicker">Model card · Cohere</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/CohereLabs/c4ai-command-a-03-2025">Original ↗</a>
+<span class="mh-url">https://huggingface.co/CohereLabs/c4ai-command-a-03-2025</span>
+<span class="mh-note">Hugging Face model card (developed by Cohere and Cohere Labs). The original address https://huggingface.co/CohereForAI/c4ai-command-a-03-2025 redirects here. Weights gated, licence CC-BY-NC. The card notes the model supports 256K context but is configured for 128K in the Hugging Face configuration.</span>
+</div>
+</li>
+<li id="source-src.cohere.models-overview" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>An Overview of Cohere&#39;s Models</cite></p>
+<p class="mh-kicker">Documentation · Cohere</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.cohere.com/docs/models">Original ↗</a>
+<span class="mh-url">https://docs.cohere.com/docs/models</span>
+<span class="mh-note">Living documentation page; content as seen on 2026-10-01. Lists model ids with status (Live, Deprecated, Retired), modality, context length and maximum output tokens, plus a table of ids on cloud platforms. May duplicate a source added by another Cohere chunk.</span>
+</div>
+</li>
+<li id="source-src.cohere.command-a-technical-report" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>Command A: An Enterprise-Ready Large Language Model</cite></p>
+<p class="mh-kicker">Technical report · Cohere · published <time datetime="2025-04-01">1 April 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://arxiv.org/abs/2504.00698">Original ↗</a>
+<span class="mh-url">https://arxiv.org/abs/2504.00698</span>
+<span class="mh-note">arXiv technical report by Team Cohere (arXiv 2504.00698). Also includes results for Command R7B, which it says shares capability and architectural similarities with Command A, and says weights for both models were released for research purposes. May duplicate a source added by another Cohere chunk.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

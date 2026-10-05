@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Nemotron 3 Nano · NVIDIA · Model History · AI Radar</title>
+<meta name="description" content="Nemotron 3 Nano is the first released model of NVIDIA&#39;s Nemotron 3 open model family: a hybrid Mamba-Transformer mixture-of-experts reasoning model with…">
+<link rel="canonical" href="https://ai-radar.eu/models/nvidia/nemotron-3-nano/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Nemotron 3 Nano · NVIDIA · Model History · AI Radar">
+<meta property="og:description" content="Nemotron 3 Nano is the first released model of NVIDIA&#39;s Nemotron 3 open model family: a hybrid Mamba-Transformer mixture-of-experts reasoning model with…">
+<meta property="og:url" content="https://ai-radar.eu/models/nvidia/nemotron-3-nano/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Nemotron 3 Nano · NVIDIA · Model History · AI Radar">
+<meta name="twitter:description" content="Nemotron 3 Nano is the first released model of NVIDIA&#39;s Nemotron 3 open model family: a hybrid Mamba-Transformer mixture-of-experts reasoning model with…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/nvidia/nemotron-3-nano/","url":"https://ai-radar.eu/models/nvidia/nemotron-3-nano/","name":"Nemotron 3 Nano · NVIDIA · Model History · AI Radar","description":"Nemotron 3 Nano is the first released model of NVIDIA's Nemotron 3 open model family: a hybrid Mamba-Transformer mixture-of-experts reasoning model with…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/nvidia/nemotron-3-nano/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/nvidia/nemotron-3-nano/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"NVIDIA","item":"https://ai-radar.eu/models/nvidia/"},{"@type":"ListItem","position":4,"name":"Nemotron 3 Nano","item":"https://ai-radar.eu/models/nvidia/nemotron-3-nano/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:135" data-mh-view="model" data-mh-model="nvidia.nemotron-3-nano">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/nvidia/"><span class="mh-co" style="--h:135">NVIDIA</span></a></li><li><a href="/models/nvidia/#family-nvidia.nemotron-nano">Nemotron Nano</a></li><li aria-current="page">Nemotron 3 Nano</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#76b900"><path d="M8.948 8.798v-1.43a6.7 6.7 0 0 1 .424-.018c3.922-.124 6.493 3.374 6.493 3.374s-2.774 3.851-5.75 3.851c-.398 0-.787-.062-1.158-.185v-4.346c1.528.185 1.837.857 2.747 2.385l2.04-1.714s-1.492-1.952-4-1.952a6.016 6.016 0 0 0-.796.035m0-4.735v2.138l.424-.027c5.45-.185 9.01 4.47 9.01 4.47s-4.08 4.964-8.33 4.964c-.37 0-.733-.035-1.095-.097v1.325c.3.035.61.062.91.062 3.957 0 6.82-2.023 9.593-4.408.459.371 2.34 1.263 2.73 1.652-2.633 2.208-8.772 3.984-12.253 3.984-.335 0-.653-.018-.971-.053v1.864H24V4.063zm0 10.326v1.131c-3.657-.654-4.673-4.46-4.673-4.46s1.758-1.944 4.673-2.262v1.237H8.94c-1.528-.186-2.73 1.245-2.73 1.245s.68 2.412 2.739 3.11M2.456 10.9s2.164-3.197 6.5-3.533V6.201C4.153 6.59 0 10.653 0 10.653s2.35 6.802 8.948 7.42v-1.237c-4.84-.6-6.492-5.936-6.492-5.936z"/></svg></span>Nemotron 3 Nano</h1>
+<p class="mh-sub">Available · Language, Reasoning · Milestone</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Nemotron 3 Nano is the first released model of NVIDIA&#39;s Nemotron 3 open model family: a hybrid Mamba-Transformer mixture-of-experts reasoning model with 31.6 billion total and 3.2 billion active parameters and a context of up to 1 million tokens. NVIDIA published the weights, training recipe and redistributable training data, and offered it through inference providers and as an NVIDIA NIM. <span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-press-release" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.nvidia.nemotron-3-research-page" aria-label="Source 2">[2]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/nvidia/nemotron-3-nano/timeline/">Timeline of Nemotron 3 Nano →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">20 claims · <span data-mh-summary="primary-source">Primary source: 20</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.announced" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Announced</span>
+<span class="mh-claim-value"><time datetime="2025-10-28">28 October 2025</time><span class="mh-note">Pre-announced at GTC DC as NVIDIA Nemotron Nano 3, a 32B-parameter MoE with 3.6B active parameters, available soon; the paragraph is in the Internet Archive capture of that day. The full Nemotron 3 family (Nano, Super, Ultra) was announced on 2025-12-15 together with the Nano release.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-vision-rag-guardrail-models-blog" aria-label="Source 3, Enable agents to think efficiently with NVIDIA Nemotron Nano 3">[3]</a><span class="mh-locator">Enable agents to think efficiently with NVIDIA Nemotron Nano 3</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2025-12-15">15 December 2025</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-press-release" aria-label="Source 1, Get Started With NVIDIA Open Models">[1]</a><span class="mh-locator">Get Started With NVIDIA Open Models</span> <a class="mh-ref" href="#source-src.nvidia.nemotron-3-research-page" aria-label="Source 2, Published: December 15, 2025">[2]</a><span class="mh-locator">Published: December 15, 2025</span> <a class="mh-ref" href="#source-src.nvidia.nemotron-3-nano-30b-a3b-model-card" aria-label="Source 4, Release Date">[4]</a><span class="mh-locator">Release Date</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Available<span class="mh-note">NVIDIA has no deprecation page for its open models; the weights were still downloadable from NVIDIA&#39;s Hugging Face organisation on 2026-10-01.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-nano-30b-a3b-model-card" aria-label="Source 4">[4]</a> <a class="mh-ref" href="#source-src.nvidia.nemotron-3-research-page" aria-label="Source 2, Open Source">[2]</a><span class="mh-locator">Open Source</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Successor of</span>
+<span class="mh-claim-value"><a href="/models/nvidia/nemotron-nano-2/">Nemotron Nano 2</a><span class="mh-note">NVIDIA calls Nemotron 2 Nano its previous generation and compares the two models.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-research-page" aria-label="Source 2, Nemotron 3 Nano">[2]</a><span class="mh-locator">Nemotron 3 Nano</span> <a class="mh-ref" href="#source-src.nvidia.nemotron-3-nano-technical-report" aria-label="Source 5, Abstract">[5]</a><span class="mh-locator">Abstract</span></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Architecture</span>
+<span class="mh-claim-value">Moves to a mixture-of-experts hybrid Mamba-Transformer design that activates less than half as many parameters per forward pass as Nemotron 2 Nano.<span class="mh-note">Compared with <a href="/models/nvidia/nemotron-nano-2/">Nemotron Nano 2</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-research-page" aria-label="Source 2">[2]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Context length</span>
+<span class="mh-claim-value">Context window grows from 128K tokens to up to 1M tokens.<span class="mh-note">Compared with <a href="/models/nvidia/nemotron-nano-2/">Nemotron Nano 2</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-press-release" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.nvidia.nemotron-nano-2-research-page" aria-label="Source 6, Models">[6]</a><span class="mh-locator">Models</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Efficiency</span>
+<span class="mh-claim-value">NVIDIA says token throughput is up to four times higher and reasoning-token generation up to 60 percent lower than with Nemotron 2 Nano.<span class="mh-note">Compared with <a href="/models/nvidia/nemotron-nano-2/">Nemotron Nano 2</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-press-release" aria-label="Source 1">[1]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[3]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Training data</span>
+<span class="mh-claim-value">Pretrained on 25 trillion text tokens, including more than 3 trillion new unique tokens compared with Nemotron 2.<span class="mh-note">Compared with <a href="/models/nvidia/nemotron-nano-2/">Nemotron Nano 2</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-nano-technical-report" aria-label="Source 5">[5]</a></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-nano-30b-a3b-model-card" aria-label="Source 4, Input">[4]</a><span class="mh-locator">Input</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-nano-30b-a3b-model-card" aria-label="Source 4, Output">[4]</a><span class="mh-locator">Output</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Reasoning mode<span class="mh-note">Reasoning on by default and switched off with enable_thinking=False in the chat template; a thinking budget can be set at inference time.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-nano-30b-a3b-model-card" aria-label="Source 4, Description; Using Budget Control">[4]</a><span class="mh-locator">Description; Using Budget Control</span> <a class="mh-ref" href="#source-src.nvidia.nemotron-3-white-paper" aria-label="Source 7, Abstract">[7]</a><span class="mh-locator">Abstract</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Function calling<span class="mh-note">The card documents tool calling through a vLLM tool-call parser.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-nano-30b-a3b-model-card" aria-label="Source 4, vLLM serving with tool-call parser">[4]</a><span class="mh-locator">vLLM serving with tool-call parser</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Long context</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-research-page" aria-label="Source 2, Nemotron 3 technologies: Long Context">[2]</a><span class="mh-locator">Nemotron 3 technologies: Long Context</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Open weights</span>
+<span class="mh-claim-value">Yes<span class="mh-note">Released on Hugging Face under the NVIDIA Nemotron Open Model License, together with the training recipe and the training data NVIDIA may redistribute.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-research-page" aria-label="Source 2, Open Source">[2]</a><span class="mh-locator">Open Source</span> <a class="mh-ref" href="#source-src.nvidia.nemotron-3-nano-30b-a3b-model-card" aria-label="Source 4, License/Terms of Use">[4]</a><span class="mh-locator">License/Terms of Use</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">1M tokens<span class="mh-note">The default context size in the Hugging Face configuration is 256k because of memory requirements.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-nano-30b-a3b-model-card" aria-label="Source 4, Input; Output">[4]</a><span class="mh-locator">Input; Output</span> <a class="mh-ref" href="#source-src.nvidia.nemotron-3-press-release" aria-label="Source 1, Nemotron 3 Reinvents Multi-Agent AI">[1]</a><span class="mh-locator">Nemotron 3 Reinvents Multi-Agent AI</span> <a class="mh-ref" href="#source-src.nvidia.nemotron-3-research-page" aria-label="Source 2, Nemotron 3 Nano">[2]</a><span class="mh-locator">Nemotron 3 Nano</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">31.6B total, 3.2B active (3.6B with embeddings)<span class="mh-note">NVIDIA states this differently elsewhere: the press release says 30 billion parameters with up to 3 billion active, the model card 30B total and 3.5B active, and the October 2025 pre-announcement 32B with 3.6B active.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-research-page" aria-label="Source 2, Nemotron 3 Nano">[2]</a><span class="mh-locator">Nemotron 3 Nano</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">Open-weights download, API, cloud partner<span class="mh-note">At release on Hugging Face, through inference providers such as Baseten, DeepInfra, Fireworks, FriendliAI, OpenRouter and Together AI, and as an NVIDIA NIM; Amazon Bedrock and other clouds were announced as coming soon.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-press-release" aria-label="Source 1, Get Started With NVIDIA Open Models">[1]</a><span class="mh-locator">Get Started With NVIDIA Open Models</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<ul class="mh-rel" data-mh-lineage="predecessors">
+<li><a href="/models/nvidia/nemotron-nano-2/">Nemotron Nano 2</a> <span class="mh-muted">· 18 August 2025</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/nvidia/nemotron-3-5-lightning/">Nemotron 3.5 Lightning</a> <span class="mh-muted">· 11 August 2026</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<p class="mh-none" data-mh-lineage="parents">Not derived from another model.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<ul class="mh-rel" data-mh-lineage="children">
+<li><a href="/models/nvidia/nemotron-3-nano-omni/">Nemotron 3 Nano Omni</a> <span class="mh-muted">· 28 April 2026 · derived (other)</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/meta/llama-1/">LLaMA</a> <span class="mh-muted">· Meta · 24 February 2023</span></li>
+<li><a href="/models/meta/llama-2/">Llama 2</a> <span class="mh-muted">· Meta · 18 July 2023</span></li>
+<li><a href="/models/meta/meta-llama-3/">Meta Llama 3</a> <span class="mh-muted">· Meta · 18 April 2024</span></li>
+<li><a href="/models/meta/llama-3-1/">Llama 3.1</a> <span class="mh-muted">· Meta · 23 July 2024</span></li>
+<li><a href="/models/nvidia/llama-3-1-nemotron-nano-8b-v1/">Llama-3.1-Nemotron-Nano-8B-v1</a> <span class="mh-muted">· 18 March 2025</span></li>
+<li><a href="/models/nvidia/nemotron-nano-2/">Nemotron Nano 2</a> <span class="mh-muted">· 18 August 2025</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/nvidia/nemotron-3-nano-omni/">Nemotron 3 Nano Omni</a> <span class="mh-muted">· 28 April 2026</span></li>
+<li><a href="/models/nvidia/nemotron-3-5-lightning/">Nemotron 3.5 Lightning</a> <span class="mh-muted">· 11 August 2026</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-h2">Variants</h2>
+<section id="variant-30b-a3b" class="mh-variant">
+<h3 class="mh-variant-name">NVIDIA-Nemotron-3-Nano-30B-A3B</h3>
+<p class="mh-muted">Same dates as Nemotron 3 Nano.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">The post-trained model, released in BF16 and FP8; an NVFP4 checkpoint followed later (repository created 2025-12-20, Hugging Face API).</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-research-page" aria-label="Source 2, Open Source: Checkpoints">[2]</a><span class="mh-locator">Open Source: Checkpoints</span> <a class="mh-ref" href="#source-src.nvidia.nemotron-3-nano-30b-a3b-model-card" aria-label="Source 4, Release Date">[4]</a><span class="mh-locator">Release Date</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: NVIDIA-Nemotron-3-Nano-30B-A3B-BF16, NVIDIA-Nemotron-3-Nano-30B-A3B-FP8, NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4, Nemotron 3 Nano 30B-A3B, Nemotron-3-Nano-30B-A3B</p>
+</section>
+<section id="variant-30b-a3b-base" class="mh-variant">
+<h3 class="mh-variant-name">NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16</h3>
+<p class="mh-muted">Same dates as Nemotron 3 Nano.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">The pre-trained base model before post-training.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.nemotron-3-research-page" aria-label="Source 2, Open Source: Checkpoints">[2]</a><span class="mh-locator">Open Source: Checkpoints</span> <a class="mh-ref" href="#source-src.nvidia.nemotron-3-nano-30b-a3b-base-model-card" aria-label="Source 8, Release Date">[8]</a><span class="mh-locator">Release Date</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: Nemotron 3 Nano 30B-A3B Base</p>
+</section>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=nvidia">All model releases from NVIDIA on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<a class="mh-pager-prev" href="/models/nvidia/nemotron-nano-2-vl/"><span class="mh-muted">← Earlier in Nemotron Nano</span><span>Nemotron Nano 2 VL</span></a>
+<a class="mh-pager-next" href="/models/nvidia/nemotron-3-nano-4b/"><span class="mh-muted">Later in Nemotron Nano →</span><span>Nemotron 3 Nano 4B</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#76b900"><path d="M8.948 8.798v-1.43a6.7 6.7 0 0 1 .424-.018c3.922-.124 6.493 3.374 6.493 3.374s-2.774 3.851-5.75 3.851c-.398 0-.787-.062-1.158-.185v-4.346c1.528.185 1.837.857 2.747 2.385l2.04-1.714s-1.492-1.952-4-1.952a6.016 6.016 0 0 0-.796.035m0-4.735v2.138l.424-.027c5.45-.185 9.01 4.47 9.01 4.47s-4.08 4.964-8.33 4.964c-.37 0-.733-.035-1.095-.097v1.325c.3.035.61.062.91.062 3.957 0 6.82-2.023 9.593-4.408.459.371 2.34 1.263 2.73 1.652-2.633 2.208-8.772 3.984-12.253 3.984-.335 0-.653-.018-.971-.053v1.864H24V4.063zm0 10.326v1.131c-3.657-.654-4.673-4.46-4.673-4.46s1.758-1.944 4.673-2.262v1.237H8.94c-1.528-.186-2.73 1.245-2.73 1.245s.68 2.412 2.739 3.11M2.456 10.9s2.164-3.197 6.5-3.533V6.201C4.153 6.59 0 10.653 0 10.653s2.35 6.802 8.948 7.42v-1.237c-4.84-.6-6.492-5.936-6.492-5.936z"/></svg></span><a href="/models/nvidia/">NVIDIA</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/nvidia/#family-nvidia.nemotron-nano">Nemotron Nano</a></dd></div>
+<div><dt>Generation</dt><dd>3</dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2025-12-15">15 December 2025</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Milestone <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>NVIDIA Nemotron 3 Nano, Nemotron Nano 3, NVIDIA Nemotron Nano 3, Nano 3, Nemotron 3</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.nvidia.nemotron-3-press-release" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>NVIDIA Debuts Nemotron 3 Family of Open Models</cite></p>
+<p class="mh-kicker">Press release · NVIDIA · published <time datetime="2025-12-15">15 December 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://nvidianews.nvidia.com/news/nvidia-debuts-nemotron-3-family-of-open-models">Original ↗</a>
+<span class="mh-url">https://nvidianews.nvidia.com/news/nvidia-debuts-nemotron-3-family-of-open-models</span>
+<span class="mh-note">NVIDIA Newsroom; the HTML title adds the suffix | NVIDIA Newsroom. Announces the Nemotron 3 family (Nano, Super, Ultra); Nano available that day, Super and Ultra expected in the first half of 2026. Compares Nemotron 3 Nano with Nemotron 2 Nano. Likely shared with the records for Nemotron 3 Super and Ultra.</span>
+</div>
+</li>
+<li id="source-src.nvidia.nemotron-3-research-page" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>NVIDIA Nemotron 3 Family of Models</cite></p>
+<p class="mh-kicker">Announcement · NVIDIA · published <time datetime="2025-12-15">15 December 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://research.nvidia.com/labs/nemotron/Nemotron-3/">Original ↗</a>
+<span class="mh-url">https://research.nvidia.com/labs/nemotron/Nemotron-3/</span>
+<span class="mh-note">NVIDIA Nemotron research project page; the HTML title adds the suffix - NVIDIA Nemotron. Later updated with a note that Nemotron 3 Ultra is released. Gives Nemotron 3 Nano as 3.2B active (3.6B with embeddings) and 31.6B total parameters, calls Nemotron 2 Nano the previous generation, context up to 1M tokens, and lists the released checkpoints and datasets. Likely shared with the records for Nemotron 3 Super and Ultra.</span>
+</div>
+</li>
+<li id="source-src.nvidia.nemotron-vision-rag-guardrail-models-blog" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Develop Specialized AI Agents with New NVIDIA Nemotron Vision, RAG, and Guardrail Models</cite></p>
+<p class="mh-kicker">Blog post · NVIDIA · published <time datetime="2025-10-28">28 October 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://developer.nvidia.com/blog/develop-specialized-ai-agents-with-new-nvidia-nemotron-vision-rag-and-guardrail-models/">Original ↗</a>
+<span class="mh-url">https://developer.nvidia.com/blog/develop-specialized-ai-agents-with-new-nvidia-nemotron-vision-rag-and-guardrail-models/</span>
+<a href="https://web.archive.org/web/20251028183050/https://developer.nvidia.com/blog/develop-specialized-ai-agents-with-new-nvidia-nemotron-vision-rag-and-guardrail-models/">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2025-10-28">28 October 2025</time></span>
+<span class="mh-note">NVIDIA Technical Blog post from GTC DC; the HTML title adds the suffix | NVIDIA Technical Blog; metadata shows a later modification on 2026-01-12. Introduces Nemotron Nano 2 VL and pre-announces NVIDIA Nemotron Nano 3 (32B MoE, 3.6B active, available soon). Checked on 2026-10-01 that the Internet Archive capture of 2025-10-28 already contains the Nemotron Nano 3 and Nemotron Nano 2 VL paragraphs.</span>
+</div>
+</li>
+<li id="source-src.nvidia.nemotron-3-nano-30b-a3b-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16</cite></p>
+<p class="mh-kicker">Model hub page · NVIDIA</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16">Original ↗</a>
+<span class="mh-url">https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16</span>
+<span class="mh-note">NVIDIA&#39;s model card on Hugging Face (BF16 checkpoint); the HTML title adds the suffix · Hugging Face. Release date December 15, 2025; NVIDIA Nemotron Open Model License; text in and out, maximum input and output 1M tokens (default Hugging Face config 256k); reasoning toggled with enable_thinking; budget control; tool calling via vLLM. The card text says 3.5B active and 30B total parameters.</span>
+</div>
+</li>
+<li id="source-src.nvidia.nemotron-3-nano-technical-report" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>Nemotron 3 Nano: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning</cite></p>
+<p class="mh-kicker">Technical report · NVIDIA · published <time datetime="2025-12-23">23 December 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://arxiv.org/abs/2512.20848">Original ↗</a>
+<span class="mh-url">https://arxiv.org/abs/2512.20848</span>
+<span class="mh-note">arXiv 2512.20848, authored by NVIDIA. Says the model was pretrained on 25 trillion text tokens including more than 3 trillion new unique tokens over Nemotron 2, then fine-tuned and trained with large-scale RL; calls Nemotron 2 Nano the previous generation; context up to 1M tokens; base and post-trained checkpoints released on Hugging Face.</span>
+</div>
+</li>
+<li id="source-src.nvidia.nemotron-nano-2-research-page" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[6]</span> <cite>NVIDIA Nemotron Nano 2 and the Nemotron Pretraining Dataset v1</cite></p>
+<p class="mh-kicker">Announcement · NVIDIA · published <time datetime="2025-08-18">18 August 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://research.nvidia.com/labs/adlr/NVIDIA-Nemotron-Nano-2/">Original ↗</a>
+<span class="mh-url">https://research.nvidia.com/labs/adlr/NVIDIA-Nemotron-Nano-2/</span>
+<span class="mh-note">Project page of NVIDIA&#39;s Applied Deep Learning Research group (NVIDIA ADLR); the HTML title adds the suffix - NVIDIA ADLR. Lists the three released checkpoints (9B-v2, 9B-v2-Base, 12B-v2-Base), all with 128K context, and the Nemotron-Pre-Training-Dataset-v1 collection of 6.6 trillion tokens.</span>
+</div>
+</li>
+<li id="source-src.nvidia.nemotron-3-white-paper" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[7]</span> <cite>NVIDIA Nemotron 3: Efficient and Open Intelligence</cite></p>
+<p class="mh-kicker">Technical report · NVIDIA · published <time datetime="2025-12-24">24 December 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://arxiv.org/abs/2512.20856">Original ↗</a>
+<span class="mh-url">https://arxiv.org/abs/2512.20856</span>
+<span class="mh-note">arXiv 2512.20856, the Nemotron 3 family white paper by NVIDIA; says all Nemotron 3 models are post-trained with multi-environment reinforcement learning and support granular reasoning budget control. Likely shared with the records for Nemotron 3 Super and Ultra.</span>
+</div>
+</li>
+<li id="source-src.nvidia.nemotron-3-nano-30b-a3b-base-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[8]</span> <cite>nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16</cite></p>
+<p class="mh-kicker">Model hub page · NVIDIA</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16">Original ↗</a>
+<span class="mh-url">https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16</span>
+<span class="mh-note">NVIDIA&#39;s model card on Hugging Face for the pre-trained base checkpoint; release date December 15, 2025.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

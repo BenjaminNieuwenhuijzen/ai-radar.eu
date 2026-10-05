@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Gemma 2 · Google · Model History · AI Radar</title>
+<meta name="description" content="Gemma 2 is the second generation of Google&#39;s Gemma open-weight language models, released in 9B and 27B sizes with weights on Kaggle and Hugging Face…">
+<link rel="canonical" href="https://ai-radar.eu/models/google/gemma-2/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Gemma 2 · Google · Model History · AI Radar">
+<meta property="og:description" content="Gemma 2 is the second generation of Google&#39;s Gemma open-weight language models, released in 9B and 27B sizes with weights on Kaggle and Hugging Face…">
+<meta property="og:url" content="https://ai-radar.eu/models/google/gemma-2/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Gemma 2 · Google · Model History · AI Radar">
+<meta name="twitter:description" content="Gemma 2 is the second generation of Google&#39;s Gemma open-weight language models, released in 9B and 27B sizes with weights on Kaggle and Hugging Face…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/google/gemma-2/","url":"https://ai-radar.eu/models/google/gemma-2/","name":"Gemma 2 · Google · Model History · AI Radar","description":"Gemma 2 is the second generation of Google's Gemma open-weight language models, released in 9B and 27B sizes with weights on Kaggle and Hugging Face…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/google/gemma-2/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/google/gemma-2/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Google","item":"https://ai-radar.eu/models/google/"},{"@type":"ListItem","position":4,"name":"Gemma 2","item":"https://ai-radar.eu/models/google/gemma-2/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:255" data-mh-view="model" data-mh-model="google.gemma-2">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/google/"><span class="mh-co" style="--h:255">Google</span></a></li><li><a href="/models/google/#family-google.gemma">Gemma</a></li><li aria-current="page">Gemma 2</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="gemclipmh1"><path d="M12 0C12.96 6.5 17.5 11.04 24 12 17.5 12.96 12.96 17.5 12 24 11.04 17.5 6.5 12.96 0 12 6.5 11.04 11.04 6.5 12 0Z"/></clipPath><radialGradient id="gemredmh1" gradientUnits="userSpaceOnUse" cx="12" cy="2" r="11"><stop offset="0%" stop-color="#FF4641"/><stop offset="100%" stop-color="#FF4641" stop-opacity="0"/></radialGradient><radialGradient id="gemyellowmh1" gradientUnits="userSpaceOnUse" cx="2" cy="12" r="11"><stop offset="0%" stop-color="#FFC400"/><stop offset="100%" stop-color="#FFC400" stop-opacity="0"/></radialGradient><radialGradient id="gemgreenmh1" gradientUnits="userSpaceOnUse" cx="12" cy="22" r="11"><stop offset="0%" stop-color="#00A661"/><stop offset="100%" stop-color="#00A661" stop-opacity="0"/></radialGradient></defs><g clip-path="url(#gemclipmh1)"><rect width="24" height="24" fill="#4285F4"/><rect width="24" height="24" fill="url(#gemredmh1)"/><rect width="24" height="24" fill="url(#gemyellowmh1)"/><rect width="24" height="24" fill="url(#gemgreenmh1)"/></g></svg></span>Gemma 2</h1>
+<p class="mh-sub">Available · Language · Milestone</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Gemma 2 is the second generation of Google&#39;s Gemma open-weight language models, released in 9B and 27B sizes with weights on Kaggle and Hugging Face, followed by a 2B size in July 2024. Google says it uses a redesigned architecture aimed at performance and inference efficiency, and it trained the 2B and 9B models with knowledge distillation. <span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.google.gemma-2-2b-announcement" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.google.gemma-2-technical-report" aria-label="Source 3">[3]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/google/gemma-2/timeline/">Timeline of Gemma 2 →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">18 claims · <span data-mh-summary="primary-source">Primary source: 18</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.announced" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Announced</span>
+<span class="mh-claim-value"><time datetime="2024-05-14">14 May 2024</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.io-2024-gemini-updates" aria-label="Source 4, Next generation of open models">[4]</a><span class="mh-locator">Next generation of open models</span> <a class="mh-ref" href="#source-src.google.io-2024-developer-updates" aria-label="Source 5, Additions to the Gemma family">[5]</a><span class="mh-locator">Additions to the Gemma family</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2024-06-27">27 June 2024</time><span class="mh-note">9B and 27B sizes; the 2B size followed on 2024-07-31 (see variants).</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.google.gemma-releases" aria-label="Source 6, June 27, 2024">[6]</a><span class="mh-locator">June 27, 2024</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Available<span class="mh-note">Weights still downloadable from Google&#39;s Hugging Face organisation (after accepting the Gemma terms) when checked on 2026-10-01.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-2b-hf" aria-label="Source 7">[7]</a> <a class="mh-ref" href="#source-src.google.gemma-2-9b-hf" aria-label="Source 8">[8]</a> <a class="mh-ref" href="#source-src.google.gemma-2-27b-hf" aria-label="Source 9">[9]</a></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Successor of</span>
+<span class="mh-claim-value"><a href="/models/google/gemma-1-1/">Gemma 1.1</a> <span class="mh-editorial">Editorial</span><span class="mh-note">Editorial link along the Gemma line: the announcement compares Gemma 2 with the first generation without naming a version; Gemma 1.1 was the latest first-generation release, and the technical report extends the Gemma 1.1 post-training data and compares with Gemma 1.1.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-announcement" aria-label="Source 1, second paragraph">[1]</a><span class="mh-locator">second paragraph</span> <a class="mh-ref" href="#source-src.google.gemma-2-technical-report" aria-label="Source 3, sections 2 (Model Architecture) and 4 (Post-Training)">[3]</a><span class="mh-locator">sections 2 (Model Architecture) and 4 (Post-Training)</span></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Architecture</span>
+<span class="mh-claim-value">Alternates local sliding-window and global attention layers and adds grouped-query attention and logit soft-capping, with deeper networks.<span class="mh-note">Compared with <a href="/models/google/gemma-1-1/">Gemma 1.1</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-technical-report" aria-label="Source 3, section 2, Model Architecture">[3]</a><span class="mh-locator">section 2, Model Architecture</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Training data</span>
+<span class="mh-claim-value">The 2B and 9B models are trained with knowledge distillation from a larger teacher model instead of next-token prediction; the 27B model is trained from scratch.<span class="mh-note">Compared with <a href="/models/google/gemma-1-1/">Gemma 1.1</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-technical-report" aria-label="Source 3">[3]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Size</span>
+<span class="mh-claim-value">Adds 9B and 27B sizes; the small model that followed in July 2024 has about 2.6B parameters.<span class="mh-note">Compared with <a href="/models/google/gemma-1-1/">Gemma 1.1</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.google.gemma-2-technical-report" aria-label="Source 3, Table 2">[3]</a><span class="mh-locator">Table 2</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[3]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Other</span>
+<span class="mh-claim-value">Post-training extends the Gemma 1.1 data with more internal and public data and uses a similar RLHF algorithm with a much larger reward model.<span class="mh-note">Compared with <a href="/models/google/gemma-1-1/">Gemma 1.1</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-technical-report" aria-label="Source 3, section 4, Post-Training">[3]</a><span class="mh-locator">section 4, Post-Training</span></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-model-card" aria-label="Source 10, Inputs and outputs">[10]</a><span class="mh-locator">Inputs and outputs</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-model-card" aria-label="Source 10, Inputs and outputs">[10]</a><span class="mh-locator">Inputs and outputs</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Open weights</span>
+<span class="mh-claim-value">Yes<span class="mh-note">Released under Google&#39;s Gemma terms of use, which must be accepted on Hugging Face before download.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-announcement" aria-label="Source 1, Getting started">[1]</a><span class="mh-locator">Getting started</span> <a class="mh-ref" href="#source-src.google.gemma-2-9b-hf" aria-label="Source 8">[8]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">8192 tokens</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-technical-report" aria-label="Source 3, section 2, Model Architecture">[3]</a><span class="mh-locator">section 2, Model Architecture</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">Open-weights download<span class="mh-note">Weights on Kaggle and Hugging Face; Google also offered the 27B model to try in Google AI Studio and announced Vertex AI deployment.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-announcement" aria-label="Source 1, Getting started">[1]</a><span class="mh-locator">Getting started</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<ul class="mh-rel" data-mh-lineage="predecessors">
+<li><a href="/models/google/gemma-1-1/">Gemma 1.1</a> <span class="mh-muted">· 5 April 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/google/gemma-3/">Gemma 3</a> <span class="mh-muted">· 12 March 2025</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<p class="mh-none" data-mh-lineage="parents">Not derived from another model.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/google/gemma-1/">Gemma</a> <span class="mh-muted">· 21 February 2024</span></li>
+<li><a href="/models/google/gemma-1-1/">Gemma 1.1</a> <span class="mh-muted">· 5 April 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/google/gemma-3/">Gemma 3</a> <span class="mh-muted">· 12 March 2025</span></li>
+<li><a href="/models/google/gemma-4/">Gemma 4</a> <span class="mh-muted">· 2 April 2026</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-h2">Variants</h2>
+<section id="variant-2b" class="mh-variant">
+<h3 class="mh-variant-name">Gemma 2 2B</h3>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[0].dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2024-07-31">31 July 2024</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-2b-announcement" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.google.gemma-releases" aria-label="Source 6, July 31, 2024">[6]</a><span class="mh-locator">July 31, 2024</span></span></span>
+</li>
+</ul>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">Pre-trained and instruction-tuned checkpoints. Google says the 2B model learns from larger models through distillation.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-2b-announcement" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.google.gemma-2-2b-hf" aria-label="Source 7">[7]</a></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: gemma-2-2b, gemma-2-2b-it</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">c. 2.6B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-announcement" aria-label="Source 1, Projects built with Gemma">[1]</a><span class="mh-locator">Projects built with Gemma</span> <a class="mh-ref" href="#source-src.google.gemma-2-technical-report" aria-label="Source 3, Table 2">[3]</a><span class="mh-locator">Table 2</span></span></li>
+</ul>
+</section>
+<section id="variant-9b" class="mh-variant">
+<h3 class="mh-variant-name">Gemma 2 9B</h3>
+<p class="mh-muted">Same dates as Gemma 2.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">Pre-trained and instruction-tuned checkpoints.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.google.gemma-2-9b-hf" aria-label="Source 8">[8]</a></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: gemma-2-9b, gemma-2-9b-it</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">c. 9B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-announcement" aria-label="Source 1, second paragraph">[1]</a><span class="mh-locator">second paragraph</span> <a class="mh-ref" href="#source-src.google.gemma-2-technical-report" aria-label="Source 3, Table 2">[3]</a><span class="mh-locator">Table 2</span></span></li>
+</ul>
+</section>
+<section id="variant-27b" class="mh-variant">
+<h3 class="mh-variant-name">Gemma 2 27B</h3>
+<p class="mh-muted">Same dates as Gemma 2.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">Pre-trained and instruction-tuned checkpoints.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.google.gemma-2-27b-hf" aria-label="Source 9">[9]</a></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: gemma-2-27b, gemma-2-27b-it</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">c. 27B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemma-2-announcement" aria-label="Source 1, second paragraph">[1]</a><span class="mh-locator">second paragraph</span> <a class="mh-ref" href="#source-src.google.gemma-2-technical-report" aria-label="Source 3, Table 2">[3]</a><span class="mh-locator">Table 2</span></span></li>
+</ul>
+</section>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=google">All model releases from Google on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<a class="mh-pager-prev" href="/models/google/gemma-1-1/"><span class="mh-muted">← Earlier in Gemma</span><span>Gemma 1.1</span></a>
+<a class="mh-pager-next" href="/models/google/gemma-3/"><span class="mh-muted">Later in Gemma →</span><span>Gemma 3</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="gemclipmh0"><path d="M12 0C12.96 6.5 17.5 11.04 24 12 17.5 12.96 12.96 17.5 12 24 11.04 17.5 6.5 12.96 0 12 6.5 11.04 11.04 6.5 12 0Z"/></clipPath><radialGradient id="gemredmh0" gradientUnits="userSpaceOnUse" cx="12" cy="2" r="11"><stop offset="0%" stop-color="#FF4641"/><stop offset="100%" stop-color="#FF4641" stop-opacity="0"/></radialGradient><radialGradient id="gemyellowmh0" gradientUnits="userSpaceOnUse" cx="2" cy="12" r="11"><stop offset="0%" stop-color="#FFC400"/><stop offset="100%" stop-color="#FFC400" stop-opacity="0"/></radialGradient><radialGradient id="gemgreenmh0" gradientUnits="userSpaceOnUse" cx="12" cy="22" r="11"><stop offset="0%" stop-color="#00A661"/><stop offset="100%" stop-color="#00A661" stop-opacity="0"/></radialGradient></defs><g clip-path="url(#gemclipmh0)"><rect width="24" height="24" fill="#4285F4"/><rect width="24" height="24" fill="url(#gemredmh0)"/><rect width="24" height="24" fill="url(#gemyellowmh0)"/><rect width="24" height="24" fill="url(#gemgreenmh0)"/></g></svg></span><a href="/models/google/">Google</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/google/#family-google.gemma">Gemma</a></dd></div>
+<div><dt>Generation</dt><dd>2</dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2024-06-27">27 June 2024</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Milestone <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.google.gemma-2-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Gemma 2 is now available to researchers and developers</cite></p>
+<p class="mh-kicker">Announcement · Google · published <time datetime="2024-06-27">27 June 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/">Original ↗</a>
+<span class="mh-url">https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/</span>
+<span class="mh-note">Headline as shown on the page; the HTML title is Google launches Gemma 2, its next generation of open models. The old address https://blog.google/technology/developers/google-gemma-2/ redirects here.</span>
+</div>
+</li>
+<li id="source-src.google.gemma-2-2b-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Smaller, Safer, More Transparent: Advancing Responsible AI with Gemma</cite></p>
+<p class="mh-kicker">Announcement · Google · published <time datetime="2024-07-31">31 July 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/">Original ↗</a>
+<span class="mh-url">https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/</span>
+<span class="mh-note">Google Developers Blog. Announces Gemma 2 2B, ShieldGemma and Gemma Scope.</span>
+</div>
+</li>
+<li id="source-src.google.gemma-2-technical-report" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Gemma 2: Improving Open Language Models at a Practical Size</cite></p>
+<p class="mh-kicker">Technical report · Google · published <time datetime="2024-07-31">31 July 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://arxiv.org/abs/2408.00118">Original ↗</a>
+<span class="mh-url">https://arxiv.org/abs/2408.00118</span>
+<span class="mh-note">arXiv paper by the Gemma Team, Google DeepMind. v1 submitted 31 Jul 2024, last revised 2 Oct 2024 (v3); content cited from v3. The June 2024 Gemma 2 announcement already linked a technical report.</span>
+</div>
+</li>
+<li id="source-src.google.io-2024-gemini-updates" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Gemini breaks new ground with a faster model, longer context, AI agents and more</cite></p>
+<p class="mh-kicker">Announcement · Google · published <time datetime="2024-05-14">14 May 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://blog.google/innovation-and-ai/products/google-gemini-update-flash-ai-assistant-io-2024/">Original ↗</a>
+<span class="mh-url">https://blog.google/innovation-and-ai/products/google-gemini-update-flash-ai-assistant-io-2024/</span>
+<span class="mh-note">Headline as shown on the page (by Demis Hassabis for the Gemini team); the HTML title is Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra. The old address https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/ redirects here.</span>
+</div>
+</li>
+<li id="source-src.google.io-2024-developer-updates" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>Gemini 1.5 Pro updates, 1.5 Flash debut and 2 new Gemma models</cite></p>
+<p class="mh-kicker">Announcement · Google · published <time datetime="2024-05-14">14 May 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-gemma-developer-updates-may-2024/">Original ↗</a>
+<span class="mh-url">https://blog.google/innovation-and-ai/technology/developers-tools/gemini-gemma-developer-updates-may-2024/</span>
+<span class="mh-note">The old address https://blog.google/technology/developers/gemini-gemma-developer-updates-may-2024/ redirects here.</span>
+</div>
+</li>
+<li id="source-src.google.gemma-releases" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[6]</span> <cite>Gemma releases</cite></p>
+<p class="mh-kicker">Release notes · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://ai.google.dev/gemma/docs/releases">Original ↗</a>
+<span class="mh-url">https://ai.google.dev/gemma/docs/releases</span>
+<span class="mh-note">Dated list of Gemma family releases. Living page; content as seen on 2026-10-01, the page says last updated 2026-07-02.</span>
+</div>
+</li>
+<li id="source-src.google.gemma-2-2b-hf" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[7]</span> <cite>google/gemma-2-2b · Hugging Face</cite></p>
+<p class="mh-kicker">Model card · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/google/gemma-2-2b">Original ↗</a>
+<span class="mh-url">https://huggingface.co/google/gemma-2-2b</span>
+<span class="mh-note">Model repository in Google&#39;s Hugging Face organisation (card heading: Gemma 2 model card). Downloading the files requires accepting Google&#39;s Gemma usage license on Hugging Face.</span>
+</div>
+</li>
+<li id="source-src.google.gemma-2-9b-hf" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[8]</span> <cite>google/gemma-2-9b · Hugging Face</cite></p>
+<p class="mh-kicker">Model card · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/google/gemma-2-9b">Original ↗</a>
+<span class="mh-url">https://huggingface.co/google/gemma-2-9b</span>
+<span class="mh-note">Model repository in Google&#39;s Hugging Face organisation (card heading: Gemma 2 model card). Downloading the files requires accepting Google&#39;s Gemma usage license on Hugging Face.</span>
+</div>
+</li>
+<li id="source-src.google.gemma-2-27b-hf" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[9]</span> <cite>google/gemma-2-27b · Hugging Face</cite></p>
+<p class="mh-kicker">Model card · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/google/gemma-2-27b">Original ↗</a>
+<span class="mh-url">https://huggingface.co/google/gemma-2-27b</span>
+<span class="mh-note">Model repository in Google&#39;s Hugging Face organisation (card heading: Gemma 2 model card). Downloading the files requires accepting Google&#39;s Gemma usage license on Hugging Face.</span>
+</div>
+</li>
+<li id="source-src.google.gemma-2-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[10]</span> <cite>Gemma 2 model card</cite></p>
+<p class="mh-kicker">Model card · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://ai.google.dev/gemma/docs/core/model_card_2">Original ↗</a>
+<span class="mh-url">https://ai.google.dev/gemma/docs/core/model_card_2</span>
+<span class="mh-note">Gemma documentation on Google AI for Developers; page footer says last updated 2025-02-25. Living page.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Hugging Face models · Model History · AI Radar</title>
+<meta name="description" content="Hugging Face is a company founded in 2016, incorporated in the US as Hugging Face, Inc., with its main EU establishment in Paris. It runs a platform for…">
+<link rel="canonical" href="https://ai-radar.eu/models/huggingface/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Hugging Face models · Model History · AI Radar">
+<meta property="og:description" content="Hugging Face is a company founded in 2016, incorporated in the US as Hugging Face, Inc., with its main EU establishment in Paris. It runs a platform for…">
+<meta property="og:url" content="https://ai-radar.eu/models/huggingface/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hugging Face models · Model History · AI Radar">
+<meta name="twitter:description" content="Hugging Face is a company founded in 2016, incorporated in the US as Hugging Face, Inc., with its main EU establishment in Paris. It runs a platform for…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script src="/assets/model-pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/huggingface/","url":"https://ai-radar.eu/models/huggingface/","name":"Hugging Face models · Model History · AI Radar","description":"Hugging Face is a company founded in 2016, incorporated in the US as Hugging Face, Inc., with its main EU establishment in Paris. It runs a platform for…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/huggingface/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/huggingface/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Hugging Face","item":"https://ai-radar.eu/models/huggingface/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-company" style="--h:325" data-mh-view="company" data-mh-org="huggingface">
+<div class="mh-page-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li aria-current="page"><span class="mh-co" style="--h:325">Hugging Face</span></li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#FFB000"><path d="M12.025 1.13c-5.77 0-10.449 4.647-10.449 10.378 0 1.112.178 2.181.503 3.185.064-.222.203-.444.416-.577a.96.96 0 0 1 .524-.15c.293 0 .584.124.84.284.278.173.48.408.71.694.226.282.458.611.684.951v-.014c.017-.324.106-.622.264-.874s.403-.487.762-.543c.3-.047.596.06.787.203s.31.313.4.467c.15.257.212.468.233.542.01.026.653 1.552 1.657 2.54.616.605 1.01 1.223 1.082 1.912.055.537-.096 1.059-.38 1.572.637.121 1.294.187 1.967.187.657 0 1.298-.063 1.921-.178-.287-.517-.44-1.041-.384-1.581.07-.69.465-1.307 1.081-1.913 1.004-.987 1.647-2.513 1.657-2.539.021-.074.083-.285.233-.542.09-.154.208-.323.4-.467a1.08 1.08 0 0 1 .787-.203c.359.056.604.29.762.543s.247.55.265.874v.015c.225-.34.457-.67.683-.952.23-.286.432-.52.71-.694.257-.16.547-.284.84-.285a.97.97 0 0 1 .524.151c.228.143.373.388.43.625l.006.04a10.3 10.3 0 0 0 .534-3.273c0-5.731-4.678-10.378-10.449-10.378M8.327 6.583a1.5 1.5 0 0 1 .713.174 1.487 1.487 0 0 1 .617 2.013c-.183.343-.762-.214-1.102-.094-.38.134-.532.914-.917.71a1.487 1.487 0 0 1 .69-2.803m7.486 0a1.487 1.487 0 0 1 .689 2.803c-.385.204-.536-.576-.916-.71-.34-.12-.92.437-1.103.094a1.487 1.487 0 0 1 .617-2.013 1.5 1.5 0 0 1 .713-.174m-10.68 1.55a.96.96 0 1 1 0 1.921.96.96 0 0 1 0-1.92m13.838 0a.96.96 0 1 1 0 1.92.96.96 0 0 1 0-1.92M8.489 11.458c.588.01 1.965 1.157 3.572 1.164 1.607-.007 2.984-1.155 3.572-1.164.196-.003.305.12.305.454 0 .886-.424 2.328-1.563 3.202-.22-.756-1.396-1.366-1.63-1.32q-.011.001-.02.006l-.044.026-.01.008-.03.024q-.018.017-.035.036l-.032.04a1 1 0 0 0-.058.09l-.014.025q-.049.088-.11.19a1 1 0 0 1-.083.116 1.2 1.2 0 0 1-.173.18q-.035.029-.075.058a1.3 1.3 0 0 1-.251-.243 1 1 0 0 1-.076-.107c-.124-.193-.177-.363-.337-.444-.034-.016-.104-.008-.2.022q-.094.03-.216.087-.06.028-.125.063l-.13.074q-.067.04-.136.086a3 3 0 0 0-.135.096 3 3 0 0 0-.26.219 2 2 0 0 0-.12.121 2 2 0 0 0-.106.128l-.002.002a2 2 0 0 0-.09.132l-.001.001a1.2 1.2 0 0 0-.105.212q-.013.036-.024.073c-1.139-.875-1.563-2.317-1.563-3.203 0-.334.109-.457.305-.454m.836 10.354c.824-1.19.766-2.082-.365-3.194-1.13-1.112-1.789-2.738-1.789-2.738s-.246-.945-.806-.858-.97 1.499.202 2.362c1.173.864-.233 1.45-.685.64-.45-.812-1.683-2.896-2.322-3.295s-1.089-.175-.938.647 2.822 2.813 2.562 3.244-1.176-.506-1.176-.506-2.866-2.567-3.49-1.898.473 1.23 2.037 2.16c1.564.932 1.686 1.178 1.464 1.53s-3.675-2.511-4-1.297c-.323 1.214 3.524 1.567 3.287 2.405-.238.839-2.71-1.587-3.216-.642-.506.946 3.49 2.056 3.522 2.064 1.29.33 4.568 1.028 5.713-.624m5.349 0c-.824-1.19-.766-2.082.365-3.194 1.13-1.112 1.789-2.738 1.789-2.738s.246-.945.806-.858.97 1.499-.202 2.362c-1.173.864.233 1.45.685.64.451-.812 1.683-2.896 2.322-3.295s1.089-.175.938.647-2.822 2.813-2.562 3.244 1.176-.506 1.176-.506 2.866-2.567 3.49-1.898-.473 1.23-2.037 2.16c-1.564.932-1.686 1.178-1.464 1.53s3.675-2.511 4-1.297c.323 1.214-3.524 1.567-3.287 2.405.238.839 2.71-1.587 3.216-.642.506.946-3.49 2.056-3.522 2.064-1.29.33-4.568 1.028-5.713-.624"/></svg></span>Hugging Face models</h1>
+<p class="mh-lead">Hugging Face is a company founded in 2016, incorporated in the US as Hugging Face, Inc., with its main EU establishment in Paris. It runs a platform for hosting and sharing machine learning models and datasets, offers courses and tools, and says it works to democratise AI and machine learning. It also releases open models, including the SmolLM and SmolVLM families.</p>
+<div id="mh-family-chips" class="mh-chips" role="group" aria-label="Family" hidden>
+<button type="button" data-family="" aria-pressed="true">All families</button>
+<button type="button" data-family="huggingface.idefics" aria-pressed="false">Idefics</button>
+<button type="button" data-family="huggingface.smol-models" aria-pressed="false">Smol Models</button>
+<button type="button" data-family="huggingface.smollm" aria-pressed="false">SmolLM</button>
+<button type="button" data-family="huggingface.smolvlm" aria-pressed="false">SmolVLM</button>
+<button type="button" data-family="huggingface.zephyr" aria-pressed="false">Zephyr</button>
+</div>
+</div>
+<aside class="mh-head-side" id="evidence" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence overview</h2>
+<dl class="mh-ev-overview">
+<div data-mh-evidence="primary-source"><dt><span class="mh-glyph" aria-hidden="true">●</span> Primary source</dt><dd>13</dd></div>
+<div data-mh-evidence="archived-primary-source"><dt><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</dt><dd>0</dd></div>
+<div data-mh-evidence="secondary-sources"><dt><span class="mh-glyph" aria-hidden="true">○</span> Secondary sources</dt><dd>0</dd></div>
+<div data-mh-evidence="insufficient-evidence"><dt><span class="mh-glyph" aria-hidden="true">◌</span> Evidence incomplete</dt><dd>0</dd></div>
+<div data-mh-flag="original-unavailable"><dt>Original source unavailable</dt><dd>0</dd></div>
+</dl>
+</aside>
+</div>
+<div class="mh-page-body container">
+<div class="mh-body-main">
+<section id="chronology" aria-labelledby="mh-chrono-title">
+<h2 class="mh-visually-hidden" id="mh-chrono-title">Chronology</h2>
+<ol class="mh-chrono">
+<li class="mh-year">
+<div class="mh-year-head"><h3>2025</h3><span class="mh-year-count">3 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="huggingface.smollm3" data-mh-family="huggingface.smollm" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-07-08">8 July 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">SmolLM · Language, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/huggingface/smollm3/">SmolLM3</a>
+<p class="mh-chrono-sum">SmolLM3 is a 3B-parameter open-weight language model from Hugging Face, released under Apache 2.0 as a base model and an instruct model with switchable extended thinking. It natively supports six…</p>
+<ul class="mh-changes-mini"><li>The instruct model adds an extended-thinking mode, on by default and switched with /think and /no_think flags.</li><li>Natively supports six languages: English, French, Spanish, German, Italian and Portuguese.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="huggingface.smolvla" data-mh-family="huggingface.smol-models" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-06-03">3 June 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Smol Models · Language, Multimodal, Robotics · Milestone</span>
+<a class="mh-chrono-name" href="/models/huggingface/smolvla/">SmolVLA</a>
+<p class="mh-chrono-sum">SmolVLA is a 450M-parameter open-weight vision-language-action model for robotics from Hugging Face&#39;s LeRobot project. It pairs SmolVLM2 with an action expert trained with flow matching to turn…</p>
+<ul class="mh-changes-mini"><li>Adds robot state input and continuous action output, generated by a flow-matching action expert on top of the SmolVLM2 backbone.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="huggingface.smolvlm2" data-mh-family="huggingface.smolvlm" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-02-20">20 February 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">SmolVLM · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/huggingface/smolvlm2/">SmolVLM2</a>
+<p class="mh-chrono-sum">SmolVLM2 extends Hugging Face&#39;s SmolVLM vision-language models to video, taking video, images and text as input and producing text. It was released with open weights under Apache 2.0 in 2.2B, 500M…</p>
+<ul class="mh-changes-mini"><li>Accepts video input in addition to images and text.</li><li>Training data adds video datasets such as FineVideo to The Cauldron and Docmatix.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2024</h3><span class="mh-year-count">7 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="huggingface.smolvlm-1" data-mh-family="huggingface.smolvlm" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-11-26">26 November 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">SmolVLM · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/huggingface/smolvlm-1/">SmolVLM</a>
+<p class="mh-chrono-sum">SmolVLM is a 2B open-weight vision-language model from Hugging Face that takes sequences of images and text and produces text, released as Base, Synthetic and Instruct checkpoints under Apache 2.0…</p>
+<ul class="mh-changes-mini"><li>Uses SmolLM2 1.7B instead of Llama 3.1 8B as the language backbone, within the Idefics3 architecture.</li><li>Compresses visual information 9x with pixel shuffle, compared with 4x in Idefics3.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="huggingface.smollm2" data-mh-family="huggingface.smollm" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-10">October 2024</time></span><span class="mh-prec">Day not given</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">SmolLM · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/huggingface/smollm2/">SmolLM2</a>
+<p class="mh-chrono-sum">SmolLM2 is the second generation of Hugging Face&#39;s compact open-weight language models, released in 135M, 360M and 1.7B sizes under Apache 2.0. Hugging Face describes them as light enough to run…</p>
+<ul class="mh-changes-mini"><li>The 1.7B model was trained on 11 trillion tokens, up from 1 trillion for SmolLM-1.7B.</li><li>Context length of the 1.7B model extended from 2k to 8k tokens late in pre-training.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="huggingface.idefics3" data-mh-family="huggingface.idefics" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-08">August 2024</time></span><span class="mh-prec">Day not given</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Idefics · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/huggingface/idefics3/">Idefics3</a>
+<p class="mh-chrono-sum">Idefics3 is an 8B open-weight multimodal model from Hugging Face that takes interleaved images and text and produces text, built on Meta&#39;s Llama 3.1 8B Instruct and Google&#39;s SigLIP-SO400M and…</p>
+<ul class="mh-changes-mini"><li>Uses Llama 3.1 Instruct instead of Mistral-7B as the language model.</li><li>Encodes each image tile of up to 364x364 pixels with 169 visual tokens; larger images are split into tiles that are encoded separately.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="huggingface.smollm-1" data-mh-family="huggingface.smollm" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-07-16">16 July 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">SmolLM · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/huggingface/smollm-1/">SmolLM</a>
+<p class="mh-chrono-sum">SmolLM is a family of small open-weight language models from Hugging Face in 135M, 360M and 1.7B sizes, each released as a base and an instruction-tuned checkpoint under Apache 2.0. Hugging Face…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="huggingface.idefics2" data-mh-family="huggingface.idefics" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-04-15">15 April 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Idefics · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/huggingface/idefics2/">Idefics2</a>
+<p class="mh-chrono-sum">Idefics2 is an 8B multimodal model from Hugging Face that takes interleaved text and images and generates text, published as open weights under Apache 2.0 in base, instruction-tuned and chatty…</p>
+<ul class="mh-changes-mini"><li>A single 8B size instead of 9B and 80B; Hugging Face calls it 10x smaller than the 80B model.</li><li>Replaces gated cross-attention with Perceiver pooling and an MLP projection, and uses Mistral-7B-v0.1 and SigLIP so400m as backbones.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="huggingface.zephyr-141b-a35b" data-mh-family="huggingface.zephyr" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-04-12">12 April 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Zephyr · Language</span>
+<a class="mh-chrono-name" href="/models/huggingface/zephyr-141b-a35b/">Zephyr 141B-A35B</a>
+<p class="mh-chrono-sum">Zephyr 141B-A35B is a Zephyr chat model from Hugging Face, fine-tuned from the Mixture of Experts model Mixtral 8x22B v0.1 and published as open weights under Apache 2.0. The card says Argilla…</p>
+<ul class="mh-changes-mini"><li>A Mixture of Experts model with 141B total and 39B active parameters, against 7B for Zephyr 7B Gemma.</li><li>Built on the Mixture of Experts model Mixtral 8x22B v0.1 as base model instead of Gemma 7B.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="huggingface.zephyr-7b-gemma" data-mh-family="huggingface.zephyr" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-03-01">1 March 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Zephyr · Language</span>
+<a class="mh-chrono-name" href="/models/huggingface/zephyr-7b-gemma/">Zephyr 7B Gemma</a>
+<p class="mh-chrono-sum">Zephyr 7B Gemma is the third model in Hugging Face&#39;s Zephyr series, a 7B chat assistant fine-tuned from Google&#39;s Gemma 7B and published as open weights under the Gemma Terms of Use. It was…</p>
+<ul class="mh-changes-mini"><li>Built on Google&#39;s Gemma 7B as base model instead of Mistral 7B v0.1.</li><li>Fine-tuned on the DEITA 10K dataset and aligned with DPO on argilla/dpo-mix-7k, about 7k prompts with completions scored by GPT-4.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2023</h3><span class="mh-year-count">3 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="huggingface.zephyr-7b-alpha" data-mh-family="huggingface.zephyr" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-10">October 2023</time></span><span class="mh-prec">Day not given</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Zephyr · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/huggingface/zephyr-7b-alpha/">Zephyr 7B Alpha</a>
+<p class="mh-chrono-sum">Zephyr 7B Alpha is the first model in Hugging Face&#39;s Zephyr series of chat assistants, a 7B fine-tune of Mistral 7B v0.1 published as open weights under the MIT licence. Hugging Face says it removed…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="huggingface.zephyr-7b-beta" data-mh-family="huggingface.zephyr" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-10">October 2023</time></span><span class="mh-prec">Day not given</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Zephyr · Language</span>
+<a class="mh-chrono-name" href="/models/huggingface/zephyr-7b-beta/">Zephyr 7B β</a>
+<p class="mh-chrono-sum">Zephyr 7B β is the second model in Hugging Face&#39;s Zephyr series, a 7B chat assistant fine-tuned from Mistral 7B v0.1 and published as open weights under the MIT licence. Its technical report…</p>
+<ul class="mh-changes-mini"><li>Trained on a filtered and preprocessed version of UltraChat and a binarized version of UltraFeedback, whose completions were scored by GPT-4.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="huggingface.idefics-1" data-mh-family="huggingface.idefics" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-08-22">22 August 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Idefics · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/huggingface/idefics-1/">IDEFICS</a>
+<p class="mh-chrono-sum">IDEFICS is an open-weights visual language model from Hugging Face that takes interleaved images and text and produces text, released in 9B and 80B sizes, each as a base and an instruction-tuned…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</section>
+
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<ol class="mh-lineage-models">
+<li id="lineage-huggingface.idefics-1">
+<a href="/models/huggingface/idefics-1/">IDEFICS</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/huggingface/idefics2/">Idefics2</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/meta/llama-1/">LLaMA</a> <span class="mh-org-tag">(Meta)</span> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-huggingface.zephyr-7b-alpha">
+<a href="/models/huggingface/zephyr-7b-alpha/">Zephyr 7B Alpha</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/huggingface/zephyr-7b-beta/">Zephyr 7B β</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-7b/">Mistral 7B</a> <span class="mh-org-tag">(Mistral AI)</span> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-huggingface.zephyr-7b-beta">
+<a href="/models/huggingface/zephyr-7b-beta/">Zephyr 7B β</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/huggingface/zephyr-7b-alpha/">Zephyr 7B Alpha</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/huggingface/zephyr-7b-gemma/">Zephyr 7B Gemma</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-7b/">Mistral 7B</a> <span class="mh-org-tag">(Mistral AI)</span> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-huggingface.zephyr-7b-gemma">
+<a href="/models/huggingface/zephyr-7b-gemma/">Zephyr 7B Gemma</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/huggingface/zephyr-7b-beta/">Zephyr 7B β</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/huggingface/zephyr-141b-a35b/">Zephyr 141B-A35B</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/google/gemma-1/">Gemma</a> <span class="mh-org-tag">(Google)</span> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-huggingface.zephyr-141b-a35b">
+<a href="/models/huggingface/zephyr-141b-a35b/">Zephyr 141B-A35B</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/huggingface/zephyr-7b-gemma/">Zephyr 7B Gemma</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mixtral-8x22b/">Mixtral 8x22B</a> <span class="mh-org-tag">(Mistral AI)</span> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-huggingface.idefics2">
+<a href="/models/huggingface/idefics2/">Idefics2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/huggingface/idefics-1/">IDEFICS</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/huggingface/idefics3/">Idefics3</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-7b/">Mistral 7B</a> <span class="mh-org-tag">(Mistral AI)</span> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-huggingface.smollm-1">
+<a href="/models/huggingface/smollm-1/">SmolLM</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/huggingface/smollm2/">SmolLM2</a></dd></div>
+</dl>
+</li>
+<li id="lineage-huggingface.idefics3">
+<a href="/models/huggingface/idefics3/">Idefics3</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/huggingface/idefics2/">Idefics2</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/meta/llama-3-1/">Llama 3.1</a> <span class="mh-org-tag">(Meta)</span> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-huggingface.smollm2">
+<a href="/models/huggingface/smollm2/">SmolLM2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/huggingface/smollm-1/">SmolLM</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/huggingface/smollm3/">SmolLM3</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/huggingface/smolvlm-1/">SmolVLM</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-huggingface.smolvlm-1">
+<a href="/models/huggingface/smolvlm-1/">SmolVLM</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/huggingface/smolvlm2/">SmolVLM2</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/huggingface/smollm2/">SmolLM2</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-huggingface.smolvlm2">
+<a href="/models/huggingface/smolvlm2/">SmolVLM2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/huggingface/smolvlm-1/">SmolVLM</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/huggingface/smolvla/">SmolVLA</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-huggingface.smolvla">
+<a href="/models/huggingface/smolvla/">SmolVLA</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/huggingface/smolvlm2/">SmolVLM2</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-huggingface.smollm3">
+<a href="/models/huggingface/smollm3/">SmolLM3</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/huggingface/smollm2/">SmolLM2</a></dd></div>
+</dl>
+</li>
+</ol>
+</section>
+<section id="families">
+<h2 class="mh-h2">Families</h2>
+<ul class="mh-families">
+<li id="family-huggingface.hugging-face-models" class="mh-family">
+<h3>Hugging Face models</h3>
+<p class="mh-none">No models listed yet.</p>
+<ul class="mh-families">
+<li id="family-huggingface.idefics" class="mh-family">
+<h3>Idefics</h3>
+<p class="mh-family-models"><a href="/models/huggingface/idefics-1/">IDEFICS</a> · <a href="/models/huggingface/idefics2/">Idefics2</a> · <a href="/models/huggingface/idefics3/">Idefics3</a></p>
+</li>
+<li id="family-huggingface.smol-models" class="mh-family">
+<h3>Smol Models</h3>
+<p class="mh-family-models"><a href="/models/huggingface/smolvla/">SmolVLA</a></p>
+<ul class="mh-families">
+<li id="family-huggingface.smollm" class="mh-family">
+<h3>SmolLM</h3>
+<p class="mh-family-models"><a href="/models/huggingface/smollm-1/">SmolLM</a> · <a href="/models/huggingface/smollm2/">SmolLM2</a> · <a href="/models/huggingface/smollm3/">SmolLM3</a></p>
+</li>
+<li id="family-huggingface.smolvlm" class="mh-family">
+<h3>SmolVLM</h3>
+<p class="mh-family-models"><a href="/models/huggingface/smolvlm-1/">SmolVLM</a> · <a href="/models/huggingface/smolvlm2/">SmolVLM2</a></p>
+</li>
+</ul>
+</li>
+<li id="family-huggingface.zephyr" class="mh-family">
+<h3>Zephyr</h3>
+<p class="mh-family-models"><a href="/models/huggingface/zephyr-7b-alpha/">Zephyr 7B Alpha</a> · <a href="/models/huggingface/zephyr-7b-beta/">Zephyr 7B β</a> · <a href="/models/huggingface/zephyr-7b-gemma/">Zephyr 7B Gemma</a> · <a href="/models/huggingface/zephyr-141b-a35b/">Zephyr 141B-A35B</a></p>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="organization">
+<h2 class="mh-h2">About the organisation</h2>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="description" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Description</span>
+<span class="mh-claim-value">Hugging Face is a company founded in 2016, incorporated in the US as Hugging Face, Inc., with its main EU establishment in Paris. It runs a platform for hosting and sharing machine learning models and datasets, offers courses and tools, and says it works to democratise AI and machine learning. It also releases open models, including the SmolLM and SmolVLM families.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.huggingface.ai-action-plan-response-2025" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.huggingface.terms-of-service" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.huggingface.privacy-policy" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.huggingface.smollm-github" aria-label="Source 4">[4]</a></span></span>
+</li>
+</ul>
+<p class="mh-facts-line">Company · <a href="https://huggingface.co">https://huggingface.co</a> · 13 models listed here</p>
+</section>
+<section id="sources">
+<h2 class="mh-h2">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.huggingface.ai-action-plan-response-2025" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Hugging Face Response to Request for Information on the Development of an Artificial Intelligence Action Plan</cite></p>
+<p class="mh-kicker">Other · Hugging Face · published <time datetime="2025-03">March 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/datasets/huggingface/policy-docs/resolve/main/2025_Hugging_Face_Response_to_AI_Action_Plan.pdf">Original ↗</a>
+<span class="mh-url">https://huggingface.co/datasets/huggingface/policy-docs/resolve/main/2025_Hugging_Face_Response_to_AI_Action_Plan.pdf</span>
+<span class="mh-note">PDF in the huggingface/policy-docs dataset on the Hugging Face Hub, linked from the blog post https://huggingface.co/blog/ai-action-wh-2025. The cover gives March 2025. The resolve URL answers 302 to a signed, expiring CDN address, so the stable Hub URL is kept. Facts used: the About Hugging Face section (community-driven U.S. company; hosts models and datasets; educational resources, courses and tooling) and the sentence saying it was founded in 2016.</span>
+</div>
+</li>
+<li id="source-src.huggingface.terms-of-service" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Terms of Service</cite></p>
+<p class="mh-kicker">Other · Hugging Face</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/terms-of-service">Original ↗</a>
+<span class="mh-url">https://huggingface.co/terms-of-service</span>
+<span class="mh-note">Living page; states Effective Date: September 15, 2022 and names the contracting party as Hugging Face, Inc., a Delaware corporation. HTML title: Terms of Service – Hugging Face.</span>
+</div>
+</li>
+<li id="source-src.huggingface.privacy-policy" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Hugging Face Privacy Policy</cite></p>
+<p class="mh-kicker">Other · Hugging Face</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/privacy">Original ↗</a>
+<span class="mh-url">https://huggingface.co/privacy</span>
+<span class="mh-note">Living page; states Effective Date: March 28, 2023. Names Hugging Face SAS, headquartered at 9 rue des Colonnes, Paris, as the main establishment in the European Union. HTML title: Privacy Policy – Hugging Face.</span>
+</div>
+</li>
+<li id="source-src.huggingface.smollm-github" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>huggingface/smollm</cite></p>
+<p class="mh-kicker">Repository · Hugging Face</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://github.com/huggingface/smollm">Original ↗</a>
+<span class="mh-url">https://github.com/huggingface/smollm</span>
+<span class="mh-note">Hugging Face GitHub repository; the README is headed Smol Models and describes a family of efficient, fully open models from Hugging Face for text and vision that can run on-device (SmolLM3, SmolLM2, SmolLM, SmolVLM). HTML title: GitHub - huggingface/smollm: Everything about the SmolLM and SmolVLM family of models. Living page.</span>
+</div>
+</li>
+</ol>
+</section>
+</div>
+<aside class="mh-body-side" id="coverage" aria-labelledby="mh-cov-title">
+<h2 class="mh-legend" id="mh-cov-title">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=huggingface">All model releases from Hugging Face on AI Radar →</a></p>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>OpenAI models · Model History · AI Radar</title>
+<meta name="description" content="OpenAI was announced in December 2015 as a non-profit artificial intelligence research company and states its mission as ensuring that artificial general…">
+<link rel="canonical" href="https://ai-radar.eu/models/openai/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="OpenAI models · Model History · AI Radar">
+<meta property="og:description" content="OpenAI was announced in December 2015 as a non-profit artificial intelligence research company and states its mission as ensuring that artificial general…">
+<meta property="og:url" content="https://ai-radar.eu/models/openai/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="OpenAI models · Model History · AI Radar">
+<meta name="twitter:description" content="OpenAI was announced in December 2015 as a non-profit artificial intelligence research company and states its mission as ensuring that artificial general…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script src="/assets/model-pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/openai/","url":"https://ai-radar.eu/models/openai/","name":"OpenAI models · Model History · AI Radar","description":"OpenAI was announced in December 2015 as a non-profit artificial intelligence research company and states its mission as ensuring that artificial general…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/openai/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/openai/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"OpenAI","item":"https://ai-radar.eu/models/openai/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-company" style="--h:20" data-mh-view="company" data-mh-org="openai">
+<div class="mh-page-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li aria-current="page"><span class="mh-co" style="--h:20">OpenAI</span></li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.073zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.8956zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997z"/></svg></span>OpenAI models</h1>
+<p class="mh-lead">OpenAI was announced in December 2015 as a non-profit artificial intelligence research company and states its mission as ensuring that artificial general intelligence benefits all of humanity. It develops the GPT language models, the o-series reasoning models and the open-weight gpt-oss models, and offers its models through ChatGPT and the OpenAI API.</p>
+<div id="mh-family-chips" class="mh-chips" role="group" aria-label="Family" hidden>
+<button type="button" data-family="" aria-pressed="true">All families</button>
+<button type="button" data-family="openai.gpt" aria-pressed="false">GPT</button>
+<button type="button" data-family="openai.gpt-astra" aria-pressed="false">GPT Astra</button>
+<button type="button" data-family="openai.gpt-instant" aria-pressed="false">GPT Instant</button>
+<button type="button" data-family="openai.gpt-luna" aria-pressed="false">GPT Luna</button>
+<button type="button" data-family="openai.gpt-mini" aria-pressed="false">GPT mini</button>
+<button type="button" data-family="openai.gpt-oss" aria-pressed="false">gpt-oss</button>
+<button type="button" data-family="openai.gpt-sol" aria-pressed="false">GPT Sol</button>
+<button type="button" data-family="openai.gpt-terra" aria-pressed="false">GPT Terra</button>
+<button type="button" data-family="openai.o-series" aria-pressed="false">OpenAI o-series</button>
+</div>
+</div>
+<aside class="mh-head-side" id="evidence" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence overview</h2>
+<dl class="mh-ev-overview">
+<div data-mh-evidence="primary-source"><dt><span class="mh-glyph" aria-hidden="true">●</span> Primary source</dt><dd>37</dd></div>
+<div data-mh-evidence="archived-primary-source"><dt><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</dt><dd>0</dd></div>
+<div data-mh-evidence="secondary-sources"><dt><span class="mh-glyph" aria-hidden="true">○</span> Secondary sources</dt><dd>0</dd></div>
+<div data-mh-evidence="insufficient-evidence"><dt><span class="mh-glyph" aria-hidden="true">◌</span> Evidence incomplete</dt><dd>0</dd></div>
+<div data-mh-flag="original-unavailable"><dt>Original source unavailable</dt><dd>0</dd></div>
+</dl>
+<h3 class="mh-legend">Incomplete evidence</h3>
+<ul class="mh-mini-list" data-mh-list="incomplete">
+<li><a href="/models/openai/chatgpt/">ChatGPT</a> <span class="mh-muted">Some details lack sources</span></li>
+<li><a href="/models/openai/gpt-5-6-sol-2026-08/">GPT-5.6 Sol (August 2026 revision)</a> <span class="mh-muted">Some details lack sources</span></li>
+</ul>
+</aside>
+</div>
+<div class="mh-page-body container">
+<div class="mh-body-main">
+<section id="chronology" aria-labelledby="mh-chrono-title">
+<h2 class="mh-visually-hidden" id="mh-chrono-title">Chronology</h2>
+<ol class="mh-chrono">
+<li class="mh-year">
+<div class="mh-year-head"><h3>2026</h3><span class="mh-year-count">13 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="openai.gpt-6-1-sol" data-mh-family="openai.gpt-sol" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-09-29">29 September 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT Sol · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-6-1-sol/">GPT-6.1 Sol</a>
+<p class="mh-chrono-sum">GPT-6.1 Sol is the first model of OpenAI&#39;s GPT-6.1 family, a reasoning language model for text and image input released on 29 September 2026 in the API and in ChatGPT Work and Codex for paid and Edu…</p>
+<ul class="mh-changes-mini"><li>Rated Critical in cybersecurity, where GPT-6 Sol was rated High, and served with the GPT-6 Astra safeguards stack.</li><li>Does not support the none reasoning effort level, which GPT-6 Sol supports.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 2 news items</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-6-luna" data-mh-family="openai.gpt-luna" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-09-22">22 September 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT Luna · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-6-luna/">GPT-6 Luna</a>
+<p class="mh-chrono-sum">GPT-6 Luna is the Luna tier of OpenAI&#39;s GPT-6 family, a reasoning language model for text and image input that the API docs describe as meant for focused, high-volume tasks. It was released with…</p>
+<ul class="mh-changes-mini"><li>API prices of 0.10 USD input and 0.50 USD output per million tokens, against 0.20 USD and 1.20 USD for GPT-5.6 Luna.</li><li>Uses the same types of data and training as GPT-6 Astra, with a knowledge cutoff of 18 May 2026 against 16 February 2026 for GPT-5.6 Luna.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-6-sol" data-mh-family="openai.gpt-sol" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-09-22">22 September 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT Sol · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-6-sol/">GPT-6 Sol</a>
+<p class="mh-chrono-sum">GPT-6 Sol is the Sol tier of OpenAI&#39;s GPT-6 family, a reasoning language model for text and image input that OpenAI describes as a lower-cost alternative to GPT-6 Astra, trained with similar…</p>
+<ul class="mh-changes-mini"><li>API prices of 2 USD input and 10 USD output per million tokens, half of the promotional GPT-5.6 Sol price of 4 USD and 20 USD.</li><li>Uses the same types of data and training as GPT-6 Astra, with a knowledge cutoff of 20 April 2026 against 16 February 2026 for GPT-5.6 Sol.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-6-astra" data-mh-family="openai.gpt-astra" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-09-03">3 September 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT Astra · Language, Multimodal, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-6-astra/">GPT-6 Astra</a>
+<p class="mh-chrono-sum">GPT-6 Astra is the first model of OpenAI&#39;s GPT-6 generation, a reasoning language model for text and image input released on 3 September 2026 in ChatGPT Work, Codex, the API and Amazon Bedrock…</p>
+<ul class="mh-changes-mini"><li>Rated Critical in cybersecurity (GPT-5.6 Sol: High); OpenAI added misalignment monitoring to tool-using inference in external deployment.</li><li>Adds async tool calling, mid-turn steering and changes of reasoning effort mid-conversation in the Responses API, which is also required for tool calling.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 17 news items</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-5-6-sol-2026-08" data-mh-family="openai.gpt-sol" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-08-06">6 August 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT Sol · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-5-6-sol-2026-08/">GPT-5.6 Sol (August 2026 revision)</a>
+<p class="mh-chrono-sum">The August 2026 revision of GPT-5.6 Sol is an updated version of that OpenAI reasoning model, released on 6 August 2026 under the same name for ChatGPT conversations only; Codex and ChatGPT Work…</p>
+<ul class="mh-changes-mini"><li>In ChatGPT, a slider lets Plus and Pro users choose how much thought the model puts into a response, and one model covers both Instant responses and deeper reasoning.</li><li>Offered only in ChatGPT conversations, where it replaced GPT-5.5 Instant together with the August GPT-5.6 Luna; Codex and ChatGPT Work kept the July version.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Status unknown · no news linked</span>
+<span class="mh-flag" data-mh-flag="some-claims-incomplete">Some details lack sources</span>
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-5-6-luna" data-mh-family="openai.gpt-luna" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-07-09">9 July 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT Luna · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-5-6-luna/">GPT-5.6 Luna</a>
+<p class="mh-chrono-sum">GPT-5.6 Luna is the smallest tier of OpenAI&#39;s GPT-5.6 family, a reasoning language model for text and image input that the API docs describe as meant for cost-sensitive, high-volume work. Released…</p>
+<ul class="mh-changes-mini"><li>Context window of 1,050,000 tokens, up from 400,000 in GPT-5.4 nano, the model of the nano tier that Luna corresponds to.</li><li>Knowledge cutoff of 16 February 2026, against 31 August 2025 for GPT-5.4 nano.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-5-6-sol" data-mh-family="openai.gpt-sol" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-07-09">9 July 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT Sol · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-5-6-sol/">GPT-5.6 Sol</a>
+<p class="mh-chrono-sum">GPT-5.6 Sol is the flagship of OpenAI&#39;s GPT-5.6 family, a reasoning language model for text and image input offered in ChatGPT, Codex, the API and Amazon Bedrock. Previewed with trusted partners on…</p>
+<ul class="mh-changes-mini"><li>Adds Programmatic Tool Calling in the API and, in beta, multi-agent orchestration in the Responses API.</li><li>Adds a max reasoning effort level, persisted reasoning and Pro mode in the API.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-5-6-terra" data-mh-family="openai.gpt-terra" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-07-09">9 July 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT Terra · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-5-6-terra/">GPT-5.6 Terra</a>
+<p class="mh-chrono-sum">GPT-5.6 Terra is the middle tier of OpenAI&#39;s GPT-5.6 family, a reasoning language model for text and image input that OpenAI describes as a capable lower-cost option. Released on 9 July 2026 in…</p>
+<ul class="mh-changes-mini"><li>Context window of 1,050,000 tokens, up from 400,000 in GPT-5.4 mini.</li><li>Knowledge cutoff of 16 February 2026, against 31 August 2025 for GPT-5.4 mini.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-5-5-instant" data-mh-family="openai.gpt-instant" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-05-05">5 May 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT Instant · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-5-5-instant/">GPT-5.5 Instant</a>
+<p class="mh-chrono-sum">GPT-5.5 Instant is the Instant model of OpenAI&#39;s GPT-5.5 generation, released on 5 May 2026 as the default ChatGPT model for all users and offered in the API through the chat-latest alias. OpenAI…</p>
+<ul class="mh-changes-mini"><li>OpenAI reports fewer hallucinated and inaccurate claims than GPT-5.3 Instant in its internal evaluations.</li><li>OpenAI describes shorter, more direct answers with fewer follow-up questions, less formatting and fewer emojis.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Status unknown · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-5-5" data-mh-family="openai.gpt" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-04-23">23 April 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-5-5/">GPT-5.5</a>
+<p class="mh-chrono-sum">GPT-5.5 is an OpenAI reasoning model for text and image input, released on 23 April 2026 in ChatGPT as GPT-5.5 Thinking and in Codex, with the API a day later. OpenAI describes it as a model for…</p>
+<ul class="mh-changes-mini"><li>OpenAI says it matches GPT-5.4&#39;s per-token latency in real-world serving while using fewer tokens for the same Codex tasks.</li><li>Knowledge cutoff moves to 1 December 2025, from 31 August 2025 for GPT-5.4.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-5-4-mini" data-mh-family="openai.gpt-mini" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-03-17">17 March 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT mini · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-5-4-mini/">GPT-5.4 mini</a>
+<p class="mh-chrono-sum">GPT-5.4 mini is a small OpenAI model for text and image input, released on 17 March 2026 with GPT-5.4 nano for high-volume workloads, in the API, Codex and ChatGPT. OpenAI says it brings many…</p>
+<ul class="mh-changes-mini"><li>OpenAI says it runs more than twice as fast as GPT-5 mini while improving coding, reasoning, multimodal understanding and tool use.</li><li>Supports tool search and built-in computer use in the API; GPT-5.4 nano supports neither.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-5-4" data-mh-family="openai.gpt" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-03-05">5 March 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-5-4/">GPT-5.4</a>
+<p class="mh-chrono-sum">GPT-5.4 is an OpenAI reasoning model for text and image input, released on 5 March 2026 as GPT-5.4 Thinking in ChatGPT, as gpt-5.4 in the API and in Codex, alongside GPT-5.4 Pro. OpenAI calls it its…</p>
+<ul class="mh-changes-mini"><li>Adds native computer use: through the API&#39;s built-in computer tool it can issue mouse and keyboard commands in response to screenshots.</li><li>Context window grows to 1,050,000 tokens in the API, from 400,000 for GPT-5.2.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-5-3-instant" data-mh-family="openai.gpt-instant" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-03-03">3 March 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT Instant · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-5-3-instant/">GPT-5.3 Instant</a>
+<p class="mh-chrono-sum">GPT-5.3 Instant is an update to the Instant model in OpenAI&#39;s ChatGPT for text and image input, released on 3 March 2026 to all ChatGPT users and in the API as gpt-5.3-chat-latest. OpenAI says it…</p>
+<ul class="mh-changes-mini"><li>OpenAI says it gives fewer unnecessary refusals and fewer defensive or moralizing caveats than GPT-5.2 Instant.</li><li>OpenAI says it balances web search results better with its own knowledge, for example to put recent news in context.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2025</h3><span class="mh-year-count">10 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="openai.gpt-5-2" data-mh-family="openai.gpt" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-12-11">11 December 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-5-2/">GPT-5.2</a>
+<p class="mh-chrono-sum">GPT-5.2 is an OpenAI model series for text and image input aimed at professional knowledge work, released on 11 December 2025 in ChatGPT as GPT-5.2 Instant, Thinking and Pro and in the API the same…</p>
+<ul class="mh-changes-mini"><li>Adds an xhigh reasoning effort level, concise reasoning summaries and context management through compaction.</li><li>Knowledge cutoff moves to 31 August 2025, from 30 September 2024 for GPT-5.1.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-5-1" data-mh-family="openai.gpt" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-11-12">12 November 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-5-1/">GPT-5.1</a>
+<p class="mh-chrono-sum">GPT-5.1 is an upgrade of OpenAI&#39;s GPT-5 series for text and image input, released in ChatGPT on 12 November 2025 as GPT-5.1 Instant and GPT-5.1 Thinking and in the API a day later. OpenAI says both…</p>
+<ul class="mh-changes-mini"><li>OpenAI says thinking time adapts more closely to task difficulty, and GPT-5.1 Instant is the first Instant model that can decide to think before answering.</li><li>In the API the default reasoning effort is a new setting called none, where GPT-5 defaulted to medium.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-5" data-mh-family="openai.gpt" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-08-07">7 August 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language, Multimodal, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-5/">GPT-5</a>
+<p class="mh-chrono-sum">GPT-5 is a language and reasoning model in OpenAI&#39;s GPT line for text and image input, released on 7 August 2025 in ChatGPT and the API. In ChatGPT it is a system of a fast model, a reasoning model…</p>
+<ul class="mh-changes-mini"><li>In ChatGPT a router chooses between a fast model and a reasoning model, instead of separate model choices.</li><li>OpenAI says GPT-5 with thinking needs 50 to 80 percent fewer output tokens than o3 for better results across several capabilities.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-oss-1" data-mh-family="openai.gpt-oss" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-08-05">5 August 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">gpt-oss · Language, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-oss-1/">gpt-oss</a>
+<p class="mh-chrono-sum">gpt-oss is a pair of open-weight language models from OpenAI, gpt-oss-120b and gpt-oss-20b, released on 5 August 2025 under the Apache 2.0 licence with reasoning and tool-use abilities. OpenAI calls…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.o3-pro" data-mh-family="openai.o-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-06-10">10 June 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">OpenAI o-series · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/o3-pro/">o3-pro</a>
+<p class="mh-chrono-sum">o3-pro is a version of OpenAI&#39;s o3 reasoning model that uses more compute to think longer, released on 10 June 2025 for ChatGPT Pro users and in the API. It accepts text and image input; the docs…</p>
+<ul class="mh-changes-mini"><li>Uses more compute than o3 to think longer before answering; the docs say some requests can take several minutes.</li><li>Limited to ChatGPT Pro users and, according to the docs, the Responses API.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.o3" data-mh-family="openai.o-series" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-04-16">16 April 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">OpenAI o-series · Language, Multimodal, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/openai/o3/">o3</a>
+<p class="mh-chrono-sum">o3 is a reasoning model in OpenAI&#39;s o-series for text and image input, previewed in December 2024 and released with o4-mini on 16 April 2025 in ChatGPT and the API. OpenAI says o3 and o4-mini were…</p>
+<ul class="mh-changes-mini"><li>Can use and combine all ChatGPT tools, such as web search and Python, within its reasoning, and decides itself when to call them.</li><li>Can work with images inside its chain of thought, for example by rotating or zooming them.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.o4-mini" data-mh-family="openai.o-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-04-16">16 April 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">OpenAI o-series · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/o4-mini/">o4-mini</a>
+<p class="mh-chrono-sum">o4-mini is a smaller reasoning model in OpenAI&#39;s o-series for text and image input, released with o3 on 16 April 2025 in ChatGPT and the API. OpenAI describes it as optimised for fast…</p>
+<ul class="mh-changes-mini"><li>Accepts image input; o3-mini accepted text only.</li><li>Can use and combine ChatGPT tools within its reasoning.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-4-1" data-mh-family="openai.gpt" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-04-14">14 April 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-4-1/">GPT-4.1</a>
+<p class="mh-chrono-sum">GPT-4.1 is a non-reasoning language model in OpenAI&#39;s GPT line for text and image input, launched in the API on 14 April 2025 with GPT-4.1 mini and GPT-4.1 nano. OpenAI says the series improves on…</p>
+<ul class="mh-changes-mini"><li>Context window of up to one million tokens (1,047,576 in the API docs), larger than GPT-4o&#39;s.</li><li>Maximum output raised to 32,768 tokens, from 16,384 for GPT-4o.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-4-5" data-mh-family="openai.gpt" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-02-27">27 February 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-4-5/">GPT-4.5</a>
+<p class="mh-chrono-sum">GPT-4.5 is a language model in OpenAI&#39;s GPT line for text and image input, released on 27 February 2025 as a research preview in ChatGPT and the API. OpenAI presented it as a step in scaling…</p>
+<ul class="mh-changes-mini"><li>Scales pre-training further than GPT-4o, on a mix of public, partner-licensed and in-house data.</li><li>Uses new alignment techniques that train the larger model with data derived from smaller models; OpenAI says they target steerability and natural conversation.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.o3-mini" data-mh-family="openai.o-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-01-31">31 January 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">OpenAI o-series · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/o3-mini/">o3-mini</a>
+<p class="mh-chrono-sum">o3-mini is a small reasoning model in OpenAI&#39;s o-series for text input, previewed with o3 in December 2024 and released on 31 January 2025 in ChatGPT and the API. OpenAI calls it its first small…</p>
+<ul class="mh-changes-mini"><li>Adds function calling, Structured Outputs and developer messages; OpenAI calls it its first small reasoning model with these features.</li><li>Adds a choice of low, medium or high reasoning effort; in ChatGPT the high setting is offered as o3-mini-high.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2024</h3><span class="mh-year-count">5 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="openai.o1" data-mh-family="openai.o-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-12-05">5 December 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">OpenAI o-series · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/o1/">o1</a>
+<p class="mh-chrono-sum">o1 is an OpenAI reasoning model, presented on 12 September 2024 and released in ChatGPT on 5 December 2024, when ChatGPT Pro launched with o1 pro mode, a version that uses more compute. A…</p>
+<ul class="mh-changes-mini"><li>Accepts image input in the API, where o1-preview took text only.</li><li>Supports function calling, Structured Outputs and developer messages in the API.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.o1-mini" data-mh-family="openai.o-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-09-12">12 September 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">OpenAI o-series · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/openai/o1-mini/">o1-mini</a>
+<p class="mh-chrono-sum">o1-mini is a smaller, lower-cost OpenAI reasoning model released on 12 September 2024 together with o1-preview and aimed at STEM tasks, especially math and coding. It was offered to API usage tier 5…</p>
+<ul class="mh-changes-mini"><li>Faster than o1-preview and 80 percent cheaper in the API, with higher rate limits in ChatGPT.</li><li>Narrower knowledge outside STEM, such as dates, biographies and trivia, which OpenAI compares to small models like GPT-4o mini.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.o1-preview" data-mh-family="openai.o-series" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-09-12">12 September 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">OpenAI o-series · Language, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/openai/o1-preview/">o1-preview</a>
+<p class="mh-chrono-sum">o1-preview is an OpenAI reasoning model released on 12 September 2024 as an early version of o1 and the first model of the o-series, offered in ChatGPT and to API usage tier 5 developers. OpenAI…</p>
+<ul class="mh-changes-mini"><li>Works through a chain of thought before answering, trained with large-scale reinforcement learning; OpenAI says results improve with more time spent thinking.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-4o-mini" data-mh-family="openai.gpt-mini" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-07-18">18 July 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT mini · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-4o-mini/">GPT-4o mini</a>
+<p class="mh-chrono-sum">GPT-4o mini is a small, low-cost OpenAI model released on 18 July 2024 in the API and in ChatGPT, where it took the place of GPT-3.5. It accepts text and image input with a 128K context window, and…</p>
+<ul class="mh-changes-mini"><li>Accepts image input as well as text in the API.</li><li>Context window of 128,000 tokens with up to 16,384 output tokens, up from 16,385 tokens for gpt-3.5-turbo-0125.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-4o" data-mh-family="openai.gpt" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-05-13">13 May 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-4o/">GPT-4o</a>
+<p class="mh-chrono-sum">GPT-4o is an OpenAI model released on 13 May 2024 in ChatGPT, including the free tier, and in the API. OpenAI describes it as an omni model trained end to end across text, vision and audio; at…</p>
+<ul class="mh-changes-mini"><li>OpenAI says it processes audio natively with text and images in one model trained end to end, where the earlier Voice Mode chained three separate models.</li><li>In the API it is twice as fast and half the price of GPT-4 Turbo, with five times higher rate limits.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2023</h3><span class="mh-year-count">3 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="openai.gpt-4-turbo" data-mh-family="openai.gpt" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-11-06">6 November 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-4-turbo/">GPT-4 Turbo</a>
+<p class="mh-chrono-sum">GPT-4 Turbo is an OpenAI model for the API, announced at DevDay on 6 November 2023 as a preview of the next generation of GPT-4 and offered that day as gpt-4-1106-preview. It has a 128K context…</p>
+<ul class="mh-changes-mini"><li>Context window of 128K tokens, which OpenAI says fits more than 300 pages of text; the gpt-4 API model had 8,192 tokens.</li><li>Knowledge of world events extends to April 2023.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-4" data-mh-family="openai.gpt" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-03-14">14 March 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-4/">GPT-4</a>
+<p class="mh-chrono-sum">GPT-4 is an OpenAI model that OpenAI describes as a large multimodal model taking image and text input and producing text. It was released on 14 March 2023 in ChatGPT Plus and through an API…</p>
+<ul class="mh-changes-mini"><li>Accepts image input in addition to text; at launch image input was tested with a single partner, and it reached ChatGPT in September 2023.</li><li>OpenAI reports that after six months of alignment work GPT-4 responds less often to requests for disallowed content than GPT-3.5.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-3-5-turbo" data-mh-family="openai.gpt" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-03-01">1 March 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-3-5-turbo/">GPT-3.5 Turbo</a>
+<p class="mh-chrono-sum">GPT-3.5 Turbo is an OpenAI language model released in the API on 1 March 2023 as gpt-3.5-turbo, which OpenAI said was the model used in the ChatGPT product, and first marketed as the ChatGPT API. It…</p>
+<ul class="mh-changes-mini"><li>Makes the ChatGPT model available to developers through the OpenAI API, with dated snapshots such as gpt-3.5-turbo-0301 for pinning a version.</li><li>OpenAI reported a 90 percent cost reduction for ChatGPT since December 2022 through system-wide optimisations and passed the savings on to API users.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2022</h3><span class="mh-year-count">3 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="openai.chatgpt" data-mh-family="openai.gpt" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2022-11-30">30 November 2022</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/openai/chatgpt/">ChatGPT</a>
+<p class="mh-chrono-sum">ChatGPT is a conversational language model from OpenAI, fine-tuned from a model in the GPT-3.5 series and offered from 30 November 2022 as a free research preview. OpenAI calls it a sibling model to…</p>
+<ul class="mh-changes-mini"><li>Trained for dialogue: human trainers wrote conversations playing both user and assistant, mixed with the InstructGPT dataset converted to dialogue format.</li><li>Offered as a free research preview on the web instead of through the API.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Status unknown · no news linked</span>
+<span class="mh-flag" data-mh-flag="some-claims-incomplete">Some details lack sources</span>
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.gpt-3-5" data-mh-family="openai.gpt" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2022-03-15">15 March 2022</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-3-5/">GPT-3.5</a>
+<p class="mh-chrono-sum">GPT-3.5 is OpenAI&#39;s name for a series of API models trained on a blend of text and code from before the fourth quarter of 2021: the code completion base model code-davinci-002 and the…</p>
+<ul class="mh-changes-mini"><li>Trained on a blend of text and code from before the fourth quarter of 2021.</li><li>text-davinci-002 and code-davinci-002 can insert text into the middle of existing content, not only complete it.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="openai.instructgpt" data-mh-family="openai.gpt" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2022-01-27">27 January 2022</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language</span>
+<a class="mh-chrono-name" href="/models/openai/instructgpt/">InstructGPT</a>
+<p class="mh-chrono-sum">InstructGPT is a set of GPT-3 language models that OpenAI fine-tuned with human feedback to follow user instructions, offered through the OpenAI API, where they became the default language models in…</p>
+<ul class="mh-changes-mini"><li>Trained with labeler demonstrations, a reward model and PPO to do the task the user asks for, instead of only predicting the next word of internet text.</li><li>OpenAI says it makes up facts less often than GPT-3 and shows small decreases in toxic output.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2020</h3><span class="mh-year-count">1 model</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="openai.gpt-3" data-mh-family="openai.gpt" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2020-06-11">11 June 2020</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-3/">GPT-3</a>
+<p class="mh-chrono-sum">GPT-3 is an autoregressive language model from OpenAI with 175 billion parameters, introduced in May 2020 in a paper that applies it to tasks given as text instructions or a few examples in the…</p>
+<ul class="mh-changes-mini"><li>175 billion parameters, against 1.5 billion for the biggest GPT-2 version.</li><li>Context window doubled to 2048 tokens, from 1024 for GPT-2.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2019</h3><span class="mh-year-count">1 model</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="openai.gpt-2" data-mh-family="openai.gpt" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2019-02-14">14 February 2019</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-2/">GPT-2</a>
+<p class="mh-chrono-sum">GPT-2 is a transformer language model from OpenAI with up to 1.5 billion parameters, trained on about 40GB of internet text and described by OpenAI as a direct scale-up of GPT. Citing concerns about…</p>
+<ul class="mh-changes-mini"><li>More than ten times the parameters of GPT, with 1.5 billion in the biggest version.</li><li>Trained on WebText, about 40GB of text from 8 million web pages, more than ten times the training data of GPT.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2018</h3><span class="mh-year-count">1 model</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="openai.gpt-1" data-mh-family="openai.gpt" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2018-06-11">11 June 2018</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">GPT · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/openai/gpt-1/">GPT</a>
+<p class="mh-chrono-sum">GPT is a transformer language model from OpenAI, published in June 2018 with a paper and released with its code and pretrained weights under the MIT licence. It was pre-trained without supervision…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</section>
+
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<ol class="mh-lineage-models">
+<li id="lineage-openai.gpt-1">
+<a href="/models/openai/gpt-1/">GPT</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-2/">GPT-2</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-2">
+<a href="/models/openai/gpt-2/">GPT-2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-1/">GPT</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-3/">GPT-3</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-3">
+<a href="/models/openai/gpt-3/">GPT-3</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-2/">GPT-2</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-3-5/">GPT-3.5</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/openai/instructgpt/">InstructGPT</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.instructgpt">
+<a href="/models/openai/instructgpt/">InstructGPT</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/openai/gpt-3/">GPT-3</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-3-5">
+<a href="/models/openai/gpt-3-5/">GPT-3.5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-3/">GPT-3</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-4/">GPT-4</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/openai/chatgpt/">ChatGPT</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.chatgpt">
+<a href="/models/openai/chatgpt/">ChatGPT</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-3-5-turbo/">GPT-3.5 Turbo</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/openai/gpt-3-5/">GPT-3.5</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-3-5-turbo">
+<a href="/models/openai/gpt-3-5-turbo/">GPT-3.5 Turbo</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/chatgpt/">ChatGPT</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-4o-mini/">GPT-4o mini</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-4">
+<a href="/models/openai/gpt-4/">GPT-4</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-3-5/">GPT-3.5</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-4-turbo/">GPT-4 Turbo</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-4-turbo">
+<a href="/models/openai/gpt-4-turbo/">GPT-4 Turbo</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-4/">GPT-4</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-4o/">GPT-4o</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-4o">
+<a href="/models/openai/gpt-4o/">GPT-4o</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-4-turbo/">GPT-4 Turbo</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-4-1/">GPT-4.1</a>; <a href="/models/openai/gpt-4-5/">GPT-4.5</a>; <a href="/models/openai/gpt-5/">GPT-5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-4o-mini">
+<a href="/models/openai/gpt-4o-mini/">GPT-4o mini</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-3-5-turbo/">GPT-3.5 Turbo</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.o1-mini">
+<a href="/models/openai/o1-mini/">o1-mini</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/o3-mini/">o3-mini</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.o1-preview">
+<a href="/models/openai/o1-preview/">o1-preview</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/o1/">o1</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.o1">
+<a href="/models/openai/o1/">o1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/o1-preview/">o1-preview</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/o3/">o3</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.o3-mini">
+<a href="/models/openai/o3-mini/">o3-mini</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/o1-mini/">o1-mini</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/o4-mini/">o4-mini</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/microsoft/phi-4-reasoning/">Phi-4-reasoning</a> <span class="mh-org-tag">(Microsoft)</span> <span class="mh-muted">· derived: distillation</span></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-4-5">
+<a href="/models/openai/gpt-4-5/">GPT-4.5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-4o/">GPT-4o</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-4-1">
+<a href="/models/openai/gpt-4-1/">GPT-4.1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-4o/">GPT-4o</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-5/">GPT-5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.o3">
+<a href="/models/openai/o3/">o3</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/o1/">o1</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-5/">GPT-5</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/openai/o3-pro/">o3-pro</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.o4-mini">
+<a href="/models/openai/o4-mini/">o4-mini</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/o3-mini/">o3-mini</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-5/">GPT-5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.o3-pro">
+<a href="/models/openai/o3-pro/">o3-pro</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-5/">GPT-5</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/openai/o3/">o3</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-oss-1">
+<a href="/models/openai/gpt-oss-1/">gpt-oss</a>
+<p class="mh-none">No recorded relations.</p>
+</li>
+<li id="lineage-openai.gpt-5">
+<a href="/models/openai/gpt-5/">GPT-5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-4o/">GPT-4o</a>; <a href="/models/openai/o3/">o3</a>; <a href="/models/openai/o4-mini/">o4-mini</a>; <a href="/models/openai/gpt-4-1/">GPT-4.1</a>; <a href="/models/openai/o3-pro/">o3-pro</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-5-1/">GPT-5.1</a>; <a href="/models/openai/gpt-5-4-mini/">GPT-5.4 mini</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-5-1">
+<a href="/models/openai/gpt-5-1/">GPT-5.1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5/">GPT-5</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-5-2/">GPT-5.2</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-5-2">
+<a href="/models/openai/gpt-5-2/">GPT-5.2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5-1/">GPT-5.1</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-5-3-instant/">GPT-5.3 Instant</a>; <a href="/models/openai/gpt-5-4/">GPT-5.4</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-5-3-instant">
+<a href="/models/openai/gpt-5-3-instant/">GPT-5.3 Instant</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5-2/">GPT-5.2</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-5-5-instant/">GPT-5.5 Instant</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-5-4">
+<a href="/models/openai/gpt-5-4/">GPT-5.4</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5-2/">GPT-5.2</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-5-5/">GPT-5.5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-5-4-mini">
+<a href="/models/openai/gpt-5-4-mini/">GPT-5.4 mini</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5/">GPT-5</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-5-6-luna/">GPT-5.6 Luna</a>; <a href="/models/openai/gpt-5-6-terra/">GPT-5.6 Terra</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-5-5">
+<a href="/models/openai/gpt-5-5/">GPT-5.5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5-4/">GPT-5.4</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-5-6-sol/">GPT-5.6 Sol</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-5-5-instant">
+<a href="/models/openai/gpt-5-5-instant/">GPT-5.5 Instant</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5-3-instant/">GPT-5.3 Instant</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-5-6-luna">
+<a href="/models/openai/gpt-5-6-luna/">GPT-5.6 Luna</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5-4-mini/">GPT-5.4 mini</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-6-luna/">GPT-6 Luna</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-5-6-sol">
+<a href="/models/openai/gpt-5-6-sol/">GPT-5.6 Sol</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5-5/">GPT-5.5</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-6-astra/">GPT-6 Astra</a>; <a href="/models/openai/gpt-6-sol/">GPT-6 Sol</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/openai/gpt-5-6-sol-2026-08/">GPT-5.6 Sol (August 2026 revision)</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-5-6-terra">
+<a href="/models/openai/gpt-5-6-terra/">GPT-5.6 Terra</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5-4-mini/">GPT-5.4 mini</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-5-6-sol-2026-08">
+<a href="/models/openai/gpt-5-6-sol-2026-08/">GPT-5.6 Sol (August 2026 revision)</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/openai/gpt-5-6-sol/">GPT-5.6 Sol</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-6-astra">
+<a href="/models/openai/gpt-6-astra/">GPT-6 Astra</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5-6-sol/">GPT-5.6 Sol</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-6-luna">
+<a href="/models/openai/gpt-6-luna/">GPT-6 Luna</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5-6-luna/">GPT-5.6 Luna</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-6-sol">
+<a href="/models/openai/gpt-6-sol/">GPT-6 Sol</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-5-6-sol/">GPT-5.6 Sol</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/openai/gpt-6-1-sol/">GPT-6.1 Sol</a></dd></div>
+</dl>
+</li>
+<li id="lineage-openai.gpt-6-1-sol">
+<a href="/models/openai/gpt-6-1-sol/">GPT-6.1 Sol</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/openai/gpt-6-sol/">GPT-6 Sol</a></dd></div>
+</dl>
+</li>
+</ol>
+</section>
+<section id="families">
+<h2 class="mh-h2">Families</h2>
+<ul class="mh-families">
+<li id="family-openai.gpt" class="mh-family">
+<h3>GPT</h3>
+<p class="mh-family-models"><a href="/models/openai/gpt-1/">GPT</a> · <a href="/models/openai/gpt-2/">GPT-2</a> · <a href="/models/openai/gpt-3/">GPT-3</a> · <a href="/models/openai/instructgpt/">InstructGPT</a> · <a href="/models/openai/gpt-3-5/">GPT-3.5</a> · <a href="/models/openai/chatgpt/">ChatGPT</a> · <a href="/models/openai/gpt-3-5-turbo/">GPT-3.5 Turbo</a> · <a href="/models/openai/gpt-4/">GPT-4</a> · <a href="/models/openai/gpt-4-turbo/">GPT-4 Turbo</a> · <a href="/models/openai/gpt-4o/">GPT-4o</a> · <a href="/models/openai/gpt-4-5/">GPT-4.5</a> · <a href="/models/openai/gpt-4-1/">GPT-4.1</a> · <a href="/models/openai/gpt-5/">GPT-5</a> · <a href="/models/openai/gpt-5-1/">GPT-5.1</a> · <a href="/models/openai/gpt-5-2/">GPT-5.2</a> · <a href="/models/openai/gpt-5-4/">GPT-5.4</a> · <a href="/models/openai/gpt-5-5/">GPT-5.5</a></p>
+<ul class="mh-families">
+<li id="family-openai.gpt-astra" class="mh-family">
+<h3>GPT Astra</h3>
+<p class="mh-family-models"><a href="/models/openai/gpt-6-astra/">GPT-6 Astra</a></p>
+</li>
+<li id="family-openai.gpt-instant" class="mh-family">
+<h3>GPT Instant</h3>
+<p class="mh-family-models"><a href="/models/openai/gpt-5-3-instant/">GPT-5.3 Instant</a> · <a href="/models/openai/gpt-5-5-instant/">GPT-5.5 Instant</a></p>
+</li>
+<li id="family-openai.gpt-luna" class="mh-family">
+<h3>GPT Luna</h3>
+<p class="mh-family-models"><a href="/models/openai/gpt-5-6-luna/">GPT-5.6 Luna</a> · <a href="/models/openai/gpt-6-luna/">GPT-6 Luna</a></p>
+</li>
+<li id="family-openai.gpt-mini" class="mh-family">
+<h3>GPT mini</h3>
+<p class="mh-family-models"><a href="/models/openai/gpt-4o-mini/">GPT-4o mini</a> · <a href="/models/openai/gpt-5-4-mini/">GPT-5.4 mini</a></p>
+</li>
+<li id="family-openai.gpt-oss" class="mh-family">
+<h3>gpt-oss</h3>
+<p class="mh-family-models"><a href="/models/openai/gpt-oss-1/">gpt-oss</a></p>
+</li>
+<li id="family-openai.gpt-sol" class="mh-family">
+<h3>GPT Sol</h3>
+<p class="mh-family-models"><a href="/models/openai/gpt-5-6-sol/">GPT-5.6 Sol</a> · <a href="/models/openai/gpt-5-6-sol-2026-08/">GPT-5.6 Sol (August 2026 revision)</a> · <a href="/models/openai/gpt-6-sol/">GPT-6 Sol</a> · <a href="/models/openai/gpt-6-1-sol/">GPT-6.1 Sol</a></p>
+</li>
+<li id="family-openai.gpt-terra" class="mh-family">
+<h3>GPT Terra</h3>
+<p class="mh-family-models"><a href="/models/openai/gpt-5-6-terra/">GPT-5.6 Terra</a></p>
+</li>
+</ul>
+</li>
+<li id="family-openai.o-series" class="mh-family">
+<h3>OpenAI o-series</h3>
+<p class="mh-family-models"><a href="/models/openai/o1-mini/">o1-mini</a> · <a href="/models/openai/o1-preview/">o1-preview</a> · <a href="/models/openai/o1/">o1</a> · <a href="/models/openai/o3-mini/">o3-mini</a> · <a href="/models/openai/o3/">o3</a> · <a href="/models/openai/o4-mini/">o4-mini</a> · <a href="/models/openai/o3-pro/">o3-pro</a></p>
+</li>
+</ul>
+</section>
+<section id="organization">
+<h2 class="mh-h2">About the organisation</h2>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="description" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Description</span>
+<span class="mh-claim-value">OpenAI was announced in December 2015 as a non-profit artificial intelligence research company and states its mission as ensuring that artificial general intelligence benefits all of humanity. It develops the GPT language models, the o-series reasoning models and the open-weight gpt-oss models, and offers its models through ChatGPT and the OpenAI API.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.openai.introducing-openai" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.openai.planning-for-agi-and-beyond" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.openai.api-models" aria-label="Source 3">[3]</a></span></span>
+</li>
+</ul>
+<p class="mh-facts-line">Company · <a href="https://openai.com/">https://openai.com/</a> · 37 models listed here</p>
+</section>
+<section id="sources">
+<h2 class="mh-h2">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.openai.introducing-openai" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Introducing OpenAI</cite></p>
+<p class="mh-kicker">Announcement · OpenAI · published <time datetime="2015-12-11">11 December 2015</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://openai.com/index/introducing-openai/">Original ↗</a>
+<span class="mh-url">https://openai.com/index/introducing-openai/</span>
+<a href="https://web.archive.org/web/20260904073104/https://openai.com/index/introducing-openai/">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2026-09-04">4 September 2026</time></span>
+<span class="mh-note">Founding announcement. openai.com answers scripted requests with a Cloudflare challenge, so the content was read in the Wayback capture of 2026-09-04: dated December 11, 2015, opens by calling OpenAI a non-profit artificial intelligence research company.</span>
+</div>
+</li>
+<li id="source-src.openai.planning-for-agi-and-beyond" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Planning for AGI and beyond</cite></p>
+<p class="mh-kicker">Blog post · OpenAI · published <time datetime="2023-02-24">24 February 2023</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://openai.com/index/planning-for-agi-and-beyond/">Original ↗</a>
+<span class="mh-url">https://openai.com/index/planning-for-agi-and-beyond/</span>
+<a href="https://web.archive.org/web/20260903152744/https://openai.com/index/planning-for-agi-and-beyond/">Internet Archive capture ↗</a> <span class="mh-muted">captured <time datetime="2026-09-03">3 September 2026</time></span>
+<span class="mh-note">Opens with the mission statement (ensure that artificial general intelligence benefits all of humanity). Read in the Wayback capture of 2026-09-03 because openai.com blocks scripted requests; the page carries an update note dated October 28, 2025.</span>
+</div>
+</li>
+<li id="source-src.openai.api-models" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Models</cite></p>
+<p class="mh-kicker">Documentation · OpenAI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://developers.openai.com/api/docs/models">Original ↗</a>
+<span class="mh-url">https://developers.openai.com/api/docs/models</span>
+<span class="mh-note">API model catalog (HTML title Models | OpenAI API); living page, content as seen on 2026-10-01 via the Markdown version at https://developers.openai.com/api/docs/models.md, which lists GPT models, o-series reasoning models (o1, o3, o4-mini) and the open-weight gpt-oss-120b and gpt-oss-20b. The old address https://platform.openai.com/docs/models redirects here (301).</span>
+</div>
+</li>
+</ol>
+</section>
+</div>
+<aside class="mh-body-side" id="coverage" aria-labelledby="mh-cov-title">
+<h2 class="mh-legend" id="mh-cov-title">Related AI Radar coverage</h2>
+<ul class="mh-news-side">
+<li class="mh-news-item"><span class="mh-kicker">DeepSeek · tech-insider.org · <time datetime="2026-10-02T12:27:32Z">2 October 2026</time> · about <a href="/models/openai/gpt-6-astra/">GPT-6 Astra</a></span><span class="mh-news-title"><a href="https://news.google.com/rss/articles/CBMifEFVX3lxTFBtN0l4ZnloYVZldDBEVmxxOXl2ZjRkX3JOWmxQcWttblczU0MyNDY1RnRlLTB5UFNhbkozX2YyN3RWeEZpMFd0amRWQk5qd2gyb2ZsLXFQQkhyZElTYUxyaTVNWk5SSmROUjJPV2VEU3oyQ0FjQjlVWVNaUWo?oc=5">GPT-6 Astra vs Gemini 4 Argon vs DeepSeek: 13x Gap [2026]</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">NVIDIA · Blog · <time datetime="2026-10-01T23:44:13Z">1 October 2026</time> · about <a href="/models/openai/gpt-6-astra/">GPT-6 Astra</a></span><span class="mh-news-title"><a href="https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/">How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">OpenAI · YouTube · <time datetime="2026-09-29T18:42:29Z">29 September 2026</time> · about <a href="/models/openai/gpt-6-1-sol/">GPT-6.1 Sol</a></span><span class="mh-news-title"><a href="https://www.youtube.com/watch?v=Fls_onRviPM">OpenAI DevDay 2026 Keynote (FULL)</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">OpenAI · YouTube · <time datetime="2026-09-29T18:04:41Z">29 September 2026</time> · about <a href="/models/openai/gpt-6-astra/">GPT-6 Astra</a></span><span class="mh-news-title"><a href="https://www.youtube.com/watch?v=uXspbC2srEQ">Introducing dots, always-on agents built to handle everything.</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">OpenAI · News · <time datetime="2026-09-29T10:00:00Z">29 September 2026</time> · about <a href="/models/openai/gpt-6-1-sol/">GPT-6.1 Sol</a></span><span class="mh-news-title"><a href="https://openai.com/index/introducing-gpt-6-1-sol">Introducing GPT-6.1 Sol</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">OpenAI · News · <time datetime="2026-09-29T10:00:00Z">29 September 2026</time> · about <a href="/models/openai/gpt-6-astra/">GPT-6 Astra</a></span><span class="mh-news-title"><a href="https://openai.com/index/devday-2026-recap">DevDay 2026 Recap</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">OpenAI · YouTube · <time datetime="2026-09-28T18:05:42Z">28 September 2026</time> · about <a href="/models/openai/gpt-6-astra/">GPT-6 Astra</a></span><span class="mh-news-title"><a href="https://www.youtube.com/watch?v=6wNqpZdHE_s">GPT-6 Astra in practice: Turning ideas into projects</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">OpenAI · News · <time datetime="2026-09-28">28 September 2026</time> · about <a href="/models/openai/gpt-6-astra/">GPT-6 Astra</a></span><span class="mh-news-title"><a href="https://openai.com/index/basis-tax-workbook-with-astra">Basis completes a tax workbook 2x faster with GPT-6 Astra</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">OpenAI · News · <time datetime="2026-09-25T19:00:00Z">25 September 2026</time> · about <a href="/models/openai/gpt-6-astra/">GPT-6 Astra</a></span><span class="mh-news-title"><a href="https://openai.com/index/proaction">Proaction boosts sales 60% and saves 75+ hours with Codex</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">OpenAI · YouTube · <time datetime="2026-09-23T17:11:13Z">23 September 2026</time> · about <a href="/models/openai/gpt-6-astra/">GPT-6 Astra</a></span><span class="mh-news-title"><a href="https://www.youtube.com/watch?v=96ogPwN9ykM">Get Stuff Done with ChatGPT Voice</a></span></li>
+</ul>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=openai">All model releases from OpenAI on AI Radar →</a></p>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

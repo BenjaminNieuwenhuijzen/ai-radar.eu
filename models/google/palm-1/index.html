@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>PaLM · Google · Model History · AI Radar</title>
+<meta name="description" content="PaLM (Pathways Language Model) is a Google research language model, introduced in April 2022 as a 540-billion-parameter dense decoder-only Transformer…">
+<link rel="canonical" href="https://ai-radar.eu/models/google/palm-1/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="PaLM · Google · Model History · AI Radar">
+<meta property="og:description" content="PaLM (Pathways Language Model) is a Google research language model, introduced in April 2022 as a 540-billion-parameter dense decoder-only Transformer…">
+<meta property="og:url" content="https://ai-radar.eu/models/google/palm-1/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PaLM · Google · Model History · AI Radar">
+<meta name="twitter:description" content="PaLM (Pathways Language Model) is a Google research language model, introduced in April 2022 as a 540-billion-parameter dense decoder-only Transformer…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/google/palm-1/","url":"https://ai-radar.eu/models/google/palm-1/","name":"PaLM · Google · Model History · AI Radar","description":"PaLM (Pathways Language Model) is a Google research language model, introduced in April 2022 as a 540-billion-parameter dense decoder-only Transformer…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/google/palm-1/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/google/palm-1/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Google","item":"https://ai-radar.eu/models/google/"},{"@type":"ListItem","position":4,"name":"PaLM","item":"https://ai-radar.eu/models/google/palm-1/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:255" data-mh-view="model" data-mh-model="google.palm-1">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/google/"><span class="mh-co" style="--h:255">Google</span></a></li><li><a href="/models/google/#family-google.palm">PaLM</a></li><li aria-current="page">PaLM</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="gemclipmh1"><path d="M12 0C12.96 6.5 17.5 11.04 24 12 17.5 12.96 12.96 17.5 12 24 11.04 17.5 6.5 12.96 0 12 6.5 11.04 11.04 6.5 12 0Z"/></clipPath><radialGradient id="gemredmh1" gradientUnits="userSpaceOnUse" cx="12" cy="2" r="11"><stop offset="0%" stop-color="#FF4641"/><stop offset="100%" stop-color="#FF4641" stop-opacity="0"/></radialGradient><radialGradient id="gemyellowmh1" gradientUnits="userSpaceOnUse" cx="2" cy="12" r="11"><stop offset="0%" stop-color="#FFC400"/><stop offset="100%" stop-color="#FFC400" stop-opacity="0"/></radialGradient><radialGradient id="gemgreenmh1" gradientUnits="userSpaceOnUse" cx="12" cy="22" r="11"><stop offset="0%" stop-color="#00A661"/><stop offset="100%" stop-color="#00A661" stop-opacity="0"/></radialGradient></defs><g clip-path="url(#gemclipmh1)"><rect width="24" height="24" fill="#4285F4"/><rect width="24" height="24" fill="url(#gemredmh1)"/><rect width="24" height="24" fill="url(#gemyellowmh1)"/><rect width="24" height="24" fill="url(#gemgreenmh1)"/></g></svg></span>PaLM</h1>
+<p class="mh-sub">Research only · Language · Milestone</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">PaLM (Pathways Language Model) is a Google research language model, introduced in April 2022 as a 540-billion-parameter dense decoder-only Transformer trained with Google&#39;s Pathways system on 6,144 TPU v4 chips. The paper also describes 8B and 62B versions, and its model card says PaLM is designed for research. <span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-research-blog" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.google.palm-paper" aria-label="Source 2">[2]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/google/palm-1/timeline/">Timeline of PaLM →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and announcement</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">10 claims · <span data-mh-summary="primary-source">Primary source: 10</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.announced" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Announced</span>
+<span class="mh-claim-value"><time datetime="2022-04-04">4 April 2022</time><span class="mh-note">Google Research blog post; the first arXiv version of the paper is dated 2022-04-05.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-research-blog" aria-label="Source 1">[1]</a></span></span>
+</li>
+<li class="mh-claim-gap"><span class="mh-claim-label">Released</span><span class="mh-claim-value">Release date unknown</span><span class="mh-claim-ev"></span></li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Research only</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-paper" aria-label="Source 2, Appendix E, Table 30 (PaLM Model Card): Known Limitations">[2]</a><span class="mh-locator">Appendix E, Table 30 (PaLM Model Card): Known Limitations</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations"></ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes"></ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-paper" aria-label="Source 2, Table 30 (PaLM Model Card): Output(s)">[2]</a><span class="mh-locator">Table 30 (PaLM Model Card): Output(s)</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">2048 tokens<span class="mh-note">Training sequence length, used for all PaLM models.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-paper" aria-label="Source 2, section 5, Sequence length">[2]</a><span class="mh-locator">section 5, Sequence length</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">540B<span class="mh-note">PaLM 540B, the model presented in the announcement; Table 1 lists 540.35 billion parameters. The 8B and 62B models are variants.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-research-blog" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.google.palm-paper" aria-label="Source 2, Table 1">[2]</a><span class="mh-locator">Table 1</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">research only</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-paper" aria-label="Source 2, Table 30 (PaLM Model Card): Application; Known Limitations">[2]</a><span class="mh-locator">Table 30 (PaLM Model Card): Application; Known Limitations</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<p class="mh-none" data-mh-lineage="predecessors">No known predecessor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/google/palm-2/">PaLM 2</a> <span class="mh-muted">· 10 May 2023</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<p class="mh-none" data-mh-lineage="parents">Not derived from another model.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<p class="mh-none" data-mh-lineage="ancestors">None.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/google/palm-2/">PaLM 2</a> <span class="mh-muted">· 10 May 2023</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-h2">Variants</h2>
+<section id="variant-palm-8b" class="mh-variant">
+<h3 class="mh-variant-name">PaLM 8B</h3>
+<p class="mh-muted">Same dates as PaLM.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-paper" aria-label="Source 2, section 2.1, Table 1">[2]</a><span class="mh-locator">section 2.1, Table 1</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">8B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-paper" aria-label="Source 2, Table 1">[2]</a><span class="mh-locator">Table 1</span></span></li>
+</ul>
+</section>
+<section id="variant-palm-62b" class="mh-variant">
+<h3 class="mh-variant-name">PaLM 62B</h3>
+<p class="mh-muted">Same dates as PaLM.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-paper" aria-label="Source 2, section 2.1, Table 1">[2]</a><span class="mh-locator">section 2.1, Table 1</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">62B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-paper" aria-label="Source 2, Table 1">[2]</a><span class="mh-locator">Table 1</span></span></li>
+</ul>
+</section>
+<section id="variant-palm-540b" class="mh-variant">
+<h3 class="mh-variant-name">PaLM 540B</h3>
+<p class="mh-muted">Same dates as PaLM.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">The model presented in the announcement; the record-level parameter count applies.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.palm-paper" aria-label="Source 2, section 2.1, Table 1">[2]</a><span class="mh-locator">section 2.1, Table 1</span> <a class="mh-ref" href="#source-src.google.palm-research-blog" aria-label="Source 1">[1]</a></span></span>
+</li>
+</ul>
+</section>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=google">All model releases from Google on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<span></span>
+<a class="mh-pager-next" href="/models/google/palm-2/"><span class="mh-muted">Later in PaLM →</span><span>PaLM 2</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="gemclipmh0"><path d="M12 0C12.96 6.5 17.5 11.04 24 12 17.5 12.96 12.96 17.5 12 24 11.04 17.5 6.5 12.96 0 12 6.5 11.04 11.04 6.5 12 0Z"/></clipPath><radialGradient id="gemredmh0" gradientUnits="userSpaceOnUse" cx="12" cy="2" r="11"><stop offset="0%" stop-color="#FF4641"/><stop offset="100%" stop-color="#FF4641" stop-opacity="0"/></radialGradient><radialGradient id="gemyellowmh0" gradientUnits="userSpaceOnUse" cx="2" cy="12" r="11"><stop offset="0%" stop-color="#FFC400"/><stop offset="100%" stop-color="#FFC400" stop-opacity="0"/></radialGradient><radialGradient id="gemgreenmh0" gradientUnits="userSpaceOnUse" cx="12" cy="22" r="11"><stop offset="0%" stop-color="#00A661"/><stop offset="100%" stop-color="#00A661" stop-opacity="0"/></radialGradient></defs><g clip-path="url(#gemclipmh0)"><rect width="24" height="24" fill="#4285F4"/><rect width="24" height="24" fill="url(#gemredmh0)"/><rect width="24" height="24" fill="url(#gemyellowmh0)"/><rect width="24" height="24" fill="url(#gemgreenmh0)"/></g></svg></span><a href="/models/google/">Google</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/google/#family-google.palm">PaLM</a></dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2022-04-04">4 April 2022</time><br><span class="mh-muted">Announced, release date unknown</span></dd></div>
+<div><dt>Prominence</dt><dd>Milestone <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>Pathways Language Model</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.google.palm-research-blog" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance</cite></p>
+<p class="mh-kicker">Blog post · Google · published <time datetime="2022-04-04">4 April 2022</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://research.google/blog/pathways-language-model-palm-scaling-to-540-billion-parameters-for-breakthrough-performance/">Original ↗</a>
+<span class="mh-url">https://research.google/blog/pathways-language-model-palm-scaling-to-540-billion-parameters-for-breakthrough-performance/</span>
+<span class="mh-note">Google Research blog; title from the page heading (the HTML title is cut off). The old address https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html redirects here.</span>
+</div>
+</li>
+<li id="source-src.google.palm-paper" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>PaLM: Scaling Language Modeling with Pathways</cite></p>
+<p class="mh-kicker">Research paper · Google · published <time datetime="2022-04-05">5 April 2022</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://arxiv.org/abs/2204.02311">Original ↗</a>
+<span class="mh-url">https://arxiv.org/abs/2204.02311</span>
+<span class="mh-note">Paper by Google authors on arXiv; publishedAt is the date of v1. Versions: v1 2022-04-05 to v5 2022-10-05. The model card is Table 30 in Appendix E.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

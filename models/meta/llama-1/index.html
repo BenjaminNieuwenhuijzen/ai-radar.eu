@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>LLaMA · Meta · Model History · AI Radar</title>
+<meta name="description" content="LLaMA is a set of large language models for text from Meta, released on 24 February 2023 in sizes of 7B, 13B, 33B and 65B parameters to help researchers…">
+<link rel="canonical" href="https://ai-radar.eu/models/meta/llama-1/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="LLaMA · Meta · Model History · AI Radar">
+<meta property="og:description" content="LLaMA is a set of large language models for text from Meta, released on 24 February 2023 in sizes of 7B, 13B, 33B and 65B parameters to help researchers…">
+<meta property="og:url" content="https://ai-radar.eu/models/meta/llama-1/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="LLaMA · Meta · Model History · AI Radar">
+<meta name="twitter:description" content="LLaMA is a set of large language models for text from Meta, released on 24 February 2023 in sizes of 7B, 13B, 33B and 65B parameters to help researchers…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/meta/llama-1/","url":"https://ai-radar.eu/models/meta/llama-1/","name":"LLaMA · Meta · Model History · AI Radar","description":"LLaMA is a set of large language models for text from Meta, released on 24 February 2023 in sizes of 7B, 13B, 33B and 65B parameters to help researchers…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/meta/llama-1/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/meta/llama-1/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Meta","item":"https://ai-radar.eu/models/meta/"},{"@type":"ListItem","position":4,"name":"LLaMA","item":"https://ai-radar.eu/models/meta/llama-1/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:285" data-mh-view="model" data-mh-model="meta.llama-1">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/meta/"><span class="mh-co" style="--h:285">Meta</span></a></li><li><a href="/models/meta/#family-meta.llama">Llama</a></li><li aria-current="page">LLaMA</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="metagmh1" gradientUnits="userSpaceOnUse" x1="12" y1="0" x2="12" y2="24"><stop offset="0%" stop-color="#E04AFD"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#4845F5"/></linearGradient></defs><g fill="url(#metagmh1)"><ellipse cx="12" cy="5" rx="2.8" ry="4.6"/><ellipse cx="17.47" cy="7.63" rx="2.8" ry="4.6" transform="rotate(51.43 17.47 7.63)"/><ellipse cx="18.83" cy="13.56" rx="2.8" ry="4.6" transform="rotate(102.86 18.83 13.56)"/><ellipse cx="15.04" cy="18.31" rx="2.8" ry="4.6" transform="rotate(154.29 15.04 18.31)"/><ellipse cx="8.96" cy="18.31" rx="2.8" ry="4.6" transform="rotate(205.71 8.96 18.31)"/><ellipse cx="5.17" cy="13.56" rx="2.8" ry="4.6" transform="rotate(257.14 5.17 13.56)"/><ellipse cx="6.53" cy="7.63" rx="2.8" ry="4.6" transform="rotate(308.57 6.53 7.63)"/></g></svg></span>LLaMA</h1>
+<p class="mh-sub">Research only · Language · Milestone</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">LLaMA is a set of large language models for text from Meta, released on 24 February 2023 in sizes of 7B, 13B, 33B and 65B parameters to help researchers study such models. The weights were shared case by case with approved researchers under a non-commercial licence; from the Llama 2 launch on, Meta calls it Llama 1. <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.meta.llama-1-repository" aria-label="Source 2, README: Download">[2]</a><span class="mh-locator">README: Download</span> <a class="mh-ref" href="#source-src.meta.llama-2-announcement" aria-label="Source 3">[3]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/meta/llama-1/timeline/">Timeline of LLaMA →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">11 claims · <span data-mh-summary="primary-source">Primary source: 11</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2023-02-24">24 February 2023</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, page date: February 24, 2023">[1]</a><span class="mh-locator">page date: February 24, 2023</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Research only<span class="mh-note">Weights are sent only after an approved request, under a non-commercial licence for research use. The request form linked from the llama_v1 README was still online on 2026-10-01; no Meta page says whether requests are still granted. Meta&#39;s Hugging Face organisations hold no LLaMA repos.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, paragraph on the noncommercial license">[1]</a><span class="mh-locator">paragraph on the noncommercial license</span> <a class="mh-ref" href="#source-src.meta.llama-1-repository" aria-label="Source 2, README: Download">[2]</a><span class="mh-locator">README: Download</span> <a class="mh-ref" href="#source-src.meta.llama-1-model-card" aria-label="Source 4, Model details: License; Intended use">[4]</a><span class="mh-locator">Model details: License; Intended use</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations"></ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes"></ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, paragraph beginning Like other large language models">[1]</a><span class="mh-locator">paragraph beginning Like other large language models</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, paragraph beginning Like other large language models">[1]</a><span class="mh-locator">paragraph beginning Like other large language models</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">2k tokens<span class="mh-note">Stated in the Llama 2 paper&#39;s comparison of Llama 1 and Llama 2; the LLaMA paper and model card give no figure.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-2-paper" aria-label="Source 5, Table 1">[5]</a><span class="mh-locator">Table 1</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">research only</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, paragraph on the noncommercial license">[1]</a><span class="mh-locator">paragraph on the noncommercial license</span> <a class="mh-ref" href="#source-src.meta.llama-1-paper" aria-label="Source 6, Abstract">[6]</a><span class="mh-locator">Abstract</span> <a class="mh-ref" href="#source-src.meta.llama-1-repository" aria-label="Source 2, README: Download">[2]</a><span class="mh-locator">README: Download</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<p class="mh-none" data-mh-lineage="predecessors">No known predecessor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/meta/llama-2/">Llama 2</a> <span class="mh-muted">· 18 July 2023</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<p class="mh-none" data-mh-lineage="parents">Not derived from another model.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<ul class="mh-rel" data-mh-lineage="children">
+<li><a href="/models/huggingface/idefics-1/">IDEFICS</a> <span class="mh-muted">· Hugging Face · 22 August 2023 · derived (other)</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<p class="mh-none" data-mh-lineage="ancestors">None.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/meta/llama-2/">Llama 2</a> <span class="mh-muted">· 18 July 2023</span></li>
+<li><a href="/models/huggingface/idefics-1/">IDEFICS</a> <span class="mh-muted">· Hugging Face · 22 August 2023</span></li>
+<li><a href="/models/huggingface/idefics2/">Idefics2</a> <span class="mh-muted">· Hugging Face · 15 April 2024</span></li>
+<li><a href="/models/meta/meta-llama-3/">Meta Llama 3</a> <span class="mh-muted">· 18 April 2024</span></li>
+<li><a href="/models/meta/llama-3-1/">Llama 3.1</a> <span class="mh-muted">· 23 July 2024</span></li>
+<li><a href="/models/huggingface/idefics3/">Idefics3</a> <span class="mh-muted">· Hugging Face · August 2024</span></li>
+<li><a href="/models/nvidia/llama-3-1-nemotron-51b-instruct/">Llama-3.1-Nemotron-51B-Instruct</a> <span class="mh-muted">· NVIDIA · 23 September 2024</span></li>
+<li><a href="/models/meta/llama-3-2/">Llama 3.2</a> <span class="mh-muted">· 25 September 2024</span></li>
+<li><a href="/models/nvidia/llama-3-1-nemotron-70b-instruct/">Llama-3.1-Nemotron-70B-Instruct</a> <span class="mh-muted">· NVIDIA · October 2024</span></li>
+<li><a href="/models/meta/llama-3-3/">Llama 3.3</a> <span class="mh-muted">· 6 December 2024</span></li>
+<li><a href="/models/nvidia/llama-3-1-nemotron-nano-8b-v1/">Llama-3.1-Nemotron-Nano-8B-v1</a> <span class="mh-muted">· NVIDIA · 18 March 2025</span></li>
+<li><a href="/models/nvidia/llama-3-3-nemotron-super-49b-v1/">Llama-3.3-Nemotron-Super-49B-v1</a> <span class="mh-muted">· NVIDIA · 18 March 2025</span></li>
+<li><a href="/models/meta/llama-4-maverick/">Llama 4 Maverick</a> <span class="mh-muted">· 5 April 2025</span></li>
+<li><a href="/models/meta/llama-4-scout/">Llama 4 Scout</a> <span class="mh-muted">· 5 April 2025</span></li>
+<li><a href="/models/nvidia/llama-3-1-nemotron-ultra-253b-v1/">Llama-3.1-Nemotron-Ultra-253B-v1</a> <span class="mh-muted">· NVIDIA · 7 April 2025</span></li>
+<li><a href="/models/nvidia/llama-3-1-nemotron-nano-4b-v1-1/">Llama-3.1-Nemotron-Nano-4B-v1.1</a> <span class="mh-muted">· NVIDIA · 20 May 2025</span></li>
+<li><a href="/models/nvidia/llama-3-3-nemotron-super-49b-v1-5/">Llama-3.3-Nemotron-Super-49B-v1.5</a> <span class="mh-muted">· NVIDIA · 25 July 2025</span></li>
+<li><a href="/models/nvidia/nemotron-nano-2/">Nemotron Nano 2</a> <span class="mh-muted">· NVIDIA · 18 August 2025</span></li>
+<li><a href="/models/nvidia/nemotron-nano-2-vl/">Nemotron Nano 2 VL</a> <span class="mh-muted">· NVIDIA · 28 October 2025</span></li>
+<li><a href="/models/nvidia/nemotron-3-nano/">Nemotron 3 Nano</a> <span class="mh-muted">· NVIDIA · 15 December 2025</span></li>
+<li><a href="/models/nvidia/nemotron-3-super/">Nemotron 3 Super</a> <span class="mh-muted">· NVIDIA · 11 March 2026</span></li>
+<li><a href="/models/nvidia/nemotron-3-nano-4b/">Nemotron 3 Nano 4B</a> <span class="mh-muted">· NVIDIA · 16 March 2026</span></li>
+<li><a href="/models/meta/muse-spark/">Muse Spark</a> <span class="mh-muted">· 8 April 2026</span></li>
+<li><a href="/models/nvidia/nemotron-3-nano-omni/">Nemotron 3 Nano Omni</a> <span class="mh-muted">· NVIDIA · 28 April 2026</span></li>
+<li><a href="/models/nvidia/nemotron-3-ultra/">Nemotron 3 Ultra</a> <span class="mh-muted">· NVIDIA · 4 June 2026</span></li>
+<li><a href="/models/meta/muse-spark-1-1/">Muse Spark 1.1</a> <span class="mh-muted">· 9 July 2026</span></li>
+<li><a href="/models/meta/muse-spark-1-2/">Muse Spark 1.2</a> <span class="mh-muted">· 5 August 2026</span></li>
+<li><a href="/models/meta/muse-glimmer/">Muse Glimmer</a> <span class="mh-muted">· 10 August 2026</span></li>
+<li><a href="/models/nvidia/nemotron-3-5-lightning/">Nemotron 3.5 Lightning</a> <span class="mh-muted">· NVIDIA · 11 August 2026</span></li>
+<li><a href="/models/meta/muse-spark-1-3/">Muse Spark 1.3</a> <span class="mh-muted">· 2 September 2026</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-h2">Variants</h2>
+<section id="variant-llama-7b" class="mh-variant">
+<h3 class="mh-variant-name">LLaMA 7B</h3>
+<p class="mh-muted">Same dates as LLaMA.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, paragraph listing the 7B, 13B, 33B and 65B sizes">[1]</a><span class="mh-locator">paragraph listing the 7B, 13B, 33B and 65B sizes</span> <a class="mh-ref" href="#source-src.meta.llama-1-model-card" aria-label="Source 4, Model details: Model type">[4]</a><span class="mh-locator">Model details: Model type</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: LLaMA-7B</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">7B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, paragraph listing the 7B, 13B, 33B and 65B sizes">[1]</a><span class="mh-locator">paragraph listing the 7B, 13B, 33B and 65B sizes</span> <a class="mh-ref" href="#source-src.meta.llama-1-model-card" aria-label="Source 4, Model details: Model type">[4]</a><span class="mh-locator">Model details: Model type</span></span></li>
+</ul>
+</section>
+<section id="variant-llama-13b" class="mh-variant">
+<h3 class="mh-variant-name">LLaMA 13B</h3>
+<p class="mh-muted">Same dates as LLaMA.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, paragraph listing the 7B, 13B, 33B and 65B sizes">[1]</a><span class="mh-locator">paragraph listing the 7B, 13B, 33B and 65B sizes</span> <a class="mh-ref" href="#source-src.meta.llama-1-model-card" aria-label="Source 4, Model details: Model type">[4]</a><span class="mh-locator">Model details: Model type</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: LLaMA-13B</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">13B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, paragraph listing the 7B, 13B, 33B and 65B sizes">[1]</a><span class="mh-locator">paragraph listing the 7B, 13B, 33B and 65B sizes</span> <a class="mh-ref" href="#source-src.meta.llama-1-model-card" aria-label="Source 4, Model details: Model type">[4]</a><span class="mh-locator">Model details: Model type</span></span></li>
+</ul>
+</section>
+<section id="variant-llama-33b" class="mh-variant">
+<h3 class="mh-variant-name">LLaMA 33B</h3>
+<p class="mh-muted">Same dates as LLaMA.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">The download script on the llama_v1 branch names this size 30B.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, paragraph listing the 7B, 13B, 33B and 65B sizes">[1]</a><span class="mh-locator">paragraph listing the 7B, 13B, 33B and 65B sizes</span> <a class="mh-ref" href="#source-src.meta.llama-1-model-card" aria-label="Source 4, Model details: Model type">[4]</a><span class="mh-locator">Model details: Model type</span> <a class="mh-ref" href="#source-src.meta.llama-1-paper" aria-label="Source 6, Section 2 Approach, Figure 1 caption">[6]</a><span class="mh-locator">Section 2 Approach, Figure 1 caption</span> <a class="mh-ref" href="#source-src.meta.llama-1-repository" aria-label="Source 2, download.sh">[2]</a><span class="mh-locator">download.sh</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: LLaMA-33B, LLaMA 30B, LLaMA-30B</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">33B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, paragraph listing the 7B, 13B, 33B and 65B sizes">[1]</a><span class="mh-locator">paragraph listing the 7B, 13B, 33B and 65B sizes</span> <a class="mh-ref" href="#source-src.meta.llama-1-model-card" aria-label="Source 4, Model details: Model type">[4]</a><span class="mh-locator">Model details: Model type</span></span></li>
+</ul>
+</section>
+<section id="variant-llama-65b" class="mh-variant">
+<h3 class="mh-variant-name">LLaMA 65B</h3>
+<p class="mh-muted">Same dates as LLaMA.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[3]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, paragraph listing the 7B, 13B, 33B and 65B sizes">[1]</a><span class="mh-locator">paragraph listing the 7B, 13B, 33B and 65B sizes</span> <a class="mh-ref" href="#source-src.meta.llama-1-model-card" aria-label="Source 4, Model details: Model type">[4]</a><span class="mh-locator">Model details: Model type</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: LLaMA-65B</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">65B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-1-announcement" aria-label="Source 1, paragraph listing the 7B, 13B, 33B and 65B sizes">[1]</a><span class="mh-locator">paragraph listing the 7B, 13B, 33B and 65B sizes</span> <a class="mh-ref" href="#source-src.meta.llama-1-model-card" aria-label="Source 4, Model details: Model type">[4]</a><span class="mh-locator">Model details: Model type</span></span></li>
+</ul>
+</section>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=meta">All model releases from Meta on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<span></span>
+<a class="mh-pager-next" href="/models/meta/llama-2/"><span class="mh-muted">Later in Llama →</span><span>Llama 2</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="metagmh0" gradientUnits="userSpaceOnUse" x1="12" y1="0" x2="12" y2="24"><stop offset="0%" stop-color="#E04AFD"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#4845F5"/></linearGradient></defs><g fill="url(#metagmh0)"><ellipse cx="12" cy="5" rx="2.8" ry="4.6"/><ellipse cx="17.47" cy="7.63" rx="2.8" ry="4.6" transform="rotate(51.43 17.47 7.63)"/><ellipse cx="18.83" cy="13.56" rx="2.8" ry="4.6" transform="rotate(102.86 18.83 13.56)"/><ellipse cx="15.04" cy="18.31" rx="2.8" ry="4.6" transform="rotate(154.29 15.04 18.31)"/><ellipse cx="8.96" cy="18.31" rx="2.8" ry="4.6" transform="rotate(205.71 8.96 18.31)"/><ellipse cx="5.17" cy="13.56" rx="2.8" ry="4.6" transform="rotate(257.14 5.17 13.56)"/><ellipse cx="6.53" cy="7.63" rx="2.8" ry="4.6" transform="rotate(308.57 6.53 7.63)"/></g></svg></span><a href="/models/meta/">Meta</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/meta/#family-meta.llama">Llama</a></dd></div>
+<div><dt>Generation</dt><dd>1</dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2023-02-24">24 February 2023</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Milestone <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>Llama 1, LLaMA 1, Large Language Model Meta AI</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.meta.llama-1-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Introducing LLaMA: A foundational, 65-billion-parameter large language model</cite></p>
+<p class="mh-kicker">Announcement · Meta · published <time datetime="2023-02-24">24 February 2023</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://ai.meta.com/blog/large-language-model-llama-meta-ai/">Original ↗</a>
+<span class="mh-url">https://ai.meta.com/blog/large-language-model-llama-meta-ai/</span>
+<span class="mh-note">Headline as shown on the page. A later update line at the top points to Llama 2. Originally at https://ai.facebook.com/blog/large-language-model-llama-meta-ai/, which redirects (301) here. Its Read the model card link (github.com/facebookresearch/llama/blob/main/MODEL_CARD.md) now leads to the Llama 2 card; the LLaMA card is src.meta.llama-1-model-card.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-1-repository" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>meta-llama/llama at llama_v1</cite></p>
+<p class="mh-kicker">Repository · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://github.com/meta-llama/llama/tree/llama_v1">Original ↗</a>
+<span class="mh-url">https://github.com/meta-llama/llama/tree/llama_v1</span>
+<span class="mh-note">llama_v1 branch of Meta&#39;s llama repository (README heading LLaMA; GitHub page title GitHub - meta-llama/llama at llama_v1). The README says checkpoints are sent after an approved request via a Google form; download.sh lists the sizes as 7B, 13B, 30B and 65B. https://github.com/facebookresearch/llama/tree/llama_v1 redirects (301) here. The main branch is marked deprecated in favour of meta-llama/llama-models.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-2-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Meta and Microsoft Introduce the Next Generation of Llama</cite></p>
+<p class="mh-kicker">Announcement · Meta · published <time datetime="2023-07-18">18 July 2023</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://ai.meta.com/blog/llama-2/">Original ↗</a>
+<span class="mh-url">https://ai.meta.com/blog/llama-2/</span>
+<span class="mh-note">Meta AI blog post; the same text is in Meta&#39;s Newsroom at https://about.fb.com/news/2023/07/llama-2/ (July 18, 2023). https://ai.facebook.com/blog/llama-2/ redirects (301) here. Its link to ai.meta.com/llama now redirects via several hops to dev.meta.ai, which shows no public content without sign-in.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-1-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>LLaMA Model Card</cite></p>
+<p class="mh-kicker">Model card · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://github.com/meta-llama/llama/blob/llama_v1/MODEL_CARD.md">Original ↗</a>
+<span class="mh-url">https://github.com/meta-llama/llama/blob/llama_v1/MODEL_CARD.md</span>
+<span class="mh-note">Model card on the llama_v1 branch of Meta&#39;s llama repository; https://github.com/facebookresearch/llama/blob/llama_v1/MODEL_CARD.md redirects (301) here. Title is the document heading. The main branch of the repository now holds the Llama 2 card.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-2-paper" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>Llama 2: Open Foundation and Fine-Tuned Chat Models</cite></p>
+<p class="mh-kicker">Research paper · Meta · published <time datetime="2023-07-18">18 July 2023</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://arxiv.org/abs/2307.09288">Original ↗</a>
+<span class="mh-url">https://arxiv.org/abs/2307.09288</span>
+<span class="mh-note">arXiv paper by Meta authors (Touvron et al.). Meta&#39;s research page https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/ lists it with July 18, 2023. Table 1 compares Llama 1 and Llama 2 (context length 2k and 4k).</span>
+</div>
+</li>
+<li id="source-src.meta.llama-1-paper" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[6]</span> <cite>LLaMA: Open and Efficient Foundation Language Models</cite></p>
+<p class="mh-kicker">Research paper · Meta · published <time datetime="2023-02-27">27 February 2023</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://arxiv.org/abs/2302.13971">Original ↗</a>
+<span class="mh-url">https://arxiv.org/abs/2302.13971</span>
+<span class="mh-note">arXiv paper by Meta AI authors (Touvron et al.). Meta&#39;s research page https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/ lists it with February 24, 2023.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

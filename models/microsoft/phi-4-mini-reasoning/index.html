@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Phi-4-mini-reasoning · Microsoft · Model History · AI Radar</title>
+<meta name="description" content="Phi-4-mini-reasoning is a 3.8-billion-parameter open-weight model from Microsoft for step-by-step math reasoning, released on 30 April 2025 on Azure AI…">
+<link rel="canonical" href="https://ai-radar.eu/models/microsoft/phi-4-mini-reasoning/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Phi-4-mini-reasoning · Microsoft · Model History · AI Radar">
+<meta property="og:description" content="Phi-4-mini-reasoning is a 3.8-billion-parameter open-weight model from Microsoft for step-by-step math reasoning, released on 30 April 2025 on Azure AI…">
+<meta property="og:url" content="https://ai-radar.eu/models/microsoft/phi-4-mini-reasoning/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Phi-4-mini-reasoning · Microsoft · Model History · AI Radar">
+<meta name="twitter:description" content="Phi-4-mini-reasoning is a 3.8-billion-parameter open-weight model from Microsoft for step-by-step math reasoning, released on 30 April 2025 on Azure AI…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/microsoft/phi-4-mini-reasoning/","url":"https://ai-radar.eu/models/microsoft/phi-4-mini-reasoning/","name":"Phi-4-mini-reasoning · Microsoft · Model History · AI Radar","description":"Phi-4-mini-reasoning is a 3.8-billion-parameter open-weight model from Microsoft for step-by-step math reasoning, released on 30 April 2025 on Azure AI…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/microsoft/phi-4-mini-reasoning/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/microsoft/phi-4-mini-reasoning/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Microsoft","item":"https://ai-radar.eu/models/microsoft/"},{"@type":"ListItem","position":4,"name":"Phi-4-mini-reasoning","item":"https://ai-radar.eu/models/microsoft/phi-4-mini-reasoning/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:215" data-mh-view="model" data-mh-model="microsoft.phi-4-mini-reasoning">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/microsoft/"><span class="mh-co" style="--h:215">Microsoft</span></a></li><li><a href="/models/microsoft/#family-microsoft.phi-reasoning">Phi reasoning</a></li><li aria-current="page">Phi-4-mini-reasoning</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="9.4" height="9.4" fill="#F25022"/><rect x="12.6" y="2" width="9.4" height="9.4" fill="#7FBA00"/><rect x="2" y="12.6" width="9.4" height="9.4" fill="#00A4EF"/><rect x="12.6" y="12.6" width="9.4" height="9.4" fill="#FFB900"/></svg></span>Phi-4-mini-reasoning</h1>
+<p class="mh-sub">Available · Language, Reasoning</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Phi-4-mini-reasoning is a 3.8-billion-parameter open-weight model from Microsoft for step-by-step math reasoning, released on 30 April 2025 on Azure AI Foundry and Hugging Face under the MIT licence. Built on Phi-4-mini with a 128K-token context, it is aimed at settings with limited compute or latency, such as education, embedded tutoring and edge or mobile devices. <span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-reasoning-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-model-card" aria-label="Source 2">[2]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/microsoft/phi-4-mini-reasoning/timeline/">Timeline of Phi-4-mini-reasoning →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">14 claims · <span data-mh-summary="primary-source">Primary source: 14</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2025-04-30">30 April 2025</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-reasoning-announcement" aria-label="Source 1, page date; Phi-4-mini-reasoning">[1]</a><span class="mh-locator">page date; Phi-4-mini-reasoning</span> <a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-model-card" aria-label="Source 2, Training, Model: Release date April 2025">[2]</a><span class="mh-locator">Training, Model: Release date April 2025</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Available<span class="mh-note">Weights remain downloadable from Microsoft&#39;s Hugging Face organisation; Microsoft Foundry lists the model as GA without a retirement date (checked 2026-10-01).</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-model-card" aria-label="Source 2, weights and licence (MIT)">[2]</a><span class="mh-locator">weights and licence (MIT)</span> <a class="mh-ref" href="#source-src.microsoft.foundry-model-retirement-schedule" aria-label="Source 3, Foundry Models from partners and community, Microsoft: Phi-4-mini-reasoning, GA, no retirement date">[3]</a><span class="mh-locator">Foundry Models from partners and community, Microsoft: Phi-4-mini-reasoning, GA, no retirement date</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Derived from (fine tune)</span>
+<span class="mh-claim-value"><a href="/models/microsoft/phi-4-mini/">Phi-4-mini</a><span class="mh-note">Microsoft applied a multi-stage recipe to Phi-4-Mini: mid-training on distilled long chain-of-thought data, supervised fine-tuning, rollout DPO and reinforcement learning with verifiable reward.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-paper" aria-label="Source 4, Abstract">[4]</a><span class="mh-locator">Abstract</span> <a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-model-card" aria-label="Source 2, Training, Model: Architecture">[2]</a><span class="mh-locator">Training, Model: Architecture</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="relations[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Derived from (distillation)</span>
+<span class="mh-claim-value"><a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a> <span class="mh-org-tag">(DeepSeek)</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-reasoning-announcement" aria-label="Source 1, synthetic math data generated by DeepSeek-R1">[1]</a><span class="mh-locator">synthetic math data generated by DeepSeek-R1</span></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Reasoning</span>
+<span class="mh-claim-value">Trained with distilled long chain-of-thought data, rollout DPO and reinforcement learning with verifiable reward to solve math problems step by step.<span class="mh-note">Compared with <a href="/models/microsoft/phi-4-mini/">Phi-4-mini</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-paper" aria-label="Source 4, Abstract">[4]</a><span class="mh-locator">Abstract</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Languages</span>
+<span class="mh-claim-value">Lists English as its only supported language, where the Phi-4-mini model card lists 23.<span class="mh-note">Compared with <a href="/models/microsoft/phi-4-mini/">Phi-4-mini</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-model-card" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.microsoft.phi-4-mini-instruct-model-card" aria-label="Source 5, Training, Model: Supported languages">[5]</a><span class="mh-locator">Training, Model: Supported languages</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Other</span>
+<span class="mh-claim-value">Designed and tested for math reasoning only, rather than for general-purpose use.<span class="mh-note">Compared with <a href="/models/microsoft/phi-4-mini/">Phi-4-mini</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-model-card" aria-label="Source 2">[2]</a></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-model-card" aria-label="Source 2, Training, Model: Inputs">[2]</a><span class="mh-locator">Training, Model: Inputs</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-model-card" aria-label="Source 2, Training, Model: Outputs">[2]</a><span class="mh-locator">Training, Model: Outputs</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Open weights</span>
+<span class="mh-claim-value">Yes</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-model-card" aria-label="Source 2, licence: MIT">[2]</a><span class="mh-locator">licence: MIT</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">128K tokens</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-model-card" aria-label="Source 2, Model Summary; Training, Model: Context length">[2]</a><span class="mh-locator">Model Summary; Training, Model: Context length</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">3.8B</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-mini-reasoning-model-card" aria-label="Source 2, Training, Model: Architecture">[2]</a><span class="mh-locator">Training, Model: Architecture</span> <a class="mh-ref" href="#source-src.microsoft.phi-4-reasoning-announcement" aria-label="Source 1, Phi-4-mini-reasoning">[1]</a><span class="mh-locator">Phi-4-mini-reasoning</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">API, Open-weights download, On device<span class="mh-note">Azure AI Foundry (api) and Hugging Face (open-weights-download) at release; ONNX-optimized versions for Snapdragon-powered Copilot+ PC NPUs followed on May 15, 2025 (on-device).</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.microsoft.phi-4-reasoning-announcement" aria-label="Source 1, Phi-4-mini-reasoning; Update: May 15, 2025">[1]</a><span class="mh-locator">Phi-4-mini-reasoning; Update: May 15, 2025</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<p class="mh-none" data-mh-lineage="predecessors">No known predecessor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/microsoft/phi-4-mini-flash-reasoning/">Phi-4-mini-flash-reasoning</a> <span class="mh-muted">· 9 July 2025</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<ul class="mh-rel" data-mh-lineage="parents">
+<li><a href="/models/microsoft/phi-4-mini/">Phi-4-mini</a> <span class="mh-muted">· 26 February 2025 · derived (fine tune)</span></li>
+<li><a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a> <span class="mh-muted">· DeepSeek · 20 January 2025 · derived (distillation)</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/microsoft/phi-1/">Phi-1</a> <span class="mh-muted">· 20 June 2023</span></li>
+<li><a href="/models/microsoft/phi-1-5/">Phi-1.5</a> <span class="mh-muted">· 11 September 2023</span></li>
+<li><a href="/models/deepseek/deepseek-llm/">DeepSeek LLM</a> <span class="mh-muted">· DeepSeek · 29 November 2023</span></li>
+<li><a href="/models/microsoft/phi-2/">Phi-2</a> <span class="mh-muted">· 12 December 2023</span></li>
+<li><a href="/models/microsoft/phi-3/">Phi-3</a> <span class="mh-muted">· 23 April 2024</span></li>
+<li><a href="/models/deepseek/deepseek-v2/">DeepSeek-V2</a> <span class="mh-muted">· DeepSeek · 6 May 2024</span></li>
+<li><a href="/models/deepseek/deepseek-v2-chat-0628/">DeepSeek-V2-Chat-0628</a> <span class="mh-muted">· DeepSeek · 28 June 2024</span></li>
+<li><a href="/models/microsoft/phi-3-5/">Phi-3.5</a> <span class="mh-muted">· August 2024</span></li>
+<li><a href="/models/deepseek/deepseek-v2-5/">DeepSeek-V2.5</a> <span class="mh-muted">· DeepSeek · 5 September 2024</span></li>
+<li><a href="/models/deepseek/deepseek-r1-lite-preview/">DeepSeek-R1-Lite-Preview</a> <span class="mh-muted">· DeepSeek · 20 November 2024</span></li>
+<li><a href="/models/deepseek/deepseek-v2-5-1210/">DeepSeek-V2.5-1210</a> <span class="mh-muted">· DeepSeek · 10 December 2024</span></li>
+<li><a href="/models/deepseek/deepseek-v3/">DeepSeek-V3</a> <span class="mh-muted">· DeepSeek · 26 December 2024</span></li>
+<li><a href="/models/deepseek/deepseek-r1/">DeepSeek-R1</a> <span class="mh-muted">· DeepSeek · 20 January 2025</span></li>
+<li><a href="/models/microsoft/phi-4-mini/">Phi-4-mini</a> <span class="mh-muted">· 26 February 2025</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/microsoft/phi-4-mini-flash-reasoning/">Phi-4-mini-flash-reasoning</a> <span class="mh-muted">· 9 July 2025</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-visually-hidden">Variants</h2>
+<p class="mh-visually-hidden">No variants recorded in this record.</p>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=microsoft">All model releases from Microsoft on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<span></span>
+<a class="mh-pager-next" href="/models/microsoft/phi-4-reasoning/"><span class="mh-muted">Later in Phi reasoning →</span><span>Phi-4-reasoning</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="2" width="9.4" height="9.4" fill="#F25022"/><rect x="12.6" y="2" width="9.4" height="9.4" fill="#7FBA00"/><rect x="2" y="12.6" width="9.4" height="9.4" fill="#00A4EF"/><rect x="12.6" y="12.6" width="9.4" height="9.4" fill="#FFB900"/></svg></span><a href="/models/microsoft/">Microsoft</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/microsoft/#family-microsoft.phi-reasoning">Phi reasoning</a></dd></div>
+<div><dt>Generation</dt><dd>4</dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2025-04-30">30 April 2025</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Standard release <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.microsoft.phi-4-reasoning-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>One year of Phi: Small language models making big leaps in AI</cite></p>
+<p class="mh-kicker">Announcement · Microsoft · published <time datetime="2025-04-30">30 April 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/">Original ↗</a>
+<span class="mh-url">https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/</span>
+<span class="mh-note">Microsoft Azure Blog post by Weizhu Chen and Ece Kamar introducing Phi-4-reasoning, Phi-4-reasoning-plus and Phi-4-mini-reasoning. Headline as shown on the page. The page shows April 30, 2025, while its metadata gives 2025-05-01T00:00:00Z as the publication time. Carries an update dated May 15, 2025 about ONNX-optimized versions for Snapdragon-powered Copilot+ PCs. https://aka.ms/phi4-mini-reasoning/blog redirects here.</span>
+</div>
+</li>
+<li id="source-src.microsoft.phi-4-mini-reasoning-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>microsoft/Phi-4-mini-reasoning</cite></p>
+<p class="mh-kicker">Model card · Microsoft</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/microsoft/Phi-4-mini-reasoning">Original ↗</a>
+<span class="mh-url">https://huggingface.co/microsoft/Phi-4-mini-reasoning</span>
+<span class="mh-note">Model card in Microsoft&#39;s Hugging Face organisation (MIT licence). Living page; content as seen on 2026-10-01. The Training section gives Release date: April 2025; it also says Trained in February 2024, which looks like a slip for 2025 because the stated data cutoff is February 2025.</span>
+</div>
+</li>
+<li id="source-src.microsoft.foundry-model-retirement-schedule" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Model retirement schedule</cite></p>
+<p class="mh-kicker">Deprecation notice · Microsoft</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule">Original ↗</a>
+<span class="mh-url">https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule</span>
+<span class="mh-note">Microsoft Learn page for Microsoft Foundry. Living page; content as seen on 2026-10-01 (page footer: last updated 2026-09-21). The Microsoft table under Foundry Models from partners and community lists Phi-4, Phi-4-mini-instruct, Phi-4-mini-reasoning, Phi-4-multimodal-instruct and Phi-4-reasoning as GA with no retirement date; Phi-4-reasoning-plus and Phi-4-mini-flash-reasoning are not listed.</span>
+</div>
+</li>
+<li id="source-src.microsoft.phi-4-mini-reasoning-paper" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Phi-4-Mini-Reasoning: Exploring the Limits of Small Reasoning Language Models in Math</cite></p>
+<p class="mh-kicker">Technical report · Microsoft · published <time datetime="2025-04-30">30 April 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://arxiv.org/abs/2504.21233">Original ↗</a>
+<span class="mh-url">https://arxiv.org/abs/2504.21233</span>
+<span class="mh-note">arXiv 2504.21233 by Microsoft authors (Xu, Peng, Awadalla and others); only v1, submitted 2025-04-30. The model card links it as the Phi-4-mini-reasoning technical report (https://aka.ms/phi4-mini-reasoning/techreport redirects to the arXiv PDF).</span>
+</div>
+</li>
+<li id="source-src.microsoft.phi-4-mini-instruct-model-card" class="mh-source" data-mh-availability="unknown" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>microsoft/Phi-4-mini-instruct</cite></p>
+<p class="mh-kicker">Model card · Microsoft</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="unknown">Not yet verified</dd>
+<dt>Last checked</dt><dd>Not yet checked</dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/microsoft/Phi-4-mini-instruct">Original ↗</a>
+<span class="mh-url">https://huggingface.co/microsoft/Phi-4-mini-instruct</span>
+<span class="mh-note">Model card in Microsoft&#39;s Hugging Face organisation (MIT licence). Living page; content as seen on 2026-10-01. The Training section gives Release date: February 2025, training between November and December 2024 and a public-data cutoff of June 2024.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

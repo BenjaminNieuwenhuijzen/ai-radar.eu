@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>OPT · Meta · Model History · AI Radar</title>
+<meta name="description" content="OPT (Open Pre-trained Transformers) is a suite of decoder-only language models from Meta, ranging from 125 million to 175 billion parameters, released on…">
+<link rel="canonical" href="https://ai-radar.eu/models/meta/opt/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="OPT · Meta · Model History · AI Radar">
+<meta property="og:description" content="OPT (Open Pre-trained Transformers) is a suite of decoder-only language models from Meta, ranging from 125 million to 175 billion parameters, released on…">
+<meta property="og:url" content="https://ai-radar.eu/models/meta/opt/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="OPT · Meta · Model History · AI Radar">
+<meta name="twitter:description" content="OPT (Open Pre-trained Transformers) is a suite of decoder-only language models from Meta, ranging from 125 million to 175 billion parameters, released on…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/meta/opt/","url":"https://ai-radar.eu/models/meta/opt/","name":"OPT · Meta · Model History · AI Radar","description":"OPT (Open Pre-trained Transformers) is a suite of decoder-only language models from Meta, ranging from 125 million to 175 billion parameters, released on…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/meta/opt/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/meta/opt/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Meta","item":"https://ai-radar.eu/models/meta/"},{"@type":"ListItem","position":4,"name":"OPT","item":"https://ai-radar.eu/models/meta/opt/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:285" data-mh-view="model" data-mh-model="meta.opt">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/meta/"><span class="mh-co" style="--h:285">Meta</span></a></li><li aria-current="page">OPT</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="metagmh1" gradientUnits="userSpaceOnUse" x1="12" y1="0" x2="12" y2="24"><stop offset="0%" stop-color="#E04AFD"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#4845F5"/></linearGradient></defs><g fill="url(#metagmh1)"><ellipse cx="12" cy="5" rx="2.8" ry="4.6"/><ellipse cx="17.47" cy="7.63" rx="2.8" ry="4.6" transform="rotate(51.43 17.47 7.63)"/><ellipse cx="18.83" cy="13.56" rx="2.8" ry="4.6" transform="rotate(102.86 18.83 13.56)"/><ellipse cx="15.04" cy="18.31" rx="2.8" ry="4.6" transform="rotate(154.29 15.04 18.31)"/><ellipse cx="8.96" cy="18.31" rx="2.8" ry="4.6" transform="rotate(205.71 8.96 18.31)"/><ellipse cx="5.17" cy="13.56" rx="2.8" ry="4.6" transform="rotate(257.14 5.17 13.56)"/><ellipse cx="6.53" cy="7.63" rx="2.8" ry="4.6" transform="rotate(308.57 6.53 7.63)"/></g></svg></span>OPT</h1>
+<p class="mh-sub">Available · Language · Milestone</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">OPT (Open Pre-trained Transformers) is a suite of decoder-only language models from Meta, ranging from 125 million to 175 billion parameters, released on 3 May 2022 together with the metaseq code used to train them. The sizes up to 66B were released for download under a non-commercial licence; OPT-175B went to approved researchers on request. <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-paper" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/meta/opt/timeline/">Timeline of OPT →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">17 claims · <span data-mh-summary="primary-source">Primary source: 17</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2022-05-03">3 May 2022</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, page date: May 3, 2022">[2]</a><span class="mh-locator">page date: May 3, 2022</span> <a class="mh-ref" href="#source-src.meta.opt-paper" aria-label="Source 1, Appendix D, Model Card: Model date">[1]</a><span class="mh-locator">Appendix D, Model Card: Model date</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Available<span class="mh-note">Weights of OPT-125M to OPT-66B are downloadable from Meta&#39;s facebook organisation on Hugging Face and through the links in the metaseq README (seen 2026-10-01). The metaseq repository itself is archived (read-only). OPT-175B is available on request only; see that variant.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-hf-collection" aria-label="Source 4">[4]</a> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations"></ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes"></ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Open weights</span>
+<span class="mh-claim-value">Yes<span class="mh-note">Applies to OPT-125M to OPT-66B, released for download under the non-commercial OPT-175B License Agreement. OPT-175B weights are shared with approved researchers on request.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, Responsible publication with OPT-175B">[2]</a><span class="mh-locator">Responsible publication with OPT-175B</span> <a class="mh-ref" href="#source-src.meta.opt-paper" aria-label="Source 1, Section 1 Introduction">[1]</a><span class="mh-locator">Section 1 Introduction</span> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">2048 tokens<span class="mh-note">The paper states that all OPT models were trained with a sequence length of 2048; it gives no separate context-window figure.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-paper" aria-label="Source 1, Section 2.2 Training Setup">[1]</a><span class="mh-locator">Section 2.2 Training Setup</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">Open-weights download<span class="mh-note">OPT-175B differs; see that variant.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, Responsible publication with OPT-175B">[2]</a><span class="mh-locator">Responsible publication with OPT-175B</span> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<p class="mh-none" data-mh-lineage="predecessors">No known predecessor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<p class="mh-none" data-mh-lineage="successors">No known successor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<p class="mh-none" data-mh-lineage="parents">Not derived from another model.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<p class="mh-none" data-mh-lineage="ancestors">None.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<p class="mh-none" data-mh-lineage="descendants">None.</p></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-h2">Variants</h2>
+<section id="variant-opt-125m" class="mh-variant">
+<h3 class="mh-variant-name">OPT-125M</h3>
+<p class="mh-muted">Same dates as OPT.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, Responsible publication with OPT-175B">[2]</a><span class="mh-locator">Responsible publication with OPT-175B</span> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: facebook/opt-125m</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">125M</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></li>
+</ul>
+</section>
+<section id="variant-opt-350m" class="mh-variant">
+<h3 class="mh-variant-name">OPT-350M</h3>
+<p class="mh-muted">Same dates as OPT.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, Responsible publication with OPT-175B">[2]</a><span class="mh-locator">Responsible publication with OPT-175B</span> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: facebook/opt-350m</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">350M</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></li>
+</ul>
+</section>
+<section id="variant-opt-1-3b" class="mh-variant">
+<h3 class="mh-variant-name">OPT-1.3B</h3>
+<p class="mh-muted">Same dates as OPT.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, Responsible publication with OPT-175B">[2]</a><span class="mh-locator">Responsible publication with OPT-175B</span> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: facebook/opt-1.3b</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">1.3B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></li>
+</ul>
+</section>
+<section id="variant-opt-2-7b" class="mh-variant">
+<h3 class="mh-variant-name">OPT-2.7B</h3>
+<p class="mh-muted">Same dates as OPT.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[3]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, Responsible publication with OPT-175B">[2]</a><span class="mh-locator">Responsible publication with OPT-175B</span> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: facebook/opt-2.7b</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">2.7B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></li>
+</ul>
+</section>
+<section id="variant-opt-6-7b" class="mh-variant">
+<h3 class="mh-variant-name">OPT-6.7B</h3>
+<p class="mh-muted">Same dates as OPT.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[4]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, Responsible publication with OPT-175B">[2]</a><span class="mh-locator">Responsible publication with OPT-175B</span> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: facebook/opt-6.7b</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">6.7B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></li>
+</ul>
+</section>
+<section id="variant-opt-13b" class="mh-variant">
+<h3 class="mh-variant-name">OPT-13B</h3>
+<p class="mh-muted">Same dates as OPT.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[5]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, Responsible publication with OPT-175B">[2]</a><span class="mh-locator">Responsible publication with OPT-175B</span> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: facebook/opt-13b</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">13B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></li>
+</ul>
+</section>
+<section id="variant-opt-30b" class="mh-variant">
+<h3 class="mh-variant-name">OPT-30B</h3>
+<p class="mh-muted">Same dates as OPT.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[6]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, Responsible publication with OPT-175B">[2]</a><span class="mh-locator">Responsible publication with OPT-175B</span> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: facebook/opt-30b</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">30B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></li>
+</ul>
+</section>
+<section id="variant-opt-66b" class="mh-variant">
+<h3 class="mh-variant-name">OPT-66B</h3>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[7].dates.announced" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Announced</span>
+<span class="mh-claim-value"><time datetime="2022-05-03">3 May 2022</time><span class="mh-note">The launch post listed the 66B model as to be released soon.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, Responsible publication with OPT-175B">[2]</a><span class="mh-locator">Responsible publication with OPT-175B</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="variants[7].dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2022-06-22">22 June 2022</time><span class="mh-note">Day the pull request adding the OPT-66B download links was merged in Meta&#39;s metaseq repository (UTC). The facebook/opt-66b repo on Hugging Face was created on 2022-06-23 according to its repository metadata, which is not a stated date.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-66b-release" aria-label="Source 5">[5]</a></span></span>
+</li>
+</ul>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[7]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-66b-release" aria-label="Source 5">[5]</a> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></span>
+</li>
+</ul>
+<p class="mh-muted">Also known as: facebook/opt-66b</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">66B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span></span></li>
+</ul>
+</section>
+<section id="variant-opt-175b" class="mh-variant">
+<h3 class="mh-variant-name">OPT-175B</h3>
+<p class="mh-muted">Same dates as OPT.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[8]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">Not on Hugging Face; Meta grants access to academic researchers, people at government, civil society and academic organisations, and industry research labs.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.meta.opt-paper" aria-label="Source 1, Section 1 Introduction">[1]</a><span class="mh-locator">Section 1 Introduction</span></span></span>
+</li>
+</ul>
+<p data-mh-variant-claim="lifecycle">Status: <span class="mh-value">Research only</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, opening section">[2]</a><span class="mh-locator">opening section</span> <a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights, request access">[3]</a><span class="mh-locator">README: Pretrained Model Weights, request access</span></span></p>
+<p class="mh-muted">Also known as: OPT 175B</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">175B</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.metaseq-opt" aria-label="Source 3, README: Pretrained Model Weights">[3]</a><span class="mh-locator">README: Pretrained Model Weights</span> <a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, opening section">[2]</a><span class="mh-locator">opening section</span></span></li>
+<li data-mh-variant-claim="capabilities.access">Access: <span class="mh-value">research only</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.opt-175b-announcement" aria-label="Source 2, opening section">[2]</a><span class="mh-locator">opening section</span> <a class="mh-ref" href="#source-src.meta.opt-paper" aria-label="Source 1, Section 1 Introduction">[1]</a><span class="mh-locator">Section 1 Introduction</span></span></li>
+</ul>
+</section>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=meta">All model releases from Meta on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<span></span>
+<a class="mh-pager-next" href="/models/meta/llama-1/"><span class="mh-muted">Later in Meta →</span><span>LLaMA</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="metagmh0" gradientUnits="userSpaceOnUse" x1="12" y1="0" x2="12" y2="24"><stop offset="0%" stop-color="#E04AFD"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#4845F5"/></linearGradient></defs><g fill="url(#metagmh0)"><ellipse cx="12" cy="5" rx="2.8" ry="4.6"/><ellipse cx="17.47" cy="7.63" rx="2.8" ry="4.6" transform="rotate(51.43 17.47 7.63)"/><ellipse cx="18.83" cy="13.56" rx="2.8" ry="4.6" transform="rotate(102.86 18.83 13.56)"/><ellipse cx="15.04" cy="18.31" rx="2.8" ry="4.6" transform="rotate(154.29 15.04 18.31)"/><ellipse cx="8.96" cy="18.31" rx="2.8" ry="4.6" transform="rotate(205.71 8.96 18.31)"/><ellipse cx="5.17" cy="13.56" rx="2.8" ry="4.6" transform="rotate(257.14 5.17 13.56)"/><ellipse cx="6.53" cy="7.63" rx="2.8" ry="4.6" transform="rotate(308.57 6.53 7.63)"/></g></svg></span><a href="/models/meta/">Meta</a></dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2022-05-03">3 May 2022</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Milestone <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>Open Pre-trained Transformer, Open Pretrained Transformer</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.meta.opt-paper" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>OPT: Open Pre-trained Transformer Language Models</cite></p>
+<p class="mh-kicker">Research paper · Meta · published <time datetime="2022-05-02">2 May 2022</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://arxiv.org/abs/2205.01068">Original ↗</a>
+<span class="mh-url">https://arxiv.org/abs/2205.01068</span>
+<span class="mh-note">arXiv paper by Meta AI authors (Zhang et al.). Locators refer to the current version v4. Appendix D is the official OPT model card (the metaseq model_card.md points to it); it states that OPT-175B was released on May 3, 2022.</span>
+</div>
+</li>
+<li id="source-src.meta.opt-175b-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Democratizing access to large-scale language models with OPT-175B</cite></p>
+<p class="mh-kicker">Announcement · Meta · published <time datetime="2022-05-03">3 May 2022</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://ai.meta.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/">Original ↗</a>
+<span class="mh-url">https://ai.meta.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/</span>
+<span class="mh-note">Meta AI blog post. Originally published at https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/, which now redirects (301) here. Sections: opening, Responsible publication with OPT-175B, Responsible compute, Propelling research forward through open collaboration. Links the metaseq code, the OPT-175B request form, the paper and the OPT-175B License Agreement.</span>
+</div>
+</li>
+<li id="source-src.meta.metaseq-opt" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>metaseq/projects/OPT at main · facebookresearch/metaseq</cite></p>
+<p class="mh-kicker">Repository · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://github.com/facebookresearch/metaseq/tree/main/projects/OPT">Original ↗</a>
+<span class="mh-url">https://github.com/facebookresearch/metaseq/tree/main/projects/OPT</span>
+<span class="mh-note">OPT project folder in Meta&#39;s metaseq repository; its README has the Pretrained Model Weights table (download links on dl.fbaipublicfiles.com for OPT-125M to OPT-66B, a request form for OPT-175B). Title is the GitHub page title. The repository was archived (read-only) when seen on 2026-10-01; last push 2024-04-27.</span>
+</div>
+</li>
+<li id="source-src.meta.opt-hf-collection" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>OPT - a facebook Collection</cite></p>
+<p class="mh-kicker">Model hub page · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/collections/facebook/opt">Original ↗</a>
+<span class="mh-url">https://huggingface.co/collections/facebook/opt</span>
+<span class="mh-note">Collection in Meta&#39;s facebook organisation on Hugging Face listing the ungated repos facebook/opt-125m to facebook/opt-66b plus four OPT-IML repos; last updated Nov 21, 2024. The id-suffixed address https://huggingface.co/collections/facebook/opt-66ed00e15599f02966818844 redirects here. The repo model cards state they were written by the Hugging Face team, so they are cited for availability only.</span>
+</div>
+</li>
+<li id="source-src.meta.opt-66b-release" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>OPT-66B Release</cite></p>
+<p class="mh-kicker">Code release · Meta · published <time datetime="2022-06-22">22 June 2022</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://github.com/facebookresearch/metaseq/pull/171">Original ↗</a>
+<span class="mh-url">https://github.com/facebookresearch/metaseq/pull/171</span>
+<span class="mh-note">Pull request in Meta&#39;s metaseq repository (description: releasing the 66B weights and the baselines logbook). Opened and merged on 2022-06-22 (UTC); it replaced TBD in the OPT-66B row of the README weights table with download links. Title as given in the pull request; the GitHub page title adds the author handle and repository name.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

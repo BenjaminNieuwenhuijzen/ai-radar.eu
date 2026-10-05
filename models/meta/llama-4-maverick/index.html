@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Llama 4 Maverick · Meta · Model History · AI Radar</title>
+<meta name="description" content="Llama 4 Maverick is a multimodal language model in Meta&#39;s Llama 4 line that takes text and images and returns text, released with open weights in BF16…">
+<link rel="canonical" href="https://ai-radar.eu/models/meta/llama-4-maverick/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Llama 4 Maverick · Meta · Model History · AI Radar">
+<meta property="og:description" content="Llama 4 Maverick is a multimodal language model in Meta&#39;s Llama 4 line that takes text and images and returns text, released with open weights in BF16…">
+<meta property="og:url" content="https://ai-radar.eu/models/meta/llama-4-maverick/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Llama 4 Maverick · Meta · Model History · AI Radar">
+<meta name="twitter:description" content="Llama 4 Maverick is a multimodal language model in Meta&#39;s Llama 4 line that takes text and images and returns text, released with open weights in BF16…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/meta/llama-4-maverick/","url":"https://ai-radar.eu/models/meta/llama-4-maverick/","name":"Llama 4 Maverick · Meta · Model History · AI Radar","description":"Llama 4 Maverick is a multimodal language model in Meta's Llama 4 line that takes text and images and returns text, released with open weights in BF16…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/meta/llama-4-maverick/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/meta/llama-4-maverick/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Meta","item":"https://ai-radar.eu/models/meta/"},{"@type":"ListItem","position":4,"name":"Llama 4 Maverick","item":"https://ai-radar.eu/models/meta/llama-4-maverick/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:285" data-mh-view="model" data-mh-model="meta.llama-4-maverick">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/meta/"><span class="mh-co" style="--h:285">Meta</span></a></li><li><a href="/models/meta/#family-meta.llama-4">Llama 4</a></li><li aria-current="page">Llama 4 Maverick</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="metagmh1" gradientUnits="userSpaceOnUse" x1="12" y1="0" x2="12" y2="24"><stop offset="0%" stop-color="#E04AFD"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#4845F5"/></linearGradient></defs><g fill="url(#metagmh1)"><ellipse cx="12" cy="5" rx="2.8" ry="4.6"/><ellipse cx="17.47" cy="7.63" rx="2.8" ry="4.6" transform="rotate(51.43 17.47 7.63)"/><ellipse cx="18.83" cy="13.56" rx="2.8" ry="4.6" transform="rotate(102.86 18.83 13.56)"/><ellipse cx="15.04" cy="18.31" rx="2.8" ry="4.6" transform="rotate(154.29 15.04 18.31)"/><ellipse cx="8.96" cy="18.31" rx="2.8" ry="4.6" transform="rotate(205.71 8.96 18.31)"/><ellipse cx="5.17" cy="13.56" rx="2.8" ry="4.6" transform="rotate(257.14 5.17 13.56)"/><ellipse cx="6.53" cy="7.63" rx="2.8" ry="4.6" transform="rotate(308.57 6.53 7.63)"/></g></svg></span>Llama 4 Maverick</h1>
+<p class="mh-sub">Available · Language, Multimodal · Milestone</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Llama 4 Maverick is a multimodal language model in Meta&#39;s Llama 4 line that takes text and images and returns text, released with open weights in BF16 and FP8 and later offered in a preview of Meta&#39;s Llama API. It is a mixture-of-experts model with 17B of 400B parameters active and a 1M-token context length; Meta calls it its product workhorse for assistant and chat use. <span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.meta.llama-4-model-card" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.meta.llama-4-model-cards-and-prompt-formats" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.meta.llamacon-announcement" aria-label="Source 4">[4]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/meta/llama-4-maverick/timeline/">Timeline of Llama 4 Maverick →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">15 claims · <span data-mh-summary="primary-source">Primary source: 15</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2025-04-05">5 April 2025</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-announcement" aria-label="Source 1, page date; Takeaways">[1]</a><span class="mh-locator">page date; Takeaways</span> <a class="mh-ref" href="#source-src.meta.llama-4-model-card" aria-label="Source 2, Model Release Date">[2]</a><span class="mh-locator">Model Release Date</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Available<span class="mh-note">Open weights still offered (gated, on request) from Meta&#39;s meta-llama organisation on Hugging Face and from Meta&#39;s Llama 4 page on 2026-10-01. The hosted Llama API preview is a separate matter, see notes.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-maverick-hf" aria-label="Source 5, model page and access request form">[5]</a><span class="mh-locator">model page and access request form</span> <a class="mh-ref" href="#source-src.meta.llama-4-models-page" aria-label="Source 6, Llama 4 Maverick, Download">[6]</a><span class="mh-locator">Llama 4 Maverick, Download</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Successor of</span>
+<span class="mh-claim-value"><a href="/models/meta/llama-3-3/">Llama 3.3</a> <span class="mh-editorial">Editorial</span><span class="mh-note">Editorial link along the Llama line: Llama 4 Maverick is among the first Llama 4 models, released after Llama 3.3, and the announcement compares its price and quality with Llama 3.3 70B. Meta does not call it the successor of a named model.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-announcement" aria-label="Source 1, Post-training our new models">[1]</a><span class="mh-locator">Post-training our new models</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="relations[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Derived from (distillation)</span>
+<span class="mh-claim-value"><a href="/models/meta/llama-4-behemoth/">Llama 4 Behemoth</a><span class="mh-note">Meta describes this as codistillation, with Llama 4 Behemoth as the teacher model.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-announcement" aria-label="Source 1, Pushing Llama to new sizes: The 2T Behemoth">[1]</a><span class="mh-locator">Pushing Llama to new sizes: The 2T Behemoth</span></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Architecture</span>
+<span class="mh-claim-value">One of Meta&#39;s first Llama models built on mixture of experts: 128 routed experts plus a shared expert in alternating dense and MoE layers, 17B of 400B parameters active.<span class="mh-note">Compared with <a href="/models/meta/llama-3-3/">Llama 3.3</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-announcement" aria-label="Source 1">[1]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Modality</span>
+<span class="mh-claim-value">Accepts images alongside text as input; Meta describes native multimodality with early fusion of text and vision tokens.<span class="mh-note">Compared with <a href="/models/meta/llama-3-3/">Llama 3.3</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-model-card" aria-label="Source 2, Model Information table, Input modalities">[2]</a><span class="mh-locator">Model Information table, Input modalities</span> <a class="mh-ref" href="#source-src.meta.llama-4-announcement" aria-label="Source 1">[1]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Context length</span>
+<span class="mh-claim-value">Context length of 1M tokens, up from 128K in Llama 3.<span class="mh-note">Compared with <a href="/models/meta/llama-3-3/">Llama 3.3</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-model-card" aria-label="Source 2, Model Information table, Context length">[2]</a><span class="mh-locator">Model Information table, Context length</span> <a class="mh-ref" href="#source-src.meta.llama-4-announcement" aria-label="Source 1">[1]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[3]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Other</span>
+<span class="mh-claim-value">Codistilled from Llama 4 Behemoth as teacher, then post-trained with lightweight supervised fine-tuning, online reinforcement learning and lightweight DPO.<span class="mh-note">Compared with <a href="/models/meta/llama-3-3/">Llama 3.3</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-announcement" aria-label="Source 1">[1]</a></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text, image<span class="mh-note">Meta&#39;s docs give text plus up to 5 images as input; the model card says image understanding was tested up to 5 input images and the docs say image understanding is English-only.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-model-card" aria-label="Source 2, Model Information table, Input modalities">[2]</a><span class="mh-locator">Model Information table, Input modalities</span> <a class="mh-ref" href="#source-src.meta.llama-4-model-cards-and-prompt-formats" aria-label="Source 3, Introduction, feature table, Multimodal">[3]</a><span class="mh-locator">Introduction, feature table, Multimodal</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text<span class="mh-note">The docs say text-only output; the model card table lists the output as multilingual text and code.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-model-cards-and-prompt-formats" aria-label="Source 3, Introduction, feature table, Multimodal">[3]</a><span class="mh-locator">Introduction, feature table, Multimodal</span> <a class="mh-ref" href="#source-src.meta.llama-4-model-card" aria-label="Source 2, Model Information table, Output modalities">[2]</a><span class="mh-locator">Model Information table, Output modalities</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Open weights</span>
+<span class="mh-claim-value">Yes<span class="mh-note">Gated download under the Llama 4 Community License Agreement, a custom commercial license (model card); released as BF16 and FP8 weights.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-announcement" aria-label="Source 1, opening paragraphs">[1]</a><span class="mh-locator">opening paragraphs</span> <a class="mh-ref" href="#source-src.meta.llama-4-maverick-hf" aria-label="Source 5">[5]</a> <a class="mh-ref" href="#source-src.meta.llama-4-model-card" aria-label="Source 2, License; Quantization">[2]</a><span class="mh-locator">License; Quantization</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">1M tokens<span class="mh-note">The announcement gives no context length for Maverick.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-model-card" aria-label="Source 2, Model Information table, Context length">[2]</a><span class="mh-locator">Model Information table, Context length</span> <a class="mh-ref" href="#source-src.meta.llama-4-model-cards-and-prompt-formats" aria-label="Source 3, Introduction, feature table, Maximum Context Length">[3]</a><span class="mh-locator">Introduction, feature table, Maximum Context Length</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">17B (Activated), 400B (Total)<span class="mh-note">Mixture-of-experts model with 128 routed experts and a shared expert in alternating dense and MoE layers; the value is the total parameter count, of which 17B are active per token.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-model-card" aria-label="Source 2, Model Information table, Params">[2]</a><span class="mh-locator">Model Information table, Params</span> <a class="mh-ref" href="#source-src.meta.llama-4-model-cards-and-prompt-formats" aria-label="Source 3, Introduction, feature table">[3]</a><span class="mh-locator">Introduction, feature table</span> <a class="mh-ref" href="#source-src.meta.llama-4-announcement" aria-label="Source 1, Pre-training; Post-training our new models">[1]</a><span class="mh-locator">Pre-training; Post-training our new models</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">Open-weights download, API<span class="mh-note">API access through Meta&#39;s Llama API, a limited free preview announced on 2025-04-29. The launch post said partner availability would follow in the coming days; cloud-partner is left out because no Meta source read here names the partners.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.meta.llama-4-announcement" aria-label="Source 1, opening paragraphs">[1]</a><span class="mh-locator">opening paragraphs</span> <a class="mh-ref" href="#source-src.meta.llama-4-maverick-hf" aria-label="Source 5">[5]</a> <a class="mh-ref" href="#source-src.meta.llamacon-announcement" aria-label="Source 4, Llama API">[4]</a><span class="mh-locator">Llama API</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<ul class="mh-rel" data-mh-lineage="predecessors">
+<li><a href="/models/meta/llama-3-3/">Llama 3.3</a> <span class="mh-muted">· 6 December 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/meta/muse-spark/">Muse Spark</a> <span class="mh-muted">· 8 April 2026</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<ul class="mh-rel" data-mh-lineage="parents">
+<li><a href="/models/meta/llama-4-behemoth/">Llama 4 Behemoth</a> <span class="mh-muted">· 5 April 2025 · derived (distillation)</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/meta/llama-1/">LLaMA</a> <span class="mh-muted">· 24 February 2023</span></li>
+<li><a href="/models/meta/llama-2/">Llama 2</a> <span class="mh-muted">· 18 July 2023</span></li>
+<li><a href="/models/meta/meta-llama-3/">Meta Llama 3</a> <span class="mh-muted">· 18 April 2024</span></li>
+<li><a href="/models/meta/llama-3-1/">Llama 3.1</a> <span class="mh-muted">· 23 July 2024</span></li>
+<li><a href="/models/meta/llama-3-2/">Llama 3.2</a> <span class="mh-muted">· 25 September 2024</span></li>
+<li><a href="/models/meta/llama-3-3/">Llama 3.3</a> <span class="mh-muted">· 6 December 2024</span></li>
+<li><a href="/models/meta/llama-4-behemoth/">Llama 4 Behemoth</a> <span class="mh-muted">· 5 April 2025</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/meta/muse-spark/">Muse Spark</a> <span class="mh-muted">· 8 April 2026</span></li>
+<li><a href="/models/meta/muse-spark-1-1/">Muse Spark 1.1</a> <span class="mh-muted">· 9 July 2026</span></li>
+<li><a href="/models/meta/muse-spark-1-2/">Muse Spark 1.2</a> <span class="mh-muted">· 5 August 2026</span></li>
+<li><a href="/models/meta/muse-glimmer/">Muse Glimmer</a> <span class="mh-muted">· 10 August 2026</span></li>
+<li><a href="/models/meta/muse-spark-1-3/">Muse Spark 1.3</a> <span class="mh-muted">· 2 September 2026</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-visually-hidden">Variants</h2>
+<p class="mh-visually-hidden">No variants recorded in this record.</p>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=meta">All model releases from Meta on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<a class="mh-pager-prev" href="/models/meta/llama-4-behemoth/"><span class="mh-muted">← Earlier in Llama 4</span><span>Llama 4 Behemoth</span></a>
+<a class="mh-pager-next" href="/models/meta/llama-4-scout/"><span class="mh-muted">Later in Llama 4 →</span><span>Llama 4 Scout</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="metagmh0" gradientUnits="userSpaceOnUse" x1="12" y1="0" x2="12" y2="24"><stop offset="0%" stop-color="#E04AFD"/><stop offset="50%" stop-color="#8B5CF6"/><stop offset="100%" stop-color="#4845F5"/></linearGradient></defs><g fill="url(#metagmh0)"><ellipse cx="12" cy="5" rx="2.8" ry="4.6"/><ellipse cx="17.47" cy="7.63" rx="2.8" ry="4.6" transform="rotate(51.43 17.47 7.63)"/><ellipse cx="18.83" cy="13.56" rx="2.8" ry="4.6" transform="rotate(102.86 18.83 13.56)"/><ellipse cx="15.04" cy="18.31" rx="2.8" ry="4.6" transform="rotate(154.29 15.04 18.31)"/><ellipse cx="8.96" cy="18.31" rx="2.8" ry="4.6" transform="rotate(205.71 8.96 18.31)"/><ellipse cx="5.17" cy="13.56" rx="2.8" ry="4.6" transform="rotate(257.14 5.17 13.56)"/><ellipse cx="6.53" cy="7.63" rx="2.8" ry="4.6" transform="rotate(308.57 6.53 7.63)"/></g></svg></span><a href="/models/meta/">Meta</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/meta/#family-meta.llama-4">Llama 4</a></dd></div>
+<div><dt>Generation</dt><dd>4</dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2025-04-05">5 April 2025</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Milestone <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>Llama-4-Maverick-17B-128E, Llama-4-Maverick-17B-128E-Instruct, Llama-4-Maverick-17B-128E-Instruct-FP8, Maverick</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.meta.llama-4-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation</cite></p>
+<p class="mh-kicker">Announcement · Meta · published <time datetime="2025-04-05">5 April 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://ai.meta.com/blog/llama-4-multimodal-intelligence/">Original ↗</a>
+<span class="mh-url">https://ai.meta.com/blog/llama-4-multimodal-intelligence/</span>
+<span class="mh-note">Announces Llama 4 Scout and Llama 4 Maverick and previews Llama 4 Behemoth. The page is dated April 5, 2025. Scripted requests (curl, Invoke-WebRequest with a browser User-Agent) got HTTP 400 on 2026-10-01; the content was read through a fetch tool.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-4-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>llama-models/models/llama4/MODEL_CARD.md</cite></p>
+<p class="mh-kicker">Model card · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md">Original ↗</a>
+<span class="mh-url">https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md</span>
+<span class="mh-note">Llama 4 model card (Llama 4 Scout and Llama 4 Maverick) in Meta&#39;s llama-models repository on GitHub; the file has no title heading, so the title is its repository path (HTML title: llama-models/models/llama4/MODEL_CARD.md at main, meta-llama/llama-models, GitHub). Living file on the main branch; the git history shows it was added on 2025-04-05 (commit 5fdf83110c) and last changed the same day (commit 038acb9fe1e1ddc5cf1b3989fb07b311a0ffcae4). The card states Model Release Date: April 5, 2025. The same text appears on the Hugging Face model pages. Linked as Model Card from Meta&#39;s Llama 4 docs page.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-4-model-cards-and-prompt-formats" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Llama 4 | Model Cards and Prompt formats</cite></p>
+<p class="mh-kicker">Documentation · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://dev.meta.ai/llama/docs/model-cards-and-prompt-formats/llama4">Original ↗</a>
+<span class="mh-url">https://dev.meta.ai/llama/docs/model-cards-and-prompt-formats/llama4</span>
+<span class="mh-note">Meta&#39;s developer docs page for Llama 4 (feature table with modalities, parameters, experts and maximum context length per model; prompt formats). Originally published at https://www.llama.com/docs/model-cards-and-prompt-formats/llama4/, which now redirects (301 to developer.meta.com/ai/docs/model-cards-and-prompt-formats/llama4/, 302 to dev.meta.ai/llama/docs/model-cards-and-prompt-formats/llama4/, 308 to this URL). Living page; content as seen on 2026-10-01.</span>
+</div>
+</li>
+<li id="source-src.meta.llamacon-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Everything we announced at our first-ever LlamaCon</cite></p>
+<p class="mh-kicker">Announcement · Meta · published <time datetime="2025-04-29">29 April 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://ai.meta.com/blog/llamacon-llama-news/">Original ↗</a>
+<span class="mh-url">https://ai.meta.com/blog/llamacon-llama-news/</span>
+<span class="mh-note">Announces the Llama API as a limited free preview with Llama 4 Scout and Llama 4 Maverick, fine-tuning of Llama 3.3 8B, and the safeguard models Llama Guard 4 and Llama Prompt Guard 2. Scripted requests got HTTP 400 on 2026-10-01; the content was read through a fetch tool.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-4-maverick-hf" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>meta-llama/Llama-4-Maverick-17B-128E-Instruct</cite></p>
+<p class="mh-kicker">Model hub page · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct">Original ↗</a>
+<span class="mh-url">https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct</span>
+<span class="mh-note">Model page in Meta&#39;s meta-llama organisation on Hugging Face (HTML title adds Hugging Face). Gated repository: access is granted on request after accepting the Llama 4 Community License Agreement. The Hugging Face API gives a creation date of 2025-04-01 (before the public launch). Related repositories: meta-llama/Llama-4-Maverick-17B-128E (base), meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8, and -Original checkpoints of each.</span>
+</div>
+</li>
+<li id="source-src.meta.llama-4-models-page" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[6]</span> <cite>Unmatched Performance and Efficiency | Llama 4</cite></p>
+<p class="mh-kicker">Documentation · Meta</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://dev.meta.ai/llama/models/llama-4">Original ↗</a>
+<span class="mh-url">https://dev.meta.ai/llama/models/llama-4</span>
+<span class="mh-note">Meta&#39;s Llama 4 model page with download links for Llama 4 Scout and Llama 4 Maverick. Originally published at https://www.llama.com/models/llama-4/, which now redirects (301 to developer.meta.com/ai/models/llama-4/, 302 to dev.meta.ai/llama/models/llama-4/, 308 to this URL). Living page; content as seen on 2026-10-01. The download links point to /llama/llama-downloads, which redirected to a sign-in protected page for a scripted request.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

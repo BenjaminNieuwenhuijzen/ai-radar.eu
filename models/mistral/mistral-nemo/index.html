@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Mistral NeMo · Mistral AI · Model History · AI Radar</title>
+<meta name="description" content="Mistral NeMo is a 12B-parameter language model that Mistral AI built with NVIDIA, released with base and instruct weights under Apache 2.0 and offered on…">
+<link rel="canonical" href="https://ai-radar.eu/models/mistral/mistral-nemo/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Mistral NeMo · Mistral AI · Model History · AI Radar">
+<meta property="og:description" content="Mistral NeMo is a 12B-parameter language model that Mistral AI built with NVIDIA, released with base and instruct weights under Apache 2.0 and offered on…">
+<meta property="og:url" content="https://ai-radar.eu/models/mistral/mistral-nemo/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mistral NeMo · Mistral AI · Model History · AI Radar">
+<meta name="twitter:description" content="Mistral NeMo is a 12B-parameter language model that Mistral AI built with NVIDIA, released with base and instruct weights under Apache 2.0 and offered on…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/mistral/mistral-nemo/","url":"https://ai-radar.eu/models/mistral/mistral-nemo/","name":"Mistral NeMo · Mistral AI · Model History · AI Radar","description":"Mistral NeMo is a 12B-parameter language model that Mistral AI built with NVIDIA, released with base and instruct weights under Apache 2.0 and offered on…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/mistral/mistral-nemo/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/mistral/mistral-nemo/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Mistral AI","item":"https://ai-radar.eu/models/mistral/"},{"@type":"ListItem","position":4,"name":"Mistral NeMo","item":"https://ai-radar.eu/models/mistral/mistral-nemo/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:85" data-mh-view="model" data-mh-model="mistral.mistral-nemo">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/mistral/"><span class="mh-co" style="--h:85">Mistral AI</span></a></li><li><a href="/models/mistral/#family-mistral.mistral">Mistral</a></li><li aria-current="page">Mistral NeMo</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg"><g fill="#FFD800"><rect x="4" y="0" width="4" height="4"/><rect x="16" y="0" width="4" height="4"/></g><g fill="#FFAF00"><rect x="4" y="4" width="8" height="4"/><rect x="14" y="4" width="6" height="4"/></g><g fill="#FF8205"><rect x="4" y="8" width="16" height="4"/></g><g fill="#FA500F"><rect x="4" y="12" width="4" height="4"/><rect x="10" y="12" width="4" height="4"/><rect x="16" y="12" width="4" height="4"/></g><g fill="#E10500"><rect x="0" y="16" width="8" height="4"/><rect x="12" y="16" width="12" height="4"/></g></svg></span>Mistral NeMo</h1>
+<p class="mh-sub">Available · Language</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Mistral NeMo is a 12B-parameter language model that Mistral AI built with NVIDIA, released with base and instruct weights under Apache 2.0 and offered on la Plateforme and as an NVIDIA NIM. It has a 128k-token context window, introduced the Tekken tokenizer, and Mistral presents it as a drop-in replacement for Mistral 7B. <span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.nvidia.mistral-nemo-12b-announcement" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.mistral.hf-mistral-nemo-base-2407" aria-label="Source 3">[3]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/mistral/mistral-nemo/timeline/">Timeline of Mistral NeMo →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">19 claims · <span data-mh-summary="primary-source">Primary source: 19</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2024-07-18">18 July 2024</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1, page date; first paragraph">[1]</a><span class="mh-locator">page date; first paragraph</span> <a class="mh-ref" href="#source-src.mistral.changelog" aria-label="Source 4, July 18, 2024">[4]</a><span class="mh-locator">July 18, 2024</span> <a class="mh-ref" href="#source-src.mistral.docs-mistral-nemo-12b-24-07" aria-label="Source 5, release date">[5]</a><span class="mh-locator">release date</span> <a class="mh-ref" href="#source-src.nvidia.mistral-nemo-12b-announcement" aria-label="Source 2, first paragraph">[2]</a><span class="mh-locator">first paragraph</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.deprecated" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Deprecated</span>
+<span class="mh-claim-value"><time datetime="2026-05-22">22 May 2026</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.models-overview" aria-label="Source 6, Deprecated &amp; retired models table, row Mistral Nemo 12B">[6]</a><span class="mh-locator">Deprecated &amp; retired models table, row Mistral Nemo 12B</span> <a class="mh-ref" href="#source-src.mistral.docs-mistral-nemo-12b-24-07" aria-label="Source 5, Deprecation date">[5]</a><span class="mh-locator">Deprecation date</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.retired" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Retired</span>
+<span class="mh-claim-value"><time datetime="2026-07-31">31 July 2026</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.models-overview" aria-label="Source 6, Deprecated &amp; retired models table, row Mistral Nemo 12B">[6]</a><span class="mh-locator">Deprecated &amp; retired models table, row Mistral Nemo 12B</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Available<span class="mh-note">Apache 2.0 weights remain downloadable from the mistralai Hugging Face organisation; the API endpoint open-mistral-nemo-2407 was deprecated on 2026-05-22 and retired on 2026-07-31.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.hf-mistral-nemo-instruct-2407" aria-label="Source 7">[7]</a> <a class="mh-ref" href="#source-src.mistral.hf-mistral-nemo-base-2407" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.mistral.models-overview" aria-label="Source 6, Deprecated &amp; retired models table, row Mistral Nemo 12B">[6]</a><span class="mh-locator">Deprecated &amp; retired models table, row Mistral Nemo 12B</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="replacedBy" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Replaced by</span>
+<span class="mh-claim-value"><a href="/models/mistral/ministral-3/">Ministral 3</a><span class="mh-note">Mistral names Ministral 3 8B, a variant of the Ministral 3 record.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.models-overview" aria-label="Source 6, Deprecated &amp; retired models table, row Mistral Nemo 12B, Alternative">[6]</a><span class="mh-locator">Deprecated &amp; retired models table, row Mistral Nemo 12B, Alternative</span> <a class="mh-ref" href="#source-src.mistral.docs-mistral-nemo-12b-24-07" aria-label="Source 5, Replacement">[5]</a><span class="mh-locator">Replacement</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Successor of</span>
+<span class="mh-claim-value"><a href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a> <span class="mh-editorial">Editorial</span><span class="mh-note">Mistral presents Mistral NeMo as a drop-in replacement for Mistral 7B and compares the two, without naming a Mistral 7B version; linking to v0.3, the Mistral 7B version current on la Plateforme at the time, is an editorial choice.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1, first paragraph; Instruction fine-tuning">[1]</a><span class="mh-locator">first paragraph; Instruction fine-tuning</span> <a class="mh-ref" href="#source-src.mistral.hf-mistral-nemo-base-2407" aria-label="Source 3, Key features">[3]</a><span class="mh-locator">Key features</span></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Size</span>
+<span class="mh-claim-value">Has 12B parameters, up from 7B in Mistral 7B, while keeping a standard architecture that Mistral says lets it replace Mistral 7B as a drop-in.<span class="mh-note">Compared with <a href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1">[1]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Architecture</span>
+<span class="mh-claim-value">Uses a new tokenizer, Tekken, based on Tiktoken, in place of the SentencePiece tokenizer of earlier Mistral models.<span class="mh-note">Compared with <a href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1">[1]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Efficiency</span>
+<span class="mh-claim-value">Trained with quantisation awareness to allow FP8 inference, which Mistral says comes without a loss in performance.<span class="mh-note">Compared with <a href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1">[1]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[3]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Languages</span>
+<span class="mh-claim-value">Designed for multilingual use; Mistral names eleven languages, among them Chinese, Japanese, Korean, Arabic and Hindi.<span class="mh-note">Compared with <a href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1">[1]</a></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.docs-mistral-nemo-12b-24-07" aria-label="Source 5, Modalities">[5]</a><span class="mh-locator">Modalities</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.docs-mistral-nemo-12b-24-07" aria-label="Source 5, Modalities">[5]</a><span class="mh-locator">Modalities</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Function calling</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1, Multilingual Model for the Masses">[1]</a><span class="mh-locator">Multilingual Model for the Masses</span> <a class="mh-ref" href="#source-src.mistral.docs-mistral-nemo-12b-24-07" aria-label="Source 5, Features">[5]</a><span class="mh-locator">Features</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Multilingual</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1, Multilingual Model for the Masses">[1]</a><span class="mh-locator">Multilingual Model for the Masses</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Open weights</span>
+<span class="mh-claim-value">Yes<span class="mh-note">Base and instruct checkpoints under Apache 2.0.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1, second paragraph; Links">[1]</a><span class="mh-locator">second paragraph; Links</span> <a class="mh-ref" href="#source-src.mistral.hf-mistral-nemo-instruct-2407" aria-label="Source 7">[7]</a> <a class="mh-ref" href="#source-src.mistral.hf-mistral-nemo-base-2407" aria-label="Source 3">[3]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">128k tokens</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1, first paragraph">[1]</a><span class="mh-locator">first paragraph</span> <a class="mh-ref" href="#source-src.mistral.docs-mistral-nemo-12b-24-07" aria-label="Source 5, Context">[5]</a><span class="mh-locator">Context</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">12B</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1, first paragraph">[1]</a><span class="mh-locator">first paragraph</span> <a class="mh-ref" href="#source-src.mistral.docs-mistral-nemo-12b-24-07" aria-label="Source 5, Weights table">[5]</a><span class="mh-locator">Weights table</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">API, Open-weights download</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.mistral-nemo-announcement" aria-label="Source 1, Links">[1]</a><span class="mh-locator">Links</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<ul class="mh-rel" data-mh-lineage="predecessors">
+<li><a href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a> <span class="mh-muted">· 22 May 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<p class="mh-none" data-mh-lineage="successors">No known successor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<p class="mh-none" data-mh-lineage="parents">Not derived from another model.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<ul class="mh-rel" data-mh-lineage="children">
+<li><a href="/models/mistral/pixtral-12b/">Pixtral 12B</a> <span class="mh-muted">· 17 September 2024 · derived (other)</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/mistral/mistral-7b/">Mistral 7B</a> <span class="mh-muted">· 27 September 2023</span></li>
+<li><a href="/models/mistral/mistral-7b-v0-2/">Mistral 7B v0.2</a> <span class="mh-muted">· 11 December 2023</span></li>
+<li><a href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a> <span class="mh-muted">· 22 May 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/mistral/pixtral-12b/">Pixtral 12B</a> <span class="mh-muted">· 17 September 2024</span></li>
+<li><a href="/models/mistral/pixtral-large/">Pixtral Large</a> <span class="mh-muted">· 18 November 2024</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-visually-hidden">Variants</h2>
+<p class="mh-visually-hidden">No variants recorded in this record.</p>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=mistral">All model releases from Mistral AI on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<a class="mh-pager-prev" href="/models/mistral/mistral-7b-v0-3/"><span class="mh-muted">← Earlier in Mistral</span><span>Mistral 7B v0.3</span></a>
+<span></span>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg"><g fill="#FFD800"><rect x="4" y="0" width="4" height="4"/><rect x="16" y="0" width="4" height="4"/></g><g fill="#FFAF00"><rect x="4" y="4" width="8" height="4"/><rect x="14" y="4" width="6" height="4"/></g><g fill="#FF8205"><rect x="4" y="8" width="16" height="4"/></g><g fill="#FA500F"><rect x="4" y="12" width="4" height="4"/><rect x="10" y="12" width="4" height="4"/><rect x="16" y="12" width="4" height="4"/></g><g fill="#E10500"><rect x="0" y="16" width="8" height="4"/><rect x="12" y="16" width="12" height="4"/></g></svg></span><a href="/models/mistral/">Mistral AI</a><br><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#76b900"><path d="M8.948 8.798v-1.43a6.7 6.7 0 0 1 .424-.018c3.922-.124 6.493 3.374 6.493 3.374s-2.774 3.851-5.75 3.851c-.398 0-.787-.062-1.158-.185v-4.346c1.528.185 1.837.857 2.747 2.385l2.04-1.714s-1.492-1.952-4-1.952a6.016 6.016 0 0 0-.796.035m0-4.735v2.138l.424-.027c5.45-.185 9.01 4.47 9.01 4.47s-4.08 4.964-8.33 4.964c-.37 0-.733-.035-1.095-.097v1.325c.3.035.61.062.91.062 3.957 0 6.82-2.023 9.593-4.408.459.371 2.34 1.263 2.73 1.652-2.633 2.208-8.772 3.984-12.253 3.984-.335 0-.653-.018-.971-.053v1.864H24V4.063zm0 10.326v1.131c-3.657-.654-4.673-4.46-4.673-4.46s1.758-1.944 4.673-2.262v1.237H8.94c-1.528-.186-2.73 1.245-2.73 1.245s.68 2.412 2.739 3.11M2.456 10.9s2.164-3.197 6.5-3.533V6.201C4.153 6.59 0 10.653 0 10.653s2.35 6.802 8.948 7.42v-1.237c-4.84-.6-6.492-5.936-6.492-5.936z"/></svg></span><a href="/models/nvidia/">NVIDIA</a> <span class="mh-muted">co-developer</span></dd></div>
+<div><dt>Family</dt><dd><a href="/models/mistral/#family-mistral.mistral">Mistral</a></dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2024-07-18">18 July 2024</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Standard release <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>Mistral NeMo 12B, open-mistral-nemo-2407, open-mistral-nemo, Mistral-Nemo-Instruct-2407, Mistral-Nemo-Base-2407</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.mistral.mistral-nemo-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Mistral NeMo</cite></p>
+<p class="mh-kicker">Announcement · Mistral AI · published <time datetime="2024-07-18">18 July 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://mistral.ai/news/mistral-nemo/">Original ↗</a>
+<span class="mh-url">https://mistral.ai/news/mistral-nemo/</span>
+<span class="mh-note">HTML title Mistral NeMo | Mistral AI. The form without a trailing slash redirects here.</span>
+</div>
+</li>
+<li id="source-src.nvidia.mistral-nemo-12b-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Mistral AI and NVIDIA Unveil Mistral NeMo 12B, a Cutting-Edge Enterprise AI Model</cite></p>
+<p class="mh-kicker">Blog post · NVIDIA · published <time datetime="2024-07-18">18 July 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://blogs.nvidia.com/blog/mistral-nvidia-ai-model/">Original ↗</a>
+<span class="mh-url">https://blogs.nvidia.com/blog/mistral-nvidia-ai-model/</span>
+<span class="mh-note">NVIDIA Blog post by Kari Briski (HTML title ends with | NVIDIA Blog). Says Mistral AI and NVIDIA released Mistral NeMo 12B that day and that it was trained on NVIDIA DGX Cloud. Belongs in sources/nvidia.json.</span>
+</div>
+</li>
+<li id="source-src.mistral.hf-mistral-nemo-base-2407" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>mistralai/Mistral-Nemo-Base-2407</cite></p>
+<p class="mh-kicker">Model hub page · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/mistralai/Mistral-Nemo-Base-2407">Original ↗</a>
+<span class="mh-url">https://huggingface.co/mistralai/Mistral-Nemo-Base-2407</span>
+<span class="mh-note">Hugging Face model page of the mistralai organisation; HTML title mistralai/Mistral-Nemo-Base-2407 · Hugging Face. Base model card; Apache 2.0; not gated; repository created 2024-07-18. Says the model was trained jointly by Mistral AI and NVIDIA and is a drop-in replacement of Mistral 7B. Repository creation dates are leads only.</span>
+</div>
+</li>
+<li id="source-src.mistral.changelog" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Changelog</cite></p>
+<p class="mh-kicker">Changelog · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.mistral.ai/resources/changelogs">Original ↗</a>
+<span class="mh-url">https://docs.mistral.ai/resources/changelogs</span>
+<span class="mh-note">Living page; earliest entry January 11, 2024. HTML title Changelog | Mistral Docs. The older address https://docs.mistral.ai/getting-started/changelog/ redirects here (two 308 redirects).</span>
+</div>
+</li>
+<li id="source-src.mistral.docs-mistral-nemo-12b-24-07" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>Mistral Nemo 12B</cite></p>
+<p class="mh-kicker">Documentation · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.mistral.ai/models/mistral-nemo-12b-24-07">Original ↗</a>
+<span class="mh-url">https://docs.mistral.ai/models/mistral-nemo-12b-24-07</span>
+<span class="mh-note">Docs model page; HTML title Mistral Nemo 12B - Mistral AI | Mistral Docs. Shows July 18, 2024, Apache 2.0, version 24.07, API names open-mistral-nemo-2407 and open-mistral-nemo, text in and text out (icons), 128k context, deprecation date 5/22/2026, replacement Ministral 3 8B, weights table 12B. The status badge still says Deprecated on 2026-10-01 although the overview gives retirement on 7/31/2026.</span>
+</div>
+</li>
+<li id="source-src.mistral.models-overview" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[6]</span> <cite>Models Overview</cite></p>
+<p class="mh-kicker">Documentation · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.mistral.ai/models">Original ↗</a>
+<span class="mh-url">https://docs.mistral.ai/models</span>
+<span class="mh-note">Living page; content as seen on 2026-10-01. Its Deprecated section (Deprecated and retired models) lists model, version, API id, deprecation and retirement dates in M/D/YYYY format, and the alternative. HTML title Mistral Docs. The older address https://docs.mistral.ai/getting-started/models/models_overview/ redirects here (two 308 redirects).</span>
+</div>
+</li>
+<li id="source-src.mistral.hf-mistral-nemo-instruct-2407" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[7]</span> <cite>mistralai/Mistral-Nemo-Instruct-2407</cite></p>
+<p class="mh-kicker">Model hub page · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407">Original ↗</a>
+<span class="mh-url">https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407</span>
+<span class="mh-note">Hugging Face model page of the mistralai organisation; HTML title mistralai/Mistral-Nemo-Instruct-2407 · Hugging Face. Instruct model card; Apache 2.0; not gated; repository created 2024-07-17. Repository creation dates are leads only.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

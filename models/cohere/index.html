@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Cohere models · Model History · AI Radar</title>
+<meta name="description" content="Cohere is an AI company founded in Toronto in 2019 that builds foundation models and AI products for businesses. It offers its Command text-generation…">
+<link rel="canonical" href="https://ai-radar.eu/models/cohere/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Cohere models · Model History · AI Radar">
+<meta property="og:description" content="Cohere is an AI company founded in Toronto in 2019 that builds foundation models and AI products for businesses. It offers its Command text-generation…">
+<meta property="og:url" content="https://ai-radar.eu/models/cohere/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Cohere models · Model History · AI Radar">
+<meta name="twitter:description" content="Cohere is an AI company founded in Toronto in 2019 that builds foundation models and AI products for businesses. It offers its Command text-generation…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script src="/assets/model-pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/cohere/","url":"https://ai-radar.eu/models/cohere/","name":"Cohere models · Model History · AI Radar","description":"Cohere is an AI company founded in Toronto in 2019 that builds foundation models and AI products for businesses. It offers its Command text-generation…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/cohere/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/cohere/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Cohere","item":"https://ai-radar.eu/models/cohere/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-company" style="--h:352" data-mh-view="company" data-mh-org="cohere">
+<div class="mh-page-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li aria-current="page"><span class="mh-co" style="--h:352">Cohere</span></li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><image href="data:image/png;base64,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" width="24" height="24"/></svg></span>Cohere models</h1>
+<p class="mh-lead">Cohere is an AI company founded in Toronto in 2019 that builds foundation models and AI products for businesses. It offers its Command text-generation models and its Embed and Rerank models on its own platform and through cloud providers, and launched the North workplace platform in 2025. Its research lab, Cohere Labs, develops the open-weight Aya multilingual models.</p>
+<div id="mh-family-chips" class="mh-chips" role="group" aria-label="Family" hidden>
+<button type="button" data-family="" aria-pressed="true">All families</button>
+<button type="button" data-family="cohere.aya" aria-pressed="false">Aya</button>
+<button type="button" data-family="cohere.command" aria-pressed="false">Command</button>
+<button type="button" data-family="cohere.command-a-family" aria-pressed="false">Command A family</button>
+<button type="button" data-family="cohere.command-r-series" aria-pressed="false">Command R series</button>
+</div>
+</div>
+<aside class="mh-head-side" id="evidence" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence overview</h2>
+<dl class="mh-ev-overview">
+<div data-mh-evidence="primary-source"><dt><span class="mh-glyph" aria-hidden="true">●</span> Primary source</dt><dd>18</dd></div>
+<div data-mh-evidence="archived-primary-source"><dt><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</dt><dd>0</dd></div>
+<div data-mh-evidence="secondary-sources"><dt><span class="mh-glyph" aria-hidden="true">○</span> Secondary sources</dt><dd>0</dd></div>
+<div data-mh-evidence="insufficient-evidence"><dt><span class="mh-glyph" aria-hidden="true">◌</span> Evidence incomplete</dt><dd>0</dd></div>
+<div data-mh-flag="original-unavailable"><dt>Original source unavailable</dt><dd>0</dd></div>
+</dl>
+</aside>
+</div>
+<div class="mh-page-body container">
+<div class="mh-body-main">
+<section id="chronology" aria-labelledby="mh-chrono-title">
+<h2 class="mh-visually-hidden" id="mh-chrono-title">Chronology</h2>
+<ol class="mh-chrono">
+<li class="mh-year">
+<div class="mh-year-head"><h3>2026</h3><span class="mh-year-count">2 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="cohere.command-a-plus" data-mh-family="cohere.command-a-family" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-05-20">20 May 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command A family · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/cohere/command-a-plus/">Command A+</a>
+<p class="mh-chrono-sum">Command A+ is Cohere&#39;s first mixture-of-experts model, with 218B total and 25B active parameters, released on 20 May 2026 as open weights under Apache 2.0 and through the Cohere API. Cohere calls it…</p>
+<ul class="mh-changes-mini"><li>Sparse mixture-of-experts design with 218B total and 25B active parameters, where Command A Reasoning is a dense 111B model.</li><li>Adds image input to a general Command A model; Command A accepts text only.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.tiny-aya" data-mh-family="cohere.aya" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-02-17">17 February 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Aya · Language</span>
+<a class="mh-chrono-name" href="/models/cohere/tiny-aya/">Tiny Aya</a>
+<p class="mh-chrono-sum">Tiny Aya is a family of five 3.35B-parameter multilingual text models from Cohere Labs, Cohere&#39;s research arm, released on 17 February 2026 as open weights for non-commercial use; the four…</p>
+<ul class="mh-changes-mini"><li>Supports 70 languages, against 23 for Aya Expanse; Cohere names no predecessor, so this is a comparison only.</li><li>3.35B parameters, against 8B and 32B for the two Aya Expanse models.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2025</h3><span class="mh-year-count">6 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="cohere.command-a-translate" data-mh-family="cohere.command-a-family" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-08-28">28 August 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command A family · Language</span>
+<a class="mh-chrono-name" href="/models/cohere/command-a-translate/">Command A Translate</a>
+<p class="mh-chrono-sum">Command A Translate is Cohere&#39;s first machine translation model, a 111B-parameter model in the Command A family for translation between 23 languages. It was released on 28 August 2025 on the Cohere…</p>
+<ul class="mh-changes-mini"><li>Specialised for machine translation between 23 languages rather than general chat, agent and RAG use.</li><li>Context of 8K input tokens plus 8K output, against 256K for Command A.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.command-a-reasoning" data-mh-family="cohere.command-a-family" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-08-21">21 August 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command A family · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/cohere/command-a-reasoning/">Command A Reasoning</a>
+<p class="mh-chrono-sum">Command A Reasoning is Cohere&#39;s first reasoning model, a 111B-parameter text model in the Command A family released on 21 August 2025 on the Cohere platform, with open weights for non-commercial…</p>
+<ul class="mh-changes-mini"><li>Adds an optional thinking step before the answer that can be switched off, with a token budget to control compute.</li><li>Maximum output rises to 32K tokens, from 8K for Command A.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.command-a-vision" data-mh-family="cohere.command-a-family" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-07-31">31 July 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command A family · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/cohere/command-a-vision/">Command A Vision</a>
+<p class="mh-chrono-sum">Command A Vision is a 112B-parameter model in Cohere&#39;s Command A family that reads images alongside text and answers in text, released on 31 July 2025 on the Cohere API with open weights for…</p>
+<ul class="mh-changes-mini"><li>Adds image input next to text, up to 20 images per request; Command A accepts text only.</li><li>Context window of 128K tokens, against 256K for Command A.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.command-a" data-mh-family="cohere.command-a-family" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-03-13">13 March 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command A family · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/cohere/command-a/">Command A</a>
+<p class="mh-chrono-sum">Command A is an enterprise-focused language model in Cohere&#39;s Command family with 111 billion parameters and a 256K-token context window, offered on the Cohere API and as research-use open weights…</p>
+<ul class="mh-changes-mini"><li>Context window doubles to 256K tokens, from 128K for Command R+ 08-2024.</li><li>Cohere reports 150 percent higher throughput than Command R+ 08-2024 and says the model needs only two A100 or H100 GPUs.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.aya-vision" data-mh-family="cohere.aya" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-03-04">4 March 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Aya · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/cohere/aya-vision/">Aya Vision</a>
+<p class="mh-chrono-sum">Aya Vision is a multilingual vision-language model from Cohere For AI (now Cohere Labs) that takes text and images and produces text in 23 languages, released in 8B and 32B sizes as open weights, on…</p>
+<ul class="mh-changes-mini"><li>Adds image input: Aya Vision accepts text and images, while Aya Expanse takes text only.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.command-r7b-arabic" data-mh-family="cohere.command-r-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-02-27">27 February 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command R series · Language</span>
+<a class="mh-chrono-name" href="/models/cohere/command-r7b-arabic/">Command R7B Arabic</a>
+<p class="mh-chrono-sum">Command R7B Arabic is a version of Cohere&#39;s Command R7B optimised for Modern Standard Arabic and English and aimed at enterprises in the Middle East and North Africa, released on the Cohere platform…</p>
+<ul class="mh-changes-mini"><li>Cohere says it improves on Command R7B in all Arabic language dimensions, with no regression in the languages Command R7B already supported.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2024</h3><span class="mh-year-count">8 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="cohere.command-r7b" data-mh-family="cohere.command-r-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-12-13">13 December 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command R series · Language</span>
+<a class="mh-chrono-name" href="/models/cohere/command-r7b/">Command R7B</a>
+<p class="mh-chrono-sum">Command R7B is an open-weights language model with 7 billion parameters that Cohere presents as the final model of its R series, offered on the Cohere API and as a research release on Hugging Face…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.aya-expanse" data-mh-family="cohere.aya" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-10-24">24 October 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Aya · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/cohere/aya-expanse/">Aya Expanse</a>
+<p class="mh-chrono-sum">Aya Expanse is a family of multilingual open-weights language models from Cohere For AI, Cohere&#39;s research arm (now Cohere Labs), released in 8B and 32B sizes and aimed at 23 languages. The weights…</p>
+<ul class="mh-changes-mini"><li>Trained with a new recipe that Cohere says combines data arbitrage for synthetic multilingual data, multilingual preference training and model merging.</li><li>The 32B model has a 128K-token context window, against 8,192 tokens for Aya 23 35B; the 8B model has 8K.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.command-r-08-2024" data-mh-family="cohere.command-r-series" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-08-30">30 August 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command R series · Language</span>
+<a class="mh-chrono-name" href="/models/cohere/command-r-08-2024/">Command R 08-2024</a>
+<p class="mh-chrono-sum">Command R 08-2024 is Cohere&#39;s August 2024 update of Command R, a text-only language model with a 128k-token context, released on 30 August 2024 on the Cohere API, Amazon SageMaker and Oracle OCI and…</p>
+<ul class="mh-changes-mini"><li>Cohere reports around 50 percent higher throughput and 20 percent lower latency, while needing half the hardware to serve it.</li><li>Adds Safety Modes in beta, letting developers choose a strict or contextual mode or opt out.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.command-r-plus-08-2024" data-mh-family="cohere.command-r-series" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-08-30">30 August 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command R series · Language</span>
+<a class="mh-chrono-name" href="/models/cohere/command-r-plus-08-2024/">Command R+ 08-2024</a>
+<p class="mh-chrono-sum">Command R+ 08-2024 is Cohere&#39;s August 2024 update of Command R+, a text-only language model with a 128k-token context, released on 30 August 2024 with the updated Command R on the Cohere API, Amazon…</p>
+<ul class="mh-changes-mini"><li>Cohere reports roughly 50 percent higher throughput and 25 percent lower latency on the same hardware footprint.</li><li>Adds Safety Modes in beta, with a strict or a contextual mode.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.aya-23" data-mh-family="cohere.aya" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-05-23">23 May 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Aya · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/cohere/aya-23/">Aya 23</a>
+<p class="mh-chrono-sum">Aya 23 is a family of multilingual open-weights language models from Cohere For AI, released on 23 May 2024 in 8-billion and 35-billion-parameter sizes under CC-BY-NC. The text-only models cover 23…</p>
+<ul class="mh-changes-mini"><li>Covers 23 languages instead of 101, which Cohere presents as a shift from breadth to depth.</li><li>Weights licensed CC-BY-NC, whereas Aya 101 was released under Apache 2.0.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.command-r-plus" data-mh-family="cohere.command-r-series" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-04-04">4 April 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command R series · Language</span>
+<a class="mh-chrono-name" href="/models/cohere/command-r-plus/">Command R+</a>
+<p class="mh-chrono-sum">Command R+ is a text-only language model in Cohere&#39;s R series for enterprise use, launched on 4 April 2024 on Microsoft Azure and the Cohere API as the larger companion to Command R. It shares the…</p>
+<ul class="mh-changes-mini"><li>Adds multi-step tool use: the model combines several tools over several steps and can retry after a failed tool call.</li><li>104 billion parameters; the model card calls Command R its smaller companion model.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.command-r" data-mh-family="cohere.command-r-series" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-03-11">11 March 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command R series · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/cohere/command-r/">Command R</a>
+<p class="mh-chrono-sum">Command R is a text-only language model in Cohere&#39;s R series, launched on 11 March 2024 for large-scale production use, with a 128k-token context, retrieval-augmented generation with citations, tool…</p>
+<ul class="mh-changes-mini"><li>Supports a context of up to 128k tokens, which Cohere presented as a longer context window.</li><li>Can use tools such as APIs, code interpreters and user-defined tools, and gives grounded RAG answers with citations.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="cohere.aya-101" data-mh-family="cohere.aya" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-02-13">13 February 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Aya · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/cohere/aya-101/">Aya 101</a>
+<p class="mh-chrono-sum">Aya 101 is a multilingual language model from Cohere For AI, Cohere&#39;s non-profit research lab, released on 13 February 2024 as open weights under Apache 2.0 and covering 101 languages. The…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2023</h3><span class="mh-year-count">1 model</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="cohere.command-light" data-mh-family="cohere.command" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-01-17">17 January 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command · Language</span>
+<a class="mh-chrono-name" href="/models/cohere/command-light/">Command Light</a>
+<p class="mh-chrono-sum">Command Light is the smaller variant of Cohere&#39;s Command, a text-only language model with a 4k-token context that Cohere describes as faster and almost as capable. It first appeared on 17 January…</p>
+<ul class="mh-changes-mini"><li>Cohere describes it as a smaller, faster version of Command that is almost as capable, and recommended it for developers who need fast responses.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2022</h3><span class="mh-year-count">1 model</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="cohere.command-1" data-mh-family="cohere.command" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2022-11-08">8 November 2022</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Command · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/cohere/command-1/">Command</a>
+<p class="mh-chrono-sum">Command is the first model in Cohere&#39;s Command line: a text-only language model released in beta on 8 November 2022, which Cohere conditioned to respond well to single-statement commands. It was…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Deprecated · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</section>
+
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<ol class="mh-lineage-models">
+<li id="lineage-cohere.command-1">
+<a href="/models/cohere/command-1/">Command</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/cohere/command-r/">Command R</a>; <a href="/models/cohere/command-r-plus/">Command R+</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/cohere/command-light/">Command Light</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.command-light">
+<a href="/models/cohere/command-light/">Command Light</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/cohere/command-1/">Command</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.aya-101">
+<a href="/models/cohere/aya-101/">Aya 101</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/cohere/aya-23/">Aya 23</a></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.command-r">
+<a href="/models/cohere/command-r/">Command R</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/cohere/command-1/">Command</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/cohere/command-r-08-2024/">Command R 08-2024</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.command-r-plus">
+<a href="/models/cohere/command-r-plus/">Command R+</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/cohere/command-1/">Command</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/cohere/command-r-plus-08-2024/">Command R+ 08-2024</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.aya-23">
+<a href="/models/cohere/aya-23/">Aya 23</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/cohere/aya-101/">Aya 101</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/cohere/aya-expanse/">Aya Expanse</a></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.command-r-08-2024">
+<a href="/models/cohere/command-r-08-2024/">Command R 08-2024</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/cohere/command-r/">Command R</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.command-r-plus-08-2024">
+<a href="/models/cohere/command-r-plus-08-2024/">Command R+ 08-2024</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/cohere/command-a/">Command A</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/cohere/command-r-plus/">Command R+</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.aya-expanse">
+<a href="/models/cohere/aya-expanse/">Aya Expanse</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/cohere/aya-23/">Aya 23</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/cohere/aya-vision/">Aya Vision</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.command-r7b">
+<a href="/models/cohere/command-r7b/">Command R7B</a>
+<dl class="mh-lineage-lines">
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/cohere/aya-vision/">Aya Vision</a> <span class="mh-muted">· derived: other</span>; <a href="/models/cohere/command-r7b-arabic/">Command R7B Arabic</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.command-r7b-arabic">
+<a href="/models/cohere/command-r7b-arabic/">Command R7B Arabic</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/cohere/command-r7b/">Command R7B</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.aya-vision">
+<a href="/models/cohere/aya-vision/">Aya Vision</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/cohere/aya-expanse/">Aya Expanse</a> <span class="mh-muted">· derived: other</span>; <a href="/models/cohere/command-r7b/">Command R7B</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.command-a">
+<a href="/models/cohere/command-a/">Command A</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/cohere/command-r-plus-08-2024/">Command R+ 08-2024</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/cohere/command-a-plus/">Command A+</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/cohere/command-a-reasoning/">Command A Reasoning</a> <span class="mh-muted">· derived: fine tune</span>; <a href="/models/cohere/command-a-translate/">Command A Translate</a> <span class="mh-muted">· derived: fine tune</span>; <a href="/models/cohere/command-a-vision/">Command A Vision</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.command-a-vision">
+<a href="/models/cohere/command-a-vision/">Command A Vision</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/cohere/command-a/">Command A</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.command-a-reasoning">
+<a href="/models/cohere/command-a-reasoning/">Command A Reasoning</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/cohere/command-a/">Command A</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.command-a-translate">
+<a href="/models/cohere/command-a-translate/">Command A Translate</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/cohere/command-a/">Command A</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-cohere.tiny-aya">
+<a href="/models/cohere/tiny-aya/">Tiny Aya</a>
+<p class="mh-none">No recorded relations.</p>
+</li>
+<li id="lineage-cohere.command-a-plus">
+<a href="/models/cohere/command-a-plus/">Command A+</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/cohere/command-a/">Command A</a></dd></div>
+</dl>
+</li>
+</ol>
+</section>
+<section id="families">
+<h2 class="mh-h2">Families</h2>
+<ul class="mh-families">
+<li id="family-cohere.aya" class="mh-family">
+<h3>Aya</h3>
+<p class="mh-family-models"><a href="/models/cohere/aya-101/">Aya 101</a> · <a href="/models/cohere/aya-23/">Aya 23</a> · <a href="/models/cohere/aya-expanse/">Aya Expanse</a> · <a href="/models/cohere/aya-vision/">Aya Vision</a> · <a href="/models/cohere/tiny-aya/">Tiny Aya</a></p>
+</li>
+<li id="family-cohere.command" class="mh-family">
+<h3>Command</h3>
+<p class="mh-family-models"><a href="/models/cohere/command-1/">Command</a> · <a href="/models/cohere/command-light/">Command Light</a></p>
+<ul class="mh-families">
+<li id="family-cohere.command-a-family" class="mh-family">
+<h3>Command A family</h3>
+<p class="mh-family-models"><a href="/models/cohere/command-a/">Command A</a> · <a href="/models/cohere/command-a-vision/">Command A Vision</a> · <a href="/models/cohere/command-a-reasoning/">Command A Reasoning</a> · <a href="/models/cohere/command-a-translate/">Command A Translate</a> · <a href="/models/cohere/command-a-plus/">Command A+</a></p>
+</li>
+<li id="family-cohere.command-r-series" class="mh-family">
+<h3>Command R series</h3>
+<p class="mh-family-models"><a href="/models/cohere/command-r/">Command R</a> · <a href="/models/cohere/command-r-plus/">Command R+</a> · <a href="/models/cohere/command-r-08-2024/">Command R 08-2024</a> · <a href="/models/cohere/command-r-plus-08-2024/">Command R+ 08-2024</a> · <a href="/models/cohere/command-r7b/">Command R7B</a> · <a href="/models/cohere/command-r7b-arabic/">Command R7B Arabic</a></p>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="organization">
+<h2 class="mh-h2">About the organisation</h2>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="description" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Description</span>
+<span class="mh-claim-value">Cohere is an AI company founded in Toronto in 2019 that builds foundation models and AI products for businesses. It offers its Command text-generation models and its Embed and Rerank models on its own platform and through cloud providers, and launched the North workplace platform in 2025. Its research lab, Cohere Labs, develops the open-weight Aya multilingual models.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.cohere.about" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.cohere.models-overview" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.cohere.research" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.cohere.aya-research" aria-label="Source 4">[4]</a></span></span>
+</li>
+</ul>
+<p class="mh-facts-line">Company · <a href="https://cohere.com">https://cohere.com</a> · 18 models listed here</p>
+</section>
+<section id="sources">
+<h2 class="mh-h2">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.cohere.about" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>About Our Company</cite></p>
+<p class="mh-kicker">Other · Cohere</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://cohere.com/about">Original ↗</a>
+<span class="mh-url">https://cohere.com/about</span>
+<span class="mh-note">HTML title About Our Company | Cohere; page heading Where enterprise AI meets real-world purpose. Living page, content as seen on 2026-10-01 (founding 2019 in Toronto, founders, Cohere Labs 2022, North 2025, offices).</span>
+</div>
+</li>
+<li id="source-src.cohere.models-overview" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>An Overview of Cohere&#39;s Models</cite></p>
+<p class="mh-kicker">Documentation · Cohere</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.cohere.com/docs/models">Original ↗</a>
+<span class="mh-url">https://docs.cohere.com/docs/models</span>
+<span class="mh-note">Living documentation page; content as seen on 2026-10-01. Lists model ids with status (Live, Deprecated, Retired), modality, context length and maximum output tokens, plus a table of ids on cloud platforms. May duplicate a source added by another Cohere chunk.</span>
+</div>
+</li>
+<li id="source-src.cohere.research" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Research</cite></p>
+<p class="mh-kicker">Other · Cohere</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://cohere.com/research">Original ↗</a>
+<span class="mh-url">https://cohere.com/research</span>
+<span class="mh-note">HTML title Research | Cohere Labs. States that the lab started as Cohere For AI in June 2022 and was renamed Cohere Labs in April 2025.</span>
+</div>
+</li>
+<li id="source-src.cohere.aya-research" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Aya</cite></p>
+<p class="mh-kicker">Other · Cohere</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://cohere.com/research/aya">Original ↗</a>
+<span class="mh-url">https://cohere.com/research/aya</span>
+<span class="mh-note">HTML title Aya | Cohere Labs. Lists Tiny Aya (Global, Earth, Fire, Water), Aya Vision (8B, 32B), Aya Expanse (8B, 32B) and Aya 101; links research posts on open-weight multilingual releases.</span>
+</div>
+</li>
+</ol>
+</section>
+</div>
+<aside class="mh-body-side" id="coverage" aria-labelledby="mh-cov-title">
+<h2 class="mh-legend" id="mh-cov-title">Related AI Radar coverage</h2>
+<ul class="mh-news-side">
+<li class="mh-news-item"><span class="mh-kicker">Cohere · Blog · <time datetime="2026-07-14">14 July 2026</time> · about <a href="/models/cohere/tiny-aya/">Tiny Aya</a></span><span class="mh-news-title"><a href="https://cohere.com/blog/tiny-aya-in-the-wild">Tiny Aya in the wild: What people are building with open multilingual AI</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Cohere · Changelog · <time datetime="2026-05-20">20 May 2026</time> · about <a href="/models/cohere/command-a-plus/">Command A+</a></span><span class="mh-news-title"><a href="https://docs.cohere.com/changelog/command-a-plus-05-2026">Announcing Cohere&#39;s Command A+</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Cohere · Changelog · <time datetime="2026-04-04">4 April 2026</time> · about <a href="/models/cohere/aya-expanse/">Aya Expanse</a></span><span class="mh-news-title"><a href="https://docs.cohere.com/changelog/2026-04-04-embed-v2-aya-8b-retirement">Retirement of Embed v2.0 and Aya Expanse / Vision 8B</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Cohere · Changelog · <time datetime="2025-08-28">28 August 2025</time> · about <a href="/models/cohere/command-a-translate/">Command A Translate</a></span><span class="mh-news-title"><a href="https://docs.cohere.com/changelog/2025-08-28-command-a-translate">Announcing Cohere&#39;s Command A Translate Model</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Cohere · Changelog · <time datetime="2025-08-21">21 August 2025</time> · about <a href="/models/cohere/command-a-reasoning/">Command A Reasoning</a></span><span class="mh-news-title"><a href="https://docs.cohere.com/changelog/2025-08-21-command-a-reasoning">Announcing Cohere&#39;s Command A Reasoning Model</a></span></li>
+</ul>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=cohere">All model releases from Cohere on AI Radar →</a></p>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Llama-3.3-Nemotron-Super-49B-v1.5 · NVIDIA · Model History · AI Radar</title>
+<meta name="description" content="Llama-3.3-Nemotron-Super-49B-v1.5 is an open-weights NVIDIA reasoning language model of about 49 billion parameters, derived from Meta&#39;s…">
+<link rel="canonical" href="https://ai-radar.eu/models/nvidia/llama-3-3-nemotron-super-49b-v1-5/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Llama-3.3-Nemotron-Super-49B-v1.5 · NVIDIA · Model History · AI Radar">
+<meta property="og:description" content="Llama-3.3-Nemotron-Super-49B-v1.5 is an open-weights NVIDIA reasoning language model of about 49 billion parameters, derived from Meta&#39;s…">
+<meta property="og:url" content="https://ai-radar.eu/models/nvidia/llama-3-3-nemotron-super-49b-v1-5/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Llama-3.3-Nemotron-Super-49B-v1.5 · NVIDIA · Model History · AI Radar">
+<meta name="twitter:description" content="Llama-3.3-Nemotron-Super-49B-v1.5 is an open-weights NVIDIA reasoning language model of about 49 billion parameters, derived from Meta&#39;s…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/nvidia/llama-3-3-nemotron-super-49b-v1-5/","url":"https://ai-radar.eu/models/nvidia/llama-3-3-nemotron-super-49b-v1-5/","name":"Llama-3.3-Nemotron-Super-49B-v1.5 · NVIDIA · Model History · AI Radar","description":"Llama-3.3-Nemotron-Super-49B-v1.5 is an open-weights NVIDIA reasoning language model of about 49 billion parameters, derived from Meta's…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/nvidia/llama-3-3-nemotron-super-49b-v1-5/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/nvidia/llama-3-3-nemotron-super-49b-v1-5/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"NVIDIA","item":"https://ai-radar.eu/models/nvidia/"},{"@type":"ListItem","position":4,"name":"Llama-3.3-Nemotron-Super-49B-v1.5","item":"https://ai-radar.eu/models/nvidia/llama-3-3-nemotron-super-49b-v1-5/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:135" data-mh-view="model" data-mh-model="nvidia.llama-3-3-nemotron-super-49b-v1-5">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/nvidia/"><span class="mh-co" style="--h:135">NVIDIA</span></a></li><li><a href="/models/nvidia/#family-nvidia.nemotron-super">Nemotron Super</a></li><li aria-current="page">Llama-3.3-Nemotron-Super-49B-v1.5</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#76b900"><path d="M8.948 8.798v-1.43a6.7 6.7 0 0 1 .424-.018c3.922-.124 6.493 3.374 6.493 3.374s-2.774 3.851-5.75 3.851c-.398 0-.787-.062-1.158-.185v-4.346c1.528.185 1.837.857 2.747 2.385l2.04-1.714s-1.492-1.952-4-1.952a6.016 6.016 0 0 0-.796.035m0-4.735v2.138l.424-.027c5.45-.185 9.01 4.47 9.01 4.47s-4.08 4.964-8.33 4.964c-.37 0-.733-.035-1.095-.097v1.325c.3.035.61.062.91.062 3.957 0 6.82-2.023 9.593-4.408.459.371 2.34 1.263 2.73 1.652-2.633 2.208-8.772 3.984-12.253 3.984-.335 0-.653-.018-.971-.053v1.864H24V4.063zm0 10.326v1.131c-3.657-.654-4.673-4.46-4.673-4.46s1.758-1.944 4.673-2.262v1.237H8.94c-1.528-.186-2.73 1.245-2.73 1.245s.68 2.412 2.739 3.11M2.456 10.9s2.164-3.197 6.5-3.533V6.201C4.153 6.59 0 10.653 0 10.653s2.35 6.802 8.948 7.42v-1.237c-4.84-.6-6.492-5.936-6.492-5.936z"/></svg></span>Llama-3.3-Nemotron-Super-49B-v1.5</h1>
+<p class="mh-sub">Available · Language, Reasoning</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Llama-3.3-Nemotron-Super-49B-v1.5 is an open-weights NVIDIA reasoning language model of about 49 billion parameters, derived from Meta&#39;s Llama-3.3-70B-Instruct and released on Hugging Face and as a preview API on build.nvidia.com. NVIDIA calls it a significantly upgraded version of Super v1, post-trained for reasoning, chat and agentic tasks; reasoning is on by default and can be switched off. <span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.nvidia.llama-nemotron-super-v1-5-blog" aria-label="Source 2">[2]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/nvidia/llama-3-3-nemotron-super-49b-v1-5/timeline/">Timeline of Llama-3.3-Nemotron-Super-49B-v1.5 →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">15 claims · <span data-mh-summary="primary-source">Primary source: 15</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2025-07-25">25 July 2025</time><span class="mh-note">The developer blog header shows Jul 29, 2025, the date of an update with leaderboard information; the post says it first ran on July 25, the Friday on which the model was released.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1, Release Date; Model Version">[1]</a><span class="mh-locator">Release Date; Model Version</span> <a class="mh-ref" href="#source-src.nvidia.llama-nemotron-super-v1-5-blog" aria-label="Source 2, introduction (latest version released Friday) and closing line (originally ran July 25)">[2]</a><span class="mh-locator">introduction (latest version released Friday) and closing line (originally ran July 25)</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Available<span class="mh-note">NVIDIA has no deprecation page for its open models; the weights were still downloadable from NVIDIA&#39;s Hugging Face organisation on 2026-10-01.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1">[1]</a></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Successor of</span>
+<span class="mh-claim-value"><a href="/models/nvidia/llama-3-3-nemotron-super-49b-v1/">Llama-3.3-Nemotron-Super-49B-v1</a><span class="mh-note">The model card calls it a significantly upgraded version of Llama-3.3-Nemotron-Super-49B-v1; recorded as successor-of rather than revision-of because the version in the name changed to v1.5.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1, Model Overview">[1]</a><span class="mh-locator">Model Overview</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="relations[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Derived from (distillation)</span>
+<span class="mh-claim-value"><a href="/models/meta/llama-3-3/">Llama 3.3</a> <span class="mh-org-tag">(Meta)</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1, derived from Llama-3.3-70B-Instruct">[1]</a><span class="mh-locator">derived from Llama-3.3-70B-Instruct</span></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Reasoning</span>
+<span class="mh-claim-value">Further post-trained on additional reasoning data; NVIDIA says this improves math, science, coding, function calling, instruction following and chat.<span class="mh-note">Compared with <a href="/models/nvidia/llama-3-3-nemotron-super-49b-v1/">Llama-3.3-Nemotron-Super-49B-v1</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-nemotron-super-v1-5-blog" aria-label="Source 2">[2]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Tool use</span>
+<span class="mh-claim-value">NVIDIA trained tool calling with iterative DPO stages, and the model card provides a tool-call parser for serving the model with vLLM.<span class="mh-note">Compared with <a href="/models/nvidia/llama-3-3-nemotron-super-49b-v1/">Llama-3.3-Nemotron-Super-49B-v1</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1">[1]</a></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1, Input">[1]</a><span class="mh-locator">Input</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1, Output">[1]</a><span class="mh-locator">Output</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Reasoning mode<span class="mh-note">Reasoning on by default; /no_think in the system prompt switches it off.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1, Quick Start and Usage Recommendations">[1]</a><span class="mh-locator">Quick Start and Usage Recommendations</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Function calling</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1, Running a vLLM Server with Tool-call Support">[1]</a><span class="mh-locator">Running a vLLM Server with Tool-call Support</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.openWeights" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Open weights</span>
+<span class="mh-claim-value">Yes<span class="mh-note">Weights published on Hugging Face under the NVIDIA Open Model License, with the Llama 3.3 Community License Agreement as additional information.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1, License/Terms of Use; Release Date">[1]</a><span class="mh-locator">License/Terms of Use; Release Date</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">128K tokens<span class="mh-note">The card also gives the figure as up to 131,072 tokens.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1, Model Overview; Input">[1]</a><span class="mh-locator">Model Overview; Input</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">c. 49B<span class="mh-note">Figure as given in the official model name; the card text gives no separate count.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1, model name">[1]</a><span class="mh-locator">model name</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">Open-weights download, API<span class="mh-note">Released on Hugging Face and as a preview API on build.nvidia.com; the blog said an NVIDIA NIM microservice would follow soon.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" aria-label="Source 1, Release Date; Quick Start and Usage Recommendations">[1]</a><span class="mh-locator">Release Date; Quick Start and Usage Recommendations</span> <a class="mh-ref" href="#source-src.nvidia.llama-nemotron-super-v1-5-blog" aria-label="Source 2, Get started with Llama Nemotron Super v1.5">[2]</a><span class="mh-locator">Get started with Llama Nemotron Super v1.5</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<ul class="mh-rel" data-mh-lineage="predecessors">
+<li><a href="/models/nvidia/llama-3-3-nemotron-super-49b-v1/">Llama-3.3-Nemotron-Super-49B-v1</a> <span class="mh-muted">· 18 March 2025</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/nvidia/nemotron-3-super/">Nemotron 3 Super</a> <span class="mh-muted">· 11 March 2026</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<ul class="mh-rel" data-mh-lineage="parents">
+<li><a href="/models/meta/llama-3-3/">Llama 3.3</a> <span class="mh-muted">· Meta · 6 December 2024 · derived (distillation)</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/meta/llama-1/">LLaMA</a> <span class="mh-muted">· Meta · 24 February 2023</span></li>
+<li><a href="/models/meta/llama-2/">Llama 2</a> <span class="mh-muted">· Meta · 18 July 2023</span></li>
+<li><a href="/models/meta/meta-llama-3/">Meta Llama 3</a> <span class="mh-muted">· Meta · 18 April 2024</span></li>
+<li><a href="/models/meta/llama-3-1/">Llama 3.1</a> <span class="mh-muted">· Meta · 23 July 2024</span></li>
+<li><a href="/models/meta/llama-3-2/">Llama 3.2</a> <span class="mh-muted">· Meta · 25 September 2024</span></li>
+<li><a href="/models/meta/llama-3-3/">Llama 3.3</a> <span class="mh-muted">· Meta · 6 December 2024</span></li>
+<li><a href="/models/nvidia/llama-3-3-nemotron-super-49b-v1/">Llama-3.3-Nemotron-Super-49B-v1</a> <span class="mh-muted">· 18 March 2025</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/nvidia/nemotron-3-super/">Nemotron 3 Super</a> <span class="mh-muted">· 11 March 2026</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-visually-hidden">Variants</h2>
+<p class="mh-visually-hidden">No variants recorded in this record.</p>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=nvidia">All model releases from NVIDIA on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<a class="mh-pager-prev" href="/models/nvidia/llama-3-3-nemotron-super-49b-v1/"><span class="mh-muted">← Earlier in Nemotron Super</span><span>Llama-3.3-Nemotron-Super-49B-v1</span></a>
+<a class="mh-pager-next" href="/models/nvidia/nemotron-3-super/"><span class="mh-muted">Later in Nemotron Super →</span><span>Nemotron 3 Super</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#76b900"><path d="M8.948 8.798v-1.43a6.7 6.7 0 0 1 .424-.018c3.922-.124 6.493 3.374 6.493 3.374s-2.774 3.851-5.75 3.851c-.398 0-.787-.062-1.158-.185v-4.346c1.528.185 1.837.857 2.747 2.385l2.04-1.714s-1.492-1.952-4-1.952a6.016 6.016 0 0 0-.796.035m0-4.735v2.138l.424-.027c5.45-.185 9.01 4.47 9.01 4.47s-4.08 4.964-8.33 4.964c-.37 0-.733-.035-1.095-.097v1.325c.3.035.61.062.91.062 3.957 0 6.82-2.023 9.593-4.408.459.371 2.34 1.263 2.73 1.652-2.633 2.208-8.772 3.984-12.253 3.984-.335 0-.653-.018-.971-.053v1.864H24V4.063zm0 10.326v1.131c-3.657-.654-4.673-4.46-4.673-4.46s1.758-1.944 4.673-2.262v1.237H8.94c-1.528-.186-2.73 1.245-2.73 1.245s.68 2.412 2.739 3.11M2.456 10.9s2.164-3.197 6.5-3.533V6.201C4.153 6.59 0 10.653 0 10.653s2.35 6.802 8.948 7.42v-1.237c-4.84-.6-6.492-5.936-6.492-5.936z"/></svg></span><a href="/models/nvidia/">NVIDIA</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/nvidia/#family-nvidia.nemotron-super">Nemotron Super</a></dd></div>
+<div><dt>Generation</dt><dd>1.5</dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2025-07-25">25 July 2025</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Standard release <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>Llama-3_3-Nemotron-Super-49B-v1_5, Llama-3_3-Nemotron-Super-49B-v1_5-FP8, Llama-3_3-Nemotron-Super-49B-v1_5-NVFP4, Llama Nemotron Super 49B v1.5, Llama Nemotron Super v1.5, Nemotron Super v1.5, Llama Nemotron Super</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>nvidia/Llama-3_3-Nemotron-Super-49B-v1_5</cite></p>
+<p class="mh-kicker">Model hub page · NVIDIA</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5">Original ↗</a>
+<span class="mh-url">https://huggingface.co/nvidia/Llama-3_3-Nemotron-Super-49B-v1_5</span>
+<span class="mh-note">NVIDIA&#39;s model card on its Hugging Face organisation page; the HTML title adds the suffix · Hugging Face. Gives release date 7/25/2025 (Hugging Face and build.nvidia.com), model version 1.5 (07/25/2025), context length 128K (131,072 tokens), text in and out, and calls the model a significantly upgraded version of Llama-3.3-Nemotron-Super-49B-v1. Living page; content as seen on 2026-10-01.</span>
+</div>
+</li>
+<li id="source-src.nvidia.llama-nemotron-super-v1-5-blog" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Build More Accurate and Efficient AI Agents with the New NVIDIA Llama Nemotron Super v1.5</cite></p>
+<p class="mh-kicker">Blog post · NVIDIA · published <time datetime="2025-07-25">25 July 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://developer.nvidia.com/blog/build-more-accurate-and-efficient-ai-agents-with-the-new-nvidia-llama-nemotron-super-v1-5/">Original ↗</a>
+<span class="mh-url">https://developer.nvidia.com/blog/build-more-accurate-and-efficient-ai-agents-with-the-new-nvidia-llama-nemotron-super-v1-5/</span>
+<span class="mh-note">NVIDIA Technical Blog; the HTML title adds the suffix | NVIDIA Technical Blog. Says the model was released on Friday (July 25, 2025) and that an NVIDIA NIM would follow soon.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

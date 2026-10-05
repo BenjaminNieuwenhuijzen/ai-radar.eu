@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>o1-mini · OpenAI · Model History · AI Radar</title>
+<meta name="description" content="o1-mini is a smaller, lower-cost OpenAI reasoning model released on 12 September 2024 together with o1-preview and aimed at STEM tasks, especially math…">
+<link rel="canonical" href="https://ai-radar.eu/models/openai/o1-mini/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="o1-mini · OpenAI · Model History · AI Radar">
+<meta property="og:description" content="o1-mini is a smaller, lower-cost OpenAI reasoning model released on 12 September 2024 together with o1-preview and aimed at STEM tasks, especially math…">
+<meta property="og:url" content="https://ai-radar.eu/models/openai/o1-mini/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="o1-mini · OpenAI · Model History · AI Radar">
+<meta name="twitter:description" content="o1-mini is a smaller, lower-cost OpenAI reasoning model released on 12 September 2024 together with o1-preview and aimed at STEM tasks, especially math…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/openai/o1-mini/","url":"https://ai-radar.eu/models/openai/o1-mini/","name":"o1-mini · OpenAI · Model History · AI Radar","description":"o1-mini is a smaller, lower-cost OpenAI reasoning model released on 12 September 2024 together with o1-preview and aimed at STEM tasks, especially math…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/openai/o1-mini/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/openai/o1-mini/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"OpenAI","item":"https://ai-radar.eu/models/openai/"},{"@type":"ListItem","position":4,"name":"o1-mini","item":"https://ai-radar.eu/models/openai/o1-mini/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:20" data-mh-view="model" data-mh-model="openai.o1-mini">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/openai/"><span class="mh-co" style="--h:20">OpenAI</span></a></li><li><a href="/models/openai/#family-openai.o-series">OpenAI o-series</a></li><li aria-current="page">o1-mini</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.073zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.8956zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997z"/></svg></span>o1-mini</h1>
+<p class="mh-sub">Retired · Language, Reasoning</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">o1-mini is a smaller, lower-cost OpenAI reasoning model released on 12 September 2024 together with o1-preview and aimed at STEM tasks, especially math and coding. It was offered to API usage tier 5 developers and in paid ChatGPT plans; OpenAI says its knowledge of non-STEM facts is comparable to small models like GPT-4o mini. <span class="mh-refs"><a class="mh-ref" href="#source-src.openai.o1-mini-announcement" aria-label="Source 1">[1]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/openai/o1-mini/timeline/">Timeline of o1-mini →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">13 claims · <span data-mh-summary="primary-source">Primary source: 12</span> · <span data-mh-summary="not-applicable">No claim made: 1</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2024-09-12">12 September 2024</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.openai.o1-mini-announcement" aria-label="Source 1, second paragraph">[1]</a><span class="mh-locator">second paragraph</span> <a class="mh-ref" href="#source-src.openai.api-changelog" aria-label="Source 2, Sep 12, 2024">[2]</a><span class="mh-locator">Sep 12, 2024</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.deprecated" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Deprecated</span>
+<span class="mh-claim-value"><time datetime="2025-04-28">28 April 2025</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.openai.api-deprecations" aria-label="Source 3, 2025-04-28: o1-preview and o1-mini">[3]</a><span class="mh-locator">2025-04-28: o1-preview and o1-mini</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.retired" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Retired</span>
+<span class="mh-claim-value"><time datetime="2025-10-27">27 October 2025</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.openai.api-deprecations" aria-label="Source 3, 2025-04-28: o1-preview and o1-mini">[3]</a><span class="mh-locator">2025-04-28: o1-preview and o1-mini</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Retired</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.openai.api-deprecations" aria-label="Source 3, 2025-04-28: o1-preview and o1-mini">[3]</a><span class="mh-locator">2025-04-28: o1-preview and o1-mini</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="replacedBy" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Replaced by</span>
+<span class="mh-claim-value"><a href="/models/openai/o4-mini/">o4-mini</a><span class="mh-note">Recommended replacement listed on the deprecations page when checked on 2026-10-01; the o1-mini model page recommends o3-mini instead.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.openai.api-deprecations" aria-label="Source 3, 2025-04-28: o1-preview and o1-mini">[3]</a><span class="mh-locator">2025-04-28: o1-preview and o1-mini</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations"></ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Efficiency</span>
+<span class="mh-claim-value">Faster than o1-preview and 80 percent cheaper in the API, with higher rate limits in ChatGPT.<span class="mh-note">Compared with <a href="/models/openai/o1-preview/">o1-preview</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.openai.o1-mini-announcement" aria-label="Source 1">[1]</a></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Other</span>
+<span class="mh-claim-value">Narrower knowledge outside STEM, such as dates, biographies and trivia, which OpenAI compares to small models like GPT-4o mini.<span class="mh-note">Compared with <a href="/models/openai/o1-preview/">o1-preview</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.openai.o1-mini-announcement" aria-label="Source 1">[1]</a></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.openai.o1-mini-docs" aria-label="Source 4, Model details">[4]</a><span class="mh-locator">Model details</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.openai.o1-mini-docs" aria-label="Source 4, Model details">[4]</a><span class="mh-locator">Model details</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">128,000 tokens</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.openai.o1-mini-docs" aria-label="Source 4, Model details">[4]</a><span class="mh-locator">Model details</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="not-applicable">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">Not disclosed<span class="mh-note">Not disclosed by OpenAI; the announcement only calls it a smaller model.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="not-applicable" title="No claim made">No claim made</span><span class="mh-refs mh-refs-none">No source</span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">API, consumer app<span class="mh-note">API usage tier 5 at launch; ChatGPT Plus, Team, Enterprise and Edu.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.openai.o1-mini-announcement" aria-label="Source 1, second paragraph">[1]</a><span class="mh-locator">second paragraph</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<p class="mh-none" data-mh-lineage="predecessors">No known predecessor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/openai/o3-mini/">o3-mini</a> <span class="mh-muted">· 31 January 2025</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<p class="mh-none" data-mh-lineage="parents">Not derived from another model.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<p class="mh-none" data-mh-lineage="ancestors">None.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/openai/o3-mini/">o3-mini</a> <span class="mh-muted">· 31 January 2025</span></li>
+<li><a href="/models/openai/o4-mini/">o4-mini</a> <span class="mh-muted">· 16 April 2025</span></li>
+<li><a href="/models/microsoft/phi-4-reasoning/">Phi-4-reasoning</a> <span class="mh-muted">· Microsoft · 30 April 2025</span></li>
+<li><a href="/models/openai/gpt-5/">GPT-5</a> <span class="mh-muted">· 7 August 2025</span></li>
+<li><a href="/models/openai/gpt-5-1/">GPT-5.1</a> <span class="mh-muted">· 12 November 2025</span></li>
+<li><a href="/models/openai/gpt-5-2/">GPT-5.2</a> <span class="mh-muted">· 11 December 2025</span></li>
+<li><a href="/models/openai/gpt-5-3-instant/">GPT-5.3 Instant</a> <span class="mh-muted">· 3 March 2026</span></li>
+<li><a href="/models/microsoft/phi-4-reasoning-vision-15b/">Phi-4-reasoning-vision-15B</a> <span class="mh-muted">· Microsoft · 4 March 2026</span></li>
+<li><a href="/models/openai/gpt-5-4/">GPT-5.4</a> <span class="mh-muted">· 5 March 2026</span></li>
+<li><a href="/models/openai/gpt-5-4-mini/">GPT-5.4 mini</a> <span class="mh-muted">· 17 March 2026</span></li>
+<li><a href="/models/openai/gpt-5-5/">GPT-5.5</a> <span class="mh-muted">· 23 April 2026</span></li>
+<li><a href="/models/openai/gpt-5-5-instant/">GPT-5.5 Instant</a> <span class="mh-muted">· 5 May 2026</span></li>
+<li><a href="/models/openai/gpt-5-6-luna/">GPT-5.6 Luna</a> <span class="mh-muted">· 9 July 2026</span></li>
+<li><a href="/models/openai/gpt-5-6-sol/">GPT-5.6 Sol</a> <span class="mh-muted">· 9 July 2026</span></li>
+<li><a href="/models/openai/gpt-5-6-terra/">GPT-5.6 Terra</a> <span class="mh-muted">· 9 July 2026</span></li>
+<li><a href="/models/openai/gpt-5-6-sol-2026-08/">GPT-5.6 Sol (August 2026 revision)</a> <span class="mh-muted">· 6 August 2026</span></li>
+<li><a href="/models/openai/gpt-6-astra/">GPT-6 Astra</a> <span class="mh-muted">· 3 September 2026</span></li>
+<li><a href="/models/openai/gpt-6-luna/">GPT-6 Luna</a> <span class="mh-muted">· 22 September 2026</span></li>
+<li><a href="/models/openai/gpt-6-sol/">GPT-6 Sol</a> <span class="mh-muted">· 22 September 2026</span></li>
+<li><a href="/models/openai/gpt-6-1-sol/">GPT-6.1 Sol</a> <span class="mh-muted">· 29 September 2026</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-visually-hidden">Variants</h2>
+<p class="mh-visually-hidden">No variants recorded in this record.</p>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=openai">All model releases from OpenAI on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<span></span>
+<a class="mh-pager-next" href="/models/openai/o1-preview/"><span class="mh-muted">Later in OpenAI o-series →</span><span>o1-preview</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path d="M22.2819 9.8211a5.9847 5.9847 0 0 0-.5157-4.9108 6.0462 6.0462 0 0 0-6.5098-2.9A6.0651 6.0651 0 0 0 4.9807 4.1818a5.9847 5.9847 0 0 0-3.9977 2.9 6.0462 6.0462 0 0 0 .7427 7.0966 5.98 5.98 0 0 0 .511 4.9107 6.051 6.051 0 0 0 6.5146 2.9001A5.9847 5.9847 0 0 0 13.2599 24a6.0557 6.0557 0 0 0 5.7718-4.2058 5.9894 5.9894 0 0 0 3.9977-2.9001 6.0557 6.0557 0 0 0-.7475-7.073zm-9.022 12.6081a4.4755 4.4755 0 0 1-2.8764-1.0408l.1419-.0804 4.7783-2.7582a.7948.7948 0 0 0 .3927-.6813v-6.7369l2.02 1.1686a.071.071 0 0 1 .038.052v5.5826a4.504 4.504 0 0 1-4.4945 4.4944zm-9.6607-4.1254a4.4708 4.4708 0 0 1-.5346-3.0137l.142.0852 4.783 2.7582a.7712.7712 0 0 0 .7806 0l5.8428-3.3685v2.3324a.0804.0804 0 0 1-.0332.0615L9.74 19.9502a4.4992 4.4992 0 0 1-6.1408-1.6464zM2.3408 7.8956a4.485 4.485 0 0 1 2.3655-1.9728V11.6a.7664.7664 0 0 0 .3879.6765l5.8144 3.3543-2.0201 1.1685a.0757.0757 0 0 1-.071 0l-4.8303-2.7865A4.504 4.504 0 0 1 2.3408 7.8956zm16.5963 3.8558L13.1038 8.364 15.1192 7.2a.0757.0757 0 0 1 .071 0l4.8303 2.7913a4.4944 4.4944 0 0 1-.6765 8.1042v-5.6772a.79.79 0 0 0-.407-.667zm2.0107-3.0231l-.142-.0852-4.7735-2.7818a.7759.7759 0 0 0-.7854 0L9.409 9.2297V6.8974a.0662.0662 0 0 1 .0284-.0615l4.8303-2.7866a4.4992 4.4992 0 0 1 6.6802 4.66zM8.3065 12.863l-2.02-1.1638a.0804.0804 0 0 1-.038-.0567V6.0742a4.4992 4.4992 0 0 1 7.3757-3.4537l-.142.0805L8.704 5.459a.7948.7948 0 0 0-.3927.6813zm1.0976-2.3654l2.602-1.4998 2.6069 1.4998v2.9994l-2.5974 1.4997-2.6067-1.4997z"/></svg></span><a href="/models/openai/">OpenAI</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/openai/#family-openai.o-series">OpenAI o-series</a></dd></div>
+<div><dt>Generation</dt><dd>1</dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2024-09-12">12 September 2024</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Standard release <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>OpenAI o1-mini, o1-mini-2024-09-12</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.openai.o1-mini-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>OpenAI o1-mini</cite></p>
+<p class="mh-kicker">Announcement · OpenAI · published <time datetime="2024-09-12">12 September 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/">Original ↗</a>
+<span class="mh-url">https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/</span>
+<span class="mh-note">Headline as shown on the page, with the subtitle Advancing cost-efficient reasoning.</span>
+</div>
+</li>
+<li id="source-src.openai.api-changelog" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Changelog</cite></p>
+<p class="mh-kicker">Changelog · OpenAI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://developers.openai.com/api/docs/changelog">Original ↗</a>
+<span class="mh-url">https://developers.openai.com/api/docs/changelog</span>
+<span class="mh-note">Living page in the OpenAI API docs (HTML title Changelog | OpenAI API); content as seen on 2026-10-01; earliest entry October 2023. The old address https://platform.openai.com/docs/changelog redirects here (301).</span>
+</div>
+</li>
+<li id="source-src.openai.api-deprecations" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Deprecations</cite></p>
+<p class="mh-kicker">Deprecation notice · OpenAI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://developers.openai.com/api/docs/deprecations">Original ↗</a>
+<span class="mh-url">https://developers.openai.com/api/docs/deprecations</span>
+<span class="mh-note">Living page in the OpenAI API docs (HTML title Deprecations | OpenAI API); content as seen on 2026-10-01. The old address https://platform.openai.com/docs/deprecations redirects here (301). Two notices list gpt-4-1106-preview with different shutdown dates (2026-03-26 in the 2025-09-26 notice, October 23, 2026 in the 2026-04-22 notice).</span>
+</div>
+</li>
+<li id="source-src.openai.o1-mini-docs" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>o1-mini</cite></p>
+<p class="mh-kicker">Documentation · OpenAI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://developers.openai.com/api/docs/models/o1-mini">Original ↗</a>
+<span class="mh-url">https://developers.openai.com/api/docs/models/o1-mini</span>
+<span class="mh-note">Model page in the OpenAI API docs (HTML title o1-mini Model | OpenAI API); living page, content as seen on 2026-10-01. The old address https://platform.openai.com/docs/models/o1-mini redirects here (301).</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Gemini 2.0 Flash · Google · Model History · AI Radar</title>
+<meta name="description" content="Gemini 2.0 Flash is the first model of Google&#39;s Gemini 2.0 family, released as an experimental model in December 2024 and generally available from…">
+<link rel="canonical" href="https://ai-radar.eu/models/google/gemini-2-0-flash/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Gemini 2.0 Flash · Google · Model History · AI Radar">
+<meta property="og:description" content="Gemini 2.0 Flash is the first model of Google&#39;s Gemini 2.0 family, released as an experimental model in December 2024 and generally available from…">
+<meta property="og:url" content="https://ai-radar.eu/models/google/gemini-2-0-flash/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Gemini 2.0 Flash · Google · Model History · AI Radar">
+<meta name="twitter:description" content="Gemini 2.0 Flash is the first model of Google&#39;s Gemini 2.0 family, released as an experimental model in December 2024 and generally available from…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/google/gemini-2-0-flash/","url":"https://ai-radar.eu/models/google/gemini-2-0-flash/","name":"Gemini 2.0 Flash · Google · Model History · AI Radar","description":"Gemini 2.0 Flash is the first model of Google's Gemini 2.0 family, released as an experimental model in December 2024 and generally available from…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/google/gemini-2-0-flash/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/google/gemini-2-0-flash/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Google","item":"https://ai-radar.eu/models/google/"},{"@type":"ListItem","position":4,"name":"Gemini 2.0 Flash","item":"https://ai-radar.eu/models/google/gemini-2-0-flash/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:255" data-mh-view="model" data-mh-model="google.gemini-2-0-flash">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/google/"><span class="mh-co" style="--h:255">Google</span></a></li><li><a href="/models/google/#family-google.gemini-flash">Gemini Flash</a></li><li aria-current="page">Gemini 2.0 Flash</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="gemclipmh1"><path d="M12 0C12.96 6.5 17.5 11.04 24 12 17.5 12.96 12.96 17.5 12 24 11.04 17.5 6.5 12.96 0 12 6.5 11.04 11.04 6.5 12 0Z"/></clipPath><radialGradient id="gemredmh1" gradientUnits="userSpaceOnUse" cx="12" cy="2" r="11"><stop offset="0%" stop-color="#FF4641"/><stop offset="100%" stop-color="#FF4641" stop-opacity="0"/></radialGradient><radialGradient id="gemyellowmh1" gradientUnits="userSpaceOnUse" cx="2" cy="12" r="11"><stop offset="0%" stop-color="#FFC400"/><stop offset="100%" stop-color="#FFC400" stop-opacity="0"/></radialGradient><radialGradient id="gemgreenmh1" gradientUnits="userSpaceOnUse" cx="12" cy="22" r="11"><stop offset="0%" stop-color="#00A661"/><stop offset="100%" stop-color="#00A661" stop-opacity="0"/></radialGradient></defs><g clip-path="url(#gemclipmh1)"><rect width="24" height="24" fill="#4285F4"/><rect width="24" height="24" fill="url(#gemredmh1)"/><rect width="24" height="24" fill="url(#gemyellowmh1)"/><rect width="24" height="24" fill="url(#gemgreenmh1)"/></g></svg></span>Gemini 2.0 Flash</h1>
+<p class="mh-sub">Retired · Language, Multimodal · Milestone</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Gemini 2.0 Flash is the first model of Google&#39;s Gemini 2.0 family, released as an experimental model in December 2024 and generally available from February 2025 through the Gemini API, Google AI Studio and Vertex AI, and in the Gemini app. It accepts text, images, audio and video, and Google says it can natively call tools such as Google Search and code execution. <span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.google.gemini-2-0-family-expands-developers" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.google.gemini-2-0-model-updates-february-2025" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.google.gemini-2-0-flash-model-card" aria-label="Source 4, Model Information, Inputs">[4]</a><span class="mh-locator">Model Information, Inputs</span></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/google/gemini-2-0-flash/timeline/">Timeline of Gemini 2.0 Flash →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">21 claims · <span data-mh-summary="primary-source">Primary source: 20</span> · <span data-mh-summary="not-applicable">No claim made: 1</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2024-12-11">11 December 2024</time><span class="mh-note">Experimental release (Gemini 2.0 Flash Experimental) in the Gemini API, Google AI Studio and Vertex AI, and in the Gemini app.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-announcement" aria-label="Source 1, Gemini 2.0 Flash">[1]</a><span class="mh-locator">Gemini 2.0 Flash</span> <a class="mh-ref" href="#source-src.google.gemini-api-changelog" aria-label="Source 5, December 11, 2024">[5]</a><span class="mh-locator">December 11, 2024</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.deprecated" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Deprecated</span>
+<span class="mh-claim-value"><time datetime="2026-02-18">18 February 2026</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-api-changelog" aria-label="Source 5, February 18, 2026">[5]</a><span class="mh-locator">February 18, 2026</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.retired" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Retired</span>
+<span class="mh-claim-value"><time datetime="2026-06-01">1 June 2026</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-api-changelog" aria-label="Source 5, June 1, 2026">[5]</a><span class="mh-locator">June 1, 2026</span> <a class="mh-ref" href="#source-src.google.gemini-api-deprecations" aria-label="Source 6, Gemini 2.0 models">[6]</a><span class="mh-locator">Gemini 2.0 models</span> <a class="mh-ref" href="#source-src.google.agent-platform-model-versions" aria-label="Source 7, Retired models: gemini-2.0-flash">[7]</a><span class="mh-locator">Retired models: gemini-2.0-flash</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="milestones[0].date" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Default model in the Gemini app</span>
+<span class="mh-claim-value"><time datetime="2025-01-30">30 January 2025</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-app-release-notes" aria-label="Source 8, 2025.01.30">[8]</a><span class="mh-locator">2025.01.30</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="milestones[1].date" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Generally available (gemini-2.0-flash-001)</span>
+<span class="mh-claim-value"><time datetime="2025-02-05">5 February 2025</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-model-updates-february-2025" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.google.gemini-api-changelog" aria-label="Source 5, February 5, 2025">[5]</a><span class="mh-locator">February 5, 2025</span> <a class="mh-ref" href="#source-src.google.gemini-api-deprecations" aria-label="Source 6, Gemini 2.0 models">[6]</a><span class="mh-locator">Gemini 2.0 models</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Retired</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-api-changelog" aria-label="Source 5, June 1, 2026">[5]</a><span class="mh-locator">June 1, 2026</span> <a class="mh-ref" href="#source-src.google.gemini-api-deprecations" aria-label="Source 6, Gemini 2.0 models">[6]</a><span class="mh-locator">Gemini 2.0 models</span> <a class="mh-ref" href="#source-src.google.agent-platform-model-versions" aria-label="Source 7, Retired models: gemini-2.0-flash">[7]</a><span class="mh-locator">Retired models: gemini-2.0-flash</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="replacedBy" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Replaced by</span>
+<span class="mh-claim-value"><a href="/models/google/gemini-3-6-flash/">Gemini 3.6 Flash</a><span class="mh-note">Recommended replacement on the Gemini API deprecations page when checked on 2026-10-01. The Agent Platform page recommends gemini-3.1-flash-lite, and the June 1, 2026 release note pointed to gemini-3.5-flash or gemini-3.1-flash-lite.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-api-deprecations" aria-label="Source 6, Gemini 2.0 models">[6]</a><span class="mh-locator">Gemini 2.0 models</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations">
+<li class="mh-claim" data-mh-claim="relations[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Successor of</span>
+<span class="mh-claim-value"><a href="/models/google/gemini-1-5-flash-002/">Gemini-1.5-Flash-002</a><span class="mh-note">Google says 2.0 Flash builds on and improves upon Gemini 1.5 Flash without naming a version; gemini-1.5-flash-002 was the current 1.5 Flash version at the time (the gemini-1.5-flash id pointed to it from 2024-11-21).</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-announcement" aria-label="Source 1, Gemini 2.0 Flash">[1]</a><span class="mh-locator">Gemini 2.0 Flash</span> <a class="mh-ref" href="#source-src.google.gemini-2-0-flash-model-card" aria-label="Source 4, Model Information, Description">[4]</a><span class="mh-locator">Model Information, Description</span> <a class="mh-ref" href="#source-src.google.gemini-api-changelog" aria-label="Source 5, November 21, 2024">[5]</a><span class="mh-locator">November 21, 2024</span></span></span>
+</li>
+</ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes">
+<li class="mh-claim" data-mh-claim="changes[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Modality</span>
+<span class="mh-claim-value">Adds native image and audio output, first limited to early-access partners; at general availability output was text only.<span class="mh-note">Compared with <a href="/models/google/gemini-1-5-flash-002/">Gemini-1.5-Flash-002</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-announcement" aria-label="Source 1, Gemini 2.0 Flash">[1]</a><span class="mh-locator">Gemini 2.0 Flash</span> <a class="mh-ref" href="#source-src.google.gemini-2-0-family-expands-developers" aria-label="Source 2, Model features">[2]</a><span class="mh-locator">Model features</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Tool use</span>
+<span class="mh-claim-value">Natively calls tools such as Google Search and code execution, alongside user-defined functions.<span class="mh-note">Compared with <a href="/models/google/gemini-1-5-flash-002/">Gemini-1.5-Flash-002</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-announcement" aria-label="Source 1, Gemini 2.0 Flash">[1]</a><span class="mh-locator">Gemini 2.0 Flash</span> <a class="mh-ref" href="#source-src.google.gemini-2-0-developers-announcement" aria-label="Source 9, 3. Native tool use">[9]</a><span class="mh-locator">3. Native tool use</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Other</span>
+<span class="mh-claim-value">Comes with a Multimodal Live API for real-time audio and video streaming input.<span class="mh-note">Compared with <a href="/models/google/gemini-1-5-flash-002/">Gemini-1.5-Flash-002</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-developers-announcement" aria-label="Source 9, 4. Multimodal Live API">[9]</a><span class="mh-locator">4. Multimodal Live API</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="changes[3]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Change · Architecture</span>
+<span class="mh-claim-value">The model card says it builds on the sparse mixture-of-experts design of Gemini 1.5, with a refined architecture and new optimization methods.<span class="mh-note">Compared with <a href="/models/google/gemini-1-5-flash-002/">Gemini-1.5-Flash-002</a></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-flash-model-card" aria-label="Source 4">[4]</a></span></span>
+</li>
+</ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text, image, audio, video</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-flash-model-card" aria-label="Source 4, Model Information, Inputs">[4]</a><span class="mh-locator">Model Information, Inputs</span> <a class="mh-ref" href="#source-src.google.gemini-2-0-announcement" aria-label="Source 1, Gemini 2.0 Flash">[1]</a><span class="mh-locator">Gemini 2.0 Flash</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text<span class="mh-note">Text output at general availability. Native image output and text-to-speech audio output were offered to early-access partners during the experimental phase; the model card calls image output experimental.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-flash-model-card" aria-label="Source 4, Model Information, Outputs">[4]</a><span class="mh-locator">Model Information, Outputs</span> <a class="mh-ref" href="#source-src.google.gemini-2-0-family-expands-developers" aria-label="Source 2, Model features">[2]</a><span class="mh-locator">Model features</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Tool use<span class="mh-note">Native use of Google Search and code execution.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-announcement" aria-label="Source 1, Gemini 2.0 Flash">[1]</a><span class="mh-locator">Gemini 2.0 Flash</span> <a class="mh-ref" href="#source-src.google.gemini-2-0-developers-announcement" aria-label="Source 9, 3. Native tool use">[9]</a><span class="mh-locator">3. Native tool use</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Function calling</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-developers-announcement" aria-label="Source 9, 3. Native tool use">[9]</a><span class="mh-locator">3. Native tool use</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[2]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Real time<span class="mh-note">Multimodal Live API with real-time audio and video streaming input.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-developers-announcement" aria-label="Source 9, 4. Multimodal Live API">[9]</a><span class="mh-locator">4. Multimodal Live API</span> <a class="mh-ref" href="#source-src.google.gemini-2-0-flash-model-card" aria-label="Source 4, Intended Usage and Limitations">[4]</a><span class="mh-locator">Intended Usage and Limitations</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">1,048,576 tokens<span class="mh-note">The developer post gives 1 million tokens; the model card also gives an output limit of 8,192 tokens.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-flash-model-card" aria-label="Source 4, Model Information, Inputs">[4]</a><span class="mh-locator">Model Information, Inputs</span> <a class="mh-ref" href="#source-src.google.gemini-2-0-family-expands-developers" aria-label="Source 2, Model features">[2]</a><span class="mh-locator">Model features</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.parameters" data-mh-evidence="not-applicable">
+<span class="mh-claim-label">Parameters</span>
+<span class="mh-claim-value">Not disclosed<span class="mh-note">Not disclosed by Google.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="not-applicable" title="No claim made">No claim made</span><span class="mh-refs mh-refs-none">No source</span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">API, consumer app<span class="mh-note">Gemini API through Google AI Studio and Vertex AI; Gemini app.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.google.gemini-2-0-announcement" aria-label="Source 1, Gemini 2.0 Flash; Gemini 2.0 available in Gemini app">[1]</a><span class="mh-locator">Gemini 2.0 Flash; Gemini 2.0 available in Gemini app</span> <a class="mh-ref" href="#source-src.google.gemini-2-0-model-updates-february-2025" aria-label="Source 3">[3]</a></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<ul class="mh-rel" data-mh-lineage="predecessors">
+<li><a href="/models/google/gemini-1-5-flash-002/">Gemini-1.5-Flash-002</a> <span class="mh-muted">· 24 September 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/google/gemini-2-5-flash/">Gemini 2.5 Flash</a> <span class="mh-muted">· 17 April 2025</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<p class="mh-none" data-mh-lineage="parents">Not derived from another model.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<ul class="mh-rel" data-mh-lineage="children">
+<li><a href="/models/google/gemini-2-0-flash-thinking/">Gemini 2.0 Flash Thinking</a> <span class="mh-muted">· 19 December 2024 · derived (other)</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<ul class="mh-rel" data-mh-lineage="ancestors">
+<li><a href="/models/google/gemini-1-0-pro/">Gemini 1.0 Pro</a> <span class="mh-muted">· 6 December 2023</span></li>
+<li><a href="/models/google/gemini-1-5-flash/">Gemini 1.5 Flash</a> <span class="mh-muted">· 14 May 2024</span></li>
+<li><a href="/models/google/gemini-1-5-pro/">Gemini 1.5 Pro</a> <span class="mh-muted">· 23 May 2024</span></li>
+<li><a href="/models/google/gemini-1-5-flash-002/">Gemini-1.5-Flash-002</a> <span class="mh-muted">· 24 September 2024</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/google/gemini-2-0-flash-thinking/">Gemini 2.0 Flash Thinking</a> <span class="mh-muted">· 19 December 2024</span></li>
+<li><a href="/models/google/gemini-2-5-flash/">Gemini 2.5 Flash</a> <span class="mh-muted">· 17 April 2025</span></li>
+<li><a href="/models/google/gemini-3-flash/">Gemini 3 Flash</a> <span class="mh-muted">· 17 December 2025</span></li>
+<li><a href="/models/google/gemini-3-5-flash/">Gemini 3.5 Flash</a> <span class="mh-muted">· 19 May 2026</span></li>
+<li><a href="/models/google/gemini-3-6-flash/">Gemini 3.6 Flash</a> <span class="mh-muted">· 21 July 2026</span></li>
+<li><a href="/models/google/gemini-3-7-flash/">Gemini 3.7 Flash</a> <span class="mh-muted">· 13 August 2026</span></li>
+<li><a href="/models/google/gemini-3-8-flash/">Gemini 3.8 Flash</a> <span class="mh-muted">· 2 September 2026</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-visually-hidden">Variants</h2>
+<p class="mh-visually-hidden">No variants recorded in this record.</p>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=google">All model releases from Google on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<a class="mh-pager-prev" href="/models/google/gemini-1-5-flash-002/"><span class="mh-muted">← Earlier in Gemini Flash</span><span>Gemini-1.5-Flash-002</span></a>
+<a class="mh-pager-next" href="/models/google/gemini-2-0-flash-thinking/"><span class="mh-muted">Later in Gemini Flash →</span><span>Gemini 2.0 Flash Thinking</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><defs><clipPath id="gemclipmh0"><path d="M12 0C12.96 6.5 17.5 11.04 24 12 17.5 12.96 12.96 17.5 12 24 11.04 17.5 6.5 12.96 0 12 6.5 11.04 11.04 6.5 12 0Z"/></clipPath><radialGradient id="gemredmh0" gradientUnits="userSpaceOnUse" cx="12" cy="2" r="11"><stop offset="0%" stop-color="#FF4641"/><stop offset="100%" stop-color="#FF4641" stop-opacity="0"/></radialGradient><radialGradient id="gemyellowmh0" gradientUnits="userSpaceOnUse" cx="2" cy="12" r="11"><stop offset="0%" stop-color="#FFC400"/><stop offset="100%" stop-color="#FFC400" stop-opacity="0"/></radialGradient><radialGradient id="gemgreenmh0" gradientUnits="userSpaceOnUse" cx="12" cy="22" r="11"><stop offset="0%" stop-color="#00A661"/><stop offset="100%" stop-color="#00A661" stop-opacity="0"/></radialGradient></defs><g clip-path="url(#gemclipmh0)"><rect width="24" height="24" fill="#4285F4"/><rect width="24" height="24" fill="url(#gemredmh0)"/><rect width="24" height="24" fill="url(#gemyellowmh0)"/><rect width="24" height="24" fill="url(#gemgreenmh0)"/></g></svg></span><a href="/models/google/">Google</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/google/#family-google.gemini-flash">Gemini Flash</a></dd></div>
+<div><dt>Generation</dt><dd>2.0</dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2024-12-11">11 December 2024</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Milestone <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>Gemini 2.0 Flash Experimental, gemini-2.0-flash, gemini-2.0-flash-001, gemini-2.0-flash-exp, 2.0 Flash</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.google.gemini-2-0-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Introducing Gemini 2.0: our new AI model for the agentic era</cite></p>
+<p class="mh-kicker">Announcement · Google · published <time datetime="2024-12-11">11 December 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/">Original ↗</a>
+<span class="mh-url">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/</span>
+<span class="mh-note">Headline as shown on the page; the HTML title is Google introduces Gemini 2.0: A new AI model for the agentic era. The old address https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/ redirects here.</span>
+</div>
+</li>
+<li id="source-src.google.gemini-2-0-family-expands-developers" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>Gemini 2.0: Flash, Flash-Lite and Pro</cite></p>
+<p class="mh-kicker">Announcement · Google · published <time datetime="2025-02-05">5 February 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://developers.googleblog.com/en/gemini-2-family-expands/">Original ↗</a>
+<span class="mh-url">https://developers.googleblog.com/en/gemini-2-family-expands/</span>
+<span class="mh-note">Google Developers Blog.</span>
+</div>
+</li>
+<li id="source-src.google.gemini-2-0-model-updates-february-2025" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Gemini 2.0 is now available to everyone</cite></p>
+<p class="mh-kicker">Announcement · Google · published <time datetime="2025-02-05">5 February 2025</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-updates-february-2025/">Original ↗</a>
+<span class="mh-url">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-updates-february-2025/</span>
+<span class="mh-note">Headline as shown on the page; the HTML title is Gemini 2.0 model updates: 2.0 Flash, Flash-Lite, Pro Experimental. The old address https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/ redirects here.</span>
+</div>
+</li>
+<li id="source-src.google.gemini-2-0-flash-model-card" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Gemini 2.0 Flash Model Card</cite></p>
+<p class="mh-kicker">Model card · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Model-Card.pdf">Original ↗</a>
+<span class="mh-url">https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Model-Card.pdf</span>
+<span class="mh-note">PDF linked from the Google DeepMind model cards page (https://deepmind.google/models/model-cards/), which lists the Gemini 2.0 Flash card as updated 15 April 2025; no date appears in the PDF text itself.</span>
+</div>
+</li>
+<li id="source-src.google.gemini-api-changelog" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>Release notes | Gemini API | Google AI for Developers</cite></p>
+<p class="mh-kicker">Release notes · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://ai.google.dev/gemini-api/docs/changelog">Original ↗</a>
+<span class="mh-url">https://ai.google.dev/gemini-api/docs/changelog</span>
+<span class="mh-note">Living page; content as seen on 2026-10-01. The page heading is Release notes; the URL path is changelog.</span>
+</div>
+</li>
+<li id="source-src.google.gemini-api-deprecations" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[6]</span> <cite>Gemini deprecations | Gemini API | Google AI for Developers</cite></p>
+<p class="mh-kicker">Deprecation notice · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://ai.google.dev/gemini-api/docs/deprecations">Original ↗</a>
+<span class="mh-url">https://ai.google.dev/gemini-api/docs/deprecations</span>
+<span class="mh-note">Living page; content as seen on 2026-10-01. Lists release dates, earliest shutdown dates and recommended replacements for Gemini API models; the page says shutdown dates are the earliest possible dates.</span>
+</div>
+</li>
+<li id="source-src.google.agent-platform-model-versions" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[7]</span> <cite>Model versions and lifecycle | Gemini Enterprise Agent Platform | Google Cloud Documentation</cite></p>
+<p class="mh-kicker">Documentation · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions">Original ↗</a>
+<span class="mh-url">https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions</span>
+<span class="mh-note">Living page (last updated 2026-10-01 UTC); lists release dates, retirement dates and replacement model IDs for Gemini models on Gemini Enterprise Agent Platform. Its dates apply to Agent Platform only; the page says models may remain accessible through the Gemini API after them.</span>
+</div>
+</li>
+<li id="source-src.google.gemini-app-release-notes" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[8]</span> <cite>Gemini Apps’ release updates &amp; improvements</cite></p>
+<p class="mh-kicker">Release notes · Google</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://gemini.google/us/release-notes/?hl=en">Original ↗</a>
+<span class="mh-url">https://gemini.google/us/release-notes/?hl=en</span>
+<span class="mh-note">Gemini app release notes, dated entries back to 2023. Requested as https://gemini.google/release-notes/?hl=en, which redirects here; the page declares this URL as canonical. Living page; content as seen on 2026-10-01.</span>
+</div>
+</li>
+<li id="source-src.google.gemini-2-0-developers-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[9]</span> <cite>The next chapter of the Gemini era for developers</cite></p>
+<p class="mh-kicker">Announcement · Google · published <time datetime="2024-12-11">11 December 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://developers.googleblog.com/en/the-next-chapter-of-the-gemini-era-for-developers/">Original ↗</a>
+<span class="mh-url">https://developers.googleblog.com/en/the-next-chapter-of-the-gemini-era-for-developers/</span>
+<span class="mh-note">Google Developers Blog.</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

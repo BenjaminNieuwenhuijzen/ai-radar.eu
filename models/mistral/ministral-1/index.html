@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Ministral · Mistral AI · Model History · AI Radar</title>
+<meta name="description" content="Les Ministraux are two language models, Ministral 3B and Ministral 8B, that Mistral AI introduced for on-device and edge use on the first anniversary of…">
+<link rel="canonical" href="https://ai-radar.eu/models/mistral/ministral-1/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Ministral · Mistral AI · Model History · AI Radar">
+<meta property="og:description" content="Les Ministraux are two language models, Ministral 3B and Ministral 8B, that Mistral AI introduced for on-device and edge use on the first anniversary of…">
+<meta property="og:url" content="https://ai-radar.eu/models/mistral/ministral-1/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ministral · Mistral AI · Model History · AI Radar">
+<meta name="twitter:description" content="Les Ministraux are two language models, Ministral 3B and Ministral 8B, that Mistral AI introduced for on-device and edge use on the first anniversary of…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/mistral/ministral-1/","url":"https://ai-radar.eu/models/mistral/ministral-1/","name":"Ministral · Mistral AI · Model History · AI Radar","description":"Les Ministraux are two language models, Ministral 3B and Ministral 8B, that Mistral AI introduced for on-device and edge use on the first anniversary of…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/mistral/ministral-1/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/mistral/ministral-1/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Mistral AI","item":"https://ai-radar.eu/models/mistral/"},{"@type":"ListItem","position":4,"name":"Ministral","item":"https://ai-radar.eu/models/mistral/ministral-1/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-model" style="--h:85" data-mh-view="model" data-mh-model="mistral.ministral-1">
+<div class="mh-page-head mh-model-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li><a href="/models/mistral/"><span class="mh-co" style="--h:85">Mistral AI</span></a></li><li><a href="/models/mistral/#family-mistral.ministral">Ministral</a></li><li aria-current="page">Ministral</li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg"><g fill="#FFD800"><rect x="4" y="0" width="4" height="4"/><rect x="16" y="0" width="4" height="4"/></g><g fill="#FFAF00"><rect x="4" y="4" width="8" height="4"/><rect x="14" y="4" width="6" height="4"/></g><g fill="#FF8205"><rect x="4" y="8" width="16" height="4"/></g><g fill="#FA500F"><rect x="4" y="12" width="4" height="4"/><rect x="10" y="12" width="4" height="4"/><rect x="16" y="12" width="4" height="4"/></g><g fill="#E10500"><rect x="0" y="16" width="8" height="4"/><rect x="12" y="16" width="12" height="4"/></g></svg></span>Ministral</h1>
+<p class="mh-sub">Available · Language</p>
+<p id="summary" class="mh-summary mh-claim" data-mh-claim="summary" data-mh-evidence="primary-source">Les Ministraux are two language models, Ministral 3B and Ministral 8B, that Mistral AI introduced for on-device and edge use on the first anniversary of Mistral 7B, both with a context length of up to 128k tokens. Both were offered on the API, and weights for Ministral 8B Instruct were published for research use under the Mistral Research License. <span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.ministraux-announcement" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.mistral.hf-ministral-8b-instruct-2410" aria-label="Source 2">[2]</a></span> <span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></p>
+<p class="mh-actions"><a class="mh-btn-outline" href="/models/mistral/ministral-1/timeline/">Timeline of Ministral →</a></p>
+</div>
+<aside id="evidence" class="mh-ev-card" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence for existence and release</h2>
+<p class="mh-ev-status"><span class="mh-ev mh-ev-long" data-mh-evidence="primary-source"><span class="mh-glyph" aria-hidden="true">●</span> Primary source available</span></p>
+
+<p class="mh-ev-counts">13 claims · <span data-mh-summary="primary-source">Primary source: 13</span></p>
+</aside>
+</div>
+<div class="mh-page-body container">
+<article class="mh-body-main">
+<section id="claims" aria-labelledby="mh-claims-title">
+<h2 class="mh-h2" id="mh-claims-title">Claims and evidence</h2>
+<ul id="dates" class="mh-claim-rows" aria-label="Dates">
+<li class="mh-claim" data-mh-claim="dates.released" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Released</span>
+<span class="mh-claim-value"><time datetime="2024-10-16">16 October 2024</time><span class="mh-alt">Other sources give: <time datetime="2024-10-09">9 October 2024</time> <span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.changelog" aria-label="Source 3, October 9, 2024">[3]</a><span class="mh-locator">October 9, 2024</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-3b-24-1" aria-label="Source 4, release date">[4]</a><span class="mh-locator">release date</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-8b-24-1" aria-label="Source 5, release date">[5]</a><span class="mh-locator">release date</span></span> <span class="mh-note">The changelog and both docs model pages give 2024-10-09; the announcement of 2024-10-16 says both models are available starting that day.</span></span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.ministraux-announcement" aria-label="Source 1, page date; Availability and pricing">[1]</a><span class="mh-locator">page date; Availability and pricing</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.deprecated" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Deprecated</span>
+<span class="mh-claim-value"><time datetime="2025-12-02">2 December 2025</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.models-overview" aria-label="Source 6, Deprecated &amp; retired models table, row Ministral 3B; row Ministral 8B">[6]</a><span class="mh-locator">Deprecated &amp; retired models table, row Ministral 3B; row Ministral 8B</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-3b-24-1" aria-label="Source 4, Deprecation date">[4]</a><span class="mh-locator">Deprecation date</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-8b-24-1" aria-label="Source 5, Deprecation date">[5]</a><span class="mh-locator">Deprecation date</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="dates.retired" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Retired</span>
+<span class="mh-claim-value"><time datetime="2025-12-31">31 December 2025</time></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.models-overview" aria-label="Source 6, Deprecated &amp; retired models table, row Ministral 3B; row Ministral 8B">[6]</a><span class="mh-locator">Deprecated &amp; retired models table, row Ministral 3B; row Ministral 8B</span></span></span>
+</li>
+</ul>
+<ul id="lifecycle" class="mh-claim-rows" aria-label="Lifecycle">
+<li class="mh-claim" data-mh-claim="lifecycle" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Status</span>
+<span class="mh-claim-value">Available<span class="mh-note">Record status follows Ministral 8B, whose instruct weights remain downloadable for research use under the Mistral Research License. Ministral 3B was API-only and is retired (see the variant). Both API endpoints were deprecated on 2025-12-02 and retired on 2025-12-31.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.hf-ministral-8b-instruct-2410" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.mistral.models-overview" aria-label="Source 6, Deprecated &amp; retired models table, row Ministral 8B">[6]</a><span class="mh-locator">Deprecated &amp; retired models table, row Ministral 8B</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="replacedBy" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Replaced by</span>
+<span class="mh-claim-value"><a href="/models/mistral/ministral-3/">Ministral 3</a><span class="mh-note">Ministral 3B is replaced by Ministral 3 3B and Ministral 8B by Ministral 3 8B.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.models-overview" aria-label="Source 6, Deprecated &amp; retired models table, row Ministral 3B; row Ministral 8B, Alternative">[6]</a><span class="mh-locator">Deprecated &amp; retired models table, row Ministral 3B; row Ministral 8B, Alternative</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-3b-24-1" aria-label="Source 4, Replacement">[4]</a><span class="mh-locator">Replacement</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-8b-24-1" aria-label="Source 5, Replacement">[5]</a><span class="mh-locator">Replacement</span></span></span>
+</li>
+</ul>
+<ul id="relations" class="mh-claim-rows" aria-label="Relations"></ul>
+<ul id="changes" class="mh-claim-rows" aria-label="Key changes"></ul>
+<ul id="capabilities" class="mh-claim-rows" aria-label="Capabilities">
+<li class="mh-claim" data-mh-claim="capabilities.inputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Input</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.docs-ministral-3b-24-1" aria-label="Source 4, Modalities">[4]</a><span class="mh-locator">Modalities</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-8b-24-1" aria-label="Source 5, Modalities">[5]</a><span class="mh-locator">Modalities</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.outputModalities" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Output</span>
+<span class="mh-claim-value">text</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.docs-ministral-3b-24-1" aria-label="Source 4, Modalities">[4]</a><span class="mh-locator">Modalities</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-8b-24-1" aria-label="Source 5, Modalities">[5]</a><span class="mh-locator">Modalities</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.features[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Feature</span>
+<span class="mh-claim-value">Function calling</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.ministraux-announcement" aria-label="Source 1, second paragraph; Use cases">[1]</a><span class="mh-locator">second paragraph; Use cases</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-8b-24-1" aria-label="Source 5, Features">[5]</a><span class="mh-locator">Features</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.contextWindowTokens" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Context window</span>
+<span class="mh-claim-value">128k tokens<span class="mh-note">The announcement adds that vLLM supported 32k at the time.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.ministraux-announcement" aria-label="Source 1, second paragraph">[1]</a><span class="mh-locator">second paragraph</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-3b-24-1" aria-label="Source 4, Context">[4]</a><span class="mh-locator">Context</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-8b-24-1" aria-label="Source 5, Context">[5]</a><span class="mh-locator">Context</span></span></span>
+</li>
+<li class="mh-claim" data-mh-claim="capabilities.access" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Access</span>
+<span class="mh-claim-value">API</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.ministraux-announcement" aria-label="Source 1, Availability and pricing">[1]</a><span class="mh-locator">Availability and pricing</span></span></span>
+</li>
+</ul>
+</section>
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<div class="mh-lineage-grid">
+<div class="mh-lineage-group"><h3 class="mh-legend">Predecessors</h3>
+<p class="mh-none" data-mh-lineage="predecessors">No known predecessor.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Successors</h3>
+<ul class="mh-rel" data-mh-lineage="successors">
+<li><a href="/models/mistral/ministral-3/">Ministral 3</a> <span class="mh-muted">· 2 December 2025</span></li>
+</ul></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Based on</h3>
+<p class="mh-none" data-mh-lineage="parents">Not derived from another model.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Variants and derived</h3>
+<p class="mh-none" data-mh-lineage="children">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">Siblings</h3>
+<p class="mh-none" data-mh-lineage="siblings">None recorded.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All ancestors</h3>
+<p class="mh-none" data-mh-lineage="ancestors">None.</p></div>
+<div class="mh-lineage-group"><h3 class="mh-legend">All descendants</h3>
+<ul class="mh-rel" data-mh-lineage="descendants">
+<li><a href="/models/mistral/ministral-3/">Ministral 3</a> <span class="mh-muted">· 2 December 2025</span></li>
+</ul></div>
+</div>
+</section>
+<section id="variants">
+<h2 class="mh-h2">Variants</h2>
+<section id="variant-ministral-3b" class="mh-variant">
+<h3 class="mh-variant-name">Ministral 3B</h3>
+<p class="mh-muted">Same dates as Ministral.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[0]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.<span class="mh-note">Offered on the API under the Mistral Commercial License only; the announcement lists weights for Ministral 8B Instruct only. No official parameter count beyond the name.</span></span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.ministraux-announcement" aria-label="Source 1, first paragraph; Availability and pricing">[1]</a><span class="mh-locator">first paragraph; Availability and pricing</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-3b-24-1" aria-label="Source 4">[4]</a></span></span>
+</li>
+</ul>
+<p data-mh-variant-claim="lifecycle">Status: <span class="mh-value">Retired</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.models-overview" aria-label="Source 6, Deprecated &amp; retired models table, row Ministral 3B">[6]</a><span class="mh-locator">Deprecated &amp; retired models table, row Ministral 3B</span></span></p>
+<p class="mh-muted">Also known as: ministral-3b-2410</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.access">Access: <span class="mh-value">API</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.ministraux-announcement" aria-label="Source 1, Availability and pricing">[1]</a><span class="mh-locator">Availability and pricing</span></span></li>
+</ul>
+</section>
+<section id="variant-ministral-8b" class="mh-variant">
+<h3 class="mh-variant-name">Ministral 8B</h3>
+<p class="mh-muted">Same dates as Ministral.</p>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="variants[1]" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Variant</span>
+<span class="mh-claim-value">Inline variant in this record.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.ministraux-announcement" aria-label="Source 1, first paragraph; Availability and pricing">[1]</a><span class="mh-locator">first paragraph; Availability and pricing</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-8b-24-1" aria-label="Source 5">[5]</a></span></span>
+</li>
+</ul>
+<p data-mh-variant-claim="lifecycle">Status: <span class="mh-value">Available</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.hf-ministral-8b-instruct-2410" aria-label="Source 2">[2]</a></span></p>
+<p class="mh-muted">Also known as: ministral-8b-2410, Ministral-8B-Instruct-2410</p>
+<p class="mh-muted">Differs in:</p>
+<ul class="mh-variant-caps">
+<li data-mh-variant-claim="capabilities.openWeights">Open weights: <span class="mh-value">Yes</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.ministraux-announcement" aria-label="Source 1, Availability and pricing">[1]</a><span class="mh-locator">Availability and pricing</span> <a class="mh-ref" href="#source-src.mistral.hf-ministral-8b-instruct-2410" aria-label="Source 2">[2]</a></span></li>
+<li data-mh-variant-claim="capabilities.parameters">Parameters: <span class="mh-value">8,019,808,256</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.hf-ministral-8b-instruct-2410" aria-label="Source 2, Ministral 8B Architecture">[2]</a><span class="mh-locator">Ministral 8B Architecture</span> <a class="mh-ref" href="#source-src.mistral.docs-ministral-8b-24-1" aria-label="Source 5, Weights table">[5]</a><span class="mh-locator">Weights table</span></span></li>
+<li data-mh-variant-claim="capabilities.access">Access: <span class="mh-value">API, Open-weights download</span> <span class="mh-ev mh-ev-unassessed">Evidence not assessed</span> <span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.ministraux-announcement" aria-label="Source 1, Availability and pricing">[1]</a><span class="mh-locator">Availability and pricing</span> <a class="mh-ref" href="#source-src.mistral.hf-ministral-8b-instruct-2410" aria-label="Source 2">[2]</a></span></li>
+</ul>
+</section>
+</section>
+<section id="coverage">
+<h2 class="mh-h2">Related AI Radar coverage</h2>
+<p class="mh-empty-text">AI Radar coverage starts in June 2026; no coverage linked yet.</p>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=mistral">All model releases from Mistral AI on AI Radar →</a></p>
+</section>
+<nav class="mh-pager" aria-label="More models">
+<span></span>
+<a class="mh-pager-next" href="/models/mistral/ministral-3/"><span class="mh-muted">Later in Ministral →</span><span>Ministral 3</span></a>
+</nav>
+</article>
+<aside class="mh-body-side">
+<section id="identity" aria-label="Facts">
+<dl class="mh-facts">
+<div><dt>Organisation</dt><dd><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg"><g fill="#FFD800"><rect x="4" y="0" width="4" height="4"/><rect x="16" y="0" width="4" height="4"/></g><g fill="#FFAF00"><rect x="4" y="4" width="8" height="4"/><rect x="14" y="4" width="6" height="4"/></g><g fill="#FF8205"><rect x="4" y="8" width="16" height="4"/></g><g fill="#FA500F"><rect x="4" y="12" width="4" height="4"/><rect x="10" y="12" width="4" height="4"/><rect x="16" y="12" width="4" height="4"/></g><g fill="#E10500"><rect x="0" y="16" width="8" height="4"/><rect x="12" y="16" width="12" height="4"/></g></svg></span><a href="/models/mistral/">Mistral AI</a></dd></div>
+<div><dt>Family</dt><dd><a href="/models/mistral/#family-mistral.ministral">Ministral</a></dd></div>
+<div><dt>Timeline date</dt><dd><time datetime="2024-10-16">16 October 2024</time><br><span class="mh-muted">Released</span></dd></div>
+<div><dt>Prominence</dt><dd>Standard release <span class="mh-editorial">Editorial</span></dd></div>
+<div><dt>Also known as</dt><dd>les Ministraux</dd></div>
+<div><dt>Record</dt><dd>Full record</dd></div>
+<div><dt>Last reviewed</dt><dd><time datetime="2026-10-01">1 October 2026</time></dd></div>
+</dl>
+</section>
+<section id="sources" aria-labelledby="mh-src-title">
+<h2 class="mh-legend" id="mh-src-title">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.mistral.ministraux-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Un Ministral, des Ministraux</cite></p>
+<p class="mh-kicker">Announcement · Mistral AI · published <time datetime="2024-10-16">16 October 2024</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://mistral.ai/news/ministraux/">Original ↗</a>
+<span class="mh-url">https://mistral.ai/news/ministraux/</span>
+<span class="mh-note">Announces Ministral 3B and Ministral 8B (les Ministraux). HTML title Un Ministral, des Ministraux | Mistral AI.</span>
+</div>
+</li>
+<li id="source-src.mistral.hf-ministral-8b-instruct-2410" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>mistralai/Ministral-8B-Instruct-2410</cite></p>
+<p class="mh-kicker">Model hub page · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://huggingface.co/mistralai/Ministral-8B-Instruct-2410">Original ↗</a>
+<span class="mh-url">https://huggingface.co/mistralai/Ministral-8B-Instruct-2410</span>
+<span class="mh-note">Hugging Face model page of the mistralai organisation; HTML title mistralai/Ministral-8B-Instruct-2410 · Hugging Face. Model card; Mistral Research License; repository created 2024-10-15. Parameter count 8,019,808,256; 128k context; interleaved sliding-window attention; V3-Tekken tokenizer. Repository creation dates are leads only.</span>
+</div>
+</li>
+<li id="source-src.mistral.changelog" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Changelog</cite></p>
+<p class="mh-kicker">Changelog · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.mistral.ai/resources/changelogs">Original ↗</a>
+<span class="mh-url">https://docs.mistral.ai/resources/changelogs</span>
+<span class="mh-note">Living page; earliest entry January 11, 2024. HTML title Changelog | Mistral Docs. The older address https://docs.mistral.ai/getting-started/changelog/ redirects here (two 308 redirects).</span>
+</div>
+</li>
+<li id="source-src.mistral.docs-ministral-3b-24-1" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Ministral 3B</cite></p>
+<p class="mh-kicker">Documentation · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.mistral.ai/models/ministral-3b-24-1">Original ↗</a>
+<span class="mh-url">https://docs.mistral.ai/models/ministral-3b-24-1</span>
+<span class="mh-note">Docs model page; HTML title Ministral 3B - Mistral AI | Mistral Docs. Shows October 9, 2024 (the blog says October 16), Premier licence badge, version 24.10 (displayed as 24.1), API name ministral-3b-2410, text in and text out (icons), 128k context, deprecation date 12/2/2025, replacement Ministral 3 3B; no weights table. The badge still says Deprecated although the overview gives retirement on 12/31/2025.</span>
+</div>
+</li>
+<li id="source-src.mistral.docs-ministral-8b-24-1" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[5]</span> <cite>Ministral 8B</cite></p>
+<p class="mh-kicker">Documentation · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.mistral.ai/models/ministral-8b-24-1">Original ↗</a>
+<span class="mh-url">https://docs.mistral.ai/models/ministral-8b-24-1</span>
+<span class="mh-note">Docs model page; HTML title Ministral 8B - Mistral AI | Mistral Docs. Shows October 9, 2024 (the blog says October 16), MRL, version 24.10 (displayed as 24.1), API name ministral-8b-2410, text in and text out (icons), 128k context, deprecation date 12/2/2025, replacement Ministral 3 8B, weights table 8B. The badge still says Deprecated although the overview gives retirement on 12/31/2025.</span>
+</div>
+</li>
+<li id="source-src.mistral.models-overview" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[6]</span> <cite>Models Overview</cite></p>
+<p class="mh-kicker">Documentation · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.mistral.ai/models">Original ↗</a>
+<span class="mh-url">https://docs.mistral.ai/models</span>
+<span class="mh-note">Living page; content as seen on 2026-10-01. Its Deprecated section (Deprecated and retired models) lists model, version, API id, deprecation and retirement dates in M/D/YYYY format, and the alternative. HTML title Mistral Docs. The older address https://docs.mistral.ai/getting-started/models/models_overview/ redirects here (two 308 redirects).</span>
+</div>
+</li>
+</ol>
+</section>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

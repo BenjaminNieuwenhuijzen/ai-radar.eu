@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Mistral AI models · Model History · AI Radar</title>
+<meta name="description" content="Mistral AI is a Paris-based AI company that says it was founded in April 2023. It develops open-weight and commercial language models, as well as models…">
+<link rel="canonical" href="https://ai-radar.eu/models/mistral/">
+<meta name="theme-color" content="#f7f6f2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111215" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Radar">
+<meta property="og:title" content="Mistral AI models · Model History · AI Radar">
+<meta property="og:description" content="Mistral AI is a Paris-based AI company that says it was founded in April 2023. It develops open-weight and commercial language models, as well as models…">
+<meta property="og:url" content="https://ai-radar.eu/models/mistral/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Mistral AI models · Model History · AI Radar">
+<meta name="twitter:description" content="Mistral AI is a Paris-based AI company that says it was founded in April 2023. It develops open-weight and commercial language models, as well as models…">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<script>
+  /* Apply the saved theme and motion choice before first paint, so there is
+     no flash. Same keys as the dashboard; without a saved choice the system
+     settings decide. */
+  (function () {
+    var d = document.documentElement, t = null, m = null;
+    try {
+      t = localStorage.getItem('airadar-theme');
+      m = localStorage.getItem('airadar-motion');
+    } catch (e) {}
+    try {
+      if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      if (m !== 'on' && m !== 'off') m = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'off' : 'on';
+    } catch (e) {}
+    d.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
+    if (m === 'on' || m === 'off') d.setAttribute('data-motion', m);
+  })();
+</script>
+<link rel="stylesheet" href="/assets/tokens.css">
+<link rel="stylesheet" href="/assets/pages.css">
+<link rel="stylesheet" href="/assets/models.css">
+<script src="/assets/pages.js" defer></script>
+<script src="/assets/model-pages.js" defer></script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ai-radar.eu/models/mistral/","url":"https://ai-radar.eu/models/mistral/","name":"Mistral AI models · Model History · AI Radar","description":"Mistral AI is a Paris-based AI company that says it was founded in April 2023. It develops open-weight and commercial language models, as well as models…","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"AI Radar","url":"https://ai-radar.eu/"},"breadcrumb":{"@id":"https://ai-radar.eu/models/mistral/#breadcrumb"}},{"@type":"BreadcrumbList","@id":"https://ai-radar.eu/models/mistral/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"AI Radar","item":"https://ai-radar.eu/"},{"@type":"ListItem","position":2,"name":"Model History","item":"https://ai-radar.eu/models/"},{"@type":"ListItem","position":3,"name":"Mistral AI","item":"https://ai-radar.eu/models/mistral/"}]}]}</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="/">
+      <span class="radar" aria-hidden="true"><span class="radar-hand"></span><span class="radar-dot"></span></span>
+      AI Radar
+    </a>
+    <nav class="site-nav" aria-label="Main">
+      <a class="nav-link" href="/">Dashboard</a>
+      <a class="nav-link" href="/models/" aria-current="true">Model History</a>
+      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" href="/feed.xml">RSS</a>
+      <button class="motion-btn" type="button" data-motion-toggle><span class="motion-is-on">Motion on</span><span class="motion-is-off">Motion off</span></button>
+      <button class="theme-btn" type="button" data-theme-toggle><span class="theme-to-dark">Dark<span class="narrow-hide"> mode</span></span><span class="theme-to-light">Light<span class="narrow-hide"> mode</span></span></button>
+      <a class="subscribe-btn" href="/#subscribe">Subscribe</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="mh mh-company" style="--h:85" data-mh-view="company" data-mh-org="mistral">
+<div class="mh-page-head container">
+<div class="mh-head-main">
+<nav class="mh-crumbs" aria-label="Breadcrumb"><ol><li><a href="/models/">Model History</a></li><li aria-current="page"><span class="mh-co" style="--h:85">Mistral AI</span></li></ol></nav>
+<h1 class="mh-title"><span class="mh-logo" aria-hidden="true"><svg viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg"><g fill="#FFD800"><rect x="4" y="0" width="4" height="4"/><rect x="16" y="0" width="4" height="4"/></g><g fill="#FFAF00"><rect x="4" y="4" width="8" height="4"/><rect x="14" y="4" width="6" height="4"/></g><g fill="#FF8205"><rect x="4" y="8" width="16" height="4"/></g><g fill="#FA500F"><rect x="4" y="12" width="4" height="4"/><rect x="10" y="12" width="4" height="4"/><rect x="16" y="12" width="4" height="4"/></g><g fill="#E10500"><rect x="0" y="16" width="8" height="4"/><rect x="12" y="16" width="12" height="4"/></g></svg></span>Mistral AI models</h1>
+<p class="mh-lead">Mistral AI is a Paris-based AI company that says it was founded in April 2023. It develops open-weight and commercial language models, as well as models for code, OCR, speech, embeddings and moderation, and offers enterprises and governments AI products including developer tools, applications and compute. Its first model, Mistral 7B, was released in September 2023 under the Apache 2.0 licence.</p>
+<div id="mh-family-chips" class="mh-chips" role="group" aria-label="Family" hidden>
+<button type="button" data-family="" aria-pressed="true">All families</button>
+<button type="button" data-family="mistral.magistral" aria-pressed="false">Magistral</button>
+<button type="button" data-family="mistral.ministral" aria-pressed="false">Ministral</button>
+<button type="button" data-family="mistral.mistral" aria-pressed="false">Mistral</button>
+<button type="button" data-family="mistral.mistral-large" aria-pressed="false">Mistral Large</button>
+<button type="button" data-family="mistral.mistral-medium" aria-pressed="false">Mistral Medium</button>
+<button type="button" data-family="mistral.mistral-small" aria-pressed="false">Mistral Small</button>
+<button type="button" data-family="mistral.mixtral" aria-pressed="false">Mixtral</button>
+<button type="button" data-family="mistral.pixtral" aria-pressed="false">Pixtral</button>
+</div>
+</div>
+<aside class="mh-head-side" id="evidence" aria-labelledby="mh-ev-title">
+<h2 class="mh-legend" id="mh-ev-title">Evidence overview</h2>
+<dl class="mh-ev-overview">
+<div data-mh-evidence="primary-source"><dt><span class="mh-glyph" aria-hidden="true">●</span> Primary source</dt><dd>33</dd></div>
+<div data-mh-evidence="archived-primary-source"><dt><span class="mh-glyph" aria-hidden="true">◐</span> Archived primary</dt><dd>0</dd></div>
+<div data-mh-evidence="secondary-sources"><dt><span class="mh-glyph" aria-hidden="true">○</span> Secondary sources</dt><dd>0</dd></div>
+<div data-mh-evidence="insufficient-evidence"><dt><span class="mh-glyph" aria-hidden="true">◌</span> Evidence incomplete</dt><dd>0</dd></div>
+<div data-mh-flag="original-unavailable"><dt>Original source unavailable</dt><dd>0</dd></div>
+</dl>
+</aside>
+</div>
+<div class="mh-page-body container">
+<div class="mh-body-main">
+<section id="chronology" aria-labelledby="mh-chrono-title">
+<h2 class="mh-visually-hidden" id="mh-chrono-title">Chronology</h2>
+<ol class="mh-chrono">
+<li class="mh-year">
+<div class="mh-year-head"><h3>2026</h3><span class="mh-year-count">2 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-medium-3-5" data-mh-family="mistral.mistral-medium" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-04-28">28 April 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Medium · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-medium-3-5/">Mistral Medium 3.5</a>
+<p class="mh-chrono-sum">Mistral Medium 3.5 is a dense 128B-parameter Mistral AI model that handles instruction following, reasoning and coding in one set of weights, with text and image input and a 256k-token context…</p>
+<ul class="mh-changes-mini"><li>Adds reasoning effort set per request (none or high); the model card says it replaces Magistral in Le Chat.</li><li>Released as open weights under a Modified MIT licence; Mistral listed Medium 3.1 as Premier (commercial) with no weights link.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-small-4" data-mh-family="mistral.mistral-small" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2026-03-16">16 March 2026</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Small · Language, Multimodal, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-small-4/">Mistral Small 4</a>
+<p class="mh-chrono-sum">Mistral Small 4 is a mixture-of-experts model from Mistral AI with 119B total parameters, released on 16 March 2026 as Apache 2.0 open weights and on Mistral&#39;s API. Mistral describes it as its first…</p>
+<ul class="mh-changes-mini"><li>Adds reasoning effort set per request (none or high) in the same model, instead of a separate Magistral reasoning model.</li><li>Moves to a mixture-of-experts design with 128 experts, 4 active per token, and 119B total parameters.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · 1 news item</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2025</h3><span class="mh-year-count">13 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="mistral.ministral-3" data-mh-family="mistral.ministral" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-12-02">2 December 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Ministral · Language, Multimodal, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/mistral/ministral-3/">Ministral 3</a>
+<p class="mh-chrono-sum">Ministral 3 is a series of dense Mistral AI language models in 3B, 8B and 14B sizes aimed at edge and local use, released on 2 December 2025 with Mistral Large 3. Each size has base, instruct and…</p>
+<ul class="mh-changes-mini"><li>Adds a 14B size alongside 3B and 8B.</li><li>Each size comes with a separate reasoning checkpoint next to the base and instruct checkpoints.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-large-3" data-mh-family="mistral.mistral-large" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-12-02">2 December 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Large · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-large-3/">Mistral Large 3</a>
+<p class="mh-chrono-sum">Mistral Large 3 is a sparse mixture-of-experts language model from Mistral AI with 675B total and 41B active parameters, released on 2 December 2025 with the Ministral 3 series as part of Mistral 3…</p>
+<ul class="mh-changes-mini"><li>Uses a sparse mixture-of-experts architecture with 41B of 675B parameters active; Mistral calls it its first mixture-of-experts model since Mixtral.</li><li>Has a context window of 256k tokens.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.magistral-medium-1-2" data-mh-family="mistral.magistral" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-09-17">17 September 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Magistral · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/mistral/magistral-medium-1-2/">Magistral Medium 1.2</a>
+<p class="mh-chrono-sum">Magistral Medium 1.2 is a reasoning model in Mistral AI&#39;s Magistral line that takes text and image input and returns text, released on 17 September 2025 together with Magistral Small 1.2 and offered…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.magistral-small-1-2" data-mh-family="mistral.magistral" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-09-17">17 September 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Magistral · Language, Multimodal, Reasoning</span>
+<a class="mh-chrono-name" href="/models/mistral/magistral-small-1-2/">Magistral Small 1.2</a>
+<p class="mh-chrono-sum">Magistral Small 1.2 is a 24B-parameter reasoning model from Mistral AI, built on Mistral Small 3.2 and released on 17 September 2025 on Mistral&#39;s API and as Apache 2.0 open weights. It accepts text…</p>
+<ul class="mh-changes-mini"><li>Adds a vision encoder, so the model accepts image input and can reason over images as well as text.</li><li>Reasoning content is wrapped in new [THINK] and [/THINK] special tokens, and the reasoning prompt is given in the system prompt.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-medium-3-1" data-mh-family="mistral.mistral-medium" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-08-12">12 August 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Medium · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-medium-3-1/">Mistral Medium 3.1</a>
+<p class="mh-chrono-sum">Mistral Medium 3.1 is a multimodal language model from Mistral AI that takes text and image input and returns text, released on 12 August 2025 on Mistral&#39;s API under the commercial Premier licence…</p>
+<ul class="mh-changes-mini"><li>Mistral says the update improves tone and performance.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.magistral-medium-1-1" data-mh-family="mistral.magistral" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-07-24">24 July 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Magistral · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/mistral/magistral-medium-1-1/">Magistral Medium 1.1</a>
+<p class="mh-chrono-sum">Magistral Medium 1.1 is a reasoning model in Mistral AI&#39;s Magistral line, released on 24 July 2025 together with Magistral Small 1.1 and offered as API model magistral-medium-2507. The docs list…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.magistral-small-1-1" data-mh-family="mistral.magistral" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-07-24">24 July 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Magistral · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/mistral/magistral-small-1-1/">Magistral Small 1.1</a>
+<p class="mh-chrono-sum">Magistral Small 1.1 is an update of Magistral Small 1.0, Mistral AI&#39;s 24B-parameter reasoning model, released on 24 July 2025 as open weights under Apache 2.0 and as API model magistral-small-2507…</p>
+<ul class="mh-changes-mini"><li>Better tone and behaviour, with improved LaTeX and Markdown formatting and shorter answers to easy prompts.</li><li>Less likely to enter infinite generation loops.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-small-3-2" data-mh-family="mistral.mistral-small" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-06-20">20 June 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Small · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-small-3-2/">Mistral Small 3.2</a>
+<p class="mh-chrono-sum">Mistral Small 3.2 is a minor update of Mistral Small 3.1 Instruct, a 24B-parameter model with text and image input, published as open weights under Apache 2.0 and offered as API model…</p>
+<ul class="mh-changes-mini"><li>Mistral AI says it follows precise instructions better.</li><li>Produces fewer infinite or repetitive generations, according to Mistral AI.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.magistral-medium" data-mh-family="mistral.magistral" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-06-10">10 June 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Magistral · Language, Reasoning · Milestone</span>
+<a class="mh-chrono-name" href="/models/mistral/magistral-medium/">Magistral Medium</a>
+<p class="mh-chrono-sum">Magistral Medium is the enterprise variant of Magistral, which Mistral AI calls its first reasoning model, trained with reinforcement learning on top of Mistral Medium 3. It launched as a preview in…</p>
+<ul class="mh-changes-mini"><li>Adds step-by-step reasoning, trained with reinforcement learning alone on top of Mistral Medium 3.</li><li>The docs list a 40k context window, against 128k for Mistral Medium 3.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.magistral-small" data-mh-family="mistral.magistral" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-06-10">10 June 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Magistral · Language, Reasoning</span>
+<a class="mh-chrono-name" href="/models/mistral/magistral-small/">Magistral Small</a>
+<p class="mh-chrono-sum">Magistral Small is the 24B-parameter open-weights variant of Magistral, which Mistral AI calls its first reasoning model, released under Apache 2.0 and also offered as an API model. Its model card…</p>
+<ul class="mh-changes-mini"><li>Adds long reasoning chains before the answer, through fine-tuning on Magistral Medium traces and reinforcement learning on top of Mistral Small 3.1.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-medium-3" data-mh-family="mistral.mistral-medium" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-05-07">7 May 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Medium · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-medium-3/">Mistral Medium 3</a>
+<p class="mh-chrono-sum">Mistral Medium 3 is a commercial multimodal model from Mistral AI with text and image input, offered through its API, on Amazon SageMaker and as the model behind Le Chat Enterprise. Mistral AI…</p>
+<ul class="mh-changes-mini"><li>Accepts image input in addition to text.</li><li>Has a context window of 128k tokens.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-small-3-1" data-mh-family="mistral.mistral-small" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-03-17">17 March 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Small · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-small-3-1/">Mistral Small 3.1</a>
+<p class="mh-chrono-sum">Mistral Small 3.1 is a 24B-parameter model from Mistral AI that builds on Mistral Small 3, adding image understanding and a context window of up to 128k tokens. It was released with base and…</p>
+<ul class="mh-changes-mini"><li>Adds image input, so the model can understand images as well as text.</li><li>Context window of up to 128k tokens, up from 32k for Mistral Small 3.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-small-3" data-mh-family="mistral.mistral-small" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2025-01-30">30 January 2025</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Small · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-small-3/">Mistral Small 3</a>
+<p class="mh-chrono-sum">Mistral Small 3 is a 24B-parameter language model from Mistral AI, released with pretrained and instruction-tuned open weights under Apache 2.0 and offered via API on la Plateforme and through…</p>
+<ul class="mh-changes-mini"><li>Released under Apache 2.0; Mistral AI said it would move away from MRL-licensed models for its general-purpose models.</li><li>Has 24B parameters, published as a pretrained and an instruction-tuned checkpoint.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2024</h3><span class="mh-year-count">14 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-large-24-11" data-mh-family="mistral.mistral-large" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-11-18">18 November 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Large · Language</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-large-24-11/">Mistral Large 24.11</a>
+<p class="mh-chrono-sum">Mistral Large 24.11 is an update of Mistral AI&#39;s Mistral Large 2 language model, a 123B dense model released alongside Pixtral Large; the changelog calls it Mistral Large 2.1. Mistral describes…</p>
+<ul class="mh-changes-mini"><li>Mistral reports better long-context understanding.</li><li>Mistral reports more accurate function calling.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.pixtral-large" data-mh-family="mistral.pixtral" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-11-18">18 November 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Pixtral · Language, Multimodal</span>
+<a class="mh-chrono-name" href="/models/mistral/pixtral-large/">Pixtral Large</a>
+<p class="mh-chrono-sum">Pixtral Large is a 124B multimodal model from Mistral AI that takes text and images and outputs text, built on Mistral Large 2 with a 123B decoder and a 1B-parameter vision encoder. Mistral calls it…</p>
+<ul class="mh-changes-mini"><li>Grows to 124B parameters in total: a 123B multimodal decoder and a 1B-parameter vision encoder.</li><li>Its multimodal decoder is built on Mistral Large 2 instead of Mistral Nemo.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.ministral-1" data-mh-family="mistral.ministral" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-10-16">16 October 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Ministral · Language</span>
+<a class="mh-chrono-name" href="/models/mistral/ministral-1/">Ministral</a>
+<p class="mh-chrono-sum">Les Ministraux are two language models, Ministral 3B and Ministral 8B, that Mistral AI introduced for on-device and edge use on the first anniversary of Mistral 7B, both with a context length of up…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-small-v24-09" data-mh-family="mistral.mistral-small" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-09-17">17 September 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Small · Language</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-small-v24-09/">Mistral Small v24.09</a>
+<p class="mh-chrono-sum">Mistral Small v24.09 is a 22-billion-parameter language model from Mistral AI, an upgrade of Mistral Small v24.02 that Mistral positions between Mistral NeMo and Mistral Large 2. It was offered on…</p>
+<ul class="mh-changes-mini"><li>Weights were published for download under the Mistral Research License, for non-commercial self-deployment.</li><li>Mistral reports improvements in human alignment, reasoning and code over Mistral Small v24.02.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.pixtral-12b" data-mh-family="mistral.pixtral" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-09-17">17 September 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Pixtral · Language, Multimodal · Milestone</span>
+<a class="mh-chrono-name" href="/models/mistral/pixtral-12b/">Pixtral 12B</a>
+<p class="mh-chrono-sum">Pixtral 12B is a multimodal model from Mistral AI that takes images and text and outputs text, combining a new 400M-parameter vision encoder with a 12B decoder based on Mistral Nemo. It was released…</p>
+<ul class="mh-changes-mini"><li>Adds image input through a new 400M-parameter vision encoder trained from scratch; images are processed at their native resolution and aspect ratio.</li><li>Pairs that encoder with a 12B multimodal decoder built on Mistral Nemo; Mistral says it keeps text-only capabilities and can replace Mistral Nemo 12B as a drop-in.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-large-2" data-mh-family="mistral.mistral-large" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-07-24">24 July 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Large · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-large-2/">Mistral Large 2</a>
+<p class="mh-chrono-sum">Mistral Large 2 is the second generation of Mistral AI&#39;s Mistral Large language model, with 123 billion parameters and a 128k-token context window. It was offered on la Plateforme as…</p>
+<ul class="mh-changes-mini"><li>Instruct weights were published for download under the Mistral Research License, for research and non-commercial use.</li><li>Mistral says it trained the model on a very large proportion of code, drawing on its work on Codestral 22B and Codestral Mamba, and on a large share of multilingual data.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-nemo" data-mh-family="mistral.mistral" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-07-18">18 July 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral · Language</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-nemo/">Mistral NeMo</a>
+<p class="mh-chrono-sum">Mistral NeMo is a 12B-parameter language model that Mistral AI built with NVIDIA, released with base and instruct weights under Apache 2.0 and offered on la Plateforme and as an NVIDIA NIM. It has a…</p>
+<ul class="mh-changes-mini"><li>Has 12B parameters, up from 7B in Mistral 7B, while keeping a standard architecture that Mistral says lets it replace Mistral 7B as a drop-in.</li><li>Uses a new tokenizer, Tekken, based on Tiktoken, in place of the SentencePiece tokenizer of earlier Mistral models.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.codestral-mamba" data-mh-family="" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-07-16">16 July 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Language, Code</span>
+<a class="mh-chrono-name" href="/models/mistral/codestral-mamba/">Codestral Mamba</a>
+<p class="mh-chrono-sum">Codestral Mamba is a 7B code model from Mistral AI based on the Mamba architecture rather than a Transformer, which Mistral says gives linear-time inference. It was released under Apache 2.0 with…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mathstral" data-mh-family="" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-07-16">16 July 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Language</span>
+<a class="mh-chrono-name" href="/models/mistral/mathstral/">Mathstral</a>
+<p class="mh-chrono-sum">Mathstral is a 7B language model from Mistral AI, built on Mistral 7B and specialised in mathematics and STEM subjects, aimed at problems that need complex, multi-step logical reasoning. Mistral…</p>
+<ul class="mh-changes-mini"><li>Specialised for mathematics and STEM subjects; Mistral compares its results by subject with those of Mistral 7B.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-7b-v0-3" data-mh-family="mistral.mistral" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-05-22">22 May 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral · Language</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a>
+<p class="mh-chrono-sum">Mistral 7B v0.3 is a minor update to Mistral AI&#39;s open 7B language model, released on 22 May 2024 as base and instruct checkpoints with open weights on Hugging Face under Apache 2.0 and served on…</p>
+<ul class="mh-changes-mini"><li>Vocabulary extended to 32768 tokens.</li><li>The instruct model adds function calling, together with support for the v3 tokenizer.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mixtral-8x22b" data-mh-family="mistral.mixtral" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-04-17">17 April 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mixtral · Language</span>
+<a class="mh-chrono-name" href="/models/mistral/mixtral-8x22b/">Mixtral 8x22B</a>
+<p class="mh-chrono-sum">Mixtral 8x22B is a sparse mixture-of-experts language model from Mistral AI with 141B total and 39B active parameters, released on 17 April 2024 with an instruct version, open weights under Apache…</p>
+<ul class="mh-changes-mini"><li>Larger sparse mixture-of-experts model: 141B total and 39B active parameters, against 46.7B and 12.9B for Mixtral 8x7B.</li><li>Context window of 64K tokens, up from 32k for Mixtral 8x7B.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-large-1" data-mh-family="mistral.mistral-large" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-02-26">26 February 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Large · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-large-1/">Mistral Large</a>
+<p class="mh-chrono-sum">Mistral Large, later named Mistral Large 1.0, is a language model that Mistral AI called its new flagship when it was released on 26 February 2024 on la Plateforme, on Microsoft Azure and in the le…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-next" data-mh-family="mistral.mistral" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-02-26">26 February 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral · Language</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-next/">Mistral Next</a>
+<p class="mh-chrono-sum">Mistral Next was a prototype language model that Mistral AI offered in the le Chat beta from 26 February 2024, next to Mistral Large and Mistral Small, and described as designed to be brief and…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-small-1" data-mh-family="mistral.mistral-small" data-mh-prominence="standard">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2024-02-26">26 February 2024</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Small · Language</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-small-1/">Mistral Small</a>
+<p class="mh-chrono-sum">Mistral Small, later named Mistral Small 1.0, is a language model that Mistral AI released on 26 February 2024 alongside Mistral Large, through the mistral-small-2402 API endpoint and in le Chat…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+<li class="mh-year">
+<div class="mh-year-head"><h3>2023</h3><span class="mh-year-count">4 models</span></div>
+<ol class="mh-chrono-items">
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-7b-v0-2" data-mh-family="mistral.mistral" data-mh-prominence="minor">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-12-11">11 December 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral · Language</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-7b-v0-2/">Mistral 7B v0.2</a>
+<p class="mh-chrono-sum">Mistral 7B v0.2 is an update to Mistral AI&#39;s open 7B language model, first offered on 11 December 2023 as Mistral 7B Instruct v0.2 behind the mistral-tiny API endpoint of la Plateforme, later…</p>
+<ul class="mh-changes-mini"><li>Context window raised to 32k tokens, from 8k in v0.1.</li><li>Sliding-window attention dropped and rope-theta set to 1e6.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-medium-1" data-mh-family="mistral.mistral-medium" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-12-11">11 December 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral Medium · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-medium-1/">Mistral Medium</a>
+<p class="mh-chrono-sum">Mistral Medium, later named Mistral Medium 1.0, was the model behind the mistral-medium endpoint at the beta launch of Mistral AI&#39;s API platform, la Plateforme, on 11 December 2023. Mistral AI…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Retired · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mixtral-8x7b" data-mh-family="mistral.mixtral" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-12-11">11 December 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mixtral · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/mistral/mixtral-8x7b/">Mixtral 8x7B</a>
+<p class="mh-chrono-sum">Mixtral 8x7B is a sparse mixture-of-experts language model from Mistral AI with 46.7B parameters, 12.9B of them used per token, released on 11 December 2023 with open weights under Apache 2.0 and an…</p>
+<ul class="mh-changes-mini"><li>Same architecture as Mistral 7B except that each layer has eight feedforward experts, of which a router uses two per token.</li></ul>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+<li class="mh-chrono-item" data-mh-model="mistral.mistral-7b" data-mh-family="mistral.mistral" data-mh-prominence="milestone">
+<div class="mh-chrono-date"><span class="mh-date"><time datetime="2023-09-27">27 September 2023</time></span><span class="mh-prec">Released</span></div>
+<div class="mh-chrono-body">
+<span class="mh-kicker">Mistral · Language · Milestone</span>
+<a class="mh-chrono-name" href="/models/mistral/mistral-7b/">Mistral 7B</a>
+<p class="mh-chrono-sum">Mistral 7B is the first open model from Mistral AI: a 7.3-billion-parameter language model released on 27 September 2023 with open weights under Apache 2.0, together with a chat fine-tune, Mistral…</p>
+</div>
+<div class="mh-chrono-side">
+<span class="mh-pill"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span></span>
+<span class="mh-kicker">Available · no news linked</span>
+
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</section>
+
+<section id="lineage">
+<h2 class="mh-h2">Lineage</h2>
+<ol class="mh-lineage-models">
+<li id="lineage-mistral.mistral-7b">
+<a href="/models/mistral/mistral-7b/">Mistral 7B</a>
+<dl class="mh-lineage-lines">
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/huggingface/idefics2/">Idefics2</a> <span class="mh-org-tag">(Hugging Face)</span> <span class="mh-muted">· derived: other</span>; <a href="/models/huggingface/zephyr-7b-alpha/">Zephyr 7B Alpha</a> <span class="mh-org-tag">(Hugging Face)</span> <span class="mh-muted">· derived: fine tune</span>; <a href="/models/huggingface/zephyr-7b-beta/">Zephyr 7B β</a> <span class="mh-org-tag">(Hugging Face)</span> <span class="mh-muted">· derived: fine tune</span>; <a href="/models/mistral/mistral-7b-v0-2/">Mistral 7B v0.2</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-7b-v0-2">
+<a href="/models/mistral/mistral-7b-v0-2/">Mistral 7B v0.2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-7b/">Mistral 7B</a> <span class="mh-muted">· revision</span></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-medium-1">
+<a href="/models/mistral/mistral-medium-1/">Mistral Medium</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/mistral-medium-3/">Mistral Medium 3</a></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mixtral-8x7b">
+<a href="/models/mistral/mixtral-8x7b/">Mixtral 8x7B</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/mixtral-8x22b/">Mixtral 8x22B</a></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-large-1">
+<a href="/models/mistral/mistral-large-1/">Mistral Large</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/mistral-large-2/">Mistral Large 2</a></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-next">
+<a href="/models/mistral/mistral-next/">Mistral Next</a>
+<p class="mh-none">No recorded relations.</p>
+</li>
+<li id="lineage-mistral.mistral-small-1">
+<a href="/models/mistral/mistral-small-1/">Mistral Small</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/mistral-small-v24-09/">Mistral Small v24.09</a></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mixtral-8x22b">
+<a href="/models/mistral/mixtral-8x22b/">Mixtral 8x22B</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/mixtral-8x7b/">Mixtral 8x7B</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/huggingface/zephyr-141b-a35b/">Zephyr 141B-A35B</a> <span class="mh-org-tag">(Hugging Face)</span> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-7b-v0-3">
+<a href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/mistral-nemo/">Mistral NeMo</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-7b-v0-2/">Mistral 7B v0.2</a> <span class="mh-muted">· revision</span></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/mistral/mathstral/">Mathstral</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.codestral-mamba">
+<a href="/models/mistral/codestral-mamba/">Codestral Mamba</a>
+<p class="mh-none">No recorded relations.</p>
+</li>
+<li id="lineage-mistral.mathstral">
+<a href="/models/mistral/mathstral/">Mathstral</a>
+<dl class="mh-lineage-lines">
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-nemo">
+<a href="/models/mistral/mistral-nemo/">Mistral NeMo</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/mistral/pixtral-12b/">Pixtral 12B</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-large-2">
+<a href="/models/mistral/mistral-large-2/">Mistral Large 2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/mistral-large-1/">Mistral Large</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/mistral/mistral-large-24-11/">Mistral Large 24.11</a> <span class="mh-muted">· revision</span>; <a href="/models/mistral/pixtral-large/">Pixtral Large</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-small-v24-09">
+<a href="/models/mistral/mistral-small-v24-09/">Mistral Small v24.09</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/mistral-small-1/">Mistral Small</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/mistral-small-3/">Mistral Small 3</a></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.pixtral-12b">
+<a href="/models/mistral/pixtral-12b/">Pixtral 12B</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/pixtral-large/">Pixtral Large</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-nemo/">Mistral NeMo</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.ministral-1">
+<a href="/models/mistral/ministral-1/">Ministral</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/ministral-3/">Ministral 3</a></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-large-24-11">
+<a href="/models/mistral/mistral-large-24-11/">Mistral Large 24.11</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/mistral-large-3/">Mistral Large 3</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-large-2/">Mistral Large 2</a> <span class="mh-muted">· revision</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.pixtral-large">
+<a href="/models/mistral/pixtral-large/">Pixtral Large</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/pixtral-12b/">Pixtral 12B</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-large-2/">Mistral Large 2</a> <span class="mh-muted">· derived: other</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-small-3">
+<a href="/models/mistral/mistral-small-3/">Mistral Small 3</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/mistral-small-v24-09/">Mistral Small v24.09</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/mistral-small-3-1/">Mistral Small 3.1</a></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-small-3-1">
+<a href="/models/mistral/mistral-small-3-1/">Mistral Small 3.1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/mistral-small-3/">Mistral Small 3</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/mistral-small-3-2/">Mistral Small 3.2</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/mistral/magistral-small/">Magistral Small</a> <span class="mh-muted">· derived: fine tune</span>; <a href="/models/mistral/magistral-small-1-1/">Magistral Small 1.1</a> <span class="mh-muted">· derived: fine tune</span>; <a href="/models/mistral/ministral-3/">Ministral 3</a> <span class="mh-muted">· derived: distillation</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-medium-3">
+<a href="/models/mistral/mistral-medium-3/">Mistral Medium 3</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/mistral-medium-1/">Mistral Medium</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/mistral-medium-3-1/">Mistral Medium 3.1</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/mistral/magistral-medium/">Magistral Medium</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.magistral-medium">
+<a href="/models/mistral/magistral-medium/">Magistral Medium</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/magistral-medium-1-1/">Magistral Medium 1.1</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-medium-3/">Mistral Medium 3</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/mistral/magistral-small/">Magistral Small</a> <span class="mh-muted">· variant</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.magistral-small">
+<a href="/models/mistral/magistral-small/">Magistral Small</a>
+<dl class="mh-lineage-lines">
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/magistral-small-1-1/">Magistral Small 1.1</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/magistral-medium/">Magistral Medium</a> <span class="mh-muted">· variant</span>; <a href="/models/mistral/mistral-small-3-1/">Mistral Small 3.1</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-small-3-2">
+<a href="/models/mistral/mistral-small-3-2/">Mistral Small 3.2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/mistral-small-3-1/">Mistral Small 3.1</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/mistral-small-4/">Mistral Small 4</a></dd></div>
+<div><dt>Variants and derived</dt><dd data-mh-lineage="children"><a href="/models/mistral/magistral-small-1-2/">Magistral Small 1.2</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.magistral-medium-1-1">
+<a href="/models/mistral/magistral-medium-1-1/">Magistral Medium 1.1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/magistral-medium/">Magistral Medium</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/magistral-medium-1-2/">Magistral Medium 1.2</a></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.magistral-small-1-1">
+<a href="/models/mistral/magistral-small-1-1/">Magistral Small 1.1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/magistral-small/">Magistral Small</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/magistral-small-1-2/">Magistral Small 1.2</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-small-3-1/">Mistral Small 3.1</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-medium-3-1">
+<a href="/models/mistral/mistral-medium-3-1/">Mistral Medium 3.1</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/mistral-medium-3/">Mistral Medium 3</a></dd></div>
+<div><dt>Successors</dt><dd data-mh-lineage="successors"><a href="/models/mistral/mistral-medium-3-5/">Mistral Medium 3.5</a></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.magistral-medium-1-2">
+<a href="/models/mistral/magistral-medium-1-2/">Magistral Medium 1.2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/magistral-medium-1-1/">Magistral Medium 1.1</a></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.magistral-small-1-2">
+<a href="/models/mistral/magistral-small-1-2/">Magistral Small 1.2</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/magistral-small-1-1/">Magistral Small 1.1</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-small-3-2/">Mistral Small 3.2</a> <span class="mh-muted">· derived: fine tune</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.ministral-3">
+<a href="/models/mistral/ministral-3/">Ministral 3</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/ministral-1/">Ministral</a></dd></div>
+<div><dt>Based on</dt><dd data-mh-lineage="parents"><a href="/models/mistral/mistral-small-3-1/">Mistral Small 3.1</a> <span class="mh-muted">· derived: distillation</span></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-large-3">
+<a href="/models/mistral/mistral-large-3/">Mistral Large 3</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/mistral-large-24-11/">Mistral Large 24.11</a></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-small-4">
+<a href="/models/mistral/mistral-small-4/">Mistral Small 4</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/mistral-small-3-2/">Mistral Small 3.2</a></dd></div>
+</dl>
+</li>
+<li id="lineage-mistral.mistral-medium-3-5">
+<a href="/models/mistral/mistral-medium-3-5/">Mistral Medium 3.5</a>
+<dl class="mh-lineage-lines">
+<div><dt>Predecessors</dt><dd data-mh-lineage="predecessors"><a href="/models/mistral/mistral-medium-3-1/">Mistral Medium 3.1</a></dd></div>
+</dl>
+</li>
+</ol>
+</section>
+<section id="families">
+<h2 class="mh-h2">Families</h2>
+<ul class="mh-families">
+<li id="family-mistral.mistral" class="mh-family">
+<h3>Mistral</h3>
+<p class="mh-family-models"><a href="/models/mistral/mistral-7b/">Mistral 7B</a> · <a href="/models/mistral/mistral-7b-v0-2/">Mistral 7B v0.2</a> · <a href="/models/mistral/mistral-next/">Mistral Next</a> · <a href="/models/mistral/mistral-7b-v0-3/">Mistral 7B v0.3</a> · <a href="/models/mistral/mistral-nemo/">Mistral NeMo</a></p>
+<ul class="mh-families">
+<li id="family-mistral.magistral" class="mh-family">
+<h3>Magistral</h3>
+<p class="mh-family-models"><a href="/models/mistral/magistral-medium/">Magistral Medium</a> · <a href="/models/mistral/magistral-small/">Magistral Small</a> · <a href="/models/mistral/magistral-medium-1-1/">Magistral Medium 1.1</a> · <a href="/models/mistral/magistral-small-1-1/">Magistral Small 1.1</a> · <a href="/models/mistral/magistral-medium-1-2/">Magistral Medium 1.2</a> · <a href="/models/mistral/magistral-small-1-2/">Magistral Small 1.2</a></p>
+</li>
+<li id="family-mistral.ministral" class="mh-family">
+<h3>Ministral</h3>
+<p class="mh-family-models"><a href="/models/mistral/ministral-1/">Ministral</a> · <a href="/models/mistral/ministral-3/">Ministral 3</a></p>
+</li>
+<li id="family-mistral.mistral-large" class="mh-family">
+<h3>Mistral Large</h3>
+<p class="mh-family-models"><a href="/models/mistral/mistral-large-1/">Mistral Large</a> · <a href="/models/mistral/mistral-large-2/">Mistral Large 2</a> · <a href="/models/mistral/mistral-large-24-11/">Mistral Large 24.11</a> · <a href="/models/mistral/mistral-large-3/">Mistral Large 3</a></p>
+</li>
+<li id="family-mistral.mistral-medium" class="mh-family">
+<h3>Mistral Medium</h3>
+<p class="mh-family-models"><a href="/models/mistral/mistral-medium-1/">Mistral Medium</a> · <a href="/models/mistral/mistral-medium-3/">Mistral Medium 3</a> · <a href="/models/mistral/mistral-medium-3-1/">Mistral Medium 3.1</a> · <a href="/models/mistral/mistral-medium-3-5/">Mistral Medium 3.5</a></p>
+</li>
+<li id="family-mistral.mistral-small" class="mh-family">
+<h3>Mistral Small</h3>
+<p class="mh-family-models"><a href="/models/mistral/mistral-small-1/">Mistral Small</a> · <a href="/models/mistral/mistral-small-v24-09/">Mistral Small v24.09</a> · <a href="/models/mistral/mistral-small-3/">Mistral Small 3</a> · <a href="/models/mistral/mistral-small-3-1/">Mistral Small 3.1</a> · <a href="/models/mistral/mistral-small-3-2/">Mistral Small 3.2</a> · <a href="/models/mistral/mistral-small-4/">Mistral Small 4</a></p>
+</li>
+<li id="family-mistral.mixtral" class="mh-family">
+<h3>Mixtral</h3>
+<p class="mh-family-models"><a href="/models/mistral/mixtral-8x7b/">Mixtral 8x7B</a> · <a href="/models/mistral/mixtral-8x22b/">Mixtral 8x22B</a></p>
+</li>
+<li id="family-mistral.pixtral" class="mh-family">
+<h3>Pixtral</h3>
+<p class="mh-family-models"><a href="/models/mistral/pixtral-12b/">Pixtral 12B</a> · <a href="/models/mistral/pixtral-large/">Pixtral Large</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<h3>Not in a family</h3>
+<ul class="mh-mini-list">
+<li><a href="/models/mistral/codestral-mamba/">Codestral Mamba</a></li>
+<li><a href="/models/mistral/mathstral/">Mathstral</a></li>
+</ul>
+</section>
+<section id="organization">
+<h2 class="mh-h2">About the organisation</h2>
+<ul class="mh-claim-rows">
+<li class="mh-claim" data-mh-claim="description" data-mh-evidence="primary-source">
+<span class="mh-claim-label">Description</span>
+<span class="mh-claim-value">Mistral AI is a Paris-based AI company that says it was founded in April 2023. It develops open-weight and commercial language models, as well as models for code, OCR, speech, embeddings and moderation, and offers enterprises and governments AI products including developer tools, applications and compute. Its first model, Mistral 7B, was released in September 2023 under the Apache 2.0 licence.</span>
+<span class="mh-claim-ev"><span class="mh-ev" data-mh-evidence="primary-source" title="Primary source available"><span class="mh-glyph" aria-hidden="true">●</span> Primary source</span><span class="mh-refs"><a class="mh-ref" href="#source-src.mistral.legal-notice" aria-label="Source 1">[1]</a> <a class="mh-ref" href="#source-src.mistral.about" aria-label="Source 2">[2]</a> <a class="mh-ref" href="#source-src.mistral.models-overview" aria-label="Source 3">[3]</a> <a class="mh-ref" href="#source-src.mistral.mistral-7b-announcement" aria-label="Source 4">[4]</a></span></span>
+</li>
+</ul>
+<p class="mh-facts-line">Company · <a href="https://mistral.ai">https://mistral.ai</a> · 33 models listed here</p>
+</section>
+<section id="sources">
+<h2 class="mh-h2">Sources</h2>
+<ol class="mh-sources">
+<li id="source-src.mistral.legal-notice" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[1]</span> <cite>Legal notice | Mistral</cite></p>
+<p class="mh-kicker">Other · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://mistral.ai/legal/">Original ↗</a>
+<span class="mh-url">https://mistral.ai/legal/</span>
+<span class="mh-note">States the legal form (simplified joint stock company), the Paris Trade and Companies Register number and the registered office in Paris, France. The notice names the company Mistral. Living page; content as seen on 2026-10-01.</span>
+</div>
+</li>
+<li id="source-src.mistral.about" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[2]</span> <cite>About Mistral | Open, frontier AI for all.</cite></p>
+<p class="mh-kicker">Other · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://mistral.ai/about/">Original ↗</a>
+<span class="mh-url">https://mistral.ai/about/</span>
+<span class="mh-note">Company page with the mission, founding in April 2023, key dates and the three co-founders. Living page; content as seen on 2026-10-01. https://mistral.ai/about redirects (301) here.</span>
+</div>
+</li>
+<li id="source-src.mistral.models-overview" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[3]</span> <cite>Models Overview</cite></p>
+<p class="mh-kicker">Documentation · Mistral AI</p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://docs.mistral.ai/models">Original ↗</a>
+<span class="mh-url">https://docs.mistral.ai/models</span>
+<span class="mh-note">Living page; content as seen on 2026-10-01. Its Deprecated section (Deprecated and retired models) lists model, version, API id, deprecation and retirement dates in M/D/YYYY format, and the alternative. HTML title Mistral Docs. The older address https://docs.mistral.ai/getting-started/models/models_overview/ redirects here (two 308 redirects).</span>
+</div>
+</li>
+<li id="source-src.mistral.mistral-7b-announcement" class="mh-source" data-mh-availability="active" data-mh-provenance="primary">
+<p class="mh-source-title"><span class="mh-source-n">[4]</span> <cite>Mistral 7B</cite></p>
+<p class="mh-kicker">Announcement · Mistral AI · published <time datetime="2023-09-27">27 September 2023</time></p>
+<dl class="mh-source-status">
+<dt>Provenance</dt><dd>Primary</dd>
+<dt>Availability</dt><dd class="mh-avail" data-mh-availability="active">Active</dd>
+<dt>Last checked</dt><dd><time datetime="2026-10-05">5 October 2026</time></dd>
+</dl>
+<div class="mh-source-links">
+<a href="https://mistral.ai/news/announcing-mistral-7b/">Original ↗</a>
+<span class="mh-url">https://mistral.ai/news/announcing-mistral-7b/</span>
+<span class="mh-note">HTML title and heading both read Mistral 7B. The address without the trailing slash (linked from the docs) redirects (301) here.</span>
+</div>
+</li>
+</ol>
+</section>
+</div>
+<aside class="mh-body-side" id="coverage" aria-labelledby="mh-cov-title">
+<h2 class="mh-legend" id="mh-cov-title">Related AI Radar coverage</h2>
+<ul class="mh-news-side">
+<li class="mh-news-item"><span class="mh-kicker">Mistral AI · News · <time datetime="2026-05-22T15:01:55Z">22 May 2026</time> · about <a href="/models/mistral/mistral-medium-3-5/">Mistral Medium 3.5</a></span><span class="mh-news-title"><a href="https://mistral.ai/news/vibe-remote-agents-mistral-medium-3-5/">Remote agents in Vibe. Powered by Mistral Medium 3.5.</a></span></li>
+<li class="mh-news-item"><span class="mh-kicker">Mistral AI · News · <time datetime="2026-03-16T21:00:00Z">16 March 2026</time> · about <a href="/models/mistral/mistral-small-4/">Mistral Small 4</a></span><span class="mh-news-title"><a href="https://mistral.ai/news/mistral-small-4/">Introducing Mistral Small 4</a></span></li>
+</ul>
+<p class="mh-more"><a href="/?view=timeline&amp;cat=model-releases&amp;company=mistral">All model releases from Mistral AI on AI Radar →</a></p>
+</aside>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>AI Radar &middot; Made by Benjamin Nieuwenhuijzen</span>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="/">Dashboard</a>
+      <a href="/models/" aria-current="true">Model History</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/disclaimer">Disclaimer</a>
+      <a href="/feed.xml">RSS</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
