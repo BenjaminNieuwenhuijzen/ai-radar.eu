@@ -172,6 +172,8 @@ test("snapshot fields: ISO UTC publishedAt, dateOnly for 00:00:00 UTC, company a
   assert.equal(itemView({ ...byTitle(items, "Introducing Orbit 2"), id: "Bad-Id" }).postId, postId(L.intro));
   assert.equal(itemView({ title: "x", link: "javascript:alert(1)", date: "2026-01-01" }), null);
   assert.equal(itemView({ title: "x", link: "https://a.example/", date: "not a date" }), null);
+  // A feed without a source (xAI) names the link's host, so the snapshot passes E17.
+  assert.equal(itemView({ title: "x", link: "https://www.x.ai/news/grok", date: "2026-01-01" }).source, "x.ai");
 });
 
 test("firstSeenAt comes from data.json 'generated', else the run time, in whole seconds", () => {
