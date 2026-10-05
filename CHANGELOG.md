@@ -9,6 +9,26 @@ can see exactly what changed between any two versions.
 
 ## [Unreleased]
 
+### Added
+- Model History now covers all 12 tracked companies: Google, OpenAI, Mistral AI, DeepSeek, xAI,
+  Microsoft, NVIDIA, Cohere, Meta, Hugging Face and Perplexity joined Anthropic (279 models,
+  952 sources), with relations across organisations (for example R1 1776 → DeepSeek-R1).
+- **Automatic updates for new models.** The Model History build opens a `new-model` issue for
+  every model name in AI Radar titles that no record knows (at most 5 per run, never twice for
+  one name). A daily Claude routine in the cloud researches those names and pushes new records;
+  the new `model-history-auto.yml` workflow publishes them only when they change curated data
+  alone and pass validation, the tests and validation after news matching, and otherwise
+  comments on the issue.
+
+### Changed
+- About and Disclaimer say that new models are added by an AI agent and published without
+  prior human review.
+- The last 14 sources with an unknown status were checked by hand and are active.
+
+### Fixed
+- The Model History build failed when a feed item had no source (the xAI feed): a news
+  snapshot now names the link's host instead.
+
 ## [2.1.0] - 2026-10-02
 
 **Model History**: a source-based history of AI models, starting with Anthropic's 32 models; the other tracked companies follow. At

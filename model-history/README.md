@@ -16,7 +16,7 @@ This folder holds the curated data behind **Model History**, the part of AI Rada
 | `state/news-links.json` | machine state: append-only links between models and AI Radar news posts | workflows only, never edit by hand (to drop a link, add its post id to `news.exclude` in the record) |
 | `models/` and `sitemap-models.xml` in the repository root | generated pages and JSON | `build.mjs` in CI only, never edit |
 
-Automation never writes `records/`, `sources/`, `organizations.json` or `families.json`, and never deletes a model or a source.
+The GitHub workflows never write `records/`, `sources/`, `organizations.json` or `families.json`, and nothing automated ever deletes a model or a source. The one exception to "curator only" is the cloud routine that adds **new** models (see [Automatic updates](#automatic-updates-new-models)): it acts as a curator, through the same files and the same checks.
 
 ## Adding a model
 
@@ -26,6 +26,9 @@ Automation never writes `records/`, `sources/`, `organizations.json` or `familie
 4. **Validate locally** and fix every error. Warnings do not block, but each one needs a look in the PR.
 5. **Preview locally** (commands below) and check the pages.
 6. **Open a pull request** (label `feature`). The Model History workflow validates it and runs the tests. After the merge the workflow regenerates the pages, but only while the publish gate is on.
+7. **Before merging a data PR, also run the news matcher and validate again** (`node scripts/model-history/match-news.mjs && node scripts/model-history/validate.mjs`, then `git checkout -- model-history/state`). The PR check does not match news; the build on `main` does, and a new alias can link a post whose snapshot then fails validation (this broke the build once, after the data PR of 5 October 2026).
+
+New models usually arrive on their own: see [Automatic updates](#automatic-updates-new-models).
 
 A minimal record (fictional):
 
@@ -104,7 +107,7 @@ Aliases drive the news matching. They default to `match: "candidate"` (reported,
 - Retired models and vanished sources stay. Corrections go through git and update `lastReviewedAt`.
 - Uncertainty stays visible: qualifiers, alternatives and incomplete evidence are never smoothed over.
 - Corrections and removal requests arrive via info@ai-radar.eu; there is no form (§25.12, §37). A justified request from a rights holder sets `suppressLink: true` on the source, with the reason in `notes`. The model and the metadata stay.
-- Summaries, change notes and descriptions are drafted with AI assistance from the cited sources, then checked against those sources and these rules before they are merged. The About page says so. Every text claim keeps its own sources, so a reader can check it.
+- Summaries, change notes and descriptions are drafted with AI assistance from the cited sources and checked against those sources and these rules. Records added by the cloud routine are checked only by the agent itself and the automatic checks, not by a person, before they go live. The About page and the Disclaimer say so. Every text claim keeps its own sources, so a reader can check it.
 
 ## Commands
 
@@ -119,7 +122,7 @@ node scripts/model-history/validate.mjs
 # the tracked sitemap-models.xml in the repository root.
 node scripts/model-history/build.mjs --publish --out .preview/models --sitemap .preview/sitemap-models.xml
 
-# The same from the fictional test data, while this folder has no models yet
+# The same from the fictional test data (small and fast, for work on the templates)
 node scripts/model-history/build.mjs --data scripts/model-history/test/fixtures/basic --publish --out .preview/models --sitemap .preview/sitemap-models.xml
 
 # Serve the site on http://127.0.0.1:8125/ with /models/ and the sitemap taken from the preview build
@@ -135,14 +138,29 @@ The preview server behaves like GitHub Pages for this site: `/dir` redirects to 
 
 - `.github/workflows/model-history.yml`: on a pull request it validates and runs the tests. On a push to `main`, after every successful feed build and on manual dispatch from `main` it validates, matches news, builds and commits "Update model history". Dispatched on any other branch it only validates.
 - `.github/workflows/source-health.yml`: daily at 03:41 UTC and on manual dispatch. It checks sources and archive copies and commits `state/source-status.json`, on `main` only (dispatched on another branch it runs the check and the report but commits nothing). Two runs never overlap: a run started while another is still checking waits for it (concurrency group `source-health-<branch>`), because the later run must build on the earlier run's counters. Only one run can wait, so a third start cancels the waiting one. Its publish job also shares the `model-history-writer` group with the Model History build. When it is still waiting as a Model History build queues up, GitHub cancels it and that day's check is lost. The next day checks again; to recover sooner, start the workflow by hand (Actions → Model History source health → Run workflow).
-- Their reports go to the job summary, which is **public** in the Actions tab: the validator's maintenance lists (models with incomplete evidence, W03; records not reviewed for a year, W04), the news matcher's new links, candidates and **possible new models** (versioned model names in AI Radar titles that no record knows yet), and the source-health report.
-- **The publish gate** is the repository variable `MODEL_HISTORY_PUBLISH` (Settings → Secrets and variables → Actions → Variables). While it is not `on`, the workflows only validate and update `state/`; they never generate or commit `models/` or `sitemap-models.xml`, so **nothing appears on ai-radar.eu/models/ until it is switched on** at launch. The raw files in this folder are reachable on `main` either way.
+- `.github/workflows/model-history-auto.yml`: publishes what the cloud routine pushes (see [Automatic updates](#automatic-updates-new-models)).
+- Their reports go to the job summary, which is **public** in the Actions tab: the validator's maintenance lists (models with incomplete evidence, W03; records not reviewed for a year, W04), the news matcher's new links, candidates and **possible new models** (versioned model names in AI Radar titles that no record knows yet), and the source-health report. The possible new models also become issues (see below).
+- **The publish gate** is the repository variable `MODEL_HISTORY_PUBLISH` (Settings → Secrets and variables → Actions → Variables). It has been `on` since the launch on 2 October 2026. While it is not `on`, the workflows only validate and update `state/`; they never generate or commit `models/` or `sitemap-models.xml`, so nothing new appears on ai-radar.eu/models/. The raw files in this folder are reachable on `main` either way.
+
+## Automatic updates (new models)
+
+New models are added without anyone running anything locally. Three parts, all in the cloud:
+
+1. **Detection** (GitHub, every 2 hours). After each feed build, `model-history.yml` runs `match-news.mjs --new-names` and opens one issue per versioned model name in AI Radar titles that no record, variant or alias knows yet, with the label `new-model`. At most 5 new issues per run. An issue with the same title is never opened twice, also when it was closed, so closing an issue dismisses that name. To mark a name as known for good (an umbrella name, a name that is not a model), add it to the right record as an alias with `"match": "never"`.
+2. **Research and writing** (a Claude routine on claude.ai, daily at 05:00 UTC, run in Anthropic's cloud; managed at claude.ai/code/routines by the repository owner). It reads the open `new-model` issues (and stops at once when there are none), handles at most 3 per run, researches each name in official sources, and either adds a record with its sources (and a family when none fits), adds an alias to an existing record, or leaves the issue open when the name is not a model or there is no official source yet. It runs the same commands as a curator (validate, tests, match-news plus validate) and pushes one commit to a branch starting with `claude/`. The head commit must contain `[model-history]` and one `Closes #<n>` line per handled issue.
+3. **Publication** (`model-history-auto.yml`, on a push to `claude/**` whose head commit contains `[model-history]`). It merges the current `main` into the branch locally and requires: only `records/**`, `sources/*.json`, `families.json` and `organizations.json` changed; `validate.mjs` without errors; the tests; and `validate.mjs` again after `match-news.mjs`. When everything passes it pushes one squash commit to `main` (GitHub Actions may not open pull requests in this repository), comments on and closes the linked issues, deletes the branch and dispatches `model-history.yml`, which builds the pages. When a check fails, nothing is published: it comments on the linked issues with a link to the run (the owner gets a notification) and keeps the branch for review.
+
+What it does **not** do: update existing records (a model that is deprecated or retired, a new successor, a vanished source beyond what source-health records) or remove anything. Those changes still go through a pull request by hand.
+
+To pause the automation, disable the routine on claude.ai/code/routines (issues keep being opened and wait); to stop the issues as well, remove the "Open issues for possible new models" step from `model-history.yml`. A wrong automatic entry is corrected like any other record, in a pull request.
 
 ## Rolling back
 
 | Situation | What to do |
 |---|---|
 | One record or source is wrong | Correct it in a pull request. With the gate on, the next build regenerates the page; a removed model disappears from `models/`. |
+| An automatic entry is wrong | The same: correct or remove the record in a pull request. If the routine keeps getting a name wrong, add that name as a `"match": "never"` alias and close its issue. |
+| Stop the automatic additions | Disable the routine on claude.ai/code/routines. Without it no `claude/` branch is pushed, so `model-history-auto.yml` publishes nothing. |
 | Freeze the pages | Set `MODEL_HISTORY_PUBLISH` to anything other than `on`. The pages stay as they are and nothing new is published. |
 | Take Model History offline | First switch the gate off (otherwise the next run generates everything again). Then, in one commit: delete `models/` and `sitemap-models.xml`, turn `sitemap.xml` back into a plain `<urlset>` of the site pages, and remove the "Model History" links from the header and footer of the five site pages. The CDN shows the old version for up to 10 minutes; remove the URLs in Search Console if needed. |
 | The dashboard breaks after the merge of the foundation | `git revert` the merge commit: it moved the company registry into `assets/registry.js` and changed `index.html` and `assets/app.js`. |
