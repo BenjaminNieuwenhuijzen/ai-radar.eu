@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-4-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-4-5",
+  "name": "Grok 4.5",
+  "aliases": [
+    {
+      "text": "Grok 4.5",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.5",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.5-latest",
+      "match": "auto"
+    },
+    {
+      "text": "grok-build-latest",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "4.5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning",
+    "code"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.xai.grok-4-5-docs",
+        "locator": "Details"
+      },
+      {
+        "id": "src.xai.models-overview",
+        "locator": "Text API Pricing"
+      }
+    ],
+    "note": "Listed as a current API model with pricing when checked on 2026-10-01; not named in any xAI retirement guide."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-07-16",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-5-announcement",
+          "locator": "first paragraph; Getting started"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "July: Grok 4.5"
+        }
+      ],
+      "note": "Available from the announcement day in Grok Build, in Cursor and on the xAI API. The model card cover is dated July 14, 2026."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "consumer-apps",
+      "label": "Available on grok.com, X and the Grok apps for iOS and Android",
+      "date": {
+        "value": "2026-07-22",
+        "sources": [
+          {
+            "id": "src.xai.grok-4-5-everywhere"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-4-3",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-5-announcement"
+        },
+        {
+          "id": "src.xai.grok-4-5-model-card",
+          "locator": "1 Introduction"
+        }
+      ],
+      "note": "Editorial link along the main Grok line: the model card calls Grok 4.5 the initial release of a new model family from SpaceXAI and Cursor and names no predecessor; Grok 4.3 was the most recent main Grok release before it."
+    }
+  ],
+  "summary": {
+    "text": "Grok 4.5 is a language model in xAI's Grok line for text and image input, launched on 16 July 2026 in xAI's Grok Build coding agent, in Cursor and on the xAI API, and from 22 July in the Grok apps and on X. xAI says it was trained alongside Cursor and positions it for coding, agentic tasks and knowledge work.",
+    "sources": [
+      {
+        "id": "src.xai.grok-4-5-announcement"
+      },
+      {
+        "id": "src.xai.grok-4-5-everywhere"
+      },
+      {
+        "id": "src.xai.grok-4-5-docs"
+      },
+      {
+        "id": "src.xai.grok-4-5-model-card",
+        "locator": "1 Introduction"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "cursor-training",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4-3",
+      "text": "Developed with Cursor; the model card says it received supplemental training on anonymized Cursor workflow data.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-5-model-card"
+        }
+      ]
+    },
+    {
+      "id": "pretraining-cutoff",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4-3",
+      "text": "The model card gives a pretraining cutoff of January 2026.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-5-model-card"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "decreased",
+      "relativeTo": "xai.grok-4-3",
+      "text": "API context window of 500,000 tokens, against 1,000,000 tokens for Grok 4.3.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-5-docs",
+          "locator": "At a glance: Context window"
+        },
+        {
+          "id": "src.xai.grok-4-3-docs",
+          "locator": "At a glance: Context window"
+        }
+      ]
+    },
+    {
+      "id": "coding-focus",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4-3",
+      "text": "xAI positions it first for coding and agentic engineering work, and made it the default model in its Grok Build coding agent.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-5-announcement"
+        },
+        {
+          "id": "src.xai.grok-4-5-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-5-docs",
+          "locator": "At a glance: Modalities"
+        },
+        {
+          "id": "src.xai.grok-4-5-model-card",
+          "locator": "1.1 Capabilities and intended use"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-5-docs",
+          "locator": "At a glance: Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 500000,
+      "asStated": "500,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-5-docs",
+          "locator": "At a glance: Context window"
+        }
+      ],
+      "note": "API figure; requests above 200K prompt tokens are billed at a higher rate."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-5-announcement",
+          "locator": "Getting started"
+        },
+        {
+          "id": "src.xai.grok-4-5-everywhere"
+        },
+        {
+          "id": "src.xai.grok-4-5-model-card",
+          "locator": "1.1 Capabilities and intended use, list of channels"
+        }
+      ],
+      "note": "The model card lists model gateways including OpenRouter, Vercel, Cloudflare, Snowflake and Databricks Mosaic. Also offered in Cursor and in xAI's Grok Build coding agent."
+    }
+  },
+  "notes": "xAI now publishes as SpaceXAI, which the model card calls a doing-business-as name of XAI LLC. The announcement says Grok 4.5 was trained alongside Cursor; the model card calls it the initial release of the newest model family from SpaceXAI and Cursor and says it received supplemental training on anonymized Cursor workflow data. This is an organisation role, not a model relation; Cursor is not recorded as an organisation here. Category code: the docs page calls it SpaceXAI's intelligent coding model; the announcement names coding, agentic tasks and knowledge work. Reasoning efforts at launch were low, medium and high (API release notes); the docs page now also lists xhigh. Alias grok-build-latest points to this model on the docs page and may move."
+}

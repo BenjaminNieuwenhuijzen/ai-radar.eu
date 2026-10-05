@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.llama-4-scout",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-4-scout",
+  "name": "Llama 4 Scout",
+  "aliases": [
+    {
+      "text": "Llama 4 Scout",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-4-Scout-17B-16E",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-4-Scout-17B-16E-Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "Scout",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.llama-4",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.meta.llama-4-scout-hf",
+        "locator": "model page and access request form"
+      },
+      {
+        "id": "src.meta.llama-4-models-page",
+        "locator": "Llama 4 Scout, Download"
+      }
+    ],
+    "note": "Open weights still offered (gated, on request) from Meta's meta-llama organisation on Hugging Face and from Meta's Llama 4 page on 2026-10-01. The hosted Llama API preview is a separate matter, see notes."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-04-05",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "page date; Takeaways"
+        },
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Release Date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "meta.llama-3-3",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement"
+        }
+      ],
+      "note": "Editorial link along the Llama line: Llama 4 Scout is among the first Llama 4 models, released after Llama 3.3. The announcement compares it with all previous Llama generations without naming a direct predecessor."
+    },
+    {
+      "type": "derived-from",
+      "target": "meta.llama-4-behemoth",
+      "method": "distillation",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "Takeaways; opening paragraphs"
+        }
+      ],
+      "note": "Meta says Llama 4 Scout and Llama 4 Maverick benefit from distillation from Llama 4 Behemoth, which it trained as a teacher for the new models; the detailed codistillation description in the announcement is about Maverick."
+    }
+  ],
+  "summary": {
+    "text": "Llama 4 Scout is a multimodal language model in Meta's Llama 4 line that takes text and images and returns text, released with open weights under the Llama 4 Community License and later offered in a preview of Meta's Llama API. It is a mixture-of-experts model with 17B of 109B parameters active and a 10M-token context length, distilled from Llama 4 Behemoth.",
+    "sources": [
+      {
+        "id": "src.meta.llama-4-announcement"
+      },
+      {
+        "id": "src.meta.llama-4-model-card"
+      },
+      {
+        "id": "src.meta.llama-4-model-cards-and-prompt-formats"
+      },
+      {
+        "id": "src.meta.llamacon-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "mixture-of-experts",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "meta.llama-3-3",
+      "text": "One of Meta's first Llama models built on a mixture-of-experts architecture, with 16 experts and 17B of its 109B parameters active per token.",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement"
+        },
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Information table, Params"
+        }
+      ]
+    },
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "meta.llama-3-3",
+      "text": "Accepts images alongside text as input; Meta describes native multimodality with early fusion of text and vision tokens.",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Information table, Input modalities"
+        },
+        {
+          "id": "src.meta.llama-4-announcement"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "meta.llama-3-3",
+      "text": "Context length raised from 128K tokens in Llama 3 to 10M tokens; Meta credits an architecture it calls iRoPE.",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "meta.llama-3-3",
+      "text": "Trained with distillation from Llama 4 Behemoth, a larger teacher model that was still in training at launch.",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Information table, Input modalities"
+        },
+        {
+          "id": "src.meta.llama-4-model-cards-and-prompt-formats",
+          "locator": "Introduction, feature table, Multimodal"
+        }
+      ],
+      "note": "Meta's docs give text plus up to 5 images as input; the model card says image understanding was tested up to 5 input images and the docs say image understanding is English-only."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-model-cards-and-prompt-formats",
+          "locator": "Introduction, feature table, Multimodal"
+        },
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Information table, Output modalities"
+        }
+      ],
+      "note": "The docs say text-only output; the model card table lists the output as multilingual text and code."
+    },
+    "contextWindowTokens": {
+      "value": 10000000,
+      "asStated": "10M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Information table, Context length"
+        },
+        {
+          "id": "src.meta.llama-4-model-cards-and-prompt-formats",
+          "locator": "Introduction, feature table, Maximum Context Length"
+        },
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "Takeaways; Post-training our new models"
+        }
+      ],
+      "note": "The announcement says the model was pre-trained and post-trained with a 256K context length; the docs say context lengths were evaluated across 512 GPUs."
+    },
+    "parameters": {
+      "value": 109000000000,
+      "asStated": "17B (Activated), 109B (Total)",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Information table, Params"
+        },
+        {
+          "id": "src.meta.llama-4-model-cards-and-prompt-formats",
+          "locator": "Introduction, feature table"
+        },
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "Post-training our new models"
+        }
+      ],
+      "note": "Mixture-of-experts model with 16 experts; the value is the total parameter count, of which 17B are active per token."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "opening paragraphs"
+        },
+        {
+          "id": "src.meta.llama-4-scout-hf"
+        },
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "License; Quantization"
+        }
+      ],
+      "note": "Gated download under the Llama 4 Community License Agreement, a custom commercial license (model card); released as BF16 weights."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "opening paragraphs"
+        },
+        {
+          "id": "src.meta.llama-4-scout-hf"
+        },
+        {
+          "id": "src.meta.llamacon-announcement",
+          "locator": "Llama API"
+        }
+      ],
+      "note": "API access through Meta's Llama API, a limited free preview announced on 2025-04-29. The launch post said partner availability would follow in the coming days; cloud-partner is left out because no Meta source read here names the partners."
+    }
+  },
+  "notes": "Released together with Llama 4 Maverick in the post The Llama 4 herd, which also previewed Llama 4 Behemoth. Pretrained and instruction-tuned versions were published (Hugging Face meta-llama/Llama-4-Scout-17B-16E and meta-llama/Llama-4-Scout-17B-16E-Instruct; original-format checkpoints in the matching -Original repositories). The announcement says Meta AI in WhatsApp, Messenger, Instagram Direct and on the web is built with Llama 4 without naming the model, so consumer-app is left out. Meta later wound down the hosted Llama API: its page Upcoming changes to Llama API (https://llama.developer.meta.com/docs/llama-api-deprecation/) now redirects to dev.meta.ai and shows only a sign-in prompt, and the Internet Archive holds only a redirect capture (20260911184803), so no end date is recorded. Llama Guard 4 (not recorded here) is described on its Meta Hugging Face page as pruned from the Llama 4 Scout pre-trained model."
+}

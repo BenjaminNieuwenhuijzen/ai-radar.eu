@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.command-a-translate",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "command-a-translate",
+  "name": "Command A Translate",
+  "aliases": [
+    {
+      "text": "Command A Translate",
+      "match": "auto"
+    },
+    {
+      "text": "command-a-translate-08-2025",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.command-a-family",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Command table: command-a-translate-08-2025, Status Live"
+      },
+      {
+        "id": "src.cohere.command-a-translate-hf"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-08-28",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-translate-blog",
+          "locator": "page date; Availability"
+        },
+        {
+          "id": "src.cohere.command-a-translate-changelog",
+          "locator": "entry date; Availability"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "cohere.command-a",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-translate-hf",
+          "locator": "card metadata base_model CohereLabs/c4ai-command-a-03-2025"
+        }
+      ],
+      "note": "Recorded from the base_model metadata of Cohere's model card, classified as a fine-tune in the Hugging Face model tree; the card text does not describe the lineage."
+    }
+  ],
+  "summary": {
+    "text": "Command A Translate is Cohere's first machine translation model, a 111B-parameter model in the Command A family for translation between 23 languages. It was released on 28 August 2025 on the Cohere API, with open weights for non-commercial research use, and Cohere stresses private hosting behind a company's own firewall for sensitive documents.",
+    "sources": [
+      {
+        "id": "src.cohere.command-a-translate-changelog"
+      },
+      {
+        "id": "src.cohere.command-a-translate-blog"
+      },
+      {
+        "id": "src.cohere.command-a-translate-hf"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "translation-focus",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "cohere.command-a",
+      "text": "Specialised for machine translation between 23 languages rather than general chat, agent and RAG use.",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-translate-changelog"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "decreased",
+      "relativeTo": "cohere.command-a",
+      "text": "Context of 8K input tokens plus 8K output, against 256K for Command A.",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Context Length"
+        },
+        {
+          "id": "src.cohere.command-a-translate-docs"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-translate-hf",
+          "locator": "Model Details: Input"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Modality"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-translate-hf",
+          "locator": "Model Details: Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-a-translate-changelog",
+            "locator": "Key Features"
+          },
+          {
+            "id": "src.cohere.command-a-translate-docs",
+            "locator": "Supported Languages"
+          }
+        ],
+        "note": "Translation across 23 languages."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 8000,
+      "asStated": "8K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Context Length"
+        },
+        {
+          "id": "src.cohere.command-a-translate-hf",
+          "locator": "Model Summary: Context length"
+        }
+      ],
+      "note": "Input context, with up to 8K output tokens. The changelog and the model docs page state a 16K token context length made up of 8K input and 8K output."
+    },
+    "parameters": {
+      "value": 111000000000,
+      "asStated": "111B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-translate-docs",
+          "locator": "Description"
+        },
+        {
+          "id": "src.cohere.command-a-translate-changelog",
+          "locator": "Key Features"
+        },
+        {
+          "id": "src.cohere.command-a-translate-hf",
+          "locator": "Model Summary: Model Size"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-translate-hf",
+          "locator": "Model Summary; Terms of Use"
+        },
+        {
+          "id": "src.cohere.command-a-translate-blog",
+          "locator": "Availability"
+        }
+      ],
+      "note": "Research release under CC-BY-NC 4.0 with Cohere Labs acceptable use policy; gated download on Hugging Face."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-translate-blog",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.cohere.command-a-translate-changelog",
+          "locator": "Availability"
+        }
+      ]
+    }
+  },
+  "notes": "Cohere calls it its first machine translation model. Not listed on the deprecations page as of 2026-10-01. Cohere also offers Deep Translation, an agentic multi-step refinement on request; that is a service, not a separate model. A WMT 2025 paper (ACL Anthology, https://aclanthology.org/2025.wmt-1.55/) is cited from the model card and not registered as a source. The Hugging Face repository was created on 2025-08-27."
+}

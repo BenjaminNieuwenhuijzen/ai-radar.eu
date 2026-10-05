@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "id": "huggingface.idefics-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "idefics-1",
+  "name": "IDEFICS",
+  "aliases": [
+    {
+      "text": "IDEFICS",
+      "match": "candidate"
+    },
+    {
+      "text": "Idefics1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "huggingface",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "huggingface.idefics",
+  "generation": "1",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.huggingface.idefics-80b-model-card",
+        "locator": "Hub repository HuggingFaceM4/idefics-80b, Files and versions"
+      },
+      {
+        "id": "src.huggingface.idefics-9b-model-card",
+        "locator": "Hub repository HuggingFaceM4/idefics-9b, Files and versions"
+      }
+    ],
+    "note": "Weights of the 9B and 80B base and instruct checkpoints are downloadable from the HuggingFaceM4 organisation on the Hub. Hugging Face publishes no deprecation page for its models."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-08-22",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics-announcement",
+          "locator": "Published August 22, 2023"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "IDEFICS is an open-weights visual language model from Hugging Face that takes interleaved images and text and produces text, released in 9B and 80B sizes, each as a base and an instruction-tuned version. Hugging Face presents it as an open reproduction of DeepMind's Flamingo, built from public data and frozen LLaMA v1 and OpenCLIP backbones.",
+    "sources": [
+      {
+        "id": "src.huggingface.idefics-announcement"
+      },
+      {
+        "id": "src.huggingface.idefics-80b-model-card",
+        "locator": "Model Details"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.huggingface.idefics-80b-model-card",
+          "locator": "Model Details, Model type"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.huggingface.idefics-80b-model-card",
+          "locator": "Uses"
+        }
+      ],
+      "note": "The model card says the model does not generate images."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics-announcement",
+          "locator": "License"
+        },
+        {
+          "id": "src.huggingface.idefics-80b-model-card",
+          "locator": "License"
+        }
+      ],
+      "note": "Hugging Face released the weights it trained under the MIT licence. The frozen LLaMA language backbone stays under Meta's non-commercial research licence and the CLIP vision backbone under MIT."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics-announcement",
+          "locator": "Getting Started with IDEFICS"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "idefics-9b",
+      "name": "IDEFICS 9B",
+      "aliases": [
+        {
+          "text": "idefics-9b",
+          "match": "auto"
+        },
+        {
+          "text": "idefics-9b-instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 9000000000,
+          "asStated": "9 billion",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.idefics-announcement",
+              "locator": "first paragraph"
+            },
+            {
+              "id": "src.huggingface.obelics-paper",
+              "locator": "abstract (v2)"
+            }
+          ]
+        }
+      },
+      "note": "Base checkpoint idefics-9b and instructed checkpoint idefics-9b-instruct, released together. Language backbone LLaMA 7B according to the model card.",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics-9b-model-card",
+          "locator": "Training Details, hyperparameter table"
+        },
+        {
+          "id": "src.huggingface.idefics-announcement",
+          "locator": "What is IDEFICS?"
+        }
+      ]
+    },
+    {
+      "id": "idefics-80b",
+      "name": "IDEFICS 80B",
+      "aliases": [
+        {
+          "text": "idefics-80b",
+          "match": "auto"
+        },
+        {
+          "text": "idefics-80b-instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 80000000000,
+          "asStated": "80 billion",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.idefics-announcement",
+              "locator": "first paragraph"
+            },
+            {
+              "id": "src.huggingface.obelics-paper",
+              "locator": "abstract (v2)"
+            }
+          ]
+        }
+      },
+      "note": "Base checkpoint idefics-80b and instructed checkpoint idefics-80b-instruct, released together. Language backbone LLaMA 65B according to the model card.",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics-80b-model-card",
+          "locator": "Model Details; Training Details, hyperparameter table"
+        },
+        {
+          "id": "src.huggingface.idefics-announcement",
+          "locator": "What is IDEFICS?"
+        }
+      ]
+    }
+  ],
+  "notes": "Slug idefics-1 because huggingface.idefics is the family id; Hugging Face later calls this model Idefics1 (Idefics2 announcement). An open reproduction of DeepMind's Flamingo built on frozen LLaMA v1 (65B for the 80B variant, 7B for the 9B variant) and LAION CLIP-ViT-H-14 backbones joined by newly trained layers; these cross-organisation relations are not recorded here. The Hub repositories were created in July 2023, before the announcement; the release date is the blog date. Training sequence lengths in the card (1024 and 2048) are not a stated context window, so contextWindowTokens is left out.",
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "meta.llama-1",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics-80b-model-card",
+          "locator": "Training Details: frozen language backbone"
+        }
+      ]
+    }
+  ]
+}

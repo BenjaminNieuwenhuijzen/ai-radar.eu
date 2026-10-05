@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-small-v24-09",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-small-v24-09",
+  "name": "Mistral Small v24.09",
+  "aliases": [
+    {
+      "text": "Mistral Small v24.09",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Small 24.09",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Small 2.0",
+      "match": "auto"
+    },
+    {
+      "text": "mistral-small-2409",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Small-Instruct-2409",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Small",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-small",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mistral-small-instruct-2409"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Mistral Small 2.0"
+      }
+    ],
+    "note": "Weights under the Mistral Research License remain downloadable from the mistralai Hugging Face organisation; the API endpoint mistral-small-2409 was deprecated on 2025-11-06 and retired on 2025-11-30."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-small-4",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Mistral Small 2.0, Alternative"
+      },
+      {
+        "id": "src.mistral.docs-mistral-small-2-0-24-09",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-09-17",
+      "sources": [
+        {
+          "id": "src.mistral.ai-in-abundance-announcement",
+          "locator": "page date; Small gets a big update"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "September 17, 2024"
+        },
+        {
+          "id": "src.mistral.docs-mistral-small-2-0-24-09",
+          "locator": "release date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-11-06",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Mistral Small 2.0"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Mistral Small 2.0"
+        },
+        {
+          "id": "src.mistral.docs-mistral-small-2-0-24-09",
+          "locator": "Retirement date"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.mistral-small-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.ai-in-abundance-announcement",
+          "locator": "Small gets a big update"
+        },
+        {
+          "id": "src.mistral.docs-mistral-small-2-0-24-09",
+          "locator": "description"
+        }
+      ],
+      "note": "Mistral calls it an upgrade of Mistral Small v24.02; the docs number the two versions 1.0 and 2.0, so it is recorded as a successor rather than a same-name revision."
+    }
+  ],
+  "summary": {
+    "text": "Mistral Small v24.09 is a 22-billion-parameter language model from Mistral AI, an upgrade of Mistral Small v24.02 that Mistral positions between Mistral NeMo and Mistral Large 2. It was offered on the API as mistral-small-2409, with weights under the Mistral Research License for non-commercial self-deployment.",
+    "sources": [
+      {
+        "id": "src.mistral.ai-in-abundance-announcement"
+      },
+      {
+        "id": "src.mistral.changelog",
+        "locator": "September 17, 2024"
+      },
+      {
+        "id": "src.mistral.hf-mistral-small-instruct-2409"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "research-weights",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-small-1",
+      "text": "Weights were published for download under the Mistral Research License, for non-commercial self-deployment.",
+      "sources": [
+        {
+          "id": "src.mistral.ai-in-abundance-announcement"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-instruct-2409"
+        }
+      ]
+    },
+    {
+      "id": "improvements",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-small-1",
+      "text": "Mistral reports improvements in human alignment, reasoning and code over Mistral Small v24.02.",
+      "sources": [
+        {
+          "id": "src.mistral.ai-in-abundance-announcement"
+        }
+      ]
+    },
+    {
+      "id": "api-price",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-small-1",
+      "text": "Launched with a lower API price: 0.2 USD per million input tokens and 0.6 USD per million output tokens, down from 1 and 3 USD.",
+      "sources": [
+        {
+          "id": "src.mistral.ai-in-abundance-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mistral-small-2-0-24-09",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mistral-small-2-0-24-09",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.hf-mistral-small-instruct-2409",
+            "locator": "first section"
+          },
+          {
+            "id": "src.mistral.docs-mistral-small-2-0-24-09",
+            "locator": "Features"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.ai-in-abundance-announcement",
+          "locator": "Small gets a big update"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-instruct-2409"
+        }
+      ],
+      "note": "Mistral Research License; self-deployment for non-commercial purposes."
+    },
+    "contextWindowTokens": {
+      "value": 32000,
+      "asStated": "32k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mistral-small-2-0-24-09",
+          "locator": "Context"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-instruct-2409",
+          "locator": "first section"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 22000000000,
+      "asStated": "22 billion",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.ai-in-abundance-announcement",
+          "locator": "Small gets a big update"
+        },
+        {
+          "id": "src.mistral.docs-mistral-small-2-0-24-09",
+          "locator": "Weights table"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.changelog",
+          "locator": "September 17, 2024"
+        },
+        {
+          "id": "src.mistral.ai-in-abundance-announcement",
+          "locator": "Small gets a big update; Do more with less"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-instruct-2409"
+        }
+      ]
+    }
+  },
+  "notes": "Announced in the post AI in abundance together with a la Plateforme free tier and a price update. The docs now call it Mistral Small 2.0. The bare Mistral Small alias is only a candidate because several models used that name."
+}

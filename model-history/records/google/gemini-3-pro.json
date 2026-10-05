@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-3-pro",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-3-pro",
+  "name": "Gemini 3 Pro",
+  "aliases": [
+    {
+      "text": "Gemini 3 Pro",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini 3 Pro Preview",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-3-pro-preview",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini 3",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-pro",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 3 models: preview models"
+      },
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "March 9, 2026"
+      },
+      {
+        "id": "src.google.gemini-3-pro-preview-api-docs",
+        "locator": "warning banner"
+      }
+    ],
+    "note": "Retired in the Gemini API; the gemini-3-pro-preview ID now points to gemini-3.1-pro-preview."
+  },
+  "replacedBy": {
+    "modelId": "google.gemini-3-1-pro",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 3 models: preview models"
+      },
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "March 9, 2026"
+      },
+      {
+        "id": "src.google.gemini-3-pro-preview-api-docs",
+        "locator": "warning banner"
+      }
+    ],
+    "note": "Recommended replacement as listed on the deprecations page when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-11-18",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-announcement"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "November 18, 2025"
+        },
+        {
+          "id": "src.google.gemini-api-deprecations",
+          "locator": "Gemini 3 models: preview models"
+        }
+      ],
+      "note": "Released in preview (gemini-3-pro-preview) and made available the same day in the Gemini app and other Google products; never generally available in the Gemini API."
+    },
+    "deprecated": {
+      "value": "2026-02-26",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "February 26, 2026"
+        }
+      ],
+      "note": "Date of the deprecation announcement in the Gemini API release notes."
+    },
+    "retired": {
+      "value": "2026-03-09",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "March 9, 2026"
+        },
+        {
+          "id": "src.google.gemini-api-deprecations",
+          "locator": "Gemini 3 models: preview models"
+        },
+        {
+          "id": "src.google.gemini-3-pro-preview-api-docs",
+          "locator": "warning banner"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemini-2-5-pro",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-announcement",
+          "locator": "A note from our CEO; Build anything"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Gemini 3 Pro is a multimodal reasoning model in Google's Gemini Pro line and the first Gemini 3 model, released in preview on 18 November 2025 in the Gemini app, AI Mode in Search, Google AI Studio, Vertex AI and Google Antigravity. The model card describes a sparse mixture-of-experts transformer; the API preview was shut down on 9 March 2026.",
+    "sources": [
+      {
+        "id": "src.google.gemini-3-announcement"
+      },
+      {
+        "id": "src.google.gemini-3-pro-model-card",
+        "locator": "Model Information: Description"
+      },
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "March 9, 2026"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "deep-think",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "google.gemini-2-5-pro",
+      "text": "Adds an optional Deep Think mode, meant to improve complex problem solving at inference time.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-pro-model-card",
+          "locator": "Model Information: Description"
+        },
+        {
+          "id": "src.google.gemini-3-announcement"
+        }
+      ]
+    },
+    {
+      "id": "search-launch",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "google.gemini-2-5-pro",
+      "text": "Available in AI Mode in Google Search on launch day, which Google says was a first for a Gemini model.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-announcement"
+        }
+      ]
+    },
+    {
+      "id": "api-behaviour",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-2-5-pro",
+      "text": "New API behaviour for media resolution, thought signatures and thinking levels.",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "November 18, 2025"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-pro-preview-api-docs",
+          "locator": "Supported data types"
+        },
+        {
+          "id": "src.google.gemini-3-pro-model-card",
+          "locator": "Model Information: Inputs"
+        }
+      ],
+      "note": "The Gemini API also accepted PDF files."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-pro-preview-api-docs",
+          "locator": "Supported data types"
+        },
+        {
+          "id": "src.google.gemini-3-pro-model-card",
+          "locator": "Model Information: Outputs"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-3-pro-model-card",
+            "locator": "Model Information: Description"
+          },
+          {
+            "id": "src.google.gemini-3-pro-preview-api-docs",
+            "locator": "Capabilities: Thinking"
+          },
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "November 18, 2025"
+          }
+        ],
+        "note": "Thinking with thinking levels in the API; optional Deep Think mode announced with the model."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-3-pro-preview-api-docs",
+            "locator": "Capabilities"
+          }
+        ]
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-3-pro-preview-api-docs",
+            "locator": "Capabilities"
+          }
+        ],
+        "note": "Code execution, search grounding and URL context in the Gemini API."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-pro-preview-api-docs",
+          "locator": "Token limits: input token limit"
+        }
+      ],
+      "note": "The model card says up to 1M tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-announcement",
+          "locator": "A note from our CEO"
+        },
+        {
+          "id": "src.google.gemini-3-pro-model-card",
+          "locator": "Distribution"
+        }
+      ],
+      "note": "Gemini app, AI Mode in Search, Google AI Studio and Gemini API, Vertex AI and Google Antigravity."
+    }
+  },
+  "notes": "First model of the Gemini 3 series. Gemini 3 Deep Think, announced in the same post as an enhanced reasoning mode, is treated as a mode of this model and not as a separate record. The model card says Gemini 3 Pro is not a modification or fine-tune of a prior model and that later Gemini 3 family models are based on it. Lifecycle dates apply to the Gemini API. Vertex AI is counted as Google's own API (api)."
+}

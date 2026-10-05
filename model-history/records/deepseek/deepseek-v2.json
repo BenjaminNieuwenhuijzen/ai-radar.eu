@@ -1,0 +1,415 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v2",
+  "name": "DeepSeek-V2",
+  "aliases": [
+    {
+      "text": "DeepSeek-V2",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V2",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-V2-0517",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-v",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v2-hf"
+      },
+      {
+        "id": "src.deepseek.deepseek-v2-chat-hf"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2024-05-17; Date: 2024-06-28"
+      }
+    ],
+    "note": "Weights are still public and ungated on Hugging Face. In the DeepSeek API, deepseek-chat moved to DeepSeek-V2-0517 on 2024-05-17 and to DeepSeek-V2-0628 on 2024-06-28."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v2-chat-0628",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2024-06-28"
+      }
+    ],
+    "note": "In the DeepSeek API only: deepseek-chat was upgraded to DeepSeek-V2-0628. The weights stay available."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-05-06",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-github",
+          "locator": "2. News: 2024.05.06"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-lite-hf",
+          "locator": "2. News"
+        }
+      ],
+      "note": "The technical report was posted on arXiv the next day, 2024-05-07."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "api-0517",
+      "label": "deepseek-chat upgraded to DeepSeek-V2-0517",
+      "date": {
+        "value": "2024-05-17",
+        "sources": [
+          {
+            "id": "src.deepseek.api-change-log",
+            "locator": "Date: 2024-05-17"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "deepseek.deepseek-llm",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-paper",
+          "locator": "section 1, Introduction; section 3.1.1, Data Construction; section 3.2.2"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-github",
+          "locator": "4. Evaluation Results, DeepSeek-V1 (Dense-67B)"
+        }
+      ],
+      "note": "The report calls DeepSeek 67B DeepSeek's previous release and reuses its tokenizer and data processing; the README labels it DeepSeek-V1."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V2 is a mixture-of-experts language model from DeepSeek with 236B total parameters, 21B of them activated per token, and a 128K-token context, released as open weights and offered on DeepSeek's chat website and API. It introduced Multi-head Latent Attention, which compresses the key-value cache; smaller DeepSeek-V2-Lite models followed on 2024-05-16.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v2-github",
+        "locator": "2. News; 3. Model Downloads; 6. Chat Website; 7. API Platform"
+      },
+      {
+        "id": "src.deepseek.deepseek-v2-paper",
+        "locator": "abstract"
+      },
+      {
+        "id": "src.deepseek.deepseek-v2-lite-hf",
+        "locator": "2. News"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "moe-mla",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-llm",
+      "text": "Moves from a dense transformer to a mixture-of-experts design (DeepSeekMoE) and adds the new Multi-head Latent Attention.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-paper"
+        }
+      ]
+    },
+    {
+      "id": "context-128k",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "deepseek.deepseek-llm",
+      "text": "Context length of 128K tokens, up from the 4,096-token sequence length of DeepSeek LLM.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-github",
+          "locator": "3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-llm-github",
+          "locator": "2. Model Downloads, Sequence Length"
+        }
+      ]
+    },
+    {
+      "id": "training-corpus",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-llm",
+      "text": "Pre-trained on 8.1 trillion tokens; DeepSeek says the corpus holds more data than that of DeepSeek 67B, especially Chinese data, at higher quality.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-paper",
+          "locator": "section 3.1.1, Data Construction"
+        }
+      ]
+    },
+    {
+      "id": "efficiency",
+      "aspect": "efficiency",
+      "relativeTo": "deepseek.deepseek-llm",
+      "text": "DeepSeek reports lower training cost, a much smaller key-value cache and higher maximum generation throughput than DeepSeek 67B.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-github",
+          "locator": "1. Introduction"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-paper",
+          "locator": "abstract"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-github",
+          "locator": "3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-paper",
+          "locator": "abstract"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 236000000000,
+      "asStated": "236B total, 21B activated",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-github",
+          "locator": "1. Introduction; 3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-paper",
+          "locator": "abstract"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-github",
+          "locator": "3. Model Downloads; 9. License"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-hf"
+        }
+      ],
+      "note": "DeepSeek Model License; commercial use permitted."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-github",
+          "locator": "3. Model Downloads; 6. Chat Website; 7. API Platform"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "base",
+      "name": "DeepSeek-V2 (base model)",
+      "note": "Published on Hugging Face as deepseek-ai/DeepSeek-V2; DeepSeek uses the plain name DeepSeek-V2 for it.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-github",
+          "locator": "3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-hf"
+        }
+      ]
+    },
+    {
+      "id": "chat",
+      "name": "DeepSeek-V2-Chat",
+      "aliases": [
+        {
+          "text": "DeepSeek-V2-Chat",
+          "match": "auto"
+        },
+        {
+          "text": "DeepSeek-V2 Chat",
+          "match": "auto"
+        }
+      ],
+      "note": "The released chat model is the RL version (DeepSeek-V2-Chat (RL)).",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-github",
+          "locator": "3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-chat-hf"
+        }
+      ]
+    },
+    {
+      "id": "lite",
+      "name": "DeepSeek-V2-Lite",
+      "aliases": [
+        {
+          "text": "DeepSeek-V2-Lite",
+          "match": "auto"
+        },
+        {
+          "text": "DeepSeek V2 Lite",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2024-05-16",
+          "sources": [
+            {
+              "id": "src.deepseek.deepseek-v2-github",
+              "locator": "2. News: 2024.05.16"
+            },
+            {
+              "id": "src.deepseek.deepseek-v2-lite-hf",
+              "locator": "2. News"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 16000000000,
+          "asStated": "16B total, 2.4B activated",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.deepseek.deepseek-v2-github",
+              "locator": "3. Model Downloads"
+            },
+            {
+              "id": "src.deepseek.deepseek-v2-lite-hf",
+              "locator": "1. Introduction"
+            }
+          ]
+        },
+        "contextWindowTokens": {
+          "value": 32000,
+          "asStated": "32k",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.deepseek.deepseek-v2-github",
+              "locator": "3. Model Downloads"
+            }
+          ]
+        }
+      },
+      "note": "Trained from scratch on 5.7T tokens, per the model card.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-lite-hf"
+        }
+      ]
+    },
+    {
+      "id": "lite-chat",
+      "name": "DeepSeek-V2-Lite-Chat",
+      "aliases": [
+        {
+          "text": "DeepSeek-V2-Lite-Chat",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2024-05-16",
+          "sources": [
+            {
+              "id": "src.deepseek.deepseek-v2-github",
+              "locator": "2. News: 2024.05.16"
+            },
+            {
+              "id": "src.deepseek.deepseek-v2-lite-chat-hf",
+              "locator": "2. News"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 16000000000,
+          "asStated": "16B total, 2.4B activated",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.deepseek.deepseek-v2-github",
+              "locator": "3. Model Downloads"
+            }
+          ]
+        },
+        "contextWindowTokens": {
+          "value": 32000,
+          "asStated": "32k",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.deepseek.deepseek-v2-github",
+              "locator": "3. Model Downloads"
+            }
+          ]
+        }
+      },
+      "note": "Chat model made with SFT only (DeepSeek-V2-Lite-Chat (SFT)).",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-lite-chat-hf"
+        }
+      ]
+    }
+  ],
+  "notes": "DeepSeek-V2 (base) and DeepSeek-V2-Chat (RL) were released on 2024-05-06; the smaller DeepSeek-V2-Lite and DeepSeek-V2-Lite-Chat (SFT) followed on 2024-05-16 and are inline variants with their own date (DeepSeek presents them in the same release table, as a second size). DeepSeek-V2-0517 is the API snapshot behind deepseek-chat from 2024-05-17 (change log only, no separate weights), kept as an alias and milestone. The API id deepseek-chat served many later models and is not used as an alias."
+}

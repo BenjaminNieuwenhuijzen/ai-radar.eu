@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-4-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-4-1",
+  "name": "GPT-4.1",
+  "aliases": [
+    {
+      "text": "GPT-4.1",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4.1-2025-04-14",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "4.1",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.gpt-4-1-docs",
+        "locator": "Model details"
+      },
+      {
+        "id": "src.openai.deprecations",
+        "locator": "Upcoming and past deprecations (gpt-4.1 not listed)"
+      }
+    ],
+    "note": "gpt-4.1 is not on the deprecations page when read on 2026-10-01; its docs page is live and not marked deprecated."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-04-14",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-1-announcement",
+          "locator": "introduction"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Apr 14, 2025"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-4o",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-1-announcement",
+          "locator": "introduction"
+        }
+      ],
+      "note": "The announcement says the GPT-4.1 models outperform GPT-4o and GPT-4o mini across the board and that many of the improvements were folded into GPT-4o in ChatGPT; it does not use the word successor."
+    }
+  ],
+  "summary": {
+    "text": "GPT-4.1 is a non-reasoning language model in OpenAI's GPT line for text and image input, launched in the API on 14 April 2025 with GPT-4.1 mini and GPT-4.1 nano. OpenAI says the series improves on GPT-4o especially in coding and instruction following, with context windows of up to one million tokens.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-4-1-announcement"
+      },
+      {
+        "id": "src.openai.gpt-4-1-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "openai.gpt-4o",
+      "text": "Context window of up to one million tokens (1,047,576 in the API docs), larger than GPT-4o's.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-1-announcement"
+        },
+        {
+          "id": "src.openai.gpt-4-1-docs"
+        }
+      ]
+    },
+    {
+      "id": "max-output",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-4o",
+      "text": "Maximum output raised to 32,768 tokens, from 16,384 for GPT-4o.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-1-announcement"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-4o",
+      "text": "Knowledge cutoff moved to June 2024.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-1-announcement"
+        }
+      ]
+    },
+    {
+      "id": "three-sizes",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-4o",
+      "text": "Released as a series of three sizes, adding a nano tier below mini; at launch only in the API.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-1-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-1-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-1-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1047576,
+      "asStated": "1,047,576",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-1-docs",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The announcement gives up to 1 million tokens for all three models."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-1-announcement",
+          "locator": "introduction"
+        },
+        {
+          "id": "src.openai.gpt-5-announcement",
+          "locator": "How to use GPT-5"
+        }
+      ],
+      "note": "API only at launch. The GPT-5 announcement later names GPT-4.1 among the ChatGPT models GPT-5 replaced for signed-in users, so it had been added to ChatGPT in the meantime."
+    }
+  },
+  "variants": [
+    {
+      "id": "mini",
+      "name": "GPT-4.1 mini",
+      "aliases": [
+        {
+          "text": "GPT-4.1 mini",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-4.1-mini-2025-04-14",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-4.1-mini",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-04-14",
+          "sources": [
+            {
+              "id": "src.openai.gpt-4-1-announcement",
+              "locator": "introduction"
+            },
+            {
+              "id": "src.openai.api-changelog",
+              "locator": "Apr 14, 2025"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-1-announcement",
+          "locator": "introduction"
+        },
+        {
+          "id": "src.openai.gpt-4-1-mini-docs"
+        }
+      ],
+      "note": "Smaller, faster version of GPT-4.1 with the same 1,047,576-token context window per its docs page, released the same day; not on the deprecations page when read on 2026-10-01."
+    },
+    {
+      "id": "nano",
+      "name": "GPT-4.1 nano",
+      "aliases": [
+        {
+          "text": "GPT-4.1 nano",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-4.1-nano-2025-04-14",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-4.1-nano",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-04-14",
+          "sources": [
+            {
+              "id": "src.openai.gpt-4-1-announcement",
+              "locator": "introduction"
+            },
+            {
+              "id": "src.openai.api-changelog",
+              "locator": "Apr 14, 2025"
+            }
+          ]
+        },
+        "deprecated": {
+          "value": "2026-04-22",
+          "sources": [
+            {
+              "id": "src.openai.deprecations",
+              "locator": "2026-04-22: Legacy GPT model snapshots"
+            }
+          ]
+        }
+      },
+      "lifecycle": {
+        "value": "deprecated",
+        "sources": [
+          {
+            "id": "src.openai.deprecations",
+            "locator": "2026-04-22: Legacy GPT model snapshots"
+          },
+          {
+            "id": "src.openai.gpt-4-1-nano-docs"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-1-announcement",
+          "locator": "introduction"
+        },
+        {
+          "id": "src.openai.gpt-4-1-nano-docs"
+        }
+      ],
+      "note": "OpenAI's first nano model, released the same day. Deprecated on 2026-04-22 with shutdown scheduled for 2026-10-23 and gpt-5.6-luna as the substitute."
+    }
+  ],
+  "notes": "Released with GPT-4.1 mini and GPT-4.1 nano as one series; the smaller models are inline variants. The model id gpt-4.1 is the same text as the name (aliases match case-insensitively). The announcement also started the deprecation of GPT-4.5 Preview in the API."
+}

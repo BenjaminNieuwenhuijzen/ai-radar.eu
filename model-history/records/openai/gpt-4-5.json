@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-4-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-4-5",
+  "name": "GPT-4.5",
+  "aliases": [
+    {
+      "text": "GPT-4.5",
+      "match": "auto"
+    },
+    {
+      "text": "OpenAI GPT-4.5",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-4.5 Preview",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4.5-preview",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4.5-preview-2025-02-27",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "4.5",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.openai.deprecations",
+        "locator": "2025-04-14: GPT-4.5-preview"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "openai.gpt-4-1",
+    "sources": [
+      {
+        "id": "src.openai.deprecations",
+        "locator": "2025-04-14: GPT-4.5-preview"
+      },
+      {
+        "id": "src.openai.gpt-4-1-announcement",
+        "locator": "introduction"
+      }
+    ],
+    "note": "Recommended replacement for gpt-4.5-preview in the API."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02-27",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-5-announcement",
+          "locator": "page date; introduction"
+        },
+        {
+          "id": "src.openai.gpt-4-5-system-card",
+          "locator": "cover date; section 1"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Feb 27, 2025"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-04-14",
+      "sources": [
+        {
+          "id": "src.openai.deprecations",
+          "locator": "2025-04-14: GPT-4.5-preview"
+        },
+        {
+          "id": "src.openai.gpt-4-1-announcement",
+          "locator": "introduction"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-07-14",
+      "sources": [
+        {
+          "id": "src.openai.deprecations",
+          "locator": "2025-04-14: GPT-4.5-preview"
+        },
+        {
+          "id": "src.openai.gpt-4-1-announcement",
+          "locator": "introduction"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-4o",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-5-system-card",
+          "locator": "section 1"
+        }
+      ],
+      "note": "The system card says GPT-4.5 builds on GPT-4o and scales pre-training further."
+    }
+  ],
+  "summary": {
+    "text": "GPT-4.5 is a language model in OpenAI's GPT line for text and image input, released on 27 February 2025 as a research preview in ChatGPT and the API. OpenAI presented it as a step in scaling pre-training rather than reasoning; it was shut down in the API on 14 July 2025, with GPT-4.1 as the recommended replacement.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-4-5-announcement"
+      },
+      {
+        "id": "src.openai.gpt-4-5-system-card"
+      },
+      {
+        "id": "src.openai.gpt-4-5-preview-docs"
+      },
+      {
+        "id": "src.openai.deprecations"
+      },
+      {
+        "id": "src.openai.gpt-4-1-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "pre-training-scale",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-4o",
+      "text": "Scales pre-training further than GPT-4o, on a mix of public, partner-licensed and in-house data.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-5-system-card"
+        }
+      ]
+    },
+    {
+      "id": "alignment-techniques",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-4o",
+      "text": "Uses new alignment techniques that train the larger model with data derived from smaller models; OpenAI says they target steerability and natural conversation.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-5-system-card"
+        }
+      ]
+    },
+    {
+      "id": "cost",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-4o",
+      "text": "OpenAI said GPT-4.5 was more expensive than GPT-4o and not a replacement for it.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-5-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-5-preview-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.gpt-4-5-announcement",
+          "locator": "How to use GPT-4.5 in the API"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-5-preview-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-5-preview-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-5-announcement",
+          "locator": "How to use GPT-4.5 in ChatGPT; How to use GPT-4.5 in the API"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Feb 27, 2025"
+        }
+      ],
+      "note": "ChatGPT Pro from launch, Plus and Team the following week, Enterprise and Edu the week after; research preview in the API (gpt-4.5-preview) on all paid usage tiers."
+    }
+  },
+  "notes": "Released as a research preview; the API model id was gpt-4.5-preview. Lifecycle and dates refer to the API: shut down on 2025-07-14 after the 2025-04-14 deprecation notice. The launch post said GPT-4.5 is more expensive than GPT-4o and not a replacement for it, and that OpenAI was evaluating whether to keep serving it in the API long-term. In ChatGPT, GPT-5 replaced it as a default model on 2025-08-07 (src.openai.gpt-5-announcement)."
+}

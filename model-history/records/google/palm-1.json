@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "google.palm-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "palm-1",
+  "name": "PaLM",
+  "aliases": [
+    {
+      "text": "PaLM",
+      "match": "never"
+    },
+    {
+      "text": "Pathways Language Model",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.palm",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "research-only",
+    "sources": [
+      {
+        "id": "src.google.palm-paper",
+        "locator": "Appendix E, Table 30 (PaLM Model Card): Known Limitations"
+      }
+    ]
+  },
+  "dates": {
+    "announced": {
+      "value": "2022-04-04",
+      "sources": [
+        {
+          "id": "src.google.palm-research-blog"
+        }
+      ],
+      "note": "Google Research blog post; the first arXiv version of the paper is dated 2022-04-05."
+    },
+    "released": null,
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "PaLM (Pathways Language Model) is a Google research language model, introduced in April 2022 as a 540-billion-parameter dense decoder-only Transformer trained with Google's Pathways system on 6,144 TPU v4 chips. The paper also describes 8B and 62B versions, and its model card says PaLM is designed for research.",
+    "sources": [
+      {
+        "id": "src.google.palm-research-blog"
+      },
+      {
+        "id": "src.google.palm-paper"
+      }
+    ]
+  },
+  "capabilities": {
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.palm-paper",
+          "locator": "Table 30 (PaLM Model Card): Output(s)"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 2048,
+      "asStated": "2048",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.palm-paper",
+          "locator": "section 5, Sequence length"
+        }
+      ],
+      "note": "Training sequence length, used for all PaLM models."
+    },
+    "parameters": {
+      "value": 540350000000,
+      "asStated": "540B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.palm-research-blog"
+        },
+        {
+          "id": "src.google.palm-paper",
+          "locator": "Table 1"
+        }
+      ],
+      "note": "PaLM 540B, the model presented in the announcement; Table 1 lists 540.35 billion parameters. The 8B and 62B models are variants."
+    },
+    "access": {
+      "value": [
+        "research-only"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.palm-paper",
+          "locator": "Table 30 (PaLM Model Card): Application; Known Limitations"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "palm-8b",
+      "name": "PaLM 8B",
+      "aliases": [
+        {
+          "text": "PaLM 8B",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 8630000000,
+          "asStated": "8B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.palm-paper",
+              "locator": "Table 1"
+            }
+          ],
+          "note": "Table 1 lists 8.63 billion parameters."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.google.palm-paper",
+          "locator": "section 2.1, Table 1"
+        }
+      ]
+    },
+    {
+      "id": "palm-62b",
+      "name": "PaLM 62B",
+      "aliases": [
+        {
+          "text": "PaLM 62B",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 62500000000,
+          "asStated": "62B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.palm-paper",
+              "locator": "Table 1"
+            }
+          ],
+          "note": "Table 1 lists 62.50 billion parameters."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.google.palm-paper",
+          "locator": "section 2.1, Table 1"
+        }
+      ]
+    },
+    {
+      "id": "palm-540b",
+      "name": "PaLM 540B",
+      "aliases": [
+        {
+          "text": "PaLM 540B",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.google.palm-paper",
+          "locator": "section 2.1, Table 1"
+        },
+        {
+          "id": "src.google.palm-research-blog"
+        }
+      ],
+      "note": "The model presented in the announcement; the record-level parameter count applies."
+    }
+  ],
+  "notes": "Research model; the model card says PaLM is designed for research. A Google post of 2023-03-14 (The next generation of AI for developers and Google Workspace) introduced the PaLM API in private preview for select developers with an efficient model, and said Google Cloud customers can access Google models including PaLM; it does not say that this was the 540B PaLM of the paper, so the lifecycle stays research-only. The PaLM-Coder fine-tunes in the paper are not recorded. The research post uses LaMDA only as a comparison, so no relation to google.lamda-1."
+}

@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.o3-mini",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "o3-mini",
+  "name": "o3-mini",
+  "aliases": [
+    {
+      "text": "o3-mini",
+      "match": "auto"
+    },
+    {
+      "text": "OpenAI o3-mini",
+      "match": "auto"
+    },
+    {
+      "text": "o3-mini-2025-01-31",
+      "match": "auto"
+    },
+    {
+      "text": "o3-mini-high",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.o-series",
+  "generation": "3",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.openai.deprecations",
+        "locator": "2026-04-22: Legacy GPT model snapshots"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "openai.gpt-5-6-sol",
+    "sources": [
+      {
+        "id": "src.openai.deprecations",
+        "locator": "2026-04-22: Legacy GPT model snapshots"
+      }
+    ],
+    "note": "Substitute model listed for o3-mini-2025-01-31 (alias o3-mini) on the deprecations page when read on 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-12-20",
+      "sources": [
+        {
+          "id": "src.openai.12-days-day-12-livestream",
+          "locator": "video description"
+        },
+        {
+          "id": "src.openai.o3-mini-announcement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "The Day 12 livestream of 12 Days of OpenAI, published on 2024-12-20, introduced o3 and o3-mini; the launch post says o3-mini was previewed in December 2024."
+    },
+    "released": {
+      "value": "2025-01-31",
+      "sources": [
+        {
+          "id": "src.openai.o3-mini-announcement",
+          "locator": "page date; first paragraph"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Jan 31, 2025"
+        },
+        {
+          "id": "src.openai.o3-mini-system-card",
+          "locator": "cover date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-04-22",
+      "sources": [
+        {
+          "id": "src.openai.deprecations",
+          "locator": "2026-04-22: Legacy GPT model snapshots"
+        }
+      ]
+    },
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.o1-mini",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.o3-mini-announcement",
+          "locator": "first and third paragraphs"
+        },
+        {
+          "id": "src.openai.o3-mini-docs",
+          "locator": "introduction"
+        }
+      ],
+      "note": "The launch post says o3-mini replaces o1-mini in the ChatGPT model picker while keeping o1-mini's low cost and latency; the docs place it at the same cost and latency targets as o1-mini."
+    }
+  ],
+  "summary": {
+    "text": "o3-mini is a small reasoning model in OpenAI's o-series for text input, previewed with o3 in December 2024 and released on 31 January 2025 in ChatGPT and the API. OpenAI calls it its first small reasoning model with function calling, Structured Outputs and developer messages, and it offers low, medium or high reasoning effort.",
+    "sources": [
+      {
+        "id": "src.openai.o3-mini-announcement"
+      },
+      {
+        "id": "src.openai.12-days-day-12-livestream"
+      },
+      {
+        "id": "src.openai.o3-mini-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "developer-features",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "openai.o1-mini",
+      "text": "Adds function calling, Structured Outputs and developer messages; OpenAI calls it its first small reasoning model with these features.",
+      "sources": [
+        {
+          "id": "src.openai.o3-mini-announcement"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-effort",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "openai.o1-mini",
+      "text": "Adds a choice of low, medium or high reasoning effort; in ChatGPT the high setting is offered as o3-mini-high.",
+      "sources": [
+        {
+          "id": "src.openai.o3-mini-announcement"
+        }
+      ]
+    },
+    {
+      "id": "speed",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "openai.o1-mini",
+      "text": "OpenAI says it answers faster than o1-mini while keeping o1-mini's low cost.",
+      "sources": [
+        {
+          "id": "src.openai.o3-mini-announcement"
+        }
+      ]
+    },
+    {
+      "id": "free-plan",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "openai.o1-mini",
+      "text": "Free ChatGPT users could try it through the Reason button, which OpenAI said was the first time a reasoning model was offered to free users.",
+      "sources": [
+        {
+          "id": "src.openai.o3-mini-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o3-mini-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o3-mini-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o3-mini-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o3-mini-announcement",
+          "locator": "second to fourth paragraphs"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Jan 31, 2025"
+        }
+      ],
+      "note": "API (Chat Completions, Assistants and Batch, first for selected developers in usage tiers 3-5) and ChatGPT (Plus, Team and Pro, Enterprise announced for February; free users through Reason) from launch."
+    }
+  },
+  "notes": "Previewed with o3 on 2024-12-20 and released on 2025-01-31. The launch post says o3-mini does not support vision; the docs list text input only. o3-mini-high is the ChatGPT name of the high reasoning effort setting. In ChatGPT, o3, o4-mini and o4-mini-high replaced o1, o3-mini and o3-mini-high on 2025-04-16 (src.openai.o3-o4-mini-announcement). The 2026-04-22 deprecation lists o3-mini-2025-01-31 with the alias o3-mini and a shutdown date of 2026-10-23, so retired is left empty until then."
+}

@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.phi-4-reasoning-vision-15b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "phi-4-reasoning-vision-15b",
+  "name": "Phi-4-reasoning-vision-15B",
+  "aliases": [
+    {
+      "text": "Phi-4-reasoning-vision-15B",
+      "match": "auto"
+    },
+    {
+      "text": "microsoft/Phi-4-reasoning-vision-15B",
+      "match": "auto"
+    },
+    {
+      "text": "Phi-4-reasoning-vision",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.phi-reasoning",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+        "locator": "header: License MIT; 2.3 Distribution Channels"
+      }
+    ],
+    "note": "Open weights still downloadable from the microsoft organisation on Hugging Face (repository not gated, weight files listed, checked through the Hugging Face API)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-03-04",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-blog",
+          "locator": "Published date; first paragraph"
+        },
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+          "locator": "header: Release Date"
+        },
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-technical-report",
+          "locator": "submission history, v1"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "microsoft.phi-4-reasoning",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+          "locator": "header: Model Dependencies; 1. Model Overview"
+        },
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-blog",
+          "locator": "Model architecture: Vision encoder and image processing"
+        }
+      ],
+      "note": "Mid-fusion model: a vision encoder feeds visual tokens into the Phi-4-reasoning language backbone, followed by supervised fine-tuning. The Hugging Face repository metadata labels it a fine-tune of Phi-4-reasoning."
+    }
+  ],
+  "summary": {
+    "text": "Phi-4-reasoning-vision-15B is a 15-billion-parameter open-weight multimodal reasoning model from Microsoft Research, released on 4 March 2026 under the MIT licence through Hugging Face, GitHub and Microsoft Foundry. It feeds images into the Phi-4-reasoning language backbone through a SigLIP-2 vision encoder and can either reason step by step or answer directly.",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-4-reasoning-vision-blog"
+      },
+      {
+        "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "microsoft.phi-4-reasoning",
+      "text": "Adds image input: a SigLIP-2 vision encoder turns images into tokens that are projected into the Phi-4-reasoning language backbone (mid-fusion).",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+          "locator": "1. Model Overview"
+        }
+      ]
+    },
+    {
+      "id": "think-nothink",
+      "aspect": "reasoning",
+      "relativeTo": "microsoft.phi-4-reasoning",
+      "text": "Trained on a mix of reasoning and non-reasoning data, so one model can reason step by step or answer directly, selected with think and nothink mode tokens.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+          "locator": "1. Model Overview; 2.4 Input Formats"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "microsoft.phi-4-reasoning",
+      "text": "Microsoft positions it for computer-use agent tasks, such as reading screens and locating interface elements.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-blog",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+          "locator": "2.1 Primary Use Cases"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+          "locator": "header: Inputs"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+          "locator": "header: Outputs"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+            "locator": "1. Model Overview; 2.4 Input Formats"
+          },
+          {
+            "id": "src.microsoft.phi-4-reasoning-vision-technical-report",
+            "locator": "abstract"
+          }
+        ],
+        "note": "One model switches between chain-of-thought answers (think) and direct answers (nothink) via mode tokens."
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+            "locator": "2.1 Primary Use Cases"
+          },
+          {
+            "id": "src.microsoft.phi-4-reasoning-vision-blog",
+            "locator": "first paragraph"
+          }
+        ],
+        "note": "Positioned for computer-use agent tasks: interpreting screens and localising GUI elements."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 16384,
+      "asStated": "16,384 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+          "locator": "header: Context Length"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 15000000000,
+      "asStated": "15B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+          "locator": "header: Parameters"
+        },
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-blog",
+          "locator": "first paragraph"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+          "locator": "header: License MIT"
+        },
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-blog",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "MIT licence."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-blog",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+          "locator": "2.3 Distribution Channels"
+        }
+      ],
+      "note": "api stands for Microsoft Foundry, Microsoft's own model platform; code is also on GitHub."
+    }
+  },
+  "notes": "Official name as in the Microsoft Research blog and the Hugging Face repo id; the model card heading capitalises it as Phi-4-Reasoning-Vision-15B. The vision encoder is Google's SigLIP-2 (cross-organisation component, not recorded as a relation). The card lists training on 240 B200 GPUs for 4 days and training dates of February 3, 2025 to February 21, 2026."
+}

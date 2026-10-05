@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.muse-glimmer",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "muse-glimmer",
+  "name": "Muse Glimmer",
+  "aliases": [
+    {
+      "text": "Muse Glimmer",
+      "match": "auto"
+    },
+    {
+      "text": "Muse-Glimmer-30B",
+      "match": "auto"
+    },
+    {
+      "text": "Muse Glimmer 30B",
+      "match": "auto"
+    },
+    {
+      "text": "Muse Glimmer-30B",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.muse",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.meta.muse-glimmer-30b-model-card"
+      },
+      {
+        "id": "src.meta.muse-glimmer-docs"
+      }
+    ],
+    "note": "Weights downloadable from Meta's Hugging Face organisation meta-models (not gated) as of 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-08-10",
+      "sources": [
+        {
+          "id": "src.meta.muse-glimmer-blog"
+        },
+        {
+          "id": "src.meta.muse-glimmer-30b-model-card",
+          "locator": "Model Release Date: August 2026"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "meta.muse-spark",
+      "method": "distillation",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.meta.muse-glimmer-blog",
+          "locator": "How We Trained Muse Glimmer"
+        },
+        {
+          "id": "src.meta.muse-glimmer-docs",
+          "locator": "Architecture"
+        },
+        {
+          "id": "src.meta.muse-glimmer-30b-model-card",
+          "locator": "introduction"
+        }
+      ],
+      "note": "Meta says Muse Glimmer was trained on Muse Spark outputs with logit distillation but names the teacher only as Muse Spark, not a version; the link to the first Muse Spark record is an editorial choice."
+    }
+  ],
+  "summary": {
+    "text": "Muse Glimmer is a 30-billion-parameter open-weights model in Meta's Muse series, released on Hugging Face under the Apache 2.0 licence for self-hosting. It accepts text and images and reasons before answering; Meta says it was distilled from Muse Spark outputs and aims it at local agent workflows on a Mac or PC with a single consumer GPU.",
+    "sources": [
+      {
+        "id": "src.meta.muse-glimmer-blog"
+      },
+      {
+        "id": "src.meta.muse-glimmer-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "open-weights",
+      "aspect": "licensing",
+      "direction": "added",
+      "relativeTo": "meta.muse-spark",
+      "text": "First Muse model with published weights, under the Apache 2.0 licence; the Muse Spark models are offered only as hosted services.",
+      "sources": [
+        {
+          "id": "src.meta.muse-glimmer-blog"
+        }
+      ]
+    },
+    {
+      "id": "local-size",
+      "aspect": "size",
+      "relativeTo": "meta.muse-spark",
+      "text": "A dense 30B model that Meta designed to run on a Mac or PC with a single consumer GPU.",
+      "sources": [
+        {
+          "id": "src.meta.muse-glimmer-blog"
+        },
+        {
+          "id": "src.meta.muse-glimmer-docs",
+          "locator": "Model variants"
+        }
+      ]
+    },
+    {
+      "id": "local-deployment",
+      "aspect": "architecture",
+      "direction": "added",
+      "relativeTo": "meta.muse-spark",
+      "text": "Ships with a DFlash-based speculative-decoding drafter and 4-bit quantized weights for local deployment.",
+      "sources": [
+        {
+          "id": "src.meta.muse-glimmer-30b-model-card",
+          "locator": "Released Artifacts"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "relativeTo": "meta.muse-spark",
+      "text": "Default context window of 128K tokens, with longer contexts supported.",
+      "sources": [
+        {
+          "id": "src.meta.muse-glimmer-docs",
+          "locator": "Model variants"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.muse-glimmer-docs",
+          "locator": "Model variants"
+        },
+        {
+          "id": "src.meta.muse-glimmer-30b-model-card",
+          "locator": "Supported modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.muse-glimmer-docs",
+          "locator": "Model variants"
+        },
+        {
+          "id": "src.meta.muse-glimmer-30b-model-card",
+          "locator": "Supported modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 131072,
+      "asStated": "128K tokens by default; longer contexts supported",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.muse-glimmer-docs",
+          "locator": "Model variants"
+        },
+        {
+          "id": "src.meta.muse-glimmer-30b-model-card",
+          "locator": "Context length"
+        }
+      ],
+      "note": "The Hugging Face model card gives the context length as 131,072+."
+    },
+    "parameters": {
+      "value": 30000000000,
+      "asStated": "30B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.muse-glimmer-blog",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.meta.muse-glimmer-docs",
+          "locator": "Model variants"
+        }
+      ],
+      "note": "The Hugging Face model card gives about 29.6B including the vision encoder (a perception encoder of about 1.8B parameters). Dense architecture."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.muse-glimmer-blog",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.meta.muse-glimmer-30b-model-card",
+          "locator": "License; Released Artifacts"
+        }
+      ],
+      "note": "Apache 2.0 licence."
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.meta.muse-glimmer-docs",
+            "locator": "introduction"
+          },
+          {
+            "id": "src.meta.muse-glimmer-30b-model-card",
+            "locator": "Best Practices: Reasoning Strength"
+          }
+        ],
+        "note": "Reasons before answering; reasoning strength low, medium, high or xhigh is set in the system prompt."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.meta.muse-glimmer-blog",
+            "locator": "Built for Agents"
+          }
+        ]
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.meta.muse-glimmer-docs",
+            "locator": "Supported languages"
+          }
+        ],
+        "note": "Trained on data from more than 100 languages."
+      }
+    ],
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.muse-glimmer-blog",
+          "locator": "Get Started With Muse Glimmer Today"
+        },
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Muse Glimmer"
+        }
+      ],
+      "note": "Self-hosted; not served on the Meta Model API. The blog said hosted access through partners such as Together AI, Fireworks AI and OpenRouter would follow in the coming days."
+    }
+  },
+  "notes": "Single 30B model. The GGUF, assistant (DFlash speculative-decoding drafter) and ExecuTorch repositories in huggingface.co/meta-models are builds of the same model, not variants; the card lists BF16 weights, two 4-bit quantized versions, the drafter and the perception encoder as released artifacts. Knowledge cutoff January 4, 2026 per the model card."
+}

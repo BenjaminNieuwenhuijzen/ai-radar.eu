@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v4-flash-vision-exp",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v4-flash-vision-exp",
+  "name": "DeepSeek-V4-Flash-Vision-Exp",
+  "aliases": [
+    {
+      "text": "DeepSeek-V4-Flash-Vision-Exp",
+      "match": "auto"
+    },
+    {
+      "text": "V4-Flash-Vision-Exp",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V4 Flash Vision Exp",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-flash",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.hf-deepseek-v4-flash-vision-exp",
+        "locator": "License"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2026-09-10"
+      }
+    ],
+    "note": "Weights downloadable from the deepseek-ai Hugging Face organisation. In the DeepSeek API the model was retired on 2026-09-10; the legacy name deepseek-v4-flash-vision-exp now routes to DeepSeek-V4.1-Flash."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v4-1-flash",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2026-09-10"
+      },
+      {
+        "id": "src.deepseek.news-v4-1-flash"
+      },
+      {
+        "id": "src.deepseek.vision-guide"
+      }
+    ],
+    "note": "In the DeepSeek API: retired on 2026-09-10; deepseek-v4-flash-vision-exp temporarily routes to DeepSeek-V4.1-Flash."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-08-21",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-flash-vision-exp"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-08-21"
+        }
+      ],
+      "note": "API release; the weights appeared on Hugging Face later (repository created 2026-08-31 according to hub metadata; no page states the date)."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "deepseek.deepseek-v4-flash",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-vision-exp",
+          "locator": "Introduction"
+        }
+      ],
+      "note": "The card says it builds on the DeepSeek-V4-Flash architecture by adding visual modules and continued training. It does not name the starting checkpoint; the card compares it with DeepSeek-V4-Flash-0731 and the change log with the official DeepSeek-V4-Flash, so that revision is a possible alternative target."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V4-Flash-Vision-Exp is an experimental model that DeepSeek calls its first multimodal model in the DeepSeek-V4 family, built on the V4-Flash architecture with added visual modules. It accepted text and images in the DeepSeek API from 2026-08-21, later got open weights under the MIT License and was retired in the API on 2026-09-10.",
+    "sources": [
+      {
+        "id": "src.deepseek.hf-deepseek-v4-flash-vision-exp",
+        "locator": "Introduction; License"
+      },
+      {
+        "id": "src.deepseek.news-v4-flash-vision-exp"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2026-09-10"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v4-flash",
+      "text": "Adds image input next to text; images can be sent as base64, as external URLs or through the new Files API.",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-flash-vision-exp",
+          "locator": "Multimodal API support"
+        }
+      ]
+    },
+    {
+      "id": "visual-modules",
+      "aspect": "architecture",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v4-flash",
+      "text": "Adds visual modules to the V4-Flash architecture, followed by continued training.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-vision-exp",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "experimental-api",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v4-flash",
+      "text": "Offered only in the DeepSeek API at launch, as an experimental model; the weights followed later on Hugging Face.",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-flash-vision-exp"
+        },
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-vision-exp",
+          "locator": "License"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-flash-vision-exp",
+          "locator": "Multimodal API support"
+        },
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-vision-exp",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-vision-exp",
+          "locator": "pipeline tag image-text-to-text"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.hf-deepseek-v4-flash-vision-exp",
+            "locator": "Introduction, note 1"
+          }
+        ],
+        "note": "The card reports evaluating it at the max reasoning effort level."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-vision-exp",
+          "locator": "License; Repository layout"
+        }
+      ],
+      "note": "Repository licensed under the MIT License; weight shards published on Hugging Face after the API release."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-flash-vision-exp"
+        },
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-vision-exp",
+          "locator": "License"
+        }
+      ]
+    }
+  },
+  "notes": "DeepSeek calls it an experimental model and its first multimodal model in the DeepSeek-V4 family. API only at launch (model deepseek-v4-flash-vision-exp, priced as V4-Flash with images billed as tokens); the Files API launched the same day. App or web availability is not stated. Context window and tool support are not stated in the live sources, so they are left out. The Vision guide of 2026-10-01 describes deepseek-flash only and marks this model as retired."
+}

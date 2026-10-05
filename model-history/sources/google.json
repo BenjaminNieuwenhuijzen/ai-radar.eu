@@ -1,0 +1,1886 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.google.agent-platform-gemini-3-1-pro",
+      "type": "documentation",
+      "title": "Gemini 3.1 Pro",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-1-pro",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini Enterprise Agent Platform (formerly Vertex AI) model page with quality improvements, launch stage and release dates. The older address https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-1-pro redirects here. Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.agent-platform-gemini-3-5-flash-lite",
+      "type": "documentation",
+      "title": "Gemini 3.5 Flash-Lite | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash-lite",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Agent Platform model page (modalities, token limits, capabilities, version table with launch stage and release date). Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.agent-platform-gemini-3-6-flash",
+      "type": "documentation",
+      "title": "Gemini 3.6 Flash | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-6-flash",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Agent Platform model page (modalities, token limits, capabilities, version table with launch stage and release date). Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.agent-platform-gemini-3-7-flash",
+      "type": "documentation",
+      "title": "Gemini 3.7 Flash | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-7-flash",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Agent Platform model page (modalities, token limits, capabilities, version table with launch stage and release date). Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.agent-platform-gemini-3-8-flash",
+      "type": "documentation",
+      "title": "Gemini 3.8 Flash | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Agent Platform model page (modalities, token limits, capabilities, version table with launch stage and release date). Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.agent-platform-gemini-3-flash",
+      "type": "documentation",
+      "title": "Gemini 3 Flash",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-flash",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini Enterprise Agent Platform (formerly Vertex AI) model page with launch stage and release date. The older address https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/3-flash redirects here. Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.agent-platform-model-versions",
+      "type": "documentation",
+      "title": "Model versions and lifecycle | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page (last updated 2026-10-01 UTC); lists release dates, retirement dates and replacement model IDs for Gemini models on Gemini Enterprise Agent Platform. Its dates apply to Agent Platform only; the page says models may remain accessible through the Gemini API after them.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.ai-test-kitchen-announcement",
+      "type": "announcement",
+      "title": "Join us in the AI Test Kitchen",
+      "url": "https://blog.google/innovation-and-ai/products/join-us-in-the-ai-test-kitchen/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2022-08-25"
+      },
+      "notes": "The old address https://blog.google/technology/ai/join-us-in-the-ai-test-kitchen/ redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.android-aicore-announcement",
+      "type": "blog-post",
+      "title": "A New Foundation for AI on Android",
+      "url": "https://android-developers.googleblog.com/2023/12/a-new-foundation-for-ai-on-android.html",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-12-06"
+      },
+      "notes": "Android Developers Blog post by Dave Burke; carries a note that it was edited on Dec 13 to clarify initial messaging app support.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.bard-announcement",
+      "type": "announcement",
+      "title": "An important next step on our AI journey",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/bard-google-ai-search-updates/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-02-06"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Google AI updates: Bard and new AI features in Search. The old address https://blog.google/technology/ai/bard-google-ai-search-updates/ redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.bard-becomes-gemini",
+      "type": "announcement",
+      "title": "Bard becomes Gemini: Try Ultra 1.0 and a new mobile app today",
+      "url": "https://blog.google/products-and-platforms/products/gemini/bard-gemini-advanced-app/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-02-08"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Google Bard is now Gemini: How to try Ultra 1.0 and new mobile app. The old address https://blog.google/products/gemini/bard-gemini-advanced-app/ redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.bard-gemini-pro-announcement",
+      "type": "announcement",
+      "title": "Bard gets its biggest upgrade yet with Gemini",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-bard-try-gemini-ai/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-12-06"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Google Bard: How to try the new Gemini AI model. The old address https://blog.google/products/bard/google-bard-try-gemini-ai/ redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.bard-io-2023",
+      "type": "announcement",
+      "title": "What’s ahead for Bard: More global, more visual, more integrated",
+      "url": "https://blog.google/innovation-and-ai/products/google-bard-updates-io-2023/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-05-10"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Bard updates from Google I/O 2023: Images, new features. The old address https://blog.google/technology/ai/google-bard-updates-io-2023/ redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.deepmind-about",
+      "type": "other",
+      "title": "About Google DeepMind",
+      "url": "https://deepmind.google/about/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page; content as seen on 2026-10-01. Title from the HTML title; the page heading is the mission statement. No publication date stated.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.deepmind-model-cards",
+      "type": "documentation",
+      "title": "Model cards",
+      "url": "https://deepmind.google/models/model-cards/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Google DeepMind index of Gemini, Gemma and other model cards with update dates. A footnote says Gemini 2.0 Pro was released as an experimental model only. Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.fairwind-program",
+      "type": "documentation",
+      "title": "Fairwind Program",
+      "url": "https://deepmind.google/fairwind-program/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Program page on deepmind.google (HTML title Fairwind Program — Google DeepMind); no date shown; living page, content as seen on 2026-10-01. The Gemini 3.8 Flash announcement of 2026-09-02 introduced it as a new program.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-1-0-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemini: our largest and most capable AI model",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-gemini-ai/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2023-12-06"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page; the HTML title differs (Introducing Gemini: Google's most capable AI model yet). Originally published at https://blog.google/technology/ai/google-gemini-ai/, which now redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-1-5-002-models-announcement",
+      "type": "announcement",
+      "title": "Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased rate limits, and more",
+      "url": "https://developers.googleblog.com/en/updated-gemini-models-reduced-15-pro-pricing-increased-rate-limits-and-more/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-09-24"
+      },
+      "notes": "Google Developers Blog. Announces Gemini-1.5-Pro-002 and Gemini-1.5-Flash-002 and the experimental Gemini-1.5-Flash-8B-Exp-0924.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-1-5-announcement",
+      "type": "announcement",
+      "title": "Our next-generation model: Gemini 1.5",
+      "url": "https://blog.google/innovation-and-ai/products/google-gemini-next-generation-model-february-2024/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-02-15"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Introducing Gemini 1.5, Google's next-generation AI model. The old address https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/ redirects (301) here. Also states that 1.0 Ultra became available to developers and Cloud customers the same day.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-1-5-flash-8b-ga-announcement",
+      "type": "announcement",
+      "title": "Gemini 1.5 Flash-8B is now production ready",
+      "url": "https://developers.googleblog.com/en/gemini-15-flash-8b-is-now-generally-available-for-use/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-10-03"
+      },
+      "notes": "Google Developers Blog.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-1-5-flash-price-drop-tuning",
+      "type": "blog-post",
+      "title": "Gemini 1.5 Flash price drop with tuning rollout complete, and more",
+      "url": "https://developers.googleblog.com/en/gemini-15-flash-updates-google-ai-studio-gemini-api/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-08-08"
+      },
+      "notes": "Google Developers Blog.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-1-5-ga-developers",
+      "type": "announcement",
+      "title": "Gemini 1.5 Pro and 1.5 Flash GA, 1.5 Flash tuning support, higher rate limits, and more API updates",
+      "url": "https://developers.googleblog.com/en/gemini-15-pro-and-15-flash-now-available/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-05-30"
+      },
+      "notes": "Google Developers Blog. Carries an editor's note that 1.5 Flash tuning support was delayed by a few weeks.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-1-5-private-preview-developers",
+      "type": "blog-post",
+      "title": "Gemini 1.5: Our next-generation model, now available for Private Preview in Google AI Studio",
+      "url": "https://developers.googleblog.com/gemini-15-our-next-generation-model-now-available-for-private-preview-in-google-ai-studio/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-02-15"
+      },
+      "notes": "Google Developers Blog. The address linked from the Gemini 1.5 announcement, https://developers.googleblog.com/2024/02/gemini-15-available-for-private-preview-in-google-ai-studio.html, redirects (301) here. The same post also answers (200) under https://developers.googleblog.com/en/gemini-15-our-next-generation-model-now-available-for-private-preview-in-google-ai-studio/; the page declares no canonical URL.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-1-5-pro-public-preview-developers",
+      "type": "blog-post",
+      "title": "Gemini 1.5 Pro Now Available in 180+ Countries; with Native Audio Understanding, System Instructions, JSON Mode and more",
+      "url": "https://developers.googleblog.com/gemini-15-pro-now-available-in-180-countries-with-native-audio-understanding-system-instructions-json-mode-and-more/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-04-09"
+      },
+      "notes": "Google Developers Blog. The old address https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html redirects (301) here; an /en/ form of the path also exists.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-1-5-technical-report",
+      "type": "technical-report",
+      "title": "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
+      "url": "https://arxiv.org/abs/2403.05530",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-03-08"
+      },
+      "notes": "arXiv paper by the Gemini Team, Google. v1 submitted 8 Mar 2024; revised several times, v5 on 16 Dec 2024. Content cited from v5, which covers the May 2024 Gemini 1.5 Pro, Gemini 1.5 Flash (model card in appendix 12.1) and Flash-8B (section 8). The Google DeepMind model cards page links a Google-hosted copy at https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-1-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemini: our largest and most capable AI model",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-gemini-ai/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-12-06"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Introducing Gemini: Google’s most capable AI model yet. The old address https://blog.google/technology/ai/google-gemini-ai/ redirects (301) here. Announces Gemini 1.0 in the sizes Ultra, Pro and Nano.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-1-technical-report",
+      "type": "technical-report",
+      "title": "Gemini: A Family of Highly Capable Multimodal Models",
+      "url": "https://arxiv.org/abs/2312.11805",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-12-19"
+      },
+      "notes": "Report by the Gemini Team, Google, on arXiv; publishedAt is the date of v1 (later versions 2024-04-02, 2024-05-20, 2024-06-17, 2025-05-09). The 2023-12-06 announcement links the report via https://goo.gle/GeminiPaper. Locators refer to the arXiv v1 HTML version.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-0-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemini 2.0: our new AI model for the agentic era",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/google-gemini-ai-update-december-2024/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-12-11"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Google introduces Gemini 2.0: A new AI model for the agentic era. The old address https://blog.google/technology/google-deepmind/google-gemini-ai-update-december-2024/ redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-0-developers-announcement",
+      "type": "announcement",
+      "title": "The next chapter of the Gemini era for developers",
+      "url": "https://developers.googleblog.com/en/the-next-chapter-of-the-gemini-era-for-developers/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-12-11"
+      },
+      "notes": "Google Developers Blog.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-0-family-expands-dev-blog",
+      "type": "blog-post",
+      "title": "Gemini 2.0: Flash, Flash-Lite and Pro",
+      "url": "https://developers.googleblog.com/en/gemini-2-family-expands/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-02-05"
+      },
+      "notes": "Google for Developers blog post accompanying the 2025-02-05 announcement.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-0-family-expands-developers",
+      "type": "announcement",
+      "title": "Gemini 2.0: Flash, Flash-Lite and Pro",
+      "url": "https://developers.googleblog.com/en/gemini-2-family-expands/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-02-05"
+      },
+      "notes": "Google Developers Blog.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-0-february-2025-announcement",
+      "type": "announcement",
+      "title": "Gemini 2.0 is now available to everyone",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-updates-february-2025/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-02-05"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Gemini 2.0 model updates: 2.0 Flash, Flash-Lite, Pro Experimental. Originally published at https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/, which now redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-0-flash-family-ga-dev-blog",
+      "type": "announcement",
+      "title": "Start building with Gemini 2.0 Flash and Flash-Lite",
+      "url": "https://developers.googleblog.com/en/start-building-with-the-gemini-2-0-flash-family/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-02-25"
+      },
+      "notes": "Announces general availability of Gemini 2.0 Flash-Lite.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-0-flash-lite-api-docs",
+      "type": "documentation",
+      "title": "Gemini 2.0 Flash-Lite",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.0-flash-lite",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page (model code, supported data types, token limits, capabilities, versions). Carries a banner that the model was shut down on 2026-06-01; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-0-flash-lite-model-card",
+      "type": "model-card",
+      "title": "Gemini 2.0 Flash-Lite Model Card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Lite-Model-Card.pdf",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "PDF linked from the Google DeepMind model cards page, which lists it as updated 10 April 2025; the document itself prints no date.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-0-flash-model-card",
+      "type": "model-card",
+      "title": "Gemini 2.0 Flash Model Card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-0-Flash-Model-Card.pdf",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "PDF linked from the Google DeepMind model cards page (https://deepmind.google/models/model-cards/), which lists the Gemini 2.0 Flash card as updated 15 April 2025; no date appears in the PDF text itself.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-0-model-updates-february-2025",
+      "type": "announcement",
+      "title": "Gemini 2.0 is now available to everyone",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-updates-february-2025/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-02-05"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Gemini 2.0 model updates: 2.0 Flash, Flash-Lite, Pro Experimental. The old address https://blog.google/technology/google-deepmind/gemini-model-updates-february-2025/ redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-5-announcement",
+      "type": "announcement",
+      "title": "Gemini 2.5: Our most intelligent AI model",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-model-thinking-updates-march-2025/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-03-25"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Gemini 2.5: Our newest Gemini model with thinking. Carries an update note dated March 26 about added MRCR evaluations. Originally published at https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/, which now redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-5-family-expands-announcement",
+      "type": "announcement",
+      "title": "We’re expanding our Gemini 2.5 family of models",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-2-5-model-family-expands/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-06-17"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Gemini 2.5 model family expands. Originally published at https://blog.google/products/gemini/gemini-2-5-model-family-expands/, which now redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-5-flash-api-docs",
+      "type": "documentation",
+      "title": "Gemini 2.5 Flash",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page. Living page; content as seen on 2026-10-01, including a notice that access to the 2.5 models is limited to earlier users.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-5-flash-dev-blog",
+      "type": "announcement",
+      "title": "Start building with Gemini 2.5 Flash",
+      "url": "https://developers.googleblog.com/en/start-building-with-gemini-25-flash/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-04-17"
+      },
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-5-flash-lite-api-docs",
+      "type": "documentation",
+      "title": "Gemini 2.5 Flash-Lite",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-lite",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page. Living page; content as seen on 2026-10-01, including a notice that access to the 2.5 models is limited to earlier users.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-5-flash-lite-ga-dev-blog",
+      "type": "announcement",
+      "title": "Gemini 2.5 Flash-Lite is now stable and generally available",
+      "url": "https://developers.googleblog.com/en/gemini-25-flash-lite-is-now-stable-and-generally-available/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-07-22"
+      },
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-5-flash-lite-model-card",
+      "type": "model-card",
+      "title": "Gemini 2.5 Flash-Lite Model Card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Flash-Lite-Model-Card.pdf",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-09-26",
+        "note": "Date printed on the card (Published: September 26, 2025)."
+      },
+      "notes": "PDF linked from the Google DeepMind model cards page; also describes the 09-2025 preview.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-5-flash-september-2025-dev-blog",
+      "type": "announcement",
+      "title": "Continuing to bring you our latest models, with an improved Gemini 2.5 Flash and Flash-Lite release",
+      "url": "https://developers.googleblog.com/en/continuing-to-bring-you-our-latest-models-with-an-improved-gemini-2-5-flash-and-flash-lite-release/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-09-25"
+      },
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-5-pro-api-docs",
+      "type": "documentation",
+      "title": "Gemini 2.5 Pro",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-2.5-pro",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page (model code, supported data types, token limits, capabilities, versions). Living page; content as seen on 2026-10-01, including a notice that access to the 2.5 models is limited to earlier users.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-5-pro-model-card",
+      "type": "model-card",
+      "title": "Gemini 2.5 Pro Model Card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-2-5-Pro-Model-Card.pdf",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-06-27",
+        "note": "Update date printed on the card (Model card updated June 27, 2025)."
+      },
+      "notes": "PDF linked from the Google DeepMind model cards page. Covers the GA model as well as the 03-25 experimental and 05-06 preview versions.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-2-5-thinking-model-updates-dev-blog",
+      "type": "blog-post",
+      "title": "Gemini 2.5: Updates to our family of thinking models",
+      "url": "https://developers.googleblog.com/en/gemini-2-5-thinking-model-updates/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-06-17"
+      },
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-1-flash-lite-announcement",
+      "type": "announcement",
+      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-03-03"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page; the HTML title is Gemini 3.1 Flash Lite: Our most cost-effective AI model yet.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-1-flash-lite-ga-cloud-blog",
+      "type": "blog-post",
+      "title": "Gemini 3.1 Flash-Lite is now generally available on Gemini Enterprise Agent Platform",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-1-flash-lite-is-now-generally-available",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-05-08"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Google Cloud blog. Headline as shown on the page; the HTML title is Gemini 3.1 Flash-Lite is now generally available | Google Cloud Blog.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-1-flash-lite-model-card",
+      "type": "model-card",
+      "title": "Gemini 3.1 Flash-Lite - Model Card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-flash-lite/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-03-03"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Published by Google DeepMind; title from the HTML title without the site name. The page header gives the publication date 2026-03-03; the card text itself states Published: March 2026. It links a PDF version.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-1-pro-announcement",
+      "type": "announcement",
+      "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-02-19"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page; the HTML title is Gemini 3.1 Pro: Announcing our latest Gemini AI model.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-1-pro-model-card",
+      "type": "model-card",
+      "title": "Gemini 3.1 Pro - Model Card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-02-19"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Published by Google DeepMind; title from the HTML title without the site name. The page header gives the publication date 2026-02-19; the card text itself states Published: February 2026. It links a PDF version.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-5-announcement",
+      "type": "announcement",
+      "title": "Gemini 3.5: frontier intelligence with action",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-05-19"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Announces the Gemini 3.5 series with the release of Gemini 3.5 Flash and names Gemini 3.5 Pro as forthcoming.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-5-flash-lite-model-card",
+      "type": "model-card",
+      "title": "Gemini 3.5 Flash-Lite - Model Card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash-lite/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-07-21"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "HTML model card on deepmind.google with a link to a PDF version. The header says Published 21 July 2026; the body says Published: July 2026.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-5-flash-model-card",
+      "type": "model-card",
+      "title": "Gemini 3.5 Flash - Model Card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-05-19"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Published by Google DeepMind; title from the HTML title without the site name. The page header gives the publication date 2026-05-19; the card text itself states Published: May 2026. It links a PDF version.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-6-flash-3-5-flash-lite-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-07-21"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page; the HTML title is 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber. The same post announces Gemini 3.5 Flash Cyber (limited-access pilot through CodeMender) and says Gemini 3.5 Pro is testing with partners and that a pre-training run for Gemini 4 has started.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-6-flash-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-07-21"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page; the HTML title is 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber. Also contains a status update on Gemini 3.5 Pro (introduction and Get started today sections).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-6-flash-model-card",
+      "type": "model-card",
+      "title": "Gemini 3.6 Flash - Model Card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-6-flash/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-07-21"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "HTML model card on deepmind.google with a link to a PDF version. The header says Published 21 July 2026; the body says Published: July 2026.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-7-flash-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-08-13"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page; the HTML title is Gemini 3.7 Flash: our most intelligent workhorse model.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-7-flash-model-card",
+      "type": "model-card",
+      "title": "Gemini 3.7 Flash - Model Card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-7-flash/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-08-13"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "HTML model card on deepmind.google with a link to a PDF version. The 3.7 Flash announcement links https://deepmind.google/models/model-cards/gemini-3-7-flash (no trailing slash), which redirects here. The header says Published 13 August 2026; the body says Published: August 2026.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-8-flash-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-09-02"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Also announces Gemini 3.8 Flash Cyber for trusted defenders in the Fairwind Program.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-8-flash-model-card",
+      "type": "model-card",
+      "title": "Gemini 3.8 Flash - Model Card",
+      "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-09-02"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "HTML model card on deepmind.google with a link to a PDF version. The header says Published 2 September 2026; the body says Published: September, 2026.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-announcement",
+      "type": "announcement",
+      "title": "A new era of intelligence with Gemini 3",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-11-18"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Gemini 3: Introducing the latest Gemini AI model from Google. Originally published at https://blog.google/products/gemini/gemini-3/, which now redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-flash-announcement",
+      "type": "announcement",
+      "title": "Gemini 3 Flash: frontier intelligence built for speed",
+      "url": "https://blog.google/products-and-platforms/products/gemini/gemini-3-flash/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2025-12-17"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page; the HTML title is Introducing Gemini 3 Flash: Benchmarks, global availability. The page metadata gives a later modification on 2026-03-19.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-flash-model-card",
+      "type": "model-card",
+      "title": "Gemini 3 Flash - Model Card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Flash-Model-Card.pdf",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2025-12"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Published by Google DeepMind. The Gemini API model page links https://deepmind.google/models/model-cards/gemini-3-flash/, which redirects (301) to this PDF. The card states Published: December 2025.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-pro-model-card",
+      "type": "model-card",
+      "title": "Gemini 3 Pro Model Card",
+      "url": "https://storage.googleapis.com/deepmind-media/Model-Cards/Gemini-3-Pro-Model-Card.pdf",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-05",
+        "note": "Last update printed on the card (Last Updated: May 2026); the card gives November 2025 as the model release."
+      },
+      "notes": "The Gemini API model page and the Google DeepMind model cards page link https://deepmind.google/models/model-cards/gemini-3-pro/, which redirects (301) to this PDF. The PDF is replaced when the card is revised (metadata title: Gemini 3 Pro Model Card (May 2026)).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-pro-preview-api-docs",
+      "type": "documentation",
+      "title": "Gemini 3 Pro preview",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-preview",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page; carries a warning that the model was shut down on 2026-03-09. Content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-4-argon-announcement",
+      "type": "announcement",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-09-30"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page; the HTML title is Introducing Gemini 4 Argon. The page carries an AI-generated summary box; that box is not used as a source.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-changelog",
+      "type": "release-notes",
+      "title": "Release notes | Gemini API | Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page; content as seen on 2026-10-01. The page heading is Release notes; the URL path is changelog.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-deprecations",
+      "type": "deprecation-notice",
+      "title": "Gemini deprecations | Gemini API | Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page; content as seen on 2026-10-01. Lists release dates, earliest shutdown dates and recommended replacements for Gemini API models; the page says shutdown dates are the earliest possible dates.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-model-gemini-3-1-flash-lite",
+      "type": "documentation",
+      "title": "Gemini 3.1 Flash-Lite",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page for the stable model. Living page; content as seen on 2026-10-02, the page says last updated 2026-07-21. The preview page https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview is still served.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-model-gemini-3-1-pro-preview",
+      "type": "documentation",
+      "title": "Gemini 3.1 Pro preview",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page. Living page; content as seen on 2026-10-01, the page says last updated 2026-08-18.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-model-gemini-3-5-flash",
+      "type": "documentation",
+      "title": "Gemini 3.5 Flash",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page. Living page; content as seen on 2026-10-01, the page says last updated 2026-07-21. Its Versions row lists Stable: gemini-3.5-flash and Preview: gemini-3-flash-preview.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-model-gemini-3-5-flash-lite",
+      "type": "documentation",
+      "title": "Gemini 3.5 Flash-Lite | Gemini API | Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page (model code, supported data types, token limits, capabilities). Living page; last updated 2026-07-30 UTC when seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-model-gemini-3-6-flash",
+      "type": "documentation",
+      "title": "Gemini 3.6 Flash | Gemini API | Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page (model code, supported data types, token limits, capabilities). Living page; last updated 2026-07-30 UTC when seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-model-gemini-3-7-flash",
+      "type": "documentation",
+      "title": "Gemini 3.7 Flash | Gemini API | Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page (model code, supported data types, token limits, capabilities). Living page; last updated 2026-08-13 UTC when seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-model-gemini-3-8-flash",
+      "type": "documentation",
+      "title": "Gemini 3.8 Flash | Gemini API | Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page (model code, supported data types, token limits, capabilities). Living page; last updated 2026-09-02 UTC when seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-model-gemini-3-flash-preview",
+      "type": "documentation",
+      "title": "Gemini 3 Flash preview",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3-flash-preview",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API model page (model code, supported data types, token limits, capabilities, versions). Living page; content as seen on 2026-10-01, the page says last updated 2026-08-18. Like other ai.google.dev pages it first answers a cookieless request with a 302 loop through a Google sign-in check before serving the page at the same URL.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-models",
+      "type": "documentation",
+      "title": "Models",
+      "url": "https://ai.google.dev/gemini-api/docs/models",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API models overview with Stable and Preview sections; the HTML title is Models | Gemini API | Google AI for Developers. Living page; content as seen on 2026-10-02, the page says last updated 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-release-notes",
+      "type": "release-notes",
+      "title": "Release notes",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini API release notes; the HTML title is Release notes | Gemini API | Google AI for Developers. Living page; content as seen on 2026-10-02, the page says last updated 2026-10-01. A cookieless request first gets a 302 loop through a Google sign-in check (ai.google.dev/oauth2authorize) before the page is served at the same URL.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-api-whats-new-gemini-3-5",
+      "type": "documentation",
+      "title": "What's new in Gemini 3.5 Flash",
+      "url": "https://ai.google.dev/gemini-api/docs/whats-new-gemini-3.5",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Developer guide with improvements, behaviour changes and migration notes from Gemini 3 Flash Preview. Living page; content as seen on 2026-10-01, the page says last updated 2026-09-23 and now also carries a tab for 3.6 Flash and 3.5 Flash-Lite.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-app-1-5-flash-july-2024",
+      "type": "blog-post",
+      "title": "Gemini’s big upgrade: Faster responses with 1.5 Flash, expanded access and more",
+      "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-new-features-july-2024/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-07-25"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Gemini gets 1.5 Flash, a new related content feature and more. The old address https://blog.google/products/gemini/google-gemini-new-features-july-2024/ redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-app-2-0-experimental-models",
+      "type": "blog-post",
+      "title": "Access the latest 2.0 experimental models in the Gemini app.",
+      "url": "https://blog.google/feed/gemini-app-experimental-models/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-02-05"
+      },
+      "notes": "Short post in the Keyword feed (title as published, with the final period).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-app-march-2025-features",
+      "type": "blog-post",
+      "title": "New Gemini app features, available to try at no cost",
+      "url": "https://blog.google/products-and-platforms/products/gemini/new-gemini-app-features-march-2025/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-03-13"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Gemini app updates: Deep Research, connected apps, personalization. The old address https://blog.google/products/gemini/new-gemini-app-features-march-2025/ redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-app-release-notes",
+      "type": "release-notes",
+      "title": "Gemini Apps’ release updates & improvements",
+      "url": "https://gemini.google/us/release-notes/?hl=en",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemini app release notes, dated entries back to 2023. Requested as https://gemini.google/release-notes/?hl=en, which redirects here; the page declares this URL as canonical. Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-pro-developers-announcement",
+      "type": "announcement",
+      "title": "It’s time for developers and enterprises to build with Gemini Pro",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-api-developers-cloud/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-12-13"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Google Gemini API: New developer and enterprise AI products. The old address https://blog.google/technology/ai/gemini-api-developers-cloud/ redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-1-1-2b-it-hf",
+      "type": "model-card",
+      "title": "google/gemma-1.1-2b-it · Hugging Face",
+      "url": "https://huggingface.co/google/gemma-1.1-2b-it",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model repository in Google's Hugging Face organisation; the card heading reads Gemma Model Card and its release notes describe Gemma 1.1 2B (IT). Downloading the files requires accepting Google's Gemma usage license on Hugging Face. No date stated on the card.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-1-1-7b-it-hf",
+      "type": "model-card",
+      "title": "google/gemma-1.1-7b-it · Hugging Face",
+      "url": "https://huggingface.co/google/gemma-1.1-7b-it",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model repository in Google's Hugging Face organisation; the card heading reads Gemma Model Card and its release notes describe Gemma 1.1 7B (IT). Downloading the files requires accepting Google's Gemma usage license on Hugging Face. No date stated on the card.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-2-27b-hf",
+      "type": "model-card",
+      "title": "google/gemma-2-27b · Hugging Face",
+      "url": "https://huggingface.co/google/gemma-2-27b",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model repository in Google's Hugging Face organisation (card heading: Gemma 2 model card). Downloading the files requires accepting Google's Gemma usage license on Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-2-2b-announcement",
+      "type": "announcement",
+      "title": "Smaller, Safer, More Transparent: Advancing Responsible AI with Gemma",
+      "url": "https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-07-31"
+      },
+      "notes": "Google Developers Blog. Announces Gemma 2 2B, ShieldGemma and Gemma Scope.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-2-2b-hf",
+      "type": "model-card",
+      "title": "google/gemma-2-2b · Hugging Face",
+      "url": "https://huggingface.co/google/gemma-2-2b",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model repository in Google's Hugging Face organisation (card heading: Gemma 2 model card). Downloading the files requires accepting Google's Gemma usage license on Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-2-9b-hf",
+      "type": "model-card",
+      "title": "google/gemma-2-9b · Hugging Face",
+      "url": "https://huggingface.co/google/gemma-2-9b",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model repository in Google's Hugging Face organisation (card heading: Gemma 2 model card). Downloading the files requires accepting Google's Gemma usage license on Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-2-announcement",
+      "type": "announcement",
+      "title": "Gemma 2 is now available to researchers and developers",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-gemma-2/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-06-27"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Google launches Gemma 2, its next generation of open models. The old address https://blog.google/technology/developers/google-gemma-2/ redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-2-model-card",
+      "type": "model-card",
+      "title": "Gemma 2 model card",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_2",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gemma documentation on Google AI for Developers; page footer says last updated 2025-02-25. Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-2-technical-report",
+      "type": "technical-report",
+      "title": "Gemma 2: Improving Open Language Models at a Practical Size",
+      "url": "https://arxiv.org/abs/2408.00118",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-07-31"
+      },
+      "notes": "arXiv paper by the Gemma Team, Google DeepMind. v1 submitted 31 Jul 2024, last revised 2 Oct 2024 (v3); content cited from v3. The June 2024 Gemma 2 announcement already linked a technical report.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-2b-model-card",
+      "type": "model-card",
+      "title": "google/gemma-2b · Hugging Face",
+      "url": "https://huggingface.co/google/gemma-2b",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card in Google's Hugging Face organisation (heading Gemma Model Card; links the 2B instruct card google/gemma-2b-it). The weights are gated: users accept the Gemma terms before download. Hub metadata on 2026-10-01: repository created 2024-02-08, last modified 2024-09-27, not disabled.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-3-270m-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemma 3 270M: The compact model for hyper-efficient AI",
+      "url": "https://developers.googleblog.com/en/introducing-gemma-3-270m/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-08-14"
+      },
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-3-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemma 3: The most capable model you can run on a single GPU or TPU",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-3/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-03-12"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Gemma 3: Google's new open model based on Gemini 2.0. Originally published at https://blog.google/technology/developers/gemma-3/, which now redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-3-developer-guide",
+      "type": "blog-post",
+      "title": "Introducing Gemma 3: The Developer Guide",
+      "url": "https://developers.googleblog.com/en/introducing-gemma3/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-03-12"
+      },
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-3-model-card",
+      "type": "model-card",
+      "title": "Gemma 3 model card",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_3",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page that also covers the 270M size added in August 2025; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-3-technical-report",
+      "type": "technical-report",
+      "title": "Gemma 3 Technical Report",
+      "url": "https://arxiv.org/abs/2503.19786",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-03-25",
+        "note": "Date of arXiv version v1."
+      },
+      "notes": "By the Gemma Team at Google DeepMind. The Gemma 3 announcement links a Google-hosted copy via https://goo.gle/Gemma3Report (302 to https://storage.googleapis.com/deepmind-media/gemma/Gemma3Report.pdf).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-3n-developer-guide",
+      "type": "announcement",
+      "title": "Introducing Gemma 3n: The developer guide",
+      "url": "https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-06-26"
+      },
+      "notes": "Announces the full release of Gemma 3n.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-3n-model-card",
+      "type": "model-card",
+      "title": "Gemma 3n model card",
+      "url": "https://ai.google.dev/gemma/docs/gemma-3n/model_card",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-3n-preview-announcement",
+      "type": "announcement",
+      "title": "Announcing Gemma 3n preview: powerful, efficient, mobile-first AI",
+      "url": "https://developers.googleblog.com/en/introducing-gemma-3n/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-05-20"
+      },
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-4-12b-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemma 4 12B: a unified, encoder-free multimodal model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-06-03"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page; the HTML title is Introducing Gemma 4 12B.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-4-announcement",
+      "type": "announcement",
+      "title": "Gemma 4: Byte for byte, the most capable open models",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-04-02"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page; the HTML title is Gemma 4: Our most capable open models to date. The page metadata gives a later modification on 2026-05-08.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-4-hugging-face-collection",
+      "type": "model-hub-page",
+      "title": "Gemma 4",
+      "url": "https://huggingface.co/collections/google/gemma-4",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Collection in Google's Hugging Face organisation; the HTML title is Gemma 4 - a google Collection. The long collection address https://huggingface.co/collections/google/gemma-4-69ce8ad93186d46744cb42f1 redirects (302) to this canonical URL. As seen on 2026-10-02 it lists pre-trained and instruction-tuned repositories for E2B, E4B, 12B, 26B A4B and 31B (for example google/gemma-4-31B-it), plus MTP assistant drafters and a DiffusionGemma repository.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-4-model-card",
+      "type": "model-card",
+      "title": "Gemma 4 model card",
+      "url": "https://ai.google.dev/gemma/docs/core/model_card_4",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Covers all five sizes, including the later 12B Unified. Living page; content as seen on 2026-10-01, the page says last updated 2026-07-30.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-4-technical-report",
+      "type": "technical-report",
+      "title": "Gemma 4 Technical Report",
+      "url": "https://arxiv.org/abs/2607.02770",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-07-02"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv paper by the Gemma Team, Google DeepMind, linked from the Gemma 4 model card. v1 submitted 2 Jul 2026, v2 24 Jul 2026.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-7b-model-card",
+      "type": "model-card",
+      "title": "google/gemma-7b · Hugging Face",
+      "url": "https://huggingface.co/google/gemma-7b",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card in Google's Hugging Face organisation (heading Gemma Model Card; links the 7B instruct card google/gemma-7b-it). The weights are gated: users accept the Gemma terms before download. Hub metadata on 2026-10-01: repository created 2024-02-08, last modified 2024-06-27, not disabled.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-announcement",
+      "type": "announcement",
+      "title": "Gemma: Introducing new state-of-the-art open models",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-open-models/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-02-21"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Gemma: Google introduces new state-of-the-art open models. The old address https://blog.google/technology/developers/gemma-open-models/ redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-family-expands-april-2024",
+      "type": "announcement",
+      "title": "Gemma Family Expands with Models Tailored for Developers and Researchers",
+      "url": "https://developers.googleblog.com/en/gemma-family-expands-with-models-tailored-for-developers-and-researchers/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-04-09"
+      },
+      "notes": "Google Developers Blog. Announces CodeGemma and RecurrentGemma and, in a section Gemma 1.1 update, the release of Gemma 1.1.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-releases",
+      "type": "release-notes",
+      "title": "Gemma releases",
+      "url": "https://ai.google.dev/gemma/docs/releases",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Dated list of Gemma family releases. Living page; content as seen on 2026-10-01, the page says last updated 2026-07-02.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemma-technical-report",
+      "type": "technical-report",
+      "title": "Gemma: Open Models Based on Gemini Research and Technology",
+      "url": "https://arxiv.org/abs/2403.08295",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-03-13"
+      },
+      "notes": "Report by the Gemma Team, Google DeepMind, on arXiv; publishedAt is the date of v1 (later versions to 2024-04-16). The announcement links the report via https://goo.gle/GemmaReport.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.google-deepmind-announcement",
+      "type": "announcement",
+      "title": "Google DeepMind: Bringing together two world-class AI teams",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/april-ai-update/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2023-04-20"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Originally published at https://blog.google/technology/ai/april-ai-update/, which now redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.hf-gemma-3-27b-it",
+      "type": "model-hub-page",
+      "title": "google/gemma-3-27b-it",
+      "url": "https://huggingface.co/google/gemma-3-27b-it",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in Google's Hugging Face organisation. Downloading requires accepting the Gemma licence (gated access). Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.hf-gemma-3n-e4b-it",
+      "type": "model-hub-page",
+      "title": "google/gemma-3n-E4B-it",
+      "url": "https://huggingface.co/google/gemma-3n-E4B-it",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in Google's Hugging Face organisation. Downloading requires accepting the Gemma licence (gated access). Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.io-2022-keynote",
+      "type": "announcement",
+      "title": "Google I/O 2022: Advancing knowledge and computing",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/io-2022-keynote/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2022-05-11"
+      },
+      "notes": "Keynote text by Sundar Pichai. The old address https://blog.google/technology/developers/io-2022-keynote/ redirects (301) here. Announces LaMDA 2 and AI Test Kitchen in the section Introducing LaMDA 2 and AI Test Kitchen.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.io-2024-developer-updates",
+      "type": "announcement",
+      "title": "Gemini 1.5 Pro updates, 1.5 Flash debut and 2 new Gemma models",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-gemma-developer-updates-may-2024/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-05-14"
+      },
+      "notes": "The old address https://blog.google/technology/developers/gemini-gemma-developer-updates-may-2024/ redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.io-2024-gemini-updates",
+      "type": "announcement",
+      "title": "Gemini breaks new ground with a faster model, longer context, AI agents and more",
+      "url": "https://blog.google/innovation-and-ai/products/google-gemini-update-flash-ai-assistant-io-2024/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-05-14"
+      },
+      "notes": "Headline as shown on the page (by Demis Hassabis for the Gemini team); the HTML title is Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra. The old address https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/ redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.lamda-announcement",
+      "type": "announcement",
+      "title": "LaMDA: our breakthrough conversation technology",
+      "url": "https://blog.google/innovation-and-ai/products/lamda/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2021-05-18"
+      },
+      "notes": "The old address https://blog.google/technology/ai/lamda/ redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.lamda-paper",
+      "type": "research-paper",
+      "title": "LaMDA: Language Models for Dialog Applications",
+      "url": "https://arxiv.org/abs/2201.08239",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2022-01-20"
+      },
+      "notes": "Paper by Google authors on arXiv; publishedAt is the date of v1. Versions: v1 2022-01-20, v2 2022-01-21, v3 2022-02-10.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.lamda-research-blog",
+      "type": "blog-post",
+      "title": "LaMDA: Towards Safe, Grounded, and High-Quality Dialog Models for Everything",
+      "url": "https://research.google/blog/lamda-towards-safe-grounded-and-high-quality-dialog-models-for-everything/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2022-01-21"
+      },
+      "notes": "Google Research blog. The old address https://ai.googleblog.com/2022/01/lamda-towards-safe-grounded-and-high.html redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.our-story",
+      "type": "other",
+      "title": "From the garage to the Googleplex",
+      "url": "https://about.google/company-info/our-story/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "About Google company page. Title is the page heading; the HTML title reads How we started and where we are today, and the section is labelled Our story. No publication date stated. The old address https://about.google/our-story/ redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.palm-2-announcement",
+      "type": "announcement",
+      "title": "Introducing PaLM 2",
+      "url": "https://blog.google/innovation-and-ai/products/google-palm-2-ai-large-language-model/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-05-10"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Google AI: What to know about the PaLM 2 large language model. The page carries the line Updated September 12, 2023. The old address https://blog.google/technology/ai/google-palm-2-ai-large-language-model/ redirects (301) here. The technical report link in the post, https://ai.google/static/documents/palm2techreport.pdf, returned 404 on 2026-10-01; the arXiv version is src.google.palm-2-technical-report.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.palm-2-technical-report",
+      "type": "technical-report",
+      "title": "PaLM 2 Technical Report",
+      "url": "https://arxiv.org/abs/2305.10403",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-05-17"
+      },
+      "notes": "Report by Google authors on arXiv; publishedAt is the date of v1. Versions: v1 2023-05-17, v2 2023-09-11, v3 2023-09-13. The model card is Table 31 in Appendix D.10 (v3).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.palm-announcement",
+      "type": "blog-post",
+      "title": "Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance",
+      "url": "https://research.google/blog/pathways-language-model-palm-scaling-to-540-billion-parameters-for-breakthrough-performance/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2022-04-04"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Google Research blog post announcing the PaLM paper (arXiv 2204.02311).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.palm-paper",
+      "type": "research-paper",
+      "title": "PaLM: Scaling Language Modeling with Pathways",
+      "url": "https://arxiv.org/abs/2204.02311",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2022-04-05"
+      },
+      "notes": "Paper by Google authors on arXiv; publishedAt is the date of v1. Versions: v1 2022-04-05 to v5 2022-10-05. The model card is Table 30 in Appendix E.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.palm-research-blog",
+      "type": "blog-post",
+      "title": "Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrough Performance",
+      "url": "https://research.google/blog/pathways-language-model-palm-scaling-to-540-billion-parameters-for-breakthrough-performance/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2022-04-04"
+      },
+      "notes": "Google Research blog; title from the page heading (the HTML title is cut off). The old address https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.pixel-feature-drop-december-2023",
+      "type": "announcement",
+      "title": "Pixel 8 Pro — the first smartphone with AI built in — is now running Gemini Nano, plus more AI updates coming to the Pixel portfolio",
+      "url": "https://blog.google/products-and-platforms/devices/pixel/pixel-feature-drop-december-2023/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-12-06"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Google Pixel December feature drop: New Gemini AI-powered updates. The old address https://blog.google/products/pixel/pixel-feature-drop-december-2023/ redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.try-bard",
+      "type": "announcement",
+      "title": "Try Bard and share your feedback",
+      "url": "https://blog.google/innovation-and-ai/products/try-bard/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-03-21"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Sign up to try Bard from Google. The old address https://blog.google/technology/ai/try-bard/ redirects (301) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.vertex-ai-gemini-expands",
+      "type": "blog-post",
+      "title": "Google Cloud expands access to Gemini models for Vertex AI customers",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-on-vertex-ai-expands",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-02-16"
+      },
+      "notes": "Google Cloud Blog; headline as shown on the page, the HTML title is Gemini on Vertex AI expands | Google Cloud Blog. The page shows February 16, 2024, while its structured data gives datePublished 2024-02-15.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.vertex-palm-2-for-chat-reference",
+      "type": "api-reference",
+      "title": "Text chat",
+      "url": "https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text-chat",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "archived-primary",
+      "availability": "archived",
+      "archiveUrl": "https://web.archive.org/web/20231208072835/https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text-chat",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2023-12-08",
+      "notes": "Vertex AI model API reference for PaLM 2 for Chat; HTML title Text chat | Vertex AI | Google Cloud. The original address returned 404 on 2026-10-01; the Internet Archive capture of 2023-12-08 shows the PaLM 2 for Chat (chat-bison) description and the stable version table.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.vertex-palm-2-for-text-reference",
+      "type": "api-reference",
+      "title": "Text",
+      "url": "https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "provenance": "archived-primary",
+      "availability": "active",
+      "archiveUrl": "https://web.archive.org/web/20240101182211/https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2024-01-01",
+      "notes": "Vertex AI model API reference for PaLM 2 for Text; HTML title Text | Vertex AI | Google Cloud. The original address now redirects to the unrelated Text embeddings API page of Gemini Enterprise Agent Platform, so the page is cited through the Internet Archive capture of 2024-01-01, which shows the PaLM 2 for Text (text-bison, text-unicorn) description and the stable version table.",
+      "lastCheckedAt": "2026-10-05"
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "id": "huggingface.smollm3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "smollm3",
+  "name": "SmolLM3",
+  "aliases": [
+    {
+      "text": "SmolLM3",
+      "match": "auto"
+    },
+    {
+      "text": "SmolLM3-3B",
+      "match": "auto"
+    },
+    {
+      "text": "SmolLM3-3B-Base",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "huggingface",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "huggingface.smollm",
+  "generation": "3",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.huggingface.smollm3-3b-model-card",
+        "locator": "model repository (weights hosted on the Hub)"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-07-08",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm3-announcement",
+          "locator": "page date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "huggingface.smollm2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm3-announcement",
+          "locator": "Architecture and training details"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "SmolLM3 is a 3B-parameter open-weight language model from Hugging Face, released under Apache 2.0 as a base model and an instruct model with switchable extended thinking. It natively supports six languages and handles up to 128k tokens of context, and Hugging Face published its architecture details, data mixtures and training configurations.",
+    "sources": [
+      {
+        "id": "src.huggingface.smollm3-announcement"
+      },
+      {
+        "id": "src.huggingface.smollm3-3b-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "extended-thinking",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "huggingface.smollm2",
+      "text": "The instruct model adds an extended-thinking mode, on by default and switched with /think and /no_think flags.",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm3-announcement",
+          "locator": "Enabling and Disabling Extended Thinking Mode"
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "aspect": "languages",
+      "relativeTo": "huggingface.smollm2",
+      "text": "Natively supports six languages: English, French, Spanish, German, Italian and Portuguese.",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm3-3b-model-card",
+          "locator": "Key features"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "huggingface.smollm2",
+      "text": "Trained on 64k context and handles up to 128k tokens with YaRN, up from 8k for SmolLM2-1.7B.",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm3-3b-model-card",
+          "locator": "Long context processing"
+        },
+        {
+          "id": "src.huggingface.smollm2-paper",
+          "locator": "section 4.6, Context Length extension"
+        }
+      ]
+    },
+    {
+      "id": "attention-changes",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "huggingface.smollm2",
+      "text": "Adds grouped-query attention and NoPE, which removes rotary position embeddings from every fourth layer.",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm3-announcement",
+          "locator": "Architecture and training details"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm3-3b-model-card",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm3-3b-model-card",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.huggingface.smollm3-announcement",
+            "locator": "Enabling and Disabling Extended Thinking Mode"
+          },
+          {
+            "id": "src.huggingface.smollm3-3b-model-card",
+            "locator": "Key features; Enabling and Disabling Extended Thinking Mode"
+          }
+        ],
+        "note": "Dual mode: extended thinking on by default, switched with /think and /no_think."
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.huggingface.smollm3-3b-model-card",
+            "locator": "Key features"
+          }
+        ],
+        "note": "Six natively supported languages: English, French, Spanish, German, Italian and Portuguese."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.huggingface.smollm3-3b-model-card",
+            "locator": "Agentic Usage"
+          },
+          {
+            "id": "src.huggingface.smollm3-announcement",
+            "locator": "Building the Chat Template"
+          }
+        ],
+        "note": "Tool calling through XML tools or Python tools in the chat template."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm3-3b-model-card",
+          "locator": "Key features: Long context; Long context processing"
+        },
+        {
+          "id": "src.huggingface.smollm3-announcement",
+          "locator": "Long Context extension"
+        }
+      ],
+      "note": "Trained on 64k context; up to 128k tokens through YaRN extrapolation."
+    },
+    "parameters": {
+      "value": 3000000000,
+      "asStated": "3B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm3-3b-model-card",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm3-3b-model-card",
+          "locator": "Key features: Fully open model; License"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm3-3b-model-card",
+          "locator": "How to use"
+        }
+      ]
+    }
+  },
+  "notes": "Released as SmolLM3-3B-Base and SmolLM3-3B (instruct model with dual-mode reasoning) on the same day; single 3B size. The blog and card say the training recipe and data mixture are published. Synthetic reasoning data was partly generated with Qwen3-32B (blog); not a model relation."
+}

@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-r1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-r1",
+  "name": "DeepSeek-R1",
+  "aliases": [
+    {
+      "text": "DeepSeek-R1",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek R1",
+      "match": "auto"
+    },
+    {
+      "text": "deepseek-reasoner",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-r",
+  "generation": "1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-r1-hf"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-05-28"
+      }
+    ],
+    "note": "Weights are still public on Hugging Face. In the DeepSeek API, deepseek-reasoner moved to DeepSeek-R1-0528 on 2025-05-28."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-r1-0528",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-05-28"
+      }
+    ],
+    "note": "In the DeepSeek API only: deepseek-reasoner was upgraded to DeepSeek-R1-0528. The weights stay available."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-01-20",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-announcement",
+          "locator": "news sidebar: DeepSeek-R1 Release 2025/01/20"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-01-20"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-news",
+          "locator": "page date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "deepseek.deepseek-v3",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-hf",
+          "locator": "2. Model Summary; 3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-paper",
+          "locator": "Introduction"
+        }
+      ],
+      "note": "Trained from the base variant DeepSeek-V3-Base: fine-tuned on cold-start data, then two reinforcement learning stages and two supervised fine-tuning stages in total."
+    },
+    {
+      "type": "successor-of",
+      "target": "deepseek.deepseek-r1-lite-preview",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-announcement"
+        }
+      ],
+      "note": "Editorial link along the R line: DeepSeek-R1-Lite-Preview was DeepSeek's earlier reasoning preview; the R1 announcement does not mention it."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-R1 is a reasoning language model built on DeepSeek-V3-Base, released on 20 January 2025 in the DeepSeek web chat (DeepThink), in the API as deepseek-reasoner and as open weights under the MIT License. DeepSeek trained it in two fine-tuning and two reinforcement learning stages to address the repetition, readability and language-mixing problems of DeepSeek-R1-Zero.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-r1-announcement"
+      },
+      {
+        "id": "src.deepseek.deepseek-r1-hf"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "api-open-weights",
+      "aspect": "availability",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-r1-lite-preview",
+      "text": "Offered in the API and as open weights, while DeepSeek-R1-Lite-Preview was available only in the DeepSeek web chat at launch.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-announcement"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-lite-preview-announcement"
+        }
+      ]
+    },
+    {
+      "id": "mit-license",
+      "aspect": "licensing",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-r1-lite-preview",
+      "text": "Code and weights under the MIT License, and DeepSeek allows the weights and API outputs to be used for fine-tuning and distillation.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-announcement",
+          "locator": "License Update"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-hf",
+          "locator": "3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-github",
+          "locator": "3. Model Downloads"
+        }
+      ],
+      "note": "Model context length per the downloads table; API limits may differ."
+    },
+    "parameters": {
+      "value": 671000000000,
+      "asStated": "671B total, 37B activated",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-hf",
+          "locator": "3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-github",
+          "locator": "3. Model Downloads"
+        }
+      ],
+      "note": "Mixture-of-experts."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-announcement",
+          "locator": "License Update"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-hf",
+          "locator": "7. License"
+        }
+      ],
+      "note": "MIT License; DeepSeek allows using the weights and API outputs for fine-tuning and distillation."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-announcement",
+          "locator": "first section; API Access & Pricing"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-hf",
+          "locator": "5. Chat Website & API Platform"
+        }
+      ]
+    }
+  },
+  "notes": "In the DeepSeek web chat it ran behind the DeepThink button; in the API as model deepseek-reasoner, which later served other models, so that alias is only a candidate. The 2025-01-20 change log entry says DeepSeek-V3 can be invoked with model deepseek-reasoner, an apparent slip (the same entry calls deepseek-reasoner the new model DeepSeek-R1). The six DeepSeek-R1-Distill models released the same day are built on Qwen2.5 and Llama 3 models and are not records."
+}

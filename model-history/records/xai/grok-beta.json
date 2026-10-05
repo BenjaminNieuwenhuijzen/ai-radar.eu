@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-beta",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-beta",
+  "name": "grok-beta",
+  "aliases": [
+    {
+      "text": "grok-beta",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": null,
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "xAI has published no deprecation or retirement notice for grok-beta or grok-vision-beta; the xAI API models page lists neither (checked 2026-10-01)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-11-04",
+      "sources": [
+        {
+          "id": "src.xai.api-public-beta",
+          "locator": "page date; Models"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "November 2024, Nov 4: API Public Beta"
+        }
+      ],
+      "note": "Released on the xAI API at the start of its public beta; the release notes date the API public beta to Nov 4 (2024) but do not name the model."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "grok-beta is a preview language model that xAI offered on its API from the start of the API public beta on 4 November 2024, as the provisional name of a new Grok model in the final stages of development. xAI gave it a 128,000-token context window and function calling; a multimodal version with image input, grok-vision-beta, followed as a preview.",
+    "sources": [
+      {
+        "id": "src.xai.api-public-beta"
+      },
+      {
+        "id": "src.xai.grok-2-1212-announcement",
+        "locator": "API access"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.api-public-beta",
+          "locator": "Models"
+        }
+      ],
+      "note": "The API post calls grok-beta the text-only version."
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.api-public-beta",
+            "locator": "Models"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128,000 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.api-public-beta",
+          "locator": "Models"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.api-public-beta",
+          "locator": "first paragraphs; Models"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "vision",
+      "name": "grok-vision-beta",
+      "aliases": [
+        {
+          "text": "grok-vision-beta",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "inputModalities": {
+          "value": [
+            "text",
+            "image"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.xai.api-public-beta",
+              "locator": "Models"
+            }
+          ],
+          "note": "Announced as a multimodal version of grok-beta that can ingest images."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.xai.api-public-beta",
+          "locator": "Models"
+        },
+        {
+          "id": "src.xai.grok-2-1212-announcement",
+          "locator": "API access"
+        }
+      ],
+      "note": "The API post of 2024-11-04 announced the vision model for the following week; the December 2024 post confirms it had been released as a preview model. No day is given."
+    }
+  ],
+  "notes": "Added beyond the planned scope. xAI released grok-beta as the provisional name of a preview of a new Grok model that was in the final stages of development; it did not say later which named model this became, so no relation is recorded. Categories include multimodal because of the inline vision variant. The December 2024 post calls grok-beta and grok-vision-beta preview models."
+}

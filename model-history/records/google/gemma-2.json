@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemma-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemma-2",
+  "name": "Gemma 2",
+  "aliases": [
+    {
+      "text": "Gemma 2",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemma",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.google.gemma-2-2b-hf"
+      },
+      {
+        "id": "src.google.gemma-2-9b-hf"
+      },
+      {
+        "id": "src.google.gemma-2-27b-hf"
+      }
+    ],
+    "note": "Weights still downloadable from Google's Hugging Face organisation (after accepting the Gemma terms) when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-05-14",
+      "sources": [
+        {
+          "id": "src.google.io-2024-gemini-updates",
+          "locator": "Next generation of open models"
+        },
+        {
+          "id": "src.google.io-2024-developer-updates",
+          "locator": "Additions to the Gemma family"
+        }
+      ]
+    },
+    "released": {
+      "value": "2024-06-27",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-announcement"
+        },
+        {
+          "id": "src.google.gemma-releases",
+          "locator": "June 27, 2024"
+        }
+      ],
+      "note": "9B and 27B sizes; the 2B size followed on 2024-07-31 (see variants)."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemma-1-1",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.google.gemma-2-technical-report",
+          "locator": "sections 2 (Model Architecture) and 4 (Post-Training)"
+        }
+      ],
+      "note": "Editorial link along the Gemma line: the announcement compares Gemma 2 with the first generation without naming a version; Gemma 1.1 was the latest first-generation release, and the technical report extends the Gemma 1.1 post-training data and compares with Gemma 1.1."
+    }
+  ],
+  "summary": {
+    "text": "Gemma 2 is the second generation of Google's Gemma open-weight language models, released in 9B and 27B sizes with weights on Kaggle and Hugging Face, followed by a 2B size in July 2024. Google says it uses a redesigned architecture aimed at performance and inference efficiency, and it trained the 2B and 9B models with knowledge distillation.",
+    "sources": [
+      {
+        "id": "src.google.gemma-2-announcement"
+      },
+      {
+        "id": "src.google.gemma-2-2b-announcement"
+      },
+      {
+        "id": "src.google.gemma-2-technical-report"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "attention",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "google.gemma-1-1",
+      "text": "Alternates local sliding-window and global attention layers and adds grouped-query attention and logit soft-capping, with deeper networks.",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-technical-report",
+          "locator": "section 2, Model Architecture"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "google.gemma-1-1",
+      "text": "The 2B and 9B models are trained with knowledge distillation from a larger teacher model instead of next-token prediction; the 27B model is trained from scratch.",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-technical-report"
+        }
+      ]
+    },
+    {
+      "id": "sizes",
+      "aspect": "size",
+      "direction": "added",
+      "relativeTo": "google.gemma-1-1",
+      "text": "Adds 9B and 27B sizes; the small model that followed in July 2024 has about 2.6B parameters.",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-announcement"
+        },
+        {
+          "id": "src.google.gemma-2-technical-report",
+          "locator": "Table 2"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemma-1-1",
+      "text": "Post-training extends the Gemma 1.1 data with more internal and public data and uses a similar RLHF algorithm with a much larger reward model.",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-technical-report",
+          "locator": "section 4, Post-Training"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-model-card",
+          "locator": "Inputs and outputs"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-model-card",
+          "locator": "Inputs and outputs"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 8192,
+      "asStated": "8192",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-technical-report",
+          "locator": "section 2, Model Architecture"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-announcement",
+          "locator": "Getting started"
+        },
+        {
+          "id": "src.google.gemma-2-9b-hf"
+        }
+      ],
+      "note": "Released under Google's Gemma terms of use, which must be accepted on Hugging Face before download."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-announcement",
+          "locator": "Getting started"
+        }
+      ],
+      "note": "Weights on Kaggle and Hugging Face; Google also offered the 27B model to try in Google AI Studio and announced Vertex AI deployment."
+    }
+  },
+  "variants": [
+    {
+      "id": "2b",
+      "name": "Gemma 2 2B",
+      "aliases": [
+        {
+          "text": "Gemma 2 2B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-2-2b",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-2-2b-it",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2024-07-31",
+          "sources": [
+            {
+              "id": "src.google.gemma-2-2b-announcement"
+            },
+            {
+              "id": "src.google.gemma-releases",
+              "locator": "July 31, 2024"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 2600000000,
+          "asStated": "2.6B",
+          "qualifier": "approximate",
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-2-announcement",
+              "locator": "Projects built with Gemma"
+            },
+            {
+              "id": "src.google.gemma-2-technical-report",
+              "locator": "Table 2"
+            }
+          ],
+          "note": "The June announcement speaks of an upcoming 2.6B parameter model; the July developer post calls it a 2 billion (2B) parameter model. The technical report lists 590,118,912 embedding and 2,024,517,888 non-embedding parameters."
+        }
+      },
+      "note": "Pre-trained and instruction-tuned checkpoints. Google says the 2B model learns from larger models through distillation.",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-2b-announcement"
+        },
+        {
+          "id": "src.google.gemma-2-2b-hf"
+        }
+      ]
+    },
+    {
+      "id": "9b",
+      "name": "Gemma 2 9B",
+      "aliases": [
+        {
+          "text": "Gemma 2 9B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-2-9b",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-2-9b-it",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 9000000000,
+          "asStated": "9B",
+          "qualifier": "approximate",
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-2-announcement",
+              "locator": "second paragraph"
+            },
+            {
+              "id": "src.google.gemma-2-technical-report",
+              "locator": "Table 2"
+            }
+          ],
+          "note": "The technical report lists 917,962,752 embedding and 8,324,201,984 non-embedding parameters."
+        }
+      },
+      "note": "Pre-trained and instruction-tuned checkpoints.",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-announcement"
+        },
+        {
+          "id": "src.google.gemma-2-9b-hf"
+        }
+      ]
+    },
+    {
+      "id": "27b",
+      "name": "Gemma 2 27B",
+      "aliases": [
+        {
+          "text": "Gemma 2 27B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-2-27b",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-2-27b-it",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 27000000000,
+          "asStated": "27B",
+          "qualifier": "approximate",
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-2-announcement",
+              "locator": "second paragraph"
+            },
+            {
+              "id": "src.google.gemma-2-technical-report",
+              "locator": "Table 2"
+            }
+          ],
+          "note": "The technical report lists 1,180,237,824 embedding and 26,047,480,320 non-embedding parameters."
+        }
+      },
+      "note": "Pre-trained and instruction-tuned checkpoints.",
+      "sources": [
+        {
+          "id": "src.google.gemma-2-announcement"
+        },
+        {
+          "id": "src.google.gemma-2-27b-hf"
+        }
+      ]
+    }
+  ],
+  "notes": "Announced at Google I/O on 2024-05-14 and released on 2024-06-27 in 9B and 27B sizes; the 2B size followed on 2024-07-31 together with ShieldGemma and Gemma Scope. The successor link to Gemma 1.1 is editorial: no source names Gemma 2 as the successor of Gemma 1.1 specifically, although the technical report builds on Gemma 1.1 post-training and compares with it. Parameter values are the announced size labels (qualifier approximate); the exact counts are in the variant notes."
+}

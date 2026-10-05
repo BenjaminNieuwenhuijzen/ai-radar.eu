@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-4-argon",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-4-argon",
+  "name": "Gemini 4 Argon",
+  "aliases": [
+    {
+      "text": "Gemini 4 Argon",
+      "match": "auto"
+    },
+    {
+      "text": "Argon",
+      "match": "candidate"
+    },
+    {
+      "text": "Gemini 4",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "preview",
+    "sources": [
+      {
+        "id": "src.google.gemini-4-argon-announcement",
+        "locator": "first two paragraphs; Rolling out soon"
+      },
+      {
+        "id": "src.google.fairwind-program",
+        "locator": "The technology behind the program; FAQ"
+      }
+    ],
+    "note": "Limited access only: rolling out to a set of trusted cyber defenders in the Fairwind Program. Google says it will follow with a release to developers, enterprises and consumers, starting with paid API customers and Google AI Ultra subscribers; no date given as of 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2026-09-30",
+      "sources": [
+        {
+          "id": "src.google.gemini-4-argon-announcement"
+        }
+      ],
+      "note": "Announced together with the start of a phased rollout to trusted cyber defenders through the Fairwind Program."
+    },
+    "released": null,
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Gemini 4 Argon is a reasoning model in Google's Gemini line, announced on 30 September 2026 and first rolled out only to vetted cyber defenders in the Fairwind Program. Google describes it as built for sustained reasoning over long, multi-step work in software engineering, enterprise knowledge work and cybersecurity defense, with output of up to 1M tokens.",
+    "sources": [
+      {
+        "id": "src.google.gemini-4-argon-announcement"
+      },
+      {
+        "id": "src.google.fairwind-program"
+      }
+    ]
+  },
+  "capabilities": {
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    }
+  },
+  "notes": "No general release by 2026-10-01, so released is left empty. No model card or API documentation was found on 2026-10-01: https://deepmind.google/models/model-cards/gemini-4-argon/ returned 404, and the Gemini API models page, release notes and deprecations page do not list the model. The 1M figure in the announcement is the output token limit (up from 64K), not the context window, so contextWindowTokens is left out. Categories multimodal and reasoning follow the announcement, which describes visual, chart and long-video understanding and deep reasoning; input modalities are not listed by Google. The announcement compares it only with Gemini 3.8 Flash Cyber, which has no record; no predecessor relation is recorded."
+}

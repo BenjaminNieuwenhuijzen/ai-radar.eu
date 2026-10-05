@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "id": "huggingface.smolvlm2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "smolvlm2",
+  "name": "SmolVLM2",
+  "aliases": [
+    {
+      "text": "SmolVLM2",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "huggingface",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "huggingface.smolvlm",
+  "generation": "2",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.huggingface.smolvlm2-2-2b-instruct-model-card",
+        "locator": "model repository (weights hosted on the Hub)"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02-20",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-announcement",
+          "locator": "page date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "huggingface.smolvlm-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-announcement",
+          "locator": "SmolVLM2 2.2B: compared with the previous SmolVLM family"
+        },
+        {
+          "id": "src.huggingface.smolvlm2-2-2b-instruct-model-card",
+          "locator": "metadata base_model: HuggingFaceTB/SmolVLM-Instruct"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "SmolVLM2 extends Hugging Face's SmolVLM vision-language models to video, taking video, images and text as input and producing text. It was released with open weights under Apache 2.0 in 2.2B, 500M and 256M sizes, with MLX support from launch; Hugging Face showed an iPhone app that runs the 500M model locally.",
+    "sources": [
+      {
+        "id": "src.huggingface.smolvlm2-announcement"
+      },
+      {
+        "id": "src.huggingface.smolvlm2-2-2b-instruct-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "video-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "huggingface.smolvlm-1",
+      "text": "Accepts video input in addition to images and text.",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-2-2b-instruct-model-card",
+          "locator": "Model Summary: Model type"
+        }
+      ]
+    },
+    {
+      "id": "video-data",
+      "aspect": "training-data",
+      "direction": "added",
+      "relativeTo": "huggingface.smolvlm-1",
+      "text": "Training data adds video datasets such as FineVideo to The Cauldron and Docmatix.",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-2-2b-instruct-model-card"
+        }
+      ]
+    },
+    {
+      "id": "mlx",
+      "aspect": "availability",
+      "direction": "added",
+      "relativeTo": "huggingface.smolvlm-1",
+      "text": "Available for MLX in Python and Swift from launch.",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "visual-tasks",
+      "aspect": "other",
+      "relativeTo": "huggingface.smolvlm-1",
+      "text": "Hugging Face reports better handling of math with images, text in photos, diagrams and scientific visual questions than the previous SmolVLM family.",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-announcement",
+          "locator": "SmolVLM2 2.2B"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-2-2b-instruct-model-card",
+          "locator": "Model Summary: Model type"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-2-2b-instruct-model-card",
+          "locator": "introduction"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-2-2b-instruct-model-card",
+          "locator": "Model Summary: License"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "on-device"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-announcement",
+          "locator": "Suite of SmolVLM2 Demo applications: iPhone Video Understanding"
+        },
+        {
+          "id": "src.huggingface.smolvlm2-2-2b-instruct-model-card",
+          "locator": "introduction"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "smolvlm2-2-2b",
+      "name": "SmolVLM2-2.2B",
+      "aliases": [
+        {
+          "text": "SmolVLM2 2.2B",
+          "match": "auto"
+        },
+        {
+          "text": "SmolVLM2-2.2B-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "SmolVLM2-2.2B-Base",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 2200000000,
+          "asStated": "2.2B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smolvlm2-announcement",
+              "locator": "Technical Details"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-announcement",
+          "locator": "Technical Details"
+        },
+        {
+          "id": "src.huggingface.smolvlm2-2-2b-instruct-model-card",
+          "locator": "Model Summary"
+        }
+      ],
+      "note": "Released as SmolVLM2-2.2B-Instruct; the base checkpoint SmolVLM2-2.2B-Base was published on the Hub later (repository created 2025-04-14)."
+    },
+    {
+      "id": "smolvlm2-500m",
+      "name": "SmolVLM2-500M",
+      "aliases": [
+        {
+          "text": "SmolVLM2-500M-Video",
+          "match": "auto"
+        },
+        {
+          "text": "SmolVLM2-500M-Video-Instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 500000000,
+          "asStated": "500M",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smolvlm2-announcement",
+              "locator": "Technical Details"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-announcement",
+          "locator": "Going Even Smaller: Meet the 500M and 256M Video Models"
+        },
+        {
+          "id": "src.huggingface.smolvlm2-500m-video-instruct-model-card",
+          "locator": "card heading and introduction"
+        }
+      ],
+      "note": "The blog's iPhone demo app runs this model locally."
+    },
+    {
+      "id": "smolvlm2-256m",
+      "name": "SmolVLM2-256M",
+      "aliases": [
+        {
+          "text": "SmolVLM2-256M-Video",
+          "match": "auto"
+        },
+        {
+          "text": "SmolVLM2-256M-Video-Instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 256000000,
+          "asStated": "256M",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smolvlm2-announcement",
+              "locator": "Technical Details"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm2-announcement",
+          "locator": "Going Even Smaller: Meet the 500M and 256M Video Models"
+        }
+      ],
+      "note": "Hugging Face calls it an experimental release."
+    }
+  ],
+  "notes": "Three sizes released together (2.2B, 500M, 256M), with MLX support from day one. Hugging Face's SmolVLM paper (arXiv v1, 2025-04-07) documents the SmolVLM models from 256M to 2.2B, including video. Context window left out: the paper adopts a 16k-token context for SmolVLM and 8k for smaller variants without naming SmolVLM2, and the 2.2B Instruct configuration lists 8192 positions. The card lists SmolLM2-1.7B-Instruct as the text decoder and Google's SigLIP as image encoder (cross-organisation, not recorded)."
+}

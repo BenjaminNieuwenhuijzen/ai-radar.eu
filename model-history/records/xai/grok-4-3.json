@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-4-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-4-3",
+  "name": "Grok 4.3",
+  "aliases": [
+    {
+      "text": "Grok 4.3",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 4.3 Beta",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.3",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.3-latest",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "4.3",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.xai.grok-4-3-docs",
+        "locator": "Details"
+      },
+      {
+        "id": "src.xai.models-overview",
+        "locator": "Text API Pricing"
+      }
+    ],
+    "note": "Listed as a current API model with pricing when checked on 2026-10-01; not named in any xAI retirement guide."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-04-17",
+      "sources": [
+        {
+          "id": "src.xai.grok-release-notes",
+          "locator": "entry of 2026-04-17, Grok 4.3 Beta"
+        }
+      ],
+      "note": "Rolled out as Grok 4.3 Beta to SuperGrok and Premium+ subscribers in the Grok apps. No primary source checked gives the date of its API launch."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-4-20",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.xai.grok-release-notes",
+          "locator": "entry of 2026-04-17, Grok 4.3 Beta"
+        }
+      ],
+      "note": "Editorial link along the main Grok line: the release note describes Grok 4.3 as a new pre-trained model at the scale of Grok 4.20 with an improved architecture, but does not call it a successor."
+    }
+  ],
+  "summary": {
+    "text": "Grok 4.3 is a language model in xAI's Grok line that takes text and images and returns text, rolled out as a beta in the Grok apps on 17 April 2026 and also offered on the xAI API and on Amazon Bedrock. xAI describes it as a newly pre-trained model at the scale of Grok 4.20 with an improved architecture.",
+    "sources": [
+      {
+        "id": "src.xai.grok-release-notes",
+        "locator": "entry of 2026-04-17, Grok 4.3 Beta"
+      },
+      {
+        "id": "src.xai.grok-4-3-docs"
+      },
+      {
+        "id": "src.xai.grok-4-3-amazon-bedrock"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "new-pretraining",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4-20",
+      "text": "xAI describes it as a newly pre-trained model at the same scale as Grok 4.20, with an improved architecture.",
+      "sources": [
+        {
+          "id": "src.xai.grok-release-notes",
+          "locator": "entry of 2026-04-17, Grok 4.3 Beta"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4-20",
+      "text": "xAI gives a knowledge cutoff of December 2025.",
+      "sources": [
+        {
+          "id": "src.xai.grok-release-notes",
+          "locator": "entry of 2026-04-17, Grok 4.3 Beta"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-effort",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4-20",
+      "text": "Offered on the API as one model with configurable reasoning effort, including no reasoning, where Grok 4.20 has separate reasoning and non-reasoning model ids.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-3-docs"
+        },
+        {
+          "id": "src.xai.models-overview",
+          "locator": "Text API Pricing"
+        }
+      ]
+    },
+    {
+      "id": "computer-access",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "xai.grok-4-20",
+      "text": "In the Grok apps the model can use a computer to write and run code and create files such as presentations, documents and spreadsheets.",
+      "sources": [
+        {
+          "id": "src.xai.grok-release-notes",
+          "locator": "entry of 2026-04-17, Grok 4.3 Beta"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-3-docs",
+          "locator": "At a glance: Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-3-docs",
+          "locator": "At a glance: Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1,000,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-3-docs",
+          "locator": "At a glance: Context window"
+        },
+        {
+          "id": "src.xai.may-15-2026-retirement-guide",
+          "locator": "Reasoning workloads"
+        }
+      ],
+      "note": "API figure; requests above 200K prompt tokens are billed at a higher rate."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI; the grok.com release note only says Grok 4.3 matches the scale of Grok 4.20."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-release-notes",
+          "locator": "entry of 2026-04-17"
+        },
+        {
+          "id": "src.xai.grok-4-3-docs"
+        },
+        {
+          "id": "src.xai.grok-4-3-amazon-bedrock"
+        },
+        {
+          "id": "src.xai.google-cloud-vertex-ai-guide",
+          "locator": "Enable Grok models in Model Garden"
+        }
+      ]
+    }
+  },
+  "notes": "No x.ai news post exists for the launch (x.ai/news/grok-4-3 returns 404); the release date is the Grok 4.3 Beta entry in the grok.com release notes, and the API release notes have no Grok 4.3 entry (also not in the Internet Archive capture of 2026-05-01). The earliest Internet Archive capture of the API docs page is from 2026-04-30; it is a lead only and is not used as a date. Since 2026-05-15 the retired slugs grok-3, grok-4-0709, grok-4-fast-* and grok-4-1-fast-* redirect to grok-4.3 (May 15, 2026 retirement guide), so API traffic for those slugs is served by this model. Reasoning efforts on the docs page: none, low, medium, high and xhigh, default low; the retirement guide and the Bedrock post name four levels (none to high)."
+}

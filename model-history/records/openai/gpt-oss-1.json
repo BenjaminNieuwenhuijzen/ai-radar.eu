@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-oss-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-oss-1",
+  "name": "gpt-oss",
+  "aliases": [
+    {
+      "text": "gpt-oss",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-oss",
+  "generation": null,
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.gpt-oss-120b-hf"
+      },
+      {
+        "id": "src.openai.gpt-oss-20b-hf"
+      }
+    ],
+    "note": "Weights of both models downloadable from OpenAI's Hugging Face organisation when read on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-08-05",
+      "sources": [
+        {
+          "id": "src.openai.gpt-oss-announcement",
+          "locator": "page date; introduction"
+        },
+        {
+          "id": "src.openai.gpt-oss-model-card",
+          "locator": "cover date"
+        }
+      ],
+      "note": "The Hugging Face repositories were created on 2025-08-04 (UTC); OpenAI dates the release and the model card August 5, 2025."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "gpt-oss is a pair of open-weight language models from OpenAI, gpt-oss-120b and gpt-oss-20b, released on 5 August 2025 under the Apache 2.0 licence with reasoning and tool-use abilities. OpenAI calls them its first open-weight language models since GPT-2; both are text-only mixture-of-experts models, with 117B and 21B total parameters.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-oss-announcement"
+      },
+      {
+        "id": "src.openai.gpt-oss-model-card"
+      },
+      {
+        "id": "src.openai.gpt-oss-120b-hf"
+      },
+      {
+        "id": "src.openai.gpt-oss-20b-hf"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-oss-model-card",
+          "locator": "section 1"
+        },
+        {
+          "id": "src.openai.gpt-oss-model-card-arxiv",
+          "locator": "section 1"
+        },
+        {
+          "id": "src.openai.gpt-oss-120b-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-oss-120b-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-oss-announcement",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.openai.gpt-oss-model-card",
+          "locator": "section 1"
+        },
+        {
+          "id": "src.openai.gpt-oss-120b-hf"
+        },
+        {
+          "id": "src.openai.gpt-oss-20b-hf"
+        }
+      ],
+      "note": "Apache 2.0 licence, with the gpt-oss usage policy."
+    },
+    "contextWindowTokens": {
+      "value": 131072,
+      "asStated": "131,072",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-oss-model-card",
+          "locator": "section 2.2"
+        },
+        {
+          "id": "src.openai.gpt-oss-120b-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.gpt-oss-20b-docs",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The announcement gives a native context length of up to 128k for both models."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-oss-announcement",
+          "locator": "Availability"
+        }
+      ],
+      "note": "Weights on Hugging Face; OpenAI lists deployment partners such as Azure and AWS. The announcement says OpenAI may consider API support later."
+    }
+  },
+  "variants": [
+    {
+      "id": "gpt-oss-120b",
+      "name": "gpt-oss-120b",
+      "aliases": [
+        {
+          "text": "gpt-oss-120b",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-oss 120b",
+          "match": "candidate"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 117000000000,
+          "asStated": "117B total, 5.1B active per token",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.openai.gpt-oss-announcement",
+              "locator": "Pre-training & model architecture"
+            },
+            {
+              "id": "src.openai.gpt-oss-120b-docs",
+              "locator": "introduction"
+            }
+          ],
+          "note": "Mixture-of-experts model; the model card gives 116.8B total and 5.1B active parameters (Table 1)."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.openai.gpt-oss-announcement",
+          "locator": "introduction"
+        },
+        {
+          "id": "src.openai.gpt-oss-120b-hf"
+        },
+        {
+          "id": "src.openai.gpt-oss-model-card",
+          "locator": "section 2"
+        }
+      ],
+      "note": "36 layers, 128 experts with 4 active per token; runs on a single 80 GB GPU with MXFP4-quantised MoE weights."
+    },
+    {
+      "id": "gpt-oss-20b",
+      "name": "gpt-oss-20b",
+      "aliases": [
+        {
+          "text": "gpt-oss-20b",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-oss 20b",
+          "match": "candidate"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 21000000000,
+          "asStated": "21B total, 3.6B active per token",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.openai.gpt-oss-announcement",
+              "locator": "Pre-training & model architecture"
+            },
+            {
+              "id": "src.openai.gpt-oss-20b-docs",
+              "locator": "introduction"
+            }
+          ],
+          "note": "Mixture-of-experts model; the model card gives 20.9B total and 3.6B active parameters (Table 1)."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.openai.gpt-oss-announcement",
+          "locator": "introduction"
+        },
+        {
+          "id": "src.openai.gpt-oss-20b-hf"
+        },
+        {
+          "id": "src.openai.gpt-oss-model-card",
+          "locator": "section 2"
+        }
+      ],
+      "note": "24 layers, 32 experts with 4 active per token; runs within 16 GB of memory."
+    }
+  ],
+  "notes": "Slug gpt-oss-1 because gpt-oss would equal the family id openai.gpt-oss. gpt-oss-120b and gpt-oss-20b were released together under one name stem, so they are inline variants; parameters are recorded per variant. OpenAI calls these its first open-weight language models since GPT-2, and the model card says the architecture builds on GPT-2 and GPT-3; neither is a lineage claim, so no relation is recorded. The bare alias gpt-oss is candidate because it is also the family name."
+}

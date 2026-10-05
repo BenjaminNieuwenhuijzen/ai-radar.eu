@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.command-a-vision",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "command-a-vision",
+  "name": "Command A Vision",
+  "aliases": [
+    {
+      "text": "Command A Vision",
+      "match": "auto"
+    },
+    {
+      "text": "command-a-vision-07-2025",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.command-a-family",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Command table: command-a-vision-07-2025, Status Live"
+      },
+      {
+        "id": "src.cohere.command-a-vision-hf"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-07-31",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-vision-blog",
+          "locator": "page date; Availability"
+        },
+        {
+          "id": "src.cohere.command-a-vision-changelog",
+          "locator": "entry date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "cohere.command-a",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-vision-hf",
+          "locator": "card metadata base_model CohereLabs/c4ai-command-a-03-2025; Model Details: Model Architecture"
+        }
+      ],
+      "note": "The model card describes a language model based on Command A paired with a vision encoder through a multimodal adapter. The method fine-tune follows the Hugging Face model tree classification of the base_model metadata; the card text does not name the training method."
+    }
+  ],
+  "summary": {
+    "text": "Command A Vision is a 112B-parameter model in Cohere's Command A family that reads images alongside text and answers in text, released on 31 July 2025 on the Cohere API with open weights for non-commercial research use. Cohere calls it its first commercial model that can interpret images and aims it at charts, diagrams, tables, document OCR and scene analysis.",
+    "sources": [
+      {
+        "id": "src.cohere.command-a-vision-changelog"
+      },
+      {
+        "id": "src.cohere.command-a-vision-blog"
+      },
+      {
+        "id": "src.cohere.command-a-vision-hf"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "cohere.command-a",
+      "text": "Adds image input next to text, up to 20 images per request; Command A accepts text only.",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Modality"
+        },
+        {
+          "id": "src.cohere.command-a-vision-changelog"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "decreased",
+      "relativeTo": "cohere.command-a",
+      "text": "Context window of 128K tokens, against 256K for Command A.",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Context Length"
+        }
+      ]
+    },
+    {
+      "id": "no-tool-use",
+      "aspect": "tool-use",
+      "relativeTo": "cohere.command-a",
+      "text": "Tool use is not supported with this model, according to Cohere's model documentation.",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-vision-docs",
+          "locator": "Limitations"
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "aspect": "languages",
+      "relativeTo": "cohere.command-a",
+      "text": "Officially supports six languages: English, Portuguese, Italian, French, German and Spanish.",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-vision-changelog"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Modality"
+        },
+        {
+          "id": "src.cohere.command-a-vision-hf",
+          "locator": "Model Details: Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-vision-hf",
+          "locator": "Model Details: Output"
+        },
+        {
+          "id": "src.cohere.command-a-vision-docs",
+          "locator": "Limitations"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Context Length"
+        },
+        {
+          "id": "src.cohere.command-a-vision-changelog",
+          "locator": "Technical Specifications"
+        },
+        {
+          "id": "src.cohere.command-a-vision-docs",
+          "locator": "Description"
+        }
+      ],
+      "note": "Maximum output 8K tokens per the changelog and the models overview. The Hugging Face card says the model supports 128K but is configured there for 32K."
+    },
+    "parameters": {
+      "value": 112000000000,
+      "asStated": "112B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-vision-hf",
+          "locator": "Model Summary: Model Size"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-vision-hf",
+          "locator": "Model Summary; Terms of Use"
+        },
+        {
+          "id": "src.cohere.command-a-vision-blog",
+          "locator": "Availability"
+        }
+      ],
+      "note": "Research release under CC-BY-NC 4.0 with Cohere Labs acceptable use policy; gated download on Hugging Face."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-vision-blog",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.cohere.command-a-vision-changelog",
+          "locator": "Technical Specifications: API Endpoint"
+        }
+      ]
+    }
+  },
+  "notes": "The changelog calls it Cohere's first commercial model able to interpret images. Not listed on the deprecations page as of 2026-10-01. Tool use is not supported per the model docs. The vision encoder (SigLIP2, by Google) is a cross-organisation component and is not recorded as a relation. The Hugging Face repository was created on 2025-07-28, before launch; not used as a date."
+}

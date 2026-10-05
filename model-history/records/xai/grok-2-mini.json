@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-2-mini",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-2-mini",
+  "name": "Grok-2 mini",
+  "aliases": [
+    {
+      "text": "Grok-2 mini",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 2 mini",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok-mini",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "xAI has published no deprecation or retirement notice for Grok-2 mini; the xAI API models page lists no Grok-2 model (checked 2026-10-01)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-08-13",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-announcement",
+          "locator": "page date; second paragraph"
+        }
+      ],
+      "note": "Released in beta on X together with Grok-2; enterprise API access was announced for later in August 2024."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Grok-2 mini is a smaller language model that xAI released alongside Grok-2 on 13 August 2024, describing it as a sibling of Grok-2 that balances speed and answer quality. It launched in beta on X for Premium and Premium+ subscribers, with access through an enterprise API announced for later that month.",
+    "sources": [
+      {
+        "id": "src.xai.grok-2-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "smaller-model",
+      "aspect": "efficiency",
+      "relativeTo": "xai.grok-2",
+      "text": "A smaller sibling of Grok-2 that xAI says balances speed and answer quality.",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "over-grok-1-5",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "xai.grok-1-5",
+      "text": "xAI says it improves on its previous model, Grok-1.5.",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-announcement",
+          "locator": "second paragraph; Build with Grok using the Enterprise API"
+        }
+      ],
+      "note": "At launch in beta on X for Premium and Premium+ users, with the enterprise API announced for later in August 2024."
+    }
+  },
+  "notes": "First model of the mini tier; no predecessor relation. xAI calls it a small but capable sibling of Grok-2, which is not recorded as a variant relation. Input modalities are not stated for Grok-2 mini, although the announcement's benchmark table includes visual tasks for it, so multimodal is not recorded."
+}

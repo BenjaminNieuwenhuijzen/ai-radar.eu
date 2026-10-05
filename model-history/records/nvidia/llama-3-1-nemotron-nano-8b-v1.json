@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.llama-3-1-nemotron-nano-8b-v1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-3-1-nemotron-nano-8b-v1",
+  "name": "Llama-3.1-Nemotron-Nano-8B-v1",
+  "aliases": [
+    {
+      "text": "Llama-3.1-Nemotron-Nano-8B-v1",
+      "match": "auto"
+    },
+    {
+      "text": "nvidia/Llama-3.1-Nemotron-Nano-8B-v1",
+      "match": "auto"
+    },
+    {
+      "text": "nvidia/llama-3.1-nemotron-nano-8b-v1",
+      "match": "auto"
+    },
+    {
+      "text": "Llama 3.1 Nemotron Nano 8B v1",
+      "match": "auto"
+    },
+    {
+      "text": "Llama 3.1 Nemotron Nano 8B",
+      "match": "candidate"
+    },
+    {
+      "text": "Llama Nemotron Nano",
+      "match": "candidate"
+    },
+    {
+      "text": "LN-Nano",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron-nano",
+  "generation": "1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.llama-3-1-nemotron-nano-8b-v1-model-card",
+        "locator": "model card and files"
+      }
+    ],
+    "note": "Open weights still downloadable from NVIDIA's Hugging Face organisation. NVIDIA has marked only its hosted API endpoint on build.nvidia.com as deprecated (see notes); no deprecation of the model weights was found."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-03-18",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-nano-8b-v1-model-card",
+          "locator": "Release Date; Model Version"
+        },
+        {
+          "id": "src.nvidia.llama-nemotron-reasoning-press-release",
+          "locator": "dateline; Availability"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Llama-3.1-Nemotron-Nano-8B-v1 is an 8B open-weights reasoning language model from NVIDIA, derived from Meta's Llama-3.1-8B-Instruct and released at GTC 2025 as the Nano size of the Llama Nemotron family, also offered as a hosted API. Reasoning can be switched on or off through the system prompt, and NVIDIA positions it for PCs and edge devices.",
+    "sources": [
+      {
+        "id": "src.nvidia.llama-3-1-nemotron-nano-8b-v1-model-card"
+      },
+      {
+        "id": "src.nvidia.llama-nemotron-reasoning-press-release"
+      },
+      {
+        "id": "src.nvidia.llama-nemotron-reasoning-dev-blog"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-nano-8b-v1-model-card",
+          "locator": "Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-nano-8b-v1-model-card",
+          "locator": "Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.llama-3-1-nemotron-nano-8b-v1-model-card",
+            "locator": "Quick Start and Usage Recommendations"
+          },
+          {
+            "id": "src.nvidia.llama-nemotron-technical-report",
+            "locator": "abstract"
+          }
+        ],
+        "note": "Reasoning on or off is selected through the system prompt."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.llama-3-1-nemotron-nano-8b-v1-model-card",
+            "locator": "Model Overview"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-nano-8b-v1-model-card",
+          "locator": "License/Terms of Use"
+        }
+      ],
+      "note": "Governed by the NVIDIA Open Model License; the Llama 3.1 Community License Agreement also applies (Built with Llama)."
+    },
+    "contextWindowTokens": {
+      "value": 131072,
+      "asStated": "131,072 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-nano-8b-v1-model-card",
+          "locator": "Input"
+        }
+      ],
+      "note": "The model overview also gives the context length as 128K."
+    },
+    "parameters": {
+      "value": 8000000000,
+      "asStated": "8B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-nemotron-reasoning-dev-blog",
+          "locator": "Nano"
+        },
+        {
+          "id": "src.nvidia.llama-nemotron-technical-report",
+          "locator": "abstract"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-nemotron-reasoning-press-release",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-nano-8b-v1-model-card",
+          "locator": "Quick Start and Usage Recommendations"
+        },
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-nano-8b-v1-build-page",
+          "locator": "endpoint page"
+        }
+      ],
+      "note": "Hosted preview API and NIM microservice on build.nvidia.com at release; NVIDIA has since marked the hosted API deprecated (no longer supported after 08/25/2026)."
+    }
+  },
+  "notes": "Released at GTC 2025 together with Llama-3.3-Nemotron-Super-49B-v1. On 2025-01-06 NVIDIA had announced Nano, Super and Ultra sizes of the Llama Nemotron family without naming models or describing reasoning; that tier announcement is not treated as the announced date of this model. NVIDIA describes the model as a derivative of Meta Llama-3.1-8B-Instruct (cross-organisation relation, not stored here). Hosted API: the build.nvidia.com page marks the endpoint deprecated on 08/25/2026 and the id is no longer in NVIDIA's public model list (integrate.api.nvidia.com/v1/models) on 2026-10-02; this concerns the hosted endpoint only, so the lifecycle follows the open weights, which remain downloadable. Hugging Face metadata shows the repository was created on 2025-03-16.",
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "meta.llama-3-1",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-nano-8b-v1-model-card",
+          "locator": "base: Llama-3.1-8B-Instruct"
+        }
+      ]
+    }
+  ]
+}

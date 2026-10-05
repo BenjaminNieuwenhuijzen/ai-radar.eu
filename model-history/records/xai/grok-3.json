@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-3",
+  "name": "Grok 3",
+  "aliases": [
+    {
+      "text": "Grok 3",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 3 Beta",
+      "match": "auto"
+    },
+    {
+      "text": "grok-3",
+      "match": "auto"
+    },
+    {
+      "text": "grok-3-beta",
+      "match": "auto"
+    },
+    {
+      "text": "grok-3-latest",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 3 (Think)",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 3 Reasoning",
+      "match": "auto"
+    },
+    {
+      "text": "grok-3-fast",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "3",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.xai.may-15-2026-model-retirement",
+        "locator": "list of retired models"
+      }
+    ],
+    "note": "Retired from the xAI API; requests to grok-3 are served by grok-4.3."
+  },
+  "replacedBy": {
+    "modelId": "xai.grok-4-3",
+    "sources": [
+      {
+        "id": "src.xai.may-15-2026-model-retirement",
+        "locator": "Recommended Replacements"
+      }
+    ],
+    "note": "grok-3 redirects to grok-4.3 with reasoning effort none."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02-19",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement",
+          "locator": "closing section"
+        }
+      ],
+      "note": "The post says Grok 3 is now available to X Premium and Premium+ users on X and grok.com, as a beta; it also says the rollout to users would take place over the coming days."
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2026-05-15",
+      "sources": [
+        {
+          "id": "src.xai.may-15-2026-model-retirement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Effective 12:00 PM PT on the xAI API."
+    }
+  },
+  "milestones": [
+    {
+      "id": "api",
+      "label": "Generally available on the xAI API",
+      "date": {
+        "value": "2025-04-03",
+        "sources": [
+          {
+            "id": "src.xai.api-release-notes",
+            "locator": "April 2025, Apr 3"
+          },
+          {
+            "id": "src.xai.company-page",
+            "locator": "Our path of progress, 2025: Grok 3 API"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-2-2024-12",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement"
+        }
+      ],
+      "note": "Editorial link along the main Grok line: the announcement names no predecessor model, and the December 2024 Grok-2 was the current flagship before it."
+    }
+  ],
+  "summary": {
+    "text": "Grok 3 is a language model from xAI with a reasoning mode, Grok 3 (Think). It launched as a beta on 19 February 2025 for X Premium and Premium+ users on X and grok.com, became generally available on the xAI API on 3 April 2025 and was retired from the API on 15 May 2026. xAI says it was trained on its Colossus supercluster.",
+    "sources": [
+      {
+        "id": "src.xai.grok-3-announcement"
+      },
+      {
+        "id": "src.xai.api-release-notes"
+      },
+      {
+        "id": "src.xai.may-15-2026-model-retirement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "xai.grok-2-2024-12",
+      "text": "Context window of 1 million tokens, which xAI called eight times larger than its previous models; the grok-3 API model page listed 131,072 tokens.",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement",
+          "locator": "Pretraining on a Massive Scale"
+        },
+        {
+          "id": "src.xai.grok-3-api-model-page",
+          "locator": "At a glance"
+        }
+      ]
+    },
+    {
+      "id": "think-mode",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "xai.grok-2-2024-12",
+      "text": "Adds a beta reasoning mode, Grok 3 (Think), trained with large-scale reinforcement learning to think for seconds to minutes before answering.",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement",
+          "locator": "Thinking Harder: Test-time Compute and Reasoning"
+        }
+      ]
+    },
+    {
+      "id": "training-compute",
+      "aspect": "other",
+      "relativeTo": "xai.grok-2-2024-12",
+      "text": "xAI says it trained Grok 3 on its Colossus supercluster with ten times the compute of earlier leading models.",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement",
+          "locator": "Pretraining on a Massive Scale"
+        }
+      ]
+    },
+    {
+      "id": "deepsearch",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "xai.grok-2-2024-12",
+      "text": "Launched together with DeepSearch, an xAI agent that searches for information and writes a summary report.",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-api-model-page",
+          "locator": "At a glance, Modalities"
+        }
+      ],
+      "note": "As listed for the API model grok-3 (drawn as icons: text to text). The announcement also reports image and video understanding evaluations, which are not reflected here."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-api-model-page",
+          "locator": "At a glance, Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.grok-3-announcement",
+            "locator": "Thinking Harder: Test-time Compute and Reasoning"
+          }
+        ],
+        "note": "Grok 3 (Think), a beta reasoning mode at launch, switched on with the Think button."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1 million tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement",
+          "locator": "Pretraining on a Massive Scale"
+        }
+      ],
+      "note": "The xAI API model page listed a context window of 131,072 tokens for grok-3 (src.xai.grok-3-api-model-page)."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement",
+          "locator": "closing section"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "April 2025, Apr 3"
+        }
+      ]
+    }
+  },
+  "notes": "Launched as Grok 3 Beta. Grok 3 (Think) is the name of its reasoning mode in the announcement; the Grok 4 announcement calls it Grok 3 Reasoning. Both kept as aliases. Lifecycle and retirement apply to the xAI API (May 15, 2026 retirement guide); no source states when Grok 3 left the consumer apps. No deprecation notice date is given, so deprecated is left empty. Context window: the announcement gives 1 million tokens, the API model page 131,072. Image input is not recorded because the API model page lists text only. No model card for Grok 3 was found. grok-3-fast was a separate faster-serving API listing linked from the grok-3 model page, kept as a candidate alias."
+}

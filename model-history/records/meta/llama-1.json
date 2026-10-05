@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.llama-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-1",
+  "name": "LLaMA",
+  "aliases": [
+    {
+      "text": "Llama 1",
+      "match": "auto"
+    },
+    {
+      "text": "LLaMA 1",
+      "match": "auto"
+    },
+    {
+      "text": "Large Language Model Meta AI",
+      "match": "candidate"
+    },
+    {
+      "text": "LLaMA",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.llama",
+  "generation": "1",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "research-only",
+    "sources": [
+      {
+        "id": "src.meta.llama-1-announcement",
+        "locator": "paragraph on the noncommercial license"
+      },
+      {
+        "id": "src.meta.llama-1-repository",
+        "locator": "README: Download"
+      },
+      {
+        "id": "src.meta.llama-1-model-card",
+        "locator": "Model details: License; Intended use"
+      }
+    ],
+    "note": "Weights are sent only after an approved request, under a non-commercial licence for research use. The request form linked from the llama_v1 README was still online on 2026-10-01; no Meta page says whether requests are still granted. Meta's Hugging Face organisations hold no LLaMA repos."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-02-24",
+      "sources": [
+        {
+          "id": "src.meta.llama-1-announcement",
+          "locator": "page date: February 24, 2023"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "LLaMA is a set of large language models for text from Meta, released on 24 February 2023 in sizes of 7B, 13B, 33B and 65B parameters to help researchers study such models. The weights were shared case by case with approved researchers under a non-commercial licence; from the Llama 2 launch on, Meta calls it Llama 1.",
+    "sources": [
+      {
+        "id": "src.meta.llama-1-announcement"
+      },
+      {
+        "id": "src.meta.llama-1-repository",
+        "locator": "README: Download"
+      },
+      {
+        "id": "src.meta.llama-2-announcement"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-1-announcement",
+          "locator": "paragraph beginning Like other large language models"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-1-announcement",
+          "locator": "paragraph beginning Like other large language models"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 2048,
+      "asStated": "2k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-paper",
+          "locator": "Table 1"
+        }
+      ],
+      "note": "Stated in the Llama 2 paper's comparison of Llama 1 and Llama 2; the LLaMA paper and model card give no figure."
+    },
+    "access": {
+      "value": [
+        "research-only"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-1-announcement",
+          "locator": "paragraph on the noncommercial license"
+        },
+        {
+          "id": "src.meta.llama-1-paper",
+          "locator": "Abstract"
+        },
+        {
+          "id": "src.meta.llama-1-repository",
+          "locator": "README: Download"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "llama-7b",
+      "name": "LLaMA 7B",
+      "aliases": [
+        {
+          "text": "LLaMA-7B",
+          "match": "auto"
+        },
+        {
+          "text": "LLaMA 7B",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 7000000000,
+          "asStated": "7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-1-announcement",
+              "locator": "paragraph listing the 7B, 13B, 33B and 65B sizes"
+            },
+            {
+              "id": "src.meta.llama-1-model-card",
+              "locator": "Model details: Model type"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.llama-1-announcement",
+          "locator": "paragraph listing the 7B, 13B, 33B and 65B sizes"
+        },
+        {
+          "id": "src.meta.llama-1-model-card",
+          "locator": "Model details: Model type"
+        }
+      ]
+    },
+    {
+      "id": "llama-13b",
+      "name": "LLaMA 13B",
+      "aliases": [
+        {
+          "text": "LLaMA-13B",
+          "match": "auto"
+        },
+        {
+          "text": "LLaMA 13B",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 13000000000,
+          "asStated": "13B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-1-announcement",
+              "locator": "paragraph listing the 7B, 13B, 33B and 65B sizes"
+            },
+            {
+              "id": "src.meta.llama-1-model-card",
+              "locator": "Model details: Model type"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.llama-1-announcement",
+          "locator": "paragraph listing the 7B, 13B, 33B and 65B sizes"
+        },
+        {
+          "id": "src.meta.llama-1-model-card",
+          "locator": "Model details: Model type"
+        }
+      ]
+    },
+    {
+      "id": "llama-33b",
+      "name": "LLaMA 33B",
+      "aliases": [
+        {
+          "text": "LLaMA-33B",
+          "match": "auto"
+        },
+        {
+          "text": "LLaMA 33B",
+          "match": "auto"
+        },
+        {
+          "text": "LLaMA 30B",
+          "match": "candidate"
+        },
+        {
+          "text": "LLaMA-30B",
+          "match": "candidate"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 33000000000,
+          "asStated": "33B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-1-announcement",
+              "locator": "paragraph listing the 7B, 13B, 33B and 65B sizes"
+            },
+            {
+              "id": "src.meta.llama-1-model-card",
+              "locator": "Model details: Model type"
+            }
+          ]
+        }
+      },
+      "note": "The download script on the llama_v1 branch names this size 30B.",
+      "sources": [
+        {
+          "id": "src.meta.llama-1-announcement",
+          "locator": "paragraph listing the 7B, 13B, 33B and 65B sizes"
+        },
+        {
+          "id": "src.meta.llama-1-model-card",
+          "locator": "Model details: Model type"
+        },
+        {
+          "id": "src.meta.llama-1-paper",
+          "locator": "Section 2 Approach, Figure 1 caption"
+        },
+        {
+          "id": "src.meta.llama-1-repository",
+          "locator": "download.sh"
+        }
+      ]
+    },
+    {
+      "id": "llama-65b",
+      "name": "LLaMA 65B",
+      "aliases": [
+        {
+          "text": "LLaMA-65B",
+          "match": "auto"
+        },
+        {
+          "text": "LLaMA 65B",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 65000000000,
+          "asStated": "65B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-1-announcement",
+              "locator": "paragraph listing the 7B, 13B, 33B and 65B sizes"
+            },
+            {
+              "id": "src.meta.llama-1-model-card",
+              "locator": "Model details: Model type"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.llama-1-announcement",
+          "locator": "paragraph listing the 7B, 13B, 33B and 65B sizes"
+        },
+        {
+          "id": "src.meta.llama-1-model-card",
+          "locator": "Model details: Model type"
+        }
+      ]
+    }
+  ],
+  "notes": "Released under the name LLaMA (Large Language Model Meta AI); from the Llama 2 launch on Meta calls it Llama 1 (src.meta.llama-2-announcement, src.meta.llama-2-paper). Weights went only to approved researchers, so openWeights is not recorded. The paper also describes LLaMA-I, a 65B instruction-finetuning experiment that was not released. The paper appeared on arXiv on 2023-02-27, three days after the launch post. The launch post links the model card on the main branch, which now shows the Llama 2 card; the LLaMA card is on the llama_v1 branch."
+}

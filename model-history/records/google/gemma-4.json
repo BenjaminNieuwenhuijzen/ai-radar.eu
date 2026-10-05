@@ -1,0 +1,568 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemma-4",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemma-4",
+  "name": "Gemma 4",
+  "aliases": [
+    {
+      "text": "Gemma 4",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemma",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.google.gemma-4-hugging-face-collection"
+      }
+    ],
+    "note": "Open weights for all sizes are published in Google's Hugging Face organisation (as seen on 2026-10-01)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-04-02",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-announcement"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "April 2, 2026"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2026-03-31",
+          "sources": [
+            {
+              "id": "src.google.gemma-releases",
+              "locator": "March 31, 2026"
+            }
+          ],
+          "note": "The Gemma releases page dates the release of Gemma 4 in E2B, E4B, 31B and 26B A4B sizes to March 31, 2026."
+        }
+      ],
+      "note": "Launch sizes E2B, E4B, 26B A4B and 31B; the 12B Unified size followed on 2026-06-03 (see variants)."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemma-3",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-technical-report",
+          "locator": "1 Introduction"
+        }
+      ],
+      "note": "The technical report introduces Gemma 4 as building on its predecessors and cites the Gemma, Gemma 2 and Gemma 3 reports; the launch post refers only to the first generation."
+    }
+  ],
+  "summary": {
+    "text": "Gemma 4 is a family of open-weight models from Google, released on 2 April 2026 under the Apache 2.0 licence in E2B, E4B, 26B Mixture-of-Experts and 31B dense sizes, with a 12B Unified size added in June 2026. All sizes take text, image and video input and return text. Google says Gemma 4 is built from the same research and technology as Gemini 3.",
+    "sources": [
+      {
+        "id": "src.google.gemma-4-announcement"
+      },
+      {
+        "id": "src.google.gemma-4-model-card"
+      },
+      {
+        "id": "src.google.gemma-4-12b-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "apache-2-0",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "google.gemma-3",
+      "text": "Released under the Apache 2.0 licence, a choice Google links to developer feedback.",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-announcement"
+        }
+      ]
+    },
+    {
+      "id": "thinking-mode",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "google.gemma-3",
+      "text": "Adds a configurable thinking mode in all sizes, which produces a reasoning trace before the answer.",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-technical-report",
+          "locator": "1 Introduction"
+        },
+        {
+          "id": "src.google.gemma-4-model-card",
+          "locator": "Core Capabilities: Thinking"
+        }
+      ]
+    },
+    {
+      "id": "audio-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "google.gemma-3",
+      "text": "Adds native audio input on the E2B and E4B sizes, and on the 12B Unified size added in June 2026.",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-model-card"
+        }
+      ]
+    },
+    {
+      "id": "moe-size",
+      "aspect": "architecture",
+      "direction": "added",
+      "relativeTo": "google.gemma-3",
+      "text": "Adds a Mixture-of-Experts size, 26B A4B, which activates 3.8 billion of its 25.2 billion parameters during inference.",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-model-card",
+          "locator": "Mixture-of-Experts (MoE) Model"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-announcement",
+          "locator": "Vision and audio"
+        },
+        {
+          "id": "src.google.gemma-4-model-card",
+          "locator": "introduction: Extended Multimodalities"
+        }
+      ],
+      "note": "All sizes take image and video input; E2B, E4B and 12B also take audio (see variants)."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-model-card",
+          "locator": "introduction"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemma-4-model-card",
+            "locator": "Core Capabilities: Thinking"
+          },
+          {
+            "id": "src.google.gemma-4-technical-report",
+            "locator": "1 Introduction"
+          }
+        ],
+        "note": "Configurable thinking mode in all sizes."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemma-4-announcement",
+            "locator": "Agentic workflows"
+          },
+          {
+            "id": "src.google.gemma-4-model-card",
+            "locator": "Core Capabilities: Function Calling"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-hugging-face-collection"
+        },
+        {
+          "id": "src.google.gemma-4-announcement",
+          "locator": "An ecosystem of choices: Download the models"
+        }
+      ],
+      "note": "Released under the Apache 2.0 licence, pre-trained and instruction-tuned checkpoints."
+    },
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-announcement",
+          "locator": "Longer context"
+        },
+        {
+          "id": "src.google.gemma-4-model-card",
+          "locator": "Core Capabilities: Long Context"
+        }
+      ],
+      "note": "Larger sizes (12B, 26B A4B, 31B); E2B and E4B have 128K (see variants)."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api",
+        "on-device"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-announcement",
+          "locator": "An ecosystem of choices; E2B and E4B models"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "April 2, 2026"
+        }
+      ],
+      "note": "Weights on Hugging Face, Kaggle and Ollama; 26B A4B and 31B also in Google AI Studio and the Gemini API; E2B and E4B run offline on phones and edge devices (Google AI Edge Gallery, AICore Developer Preview)."
+    }
+  },
+  "variants": [
+    {
+      "id": "e2b",
+      "name": "Gemma 4 E2B",
+      "aliases": [
+        {
+          "text": "Gemma 4 E2B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-4-E2B-it",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "inputModalities": {
+          "value": [
+            "text",
+            "image",
+            "audio",
+            "video"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-4-announcement",
+              "locator": "Vision and audio"
+            },
+            {
+              "id": "src.google.gemma-4-model-card",
+              "locator": "introduction: Extended Multimodalities; Dense Models: Supported Modalities"
+            }
+          ],
+          "note": "The size table lists Text, Image, Audio; the launch post and the model card introduction say all sizes also process video."
+        },
+        "contextWindowTokens": {
+          "value": 128000,
+          "asStated": "128K",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-4-model-card",
+              "locator": "Dense Models: Context Length"
+            }
+          ]
+        },
+        "parameters": {
+          "value": 2300000000,
+          "asStated": "2.3B effective (5.1B with embeddings)",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-4-model-card",
+              "locator": "Dense Models: Total Parameters"
+            }
+          ]
+        }
+      },
+      "note": "Edge size with per-layer embeddings; pre-trained and instruction-tuned checkpoints.",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-announcement",
+          "locator": "We are releasing Gemma 4 in four versatile sizes"
+        },
+        {
+          "id": "src.google.gemma-4-hugging-face-collection"
+        }
+      ]
+    },
+    {
+      "id": "e4b",
+      "name": "Gemma 4 E4B",
+      "aliases": [
+        {
+          "text": "Gemma 4 E4B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-4-E4B-it",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "inputModalities": {
+          "value": [
+            "text",
+            "image",
+            "audio",
+            "video"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-4-announcement",
+              "locator": "Vision and audio"
+            },
+            {
+              "id": "src.google.gemma-4-model-card",
+              "locator": "introduction: Extended Multimodalities; Dense Models: Supported Modalities"
+            }
+          ],
+          "note": "The size table lists Text, Image, Audio; the launch post and the model card introduction say all sizes also process video."
+        },
+        "contextWindowTokens": {
+          "value": 128000,
+          "asStated": "128K",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-4-model-card",
+              "locator": "Dense Models: Context Length"
+            }
+          ]
+        },
+        "parameters": {
+          "value": 4500000000,
+          "asStated": "4.5B effective (8B with embeddings)",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-4-model-card",
+              "locator": "Dense Models: Total Parameters"
+            }
+          ]
+        }
+      },
+      "note": "Edge size with per-layer embeddings; pre-trained and instruction-tuned checkpoints.",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-announcement",
+          "locator": "We are releasing Gemma 4 in four versatile sizes"
+        },
+        {
+          "id": "src.google.gemma-4-hugging-face-collection"
+        }
+      ]
+    },
+    {
+      "id": "26b-a4b",
+      "name": "Gemma 4 26B A4B",
+      "aliases": [
+        {
+          "text": "Gemma 4 26B A4B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-4-26b-a4b-it",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 25200000000,
+          "asStated": "25.2B total, 3.8B active",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-4-model-card",
+              "locator": "Mixture-of-Experts (MoE) Model"
+            }
+          ]
+        }
+      },
+      "note": "Mixture-of-Experts size (8 of 128 experts active plus 1 shared); the launch post calls it 26B Mixture of Experts (MoE). Also served through the Gemini API as gemma-4-26b-a4b-it.",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-announcement",
+          "locator": "26B and 31B models"
+        },
+        {
+          "id": "src.google.gemma-4-hugging-face-collection"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "April 2, 2026"
+        }
+      ]
+    },
+    {
+      "id": "31b",
+      "name": "Gemma 4 31B",
+      "aliases": [
+        {
+          "text": "Gemma 4 31B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-4-31b-it",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 30700000000,
+          "asStated": "30.7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-4-model-card",
+              "locator": "Dense Models: Total Parameters"
+            }
+          ]
+        }
+      },
+      "note": "Dense size; the launch post calls it 31B Dense. Also served through the Gemini API as gemma-4-31b-it.",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-announcement",
+          "locator": "26B and 31B models"
+        },
+        {
+          "id": "src.google.gemma-4-hugging-face-collection"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "April 2, 2026"
+        }
+      ]
+    },
+    {
+      "id": "12b",
+      "name": "Gemma 4 12B Unified",
+      "aliases": [
+        {
+          "text": "Gemma 4 12B Unified",
+          "match": "auto"
+        },
+        {
+          "text": "Gemma 4 12B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-4-12B-it",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2026-06-03",
+          "sources": [
+            {
+              "id": "src.google.gemma-4-12b-announcement"
+            },
+            {
+              "id": "src.google.gemma-releases",
+              "locator": "June 3, 2026"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "inputModalities": {
+          "value": [
+            "text",
+            "image",
+            "audio",
+            "video"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-4-12b-announcement",
+              "locator": "first paragraph; Novel unified architecture"
+            },
+            {
+              "id": "src.google.gemma-4-model-card",
+              "locator": "introduction: Extended Multimodalities; Dense Models: Supported Modalities"
+            }
+          ],
+          "note": "The announcement names vision and audio input; the size table lists Text, Image, Audio, and the model card introduction describes video understanding for the family as a whole."
+        },
+        "parameters": {
+          "value": 11950000000,
+          "asStated": "11.95B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-4-model-card",
+              "locator": "Dense Models: Total Parameters"
+            }
+          ]
+        }
+      },
+      "note": "Added after the launch; encoder-free architecture that feeds image patches and audio directly into the language model. The announcement headline calls it Gemma 4 12B; the releases page and model card call it Gemma 4 12B Unified.",
+      "sources": [
+        {
+          "id": "src.google.gemma-4-12b-announcement"
+        },
+        {
+          "id": "src.google.gemma-4-hugging-face-collection"
+        }
+      ]
+    }
+  ],
+  "notes": "Size variants of one release are inline variants; each size has pre-trained and instruction-tuned (-it) checkpoints. Multi-token prediction drafters for the four launch sizes followed on 2026-04-16 (Gemma releases page). Google says Gemma 4 is built from the same research and technology as Gemini 3; no lineage to a specific Gemini model is stated. A DiffusionGemma 26B A4B repository sits in the same Hugging Face collection but is not treated as a Gemma 4 size here."
+}

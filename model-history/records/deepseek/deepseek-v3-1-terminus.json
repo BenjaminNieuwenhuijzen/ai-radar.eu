@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v3-1-terminus",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v3-1-terminus",
+  "name": "DeepSeek-V3.1-Terminus",
+  "aliases": [
+    {
+      "text": "DeepSeek-V3.1-Terminus",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V3.1 Terminus",
+      "match": "auto"
+    },
+    {
+      "text": "V3.1-Terminus",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-v",
+  "generation": "3.1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-1-terminus-hf",
+        "locator": "License"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-09-29"
+      },
+      {
+        "id": "src.deepseek.v3-1-terminus-comparison-testing"
+      }
+    ],
+    "note": "Weights are still public on DeepSeek's Hugging Face organisation under the MIT License. In the DeepSeek API it was replaced by DeepSeek-V3.2-Exp on 2025-09-29; a temporary comparison endpoint served it until 2025-10-15 15:59 UTC."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v3-2-exp",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-09-29"
+      },
+      {
+        "id": "src.deepseek.v3-1-terminus-comparison-testing"
+      }
+    ],
+    "note": "In the DeepSeek API only: both API model names were upgraded to DeepSeek-V3.2-Exp; V3.1-Terminus stayed reachable on a temporary endpoint until 2025-10-15. The weights stay available."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-09-22",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-terminus-announcement",
+          "locator": "page header 2025/09/22"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-09-22"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "deepseek.deepseek-v3-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-terminus-announcement"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-09-22"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-1-terminus-hf",
+          "locator": "Introduction"
+        }
+      ],
+      "note": "DeepSeek presents it as an update of DeepSeek-V3.1 that keeps its capabilities while fixing reported issues."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V3.1-Terminus is an update of DeepSeek-V3.1, released on 22 September 2025 in the DeepSeek app, web chat and API, with open weights under the MIT License. DeepSeek says it keeps the capabilities of V3.1 while fixing issues users reported, such as mixed Chinese and English and occasional abnormal characters.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-1-terminus-announcement"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-1-terminus-hf",
+        "locator": "License"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-09-22"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "language-consistency",
+      "aspect": "languages",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-1",
+      "text": "Less mixing of Chinese and English and fewer occasional abnormal characters in output, according to DeepSeek.",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-09-22"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-1",
+      "text": "DeepSeek reports better Code Agent and Search Agent performance; the search-agent template and tool set were updated.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-terminus-hf",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-09-22"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.api-change-log",
+            "locator": "Date: 2025-09-22"
+          }
+        ],
+        "note": "Thinking and non-thinking modes, served as deepseek-reasoner and deepseek-chat."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-terminus-announcement"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-1-terminus-hf",
+          "locator": "License"
+        }
+      ],
+      "note": "MIT License for the repository and the weights."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-terminus-announcement"
+        }
+      ]
+    }
+  },
+  "notes": "The announcement is headed DeepSeek V3.1 Update. The model card says the model structure is the same as DeepSeek-V3 but restates neither parameter count nor context window, so both are left out. Its Hugging Face card names DeepSeek-V3.1-Base as the base model. The comparison-testing guide shows the API returning the model name deepseek-v3.1-terminus; it is not added as a separate alias because it normalises to the official name."
+}

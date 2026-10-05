@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-4",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-4",
+  "name": "Grok 4",
+  "aliases": [
+    {
+      "text": "Grok 4",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4-0709",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4-latest",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.xai.may-15-2026-model-retirement",
+        "locator": "list of retired models"
+      }
+    ],
+    "note": "grok-4-0709 retired from the xAI API; requests are served by grok-4.3."
+  },
+  "replacedBy": {
+    "modelId": "xai.grok-4-3",
+    "sources": [
+      {
+        "id": "src.xai.may-15-2026-model-retirement",
+        "locator": "Recommended Replacements"
+      }
+    ],
+    "note": "grok-4-0709 redirects to grok-4.3 with low reasoning effort."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-07-09",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "July 2025, Jul 9"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2026-05-15",
+      "sources": [
+        {
+          "id": "src.xai.may-15-2026-model-retirement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Effective 12:00 PM PT on the xAI API."
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-3",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-announcement",
+          "locator": "Scaling Up Reinforcement Learning"
+        }
+      ],
+      "note": "Editorial link along the main Grok line: the announcement describes Grok 4 as scaling up the reinforcement learning work begun with Grok 3 Reasoning, without calling it a successor."
+    }
+  ],
+  "summary": {
+    "text": "Grok 4 is an xAI reasoning model with text and image input, released on 9 July 2025 to SuperGrok and Premium+ subscribers and on the xAI API with a 256,000-token context window. xAI says it trained the model with reinforcement learning at pretraining scale and to use tools natively; a Grok 4 Heavy version came with a new subscription tier. It was retired from the API on 15 May 2026.",
+    "sources": [
+      {
+        "id": "src.xai.grok-4-announcement"
+      },
+      {
+        "id": "src.xai.grok-4-model-card"
+      },
+      {
+        "id": "src.xai.may-15-2026-model-retirement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "rl-scale",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "xai.grok-3",
+      "text": "xAI says it ran reinforcement learning at pretraining scale, with over an order of magnitude more compute than it had used before.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-announcement",
+          "locator": "Scaling Up Reinforcement Learning"
+        }
+      ]
+    },
+    {
+      "id": "native-tools",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "xai.grok-3",
+      "text": "Trained with reinforcement learning to use tools natively, such as a code interpreter, web browsing and X search.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-announcement",
+          "locator": "Native Tool Use"
+        }
+      ]
+    },
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "xai.grok-3",
+      "text": "xAI describes the Grok 4 API as offering multimodal understanding of text and images; the grok-3 API model page listed text input only.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-announcement",
+          "locator": "Grok 4 API"
+        },
+        {
+          "id": "src.xai.grok-3-api-model-page",
+          "locator": "At a glance, Modalities"
+        }
+      ]
+    },
+    {
+      "id": "heavy",
+      "aspect": "availability",
+      "direction": "added",
+      "relativeTo": "xai.grok-3",
+      "text": "A Grok 4 Heavy version using parallel test-time compute was offered through a new SuperGrok Heavy subscription tier.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-announcement",
+          "locator": "Grok 4 Heavy"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-announcement",
+          "locator": "Grok 4 API"
+        }
+      ],
+      "note": "The announcement describes multimodal understanding across text and vision for the Grok 4 API."
+    },
+    "features": [
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.grok-4-announcement",
+            "locator": "Native Tool Use"
+          }
+        ],
+        "note": "Trained with reinforcement learning to use tools such as a code interpreter, web browsing and X search."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-announcement",
+          "locator": "Grok 4 API"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "July 2025, Jul 9"
+        },
+        {
+          "id": "src.xai.grok-4-model-card",
+          "locator": "section 1 Introduction"
+        },
+        {
+          "id": "src.xai.grok-com-release-notes",
+          "locator": "aug-29-2025"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "heavy",
+      "name": "Grok 4 Heavy",
+      "aliases": [
+        {
+          "text": "Grok 4 Heavy",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "access": {
+          "value": [
+            "consumer-app"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.xai.grok-4-announcement",
+              "locator": "first paragraph; Grok 4 Heavy"
+            }
+          ]
+        }
+      },
+      "note": "xAI presents it as a version of Grok 4 that uses parallel test-time compute to consider several hypotheses at once; it was offered through the new SuperGrok Heavy subscription tier.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-announcement",
+          "locator": "first paragraph; Grok 4 Heavy"
+        }
+      ]
+    }
+  ],
+  "notes": "API model id grok-4-0709 (named in the retirement guide); grok-4 and grok-4-latest were its API aliases. Grok 4 Heavy is kept as an inline variant because xAI presents it as a version of Grok 4 rather than a separate model. The announcement says Grok 4 was coming soon to hyperscaler partners; no primary source in this review confirms a date, so cloud-partner is left out. The model card (last updated 2025-08-20) covers Grok 4 API and Grok 4 Web. Lifecycle applies to the xAI API; no source states when Grok 4 left the consumer apps. No deprecation notice date is given. Output modalities are left out: the archived API model page that lists them could not be opened for this review."
+}

@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.magistral-medium-1-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "magistral-medium-1-2",
+  "name": "Magistral Medium 1.2",
+  "aliases": [
+    {
+      "text": "Magistral Medium 1.2",
+      "match": "auto"
+    },
+    {
+      "text": "magistral-medium-2509",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.magistral",
+  "generation": "1.2",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, Magistral Medium 1.2"
+      }
+    ],
+    "note": "The retirement date of 2026-07-31 in the models overview has passed; the docs model page still shows a Deprecated badge."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-medium-3-5",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, Alternative column"
+      },
+      {
+        "id": "src.mistral.magistral-medium-1-2-docs",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-09-17",
+      "sources": [
+        {
+          "id": "src.mistral.changelog",
+          "locator": "September 17 (2025)"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2025-09-18",
+          "sources": [
+            {
+              "id": "src.mistral.magistral-medium-1-2-docs",
+              "locator": "page header date"
+            }
+          ],
+          "note": "The docs model page gives September 18, 2025; the dated changelog entry, used as the value, gives September 17."
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-05-22",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, Magistral Medium 1.2"
+        },
+        {
+          "id": "src.mistral.magistral-medium-1-2-docs",
+          "locator": "Deprecation date"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-07-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, Magistral Medium 1.2"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.magistral-medium-1-1",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-2-docs"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "September 17 (2025)"
+        }
+      ],
+      "note": "Editorial link along the Magistral Medium tier: the docs call it the multimodal reasoning model update of September 2025 without naming a predecessor; Magistral Medium 1.1 (July 2025) was the previous Magistral Medium release."
+    }
+  ],
+  "summary": {
+    "text": "Magistral Medium 1.2 is a reasoning model in Mistral AI's Magistral line that takes text and image input and returns text, released on 17 September 2025 together with Magistral Small 1.2 and offered on Mistral's API under the commercial Premier licence category. Mistral retired it on 31 July 2026, naming Mistral Medium 3.5 as the replacement.",
+    "sources": [
+      {
+        "id": "src.mistral.magistral-medium-1-2-docs"
+      },
+      {
+        "id": "src.mistral.changelog",
+        "locator": "September 17 (2025)"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, Magistral Medium 1.2"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-2-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-2-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-2-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Mistral AI."
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.magistral-medium-1-2-docs",
+            "locator": "Features: Function Calling"
+          }
+        ]
+      }
+    ],
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-2-docs",
+          "locator": "Features: API endpoints"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "September 17 (2025)"
+        }
+      ]
+    }
+  },
+  "notes": "Released together with Magistral Small 1.2 (one changelog entry). No blog post found. The docs model page shows modalities as icons (text and image in, text out). The docs label the model Premier (commercial licence) with no weights link; openWeights is left out because no source states it explicitly. The docs page also lists the moving alias magistral-medium-latest, which is not recorded as an alias."
+}

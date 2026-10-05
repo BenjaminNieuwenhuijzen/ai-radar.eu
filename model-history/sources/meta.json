@@ -1,0 +1,829 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.meta.company-info",
+      "type": "other",
+      "title": "Company info",
+      "url": "https://www.meta.com/about/company-info/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page; content as seen on 2026-10-01. https://about.meta.com/company-info/ redirects (301) here; requests from the Netherlands are then redirected (302) to the locale version https://www.meta.com/en-gb/about/company-info/, which declares itself canonical.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.fair-10-years",
+      "type": "blog-post",
+      "title": "Celebrating 10 years of FAIR: A decade of advancing the state-of-the-art through open research",
+      "url": "https://ai.meta.com/blog/fair-10-year-anniversary-open-science-meta/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-11-30"
+      },
+      "notes": "Headline as shown on the page; the HTML title is Ten years of FAIR: Advancing the state-of-the-art through open research. Says the launch of FAIR dates back to late 2013.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.form-10-k-2021",
+      "type": "other",
+      "title": "Form 10-K for the fiscal year ended December 31, 2021",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680122000018/fb-20211231.htm",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2022-02-03"
+      },
+      "notes": "Annual report filed by Meta Platforms, Inc. on SEC EDGAR (filing date 2022-02-03); states that in October 2021 the company changed its corporate name from Facebook, Inc. to Meta Platforms, Inc. Title from the cover page; the HTML title is fb-20211231.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.form-10-k-2025",
+      "type": "other",
+      "title": "Form 10-K for the fiscal year ended December 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-01-29"
+      },
+      "notes": "Annual report filed by Meta Platforms, Inc. on SEC EDGAR (filing date 2026-01-29, signed 2026-01-28). Title from the cover page; the HTML title is meta-20251231. sec.gov answers 403 to requests without a declared User-Agent, which source health may need to handle.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.form-8-k-2021-10-28",
+      "type": "other",
+      "title": "Form 8-K: Current Report (October 28, 2021)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680121000071/fb-20211028.htm",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2021-10-28"
+      },
+      "notes": "Current report filed on SEC EDGAR on 2021-10-28; Item 5.03 states that on October 28, 2021 Facebook, Inc. changed its corporate name to Meta Platforms, Inc. Title from the cover page; the HTML title is fb-20211028.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.future-of-ai-built-with-llama",
+      "type": "blog-post",
+      "title": "The future of AI: Built with Llama",
+      "url": "https://ai.meta.com/blog/future-of-ai-built-with-llama/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2024-12-19"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Year-end Meta AI blog post dated December 19, 2024, reviewing the Llama 3, 3.1, 3.2 and 3.3 releases; it links Llama 3.3 70B to https://www.llama.com/.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-1-announcement",
+      "type": "announcement",
+      "title": "Introducing LLaMA: A foundational, 65-billion-parameter large language model",
+      "url": "https://ai.meta.com/blog/large-language-model-llama-meta-ai/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2023-02-24"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page. A later update line at the top points to Llama 2. Originally at https://ai.facebook.com/blog/large-language-model-llama-meta-ai/, which redirects (301) here. Its Read the model card link (github.com/facebookresearch/llama/blob/main/MODEL_CARD.md) now leads to the Llama 2 card; the LLaMA card is src.meta.llama-1-model-card.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-1-model-card",
+      "type": "model-card",
+      "title": "LLaMA Model Card",
+      "url": "https://github.com/meta-llama/llama/blob/llama_v1/MODEL_CARD.md",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card on the llama_v1 branch of Meta's llama repository; https://github.com/facebookresearch/llama/blob/llama_v1/MODEL_CARD.md redirects (301) here. Title is the document heading. The main branch of the repository now holds the Llama 2 card.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-1-paper",
+      "type": "research-paper",
+      "title": "LLaMA: Open and Efficient Foundation Language Models",
+      "url": "https://arxiv.org/abs/2302.13971",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2023-02-27",
+        "note": "Submission date of v1, the only version."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv paper by Meta AI authors (Touvron et al.). Meta's research page https://research.facebook.com/publications/llama-open-and-efficient-foundation-language-models/ lists it with February 24, 2023.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-1-repository",
+      "type": "repository",
+      "title": "meta-llama/llama at llama_v1",
+      "url": "https://github.com/meta-llama/llama/tree/llama_v1",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "llama_v1 branch of Meta's llama repository (README heading LLaMA; GitHub page title GitHub - meta-llama/llama at llama_v1). The README says checkpoints are sent after an approved request via a Google form; download.sh lists the sizes as 7B, 13B, 30B and 65B. https://github.com/facebookresearch/llama/tree/llama_v1 redirects (301) here. The main branch is marked deprecated in favour of meta-llama/llama-models.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-2-13b-hf",
+      "type": "model-hub-page",
+      "title": "meta-llama/Llama-2-13b",
+      "url": "https://huggingface.co/meta-llama/Llama-2-13b",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gated repo with Meta's model card for the 13B pretrained model.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-2-70b-hf",
+      "type": "model-hub-page",
+      "title": "meta-llama/Llama-2-70b",
+      "url": "https://huggingface.co/meta-llama/Llama-2-70b",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gated repo with Meta's model card for the 70B pretrained model.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-2-7b-hf",
+      "type": "model-hub-page",
+      "title": "meta-llama/Llama-2-7b",
+      "url": "https://huggingface.co/meta-llama/Llama-2-7b",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gated repo with Meta's model card for the 7B pretrained model; the card's Llama Model Index links the other Llama 2 repos (7B, 13B, 70B, pretrained and chat, original and -hf formats) and the page includes the Llama 2 Community License.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-2-announcement",
+      "type": "announcement",
+      "title": "Meta and Microsoft Introduce the Next Generation of Llama",
+      "url": "https://ai.meta.com/blog/llama-2/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2023-07-18"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Meta AI blog post; the same text is in Meta's Newsroom at https://about.fb.com/news/2023/07/llama-2/ (July 18, 2023). https://ai.facebook.com/blog/llama-2/ redirects (301) here. Its link to ai.meta.com/llama now redirects via several hops to dev.meta.ai, which shows no public content without sign-in.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-2-hf-collection",
+      "type": "model-hub-page",
+      "title": "Llama 2 Family - a meta-llama Collection",
+      "url": "https://huggingface.co/collections/meta-llama/llama-2-family",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Collection in Meta's meta-llama organisation on Hugging Face with the original and transformers-format (-hf) repos of the pretrained and chat models at 7B, 13B and 70B, plus LlamaGuard-7b; last updated 2024-12-06. Access is gated: users share contact details and accept the Llama 2 Community License.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-2-model-card",
+      "type": "model-card",
+      "title": "llama-models/models/llama2/MODEL_CARD.md at main · meta-llama/llama-models",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama2/MODEL_CARD.md",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Llama 2 model card in Meta's central llama-models repository (title is the GitHub page title; the document opens with Model Details). The same card is on the main branch of meta-llama/llama and on the meta-llama Hugging Face repos. Living repository; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-2-paper",
+      "type": "research-paper",
+      "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+      "url": "https://arxiv.org/abs/2307.09288",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2023-07-18",
+        "note": "Submission date of v1; v2 followed on 2023-07-19."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv paper by Meta authors (Touvron et al.). Meta's research page https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/ lists it with July 18, 2023. Table 1 compares Llama 1 and Llama 2 (context length 2k and 4k).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-1-announcement",
+      "type": "announcement",
+      "title": "Introducing Llama 3.1: Our most capable models to date",
+      "url": "https://ai.meta.com/blog/meta-llama-3-1/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2024-07-23"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Meta AI blog post dated July 23, 2024. It links the Hugging Face collection under its old address https://huggingface.co/collections/meta-llama/llama-31-669fc079a0c406a149a5738f, which now redirects to https://huggingface.co/collections/meta-llama/llama-31.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-1-hf-collection",
+      "type": "model-hub-page",
+      "title": "Llama 3.1 - a meta-llama Collection",
+      "url": "https://huggingface.co/collections/meta-llama/llama-31",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Collection in Meta's Hugging Face organisation listing Llama-3.1-8B, -8B-Instruct, -70B, -70B-Instruct, -405B, -405B-Instruct, -405B-FP8 and -405B-Instruct-FP8 (gated), plus Llama Guard 3 and Prompt Guard. The repositories were first named Meta-Llama-3.1-*; those names now redirect (307) to Llama-3.1-*. Old collection address: https://huggingface.co/collections/meta-llama/llama-31-669fc079a0c406a149a5738f.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-1-model-card",
+      "type": "model-card",
+      "title": "llama-models/models/llama3_1/MODEL_CARD.md at main · meta-llama/llama-models · GitHub",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/MODEL_CARD.md",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Llama 3.1 model card in Meta's llama-models repository; the file has no title heading, so the title is the GitHub page title. States Model Release Date July 23, 2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-2-acceptable-use-policy",
+      "type": "documentation",
+      "title": "Llama 3.2 Acceptable Use Policy",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/USE_POLICY.md",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Linked from the Llama 3.2 announcement; the title is the document heading (GitHub page title: llama-models/models/llama3_2/USE_POLICY.md at main). The document names https://www.llama.com/llama3_2/use-policy as the most recent copy; that address now redirects to https://dev.meta.ai/llama/llama3-2/use-policy, which did not render the policy text when fetched without a browser.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-2-announcement",
+      "type": "announcement",
+      "title": "Llama 3.2: Revolutionizing edge AI and vision with open, customizable models",
+      "url": "https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2024-09-25"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Meta AI blog post dated September 25, 2024 (Meta Connect 2024). It links the Llama 3.2 acceptable use policy on GitHub for multimodal availability in Europe.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-2-hf-collection",
+      "type": "model-hub-page",
+      "title": "Llama 3.2 - a meta-llama Collection",
+      "url": "https://huggingface.co/collections/meta-llama/llama-32",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Collection in Meta's Hugging Face organisation listing Llama-3.2-1B, -3B, their Instruct versions, the QLORA_INT4_EO8 and SpinQuant_INT4_EO8 builds, Llama-3.2-11B-Vision, -90B-Vision and their Instruct versions (gated), plus Llama Guard 3 models. The older address https://huggingface.co/collections/meta-llama/llama-32-66f448ffc8c32f949b04c8cf redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-2-model-card",
+      "type": "model-card",
+      "title": "llama-models/models/llama3_2/MODEL_CARD.md at main · meta-llama/llama-models · GitHub",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card for the Llama 3.2 1B and 3B text models, including the quantized builds; the file has no title heading, so the title is the GitHub page title. Its Model Release Date now reads Oct 24, 2024, the date the quantized builds were released; the Hugging Face model cards of meta-llama/Llama-3.2-1B and -3B give Sept 25, 2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-2-vision-model-card",
+      "type": "model-card",
+      "title": "llama-models/models/llama3_2/MODEL_CARD_VISION.md at main · meta-llama/llama-models · GitHub",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card for Llama 3.2-Vision 11B and 90B; the file has no title heading, so the title is the GitHub page title. States Model Release Date Sept 25, 2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-3-70b-instruct-hf",
+      "type": "model-hub-page",
+      "title": "meta-llama/Llama-3.3-70B-Instruct · Hugging Face",
+      "url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model repository in Meta's Hugging Face organisation (gated: license acceptance required). Its model card gives Model Release Date 70B Instruct: December 6, 2024, and the Llama 3.3 Community License shown there gives Version Release Date December 6, 2024. It is the only model in the collection https://huggingface.co/collections/meta-llama/llama-33.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-3-docs",
+      "type": "documentation",
+      "title": "Llama 3.3 | Model Cards and Prompt formats",
+      "url": "https://dev.meta.ai/llama/docs/model-cards-and-prompt-formats/llama3_3",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Llama documentation page for Llama 3.3 (introduction, model card link, download link, prompt and function-calling format). The page declares this underscore address as its canonical URL. The old address https://www.llama.com/docs/model-cards-and-prompt-formats/llama3_3/ redirects (via developer.meta.com) to the hyphenated https://dev.meta.ai/llama/docs/model-cards-and-prompt-formats/llama3-3, which returned only an app shell without the page text when fetched without a browser.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-3-model-card",
+      "type": "model-card",
+      "title": "llama-models/models/llama3_3/MODEL_CARD.md at main · meta-llama/llama-models · GitHub",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama3_3/MODEL_CARD.md",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Llama 3.3 model card in Meta's llama-models repository; the file has no title heading, so the title is the GitHub page title. States Model Release Date 70B Instruct: December 6, 2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-herd-of-models",
+      "type": "research-paper",
+      "title": "The Llama 3 Herd of Models",
+      "url": "https://ai.meta.com/research/publications/the-llama-3-herd-of-models/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2024-07-23"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Meta research publication page dated July 23, 2024; the HTML title adds | Research - AI at Meta. The paper is also on arXiv as 2407.21783 (v1 submitted 2024-07-31, last revised v3 2024-11-23). The paper calls the released models Llama 3, with a 405B flagship.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-model-card",
+      "type": "model-card",
+      "title": "llama3/MODEL_CARD.md at main · meta-llama/llama3 · GitHub",
+      "url": "https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card linked from the Llama 3 announcement; the file has no title heading, so the title is the GitHub page title (its citation block calls it Llama 3 Model Card). States Model Release Date April 18, 2024. GitHub shows the repository as archived by the owner on Mar 1, 2026 (read-only); its README marks it deprecated in favour of meta-llama/llama-models, which keeps a near-identical copy at models/llama3/MODEL_CARD.md.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-3-models-page",
+      "type": "documentation",
+      "title": "Open-source AI Models for Any Application | Llama 3",
+      "url": "https://dev.meta.ai/llama/models/llama-3",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Meta's Llama 3 overview page covering Llama 3.1, 3.2 and 3.3, with download links per size. The old address https://www.llama.com/models/llama-3/ redirects here (via developer.meta.com). Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-4-announcement",
+      "type": "announcement",
+      "title": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
+      "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2025-04-05"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Announces Llama 4 Scout and Llama 4 Maverick and previews Llama 4 Behemoth. The page is dated April 5, 2025. Scripted requests (curl, Invoke-WebRequest with a browser User-Agent) got HTTP 400 on 2026-10-01; the content was read through a fetch tool.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-4-maverick-hf",
+      "type": "model-hub-page",
+      "title": "meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in Meta's meta-llama organisation on Hugging Face (HTML title adds Hugging Face). Gated repository: access is granted on request after accepting the Llama 4 Community License Agreement. The Hugging Face API gives a creation date of 2025-04-01 (before the public launch). Related repositories: meta-llama/Llama-4-Maverick-17B-128E (base), meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8, and -Original checkpoints of each.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-4-model-card",
+      "type": "model-card",
+      "title": "llama-models/models/llama4/MODEL_CARD.md",
+      "url": "https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Llama 4 model card (Llama 4 Scout and Llama 4 Maverick) in Meta's llama-models repository on GitHub; the file has no title heading, so the title is its repository path (HTML title: llama-models/models/llama4/MODEL_CARD.md at main, meta-llama/llama-models, GitHub). Living file on the main branch; the git history shows it was added on 2025-04-05 (commit 5fdf83110c) and last changed the same day (commit 038acb9fe1e1ddc5cf1b3989fb07b311a0ffcae4). The card states Model Release Date: April 5, 2025. The same text appears on the Hugging Face model pages. Linked as Model Card from Meta's Llama 4 docs page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-4-model-cards-and-prompt-formats",
+      "type": "documentation",
+      "title": "Llama 4 | Model Cards and Prompt formats",
+      "url": "https://dev.meta.ai/llama/docs/model-cards-and-prompt-formats/llama4",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Meta's developer docs page for Llama 4 (feature table with modalities, parameters, experts and maximum context length per model; prompt formats). Originally published at https://www.llama.com/docs/model-cards-and-prompt-formats/llama4/, which now redirects (301 to developer.meta.com/ai/docs/model-cards-and-prompt-formats/llama4/, 302 to dev.meta.ai/llama/docs/model-cards-and-prompt-formats/llama4/, 308 to this URL). Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-4-models-page",
+      "type": "documentation",
+      "title": "Unmatched Performance and Efficiency | Llama 4",
+      "url": "https://dev.meta.ai/llama/models/llama-4",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Meta's Llama 4 model page with download links for Llama 4 Scout and Llama 4 Maverick. Originally published at https://www.llama.com/models/llama-4/, which now redirects (301 to developer.meta.com/ai/models/llama-4/, 302 to dev.meta.ai/llama/models/llama-4/, 308 to this URL). Living page; content as seen on 2026-10-01. The download links point to /llama/llama-downloads, which redirected to a sign-in protected page for a scripted request.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-4-scout-hf",
+      "type": "model-hub-page",
+      "title": "meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E-Instruct",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in Meta's meta-llama organisation on Hugging Face (HTML title adds Hugging Face). Gated repository: access is granted on request after accepting the Llama 4 Community License Agreement. The Hugging Face API gives a creation date of 2025-04-02 (before the public launch). Base model at https://huggingface.co/meta-llama/Llama-4-Scout-17B-16E; original-format checkpoints in meta-llama/Llama-4-Scout-17B-16E-Original and meta-llama/Llama-4-Scout-17B-16E-Instruct-Original.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-api-models",
+      "type": "documentation",
+      "title": "Models",
+      "url": "https://llama.developer.meta.com/docs/models",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "archiveUrl": "https://web.archive.org/web/20250914141440/https://llama.developer.meta.com/docs/models",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2025-09-14",
+      "notes": "Llama API documentation page listing the models offered in the Llama API. On 2026-10-01 the address redirected to https://dev.meta.ai/docs/models, the Meta Model API models page, which lists Muse models and no Llama models, so the original content is only available in the archive. Checked the 2025-09-14 capture on 2026-10-01: it lists Llama-4-Maverick-17B-128E-Instruct-FP8, Llama-4-Scout-17B-16E-Instruct-FP8, Llama-3.3-70B-Instruct and Llama-3.3-8B-Instruct with context window and modalities (the page is client-rendered; the text sits in the embedded page data).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-models-docs",
+      "type": "documentation",
+      "title": "Llama Models",
+      "url": "https://dev.meta.ai/llama/docs/model-cards-and-prompt-formats",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Llama documentation page with the section Upgrading your application from Llama 3 to Llama 3.1. The old address https://www.llama.com/docs/model-cards-and-prompt-formats/ redirects here (three redirects, via developer.meta.com).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llama-models-repository",
+      "type": "repository",
+      "title": "GitHub - meta-llama/llama-models: Utilities intended for use with Llama models. · GitHub",
+      "url": "https://github.com/meta-llama/llama-models",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Meta's central repository for Llama model cards, licenses and use policies. Its README has a table with launch date, model sizes and context length per release (Llama 2 7/18/2023, 4K; Llama 3 4/18/2024, 8K; Llama 3.1 7/23/2024, 128K; Llama 3.2 and Llama 3.2-Vision 9/25/2024, 128K; Llama 3.3 12/04/2024, 128K). Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.llamacon-announcement",
+      "type": "announcement",
+      "title": "Everything we announced at our first-ever LlamaCon",
+      "url": "https://ai.meta.com/blog/llamacon-llama-news/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2025-04-29"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Announces the Llama API as a limited free preview with Llama 4 Scout and Llama 4 Maverick, fine-tuning of Llama 3.3 8B, and the safeguard models Llama Guard 4 and Llama Prompt Guard 2. Scripted requests got HTTP 400 on 2026-10-01; the content was read through a fetch tool.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.meta-llama-3-announcement",
+      "type": "announcement",
+      "title": "Introducing Meta Llama 3: The most capable openly available LLM to date",
+      "url": "https://ai.meta.com/blog/meta-llama-3/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2024-04-18"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Meta AI blog post; the page is dated April 18, 2024. It links the model card in the meta-llama/llama3 GitHub repository and the Llama 3 website https://llama.meta.com/llama3, which now redirects to a general Meta developer page (https://dev.meta.ai/).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.meta-llama-3-hf-collection",
+      "type": "model-hub-page",
+      "title": "Meta Llama 3 - a meta-llama Collection",
+      "url": "https://huggingface.co/collections/meta-llama/meta-llama-3",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Collection in Meta's own Hugging Face organisation (meta-llama) listing Meta-Llama-3-8B, Meta-Llama-3-8B-Instruct, Meta-Llama-3-70B and Meta-Llama-3-70B-Instruct (gated: license acceptance required) plus Llama Guard 2. The older address https://huggingface.co/collections/meta-llama/meta-llama-3-66214712577ca38149ebb2b6 redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.metaseq-opt",
+      "type": "repository",
+      "title": "metaseq/projects/OPT at main · facebookresearch/metaseq",
+      "url": "https://github.com/facebookresearch/metaseq/tree/main/projects/OPT",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "OPT project folder in Meta's metaseq repository; its README has the Pretrained Model Weights table (download links on dl.fbaipublicfiles.com for OPT-125M to OPT-66B, a request form for OPT-175B). Title is the GitHub page title. The repository was archived (read-only) when seen on 2026-10-01; last push 2024-04-27.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.model-api-models",
+      "type": "documentation",
+      "title": "Models",
+      "url": "https://dev.meta.ai/docs/models",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page in the Meta Model API docs; content as seen on 2026-10-01 (HTML title Models - Meta Model API). Lists muse-spark-1.3, 1.3-contributor, 1.2, 1.2-contributor and 1.1 with modalities and a 1,048,576-token context window; calls 1.1 the original version and 1.2 the previous version; says Muse Glimmer is distilled from Muse Spark and self-hosted only. Meta has no deprecation page: https://dev.meta.ai/docs/deprecations returns an empty shell.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.model-api-reasoning",
+      "type": "documentation",
+      "title": "Reasoning",
+      "url": "https://dev.meta.ai/docs/reasoning",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page in the Meta Model API docs; content as seen on 2026-10-01 (HTML title Reasoning - Meta Model API). States that Muse Spark is a reasoning model, that reasoning cannot be disabled, and that the max effort level is limited to Standard-tier muse-spark-1.3.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.muse-code-and-muse-spark-1-2-blog",
+      "type": "announcement",
+      "title": "Introducing Muse Code and Muse Spark 1.2",
+      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-05"
+      },
+      "notes": "Meta AI Research blog (research.meta.ai), author Meta Superintelligence Labs. The HTML title adds the suffix | Meta AI Research.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.muse-glimmer-30b-model-card",
+      "type": "model-card",
+      "title": "Muse Glimmer Model Card",
+      "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08",
+        "note": "The card gives Model Release Date: August 2026."
+      },
+      "notes": "Model card in Meta's own Hugging Face organisation meta-models (repo not gated; HTML title meta-models/Muse-Glimmer-30B · Hugging Face). Living page; content as seen on 2026-10-01. Sibling repos Muse-Glimmer-30B-GGUF, Muse-Glimmer-30B-assistant (DFlash drafter) and Muse-Glimmer-30B-ExecuTorch-PTE are builds of the same model.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.muse-glimmer-blog",
+      "type": "announcement",
+      "title": "Introducing Muse Glimmer: An Open Agentic Model That Runs on Your Device",
+      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-10"
+      },
+      "notes": "Meta AI Research blog, author Meta Superintelligence Labs. The HTML title adds the suffix | Meta AI Research.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.muse-glimmer-docs",
+      "type": "documentation",
+      "title": "Muse Glimmer",
+      "url": "https://dev.meta.ai/docs/muse-glimmer",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page in the Meta Model API docs; content as seen on 2026-10-01. HTML title Muse Glimmer - Meta Model API. Gives 30B parameters, dense multimodal architecture, 128K default context, Apache 2.0 licence, distilled from Muse Spark.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.muse-spark-1-1-blog",
+      "type": "announcement",
+      "title": "Introducing Muse Spark 1.1",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-07-09"
+      },
+      "notes": "Meta AI blog post by Meta Superintelligence Labs; also launches the public preview of the Meta Model API. ai.meta.com needs full browser headers.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.muse-spark-1-1-evaluation-report",
+      "type": "system-card",
+      "title": "Muse Spark 1.1 Evaluation Report",
+      "url": "https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-07-09"
+      },
+      "notes": "PDF linked from the Muse Spark 1.1 blog (dated July 9, 2026 on the cover); covers capabilities and the Advanced AI Scaling Framework assessment. Calls the first model Muse Spark 1.0 and says 1.1 succeeds it as the model powering Meta AI.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.muse-spark-1-3-blog",
+      "type": "announcement",
+      "title": "Introducing Muse Spark 1.3",
+      "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-09-02"
+      },
+      "notes": "Meta AI Research blog, author Meta Superintelligence Labs. The HTML title adds the suffix | Meta AI Research. Mentions a Muse Spark open weights release on the roadmap.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.muse-spark-blog",
+      "type": "announcement",
+      "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-04-08"
+      },
+      "notes": "Launch post on the Meta AI blog by Meta Superintelligence Labs. ai.meta.com answers 400 to requests without full browser headers (Sec-Fetch-*, sec-ch-ua); with them it returns 200 with no redirect. Links to the Muse Spark Safety & Preparedness Report and an evaluation methodology document.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.muse-spark-newsroom",
+      "type": "announcement",
+      "title": "Introducing Muse Spark: MSL’s First Model, Purpose-Built to Prioritize People",
+      "url": "https://about.fb.com/news/2026/04/introducing-muse-spark-meta-superintelligence-labs/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-04-08"
+      },
+      "notes": "Meta Newsroom post; title is the headline shown on the page, the HTML title is Introducing Muse Spark: Meta's Most Powerful Model Yet. The page also carries an update dated May 12, 2026 above the original April 8 text.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.muse-spark-safety-preparedness-report",
+      "type": "system-card",
+      "title": "Muse Spark Safety & Preparedness Report",
+      "url": "https://ai.meta.com/static-resource/muse-spark-safety-and-preparedness-report/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-05-26",
+        "note": "Date printed on the current version; its change log records an update of the instruction-hierarchy results on this date. The report is linked from the 2026-04-08 launch blog, so an earlier version existed."
+      },
+      "notes": "PDF served from ai.meta.com/static-resource/ (needs full browser headers). Authors: MSL Preparedness & Red Teaming & Alignment Team, AI Security Team.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.opt-175b-announcement",
+      "type": "announcement",
+      "title": "Democratizing access to large-scale language models with OPT-175B",
+      "url": "https://ai.meta.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2022-05-03"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Meta AI blog post. Originally published at https://ai.facebook.com/blog/democratizing-access-to-large-scale-language-models-with-opt-175b/, which now redirects (301) here. Sections: opening, Responsible publication with OPT-175B, Responsible compute, Propelling research forward through open collaboration. Links the metaseq code, the OPT-175B request form, the paper and the OPT-175B License Agreement.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.opt-66b-release",
+      "type": "code-release",
+      "title": "OPT-66B Release",
+      "url": "https://github.com/facebookresearch/metaseq/pull/171",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2022-06-22"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Pull request in Meta's metaseq repository (description: releasing the 66B weights and the baselines logbook). Opened and merged on 2022-06-22 (UTC); it replaced TBD in the OPT-66B row of the README weights table with download links. Title as given in the pull request; the GitHub page title adds the author handle and repository name.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.opt-hf-collection",
+      "type": "model-hub-page",
+      "title": "OPT - a facebook Collection",
+      "url": "https://huggingface.co/collections/facebook/opt",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Collection in Meta's facebook organisation on Hugging Face listing the ungated repos facebook/opt-125m to facebook/opt-66b plus four OPT-IML repos; last updated Nov 21, 2024. The id-suffixed address https://huggingface.co/collections/facebook/opt-66ed00e15599f02966818844 redirects here. The repo model cards state they were written by the Hugging Face team, so they are cited for availability only.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.opt-paper",
+      "type": "research-paper",
+      "title": "OPT: Open Pre-trained Transformer Language Models",
+      "url": "https://arxiv.org/abs/2205.01068",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2022-05-02",
+        "note": "Submission date of v1; later versions v2 (2022-05-03), v3 (2022-05-05) and v4 (2022-06-21)."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv paper by Meta AI authors (Zhang et al.). Locators refer to the current version v4. Appendix D is the official OPT model card (the metaseq model_card.md points to it); it states that OPT-175B was released on May 3, 2022.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.meta.quantized-llama-models-announcement",
+      "type": "announcement",
+      "title": "Introducing quantized Llama models with increased speed and a reduced memory footprint",
+      "url": "https://ai.meta.com/blog/meta-llama-quantized-lightweight-models/",
+      "publisher": "Meta",
+      "publisherOrgId": "meta",
+      "publishedAt": {
+        "value": "2024-10-24"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Meta AI blog post dated October 24, 2024 announcing QLoRA and SpinQuant builds of Llama 3.2 1B and 3B Instruct.",
+      "lastCheckedAt": "2026-10-05"
+    }
+  ]
+}

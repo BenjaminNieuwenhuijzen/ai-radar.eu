@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-r1-zero",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-r1-zero",
+  "name": "DeepSeek-R1-Zero",
+  "aliases": [
+    {
+      "text": "DeepSeek-R1-Zero",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek R1-Zero",
+      "match": "auto"
+    },
+    {
+      "text": "R1-Zero",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-r",
+  "generation": "1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-r1-zero-hf"
+      }
+    ],
+    "note": "Weights are still public on Hugging Face."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-01-20",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-release-commit",
+          "locator": "commit date"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-github",
+          "locator": "1. Introduction; 3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-announcement",
+          "locator": "news sidebar: DeepSeek-R1 Release 2025/01/20"
+        }
+      ],
+      "note": "No DeepSeek page names DeepSeek-R1-Zero together with a date. It was open-sourced with DeepSeek-R1: the commit Release DeepSeek-R1 of 2025-01-20 adds the README that announces both models, and the R1 announcement of that day says the open-source model is out."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "deepseek.deepseek-v3",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-zero-hf",
+          "locator": "2. Model Summary; 3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-paper",
+          "locator": "Introduction"
+        }
+      ],
+      "note": "Trained from the base variant DeepSeek-V3-Base with large-scale reinforcement learning (GRPO), without supervised fine-tuning as a preliminary step."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-R1-Zero is one of DeepSeek's first-generation reasoning models, trained with large-scale reinforcement learning directly on DeepSeek-V3-Base without supervised fine-tuning first, and released as open weights under the MIT License alongside DeepSeek-R1. DeepSeek names endless repetition, poor readability and language mixing as its weaknesses.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-r1-zero-hf"
+      },
+      {
+        "id": "src.deepseek.deepseek-r1-paper",
+        "locator": "Introduction"
+      },
+      {
+        "id": "src.deepseek.deepseek-r1-github"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "rl-only",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v3",
+      "text": "Reasoning is learned through large-scale reinforcement learning (GRPO) applied directly to DeepSeek-V3-Base, with no supervised fine-tuning stage first.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-paper"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-zero-hf"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-zero-hf",
+          "locator": "3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-github",
+          "locator": "3. Model Downloads"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 671000000000,
+      "asStated": "671B total, 37B activated",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-zero-hf",
+          "locator": "3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-github",
+          "locator": "3. Model Downloads"
+        }
+      ],
+      "note": "Mixture-of-experts."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-zero-hf",
+          "locator": "1. Introduction; 7. License"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-github",
+          "locator": "7. License"
+        }
+      ],
+      "note": "MIT License."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-zero-hf",
+          "locator": "3. Model Downloads"
+        }
+      ]
+    }
+  },
+  "notes": "Released as open weights alongside DeepSeek-R1; the DeepSeek web chat and API offered DeepSeek-R1, not R1-Zero. The Hugging Face card of R1-Zero is the shared DeepSeek-R1 card. Relation method other because the model was trained with reinforcement learning only."
+}

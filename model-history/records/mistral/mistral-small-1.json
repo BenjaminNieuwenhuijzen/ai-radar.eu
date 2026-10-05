@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-small-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-small-1",
+  "name": "Mistral Small",
+  "aliases": [
+    {
+      "text": "mistral-small-2402",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Small 1.0",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Small v24.02",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Small",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-small",
+  "generation": "1.0",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Small 1.0"
+      },
+      {
+        "id": "src.mistral.mistral-small-1-0-docs",
+        "locator": "status"
+      },
+      {
+        "id": "src.mistral.legal-mistral-small-1",
+        "locator": "Model Lifecycle: Mistral Small 1.0"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-small-4",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Small 1.0, Alternative"
+      },
+      {
+        "id": "src.mistral.mistral-small-1-0-docs",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-02-26",
+      "sources": [
+        {
+          "id": "src.mistral.au-large-announcement",
+          "locator": "A new Mistral Small, optimised for low latency workloads"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "February 26, 2024"
+        },
+        {
+          "id": "src.mistral.mistral-small-1-0-docs",
+          "locator": "page header"
+        },
+        {
+          "id": "src.mistral.legal-mistral-small-1",
+          "locator": "Model Lifecycle: Mistral Small 1.0"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2024-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Small 1.0 (mistral-small-2402)"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-06-16",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Small 1.0 (mistral-small-2402)"
+        },
+        {
+          "id": "src.mistral.mistral-small-1-0-docs",
+          "locator": "Retirement date"
+        },
+        {
+          "id": "src.mistral.legal-mistral-small-1",
+          "locator": "Model Lifecycle: Mistral Small 1.0"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "text": "Mistral Small, later named Mistral Small 1.0, is a language model that Mistral AI released on 26 February 2024 alongside Mistral Large, through the mistral-small-2402 API endpoint and in le Chat. Mistral AI positioned it between its open-weight models and its flagship model, optimised for latency and cost, with function calling and JSON mode at launch.",
+    "sources": [
+      {
+        "id": "src.mistral.au-large-announcement"
+      },
+      {
+        "id": "src.mistral.le-chat-announcement"
+      },
+      {
+        "id": "src.mistral.changelog",
+        "locator": "February 26, 2024, New API capabilities"
+      },
+      {
+        "id": "src.mistral.mistral-small-1-0-docs"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-1-0-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-1-0-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.au-large-announcement",
+            "locator": "JSON format and function calling"
+          },
+          {
+            "id": "src.mistral.changelog",
+            "locator": "February 26, 2024, New API capabilities"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 32000,
+      "asStated": "32k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-1-0-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Mistral AI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.au-large-announcement",
+          "locator": "endpoint list"
+        },
+        {
+          "id": "src.mistral.le-chat-announcement",
+          "locator": "A multilingual conversational assistant based on Mistral models"
+        }
+      ]
+    }
+  },
+  "notes": "First model named Mistral Small, released together with Mistral Large in the post Au Large. The earlier mistral-small endpoint (from 2023-12-11) served Mixtral 8x7B and was renamed open-mixtral-8x7b on 2024-02-26; that is no lineage, so no relation is recorded. Mistral's September 2024 post (AI in abundance, https://mistral.ai/news/september-24-release/) calls this model Mistral Small v24.02; the docs call it Mistral Small 1.0 (version 24.02). The slug ends in -1 because the family id is mistral.mistral-small."
+}

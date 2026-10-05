@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-1-5-pro-002",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-1-5-pro-002",
+  "name": "Gemini-1.5-Pro-002",
+  "aliases": [
+    {
+      "text": "gemini-1.5-pro-002",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini 1.5 Pro-002",
+      "match": "auto"
+    },
+    {
+      "text": "1.5 Pro-002",
+      "match": "candidate"
+    },
+    {
+      "text": "Gemini 1.5 Pro",
+      "match": "candidate"
+    },
+    {
+      "text": "gemini-1.5-pro",
+      "match": "candidate"
+    },
+    {
+      "text": "gemini-1.5-pro-latest",
+      "match": "candidate"
+    },
+    {
+      "text": "gemini-1.5-pro-exp-0801",
+      "match": "candidate"
+    },
+    {
+      "text": "gemini-1.5-pro-exp-0827",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-pro",
+  "generation": "1.5",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models: gemini-1.5-pro-002"
+      },
+      {
+        "id": "src.google.gemini-api-changelog",
+        "locator": "September 29, 2025"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "google.gemini-2-5-flash",
+    "sources": [
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models: gemini-1.5-pro-002"
+      }
+    ],
+    "note": "Recommended upgrade as listed on the Agent Platform model versions page when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-09-24",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement"
+        },
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "September 24, 2024"
+        },
+        {
+          "id": "src.google.agent-platform-model-versions",
+          "locator": "Retired models: gemini-1.5-pro-002"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2025-09-24",
+      "sources": [
+        {
+          "id": "src.google.agent-platform-model-versions",
+          "locator": "Retired models: gemini-1.5-pro-002"
+        }
+      ],
+      "note": "Retirement date of gemini-1.5-pro-002 on Google Cloud (Agent Platform, formerly Vertex AI).",
+      "alternatives": [
+        {
+          "value": "2025-09-29",
+          "sources": [
+            {
+              "id": "src.google.gemini-api-changelog",
+              "locator": "September 29, 2025"
+            }
+          ],
+          "note": "Shutdown of the gemini-1.5-pro model id on the Gemini API."
+        }
+      ]
+    }
+  },
+  "milestones": [
+    {
+      "id": "gemini-advanced",
+      "label": "Chat-optimized version in Gemini Advanced",
+      "date": {
+        "value": "2024-10-02",
+        "sources": [
+          {
+            "id": "src.google.gemini-app-release-notes",
+            "locator": "2024.10.02"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "google.gemini-1-5-pro",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement",
+          "locator": "first paragraphs"
+        },
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "September 24, 2024"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Gemini-1.5-Pro-002 is an updated, production-ready version of Google's Gemini 1.5 Pro, released with Gemini-1.5-Flash-002 through Google AI Studio, the Gemini API and Vertex AI, with a 2 million token context window. Google says it builds on recent experimental releases; a chat-optimized version came to Gemini Advanced in October 2024.",
+    "sources": [
+      {
+        "id": "src.google.gemini-1-5-002-models-announcement"
+      },
+      {
+        "id": "src.google.gemini-app-release-notes",
+        "locator": "2024.10.02"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "concise",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-pro",
+      "text": "Gives more concise answers by default, which Google says makes the model easier and cheaper to use.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement"
+        }
+      ]
+    },
+    {
+      "id": "safety-filters",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-pro",
+      "text": "Safety filters are no longer applied by default; developers choose the configuration.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement"
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-pro",
+      "text": "Google reports quality improvements, notably in math, long context and vision.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement"
+        }
+      ]
+    },
+    {
+      "id": "price-rate-limits",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-pro",
+      "text": "Released with a price cut of more than half for 1.5 Pro prompts under 128K tokens, effective 2024-10-01, and higher paid-tier rate limits.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "contextWindowTokens": {
+      "value": 2000000,
+      "asStated": "2 million",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement",
+          "locator": "Gemini 1.5 Pro"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement",
+          "locator": "first paragraphs"
+        },
+        {
+          "id": "src.google.gemini-app-release-notes",
+          "locator": "2024.10.02"
+        }
+      ],
+      "note": "Gemini API through Google AI Studio and Vertex AI; a chat-optimized version in Gemini Advanced from 2024-10-02."
+    }
+  },
+  "notes": "Name as written in the announcement (Gemini-1.5-Pro-002); the Gemini app release notes write 1.5 Pro-002. The release notes say gemini-1.5-pro-latest pointed to this version from 2024-09-24. The announcement says the update builds on the experimental releases of the preceding weeks (gemini-1.5-pro-exp-0801 and gemini-1.5-pro-exp-0827 in the release notes, kept as candidate aliases). Input modalities are not restated in the -002 sources, so inputModalities is left out; see google.gemini-1-5-pro. No deprecation announcement date was found in live sources."
+}

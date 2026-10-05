@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.o1-mini",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "o1-mini",
+  "name": "o1-mini",
+  "aliases": [
+    {
+      "text": "o1-mini",
+      "match": "auto"
+    },
+    {
+      "text": "OpenAI o1-mini",
+      "match": "auto"
+    },
+    {
+      "text": "o1-mini-2024-09-12",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.o-series",
+  "generation": "1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2025-04-28: o1-preview and o1-mini"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "openai.o4-mini",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2025-04-28: o1-preview and o1-mini"
+      }
+    ],
+    "note": "Recommended replacement listed on the deprecations page when checked on 2026-10-01; the o1-mini model page recommends o3-mini instead."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-09-12",
+      "sources": [
+        {
+          "id": "src.openai.o1-mini-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Sep 12, 2024"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-04-28",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2025-04-28: o1-preview and o1-mini"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-10-27",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2025-04-28: o1-preview and o1-mini"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "text": "o1-mini is a smaller, lower-cost OpenAI reasoning model released on 12 September 2024 together with o1-preview and aimed at STEM tasks, especially math and coding. It was offered to API usage tier 5 developers and in paid ChatGPT plans; OpenAI says its knowledge of non-STEM facts is comparable to small models like GPT-4o mini.",
+    "sources": [
+      {
+        "id": "src.openai.o1-mini-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "cost-speed",
+      "aspect": "efficiency",
+      "relativeTo": "openai.o1-preview",
+      "text": "Faster than o1-preview and 80 percent cheaper in the API, with higher rate limits in ChatGPT.",
+      "sources": [
+        {
+          "id": "src.openai.o1-mini-announcement"
+        }
+      ]
+    },
+    {
+      "id": "world-knowledge",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.o1-preview",
+      "text": "Narrower knowledge outside STEM, such as dates, biographies and trivia, which OpenAI compares to small models like GPT-4o mini.",
+      "sources": [
+        {
+          "id": "src.openai.o1-mini-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o1-mini-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o1-mini-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o1-mini-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI; the announcement only calls it a smaller model."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o1-mini-announcement",
+          "locator": "second paragraph"
+        }
+      ],
+      "note": "API usage tier 5 at launch; ChatGPT Plus, Team, Enterprise and Edu."
+    }
+  },
+  "notes": "Smaller, lower-cost reasoning model released on 2024-09-12 together with o1-preview and optimised for STEM, especially math and coding. No predecessor relation recorded: it is the first small o-series model. The o1 System Card covers it (src.openai.o1-system-card). Lifecycle dates apply to the OpenAI API."
+}

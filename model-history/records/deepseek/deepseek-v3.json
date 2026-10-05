@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v3",
+  "name": "DeepSeek-V3",
+  "aliases": [
+    {
+      "text": "DeepSeek-V3",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V3",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-v",
+  "generation": "3",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-hf"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-base-hf"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-03-24"
+      }
+    ],
+    "note": "Weights are still public on Hugging Face. In the DeepSeek API, deepseek-chat moved to DeepSeek-V3-0324 on 2025-03-24."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v3-0324",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-03-24"
+      }
+    ],
+    "note": "In the DeepSeek API only: deepseek-chat was upgraded to DeepSeek-V3-0324. The weights stay available."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-12-26",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-announcement",
+          "locator": "news sidebar: Introducing DeepSeek-V3 2024/12/26"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-12-26"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-news",
+          "locator": "page date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "deepseek.deepseek-v2-5-1210",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-announcement"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-12-26"
+        }
+      ],
+      "note": "Editorial link along the V line: DeepSeek-V3 is the next generation after the V2 series, whose last release was DeepSeek-V2.5-1210, and it replaced that model behind deepseek-chat. No DeepSeek page calls it the successor of V2.5-1210 in so many words."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V3 is a mixture-of-experts language model with 671B total and 37B activated parameters, offered in DeepSeek's web chat, through its API and as open weights together with the base model DeepSeek-V3-Base. DeepSeek pre-trained it on 14.8 trillion tokens and says it validated FP8 mixed-precision training at this scale for the first time.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-hf"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-github",
+        "locator": "3. Model Downloads; 5. Chat Website & API Platform"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-paper"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "deepseek.deepseek-v2-5-1210",
+      "text": "Total parameters rise to 671B with 37B activated per token, from the 236B total and 21B activated that DeepSeek lists for DeepSeek-V2 and V2.5.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-hf"
+        }
+      ]
+    },
+    {
+      "id": "load-balancing-mtp",
+      "aspect": "architecture",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v2-5-1210",
+      "text": "Adds an auxiliary-loss-free load-balancing strategy and a multi-token prediction training objective to the DeepSeek-V2 architecture.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-paper"
+        }
+      ]
+    },
+    {
+      "id": "generation-speed",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v2-5-1210",
+      "text": "DeepSeek says generation reaches 60 tokens per second, three times as fast as V2.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-announcement"
+        }
+      ]
+    },
+    {
+      "id": "r1-distillation",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v2-5-1210",
+      "text": "Post-training distils reasoning abilities from a DeepSeek-R1 series model into DeepSeek-V3.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-hf"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-hf",
+          "locator": "1. Introduction"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-announcement",
+          "locator": "closing section"
+        }
+      ],
+      "note": "Presented as a language model; the announcement says multimodal support would come later."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-hf",
+          "locator": "1. Introduction"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-github",
+          "locator": "3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-hf",
+          "locator": "3. Model Downloads"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 671000000000,
+      "asStated": "671B total, 37B activated",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-github",
+          "locator": "1. Introduction; 3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-paper",
+          "locator": "abstract"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-announcement",
+          "locator": "What's new in V3"
+        }
+      ],
+      "note": "Mixture-of-experts. The Hugging Face upload totals 685B including 14B of Multi-Token Prediction module weights."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-github",
+          "locator": "3. Model Downloads; 7. License"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-hf",
+          "locator": "7. License"
+        }
+      ],
+      "note": "Code under MIT; model use under the DeepSeek Model License, which supports commercial use."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-github",
+          "locator": "3. Model Downloads; 5. Chat Website & API Platform"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-12-26"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "base",
+      "name": "DeepSeek-V3-Base",
+      "aliases": [
+        {
+          "text": "DeepSeek-V3-Base",
+          "match": "auto"
+        }
+      ],
+      "note": "Pre-trained base model, published on Hugging Face together with the chat model. The Hugging Face API gives its repository creation time as 2024-12-25, which no page states in text, so the variant has no dates of its own.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-github",
+          "locator": "3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-base-hf"
+        }
+      ]
+    }
+  ],
+  "notes": "Released together with DeepSeek-V3-Base (inline variant). The technical report on arXiv is dated 2024-12-27, a day after the release. The DeepSeek-V3 aliases are auto although the revision DeepSeek-V3-0324 shares the stem; review matcher hits."
+}

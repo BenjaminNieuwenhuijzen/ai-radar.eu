@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-build-0-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-build-0-1",
+  "name": "Grok Build 0.1",
+  "aliases": [
+    {
+      "text": "Grok Build 0.1",
+      "match": "auto"
+    },
+    {
+      "text": "grok-build-0.1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": null,
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning",
+    "code"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.xai.grok-build-0-1-docs",
+        "locator": "Details"
+      },
+      {
+        "id": "src.xai.models-overview",
+        "locator": "Text API Pricing"
+      }
+    ],
+    "note": "Listed as a current API model with pricing when checked on 2026-10-01; it launched on the API as a public beta; the docs page carries no beta label."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-05-29",
+      "sources": [
+        {
+          "id": "src.xai.grok-build-0-1-api-announcement"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "May: Grok Build 0.1"
+        }
+      ],
+      "note": "Public beta on the xAI API, per the announcement. The API release notes list Grok Build 0.1 under May 2026 as in early access, and the May 15, 2026 retirement guide already names grok-build-0.1 as the redirect target of grok-code-fast-1."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "api-early-access",
+      "label": "Early access on the xAI API",
+      "date": {
+        "value": "2026-05",
+        "sources": [
+          {
+            "id": "src.xai.api-release-notes",
+            "locator": "May: Grok Build 0.1"
+          }
+        ],
+        "note": "The release notes give the month only."
+      }
+    }
+  ],
+  "summary": {
+    "text": "Grok Build 0.1 is an xAI coding model trained for agentic coding, including web development, debugging and MCP support, and the model behind xAI's Grok Build coding agent. It takes text and images and returns text; after early access in May 2026 it opened on the xAI API as a public beta on 29 May 2026.",
+    "sources": [
+      {
+        "id": "src.xai.grok-build-0-1-api-announcement"
+      },
+      {
+        "id": "src.xai.grok-build-0-1-docs",
+        "locator": "At a glance: Modalities"
+      },
+      {
+        "id": "src.xai.api-release-notes",
+        "locator": "May: Grok Build 0.1"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-build-0-1-docs",
+          "locator": "At a glance: Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-build-0-1-docs",
+          "locator": "At a glance: Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-build-0-1-docs",
+          "locator": "At a glance: Context window"
+        },
+        {
+          "id": "src.xai.models-overview",
+          "locator": "Text API Pricing (256k)"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-build-0-1-api-announcement"
+        },
+        {
+          "id": "src.xai.grok-build-0-1-docs"
+        }
+      ],
+      "note": "Also the model behind xAI's Grok Build coding agent; the post names OpenRouter and Vercel AI Gateway as further routes."
+    }
+  },
+  "notes": "Not in the original scope; added because xAI announced it publicly in the period (x.ai/news/grok-build-0-1, API release notes May 2026). familyId xai.grok is provisional: no coding sub-family exists yet. The announcement says it is the same model that powers the Grok Build coding agent (Grok Build beta: grok.com release notes of 2026-05-14). Since 2026-05-15 the retired slug grok-code-fast-1 redirects to grok-build-0.1 (May 15, 2026 retirement guide), and the docs page lists grok-code-fast-1, grok-code-fast and grok-code-fast-1-0825 as aliases; they are left out here because they name the earlier Grok Code Fast 1 model (August 2025), which has no record yet. The name Grok Build alone is the coding agent product and is not used as an alias."
+}

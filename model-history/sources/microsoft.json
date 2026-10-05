@@ -1,0 +1,934 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.microsoft.about-microsoft",
+      "type": "other",
+      "title": "About Microsoft",
+      "url": "https://news.microsoft.com/about/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living company history timeline on Microsoft Source. The 1975 entry says Gates and Allen started Microsoft, sometimes written Micro-Soft, to develop software for the Altair 8800. The HTML title reads About Microsoft - Stories.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.decoder-hybrid-decoder-paper",
+      "type": "research-paper",
+      "title": "Decoder-Hybrid-Decoder Architecture for Efficient Reasoning with Long Generation",
+      "url": "https://arxiv.org/abs/2507.06607",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "publishedAt": {
+        "value": "2025-07-09"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv 2507.06607 by Microsoft authors (Ren, Chen, Xu and others, with one Stanford co-author), introducing the SambaY architecture used by Phi-4-mini-flash-reasoning. v1 submitted 2025-07-09, v2 on 2025-07-16, v3 on 2025-10-25 (NeurIPS 2025 camera-ready); publishedAt is v1.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.facts-about-microsoft",
+      "type": "other",
+      "title": "Facts About Microsoft",
+      "url": "https://news.microsoft.com/facts-about-microsoft/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living company fact sheet on Microsoft Source (corporate address, important dates, mission); content as seen on 2026-10-01. The HTML title reads Facts About Microsoft - Stories.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.foundry-model-retirement-schedule",
+      "type": "deprecation-notice",
+      "title": "Model retirement schedule",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Microsoft Learn page for Microsoft Foundry. Living page; content as seen on 2026-10-01 (page footer: last updated 2026-09-21). The Microsoft table under Foundry Models from partners and community lists Phi-4, Phi-4-mini-instruct, Phi-4-mini-reasoning, Phi-4-multimodal-instruct and Phi-4-reasoning as GA with no retirement date; Phi-4-reasoning-plus and Phi-4-mini-flash-reasoning are not listed.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.foundry-models-sold-by-azure",
+      "type": "documentation",
+      "title": "Foundry Models sold by Azure",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/concepts/models-sold-directly-by-azure",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Microsoft Learn overview of Foundry Models sold by Azure; HTML title ends with - Microsoft Foundry | Microsoft Learn. Living page (metadata date 2026-09-21). Lists MAI-Thinking-1 as Preview with input text, output text (up to 64,000 tokens), context length 256,000 tokens and tool calling.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.foundry-retired-models",
+      "type": "deprecation-notice",
+      "title": "Retired Microsoft Foundry Models",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/retired-models",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Microsoft Learn page listing models retired from Microsoft Foundry. Living page; content as seen on 2026-10-01 (page footer: last updated 2026-07-28). The Microsoft table lists MAI-DS-R1 with retirement date February 27, 2026 and the Phi-3 and Phi-3.5 models with August 30, 2025.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.github-changelog-mai-code-1-1-flash",
+      "type": "changelog",
+      "title": "MAI-Code-1.1-Flash available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot/",
+      "publisher": "GitHub",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-11"
+      },
+      "notes": "GitHub Changelog (GitHub is a Microsoft subsidiary). Says the model builds on MAI-Code-1-Flash, adds native vision support and has a 73% lower list price than MAI-Code-1-Flash.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.github-changelog-mai-code-1-flash-business-enterprise",
+      "type": "changelog",
+      "title": "MAI-Code-1-Flash for Copilot Business and Copilot Enterprise",
+      "url": "https://github.blog/changelog/2026-06-26-mai-code-1-flash-for-copilot-business-and-copilot-enterprise/",
+      "publisher": "GitHub",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-06-26"
+      },
+      "notes": "GitHub Changelog (GitHub is a Microsoft subsidiary).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.github-changelog-mai-code-1-flash-deprecated",
+      "type": "deprecation-notice",
+      "title": "MAI-Code-1-Flash deprecated",
+      "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated/",
+      "publisher": "GitHub",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-09-10"
+      },
+      "notes": "GitHub Changelog (GitHub is a Microsoft subsidiary). Says the model was deprecated across all GitHub Copilot experiences that day, with MAI-Code-1.1-Flash as suggested alternative.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.github-changelog-mai-code-1-flash-launch",
+      "type": "changelog",
+      "title": "MAI-Code-1-Flash is now available for GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-06-02-mai-code-1-flash-is-now-available-for-github-copilot/",
+      "publisher": "GitHub",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-06-02"
+      },
+      "notes": "GitHub Changelog (GitHub is a Microsoft subsidiary and GitHub Copilot was the model's only distribution channel). Editor's note of June 5, 2026 added Copilot Student. HTML title ends with - GitHub Changelog.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.github-changelog-mai-code-1-flash-more-surfaces",
+      "type": "changelog",
+      "title": "MAI-Code-1-Flash available on more Copilot surfaces",
+      "url": "https://github.blog/changelog/2026-06-18-mai-code-1-flash-available-on-more-copilot-surfaces/",
+      "publisher": "GitHub",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-06-18"
+      },
+      "notes": "GitHub Changelog (GitHub is a Microsoft subsidiary). Editor's note: list updated on June 24, 2026 to include Copilot cloud agent.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.github-changelog-mai-code-1-flash-upcoming-deprecation",
+      "type": "deprecation-notice",
+      "title": "Upcoming deprecation of MAI-Code-1-Flash",
+      "url": "https://github.blog/changelog/2026-08-11-upcoming-deprecation-of-mai-code-1-flash/",
+      "publisher": "GitHub",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-11"
+      },
+      "notes": "GitHub Changelog (GitHub is a Microsoft subsidiary). Announces deprecation across all GitHub Copilot experiences on September 10, 2026, with MAI-Code-1.1-Flash as suggested alternative.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.ignite-2023-keynote",
+      "type": "other",
+      "title": "Microsoft Ignite Opening",
+      "url": "https://msftstories.thesourcemediaassets.com/2023/11/Microsoft-Ignite-Opening.pdf",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-11-15"
+      },
+      "notes": "Transcript (PDF) of Satya Nadella's Microsoft Ignite opening keynote, dated Wednesday, November 15, 2023 in the document. Linked from https://news.microsoft.com/speeches/satya-nadella-microsoft-ignite-2023/, which redirects to this PDF on Microsoft's Source media host. Nadella announces Phi 2 as a scaled-up version of Phi 1.5 with 2.7 billion parameters.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.introducing-mai-code-1-flash",
+      "type": "announcement",
+      "title": "Introducing MAI-Code-1-Flash",
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-06-02"
+      },
+      "notes": "Microsoft AI post by the Superintelligence team, with the line Updated as of June 8, 2026. The URL slug has no hyphen between introducing and mai. HTML title ends with the suffix | Microsoft AI.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.introducing-mai-thinking-1",
+      "type": "announcement",
+      "title": "Introducing MAI-Thinking-1",
+      "url": "https://microsoft.ai/news/introducing-mai-thinking-1/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-12"
+      },
+      "notes": "Microsoft AI post by the Superintelligence team. The current page is dated August 12, 2026 and carries the line Updated as of August 12, 2026 with the public preview notice. The same URL was first published on June 2, 2026 with a private preview notice (see src.microsoft.introducing-mai-thinking-1-june-2026). HTML title ends with the suffix | Microsoft AI.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.introducing-mai-thinking-1-june-2026",
+      "type": "announcement",
+      "title": "Introducing MAI-Thinking-1",
+      "url": "https://microsoft.ai/news/introducing-mai-thinking-1/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "archived-primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-06-02"
+      },
+      "archiveUrl": "https://web.archive.org/web/20260604010359/https://microsoft.ai/news/introducing-mai-thinking-1/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-06-04",
+      "notes": "The original June 2026 version of the announcement, before the page was rewritten on 12 August 2026. Checked in the capture: dated June 2, 2026, by the Superintelligence team, and its Availability and access section says MAI-Thinking-1 is available in private preview on Microsoft Foundry today, with public preview on MAI Playground to follow.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.mai-code-1-1-flash-announcement",
+      "type": "announcement",
+      "title": "MAI-Code-1.1-Flash: Better, faster, at a quarter of the cost",
+      "url": "https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-11"
+      },
+      "notes": "Microsoft AI post. The URL slug contains br from a line break in the headline. HTML title ends with the suffix | Microsoft AI.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.mai-code-1-1-flash-model-card",
+      "type": "model-card",
+      "title": "MAI-Code-1.1-Flash model card",
+      "url": "https://microsoft.ai/pdf/MAI-Code-1.1-Flash-Model-Card.PDF",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "PDF linked from the MAI-Code model page (server Last-Modified 11 Aug 2026). States release date August 11, 2026, 138B total and 5B active parameters, text and image input, text output, 256K context, model dependencies MAI-Thinking-1 and MAI-Code-1-Flash.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.mai-code-1-flash-model-card",
+      "type": "model-card",
+      "title": "MAI-Code-1-Flash model card",
+      "url": "https://microsoft.ai/pdf/MAI-Code-1-Flash-Model-Card.PDF",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "PDF (server Last-Modified 3 Jun 2026). States release date June 2, 2026, 137B total and 5B active parameters, text input and output, 256K context, model dependency MAI-Thinking-1, and that training started from MAI-Thinking-1's mid-training checkpoint. Still served when checked, but the model page at https://microsoft.ai/models/mai-code-1-flash/ now links the MAI-Code-1.1-Flash card instead.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.mai-code-model-page",
+      "type": "other",
+      "title": "MAI-Code-1.1-Flash",
+      "url": "https://microsoft.ai/models/mai-code-1-flash/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Microsoft AI model page. The URL still carries the slug mai-code-1-flash, but the page now presents MAI-Code-1.1-Flash (HTML title MAI-Code-1.1-Flash | Microsoft AI) with a Try in GitHub Copilot link and links to its model card and data card. Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.mai-code-repository",
+      "type": "repository",
+      "title": "microsoft/MAI-Code",
+      "url": "https://github.com/microsoft/MAI-Code",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Official Microsoft AI repository for MAI-Code release notes and feedback (README only, no weights); the HTML title is GitHub - microsoft/MAI-Code followed by the repository description. Living page with README sections for MAI-Code-1.1-Flash and MAI-Code-1-Flash.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.mai-ds-r1-announcement",
+      "type": "announcement",
+      "title": "Introducing MAI-DS-R1",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-mai-ds-r1/4405076",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "publishedAt": {
+        "value": "2025-04-17"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Post in Microsoft Tech Community by Samer Hassan, Doran Chakraborty, Qi Zhang and Yuan Yu, filed under the blog now shown as Microsoft Foundry Blog (the URL path still says azure-ai-foundry-blog). Headline as shown on the page; the HTML title adds the suffix | Microsoft Community Hub. Dated Apr 17, 2025; metadata shows a modification on 2025-04-18.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.mai-ds-r1-model-card",
+      "type": "model-card",
+      "title": "microsoft/MAI-DS-R1",
+      "url": "https://huggingface.co/microsoft/MAI-DS-R1",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence; base_model deepseek-ai/DeepSeek-R1). Living page; content as seen on 2026-10-01. No release date stated on the card.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.mai-thinking-1-foundry-docs",
+      "type": "documentation",
+      "title": "Deploy and use MAI-Thinking-1 in Microsoft Foundry",
+      "url": "https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-mai-thinking",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Microsoft Learn how-to; the page heading adds (preview) and the HTML title ends with - Microsoft Foundry | Microsoft Learn. Living page (metadata date 2026-08-12). Gives model name MAI-Thinking-1 (preview), model version 2026-06-01, deployment model name mai-thinking-1, GlobalStandard deployment, 256K context window and 64K output cap.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.mai-thinking-1-model-card",
+      "type": "model-card",
+      "title": "MAI-thinking-1 model card",
+      "url": "https://microsoft.ai/pdf/MAI-Thinking-1-Model-Card.PDF",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Direct from Azure model card PDF (server Last-Modified 2 Jun 2026, no date in the document). It still describes access through a Foundry private preview with an interest form, the state at the June announcement. The MAI-Thinking-1 model page now links its model card to https://aka.ms/mai-thinking-1-foundrycard (Foundry catalog page, not readable as text).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.mai-thinking-1-technical-report",
+      "type": "technical-report",
+      "title": "MAI-Thinking-1: Building a Hill-Climbing Machine",
+      "url": "https://microsoft.ai/wp-content/uploads/2026/06/main_20260602_2.pdf",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "PDF by The Microsoft AI Team, linked from https://microsoft.ai/models/mai-thinking-1/. The document states no publication date; the upload path and file name point to June 2026 (server Last-Modified 2 Jun 2026).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.mai-two-in-house-models",
+      "type": "announcement",
+      "title": "Two in-house models in support of our mission",
+      "url": "https://microsoft.ai/news/two-new-in-house-models/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "publishedAt": {
+        "value": "2025-08-28"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Microsoft AI (microsoft.ai) news post announcing MAI-Voice-1 and MAI-1-preview. Headline as shown on the page; the HTML title adds the suffix | Microsoft AI. Page date August 28, 2025; metadata lists a later modification on 2026-05-31.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.microsoft-ai-formation",
+      "type": "announcement",
+      "title": "Mustafa Suleyman, DeepMind and Inflection Co-founder, joins Microsoft to lead Copilot",
+      "url": "https://blogs.microsoft.com/blog/2024/03/19/mustafa-suleyman-deepmind-and-inflection-co-founder-joins-microsoft-to-lead-copilot/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-03-19"
+      },
+      "notes": "Official Microsoft Blog; Satya Nadella's message to employees announcing the new Microsoft AI organization.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-1-5-model-card",
+      "type": "model-card",
+      "title": "microsoft/phi-1_5",
+      "url": "https://huggingface.co/microsoft/phi-1_5",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card in Microsoft's organisation (repo id uses an underscore). States 1.3 billion parameters, same data sources as phi-1 plus synthetic NLP texts, not instruction-tuned and no RLHF, MIT license. No release date stated.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-1-5-paper",
+      "type": "technical-report",
+      "title": "Textbooks Are All You Need II: phi-1.5 technical report",
+      "url": "https://arxiv.org/abs/2309.05463",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-09-11"
+      },
+      "notes": "arXiv technical report by Microsoft Research authors (Li, Bubeck, Eldan et al.); v1 submitted 2023-09-11, only one version. The abstract says the team open-sources phi-1.5.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-1-model-card",
+      "type": "model-card",
+      "title": "microsoft/phi-1",
+      "url": "https://huggingface.co/microsoft/phi-1",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card in Microsoft's organisation; the page title reads microsoft/phi-1 · Hugging Face. States 1.3 billion parameters, specialised for basic Python coding, MIT license. No release date stated.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-1-paper",
+      "type": "research-paper",
+      "title": "Textbooks Are All You Need",
+      "url": "https://arxiv.org/abs/2306.11644",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-06-20"
+      },
+      "notes": "arXiv paper by Microsoft Research authors (Gunasekar et al.) introducing phi-1. v1 submitted 2023-06-20, v2 2023-10-02. The abstract gives 1.3B parameters and says the synthetic textbooks and exercises were generated with GPT-3.5.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-2-blog",
+      "type": "blog-post",
+      "title": "Phi-2: The surprising power of small language models",
+      "url": "https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-12-12"
+      },
+      "notes": "Microsoft Research Blog; the page title ends with - Microsoft Research. A figure caption says Satya Nadella announced Phi-2 at Microsoft Ignite 2023.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-2-model-card",
+      "type": "model-card",
+      "title": "microsoft/phi-2",
+      "url": "https://huggingface.co/microsoft/phi-2",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card in Microsoft's organisation. States 2.7 billion parameters, context length 2048 tokens, 1.4T training tokens, no RLHF, MIT license. No release date stated.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-3-5-announcement",
+      "type": "blog-post",
+      "title": "Discover the New Multi-Lingual, High-Quality Phi-3.5 SLMs",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/4225280",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-08-22"
+      },
+      "notes": "Microsoft Tech Community post (Microsoft Foundry Blog) by AdinaTru, Microsoft; marked Updated Aug 23, 2024 (Version 3.0). Originally at https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/discover-the-new-multi-lingual-high-quality-phi-3-5-slms/ba-p/4225280 (also aka.ms/phi3.5-techblog), which now redirects here. Announces Phi-3.5-mini, Phi-3.5-vision and Phi-3.5-MoE.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-3-5-mini-instruct-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-3.5-mini-instruct",
+      "url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card. 3.8B parameters, same tokenizer as Phi-3 Mini, text input, 128K context, 23 listed languages, MIT license; Release date: August 2024. Calls the model an update over the June 2024 instruction-tuned Phi-3 Mini release.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-3-5-moe-instruct-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-3.5-MoE-instruct",
+      "url": "https://huggingface.co/microsoft/Phi-3.5-MoE-instruct",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card. 16x3.8B parameters with 6.6B active when using 2 experts, mixture-of-experts decoder-only Transformer, text input, 128K context, 23 listed languages, MIT license; Release date: August 2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-3-5-vision-instruct-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-3.5-vision-instruct",
+      "url": "https://huggingface.co/microsoft/Phi-3.5-vision-instruct",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card. 4.2B parameters; image encoder, connector, projector and Phi-3 Mini language model; text and image input; 128K context; MIT license; Release date: August 2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-3-announcement",
+      "type": "announcement",
+      "title": "Introducing Phi-3: Redefining what's possible with SLMs",
+      "url": "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-04-23"
+      },
+      "notes": "Microsoft Azure Blog post by Misha Bilenko; the page title ends with | Microsoft Azure Blog and the heading uses a typographic apostrophe. The post announces Phi-3-mini as available starting today and Phi-3-small and Phi-3-medium for the coming weeks.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-3-build-2024",
+      "type": "announcement",
+      "title": "New models added to the Phi-3 family, available on Microsoft Azure",
+      "url": "https://azure.microsoft.com/en-us/blog/new-models-added-to-the-phi-3-family-available-on-microsoft-azure/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-05-21"
+      },
+      "notes": "Microsoft Azure Blog post by Misha Bilenko for Microsoft Build 2024. Introduces Phi-3-vision and makes Phi-3-small and Phi-3-medium available; lists sizes and context lengths of all four Phi-3 models.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-3-medium-4k-instruct-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-3-medium-4k-instruct",
+      "url": "https://huggingface.co/microsoft/Phi-3-medium-4k-instruct",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card. 14B parameters, text input, 4K context, MIT license; says the model weight is released on May 21, 2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-3-mini-4k-instruct-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-3-mini-4k-instruct",
+      "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card. Describes the current weights, a June 2024 update over the original April 2024 release (Release Notes; card says Release dates: June, 2024); previous version at git commit ff07dc01615f8113924aed013115ab2abd32115b. 3.8B parameters, text input, 4K context, MIT license.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-3-small-8k-instruct-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-3-small-8k-instruct",
+      "url": "https://huggingface.co/microsoft/Phi-3-small-8k-instruct",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Hugging Face model card. 7B parameters, alternating dense and blocksparse attention, text input, 8K context, MIT license; says the model weight is released on May 21, 2024."
+    },
+    {
+      "id": "src.microsoft.phi-3-technical-report",
+      "type": "technical-report",
+      "title": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+      "url": "https://arxiv.org/abs/2404.14219",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "unavailable",
+      "publishedAt": {
+        "value": "2024-04-22"
+      },
+      "notes": "arXiv technical report by Microsoft (Abdin et al.). v1 2024-04-22, v2 2024-04-23, v3 2024-05-23 (adds phi-3-vision with a CLIP ViT-L/14 encoder and phi-3-mini-128K-instruct decoder), v4 2024-08-30 (adds the phi-3.5 series). The current abstract and HTML (https://arxiv.org/html/2404.14219v4) describe phi-3.5-MoE as 16x3.8B with 6.6B active and 42B total parameters, and phi-3.5-Vision as derived from phi-3.5-mini.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-3-vision-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-3-vision-128k-instruct",
+      "url": "https://huggingface.co/microsoft/Phi-3-vision-128k-instruct",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Hugging Face model card. 4.2B parameters; image encoder, connector, projector and the Phi-3 Mini language model; text and image input; 128K context; MIT license; says the model weight is released on May 21, 2024."
+    },
+    {
+      "id": "src.microsoft.phi-4-announcement",
+      "type": "blog-post",
+      "title": "Introducing Phi-4: Microsoft’s Newest Small Language Model Specializing in Complex Reasoning",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/introducing-phi-4-microsoft%E2%80%99s-newest-small-language-model-specializing-in-comple/4357090",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-12-12"
+      },
+      "notes": "Microsoft Tech Community post (Microsoft Foundry Blog) by ecekamar, Microsoft, dated Dec 12, 2024; the title uses a typographic apostrophe (Microsoft’s). Originally at https://techcommunity.microsoft.com/blog/aiplatformblog/introducing-phi-4-microsoft%E2%80%99s-newest-small-language-model-specializing-in-comple/4357090, which now redirects here. The live version is marked Updated Jan 08, 2025 (Version 2.0) and says Phi-4 is available on Azure AI Foundry and Hugging Face. Wayback Machine captures of December 2024 exist but could not be read for this review, so no archive copy is recorded. The page canonical uses lowercase %e2%80%99.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-mini-flash-reasoning-announcement",
+      "type": "announcement",
+      "title": "Reasoning reimagined: Introducing Phi-4-mini-flash-reasoning",
+      "url": "https://azure.microsoft.com/en-us/blog/reasoning-reimagined-introducing-phi-4-mini-flash-reasoning/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "publishedAt": {
+        "value": "2025-07-09"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Microsoft Azure Blog post by Weizhu Chen, Jianfeng Gao and Liliang Ren. Headline as shown on the page; the HTML title adds the suffix | Microsoft Azure Blog.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-mini-flash-reasoning-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-4-mini-flash-reasoning",
+      "url": "https://huggingface.co/microsoft/Phi-4-mini-flash-reasoning",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence). Living page; content as seen on 2026-10-01. The Training section gives Release date: June 2025 and training in May 2025."
+    },
+    {
+      "id": "src.microsoft.phi-4-mini-instruct-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-4-mini-instruct",
+      "url": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence). Living page; content as seen on 2026-10-01. The Training section gives Release date: February 2025, training between November and December 2024 and a public-data cutoff of June 2024."
+    },
+    {
+      "id": "src.microsoft.phi-4-mini-multimodal-announcement",
+      "type": "announcement",
+      "title": "Empowering innovation: The next generation of the Phi family",
+      "url": "https://azure.microsoft.com/en-us/blog/empowering-innovation-the-next-generation-of-the-phi-family/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "publishedAt": {
+        "value": "2025-02-26"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Microsoft Azure Blog post by Weizhu Chen announcing Phi-4-multimodal and Phi-4-mini. Headline as shown on the page; the HTML title adds the suffix | Microsoft Azure Blog. The page shows February 26, 2025; its metadata lists later modifications (latest 2026-08-13). Linked from the model cards as https://aka.ms/phi4-feb2025, which redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-mini-reasoning-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-4-mini-reasoning",
+      "url": "https://huggingface.co/microsoft/Phi-4-mini-reasoning",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence). Living page; content as seen on 2026-10-01. The Training section gives Release date: April 2025; it also says Trained in February 2024, which looks like a slip for 2025 because the stated data cutoff is February 2025.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-mini-reasoning-paper",
+      "type": "technical-report",
+      "title": "Phi-4-Mini-Reasoning: Exploring the Limits of Small Reasoning Language Models in Math",
+      "url": "https://arxiv.org/abs/2504.21233",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "publishedAt": {
+        "value": "2025-04-30"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv 2504.21233 by Microsoft authors (Xu, Peng, Awadalla and others); only v1, submitted 2025-04-30. The model card links it as the Phi-4-mini-reasoning technical report (https://aka.ms/phi4-mini-reasoning/techreport redirects to the arXiv PDF).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-mini-technical-report",
+      "type": "technical-report",
+      "title": "Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
+      "url": "https://arxiv.org/abs/2503.01743",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "publishedAt": {
+        "value": "2025-03-03"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv 2503.01743, author listed as Microsoft. v1 submitted 2025-03-03, v2 on 2025-03-07; publishedAt is v1. Covers Phi-4-Mini and Phi-4-Multimodal. Linked from the Phi-4-mini model card as https://aka.ms/phi-4-multimodal/techreport, which redirects to the arXiv PDF.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-model-card",
+      "type": "model-card",
+      "title": "microsoft/phi-4",
+      "url": "https://huggingface.co/microsoft/phi-4",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card (heading Phi-4 Model Card). Developers Microsoft Research; 14B parameters, dense decoder-only Transformer; text input; 16K context; Release date: December 12, 2024; License MIT. Training data described as an extension of the data used for Phi-3. The earliest commit (8ee52dc, 2024-12-11) listed the license as MSRLA.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-4-multimodal-instruct",
+      "url": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence). Living page; content as seen on 2026-10-01. The Training section gives Release date: February 2025 and training between December 2024 and January 2025.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-reasoning-announcement",
+      "type": "announcement",
+      "title": "One year of Phi: Small language models making big leaps in AI",
+      "url": "https://azure.microsoft.com/en-us/blog/one-year-of-phi-small-language-models-making-big-leaps-in-ai/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "publishedAt": {
+        "value": "2025-04-30"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Microsoft Azure Blog post by Weizhu Chen and Ece Kamar introducing Phi-4-reasoning, Phi-4-reasoning-plus and Phi-4-mini-reasoning. Headline as shown on the page. The page shows April 30, 2025, while its metadata gives 2025-05-01T00:00:00Z as the publication time. Carries an update dated May 15, 2025 about ONNX-optimized versions for Snapdragon-powered Copilot+ PCs. https://aka.ms/phi4-mini-reasoning/blog redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-reasoning-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-4-reasoning",
+      "url": "https://huggingface.co/microsoft/Phi-4-reasoning",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence), headed Phi-4-reasoning Model Card. Living page; content as seen on 2026-10-01. The Model Summary table lists Microsoft Research as developer and gives Release date April 30, 2025.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-reasoning-plus-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-4-reasoning-plus",
+      "url": "https://huggingface.co/microsoft/Phi-4-reasoning-plus",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence), headed Phi-4-reasoning-plus Model Card. Living page; content as seen on 2026-10-01. The Model Summary table gives Release date April 30, 2025.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-reasoning-technical-report",
+      "type": "technical-report",
+      "title": "Phi-4-reasoning Technical Report",
+      "url": "https://arxiv.org/abs/2504.21318",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "publishedAt": {
+        "value": "2025-04-30"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv 2504.21318 by Microsoft authors (Abdin, Agarwal, Awadallah and others); only v1, submitted 2025-04-30. Covers Phi-4-reasoning and Phi-4-reasoning-plus.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-reasoning-vision-15b-hf-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-4-reasoning-vision-15B",
+      "url": "https://huggingface.co/microsoft/Phi-4-reasoning-vision-15B",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card in the microsoft organisation; the card heading is Phi-4-Reasoning-Vision-15B. States Release Date March 4, 2026, License MIT, Parameters 15B, Context Length 16,384 tokens, Inputs Text and Images, Outputs Text, Model Dependencies Phi-4-Reasoning. Repo metadata tags it base_model:finetune:microsoft/Phi-4-reasoning. Hugging Face API: not gated, weights listed (lastModified 2026-08-31).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-reasoning-vision-blog",
+      "type": "blog-post",
+      "title": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model",
+      "url": "https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-03-04"
+      },
+      "notes": "Microsoft Research Blog post by Aneja, Harrison, Joshi, LaBonte, Langford and Salinas. The HTML title adds the suffix - Microsoft Research; the og:title metadata reads Headline: Phi-4-Vision-Reasoning, training a multimodal reasoning model. It also says some training answers were regenerated with OpenAI GPT-4o and o4-mini.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-reasoning-vision-technical-report",
+      "type": "technical-report",
+      "title": "Phi-4-reasoning-vision-15B Technical Report",
+      "url": "https://arxiv.org/abs/2603.03975",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-03-04"
+      },
+      "notes": "arXiv 2603.03975, v1 submitted 4 Mar 2026 by Microsoft Research authors (same six authors as the blog post). Only v1 existed when checked.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-4-technical-report",
+      "type": "technical-report",
+      "title": "Phi-4 Technical Report",
+      "url": "https://arxiv.org/abs/2412.08905",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-12-12"
+      },
+      "notes": "arXiv technical report by Microsoft (Abdin et al.); v1 submitted 2024-12-12, only one version. Says phi-4 is a 14-billion parameter model with minimal changes to the phi-3 architecture.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-mini-moe-instruct-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-mini-MoE-instruct",
+      "url": "https://huggingface.co/microsoft/Phi-mini-MoE-instruct",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence). Living page; content as seen on 2026-10-01. No release date stated; training between September 2024 and March 2025.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-open-models",
+      "type": "other",
+      "title": "Phi Open Models - Small Language Models",
+      "url": "https://azure.microsoft.com/en-us/products/phi",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Azure product page; the heading reads Phi open model family. The FAQ lists the Phi series from Phi-1 to Phi-4-multimodal and says Phi models are open source under the MIT License. The HTML title ends with the suffix | Microsoft Azure.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-product-page",
+      "type": "other",
+      "title": "Phi open model family",
+      "url": "https://azure.microsoft.com/en-us/products/phi",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Azure product page for Phi. Heading as shown on the page; the HTML title is Phi Open Models - Small Language Models | Microsoft Azure. Living page; content as seen on 2026-10-01. The FAQ entry What are the latest Phi models? still names Phi-4-mini and Phi-4-multimodal and describes their changes.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.phi-tiny-moe-instruct-model-card",
+      "type": "model-card",
+      "title": "microsoft/Phi-tiny-MoE-instruct",
+      "url": "https://huggingface.co/microsoft/Phi-tiny-MoE-instruct",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence). Living page; content as seen on 2026-10-01. No release date stated. The Architecture line reads 3.8 total parameters, without the B that the Model Summary gives (3.8B total).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.seven-new-mai-models",
+      "type": "announcement",
+      "title": "Building a hill-climbing machine: Launching seven new MAI models",
+      "url": "https://microsoft.ai/news/building-a-hillclimbing-machine-launching-seven-new-mai-models/",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-06-02"
+      },
+      "notes": "Microsoft AI post by Mustafa Suleyman with the line Updated as of June 8, 2026 (page metadata modified 2026-07-29). It announces MAI-Thinking-1, MAI-Code-1-Flash and image, voice and transcription models, and calls them the MAI model family. HTML title ends with the suffix | Microsoft AI.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.microsoft.slimmoe-paper",
+      "type": "research-paper",
+      "title": "SlimMoE: Structured Compression of Large MoE Models via Expert Slimming and Distillation",
+      "url": "https://arxiv.org/abs/2506.18349",
+      "publisher": "Microsoft",
+      "publisherOrgId": "microsoft",
+      "publishedAt": {
+        "value": "2025-06-23"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv 2506.18349 (Li, Liang, Zhang, Hong and others); only v1, submitted 2025-06-23. The abstract says the Phi-mini-MoE and Phi-tiny-MoE models are made publicly available and links the two Hugging Face repositories. Joint paper by Microsoft (Chen Liang, Young Jin Kim, Weizhu Chen) and Georgia Tech authors; the first author did the work during an internship at Microsoft. The Microsoft model cards cite it as the SlimMoE paper.",
+      "lastCheckedAt": "2026-10-05"
+    }
+  ]
+}

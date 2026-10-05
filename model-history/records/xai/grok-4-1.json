@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-4-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-4-1",
+  "name": "Grok 4.1",
+  "aliases": [
+    {
+      "text": "Grok 4.1",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 4.1 Thinking",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 4.1 Non-Thinking",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "4.1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "Offered only in the consumer apps; xAI publishes no retirement information for consumer models and no current primary source states whether Grok 4.1 is still offered."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-11-17",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.xai.grok-4-1-model-card",
+          "locator": "header and Introduction"
+        }
+      ],
+      "note": "Public release in the consumer apps, after a silent rollout of preliminary builds from 1 to 14 November 2025."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-4",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-model-card",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.xai.grok-4-1-announcement"
+        }
+      ],
+      "note": "The model card calls Grok 4.1 an update to Grok 4 and Grok 3; the announcement compares it with Grok 4."
+    }
+  ],
+  "summary": {
+    "text": "Grok 4.1 is an xAI language model released on 17 November 2025 to all users of grok.com, X and the iOS and Android apps, in Thinking and Non-Thinking configurations. xAI calls it an update to Grok 4 and Grok 3, with post-training aimed at style, personality, helpfulness and fewer factual hallucinations.",
+    "sources": [
+      {
+        "id": "src.xai.grok-4-1-announcement"
+      },
+      {
+        "id": "src.xai.grok-4-1-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "post-training",
+      "aspect": "other",
+      "relativeTo": "xai.grok-4",
+      "text": "Post-training targeted style, personality, helpfulness and alignment, and xAI says it reduced factual hallucinations on information-seeking prompts.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-announcement"
+        }
+      ]
+    },
+    {
+      "id": "mid-training",
+      "aspect": "training-data",
+      "direction": "added",
+      "relativeTo": "xai.grok-4",
+      "text": "Training adds a targeted mid-training stage to improve specific knowledge and capabilities.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-model-card"
+        }
+      ]
+    },
+    {
+      "id": "all-users",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4",
+      "text": "Released to all users of grok.com, X and the mobile apps, whereas Grok 4 launched for SuperGrok and Premium+ subscribers.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.xai.grok-4-announcement",
+          "locator": "first paragraph"
+        }
+      ]
+    },
+    {
+      "id": "input-filter",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4",
+      "text": "Deployed with a new input filter model that xAI calls more robust, evaluated on requests for restricted chemistry and biology knowledge.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.grok-4-1-model-card",
+            "locator": "Introduction"
+          }
+        ],
+        "note": "Two configurations: Grok 4.1 Thinking, which reasons before responding, and Grok 4.1 Non-Thinking, which responds directly."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.xai.grok-4-1-model-card",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  },
+  "notes": "Thinking and Non-Thinking are configurations of one model, kept as aliases; LMArena code names in the announcement are not recorded. No API model id for Grok 4.1 itself was found; the API model of this period is Grok 4.1 Fast (separate record). Input modalities and context window are not stated in the live primary sources, so they are left out. The grok.com release-notes entry of 2025-11-18 lists Grok 4.1 as released; it is a weekly digest date, not a conflicting release date, so it is not recorded as an alternative."
+}

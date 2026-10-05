@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-2-0-flash-thinking",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-2-0-flash-thinking",
+  "name": "Gemini 2.0 Flash Thinking",
+  "aliases": [
+    {
+      "text": "Gemini 2.0 Flash Thinking",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini 2.0 Flash Thinking Experimental",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini 2.0 Flash Thinking Mode",
+      "match": "auto"
+    },
+    {
+      "text": "2.0 Flash Thinking",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.0-flash-thinking-exp",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.0-flash-thinking-exp-1219",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.0-flash-thinking-exp-01-21",
+      "match": "auto"
+    },
+    {
+      "text": "Flash Thinking",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-flash",
+  "generation": "2.0",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-changelog",
+        "locator": "November 4, 2025"
+      }
+    ],
+    "note": "Never released as a stable model. The release notes announced the shutdown of all its API ids for 2025-12-02; no later entry confirms the shutdown, and the deprecations page no longer lists these ids."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-12-19",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "December 19, 2024"
+        }
+      ],
+      "note": "Public preview (experimental) in the Gemini API and Google AI Studio, as Gemini 2.0 Flash Thinking Mode."
+    },
+    "deprecated": {
+      "value": "2025-11-04",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "November 4, 2025"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-12-02",
+      "qualifier": "uncertain",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "November 4, 2025"
+        }
+      ],
+      "note": "Scheduled shutdown date as announced; the deprecations page says such dates are the earliest possible shutdown dates."
+    }
+  },
+  "milestones": [
+    {
+      "id": "exp-01-21",
+      "label": "Updated preview version (gemini-2.0-flash-thinking-exp-01-21)",
+      "date": {
+        "value": "2025-01-21",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-changelog",
+            "locator": "January 21, 2025"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gemini-app",
+      "label": "Available in the Gemini app",
+      "date": {
+        "value": "2025-02-05",
+        "sources": [
+          {
+            "id": "src.google.gemini-app-2-0-experimental-models"
+          },
+          {
+            "id": "src.google.gemini-app-release-notes",
+            "locator": "2025.02.05"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gemini-app-upgrade",
+      "label": "Upgraded version in the Gemini app, also powering Deep Research",
+      "date": {
+        "value": "2025-03-13",
+        "sources": [
+          {
+            "id": "src.google.gemini-app-march-2025-features"
+          },
+          {
+            "id": "src.google.gemini-app-release-notes",
+            "locator": "2025.03.13"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "google.gemini-2-0-flash",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-app-2-0-experimental-models"
+        },
+        {
+          "id": "src.google.gemini-app-release-notes",
+          "locator": "2025.02.05"
+        }
+      ],
+      "note": "Google says the model is built on 2.0 Flash and trained to break prompts into a series of steps; no training method is named."
+    }
+  ],
+  "summary": {
+    "text": "Gemini 2.0 Flash Thinking is an experimental reasoning model from Google, built on Gemini 2.0 Flash and offered in preview in the Gemini API and Google AI Studio from December 2024 and in the Gemini app from February 2025. Google describes it as a test-time compute model that shows its thought process while generating a response; it never left experimental status.",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-changelog",
+        "locator": "December 19, 2024"
+      },
+      {
+        "id": "src.google.gemini-app-2-0-experimental-models"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "thinking",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "google.gemini-2-0-flash",
+      "text": "Adds a thinking process: Google says the model is trained to break prompts into a series of steps, and it shows its reasoning before answering.",
+      "sources": [
+        {
+          "id": "src.google.gemini-app-2-0-experimental-models"
+        },
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "December 19, 2024"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-changelog",
+            "locator": "December 19, 2024"
+          },
+          {
+            "id": "src.google.gemini-app-2-0-experimental-models"
+          }
+        ],
+        "note": "Shows its thought process while generating a response."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "December 19, 2024"
+        },
+        {
+          "id": "src.google.gemini-app-2-0-experimental-models"
+        }
+      ],
+      "note": "Experimental model in the Gemini API and Google AI Studio; Gemini app from 2025-02-05."
+    }
+  },
+  "notes": "Experimental only. API ids named in the release notes: gemini-2.0-flash-thinking-exp-1219, gemini-2.0-flash-thinking-exp-01-21 (released January 21, 2025) and gemini-2.0-flash-thinking-exp. In the Gemini app it also ran in a version that works with connected apps such as YouTube, Search and Maps. Google's February 2025 developer post calls it the Flash variant that reasons before answering. Input modalities are not itemised in the live sources, so inputModalities is left out and multimodal is not set. Context window: the only live figure is the 1M token window for Gemini Advanced users in the Gemini app from March 2025 (app release notes and the March 2025 post), a product limit rather than an API limit, so contextWindowTokens is left out."
+}

@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemma-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemma-1",
+  "name": "Gemma",
+  "aliases": [
+    {
+      "text": "Gemma",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemma",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.google.gemma-2b-model-card"
+      },
+      {
+        "id": "src.google.gemma-7b-model-card"
+      }
+    ],
+    "note": "Weights still downloadable from Google's Hugging Face organisation (gated behind the Gemma terms) on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-02-21",
+      "sources": [
+        {
+          "id": "src.google.gemma-announcement"
+        },
+        {
+          "id": "src.google.gemma-releases",
+          "locator": "February 21, 2024"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Gemma is a family of lightweight open-weight language models from Google, released in February 2024 in 2B and 7B sizes, each pre-trained and instruction-tuned, and built from the research behind Gemini. The text-to-text, English-language models have an 8,192-token context window, and their terms of use allow responsible commercial use.",
+    "sources": [
+      {
+        "id": "src.google.gemma-announcement"
+      },
+      {
+        "id": "src.google.gemma-7b-model-card"
+      },
+      {
+        "id": "src.google.gemma-2b-model-card"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-2b-model-card",
+          "locator": "Inputs and outputs"
+        },
+        {
+          "id": "src.google.gemma-7b-model-card",
+          "locator": "Inputs and outputs"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-2b-model-card",
+          "locator": "Inputs and outputs"
+        },
+        {
+          "id": "src.google.gemma-7b-model-card",
+          "locator": "Inputs and outputs"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 8192,
+      "asStated": "8192 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-7b-model-card",
+          "locator": "Context Length"
+        },
+        {
+          "id": "src.google.gemma-technical-report",
+          "locator": "section 2"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-announcement",
+          "locator": "Gemma open models"
+        },
+        {
+          "id": "src.google.gemma-2b-model-card"
+        },
+        {
+          "id": "src.google.gemma-7b-model-card"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "fine-tuning-available",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemma-announcement",
+            "locator": "Optimized across frameworks, tools and hardware"
+          }
+        ],
+        "note": "Google provided toolchains and notebooks for supervised fine-tuning."
+      }
+    ],
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-announcement",
+          "locator": "Gemma open models"
+        },
+        {
+          "id": "src.google.gemma-2b-model-card"
+        },
+        {
+          "id": "src.google.gemma-7b-model-card"
+        }
+      ],
+      "note": "Weights on Google's Hugging Face organisation (gated behind the Gemma terms); the announcement also names deployment on Vertex AI and Google Kubernetes Engine."
+    }
+  },
+  "variants": [
+    {
+      "id": "2b",
+      "name": "Gemma 2B",
+      "aliases": [
+        {
+          "text": "google/gemma-2b",
+          "match": "auto"
+        },
+        {
+          "text": "google/gemma-2b-it",
+          "match": "auto"
+        },
+        {
+          "text": "Gemma 2B",
+          "match": "candidate"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 2506434560,
+          "asStated": "2B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-technical-report",
+              "locator": "Table 2"
+            }
+          ],
+          "note": "Table 2: 524,550,144 embedding and 1,981,884,416 non-embedding parameters."
+        }
+      },
+      "note": "Released as pre-trained and instruction-tuned (-it) checkpoints.",
+      "sources": [
+        {
+          "id": "src.google.gemma-announcement",
+          "locator": "Gemma open models"
+        },
+        {
+          "id": "src.google.gemma-2b-model-card"
+        }
+      ]
+    },
+    {
+      "id": "7b",
+      "name": "Gemma 7B",
+      "aliases": [
+        {
+          "text": "google/gemma-7b",
+          "match": "auto"
+        },
+        {
+          "text": "google/gemma-7b-it",
+          "match": "auto"
+        },
+        {
+          "text": "Gemma 7B",
+          "match": "candidate"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 8538074112,
+          "asStated": "7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-technical-report",
+              "locator": "Table 2"
+            }
+          ],
+          "note": "Table 2: 786,825,216 embedding and 7,751,248,896 non-embedding parameters."
+        }
+      },
+      "note": "Released as pre-trained and instruction-tuned (-it) checkpoints.",
+      "sources": [
+        {
+          "id": "src.google.gemma-announcement",
+          "locator": "Gemma open models"
+        },
+        {
+          "id": "src.google.gemma-7b-model-card"
+        }
+      ]
+    }
+  ],
+  "notes": "Released under the name Gemma; Gemma 1.1 (google.gemma-1-1) followed on 2024-04-05 according to the Gemma releases page. Google says Gemma is built from the same research and technology as Gemini, without naming a source model, so no derived-from relation. The model cards describe text-to-text, English-language models under the Gemma terms of use, which permit responsible commercial use. The bare name Gemma is the family name, so it is never matched."
+}

@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.llama-3-1-nemotron-ultra-253b-v1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-3-1-nemotron-ultra-253b-v1",
+  "name": "Llama-3.1-Nemotron-Ultra-253B-v1",
+  "aliases": [
+    {
+      "text": "Llama-3.1-Nemotron-Ultra-253B-v1",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-3_1-Nemotron-Ultra-253B-v1",
+      "match": "auto"
+    },
+    {
+      "text": "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1",
+      "match": "auto"
+    },
+    {
+      "text": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-3_1-Nemotron-Ultra-253B-v1-FP8",
+      "match": "auto"
+    },
+    {
+      "text": "Llama 3.1 Nemotron Ultra 253B v1",
+      "match": "auto"
+    },
+    {
+      "text": "Llama Nemotron Ultra 253B",
+      "match": "candidate"
+    },
+    {
+      "text": "Llama Nemotron Ultra",
+      "match": "candidate"
+    },
+    {
+      "text": "LN-Ultra",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron-ultra",
+  "generation": "1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-model-card",
+        "locator": "model card and files"
+      }
+    ],
+    "note": "Open weights still downloadable from NVIDIA's Hugging Face organisation. NVIDIA has marked only its hosted API endpoint on build.nvidia.com as deprecated (see notes); no deprecation of the model weights was found."
+  },
+  "dates": {
+    "announced": {
+      "value": "2025-03-18",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-nemotron-reasoning-press-release",
+          "locator": "NVIDIA Post-Training Boosts Accuracy and Reliability for Enterprise Reasoning"
+        }
+      ],
+      "note": "The GTC press release introduces the Ultra size as forthcoming; its availability section lists only Nano and Super."
+    },
+    "released": {
+      "value": "2025-04-07",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-model-card",
+          "locator": "Release Date; Model Version"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Llama-3.1-Nemotron-Ultra-253B-v1 is a 253B open-weights reasoning language model from NVIDIA, the Ultra size of the Llama Nemotron family, released in April 2025 and also offered as a hosted preview API. NVIDIA derived it from Meta's Llama-3.1-405B-Instruct with neural architecture search, distillation and continued pretraining, and says it fits on a single 8xH100 node.",
+    "sources": [
+      {
+        "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-model-card"
+      },
+      {
+        "id": "src.nvidia.llama-nemotron-reasoning-press-release"
+      },
+      {
+        "id": "src.nvidia.llama-nemotron-reasoning-dev-blog"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-model-card",
+          "locator": "Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-model-card",
+          "locator": "Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-model-card",
+            "locator": "Quick Start and Usage Recommendations"
+          },
+          {
+            "id": "src.nvidia.llama-nemotron-technical-report",
+            "locator": "abstract"
+          }
+        ],
+        "note": "Reasoning on or off is selected through the system prompt."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-model-card",
+            "locator": "Model Overview"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-model-card",
+          "locator": "License/Terms of Use"
+        }
+      ],
+      "note": "Governed by the NVIDIA Open Model License; the Llama 3.1 Community License Agreement also applies (Built with Llama)."
+    },
+    "contextWindowTokens": {
+      "value": 131072,
+      "asStated": "131,072 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-model-card",
+          "locator": "Input"
+        }
+      ],
+      "note": "The model overview also gives the context length as 128K tokens."
+    },
+    "parameters": {
+      "value": 253000000000,
+      "asStated": "253B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-model-card",
+          "locator": "Model Architecture"
+        },
+        {
+          "id": "src.nvidia.llama-nemotron-reasoning-dev-blog",
+          "locator": "Ultra"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-model-card",
+          "locator": "Quick Start and Usage Recommendations"
+        },
+        {
+          "id": "src.nvidia.llama-nemotron-reasoning-dev-blog",
+          "locator": "Get started with NVIDIA Llama Nemotron models"
+        },
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-build-page",
+          "locator": "endpoint page"
+        }
+      ],
+      "note": "Hosted preview API on build.nvidia.com; NVIDIA has since marked the hosted API deprecated (deprecation date 04/22/2026), although the id is still listed in its public model list on 2026-10-02."
+    }
+  },
+  "variants": [
+    {
+      "id": "cpt",
+      "name": "Llama-3.1-Nemotron-Ultra-253B-CPT-v1",
+      "aliases": [
+        {
+          "text": "Llama-3.1-Nemotron-Ultra-253B-CPT-v1",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/Llama-3_1-Nemotron-Ultra-253B-CPT-v1",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-04-08",
+          "sources": [
+            {
+              "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-cpt-v1-model-card",
+              "locator": "Release Date; Model Version"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-cpt-v1-model-card",
+          "locator": "Model Overview"
+        }
+      ],
+      "note": "Base checkpoint after knowledge distillation and continued pretraining, before the reasoning post-training; NVIDIA says it can be used as a base model."
+    }
+  ],
+  "notes": "Announced at GTC on 2025-03-18 as the coming Ultra size and released on Hugging Face on 2025-04-07 per the model card; the GTC developer blog was updated on 2025-04-08 to cover it. On 2025-01-06 NVIDIA had announced Nano, Super and Ultra sizes without naming models; the announced date used here is the GTC press release, which first presented the reasoning Ultra model. NVIDIA describes the model as a derivative of Meta Llama-3.1-405B-Instruct built with neural architecture search, distillation and continued pretraining (cross-organisation relation, not stored here). The FP8 checkpoint nvidia/Llama-3_1-Nemotron-Ultra-253B-v1-FP8 (repository created 2025-04-30 per Hugging Face metadata) is kept as an alias. Hosted API: the build.nvidia.com page marks the endpoint nvidia/llama-3.1-nemotron-ultra-253b-v1 deprecated with the date 04/22/2026, yet the id is still in NVIDIA's public model list (integrate.api.nvidia.com/v1/models) on 2026-10-02; this concerns the hosted endpoint only, so the lifecycle follows the open weights, which remain downloadable.",
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "meta.llama-3-1",
+      "method": "distillation",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-ultra-253b-v1-model-card",
+          "locator": "derived from Llama-3.1-405B-Instruct"
+        }
+      ]
+    }
+  ]
+}

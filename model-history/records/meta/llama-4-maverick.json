@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.llama-4-maverick",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-4-maverick",
+  "name": "Llama 4 Maverick",
+  "aliases": [
+    {
+      "text": "Llama 4 Maverick",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-4-Maverick-17B-128E",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-4-Maverick-17B-128E-Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+      "match": "auto"
+    },
+    {
+      "text": "Maverick",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.llama-4",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.meta.llama-4-maverick-hf",
+        "locator": "model page and access request form"
+      },
+      {
+        "id": "src.meta.llama-4-models-page",
+        "locator": "Llama 4 Maverick, Download"
+      }
+    ],
+    "note": "Open weights still offered (gated, on request) from Meta's meta-llama organisation on Hugging Face and from Meta's Llama 4 page on 2026-10-01. The hosted Llama API preview is a separate matter, see notes."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-04-05",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "page date; Takeaways"
+        },
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Release Date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "meta.llama-3-3",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "Post-training our new models"
+        }
+      ],
+      "note": "Editorial link along the Llama line: Llama 4 Maverick is among the first Llama 4 models, released after Llama 3.3, and the announcement compares its price and quality with Llama 3.3 70B. Meta does not call it the successor of a named model."
+    },
+    {
+      "type": "derived-from",
+      "target": "meta.llama-4-behemoth",
+      "method": "distillation",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "Pushing Llama to new sizes: The 2T Behemoth"
+        }
+      ],
+      "note": "Meta describes this as codistillation, with Llama 4 Behemoth as the teacher model."
+    }
+  ],
+  "summary": {
+    "text": "Llama 4 Maverick is a multimodal language model in Meta's Llama 4 line that takes text and images and returns text, released with open weights in BF16 and FP8 and later offered in a preview of Meta's Llama API. It is a mixture-of-experts model with 17B of 400B parameters active and a 1M-token context length; Meta calls it its product workhorse for assistant and chat use.",
+    "sources": [
+      {
+        "id": "src.meta.llama-4-announcement"
+      },
+      {
+        "id": "src.meta.llama-4-model-card"
+      },
+      {
+        "id": "src.meta.llama-4-model-cards-and-prompt-formats"
+      },
+      {
+        "id": "src.meta.llamacon-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "mixture-of-experts",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "meta.llama-3-3",
+      "text": "One of Meta's first Llama models built on mixture of experts: 128 routed experts plus a shared expert in alternating dense and MoE layers, 17B of 400B parameters active.",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement"
+        }
+      ]
+    },
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "meta.llama-3-3",
+      "text": "Accepts images alongside text as input; Meta describes native multimodality with early fusion of text and vision tokens.",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Information table, Input modalities"
+        },
+        {
+          "id": "src.meta.llama-4-announcement"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "meta.llama-3-3",
+      "text": "Context length of 1M tokens, up from 128K in Llama 3.",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Information table, Context length"
+        },
+        {
+          "id": "src.meta.llama-4-announcement"
+        }
+      ]
+    },
+    {
+      "id": "codistillation",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "meta.llama-3-3",
+      "text": "Codistilled from Llama 4 Behemoth as teacher, then post-trained with lightweight supervised fine-tuning, online reinforcement learning and lightweight DPO.",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Information table, Input modalities"
+        },
+        {
+          "id": "src.meta.llama-4-model-cards-and-prompt-formats",
+          "locator": "Introduction, feature table, Multimodal"
+        }
+      ],
+      "note": "Meta's docs give text plus up to 5 images as input; the model card says image understanding was tested up to 5 input images and the docs say image understanding is English-only."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-model-cards-and-prompt-formats",
+          "locator": "Introduction, feature table, Multimodal"
+        },
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Information table, Output modalities"
+        }
+      ],
+      "note": "The docs say text-only output; the model card table lists the output as multilingual text and code."
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Information table, Context length"
+        },
+        {
+          "id": "src.meta.llama-4-model-cards-and-prompt-formats",
+          "locator": "Introduction, feature table, Maximum Context Length"
+        }
+      ],
+      "note": "The announcement gives no context length for Maverick."
+    },
+    "parameters": {
+      "value": 400000000000,
+      "asStated": "17B (Activated), 400B (Total)",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "Model Information table, Params"
+        },
+        {
+          "id": "src.meta.llama-4-model-cards-and-prompt-formats",
+          "locator": "Introduction, feature table"
+        },
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "Pre-training; Post-training our new models"
+        }
+      ],
+      "note": "Mixture-of-experts model with 128 routed experts and a shared expert in alternating dense and MoE layers; the value is the total parameter count, of which 17B are active per token."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "opening paragraphs"
+        },
+        {
+          "id": "src.meta.llama-4-maverick-hf"
+        },
+        {
+          "id": "src.meta.llama-4-model-card",
+          "locator": "License; Quantization"
+        }
+      ],
+      "note": "Gated download under the Llama 4 Community License Agreement, a custom commercial license (model card); released as BF16 and FP8 weights."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "opening paragraphs"
+        },
+        {
+          "id": "src.meta.llama-4-maverick-hf"
+        },
+        {
+          "id": "src.meta.llamacon-announcement",
+          "locator": "Llama API"
+        }
+      ],
+      "note": "API access through Meta's Llama API, a limited free preview announced on 2025-04-29. The launch post said partner availability would follow in the coming days; cloud-partner is left out because no Meta source read here names the partners."
+    }
+  },
+  "notes": "Released together with Llama 4 Scout in the post The Llama 4 herd, which also previewed Llama 4 Behemoth. Pretrained and instruction-tuned versions were published (Hugging Face meta-llama/Llama-4-Maverick-17B-128E, meta-llama/Llama-4-Maverick-17B-128E-Instruct and an FP8 build of the instruction-tuned model; original-format checkpoints in the matching -Original repositories). The announcement mentions an experimental chat version of Maverick evaluated on LMArena; it was not released as a separate model and is not recorded. The announcement says Meta AI in WhatsApp, Messenger, Instagram Direct and on the web is built with Llama 4 without naming the model, so consumer-app is left out. Meta later wound down the hosted Llama API: its page Upcoming changes to Llama API (https://llama.developer.meta.com/docs/llama-api-deprecation/) now redirects to dev.meta.ai and shows only a sign-in prompt, and the Internet Archive holds only a redirect capture (20260911184803), so no end date is recorded."
+}

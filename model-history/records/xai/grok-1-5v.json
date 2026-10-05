@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-1-5v",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-1-5v",
+  "name": "Grok-1.5V",
+  "aliases": [
+    {
+      "text": "Grok-1.5V",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 1.5V",
+      "match": "auto"
+    },
+    {
+      "text": "Grok-1.5 Vision",
+      "match": "auto"
+    },
+    {
+      "text": "Grok-1.5 Vision Preview",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "1.5",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "Announced as a preview coming soon to early testers and existing Grok users. xAI has published no confirmation of a release and no deprecation or retirement notice."
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-04-12",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-5v-announcement",
+          "locator": "page date"
+        }
+      ]
+    },
+    "released": {
+      "value": null,
+      "sources": [],
+      "note": "No xAI page states when or whether Grok-1.5V reached users."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "variant-of",
+      "target": "xai.grok-1-5",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-5v-announcement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Editorial: xAI names it Grok-1.5 Vision and calls it its first multimodal model, but does not say how it relates to Grok-1.5 or how it was built."
+    }
+  ],
+  "summary": {
+    "text": "Grok-1.5V is a preview model that xAI announced on 12 April 2024 as its first-generation multimodal model, taking images such as documents, diagrams, charts, screenshots and photographs alongside text. xAI said it would come soon to early testers and existing Grok users, and introduced the RealWorldQA dataset with it.",
+    "sources": [
+      {
+        "id": "src.xai.grok-1-5v-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "xai.grok-1-5",
+      "text": "Adds image input, such as documents, diagrams, charts, screenshots and photographs, alongside text.",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-5v-announcement",
+          "locator": "first paragraph"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-5v-announcement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "xAI lists documents, diagrams, charts, screenshots and photographs as visual input."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    }
+  },
+  "notes": "Access is left out: the announcement only says the model would be available soon to early testers and existing Grok users, and the Grok-2 announcement of 2024-08-13 still describes a preview of multimodal understanding on X and the API as coming soon. The page title is Grok-1.5 Vision Preview; the model name used in the text is Grok-1.5V."
+}

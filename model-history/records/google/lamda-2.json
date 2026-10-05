@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "id": "google.lamda-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "lamda-2",
+  "name": "LaMDA 2",
+  "aliases": [
+    {
+      "text": "LaMDA 2",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.lamda",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "Google offered LaMDA 2 only in experimental AI Test Kitchen demos; no Google source found states when they ended."
+  },
+  "dates": {
+    "announced": {
+      "value": "2022-05-11",
+      "sources": [
+        {
+          "id": "src.google.io-2022-keynote",
+          "locator": "Introducing LaMDA 2 and AI Test Kitchen"
+        }
+      ]
+    },
+    "released": {
+      "value": "2022-08-25",
+      "sources": [
+        {
+          "id": "src.google.ai-test-kitchen-announcement",
+          "locator": "second and fourth paragraphs"
+        }
+      ],
+      "note": "AI Test Kitchen opened for registration of interest and began rolling out gradually to small groups of users in the US, on Android first. The post calls the model our latest version of LaMDA; Google had introduced it as LaMDA 2 at I/O 2022."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.lamda-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.io-2022-keynote",
+          "locator": "Introducing LaMDA 2 and AI Test Kitchen"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "LaMDA 2 is the second version of Google's conversational language model, announced at Google I/O in May 2022. Google offered it only through AI Test Kitchen, an app of experimental demos that began rolling out gradually to small groups of users in the US in August 2022.",
+    "sources": [
+      {
+        "id": "src.google.io-2022-keynote"
+      },
+      {
+        "id": "src.google.ai-test-kitchen-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "safety",
+      "aspect": "safety",
+      "relativeTo": "google.lamda-1",
+      "text": "Google says testing with thousands of its employees brought quality gains and fewer inaccurate or offensive responses, and that the demo version had key safety improvements.",
+      "sources": [
+        {
+          "id": "src.google.io-2022-keynote"
+        },
+        {
+          "id": "src.google.ai-test-kitchen-announcement"
+        }
+      ]
+    },
+    {
+      "id": "ai-test-kitchen",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "google.lamda-1",
+      "text": "Opened to a wider audience through experimental demos in the AI Test Kitchen app, after earlier testing inside Google.",
+      "sources": [
+        {
+          "id": "src.google.io-2022-keynote"
+        },
+        {
+          "id": "src.google.ai-test-kitchen-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.io-2022-keynote",
+          "locator": "Introducing LaMDA 2 and AI Test Kitchen"
+        },
+        {
+          "id": "src.google.ai-test-kitchen-announcement",
+          "locator": "second paragraph"
+        }
+      ],
+      "note": "Through the AI Test Kitchen app, as experimental demos."
+    }
+  },
+  "notes": "Added outside the decided scope: Google announced LaMDA 2 by name at I/O 2022 and offered it in AI Test Kitchen. The keynote describes an Imagine It demo and a dogs demo; the AI Test Kitchen post names the first demos Imagine It, List It and Talk About It (Dogs Edition)."
+}

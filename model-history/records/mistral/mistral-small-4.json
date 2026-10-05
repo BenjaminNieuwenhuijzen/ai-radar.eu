@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-small-4",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-small-4",
+  "name": "Mistral Small 4",
+  "aliases": [
+    {
+      "text": "Mistral Small 4",
+      "match": "auto"
+    },
+    {
+      "text": "mistral-small-2603",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Small-4-119B-2603",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Small 4 119B A6B",
+      "match": "auto"
+    },
+    {
+      "text": "Small 4",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-small",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-small-4-docs",
+        "locator": "GA badge"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Generalist models"
+      },
+      {
+        "id": "src.mistral.mistral-small-4-hf"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-03-16",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-4-announcement"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "March 16 (2026)"
+        },
+        {
+          "id": "src.mistral.mistral-small-4-docs",
+          "locator": "page header date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.mistral-small-3-2",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-4-announcement",
+          "locator": "first paragraph; Reasoning on demand"
+        },
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, Alternative column"
+        }
+      ],
+      "note": "Editorial link along the Mistral Small line: the announcement calls Small 4 the next major release in the Mistral Small family and compares its non-reasoning mode with the chat style of Mistral Small 3.2, the most recent Small release before it, without naming a predecessor; the models overview names Small 4 as the alternative for the retired Small 3.2."
+    }
+  ],
+  "summary": {
+    "text": "Mistral Small 4 is a mixture-of-experts model from Mistral AI with 119B total parameters, released on 16 March 2026 as Apache 2.0 open weights and on Mistral's API. Mistral describes it as its first model to combine the reasoning, multimodal and agentic coding capabilities of Magistral, Pixtral and Devstral, with reasoning effort set per request.",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-small-4-announcement"
+      },
+      {
+        "id": "src.mistral.mistral-small-4-hf"
+      },
+      {
+        "id": "src.mistral.mistral-small-4-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "reasoning-effort",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "mistral.mistral-small-3-2",
+      "text": "Adds reasoning effort set per request (none or high) in the same model, instead of a separate Magistral reasoning model.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-4-announcement",
+          "locator": "Reasoning on demand"
+        }
+      ]
+    },
+    {
+      "id": "mixture-of-experts",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-small-3-2",
+      "text": "Moves to a mixture-of-experts design with 128 experts, 4 active per token, and 119B total parameters.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-4-hf",
+          "locator": "Key Features"
+        }
+      ]
+    },
+    {
+      "id": "context-256k",
+      "aspect": "context-length",
+      "relativeTo": "mistral.mistral-small-3-2",
+      "text": "Has a context window of 256k tokens.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-4-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    {
+      "id": "serving-speed",
+      "aspect": "efficiency",
+      "relativeTo": "mistral.mistral-small-3",
+      "text": "Mistral reports 40 percent less end-to-end completion time in a latency-optimized setup and three times more requests per second in a throughput-optimized setup than Small 3.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-4-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-4-docs",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.mistral-small-4-announcement",
+          "locator": "Key architectural details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-4-docs",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.mistral-small-4-hf",
+          "locator": "Key Features"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-4-docs",
+          "locator": "Context"
+        },
+        {
+          "id": "src.mistral.mistral-small-4-announcement",
+          "locator": "Key architectural details"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 119000000000,
+      "asStated": "119B total, 6.5B active",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-4-docs",
+          "locator": "description"
+        },
+        {
+          "id": "src.mistral.mistral-small-4-hf",
+          "locator": "Key Features"
+        }
+      ],
+      "note": "Mixture of experts with 128 experts, 4 active per token. The announcement gives 6B active parameters per token (8B including embedding and output layers); the docs and the model card give 6.5B active."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-4-hf"
+        },
+        {
+          "id": "src.mistral.mistral-small-4-announcement"
+        }
+      ],
+      "note": "Apache 2.0."
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mistral-small-4-announcement",
+            "locator": "Reasoning on demand"
+          },
+          {
+            "id": "src.mistral.mistral-small-4-hf",
+            "locator": "Recommended Settings"
+          }
+        ],
+        "note": "Configurable per request with the reasoning_effort parameter (none or high)."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mistral-small-4-docs",
+            "locator": "Features: Function Calling"
+          }
+        ]
+      }
+    ],
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-4-announcement",
+          "locator": "Availability"
+        }
+      ],
+      "note": "Mistral API and AI Studio, Hugging Face, and NVIDIA (build.nvidia.com and NVIDIA NIM) at launch."
+    }
+  },
+  "notes": "The announcement says it unifies the capabilities of Magistral (reasoning), Pixtral (multimodal) and Devstral (agentic coding) in one model; no relation to those lines is recorded. The docs weights link (mistralai/Mistral-Small-4-2603) returned 401 on 2026-10-01; the public repository is mistralai/Mistral-Small-4-119B-2603. The docs page also lists the moving alias mistral-small-latest, which is not recorded."
+}

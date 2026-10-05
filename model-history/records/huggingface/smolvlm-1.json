@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "id": "huggingface.smolvlm-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "smolvlm-1",
+  "name": "SmolVLM",
+  "aliases": [
+    {
+      "text": "SmolVLM",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "huggingface",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "huggingface.smolvlm",
+  "generation": "1",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.huggingface.smolvlm-instruct-model-card",
+        "locator": "model repository (weights hosted on the Hub)"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-11-26",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-announcement",
+          "locator": "page date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "huggingface.smollm2",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-announcement",
+          "locator": "Architecture: SmolLM2 1.7B as the language backbone"
+        },
+        {
+          "id": "src.huggingface.smolvlm-instruct-model-card",
+          "locator": "metadata base_model: HuggingFaceTB/SmolLM2-1.7B-Instruct"
+        }
+      ],
+      "note": "SmolLM2 serves as the language backbone of the vision-language model (the 1.7B Instruct checkpoint after a context extension to 16k tokens); the 256M and 500M variants use SmolLM2-135M-Instruct and SmolLM2-360M-Instruct."
+    }
+  ],
+  "summary": {
+    "text": "SmolVLM is a 2B open-weight vision-language model from Hugging Face that takes sequences of images and text and produces text, released as Base, Synthetic and Instruct checkpoints under Apache 2.0. It follows the Idefics3 architecture with SmolLM2 1.7B as language backbone; Hugging Face calls it suitable for on-device use and added 256M and 500M sizes in January 2025.",
+    "sources": [
+      {
+        "id": "src.huggingface.smolvlm-announcement"
+      },
+      {
+        "id": "src.huggingface.smolvlm-instruct-model-card"
+      },
+      {
+        "id": "src.huggingface.smolvlm-256m-500m-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "language-backbone",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "huggingface.idefics3",
+      "text": "Uses SmolLM2 1.7B instead of Llama 3.1 8B as the language backbone, within the Idefics3 architecture.",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-announcement",
+          "locator": "Architecture"
+        }
+      ]
+    },
+    {
+      "id": "visual-compression",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "huggingface.idefics3",
+      "text": "Compresses visual information 9x with pixel shuffle, compared with 4x in Idefics3.",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-announcement",
+          "locator": "Architecture"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "decreased",
+      "relativeTo": "huggingface.idefics3",
+      "text": "About 2B parameters in total, with a 1.7B language backbone in place of an 8B one.",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-instruct-model-card",
+          "locator": "introduction; Model Summary: Model type"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-instruct-model-card",
+          "locator": "introduction"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 16000,
+      "asStated": "16k tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-announcement",
+          "locator": "Training Details: Context extension"
+        }
+      ],
+      "note": "Context of the SmolLM2 backbone after extension, for the 2B model; the 256M and 500M variants use 8k."
+    },
+    "parameters": {
+      "value": 2000000000,
+      "asStated": "2B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-announcement",
+          "locator": "TLDR"
+        }
+      ],
+      "note": "The November 2024 model; later Hugging Face pages give 2.2B."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-announcement",
+          "locator": "TLDR: checkpoints released under Apache 2.0"
+        },
+        {
+          "id": "src.huggingface.smolvlm-instruct-model-card",
+          "locator": "Model Summary: License"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "on-device"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-instruct-model-card",
+          "locator": "introduction: suitable for on-device applications"
+        },
+        {
+          "id": "src.huggingface.smolvlm-announcement",
+          "locator": "What is SmolVLM?"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "smolvlm-2b",
+      "name": "SmolVLM 2B",
+      "aliases": [
+        {
+          "text": "SmolVLM-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "SmolVLM-Base",
+          "match": "auto"
+        },
+        {
+          "text": "SmolVLM-Synthetic",
+          "match": "auto"
+        },
+        {
+          "text": "SmolVLM 2B",
+          "match": "candidate"
+        },
+        {
+          "text": "SmolVLM 2.2B",
+          "match": "candidate"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-announcement",
+          "locator": "What is SmolVLM?: three released models"
+        },
+        {
+          "id": "src.huggingface.smolvlm-instruct-model-card",
+          "locator": "Model Summary"
+        }
+      ],
+      "note": "The November 2024 release: SmolVLM-Base, SmolVLM-Synthetic and SmolVLM-Instruct. Later Hugging Face pages call this size SmolVLM 2.2B."
+    },
+    {
+      "id": "smolvlm-256m",
+      "name": "SmolVLM-256M",
+      "aliases": [
+        {
+          "text": "SmolVLM-256M",
+          "match": "auto"
+        },
+        {
+          "text": "SmolVLM-256M-Base",
+          "match": "auto"
+        },
+        {
+          "text": "SmolVLM-256M-Instruct",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-01-23",
+          "sources": [
+            {
+              "id": "src.huggingface.smolvlm-256m-500m-announcement",
+              "locator": "page date"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 256000000,
+          "asStated": "256M",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smolvlm-256m-500m-announcement",
+              "locator": "TLDR"
+            }
+          ]
+        },
+        "contextWindowTokens": {
+          "value": 8000,
+          "asStated": "8k",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smolvlm-paper",
+              "locator": "section 2.2: 8k-token limit for the smaller variants"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-256m-500m-announcement",
+          "locator": "TLDR; What Changed Since SmolVLM 2B?"
+        },
+        {
+          "id": "src.huggingface.smolvlm-256m-instruct-model-card",
+          "locator": "metadata base_model; Technical Summary"
+        }
+      ],
+      "note": "Added to the SmolVLM family on 2025-01-23 together with SmolVLM-500M, as base and Instruct checkpoints. Language backbone SmolLM2-135M-Instruct; vision encoder SigLIP base patch-16/512 (93M) instead of SigLIP 400M SO."
+    },
+    {
+      "id": "smolvlm-500m",
+      "name": "SmolVLM-500M",
+      "aliases": [
+        {
+          "text": "SmolVLM-500M",
+          "match": "auto"
+        },
+        {
+          "text": "SmolVLM-500M-Base",
+          "match": "auto"
+        },
+        {
+          "text": "SmolVLM-500M-Instruct",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-01-23",
+          "sources": [
+            {
+              "id": "src.huggingface.smolvlm-256m-500m-announcement",
+              "locator": "page date"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 500000000,
+          "asStated": "500M",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smolvlm-256m-500m-announcement",
+              "locator": "TLDR"
+            }
+          ]
+        },
+        "contextWindowTokens": {
+          "value": 8000,
+          "asStated": "8k",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smolvlm-paper",
+              "locator": "section 2.2: 8k-token limit for the smaller variants"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.huggingface.smolvlm-256m-500m-announcement",
+          "locator": "TLDR; A Step Up: 500M"
+        },
+        {
+          "id": "src.huggingface.smolvlm-500m-instruct-model-card",
+          "locator": "metadata base_model"
+        }
+      ],
+      "note": "Added to the SmolVLM family on 2025-01-23 together with SmolVLM-256M, as base and Instruct checkpoints. Language backbone SmolLM2-360M-Instruct; vision encoder SigLIP base patch-16/512 (93M)."
+    }
+  ],
+  "notes": "Follows the Idefics3 architecture and uses the same transformers implementation (blog, card); no successor-of relation to Idefics3 is recorded because SmolVLM opens a separate line. Vision encoder: Google's shape-optimized SigLIP (cross-organisation, not recorded). SmolVLM-256M and SmolVLM-500M were presented on 2025-01-23 as new additions to the SmolVLM family and are kept inline because they share the name stem. The id carries -1 because huggingface.smolvlm is the family id."
+}

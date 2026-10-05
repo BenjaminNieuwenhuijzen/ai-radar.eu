@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemma-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemma-3",
+  "name": "Gemma 3",
+  "aliases": [
+    {
+      "text": "Gemma 3",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemma",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.google.hf-gemma-3-27b-it"
+      },
+      {
+        "id": "src.google.gemma-3-model-card",
+        "locator": "Resources and Technical Documentation"
+      }
+    ],
+    "note": "Weights remain downloadable from Google's Hugging Face organisation (checked 2026-10-01)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-03-12",
+      "sources": [
+        {
+          "id": "src.google.gemma-3-announcement"
+        },
+        {
+          "id": "src.google.gemma-3-developer-guide"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "March 12, 2025"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2025-03-10",
+          "sources": [
+            {
+              "id": "src.google.gemma-releases",
+              "locator": "March 10, 2025"
+            }
+          ],
+          "note": "Date given on the Gemma releases page."
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemma-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemma-3-technical-report",
+          "locator": "Abstract; section 1"
+        }
+      ],
+      "note": "The technical report presents Gemma 3 as the newest version of the Gemma models and compares it with Gemma 2 throughout."
+    }
+  ],
+  "summary": {
+    "text": "Gemma 3 is a family of open-weight models from Google, released on 12 March 2025 in 1B, 4B, 12B and 27B sizes, with a 270M size added in August 2025. Google says it is built from the same research and technology as Gemini 2.0; the 4B, 12B and 27B sizes accept images as well as text and have a 128K-token context window.",
+    "sources": [
+      {
+        "id": "src.google.gemma-3-developer-guide"
+      },
+      {
+        "id": "src.google.gemma-3-announcement"
+      },
+      {
+        "id": "src.google.gemma-3-270m-announcement"
+      },
+      {
+        "id": "src.google.gemma-3-technical-report",
+        "locator": "Table 1"
+      },
+      {
+        "id": "src.google.gemma-3-model-card",
+        "locator": "Inputs and outputs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "vision",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "google.gemma-2",
+      "text": "Adds image input for the 4B, 12B and 27B sizes through a shared vision encoder; the 1B size stays text-only.",
+      "sources": [
+        {
+          "id": "src.google.gemma-3-technical-report",
+          "locator": "Table 1; section 2, vision encoder"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "google.gemma-2",
+      "text": "Context window raised to 128K tokens for the 4B, 12B and 27B sizes and to 32K for the 1B size.",
+      "sources": [
+        {
+          "id": "src.google.gemma-3-technical-report",
+          "locator": "section 2, long context"
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "aspect": "languages",
+      "direction": "increased",
+      "relativeTo": "google.gemma-2",
+      "text": "Wider language coverage: out-of-the-box support for over 35 languages and pretrained support for over 140.",
+      "sources": [
+        {
+          "id": "src.google.gemma-3-announcement",
+          "locator": "New capabilities"
+        }
+      ]
+    },
+    {
+      "id": "attention",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "google.gemma-2",
+      "text": "Uses five local attention layers per global layer, with a short local span to limit KV-cache memory, and QK-norm instead of the soft-capping of Gemma 2.",
+      "sources": [
+        {
+          "id": "src.google.gemma-3-technical-report"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-3-model-card",
+          "locator": "Inputs and outputs"
+        },
+        {
+          "id": "src.google.gemma-3-developer-guide",
+          "locator": "Multimodality"
+        }
+      ],
+      "note": "Image input applies to the 4B, 12B and 27B sizes, which share one SigLIP-based vision encoder; the 1B size is text-only (technical report, Table 1). The announcement also mentions short videos."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-3-model-card",
+          "locator": "Inputs and outputs"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemma-3-announcement",
+            "locator": "New capabilities"
+          },
+          {
+            "id": "src.google.gemma-3-developer-guide"
+          }
+        ]
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemma-3-announcement",
+            "locator": "New capabilities"
+          }
+        ],
+        "note": "Out-of-the-box support for over 35 languages and pretrained support for over 140."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.hf-gemma-3-27b-it"
+        },
+        {
+          "id": "src.google.gemma-3-announcement",
+          "locator": "Get started with Gemma 3"
+        }
+      ],
+      "note": "Pre-trained and instruction-tuned weights under the Gemma Terms of Use; access on Hugging Face requires accepting the licence."
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-3-announcement",
+          "locator": "New capabilities"
+        },
+        {
+          "id": "src.google.gemma-3-model-card",
+          "locator": "Inputs and outputs"
+        }
+      ],
+      "note": "For the 4B, 12B and 27B sizes; the 1B and 270M sizes have 32K."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-3-announcement",
+          "locator": "Get started with Gemma 3"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "March 12, 2025"
+        }
+      ],
+      "note": "Weights on Hugging Face and Kaggle; gemma-3-27b-it in Google AI Studio and the Gemini API; also offered through Vertex AI Model Garden."
+    }
+  },
+  "variants": [
+    {
+      "id": "1b",
+      "name": "Gemma 3 1B",
+      "aliases": [
+        {
+          "text": "Gemma 3 1B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-3-1b-it",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.google.gemma-3-announcement",
+          "locator": "introduction (sizes)"
+        },
+        {
+          "id": "src.google.gemma-3-technical-report",
+          "locator": "Table 1"
+        }
+      ],
+      "capabilities": {
+        "inputModalities": {
+          "value": [
+            "text"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-3-technical-report",
+              "locator": "Table 1 (no vision encoder for 1B); section 2, vision encoder"
+            }
+          ]
+        },
+        "contextWindowTokens": {
+          "value": 32000,
+          "asStated": "32K",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-3-technical-report",
+              "locator": "section 2, long context"
+            },
+            {
+              "id": "src.google.gemma-3-model-card",
+              "locator": "Inputs and outputs"
+            }
+          ]
+        },
+        "parameters": {
+          "value": 1000000000,
+          "asStated": "1B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-3-announcement",
+              "locator": "introduction (sizes)"
+            },
+            {
+              "id": "src.google.gemma-3-technical-report",
+              "locator": "Table 1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "4b",
+      "name": "Gemma 3 4B",
+      "aliases": [
+        {
+          "text": "Gemma 3 4B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-3-4b-it",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.google.gemma-3-announcement",
+          "locator": "introduction (sizes)"
+        },
+        {
+          "id": "src.google.gemma-3-technical-report",
+          "locator": "Table 1"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 4000000000,
+          "asStated": "4B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-3-announcement",
+              "locator": "introduction (sizes)"
+            },
+            {
+              "id": "src.google.gemma-3-technical-report",
+              "locator": "Table 1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "12b",
+      "name": "Gemma 3 12B",
+      "aliases": [
+        {
+          "text": "Gemma 3 12B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-3-12b-it",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.google.gemma-3-announcement",
+          "locator": "introduction (sizes)"
+        },
+        {
+          "id": "src.google.gemma-3-technical-report",
+          "locator": "Table 1"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 12000000000,
+          "asStated": "12B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-3-announcement",
+              "locator": "introduction (sizes)"
+            },
+            {
+              "id": "src.google.gemma-3-technical-report",
+              "locator": "Table 1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "27b",
+      "name": "Gemma 3 27B",
+      "aliases": [
+        {
+          "text": "Gemma 3 27B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-3-27b-it",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.google.gemma-3-announcement",
+          "locator": "introduction (sizes)"
+        },
+        {
+          "id": "src.google.gemma-3-technical-report",
+          "locator": "Table 1"
+        },
+        {
+          "id": "src.google.hf-gemma-3-27b-it"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 27000000000,
+          "asStated": "27B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-3-announcement",
+              "locator": "introduction (sizes)"
+            },
+            {
+              "id": "src.google.gemma-3-technical-report",
+              "locator": "Table 1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "270m",
+      "name": "Gemma 3 270M",
+      "aliases": [
+        {
+          "text": "Gemma 3 270M",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-3-270m",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "announced": null,
+        "released": {
+          "value": "2025-08-14",
+          "sources": [
+            {
+              "id": "src.google.gemma-3-270m-announcement"
+            },
+            {
+              "id": "src.google.gemma-releases",
+              "locator": "August 14, 2025"
+            }
+          ]
+        },
+        "deprecated": null,
+        "retired": null
+      },
+      "capabilities": {
+        "contextWindowTokens": {
+          "value": 32000,
+          "asStated": "32K",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-3-model-card",
+              "locator": "Inputs and outputs"
+            }
+          ]
+        },
+        "parameters": {
+          "value": 270000000,
+          "asStated": "270 million",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-3-270m-announcement",
+              "locator": "Core capabilities"
+            }
+          ],
+          "note": "170 million embedding parameters and 100 million in the transformer blocks."
+        }
+      },
+      "note": "Added later as a compact size for task-specific fine-tuning, with pre-trained and instruction-tuned checkpoints.",
+      "sources": [
+        {
+          "id": "src.google.gemma-3-270m-announcement"
+        }
+      ]
+    }
+  ],
+  "notes": "Sizes are inline variants; the 270M size followed on 2025-08-14. Announced together with ShieldGemma 2, a separate image safety classifier built on Gemma 3 (not recorded here). Quantization-aware trained (QAT) checkpoints were published later. The announcement says Gemma 3 is built from the same research and technology as Gemini 2.0, and the technical report says all sizes are trained with knowledge distillation without naming the teacher model, so no derived-from relation is recorded."
+}

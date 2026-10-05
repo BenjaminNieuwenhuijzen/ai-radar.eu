@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-large-24-11",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-large-24-11",
+  "name": "Mistral Large 24.11",
+  "aliases": [
+    {
+      "text": "Mistral Large 24.11",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Large 2.1",
+      "match": "auto"
+    },
+    {
+      "text": "mistral-large-2411",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Large-Instruct-2411",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-large",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mistral-large-instruct-2411"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Mistral Large 2.1"
+      }
+    ],
+    "note": "Weights under the Mistral Research License remain downloadable from the mistralai Hugging Face organisation; the API endpoint mistral-large-2411 was deprecated on 2026-02-27 and retired on 2026-05-31."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-medium-3-5",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Mistral Large 2.1, Alternative"
+      },
+      {
+        "id": "src.mistral.docs-mistral-large-2-1-24-11",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-11-18",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "page date; One more thing"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "November 18, 2024"
+        },
+        {
+          "id": "src.mistral.docs-mistral-large-2-1-24-11",
+          "locator": "release date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-02-27",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Mistral Large 2.1"
+        },
+        {
+          "id": "src.mistral.docs-mistral-large-2-1-24-11",
+          "locator": "Deprecation date"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-05-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Mistral Large 2.1"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "mistral.mistral-large-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "One more thing"
+        },
+        {
+          "id": "src.mistral.hf-mistral-large-instruct-2411",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "November 18, 2024"
+        }
+      ],
+      "note": "Mistral announced it as an update to Mistral Large and an upgrade on Mistral Large 24.07; the changelog calls it Mistral Large 2.1."
+    }
+  ],
+  "summary": {
+    "text": "Mistral Large 24.11 is an update of Mistral AI's Mistral Large 2 language model, a 123B dense model released alongside Pixtral Large; the changelog calls it Mistral Large 2.1. Mistral describes better long-context understanding, a new system prompt and more accurate function calling, and offered it on the API as mistral-large-2411 and as weights under the Mistral Research License.",
+    "sources": [
+      {
+        "id": "src.mistral.pixtral-large-announcement",
+        "locator": "One more thing"
+      },
+      {
+        "id": "src.mistral.hf-mistral-large-instruct-2411"
+      },
+      {
+        "id": "src.mistral.changelog",
+        "locator": "November 18, 2024"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "long-context",
+      "aspect": "context-length",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-large-2",
+      "text": "Mistral reports better long-context understanding.",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "One more thing"
+        },
+        {
+          "id": "src.mistral.hf-mistral-large-instruct-2411"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-large-2",
+      "text": "Mistral reports more accurate function calling.",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "One more thing"
+        },
+        {
+          "id": "src.mistral.hf-mistral-large-instruct-2411"
+        }
+      ]
+    },
+    {
+      "id": "system-prompt",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-large-2",
+      "text": "Uses a new instruct template with system prompt tokens, which Mistral presents as stronger system prompt support.",
+      "sources": [
+        {
+          "id": "src.mistral.hf-mistral-large-instruct-2411"
+        },
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "One more thing"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mistral-large-2-1-24-11",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mistral-large-2-1-24-11",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.pixtral-large-announcement",
+            "locator": "One more thing"
+          },
+          {
+            "id": "src.mistral.hf-mistral-large-instruct-2411",
+            "locator": "Key features"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "One more thing"
+        },
+        {
+          "id": "src.mistral.hf-mistral-large-instruct-2411"
+        }
+      ],
+      "note": "Mistral Research License for research; a commercial licence from Mistral AI for commercial use."
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mistral-large-2-1-24-11",
+          "locator": "Context"
+        },
+        {
+          "id": "src.mistral.hf-mistral-large-instruct-2411",
+          "locator": "Key features"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 123000000000,
+      "asStated": "123B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.hf-mistral-large-instruct-2411",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.docs-mistral-large-2-1-24-11",
+          "locator": "Weights table"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.changelog",
+          "locator": "November 18, 2024"
+        },
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "One more thing"
+        }
+      ]
+    }
+  },
+  "notes": "Announced in the closing section of the Pixtral Large post. That section says the model is on the API as pixtral-large-latest, which looks like an error for mistral-large-latest; the API id is taken from the changelog and docs (mistral-large-2411). Cloud partners were announced as coming soon (Google Cloud and Microsoft Azure first), so cloud-partner access is not recorded at release. The docs now call it Mistral Large 2.1. The alias Mistral Large 2 is left to mistral.mistral-large-2, because the Pixtral Large model card uses that name for Mistral-Large-Instruct-2407."
+}

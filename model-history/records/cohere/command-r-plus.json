@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.command-r-plus",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "command-r-plus",
+  "name": "Command R+",
+  "aliases": [
+    {
+      "text": "command-r-plus-04-2024",
+      "match": "auto"
+    },
+    {
+      "text": "c4ai-command-r-plus",
+      "match": "auto"
+    },
+    {
+      "text": "cohere.command-r-plus-v1:0",
+      "match": "auto"
+    },
+    {
+      "text": "Command R+",
+      "match": "candidate"
+    },
+    {
+      "text": "Command R Plus",
+      "match": "candidate"
+    },
+    {
+      "text": "command-r-plus",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.command-r-series",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.cohere.deprecations",
+        "locator": "Deprecation History, 2025-09-15"
+      },
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Command table, status column"
+      },
+      {
+        "id": "src.cohere.changelog-major-command-deprecations",
+        "locator": "Deprecated Models"
+      }
+    ],
+    "note": "Applies to the hosted API ids command-r-plus-04-2024 and alias command-r-plus. The open weights (c4ai-command-r-plus) can still be downloaded from Hugging Face."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-04-04",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-plus-announcement",
+          "locator": "page date; availability paragraph"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-09-15",
+      "sources": [
+        {
+          "id": "src.cohere.deprecations",
+          "locator": "Deprecation History, 2025-09-15"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, status column"
+        }
+      ],
+      "note": "Deprecated for new customers; existing users keep access until a shutdown date, which Cohere had not set as of 2026-10-01. The changelog announcement page is dated 2025-09-16."
+    },
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "cohere.command-1",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-plus-announcement"
+        }
+      ],
+      "note": "Editorial link along the line of Cohere's most capable Command model: Command R+ is the larger tier of the R series and was presented as Cohere's most powerful model, after the original Command. Cohere names no predecessor; the launch post says it builds on the strengths of Command R, which remains a separate tier."
+    }
+  ],
+  "summary": {
+    "text": "Command R+ is a text-only language model in Cohere's R series for enterprise use, launched on 4 April 2024 on Microsoft Azure and the Cohere API as the larger companion to Command R. It shares the 128k-token context, RAG with citations and 10-language focus, adds multi-step tool use, and has 104-billion-parameter research weights; the hosted model was deprecated on 15 September 2025.",
+    "sources": [
+      {
+        "id": "src.cohere.command-r-plus-announcement"
+      },
+      {
+        "id": "src.cohere.hf-c4ai-command-r-plus"
+      },
+      {
+        "id": "src.cohere.deprecations"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "multi-step-tool-use",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "cohere.command-r",
+      "text": "Adds multi-step tool use: the model combines several tools over several steps and can retry after a failed tool call.",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-plus-announcement"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "cohere.command-r",
+      "text": "104 billion parameters; the model card calls Command R its smaller companion model.",
+      "sources": [
+        {
+          "id": "src.cohere.hf-c4ai-command-r-plus"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "cohere.command-r",
+      "text": "Higher API list price than Command R: 3.00 USD input and 15.00 USD output per million tokens, against 0.50 and 1.50 USD.",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-plus-announcement"
+        },
+        {
+          "id": "src.cohere.command-r-announcement"
+        }
+      ]
+    },
+    {
+      "id": "azure-launch",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "cohere.command-r",
+      "text": "Launched first on Microsoft Azure, as part of a new collaboration, alongside the Cohere API.",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-plus-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-c4ai-command-r-plus",
+          "locator": "Model Details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-c4ai-command-r-plus",
+          "locator": "Model Details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-plus-announcement",
+          "locator": "first paragraphs"
+        },
+        {
+          "id": "src.cohere.hf-c4ai-command-r-plus",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 104000000000,
+      "asStated": "104 billion",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-c4ai-command-r-plus",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-c4ai-command-r-plus"
+        }
+      ],
+      "note": "Open weights research release under CC-BY-NC 4.0."
+    },
+    "features": [
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-r-plus-announcement",
+            "locator": "Industry Leading RAG Solution"
+          }
+        ],
+        "note": "RAG with in-line citations."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-r-plus-announcement",
+            "locator": "Automating Complex Business Workflows With Tool Use"
+          },
+          {
+            "id": "src.cohere.docs-command-r-plus",
+            "locator": "Multi-Step Tool Use"
+          }
+        ],
+        "note": "Multi-step tool use, new with this model."
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-r-plus-announcement",
+            "locator": "Multilingual Support for Global Business Operations"
+          }
+        ],
+        "note": "Optimized for 10 languages."
+      }
+    ],
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-plus-announcement",
+          "locator": "availability paragraph"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Using Command Models on Different Platforms"
+        },
+        {
+          "id": "src.cohere.hf-c4ai-command-r-plus"
+        }
+      ],
+      "note": "Available first on Microsoft Azure and on the Cohere API from launch day, with Oracle OCI and other clouds announced to follow. Amazon Bedrock id cohere.command-r-plus-v1:0 per the platform table."
+    }
+  },
+  "notes": "Release date from the launch blog post (Apr 04, 2024). A docs changelog entry announcing Command R+ (https://docs.cohere.com/changelog/command-r-is-a-scalable-llm-for-business) shows January 17, 2023, which predates Command R and is evidently a dating error; it is not cited. The Hugging Face repository was created on 2024-04-03, probably private before launch. API id command-r-plus-04-2024 with alias command-r-plus. Lifecycle follows the deprecations page; the weights stay downloadable on Hugging Face. The deprecation notice recommends command-r-08-2024, command-r-plus-08-2024 or command-a-03-2025 without pairing them, so replacedBy is left out."
+}

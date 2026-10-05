@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.aya-23",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "aya-23",
+  "name": "Aya 23",
+  "aliases": [
+    {
+      "text": "Aya 23",
+      "match": "auto"
+    },
+    {
+      "text": "Aya-23",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.aya",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.hf-aya-23-8b"
+      },
+      {
+        "id": "src.cohere.hf-aya-23-35b"
+      }
+    ],
+    "note": "Open weights downloadable from Cohere Labs on Hugging Face (gated: accept conditions); not offered as a hosted API model on the current models overview."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-05-23",
+      "sources": [
+        {
+          "id": "src.cohere.aya-23-announcement",
+          "locator": "page date"
+        },
+        {
+          "id": "src.cohere.aya-23-paper",
+          "locator": "citation date"
+        }
+      ],
+      "note": "The blog post metadata gives 2024-05-22T20:18-04:00; the page shows May 23, 2024."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "cohere.aya-101",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.cohere.aya-23-announcement",
+          "locator": "second paragraph"
+        }
+      ],
+      "note": "The launch post says the Aya 23 family builds on Aya: Aya 101 focused on breadth, Aya 23 on depth."
+    }
+  ],
+  "summary": {
+    "text": "Aya 23 is a family of multilingual open-weights language models from Cohere For AI, released on 23 May 2024 in 8-billion and 35-billion-parameter sizes under CC-BY-NC. The text-only models cover 23 languages with an 8,192-token context and pair a pre-trained Command-family model with the Aya data collection; Cohere says they aim at depth rather than breadth.",
+    "sources": [
+      {
+        "id": "src.cohere.aya-23-announcement"
+      },
+      {
+        "id": "src.cohere.hf-aya-23-8b"
+      },
+      {
+        "id": "src.cohere.hf-aya-23-35b"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "languages",
+      "aspect": "languages",
+      "direction": "decreased",
+      "relativeTo": "cohere.aya-101",
+      "text": "Covers 23 languages instead of 101, which Cohere presents as a shift from breadth to depth.",
+      "sources": [
+        {
+          "id": "src.cohere.aya-23-announcement"
+        }
+      ]
+    },
+    {
+      "id": "licence",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "cohere.aya-101",
+      "text": "Weights licensed CC-BY-NC, whereas Aya 101 was released under Apache 2.0.",
+      "sources": [
+        {
+          "id": "src.cohere.hf-aya-23-8b"
+        },
+        {
+          "id": "src.cohere.hf-aya-101"
+        }
+      ]
+    },
+    {
+      "id": "base-model",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "cohere.aya-101",
+      "text": "Built on a pre-trained model from the Command family rather than on the mT5-XXL architecture used for Aya 101.",
+      "sources": [
+        {
+          "id": "src.cohere.hf-aya-23-35b"
+        },
+        {
+          "id": "src.cohere.hf-aya-101"
+        }
+      ]
+    },
+    {
+      "id": "sizes",
+      "aspect": "size",
+      "direction": "changed",
+      "relativeTo": "cohere.aya-101",
+      "text": "Released in two sizes, 8B and 35B, against a single 13B model for Aya 101.",
+      "sources": [
+        {
+          "id": "src.cohere.aya-23-announcement"
+        },
+        {
+          "id": "src.cohere.hf-aya-101"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-aya-23-8b",
+          "locator": "Model Details"
+        },
+        {
+          "id": "src.cohere.hf-aya-23-35b",
+          "locator": "Model Details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-aya-23-8b",
+          "locator": "Model Details"
+        },
+        {
+          "id": "src.cohere.hf-aya-23-35b",
+          "locator": "Model Details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 8192,
+      "asStated": "8192",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-aya-23-8b",
+          "locator": "Model Details"
+        },
+        {
+          "id": "src.cohere.hf-aya-23-35b",
+          "locator": "Model Details"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-23-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.cohere.hf-aya-23-8b"
+        },
+        {
+          "id": "src.cohere.hf-aya-23-35b"
+        }
+      ],
+      "note": "Open weights under CC-BY-NC 4.0."
+    },
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.aya-23-announcement"
+          },
+          {
+            "id": "src.cohere.hf-aya-23-8b",
+            "locator": "Model Summary"
+          }
+        ],
+        "note": "Serves 23 languages."
+      }
+    ],
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-23-announcement"
+        },
+        {
+          "id": "src.cohere.hf-aya-23-8b"
+        },
+        {
+          "id": "src.cohere.hf-aya-23-35b"
+        }
+      ],
+      "note": "A hosted demo was offered as a Hugging Face Space."
+    }
+  },
+  "variants": [
+    {
+      "id": "8b",
+      "name": "Aya 23 8B",
+      "aliases": [
+        {
+          "text": "aya-23-8B",
+          "match": "auto"
+        },
+        {
+          "text": "Aya-23-8B",
+          "match": "auto"
+        },
+        {
+          "text": "Aya 23 8B",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 8000000000,
+          "asStated": "8 billion",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.cohere.hf-aya-23-8b",
+              "locator": "Model Summary"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.cohere.hf-aya-23-8b"
+        },
+        {
+          "id": "src.cohere.aya-23-announcement"
+        }
+      ]
+    },
+    {
+      "id": "35b",
+      "name": "Aya 23 35B",
+      "aliases": [
+        {
+          "text": "aya-23-35B",
+          "match": "auto"
+        },
+        {
+          "text": "Aya-23-35B",
+          "match": "auto"
+        },
+        {
+          "text": "Aya 23 35B",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 35000000000,
+          "asStated": "35 billion",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.cohere.hf-aya-23-35b",
+              "locator": "Model Summary"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.cohere.hf-aya-23-35b"
+        },
+        {
+          "id": "src.cohere.aya-23-announcement"
+        }
+      ]
+    }
+  ],
+  "notes": "Developed by Cohere For AI (now Cohere Labs) with Cohere. Two sizes released together, recorded as inline variants. The model cards say Aya 23 pairs a pre-trained model of the Command family with the Aya Collection, without naming which Command model, so no derived-from relation is recorded. The model cards now call Aya 23 an older version and point to Aya Expanse. Hugging Face repositories created 2024-05-19, probably private before launch."
+}

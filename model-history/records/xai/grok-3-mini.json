@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-3-mini",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-3-mini",
+  "name": "Grok 3 mini",
+  "aliases": [
+    {
+      "text": "Grok 3 mini",
+      "match": "auto"
+    },
+    {
+      "text": "grok-3-mini",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 3 mini (Think)",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok-mini",
+  "generation": "3",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "grok-3-mini is not named in the May 15, 2026 retirement guide and the current xAI models overview no longer lists it; no primary source available for this review states whether or when it was retired."
+  },
+  "dates": {
+    "announced": {
+      "value": "2025-02-19",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement",
+          "locator": "first section"
+        }
+      ]
+    },
+    "released": {
+      "value": "2025-04-03",
+      "sources": [
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "April 2025, Apr 3"
+        },
+        {
+          "id": "src.xai.company-page",
+          "locator": "Our path of progress, 2025: Grok 3 API"
+        }
+      ],
+      "note": "The release note says the Grok 3 models became generally available on the API without naming Grok 3 mini separately; the announcement had said Grok 3 and Grok 3 mini would come to the API."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-2-mini",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement"
+        }
+      ],
+      "note": "Editorial link along the mini tier: the announcement introduces Grok 3 mini next to Grok 3 without naming a predecessor; Grok-2 mini was the previous small model."
+    }
+  ],
+  "summary": {
+    "text": "Grok 3 mini is a smaller xAI language model, unveiled alongside Grok 3 on 19 February 2025 with a beta reasoning model, Grok 3 mini (Think). xAI presented it as cost-efficient reasoning for STEM tasks that need less world knowledge; the Grok 3 models became generally available on the xAI API on 3 April 2025.",
+    "sources": [
+      {
+        "id": "src.xai.grok-3-announcement"
+      },
+      {
+        "id": "src.xai.api-release-notes"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "think-mode",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "xai.grok-2-mini",
+      "text": "Announced with a beta reasoning model, Grok 3 mini (Think), trained with large-scale reinforcement learning.",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement",
+          "locator": "Thinking Harder: Test-time Compute and Reasoning"
+        }
+      ]
+    },
+    {
+      "id": "cost-efficient",
+      "aspect": "efficiency",
+      "relativeTo": "xai.grok-2-mini",
+      "text": "xAI positions it as cost-efficient reasoning for STEM tasks that do not need as much world knowledge.",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.grok-3-announcement",
+            "locator": "Thinking Harder: Test-time Compute and Reasoning"
+          }
+        ],
+        "note": "Announced as the beta reasoning model Grok 3 mini (Think)."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-3-announcement",
+          "locator": "Grok 3 API Coming Soon"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "April 2025, Apr 3"
+        }
+      ]
+    }
+  },
+  "notes": "Official spelling at release is Grok 3 mini (the API docs later wrote Grok 3 Mini). Consumer-app availability is not stated in a primary source, so access lists only the API. Modalities and context window were documented on the archived xAI API model page (https://docs.x.ai/docs/models/grok-3-mini), which could not be opened for this review, so they are left out. Lifecycle: an archived June 2026 docs capture reportedly lists grok-3-mini as an alias of grok-4.3; it could not be opened for this review, so lifecycle stays unknown."
+}

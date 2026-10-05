@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.nemotron-nano-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nemotron-nano-2",
+  "name": "Nemotron Nano 2",
+  "aliases": [
+    {
+      "text": "Nemotron Nano 2",
+      "match": "auto"
+    },
+    {
+      "text": "NVIDIA Nemotron Nano 2",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron 2 Nano",
+      "match": "candidate"
+    },
+    {
+      "text": "Nemotron Nano V2",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron-nano",
+  "generation": "2",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-nano-9b-v2-model-card"
+      },
+      {
+        "id": "src.nvidia.nemotron-nano-2-research-page",
+        "locator": "Models"
+      }
+    ],
+    "note": "NVIDIA has no deprecation page for its open models; the weights of all checkpoints were still downloadable from NVIDIA's Hugging Face organisation on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-08-18",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-2-research-page",
+          "locator": "Published: August 18, 2025; Models"
+        },
+        {
+          "id": "src.nvidia.nemotron-nano-9b-v2-model-card",
+          "locator": "Release Date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "nvidia.llama-3-1-nemotron-nano-8b-v1",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-2-research-page"
+        }
+      ],
+      "note": "Editorial link along the Nano tier: Nemotron Nano 2 is the next general-purpose Nano release and carries the number 2; NVIDIA pages do not name a predecessor. Unlike the Llama-based v1 model, it was trained from scratch by NVIDIA."
+    }
+  ],
+  "summary": {
+    "text": "Nemotron Nano 2 is a family of open-weights hybrid Mamba-Transformer reasoning models that NVIDIA released on Hugging Face with 9B and 12B checkpoints and a 128K-token context. The 9B reasoning model, compressed from the 12B base so that 128K-token inference fits on one A10G GPU, was also on the NVIDIA API Catalog; users can switch reasoning off and cap thinking tokens.",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-nano-2-research-page"
+      },
+      {
+        "id": "src.nvidia.nemotron-nano-9b-v2-model-card"
+      },
+      {
+        "id": "src.nvidia.nemotron-nano-2-technical-report"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "hybrid-architecture",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "nvidia.llama-3-1-nemotron-nano-8b-v1",
+      "text": "Hybrid Mamba-2 and Transformer design trained from scratch by NVIDIA, whereas the v1 Nano model was derived from a Llama model.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-9b-v2-model-card"
+        }
+      ]
+    },
+    {
+      "id": "thinking-budget",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "nvidia.llama-3-1-nemotron-nano-8b-v1",
+      "text": "Adds a thinking budget that can be set at inference time, next to switching reasoning on or off.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-2-research-page"
+        }
+      ]
+    },
+    {
+      "id": "open-pretraining-data",
+      "aspect": "training-data",
+      "direction": "added",
+      "relativeTo": "nvidia.llama-3-1-nemotron-nano-8b-v1",
+      "text": "Most of the pre-training data was released alongside the model as the Nemotron Pretraining Dataset v1 collection.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-2-research-page"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-9b-v2-model-card",
+          "locator": "Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-9b-v2-model-card",
+          "locator": "Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-nano-9b-v2-model-card",
+            "locator": "Model Overview; Reasoning Budget Control"
+          },
+          {
+            "id": "src.nvidia.nemotron-nano-2-research-page",
+            "locator": "Technical Highlights, Post-training"
+          }
+        ],
+        "note": "Reasoning switched on or off with /think and /no_think; the thinking budget can be set at inference time."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-nano-9b-v2-model-card",
+            "locator": "Using Tool-Calling with a vLLM Server"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-2-research-page",
+          "locator": "Models"
+        },
+        {
+          "id": "src.nvidia.nemotron-nano-9b-v2-model-card",
+          "locator": "License/Terms of Use; Release Date"
+        }
+      ],
+      "note": "Released on Hugging Face under the NVIDIA Open Model License Agreement."
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-2-research-page",
+          "locator": "Models"
+        },
+        {
+          "id": "src.nvidia.nemotron-nano-9b-v2-model-card",
+          "locator": "Input"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 8890000000,
+      "asStated": "8.89B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-2-technical-report",
+          "locator": "Section 4.2, Table 10 (Candidate 2)"
+        }
+      ],
+      "note": "Count for the selected pruned architecture of the 9B models (Candidate 2, which the report says was used for Nano 2); the official model name rounds it to 9B. The 12B variants have their own figure."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-9b-v2-model-card",
+          "locator": "Release Date"
+        }
+      ],
+      "note": "Hugging Face and the NVIDIA API Catalog (build.nvidia.com) on 08/18/2025."
+    }
+  },
+  "variants": [
+    {
+      "id": "nano-9b-v2",
+      "name": "NVIDIA-Nemotron-Nano-9B-v2",
+      "aliases": [
+        {
+          "text": "NVIDIA-Nemotron-Nano-9B-v2",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-Nano-9B-v2",
+          "match": "auto"
+        },
+        {
+          "text": "NVIDIA-Nemotron-Nano-v2-9B",
+          "match": "auto"
+        }
+      ],
+      "note": "The aligned and pruned reasoning model, offered on Hugging Face and the NVIDIA API Catalog.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-2-research-page",
+          "locator": "Models"
+        },
+        {
+          "id": "src.nvidia.nemotron-nano-9b-v2-model-card",
+          "locator": "Release Date"
+        }
+      ]
+    },
+    {
+      "id": "nano-9b-v2-base",
+      "name": "NVIDIA-Nemotron-Nano-9B-v2-Base",
+      "aliases": [
+        {
+          "text": "NVIDIA-Nemotron-Nano-9B-v2-Base",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-Nano-9B-v2-Base",
+          "match": "auto"
+        }
+      ],
+      "note": "Pruned base model, pruned and distilled from the 12B base model.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-2-research-page",
+          "locator": "Models"
+        },
+        {
+          "id": "src.nvidia.nemotron-nano-9b-v2-base-model-card",
+          "locator": "Model Overview"
+        }
+      ]
+    },
+    {
+      "id": "nano-12b-v2-base",
+      "name": "NVIDIA-Nemotron-Nano-12B-v2-Base",
+      "aliases": [
+        {
+          "text": "NVIDIA-Nemotron-Nano-12B-v2-Base",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-Nano-12B-v2-Base",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 12000000000,
+          "asStated": "12-billion-parameter",
+          "qualifier": "approximate",
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-nano-2-technical-report",
+              "locator": "Abstract"
+            }
+          ]
+        }
+      },
+      "note": "The base model before alignment or pruning, pre-trained on 20 trillion tokens in FP8.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-2-research-page",
+          "locator": "Models"
+        },
+        {
+          "id": "src.nvidia.nemotron-nano-12b-v2-base-model-card"
+        }
+      ]
+    },
+    {
+      "id": "nano-12b-v2",
+      "name": "NVIDIA-Nemotron-Nano-12B-v2",
+      "aliases": [
+        {
+          "text": "NVIDIA-Nemotron-Nano-12B-v2",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-Nano-12B-v2",
+          "match": "candidate"
+        }
+      ],
+      "dates": {
+        "announced": null,
+        "released": {
+          "value": "2025-08-29",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-nano-12b-v2-model-card",
+              "locator": "Release Date"
+            }
+          ]
+        },
+        "deprecated": null,
+        "retired": null
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 12000000000,
+          "asStated": "12B",
+          "qualifier": "approximate",
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-nano-12b-v2-model-card",
+              "locator": "model name"
+            }
+          ],
+          "note": "Figure as given in the official model name."
+        }
+      },
+      "note": "Aligned 12B reasoning checkpoint published eleven days after the first three; NVIDIA builds Nemotron Nano 2 VL on it.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-12b-v2-model-card"
+        }
+      ]
+    }
+  ],
+  "notes": "NVIDIA writes the name with its company prefix (NVIDIA Nemotron Nano 2); the Nemotron 3 press release calls it Nemotron 2 Nano. Hybrid Mamba-Transformer design based on the Nemotron-H architecture (architecture reuse, not a model-to-model derivation, so no relation recorded). The 9B base and reasoning models were pruned and distilled from the 12B base model with the Minitron strategy. The Japanese variant NVIDIA-Nemotron-Nano-9B-v2-Japanese (Hugging Face repository created 2026-02-04) is out of scope; the alias Nemotron-Nano-9B-v2 may also appear in its news. Nemotron Nano V2 is kept candidate because NVIDIA also uses it inside the name Nemotron Nano V2 VL."
+}

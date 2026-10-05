@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.ministral-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "ministral-1",
+  "name": "Ministral",
+  "aliases": [
+    {
+      "text": "les Ministraux",
+      "match": "candidate"
+    },
+    {
+      "text": "Ministral",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.ministral",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-ministral-8b-instruct-2410"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Ministral 8B"
+      }
+    ],
+    "note": "Record status follows Ministral 8B, whose instruct weights remain downloadable for research use under the Mistral Research License. Ministral 3B was API-only and is retired (see the variant). Both API endpoints were deprecated on 2025-12-02 and retired on 2025-12-31."
+  },
+  "replacedBy": {
+    "modelId": "mistral.ministral-3",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Ministral 3B; row Ministral 8B, Alternative"
+      },
+      {
+        "id": "src.mistral.docs-ministral-3b-24-1",
+        "locator": "Replacement"
+      },
+      {
+        "id": "src.mistral.docs-ministral-8b-24-1",
+        "locator": "Replacement"
+      }
+    ],
+    "note": "Ministral 3B is replaced by Ministral 3 3B and Ministral 8B by Ministral 3 8B."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-10-16",
+      "sources": [
+        {
+          "id": "src.mistral.ministraux-announcement",
+          "locator": "page date; Availability and pricing"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2024-10-09",
+          "sources": [
+            {
+              "id": "src.mistral.changelog",
+              "locator": "October 9, 2024"
+            },
+            {
+              "id": "src.mistral.docs-ministral-3b-24-1",
+              "locator": "release date"
+            },
+            {
+              "id": "src.mistral.docs-ministral-8b-24-1",
+              "locator": "release date"
+            }
+          ],
+          "note": "The changelog and both docs model pages give 2024-10-09; the announcement of 2024-10-16 says both models are available starting that day."
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-12-02",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Ministral 3B; row Ministral 8B"
+        },
+        {
+          "id": "src.mistral.docs-ministral-3b-24-1",
+          "locator": "Deprecation date"
+        },
+        {
+          "id": "src.mistral.docs-ministral-8b-24-1",
+          "locator": "Deprecation date"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-12-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Ministral 3B; row Ministral 8B"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "text": "Les Ministraux are two language models, Ministral 3B and Ministral 8B, that Mistral AI introduced for on-device and edge use on the first anniversary of Mistral 7B, both with a context length of up to 128k tokens. Both were offered on the API, and weights for Ministral 8B Instruct were published for research use under the Mistral Research License.",
+    "sources": [
+      {
+        "id": "src.mistral.ministraux-announcement"
+      },
+      {
+        "id": "src.mistral.hf-ministral-8b-instruct-2410"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-ministral-3b-24-1",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.docs-ministral-8b-24-1",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-ministral-3b-24-1",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.docs-ministral-8b-24-1",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.ministraux-announcement",
+            "locator": "second paragraph; Use cases"
+          },
+          {
+            "id": "src.mistral.docs-ministral-8b-24-1",
+            "locator": "Features"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.ministraux-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.mistral.docs-ministral-3b-24-1",
+          "locator": "Context"
+        },
+        {
+          "id": "src.mistral.docs-ministral-8b-24-1",
+          "locator": "Context"
+        }
+      ],
+      "note": "The announcement adds that vLLM supported 32k at the time."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.ministraux-announcement",
+          "locator": "Availability and pricing"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "ministral-3b",
+      "name": "Ministral 3B",
+      "aliases": [
+        {
+          "text": "ministral-3b-2410",
+          "match": "auto"
+        },
+        {
+          "text": "Ministral 3B",
+          "match": "candidate"
+        }
+      ],
+      "lifecycle": {
+        "value": "retired",
+        "sources": [
+          {
+            "id": "src.mistral.models-overview",
+            "locator": "Deprecated & retired models table, row Ministral 3B"
+          }
+        ]
+      },
+      "capabilities": {
+        "access": {
+          "value": [
+            "api"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.mistral.ministraux-announcement",
+              "locator": "Availability and pricing"
+            }
+          ]
+        }
+      },
+      "note": "Offered on the API under the Mistral Commercial License only; the announcement lists weights for Ministral 8B Instruct only. No official parameter count beyond the name.",
+      "sources": [
+        {
+          "id": "src.mistral.ministraux-announcement",
+          "locator": "first paragraph; Availability and pricing"
+        },
+        {
+          "id": "src.mistral.docs-ministral-3b-24-1"
+        }
+      ]
+    },
+    {
+      "id": "ministral-8b",
+      "name": "Ministral 8B",
+      "aliases": [
+        {
+          "text": "ministral-8b-2410",
+          "match": "auto"
+        },
+        {
+          "text": "Ministral-8B-Instruct-2410",
+          "match": "auto"
+        },
+        {
+          "text": "Ministral 8B",
+          "match": "candidate"
+        }
+      ],
+      "lifecycle": {
+        "value": "available",
+        "sources": [
+          {
+            "id": "src.mistral.hf-ministral-8b-instruct-2410"
+          }
+        ],
+        "note": "API endpoint retired on 2025-12-31; research weights still downloadable."
+      },
+      "capabilities": {
+        "openWeights": {
+          "value": true,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.mistral.ministraux-announcement",
+              "locator": "Availability and pricing"
+            },
+            {
+              "id": "src.mistral.hf-ministral-8b-instruct-2410"
+            }
+          ],
+          "note": "Ministral 8B Instruct weights for research use under the Mistral Research License."
+        },
+        "parameters": {
+          "value": 8019808256,
+          "asStated": "8,019,808,256",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.mistral.hf-ministral-8b-instruct-2410",
+              "locator": "Ministral 8B Architecture"
+            },
+            {
+              "id": "src.mistral.docs-ministral-8b-24-1",
+              "locator": "Weights table"
+            }
+          ]
+        },
+        "access": {
+          "value": [
+            "api",
+            "open-weights-download"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.mistral.ministraux-announcement",
+              "locator": "Availability and pricing"
+            },
+            {
+              "id": "src.mistral.hf-ministral-8b-instruct-2410"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.mistral.ministraux-announcement",
+          "locator": "first paragraph; Availability and pricing"
+        },
+        {
+          "id": "src.mistral.docs-ministral-8b-24-1"
+        }
+      ]
+    }
+  ],
+  "notes": "One record for les Ministraux (Ministral 3B and Ministral 8B), announced together. Slug ministral-1 because the family id is mistral.ministral. The announcement gives the API names ministral-8b-latest and ministral-3b-latest; the dated ids come from the changelog and docs. Release date conflict: announcement 2024-10-16, changelog and docs 2024-10-09 (alternative). The Hugging Face repository Ministral-8B-Instruct-2410 was created on 2024-10-15 (a lead only). The docs show the version as 24.1 (meaning 24.10). Cloud partners were announced as coming shortly, so cloud-partner access is not recorded."
+}

@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.nemotron-3-5-lightning",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nemotron-3-5-lightning",
+  "name": "Nemotron 3.5 Lightning",
+  "aliases": [
+    {
+      "text": "Nemotron 3.5 Lightning",
+      "match": "auto"
+    },
+    {
+      "text": "NVIDIA Nemotron 3.5 Lightning",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-3.5-Lightning",
+      "match": "auto"
+    },
+    {
+      "text": "nemotron-3.5-lightning-30b-a3b",
+      "match": "auto"
+    },
+    {
+      "text": "Lightning 3.5",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron-lightning",
+  "generation": "3.5",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-bf16-model-card"
+      }
+    ],
+    "note": "NVIDIA has no deprecation page for its open models; the weights were still downloadable from the NVIDIA organisation on Hugging Face on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-08-11",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-blog"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-bf16-model-card",
+          "locator": "Model Summary: Release Date; Release Date"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-developer-blog"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "nvidia.nemotron-3-nano",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-blog",
+          "locator": "second paragraph"
+        }
+      ],
+      "note": "The launch post says the release follows Nemotron 3 Nano and expands the Nemotron 3 family."
+    }
+  ],
+  "summary": {
+    "text": "Nemotron 3.5 Lightning is an open-weights reasoning language model with 30B total and 3B active parameters that NVIDIA added to the Nemotron 3 family after Nemotron 3 Nano. NVIDIA aims it at high-volume agent work such as tool calls and subagent delegation, and released it with the NeMo Switchyard routing library, as a download and on build.nvidia.com.",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-3-5-lightning-blog"
+      },
+      {
+        "id": "src.nvidia.nemotron-3-5-lightning-developer-blog"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "mtp-speculative-decoding",
+      "aspect": "architecture",
+      "relativeTo": "nvidia.nemotron-3-nano",
+      "text": "Includes multi-token prediction layers from training onward and ships with DFlash and DSpark draft models for speculative decoding.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-developer-blog"
+        }
+      ]
+    },
+    {
+      "id": "nvfp4-pretraining",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "nvidia.nemotron-3-nano",
+      "text": "Pre-trained on more than 20 trillion tokens with an NVFP4 recipe; the card gives May 2026 as the post-training data cutoff.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-bf16-model-card"
+        }
+      ]
+    },
+    {
+      "id": "licence",
+      "aspect": "licensing",
+      "relativeTo": "nvidia.nemotron-3-nano",
+      "text": "Released under the OpenMDW License Agreement version 1.1.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-bf16-model-card",
+          "locator": "Model Summary: License"
+        }
+      ]
+    },
+    {
+      "id": "coalition",
+      "aspect": "other",
+      "relativeTo": "nvidia.nemotron-3-nano",
+      "text": "Developed with contributions from Nemotron Coalition members, who NVIDIA says supplied evaluation methods, inference software and datasets.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-blog"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-bf16-model-card",
+          "locator": "Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-bf16-model-card",
+          "locator": "Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-bf16-model-card",
+            "locator": "Model Summary: Reasoning Mode"
+          }
+        ],
+        "note": "Reasoning can be switched on or off through the chat template."
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-bf16-model-card",
+            "locator": "Model Summary: Supported Languages"
+          }
+        ],
+        "note": "English, Spanish, French, German, Italian and Japanese."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-developer-blog",
+          "locator": "Customize Nemotron 3.5 Lightning out of the box"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-bf16-model-card",
+          "locator": "Model Summary: License"
+        }
+      ],
+      "note": "Released under the OpenMDW License Agreement, version 1.1."
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-bf16-model-card",
+          "locator": "Model Summary: Context Length"
+        }
+      ],
+      "note": "Stated as up to 1M tokens; NVIDIA uses 256K for a single H100 deployment."
+    },
+    "parameters": {
+      "value": 30000000000,
+      "asStated": "30B (3B active)",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-bf16-model-card",
+          "locator": "Model Summary: Total Parameters"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-developer-blog"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-blog",
+          "locator": "last paragraph"
+        }
+      ],
+      "note": "Hugging Face, ModelScope, OpenRouter, build.nvidia.com as an NVIDIA NIM microservice and partner platforms."
+    }
+  },
+  "variants": [
+    {
+      "id": "30b-a3b",
+      "name": "Nemotron 3.5 Lightning 30B-A3B",
+      "aliases": [
+        {
+          "text": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+          "match": "auto"
+        },
+        {
+          "text": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
+          "match": "auto"
+        }
+      ],
+      "note": "Post-trained model in BF16 and as an NVFP4 quantized checkpoint. The separate DFlash and DSpark repositories hold speculative decoding draft checkpoints, not standalone models, and are not listed as aliases.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-bf16-model-card",
+          "locator": "Description"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-developer-blog",
+          "locator": "Quantization"
+        }
+      ]
+    },
+    {
+      "id": "30b-a3b-base",
+      "name": "Nemotron 3.5 Lightning 30B-A3B Base",
+      "aliases": [
+        {
+          "text": "NVIDIA-Nemotron-3.5-Lightning-30B-A3B-Base-BF16",
+          "match": "auto"
+        }
+      ],
+      "note": "Pre-trained base checkpoint without post-training.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-5-lightning-30b-a3b-base-bf16-model-card",
+          "locator": "Description; Release Date"
+        }
+      ]
+    }
+  ],
+  "notes": "NVIDIA presents it as part of the Nemotron 3 family (the developer blog calls it the smallest member); its version number is 3.5 and it opens the Lightning name. It has the same 30B-A3B size class as Nemotron 3 Nano, but no NVIDIA source says it was built from that model; the model card describes NVFP4 pre-training on more than 20T tokens, so no derived-from relation is recorded. The successor-of link rests on the launch post's wording that the release follows Nemotron 3 Nano. The API id nemotron-3.5-lightning-30b-a3b is the build.nvidia.com model path linked from the model card. NVIDIA says the Nemotron Coalition contributed evaluation methods, inference software and datasets."
+}

@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v2-chat-0628",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v2-chat-0628",
+  "name": "DeepSeek-V2-Chat-0628",
+  "aliases": [
+    {
+      "text": "DeepSeek-V2-Chat-0628",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-V2-0628",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-v",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v2-chat-0628-hf"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2024-09-05"
+      }
+    ],
+    "note": "Weights are still public and ungated on Hugging Face. In the DeepSeek API, deepseek-chat moved to DeepSeek-V2.5 on 2024-09-05."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v2-5",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2024-09-05"
+      }
+    ],
+    "note": "In the DeepSeek API only: deepseek-chat and deepseek-coder were upgraded to DeepSeek-V2.5. The weights stay available."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-06-28",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-06-28"
+        }
+      ],
+      "note": "Date of the API release (deepseek-chat upgraded to DeepSeek-V2-0628). The weights appeared on Hugging Face later; the model card states no date."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "deepseek.deepseek-v2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-chat-0628-hf",
+          "locator": "1. Introduction"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-06-28"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-5-announcement",
+          "locator": "Version History"
+        }
+      ],
+      "note": "The model card calls it an improved version of DeepSeek-V2-Chat. According to the V2.5 announcement, DeepSeek replaced the base model of DeepSeek-V2-Chat with the Coder-V2 base for this update."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V2-Chat-0628 is a revised DeepSeek-V2 chat model that went live in the DeepSeek API on 2024-06-28 as DeepSeek-V2-0628 and was later published as open weights under the DeepSeek Model License. For this update DeepSeek replaced the base model of DeepSeek-V2-Chat with the Coder-V2 base.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v2-chat-0628-hf",
+        "locator": "1. Introduction"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2024-06-28"
+      },
+      {
+        "id": "src.deepseek.deepseek-v2-5-announcement",
+        "locator": "Version History"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "coder-v2-base",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v2",
+      "text": "Built on the Coder-V2 base model instead of the DeepSeek-V2 base; DeepSeek says the switch was meant to improve code generation and reasoning.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-announcement",
+          "locator": "Version History"
+        }
+      ]
+    },
+    {
+      "id": "system-prompt",
+      "aspect": "other",
+      "relativeTo": "deepseek.deepseek-v2",
+      "text": "Instruction following in the system prompt improved, which the model card says helps tasks such as immersive translation and retrieval-augmented generation.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-chat-0628-hf",
+          "locator": "1. Introduction"
+        }
+      ]
+    },
+    {
+      "id": "role-play",
+      "aspect": "other",
+      "relativeTo": "deepseek.deepseek-v2",
+      "text": "DeepSeek reports stronger role-playing, with the model able to act as different characters on request.",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-06-28"
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "aspect": "reasoning",
+      "relativeTo": "deepseek.deepseek-v2",
+      "text": "DeepSeek reports better reasoning, coding and maths results than DeepSeek-V2-Chat.",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-06-28"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-chat-0628-hf"
+        }
+      ],
+      "note": "DeepSeek Model License (license link in the model card)."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-06-28"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-chat-0628-hf",
+          "locator": "3. How to run locally"
+        }
+      ]
+    }
+  },
+  "notes": "Released first in the API as DeepSeek-V2-0628 (deepseek-chat), later as open weights under the name DeepSeek-V2-Chat-0628. The model card refers to the DeepSeek-V2 page for model details, so parameters and context window are not restated here. Its base model came from DeepSeek-Coder-V2 (code line, not a record in Model History). The API added JSON mode and function calling on 2024-07-25 while deepseek-chat served this model, but the change log does not tie these features to a model, so no feature is recorded."
+}

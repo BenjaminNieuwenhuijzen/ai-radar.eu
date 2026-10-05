@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemma-1-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemma-1-1",
+  "name": "Gemma 1.1",
+  "aliases": [
+    {
+      "text": "Gemma 1.1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemma",
+  "generation": "1.1",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.google.gemma-1-1-2b-it-hf"
+      },
+      {
+        "id": "src.google.gemma-1-1-7b-it-hf"
+      }
+    ],
+    "note": "Weights still downloadable from Google's Hugging Face organisation (after accepting the Gemma terms) when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-04-05",
+      "sources": [
+        {
+          "id": "src.google.gemma-releases",
+          "locator": "April 5, 2024"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2024-04-09",
+          "sources": [
+            {
+              "id": "src.google.gemma-family-expands-april-2024",
+              "locator": "Gemma 1.1 update"
+            }
+          ],
+          "note": "Date of the Google Developers Blog post that announced the release together with CodeGemma and RecurrentGemma."
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemma-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemma-1-1-7b-it-hf",
+          "locator": "Release Notes"
+        },
+        {
+          "id": "src.google.gemma-1-1-2b-it-hf",
+          "locator": "Release Notes"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Gemma 1.1 is an update to Google's first-generation Gemma open models, released as instruction-tuned 2B and 7B checkpoints with downloadable weights under Google's Gemma terms of use. Google describes them as English-language, text-to-text, decoder-only language models, post-trained with a new RLHF method.",
+    "sources": [
+      {
+        "id": "src.google.gemma-1-1-7b-it-hf"
+      },
+      {
+        "id": "src.google.gemma-1-1-2b-it-hf"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "rlhf",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "google.gemma-1",
+      "text": "Post-trained with a new RLHF method; Google says this improves quality, coding, factuality, instruction following and multi-turn conversation.",
+      "sources": [
+        {
+          "id": "src.google.gemma-1-1-7b-it-hf",
+          "locator": "Release Notes"
+        }
+      ]
+    },
+    {
+      "id": "bug-fixes",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemma-1",
+      "text": "Fixes a bug in multi-turn conversations, and responses no longer always open with the same word, according to the model card.",
+      "sources": [
+        {
+          "id": "src.google.gemma-1-1-7b-it-hf",
+          "locator": "Release Notes"
+        }
+      ]
+    },
+    {
+      "id": "instruction-tuned-only",
+      "aspect": "availability",
+      "relativeTo": "google.gemma-1",
+      "text": "Released as instruction-tuned checkpoints only; the earlier instruction-tuned weights stay available in the same Hugging Face repositories.",
+      "sources": [
+        {
+          "id": "src.google.gemma-1-1-7b-it-hf",
+          "locator": "Release Notes"
+        },
+        {
+          "id": "src.google.gemma-1-1-2b-it-hf",
+          "locator": "Release Notes"
+        }
+      ]
+    },
+    {
+      "id": "terms",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "google.gemma-1",
+      "text": "Google updated the Gemma terms of use with this release, describing them as more flexible for developers.",
+      "sources": [
+        {
+          "id": "src.google.gemma-family-expands-april-2024",
+          "locator": "Gemma 1.1 update"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-1-1-7b-it-hf",
+          "locator": "Inputs and outputs"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-1-1-7b-it-hf",
+          "locator": "Inputs and outputs"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-1-1-2b-it-hf"
+        },
+        {
+          "id": "src.google.gemma-1-1-7b-it-hf"
+        }
+      ],
+      "note": "Released under Google's Gemma terms of use, which must be accepted on Hugging Face before download."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-1-1-2b-it-hf"
+        },
+        {
+          "id": "src.google.gemma-1-1-7b-it-hf"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "2b-it",
+      "name": "Gemma 1.1 2B (IT)",
+      "aliases": [
+        {
+          "text": "gemma-1.1-2b-it",
+          "match": "auto"
+        },
+        {
+          "text": "Gemma 1.1 2B",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.google.gemma-1-1-2b-it-hf"
+        }
+      ]
+    },
+    {
+      "id": "7b-it",
+      "name": "Gemma 1.1 7B (IT)",
+      "aliases": [
+        {
+          "text": "gemma-1.1-7b-it",
+          "match": "auto"
+        },
+        {
+          "text": "Gemma 1.1 7B",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.google.gemma-1-1-7b-it-hf"
+        }
+      ]
+    }
+  ],
+  "notes": "Instruction-tuned update to the original Gemma 2B and 7B; Google released no new pre-trained checkpoints for 1.1, and the model cards say the previous instruction-tuned weights stay available in the same repositories. Release date: the Gemma releases page gives April 5, 2024; the developer post announcing it is dated April 9, 2024 (kept as an alternative). The Hugging Face cards do not state a context length, so contextWindowTokens is left out. The 2B and 7B in the variant names are Google's size labels; the model cards give no parameter count, so parameters are left out."
+}

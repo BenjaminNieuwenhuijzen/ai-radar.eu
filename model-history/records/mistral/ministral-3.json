@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.ministral-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "ministral-3",
+  "name": "Ministral 3",
+  "aliases": [
+    {
+      "text": "Ministral 3",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.ministral",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Generalist models"
+      },
+      {
+        "id": "src.mistral.ministral-3-hf-collection"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-12-02",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-3-announcement"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "December 2 (2025)"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.ministral-1",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-3-announcement"
+        },
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, Alternative column"
+        }
+      ],
+      "note": "Editorial link along the Ministral line: the announcement does not name a predecessor; the models overview lists Ministral 3 3B and 8B as the alternatives for the retired Ministral 3B and 8B of October 2024."
+    },
+    {
+      "type": "derived-from",
+      "target": "mistral.mistral-small-3-1",
+      "method": "distillation",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.ministral-3-paper",
+          "locator": "section 1 Introduction; Figure 1"
+        }
+      ],
+      "note": "The paper says all Ministral 3 models descend from Mistral Small 3.1 through Cascade Distillation: iterative pruning plus continued pretraining with logit distillation from the parent. The vision encoder is copied from Mistral Small 3.1 Base."
+    }
+  ],
+  "summary": {
+    "text": "Ministral 3 is a series of dense Mistral AI language models in 3B, 8B and 14B sizes aimed at edge and local use, released on 2 December 2025 with Mistral Large 3. Each size has base, instruct and reasoning checkpoints with image input under Apache 2.0; Mistral's paper says all were derived from Mistral Small 3.1 by pruning and distillation.",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-3-announcement"
+      },
+      {
+        "id": "src.mistral.ministral-3-paper"
+      },
+      {
+        "id": "src.mistral.changelog",
+        "locator": "December 2 (2025)"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "size-14b",
+      "aspect": "size",
+      "direction": "added",
+      "relativeTo": "mistral.ministral-1",
+      "text": "Adds a 14B size alongside 3B and 8B.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-3-announcement"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-checkpoints",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "mistral.ministral-1",
+      "text": "Each size comes with a separate reasoning checkpoint next to the base and instruct checkpoints.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-3-announcement"
+        }
+      ]
+    },
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "relativeTo": "mistral.ministral-1",
+      "text": "All checkpoints accept image input through a 410M-parameter vision encoder copied from Mistral Small 3.1 Base.",
+      "sources": [
+        {
+          "id": "src.mistral.ministral-3-paper"
+        }
+      ]
+    },
+    {
+      "id": "cascade-distillation",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "mistral.ministral-1",
+      "text": "Trained by pruning and distilling from Mistral Small 3.1 on between 1 and 3 trillion tokens, according to the paper.",
+      "sources": [
+        {
+          "id": "src.mistral.ministral-3-paper"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.ministral-3-3b-docs",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.ministral-3-8b-docs",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.ministral-3-14b-docs",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.mistral-3-announcement",
+          "locator": "Ministral 3 section"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.ministral-3-3b-docs",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.ministral-3-8b-docs",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.ministral-3-14b-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.ministral-3-3b-docs",
+          "locator": "Context"
+        },
+        {
+          "id": "src.mistral.ministral-3-8b-docs",
+          "locator": "Context"
+        },
+        {
+          "id": "src.mistral.ministral-3-14b-docs",
+          "locator": "Context"
+        },
+        {
+          "id": "src.mistral.ministral-3-paper",
+          "locator": "section 1 Introduction"
+        }
+      ],
+      "note": "The paper gives context lengths up to 256k tokens, and 128k for the reasoning checkpoints."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.ministral-3-hf-collection"
+        },
+        {
+          "id": "src.mistral.mistral-3-announcement"
+        }
+      ],
+      "note": "Base, Instruct and Reasoning weights for all three sizes under Apache 2.0."
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.ministral-3-3b-docs",
+            "locator": "Features: Function Calling"
+          },
+          {
+            "id": "src.mistral.ministral-3-8b-docs",
+            "locator": "Features: Function Calling"
+          },
+          {
+            "id": "src.mistral.ministral-3-14b-docs",
+            "locator": "Features: Function Calling"
+          }
+        ]
+      }
+    ],
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-3-announcement",
+          "locator": "Available Today"
+        },
+        {
+          "id": "src.mistral.ministral-3-hf-collection"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "ministral-3-3b",
+      "name": "Ministral 3 3B",
+      "aliases": [
+        {
+          "text": "Ministral 3 3B",
+          "match": "auto"
+        },
+        {
+          "text": "ministral-3b-2512",
+          "match": "auto"
+        },
+        {
+          "text": "Ministral-3-3B-Instruct-2512",
+          "match": "auto"
+        },
+        {
+          "text": "Ministral-3-3B-Base-2512",
+          "match": "auto"
+        },
+        {
+          "text": "Ministral-3-3B-Reasoning-2512",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 3000000000,
+          "asStated": "3B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.mistral.mistral-3-announcement"
+            },
+            {
+              "id": "src.mistral.ministral-3-paper",
+              "locator": "Abstract"
+            }
+          ]
+        }
+      },
+      "note": "Base, Instruct and Reasoning checkpoints of this size are released; they are listed as aliases, not as separate variants.",
+      "sources": [
+        {
+          "id": "src.mistral.ministral-3-3b-docs"
+        },
+        {
+          "id": "src.mistral.ministral-3-hf-collection"
+        }
+      ]
+    },
+    {
+      "id": "ministral-3-8b",
+      "name": "Ministral 3 8B",
+      "aliases": [
+        {
+          "text": "Ministral 3 8B",
+          "match": "auto"
+        },
+        {
+          "text": "ministral-8b-2512",
+          "match": "auto"
+        },
+        {
+          "text": "Ministral-3-8B-Instruct-2512",
+          "match": "auto"
+        },
+        {
+          "text": "Ministral-3-8B-Base-2512",
+          "match": "auto"
+        },
+        {
+          "text": "Ministral-3-8B-Reasoning-2512",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 8000000000,
+          "asStated": "8B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.mistral.mistral-3-announcement"
+            },
+            {
+              "id": "src.mistral.ministral-3-paper",
+              "locator": "Abstract"
+            }
+          ]
+        }
+      },
+      "note": "Base, Instruct and Reasoning checkpoints of this size are released; they are listed as aliases, not as separate variants.",
+      "sources": [
+        {
+          "id": "src.mistral.ministral-3-8b-docs"
+        },
+        {
+          "id": "src.mistral.ministral-3-hf-collection"
+        }
+      ]
+    },
+    {
+      "id": "ministral-3-14b",
+      "name": "Ministral 3 14B",
+      "aliases": [
+        {
+          "text": "Ministral 3 14B",
+          "match": "auto"
+        },
+        {
+          "text": "ministral-14b-2512",
+          "match": "auto"
+        },
+        {
+          "text": "Ministral-3-14B-Instruct-2512",
+          "match": "auto"
+        },
+        {
+          "text": "Ministral-3-14B-Base-2512",
+          "match": "auto"
+        },
+        {
+          "text": "Ministral-3-14B-Reasoning-2512",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 14000000000,
+          "asStated": "14B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.mistral.mistral-3-announcement"
+            },
+            {
+              "id": "src.mistral.ministral-3-paper",
+              "locator": "Abstract"
+            }
+          ]
+        }
+      },
+      "note": "Base, Instruct and Reasoning checkpoints of this size are released; they are listed as aliases, not as separate variants.",
+      "sources": [
+        {
+          "id": "src.mistral.ministral-3-14b-docs"
+        },
+        {
+          "id": "src.mistral.ministral-3-hf-collection"
+        }
+      ]
+    }
+  ],
+  "notes": "One record for the series released in three sizes (3B, 8B, 14B), each with base, instruct and reasoning checkpoints; announced together with Mistral Large 3. The reasoning category reflects the separate reasoning checkpoints. The docs pages also list the moving aliases ministral-3b-latest, ministral-8b-latest and ministral-14b-latest, which are not recorded. The bare name Ministral 3 is only a candidate alias because it also prefixes the 2024 model name Ministral 3B."
+}

@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.o1-preview",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "o1-preview",
+  "name": "o1-preview",
+  "aliases": [
+    {
+      "text": "o1-preview",
+      "match": "auto"
+    },
+    {
+      "text": "OpenAI o1-preview",
+      "match": "auto"
+    },
+    {
+      "text": "o1-preview-2024-09-12",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.o-series",
+  "generation": "1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2025-04-28: o1-preview and o1-mini"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "openai.o3",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2025-04-28: o1-preview and o1-mini"
+      }
+    ],
+    "note": "Recommended replacement listed on the deprecations page when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-09-12",
+      "sources": [
+        {
+          "id": "src.openai.o1-preview-announcement",
+          "locator": "How to use OpenAI o1"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Sep 12, 2024"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-04-28",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2025-04-28: o1-preview and o1-mini"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-07-28",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2025-04-28: o1-preview and o1-mini"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "text": "o1-preview is an OpenAI reasoning model released on 12 September 2024 as an early version of o1 and the first model of the o-series, offered in ChatGPT and to API usage tier 5 developers. OpenAI trained it with large-scale reinforcement learning to work through a chain of thought before answering, and shows users a summary instead of the raw chain of thought.",
+    "sources": [
+      {
+        "id": "src.openai.o1-preview-announcement"
+      },
+      {
+        "id": "src.openai.learning-to-reason-with-llms"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "chain-of-thought",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "openai.gpt-4o",
+      "text": "Works through a chain of thought before answering, trained with large-scale reinforcement learning; OpenAI says results improve with more time spent thinking.",
+      "sources": [
+        {
+          "id": "src.openai.learning-to-reason-with-llms"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o1-preview-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o1-preview-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o1-preview-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o1-preview-announcement",
+          "locator": "How to use OpenAI o1"
+        }
+      ],
+      "note": "ChatGPT Plus and Team at launch, Enterprise and Edu the week after; API usage tier 5 only at launch."
+    }
+  },
+  "notes": "First model of the o-series, released on 2024-09-12 together with o1-mini; OpenAI presented it as an early version of o1 (src.openai.learning-to-reason-with-llms) and restarted the numbering at 1 for this series. No predecessor relation recorded. At launch the API lacked function calling, streaming and system messages, and ChatGPT lacked browsing and file or image uploads for this model. Safety results are in src.openai.o1-system-card. Lifecycle dates apply to the OpenAI API."
+}

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-1-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-1-5",
+  "name": "Grok-1.5",
+  "aliases": [
+    {
+      "text": "Grok-1.5",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 1.5",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "1.5",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "xAI has published no deprecation or retirement notice for Grok-1.5. The Grok-2 announcement of 2024-08-13 calls it xAI's previous model."
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-03-28",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-5-announcement",
+          "locator": "page date"
+        }
+      ]
+    },
+    "released": {
+      "value": null,
+      "sources": [],
+      "note": "The announcement says Grok-1.5 would reach early testers and existing Grok users on X in the coming days; no xAI page gives the rollout date."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-5-announcement",
+          "locator": "second paragraph"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Grok-1.5 is a language model from xAI, announced on 28 March 2024 for early testers and existing Grok users on X. xAI says it improves reasoning and problem solving over Grok-1, most notably in coding and maths, and it raises the context window to 128,000 tokens.",
+    "sources": [
+      {
+        "id": "src.xai.grok-1-5-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "xai.grok-1",
+      "text": "Context window raised to 128,000 tokens from 8,192; xAI says this is up to 16 times the previous length.",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-5-announcement",
+          "locator": "Long Context Understanding"
+        },
+        {
+          "id": "src.xai.grok-1-model-card",
+          "locator": "Model details"
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "xai.grok-1",
+      "text": "xAI reports better reasoning and problem solving, most notably in coding and maths.",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-5-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "long-context",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.grok-1-5-announcement",
+            "locator": "Long Context Understanding"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128,000 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-5-announcement",
+          "locator": "subtitle; Long Context Understanding"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-5-announcement",
+          "locator": "first paragraph; Looking Ahead"
+        }
+      ],
+      "note": "Announced for early testers and existing Grok users on the X platform."
+    }
+  },
+  "notes": "Input modalities are not stated in the announcement; xAI announced image input separately, with Grok-1.5V on 2024-04-12."
+}

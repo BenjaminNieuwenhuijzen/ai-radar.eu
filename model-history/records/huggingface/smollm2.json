@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "id": "huggingface.smollm2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "smollm2",
+  "name": "SmolLM2",
+  "aliases": [
+    {
+      "text": "SmolLM2",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "huggingface",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "huggingface.smollm",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.huggingface.smollm2-1-7b-model-card",
+        "locator": "model repository (weights hosted on the Hub)"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-10",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-1-7b-model-card",
+          "locator": "Hub commit history: repository created 2024-10-30, card written 2024-10-31"
+        },
+        {
+          "id": "src.huggingface.smollm2-1-7b-instruct-model-card",
+          "locator": "Hub commit history and community tab: repository created and first public discussions on 2024-10-31"
+        }
+      ],
+      "note": "No dated announcement by Hugging Face. The month follows from the Hub: base repositories created 2024-10-30 and 2024-10-31 (UTC), cards written on 2024-10-31, and the first public community discussions on the 1.7B Instruct repository on 2024-10-31. News sites report 2024-11-01."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "huggingface.smollm-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-1-7b-model-card",
+          "locator": "Model Summary: its predecessor SmolLM1-1.7B"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "SmolLM2 is the second generation of Hugging Face's compact open-weight language models, released in 135M, 360M and 1.7B sizes under Apache 2.0. Hugging Face describes them as light enough to run on-device; the 1.7B model was trained on about 11 trillion tokens, with new math, code and instruction datasets built for the line.",
+    "sources": [
+      {
+        "id": "src.huggingface.smollm2-1-7b-model-card"
+      },
+      {
+        "id": "src.huggingface.smollm2-paper"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "training-tokens",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "huggingface.smollm-1",
+      "text": "The 1.7B model was trained on 11 trillion tokens, up from 1 trillion for SmolLM-1.7B.",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-1-7b-model-card"
+        },
+        {
+          "id": "src.huggingface.smollm-announcement"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "huggingface.smollm-1",
+      "text": "Context length of the 1.7B model extended from 2k to 8k tokens late in pre-training.",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-paper",
+          "locator": "section 4.6, Context Length extension"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "huggingface.smollm-1",
+      "text": "The 1.7B Instruct model supports function calling, as documented on its model card.",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-1-7b-instruct-model-card",
+          "locator": "Examples: Function calling"
+        }
+      ]
+    },
+    {
+      "id": "new-datasets",
+      "aspect": "training-data",
+      "direction": "added",
+      "relativeTo": "huggingface.smollm-1",
+      "text": "Training adds new math, code and instruction datasets built by Hugging Face: FineMath, Stack-Edu and SmolTalk.",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-paper"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-1-7b-model-card",
+          "locator": "Model Summary; Limitations"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-1-7b-model-card",
+          "locator": "Model Summary; Limitations"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-1-7b-model-card",
+          "locator": "License: Apache 2.0"
+        },
+        {
+          "id": "src.huggingface.smollm2-paper",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "on-device"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-1-7b-model-card",
+          "locator": "Model Summary: lightweight enough to run on-device"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "smollm2-135m",
+      "name": "SmolLM2-135M",
+      "aliases": [
+        {
+          "text": "SmolLM2-135M",
+          "match": "auto"
+        },
+        {
+          "text": "SmolLM2-135M-Instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 135000000,
+          "asStated": "135M",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smollm2-paper",
+              "locator": "section 6, SmolLM2 135M and 360M"
+            },
+            {
+              "id": "src.huggingface.smollm2-1-7b-model-card",
+              "locator": "Model Summary"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-paper",
+          "locator": "section 6, SmolLM2 135M and 360M"
+        }
+      ],
+      "note": "Trained on 2T tokens in a single stage, per the paper."
+    },
+    {
+      "id": "smollm2-360m",
+      "name": "SmolLM2-360M",
+      "aliases": [
+        {
+          "text": "SmolLM2-360M",
+          "match": "auto"
+        },
+        {
+          "text": "SmolLM2-360M-Instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 360000000,
+          "asStated": "360M",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smollm2-paper",
+              "locator": "section 6, SmolLM2 135M and 360M"
+            },
+            {
+              "id": "src.huggingface.smollm2-1-7b-model-card",
+              "locator": "Model Summary"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-paper",
+          "locator": "section 6, SmolLM2 135M and 360M"
+        }
+      ],
+      "note": "Trained on 4T tokens in a single stage, per the paper."
+    },
+    {
+      "id": "smollm2-1-7b",
+      "name": "SmolLM2-1.7B",
+      "aliases": [
+        {
+          "text": "SmolLM2-1.7B",
+          "match": "auto"
+        },
+        {
+          "text": "SmolLM2-1.7B-Instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 1700000000,
+          "asStated": "1.7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smollm2-1-7b-model-card",
+              "locator": "Model Summary"
+            },
+            {
+              "id": "src.huggingface.smollm2-paper",
+              "locator": "Abstract"
+            }
+          ]
+        },
+        "contextWindowTokens": {
+          "value": 8000,
+          "asStated": "8k",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smollm2-paper",
+              "locator": "section 4.6, Context Length extension"
+            }
+          ],
+          "note": "Extended from 2k to 8k tokens late in pre-training."
+        },
+        "features": [
+          {
+            "key": "function-calling",
+            "disclosure": "official",
+            "sources": [
+              {
+                "id": "src.huggingface.smollm2-1-7b-instruct-model-card",
+                "locator": "Examples: Function calling"
+              }
+            ],
+            "note": "Documented for the Instruct checkpoint."
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "src.huggingface.smollm2-1-7b-model-card",
+          "locator": "Model Summary"
+        },
+        {
+          "id": "src.huggingface.smollm2-paper",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Trained on about 11T tokens in several stages, per the paper. A separate 16k-context fine-tune of the Instruct checkpoint, SmolLM2-1.7B-Instruct-16k, appeared on the Hub in February 2025 and is not recorded here."
+    }
+  ],
+  "notes": "Released in three sizes (135M, 360M, 1.7B), each as a base and an Instruct checkpoint. No launch blog post was found. Hub evidence for October 2024: base repositories created on 2024-10-30 and 2024-10-31 (UTC), cards written and first public community discussions on 2024-10-31. Lead only, not a source: an X post by lead author Loubna Ben Allal dated 2024-10-31. The technical report followed on 2025-02-04 (arXiv v1). Context window recorded only for the 1.7B, where the paper states it."
+}

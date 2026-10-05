@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-7b-v0-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-7b-v0-3",
+  "name": "Mistral 7B v0.3",
+  "aliases": [
+    {
+      "text": "Mistral 7B v0.3",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral 7B Instruct v0.3",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-7B-v0.3",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-7B-Instruct-v0.3",
+      "match": "auto"
+    },
+    {
+      "text": "open-mistral-7b",
+      "match": "candidate"
+    },
+    {
+      "text": "Mistral 7B",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral",
+  "categories": [
+    "language"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mistral-7b-v0-3"
+      },
+      {
+        "id": "src.mistral.hf-mistral-7b-instruct-v0-3"
+      }
+    ],
+    "note": "The Apache 2.0 base and instruct weights are still on Mistral AI's Hugging Face organisation. On Mistral's own platform the model is retired (models overview, Deprecated table; legal centre)."
+  },
+  "replacedBy": {
+    "modelId": "mistral.ministral-3",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral 7B 0.3, Alternative"
+      },
+      {
+        "id": "src.mistral.mistral-7b-0-3-docs",
+        "locator": "Replacement"
+      }
+    ],
+    "note": "Mistral names Ministral 3 8B, a size variant of the Ministral 3 record, as the replacement."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-05-22",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-7b-0-3-docs",
+          "locator": "page header"
+        },
+        {
+          "id": "src.mistral.legal-mistral-7b",
+          "locator": "Model Lifecycle: Mistral 7B 0.3 Base, Mistral 7B 0.3 Instruct"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2024-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral 7B 0.3 (open-mistral-7b)"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-03-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral 7B 0.3 (open-mistral-7b)"
+        },
+        {
+          "id": "src.mistral.mistral-7b-0-3-docs",
+          "locator": "Retirement date"
+        },
+        {
+          "id": "src.mistral.legal-mistral-7b",
+          "locator": "Model Lifecycle: Mistral 7B 0.3 Base, Mistral 7B 0.3 Instruct"
+        }
+      ],
+      "note": "Retirement on Mistral's platform; the open weights remain downloadable."
+    }
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "mistral.mistral-7b-v0-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.hf-mistral-7b-v0-3",
+          "locator": "model card introduction"
+        },
+        {
+          "id": "src.mistral.hf-mistral-7b-instruct-v0-3",
+          "locator": "changes compared to Mistral-7B-v0.2"
+        },
+        {
+          "id": "src.mistral.mistral-7b-0-3-docs",
+          "locator": "model description"
+        },
+        {
+          "id": "src.mistral.mistral-inference-repo",
+          "locator": "README, Model download, Note"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Mistral 7B v0.3 is a minor update to Mistral AI's open 7B language model, released on 22 May 2024 as base and instruct checkpoints with open weights on Hugging Face under Apache 2.0 and served on Mistral's API as open-mistral-7b. It extends the vocabulary to 32768 tokens, and the instruct version adds function calling.",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-7b-0-3-docs"
+      },
+      {
+        "id": "src.mistral.hf-mistral-7b-v0-3"
+      },
+      {
+        "id": "src.mistral.hf-mistral-7b-instruct-v0-3"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "vocabulary",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-7b-v0-2",
+      "text": "Vocabulary extended to 32768 tokens.",
+      "sources": [
+        {
+          "id": "src.mistral.hf-mistral-7b-v0-3",
+          "locator": "model card introduction"
+        },
+        {
+          "id": "src.mistral.hf-mistral-7b-instruct-v0-3",
+          "locator": "changes compared to Mistral-7B-v0.2"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "mistral.mistral-7b-v0-2",
+      "text": "The instruct model adds function calling, together with support for the v3 tokenizer.",
+      "sources": [
+        {
+          "id": "src.mistral.hf-mistral-7b-instruct-v0-3",
+          "locator": "changes compared to Mistral-7B-v0.2"
+        },
+        {
+          "id": "src.mistral.mistral-inference-repo",
+          "locator": "README, Model download, Note"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-7b-0-3-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-7b-0-3-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.hf-mistral-7b-instruct-v0-3",
+            "locator": "changes compared to Mistral-7B-v0.2; Function calling"
+          },
+          {
+            "id": "src.mistral.mistral-inference-repo",
+            "locator": "README, Model download, Note"
+          }
+        ],
+        "note": "Instruct checkpoint."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 32000,
+      "asStated": "32k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-7b-0-3-docs",
+          "locator": "Context; Weights table"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 7000000000,
+      "asStated": "7B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-7b-0-3-docs",
+          "locator": "Weights table, Parameters (B)"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.hf-mistral-7b-v0-3"
+        },
+        {
+          "id": "src.mistral.hf-mistral-7b-instruct-v0-3"
+        }
+      ],
+      "note": "Apache 2.0."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-7b-0-3-docs",
+          "locator": "API id open-mistral-7b; Weights table"
+        },
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral 7B 0.3 (open-mistral-7b)"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "July 24, 2024 (fine-tuning models list: open-mistral-7b (v0.3))"
+        }
+      ]
+    }
+  },
+  "notes": "No blog post; the docs page, the legal centre and the Hugging Face model cards are the release evidence, and the changelog has no release entry for it. Served on Mistral's API under the existing open-mistral-7b id (the changelog of 2024-07-24 lists open-mistral-7b (v0.3) among the fine-tunable models). API deprecation and retirement dates are shared with the other open-mistral-7b versions."
+}

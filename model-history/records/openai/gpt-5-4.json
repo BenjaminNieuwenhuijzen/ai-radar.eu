@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-5-4",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-5-4",
+  "name": "GPT-5.4",
+  "aliases": [
+    {
+      "text": "GPT-5.4",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.4-2026-03-05",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-5.4 Thinking",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.4-thinking",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "5.4",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.api-model-gpt-5-4"
+      },
+      {
+        "id": "src.openai.api-deprecations"
+      }
+    ],
+    "note": "Listed in the API model catalog and not on the deprecations page."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-03-05",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-4",
+          "locator": "opening and Availability and pricing"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Mar 5 (2026)"
+        },
+        {
+          "id": "src.openai.chatgpt-release-notes",
+          "locator": "March 5, 2026: GPT-5.4 Thinking in ChatGPT"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-5-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-4",
+          "locator": "Knowledge work; Availability and pricing"
+        },
+        {
+          "id": "src.openai.gpt-5-4-thinking-system-card",
+          "locator": "Introduction"
+        }
+      ],
+      "note": "GPT-5.4 Thinking replaced GPT-5.2 Thinking in ChatGPT; the system card notes there is no GPT-5.3 Thinking, so GPT-5.2 Thinking is the baseline."
+    }
+  ],
+  "summary": {
+    "text": "GPT-5.4 is an OpenAI reasoning model for text and image input, released on 5 March 2026 as GPT-5.4 Thinking in ChatGPT, as gpt-5.4 in the API and in Codex, alongside GPT-5.4 Pro. OpenAI calls it its first general-purpose model with native computer use and says it incorporates the coding capabilities of GPT-5.3-Codex.",
+    "sources": [
+      {
+        "id": "src.openai.introducing-gpt-5-4"
+      },
+      {
+        "id": "src.openai.api-model-gpt-5-4",
+        "locator": "Model details"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "computer-use",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5-2",
+      "text": "Adds native computer use: through the API's built-in computer tool it can issue mouse and keyboard commands in response to screenshots.",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-4",
+          "locator": "Computer use and vision"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Mar 5 (2026)"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "openai.gpt-5-2",
+      "text": "Context window grows to 1,050,000 tokens in the API, from 400,000 for GPT-5.2.",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-4",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.api-model-gpt-5-2",
+          "locator": "Model details"
+        }
+      ]
+    },
+    {
+      "id": "tool-search",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5-2",
+      "text": "Adds tool search in the API, which gives the model a short tool list and loads a tool's full definition only when it is needed.",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-4"
+        }
+      ]
+    },
+    {
+      "id": "cyber-safeguards",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-2",
+      "text": "OpenAI treats it as High cyber capability and deployed it with matching safeguards; the system card calls this a first for a general-purpose model.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-4-thinking-system-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-4",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-4",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.api-model-gpt-5-4"
+          },
+          {
+            "id": "src.openai.gpt-5-4-thinking-system-card",
+            "locator": "Introduction"
+          }
+        ],
+        "note": "Reasoning effort none (default), low, medium, high and xhigh."
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.introducing-gpt-5-4",
+            "locator": "Computer use and vision"
+          },
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Mar 5 (2026)"
+          }
+        ],
+        "note": "Built-in computer tool in the Responses API."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.api-model-gpt-5-4",
+            "locator": "Supported features"
+          }
+        ]
+      },
+      {
+        "key": "long-context",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Mar 5 (2026)"
+          },
+          {
+            "id": "src.openai.api-model-gpt-5-4",
+            "locator": "Model details"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1050000,
+      "asStated": "1,050,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-4",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The announcement and changelog round this to 1M tokens; in Codex the standard window is 272K with experimental 1M support."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-4",
+          "locator": "Availability and pricing"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "pro",
+      "name": "GPT-5.4 Pro",
+      "aliases": [
+        {
+          "text": "GPT-5.4 Pro",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-5.4-pro",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-5.4-pro-2026-03-05",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2026-03-05",
+          "sources": [
+            {
+              "id": "src.openai.introducing-gpt-5-4",
+              "locator": "opening and Availability and pricing"
+            },
+            {
+              "id": "src.openai.api-changelog",
+              "locator": "Mar 5 (2026)"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "contextWindowTokens": {
+          "value": 1050000,
+          "asStated": "1,050,000",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.openai.api-model-gpt-5-4-pro",
+              "locator": "Model details"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-4"
+        },
+        {
+          "id": "src.openai.api-model-gpt-5-4-pro"
+        }
+      ],
+      "note": "Released the same day in ChatGPT (Pro and Enterprise plans) and in the Responses API as gpt-5.4-pro; OpenAI says it uses more compute to think harder."
+    }
+  ],
+  "notes": "Released as GPT-5.4 Thinking in ChatGPT, gpt-5.4 in the API and in Codex. OpenAI says it incorporates the coding capabilities of GPT-5.3-Codex, which is out of scope here (code-specialised), so no relation to it is recorded. Knowledge cutoff per the API docs: Aug 31, 2025. GPT-5.4-Cyber is out of scope."
+}

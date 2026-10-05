@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-large-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-large-1",
+  "name": "Mistral Large",
+  "aliases": [
+    {
+      "text": "mistral-large-2402",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Large 1.0",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Large",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-large",
+  "generation": "1.0",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Large 1.0"
+      },
+      {
+        "id": "src.mistral.mistral-large-1-0-docs",
+        "locator": "status"
+      },
+      {
+        "id": "src.mistral.legal-mistral-large-1",
+        "locator": "Model Lifecycle: Mistral Large 1.0"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-large-3",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Large 1.0, Alternative"
+      },
+      {
+        "id": "src.mistral.mistral-large-1-0-docs",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-02-26",
+      "sources": [
+        {
+          "id": "src.mistral.au-large-announcement",
+          "locator": "first paragraph; Try Mistral Large and Mistral Small today"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "February 26, 2024"
+        },
+        {
+          "id": "src.mistral.mistral-large-1-0-docs",
+          "locator": "page header"
+        },
+        {
+          "id": "src.mistral.legal-mistral-large-1",
+          "locator": "Model Lifecycle: Mistral Large 1.0"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2024-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Large 1.0 (mistral-large-2402)"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-06-16",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Large 1.0 (mistral-large-2402)"
+        },
+        {
+          "id": "src.mistral.mistral-large-1-0-docs",
+          "locator": "Retirement date"
+        },
+        {
+          "id": "src.mistral.legal-mistral-large-1",
+          "locator": "Model Lifecycle: Mistral Large 1.0"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "text": "Mistral Large, later named Mistral Large 1.0, is a language model that Mistral AI called its new flagship when it was released on 26 February 2024 on la Plateforme, on Microsoft Azure and in the le Chat beta. Mistral AI listed a 32K-token context window, native fluency in English, French, Spanish, German and Italian, and native function calling.",
+    "sources": [
+      {
+        "id": "src.mistral.au-large-announcement"
+      },
+      {
+        "id": "src.mistral.mistral-large-1-0-docs"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-1-0-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-1-0-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.au-large-announcement",
+            "locator": "Mistral Large, our new flagship model; JSON format and function calling"
+          },
+          {
+            "id": "src.mistral.changelog",
+            "locator": "February 26, 2024, New API capabilities"
+          }
+        ]
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.au-large-announcement",
+            "locator": "Mistral Large, our new flagship model"
+          }
+        ],
+        "note": "English, French, Spanish, German and Italian."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 32000,
+      "asStated": "32K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.au-large-announcement",
+          "locator": "Mistral Large, our new flagship model"
+        },
+        {
+          "id": "src.mistral.mistral-large-1-0-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Mistral AI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.au-large-announcement",
+          "locator": "first paragraph; Partnering with Microsoft; Try Mistral Large and Mistral Small today"
+        }
+      ],
+      "note": "Cloud partner at release: Microsoft Azure (Azure AI Studio and Azure Machine Learning). Consumer app: the le Chat beta."
+    }
+  },
+  "notes": "Announced in the post Au Large as Mistral's new flagship model, together with a new Mistral Small. Azure was Mistral's first distribution partner. The post also mentions self-deployment with access to the model weights for sensitive use cases, which is not a public weights release. The docs call it Mistral Large 1.0 (version 24.02). The slug ends in -1 because the family id is mistral.mistral-large. The docs page links https://legal.mistral.ai/ai-governance/models/mistral-large-1, which returns 404; the legal centre page is .../mistral-large-10/."
+}

@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.phi-3-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "phi-3-5",
+  "name": "Phi-3.5",
+  "aliases": [
+    {
+      "text": "Phi-3.5",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.phi",
+  "generation": "3.5",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-3-5-mini-instruct-model-card"
+      },
+      {
+        "id": "src.microsoft.phi-3-5-moe-instruct-model-card"
+      }
+    ],
+    "note": "Weights of both variants are still downloadable from Microsoft's Hugging Face organisation (checked 2026-10-01). Retired from Microsoft Foundry on 2025-08-30 (see milestones)."
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-08-22",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-announcement",
+          "locator": "page date; Today, we are proud to announce"
+        }
+      ]
+    },
+    "released": {
+      "value": "2024-08",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-mini-instruct-model-card",
+          "locator": "Model, Release date"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-moe-instruct-model-card",
+          "locator": "Model, Release date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "foundry-retirement",
+      "label": "Retired from Microsoft Foundry",
+      "date": {
+        "value": "2025-08-30",
+        "sources": [
+          {
+            "id": "src.microsoft.foundry-retired-models",
+            "locator": "Microsoft table"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "microsoft.phi-3",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-mini-instruct-model-card",
+          "locator": "Release Notes"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-announcement",
+          "locator": "introduction"
+        }
+      ],
+      "note": "The Phi-3.5-mini card calls it an update over the June 2024 Phi-3 Mini release; the post presents Phi-3.5 as the response to feedback since the April 2024 Phi-3 launch."
+    }
+  ],
+  "summary": {
+    "text": "Phi-3.5 is a Microsoft release of two open-weight text models announced on 22 August 2024: Phi-3.5-mini (3.8 billion parameters) and the mixture-of-experts Phi-3.5-MoE (42 billion in total, 6.6 billion active). Both support multiple languages and 128K tokens of context; Phi-3.5-mini was also offered on a serverless endpoint in Azure AI Studio.",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-3-5-announcement"
+      },
+      {
+        "id": "src.microsoft.phi-3-5-mini-instruct-model-card"
+      },
+      {
+        "id": "src.microsoft.phi-3-5-moe-instruct-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "multilingual",
+      "aspect": "languages",
+      "direction": "added",
+      "relativeTo": "microsoft.phi-3",
+      "text": "Adds multilingual support: the Phi-3.5-mini card lists 23 languages, and Microsoft says Phi-3.5-MoE supports more than 20.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-mini-instruct-model-card"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-announcement"
+        }
+      ]
+    },
+    {
+      "id": "mixture-of-experts",
+      "aspect": "architecture",
+      "direction": "added",
+      "relativeTo": "microsoft.phi-3",
+      "text": "Adds a mixture-of-experts model, Phi-3.5-MoE, with 16 experts of 3.8 billion parameters each; 6.6 billion of its 42 billion parameters are active.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-announcement"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-moe-instruct-model-card"
+        }
+      ]
+    },
+    {
+      "id": "long-context-only",
+      "aspect": "context-length",
+      "direction": "changed",
+      "relativeTo": "microsoft.phi-3",
+      "text": "Phi-3.5-mini comes only in a 128K-token version, where Phi-3-mini also had a 4K version; the report describes LongRoPE to extend the context.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-technical-report"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-mini-instruct-model-card"
+        },
+        {
+          "id": "src.microsoft.phi-3-announcement"
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "microsoft.phi-3",
+      "text": "Phi-3.5-mini adds continued pre-training on multilingual synthetic and filtered data, and proximal policy optimization in post-training.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-mini-instruct-model-card",
+          "locator": "Model, Inputs"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-moe-instruct-model-card",
+          "locator": "Model, Inputs"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-mini-instruct-model-card",
+          "locator": "Model, Outputs"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-moe-instruct-model-card",
+          "locator": "Model, Outputs"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-announcement"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-mini-instruct-model-card",
+          "locator": "Model, Context length"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-moe-instruct-model-card",
+          "locator": "Model, Context length"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.microsoft.phi-3-5-mini-instruct-model-card",
+            "locator": "Supported languages"
+          },
+          {
+            "id": "src.microsoft.phi-3-5-moe-instruct-model-card",
+            "locator": "Supported languages"
+          },
+          {
+            "id": "src.microsoft.phi-3-5-announcement"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-mini-instruct-model-card",
+          "locator": "License"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-moe-instruct-model-card",
+          "locator": "License"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-announcement",
+          "locator": "More Predictable Outputs: Phi-3.5-mini serverless endpoint in Azure AI Studio"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-mini-instruct-model-card"
+        }
+      ],
+      "note": "The api value rests on the Phi-3.5-mini serverless endpoint in Azure AI Studio."
+    }
+  },
+  "variants": [
+    {
+      "id": "mini",
+      "name": "Phi-3.5-mini",
+      "aliases": [
+        {
+          "text": "Phi-3.5-mini",
+          "match": "auto"
+        },
+        {
+          "text": "Phi-3.5-mini-instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 3800000000,
+          "asStated": "3.8B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.microsoft.phi-3-5-mini-instruct-model-card",
+              "locator": "Model, Architecture"
+            },
+            {
+              "id": "src.microsoft.phi-3-5-announcement",
+              "locator": "Phi-3.5-mini"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-announcement"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-mini-instruct-model-card"
+        }
+      ]
+    },
+    {
+      "id": "moe",
+      "name": "Phi-3.5-MoE",
+      "aliases": [
+        {
+          "text": "Phi-3.5-MoE",
+          "match": "auto"
+        },
+        {
+          "text": "Phi-3.5-MoE-instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 42000000000,
+          "asStated": "42B total (16x3.8B experts), 6.6B active",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.microsoft.phi-3-5-announcement",
+              "locator": "Phi-3.5-MoE: Mixture-of-Experts"
+            },
+            {
+              "id": "src.microsoft.phi-3-technical-report",
+              "locator": "v4, phi-3.5-MoE architecture"
+            },
+            {
+              "id": "src.microsoft.phi-3-5-moe-instruct-model-card",
+              "locator": "Model, Architecture"
+            }
+          ]
+        }
+      },
+      "note": "Mixture-of-experts model; Microsoft called it a new member of the Phi family.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-announcement"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-moe-instruct-model-card"
+        }
+      ]
+    }
+  ],
+  "notes": "One record for the Phi-3.5 text release with inline variants mini and MoE, both announced in the post of 2024-08-22; Phi-3.5-vision is a separate record. The model cards give only the month (Release date: August 2024); the Hugging Face repos were created on 2024-08-16 and 2024-08-17 according to the Hugging Face API (not a stated date). Both variants appear on the Retired Microsoft Foundry Models page (retired 2025-08-30); weights remain on Hugging Face under the MIT license. Microsoft reported benchmark results."
+}

@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v2-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v2-5",
+  "name": "DeepSeek-V2.5",
+  "aliases": [
+    {
+      "text": "DeepSeek-V2.5",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek V2.5",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-v",
+  "generation": "2.5",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v2-5-hf"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2024-12-10"
+      }
+    ],
+    "note": "Weights are still public and ungated on Hugging Face. In the DeepSeek API, deepseek-chat moved to DeepSeek-V2.5-1210 on 2024-12-10."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v2-5-1210",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2024-12-10"
+      }
+    ],
+    "note": "In the DeepSeek API only: deepseek-chat was upgraded to DeepSeek-V2.5-1210. The weights stay available."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-09-05",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-announcement",
+          "locator": "first paragraph; sidebar DeepSeek-V2.5 Release 2024/09/05"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-09-05"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "deepseek.deepseek-v2-chat-0628",
+      "method": "merge",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-announcement",
+          "locator": "first paragraph; Version History"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-09-05"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-5-hf",
+          "locator": "1. Introduction"
+        }
+      ],
+      "note": "DeepSeek merged DeepSeek-V2-0628 with DeepSeek-Coder-V2-0724 (code line, not a record in Model History). The model card names the parents more loosely as DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V2.5 is a language model that DeepSeek made by merging DeepSeek-V2-0628 with its code model DeepSeek-Coder-V2-0724, to combine general conversation and coding in one model. It was released on 2024-09-05 in DeepSeek's web chat and API, where it served both deepseek-chat and deepseek-coder, and as open weights under the DeepSeek Model License.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v2-5-announcement",
+        "locator": "first paragraph; Open-Source"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2024-09-05"
+      },
+      {
+        "id": "src.deepseek.deepseek-v2-5-hf"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "merge",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v2-chat-0628",
+      "text": "Merges the general chat model DeepSeek-V2-0628 with the code model DeepSeek-Coder-V2-0724 into one model.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-announcement",
+          "locator": "first paragraph; Version History"
+        }
+      ]
+    },
+    {
+      "id": "api-endpoints",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v2-chat-0628",
+      "text": "One model now serves both the deepseek-chat and deepseek-coder API models, which DeepSeek kept for backward compatibility.",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-09-05"
+        }
+      ]
+    },
+    {
+      "id": "safety-boundaries",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v2-chat-0628",
+      "text": "DeepSeek says it defined safety boundaries more clearly, making the model more resistant to jailbreaks while applying safety policies to normal requests less often.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-announcement"
+        }
+      ]
+    },
+    {
+      "id": "writing",
+      "aspect": "other",
+      "relativeTo": "deepseek.deepseek-v2-chat-0628",
+      "text": "DeepSeek says the model aligns better with human preferences and improves writing and instruction following.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.deepseek-v2-5-announcement",
+            "locator": "first paragraph"
+          }
+        ],
+        "note": "In the DeepSeek API; DeepSeek says Function Calling, FIM completion and JSON output remain unchanged."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-announcement",
+          "locator": "Open-Source"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-5-hf"
+        }
+      ],
+      "note": "DeepSeek Model License (license link in the model card)."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-announcement",
+          "locator": "first paragraph; Open-Source"
+        }
+      ]
+    }
+  },
+  "notes": "Served through both API ids deepseek-chat and deepseek-coder for backward compatibility; neither id is used as an alias because both served other models over time. The DeepSeek-V2.5 name aliases are candidate because the December 2024 revision DeepSeek-V2.5-1210 is also called DeepSeek-V2.5. The model card refers to the DeepSeek-V2 page for model details, so parameters and context window are not restated here. Category code not added: DeepSeek presents it as combining general and coding abilities, not as a code-first model."
+}

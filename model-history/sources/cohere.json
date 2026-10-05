@@ -1,0 +1,1060 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.cohere.about",
+      "type": "other",
+      "title": "About Our Company",
+      "url": "https://cohere.com/about",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "HTML title About Our Company | Cohere; page heading Where enterprise AI meets real-world purpose. Living page, content as seen on 2026-10-01 (founding 2019 in Toronto, founders, Cohere Labs 2022, North 2025, offices).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-23-35b-model-card",
+      "type": "model-card",
+      "title": "Model Card for Aya-23-35B",
+      "url": "https://huggingface.co/CohereLabs/aya-23-35B",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card by Cohere Labs and Cohere. The original address https://huggingface.co/CohereForAI/aya-23-35B redirects here. Carries a note that Aya 23 is an older version of Aya and that the latest version is Aya Expanse 32B, with Aya Vision 32B as a multimodal variant; gives a context length of 8192. May duplicate a source added by the Aya 23 chunk.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-23-8b-model-card",
+      "type": "model-card",
+      "title": "Model Card for Aya-23-8B",
+      "url": "https://huggingface.co/CohereLabs/aya-23-8B",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card by Cohere Labs and Cohere. The original address https://huggingface.co/CohereForAI/aya-23-8B redirects here. Carries a note that Aya 23 is an older version of Aya and that the latest version is Aya Expanse 8B, with Aya Vision 8B as a multimodal variant. May duplicate a source added by the Aya 23 chunk.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-23-announcement",
+      "type": "announcement",
+      "title": "C4AI Launches Aya 23, 8B and 35B Parameter Open Weights Release",
+      "url": "https://cohere.com/blog/aya23",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-05-23"
+      },
+      "notes": "Published by Cohere For AI (now Cohere Labs). Page shows May 23, 2024; datePublished metadata 2024-05-22T20:18-04:00.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-23-paper",
+      "type": "research-paper",
+      "title": "Aya 23: Open Weight Releases to Further Multilingual Progress",
+      "url": "https://arxiv.org/abs/2405.15032",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-05-23"
+      },
+      "notes": "arXiv 2405.15032, technical report by Cohere For AI; v1 submitted 23 May 2024, v2 of 31 May 2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-announcement",
+      "type": "announcement",
+      "title": "C4AI Launches Aya, an LLM Covering More Than 100 Languages",
+      "url": "https://cohere.com/blog/aya",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-02-13"
+      },
+      "notes": "Published by Cohere For AI (now Cohere Labs). Page shows Feb 13, 2024 (datePublished 2024-02-13T02:30-05:00). The post calls the model Aya; the name Aya 101 is used on the model card.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-expanse-32b-model-card",
+      "type": "model-card",
+      "title": "Model Card for Aya-Expanse-32B",
+      "url": "https://huggingface.co/CohereLabs/aya-expanse-32b",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card by Cohere Labs (formerly Cohere For AI). The original address https://huggingface.co/CohereForAI/aya-expanse-32b redirects here. Weights are gated (accept conditions), licence CC-BY-NC.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-expanse-8b-model-card",
+      "type": "model-card",
+      "title": "Model Card for Aya Expanse 8B",
+      "url": "https://huggingface.co/CohereLabs/aya-expanse-8b",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card by Cohere Labs (formerly Cohere For AI). The original address https://huggingface.co/CohereForAI/aya-expanse-8b redirects here. Weights are gated (accept conditions), licence CC-BY-NC.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-expanse-announcement",
+      "type": "announcement",
+      "title": "Aya Expanse: Connecting our world",
+      "url": "https://cohere.com/blog/aya-expanse-connecting-our-world",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2024-10-24"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Cohere blog post by the Cohere Labs Team; the page shows Oct 24, 2024 (datePublished metadata 2024-10-24T08:30-04:00). The HTML and social title reads Cohere For AI, Cohere's research arm, announces Aya Expanse. The Cohere platform link points to model c4ai-aya-expanse-32b. The text says open weights for 8b and 35b in one place, an apparent slip for 32B.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-expanse-technical-report",
+      "type": "technical-report",
+      "title": "Aya Expanse: Combining Research Breakthroughs for a New Multilingual Frontier",
+      "url": "https://arxiv.org/abs/2412.04261",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2024-12-05",
+        "note": "arXiv v1 submission date."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv technical report by Cohere For AI and Cohere authors (arXiv 2412.04261, v1 of 5 Dec 2024).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-model-paper",
+      "type": "research-paper",
+      "title": "Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
+      "url": "https://arxiv.org/abs/2402.07827",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-02-12"
+      },
+      "notes": "arXiv 2402.07827, v1 submitted 12 Feb 2024; authors from Cohere For AI and collaborators. Section 3.1 says the model fine-tunes the largest (13B) mT5 model.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-research",
+      "type": "other",
+      "title": "Aya",
+      "url": "https://cohere.com/research/aya",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "HTML title Aya | Cohere Labs. Lists Tiny Aya (Global, Earth, Fire, Water), Aya Vision (8B, 32B), Aya Expanse (8B, 32B) and Aya 101; links research posts on open-weight multilingual releases.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-vision-32b-model-card",
+      "type": "model-card",
+      "title": "Model Card for Aya Vision 32B",
+      "url": "https://huggingface.co/CohereLabs/aya-vision-32b",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card by Cohere Labs (formerly Cohere For AI). The original address https://huggingface.co/CohereForAI/aya-vision-32b redirects here. Weights gated, licence CC-BY-NC.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-vision-8b-model-card",
+      "type": "model-card",
+      "title": "Model Card for Aya Vision 8B",
+      "url": "https://huggingface.co/CohereLabs/aya-vision-8b",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card by Cohere Labs (formerly Cohere For AI). The original address https://huggingface.co/CohereForAI/aya-vision-8b redirects here. Weights gated, licence CC-BY-NC.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-vision-announcement",
+      "type": "announcement",
+      "title": "Aya Vision: Expanding the worlds AI can see",
+      "url": "https://cohere.com/blog/aya-vision",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-03-04",
+        "note": "Date shown on the page; the datePublished metadata is 2025-03-03T20:43-05:00."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Cohere blog post; the HTML and social title reads Cohere For AI Launches Aya Vision, a Multilingual Multimodal AI Model. The text mentions open weights for our 8b and 35b models in one place, an apparent slip for 32B.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.aya-vision-technical-report",
+      "type": "technical-report",
+      "title": "Aya Vision: Advancing the Frontier of Multilingual Multimodality",
+      "url": "https://arxiv.org/abs/2505.08751",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-05-13",
+        "note": "arXiv v1 submission date."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv technical report by Cohere Labs and Cohere authors (arXiv 2505.08751).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-aya-8b-retirement",
+      "type": "deprecation-notice",
+      "title": "Retirement of Embed v2.0 and Aya Expanse / Vision 8B",
+      "url": "https://docs.cohere.com/changelog/2026-04-04-embed-v2-aya-8b-retirement",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2026-04-04"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Cohere release notes entry: effective April 4, 2026, c4ai-aya-expanse-8b and c4ai-aya-vision-8b are no longer available on the API; recommends command-r7b-12-2024, command-a-03-2025 or command-a-reasoning-08-2025 for chat tasks.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-aya-expanse-whatsapp",
+      "type": "release-notes",
+      "title": "Aya Expanse is Available on WhatsApp!",
+      "url": "https://docs.cohere.com/changelog/aya-expanse-on-whatsapp",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-01-16"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-aya-vision",
+      "type": "release-notes",
+      "title": "Our Groundbreaking Multimodal Model, Aya Vision, is Here!",
+      "url": "https://docs.cohere.com/changelog/aya-vision-announcement",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-03-04"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-command-a",
+      "type": "release-notes",
+      "title": "Announcing Command A",
+      "url": "https://docs.cohere.com/changelog/command-a",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-03-13"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Cohere release notes entry dated March 13, 2025; names Command R+ 08-2024 as the predecessor and gives the API id command-a-03-2025.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-command-august-refresh",
+      "type": "changelog",
+      "title": "Command models get an August refresh",
+      "url": "https://docs.cohere.com/changelog/command-gets-refreshed",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-08-30"
+      },
+      "notes": "Docs changelog entry dated August 30, 2024: command-r-08-2024 and command-r-plus-08-2024, Safety Modes beta, new pricing.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-command-beta",
+      "type": "changelog",
+      "title": "Current Model Upgrades + New Command Beta Model",
+      "url": "https://docs.cohere.com/changelog/improvements-to-current-models-new-beta-model-command",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2022-11-08"
+      },
+      "notes": "Docs changelog entry dated November 8, 2022. Introduces the Command model in beta as command-xlarge-20221108.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-command-nightly",
+      "type": "changelog",
+      "title": "Command Model Nightly Available!",
+      "url": "https://docs.cohere.com/changelog/command-model-nightly-available",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-01-17"
+      },
+      "notes": "Docs changelog entry dated January 17, 2023. Nightly Command builds in medium and xlarge sizes; command-xlarge-20221108 redirected to command-xlarge-nightly and discontinued after January 30, 2023.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-command-r",
+      "type": "changelog",
+      "title": "Command R: Retrieval-Augmented Generation at Scale",
+      "url": "https://docs.cohere.com/changelog/command-r-retrieval-augmented-generation-at-production-scale",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-03-24"
+      },
+      "notes": "Docs changelog entry dated March 24, 2024, later than the blog post of March 11, 2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-command-r7b",
+      "type": "release-notes",
+      "title": "Announcing Command R7b",
+      "url": "https://docs.cohere.com/changelog/command-r-7b",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2024-12-13"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Cohere release notes entry dated December 13, 2024; gives the API id command-r7b-12-2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-command-r7b-arabic",
+      "type": "release-notes",
+      "title": "Cohere Releases Arabic-Optimized Command Model!",
+      "url": "https://docs.cohere.com/changelog/command-r7b-arabic",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-02-27"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Cohere release notes entry dated February 27, 2025. It gives the model id as c4ai-command-r7b-12-2024 (the base Command R7B repository, apparently a slip; the Arabic repository is c4ai-command-r7b-arabic-02-2025), calls it an 8-billion parameter model and names Modern Standard Arabic and English.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-major-command-deprecations",
+      "type": "changelog",
+      "title": "Announcing Major Command Deprecations",
+      "url": "https://docs.cohere.com/changelog/2025-09-15-major-command-deprecations",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-09-16"
+      },
+      "notes": "Page shows September 16, 2025, although the slug says 2025-09-15; the deprecations page gives September 15, 2025 as the effective date.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-model-names",
+      "type": "changelog",
+      "title": "Cohere Model Names Are Changing!",
+      "url": "https://docs.cohere.com/changelog/model-names-are-changing",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-04-26"
+      },
+      "notes": "Docs changelog entry dated April 26, 2023. Renames command-xlarge to command, command-medium to command-light and the nightly ids accordingly.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.changelog-refresh-models-azure",
+      "type": "changelog",
+      "title": "Refreshed Command R and R+ models now on Azure",
+      "url": "https://docs.cohere.com/changelog/refresh-models-on-azure",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-09-26"
+      },
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-announcement",
+      "type": "announcement",
+      "title": "Introducing Command A: Max performance, minimal compute",
+      "url": "https://cohere.com/blog/command-a",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-03-13"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Cohere blog post; the page shows Mar 13, 2025 (datePublished metadata 2025-03-13T08:55-04:00; dateModified 2025-07-10).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-model-card",
+      "type": "model-card",
+      "title": "Model Card for Cohere Labs Command A",
+      "url": "https://huggingface.co/CohereLabs/c4ai-command-a-03-2025",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card (developed by Cohere and Cohere Labs). The original address https://huggingface.co/CohereForAI/c4ai-command-a-03-2025 redirects here. Weights gated, licence CC-BY-NC. The card notes the model supports 256K context but is configured for 128K in the Hugging Face configuration.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-plus-blog",
+      "type": "announcement",
+      "title": "Introducing Command A+: Making sovereign agentic capabilities available to all",
+      "url": "https://cohere.com/blog/command-a-plus",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2026-05-20"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Page heading as given; HTML title Introducing Command A+ | Cohere. Page shows May 20, 2026; datePublished metadata 2026-05-20. Contains a snapshot table (218B total, 25B active; 128K input, 64K generation; text and image input) and comparisons with other Command A models.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-plus-changelog",
+      "type": "changelog",
+      "title": "Announcing Cohere's Command A+",
+      "url": "https://docs.cohere.com/changelog/command-a-plus-05-2026",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2026-05-20"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Docs release-notes entry dated May 20, 2026. The dated form /changelog/2026-05-20-command-a-plus returned 404 on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-plus-docs",
+      "type": "documentation",
+      "title": "Cohere's Command A+ Model",
+      "url": "https://docs.cohere.com/docs/command-a-plus",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living model page, content as seen on 2026-10-01. States Release Date: May 20, 2026; sparse mixture-of-experts; input text and image, output text; 218B total, 25B active; Apache 2.0 on Hugging Face (links the W4A4 repository); 1x B200 or 2x H100 at W4A4.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-plus-hf",
+      "type": "model-hub-page",
+      "title": "CohereLabs/command-a-plus-05-2026-bf16",
+      "url": "https://huggingface.co/CohereLabs/command-a-plus-05-2026-bf16",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card headed Model Card for Command A+; not gated, Apache 2.0. https://huggingface.co/CohereLabs/command-a-plus-05-2026 resolves to this repository. FP8 and W4A4 quantizations at https://huggingface.co/CohereLabs/command-a-plus-05-2026-fp8 and https://huggingface.co/CohereLabs/command-a-plus-05-2026-w4a4 (the docs link the W4A4 repo). Repository created 2026-05-11, before the public launch. Commit on 2026-10-01: 5fb6fde5fd12ff89356aae552e11883bc49f069b.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-plus-sovereign-blog",
+      "type": "press-release",
+      "title": "Cohere Releases Command A+: An Open-Source Enterprise AI Model Built for Sovereign Critical Infrastructure",
+      "url": "https://cohere.com/blog/cohere-releases-command-a-plus",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2026-05-20"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Second launch post on the Cohere blog, written as a press release; HTML title Cohere Releases Command A+ for Sovereign AI | Cohere. Page shows May 20, 2026. Says 24 billion parameters are active per prompt, where the docs, model card and main post say 25B active.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-reasoning-blog",
+      "type": "announcement",
+      "title": "Command A Reasoning: Enterprise-grade control for AI agents",
+      "url": "https://cohere.com/blog/command-a-reasoning",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-08-21"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Page heading as given; HTML title Command A Reasoning: Control for AI Agents | Cohere. Page shows Aug 21, 2025; datePublished metadata 2025-08-21T10:50:26-04:00.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-reasoning-changelog",
+      "type": "changelog",
+      "title": "Announcing Cohere's Command A Reasoning Model",
+      "url": "https://docs.cohere.com/changelog/2025-08-21-command-a-reasoning",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-08-21"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Docs release-notes entry dated August 21, 2025.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-reasoning-docs",
+      "type": "documentation",
+      "title": "Cohere's Command A Reasoning Model",
+      "url": "https://docs.cohere.com/docs/command-a-reasoning",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living model page, content as seen on 2026-10-01 (111B parameters, 256K context, 23 languages, Cohere's first reasoning model; optimized for 4x H100 in production).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-reasoning-hf",
+      "type": "model-hub-page",
+      "title": "CohereLabs/command-a-reasoning-08-2025",
+      "url": "https://huggingface.co/CohereLabs/command-a-reasoning-08-2025",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card headed Model Card for Cohere Labs Command A Reasoning. Gated, CC-BY-NC 4.0. Card metadata lists base_model CohereLabs/c4ai-command-a-03-2025 (classified as finetune in the model tree). Repository created 2025-08-12, before the public launch. Commit on 2026-10-01: bd39aafe2c5e71a044d2f1674accfd9b384d3dbb.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-technical-report",
+      "type": "technical-report",
+      "title": "Command A: An Enterprise-Ready Large Language Model",
+      "url": "https://arxiv.org/abs/2504.00698",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-04-01",
+        "note": "arXiv v1 submission date; v2 of 14 Apr 2025."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv technical report by Team Cohere (arXiv 2504.00698). Also includes results for Command R7B, which it says shares capability and architectural similarities with Command A, and says weights for both models were released for research purposes. May duplicate a source added by another Cohere chunk.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-translate-blog",
+      "type": "announcement",
+      "title": "Command A Translate: Secure translation for global enterprises",
+      "url": "https://cohere.com/blog/command-a-translate",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-08-28"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Page heading as given; HTML title Command A Translate: Secure Enterprise Translation | Cohere. Page shows Aug 28, 2025; datePublished metadata 2025-08-28T10:55:25-04:00.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-translate-changelog",
+      "type": "changelog",
+      "title": "Announcing Cohere's Command A Translate Model",
+      "url": "https://docs.cohere.com/changelog/2025-08-28-command-a-translate",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-08-28"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Docs release-notes entry dated August 28, 2025. Gives a 16K token context length split as 8K input plus 8K output.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-translate-docs",
+      "type": "documentation",
+      "title": "Cohere's Command A Translate Model",
+      "url": "https://docs.cohere.com/docs/command-a-translate",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living model page, content as seen on 2026-10-01 (16K tokens as 8K input and 8K output, 111B parameters, 23 languages, one or two A100/H100 GPUs).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-translate-hf",
+      "type": "model-hub-page",
+      "title": "CohereLabs/command-a-translate-08-2025",
+      "url": "https://huggingface.co/CohereLabs/command-a-translate-08-2025",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card headed Model Card for Cohere Labs Command A Translate. Gated, CC-BY-NC 4.0. Card metadata lists base_model CohereLabs/c4ai-command-a-03-2025 (classified as finetune in the model tree). Cites the WMT 2025 paper Command-A-Translate: Raising the Bar of Machine Translation with Difficulty Filtering (https://aclanthology.org/2025.wmt-1.55/; not registered as a source). Repository created 2025-08-27. Commit on 2026-10-01: 15bf49e888dd814a887c3f88d497754802507fa9.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-vision-blog",
+      "type": "announcement",
+      "title": "Introducing Command A Vision: Multimodal AI built for business",
+      "url": "https://cohere.com/blog/command-a-vision",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-07-31"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Page heading as given; HTML title Command A Vision: Multimodal AI for Business | Cohere. Page shows Jul 31, 2025; datePublished metadata 2025-07-31T09:55:06-04:00. Body text sits in the Next.js payload of the raw HTML.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-vision-changelog",
+      "type": "changelog",
+      "title": "Announcing Cohere's Command A Vision Model",
+      "url": "https://docs.cohere.com/changelog/2025-07-31-command-a-vision",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-07-31"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Docs release-notes entry dated July 31, 2025. Clean Markdown at the same URL with .md appended.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-vision-docs",
+      "type": "documentation",
+      "title": "Cohere's Command A Vision Model",
+      "url": "https://docs.cohere.com/docs/command-a-vision",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living model page, content as seen on 2026-10-01. States 128K context, up to 20 images per request, that tool use is not supported and that the model does not generate images.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-a-vision-hf",
+      "type": "model-hub-page",
+      "title": "CohereLabs/command-a-vision-07-2025",
+      "url": "https://huggingface.co/CohereLabs/command-a-vision-07-2025",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card headed Model Card for Cohere Labs Command A Vision, in Cohere's own Hugging Face organisation (old CohereForAI URLs redirect to CohereLabs). Gated (accept conditions), CC-BY-NC 4.0. Card metadata lists base_model CohereLabs/c4ai-command-a-03-2025 (classified as finetune in the model tree) and google/siglip2-so400m-patch16-512. Repository created 2025-07-28, before the public launch. Commit on 2026-10-01: e1016a8105950a626e7dd91b0a3030f7ae522411.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-r-announcement",
+      "type": "announcement",
+      "title": "Command R: Retrieval-Augmented Generation at Production Scale",
+      "url": "https://cohere.com/blog/command-r",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-03-11"
+      },
+      "notes": "Heading as published; the HTML title is Command R: RAG at Production Scale. Page shows Mar 11, 2024 (datePublished 2024-03-11T14:05-04:00). Body text sits in the Next.js payload of the raw HTML.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-r-plus-announcement",
+      "type": "announcement",
+      "title": "Introducing Command R+: A Scalable LLM Built for Business",
+      "url": "https://cohere.com/blog/command-r-plus-microsoft-azure",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-04-04"
+      },
+      "notes": "Page shows Apr 04, 2024 (datePublished 2024-04-04T09:30-04:00). Body text sits in the Next.js payload of the raw HTML.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-r7b-announcement",
+      "type": "announcement",
+      "title": "Introducing Command R7B: Fast and efficient generative AI",
+      "url": "https://cohere.com/blog/command-r7b",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2024-12-13"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Cohere blog post by Aidan Gomez; the page shows Dec 13, 2024 (datePublished metadata 2024-12-13T11:56-05:00; dateModified 2026-03-23). The Cohere Platform link points to model command-r7b-12-2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-r7b-arabic-announcement",
+      "type": "announcement",
+      "title": "Introducing Command R7B Arabic",
+      "url": "https://cohere.com/blog/command-r7b-arabic",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2025-02-27"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Cohere blog post in English with an Arabic version below; the page shows Feb 27, 2025 (datePublished metadata 2025-02-27T13:50-05:00). The Cohere platform link points to model command-r7b-arabic-02-2025.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-r7b-arabic-model-card",
+      "type": "model-card",
+      "title": "Model Card for Cohere Labs Command R7B Arabic",
+      "url": "https://huggingface.co/CohereLabs/c4ai-command-r7b-arabic-02-2025",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card (developed by Cohere and Cohere Labs). The original address https://huggingface.co/CohereForAI/c4ai-command-r7b-arabic-02-2025 redirects here. Weights gated, licence CC-BY-NC. The summary says 7 billion parameters; the Model Size line says about 8 billion (7 billion transformer plus 1 billion embedding parameters).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-r7b-model-card",
+      "type": "model-card",
+      "title": "Model Card for Cohere Labs Command R7B",
+      "url": "https://huggingface.co/CohereLabs/c4ai-command-r7b-12-2024",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card (developed by Cohere and Cohere Labs). The original address https://huggingface.co/CohereForAI/c4ai-command-r7b-12-2024 redirects here. Weights gated, licence CC-BY-NC. Links to the Command A technical report as its tech report. The card states 7 billion parameters.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.command-series-0824-announcement",
+      "type": "announcement",
+      "title": "Updates to the Command R Series",
+      "url": "https://cohere.com/blog/command-series-0824",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-08-30"
+      },
+      "notes": "Page shows Aug 30, 2024 (datePublished 2024-08-30T09:55-04:00). Body text sits in the Next.js payload of the raw HTML.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.deprecations",
+      "type": "deprecation-notice",
+      "title": "Deprecations",
+      "url": "https://docs.cohere.com/docs/deprecations",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living documentation page with the deprecation history; content as seen on 2026-10-01. Entry 2026-04-04 retires c4ai-aya-expanse-8b and c4ai-aya-vision-8b. May duplicate a source added by another Cohere chunk.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.docs-command-command-light",
+      "type": "documentation",
+      "title": "Cohere's Command and Command Light",
+      "url": "https://docs.cohere.com/docs/command-beta",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living docs page, content as seen on 2026-10-01: marked Deprecated on September 15, 2025; table gives modality Text, context length 4k and maximum output 4k for command and command-light; says the Command family comes in two variants. Clean Markdown at the same URL plus .md.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.docs-command-r",
+      "type": "documentation",
+      "title": "Cohere's Command R Model",
+      "url": "https://docs.cohere.com/docs/command-r",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living docs page, content as seen on 2026-10-01; describes Command R (128,000-token context, 10 optimized languages, 13 further pre-training languages) and the August 2024 release command-r-08-2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.docs-command-r-plus",
+      "type": "documentation",
+      "title": "Cohere's Command R+ Model",
+      "url": "https://docs.cohere.com/docs/command-r-plus",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living docs page, content as seen on 2026-10-01; describes Command R+ (including multi-step tool use) and the August 2024 release command-r-plus-08-2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.hf-aya-101",
+      "type": "model-hub-page",
+      "title": "CohereLabs/aya-101 · Hugging Face",
+      "url": "https://huggingface.co/CohereLabs/aya-101",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card title Model Card for Aya 101: 13 billion parameters, 101 languages, licence Apache-2.0, architecture same as mT5-XXL; developed by Cohere Labs. Not gated. Old URL https://huggingface.co/CohereForAI/aya-101 redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.hf-aya-23-35b",
+      "type": "model-hub-page",
+      "title": "CohereLabs/aya-23-35B · Hugging Face",
+      "url": "https://huggingface.co/CohereLabs/aya-23-35B",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card for Aya-23-35B: 35 billion parameters, context length 8192, text input and output, 23 languages, licence CC-BY-NC; developed by Cohere Labs and Cohere. Gated (accept conditions).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.hf-aya-23-8b",
+      "type": "model-hub-page",
+      "title": "CohereLabs/aya-23-8B · Hugging Face",
+      "url": "https://huggingface.co/CohereLabs/aya-23-8B",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card for Aya-23-8B: 8 billion parameters, context length 8192, text input and output, 23 languages, licence CC-BY-NC; developed by Cohere Labs and Cohere. Gated (accept conditions).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.hf-c4ai-command-r-08-2024",
+      "type": "model-hub-page",
+      "title": "CohereLabs/c4ai-command-r-08-2024 · Hugging Face",
+      "url": "https://huggingface.co/CohereLabs/c4ai-command-r-08-2024",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card title Model Card for C4AI Command R 08-2024: 32 billion parameters, context length 128K, text input and output, trained on 23 languages, licence CC-BY-NC; developed by Cohere and Cohere Labs. Gated (accept conditions).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.hf-c4ai-command-r-plus",
+      "type": "model-hub-page",
+      "title": "CohereLabs/c4ai-command-r-plus · Hugging Face",
+      "url": "https://huggingface.co/CohereLabs/c4ai-command-r-plus",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card title Model Card for Cohere Labs Command R+: 104 billion parameters, context length 128K, text input and output, licence CC-BY-NC; developed by Cohere and Cohere Labs. Gated (accept conditions). Old URL under huggingface.co/CohereForAI redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.hf-c4ai-command-r-plus-08-2024",
+      "type": "model-hub-page",
+      "title": "CohereLabs/c4ai-command-r-plus-08-2024 · Hugging Face",
+      "url": "https://huggingface.co/CohereLabs/c4ai-command-r-plus-08-2024",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card: Command R+ 08-2024, 104 billion parameters, context length 128K, text input and output, multi-step tool use, trained on 23 languages, licence CC-BY-NC. Gated (accept conditions).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.hf-c4ai-command-r-v01",
+      "type": "model-hub-page",
+      "title": "CohereLabs/c4ai-command-r-v01 · Hugging Face",
+      "url": "https://huggingface.co/CohereLabs/c4ai-command-r-v01",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card title Model Card for Cohere Labs Command-R: 35 billion parameters, context length 128K, text input and output, licence CC-BY-NC; developed by Cohere and Cohere Labs. Gated (accept conditions). Old URL https://huggingface.co/CohereForAI/c4ai-command-r-v01 redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.models-overview",
+      "type": "documentation",
+      "title": "An Overview of Cohere's Models",
+      "url": "https://docs.cohere.com/docs/models",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living documentation page; content as seen on 2026-10-01. Lists model ids with status (Live, Deprecated, Retired), modality, context length and maximum output tokens, plus a table of ids on cloud platforms. May duplicate a source added by another Cohere chunk.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.research",
+      "type": "other",
+      "title": "Research",
+      "url": "https://cohere.com/research",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "HTML title Research | Cohere Labs. States that the lab started as Cohere For AI in June 2022 and was renamed Cohere Labs in April 2025.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.tiny-aya-base-hf",
+      "type": "model-hub-page",
+      "title": "CohereLabs/tiny-aya-base",
+      "url": "https://huggingface.co/CohereLabs/tiny-aya-base",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card headed Model Card for tiny-aya-base. Gated, CC-BY-NC 4.0. Pretrained 3.35B model; 8K input and 8K output; text in, text out. Repository created 2026-02-13. Commit on 2026-10-01: d62ac17e241c871fc52e9a95d7b0e2615189d7d5.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.tiny-aya-blog",
+      "type": "announcement",
+      "title": "Cohere Labs Launches Tiny Aya, Making Multilingual AI Accessible",
+      "url": "https://cohere.com/blog/cohere-labs-tiny-aya",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2026-02-17"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Page heading as given; HTML title Cohere Labs Launches Tiny Aya for Multilingual AI | Cohere. Page shows Feb 17, 2026; datePublished metadata 2026-02-17T04:00:07-05:00. Names the variants TinyAya-Base, TinyAya-Global, TinyAya-Earth, TinyAya-Fire and TinyAya-Water. Links the arXiv report 2603.11510, which postdates the post, so the page was edited after publication.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.tiny-aya-docs",
+      "type": "documentation",
+      "title": "Tiny Aya",
+      "url": "https://docs.cohere.com/docs/tiny-aya",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page, content as seen on 2026-10-01. Table of five models (tiny-aya-base, -global, -earth, -fire, -water), each 3.35B parameters, 70 languages, 8k context, 8k maximum output; only the four instruction-tuned variants are on the Cohere API.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.tiny-aya-earth-hf",
+      "type": "model-hub-page",
+      "title": "CohereLabs/tiny-aya-earth",
+      "url": "https://huggingface.co/CohereLabs/tiny-aya-earth",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gated, CC-BY-NC 4.0; card metadata base_model CohereLabs/tiny-aya-base (finetune). Repository created 2026-02-13. Commit on 2026-10-01: 0624fafbe200f930b89566fc4ec4da314ba48d89.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.tiny-aya-fire-hf",
+      "type": "model-hub-page",
+      "title": "CohereLabs/tiny-aya-fire",
+      "url": "https://huggingface.co/CohereLabs/tiny-aya-fire",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gated, CC-BY-NC 4.0; card metadata base_model CohereLabs/tiny-aya-base (finetune). Repository created 2026-02-13. Commit on 2026-10-01: 73500c80fcb6c8bea3e830c21d5d2920249a0e1a.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.tiny-aya-global-hf",
+      "type": "model-hub-page",
+      "title": "CohereLabs/tiny-aya-global",
+      "url": "https://huggingface.co/CohereLabs/tiny-aya-global",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card headed Model Card for tiny-aya-global (card lists Model: tiny-aya-it-global). Gated, CC-BY-NC 4.0; card metadata base_model CohereLabs/tiny-aya-base (finetune). Repository created 2026-02-13. Commit on 2026-10-01: af89d219b53ed9b13b8a4645f9c8028973510324.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.tiny-aya-hf-collection",
+      "type": "model-hub-page",
+      "title": "Tiny Aya",
+      "url": "https://huggingface.co/collections/CohereLabs/tiny-aya",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face collection in Cohere's CohereLabs organisation; HTML title Tiny Aya - a CohereLabs Collection. Also holds GGUF quantizations.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.tiny-aya-tech-report",
+      "type": "technical-report",
+      "title": "Tiny Aya: Bridging Scale and Multilingual Depth",
+      "url": "https://arxiv.org/abs/2603.11510",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "publishedAt": {
+        "value": "2026-03-12",
+        "note": "arXiv v1 submission date (12 Mar 2026); Cohere's research page for the paper carries 2026-02-17 in its slug."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Cohere Labs technical report on arXiv, linked from the launch post, the docs page and the Hugging Face cards. Only v1 listed on 2026-10-01. Cohere's own paper page: https://cohere.com/research/papers/tiny-aya-bridging-scale-and-multilingual-depth-2026-02-17.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.cohere.tiny-aya-water-hf",
+      "type": "model-hub-page",
+      "title": "CohereLabs/tiny-aya-water",
+      "url": "https://huggingface.co/CohereLabs/tiny-aya-water",
+      "publisher": "Cohere",
+      "publisherOrgId": "cohere",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Gated, CC-BY-NC 4.0; card metadata base_model CohereLabs/tiny-aya-base (finetune). Repository created 2026-02-13. Commit on 2026-10-01: 41a99216d12b3ef4881df762934186e5e4d2bbc1.",
+      "lastCheckedAt": "2026-10-05"
+    }
+  ]
+}

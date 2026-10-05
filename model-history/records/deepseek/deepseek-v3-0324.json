@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v3-0324",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v3-0324",
+  "name": "DeepSeek-V3-0324",
+  "aliases": [
+    {
+      "text": "DeepSeek-V3-0324",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V3-0324",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V3 0324",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-v",
+  "generation": "3",
+  "categories": [
+    "language"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-0324-hf"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-08-21"
+      }
+    ],
+    "note": "Weights are still public on Hugging Face. In the DeepSeek API, deepseek-chat moved to DeepSeek-V3.1 on 2025-08-21."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v3-1",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-08-21"
+      }
+    ],
+    "note": "In the DeepSeek API only: deepseek-chat was upgraded to DeepSeek-V3.1 (non-thinking mode). The weights stay available."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-03-24",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-03-24"
+        }
+      ],
+      "note": "The change log dates the upgrade of deepseek-chat to 2025-03-24 (the Hugging Face repository was also created that day); both news pages are dated 2025-03-25.",
+      "alternatives": [
+        {
+          "value": "2025-03-25",
+          "sources": [
+            {
+              "id": "src.deepseek.deepseek-v3-0324-announcement",
+              "locator": "news sidebar: DeepSeek-V3-0324 Release 2025/03/25"
+            },
+            {
+              "id": "src.deepseek.deepseek-v3-0324-news",
+              "locator": "page date"
+            }
+          ],
+          "note": "Date of the release announcement in the API docs news and on deepseek.com."
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "deepseek.deepseek-v3",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-0324-hf",
+          "locator": "Features; How to Run Locally"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-0324-announcement"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-03-24"
+        }
+      ],
+      "note": "The model card lists improvements over its predecessor DeepSeek-V3 and says the model structure is exactly the same."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V3-0324 is an updated version of DeepSeek-V3 with the same model structure, served behind deepseek-chat in the DeepSeek API from 24 March 2025, in the web chat and as open weights under the MIT License. DeepSeek lists better reasoning, front-end web code, Chinese writing and function calling.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-0324-hf"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-03-24"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-0324-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "mit-license",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3",
+      "text": "Weights released under the MIT License instead of the DeepSeek Model License used for DeepSeek-V3.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-0324-announcement"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-hf",
+          "locator": "7. License"
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3",
+      "text": "Improved reasoning, according to DeepSeek, with the model structure unchanged.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-0324-hf"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3",
+      "text": "More accurate function calling, which DeepSeek says fixes issues of earlier V3 versions.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-0324-hf",
+          "locator": "Function Calling Improvements"
+        }
+      ]
+    },
+    {
+      "id": "front-end-chinese-writing",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3",
+      "text": "Better front-end web code and Chinese writing aligned with the DeepSeek-R1 style, according to DeepSeek.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-0324-hf"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.deepseek-v3-0324-hf",
+            "locator": "Function Calling Improvements; How to Run Locally"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-0324-hf",
+          "locator": "License"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-0324-announcement"
+        }
+      ],
+      "note": "MIT License."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-0324-announcement"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-03-24"
+        }
+      ],
+      "note": "The announcement recommends it in the DeepSeek chat with DeepThink turned off."
+    }
+  },
+  "notes": "Same architecture as DeepSeek-V3 per the model card; parameters and context window are not restated on its own pages, so they are left out here."
+}

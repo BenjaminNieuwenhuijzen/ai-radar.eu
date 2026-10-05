@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-4-7",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-4-7",
+  "name": "Grok 4.7",
+  "aliases": [
+    {
+      "text": "Grok 4.7",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.7",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 4.7 Fast",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "4.7",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.xai.grok-4-7-docs",
+        "locator": "Details"
+      },
+      {
+        "id": "src.xai.models-overview",
+        "locator": "Text API Pricing; Which model should I choose?"
+      }
+    ],
+    "note": "Current model on the xAI API when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-09-21",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-7-announcement",
+          "locator": "Pricing and availability"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "September: Grok 4.7"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-4-6",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-7-model-card",
+          "locator": "1 Introduction"
+        },
+        {
+          "id": "src.xai.grok-4-7-announcement",
+          "locator": "Model Improvements"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Grok 4.7 is a language model in xAI's Grok line for text and image input, released on 21 September 2026 on the xAI API, in Cursor and in Grok Build, where it is the default model, and through third-party tools and cloud platforms. xAI says it uses a new, larger base model than Grok 4.6 and a longer reinforcement learning run aimed at tasks that take many hours.",
+    "sources": [
+      {
+        "id": "src.xai.grok-4-7-announcement"
+      },
+      {
+        "id": "src.xai.grok-4-7-overview"
+      },
+      {
+        "id": "src.xai.grok-4-7-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "larger-base-model",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "xai.grok-4-6",
+      "text": "Uses a new, larger base model than Grok 4.6; xAI gives no parameter count.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-7-announcement",
+          "locator": "Model Improvements"
+        }
+      ]
+    },
+    {
+      "id": "longer-rl",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4-6",
+      "text": "xAI describes a longer reinforcement learning run on a harder task mix, weighted toward problems that take many hours.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-7-announcement",
+          "locator": "Model Improvements"
+        }
+      ]
+    },
+    {
+      "id": "safeguard-stack",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4-6",
+      "text": "Built with a new safeguard stack; xAI gives select cybersecurity partners invite-only access to its red-team capabilities for defensive research.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-7-announcement"
+        }
+      ]
+    },
+    {
+      "id": "agent-harness",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "xai.grok-4-6",
+      "text": "Trained to work natively with xAI's Grok Bot agent harness; xAI also says it is better at checking its own work and handling long context.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-7-announcement",
+          "locator": "Model Improvements"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-7-docs",
+          "locator": "At a glance: Modalities"
+        },
+        {
+          "id": "src.xai.grok-4-7-overview",
+          "locator": "At a glance: Modalities"
+        },
+        {
+          "id": "src.xai.grok-4-7-model-card",
+          "locator": "1.1 Overview, list of channels"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-7-docs",
+          "locator": "At a glance: Modalities"
+        },
+        {
+          "id": "src.xai.grok-4-7-overview",
+          "locator": "At a glance: Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 500000,
+      "asStated": "500,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-7-docs",
+          "locator": "At a glance: Context window"
+        },
+        {
+          "id": "src.xai.grok-4-7-overview",
+          "locator": "At a glance: Context window"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "September: Grok 4.7"
+        }
+      ],
+      "note": "The release notes say 500k. Requests above 200K prompt tokens are billed at a higher rate."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI; the announcement says only that Grok 4.7 uses a new, larger base model than Grok 4.6."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-7-announcement",
+          "locator": "Pricing and availability"
+        },
+        {
+          "id": "src.xai.grok-4-7-overview",
+          "locator": "Where it runs"
+        },
+        {
+          "id": "src.xai.google-cloud-vertex-ai-guide",
+          "locator": "Enable Grok models in Model Garden (model id xai/grok-4.7)"
+        }
+      ],
+      "note": "Also offered in Cursor and in xAI's Grok Build coding agent, where it is the default model. The model card says xAI plans to add Grok 4.7 to its consumer apps and to X at a later date; consumer-app is left out."
+    }
+  },
+  "notes": "Grok 4.7 Fast is documented as the same model on faster infrastructure at twice the standard token rates (1.5x for long-context requests), only in Cursor and Grok Build and not on the public xAI API; kept as an alias, not a variant. The model card says SpaceXAI is the developer and provider of Grok 4.7 and that it received supplemental training on anonymized Cursor workflow data. Knowledge cutoff: May 2026 per the docs; the model card gives a pretraining data cutoff of June 2026. When checked on 2026-10-02 the grok.com page code listed Grok 4.7 behind the Expert and Heavy modes of the model picker, but no dated xAI statement of a consumer launch was found, so consumer-app is not recorded; recheck."
+}

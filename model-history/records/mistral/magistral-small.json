@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.magistral-small",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "magistral-small",
+  "name": "Magistral Small",
+  "aliases": [
+    {
+      "text": "Magistral Small 1.0",
+      "match": "auto"
+    },
+    {
+      "text": "magistral-small-2506",
+      "match": "auto"
+    },
+    {
+      "text": "Magistral-Small-2506",
+      "match": "auto"
+    },
+    {
+      "text": "Magistral Small",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.magistral",
+  "generation": "1.0",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-magistral-small-2506"
+      },
+      {
+        "id": "src.mistral.magistral-announcement",
+        "locator": "Availability"
+      }
+    ],
+    "note": "Apache 2.0 weights are still downloadable from Mistral AI's Hugging Face organisation; the API model magistral-small-2506 was retired on 2025-11-30. The Legal Center lifecycle table lists the model as Retired."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-small-4",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Magistral Small 1.0, Alternative"
+      },
+      {
+        "id": "src.mistral.magistral-small-1-0-docs",
+        "locator": "Replacement"
+      }
+    ],
+    "note": "Replacement named for the API model when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-06-10",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-announcement",
+          "locator": "page date; Availability"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "June 10, 2025"
+        },
+        {
+          "id": "src.mistral.magistral-small-1-0-docs",
+          "locator": "release date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-10-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Magistral Small 1.0 (magistral-small-2506)"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Magistral Small 1.0 (magistral-small-2506)"
+        },
+        {
+          "id": "src.mistral.magistral-small-1-0-docs",
+          "locator": "Retirement date"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2025-10-31",
+          "sources": [
+            {
+              "id": "src.mistral.legal-magistral-small-1",
+              "locator": "Model Lifecycle table, Retirement Date"
+            }
+          ],
+          "note": "The Mistral Legal Center lifecycle table gives October 31, 2025 as retirement date, the date the docs models overview lists as deprecation date."
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "variant-of",
+      "target": "mistral.magistral-medium",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-announcement",
+          "locator": "Highlights"
+        }
+      ],
+      "note": null
+    },
+    {
+      "type": "derived-from",
+      "target": "mistral.mistral-small-3-1",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.hf-magistral-small-2506",
+          "locator": "first paragraph and base_model metadata"
+        },
+        {
+          "id": "src.mistral.magistral-paper",
+          "locator": "section Magistral Small: RL on top of reasoning SFT bootstrapping"
+        }
+      ],
+      "note": "Supervised fine-tuning on reasoning traces from Magistral Medium, followed by reinforcement learning. The model card names Mistral Small 3.1 (2503) as the base; the paper refers to it as Mistral Small 3 (24B)."
+    }
+  ],
+  "summary": {
+    "text": "Magistral Small is the 24B-parameter open-weights variant of Magistral, which Mistral AI calls its first reasoning model, released under Apache 2.0 and also offered as an API model. Its model card says it builds on Mistral Small 3.1, with supervised fine-tuning on Magistral Medium reasoning traces followed by reinforcement learning.",
+    "sources": [
+      {
+        "id": "src.mistral.magistral-announcement"
+      },
+      {
+        "id": "src.mistral.hf-magistral-small-2506"
+      },
+      {
+        "id": "src.mistral.changelog",
+        "locator": "June 10, 2025"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "reasoning",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "mistral.mistral-small-3-1",
+      "text": "Adds long reasoning chains before the answer, through fine-tuning on Magistral Medium traces and reinforcement learning on top of Mistral Small 3.1.",
+      "sources": [
+        {
+          "id": "src.mistral.hf-magistral-small-2506"
+        },
+        {
+          "id": "src.mistral.magistral-paper"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-small-1-0-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-small-1-0-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 40000,
+      "asStated": "40k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-small-1-0-docs",
+          "locator": "Context"
+        }
+      ],
+      "note": "The Hugging Face card states a 128k window but says performance may degrade past 40k and recommends a 40k maximum."
+    },
+    "parameters": {
+      "value": 24000000000,
+      "asStated": "24B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-announcement",
+          "locator": "Highlights"
+        },
+        {
+          "id": "src.mistral.hf-magistral-small-2506",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.magistral-small-1-0-docs",
+          "locator": "Weights table, Parameters (B)"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-announcement",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.mistral.hf-magistral-small-2506"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-announcement",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "June 10, 2025"
+        },
+        {
+          "id": "src.mistral.magistral-small-1-0-docs",
+          "locator": "API id magistral-small-2506"
+        }
+      ]
+    }
+  },
+  "notes": "Named Magistral Small at release; the docs and the Hugging Face card now call it Magistral Small 1.0 (version 25.06). Lifecycle reflects the open weights; the API dates come from the models overview."
+}

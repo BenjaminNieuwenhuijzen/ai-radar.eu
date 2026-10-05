@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-1",
+  "name": "GPT",
+  "aliases": [
+    {
+      "text": "GPT-1",
+      "match": "candidate"
+    },
+    {
+      "text": "OpenAI GPT",
+      "match": "candidate"
+    },
+    {
+      "text": "GPT",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": null,
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.finetune-transformer-lm-repo",
+        "locator": "model folder"
+      }
+    ],
+    "note": "Archived repository; the pretrained weights (params_0.npy to params_9.npy) remain downloadable from OpenAI on GitHub."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2018-06-11",
+      "sources": [
+        {
+          "id": "src.openai.language-unsupervised-announcement",
+          "locator": "page date; first paragraph and Drawbacks"
+        },
+        {
+          "id": "src.openai.finetune-transformer-lm-repo"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "GPT is a transformer language model from OpenAI, published in June 2018 with a paper and released with its code and pretrained weights under the MIT licence. It was pre-trained without supervision on BooksCorpus and then fine-tuned on smaller supervised datasets for specific tasks; OpenAI released it so others could skip the costly pre-training step.",
+    "sources": [
+      {
+        "id": "src.openai.language-unsupervised-announcement"
+      },
+      {
+        "id": "src.openai.gpt-1-paper"
+      },
+      {
+        "id": "src.openai.finetune-transformer-lm-repo"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-1-paper",
+          "locator": "section 3 Framework"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-1-paper",
+          "locator": "section 3 Framework"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.language-unsupervised-announcement",
+          "locator": "Drawbacks, Compute Requirements"
+        },
+        {
+          "id": "src.openai.finetune-transformer-lm-repo",
+          "locator": "model folder"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 512,
+      "asStated": "512 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-1-paper",
+          "locator": "section 4.1 Setup, Model specifications"
+        },
+        {
+          "id": "src.openai.language-unsupervised-announcement",
+          "locator": "Drawbacks, Compute Requirements"
+        }
+      ],
+      "note": "Training sequence length: the paper trains on contiguous sequences of 512 tokens, the post says sequences of up to 512 tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "OpenAI describes the architecture (12-layer decoder-only transformer, 768-dimensional states, 12 attention heads) but gives no parameter count in the GPT materials. The GPT-2 paper calls its 117M model equivalent to the original GPT, and the GPT-2 repository later said that count was wrong, so no figure is recorded."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.finetune-transformer-lm-repo",
+          "locator": "model folder"
+        }
+      ]
+    }
+  },
+  "notes": "The June 2018 post and paper do not give the model a name; OpenAI later calls it GPT and the original GPT (GPT-2 announcement and paper), so GPT is used as the name. The slug is gpt-1 because gpt is the family id. Training compute and data (BooksCorpus, over 7,000 unpublished books) are described in the post and paper."
+}

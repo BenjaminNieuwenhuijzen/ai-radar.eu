@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "huggingface.zephyr-7b-beta",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "zephyr-7b-beta",
+  "name": "Zephyr 7B β",
+  "aliases": [
+    {
+      "text": "Zephyr 7B β",
+      "match": "auto"
+    },
+    {
+      "text": "Zephyr-7B-β",
+      "match": "auto"
+    },
+    {
+      "text": "Zephyr 7B Beta",
+      "match": "auto"
+    },
+    {
+      "text": "zephyr-7b-beta",
+      "match": "auto"
+    },
+    {
+      "text": "Zephyr-7B",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "huggingface",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "huggingface.zephyr",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.huggingface.zephyr-7b-beta-model-card",
+        "locator": "Hub repository HuggingFaceH4/zephyr-7b-beta, Files and versions"
+      }
+    ],
+    "note": "Weights are downloadable from the HuggingFaceH4 organisation on the Hub. Hugging Face publishes no deprecation page for its models."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-10",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-technical-report",
+          "locator": "arXiv submission history, v1 of 2023-10-25"
+        },
+        {
+          "id": "src.huggingface.zephyr-7b-beta-model-card",
+          "locator": "Hub commit history: repository created 2023-10-26"
+        }
+      ],
+      "note": "The technical report was submitted on 2023-10-25 and the public model repository was created on 2023-10-26; no announcement giving a single release day was found, so only the month is recorded."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "huggingface.zephyr-7b-alpha",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-beta-model-card",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": null
+    },
+    {
+      "type": "derived-from",
+      "target": "mistral.mistral-7b",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-beta-model-card"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Zephyr 7B β is the second model in Hugging Face's Zephyr series, a 7B chat assistant fine-tuned from Mistral 7B v0.1 and published as open weights under the MIT licence. Its technical report describes distilled supervised fine-tuning followed by distilled preference optimization on AI feedback, without human annotation; the training code followed in the Alignment Handbook.",
+    "sources": [
+      {
+        "id": "src.huggingface.zephyr-7b-beta-model-card"
+      },
+      {
+        "id": "src.huggingface.zephyr-technical-report"
+      },
+      {
+        "id": "src.huggingface.alignment-handbook",
+        "locator": "README, News: November 10, 2023"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "huggingface.zephyr-7b-alpha",
+      "text": "Trained on a filtered and preprocessed version of UltraChat and a binarized version of UltraFeedback, whose completions were scored by GPT-4.",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-beta-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-beta-model-card",
+          "locator": "first paragraph; Model description"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-beta-model-card",
+          "locator": "first paragraph; Model description"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 7000000000,
+      "asStated": "7B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-beta-model-card",
+          "locator": "Model description, Model type"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-beta-model-card",
+          "locator": "Model description, License"
+        }
+      ],
+      "note": "MIT licence."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-beta-model-card",
+          "locator": "Intended uses and limitations"
+        }
+      ]
+    }
+  },
+  "notes": "Second model of the Zephyr series according to its model card. Fine-tuned from Mistral AI's Mistral 7B v0.1; that cross-organisation relation is not recorded here. The technical report calls it Zephyr-7B, which is why that short form is only a candidate alias."
+}

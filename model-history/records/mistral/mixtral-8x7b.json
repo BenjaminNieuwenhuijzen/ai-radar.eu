@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mixtral-8x7b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mixtral-8x7b",
+  "name": "Mixtral 8x7B",
+  "aliases": [
+    {
+      "text": "Mixtral 8x7B",
+      "match": "auto"
+    },
+    {
+      "text": "Mixtral 8x7B Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "open-mixtral-8x7b",
+      "match": "auto"
+    },
+    {
+      "text": "mistral-small-2312",
+      "match": "auto"
+    },
+    {
+      "text": "Mixtral-8x7B-v0.1",
+      "match": "auto"
+    },
+    {
+      "text": "Mixtral-8x7B-Instruct-v0.1",
+      "match": "auto"
+    },
+    {
+      "text": "Mixtral",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mixtral",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mixtral-8x7b-v0-1"
+      },
+      {
+        "id": "src.mistral.hf-mixtral-8x7b-instruct-v0-1"
+      },
+      {
+        "id": "src.mistral.mixtral-8x7b-docs",
+        "locator": "Weights table"
+      }
+    ],
+    "note": "The Apache 2.0 base and instruct weights are still downloadable from Mistral AI's Hugging Face organisation. On Mistral's own platform the model is retired (models overview, Deprecated table; legal centre)."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-small-4",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mixtral 8x7B 0.1, Alternative"
+      },
+      {
+        "id": "src.mistral.mixtral-8x7b-docs",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-12-11",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-of-experts-announcement",
+          "locator": "page date"
+        },
+        {
+          "id": "src.mistral.mixtral-8x7b-docs",
+          "locator": "page header"
+        },
+        {
+          "id": "src.mistral.legal-mixtral-8x7b",
+          "locator": "Model Lifecycle: Mixtral 8x7B Base, Mixtral 8x7B Instruct"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2023-12-08",
+          "sources": [
+            {
+              "id": "src.mistral.x-mixtral-8x7b-magnet"
+            }
+          ],
+          "note": "The base weights were first shared through a magnet link that Mistral AI posted on X (post timestamp 2023-12-08T15:44Z); the announcement, the instruct model and API access followed on 2023-12-11."
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2024-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mixtral 8x7B 0.1 (open-mixtral-8x7b)"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-03-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mixtral 8x7B 0.1 (open-mixtral-8x7b)"
+        },
+        {
+          "id": "src.mistral.mixtral-8x7b-docs",
+          "locator": "Retirement date"
+        },
+        {
+          "id": "src.mistral.legal-mixtral-8x7b",
+          "locator": "Model Lifecycle: Mixtral 8x7B Base, Mixtral 8x7B Instruct"
+        }
+      ],
+      "note": "Retirement on Mistral's platform; the open weights remain downloadable."
+    }
+  },
+  "summary": {
+    "text": "Mixtral 8x7B is a sparse mixture-of-experts language model from Mistral AI with 46.7B parameters, 12.9B of them used per token, released on 11 December 2023 with open weights under Apache 2.0 and an instruct version. It was also served through the mistral-small API endpoint, later renamed open-mixtral-8x7b.",
+    "sources": [
+      {
+        "id": "src.mistral.mixtral-of-experts-announcement"
+      },
+      {
+        "id": "src.mistral.changelog",
+        "locator": "February 26, 2024"
+      },
+      {
+        "id": "src.mistral.hf-mixtral-8x7b-v0-1"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "experts",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-7b",
+      "text": "Same architecture as Mistral 7B except that each layer has eight feedforward experts, of which a router uses two per token.",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-of-experts-paper",
+          "locator": "Abstract"
+        },
+        {
+          "id": "src.mistral.mixtral-of-experts-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x7b-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x7b-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mixtral-of-experts-announcement",
+            "locator": "capabilities list"
+          }
+        ],
+        "note": "English, French, Italian, German and Spanish."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 32000,
+      "asStated": "32k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-of-experts-announcement",
+          "locator": "capabilities list"
+        },
+        {
+          "id": "src.mistral.mixtral-8x7b-docs",
+          "locator": "Context; Weights table"
+        },
+        {
+          "id": "src.mistral.mixtral-of-experts-paper",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 46700000000,
+      "asStated": "46.7B total, 12.9B per token",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-of-experts-announcement",
+          "locator": "Pushing the frontier of open models with sparse architectures"
+        },
+        {
+          "id": "src.mistral.mixtral-of-experts-paper",
+          "locator": "Abstract"
+        },
+        {
+          "id": "src.mistral.mixtral-8x7b-docs",
+          "locator": "Weights table"
+        }
+      ],
+      "note": "Sparse mixture of experts; the paper and the docs weights table round to 47B total and 13B active parameters."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-of-experts-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.mistral.hf-mixtral-8x7b-v0-1"
+        },
+        {
+          "id": "src.mistral.hf-mixtral-8x7b-instruct-v0-1"
+        }
+      ],
+      "note": "Apache 2.0."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-of-experts-announcement",
+          "locator": "Use Mixtral on our platform"
+        },
+        {
+          "id": "src.mistral.la-plateforme-announcement",
+          "locator": "Generative endpoints, Mistral-small"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "February 26, 2024"
+        }
+      ]
+    }
+  },
+  "notes": "Released with an instruct version, Mixtral 8x7B Instruct (supervised fine-tuning and direct preference optimisation). At launch Mistral served it behind the mistral-small endpoint of la Plateforme (beta); on 2024-02-26 the changelog renames that endpoint open-mixtral-8x7b (aka mistral-small-2312). The paper (arXiv 2401.04088) says it has the same architecture as Mistral 7B except that each layer has 8 feedforward experts; that describes the architecture, not a derivation, so no derived-from relation is recorded. The docs page links https://legal.mistral.ai/ai-governance/models/mixtral-8-7b, which returns 404."
+}

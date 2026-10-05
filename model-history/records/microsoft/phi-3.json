@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.phi-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "phi-3",
+  "name": "Phi-3",
+  "aliases": [
+    {
+      "text": "Phi-3",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.phi",
+  "generation": "3",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-3-mini-4k-instruct-model-card"
+      },
+      {
+        "id": "src.microsoft.phi-3-small-8k-instruct-model-card"
+      },
+      {
+        "id": "src.microsoft.phi-3-medium-4k-instruct-model-card"
+      }
+    ],
+    "note": "Weights of all three sizes are still downloadable from Microsoft's Hugging Face organisation (checked 2026-10-01). Retired from Microsoft Foundry on 2025-08-30 (see milestones)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-04-23",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-announcement",
+          "locator": "page date; Starting today, Phi-3-mini"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "foundry-retirement",
+      "label": "Retired from Microsoft Foundry",
+      "date": {
+        "value": "2025-08-30",
+        "sources": [
+          {
+            "id": "src.microsoft.foundry-retired-models",
+            "locator": "Microsoft table"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "microsoft.phi-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-technical-report",
+          "locator": "abstract; Introduction"
+        }
+      ],
+      "note": "The technical report calls phi-2 its previous model and says the Phi-3 training data is a scaled-up version of the phi-2 data."
+    }
+  ],
+  "summary": {
+    "text": "Phi-3 is a family of instruction-tuned small language models from Microsoft in three sizes: Phi-3-mini (3.8 billion parameters), released on 23 April 2024, and Phi-3-small (7 billion) and Phi-3-medium (14 billion), released at Microsoft Build on 21 May 2024. Each size offers up to 128K tokens of context; weights are on Hugging Face, and mini and medium were also hosted in Azure.",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-3-announcement"
+      },
+      {
+        "id": "src.microsoft.phi-3-build-2024"
+      },
+      {
+        "id": "src.microsoft.phi-3-mini-4k-instruct-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "sizes",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "microsoft.phi-2",
+      "text": "Offered in three sizes, 3.8 billion (mini), 7 billion (small) and 14 billion (medium) parameters, against 2.7 billion for Phi-2.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-build-2024"
+        },
+        {
+          "id": "src.microsoft.phi-2-model-card"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "microsoft.phi-2",
+      "text": "Context window of up to 128K tokens, compared with 2,048 tokens for Phi-2; each size also has a short-context version.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-announcement"
+        },
+        {
+          "id": "src.microsoft.phi-3-build-2024"
+        },
+        {
+          "id": "src.microsoft.phi-2-model-card"
+        }
+      ]
+    },
+    {
+      "id": "instruction-tuned",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "microsoft.phi-2",
+      "text": "Released as instruction-tuned models, post-trained with supervised fine-tuning and direct preference optimization; Phi-2 was a base model.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-mini-4k-instruct-model-card"
+        },
+        {
+          "id": "src.microsoft.phi-2-blog"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "microsoft.phi-2",
+      "text": "Trained on a scaled-up version of the phi-2 data, made of heavily filtered public web data and synthetic data; phi-3-mini saw 3.3 trillion tokens.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-technical-report"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-mini-4k-instruct-model-card",
+          "locator": "Model, Inputs"
+        },
+        {
+          "id": "src.microsoft.phi-3-small-8k-instruct-model-card",
+          "locator": "Model, Inputs"
+        },
+        {
+          "id": "src.microsoft.phi-3-medium-4k-instruct-model-card",
+          "locator": "Model, Inputs"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-mini-4k-instruct-model-card",
+          "locator": "Model, Outputs"
+        },
+        {
+          "id": "src.microsoft.phi-3-small-8k-instruct-model-card",
+          "locator": "Model, Outputs"
+        },
+        {
+          "id": "src.microsoft.phi-3-medium-4k-instruct-model-card",
+          "locator": "Model, Outputs"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-announcement"
+        },
+        {
+          "id": "src.microsoft.phi-3-build-2024",
+          "locator": "The Phi-3 family"
+        }
+      ],
+      "note": "Maximum for every size; each size also has a short-context version (4K for mini and medium, 8K for small)."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-mini-4k-instruct-model-card",
+          "locator": "License"
+        },
+        {
+          "id": "src.microsoft.phi-3-small-8k-instruct-model-card",
+          "locator": "License"
+        },
+        {
+          "id": "src.microsoft.phi-3-medium-4k-instruct-model-card",
+          "locator": "License"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-announcement"
+        },
+        {
+          "id": "src.microsoft.phi-3-build-2024",
+          "locator": "Azure AI's models as a service offering"
+        }
+      ],
+      "note": "At Build 2024 Phi-3-mini and Phi-3-medium were offered through Azure AI models as a service."
+    }
+  },
+  "variants": [
+    {
+      "id": "mini",
+      "name": "Phi-3-mini",
+      "aliases": [
+        {
+          "text": "Phi-3-mini",
+          "match": "auto"
+        },
+        {
+          "text": "Phi-3-mini-4k-instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Phi-3-mini-128k-instruct",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2024-04-23",
+          "sources": [
+            {
+              "id": "src.microsoft.phi-3-announcement",
+              "locator": "Starting today, Phi-3-mini"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 3800000000,
+          "asStated": "3.8B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.microsoft.phi-3-announcement"
+            },
+            {
+              "id": "src.microsoft.phi-3-mini-4k-instruct-model-card",
+              "locator": "Model Summary"
+            }
+          ]
+        }
+      },
+      "note": "Offered in 4K and 128K context-length versions. Microsoft published a same-name update of the Phi-3-mini weights in June 2024 (model card release notes); it is not a separate record.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-announcement"
+        },
+        {
+          "id": "src.microsoft.phi-3-mini-4k-instruct-model-card"
+        }
+      ]
+    },
+    {
+      "id": "small",
+      "name": "Phi-3-small",
+      "aliases": [
+        {
+          "text": "Phi-3-small",
+          "match": "auto"
+        },
+        {
+          "text": "Phi-3-small-8k-instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Phi-3-small-128k-instruct",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "announced": {
+          "value": "2024-04-23",
+          "sources": [
+            {
+              "id": "src.microsoft.phi-3-announcement",
+              "locator": "In the coming weeks"
+            }
+          ]
+        },
+        "released": {
+          "value": "2024-05-21",
+          "sources": [
+            {
+              "id": "src.microsoft.phi-3-build-2024"
+            },
+            {
+              "id": "src.microsoft.phi-3-small-8k-instruct-model-card",
+              "locator": "Release dates"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 7000000000,
+          "asStated": "7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.microsoft.phi-3-build-2024",
+              "locator": "The Phi-3 family"
+            },
+            {
+              "id": "src.microsoft.phi-3-small-8k-instruct-model-card",
+              "locator": "Model Summary"
+            }
+          ]
+        }
+      },
+      "note": "Offered in 8K and 128K context-length versions.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-build-2024"
+        },
+        {
+          "id": "src.microsoft.phi-3-small-8k-instruct-model-card"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "name": "Phi-3-medium",
+      "aliases": [
+        {
+          "text": "Phi-3-medium",
+          "match": "auto"
+        },
+        {
+          "text": "Phi-3-medium-4k-instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Phi-3-medium-128k-instruct",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "announced": {
+          "value": "2024-04-23",
+          "sources": [
+            {
+              "id": "src.microsoft.phi-3-announcement",
+              "locator": "In the coming weeks"
+            }
+          ]
+        },
+        "released": {
+          "value": "2024-05-21",
+          "sources": [
+            {
+              "id": "src.microsoft.phi-3-build-2024"
+            },
+            {
+              "id": "src.microsoft.phi-3-medium-4k-instruct-model-card",
+              "locator": "Release dates"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 14000000000,
+          "asStated": "14B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.microsoft.phi-3-build-2024",
+              "locator": "The Phi-3 family"
+            },
+            {
+              "id": "src.microsoft.phi-3-medium-4k-instruct-model-card",
+              "locator": "Model Summary"
+            }
+          ]
+        }
+      },
+      "note": "Offered in 4K and 128K context-length versions.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-build-2024"
+        },
+        {
+          "id": "src.microsoft.phi-3-medium-4k-instruct-model-card"
+        }
+      ]
+    }
+  ],
+  "notes": "One record for the Phi-3 release with inline size variants (mini, small, medium). Phi-3-mini became available on 2024-04-23 (Azure AI Studio, Hugging Face, Ollama, NVIDIA NIM); Phi-3-small and Phi-3-medium were announced the same day and released at Microsoft Build on 2024-05-21. The technical report v1 was submitted to arXiv on 2024-04-22, one day before the Azure blog. The mini card now describes a June 2024 update (Release dates: June, 2024), treated as an alias-level update, not a new record. Phi-3-vision is a separate record. All three sizes appear on the Retired Microsoft Foundry Models page (retired 2025-08-30); the weights remain on Hugging Face under the MIT license, so lifecycle is available. Microsoft reported benchmark results."
+}

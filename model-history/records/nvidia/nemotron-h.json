@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.nemotron-h",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nemotron-h",
+  "name": "Nemotron-H",
+  "aliases": [
+    {
+      "text": "Nemotron-H",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron",
+  "generation": null,
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-h-8b-base-8k-model-card",
+        "locator": "model card and files"
+      },
+      {
+        "id": "src.nvidia.nemotron-h-research-page",
+        "locator": "Model Release and Technical Report"
+      }
+    ],
+    "note": "Weights still downloadable from NVIDIA's Hugging Face organisation under the NVIDIA Internal Scientific Research and Development Model License, which limits use to research and development."
+  },
+  "dates": {
+    "announced": {
+      "value": "2025-03-21",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-research-page",
+          "locator": "Published date"
+        }
+      ],
+      "note": "The research page announced the family and said the models would be released; the checkpoints followed in April 2025.",
+      "alternatives": [
+        {
+          "value": "2025-03-20",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-research-page",
+              "locator": "Internet Archive capture of 2025-03-22, Published date"
+            }
+          ],
+          "note": "The earliest archived copy of the research page (captured 2025-03-22) shows Published: March 20, 2025; captures from April 2025 onward and the live page show March 21, 2025."
+        }
+      ]
+    },
+    "released": {
+      "value": "2025-04-14",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-8b-base-8k-model-card",
+          "locator": "Release Date"
+        },
+        {
+          "id": "src.nvidia.nemotron-h-56b-base-8k-model-card",
+          "locator": "Release Date"
+        },
+        {
+          "id": "src.nvidia.nemotron-h-research-page",
+          "locator": "Model Release and Technical Report; Internet Archive captures of 2025-04-14 and 2025-04-15"
+        }
+      ],
+      "note": "The 8B and 56B base cards give 4/14/2025 and the 47B base card gives 4/12/2025. Archived copies of the research page still said NVIDIA will be releasing the models on 2025-04-14 and said the base models had been released on 2025-04-15."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Nemotron-H is an NVIDIA series of hybrid Mamba-Transformer language models that replace most self-attention layers with Mamba-2 layers to lower inference cost. The 8B, 47B and 56B base checkpoints were released in April 2025 as weights for research and development use, followed in June by 8B and 47B reasoning checkpoints with a 128K context.",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-h-research-page"
+      },
+      {
+        "id": "src.nvidia.nemotron-h-8b-base-8k-model-card"
+      },
+      {
+        "id": "src.nvidia.nemotron-h-56b-base-8k-model-card"
+      },
+      {
+        "id": "src.nvidia.nemotron-h-8b-reasoning-128k-model-card"
+      },
+      {
+        "id": "src.nvidia.nemotron-h-47b-reasoning-128k-model-card"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-8b-base-8k-model-card",
+          "locator": "Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-8b-base-8k-model-card",
+          "locator": "Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-h-8b-base-8k-model-card",
+            "locator": "Model Overview"
+          }
+        ],
+        "note": "Ten languages listed: English, German, Spanish, French, Italian, Korean, Portuguese, Russian, Japanese and Chinese."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-research-page",
+          "locator": "Model Release and Technical Report"
+        },
+        {
+          "id": "src.nvidia.nemotron-h-8b-base-8k-model-card",
+          "locator": "License/Terms of Use"
+        },
+        {
+          "id": "src.nvidia.nemotron-h-technical-report",
+          "locator": "abstract"
+        }
+      ],
+      "note": "Released under the NVIDIA Internal Scientific Research and Development Model License (research and development use)."
+    },
+    "contextWindowTokens": {
+      "value": 8000,
+      "asStated": "8K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-8b-base-8k-model-card",
+          "locator": "Model Overview; Input"
+        },
+        {
+          "id": "src.nvidia.nemotron-h-56b-base-8k-model-card",
+          "locator": "Model Overview; Input"
+        }
+      ],
+      "note": "Applies to the base checkpoints; the reasoning and instruct checkpoints state 128K."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-research-page",
+          "locator": "Model Release and Technical Report"
+        }
+      ],
+      "note": "Checkpoints in Hugging Face and NeMo formats on Hugging Face and NGC."
+    }
+  },
+  "variants": [
+    {
+      "id": "8b-base-8k",
+      "name": "Nemotron-H-8B-Base-8K",
+      "aliases": [
+        {
+          "text": "Nemotron-H-8B-Base-8K",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/Nemotron-H-8B-Base-8K",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-H-8B-Base",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-04-14",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-8b-base-8k-model-card",
+              "locator": "Release Date"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 8000000000,
+          "asStated": "8B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-8b-base-8k-model-card",
+              "locator": "Model Architecture"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-8b-base-8k-model-card"
+        }
+      ]
+    },
+    {
+      "id": "47b-base-8k",
+      "name": "Nemotron-H-47B-Base-8K",
+      "aliases": [
+        {
+          "text": "Nemotron-H-47B-Base-8K",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/Nemotron-H-47B-Base-8K",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-H-47B-Base",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-04-12",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-47b-base-8k-model-card",
+              "locator": "Release Date"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 47000000000,
+          "asStated": "47B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-47b-base-8k-model-card",
+              "locator": "Model Architecture"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-47b-base-8k-model-card",
+          "locator": "Model Overview"
+        },
+        {
+          "id": "src.nvidia.nemotron-h-research-page",
+          "locator": "miniPuzzle compression section"
+        }
+      ],
+      "note": "Pruned and distilled from Nemotron-H-56B-Base-8K with the MiniPuzzle method, using 63B tokens."
+    },
+    {
+      "id": "56b-base-8k",
+      "name": "Nemotron-H-56B-Base-8K",
+      "aliases": [
+        {
+          "text": "Nemotron-H-56B-Base-8K",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/Nemotron-H-56B-Base-8K",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-H-56B-Base",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-04-14",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-56b-base-8k-model-card",
+              "locator": "Release Date"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 56000000000,
+          "asStated": "56B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-56b-base-8k-model-card",
+              "locator": "Model Architecture"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-56b-base-8k-model-card"
+        }
+      ]
+    },
+    {
+      "id": "8b-reasoning-128k",
+      "name": "Nemotron-H-8B-Reasoning-128K",
+      "aliases": [
+        {
+          "text": "Nemotron-H-8B-Reasoning-128K",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/Nemotron-H-8B-Reasoning-128K",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-H-8B-Reasoning-128K-FP8",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-06-06",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-8b-reasoning-128k-model-card",
+              "locator": "Release Date"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "features": [
+          {
+            "key": "reasoning-mode",
+            "disclosure": "official",
+            "sources": [
+              {
+                "id": "src.nvidia.nemotron-h-8b-reasoning-128k-model-card",
+                "locator": "Model Overview"
+              }
+            ],
+            "note": "Reasoning traces can be switched on or off through the system prompt."
+          }
+        ],
+        "contextWindowTokens": {
+          "value": 128000,
+          "asStated": "128K",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-8b-reasoning-128k-model-card",
+              "locator": "Input"
+            }
+          ]
+        },
+        "parameters": {
+          "value": 8000000000,
+          "asStated": "8B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-8b-reasoning-128k-model-card",
+              "locator": "Model Architecture"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-8b-reasoning-128k-model-card",
+          "locator": "Model Overview"
+        }
+      ],
+      "note": "Post-trained reasoning model based on Nemotron-H-8B-Base-8K; BF16 checkpoint, with an FP8 checkpoint in a separate repository."
+    },
+    {
+      "id": "47b-reasoning-128k",
+      "name": "Nemotron-H-47B-Reasoning-128K",
+      "aliases": [
+        {
+          "text": "Nemotron-H-47B-Reasoning-128K",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/Nemotron-H-47B-Reasoning-128K",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-H-47B-Reasoning-128K-FP8",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-06-06",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-47b-reasoning-128k-model-card",
+              "locator": "Release Date"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "features": [
+          {
+            "key": "reasoning-mode",
+            "disclosure": "official",
+            "sources": [
+              {
+                "id": "src.nvidia.nemotron-h-47b-reasoning-128k-model-card",
+                "locator": "Model Overview"
+              }
+            ],
+            "note": "Reasoning traces can be switched on or off through the system prompt."
+          }
+        ],
+        "contextWindowTokens": {
+          "value": 128000,
+          "asStated": "128K",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-47b-reasoning-128k-model-card",
+              "locator": "Input"
+            }
+          ]
+        },
+        "parameters": {
+          "value": 47000000000,
+          "asStated": "47B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-47b-reasoning-128k-model-card",
+              "locator": "Model Architecture"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-47b-reasoning-128k-model-card",
+          "locator": "Model Overview"
+        }
+      ],
+      "note": "Post-trained reasoning model based on Nemotron-H-47B-Base-8K; BF16 checkpoint, with an FP8 checkpoint in a separate repository."
+    },
+    {
+      "id": "4b-base-8k",
+      "name": "Nemotron-H-4B-Base-8K",
+      "aliases": [
+        {
+          "text": "Nemotron-H-4B-Base-8K",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/Nemotron-H-4B-Base-8K",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-10-23",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-4b-base-8k-model-card",
+              "locator": "Release Date"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 4000000000,
+          "asStated": "4B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-4b-base-8k-model-card",
+              "locator": "Model Architecture"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-4b-base-8k-model-card",
+          "locator": "Model Overview"
+        }
+      ],
+      "note": "Pruned and distilled from Nemotron-H-8B-Base-8K using 380B tokens. The card gives the Hugging Face release as 10/23/2025, although Hugging Face metadata shows the repository was created on 2025-03-20."
+    },
+    {
+      "id": "4b-instruct-128k",
+      "name": "Nemotron-H-4B-Instruct-128K",
+      "aliases": [
+        {
+          "text": "Nemotron-H-4B-Instruct-128K",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/Nemotron-H-4B-Instruct-128K",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-10-23",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-4b-instruct-128k-model-card",
+              "locator": "Release Date"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "features": [
+          {
+            "key": "tool-use",
+            "disclosure": "official",
+            "sources": [
+              {
+                "id": "src.nvidia.nemotron-h-4b-instruct-128k-model-card",
+                "locator": "Model Overview"
+              }
+            ]
+          }
+        ],
+        "contextWindowTokens": {
+          "value": 128000,
+          "asStated": "128K",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-4b-instruct-128k-model-card",
+              "locator": "Input"
+            }
+          ]
+        },
+        "parameters": {
+          "value": 4000000000,
+          "asStated": "4B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-h-4b-instruct-128k-model-card",
+              "locator": "Model Architecture"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-h-4b-instruct-128k-model-card",
+          "locator": "Model Overview"
+        }
+      ],
+      "note": "Aligned version of Nemotron-H-4B-Base-8K for chat, instruction following and tool calling. The card gives the Hugging Face release as 10/23/2025, although Hugging Face metadata shows the repository was created on 2025-04-15."
+    }
+  ],
+  "notes": "Hybrid Mamba-Transformer series; parameter counts are recorded per variant. The research page also describes Nemotron-H-8B-Instruct, Nemotron-H-8B-VLM and Nemotron-H-56B-VLM, which were not found as public NVIDIA Hugging Face repositories on 2026-10-02 and are not recorded as variants; it says Nemotron-H-56B served as the backbone of Cosmos-Reason 1 (not in scope). The 4B checkpoints come from the Minitron-SSM compression work (arXiv 2504.11409) and their cards give a Hugging Face release of 10/23/2025. Categories stay language only: the reasoning mode belongs to two later variants, recorded as variant features. Repository creation dates from Hugging Face metadata: 8B base 2025-03-19, 4B base 2025-03-20, 47B and 56B base 2025-04-08, 4B instruct 2025-04-15, 47B reasoning 2025-05-22, 8B reasoning 2025-06-05."
+}

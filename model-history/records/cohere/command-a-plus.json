@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.command-a-plus",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "command-a-plus",
+  "name": "Command A+",
+  "aliases": [
+    {
+      "text": "Command A+",
+      "match": "auto"
+    },
+    {
+      "text": "command-a-plus-05-2026",
+      "match": "auto"
+    },
+    {
+      "text": "Command A Plus",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.command-a-family",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Command table: command-a-plus-05-2026, Status Live"
+      },
+      {
+        "id": "src.cohere.command-a-plus-hf"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-05-20",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-plus-blog",
+          "locator": "page date"
+        },
+        {
+          "id": "src.cohere.command-a-plus-changelog",
+          "locator": "entry date; Availability"
+        },
+        {
+          "id": "src.cohere.command-a-plus-docs",
+          "locator": "General: Release Date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "cohere.command-a",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-plus-blog",
+          "locator": "opening paragraphs"
+        },
+        {
+          "id": "src.cohere.command-a-plus-changelog",
+          "locator": "opening paragraph"
+        }
+      ],
+      "note": "Editorial link: Cohere calls Command A+ the last model in the Command A family and says it unifies the capabilities of the earlier Command models in one model. It is a new mixture-of-experts model, not a fine-tune of Command A."
+    }
+  ],
+  "summary": {
+    "text": "Command A+ is Cohere's first mixture-of-experts model, with 218B total and 25B active parameters, released on 20 May 2026 as open weights under Apache 2.0 and through the Cohere API. Cohere calls it the last model in the Command A family and says it combines image input, reasoning, translation and agentic capabilities in one model covering 48 languages.",
+    "sources": [
+      {
+        "id": "src.cohere.command-a-plus-docs"
+      },
+      {
+        "id": "src.cohere.command-a-plus-changelog"
+      },
+      {
+        "id": "src.cohere.command-a-plus-blog"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "mixture-of-experts",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "cohere.command-a-reasoning",
+      "text": "Sparse mixture-of-experts design with 218B total and 25B active parameters, where Command A Reasoning is a dense 111B model.",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-plus-blog"
+        },
+        {
+          "id": "src.cohere.command-a-plus-docs",
+          "locator": "Model Properties: Model Size"
+        }
+      ]
+    },
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "cohere.command-a",
+      "text": "Adds image input to a general Command A model; Command A accepts text only.",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Modality"
+        },
+        {
+          "id": "src.cohere.command-a-plus-docs",
+          "locator": "Model Properties: Input modalities"
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "aspect": "languages",
+      "direction": "increased",
+      "relativeTo": "cohere.command-a",
+      "text": "Language coverage grows from 23 to 48 languages, including all official EU languages.",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-plus-blog"
+        },
+        {
+          "id": "src.cohere.command-a-plus-changelog",
+          "locator": "Key Features; Technical Details"
+        }
+      ]
+    },
+    {
+      "id": "licence",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "cohere.command-a-reasoning",
+      "text": "Weights are under Apache 2.0 and not gated, where Command A Reasoning's weights are a gated research release under the non-commercial CC-BY-NC licence.",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-plus-hf",
+          "locator": "Model Summary"
+        },
+        {
+          "id": "src.cohere.command-a-reasoning-hf",
+          "locator": "Model Summary"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-plus-docs",
+          "locator": "Model Properties: Input modalities"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Modality"
+        },
+        {
+          "id": "src.cohere.command-a-plus-hf",
+          "locator": "Model Details: Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-plus-docs",
+          "locator": "Model Properties: Output modalities"
+        },
+        {
+          "id": "src.cohere.command-a-plus-hf",
+          "locator": "Model Details: Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-a-plus-docs",
+            "locator": "What Can Command A+ Be Used For?"
+          },
+          {
+            "id": "src.cohere.command-a-plus-hf",
+            "locator": "Usage"
+          },
+          {
+            "id": "src.cohere.command-a-plus-changelog",
+            "locator": "opening paragraph"
+          }
+        ],
+        "note": "Thinking can be enabled or disabled, with token budgets, per the docs."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-a-plus-hf",
+            "locator": "Tool Use Capabilities"
+          },
+          {
+            "id": "src.cohere.command-a-plus-blog",
+            "locator": "Snapshot table"
+          }
+        ]
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-a-plus-changelog",
+            "locator": "Key Features; Technical Details"
+          },
+          {
+            "id": "src.cohere.command-a-plus-hf",
+            "locator": "Model Details: Languages covered"
+          }
+        ],
+        "note": "48 languages, including all official EU languages."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-plus-changelog",
+          "locator": "Technical Details"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Context Length"
+        },
+        {
+          "id": "src.cohere.command-a-plus-hf",
+          "locator": "Model Details: Context Length"
+        }
+      ],
+      "note": "Input context; maximum output 64K tokens."
+    },
+    "parameters": {
+      "value": 218000000000,
+      "asStated": "218B total, 25B active",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-plus-docs",
+          "locator": "Model Properties: Model Size"
+        },
+        {
+          "id": "src.cohere.command-a-plus-changelog",
+          "locator": "opening paragraph"
+        },
+        {
+          "id": "src.cohere.command-a-plus-hf",
+          "locator": "Model Summary: Model Size"
+        }
+      ],
+      "note": "Sparse mixture-of-experts with 128 experts, 8 active per token plus one shared expert (model card). The second launch post says 24 billion parameters are active per prompt."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-plus-hf",
+          "locator": "Model Summary"
+        },
+        {
+          "id": "src.cohere.command-a-plus-docs",
+          "locator": "Distribution and Technical Integration"
+        },
+        {
+          "id": "src.cohere.command-a-plus-blog",
+          "locator": "opening paragraphs"
+        },
+        {
+          "id": "src.cohere.command-a-plus-sovereign-blog",
+          "locator": "Sovereign by Design"
+        }
+      ],
+      "note": "Apache 2.0, not gated; published in BF16, FP8 and W4A4 quantizations."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-plus-changelog",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.cohere.command-a-plus-docs",
+          "locator": "Distribution and Technical Integration"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Using Command Models on Different Platforms: Azure AI Foundry"
+        }
+      ],
+      "note": "Cloud partner: the models overview lists an Azure AI Foundry model id (coherelabs-command-a-plus-05-2026-w4a4) and N/A for Amazon Bedrock, SageMaker and Oracle. The launch post also offers deployment in Cohere Model Vault."
+    }
+  },
+  "notes": "Cohere's first mixture-of-experts model and, per the changelog and models overview, the last model in the Command A family. Not listed on the deprecations page as of 2026-10-01. Active parameters: 25B in the docs, changelog, model card and main post; 24B in the second post (Cohere Releases Command A+). The Hugging Face repository was created on 2026-05-11, before launch; not used as a date. The FP8 and W4A4 repositories are quantizations of the same weights. Cohere compares it most often with Command A Reasoning."
+}

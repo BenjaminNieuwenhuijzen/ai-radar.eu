@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-4-turbo",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-4-turbo",
+  "name": "GPT-4 Turbo",
+  "aliases": [
+    {
+      "text": "GPT-4 Turbo",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4-turbo",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4-turbo-2024-04-09",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4-1106-preview",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4-0125-preview",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4-turbo-preview",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-4 Turbo Preview",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-04-22: Legacy GPT model snapshots"
+      }
+    ],
+    "note": "gpt-4-turbo (snapshot gpt-4-turbo-2024-04-09) is scheduled to shut down in the API on October 23, 2026. gpt-4-0125-preview and the gpt-4-turbo-preview alias were shut down on 2026-03-26 (notice of 2025-09-26); gpt-4-1106-preview is listed in both notices, with 2026-03-26 and October 23, 2026."
+  },
+  "replacedBy": {
+    "modelId": "openai.gpt-5-6-sol",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-04-22: Legacy GPT model snapshots"
+      }
+    ],
+    "note": "Substitute model listed for gpt-4-turbo on the deprecations page when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-11-06",
+      "sources": [
+        {
+          "id": "src.openai.devday-2023-announcement",
+          "locator": "GPT-4 Turbo with 128K context"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Nov 6, 2023"
+        }
+      ],
+      "note": "Released as a preview (gpt-4-1106-preview) for all paying API developers; the stable model gpt-4-turbo-2024-04-09 followed on 2024-04-09."
+    },
+    "deprecated": {
+      "value": "2026-04-22",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2026-04-22: Legacy GPT model snapshots"
+        }
+      ],
+      "note": "Date of the notice covering gpt-4-turbo; the preview snapshots gpt-4-1106-preview and gpt-4-0125-preview were already deprecated in the notice of 2025-09-26."
+    },
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "gpt-4-0125-preview",
+      "label": "Updated preview gpt-4-0125-preview and the gpt-4-turbo-preview alias released",
+      "date": {
+        "value": "2024-01-25",
+        "sources": [
+          {
+            "id": "src.openai.new-embedding-models-and-api-updates",
+            "locator": "Updated GPT-4 Turbo preview"
+          },
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Jan 25, 2024"
+          }
+        ]
+      }
+    },
+    {
+      "id": "general-availability",
+      "label": "GPT-4 Turbo with Vision generally available in the API (gpt-4-turbo-2024-04-09)",
+      "date": {
+        "value": "2024-04-09",
+        "sources": [
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Apr 9, 2024"
+          },
+          {
+            "id": "src.openai.gpt-4-turbo-docs",
+            "locator": "Model details; Snapshots"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-4",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.devday-2023-announcement",
+          "locator": "GPT-4 Turbo with 128K context"
+        },
+        {
+          "id": "src.openai.gpt-4-turbo-docs",
+          "locator": "description"
+        }
+      ],
+      "note": "OpenAI calls GPT-4 Turbo the next generation of GPT-4."
+    }
+  ],
+  "summary": {
+    "text": "GPT-4 Turbo is an OpenAI model for the API, announced at DevDay on 6 November 2023 as a preview of the next generation of GPT-4 and offered that day as gpt-4-1106-preview. It has a 128K context window and lower prices than GPT-4; image input moved into the main model at general availability on 9 April 2024.",
+    "sources": [
+      {
+        "id": "src.openai.devday-2023-announcement"
+      },
+      {
+        "id": "src.openai.api-changelog"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "openai.gpt-4",
+      "text": "Context window of 128K tokens, which OpenAI says fits more than 300 pages of text; the gpt-4 API model had 8,192 tokens.",
+      "sources": [
+        {
+          "id": "src.openai.devday-2023-announcement"
+        },
+        {
+          "id": "src.openai.gpt-4-research"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-4",
+      "text": "Knowledge of world events extends to April 2023.",
+      "sources": [
+        {
+          "id": "src.openai.devday-2023-announcement"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "aspect": "efficiency",
+      "relativeTo": "openai.gpt-4",
+      "text": "OpenAI priced it three times lower for input tokens and two times lower for output tokens than GPT-4.",
+      "sources": [
+        {
+          "id": "src.openai.devday-2023-announcement"
+        }
+      ]
+    },
+    {
+      "id": "image-input-ga",
+      "aspect": "availability",
+      "direction": "added",
+      "relativeTo": "openai.gpt-4",
+      "text": "Image input is part of the generally available API model gpt-4-turbo-2024-04-09 from April 2024, after a separate vision preview.",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog"
+        },
+        {
+          "id": "src.openai.devday-2023-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-turbo-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Apr 9, 2024"
+        }
+      ],
+      "note": "Image input in the main model from general availability on 2024-04-09; the 2023 and January 2024 previews were text only, with images in the separate vision preview."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-turbo-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-turbo-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.devday-2023-announcement",
+          "locator": "GPT-4 Turbo with 128K context"
+        }
+      ],
+      "note": "The DevDay post gives 128K."
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.devday-2023-announcement",
+            "locator": "Function calling updates"
+          },
+          {
+            "id": "src.openai.gpt-4-turbo-docs",
+            "locator": "Supported features"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.devday-2023-announcement",
+          "locator": "GPT-4 Turbo with 128K context"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Apr 9, 2024"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "gpt-4-turbo-with-vision-preview",
+      "name": "GPT-4 Turbo with vision",
+      "aliases": [
+        {
+          "text": "gpt-4-vision-preview",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-4-1106-vision-preview",
+          "match": "auto"
+        },
+        {
+          "text": "GPT-4 Turbo with Vision",
+          "match": "candidate"
+        }
+      ],
+      "dates": {
+        "announced": null,
+        "released": {
+          "value": "2023-11-06",
+          "sources": [
+            {
+              "id": "src.openai.devday-2023-announcement",
+              "locator": "GPT-4 Turbo with vision"
+            }
+          ]
+        },
+        "deprecated": {
+          "value": "2024-06-06",
+          "sources": [
+            {
+              "id": "src.openai.api-deprecations",
+              "locator": "2024-06-06: GPT-4-32K and Vision Preview models"
+            }
+          ]
+        },
+        "retired": {
+          "value": "2024-12-06",
+          "sources": [
+            {
+              "id": "src.openai.api-deprecations",
+              "locator": "2024-06-06: GPT-4-32K and Vision Preview models"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "inputModalities": {
+          "value": [
+            "text",
+            "image"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.openai.devday-2023-announcement",
+              "locator": "GPT-4 Turbo with vision"
+            }
+          ]
+        }
+      },
+      "lifecycle": {
+        "value": "retired",
+        "sources": [
+          {
+            "id": "src.openai.api-deprecations",
+            "locator": "2024-06-06: GPT-4-32K and Vision Preview models"
+          }
+        ]
+      },
+      "note": "Preview model for image input in the Chat Completions API (gpt-4-vision-preview). Vision moved into the main GPT-4 Turbo model at general availability on 2024-04-09, which the changelog also calls GPT-4 Turbo with Vision."
+    }
+  ],
+  "notes": "Announced at OpenAI DevDay on 2023-11-06 as a preview of the next generation of GPT-4 and usable the same day as gpt-4-1106-preview. Preview snapshots gpt-4-1106-preview and gpt-4-0125-preview and the stable gpt-4-turbo-2024-04-09 are aliases; the vision preview is an inline variant. Use in ChatGPT is not recorded because no source read here states it. Lifecycle dates apply to the OpenAI API."
+}

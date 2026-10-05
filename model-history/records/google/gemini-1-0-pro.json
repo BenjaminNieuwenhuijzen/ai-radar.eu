@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-1-0-pro",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-1-0-pro",
+  "name": "Gemini 1.0 Pro",
+  "aliases": [
+    {
+      "text": "Gemini 1.0 Pro",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-1.0-pro-001",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-1.0-pro-002",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-pro",
+      "match": "candidate"
+    },
+    {
+      "text": "Gemini Pro",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-pro",
+  "generation": "1.0",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "February 18, 2025"
+      },
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models: gemini-1.0-pro-001, gemini-1.0-pro-002"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "google.gemini-2-5-flash",
+    "sources": [
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models: gemini-1.0-pro-001, gemini-1.0-pro-002"
+      }
+    ],
+    "note": "Recommended upgrade on Agent Platform as listed when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-12-06",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-announcement",
+          "locator": "Gemini Pro in Google products"
+        },
+        {
+          "id": "src.google.bard-gemini-pro-announcement"
+        }
+      ],
+      "note": "A fine-tuned version of Gemini Pro in Bard, in English; developer access followed on 2023-12-13 (milestone)."
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2025-02-18",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "February 18, 2025"
+        }
+      ],
+      "note": "Gemini API: Gemini 1.0 Pro is no longer supported.",
+      "alternatives": [
+        {
+          "value": "2025-04-21",
+          "sources": [
+            {
+              "id": "src.google.agent-platform-model-versions",
+              "locator": "Retired models: gemini-1.0-pro-001, gemini-1.0-pro-002"
+            }
+          ],
+          "note": "Retirement date on Vertex AI (now Gemini Enterprise Agent Platform)."
+        }
+      ]
+    }
+  },
+  "milestones": [
+    {
+      "id": "gemini-api",
+      "label": "Available to developers in the Gemini API (Google AI Studio) and Vertex AI",
+      "date": {
+        "value": "2023-12-13",
+        "sources": [
+          {
+            "id": "src.google.gemini-pro-developers-announcement",
+            "locator": "Gemini Pro is available today"
+          },
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "December 13 2023"
+          }
+        ]
+      }
+    },
+    {
+      "id": "vertex-ai-ga",
+      "label": "Generally available on Vertex AI (gemini-1.0-pro-001)",
+      "date": {
+        "value": "2024-02-15",
+        "sources": [
+          {
+            "id": "src.google.agent-platform-model-versions",
+            "locator": "Retired models: gemini-1.0-pro-001"
+          },
+          {
+            "id": "src.google.vertex-ai-gemini-expands",
+            "locator": "Gemini 1.0 Pro paragraph"
+          }
+        ],
+        "note": "The Cloud blog page shows February 16, 2024; its structured data and the Agent Platform table give February 15."
+      }
+    }
+  ],
+  "summary": {
+    "text": "Gemini 1.0 Pro is the Gemini 1.0 size Google meant for a wide range of tasks. A tuned version ran in Bard from December 2023, and a week later it reached developers through the Gemini API and Vertex AI with a 32K-token context window, taking text only, with images through a separate Pro Vision endpoint. The Gemini API stopped supporting it in February 2025.",
+    "sources": [
+      {
+        "id": "src.google.gemini-1-announcement"
+      },
+      {
+        "id": "src.google.bard-gemini-pro-announcement"
+      },
+      {
+        "id": "src.google.gemini-pro-developers-announcement"
+      },
+      {
+        "id": "src.google.gemini-api-release-notes"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-pro-developers-announcement",
+          "locator": "Gemini Pro is available today"
+        }
+      ],
+      "note": "As released in the API (gemini-pro); image input came through the Pro Vision variant. The technical report describes the Gemini 1.0 family as trained on interleaved text, image, audio and video input."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-pro-developers-announcement",
+          "locator": "Gemini Pro is available today"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 32768,
+      "asStated": "32K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-pro-developers-announcement",
+          "locator": "Gemini Pro is available today"
+        },
+        {
+          "id": "src.google.gemini-1-technical-report",
+          "locator": "section 5.1.5"
+        }
+      ],
+      "note": "The developer post gives a 32K context window for text; the technical report gives a training sequence length of 32,768 tokens."
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-pro-developers-announcement",
+            "locator": "Gemini Pro is available today"
+          },
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "December 13 2023"
+          }
+        ],
+        "note": "Beta in the Gemini API at launch."
+      },
+      {
+        "key": "fine-tuning-available",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "March 19, 2024"
+          }
+        ],
+        "note": "Tuning in Google AI Studio and the Gemini API from March 2024."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.bard-gemini-pro-announcement"
+        },
+        {
+          "id": "src.google.gemini-pro-developers-announcement",
+          "locator": "Gemini Pro is available today; Build with Vertex AI on Google Cloud"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "pro-vision",
+      "name": "Gemini 1.0 Pro Vision",
+      "aliases": [
+        {
+          "text": "gemini-pro-vision",
+          "match": "auto"
+        },
+        {
+          "text": "gemini-1.0-pro-vision-001",
+          "match": "auto"
+        },
+        {
+          "text": "Gemini Pro Vision",
+          "match": "candidate"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2023-12-13",
+          "sources": [
+            {
+              "id": "src.google.gemini-pro-developers-announcement",
+              "locator": "Gemini Pro is available today"
+            },
+            {
+              "id": "src.google.gemini-api-release-notes",
+              "locator": "December 13 2023"
+            }
+          ]
+        },
+        "deprecated": {
+          "value": "2024-06-12",
+          "sources": [
+            {
+              "id": "src.google.gemini-api-release-notes",
+              "locator": "June 12, 2024"
+            }
+          ]
+        },
+        "retired": {
+          "value": "2024-07-12",
+          "sources": [
+            {
+              "id": "src.google.gemini-api-release-notes",
+              "locator": "July 12, 2024"
+            }
+          ],
+          "note": "Support removed from Google AI services and tools.",
+          "alternatives": [
+            {
+              "value": "2025-04-21",
+              "sources": [
+                {
+                  "id": "src.google.agent-platform-model-versions",
+                  "locator": "Retired models: gemini-1.0-pro-vision-001"
+                }
+              ],
+              "note": "Retirement date of gemini-1.0-pro-vision-001 on Vertex AI."
+            }
+          ]
+        }
+      },
+      "lifecycle": {
+        "value": "retired",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "July 12, 2024"
+          },
+          {
+            "id": "src.google.agent-platform-model-versions",
+            "locator": "Retired models: gemini-1.0-pro-vision-001"
+          }
+        ]
+      },
+      "capabilities": {
+        "inputModalities": {
+          "value": [
+            "text",
+            "image"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemini-pro-developers-announcement",
+              "locator": "Gemini Pro is available today"
+            }
+          ]
+        }
+      },
+      "note": "Dedicated multimodal endpoint released with the Gemini Pro API; text output.",
+      "sources": [
+        {
+          "id": "src.google.gemini-pro-developers-announcement",
+          "locator": "Gemini Pro is available today"
+        }
+      ]
+    }
+  ],
+  "notes": "Announced as Gemini Pro, one of three sizes of Gemini 1.0; the Bard-to-Gemini post calls it Pro 1.0. The original API id gemini-pro is kept as a candidate alias because later aliases such as gemini-pro-latest point to newer models. Retirement: the Gemini API stopped supporting it on 2025-02-18; Vertex AI retired gemini-1.0-pro-001 and gemini-1.0-pro-002 (released there on 2024-04-09) on 2025-04-21. No lineage to PaLM 2 is stated by Google, so no predecessor relation."
+}

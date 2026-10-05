@@ -1,0 +1,1067 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.deepseek.api-change-log",
+      "type": "changelog",
+      "title": "Change Log",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page of the DeepSeek API docs; content as seen on 2026-10-01, newest entry 2026-09-10. Entries are headed Date: YYYY-MM-DD.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-llm-67b-base-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/deepseek-llm-67b-base",
+      "url": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-base",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; Model Summary: a 67B parameter model with grouped-query attention, trained on 2 trillion tokens from scratch. Public and ungated on 2026-10-01, licence DeepSeek Model License. The HTML title adds the suffix · Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-llm-67b-chat-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/deepseek-llm-67b-chat",
+      "url": "https://huggingface.co/deepseek-ai/deepseek-llm-67b-chat",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; says the chat model is initialised from deepseek-llm-67b-base and fine-tuned on extra instruction data, and links chat.deepseek.com as Chat With DeepSeek LLM. Public and ungated on 2026-10-01, licence DeepSeek Model License. The HTML title adds the suffix · Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-llm-7b-base-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/deepseek-llm-7b-base",
+      "url": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-base",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; Model Summary: a 7B parameter model with multi-head attention, trained on 2 trillion tokens from scratch. Public and ungated on 2026-10-01, licence DeepSeek Model License. The HTML title adds the suffix · Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-llm-7b-chat-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/deepseek-llm-7b-chat",
+      "url": "https://huggingface.co/deepseek-ai/deepseek-llm-7b-chat",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; Model Summary: a 7B parameter model initialised from deepseek-llm-7b-base and fine-tuned on extra instruction data. Public and ungated on 2026-10-01, licence DeepSeek Model License. The HTML title adds the suffix · Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-llm-github",
+      "type": "repository",
+      "title": "deepseek-ai/DeepSeek-LLM: DeepSeek LLM: Let there be answers",
+      "url": "https://github.com/deepseek-ai/DeepSeek-LLM",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Official repository; the README introduces DeepSeek LLM (67 billion parameters, trained from scratch on 2 trillion English and Chinese tokens), lists the four released models (7B and 67B, Base and Chat) with sequence length 4096 and Hugging Face links, describes the LLaMA-style architecture (MHA for 7B, GQA for 67B) and states the model licence. The README is undated. The HTML title is framed as GitHub - ... · GitHub. Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-llm-github-initial-commit",
+      "type": "repository",
+      "title": "chore: rebase commits · deepseek-ai/DeepSeek-LLM@f8b3d77",
+      "url": "https://github.com/deepseek-ai/DeepSeek-LLM/commit/f8b3d77beb4449d77932eccc6abe08826ad3c608",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2023-11-29",
+        "note": "Commit date shown on the page."
+      },
+      "notes": "Earliest commit of the official repository (the repository was created the same day, per the GitHub API), dated 2023-11-29. It adds the README whose Model Downloads section says the 7B and 67B Base and Chat models are released to the public. Replaces the living commit list https://github.com/deepseek-ai/DeepSeek-LLM/commits/main/ used in the research draft. The HTML title adds the suffix · GitHub.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-llm-paper",
+      "type": "research-paper",
+      "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+      "url": "https://arxiv.org/abs/2401.02954",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-01-05",
+        "note": "arXiv v1 submission date; v1 is the only version as of 2026-10-01."
+      },
+      "notes": "Technical report by DeepSeek-AI on arXiv (submitted by DeepSeek Inc.). Describes the 7B and 67B models (Table 2: context length 4096), the 2 trillion token dataset, the study of scaling laws, and the SFT and DPO steps that produce the DeepSeek Chat models.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-moe-16b-base-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/deepseek-moe-16b-base",
+      "url": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-base",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; refers to the GitHub repository for the introduction. Public and ungated on 2026-10-01, licence DeepSeek Model License. The HTML title adds the suffix · Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-moe-16b-chat-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/deepseek-moe-16b-chat",
+      "url": "https://huggingface.co/deepseek-ai/deepseek-moe-16b-chat",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card. Public and ungated on 2026-10-01, licence DeepSeek Model License. The HTML title adds the suffix · Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-r1-0528-announcement",
+      "type": "announcement",
+      "title": "DeepSeek-R1-0528 Release",
+      "url": "https://api-docs.deepseek.com/news/news250528/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-05-28",
+        "note": "Date from the news sidebar entry DeepSeek-R1-0528 Release 2025/05/28."
+      },
+      "notes": "News page in the DeepSeek API docs. https://api-docs.deepseek.com/news/news250528 redirects (302) to this trailing-slash URL. The HTML title adds the suffix | DeepSeek API Docs. Lists improved benchmark performance, better front-end abilities, fewer hallucinations, JSON output and function calling, unchanged API usage and the Hugging Face weights.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-r1-0528-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-R1-0528",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-0528",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; calls DeepSeek-R1-0528 a minor version upgrade of DeepSeek R1, describes deeper reasoning, a lower hallucination rate, better function calling support and vibe coding, notes that a system prompt is now supported, introduces the distilled DeepSeek-R1-0528-Qwen3-8B and states the MIT License. Undated; the Hugging Face API gives the repository creation time as 2025-05-28. Public and ungated on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-r1-0528-news",
+      "type": "announcement",
+      "title": "DeepSeek-R1-0528 Release",
+      "url": "https://www.deepseek.com/en/news/r1-0528/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "unknown",
+      "publishedAt": {
+        "value": "2025-05-28"
+      },
+      "notes": "English news page on deepseek.com, dated May 28, 2025; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/r1-0528/."
+    },
+    {
+      "id": "src.deepseek.deepseek-r1-announcement",
+      "type": "announcement",
+      "title": "DeepSeek-R1 Release",
+      "url": "https://api-docs.deepseek.com/news/news250120/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-01-20",
+        "note": "Date from the news sidebar entry DeepSeek-R1 Release 2025/01/20."
+      },
+      "notes": "News page in the DeepSeek API docs. https://api-docs.deepseek.com/news/news250120 redirects (302) to this trailing-slash URL. The HTML title adds the suffix | DeepSeek API Docs. Announces the open-source model and technical report under the MIT License, the web chat (DeepThink) and API (model=deepseek-reasoner), API pricing, and six distilled models.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-r1-github",
+      "type": "repository",
+      "title": "deepseek-ai/DeepSeek-R1",
+      "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Official repository; the README introduces DeepSeek-R1-Zero and DeepSeek-R1 as DeepSeek's first-generation reasoning models, lists both (671B total, 37B activated, 128K context) and the six distilled models, says R1-Zero and R1 are trained based on DeepSeek-V3-Base, and states the MIT License for code and weights. The HTML title is GitHub - deepseek-ai/DeepSeek-R1 · GitHub. Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-r1-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; same content as the GitHub README (introduction of R1-Zero and R1, downloads table, distilled models, chat website with the DeepThink button and API platform, MIT License). Undated; the Hugging Face API gives the repository creation time as 2025-01-20. Public and ungated on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-r1-lite-preview-announcement",
+      "type": "announcement",
+      "title": "🚀 DeepSeek-R1-Lite-Preview is now live: unleashing supercharged reasoning power!",
+      "url": "https://api-docs.deepseek.com/news/news1120/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-11-20",
+        "note": "Date from the news sidebar entry DeepSeek-R1-Lite Release 2024/11/20."
+      },
+      "notes": "News page in the DeepSeek API docs. https://api-docs.deepseek.com/news/news1120 redirects (302) to this trailing-slash URL. The HTML title adds the suffix | DeepSeek API Docs. Says the model is live at chat.deepseek.com and that open-source models and an API are coming soon.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-r1-lite-preview-news",
+      "type": "announcement",
+      "title": "DeepSeek-R1-Lite-Preview is Now Live: Unleashing Supercharged Reasoning Power!",
+      "url": "https://www.deepseek.com/en/news/r1-lite-preview/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "unknown",
+      "publishedAt": {
+        "value": "2024-11-20"
+      },
+      "notes": "English news page on deepseek.com, dated November 20, 2024; same text as the API docs news page. The HTML title adds the prefix DeepSeek | . URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/r1-lite-preview/."
+    },
+    {
+      "id": "src.deepseek.deepseek-r1-news",
+      "type": "announcement",
+      "title": "DeepSeek-R1 Release",
+      "url": "https://www.deepseek.com/en/news/deepseek-r1/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "unknown",
+      "publishedAt": {
+        "value": "2025-01-20"
+      },
+      "notes": "English news page on deepseek.com, dated January 20, 2025; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/deepseek-r1/."
+    },
+    {
+      "id": "src.deepseek.deepseek-r1-paper",
+      "type": "research-paper",
+      "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2501.12948",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-01-22",
+        "note": "arXiv v1 submission date; the current version is v2 of 2026-01-04."
+      },
+      "notes": "Paper by DeepSeek-AI on arXiv (v1 is the technical report also linked as DeepSeek_R1.pdf from the GitHub repository). Describes DeepSeek-R1-Zero (reinforcement learning directly on DeepSeek-V3-Base with GRPO) and the multi-stage DeepSeek-R1 pipeline starting from cold-start fine-tuning of DeepSeek-V3-Base; both v1 and v2 name DeepSeek-V3-Base as the starting point.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-r1-release-commit",
+      "type": "repository",
+      "title": "Release DeepSeek-R1 · deepseek-ai/DeepSeek-R1@23807ce",
+      "url": "https://github.com/deepseek-ai/DeepSeek-R1/commit/23807ced51627276434655dd9f27725354818974",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-01-20",
+        "note": "Commit date (2025-01-20T20:19:44+08:00)."
+      },
+      "notes": "The commit that adds the README introducing DeepSeek-R1-Zero and DeepSeek-R1 with their Hugging Face download links, the licence and the DeepSeek_R1.pdf report. Replaces the commit listing https://github.com/deepseek-ai/DeepSeek-R1/commits/main/ cited in the research draft, which is a living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-r1-zero-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-R1-Zero",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Zero",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card of DeepSeek-R1-Zero; it carries the shared DeepSeek-R1 card text (heading DeepSeek-R1). Undated; the Hugging Face API gives the repository creation time as 2025-01-20. Licence MIT; public and ungated on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v2-5-1210-announcement",
+      "type": "announcement",
+      "title": "🚀 DeepSeek V2.5: The Grand Finale 🎉",
+      "url": "https://api-docs.deepseek.com/news/news1210/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-12-10",
+        "note": "Date from the news sidebar entry DeepSeek-V2.5-1210 Release 2024/12/10."
+      },
+      "notes": "News page in the DeepSeek API docs. https://api-docs.deepseek.com/news/news1210 redirects (302) to this trailing-slash URL. The HTML title adds the suffix | DeepSeek API Docs. Announces DeepSeek-V2.5-1210 with a Hugging Face link, Internet Search in the web chat, the end of the V2.5 series and work on next-generation foundation models.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v2-5-1210-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V2.5-1210",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5-1210",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; describes DeepSeek-V2.5-1210 as an upgraded version of DeepSeek-V2.5, documents function calling, JSON output and FIM completion, and states code under MIT and model use under the DeepSeek Model License (commercial use supported). Undated; the Hugging Face API gives the repository creation time as 2024-12-10. Public and ungated on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v2-5-1210-news",
+      "type": "announcement",
+      "title": "DeepSeek V2.5: The Grand Finale",
+      "url": "https://www.deepseek.com/en/news/v2-5-final/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "unknown",
+      "publishedAt": {
+        "value": "2024-12-10"
+      },
+      "notes": "English news page on deepseek.com, dated December 10, 2024; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/v2-5-final/."
+    },
+    {
+      "id": "src.deepseek.deepseek-v2-5-announcement",
+      "type": "announcement",
+      "title": "DeepSeek-V2.5: A New Open-Source Model Combining General and Coding Capabilities",
+      "url": "https://api-docs.deepseek.com/news/news0905/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-09-05"
+      },
+      "notes": "News page in the DeepSeek API docs; the sidebar entry reads DeepSeek-V2.5 Release 2024/09/05. https://api-docs.deepseek.com/news/news0905 redirects (302) to this trailing-slash URL. The HTML title adds the suffix | DeepSeek API Docs.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v2-5-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V2.5",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2.5",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; describes DeepSeek-V2.5 as an upgraded version that combines DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct, refers to the DeepSeek-V2 page for model details and notes an updated chat template. Undated. Public and ungated on 2026-10-01, licence DeepSeek Model License. The HTML title adds the suffix · Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v2-chat-0628-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V2-Chat-0628",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat-0628",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; describes DeepSeek-V2-Chat-0628 as an improved version of DeepSeek-V2-Chat and refers to the DeepSeek-V2 page for model details. The card states no date; the Hugging Face API gives the repository creation time as 2024-07-18, after the API release on 2024-06-28. Public and ungated on 2026-10-01, licence DeepSeek Model License. The HTML title adds the suffix · Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v2-chat-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V2-Chat",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; model card of DeepSeek-V2-Chat (RL). Public and ungated on 2026-10-01, licence DeepSeek Model License. The HTML title adds the suffix · Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v2-github",
+      "type": "repository",
+      "title": "deepseek-ai/DeepSeek-V2: DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V2",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Official repository. The README News section lists 2024.05.06 (DeepSeek-V2 released) and 2024.05.16 (DeepSeek-V2-Lite released). Its download table gives 236B total / 21B activated parameters and 128k context for DeepSeek-V2 and DeepSeek-V2-Chat (RL), 16B / 2.4B and 32k for DeepSeek-V2-Lite and DeepSeek-V2-Lite-Chat (SFT). The base-model table labels DeepSeek LLM 67B as DeepSeek-V1 (Dense-67B). Sections 6 and 7 point to chat.deepseek.com and the OpenAI-compatible API at platform.deepseek.com. The HTML title is framed as GitHub - ... · GitHub. Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v2-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V2",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; model card of the DeepSeek-V2 base model. Public and ungated on 2026-10-01, licence DeepSeek Model License. The HTML title adds the suffix · Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v2-lite-chat-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V2-Lite-Chat",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite-Chat",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; model card of DeepSeek-V2-Lite-Chat (SFT); carries the same news lines. Public and ungated on 2026-10-01, licence DeepSeek Model License. The HTML title adds the suffix · Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v2-lite-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V2-Lite",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; lists 16B total and 2.4B active parameters and training from scratch on 5.7T tokens, and carries the news lines 2024.05.06 and 2024.05.16. Public and ungated on 2026-10-01, licence DeepSeek Model License. The HTML title adds the suffix · Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v2-paper",
+      "type": "research-paper",
+      "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+      "url": "https://arxiv.org/abs/2405.04434",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-05-07",
+        "note": "arXiv v1 submission date; the current version is v5 of 2024-06-19."
+      },
+      "notes": "Technical report by DeepSeek-AI on arXiv. Calls DeepSeek 67B our previous release, reuses its tokenizer, describes MLA and DeepSeekMoE, pre-training on 8.1T tokens, SFT and RL, and the extension of the context window from 4K to 128K with YaRN.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-0324-announcement",
+      "type": "announcement",
+      "title": "DeepSeek-V3-0324 Release",
+      "url": "https://api-docs.deepseek.com/news/news250325/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-03-25",
+        "note": "Date from the news sidebar entry DeepSeek-V3-0324 Release 2025/03/25; the change log entry is dated 2025-03-24."
+      },
+      "notes": "News page in the DeepSeek API docs. https://api-docs.deepseek.com/news/news250325 redirects (302) to this trailing-slash URL. The HTML title adds the suffix | DeepSeek API Docs. Lists better reasoning, front-end development and tool use, recommends V3 with DeepThink off for non-complex tasks, unchanged API usage, the move to the MIT License and the Hugging Face weights.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-0324-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V3-0324",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card; lists improvements over its predecessor DeepSeek-V3, says the model structure is exactly the same as DeepSeek-V3, that it supports function calling, JSON output and FIM completion, and that repository and weights are under the MIT License. Undated; the Hugging Face API gives the repository creation time as 2025-03-24. Public and ungated on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-0324-news",
+      "type": "announcement",
+      "title": "DeepSeek-V3-0324 Release",
+      "url": "https://www.deepseek.com/en/news/v3-0324/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "unknown",
+      "publishedAt": {
+        "value": "2025-03-25"
+      },
+      "notes": "English news page on deepseek.com, dated March 25, 2025; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/v3-0324/."
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-1-announcement",
+      "type": "announcement",
+      "title": "DeepSeek-V3.1 Release",
+      "url": "https://api-docs.deepseek.com/news/news250821/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-08-21"
+      },
+      "notes": "News page in the DeepSeek API docs; the page header gives the date as 2025/08/21. https://api-docs.deepseek.com/news/news250821 redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-1-base-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V3.1-Base",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Base",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card of DeepSeek's own organisation; essentially the same text as the DeepSeek-V3.1 card. MIT License.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-1-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V3.1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card of DeepSeek's own organisation; MIT License. The card does not state a date.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-1-terminus-announcement",
+      "type": "announcement",
+      "title": "DeepSeek-V3.1-Terminus",
+      "url": "https://api-docs.deepseek.com/news/news250922/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-09-22"
+      },
+      "notes": "News page in the DeepSeek API docs, headed DeepSeek V3.1 Update 2025/09/22. https://api-docs.deepseek.com/news/news250922 redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-1-terminus-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V3.1-Terminus",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.1-Terminus",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card of DeepSeek's own organisation; MIT License. The card does not state a date.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-2-announcement",
+      "type": "announcement",
+      "title": "DeepSeek-V3.2 Release",
+      "url": "https://api-docs.deepseek.com/news/news251201/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-12-01"
+      },
+      "notes": "News page in the DeepSeek API docs, headed DeepSeek-V3.2 Release 2025/12/01. Announces both DeepSeek-V3.2 and DeepSeek-V3.2-Speciale. https://api-docs.deepseek.com/news/news251201 redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-2-exp-announcement",
+      "type": "announcement",
+      "title": "Introducing DeepSeek-V3.2-Exp",
+      "url": "https://api-docs.deepseek.com/news/news250929/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-09-29"
+      },
+      "notes": "News page in the DeepSeek API docs, headed DeepSeek-V3.2-Exp Release 2025/09/29. https://api-docs.deepseek.com/news/news250929 redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-2-exp-base-hf",
+      "type": "model-hub-page",
+      "title": "deepseek-ai/DeepSeek-V3.2-Exp-Base",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp-Base",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face repository of DeepSeek's own organisation with the base weights; the card holds only licence metadata (MIT). On 2026-10-01 https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Base resolved to this same repository.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-2-exp-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V3.2-Exp",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Exp",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card of DeepSeek's own organisation; MIT License. Contains an update note dated 2025.11.17 about a fix in the inference demo code.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-2-exp-report",
+      "type": "technical-report",
+      "title": "DeepSeek-V3.2-Exp: Boosting Long-Context Efficiency with DeepSeek Sparse Attention",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/blob/main/DeepSeek_V3_2.pdf",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "PDF in DeepSeek's GitHub repository, linked from the 2025-09-29 announcement as the tech report. The PDF itself carries no date. The blob page returned 503 to scripted requests on 2026-10-01; the PDF was read through https://github.com/deepseek-ai/DeepSeek-V3.2-Exp/raw/main/DeepSeek_V3_2.pdf.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-2-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V3.2",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card of DeepSeek's own organisation, headed DeepSeek-V3.2: Efficient Reasoning & Agentic AI; MIT License. The card text is identical to the DeepSeek-V3.2-Speciale card.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-2-model-card",
+      "type": "model-card",
+      "title": "DeepSeek V3.2 - Model Card",
+      "url": "https://fe-static.deepseek.com/chat/transparency/deepseek-v3.2-model-card-0414-EN.pdf",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "PDF linked as Model Card from the DeepSeek Transparency Center (English). The cover is titled DeepSeek V3.2 Technical Documentation and gives Publication date: April 17, 2026 and Updated date: January 6, 2026, which contradict each other, so publishedAt is left out. A Chinese version is at the same path with -CN.pdf.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-2-paper",
+      "type": "research-paper",
+      "title": "DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models",
+      "url": "https://arxiv.org/abs/2512.02556",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-12-02"
+      },
+      "notes": "arXiv v1 submitted 2025-12-02. The 2025-12-01 announcement links the same report as https://huggingface.co/deepseek-ai/DeepSeek-V3.2/resolve/main/assets/paper.pdf.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-2-speciale-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V3.2-Speciale",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2-Speciale",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face model card of DeepSeek's own organisation; the card text is identical to the DeepSeek-V3.2 card (heading DeepSeek-V3.2: Efficient Reasoning & Agentic AI). MIT License.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-announcement",
+      "type": "announcement",
+      "title": "🚀 Introducing DeepSeek-V3",
+      "url": "https://api-docs.deepseek.com/news/news1226/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-12-26",
+        "note": "Date from the news sidebar entry Introducing DeepSeek-V3 2024/12/26."
+      },
+      "notes": "News page in the DeepSeek API docs. https://api-docs.deepseek.com/news/news1226 redirects (302) to this trailing-slash URL. The HTML title adds the suffix | DeepSeek API Docs. Gives 671B MoE parameters, 37B activated and 14.8T training tokens, 60 tokens per second, links the GitHub repository and paper, announces API pricing (same as V2 until Feb 8, new prices after) and says multimodal support will follow.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-base-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V3-Base",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3-Base",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Hugging Face model card of the base model; essentially the same content as the DeepSeek-V3 card. Undated; the Hugging Face API gives the repository creation time as 2024-12-25, a day before the announcement. Public and ungated on 2026-10-01."
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-github",
+      "type": "repository",
+      "title": "deepseek-ai/DeepSeek-V3",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Official repository; the README introduces DeepSeek-V3, lists DeepSeek-V3-Base and DeepSeek-V3 (671B total, 37B activated, 128K context) with Hugging Face links, the chat website and OpenAI-compatible API platform, and the licence (code MIT, models under the DeepSeek Model License, commercial use supported). The HTML title is GitHub - deepseek-ai/DeepSeek-V3 · GitHub. Its first commits (Initial commit, Release DeepSeek-V3) are dated 2024-12-26. Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-hf",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V3",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Hugging Face model card of the chat model; same content as the GitHub README (model summary, downloads table with 671B total, 37B activated and 128K context, chat website and API platform, licence). Notes that the Hugging Face upload is 685B, including 14B of Multi-Token Prediction module weights. Undated; the Hugging Face API gives the repository creation time as 2024-12-25. Public and ungated on 2026-10-01."
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-news",
+      "type": "announcement",
+      "title": "Introducing DeepSeek-V3",
+      "url": "https://www.deepseek.com/en/news/deepseek-v3/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "unknown",
+      "publishedAt": {
+        "value": "2024-12-26"
+      },
+      "notes": "English news page on deepseek.com, dated December 26, 2024; same text as the API docs news page. URL as declared canonical by the page. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine; the same page was read at https://deepseek.com/en/news/deepseek-v3/."
+    },
+    {
+      "id": "src.deepseek.deepseek-v3-paper",
+      "type": "technical-report",
+      "title": "DeepSeek-V3 Technical Report",
+      "url": "https://arxiv.org/abs/2412.19437",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-12-27",
+        "note": "arXiv v1 submission date; the current version is v2 of 2025-02-18."
+      },
+      "notes": "Technical report by DeepSeek-AI on arXiv (the same report is linked as DeepSeek_V3.pdf from the GitHub repository and the news page). Describes the architecture (MLA, DeepSeekMoE, auxiliary-loss-free load balancing, multi-token prediction), FP8 training, pre-training on 14.8T tokens, the SFT and RL stages and 2.788M H800 GPU hours for full training.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v4-model-card",
+      "type": "model-card",
+      "title": "DeepSeek V4 - Model Card",
+      "url": "https://fe-static.deepseek.com/chat/transparency/deepseek-V4-model-card-EN.pdf",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-04-27",
+        "note": "The cover reads Publication date: April 27, 2026 and Updated date: April 24, 2026."
+      },
+      "notes": "PDF headed DeepSeek V4 Technical Documentation, linked from the DeepSeek Transparency Center (https://www.deepseek.com/en/transparency/, read via https://deepseek.com/en/transparency/ because www failed the TLS handshake from the checking machine). Covers DeepSeek-V4-Pro and DeepSeek-V4-Flash: release date April 24, 2026, modality text with three reasoning modes, context length 1M, Pro 1.6T parameters (49B activated), Flash 285B parameters (13B activated; the Hugging Face card and the technical report say 284B), distribution via open-source repositories and API, MIT License for weights and code.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseek-v4-technical-report",
+      "type": "technical-report",
+      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "url": "https://arxiv.org/abs/2606.19348",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-04-26",
+        "note": "arXiv v1 submission date (Sun, 26 Apr 2026)."
+      },
+      "notes": "Technical report by DeepSeek-AI on arXiv, linked from the DeepSeek-V4 Hugging Face cards. The API news post links the same report as a PDF on Hugging Face (https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf). The abstract describes a preview version of the DeepSeek-V4 series.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseekmoe-github",
+      "type": "repository",
+      "title": "deepseek-ai/DeepSeek-MoE: DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
+      "url": "https://github.com/deepseek-ai/DeepSeek-MoE",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Official repository; the README introduces DeepSeekMoE 16B (16.4B parameters, trained from scratch on 2T English and Chinese tokens), lists the Base and Chat checkpoints with sequence length 4096, provides a fine-tuning script and states the model licence. Undated. The HTML title is framed as GitHub - ... · GitHub. Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseekmoe-github-initial-commit",
+      "type": "repository",
+      "title": "initial commit · deepseek-ai/DeepSeek-MoE@1c8e791",
+      "url": "https://github.com/deepseek-ai/DeepSeek-MoE/commit/1c8e7915f5f9aa7542ccad0571e0316e8f46ed56",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-01-11",
+        "note": "Commit date shown on the page."
+      },
+      "notes": "Earliest commit of the official repository, dated 2024-01-11; it adds the README with the release statement and download table, the model licence and the fine-tuning script. Replaces the living commit list https://github.com/deepseek-ai/DeepSeek-MoE/commits/main/ used in the research draft. The HTML title adds the suffix · GitHub.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.deepseekmoe-paper",
+      "type": "research-paper",
+      "title": "DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
+      "url": "https://arxiv.org/abs/2401.06066",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2024-01-11",
+        "note": "arXiv v1 submission date; v1 is the only version as of 2026-10-01."
+      },
+      "notes": "Paper by DeepSeek researchers on arXiv. Introduces the DeepSeekMoE architecture (fine-grained expert segmentation, shared expert isolation), gives about 16.4B total and about 2.8B activated parameters for DeepSeekMoE 16B and says the checkpoint is released to the public and fits on a single 40GB GPU.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.hf-deepseek-v4-1-flash",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V4.1-Flash · Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Model card (citation title DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression); links the technical report PDF https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf. Pipeline tag image-text-to-text; public, ungated weights under the MIT License. Living page; last modified 2026-10-01 according to Hugging Face metadata."
+    },
+    {
+      "id": "src.deepseek.hf-deepseek-v4-flash",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V4-Flash · Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Same card text as DeepSeek-V4-Pro (preview release of the DeepSeek-V4 series); public, ungated weights under the MIT License. Living page; content as seen on 2026-10-02.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.hf-deepseek-v4-flash-0731",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V4-Flash-0731 · Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card; states no date (the repository was created on 2026-07-31 according to Hugging Face metadata). Public, ungated weights under the MIT License. Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.hf-deepseek-v4-flash-vision-exp",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp · Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card; states no date (the repository was created on 2026-08-31 according to Hugging Face metadata, after the API release of 2026-08-21). Pipeline tag image-text-to-text; public, ungated repository under the MIT License with 48 safetensors weight shards. Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.hf-deepseek-v4-pro",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V4-Pro · Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card of the DeepSeek-V4 preview release (same text as the DeepSeek-V4-Flash card); public, ungated weights under the MIT License; the Model Downloads table lists DeepSeek-V4-Flash-Base, DeepSeek-V4-Flash, DeepSeek-V4-Pro-Base and DeepSeek-V4-Pro. Living page; content as seen on 2026-10-02.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.hf-deepseek-v4-pro-0813",
+      "type": "model-card",
+      "title": "deepseek-ai/DeepSeek-V4-Pro-0813 · Hugging Face",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card; states no date (the repository was created on 2026-08-13 according to Hugging Face metadata). Public, ungated weights under the MIT License. Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.huggingface-organization",
+      "type": "model-hub-page",
+      "title": "deepseek-ai (DeepSeek)",
+      "url": "https://huggingface.co/deepseek-ai",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "DeepSeek's verified organisation page on Hugging Face. Its organisation card (the README of https://huggingface.co/spaces/deepseek-ai/README) says DeepSeek (深度求索) was founded in 2023 and is a Chinese company dedicated to making AGI a reality. Living page; content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.model-mechanism-and-training-methods",
+      "type": "documentation",
+      "title": "Model Mechanism and Training Methods of DeepSeek",
+      "url": "https://cdn.deepseek.com/policies/en-US/model-algorithm-disclosure.html",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Linked from the Transparency Center (https://www.deepseek.com/en/transparency/) as Model Principles and Training Methodology. The page states no date. It refers to the company as Hangzhou DeepSeek Artificial Intelligence Co., Ltd.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.models-pricing",
+      "type": "documentation",
+      "title": "Models & Pricing",
+      "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page. As seen on 2026-10-02: model deepseek-flash = DeepSeek-V4.1-Flash and deepseek-v4-pro = DeepSeek-V4-Pro-0813, both with thinking and non-thinking modes, 1M context length, 384K maximum output and tool calls; vision supported on deepseek-flash only. Footnote 1: the legacy names deepseek-v4-flash and deepseek-v4-flash-vision-exp are still accepted, but their models are retired and requests are served by DeepSeek-V4.1-Flash.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.news-v4-1-flash",
+      "type": "announcement",
+      "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
+      "url": "https://api-docs.deepseek.com/news/news260910/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-09-10"
+      },
+      "notes": "DeepSeek API Docs news post; the page shows 2026/09/10. Its plan to route all deepseek-v4-pro requests to V4.1-Flash from 2026-09-14 was reversed in the API Change Log entry of 2026-09-10.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.news-v4-flash-vision-exp",
+      "type": "announcement",
+      "title": "DeepSeek-V4-Flash-Vision-Exp Release: Multimodal API Now Live",
+      "url": "https://api-docs.deepseek.com/news/news260821/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-21"
+      },
+      "notes": "DeepSeek API Docs news post; the page shows 2026/08/21.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.news-v4-preview",
+      "type": "announcement",
+      "title": "DeepSeek V4 Preview Release",
+      "url": "https://api-docs.deepseek.com/news/news260424/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-04-24"
+      },
+      "notes": "DeepSeek API Docs news post; the page shows 2026/04/24 and the news sidebar lists it as DeepSeek-V4 Preview Release. Links the V4 technical report as a PDF on Hugging Face (https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf) and the deepseek-v4 collection.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.news-v4-pro-ga",
+      "type": "announcement",
+      "title": "DeepSeek-V4-Pro GA Release",
+      "url": "https://api-docs.deepseek.com/news/news260813/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-13"
+      },
+      "notes": "DeepSeek API Docs news post; the page shows 2026/08/13.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.privacy-policy",
+      "type": "other",
+      "title": "DeepSeek Privacy Policy",
+      "url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Names Hangzhou DeepSeek Artificial Intelligence Co., Ltd., with its registered address in China, as the provider and controller of the services. The page shows Last Update: Feb 10, 2026. Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.transparency-center",
+      "type": "documentation",
+      "title": "Transparency Center",
+      "url": "https://deepseek.com/en/transparency/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page (HTML title DeepSeek | Transparency Center) listing DeepSeek's major released models with release dates, model cards and technical reports; on 2026-10-01 it listed DeepSeek-V4 (April 24, 2026) and DeepSeek-V3.2 (December 1, 2025).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.v3-1-terminus-comparison-testing",
+      "type": "documentation",
+      "title": "V3.1-Terminus Comparison Testing",
+      "url": "https://api-docs.deepseek.com/guides/comparison_testing/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Guide in the DeepSeek API docs describing the temporary V3.1-Terminus endpoint that ran until 2025-10-15 15:59 UTC. https://api-docs.deepseek.com/guides/comparison_testing redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.vision-guide",
+      "type": "documentation",
+      "title": "Vision",
+      "url": "https://api-docs.deepseek.com/guides/vision/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "DeepSeek API Docs guide; https://api-docs.deepseek.com/guides/vision (without trailing slash) redirects here. As seen on 2026-10-02 it describes image input for deepseek-flash and says the legacy name deepseek-v4-flash-vision-exp is still accepted, but that model has been retired and its requests are served by the latest Flash model. Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.deepseek.website-en",
+      "type": "other",
+      "title": "DeepSeek | Into the Unknown",
+      "url": "https://www.deepseek.com/en/",
+      "publisher": "DeepSeek",
+      "publisherOrgId": "deepseek",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "English homepage, linked from the Chinese homepage; links DeepSeek Web, app downloads, DeepSeek Harness, the API platform and the API docs. On 2026-10-01 www.deepseek.com failed the TLS handshake from the checking machine, while https://deepseek.com/en/ served the same page; the site declares www.deepseek.com canonical. Living page."
+    }
+  ]
+}

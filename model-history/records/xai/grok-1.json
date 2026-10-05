@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-1",
+  "name": "Grok-1",
+  "aliases": [
+    {
+      "text": "Grok-1",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 1",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "1",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.xai.grok-1-hugging-face",
+        "locator": "Download instruction"
+      },
+      {
+        "id": "src.xai.grok-1-github",
+        "locator": "Downloading the weights"
+      }
+    ],
+    "note": "Refers to the open base-model weights, which remain downloadable from xAI's Hugging Face and GitHub repositories. xAI published no end-of-service notice for the fine-tuned Grok-1 that powered Grok at launch."
+  },
+  "dates": {
+    "announced": {
+      "value": "2023-11-03",
+      "sources": [
+        {
+          "id": "src.xai.grok-announcement",
+          "locator": "page date"
+        }
+      ]
+    },
+    "released": {
+      "value": "2023-11",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-model-card",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The model card says the initial Grok-1 was released in Nov 2023. The announcement of 2023-11-03 offered early access to a limited number of users in the United States through a waitlist."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "open-weights",
+      "label": "Base model weights released under Apache 2.0",
+      "date": {
+        "value": "2024-03-17",
+        "sources": [
+          {
+            "id": "src.xai.grok-1-open-release",
+            "locator": "page date"
+          },
+          {
+            "id": "src.xai.grok-1-github",
+            "locator": "License"
+          }
+        ],
+        "note": "The released checkpoint is the raw base model from the pre-training phase that concluded in October 2023, not fine-tuned for dialogue."
+      }
+    }
+  ],
+  "summary": {
+    "text": "Grok-1 is the language model xAI developed for its Grok assistant, announced on 3 November 2023 and first offered as limited early access to users in the United States. It is a 314-billion-parameter Mixture-of-Experts model, and on 17 March 2024 xAI released its base model weights under the Apache 2.0 licence.",
+    "sources": [
+      {
+        "id": "src.xai.grok-announcement"
+      },
+      {
+        "id": "src.xai.grok-1-open-release"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-announcement",
+          "locator": "Research at xAI: Multimodal capabilities"
+        }
+      ],
+      "note": "The announcement says Grok did not yet have other senses such as vision and audio."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-model-card",
+          "locator": "Model details; Intended uses"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 8192,
+      "asStated": "8,192 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-model-card",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.xai.grok-1-github",
+          "locator": "Model Specifications"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 314000000000,
+      "asStated": "314B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-open-release",
+          "locator": "Model Details"
+        },
+        {
+          "id": "src.xai.grok-1-github",
+          "locator": "Model Specifications"
+        }
+      ],
+      "note": "Mixture-of-Experts model; xAI says 25% of the weights are active on a given token (2 of 8 experts per the repository)."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-1-open-release"
+        },
+        {
+          "id": "src.xai.grok-1-github",
+          "locator": "License"
+        },
+        {
+          "id": "src.xai.grok-1-hugging-face"
+        }
+      ],
+      "note": "Base model weights and network architecture under the Apache 2.0 licence, released 2024-03-17."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-announcement",
+          "locator": "Early Access to Grok"
+        },
+        {
+          "id": "src.xai.grok-1-open-release"
+        }
+      ],
+      "note": "Consumer access started as limited early access for users in the United States; the open weights followed in March 2024."
+    }
+  },
+  "notes": "xAI uses Grok for the assistant product and Grok-1 for the model behind it at launch. Grok-0, a 33B prototype mentioned in the announcement, was never released and has no record. No predecessor relation: first public xAI model."
+}

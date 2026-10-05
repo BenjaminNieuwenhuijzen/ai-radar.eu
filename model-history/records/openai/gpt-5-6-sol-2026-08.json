@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-5-6-sol-2026-08",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-5-6-sol-2026-08",
+  "name": "GPT-5.6 Sol (August 2026 revision)",
+  "aliases": [
+    {
+      "text": "updated GPT-5.6 Sol",
+      "match": "candidate"
+    },
+    {
+      "text": "GPT-5.6 Sol",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-sol",
+  "generation": "5.6",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "A ChatGPT-only version. OpenAI’s API deprecations page does not cover ChatGPT, and no retirement notice for it was found on 2026-10-01. The GPT-6 Sol, GPT-6 Luna and GPT-6.1 Sol launch posts say those models were not yet available in Chat, and the GPT-6 Astra post (2026-09-03) still refers to a separate GPT-5.6 Sol version in ChatGPT Chat."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-08-06",
+      "sources": [
+        {
+          "id": "src.openai.improving-gpt-5-6-sol-in-chatgpt",
+          "locator": "Safety and availability"
+        },
+        {
+          "id": "src.openai.gpt-5-6-august-updates-system-card",
+          "locator": "Published August 6, 2026; 1. Introduction"
+        },
+        {
+          "id": "src.openai.chatgpt-whats-new",
+          "locator": "August 3–7, 2026: Choose how GPT-5.6 responds in ChatGPT"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "openai.gpt-5-6-sol",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.improving-gpt-5-6-sol-in-chatgpt",
+          "locator": "first paragraphs; Safety and availability"
+        },
+        {
+          "id": "src.openai.gpt-5-6-august-updates-system-card",
+          "locator": "1. Introduction"
+        }
+      ],
+      "note": "OpenAI announced an updated GPT-5.6 Sol for ChatGPT Chat in a dedicated post; the system card separates this August version from the July version that stayed in Codex and ChatGPT Work."
+    }
+  ],
+  "summary": {
+    "text": "The August 2026 revision of GPT-5.6 Sol is an updated version of that OpenAI reasoning model, released on 6 August 2026 under the same name for ChatGPT conversations only; Codex and ChatGPT Work kept the July version. One model serves both Instant responses and deeper reasoning, and OpenAI says it gives more reliable facts and more focused answers.",
+    "sources": [
+      {
+        "id": "src.openai.improving-gpt-5-6-sol-in-chatgpt"
+      },
+      {
+        "id": "src.openai.gpt-5-6-august-updates-system-card"
+      },
+      {
+        "id": "src.openai.chatgpt-whats-new"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "thinking-slider",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-6-sol",
+      "text": "In ChatGPT, a slider lets Plus and Pro users choose how much thought the model puts into a response, and one model covers both Instant responses and deeper reasoning.",
+      "sources": [
+        {
+          "id": "src.openai.improving-gpt-5-6-sol-in-chatgpt",
+          "locator": "More consistent, from quick answers to deeper thinking"
+        }
+      ]
+    },
+    {
+      "id": "chat-only",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-6-sol",
+      "text": "Offered only in ChatGPT conversations, where it replaced GPT-5.5 Instant together with the August GPT-5.6 Luna; Codex and ChatGPT Work kept the July version.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-august-updates-system-card",
+          "locator": "1. Introduction"
+        },
+        {
+          "id": "src.openai.improving-gpt-5-6-sol-in-chatgpt",
+          "locator": "Safety and availability"
+        }
+      ]
+    },
+    {
+      "id": "answer-quality",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-6-sol",
+      "text": "OpenAI says the updated model gives more reliable facts and more focused answers.",
+      "sources": [
+        {
+          "id": "src.openai.improving-gpt-5-6-sol-in-chatgpt"
+        },
+        {
+          "id": "src.openai.chatgpt-whats-new",
+          "locator": "August 3–7, 2026: Choose how GPT-5.6 responds in ChatGPT"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.improving-gpt-5-6-sol-in-chatgpt",
+            "locator": "More consistent, from quick answers to deeper thinking"
+          },
+          {
+            "id": "src.openai.gpt-5-6-august-updates-system-card",
+            "locator": "1. Introduction"
+          }
+        ],
+        "note": "Plus and Pro users get a slider to choose how much thought the model puts into a response; the same model serves Instant responses and deeper reasoning."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.improving-gpt-5-6-sol-in-chatgpt",
+          "locator": "Safety and availability"
+        },
+        {
+          "id": "src.openai.gpt-5-6-august-updates-system-card",
+          "locator": "1. Introduction"
+        }
+      ]
+    }
+  },
+  "notes": "Released under the unchanged name GPT-5.6 Sol; the parenthetical in name is an editorial disambiguation (the August Updates system card distinguishes the versions by month of release). OpenAI says this version is optimized for everyday chats and only available in the Chat experience; the version in ChatGPT Work and Codex did not change. Together with the ChatGPT default switch to GPT-5.6 Luna for Free and Go users it replaced GPT-5.5 Instant in ChatGPT. Image input is covered by the system card’s vision evaluations. On the same day the API changelog says the chat-latest snapshot was updated to point to the latest model in ChatGPT for Plus and Pro users; chat-latest is a moving alias and is not listed. The openai.com post was read through a Wayback Machine capture."
+}

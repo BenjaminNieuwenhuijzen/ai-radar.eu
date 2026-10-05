@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v4-pro",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v4-pro",
+  "name": "DeepSeek-V4-Pro",
+  "aliases": [
+    {
+      "text": "DeepSeek-V4-Pro (Preview)",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-V4-Pro-Preview",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-V4-Pro",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek V4 Pro",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek-V4",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek V4",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek-V4-Pro-DSpark",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-pro",
+  "generation": "4",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.hf-deepseek-v4-pro",
+        "locator": "Model Downloads; License"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2026-08-13"
+      }
+    ],
+    "note": "Preview weights remain downloadable from the deepseek-ai Hugging Face organisation. In the DeepSeek API the model name deepseek-v4-pro has served the GA release DeepSeek-V4-Pro-0813 since 2026-08-13."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v4-pro-0813",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2026-08-13"
+      },
+      {
+        "id": "src.deepseek.hf-deepseek-v4-pro-0813",
+        "locator": "Introduction"
+      }
+    ],
+    "note": "In the DeepSeek API, app and web: the GA release took over the model name deepseek-v4-pro on 2026-08-13; its card says it supersedes the preview."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-04-24",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-preview"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-04-24"
+        },
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "General Information: Release date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "deepseek.deepseek-v3-2",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro",
+          "locator": "Introduction; Base Model evaluation"
+        },
+        {
+          "id": "src.deepseek.deepseek-v4-technical-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Editorial link along the DeepSeek-V line: the V4 card and report compare efficiency and base-model results with DeepSeek-V3.2, and the report abstract speaks of unnamed predecessors, but no source names V4-Pro the successor of V3.2."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V4-Pro is an open-weights Mixture-of-Experts language model with 1.6T total and 49B active parameters, released on 2026-04-24 as the preview of the DeepSeek-V4 series alongside DeepSeek-V4-Flash. It was offered in the DeepSeek API, the web chat and on Hugging Face under the MIT License, with a 1M-token context and three reasoning modes.",
+    "sources": [
+      {
+        "id": "src.deepseek.news-v4-preview"
+      },
+      {
+        "id": "src.deepseek.hf-deepseek-v4-pro",
+        "locator": "Introduction; Model Downloads; License"
+      },
+      {
+        "id": "src.deepseek.deepseek-v4-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "hybrid-attention",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-2",
+      "text": "Introduces hybrid attention (Compressed Sparse Attention plus Heavily Compressed Attention), Manifold-Constrained Hyper-Connections and training with the Muon optimizer.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "long-context-efficiency",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-2",
+      "text": "At a 1M-token context it needs about 27% of the single-token inference FLOPs and 10% of the KV cache of DeepSeek-V3.2, according to DeepSeek.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "parameters",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "deepseek.deepseek-v3-2",
+      "text": "1.6T total and 49B activated parameters, against 671B total and 37B activated for DeepSeek-V3.2-Base in the card's base-model table.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro",
+          "locator": "Base Model evaluation"
+        }
+      ]
+    },
+    {
+      "id": "one-million-context",
+      "aspect": "context-length",
+      "relativeTo": "deepseek.deepseek-v3-2",
+      "text": "Supports a 1M-token context, which DeepSeek made the default across its official services with V4.",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-preview"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "Model properties: Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "Model properties: Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.hf-deepseek-v4-pro",
+            "locator": "Instruct Model: reasoning effort modes"
+          },
+          {
+            "id": "src.deepseek.news-v4-preview",
+            "locator": "API is Available Today"
+          },
+          {
+            "id": "src.deepseek.deepseek-v4-model-card",
+            "locator": "Model properties: Modalities"
+          }
+        ],
+        "note": "Non-think, Think High and Think Max modes; the API offers thinking and non-thinking modes."
+      },
+      {
+        "key": "long-context",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.news-v4-preview"
+          },
+          {
+            "id": "src.deepseek.hf-deepseek-v4-pro",
+            "locator": "Introduction"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro",
+          "locator": "Model Downloads"
+        },
+        {
+          "id": "src.deepseek.news-v4-preview"
+        },
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "Model properties: Context length"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 1600000000000,
+      "asStated": "1.6T total / 49B active",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-preview"
+        },
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro",
+          "locator": "Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "Model properties: Total model size"
+        }
+      ],
+      "note": "Mixture-of-Experts: 1.6T total parameters, 49B activated per token."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro",
+          "locator": "License"
+        },
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "Methods of distribution and licenses"
+        },
+        {
+          "id": "src.deepseek.news-v4-preview"
+        }
+      ],
+      "note": "Weights and code under the MIT License."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-preview"
+        },
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "Methods of distribution and licenses"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "base",
+      "name": "DeepSeek-V4-Pro-Base",
+      "aliases": [
+        {
+          "text": "DeepSeek-V4-Pro-Base",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro",
+          "locator": "Model Downloads"
+        }
+      ],
+      "note": "Pre-trained base checkpoint (FP8 mixed precision), listed with the preview release at https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-Base."
+    }
+  ],
+  "notes": "Released as a preview together with DeepSeek-V4-Flash; the card and report call it the preview version of the DeepSeek-V4 series, the 0731 and 0813 cards call it DeepSeek-V4-Pro (Preview) and the change log V4-Pro-Preview. At launch the web chat offered V4 via Expert Mode and Instant Mode; which model serves which mode is not stated. The DeepSeek-V4-Pro-DSpark repository on Hugging Face is not a new model: its card says it is the same checkpoint with a speculative decoding module attached. The V4 model card PDF and the arXiv report (v1 submitted 2026-04-26) cover both V4 models."
+}

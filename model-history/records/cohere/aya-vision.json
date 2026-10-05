@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.aya-vision",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "aya-vision",
+  "name": "Aya Vision",
+  "aliases": [
+    {
+      "text": "Aya Vision",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.aya",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Aya table: c4ai-aya-vision-32b, Live"
+      },
+      {
+        "id": "src.cohere.aya-vision-8b-model-card"
+      },
+      {
+        "id": "src.cohere.aya-vision-32b-model-card"
+      }
+    ],
+    "note": "The 32B model is Live on the Cohere API; the 8B model was retired from the API on 2026-04-04, but the weights of both sizes remain downloadable from Cohere Labs on Hugging Face."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-03-04",
+      "sources": [
+        {
+          "id": "src.cohere.aya-vision-announcement",
+          "locator": "date line; closing availability paragraph"
+        },
+        {
+          "id": "src.cohere.changelog-aya-vision",
+          "locator": "March 4, 2025"
+        }
+      ],
+      "note": "Both pages show 4 March 2025; the blog's datePublished metadata is 2025-03-03 20:43 US Eastern time."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "8b-api-retired",
+      "label": "Aya Vision 8B retired from the Cohere API",
+      "date": {
+        "value": "2026-04-04",
+        "sources": [
+          {
+            "id": "src.cohere.deprecations",
+            "locator": "2026-04-04: Embed v2.0, Aya Expanse 8B"
+          },
+          {
+            "id": "src.cohere.changelog-aya-8b-retirement"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "cohere.aya-expanse",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.cohere.aya-vision-32b-model-card",
+          "locator": "Model Details: Model Architecture"
+        }
+      ],
+      "note": "Applies to Aya Vision 32B: its language model is Aya Expanse 32B, paired with a vision encoder through a multimodal adapter."
+    },
+    {
+      "type": "derived-from",
+      "target": "cohere.command-r7b",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.cohere.aya-vision-8b-model-card",
+          "locator": "Model Details: Model Architecture"
+        }
+      ],
+      "note": "Applies to Aya Vision 8B: its language model is based on Command R7B, further post-trained with the Aya Expanse recipe and paired with a vision encoder through a multimodal adapter."
+    }
+  ],
+  "summary": {
+    "text": "Aya Vision is a multilingual vision-language model from Cohere For AI (now Cohere Labs) that takes text and images and produces text in 23 languages, released in 8B and 32B sizes as open weights, on the Cohere platform and through WhatsApp. The 32B model is built on Aya Expanse 32B, the 8B model on Command R7B.",
+    "sources": [
+      {
+        "id": "src.cohere.aya-vision-announcement"
+      },
+      {
+        "id": "src.cohere.aya-vision-8b-model-card",
+        "locator": "Model Details: Model Architecture"
+      },
+      {
+        "id": "src.cohere.aya-vision-32b-model-card",
+        "locator": "Model Details: Model Architecture"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "cohere.aya-expanse",
+      "text": "Adds image input: Aya Vision accepts text and images, while Aya Expanse takes text only.",
+      "sources": [
+        {
+          "id": "src.cohere.aya-vision-32b-model-card",
+          "locator": "Model Details: Input"
+        },
+        {
+          "id": "src.cohere.aya-expanse-32b-model-card",
+          "locator": "Model Details: Input"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-vision-8b-model-card",
+          "locator": "Model Details: Input"
+        },
+        {
+          "id": "src.cohere.aya-vision-32b-model-card",
+          "locator": "Model Details: Input"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Aya table: Modality Text, Images"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-vision-8b-model-card",
+          "locator": "Model Details: Output"
+        },
+        {
+          "id": "src.cohere.aya-vision-32b-model-card",
+          "locator": "Model Details: Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.aya-vision-announcement",
+            "locator": "second paragraph"
+          },
+          {
+            "id": "src.cohere.aya-vision-32b-model-card",
+            "locator": "Model Details: Languages covered"
+          }
+        ],
+        "note": "23 languages."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 16000,
+      "asStated": "16K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-vision-8b-model-card",
+          "locator": "Context length"
+        },
+        {
+          "id": "src.cohere.aya-vision-32b-model-card",
+          "locator": "Context length"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Aya table: c4ai-aya-vision-32b and c4ai-aya-vision-8b"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-vision-announcement",
+          "locator": "Open-weights and research access"
+        },
+        {
+          "id": "src.cohere.aya-vision-8b-model-card"
+        },
+        {
+          "id": "src.cohere.aya-vision-32b-model-card"
+        }
+      ],
+      "note": "Released under CC-BY-NC with Cohere Labs' Acceptable Use Policy; download is gated behind accepting the conditions."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-vision-announcement",
+          "locator": "Open-weights and research access; closing availability paragraph"
+        }
+      ],
+      "note": "Cohere platform, Kaggle and Hugging Face at release, plus free access through WhatsApp."
+    }
+  },
+  "variants": [
+    {
+      "id": "8b",
+      "name": "Aya Vision 8B",
+      "aliases": [
+        {
+          "text": "Aya Vision 8B",
+          "match": "auto"
+        },
+        {
+          "text": "c4ai-aya-vision-8b",
+          "match": "auto"
+        },
+        {
+          "text": "aya-vision-8b",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 8000000000,
+          "asStated": "8 billion parameters",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.cohere.aya-vision-8b-model-card",
+              "locator": "Model Size"
+            },
+            {
+              "id": "src.cohere.aya-vision-announcement",
+              "locator": "Open-weights and research access"
+            }
+          ]
+        }
+      },
+      "lifecycle": {
+        "value": "available",
+        "sources": [
+          {
+            "id": "src.cohere.aya-vision-8b-model-card"
+          },
+          {
+            "id": "src.cohere.deprecations",
+            "locator": "2026-04-04: Embed v2.0, Aya Expanse 8B"
+          }
+        ],
+        "note": "Weights still downloadable from Cohere Labs on Hugging Face; the API model c4ai-aya-vision-8b was retired on 2026-04-04."
+      },
+      "sources": [
+        {
+          "id": "src.cohere.aya-vision-8b-model-card"
+        },
+        {
+          "id": "src.cohere.aya-vision-announcement"
+        },
+        {
+          "id": "src.cohere.aya-vision-technical-report",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "id": "32b",
+      "name": "Aya Vision 32B",
+      "aliases": [
+        {
+          "text": "Aya Vision 32B",
+          "match": "auto"
+        },
+        {
+          "text": "c4ai-aya-vision-32b",
+          "match": "auto"
+        },
+        {
+          "text": "aya-vision-32b",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 32000000000,
+          "asStated": "32 billion parameters",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.cohere.aya-vision-32b-model-card",
+              "locator": "Model Size"
+            },
+            {
+              "id": "src.cohere.aya-vision-announcement",
+              "locator": "Open-weights and research access"
+            }
+          ]
+        }
+      },
+      "lifecycle": {
+        "value": "available",
+        "sources": [
+          {
+            "id": "src.cohere.models-overview",
+            "locator": "Aya table: c4ai-aya-vision-32b, Live"
+          },
+          {
+            "id": "src.cohere.aya-vision-32b-model-card"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "src.cohere.aya-vision-32b-model-card"
+        },
+        {
+          "id": "src.cohere.aya-vision-announcement"
+        },
+        {
+          "id": "src.cohere.aya-vision-technical-report",
+          "locator": "Abstract"
+        }
+      ]
+    }
+  ],
+  "notes": "Two sizes released together (8B and 32B), recorded as inline variants; they are built on different language models (see relations). Both use a SigLIP2-patch14-384 vision encoder, a third-party component that is not recorded as a relation. Announced by Cohere For AI, Cohere's research arm, since renamed Cohere Labs. The Aya 23 model cards call Aya Vision a multimodal variant in the Aya line, and the announcement says Aya Vision builds on Aya Expanse. The announcement says open weights for our 8b and 35b models in one place, an apparent slip for 32B. A technical report followed on arXiv in May 2025."
+}

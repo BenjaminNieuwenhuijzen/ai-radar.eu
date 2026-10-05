@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.muse-spark-1-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "muse-spark-1-3",
+  "name": "Muse Spark 1.3",
+  "aliases": [
+    {
+      "text": "Muse Spark 1.3",
+      "match": "auto"
+    },
+    {
+      "text": "muse-spark-1.3",
+      "match": "auto"
+    },
+    {
+      "text": "muse-spark-1.3-contributor",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.muse",
+  "generation": "1.3",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.meta.model-api-models",
+        "locator": "Available Muse Spark models"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-09-02",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-1-3-blog"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "meta.muse-spark-1-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Muse Spark"
+        },
+        {
+          "id": "src.meta.muse-spark-1-3-blog",
+          "locator": "Coding"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Muse Spark 1.3 is a multimodal reasoning model in Meta's Muse series, offered in the Meta Model API and the Muse Code terminal agent. Meta says it improves agentic and coding work and is easier to use; it adds a max reasoning effort level on the Standard tier, and the API docs say its audio understanding is not fully supported.",
+    "sources": [
+      {
+        "id": "src.meta.muse-spark-1-3-blog"
+      },
+      {
+        "id": "src.meta.model-api-reasoning",
+        "locator": "Max reasoning"
+      },
+      {
+        "id": "src.meta.model-api-models",
+        "locator": "Available Muse Spark models"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "max-reasoning",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "meta.muse-spark-1-2",
+      "text": "Adds a max reasoning effort level beyond xhigh, available on the Standard tier only.",
+      "sources": [
+        {
+          "id": "src.meta.model-api-reasoning",
+          "locator": "Max reasoning"
+        },
+        {
+          "id": "src.meta.muse-spark-1-3-blog",
+          "locator": "second paragraph"
+        }
+      ]
+    },
+    {
+      "id": "fewer-turns",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "meta.muse-spark-1-2",
+      "text": "Meta says that in comparisons by its engineers it took fewer turns, tool calls and tokens and was less verbose than Muse Spark 1.2 in coding work.",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-1-3-blog",
+          "locator": "Coding"
+        }
+      ]
+    },
+    {
+      "id": "collaboration",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "meta.muse-spark-1-2",
+      "text": "Trained to ask clarifying questions on ambiguous prompts, ask for help when stuck and confirm before consequential actions.",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-1-3-blog"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "aspect": "modality",
+      "direction": "changed",
+      "relativeTo": "meta.muse-spark-1-2",
+      "text": "Audio input is not fully supported and may give degraded responses; the API docs recommend Muse Spark 1.2 for audio.",
+      "sources": [
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Available Muse Spark models"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Available Muse Spark models"
+        }
+      ],
+      "note": "The docs also list PDF input, and say audio understanding in 1.3 is not fully supported and may give degraded responses."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Available Muse Spark models"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Available Muse Spark models"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.meta.model-api-reasoning",
+            "locator": "Max reasoning"
+          },
+          {
+            "id": "src.meta.muse-spark-1-3-blog",
+            "locator": "second paragraph"
+          }
+        ],
+        "note": "Reasoning model with adjustable reasoning_effort; adds a max level beyond xhigh on the Standard tier; reasoning cannot be disabled."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.meta.muse-spark-1-3-blog",
+            "locator": "Agentic Workflows"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Meta."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-1-3-blog",
+          "locator": "Availability"
+        }
+      ],
+      "note": "Available in the Meta Model API and in the Muse Code terminal agent."
+    }
+  },
+  "notes": "Default model in the Model API docs examples. The max reasoning level is an effort setting (Standard tier only), not a variant; muse-spark-1.3-contributor is a discounted pricing tier of the same model."
+}

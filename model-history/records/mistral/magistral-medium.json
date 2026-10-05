@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.magistral-medium",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "magistral-medium",
+  "name": "Magistral Medium",
+  "aliases": [
+    {
+      "text": "Magistral Medium 1.0",
+      "match": "auto"
+    },
+    {
+      "text": "magistral-medium-2506",
+      "match": "auto"
+    },
+    {
+      "text": "Magistral Medium",
+      "match": "candidate"
+    },
+    {
+      "text": "Magistral",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.magistral",
+  "generation": "1.0",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Magistral Medium 1.0 (magistral-medium-2506)"
+      },
+      {
+        "id": "src.mistral.magistral-medium-1-0-docs",
+        "locator": "status Retired"
+      }
+    ],
+    "note": "The docs models overview and the docs model page show the API model as retired on 2025-11-30; no weights were published. On 2026-10-01 the Legal Center lifecycle table still showed status Active, with October 31, 2025 as retirement date."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-medium-3-5",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Magistral Medium 1.0, Alternative"
+      },
+      {
+        "id": "src.mistral.magistral-medium-1-0-docs",
+        "locator": "Replacement"
+      }
+    ],
+    "note": "Replacement named for the API model when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-06-10",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-announcement",
+          "locator": "page date; Availability"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "June 10, 2025"
+        },
+        {
+          "id": "src.mistral.magistral-medium-1-0-docs",
+          "locator": "release date"
+        }
+      ],
+      "note": "Offered as a preview version in Le Chat and on La Plateforme at release."
+    },
+    "deprecated": {
+      "value": "2025-10-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Magistral Medium 1.0 (magistral-medium-2506)"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Magistral Medium 1.0 (magistral-medium-2506)"
+        },
+        {
+          "id": "src.mistral.magistral-medium-1-0-docs",
+          "locator": "Retirement date"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2025-10-31",
+          "sources": [
+            {
+              "id": "src.mistral.legal-magistral-medium-1",
+              "locator": "Model Lifecycle table, Retirement Date"
+            }
+          ],
+          "note": "The Mistral Legal Center lifecycle table gives October 31, 2025 as retirement date, the date the docs models overview lists as deprecation date."
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "mistral.mistral-medium-3",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-paper",
+          "locator": "abstract"
+        }
+      ],
+      "note": "Trained for reasoning on top of Mistral Medium 3 with reinforcement learning alone, without a supervised cold start."
+    }
+  ],
+  "summary": {
+    "text": "Magistral Medium is the enterprise variant of Magistral, which Mistral AI calls its first reasoning model, trained with reinforcement learning on top of Mistral Medium 3. It launched as a preview in Le Chat and via API on La Plateforme and Amazon SageMaker; Mistral AI highlights reasoning in the user's language with a traceable thought process.",
+    "sources": [
+      {
+        "id": "src.mistral.magistral-announcement"
+      },
+      {
+        "id": "src.mistral.magistral-paper"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "reasoning",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "mistral.mistral-medium-3",
+      "text": "Adds step-by-step reasoning, trained with reinforcement learning alone on top of Mistral Medium 3.",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-paper",
+          "locator": "abstract"
+        }
+      ]
+    },
+    {
+      "id": "context-40k",
+      "aspect": "context-length",
+      "direction": "decreased",
+      "relativeTo": "mistral.mistral-medium-3",
+      "text": "The docs list a 40k context window, against 128k for Mistral Medium 3.",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-0-docs",
+          "locator": "Context"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-docs",
+          "locator": "Context"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-0-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-0-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 40000,
+      "asStated": "40k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-0-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Mistral AI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-announcement",
+          "locator": "Availability"
+        }
+      ],
+      "note": "Preview in Le Chat and on La Plateforme at launch, also on Amazon SageMaker; IBM watsonx, Azure AI and Google Cloud Marketplace announced as coming."
+    }
+  },
+  "notes": "Named Magistral Medium at release; the docs and the Legal Center now call it Magistral Medium 1.0 (version 25.06). Announced together with Magistral Small as Mistral AI's first reasoning model."
+}

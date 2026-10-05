@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-4-6",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-4-6",
+  "name": "Grok 4.6",
+  "aliases": [
+    {
+      "text": "Grok 4.6",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.6",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "4.6",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.xai.grok-4-6-docs",
+        "locator": "Details"
+      },
+      {
+        "id": "src.xai.models-overview",
+        "locator": "Text API Pricing"
+      }
+    ],
+    "note": "Listed as a current API model with pricing when checked on 2026-10-01; not named in any xAI retirement guide."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-08-12",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-6-announcement",
+          "locator": "first paragraph; Get started with Grok 4.6"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "August: Grok 4.6"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-4-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-6-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.xai.grok-4-6-model-card",
+          "locator": "1 Introduction"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Grok 4.6 is a language model in xAI's Grok line for text and image input, released on 12 August 2026 on the xAI API, in Cursor and Grok Build, and later on Amazon Bedrock, Google's Model Garden and Microsoft Foundry. xAI says it builds on Grok 4.5 with a focus on long-running agents and interactive and visual work; consumer app support is planned for later.",
+    "sources": [
+      {
+        "id": "src.xai.grok-4-6-announcement"
+      },
+      {
+        "id": "src.xai.grok-4-6-model-card",
+        "locator": "1 Introduction"
+      },
+      {
+        "id": "src.xai.grok-4-6-amazon-bedrock"
+      },
+      {
+        "id": "src.xai.grok-4-6-vertex-ai"
+      },
+      {
+        "id": "src.xai.grok-4-6-microsoft-foundry"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "supplemental-training",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4-5",
+      "text": "Longer supplemental training with curated model-generated reasoning and engineering data and an improved optimizer; Grok 4.5 was used to regenerate its fine-tuning trajectories.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-6-model-card"
+        }
+      ]
+    },
+    {
+      "id": "rl-environments",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4-5",
+      "text": "Reinforcement learning extended to environments for kernel optimization, web development and computer-aided design.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-6-announcement"
+        }
+      ]
+    },
+    {
+      "id": "xhigh-effort",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "xai.grok-4-5",
+      "text": "Adds an xhigh reasoning effort level; Grok 4.5 launched with low, medium and high.",
+      "sources": [
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "August: Grok 4.6; July: Grok 4.5"
+        }
+      ]
+    },
+    {
+      "id": "safeguards",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4-5",
+      "text": "xAI says it improved and recalibrated the safeguards and ran a wider pre-deployment test suite than before.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-6-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-6-docs",
+          "locator": "At a glance: Modalities"
+        },
+        {
+          "id": "src.xai.grok-4-6-model-card",
+          "locator": "1.1 Overview, list of channels"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "August: Grok 4.6"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-6-docs",
+          "locator": "At a glance: Modalities"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "August: Grok 4.6"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 500000,
+      "asStated": "500,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-6-docs",
+          "locator": "At a glance: Context window"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "August: Grok 4.6"
+        }
+      ],
+      "note": "The release notes say 500k. Requests above 200K prompt tokens are billed at a higher rate."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "No parameter count stated. The model card calls Grok 4.6 the latest release in SpaceXAI's 1.5T-scale model family without saying what the figure measures."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-6-announcement",
+          "locator": "Get started with Grok 4.6"
+        },
+        {
+          "id": "src.xai.grok-4-6-amazon-bedrock"
+        },
+        {
+          "id": "src.xai.grok-4-6-vertex-ai"
+        },
+        {
+          "id": "src.xai.grok-4-6-microsoft-foundry"
+        }
+      ],
+      "note": "Also offered in Cursor and in xAI's Grok Build coding agent. The model card says xAI plans to add Grok 4.6 to its consumer web and mobile apps and to X at a later date; no primary source checked confirms that this happened, so consumer-app is left out."
+    }
+  },
+  "notes": "The model card describes Grok 4.6 as developed in collaboration with Cursor and trained in part on anonymized Cursor workflow data; recorded as a note only, Cursor is not an organisation here. The announcement mentions a fast variant at twice the price without naming it; it is not recorded as a variant or alias (the docs name only Grok 4.7 Fast). Reasoning efforts: low, medium, high (default) and xhigh. xAI also announced Grok 4.6 in GitHub Copilot on 2026-08-14 (x.ai/news/grok-4-6-github-copilot)."
+}

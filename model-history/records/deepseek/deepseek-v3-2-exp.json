@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v3-2-exp",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v3-2-exp",
+  "name": "DeepSeek-V3.2-Exp",
+  "aliases": [
+    {
+      "text": "DeepSeek-V3.2-Exp",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V3.2 Exp",
+      "match": "auto"
+    },
+    {
+      "text": "V3.2-Exp",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-v",
+  "generation": "3.2",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-2-exp-hf",
+        "locator": "License"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-12-01"
+      }
+    ],
+    "note": "Weights are still public on DeepSeek's Hugging Face organisation under the MIT License. In the DeepSeek API it was replaced by DeepSeek-V3.2 on 2025-12-01."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v3-2",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-12-01"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-2-announcement"
+      }
+    ],
+    "note": "In the DeepSeek API only: both API model names were upgraded to DeepSeek-V3.2, which DeepSeek calls the official successor to V3.2-Exp. The weights stay available."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-09-29",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-exp-announcement",
+          "locator": "page header 2025/09/29"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-09-29"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "deepseek.deepseek-v3-1-terminus",
+      "method": "continued-pretraining",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-exp-report",
+          "locator": "Abstract; 1. Architecture; 2. Training"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-2-exp-announcement"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-2-exp-hf",
+          "locator": "Introduction"
+        }
+      ],
+      "note": "Continued pre-training from a DeepSeek-V3.1-Terminus base checkpoint (context extended to 128K) to add DeepSeek Sparse Attention, followed by post-training."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V3.2-Exp is an experimental language model in DeepSeek's V line, released on 29 September 2025 in the app, web chat and API, with open weights under the MIT License. It adds DeepSeek Sparse Attention to DeepSeek-V3.1-Terminus, and DeepSeek describes it as an intermediate step toward its next-generation architecture.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-2-exp-announcement"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-2-exp-hf",
+        "locator": "Introduction; License"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-2-exp-report",
+        "locator": "Abstract"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "sparse-attention",
+      "aspect": "architecture",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v3-1-terminus",
+      "text": "Adds DeepSeek Sparse Attention, a fine-grained sparse attention mechanism with a lightning indexer; DeepSeek says this is the only architectural change.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-exp-report",
+          "locator": "1. Architecture"
+        }
+      ]
+    },
+    {
+      "id": "long-context-efficiency",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-1-terminus",
+      "text": "DeepSeek says sparse attention makes long-context training and inference more efficient; it cut API prices by more than 50 percent with this release.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-exp-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.api-change-log",
+            "locator": "Date: 2025-09-29"
+          }
+        ],
+        "note": "Thinking and non-thinking modes, served as deepseek-reasoner and deepseek-chat."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-exp-announcement",
+          "locator": "Open Source Release"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-2-exp-hf",
+          "locator": "License"
+        }
+      ],
+      "note": "MIT License for the repository and the weights."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-exp-announcement"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "deepseek-v3-2-exp-base",
+      "name": "DeepSeek-V3.2-Exp-Base",
+      "aliases": [
+        {
+          "text": "DeepSeek-V3.2-Exp-Base",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-exp-base-hf"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-2-exp-hf",
+          "locator": "base_model metadata"
+        }
+      ],
+      "note": "Base weights after continued pre-training; the DeepSeek-V3.2-Exp model card names it as its base model."
+    }
+  ],
+  "notes": "DeepSeek calls it an experimental model and an intermediate step toward its next-generation architecture. The tech report gives 128K as the context length of the V3.1-Terminus base checkpoint it started from but does not state the context window or parameter count of V3.2-Exp itself, so both are left out. The Hugging Face repository for the base weights was created on 2025-09-29, which no DeepSeek page states in text."
+}

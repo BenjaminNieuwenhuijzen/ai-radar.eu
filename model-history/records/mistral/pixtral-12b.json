@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.pixtral-12b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "pixtral-12b",
+  "name": "Pixtral 12B",
+  "aliases": [
+    {
+      "text": "Pixtral 12B",
+      "match": "auto"
+    },
+    {
+      "text": "pixtral-12b-2409",
+      "match": "auto"
+    },
+    {
+      "text": "pixtral-12b",
+      "match": "candidate"
+    },
+    {
+      "text": "Pixtral",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.pixtral",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-pixtral-12b-2409"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Pixtral 12B"
+      }
+    ],
+    "note": "Apache 2.0 weights remain downloadable from the mistralai Hugging Face organisation; the API endpoint pixtral-12b-2409 was deprecated on 2025-12-02 and retired on 2025-12-31."
+  },
+  "replacedBy": {
+    "modelId": "mistral.ministral-3",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Pixtral 12B, Alternative"
+      },
+      {
+        "id": "src.mistral.docs-pixtral-12b-24-09",
+        "locator": "Replacement"
+      }
+    ],
+    "note": "Mistral names Ministral 3 14B, a variant of the Ministral 3 record."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-09-17",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-12b-announcement",
+          "locator": "page date; Use"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "September 17, 2024"
+        },
+        {
+          "id": "src.mistral.ai-in-abundance-announcement",
+          "locator": "Eye of the Tiger - Pixtral on le Chat"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2024-09-11",
+          "sources": [
+            {
+              "id": "src.mistral.docs-pixtral-12b-24-09",
+              "locator": "release date"
+            }
+          ],
+          "note": "Date on the docs model page. The blog post and the changelog give 2024-09-17 for the release on la Plateforme and le Chat."
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-12-02",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Pixtral 12B"
+        },
+        {
+          "id": "src.mistral.docs-pixtral-12b-24-09",
+          "locator": "Deprecation date"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-12-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Pixtral 12B"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "mistral.mistral-nemo",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-12b-announcement",
+          "locator": "Pixtral 12B in short: Architecture"
+        },
+        {
+          "id": "src.mistral.pixtral-12b-paper",
+          "locator": "section 2.1"
+        }
+      ],
+      "note": "The 12B multimodal decoder is built on Mistral Nemo 12B and paired with a new 400M vision encoder trained from scratch; the technical report says Mistral-Nemo 12B-Instruct initialised the decoder in its ablations."
+    }
+  ],
+  "summary": {
+    "text": "Pixtral 12B is a multimodal model from Mistral AI that takes images and text and outputs text, combining a new 400M-parameter vision encoder with a 12B decoder based on Mistral Nemo. It was released under Apache 2.0 and offered on la Plateforme as pixtral-12b-2409 and in le Chat, and processes images at their native resolution within a 128k-token context window.",
+    "sources": [
+      {
+        "id": "src.mistral.pixtral-12b-announcement"
+      },
+      {
+        "id": "src.mistral.pixtral-12b-paper"
+      },
+      {
+        "id": "src.mistral.docs-pixtral-12b-24-09",
+        "locator": "Modalities"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "mistral.mistral-nemo",
+      "text": "Adds image input through a new 400M-parameter vision encoder trained from scratch; images are processed at their native resolution and aspect ratio.",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-12b-announcement"
+        }
+      ]
+    },
+    {
+      "id": "nemo-decoder",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-nemo",
+      "text": "Pairs that encoder with a 12B multimodal decoder built on Mistral Nemo; Mistral says it keeps text-only capabilities and can replace Mistral Nemo 12B as a drop-in.",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-12b-announcement"
+        },
+        {
+          "id": "src.mistral.pixtral-12b-paper",
+          "locator": "section 2.1"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-pixtral-12b-24-09",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.pixtral-12b-announcement",
+          "locator": "Pixtral 12B in short"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-pixtral-12b-24-09",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-12b-announcement",
+          "locator": "Use; mistral-inference"
+        },
+        {
+          "id": "src.mistral.hf-pixtral-12b-2409"
+        }
+      ],
+      "note": "Apache 2.0."
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-12b-announcement",
+          "locator": "Architecture"
+        },
+        {
+          "id": "src.mistral.docs-pixtral-12b-24-09",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 12000000000,
+      "asStated": "12B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-12b-announcement",
+          "locator": "Pixtral 12B in short: Architecture"
+        },
+        {
+          "id": "src.mistral.hf-pixtral-12b-2409",
+          "locator": "Key features"
+        },
+        {
+          "id": "src.mistral.docs-pixtral-12b-24-09",
+          "locator": "Weights table"
+        }
+      ],
+      "note": "12B multimodal decoder plus a 400M-parameter vision encoder."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-12b-announcement",
+          "locator": "How to run Pixtral?"
+        }
+      ]
+    }
+  },
+  "notes": "First Pixtral model; Mistral later calls Pixtral Large the second model in its multimodal family. Release date conflict: blog and changelog 2024-09-17, docs page 2024-09-11 (kept as an alternative, not as announced, to avoid an announced date that rests only on a docs date). The Hugging Face repository Pixtral-12B-2409 was created on 2024-09-11 (a lead only). The announcement page now has the HTML title [Deprecated] Pixtral 12B."
+}

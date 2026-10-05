@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "id": "huggingface.zephyr-141b-a35b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "zephyr-141b-a35b",
+  "name": "Zephyr 141B-A35B",
+  "aliases": [
+    {
+      "text": "Zephyr 141B-A35B",
+      "match": "auto"
+    },
+    {
+      "text": "Zephyr 141B-A39B",
+      "match": "auto"
+    },
+    {
+      "text": "Zephyr 141B",
+      "match": "auto"
+    },
+    {
+      "text": "zephyr-orpo-141b-A35b-v0.1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "huggingface",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "huggingface.zephyr",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.huggingface.zephyr-141b-model-card",
+        "locator": "Hub repository HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1, Files and versions"
+      }
+    ],
+    "note": "Weights are downloadable from the HuggingFaceH4 organisation on the Hub. Hugging Face publishes no deprecation page for its models."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-04-12",
+      "sources": [
+        {
+          "id": "src.huggingface.alignment-handbook",
+          "locator": "README, News: April 12, 2024"
+        },
+        {
+          "id": "src.huggingface.zephyr-141b-model-card",
+          "locator": "Hub commit history"
+        }
+      ],
+      "note": "The model card was written on 2024-04-11 in a repository created on 2024-04-10; the handbook news gives April 12, 2024 as the release."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "huggingface.zephyr-7b-gemma",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-141b-model-card",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.huggingface.alignment-handbook",
+          "locator": "README, News"
+        }
+      ],
+      "note": "The card calls it the latest model in the Zephyr series; the handbook news lists Zephyr 7B Gemma as the preceding Zephyr release."
+    },
+    {
+      "type": "derived-from",
+      "target": "mistral.mixtral-8x22b",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-141b-model-card"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Zephyr 141B-A35B is a Zephyr chat model from Hugging Face, fine-tuned from the Mixture of Experts model Mixtral 8x22B v0.1 and published as open weights under Apache 2.0. The card says Argilla, KAIST and Hugging Face trained it together to test ORPO at a larger scale; it gives 141B total and 39B active parameters, corrected from the 35B in the name.",
+    "sources": [
+      {
+        "id": "src.huggingface.zephyr-141b-model-card"
+      },
+      {
+        "id": "src.huggingface.alignment-handbook",
+        "locator": "README, News: April 12, 2024"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "huggingface.zephyr-7b-gemma",
+      "text": "A Mixture of Experts model with 141B total and 39B active parameters, against 7B for Zephyr 7B Gemma.",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-141b-model-card",
+          "locator": "Model Description, Model type"
+        },
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card",
+          "locator": "Model description, Model type"
+        }
+      ]
+    },
+    {
+      "id": "base-model",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "huggingface.zephyr-7b-gemma",
+      "text": "Built on the Mixture of Experts model Mixtral 8x22B v0.1 as base model instead of Gemma 7B.",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-141b-model-card"
+        },
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card"
+        }
+      ]
+    },
+    {
+      "id": "orpo",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "huggingface.zephyr-7b-gemma",
+      "text": "Aligned in one stage with ORPO, which needs no separate supervised fine-tuning step, on 7k synthetic multi-turn preference examples.",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-141b-model-card"
+        }
+      ]
+    },
+    {
+      "id": "licence",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "huggingface.zephyr-7b-gemma",
+      "text": "Released under the Apache 2.0 licence instead of the Gemma Terms of Use.",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-141b-model-card",
+          "locator": "Model Description, License"
+        },
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card",
+          "locator": "Model description, License"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-141b-model-card",
+          "locator": "first paragraph; Model Description"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-141b-model-card",
+          "locator": "first paragraph; Model Description"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 141000000000,
+      "asStated": "141B total parameters and 39B active parameters",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-141b-model-card",
+          "locator": "Model Description, Model type"
+        }
+      ],
+      "note": "Mixture of Experts. The model id and the first card version gave 35B active parameters; Hugging Face corrected this to 39B on 2024-04-18."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-141b-model-card",
+          "locator": "Model Description, License"
+        }
+      ],
+      "note": "Apache 2.0 licence."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-141b-model-card",
+          "locator": "Intended uses and limitations"
+        }
+      ]
+    }
+  },
+  "notes": "Name at release Zephyr 141B-A35B, as in the model card until 2024-04-18 and in the handbook news; since that correction the card heading reads Zephyr 141B-A39B. The card says the model was trained collaboratively by Argilla, KAIST and Hugging Face; the co-developers are not listed in organizations because neither organisation is registered yet. Fine-tuned with ORPO from Mixtral 8x22B v0.1 (Mistral AI weights, Hub copy mistral-community/Mixtral-8x22B-v0.1); that cross-organisation relation is not recorded here."
+}

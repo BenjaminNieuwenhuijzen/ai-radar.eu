@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-3",
+  "name": "GPT-3",
+  "aliases": [
+    {
+      "text": "GPT-3",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-3 175B",
+      "match": "auto"
+    },
+    {
+      "text": "davinci",
+      "match": "candidate"
+    },
+    {
+      "text": "curie",
+      "match": "candidate"
+    },
+    {
+      "text": "babbage",
+      "match": "candidate"
+    },
+    {
+      "text": "ada",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "3",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2023-07-06: GPT and embeddings, Base GPT models"
+      }
+    ],
+    "note": "The base GPT-3 API models ada, babbage, curie and davinci were shut down on 2024-01-04."
+  },
+  "dates": {
+    "announced": {
+      "value": "2020-05-28",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-announcement",
+          "locator": "page date"
+        },
+        {
+          "id": "src.openai.gpt-3-paper",
+          "locator": "arXiv submission history, v1"
+        }
+      ]
+    },
+    "released": {
+      "value": "2020-06-11",
+      "sources": [
+        {
+          "id": "src.openai.openai-api-announcement",
+          "locator": "page date; models with weights from the GPT-3 family"
+        }
+      ],
+      "note": "API launched in private beta; access required approval."
+    },
+    "deprecated": {
+      "value": "2023-07-06",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2023-07-06: GPT and embeddings"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2024-01-04",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2023-07-06: GPT and embeddings, Base GPT models"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-paper",
+          "locator": "section 2.1 Model and Architectures"
+        }
+      ],
+      "note": "The paper says GPT-3 uses the same model and architecture as GPT-2, except for alternating dense and locally banded sparse attention, at a much larger scale."
+    }
+  ],
+  "summary": {
+    "text": "GPT-3 is an autoregressive language model from OpenAI with 175 billion parameters, introduced in May 2020 in a paper that applies it to tasks given as text instructions or a few examples in the prompt. OpenAI offered it only through its commercial API, launched in private beta in June 2020, and shut down the base GPT-3 API models in January 2024.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-3-paper"
+      },
+      {
+        "id": "src.openai.gpt-3-announcement"
+      },
+      {
+        "id": "src.openai.openai-api-announcement"
+      },
+      {
+        "id": "src.openai.api-deprecations"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "parameters",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "openai.gpt-2",
+      "text": "175 billion parameters, against 1.5 billion for the biggest GPT-2 version.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-paper"
+        },
+        {
+          "id": "src.openai.gpt-2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "openai.gpt-2",
+      "text": "Context window doubled to 2048 tokens, from 1024 for GPT-2.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-paper"
+        },
+        {
+          "id": "src.openai.gpt-2-paper"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-2",
+      "text": "Training data adds filtered Common Crawl, two internet-based book corpora and English Wikipedia to an expanded WebText.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-model-card"
+        }
+      ]
+    },
+    {
+      "id": "api-only",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-2",
+      "text": "Offered only through the OpenAI API, with access by approval, instead of as downloadable weights.",
+      "sources": [
+        {
+          "id": "src.openai.openai-api-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.openai-api-announcement",
+          "locator": "text in, text out interface"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.openai-api-announcement",
+          "locator": "text in, text out interface"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": false,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.openai-api-announcement",
+          "locator": "FAQ: Why did OpenAI choose to release an API instead of open-sourcing the models?"
+        },
+        {
+          "id": "src.openai.gpt-3-model-card",
+          "locator": "Model Use"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 2048,
+      "asStated": "2048 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-paper",
+          "locator": "section 2.1"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 175000000000,
+      "asStated": "175 billion",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-paper",
+          "locator": "abstract"
+        },
+        {
+          "id": "src.openai.gpt-3-model-card",
+          "locator": "Model Details"
+        }
+      ],
+      "note": "The paper trained eight sizes from 125 million to 175 billion parameters and calls only the largest GPT-3; OpenAI's model index maps GPT-3 175B, 6.7B and 1B to the API models davinci, curie and babbage."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.openai-api-announcement"
+        },
+        {
+          "id": "src.openai.gpt-3-model-card",
+          "locator": "Model Use"
+        }
+      ]
+    }
+  },
+  "notes": "Announced with the paper Language Models are Few-Shot Learners (arXiv v1 2020-05-28) and offered through the OpenAI API from 2020-06-11. The model index for researchers ties the API names davinci, curie and babbage to GPT-3 175B, 6.7B and 1B; ada is listed with them as a base GPT model on the deprecations page, which recommends davinci-002 and babbage-002 as replacements (not recorded here). The model card says the September 2020 version was retrained on data up to August 2020. Lifecycle and dates apply to the API models."
+}

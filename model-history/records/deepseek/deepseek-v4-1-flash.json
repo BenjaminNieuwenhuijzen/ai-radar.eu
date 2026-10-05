@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v4-1-flash",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v4-1-flash",
+  "name": "DeepSeek-V4.1-Flash",
+  "aliases": [
+    {
+      "text": "DeepSeek-V4.1-Flash",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V4.1 Flash",
+      "match": "auto"
+    },
+    {
+      "text": "V4.1-Flash",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-V4.1",
+      "match": "candidate"
+    },
+    {
+      "text": "deepseek-flash",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-flash",
+  "generation": "4.1",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.models-pricing",
+        "locator": "Model Details: Model version"
+      },
+      {
+        "id": "src.deepseek.hf-deepseek-v4-1-flash",
+        "locator": "License"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-09-10",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-1-flash"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-09-10"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "deepseek.deepseek-v4-flash-0731",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-09-10"
+        },
+        {
+          "id": "src.deepseek.news-v4-1-flash"
+        }
+      ],
+      "note": "The change log calls V4 Flash and V4 Flash Vision Exp the previous-generation models, retired with this release, and routes their API names to V4.1-Flash; at that point deepseek-v4-flash served DeepSeek-V4-Flash-0731 (change log, 2026-07-31)."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V4.1-Flash is a Mixture-of-Experts model with 552B backbone parameters that takes text and images and generates text, released on 2026-09-10 in the DeepSeek API as deepseek-flash and with open weights under the MIT License. DeepSeek calls it the smallest model of a new architecture family and says it was trained from scratch.",
+    "sources": [
+      {
+        "id": "src.deepseek.hf-deepseek-v4-1-flash",
+        "locator": "Introduction; License"
+      },
+      {
+        "id": "src.deepseek.news-v4-1-flash"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "native-image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v4-flash-0731",
+      "text": "Processes images natively together with text, trained jointly from the start of pre-training; the previous Flash model accepted text only.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-1-flash",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "causal-encoder-decoder",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v4-flash-0731",
+      "text": "Switches to a Causal Encoder-Decoder design with 8B active parameters for input and 16B for output, plus CSA2 sparse attention and Engram conditional memory.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-1-flash",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "trained-from-scratch",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v4-flash-0731",
+      "text": "Trained from scratch on a 45T-token multimodal corpus, rather than derived from a V4 checkpoint.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-1-flash"
+        }
+      ]
+    },
+    {
+      "id": "kv-cache",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v4-flash-0731",
+      "text": "According to DeepSeek, its KV cache needs about a quarter of the HBM and an eighth of the SSD storage of the previous generation.",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-1-flash"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-1-flash",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.deepseek.models-pricing",
+          "locator": "Model Details: Features, Vision"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-1-flash",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.hf-deepseek-v4-1-flash",
+            "locator": "Post-training"
+          },
+          {
+            "id": "src.deepseek.models-pricing",
+            "locator": "Model Details: Thinking mode"
+          }
+        ],
+        "note": "Continuously controllable reasoning effort (1 to 100) in the open model; thinking and non-thinking modes in the API."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.models-pricing",
+            "locator": "Model Details: Features, Tool Calls"
+          }
+        ]
+      },
+      {
+        "key": "long-context",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.hf-deepseek-v4-1-flash",
+            "locator": "Introduction"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-1-flash",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.deepseek.models-pricing",
+          "locator": "Model Details: Context length"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 552000000000,
+      "asStated": "552B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-1-flash",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.deepseek.news-v4-1-flash"
+        }
+      ],
+      "note": "Mixture-of-Experts with 552B backbone parameters; 8B activated per token during prefill (input) and 16B during decode (output). The card also lists an Engram conditional memory of 196B parameters among additional components; whether it is counted in the 552B is not stated."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-1-flash",
+          "locator": "License"
+        },
+        {
+          "id": "src.deepseek.news-v4-1-flash"
+        }
+      ],
+      "note": "Weights under the MIT License."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-1-flash"
+        },
+        {
+          "id": "src.deepseek.hf-deepseek-v4-1-flash",
+          "locator": "License"
+        }
+      ]
+    }
+  },
+  "notes": "DeepSeek calls it the smallest model of its new architecture family (Causal Encoder-Decoder) and says it was trained from scratch, so no derived-from relation is recorded. API model name deepseek-flash; the legacy names deepseek-v4-flash and deepseek-v4-flash-vision-exp also route to it. The card's base-model table reports a DeepSeek-V4.1-Flash-Base, but no public base repository was found on Hugging Face on 2026-10-02. App or web availability is not stated in the release sources. A DeepSeek-V4.1-Pro is mentioned only as upcoming. The V4.1 technical report PDF on Hugging Face was not used."
+}

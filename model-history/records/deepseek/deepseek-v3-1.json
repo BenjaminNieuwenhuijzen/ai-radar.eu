@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v3-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v3-1",
+  "name": "DeepSeek-V3.1",
+  "aliases": [
+    {
+      "text": "DeepSeek-V3.1",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V3.1",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-V3.1-Think",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-v",
+  "generation": "3.1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-1-hf",
+        "locator": "License"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-09-22"
+      }
+    ],
+    "note": "Weights are still public on DeepSeek's Hugging Face organisation under the MIT License. In the DeepSeek API, deepseek-chat and deepseek-reasoner moved to DeepSeek-V3.1-Terminus on 2025-09-22."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v3-1-terminus",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-09-22"
+      }
+    ],
+    "note": "In the DeepSeek API only: both API model names were upgraded to DeepSeek-V3.1-Terminus. The weights stay available."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-08-21",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-announcement",
+          "locator": "page header 2025/08/21"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-08-21"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "deepseek.deepseek-v3-0324",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-08-21; Date: 2025-03-24"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-1-hf",
+          "locator": "Introduction; Evaluation"
+        }
+      ],
+      "note": "deepseek-chat served DeepSeek-V3-0324 from 2025-03-24 and was upgraded to DeepSeek-V3.1 on 2025-08-21; the model card calls V3.1 an upgrade over the previous version and compares it with DeepSeek V3 0324."
+    },
+    {
+      "type": "derived-from",
+      "target": "deepseek.deepseek-v3",
+      "method": "continued-pretraining",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-hf",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-1-announcement",
+          "locator": "Model Update"
+        }
+      ],
+      "note": "DeepSeek-V3.1-Base was built on the original V3 base checkpoint through a two-phase long-context extension; DeepSeek-V3.1 was post-trained on top of it."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V3.1 is a hybrid language model in DeepSeek's V line that offers a thinking and a non-thinking mode in one model, launched on 21 August 2025 in DeepSeek's web chat and API. Its weights and those of DeepSeek-V3.1-Base were published under the MIT License; DeepSeek describes the release as its first step toward the agent era.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-1-announcement"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-1-hf",
+        "locator": "Introduction; License"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "hybrid-modes",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-0324",
+      "text": "One hybrid model serves both a thinking and a non-thinking mode; in the API these modes had been served by separate models, DeepSeek-V3-0324 and DeepSeek-R1-0528.",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-08-21"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-1-hf",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "tool-use",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-0324",
+      "text": "DeepSeek says post-training improved tool use and performance on agent tasks.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-hf",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "thinking-speed",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-0324",
+      "text": "DeepSeek says the thinking mode gives answers of comparable quality to DeepSeek-R1-0528 while responding more quickly.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-hf",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "long-context-pretraining",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3",
+      "text": "The base model received 840B tokens of continued pre-training on top of DeepSeek-V3 to extend its context length, in a 32K phase and a 128K phase.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-announcement",
+          "locator": "Model Update"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-1-hf",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.deepseek-v3-1-announcement"
+          },
+          {
+            "id": "src.deepseek.deepseek-v3-1-hf",
+            "locator": "Introduction"
+          }
+        ],
+        "note": "One hybrid model with a thinking and a non-thinking mode; in the API deepseek-reasoner gave the thinking mode and deepseek-chat the non-thinking mode."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.deepseek-v3-1-announcement",
+            "locator": "API Update"
+          },
+          {
+            "id": "src.deepseek.deepseek-v3-1-hf",
+            "locator": "ToolCall"
+          }
+        ],
+        "note": "Tool calls in non-thinking mode per the model card; strict function calling in the Beta API at launch."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-announcement",
+          "locator": "Model Update"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-1-hf",
+          "locator": "License"
+        }
+      ],
+      "note": "MIT License for the repository and the weights."
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-hf",
+          "locator": "Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-1-announcement",
+          "locator": "API Update"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 671000000000,
+      "asStated": "671B total, 37B activated",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-hf",
+          "locator": "Model Downloads"
+        }
+      ],
+      "note": "Mixture-of-experts model; the model card says the model structure is the same as DeepSeek-V3."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-announcement"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "deepseek-v3-1-base",
+      "name": "DeepSeek-V3.1-Base",
+      "aliases": [
+        {
+          "text": "DeepSeek-V3.1-Base",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-1-base-hf",
+          "locator": "Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-1-announcement",
+          "locator": "Model Update"
+        }
+      ],
+      "note": "Base model before post-training, released as open weights together with DeepSeek-V3.1."
+    }
+  ],
+  "notes": "In the DeepSeek API, both deepseek-chat (non-thinking) and deepseek-reasoner (thinking) moved to DeepSeek-V3.1 on 2025-08-21, so it also replaced DeepSeek-R1-0528 behind deepseek-reasoner; that lifecycle link belongs on the R1-0528 record. The API names are not used as aliases because they served many models over time. Input modalities are not stated in the V3.1 sources, so they are left out. The Hugging Face repository for the base model existed from 2025-08-19, but no DeepSeek page states that date."
+}

@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.nemotron-4-340b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nemotron-4-340b",
+  "name": "Nemotron-4 340B",
+  "aliases": [
+    {
+      "text": "Nemotron-4 340B",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-4-340B",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron",
+  "generation": "4",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-4-340b-base-model-card"
+      },
+      {
+        "id": "src.nvidia.nemotron-4-340b-instruct-model-card"
+      }
+    ],
+    "note": "Weights remain downloadable from NVIDIA's Hugging Face organisation. The NVIDIA-hosted API endpoint for the Instruct model was deprecated (see milestones)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-06-14",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-340b-announcement",
+          "locator": "page date; first and fourth paragraphs"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "api-endpoint-deprecated",
+      "label": "NVIDIA-hosted API endpoint for Nemotron-4-340B-Instruct deprecated",
+      "date": {
+        "value": "2025-04-02",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-4-340b-instruct-api-catalog",
+            "locator": "deprecation notice"
+          }
+        ],
+        "note": "The notice gives 04/02/2025, read month first as NVIDIA writes dates elsewhere (its blogs use forms such as 10/21/2024). Applies to the hosted API in the NVIDIA API catalog only, not to the downloadable weights."
+      }
+    }
+  ],
+  "summary": {
+    "text": "Nemotron-4 340B is a family of language models from NVIDIA (base, instruct and reward), released on 14 June 2024 as open weights on Hugging Face and the NGC catalog under the NVIDIA Open Model License. NVIDIA presented it for generating synthetic data to train other language models and sized it to fit on one eight-GPU DGX H100 in FP8 precision.",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-4-340b-announcement"
+      },
+      {
+        "id": "src.nvidia.nemotron-4-340b-base-model-card"
+      },
+      {
+        "id": "src.nvidia.nemotron-4-340b-technical-report"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "nvidia.nemotron-4-15b",
+      "text": "340 billion parameters, against 15 billion for Nemotron-4 15B, with a similar architecture.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-340b-technical-report"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "nvidia.nemotron-4-15b",
+      "text": "Uses the same data blend as Nemotron-4 15B but trains on 9 trillion tokens: the first 8 trillion plus 1 trillion tokens of continued pre-training.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-340b-technical-report"
+        }
+      ]
+    },
+    {
+      "id": "open-weights",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "nvidia.nemotron-4-15b",
+      "text": "Weights released for download under the NVIDIA Open Model License, whereas Nemotron-4 15B was published as a technical report only.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-340b-announcement"
+        },
+        {
+          "id": "src.nvidia.nemotron-4-340b-base-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-340b-announcement",
+          "locator": "fourth paragraph"
+        },
+        {
+          "id": "src.nvidia.nemotron-4-340b-base-model-card",
+          "locator": "License"
+        },
+        {
+          "id": "src.nvidia.nemotron-4-340b-technical-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Released under the NVIDIA Open Model License, which allows commercial use and distribution of derivative models."
+    },
+    "contextWindowTokens": {
+      "value": 4096,
+      "asStated": "4,096 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-340b-base-model-card",
+          "locator": "Model Overview"
+        },
+        {
+          "id": "src.nvidia.nemotron-4-340b-instruct-model-card",
+          "locator": "Model Overview"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 340000000000,
+      "asStated": "340 billion",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-340b-base-model-card",
+          "locator": "Model Overview"
+        }
+      ],
+      "note": "The technical report gives 9.4 billion embedding and 331.6 billion non-embedding parameters."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-340b-announcement",
+          "locator": "fourth paragraph"
+        },
+        {
+          "id": "src.nvidia.nemotron-4-340b-instruct-model-card",
+          "locator": "Model Overview"
+        },
+        {
+          "id": "src.nvidia.nemotron-4-340b-instruct-api-catalog"
+        }
+      ],
+      "note": "Downloads from NGC and Hugging Face at launch; the announcement said access at ai.nvidia.com as an NVIDIA NIM would follow, and the Instruct card points to build.nvidia.com. The hosted Instruct endpoint was later deprecated."
+    }
+  },
+  "variants": [
+    {
+      "id": "base",
+      "name": "Nemotron-4-340B-Base",
+      "aliases": [
+        {
+          "text": "Nemotron-4-340B-Base",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/Nemotron-4-340B-Base",
+          "match": "auto"
+        }
+      ],
+      "note": "Base completion model, pre-trained on 9 trillion tokens.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-340b-base-model-card",
+          "locator": "Model Overview"
+        },
+        {
+          "id": "src.nvidia.nemotron-4-340b-technical-report",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "id": "instruct",
+      "name": "Nemotron-4-340B-Instruct",
+      "aliases": [
+        {
+          "text": "Nemotron-4-340B-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/Nemotron-4-340B-Instruct",
+          "match": "auto"
+        }
+      ],
+      "note": "Fine-tuned from the Base model for English single- and multi-turn chat; alignment used SFT, DPO and NVIDIA's Reward-aware Preference Optimization.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-340b-instruct-model-card",
+          "locator": "Model Overview"
+        },
+        {
+          "id": "src.nvidia.nemotron-4-340b-technical-report",
+          "locator": "Abstract"
+        }
+      ]
+    }
+  ],
+  "notes": "Released as a family of base, instruct and reward models; Nemotron-4-340B-Reward is out of scope (reward model). The technical report (arXiv v1 2024-06-17) followed the announcement. No in-organisation relation recorded: the report says the Base model is similar in architecture to Nemotron-4-15B-Base and uses the same data blend, but does not present it as a successor or variant. The API model id nvidia/nemotron-4-340b-instruct differs from the Hugging Face repository name only in case, so it is not listed separately."
+}

@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v3-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v3-2",
+  "name": "DeepSeek-V3.2",
+  "aliases": [
+    {
+      "text": "DeepSeek-V3.2",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V3.2",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-v",
+  "generation": "3.2",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-2-hf",
+        "locator": "License"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-2-model-card",
+        "locator": "Methods of distribution and licenses"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2026-04-24"
+      }
+    ],
+    "note": "Weights are still public on DeepSeek's Hugging Face organisation under the MIT License. In the DeepSeek API, deepseek-chat and deepseek-reasoner were routed to deepseek-v4-flash from 2026-04-24, and DeepSeek announced that both names would be discontinued on 2026-07-24."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-12-01",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-announcement",
+          "locator": "page header 2025/12/01"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-12-01"
+        },
+        {
+          "id": "src.deepseek.transparency-center",
+          "locator": "Model Overview"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-2-model-card",
+          "locator": "General Information: Release date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "deepseek.deepseek-v3-2-exp",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-announcement"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-12-01"
+        }
+      ],
+      "note": "DeepSeek calls DeepSeek-V3.2 the official successor to V3.2-Exp."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V3.2 is a text-only language model in DeepSeek's V line with thinking and non-thinking modes, released on 1 December 2025 in the app, web chat and API, with open weights under the MIT License. DeepSeek calls it the official successor to DeepSeek-V3.2-Exp and its first model to integrate thinking directly into tool use.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-2-announcement"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-2-model-card",
+        "locator": "Model properties: Modalities; Methods of distribution and licenses"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "thinking-in-tool-use",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v3-2-exp",
+      "text": "Integrates thinking directly into tool use, which DeepSeek says is a first for its models, and supports tool use in both thinking and non-thinking modes.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-announcement",
+          "locator": "Thinking in Tool-Use"
+        }
+      ]
+    },
+    {
+      "id": "agent-training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-2-exp",
+      "text": "Trained with synthesised agent data that DeepSeek says covers more than 1,800 environments and 85,000 complex instructions.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "chat-template",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-2-exp",
+      "text": "New chat template with a revised tool-calling format and a developer role reserved for search-agent use.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-hf",
+          "locator": "Chat Template"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-model-card",
+          "locator": "Model properties: Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-model-card",
+          "locator": "Model properties: Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.api-change-log",
+            "locator": "Date: 2025-12-01"
+          },
+          {
+            "id": "src.deepseek.deepseek-v3-2-announcement"
+          }
+        ],
+        "note": "Thinking and non-thinking modes, served as deepseek-reasoner and deepseek-chat."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.deepseek-v3-2-announcement",
+            "locator": "Thinking in Tool-Use"
+          },
+          {
+            "id": "src.deepseek.deepseek-v3-2-hf",
+            "locator": "Chat Template"
+          }
+        ],
+        "note": "Tool use in both thinking and non-thinking modes, including thinking inside tool use."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-announcement",
+          "locator": "Open Source Release"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-2-hf",
+          "locator": "License"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-2-model-card",
+          "locator": "Methods of distribution and licenses"
+        }
+      ],
+      "note": "MIT License for the repository and the weights."
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-model-card",
+          "locator": "Model properties: Context length"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-2-paper",
+          "locator": "section 4.1"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 671000000000,
+      "asStated": "671B parameters, of which 37B are activated for each token",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-model-card",
+          "locator": "Model properties: Total model size"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-announcement"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-2-model-card",
+          "locator": "Methods of distribution and licenses"
+        }
+      ]
+    }
+  },
+  "notes": "Announced together with DeepSeek-V3.2-Speciale. The model card says it uses exactly the same architecture as DeepSeek-V3.2-Exp, and the technical report says it was created by continued pre-training from a DeepSeek-V3.1-Terminus base checkpoint followed by post-training; its Hugging Face card names DeepSeek-V3.2-Exp-Base as base model. Only the successor-of link to V3.2-Exp is recorded. No replacedBy: after 2026-04-24 the legacy API names were only routed to deepseek-v4-flash, and DeepSeek does not name a successor model for V3.2. The technical report appeared on arXiv on 2025-12-02, one day after the release."
+}

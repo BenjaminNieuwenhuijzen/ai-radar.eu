@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-4o-mini",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-4o-mini",
+  "name": "GPT-4o mini",
+  "aliases": [
+    {
+      "text": "GPT-4o mini",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4o-mini",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4o-mini-2024-07-18",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-mini",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.gpt-4o-mini-docs",
+        "locator": "Model details; Snapshots"
+      },
+      {
+        "id": "src.openai.api-deprecations"
+      },
+      {
+        "id": "src.openai.help-model-release-notes",
+        "locator": "Introducing GPT-4.1 mini, replacing GPT-4o mini, in ChatGPT for all users (May 14, 2025)"
+      }
+    ],
+    "note": "Not listed on the API deprecations page when checked on 2026-10-01. In ChatGPT, GPT-4.1 mini took its place on 2025-05-14."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-07-18",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-mini-announcement",
+          "locator": "Availability and pricing"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Jul 18, 2024"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "fine-tuning",
+      "label": "Fine-tuning for GPT-4o mini launched",
+      "date": {
+        "value": "2024-07-23",
+        "sources": [
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Jul 23, 2024"
+          }
+        ]
+      }
+    },
+    {
+      "id": "replaced-in-chatgpt",
+      "label": "Replaced by GPT-4.1 mini in ChatGPT",
+      "date": {
+        "value": "2025-05-14",
+        "sources": [
+          {
+            "id": "src.openai.help-model-release-notes",
+            "locator": "Introducing GPT-4.1 mini, replacing GPT-4o mini, in ChatGPT for all users (May 14, 2025)"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-3-5-turbo",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-mini-announcement",
+          "locator": "Availability and pricing"
+        },
+        {
+          "id": "src.openai.gpt-3-5-turbo-docs",
+          "locator": "description"
+        }
+      ],
+      "note": "GPT-4o mini replaced GPT-3.5 in ChatGPT at launch, and the GPT-3.5 Turbo model page recommends gpt-4o-mini in its place."
+    }
+  ],
+  "summary": {
+    "text": "GPT-4o mini is a small, low-cost OpenAI model released on 18 July 2024 in the API and in ChatGPT, where it took the place of GPT-3.5. It accepts text and image input with a 128K context window, and OpenAI says it is the first model to apply its instruction hierarchy method against jailbreaks and prompt injections.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-4o-mini-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "openai.gpt-3-5-turbo",
+      "text": "Accepts image input as well as text in the API.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-mini-announcement"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "openai.gpt-3-5-turbo",
+      "text": "Context window of 128,000 tokens with up to 16,384 output tokens, up from 16,385 tokens for gpt-3.5-turbo-0125.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-mini-docs"
+        },
+        {
+          "id": "src.openai.gpt-3-5-turbo-docs"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "aspect": "efficiency",
+      "relativeTo": "openai.gpt-3-5-turbo",
+      "text": "Priced at 15 cents per million input tokens and 60 cents per million output tokens, which OpenAI says is more than 60 percent below GPT-3.5 Turbo.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-mini-announcement"
+        }
+      ]
+    },
+    {
+      "id": "instruction-hierarchy",
+      "aspect": "safety",
+      "direction": "added",
+      "relativeTo": "openai.gpt-3-5-turbo",
+      "text": "OpenAI says it is the first model to apply its instruction hierarchy method, meant to resist jailbreaks, prompt injections and system prompt extraction.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-mini-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-mini-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.gpt-4o-mini-announcement",
+          "locator": "third paragraph"
+        }
+      ],
+      "note": "At launch the announcement said support for video and audio inputs and outputs would come later."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-mini-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-mini-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.gpt-4o-mini-announcement",
+          "locator": "third paragraph"
+        }
+      ],
+      "note": "The announcement gives 128K."
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-4o-mini-docs",
+            "locator": "Supported features"
+          },
+          {
+            "id": "src.openai.gpt-4o-mini-announcement",
+            "locator": "A small model with superior textual intelligence and multimodal reasoning"
+          }
+        ]
+      },
+      {
+        "key": "fine-tuning-available",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Jul 23, 2024"
+          },
+          {
+            "id": "src.openai.gpt-4o-mini-docs",
+            "locator": "Supported features"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-mini-announcement",
+          "locator": "Availability and pricing"
+        }
+      ]
+    }
+  },
+  "notes": "Small, low-cost tier next to GPT-4o, released on 2024-07-18 in the API (Assistants, Chat Completions and Batch APIs) and in ChatGPT for Free, Plus and Team users in place of GPT-3.5. Lifecycle dates apply to the OpenAI API."
+}

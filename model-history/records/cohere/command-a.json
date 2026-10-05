@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.command-a",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "command-a",
+  "name": "Command A",
+  "aliases": [
+    {
+      "text": "Command A",
+      "match": "candidate"
+    },
+    {
+      "text": "command-a-03-2025",
+      "match": "auto"
+    },
+    {
+      "text": "c4ai-command-a-03-2025",
+      "match": "auto"
+    },
+    {
+      "text": "Cohere Labs Command A",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.command-a-family",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Command table: command-a-03-2025, Live"
+      },
+      {
+        "id": "src.cohere.command-a-model-card"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-03-13",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-announcement",
+          "locator": "date line; Availability"
+        },
+        {
+          "id": "src.cohere.changelog-command-a",
+          "locator": "March 13, 2025"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "cohere.command-r-plus-08-2024",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.cohere.changelog-command-a",
+          "locator": "second paragraph"
+        }
+      ],
+      "note": "The release notes call Command R+ 08-2024 its predecessor."
+    }
+  ],
+  "summary": {
+    "text": "Command A is an enterprise-focused language model in Cohere's Command family with 111 billion parameters and a 256K-token context window, offered on the Cohere API and as research-use open weights on Hugging Face. Cohere positions it for tool use, agents, retrieval-augmented generation with citations and business tasks in 23 languages.",
+    "sources": [
+      {
+        "id": "src.cohere.changelog-command-a"
+      },
+      {
+        "id": "src.cohere.command-a-announcement"
+      },
+      {
+        "id": "src.cohere.command-a-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "cohere.command-r-plus-08-2024",
+      "text": "Context window doubles to 256K tokens, from 128K for Command R+ 08-2024.",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table: command-a-03-2025"
+        }
+      ]
+    },
+    {
+      "id": "throughput",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "cohere.command-r-plus-08-2024",
+      "text": "Cohere reports 150 percent higher throughput than Command R+ 08-2024 and says the model needs only two A100 or H100 GPUs.",
+      "sources": [
+        {
+          "id": "src.cohere.changelog-command-a",
+          "locator": "second paragraph"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-model-card",
+          "locator": "Model Details: Input"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table: command-a-03-2025, Modality"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-model-card",
+          "locator": "Model Details: Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-a-model-card",
+            "locator": "Tool Use Capabilities"
+          },
+          {
+            "id": "src.cohere.command-a-announcement",
+            "locator": "Enterprise-ready capabilities"
+          }
+        ]
+      },
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-a-model-card",
+            "locator": "RAG Capabilities"
+          },
+          {
+            "id": "src.cohere.command-a-announcement",
+            "locator": "Enterprise-ready capabilities"
+          }
+        ],
+        "note": "Retrieval-augmented generation with verifiable citations."
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-a-model-card",
+            "locator": "Model Details: Languages covered"
+          },
+          {
+            "id": "src.cohere.command-a-announcement",
+            "locator": "Enterprise-ready capabilities"
+          }
+        ],
+        "note": "23 languages."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-model-card",
+          "locator": "Context length"
+        },
+        {
+          "id": "src.cohere.changelog-command-a"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table: command-a-03-2025"
+        }
+      ],
+      "note": "The blog writes 256k. The Hugging Face configuration ships set to 128K, which the card says can be raised."
+    },
+    "parameters": {
+      "value": 111000000000,
+      "asStated": "111B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.changelog-command-a",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.cohere.command-a-model-card",
+          "locator": "Model Size"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-announcement",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.cohere.command-a-model-card"
+        },
+        {
+          "id": "src.cohere.command-a-technical-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Weights released for research use under CC-BY-NC with Cohere Labs' Acceptable Use Policy; download is gated behind accepting the conditions."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-announcement",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Using Command Models on Different Platforms"
+        }
+      ],
+      "note": "At release on the Cohere platform and Hugging Face, with major cloud providers announced as coming soon. As of 2026-10-01 the models overview lists an Oracle OCI id, per-deployment ids on SageMaker and Azure AI Foundry, and Bedrock as coming soon."
+    }
+  },
+  "notes": "First model of the Command A family (editorial grouping). Alias Command A is set to candidate because the same words open the names of the later Command A Vision, Command A Reasoning, Command A Translate and Command A+ models. Cohere published a technical report on arXiv on 2025-04-01 (src.cohere.command-a-technical-report)."
+}

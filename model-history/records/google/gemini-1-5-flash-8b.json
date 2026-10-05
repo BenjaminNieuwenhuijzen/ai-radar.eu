@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-1-5-flash-8b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-1-5-flash-8b",
+  "name": "Gemini 1.5 Flash-8B",
+  "aliases": [
+    {
+      "text": "Gemini 1.5 Flash-8B",
+      "match": "auto"
+    },
+    {
+      "text": "1.5 Flash-8B",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-1.5-flash-8b",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-1.5-flash-8b-001",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-1.5-flash-8b-exp-0827",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-1.5-flash-8b-exp-0924",
+      "match": "auto"
+    },
+    {
+      "text": "Flash-8B",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-flash",
+  "generation": "1.5",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-changelog",
+        "locator": "September 29, 2025"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-08-27",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "August 27, 2024"
+        }
+      ],
+      "note": "Experimental release as gemini-1.5-flash-8b-exp-0827."
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2025-09-29",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "September 29, 2025"
+        }
+      ]
+    }
+  },
+  "milestones": [
+    {
+      "id": "exp-0924",
+      "label": "Updated experimental version (gemini-1.5-flash-8b-exp-0924)",
+      "date": {
+        "value": "2024-09-24",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-changelog",
+            "locator": "September 24, 2024"
+          },
+          {
+            "id": "src.google.gemini-1-5-002-models-announcement",
+            "locator": "Gemini 1.5 Flash-8B Experimental updates"
+          }
+        ]
+      }
+    },
+    {
+      "id": "general-availability",
+      "label": "Production-ready release (gemini-1.5-flash-8b-001)",
+      "date": {
+        "value": "2024-10-03",
+        "sources": [
+          {
+            "id": "src.google.gemini-1-5-flash-8b-ga-announcement"
+          },
+          {
+            "id": "src.google.gemini-api-changelog",
+            "locator": "October 3, 2024"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "variant-of",
+      "target": "google.gemini-1-5-flash",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-flash-8b-ga-announcement",
+          "locator": "Our lightweight model, smaller and faster"
+        },
+        {
+          "id": "src.google.gemini-1-5-technical-report",
+          "locator": "section 8"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Gemini 1.5 Flash-8B is a smaller and faster variant of Google's Gemini 1.5 Flash, first released as an experimental API model in August 2024 and production-ready in Google AI Studio and the Gemini API from October 2024. Google positions it for simple, high-volume tasks; its technical report says the model is multimodal and supports a context window of over 1 million tokens.",
+    "sources": [
+      {
+        "id": "src.google.gemini-1-5-flash-8b-ga-announcement"
+      },
+      {
+        "id": "src.google.gemini-api-changelog",
+        "locator": "August 27, 2024"
+      },
+      {
+        "id": "src.google.gemini-1-5-technical-report",
+        "locator": "section 8"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "smaller",
+      "aspect": "size",
+      "direction": "decreased",
+      "relativeTo": "google.gemini-1-5-flash",
+      "text": "A smaller model than 1.5 Flash; the technical report says it inherits the core architecture, optimizations and data mixture of 1.5 Flash.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-flash-8b-ga-announcement"
+        },
+        {
+          "id": "src.google.gemini-1-5-technical-report",
+          "locator": "section 8"
+        }
+      ]
+    },
+    {
+      "id": "latency-price",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-flash",
+      "text": "Lower latency on small prompts, and at its stable release half the price and twice the rate limits of 1.5 Flash.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-flash-8b-ga-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "exceeding 1 million tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-technical-report",
+          "locator": "section 8"
+        }
+      ],
+      "note": "The technical report says Flash-8B supports a context window exceeding 1 million tokens; the live sources give no exact API limit."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "The name refers to 8B and the technical report places it among single-digit billion parameter models, but no exact parameter count is stated."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-flash-8b-ga-announcement"
+        }
+      ],
+      "note": "Google AI Studio and the Gemini API."
+    }
+  },
+  "notes": "Google first released Flash-8B as an experimental API model on 2024-08-27 (the September 2024 post says it was announced in August) and made it production-ready on 2024-10-03. The technical report says it inherits the core architecture, optimizations and data mixture of 1.5 Flash and has multimodal capabilities; the individual input types are not itemised in the live sources, so inputModalities is left out. Not listed on the Agent Platform model versions page. No deprecation announcement date was found in live sources."
+}

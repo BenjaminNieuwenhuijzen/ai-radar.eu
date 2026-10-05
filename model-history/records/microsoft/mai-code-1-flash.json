@@ -1,0 +1,245 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.mai-code-1-flash",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mai-code-1-flash",
+  "name": "MAI-Code-1-Flash",
+  "aliases": [
+    {
+      "text": "MAI-Code-1-Flash",
+      "match": "auto"
+    },
+    {
+      "text": "MAI Code 1 Flash",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.mai-code",
+  "generation": "1",
+  "categories": [
+    "language",
+    "code"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.microsoft.github-changelog-mai-code-1-flash-deprecated"
+      },
+      {
+        "id": "src.microsoft.mai-code-1-flash-model-card",
+        "locator": "Distribution channels"
+      }
+    ],
+    "note": "GitHub deprecated it across all GitHub Copilot experiences on 2026-09-10 and filed the post under Retired; GitHub Copilot was its only distribution channel per the model card."
+  },
+  "replacedBy": {
+    "modelId": "microsoft.mai-code-1-1-flash",
+    "sources": [
+      {
+        "id": "src.microsoft.github-changelog-mai-code-1-flash-upcoming-deprecation"
+      },
+      {
+        "id": "src.microsoft.github-changelog-mai-code-1-flash-deprecated"
+      }
+    ],
+    "note": "Suggested alternative in GitHub Copilot."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-06-02",
+      "sources": [
+        {
+          "id": "src.microsoft.introducing-mai-code-1-flash",
+          "locator": "dateline; first paragraph"
+        },
+        {
+          "id": "src.microsoft.mai-code-1-flash-model-card",
+          "locator": "Model Summary: Release date"
+        },
+        {
+          "id": "src.microsoft.github-changelog-mai-code-1-flash-launch"
+        }
+      ],
+      "note": "Gradual rollout to GitHub Copilot individual users in Visual Studio Code, starting with a limited set of users."
+    },
+    "deprecated": {
+      "value": "2026-08-11",
+      "sources": [
+        {
+          "id": "src.microsoft.github-changelog-mai-code-1-flash-upcoming-deprecation"
+        }
+      ],
+      "note": "Date of the deprecation notice."
+    },
+    "retired": {
+      "value": "2026-09-10",
+      "sources": [
+        {
+          "id": "src.microsoft.github-changelog-mai-code-1-flash-deprecated"
+        },
+        {
+          "id": "src.microsoft.github-changelog-mai-code-1-flash-upcoming-deprecation"
+        }
+      ],
+      "note": "GitHub calls this date the deprecation date; on it the model was deprecated across all Copilot experiences, its only channel."
+    }
+  },
+  "milestones": [
+    {
+      "id": "more-copilot-surfaces",
+      "label": "Available on more GitHub Copilot surfaces",
+      "date": {
+        "value": "2026-06-18",
+        "sources": [
+          {
+            "id": "src.microsoft.github-changelog-mai-code-1-flash-more-surfaces"
+          }
+        ]
+      }
+    },
+    {
+      "id": "copilot-business-enterprise-ga",
+      "label": "Generally available for Copilot Business and Enterprise",
+      "date": {
+        "value": "2026-06-26",
+        "sources": [
+          {
+            "id": "src.microsoft.github-changelog-mai-code-1-flash-business-enterprise"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "microsoft.mai-thinking-1",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-flash-model-card",
+          "locator": "Training disclosure; Model dependencies"
+        }
+      ],
+      "note": "Training started from MAI-Thinking-1's mid-training checkpoint and continued with supervised fine-tuning, a further mid-training phase on synthetic agentic tasks and reinforcement learning."
+    }
+  ],
+  "summary": {
+    "text": "MAI-Code-1-Flash is a coding model from Microsoft AI, released on 2 June 2026 and offered only inside GitHub Copilot, where GitHub deprecated it across all Copilot experiences on 10 September 2026. A sparse mixture-of-experts model with 5 billion active and 137 billion total parameters, it was trained from a MAI-Thinking-1 checkpoint and with the GitHub Copilot production harness.",
+    "sources": [
+      {
+        "id": "src.microsoft.introducing-mai-code-1-flash"
+      },
+      {
+        "id": "src.microsoft.mai-code-1-flash-model-card"
+      },
+      {
+        "id": "src.microsoft.github-changelog-mai-code-1-flash-deprecated"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "smaller-size",
+      "aspect": "size",
+      "direction": "decreased",
+      "relativeTo": "microsoft.mai-thinking-1",
+      "text": "Smaller: 5B active and 137B total parameters, against 35B active and about 1T total for MAI-Thinking-1, from whose mid-training checkpoint it was trained.",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-flash-model-card",
+          "locator": "Model Summary: Parameters; Training disclosure"
+        },
+        {
+          "id": "src.microsoft.introducing-mai-thinking-1",
+          "locator": "Medium-sized model, with strong software engineering performance"
+        }
+      ]
+    },
+    {
+      "id": "coding-specialisation",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "microsoft.mai-thinking-1",
+      "text": "Specialised for coding: trained further on synthetic agentic tasks and with reinforcement learning and the GitHub Copilot production harness; offered only inside GitHub Copilot.",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-flash-model-card",
+          "locator": "Training disclosure; Distribution channels"
+        },
+        {
+          "id": "src.microsoft.introducing-mai-code-1-flash"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-flash-model-card",
+          "locator": "Model Summary: Inputs"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-flash-model-card",
+          "locator": "Model Summary: Outputs"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256K tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-flash-model-card",
+          "locator": "Model Summary: Context length"
+        }
+      ],
+      "note": "The numeric value reads K as 1,000; the source does not say."
+    },
+    "parameters": {
+      "value": 137000000000,
+      "asStated": "137B total, 5B active",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-flash-model-card",
+          "locator": "Model Summary: Parameters"
+        },
+        {
+          "id": "src.microsoft.seven-new-mai-models",
+          "locator": "Our Models"
+        }
+      ],
+      "note": "Sparse mixture-of-experts; the June launch post gives only the 5 billion active parameters."
+    }
+  },
+  "notes": "Offered only inside GitHub Copilot (no API release at launch per the model card), which does not map onto the access vocabulary, so access is left out. The MAI-Code model page URL (microsoft.ai/models/mai-code-1-flash/) now presents MAI-Code-1.1-Flash. Training cut-off December 2025 per the model card."
+}

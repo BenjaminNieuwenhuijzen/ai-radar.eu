@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mixtral-8x22b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mixtral-8x22b",
+  "name": "Mixtral 8x22B",
+  "aliases": [
+    {
+      "text": "Mixtral 8x22B",
+      "match": "auto"
+    },
+    {
+      "text": "Mixtral 8x22B Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "open-mixtral-8x22b",
+      "match": "auto"
+    },
+    {
+      "text": "open-mixtral-8x22b-2404",
+      "match": "auto"
+    },
+    {
+      "text": "Mixtral-8x22B-v0.1",
+      "match": "auto"
+    },
+    {
+      "text": "Mixtral-8x22B-Instruct-v0.1",
+      "match": "auto"
+    },
+    {
+      "text": "Mixtral-8x22B-v0.3",
+      "match": "auto"
+    },
+    {
+      "text": "Mixtral-8x22B-Instruct-v0.3",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mixtral",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mixtral-8x22b-v0-1"
+      },
+      {
+        "id": "src.mistral.hf-mixtral-8x22b-instruct-v0-1"
+      },
+      {
+        "id": "src.mistral.mixtral-8x22b-docs",
+        "locator": "Weights table"
+      }
+    ],
+    "note": "The Apache 2.0 base and instruct weights are still downloadable from Mistral AI's Hugging Face organisation. On Mistral's own platform the model is retired (models overview, Deprecated table; legal centre)."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-small-4",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mixtral 8x22B 0.1-0.3, Alternative"
+      },
+      {
+        "id": "src.mistral.mixtral-8x22b-docs",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-04-17",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x22b-announcement",
+          "locator": "page date"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "April 17, 2024"
+        },
+        {
+          "id": "src.mistral.mixtral-8x22b-docs",
+          "locator": "page header"
+        },
+        {
+          "id": "src.mistral.legal-mixtral-8x22b",
+          "locator": "Model Lifecycle: Mixtral 8x22B Base, Mixtral 8x22B Instruct"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2024-04-10",
+          "sources": [
+            {
+              "id": "src.mistral.x-mixtral-8x22b-magnet"
+            },
+            {
+              "id": "src.mistral.hf-mixtral-8x22b-v0-1",
+              "locator": "Warning"
+            }
+          ],
+          "note": "The base weights were first shared through a magnet link that Mistral AI posted on X (post timestamp 2024-04-10T01:20:38Z, still 9 April in American time zones); the Hugging Face base card says its weights are based on that torrent release. The announcement, the instruct model and API access followed on 2024-04-17."
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2024-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mixtral 8x22B 0.1-0.3 (open-mixtral-8x22b)"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-03-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mixtral 8x22B 0.1-0.3 (open-mixtral-8x22b)"
+        },
+        {
+          "id": "src.mistral.mixtral-8x22b-docs",
+          "locator": "Retirement date"
+        },
+        {
+          "id": "src.mistral.legal-mixtral-8x22b",
+          "locator": "Model Lifecycle: Mixtral 8x22B Base, Mixtral 8x22B Instruct"
+        }
+      ],
+      "note": "Retirement on Mistral's platform; the open weights remain downloadable."
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.mixtral-8x7b",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x22b-announcement",
+          "locator": "Efficiency at its finest; Figure 1"
+        }
+      ],
+      "note": "Editorial link along the Mixtral line: the announcement presents Mixtral 8x22B as Mistral's latest open model and a natural continuation of its open model family, and charts it next to Mixtral 8x7B, but names no predecessor."
+    }
+  ],
+  "summary": {
+    "text": "Mixtral 8x22B is a sparse mixture-of-experts language model from Mistral AI with 141B total and 39B active parameters, released on 17 April 2024 with an instruct version, open weights under Apache 2.0 and API access as open-mixtral-8x22b. Mistral AI lists a 64K-token context window, five European languages and native function calling.",
+    "sources": [
+      {
+        "id": "src.mistral.mixtral-8x22b-announcement"
+      },
+      {
+        "id": "src.mistral.changelog",
+        "locator": "April 17, 2024"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "mistral.mixtral-8x7b",
+      "text": "Larger sparse mixture-of-experts model: 141B total and 39B active parameters, against 46.7B and 12.9B for Mixtral 8x7B.",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x22b-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.mixtral-of-experts-announcement",
+          "locator": "Pushing the frontier of open models with sparse architectures"
+        }
+      ]
+    },
+    {
+      "id": "context-64k",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "mistral.mixtral-8x7b",
+      "text": "Context window of 64K tokens, up from 32k for Mixtral 8x7B.",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x22b-announcement",
+          "locator": "strengths list"
+        },
+        {
+          "id": "src.mistral.mixtral-of-experts-announcement",
+          "locator": "capabilities list"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "mistral.mixtral-8x7b",
+      "text": "Native function calling, which Mistral AI lists among the model's strengths.",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x22b-announcement",
+          "locator": "strengths list"
+        },
+        {
+          "id": "src.mistral.hf-mixtral-8x22b-instruct-v0-1",
+          "locator": "Function calling example"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x22b-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x22b-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mixtral-8x22b-announcement",
+            "locator": "strengths list"
+          },
+          {
+            "id": "src.mistral.hf-mixtral-8x22b-instruct-v0-1",
+            "locator": "Function calling example"
+          }
+        ]
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mixtral-8x22b-announcement",
+            "locator": "strengths list"
+          }
+        ],
+        "note": "English, French, Italian, German and Spanish."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 64000,
+      "asStated": "64K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x22b-announcement",
+          "locator": "strengths list"
+        },
+        {
+          "id": "src.mistral.mixtral-8x22b-docs",
+          "locator": "Context; Weights table"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 141000000000,
+      "asStated": "141B total, 39B active",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x22b-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.mixtral-8x22b-docs",
+          "locator": "Weights table"
+        }
+      ],
+      "note": "Sparse mixture of experts."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x22b-announcement",
+          "locator": "Truly open"
+        },
+        {
+          "id": "src.mistral.hf-mixtral-8x22b-v0-1"
+        },
+        {
+          "id": "src.mistral.hf-mixtral-8x22b-instruct-v0-1"
+        }
+      ],
+      "note": "Apache 2.0."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mixtral-8x22b-announcement",
+          "locator": "Truly open; last paragraph"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "April 17, 2024"
+        }
+      ]
+    }
+  },
+  "notes": "Released with an instruct version on 2024-04-17. The docs page covers versions 0.1 to 0.3 under one entry. The mistral-inference README lists mixtral-8x22B-v0.3 (the v0.1 base with an extended vocabulary of 32768 tokens) and mixtral-8x22B-Instruct-v0.3 (identical to Instruct v0.1, in safetensors format) as direct downloads; they were not announced as separate releases, so they are aliases here (see src.mistral.mistral-inference-repo). The docs page links https://legal.mistral.ai/ai-governance/models/mixtral-8-22b, which returns 404."
+}

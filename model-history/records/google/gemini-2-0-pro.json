@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-2-0-pro",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-2-0-pro",
+  "name": "Gemini 2.0 Pro",
+  "aliases": [
+    {
+      "text": "Gemini 2.0 Pro",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini 2.0 Pro Experimental",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.0-pro-exp-02-05",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.0-pro-exp",
+      "match": "auto"
+    },
+    {
+      "text": "2.0 Pro Experimental",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-pro",
+  "generation": "2.0",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "November 4, 2025"
+      },
+      {
+        "id": "src.google.deepmind-model-cards",
+        "locator": "footnote 1"
+      }
+    ],
+    "note": "Released only as an experimental model and never made generally available. The shutdown of gemini-2.0-pro-exp and gemini-2.0-pro-exp-02-05 was announced for 2025-12-09; no later release-notes entry confirms it, and the model is not listed on the models or deprecations pages (checked 2026-10-01)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02-05",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-february-2025-announcement"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "February 5, 2025"
+        },
+        {
+          "id": "src.google.gemini-2-0-family-expands-dev-blog"
+        }
+      ],
+      "note": "Released as an experimental model (gemini-2.0-pro-exp-02-05)."
+    },
+    "deprecated": {
+      "value": "2025-11-04",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "November 4, 2025"
+        }
+      ],
+      "note": "Date of the deprecation announcement in the Gemini API release notes."
+    },
+    "retired": {
+      "value": "2025-12-09",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "November 4, 2025"
+        }
+      ],
+      "note": "Shutdown date announced in the Gemini API release notes; not confirmed by a later entry."
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemini-1-5-pro-002",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-february-2025-announcement",
+          "locator": "2.0 Pro Experimental section"
+        }
+      ],
+      "note": "Editorial link along the Pro tier: the announcement names no Pro predecessor (it refers to the experimental Gemini-Exp-1206 as an early Gemini 2.0 version), and Gemini-1.5-Pro-002 was the most recent Pro release before it."
+    }
+  ],
+  "summary": {
+    "text": "Gemini 2.0 Pro is a multimodal language model in Google's Gemini Pro line, released on 5 February 2025 only as an experimental model, in Google AI Studio, Vertex AI and the Gemini app for Gemini Advanced users. Google aimed it at coding and complex prompts; it had a 2 million token context window and could use Google Search and code execution as tools.",
+    "sources": [
+      {
+        "id": "src.google.gemini-2-0-february-2025-announcement"
+      },
+      {
+        "id": "src.google.deepmind-model-cards",
+        "locator": "footnote 1"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "coding-and-prompts",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-pro-002",
+      "text": "Google says it improved coding and the handling of complex prompts, world knowledge and reasoning compared with the models it had released before.",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-february-2025-announcement",
+          "locator": "2.0 Pro Experimental section"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-february-2025-announcement",
+          "locator": "paragraph on multimodal input with text output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-2-0-february-2025-announcement",
+            "locator": "2.0 Pro Experimental section"
+          },
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "February 28, 2025"
+          }
+        ],
+        "note": "Google Search and code execution as tools; Search as a tool was added in the Gemini API on 2025-02-28."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 2000000,
+      "asStated": "2 million tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-february-2025-announcement",
+          "locator": "2.0 Pro Experimental section"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-february-2025-announcement",
+          "locator": "2.0 Pro Experimental section"
+        }
+      ],
+      "note": "Experimental model in Google AI Studio (Gemini API) and Vertex AI, and in the Gemini app for Gemini Advanced users."
+    }
+  },
+  "notes": "Released under the label Gemini 2.0 Pro Experimental. Google's model card index says it was only released as an experimental model; no model card was published. The announcement says the 2.0 models take multimodal input without listing the input types, so inputModalities is left out. Vertex AI is counted as Google's own API (api), not as a cloud partner."
+}

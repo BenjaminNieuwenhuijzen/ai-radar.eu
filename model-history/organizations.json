@@ -7,7 +7,25 @@
       "type": "company",
       "parentId": null,
       "radarCompanyId": "openai",
-      "coverage": "tracked"
+      "coverage": "tracked",
+      "description": {
+        "text": "OpenAI was announced in December 2015 as a non-profit artificial intelligence research company and states its mission as ensuring that artificial general intelligence benefits all of humanity. It develops the GPT language models, the o-series reasoning models and the open-weight gpt-oss models, and offers its models through ChatGPT and the OpenAI API.",
+        "sources": [
+          {
+            "id": "src.openai.introducing-openai"
+          },
+          {
+            "id": "src.openai.planning-for-agi-and-beyond"
+          },
+          {
+            "id": "src.openai.api-models"
+          }
+        ]
+      },
+      "website": "https://openai.com/",
+      "aliases": [
+        "OpenAI Group PBC"
+      ]
     },
     {
       "id": "anthropic",
@@ -35,7 +53,28 @@
       "type": "company",
       "parentId": null,
       "radarCompanyId": "mistral",
-      "coverage": "tracked"
+      "coverage": "tracked",
+      "description": {
+        "text": "Mistral AI is a Paris-based AI company that says it was founded in April 2023. It develops open-weight and commercial language models, as well as models for code, OCR, speech, embeddings and moderation, and offers enterprises and governments AI products including developer tools, applications and compute. Its first model, Mistral 7B, was released in September 2023 under the Apache 2.0 licence.",
+        "sources": [
+          {
+            "id": "src.mistral.legal-notice"
+          },
+          {
+            "id": "src.mistral.about"
+          },
+          {
+            "id": "src.mistral.models-overview"
+          },
+          {
+            "id": "src.mistral.mistral-7b-announcement"
+          }
+        ]
+      },
+      "website": "https://mistral.ai",
+      "aliases": [
+        "Mistral"
+      ]
     },
     {
       "id": "xai",
@@ -43,7 +82,30 @@
       "type": "company",
       "parentId": null,
       "radarCompanyId": "xai",
-      "coverage": "tracked"
+      "coverage": "tracked",
+      "description": {
+        "text": "xAI, which also does business as SpaceXAI, is the developer of the Grok AI models and assistant. Announced in July 2023, it says its mission is to accelerate human scientific discovery and that it builds AI to understand the universe. It operates a GPU supercomputer named Colossus. In February 2026 it reported that SpaceX had acquired the company.",
+        "sources": [
+          {
+            "id": "src.xai.grok-4-5-model-card"
+          },
+          {
+            "id": "src.xai.brand-guidelines"
+          },
+          {
+            "id": "src.xai.company-page"
+          },
+          {
+            "id": "src.xai.xai-joins-spacex"
+          }
+        ]
+      },
+      "website": "https://x.ai",
+      "aliases": [
+        "SpaceXAI",
+        "X.AI LLC",
+        "SpaceXAI LLC"
+      ]
     },
     {
       "id": "nvidia",
@@ -51,7 +113,28 @@
       "type": "company",
       "parentId": null,
       "radarCompanyId": "nvidia",
-      "coverage": "tracked"
+      "coverage": "tracked",
+      "description": {
+        "text": "NVIDIA is a technology company headquartered in Santa Clara, California, founded in 1993 to bring 3D graphics to gaming and multimedia. It describes itself as a pioneer of accelerated computing and designs chips, systems and software for AI computing. It also develops the Nemotron family of open models and publishes their weights and training data on Hugging Face.",
+        "sources": [
+          {
+            "id": "src.nvidia.contact"
+          },
+          {
+            "id": "src.nvidia.corporate-timeline"
+          },
+          {
+            "id": "src.nvidia.about"
+          },
+          {
+            "id": "src.nvidia.nemotron-overview"
+          }
+        ]
+      },
+      "website": "https://www.nvidia.com",
+      "aliases": [
+        "NVIDIA Corporation"
+      ]
     },
     {
       "id": "perplexity",
@@ -67,7 +150,32 @@
       "type": "company",
       "parentId": null,
       "radarCompanyId": "deepseek",
-      "coverage": "tracked"
+      "coverage": "tracked",
+      "description": {
+        "text": "DeepSeek (Hangzhou DeepSeek Artificial Intelligence Co., Ltd.) is a Chinese AI company that says it was founded in 2023. It describes itself as a research team focused on fundamental model research with an open-source approach, and says it releases model weights under the MIT License with a technical report for each model. It offers its models through a web chat, mobile apps and an API platform.",
+        "sources": [
+          {
+            "id": "src.deepseek.huggingface-organization"
+          },
+          {
+            "id": "src.deepseek.privacy-policy"
+          },
+          {
+            "id": "src.deepseek.model-mechanism-and-training-methods"
+          },
+          {
+            "id": "src.deepseek.website-en"
+          }
+        ]
+      },
+      "website": "https://www.deepseek.com/",
+      "aliases": [
+        "DeepSeek-AI",
+        "DeepSeek AI",
+        "深度求索",
+        "Hangzhou DeepSeek Artificial Intelligence Co., Ltd.",
+        "杭州深度求索人工智能基础技术研究有限公司"
+      ]
     },
     {
       "id": "microsoft",
@@ -75,7 +183,56 @@
       "type": "company",
       "parentId": null,
       "radarCompanyId": "microsoft",
-      "coverage": "tracked"
+      "coverage": "tracked",
+      "description": {
+        "text": "Microsoft, founded in 1975 by Bill Gates and Paul Allen and based in Redmond, Washington, describes itself as a technology company that builds AI-powered platforms and tools. Microsoft Research developed the Phi small language models, released as open models under the MIT License, and the Microsoft AI organization, formed in 2024, develops the MAI model family.",
+        "sources": [
+          {
+            "id": "src.microsoft.facts-about-microsoft"
+          },
+          {
+            "id": "src.microsoft.about-microsoft"
+          },
+          {
+            "id": "src.microsoft.phi-2-blog"
+          },
+          {
+            "id": "src.microsoft.phi-open-models"
+          },
+          {
+            "id": "src.microsoft.microsoft-ai-formation"
+          },
+          {
+            "id": "src.microsoft.seven-new-mai-models"
+          }
+        ]
+      },
+      "website": "https://www.microsoft.com",
+      "aliases": [
+        "Microsoft Corporation",
+        "MSFT"
+      ],
+      "formerNames": [
+        {
+          "name": "Micro-Soft",
+          "from": {
+            "value": "1975",
+            "sources": [
+              {
+                "id": "src.microsoft.about-microsoft",
+                "locator": "1975: Microsoft is born"
+              }
+            ],
+            "note": "The About Microsoft timeline says Gates and Allen started Microsoft in 1975, sometimes written Micro-Soft. No end date is given there."
+          },
+          "sources": [
+            {
+              "id": "src.microsoft.about-microsoft",
+              "locator": "1975: Microsoft is born"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "google",
@@ -83,7 +240,37 @@
       "type": "company",
       "parentId": null,
       "radarCompanyId": "google",
-      "coverage": "tracked"
+      "coverage": "tracked",
+      "description": {
+        "text": "Google, headquartered in Mountain View, California, makes hundreds of products, among them Google Search, YouTube, Android and Gmail. Its AI research unit, Google DeepMind, was formed in 2023 by combining Google Brain and DeepMind. Google's language models include LaMDA, PaLM and the Gemini line, and since 2024 it has also released open-weights models under the Gemma name.",
+        "sources": [
+          {
+            "id": "src.google.our-story"
+          },
+          {
+            "id": "src.google.google-deepmind-announcement"
+          },
+          {
+            "id": "src.google.deepmind-about"
+          },
+          {
+            "id": "src.google.lamda-announcement"
+          },
+          {
+            "id": "src.google.palm-announcement"
+          },
+          {
+            "id": "src.google.gemini-1-0-announcement"
+          },
+          {
+            "id": "src.google.gemma-announcement"
+          }
+        ]
+      },
+      "website": "https://about.google/",
+      "aliases": [
+        "Google LLC"
+      ]
     },
     {
       "id": "meta",
@@ -91,7 +278,57 @@
       "type": "company",
       "parentId": null,
       "radarCompanyId": "meta",
-      "coverage": "tracked"
+      "coverage": "tracked",
+      "description": {
+        "text": "Meta Platforms, Inc., named Facebook, Inc. until October 2021, runs apps including Facebook, Messenger, Instagram and WhatsApp. Its FAIR research team dates from late 2013. Meta says it has released its Llama foundation models openly and expects to train both open and closed models; Meta Superintelligence Labs builds the Muse series of large language models.",
+        "sources": [
+          {
+            "id": "src.meta.form-8-k-2021-10-28"
+          },
+          {
+            "id": "src.meta.company-info"
+          },
+          {
+            "id": "src.meta.fair-10-years"
+          },
+          {
+            "id": "src.meta.form-10-k-2025"
+          },
+          {
+            "id": "src.meta.muse-spark-newsroom"
+          }
+        ]
+      },
+      "website": "https://www.meta.com/",
+      "aliases": [
+        "Meta Platforms",
+        "Meta Platforms, Inc."
+      ],
+      "formerNames": [
+        {
+          "name": "Facebook, Inc.",
+          "until": {
+            "value": "2021-10-28",
+            "sources": [
+              {
+                "id": "src.meta.form-8-k-2021-10-28",
+                "locator": "Item 5.03"
+              }
+            ],
+            "note": "Date on which Facebook, Inc. changed its corporate name to Meta Platforms, Inc."
+          },
+          "sources": [
+            {
+              "id": "src.meta.form-8-k-2021-10-28",
+              "locator": "Item 5.03"
+            },
+            {
+              "id": "src.meta.form-10-k-2021",
+              "locator": "Corporate Information"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "huggingface",
@@ -99,7 +336,29 @@
       "type": "company",
       "parentId": null,
       "radarCompanyId": "huggingface",
-      "coverage": "tracked"
+      "coverage": "tracked",
+      "description": {
+        "text": "Hugging Face is a company founded in 2016, incorporated in the US as Hugging Face, Inc., with its main EU establishment in Paris. It runs a platform for hosting and sharing machine learning models and datasets, offers courses and tools, and says it works to democratise AI and machine learning. It also releases open models, including the SmolLM and SmolVLM families.",
+        "sources": [
+          {
+            "id": "src.huggingface.ai-action-plan-response-2025"
+          },
+          {
+            "id": "src.huggingface.terms-of-service"
+          },
+          {
+            "id": "src.huggingface.privacy-policy"
+          },
+          {
+            "id": "src.huggingface.smollm-github"
+          }
+        ]
+      },
+      "website": "https://huggingface.co",
+      "aliases": [
+        "Hugging Face, Inc.",
+        "HuggingFace"
+      ]
     },
     {
       "id": "cohere",
@@ -107,7 +366,29 @@
       "type": "company",
       "parentId": null,
       "radarCompanyId": "cohere",
-      "coverage": "tracked"
+      "coverage": "tracked",
+      "description": {
+        "text": "Cohere is an AI company founded in Toronto in 2019 that builds foundation models and AI products for businesses. It offers its Command text-generation models and its Embed and Rerank models on its own platform and through cloud providers, and launched the North workplace platform in 2025. Its research lab, Cohere Labs, develops the open-weight Aya multilingual models.",
+        "sources": [
+          {
+            "id": "src.cohere.about"
+          },
+          {
+            "id": "src.cohere.models-overview"
+          },
+          {
+            "id": "src.cohere.research"
+          },
+          {
+            "id": "src.cohere.aya-research"
+          }
+        ]
+      },
+      "website": "https://cohere.com",
+      "aliases": [
+        "Cohere Inc.",
+        "Cohere AI"
+      ]
     }
   ]
 }

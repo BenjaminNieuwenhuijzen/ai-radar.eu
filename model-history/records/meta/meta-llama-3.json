@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.meta-llama-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "meta-llama-3",
+  "name": "Meta Llama 3",
+  "aliases": [
+    {
+      "text": "Meta Llama 3",
+      "match": "auto"
+    },
+    {
+      "text": "Llama 3",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.llama",
+  "generation": "3",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.meta.meta-llama-3-hf-collection"
+      }
+    ],
+    "note": "Meta publishes no deprecation page for Llama models; the weights of both sizes are still listed in Meta's Hugging Face organisation (gated, license acceptance required) as seen on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-04-18",
+      "sources": [
+        {
+          "id": "src.meta.meta-llama-3-announcement",
+          "locator": "page date; introduction"
+        },
+        {
+          "id": "src.meta.llama-3-model-card",
+          "locator": "Model Release Date"
+        },
+        {
+          "id": "src.meta.llama-models-repository",
+          "locator": "README, Llama Models table"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "meta.llama-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.meta.meta-llama-3-announcement",
+          "locator": "introduction; State-of-the-art performance"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Meta Llama 3 is the third generation of Meta's Llama language models, released on 18 April 2024 as open weights in 8B and 70B sizes, each pretrained and instruction-tuned, under the custom Llama 3 Community License. Meta also offered it through cloud partners and said its Meta AI assistant was built with Llama 3 technology.",
+    "sources": [
+      {
+        "id": "src.meta.meta-llama-3-announcement"
+      },
+      {
+        "id": "src.meta.llama-3-model-card"
+      },
+      {
+        "id": "src.meta.meta-llama-3-hf-collection"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "tokenizer-attention",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "meta.llama-2",
+      "text": "Uses a new tokenizer with a 128K-token vocabulary, which Meta says encodes text with fewer tokens, and grouped query attention in both sizes.",
+      "sources": [
+        {
+          "id": "src.meta.meta-llama-3-announcement",
+          "locator": "Model architecture"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "meta.llama-2",
+      "text": "Context length increased from 4K tokens for Llama 2 to 8K tokens.",
+      "sources": [
+        {
+          "id": "src.meta.llama-models-repository",
+          "locator": "README, Llama Models table"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "meta.llama-2",
+      "text": "Meta says pretraining used over 15 trillion tokens, about seven times the Llama 2 dataset, with four times more code.",
+      "sources": [
+        {
+          "id": "src.meta.meta-llama-3-announcement",
+          "locator": "Training data"
+        }
+      ]
+    },
+    {
+      "id": "sizes",
+      "aspect": "size",
+      "direction": "changed",
+      "relativeTo": "meta.llama-2",
+      "text": "Released in 8B and 70B sizes, where Llama 2 came in 7B, 13B and 70B.",
+      "sources": [
+        {
+          "id": "src.meta.llama-models-repository",
+          "locator": "README, Llama Models table"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-model-card",
+          "locator": "Model Details, Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text",
+        "code"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-model-card",
+          "locator": "Model Details, Output"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 8192,
+      "asStated": "8k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-model-card",
+          "locator": "Model Details table, Context length"
+        },
+        {
+          "id": "src.meta.meta-llama-3-announcement",
+          "locator": "Model architecture (sequences of 8,192 tokens)"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.meta-llama-3-announcement",
+          "locator": "Try Meta Llama 3 today"
+        },
+        {
+          "id": "src.meta.meta-llama-3-hf-collection"
+        }
+      ],
+      "note": "Weights under the custom Llama 3 Community License (a custom commercial license per the model card), after accepting the license."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "cloud-partner",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.meta-llama-3-announcement",
+          "locator": "introduction; What's next for Llama 3?; Try Meta Llama 3 today"
+        }
+      ],
+      "note": "Consumer access through the Meta AI assistant, which Meta says is built with Llama 3 technology."
+    }
+  },
+  "variants": [
+    {
+      "id": "meta-llama-3-8b",
+      "name": "Meta Llama 3 8B",
+      "aliases": [
+        {
+          "text": "Meta Llama 3 8B",
+          "match": "auto"
+        },
+        {
+          "text": "Meta-Llama-3-8B",
+          "match": "auto"
+        },
+        {
+          "text": "Meta-Llama-3-8B-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Llama 3 8B",
+          "match": "candidate"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 8000000000,
+          "asStated": "8B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-model-card",
+              "locator": "Model Details table, Params"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.meta-llama-3-announcement"
+        },
+        {
+          "id": "src.meta.llama-3-model-card",
+          "locator": "Model Details"
+        },
+        {
+          "id": "src.meta.meta-llama-3-hf-collection"
+        }
+      ],
+      "note": "Released as a pretrained model (Meta-Llama-3-8B) and an instruction-tuned model (Meta-Llama-3-8B-Instruct)."
+    },
+    {
+      "id": "meta-llama-3-70b",
+      "name": "Meta Llama 3 70B",
+      "aliases": [
+        {
+          "text": "Meta Llama 3 70B",
+          "match": "auto"
+        },
+        {
+          "text": "Meta-Llama-3-70B",
+          "match": "auto"
+        },
+        {
+          "text": "Meta-Llama-3-70B-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Llama 3 70B",
+          "match": "candidate"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 70000000000,
+          "asStated": "70B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-model-card",
+              "locator": "Model Details table, Params"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.meta-llama-3-announcement"
+        },
+        {
+          "id": "src.meta.llama-3-model-card",
+          "locator": "Model Details"
+        },
+        {
+          "id": "src.meta.meta-llama-3-hf-collection"
+        }
+      ],
+      "note": "Released as a pretrained model (Meta-Llama-3-70B) and an instruction-tuned model (Meta-Llama-3-70B-Instruct)."
+    }
+  ],
+  "notes": "Official name at release is Meta Llama 3; Meta's model card and later pages also say Llama 3, and Meta's July 2024 paper uses Llama 3 for the Llama 3.1 models, so Llama 3 and the size short forms are candidate aliases. The announcement mentions larger models of over 400B parameters still in training; none was released under this name. Context window: the model card says 8k, the announcement says training sequences of 8,192 tokens. The original repository meta-llama/llama3 is archived and deprecated in favour of meta-llama/llama-models."
+}

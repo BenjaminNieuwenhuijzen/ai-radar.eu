@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-next",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-next",
+  "name": "Mistral Next",
+  "aliases": [
+    {
+      "text": "Mistral Next",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-next-docs",
+        "locator": "status"
+      },
+      {
+        "id": "src.mistral.legal-mistral-next",
+        "locator": "Model Lifecycle: Mistral Next"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Next"
+      }
+    ],
+    "note": "No retirement date published: the legal centre gives N/A and the Deprecated table row has no dates."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-large-3",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Next, Alternative"
+      },
+      {
+        "id": "src.mistral.mistral-next-docs",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-02-26",
+      "sources": [
+        {
+          "id": "src.mistral.le-chat-announcement",
+          "locator": "A multilingual conversational assistant based on Mistral models"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "February 26, 2024, Le Chat"
+        },
+        {
+          "id": "src.mistral.mistral-next-docs",
+          "locator": "page header"
+        },
+        {
+          "id": "src.mistral.legal-mistral-next",
+          "locator": "Model Lifecycle: Mistral Next"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Mistral Next was a prototype language model that Mistral AI offered in the le Chat beta from 26 February 2024, next to Mistral Large and Mistral Small, and described as designed to be brief and concise. Mistral's docs list it as retired and give no API model id, version or context window.",
+    "sources": [
+      {
+        "id": "src.mistral.le-chat-announcement"
+      },
+      {
+        "id": "src.mistral.changelog",
+        "locator": "February 26, 2024, Le Chat"
+      },
+      {
+        "id": "src.mistral.mistral-next-docs"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-next-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-next-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Mistral AI."
+    },
+    "access": {
+      "value": [
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.le-chat-announcement",
+          "locator": "A multilingual conversational assistant based on Mistral models"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "February 26, 2024, Le Chat"
+        }
+      ],
+      "note": "Offered in the le Chat beta; the docs show no API model id."
+    }
+  },
+  "notes": "Added beyond the scope list (verified): a prototype model that Mistral offered in the le Chat beta from 2024-02-26, next to Mistral Large and Mistral Small, described as designed to be brief and concise. The docs model page and the legal centre list it as its own model; neither gives a version, API id, context window or deprecation and retirement dates. Prominence standard is editorial. No relation recorded: no source links it to another model."
+}

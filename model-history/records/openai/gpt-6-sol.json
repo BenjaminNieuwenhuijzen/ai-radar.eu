@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-6-sol",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-6-sol",
+  "name": "GPT-6 Sol",
+  "aliases": [
+    {
+      "text": "GPT-6 Sol",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-6-sol",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-sol",
+  "generation": "6",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.gpt-6-sol-docs",
+        "locator": "Snapshots"
+      },
+      {
+        "id": "src.openai.deprecations",
+        "locator": "Upcoming deprecations"
+      }
+    ],
+    "note": "Listed in the API model catalog and not on the deprecations page as read on 2026-10-01; the model page points to GPT-6.1 Sol as the newer Sol model."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-09-22",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "September, 2026: Sep 22"
+        },
+        {
+          "id": "src.openai.chatgpt-codex-changelog",
+          "locator": "2026-09-22: GPT-6 Sol and Luna in Codex and ChatGPT Work"
+        },
+        {
+          "id": "src.openai.gpt-6-astra-system-card",
+          "locator": "Change log, September 22, 2026; 11. GPT-6 Sol, GPT-6 Luna"
+        },
+        {
+          "id": "src.openai.gpt-6-sol-luna-launch",
+          "locator": "Availability"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-5-6-sol",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-sol-luna-launch",
+          "locator": "GPT-6 API pricing; Factuality (its predecessor)"
+        },
+        {
+          "id": "src.openai.chatgpt-codex-changelog",
+          "locator": "2026-09-22: GPT-6 Sol and Luna in Codex and ChatGPT Work"
+        },
+        {
+          "id": "src.openai.gpt-6-astra-system-card",
+          "locator": "11. GPT-6 Sol, GPT-6 Luna (respective GPT-5.6 counterparts)"
+        }
+      ],
+      "note": "The launch post prices GPT-6 Sol against GPT-5.6 Sol and refers to its predecessor; the Codex changelog calls the GPT-5.6 models the predecessors of GPT-6 Sol and GPT-6 Luna."
+    }
+  ],
+  "summary": {
+    "text": "GPT-6 Sol is the Sol tier of OpenAI's GPT-6 family, a reasoning language model for text and image input that OpenAI describes as a lower-cost alternative to GPT-6 Astra, trained with similar methods. It was released with GPT-6 Luna on 22 September 2026 in the API, Amazon Bedrock, ChatGPT Work and Codex, but not in ChatGPT conversations.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-6-astra-system-card"
+      },
+      {
+        "id": "src.openai.gpt-6-sol-luna-launch"
+      },
+      {
+        "id": "src.openai.api-changelog"
+      },
+      {
+        "id": "src.openai.amazon-bedrock-guide"
+      },
+      {
+        "id": "src.openai.chatgpt-codex-changelog"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "price",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-6-sol",
+      "text": "API prices of 2 USD input and 10 USD output per million tokens, half of the promotional GPT-5.6 Sol price of 4 USD and 20 USD.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-sol-luna-launch",
+          "locator": "GPT-6 API pricing"
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-6-sol",
+      "text": "Uses the same types of data and training as GPT-6 Astra, with a knowledge cutoff of 20 April 2026 against 16 February 2026 for GPT-5.6 Sol.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-astra-system-card"
+        },
+        {
+          "id": "src.openai.gpt-6-sol-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.gpt-5-6-sol-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    {
+      "id": "work-and-codex-only",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-6-sol",
+      "text": "In ChatGPT offered only in ChatGPT Work and Codex, not in ChatGPT conversations.",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-codex-changelog",
+          "locator": "2026-09-22: GPT-6 Sol and Luna in Codex and ChatGPT Work"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-sol-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "September, 2026: Sep 22"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-sol-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-6-sol-docs",
+            "locator": "description (reasoning.effort); Model details (reasoning token support)"
+          },
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "September, 2026: Sep 22"
+          }
+        ]
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-6-sol-docs",
+            "locator": "description; Supported features"
+          }
+        ],
+        "note": "In Chat Completions only with reasoning effort none; the Responses API supports it with reasoning."
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-6-sol-docs",
+            "locator": "Supported tools"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1050000,
+      "asStated": "1,050,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-sol-docs",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The docs give 922,000 maximum input tokens and 128,000 maximum output tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-sol-luna-launch",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "September, 2026: Sep 22"
+        },
+        {
+          "id": "src.openai.chatgpt-codex-changelog",
+          "locator": "2026-09-22: GPT-6 Sol and Luna in Codex and ChatGPT Work"
+        },
+        {
+          "id": "src.openai.amazon-bedrock-guide",
+          "locator": "How Bedrock availability works"
+        }
+      ]
+    }
+  },
+  "notes": "Released together with GPT-6 Luna; the GPT-6 Astra system card describes GPT-6 Sol as a highly capable, lower-cost alternative to Astra. In ChatGPT it is available in ChatGPT Work and Codex, not in Chat. One week later GPT-6.1 Sol followed (openai.gpt-6-1-sol). The launch page shows no publication date; Sep 22, 2026 comes from the API changelog and other OpenAI pages. The openai.com post was read through a Wayback Machine capture."
+}

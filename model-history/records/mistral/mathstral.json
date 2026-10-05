@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mathstral",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mathstral",
+  "name": "Mathstral",
+  "aliases": [
+    {
+      "text": "Mathstral",
+      "match": "auto"
+    },
+    {
+      "text": "Mathstral 7B",
+      "match": "auto"
+    },
+    {
+      "text": "Mathstral-7B-v0.1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": null,
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mathstral-7b-v0-1"
+      },
+      {
+        "id": "src.mistral.docs-mathstral-7b-0-1",
+        "locator": "Weights table"
+      }
+    ],
+    "note": "Apache 2.0 weights remain downloadable from the mistralai Hugging Face organisation. The docs page shows a Retired badge without an API name or retirement date, and the overview lists Mathstral 7B without dates."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-small-4",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Mathstral 7B, Alternative"
+      },
+      {
+        "id": "src.mistral.docs-mathstral-7b-0-1",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-07-16",
+      "sources": [
+        {
+          "id": "src.mistral.mathstral-announcement",
+          "locator": "page date"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "July 16, 2024"
+        },
+        {
+          "id": "src.mistral.docs-mathstral-7b-0-1",
+          "locator": "release date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "mistral.mistral-7b-v0-3",
+      "method": "other",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.mistral.mathstral-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.mistral.hf-mathstral-7b-v0-1",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Mistral says Mathstral builds on Mistral 7B and the model card says it is based on Mistral 7B, without naming a version or method; the v0.3 target is an editorial choice."
+    }
+  ],
+  "summary": {
+    "text": "Mathstral is a 7B language model from Mistral AI, built on Mistral 7B and specialised in mathematics and STEM subjects, aimed at problems that need complex, multi-step logical reasoning. Mistral released it as open weights under Apache 2.0, as part of its collaboration with Project Numina.",
+    "sources": [
+      {
+        "id": "src.mistral.mathstral-announcement"
+      },
+      {
+        "id": "src.mistral.hf-mathstral-7b-v0-1"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "math-specialisation",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-7b-v0-3",
+      "text": "Specialised for mathematics and STEM subjects; Mistral compares its results by subject with those of Mistral 7B.",
+      "sources": [
+        {
+          "id": "src.mistral.mathstral-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mathstral-7b-0-1",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mathstral-7b-0-1",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mathstral-announcement",
+          "locator": "fifth paragraph"
+        },
+        {
+          "id": "src.mistral.hf-mathstral-7b-v0-1"
+        }
+      ],
+      "note": "Apache 2.0."
+    },
+    "contextWindowTokens": {
+      "value": 32000,
+      "asStated": "32k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mathstral-7b-0-1",
+          "locator": "Context; Weights table"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 7000000000,
+      "asStated": "7B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mathstral-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.mistral.docs-mathstral-7b-0-1",
+          "locator": "Weights table"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mathstral-announcement",
+          "locator": "fifth paragraph"
+        }
+      ]
+    }
+  },
+  "notes": "Added by the verifier: released on 2024-07-16 together with Codestral Mamba (changelog) and missing from the research output. familyId left null until the scope assigns a family. The announcement title is written MathΣtral. Produced in the context of a collaboration with Project Numina, which is not recorded as a co-developer. No API id is given in the announcement, changelog or docs, so api access is not recorded."
+}

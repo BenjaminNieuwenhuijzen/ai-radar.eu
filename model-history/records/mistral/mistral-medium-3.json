@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-medium-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-medium-3",
+  "name": "Mistral Medium 3",
+  "aliases": [
+    {
+      "text": "Mistral Medium 3",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Medium 3.0",
+      "match": "auto"
+    },
+    {
+      "text": "mistral-medium-2505",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-medium",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Medium 3 (mistral-medium-2505), retirement 8/31/2026"
+      }
+    ],
+    "note": "No weights published. On 2026-10-01 the docs model page still showed a Deprecated badge and the Legal Center lifecycle table still listed Mistral Medium 3.0 as Active, but the models overview gives 2026-08-31 as retirement date, which has passed."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-medium-3-5",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Medium 3, Alternative"
+      },
+      {
+        "id": "src.mistral.mistral-medium-3-docs",
+        "locator": "Replacement"
+      }
+    ],
+    "note": "Replacement named for the API model when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-05-07",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-announcement",
+          "locator": "page date; Available today"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "May 7, 2025"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-docs",
+          "locator": "release date"
+        },
+        {
+          "id": "src.mistral.legal-mistral-medium-3",
+          "locator": "Model Lifecycle: Mistral Medium 3.0, Release Date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-05-22",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Medium 3 (mistral-medium-2505)"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-docs",
+          "locator": "Deprecation date"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-08-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Medium 3 (mistral-medium-2505)"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.mistral-medium-1",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-announcement"
+        }
+      ],
+      "note": "Editorial link along the Mistral Medium line: the announcement names no predecessor and there was no Mistral Medium 2; the previous model in the line was the Mistral Medium endpoint of December 2023 (Mistral Medium 1.0 in the docs)."
+    }
+  ],
+  "summary": {
+    "text": "Mistral Medium 3 is a commercial multimodal model from Mistral AI with text and image input, offered through its API, on Amazon SageMaker and as the model behind Le Chat Enterprise. Mistral AI presents it for enterprise use, with hybrid, on-premises or in-VPC deployment and custom post-training.",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-medium-3-docs"
+      },
+      {
+        "id": "src.mistral.mistral-medium-3-announcement"
+      },
+      {
+        "id": "src.mistral.le-chat-enterprise-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "mistral.mistral-medium-1",
+      "text": "Accepts image input in addition to text.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "relativeTo": "mistral.mistral-medium-1",
+      "text": "Has a context window of 128k tokens.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    {
+      "id": "deployment",
+      "aspect": "availability",
+      "relativeTo": "mistral.mistral-medium-1",
+      "text": "Offered for hybrid, on-premises and in-VPC deployment and with custom post-training, besides the API.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Mistral AI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-announcement",
+          "locator": "Available today."
+        },
+        {
+          "id": "src.mistral.le-chat-enterprise-announcement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "At launch on Mistral La Plateforme and Amazon SageMaker (IBM watsonx, NVIDIA NIM, Azure AI Foundry and Google Cloud Vertex announced as coming), and as the model behind Le Chat Enterprise."
+    }
+  },
+  "notes": "Commercial model (licence shown as Premier in the docs). The announcement also offers hybrid, on-premises and in-VPC deployment and custom post-training."
+}

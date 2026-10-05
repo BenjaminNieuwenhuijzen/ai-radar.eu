@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-4-1-fast",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-4-1-fast",
+  "name": "Grok 4.1 Fast",
+  "aliases": [
+    {
+      "text": "Grok 4.1 Fast",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4-1-fast-reasoning",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4-1-fast-non-reasoning",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok-fast",
+  "generation": "4.1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.xai.may-15-2026-model-retirement",
+        "locator": "list of retired models"
+      }
+    ],
+    "note": "grok-4-1-fast-reasoning and grok-4-1-fast-non-reasoning retired from the xAI API; requests are served by grok-4.3."
+  },
+  "replacedBy": {
+    "modelId": "xai.grok-4-3",
+    "sources": [
+      {
+        "id": "src.xai.may-15-2026-model-retirement",
+        "locator": "Recommended Replacements"
+      }
+    ],
+    "note": "The reasoning slug redirects to grok-4.3 with low reasoning effort, the non-reasoning slug with reasoning effort none."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-11-19",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-fast-announcement",
+          "locator": "header"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "November 2025, Nov 19"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2026-05-15",
+      "sources": [
+        {
+          "id": "src.xai.may-15-2026-model-retirement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Effective 12:00 PM PT on the xAI API."
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-4-fast",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-fast-announcement"
+        }
+      ],
+      "note": "Editorial link along the Fast tier: the announcement compares Grok 4.1 Fast with Grok 4 Fast but does not call it a successor."
+    }
+  ],
+  "summary": {
+    "text": "Grok 4.1 Fast is an xAI tool-calling model released on the xAI API on 19 November 2025 together with the Agent Tools API, as reasoning and non-reasoning model ids with a 2-million-token context window. xAI positions it for production agents in areas such as customer support and finance; it was retired from the API on 15 May 2026.",
+    "sources": [
+      {
+        "id": "src.xai.grok-4-1-fast-announcement"
+      },
+      {
+        "id": "src.xai.api-release-notes"
+      },
+      {
+        "id": "src.xai.may-15-2026-model-retirement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "tool-training",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "xai.grok-4-fast",
+      "text": "Trained with reinforcement learning in simulated environments with tools from dozens of domains, and launched with the server-side Agent Tools API.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-fast-announcement",
+          "locator": "Trained for the real world; Agent Tools API"
+        }
+      ]
+    },
+    {
+      "id": "long-context-training",
+      "aspect": "context-length",
+      "relativeTo": "xai.grok-4-fast",
+      "text": "Long-horizon multi-turn reinforcement learning aimed at steady performance across the full 2-million-token window; the window size is unchanged.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-fast-announcement"
+        }
+      ]
+    },
+    {
+      "id": "hallucination",
+      "aspect": "other",
+      "relativeTo": "xai.grok-4-fast",
+      "text": "xAI reports a lower hallucination rate than Grok 4 Fast.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-fast-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.grok-4-1-fast-announcement",
+            "locator": "Start Building"
+          }
+        ],
+        "note": "Released as grok-4-1-fast-reasoning and grok-4-1-fast-non-reasoning."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.grok-4-1-fast-announcement",
+            "locator": "Trained for the real world; Agent Tools API"
+          }
+        ],
+        "note": "Positioned for tool calling; launched with the server-side Agent Tools API."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 2000000,
+      "asStated": "2M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-fast-announcement",
+          "locator": "introduction"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-1-fast-announcement",
+          "locator": "introduction; Start Building"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "November 2025, Nov 19"
+        }
+      ]
+    }
+  },
+  "notes": "Offered on the API as grok-4-1-fast-reasoning and grok-4-1-fast-non-reasoning (aliases). Announced together with the Agent Tools API. No model card was found for Grok 4.1 Fast. No deprecation notice date is given. Input and output modalities are left out, and multimodal is not set: the archived API model page that lists them could not be opened for this review."
+}

@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.muse-spark",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "muse-spark",
+  "name": "Muse Spark",
+  "aliases": [
+    {
+      "text": "Muse Spark",
+      "match": "candidate"
+    },
+    {
+      "text": "Muse Spark 1.0",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.muse",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [
+      {
+        "id": "src.meta.model-api-models",
+        "locator": "Muse Spark; Available Muse Spark models"
+      },
+      {
+        "id": "src.meta.muse-spark-1-1-evaluation-report",
+        "locator": "Introduction"
+      }
+    ],
+    "note": "Meta has no deprecation page. The Model API models page lists only Muse Spark 1.1, 1.2 and 1.3 and calls 1.1 the original version; the Muse Spark 1.1 Evaluation Report says 1.1 succeeds Muse Spark 1.0 as the model powering Meta AI. No Meta statement on the current status of the April 2026 model was found."
+  },
+  "replacedBy": {
+    "modelId": "meta.muse-spark-1-1",
+    "sources": [
+      {
+        "id": "src.meta.muse-spark-1-1-evaluation-report",
+        "locator": "Introduction"
+      }
+    ],
+    "note": "The report says Muse Spark 1.1 is the updated model powering Meta AI, succeeding Muse Spark 1.0."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-04-08",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-blog"
+        },
+        {
+          "id": "src.meta.muse-spark-newsroom",
+          "locator": "Originally published on April 8, 2026"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "meta.llama-4-maverick",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-blog",
+          "locator": "Scaling Axes: Pre-Training"
+        }
+      ],
+      "note": "The launch blog calls Llama 4 Maverick our previous model when comparing training compute. The link crosses from the Llama line to the Muse line."
+    }
+  ],
+  "summary": {
+    "text": "Muse Spark is the first model in Meta's Muse series, built by Meta Superintelligence Labs. Meta describes it as a natively multimodal reasoning model with tool use; it launched in the Meta AI app and on meta.ai with Instant and Thinking modes, and select partners got a private API preview.",
+    "sources": [
+      {
+        "id": "src.meta.muse-spark-newsroom"
+      },
+      {
+        "id": "src.meta.muse-spark-blog"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "pretraining-compute",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "meta.llama-4-maverick",
+      "text": "Meta says a rebuilt pre-training recipe reaches the same capabilities as Llama 4 Maverick with over an order of magnitude less training compute.",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-blog",
+          "locator": "Scaling Axes: Pre-Training"
+        }
+      ]
+    },
+    {
+      "id": "reasoning",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "meta.llama-4-maverick",
+      "text": "Trained with reinforcement learning to reason before answering, with a penalty on thinking time; a Contemplating mode has several agents reason in parallel.",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-blog",
+          "locator": "Scaling Axes: Test-Time Reasoning"
+        }
+      ]
+    },
+    {
+      "id": "availability",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "meta.llama-4-maverick",
+      "text": "Offered in Meta AI and as a private API preview for select partners; Meta said it hoped to open-source future versions.",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-newsroom"
+        }
+      ]
+    },
+    {
+      "id": "health-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "meta.llama-4-maverick",
+      "text": "Meta says it worked with more than 1,000 physicians to curate training data for health-related answers.",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-blog"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-blog",
+          "locator": "first paragraph; Applications: Multimodal"
+        },
+        {
+          "id": "src.meta.muse-spark-newsroom",
+          "locator": "Ask Meta AI: It Understands"
+        }
+      ],
+      "note": "Described as natively multimodal; the launch sources describe image understanding (photos, charts) but give no modality list."
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.meta.muse-spark-blog",
+            "locator": "first paragraph; Scaling Axes: Test-Time Reasoning; Contemplating mode paragraph"
+          },
+          {
+            "id": "src.meta.muse-spark-newsroom",
+            "locator": "Looking Ahead"
+          }
+        ],
+        "note": "Instant and Thinking modes in Meta AI; Contemplating mode (several agents reasoning in parallel) rolling out gradually on meta.ai."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.meta.muse-spark-blog",
+            "locator": "first paragraph"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Meta. The newsroom post describes the model as small and fast by design."
+    },
+    "access": {
+      "value": [
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-blog",
+          "locator": "fourth paragraph"
+        },
+        {
+          "id": "src.meta.muse-spark-newsroom",
+          "locator": "Takeaways"
+        },
+        {
+          "id": "src.meta.muse-spark-safety-preparedness-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Available at launch on meta.ai and in the Meta AI app, rolling out to WhatsApp, Instagram, Facebook, Messenger and AI glasses. Meta also opened a private API preview for select users or partners; api is left out because access was not public."
+    }
+  },
+  "notes": "First model of the Muse series from Meta Superintelligence Labs. Instant, Thinking and Contemplating are modes, not variants. The Muse Spark 1.1 Evaluation Report calls this model Muse Spark 1.0. No API model id for the private preview was found. Meta said it hopes to open-source future versions; no weights were published for this model. Context window not stated in the launch sources."
+}

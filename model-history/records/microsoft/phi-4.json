@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.phi-4",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "phi-4",
+  "name": "Phi-4",
+  "aliases": [
+    {
+      "text": "Phi-4",
+      "match": "candidate"
+    },
+    {
+      "text": "microsoft/phi-4",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.phi",
+  "generation": "4",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-4-model-card"
+      },
+      {
+        "id": "src.microsoft.foundry-model-retirement-schedule",
+        "locator": "Microsoft table: Phi-4, GA"
+      }
+    ],
+    "note": "Weights downloadable from Microsoft's Hugging Face organisation and listed as GA, with no retirement date, on the Microsoft Foundry model retirement schedule (checked 2026-10-01)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-12-12",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-announcement",
+          "locator": "page date; Today we are introducing Phi-4"
+        },
+        {
+          "id": "src.microsoft.phi-4-model-card",
+          "locator": "Model Summary, Release date"
+        },
+        {
+          "id": "src.microsoft.phi-4-technical-report",
+          "locator": "Submission history, v1"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "microsoft.phi-3-5",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.microsoft.phi-4-technical-report",
+          "locator": "abstract"
+        }
+      ],
+      "note": "Editorial link along the core Phi line: the post calls Phi-4 the latest member of the Phi family and the report describes minimal changes to the phi-3 architecture, without naming a direct predecessor; Phi-3.5 was the most recent core text release before it."
+    }
+  ],
+  "summary": {
+    "text": "Phi-4 is a 14 billion parameter small language model from Microsoft, released on 12 December 2024 and aimed at complex reasoning such as math as well as conventional language tasks. Microsoft offers it on Azure AI Foundry and as open weights on Hugging Face under the MIT License; its report describes a training recipe centred on data quality, with synthetic data used throughout.",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-4-announcement"
+      },
+      {
+        "id": "src.microsoft.phi-4-model-card"
+      },
+      {
+        "id": "src.microsoft.phi-4-technical-report"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "microsoft.phi-3-5",
+      "text": "Training data extends the Phi-3 data with new synthetic textbook-like data and acquired academic books and Q&A datasets; synthetic data is used throughout.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-model-card"
+        },
+        {
+          "id": "src.microsoft.phi-4-technical-report"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "decreased",
+      "relativeTo": "microsoft.phi-3-5",
+      "text": "Context length is 16K tokens, compared with 128K tokens for the Phi-3.5 models.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-model-card"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-announcement"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-focus",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "microsoft.phi-3-5",
+      "text": "Aimed at complex reasoning such as math; the report credits data quality, the training curriculum and post-training rather than architecture changes.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-technical-report"
+        },
+        {
+          "id": "src.microsoft.phi-4-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-model-card",
+          "locator": "Model Summary, Inputs"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-model-card",
+          "locator": "Model Summary, Outputs"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 16000,
+      "asStated": "16K tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-model-card",
+          "locator": "Model Summary, Context length"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 14000000000,
+      "asStated": "14B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-announcement"
+        },
+        {
+          "id": "src.microsoft.phi-4-technical-report",
+          "locator": "abstract"
+        },
+        {
+          "id": "src.microsoft.phi-4-model-card",
+          "locator": "Model Summary, Architecture"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-model-card",
+          "locator": "Model Summary, License"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-announcement"
+        },
+        {
+          "id": "src.microsoft.phi-4-model-card"
+        }
+      ],
+      "note": "The api value stands for the Azure AI Foundry offering named in the announcement."
+    }
+  },
+  "notes": "Released on 2024-12-12 (announcement, model card release date, arXiv v1). The live announcement is marked Updated Jan 08, 2025 (Version 2.0) and lists Azure AI Foundry and Hugging Face; the earlier version of the post could not be retrieved for this review (Wayback Machine blocked automated access), so no claim about its launch-day wording is recorded. The earliest commit of the Hugging Face card (8ee52dc, 2024-12-11) lists the license as MSRLA with Microsoft Research License Terms; the current card states MIT. The repository commit history is short and appears rewritten, so the day of the license change and the day the weights went public are not recorded. Microsoft reported benchmark results, mainly on math reasoning."
+}

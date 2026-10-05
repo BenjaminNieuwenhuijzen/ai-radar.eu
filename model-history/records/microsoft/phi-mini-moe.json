@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.phi-mini-moe",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "phi-mini-moe",
+  "name": "Phi-mini-MoE",
+  "aliases": [
+    {
+      "text": "Phi-mini-MoE",
+      "match": "auto"
+    },
+    {
+      "text": "Phi-mini-MoE-instruct",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.phi",
+  "generation": null,
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-mini-moe-instruct-model-card",
+        "locator": "weights and licence (MIT)"
+      }
+    ],
+    "note": "Weights remain downloadable from Microsoft's Hugging Face organisation (checked 2026-10-01)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-06-23",
+      "sources": [
+        {
+          "id": "src.microsoft.slimmoe-paper",
+          "locator": "Abstract (models made publicly available); v1 submission date"
+        }
+      ],
+      "note": "The model cards state no release date; the date is that of the SlimMoE paper, whose abstract says the models are publicly available and links both repositories."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "microsoft.phi-3-5",
+      "method": "distillation",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.microsoft.slimmoe-paper",
+          "locator": "Abstract"
+        },
+        {
+          "id": "src.microsoft.phi-mini-moe-instruct-model-card",
+          "locator": "Model Summary"
+        }
+      ],
+      "note": "Compressed from Phi-3.5-MoE (an inline variant of the Phi-3.5 record) with the SlimMoE method of expert slimming and staged distillation, then post-trained with supervised fine-tuning and direct preference optimization. The model card says the starting point is the base model shared by Phi-3.5-MoE and GRIN-MoE."
+    }
+  ],
+  "summary": {
+    "text": "Phi-mini-MoE is an open-weights mixture-of-experts language model from Microsoft with 7.6 billion total and 2.4 billion active parameters, compressed from Phi-3.5-MoE with the SlimMoE method and published on Hugging Face in June 2025 under the MIT licence. It handles English text with a 4k-token context; the smaller Phi-tiny-MoE was released with it.",
+    "sources": [
+      {
+        "id": "src.microsoft.slimmoe-paper"
+      },
+      {
+        "id": "src.microsoft.phi-mini-moe-instruct-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "compressed-size",
+      "aspect": "size",
+      "direction": "decreased",
+      "relativeTo": "microsoft.phi-3-5",
+      "text": "Compressed to 7.6B total and 2.4B active parameters, from 41.9B total and 6.6B active in Phi-3.5-MoE.",
+      "sources": [
+        {
+          "id": "src.microsoft.slimmoe-paper"
+        }
+      ]
+    },
+    {
+      "id": "slimmoe",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "microsoft.phi-3-5",
+      "text": "Experts slimmed with the SlimMoE compression framework, with knowledge transferred through staged distillation.",
+      "sources": [
+        {
+          "id": "src.microsoft.slimmoe-paper",
+          "locator": "Abstract"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-mini-moe-instruct-model-card",
+          "locator": "Training, Model: Inputs"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-mini-moe-instruct-model-card",
+          "locator": "Training, Model: Outputs"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 4000,
+      "asStated": "4k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-mini-moe-instruct-model-card",
+          "locator": "Training, Model: Context length"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 7600000000,
+      "asStated": "7.6B total, 2.4B active",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-mini-moe-instruct-model-card",
+          "locator": "Model Summary; Training, Model: Architecture"
+        },
+        {
+          "id": "src.microsoft.slimmoe-paper",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-mini-moe-instruct-model-card",
+          "locator": "licence: MIT"
+        },
+        {
+          "id": "src.microsoft.slimmoe-paper",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-mini-moe-instruct-model-card",
+          "locator": "Usage: Loading the model locally"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "tiny",
+      "name": "Phi-tiny-MoE",
+      "aliases": [
+        {
+          "text": "Phi-tiny-MoE",
+          "match": "auto"
+        },
+        {
+          "text": "Phi-tiny-MoE-instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 3800000000,
+          "asStated": "3.8B total, 1.1B active",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.microsoft.phi-tiny-moe-instruct-model-card",
+              "locator": "Model Summary"
+            },
+            {
+              "id": "src.microsoft.slimmoe-paper",
+              "locator": "Abstract"
+            }
+          ]
+        }
+      },
+      "note": "Smaller model of the same SlimMoE release; the paper presents both as compressed versions of Phi-3.5-MoE. Same 4k context.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-tiny-moe-instruct-model-card",
+          "locator": "Model Summary"
+        },
+        {
+          "id": "src.microsoft.slimmoe-paper",
+          "locator": "Abstract"
+        }
+      ]
+    }
+  ],
+  "notes": "Added outside the decided scope: a Phi-named open-weights release from June 2025 without an announcement post, documented by Microsoft model cards and the SlimMoE paper. Phi-tiny-MoE (3.8B total, 1.1B active) is an inline variant. English only according to the model cards."
+}

@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-5-6-luna",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-5-6-luna",
+  "name": "GPT-5.6 Luna",
+  "aliases": [
+    {
+      "text": "GPT-5.6 Luna",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.6-luna",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-luna",
+  "generation": "5.6",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.gpt-5-6-luna-docs",
+        "locator": "Snapshots"
+      },
+      {
+        "id": "src.openai.deprecations",
+        "locator": "Upcoming deprecations (gpt-5.6-luna appears only as a recommended replacement)"
+      }
+    ],
+    "note": "Listed in the API model catalog and not deprecated on the deprecations page as read on 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2026-06-26",
+      "sources": [
+        {
+          "id": "src.openai.previewing-gpt-5-6-sol",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.openai.gpt-5-6-preview-system-card",
+          "locator": "Published June 26, 2026; 1. Introduction"
+        }
+      ],
+      "note": "Announced with GPT-5.6 Sol and GPT-5.6 Terra as a limited preview for a small group of trusted partners."
+    },
+    "released": {
+      "value": "2026-07-09",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-launch",
+          "locator": "first paragraph; Availability and pricing"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "July, 2026: Jul 9"
+        },
+        {
+          "id": "src.openai.gpt-5-6-system-card",
+          "locator": "Published July 9, 2026"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-5-4-mini",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-luna-docs",
+          "locator": "description; Quick comparison"
+        },
+        {
+          "id": "src.openai.chatgpt-codex-changelog",
+          "locator": "2026-07-31: GPT-5.4 and GPT-5.4 mini retire from Codex on August 31"
+        }
+      ],
+      "note": "The docs say GPT-5.6 Luna roughly corresponds to the nano model tier of earlier GPT-5 families and compare it with GPT-5.4 nano, an inline variant of the GPT-5.4 mini record; the Codex notice of 2026-07-31 names gpt-5.6-luna as the replacement for gpt-5.4-mini."
+    }
+  ],
+  "summary": {
+    "text": "GPT-5.6 Luna is the smallest tier of OpenAI's GPT-5.6 family, a reasoning language model for text and image input that the API docs describe as meant for cost-sensitive, high-volume work. Released on 9 July 2026 in the API, ChatGPT, Codex and Amazon Bedrock, it became the default ChatGPT model for Free and Go users in August 2026.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-5-6-system-card"
+      },
+      {
+        "id": "src.openai.gpt-5-6-luna-docs"
+      },
+      {
+        "id": "src.openai.gpt-5-6-launch"
+      },
+      {
+        "id": "src.openai.chatgpt-whats-new"
+      },
+      {
+        "id": "src.openai.improving-gpt-5-6-sol-in-chatgpt"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "openai.gpt-5-4-mini",
+      "text": "Context window of 1,050,000 tokens, up from 400,000 in GPT-5.4 nano, the model of the nano tier that Luna corresponds to.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-luna-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.gpt-5-4-nano-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-4-mini",
+      "text": "Knowledge cutoff of 16 February 2026, against 31 August 2025 for GPT-5.4 nano.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-luna-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.gpt-5-4-nano-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    {
+      "id": "tool-calling",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5-4-mini",
+      "text": "Gains the API features added with GPT-5.6, including Programmatic Tool Calling and multi-agent orchestration in beta.",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "July, 2026: Jul 9"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-luna-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-luna-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-5-6-luna-docs",
+            "locator": "description (reasoning.effort); Model details (reasoning token support)"
+          },
+          {
+            "id": "src.openai.gpt-5-6-system-card",
+            "locator": "2. Model Data and Training"
+          }
+        ]
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-5-6-luna-docs",
+            "locator": "Supported features"
+          }
+        ]
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-5-6-luna-docs",
+            "locator": "Supported tools"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1050000,
+      "asStated": "1,050,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-luna-docs",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The docs give 922,000 maximum input tokens and 128,000 maximum output tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-launch",
+          "locator": "Availability and pricing"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "July, 2026: Jul 9"
+        },
+        {
+          "id": "src.openai.chatgpt-whats-new",
+          "locator": "July 13–17, 2026: Use GPT-5.6 through Amazon Bedrock"
+        },
+        {
+          "id": "src.openai.improving-gpt-5-6-sol-in-chatgpt",
+          "locator": "Safety and availability"
+        }
+      ]
+    }
+  },
+  "notes": "Smallest tier of the GPT-5.6 family (system card: the fastest and most cost-efficient model). The deprecations page names gpt-5.6-luna as the replacement for gpt-5-nano-2025-08-07 and gpt-4.1-nano. On 2026-07-30 its API price was cut by 80%. From the week of 2026-08-06 GPT-5.6 Luna became the default ChatGPT model for Free and Go users; the GPT-5.6 August Updates system card treats that ChatGPT release as an August version, distinct from the July version kept in Codex and ChatGPT Work, but OpenAI announced it as an access change rather than as an update of Luna, so it has no separate record (the research draft openai.gpt-5-6-luna-2026-08 was dropped). The openai.com posts were read through Wayback Machine captures."
+}

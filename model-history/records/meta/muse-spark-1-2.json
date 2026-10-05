@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.muse-spark-1-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "muse-spark-1-2",
+  "name": "Muse Spark 1.2",
+  "aliases": [
+    {
+      "text": "Muse Spark 1.2",
+      "match": "auto"
+    },
+    {
+      "text": "muse-spark-1.2",
+      "match": "auto"
+    },
+    {
+      "text": "muse-spark-1.2-contributor",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.muse",
+  "generation": "1.2",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning",
+    "code"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.meta.model-api-models",
+        "locator": "Available Muse Spark models"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-08-05",
+      "sources": [
+        {
+          "id": "src.meta.muse-code-and-muse-spark-1-2-blog"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "meta.muse-spark-1-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.meta.muse-code-and-muse-spark-1-2-blog",
+          "locator": "Muse Spark 1.2"
+        },
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Muse Spark"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Muse Spark 1.2 is a multimodal reasoning model in Meta's Muse series that Meta describes as a coding-focused update to Muse Spark 1.1. It was released with Muse Code, a terminal coding agent in beta that it powers, and the Meta Model API offers it on a Standard tier and a discounted Contributor tier that lets Meta train on prompts and completions.",
+    "sources": [
+      {
+        "id": "src.meta.muse-code-and-muse-spark-1-2-blog"
+      },
+      {
+        "id": "src.meta.model-api-models",
+        "locator": "Available Muse Spark models"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "coding-training",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "meta.muse-spark-1-1",
+      "text": "Meta says it scaled up training compute on coding tasks, with more varied training environments and long-horizon tasks such as whole-repository generation.",
+      "sources": [
+        {
+          "id": "src.meta.muse-code-and-muse-spark-1-2-blog"
+        }
+      ]
+    },
+    {
+      "id": "muse-code-cotraining",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "meta.muse-spark-1-1",
+      "text": "Co-trained with the Muse Code agent harness so that it works with that agent's tools, goals, compaction and subagents.",
+      "sources": [
+        {
+          "id": "src.meta.muse-code-and-muse-spark-1-2-blog"
+        }
+      ]
+    },
+    {
+      "id": "instruction-following",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "meta.muse-spark-1-1",
+      "text": "Meta says it follows complex instructions more precisely, helped by training data that Muse Spark 1.1 generated and graded.",
+      "sources": [
+        {
+          "id": "src.meta.muse-code-and-muse-spark-1-2-blog"
+        }
+      ]
+    },
+    {
+      "id": "contributor-tier",
+      "aspect": "availability",
+      "direction": "added",
+      "relativeTo": "meta.muse-spark-1-1",
+      "text": "Also offered on a discounted Contributor tier that lets Meta train on customer prompts and completions; Muse Spark 1.1 has no such tier.",
+      "sources": [
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Available Muse Spark models"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Available Muse Spark models"
+        }
+      ],
+      "note": "The docs also list PDF input."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Available Muse Spark models"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Available Muse Spark models"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.meta.model-api-reasoning",
+            "locator": "How it works"
+          }
+        ],
+        "note": "Reasoning model with adjustable reasoning_effort from minimal to xhigh; reasoning cannot be disabled."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.meta.model-api-models",
+            "locator": "Muse Spark"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Meta."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.muse-code-and-muse-spark-1-2-blog",
+          "locator": "Availability"
+        }
+      ],
+      "note": "Available in the Meta Model API (with expanded global access) and in the Muse Code terminal agent, which runs on that API."
+    }
+  },
+  "notes": "Contributor is a discounted pricing tier of the same model (muse-spark-1.2-contributor) that permits Meta to train on prompts and completions; not a variant. Categorised as code because Meta presents this release as a coding-focused update. No weights were published in Meta's Hugging Face organisation meta-models by 2026-10-01; the Muse Spark 1.3 blog lists a Muse Spark open weights release on its roadmap without naming a version, so openWeights is not set."
+}

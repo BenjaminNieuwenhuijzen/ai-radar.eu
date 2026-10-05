@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.nemotron-3-nano",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nemotron-3-nano",
+  "name": "Nemotron 3 Nano",
+  "aliases": [
+    {
+      "text": "Nemotron 3 Nano",
+      "match": "auto"
+    },
+    {
+      "text": "NVIDIA Nemotron 3 Nano",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron Nano 3",
+      "match": "auto"
+    },
+    {
+      "text": "NVIDIA Nemotron Nano 3",
+      "match": "auto"
+    },
+    {
+      "text": "Nano 3",
+      "match": "never"
+    },
+    {
+      "text": "Nemotron 3",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron-nano",
+  "generation": "3",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-3-nano-30b-a3b-model-card"
+      },
+      {
+        "id": "src.nvidia.nemotron-3-research-page",
+        "locator": "Open Source"
+      }
+    ],
+    "note": "NVIDIA has no deprecation page for its open models; the weights were still downloadable from NVIDIA's Hugging Face organisation on 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2025-10-28",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-vision-rag-guardrail-models-blog",
+          "locator": "Enable agents to think efficiently with NVIDIA Nemotron Nano 3"
+        }
+      ],
+      "note": "Pre-announced at GTC DC as NVIDIA Nemotron Nano 3, a 32B-parameter MoE with 3.6B active parameters, available soon; the paragraph is in the Internet Archive capture of that day. The full Nemotron 3 family (Nano, Super, Ultra) was announced on 2025-12-15 together with the Nano release."
+    },
+    "released": {
+      "value": "2025-12-15",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-press-release",
+          "locator": "Get Started With NVIDIA Open Models"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-research-page",
+          "locator": "Published: December 15, 2025"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-nano-30b-a3b-model-card",
+          "locator": "Release Date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "nvidia.nemotron-nano-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-research-page",
+          "locator": "Nemotron 3 Nano"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-nano-technical-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "NVIDIA calls Nemotron 2 Nano its previous generation and compares the two models."
+    }
+  ],
+  "summary": {
+    "text": "Nemotron 3 Nano is the first released model of NVIDIA's Nemotron 3 open model family: a hybrid Mamba-Transformer mixture-of-experts reasoning model with 31.6 billion total and 3.2 billion active parameters and a context of up to 1 million tokens. NVIDIA published the weights, training recipe and redistributable training data, and offered it through inference providers and as an NVIDIA NIM.",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-3-press-release"
+      },
+      {
+        "id": "src.nvidia.nemotron-3-research-page"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "moe-architecture",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "nvidia.nemotron-nano-2",
+      "text": "Moves to a mixture-of-experts hybrid Mamba-Transformer design that activates less than half as many parameters per forward pass as Nemotron 2 Nano.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-research-page"
+        }
+      ]
+    },
+    {
+      "id": "context-1m",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "nvidia.nemotron-nano-2",
+      "text": "Context window grows from 128K tokens to up to 1M tokens.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-press-release"
+        },
+        {
+          "id": "src.nvidia.nemotron-nano-2-research-page",
+          "locator": "Models"
+        }
+      ]
+    },
+    {
+      "id": "throughput",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "nvidia.nemotron-nano-2",
+      "text": "NVIDIA says token throughput is up to four times higher and reasoning-token generation up to 60 percent lower than with Nemotron 2 Nano.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-press-release"
+        }
+      ]
+    },
+    {
+      "id": "pretraining-tokens",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "nvidia.nemotron-nano-2",
+      "text": "Pretrained on 25 trillion text tokens, including more than 3 trillion new unique tokens compared with Nemotron 2.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-technical-report"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-30b-a3b-model-card",
+          "locator": "Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-30b-a3b-model-card",
+          "locator": "Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-nano-30b-a3b-model-card",
+            "locator": "Description; Using Budget Control"
+          },
+          {
+            "id": "src.nvidia.nemotron-3-white-paper",
+            "locator": "Abstract"
+          }
+        ],
+        "note": "Reasoning on by default and switched off with enable_thinking=False in the chat template; a thinking budget can be set at inference time."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-nano-30b-a3b-model-card",
+            "locator": "vLLM serving with tool-call parser"
+          }
+        ],
+        "note": "The card documents tool calling through a vLLM tool-call parser."
+      },
+      {
+        "key": "long-context",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-research-page",
+            "locator": "Nemotron 3 technologies: Long Context"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-research-page",
+          "locator": "Open Source"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-nano-30b-a3b-model-card",
+          "locator": "License/Terms of Use"
+        }
+      ],
+      "note": "Released on Hugging Face under the NVIDIA Nemotron Open Model License, together with the training recipe and the training data NVIDIA may redistribute."
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-30b-a3b-model-card",
+          "locator": "Input; Output"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-press-release",
+          "locator": "Nemotron 3 Reinvents Multi-Agent AI"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-research-page",
+          "locator": "Nemotron 3 Nano"
+        }
+      ],
+      "note": "The default context size in the Hugging Face configuration is 256k because of memory requirements."
+    },
+    "parameters": {
+      "value": 31600000000,
+      "asStated": "31.6B total, 3.2B active (3.6B with embeddings)",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-research-page",
+          "locator": "Nemotron 3 Nano"
+        }
+      ],
+      "note": "NVIDIA states this differently elsewhere: the press release says 30 billion parameters with up to 3 billion active, the model card 30B total and 3.5B active, and the October 2025 pre-announcement 32B with 3.6B active."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-press-release",
+          "locator": "Get Started With NVIDIA Open Models"
+        }
+      ],
+      "note": "At release on Hugging Face, through inference providers such as Baseten, DeepInfra, Fireworks, FriendliAI, OpenRouter and Together AI, and as an NVIDIA NIM; Amazon Bedrock and other clouds were announced as coming soon."
+    }
+  },
+  "variants": [
+    {
+      "id": "30b-a3b",
+      "name": "NVIDIA-Nemotron-3-Nano-30B-A3B",
+      "aliases": [
+        {
+          "text": "NVIDIA-Nemotron-3-Nano-30B-A3B",
+          "match": "auto"
+        },
+        {
+          "text": "NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+          "match": "auto"
+        },
+        {
+          "text": "NVIDIA-Nemotron-3-Nano-30B-A3B-FP8",
+          "match": "auto"
+        },
+        {
+          "text": "NVIDIA-Nemotron-3-Nano-30B-A3B-NVFP4",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron 3 Nano 30B-A3B",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-3-Nano-30B-A3B",
+          "match": "auto"
+        }
+      ],
+      "note": "The post-trained model, released in BF16 and FP8; an NVFP4 checkpoint followed later (repository created 2025-12-20, Hugging Face API).",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-research-page",
+          "locator": "Open Source: Checkpoints"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-nano-30b-a3b-model-card",
+          "locator": "Release Date"
+        }
+      ]
+    },
+    {
+      "id": "30b-a3b-base",
+      "name": "NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+      "aliases": [
+        {
+          "text": "NVIDIA-Nemotron-3-Nano-30B-A3B-Base-BF16",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron 3 Nano 30B-A3B Base",
+          "match": "auto"
+        }
+      ],
+      "note": "The pre-trained base model before post-training.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-research-page",
+          "locator": "Open Source: Checkpoints"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-nano-30b-a3b-base-model-card",
+          "locator": "Release Date"
+        }
+      ]
+    }
+  ],
+  "notes": "First released model of the Nemotron 3 generation; Super and Ultra were announced the same day and expected in the first half of 2026. Hybrid Mamba-Transformer mixture-of-experts design. Not to be confused with the 2023 model Nemotron-3 8B, which shares the number 3; bare Nemotron 3 is therefore set to never. Later Nemotron 3 Nano models may share the name stem; the matcher longest-alias rule should keep them apart."
+}

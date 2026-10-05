@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-medium-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-medium-1",
+  "name": "Mistral Medium",
+  "aliases": [
+    {
+      "text": "mistral-medium-2312",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Medium 1.0",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Medium",
+      "match": "candidate"
+    },
+    {
+      "text": "mistral-medium",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-medium",
+  "generation": "1.0",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Medium 1.0"
+      },
+      {
+        "id": "src.mistral.mistral-medium-1-0-docs",
+        "locator": "status"
+      },
+      {
+        "id": "src.mistral.legal-mistral-medium-1",
+        "locator": "Model Lifecycle: Mistral Medium 1.0"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-medium-3-5",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Medium 1.0, Alternative"
+      },
+      {
+        "id": "src.mistral.mistral-medium-1-0-docs",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-12-11",
+      "sources": [
+        {
+          "id": "src.mistral.la-plateforme-announcement",
+          "locator": "Generative endpoints, Mistral-medium"
+        },
+        {
+          "id": "src.mistral.mistral-medium-1-0-docs",
+          "locator": "page header"
+        },
+        {
+          "id": "src.mistral.legal-mistral-medium-1",
+          "locator": "Model Lifecycle: Mistral Medium 1.0"
+        }
+      ],
+      "note": "Released as the model behind the mistral-medium endpoint in the beta of la Plateforme."
+    },
+    "deprecated": {
+      "value": "2024-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Medium 1.0 (mistral-medium-2312)"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-06-16",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Medium 1.0 (mistral-medium-2312)"
+        },
+        {
+          "id": "src.mistral.mistral-medium-1-0-docs",
+          "locator": "Retirement date"
+        },
+        {
+          "id": "src.mistral.legal-mistral-medium-1",
+          "locator": "Model Lifecycle: Mistral Medium 1.0"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "text": "Mistral Medium, later named Mistral Medium 1.0, was the model behind the mistral-medium endpoint at the beta launch of Mistral AI's API platform, la Plateforme, on 11 December 2023. Mistral AI described it as a prototype model under test; it was offered only through the API, with a 32k context window and text input and output.",
+    "sources": [
+      {
+        "id": "src.mistral.la-plateforme-announcement",
+        "locator": "Generative endpoints, Mistral-medium"
+      },
+      {
+        "id": "src.mistral.mistral-medium-1-0-docs"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-1-0-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-1-0-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.la-plateforme-announcement",
+            "locator": "Generative endpoints, Mistral-medium"
+          }
+        ],
+        "note": "English, French, Italian, German and Spanish, plus code."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 32000,
+      "asStated": "32k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-1-0-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Mistral AI."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.la-plateforme-announcement",
+          "locator": "Generative endpoints; Ramping up from beta access to general availability"
+        }
+      ]
+    }
+  },
+  "notes": "At release Mistral named only the endpoint, mistral-medium, and described the model behind it as a prototype model being tested in a deployed setting; access was a beta of la Plateforme. The changelog of 2024-02-26 says the previous mistral-medium was dated and tagged mistral-medium-2312, and the Au Large post says mistral-medium was kept but not updated that day. The docs later call it Mistral Medium 1.0 (version 23.12). The slug ends in -1 because the family id is mistral.mistral-medium. Prominence milestone is editorial: Mistral called it its highest-quality endpoint and it opens the commercial Medium line."
+}

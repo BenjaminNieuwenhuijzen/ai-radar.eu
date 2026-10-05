@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.llama-3-1-nemotron-70b-instruct",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-3-1-nemotron-70b-instruct",
+  "name": "Llama-3.1-Nemotron-70B-Instruct",
+  "aliases": [
+    {
+      "text": "Llama-3.1-Nemotron-70B-Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "Llama 3.1-Nemotron-70B-Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-3.1-Nemotron-70B-Instruct-HF",
+      "match": "auto"
+    },
+    {
+      "text": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+      "match": "auto"
+    },
+    {
+      "text": "nvidia/Llama-3.1-Nemotron-70B-Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-3.1-Nemotron-70B",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-hf-model-card"
+      },
+      {
+        "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-model-card"
+      }
+    ],
+    "note": "Weights remain downloadable from NVIDIA's Hugging Face organisation in NeMo and Transformers formats. The NVIDIA-hosted API endpoint was deprecated as of 2025-10-10 (see milestones)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-10",
+      "qualifier": null,
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-70b-reward-developer-blog",
+          "locator": "Leading large language model; Getting started; update note of 10/21/2024"
+        },
+        {
+          "id": "src.nvidia.helpsteer2-preference-paper",
+          "locator": "Submission history; abstract v1 and v2"
+        }
+      ],
+      "note": "No NVIDIA page states a day. The HelpSteer2-Preference paper v1 of 2024-10-02 announces only the reward model release; the reward-model blog (dated 2024-10-03, updated 10/21/2024) presents the Instruct model and links to it, and the v2 abstract mentions its open release."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "api-endpoint-deprecated",
+      "label": "NVIDIA-hosted API endpoint deprecated",
+      "date": {
+        "value": "2025-10-10",
+        "sources": [
+          {
+            "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-api-catalog",
+            "locator": "deprecation notice"
+          }
+        ],
+        "note": "Applies to the hosted API in the NVIDIA API catalog only, not to the downloadable weights."
+      }
+    }
+  ],
+  "summary": {
+    "text": "Llama-3.1-Nemotron-70B-Instruct is a language model from NVIDIA, trained from Meta's Llama-3.1-70B-Instruct with reinforcement learning from human feedback and NVIDIA's own reward model to make responses more helpful. Presented in October 2024, it was published as open weights and offered through a hosted API; NVIDIA calls it a demonstration of its helpfulness techniques.",
+    "sources": [
+      {
+        "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-hf-model-card"
+      },
+      {
+        "id": "src.nvidia.llama-3-1-nemotron-70b-reward-developer-blog"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-hf-model-card",
+          "locator": "Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-hf-model-card",
+          "locator": "Output"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-hf-model-card",
+          "locator": "License; Usage"
+        },
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-model-card",
+          "locator": "License"
+        },
+        {
+          "id": "src.nvidia.helpsteer2-preference-paper",
+          "locator": "Abstract (v2)"
+        }
+      ],
+      "note": "The current cards name the NVIDIA Open Model License, with the Llama 3.1 Community License Agreement as additional information; the reward-model blog described the model as coming with the Llama 3.1 license."
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-hf-model-card",
+          "locator": "Input: Other Properties Related to Input"
+        }
+      ],
+      "note": "Input limit as stated on the card (max of 128k tokens); output is given as a maximum of 4k tokens."
+    },
+    "parameters": {
+      "value": 70000000000,
+      "asStated": "70B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-hf-model-card"
+        }
+      ],
+      "note": "As given in NVIDIA's model name; the card states no separate parameter count."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-hf-model-card",
+          "locator": "Description; Usage"
+        },
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-api-catalog"
+        }
+      ],
+      "note": "Hosted inference with an OpenAI-compatible API at build.nvidia.com, and weights on Hugging Face. The hosted endpoint was later deprecated."
+    }
+  },
+  "notes": "Trained by NVIDIA with RLHF (REINFORCE) using Llama-3.1-Nemotron-70B-Reward and HelpSteer2-Preference prompts, starting from Meta's Llama-3.1-70B-Instruct; that cross-organisation derivation is not recorded as a relation here. One model in two repositories: nvidia/Llama-3.1-Nemotron-70B-Instruct (NeMo) and nvidia/Llama-3.1-Nemotron-70B-Instruct-HF (Transformers conversion). API model id nvidia/llama-3.1-nemotron-70b-instruct differs from the NeMo repository name only in case, so it is not listed as a separate alias. Llama-3.1-Nemotron-70B is a candidate alias because it also fits the Reward model. The Hugging Face repositories were created on 2024-10-12 and the API catalog entry on 2024-10-15 (metadata, not stated dates).",
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "meta.llama-3-1",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-70b-instruct-hf-model-card",
+          "locator": "initial policy: Llama-3.1-70B-Instruct"
+        }
+      ]
+    }
+  ]
+}

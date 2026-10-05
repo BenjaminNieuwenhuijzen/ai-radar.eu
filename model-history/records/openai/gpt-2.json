@@ -1,0 +1,418 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-2",
+  "name": "GPT-2",
+  "aliases": [
+    {
+      "text": "GPT-2",
+      "match": "auto"
+    },
+    {
+      "text": "GPT2",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.gpt-2-repo",
+        "locator": "download_model.py"
+      },
+      {
+        "id": "src.openai.gpt-2-1-5b-release"
+      }
+    ],
+    "note": "Archived repository; the weights of all four sizes remain downloadable from OpenAI storage through the repository download script."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2019-02-14",
+      "sources": [
+        {
+          "id": "src.openai.gpt-2-announcement",
+          "locator": "page date; second paragraph"
+        },
+        {
+          "id": "src.openai.gpt-2-6-month-follow-up",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Staged release: on 2019-02-14 OpenAI published the paper and only a much smaller model; the full 1.5B model followed on 2019-11-05 (see variants)."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-2-announcement",
+          "locator": "second and third paragraphs"
+        }
+      ],
+      "note": "OpenAI calls GPT-2 a successor to GPT and a direct scale-up of it."
+    }
+  ],
+  "summary": {
+    "text": "GPT-2 is a transformer language model from OpenAI with up to 1.5 billion parameters, trained on about 40GB of internet text and described by OpenAI as a direct scale-up of GPT. Citing concerns about malicious use, OpenAI released its weights in stages during 2019, from a 124M model in February to the 1.5B model in November.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-2-announcement"
+      },
+      {
+        "id": "src.openai.gpt-2-6-month-follow-up"
+      },
+      {
+        "id": "src.openai.gpt-2-1-5b-release"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "parameters",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "openai.gpt-1",
+      "text": "More than ten times the parameters of GPT, with 1.5 billion in the biggest version.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-1",
+      "text": "Trained on WebText, about 40GB of text from 8 million web pages, more than ten times the training data of GPT.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-2-announcement"
+        },
+        {
+          "id": "src.openai.gpt-2-model-card"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "openai.gpt-1",
+      "text": "Context size doubled from 512 to 1024 tokens.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-2-paper"
+        }
+      ]
+    },
+    {
+      "id": "staged-release",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-1",
+      "text": "Weights released in stages over nine months, starting with the smallest model, instead of all at once.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-2-6-month-follow-up"
+        },
+        {
+          "id": "src.openai.gpt-2-1-5b-release"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-2-model-card",
+          "locator": "Model type"
+        },
+        {
+          "id": "src.openai.gpt-2-paper",
+          "locator": "section 2"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-2-announcement",
+          "locator": "Samples"
+        },
+        {
+          "id": "src.openai.gpt-2-paper",
+          "locator": "section 2"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-2-1-5b-release",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.openai.gpt-2-repo",
+          "locator": "download_model.py; License"
+        }
+      ],
+      "note": "Weights released in stages between February and November 2019 under a Modified MIT licence."
+    },
+    "contextWindowTokens": {
+      "value": 1024,
+      "asStated": "1024 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-2-paper",
+          "locator": "section 2.3 Model"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 1500000000,
+      "asStated": "1.5 billion",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-2-announcement",
+          "locator": "third paragraph"
+        },
+        {
+          "id": "src.openai.gpt-2-model-card",
+          "locator": "Model version"
+        }
+      ],
+      "note": "The largest size; the paper lists it as 1542M and the 6-month follow-up as 1558M. Smaller sizes are in variants."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-2-repo",
+          "locator": "download_model.py"
+        },
+        {
+          "id": "src.openai.gpt-2-1-5b-release"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "gpt-2-124m",
+      "name": "GPT-2 124M",
+      "aliases": [
+        {
+          "text": "GPT-2 124M",
+          "match": "auto"
+        },
+        {
+          "text": "GPT-2 117M",
+          "match": "candidate"
+        },
+        {
+          "text": "GPT-2 small",
+          "match": "candidate"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2019-02-14",
+          "sources": [
+            {
+              "id": "src.openai.gpt-2-announcement",
+              "locator": "second paragraph"
+            },
+            {
+              "id": "src.openai.gpt-2-6-month-follow-up",
+              "locator": "first paragraph"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 124000000,
+          "asStated": "124M",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.openai.gpt-2-6-month-follow-up",
+              "locator": "first paragraph"
+            },
+            {
+              "id": "src.openai.gpt-2-model-card",
+              "locator": "Model version"
+            }
+          ],
+          "note": "First reported as 117M; the GPT-2 repository says the original counts were wrong."
+        }
+      },
+      "note": "The much smaller model released with the announcement."
+    },
+    {
+      "id": "gpt-2-355m",
+      "name": "GPT-2 355M",
+      "aliases": [
+        {
+          "text": "GPT-2 355M",
+          "match": "auto"
+        },
+        {
+          "text": "GPT-2 345M",
+          "match": "candidate"
+        },
+        {
+          "text": "GPT-2 medium",
+          "match": "candidate"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2019-05",
+          "sources": [
+            {
+              "id": "src.openai.gpt-2-announcement",
+              "locator": "GPT-2 Interim Update, May 2019"
+            },
+            {
+              "id": "src.openai.gpt-2-6-month-follow-up",
+              "locator": "first paragraph"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 355000000,
+          "asStated": "355M",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.openai.gpt-2-6-month-follow-up",
+              "locator": "first paragraph"
+            },
+            {
+              "id": "src.openai.gpt-2-model-card",
+              "locator": "Model version"
+            }
+          ],
+          "note": "First reported as 345M; the GPT-2 repository says the original counts were wrong."
+        }
+      }
+    },
+    {
+      "id": "gpt-2-774m",
+      "name": "GPT-2 774M",
+      "aliases": [
+        {
+          "text": "GPT-2 774M",
+          "match": "auto"
+        },
+        {
+          "text": "GPT-2 large",
+          "match": "candidate"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2019-08-20",
+          "sources": [
+            {
+              "id": "src.openai.gpt-2-6-month-follow-up",
+              "locator": "page date; first paragraph"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 774000000,
+          "asStated": "774 million",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.openai.gpt-2-6-month-follow-up",
+              "locator": "first paragraph"
+            },
+            {
+              "id": "src.openai.gpt-2-model-card",
+              "locator": "Model version"
+            }
+          ],
+          "note": "The GPT-2 paper and the May 2019 interim update list this size as 762M."
+        }
+      }
+    },
+    {
+      "id": "gpt-2-1-5b",
+      "name": "GPT-2 1.5B",
+      "aliases": [
+        {
+          "text": "GPT-2 1.5B",
+          "match": "auto"
+        },
+        {
+          "text": "GPT-2 XL",
+          "match": "candidate"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2019-11-05",
+          "sources": [
+            {
+              "id": "src.openai.gpt-2-1-5b-release",
+              "locator": "page date; first paragraph"
+            }
+          ]
+        }
+      },
+      "note": "The 1.5B-parameter version, which the paper and the announcement call GPT-2; the final step of the staged release, published with code and model weights."
+    }
+  ],
+  "notes": "Four sizes released in stages (124M, 355M, 774M, 1.5B); the first two were originally reported as 117M and 345M. Training data: WebText, the text of about 45 million outbound Reddit links (model card), described in the announcement as 40GB of Internet text from 8 million web pages. The model card gives February 2019 as model date and a data cutoff at the end of 2017."
+}

@@ -1,0 +1,413 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.llama-3-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-3-1",
+  "name": "Llama 3.1",
+  "aliases": [
+    {
+      "text": "Llama 3.1",
+      "match": "auto"
+    },
+    {
+      "text": "Meta Llama 3.1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.llama",
+  "generation": "3.1",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.meta.llama-3-1-hf-collection"
+      }
+    ],
+    "note": "Meta publishes no deprecation page for Llama models; the weights of all three sizes are still listed in Meta's Hugging Face organisation (gated, license acceptance required) as seen on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-07-23",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-announcement",
+          "locator": "page date; Introducing Llama 3.1"
+        },
+        {
+          "id": "src.meta.llama-3-1-model-card",
+          "locator": "Model Release Date"
+        },
+        {
+          "id": "src.meta.llama-models-repository",
+          "locator": "README, Llama Models table"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "meta.meta-llama-3",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-announcement",
+          "locator": "Introducing Llama 3.1 (upgraded versions of the 8B and 70B models)"
+        },
+        {
+          "id": "src.meta.llama-models-docs",
+          "locator": "Upgrading your application from Llama 3 to Llama 3.1"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Llama 3.1 is a collection of Meta language models in 8B, 70B and 405B sizes, released on 23 July 2024 as open weights under the custom Llama 3.1 Community License and through more than 25 partners. It upgraded the Meta Llama 3 8B and 70B models, added a 405B model and raised the context length to 128K tokens, with support for eight languages.",
+    "sources": [
+      {
+        "id": "src.meta.llama-3-1-announcement"
+      },
+      {
+        "id": "src.meta.llama-3-1-model-card"
+      },
+      {
+        "id": "src.meta.llama-3-1-hf-collection"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "meta.meta-llama-3",
+      "text": "Context length increased from 8K to 128K tokens.",
+      "sources": [
+        {
+          "id": "src.meta.llama-models-repository",
+          "locator": "README, Llama Models table"
+        },
+        {
+          "id": "src.meta.llama-3-1-announcement",
+          "locator": "Takeaways"
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "aspect": "languages",
+      "direction": "increased",
+      "relativeTo": "meta.meta-llama-3",
+      "text": "Official support for eight languages; the Meta Llama 3 model card named English as the intended language.",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-model-card"
+        }
+      ]
+    },
+    {
+      "id": "405b",
+      "aspect": "size",
+      "direction": "added",
+      "relativeTo": "meta.meta-llama-3",
+      "text": "Adds a 405B-parameter model next to upgraded 8B and 70B models.",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-announcement",
+          "locator": "Introducing Llama 3.1"
+        }
+      ]
+    },
+    {
+      "id": "tool-use",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "meta.meta-llama-3",
+      "text": "Meta describes the upgraded 8B and 70B models as having tool use, and its documentation names function calling as a new Llama 3.1 feature.",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-announcement",
+          "locator": "Introducing Llama 3.1"
+        },
+        {
+          "id": "src.meta.llama-models-docs",
+          "locator": "Upgrading your application from Llama 3 to Llama 3.1"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-model-card",
+          "locator": "Model Information table, Input modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text",
+        "code"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-model-card",
+          "locator": "Model Information table, Output modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-announcement",
+          "locator": "Takeaways; Introducing Llama 3.1"
+        },
+        {
+          "id": "src.meta.llama-3-1-model-card",
+          "locator": "Model Information table, Context length (128k)"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-announcement",
+          "locator": "Introducing Llama 3.1; Openness drives innovation"
+        },
+        {
+          "id": "src.meta.llama-3-1-hf-collection"
+        }
+      ],
+      "note": "Weights under the custom Llama 3.1 Community License, after accepting the license."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "cloud-partner",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-announcement",
+          "locator": "Takeaways; Introducing Llama 3.1"
+        }
+      ],
+      "note": "Consumer access: Meta invited users in the US to try Llama 3.1 405B on WhatsApp and meta.ai."
+    }
+  },
+  "variants": [
+    {
+      "id": "llama-3-1-8b",
+      "name": "Llama 3.1 8B",
+      "aliases": [
+        {
+          "text": "Llama 3.1 8B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.1-8B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.1-8B-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Meta-Llama-3.1-8B",
+          "match": "auto"
+        },
+        {
+          "text": "Meta-Llama-3.1-8B-Instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 8000000000,
+          "asStated": "8B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-1-model-card",
+              "locator": "Model Information table, Params"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-announcement"
+        },
+        {
+          "id": "src.meta.llama-3-1-model-card",
+          "locator": "Model Information"
+        },
+        {
+          "id": "src.meta.llama-3-1-hf-collection"
+        }
+      ],
+      "note": "Pretrained and instruction-tuned versions; Hugging Face repositories first named Meta-Llama-3.1-8B and Meta-Llama-3.1-8B-Instruct."
+    },
+    {
+      "id": "llama-3-1-70b",
+      "name": "Llama 3.1 70B",
+      "aliases": [
+        {
+          "text": "Llama 3.1 70B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.1-70B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.1-70B-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Meta-Llama-3.1-70B",
+          "match": "auto"
+        },
+        {
+          "text": "Meta-Llama-3.1-70B-Instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 70000000000,
+          "asStated": "70B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-1-model-card",
+              "locator": "Model Information table, Params"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-announcement"
+        },
+        {
+          "id": "src.meta.llama-3-1-model-card",
+          "locator": "Model Information"
+        },
+        {
+          "id": "src.meta.llama-3-1-hf-collection"
+        }
+      ],
+      "note": "Pretrained and instruction-tuned versions; Hugging Face repositories first named Meta-Llama-3.1-70B and Meta-Llama-3.1-70B-Instruct."
+    },
+    {
+      "id": "llama-3-1-405b",
+      "name": "Llama 3.1 405B",
+      "aliases": [
+        {
+          "text": "Llama 3.1 405B",
+          "match": "auto"
+        },
+        {
+          "text": "Meta Llama 3.1 405B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.1-405B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.1-405B-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.1-405B-FP8",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.1-405B-Instruct-FP8",
+          "match": "auto"
+        },
+        {
+          "text": "Meta-Llama-3.1-405B",
+          "match": "auto"
+        },
+        {
+          "text": "Meta-Llama-3.1-405B-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Meta-Llama-3.1-405B-Instruct-FP8",
+          "match": "auto"
+        },
+        {
+          "text": "Llama 3 405B",
+          "match": "candidate"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 405000000000,
+          "asStated": "405B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-1-model-card",
+              "locator": "Model Information table, Params"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.llama-3-1-announcement"
+        },
+        {
+          "id": "src.meta.llama-3-1-model-card",
+          "locator": "Model Information"
+        },
+        {
+          "id": "src.meta.llama-3-herd-of-models",
+          "locator": "Abstract"
+        },
+        {
+          "id": "src.meta.llama-3-1-hf-collection"
+        }
+      ],
+      "note": "Pretrained and instruction-tuned versions, each also as an FP8-quantized build, which Meta made for single-server-node inference. Meta's paper calls this model Llama 3 405B."
+    }
+  ],
+  "notes": "Released as one collection of 8B, 70B and 405B models; the 8B and 70B are upgraded versions of the Meta Llama 3 sizes, the 405B is new. Hugging Face repositories were first named Meta-Llama-3.1-* and are now Llama-3.1-*; the old names redirect. Meta's paper The Llama 3 Herd of Models describes these models and calls them Llama 3 8B, 70B and 405B, so those short names are candidate aliases at most. Supported languages per the model card: English, German, French, Italian, Portuguese, Hindi, Spanish and Thai."
+}

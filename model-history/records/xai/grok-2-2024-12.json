@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-2-2024-12",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-2-2024-12",
+  "name": "Grok-2 (December 2024 revision)",
+  "aliases": [
+    {
+      "text": "grok-2-1212",
+      "match": "auto"
+    },
+    {
+      "text": "Grok-2",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "xAI has no deprecation page that covers grok-2-1212 or grok-2-vision-1212. The xAI API models page no longer lists them (checked 2026-10-01) and model-specific doc URLs for them redirect to it, but no xAI notice with a retirement date was found."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-12-12",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-1212-announcement",
+          "locator": "page date; third paragraph"
+        }
+      ],
+      "note": "Rollout of the new version to all users on X, free of charge, began on this date. The same post says xAI was adding the API models grok-2-1212 and grok-2-vision-1212 to its API.",
+      "alternatives": [
+        {
+          "value": "2024-12-14",
+          "sources": [
+            {
+              "id": "src.xai.api-release-notes",
+              "locator": "December 2024, Dec 14"
+            }
+          ],
+          "note": "Date under which the xAI API release notes list the release of grok-2-1212 and grok-2-vision-1212 on the API."
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "xai.grok-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-1212-announcement",
+          "locator": "second and third paragraphs"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "The December 2024 revision of Grok-2 is a new version of that xAI language model, released under the same name and rolled out to all X users free of charge from 12 December 2024. xAI also added it to its API as grok-2-1212 and grok-2-vision-1212, and says it is three times faster, with better accuracy, instruction following and multilingual capabilities.",
+    "sources": [
+      {
+        "id": "src.xai.grok-2-1212-announcement"
+      },
+      {
+        "id": "src.xai.api-release-notes",
+        "locator": "December 2024, Dec 14"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "speed",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "xai.grok-2",
+      "text": "Three times faster than the earlier Grok-2, according to xAI.",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-1212-announcement"
+        }
+      ]
+    },
+    {
+      "id": "multilingual",
+      "aspect": "languages",
+      "direction": "changed",
+      "relativeTo": "xai.grok-2",
+      "text": "xAI reports improved multilingual capabilities.",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-1212-announcement"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "December 2024, Dec 14"
+        }
+      ]
+    },
+    {
+      "id": "accuracy",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "xai.grok-2",
+      "text": "xAI reports better accuracy and instruction following.",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-1212-announcement"
+        }
+      ]
+    },
+    {
+      "id": "access-and-price",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "xai.grok-2",
+      "text": "Free for all X users, and offered on the API as grok-2-1212 and grok-2-vision-1212 at a lower price of 2 USD input and 10 USD output per million tokens.",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-1212-announcement",
+          "locator": "third paragraph; API access"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "December 2024, Dec 14"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.grok-2-1212-announcement",
+            "locator": "second paragraph; API access"
+          },
+          {
+            "id": "src.xai.api-release-notes",
+            "locator": "December 2024, Dec 14"
+          }
+        ],
+        "note": "xAI says the new version improves multilingual capabilities."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-1212-announcement",
+          "locator": "third paragraph; API access"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "December 2024, Dec 14"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "vision",
+      "name": "grok-2-vision-1212",
+      "aliases": [
+        {
+          "text": "grok-2-vision-1212",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "announced": {
+          "value": "2024-12-12",
+          "sources": [
+            {
+              "id": "src.xai.grok-2-1212-announcement",
+              "locator": "API access"
+            }
+          ]
+        },
+        "released": {
+          "value": "2024-12-14",
+          "sources": [
+            {
+              "id": "src.xai.api-release-notes",
+              "locator": "December 2024, Dec 14"
+            }
+          ]
+        },
+        "deprecated": null,
+        "retired": null
+      },
+      "sources": [
+        {
+          "id": "src.xai.grok-2-1212-announcement",
+          "locator": "API access"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "December 2024, Dec 14"
+        }
+      ],
+      "note": "API model added alongside grok-2-1212. Its image input is implied by the name, but no live xAI page states its modalities, so no capability is recorded."
+    }
+  ],
+  "notes": "Released under the unchanged name Grok-2; the parenthetical in name is an editorial disambiguation (xAI calls it a new version of the Grok-2 model; API id grok-2-1212). Context window and modalities are not stated in a live xAI source. The API aliases grok-2 and grok-2-latest, mentioned in older xAI docs, were left out because the Wayback Machine capture of those docs could not be opened during review (HTTP 429)."
+}

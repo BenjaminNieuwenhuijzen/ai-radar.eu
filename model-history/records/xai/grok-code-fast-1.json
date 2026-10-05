@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-code-fast-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-code-fast-1",
+  "name": "Grok Code Fast 1",
+  "aliases": [
+    {
+      "text": "Grok Code Fast 1",
+      "match": "auto"
+    },
+    {
+      "text": "grok-code-fast-1",
+      "match": "auto"
+    },
+    {
+      "text": "grok-code-fast-1-0825",
+      "match": "auto"
+    },
+    {
+      "text": "Grok Code Fast",
+      "match": "candidate"
+    },
+    {
+      "text": "grok-code-fast",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": null,
+  "generation": "1",
+  "categories": [
+    "language",
+    "code",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.xai.may-15-2026-model-retirement",
+        "locator": "list of retired models"
+      }
+    ],
+    "note": "Retired from the xAI API; requests to grok-code-fast-1 are served by grok-build-0.1."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-08-28",
+      "sources": [
+        {
+          "id": "src.xai.grok-code-fast-1-announcement",
+          "locator": "header; availability section"
+        }
+      ],
+      "note": "Generally available on the xAI API and free for a limited time on launch-partner coding tools at announcement; xAI says it had quietly released the model under a codename the week before."
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2026-05-15",
+      "sources": [
+        {
+          "id": "src.xai.may-15-2026-model-retirement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Effective 12:00 PM PT on the xAI API."
+    }
+  },
+  "summary": {
+    "text": "Grok Code Fast 1 is an xAI reasoning model for agentic coding, released on 28 August 2025 on the xAI API and, free for a limited time, through coding tools such as GitHub Copilot and Cursor. xAI says it built the model from scratch on a new architecture and trained it on programming content and real-world pull requests. It was retired from the API on 15 May 2026.",
+    "sources": [
+      {
+        "id": "src.xai.grok-code-fast-1-announcement"
+      },
+      {
+        "id": "src.xai.grok-code-fast-1-model-card"
+      },
+      {
+        "id": "src.xai.may-15-2026-model-retirement"
+      }
+    ]
+  },
+  "capabilities": {
+    "features": [
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.grok-code-fast-1-announcement",
+            "locator": "A speedy daily driver"
+          },
+          {
+            "id": "src.xai.grok-code-fast-1-model-card",
+            "locator": "1 Introduction"
+          }
+        ],
+        "note": "Built for agentic coding harnesses; xAI names tools such as grep, terminal and file editing."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-code-fast-1-announcement",
+          "locator": "availability section"
+        },
+        {
+          "id": "src.xai.grok-code-fast-1-model-card",
+          "locator": "1 Introduction"
+        }
+      ],
+      "note": "Also offered through third-party coding tools (GitHub Copilot, Cursor, Cline, Roo Code, Kilo Code, opencode, Windsurf); these are not cloud platforms, so they are not recorded as cloud-partner."
+    }
+  },
+  "notes": "Added by the verifier: missing from the research output. xAI calls it the start of a new model family built from scratch with a new architecture, so no predecessor relation is recorded. The retirement guide names grok-build-0.1 as its replacement; replacedBy is left out because no record id for Grok Build 0.1 is known in this chunk. familyId is null pending a curator decision (no xAI code family in the scope). Modalities and context window are left out: no live or verified archived primary page states them for grok-code-fast-1 (the current docs show it only as an alias of grok-build-0.1). The API alias grok-code-fast-1-0825 comes from the current Grok Build 0.1 model page alias list."
+}

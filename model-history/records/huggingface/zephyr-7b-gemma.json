@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "huggingface.zephyr-7b-gemma",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "zephyr-7b-gemma",
+  "name": "Zephyr 7B Gemma",
+  "aliases": [
+    {
+      "text": "Zephyr 7B Gemma",
+      "match": "auto"
+    },
+    {
+      "text": "zephyr-7b-gemma-v0.1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "huggingface",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "huggingface.zephyr",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.huggingface.zephyr-7b-gemma-model-card",
+        "locator": "Hub repository HuggingFaceH4/zephyr-7b-gemma-v0.1, Files and versions"
+      }
+    ],
+    "note": "Weights are downloadable from the HuggingFaceH4 organisation on the Hub. Hugging Face publishes no deprecation page for its models."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-03-01",
+      "sources": [
+        {
+          "id": "src.huggingface.alignment-handbook",
+          "locator": "README, News: March 1, 2024"
+        },
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card",
+          "locator": "Hub commit history: repository created and card written 2024-03-01"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "huggingface.zephyr-7b-beta",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": null
+    },
+    {
+      "type": "derived-from",
+      "target": "google.gemma-1",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Zephyr 7B Gemma is the third model in Hugging Face's Zephyr series, a 7B chat assistant fine-tuned from Google's Gemma 7B and published as open weights under the Gemma Terms of Use. It was fine-tuned on the DEITA 10K dataset, aligned with DPO on about 7k GPT-4-ranked prompts, and released with an Alignment Handbook recipe for aligning Gemma 7B with RLAIF.",
+    "sources": [
+      {
+        "id": "src.huggingface.zephyr-7b-gemma-model-card"
+      },
+      {
+        "id": "src.huggingface.alignment-handbook",
+        "locator": "README, News: March 1, 2024"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "base-model",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "huggingface.zephyr-7b-beta",
+      "text": "Built on Google's Gemma 7B as base model instead of Mistral 7B v0.1.",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card",
+          "locator": "Model description"
+        },
+        {
+          "id": "src.huggingface.zephyr-7b-beta-model-card",
+          "locator": "Model description"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "huggingface.zephyr-7b-beta",
+      "text": "Fine-tuned on the DEITA 10K dataset and aligned with DPO on argilla/dpo-mix-7k, about 7k prompts with completions scored by GPT-4.",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card"
+        }
+      ]
+    },
+    {
+      "id": "licence",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "huggingface.zephyr-7b-beta",
+      "text": "Released under the Gemma Terms of Use instead of the MIT licence.",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card",
+          "locator": "Model description, License"
+        },
+        {
+          "id": "src.huggingface.zephyr-7b-beta-model-card",
+          "locator": "Model description, License"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card",
+          "locator": "first paragraph; Model description"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card",
+          "locator": "first paragraph; Model description"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 7000000000,
+      "asStated": "7B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card",
+          "locator": "Model description, Model type"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card",
+          "locator": "Model description, License"
+        }
+      ],
+      "note": "Released under the Gemma Terms of Use."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-gemma-model-card",
+          "locator": "Intended uses and limitations"
+        }
+      ]
+    }
+  },
+  "notes": "Third model of the Zephyr series according to its model card. Fine-tuned from Google's Gemma 7B, first with SFT (intermediate checkpoint HuggingFaceH4/zephyr-7b-gemma-sft-v0.1) and then with DPO; the cross-organisation relation to Gemma 7B is not recorded here."
+}

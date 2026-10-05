@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.o3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "o3",
+  "name": "o3",
+  "aliases": [
+    {
+      "text": "OpenAI o3",
+      "match": "auto"
+    },
+    {
+      "text": "o3-2025-04-16",
+      "match": "auto"
+    },
+    {
+      "text": "o3",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.o-series",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.openai.deprecations",
+        "locator": "2026-06-11: GPT-5 and o3 model deprecations"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "openai.gpt-5-6-sol",
+    "sources": [
+      {
+        "id": "src.openai.deprecations",
+        "locator": "2026-06-11: GPT-5 and o3 model deprecations"
+      }
+    ],
+    "note": "Recommended replacement for o3-2025-04-16 on the deprecations page when read on 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-12-20",
+      "sources": [
+        {
+          "id": "src.openai.12-days-day-12-livestream",
+          "locator": "video description"
+        }
+      ]
+    },
+    "released": {
+      "value": "2025-04-16",
+      "sources": [
+        {
+          "id": "src.openai.o3-o4-mini-announcement",
+          "locator": "page date; introduction"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Apr 16, 2025"
+        },
+        {
+          "id": "src.openai.o3-o4-mini-system-card",
+          "locator": "cover date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-06-11",
+      "sources": [
+        {
+          "id": "src.openai.deprecations",
+          "locator": "2026-06-11: GPT-5 and o3 model deprecations"
+        }
+      ]
+    },
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.o1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.o3-o4-mini-announcement",
+          "locator": "Advancing cost-efficient reasoning; Access"
+        }
+      ],
+      "note": "The announcement names o1 as the predecessor of o3, and o3 replaced o1 in the ChatGPT model selector."
+    }
+  ],
+  "summary": {
+    "text": "o3 is a reasoning model in OpenAI's o-series for text and image input, previewed in December 2024 and released with o4-mini on 16 April 2025 in ChatGPT and the API. OpenAI says o3 and o4-mini were its first reasoning models able to use and combine every ChatGPT tool on their own, and that they can work with images within their chain of thought.",
+    "sources": [
+      {
+        "id": "src.openai.o3-o4-mini-announcement"
+      },
+      {
+        "id": "src.openai.12-days-day-12-livestream"
+      },
+      {
+        "id": "src.openai.o3-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "agentic-tools",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "openai.o1",
+      "text": "Can use and combine all ChatGPT tools, such as web search and Python, within its reasoning, and decides itself when to call them.",
+      "sources": [
+        {
+          "id": "src.openai.o3-o4-mini-announcement"
+        }
+      ]
+    },
+    {
+      "id": "thinking-with-images",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "openai.o1",
+      "text": "Can work with images inside its chain of thought, for example by rotating or zooming them.",
+      "sources": [
+        {
+          "id": "src.openai.o3-o4-mini-announcement"
+        }
+      ]
+    },
+    {
+      "id": "cost-performance",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "openai.o1",
+      "text": "OpenAI says o3 is often more efficient than o1 and improves on o1's balance of cost and performance.",
+      "sources": [
+        {
+          "id": "src.openai.o3-o4-mini-announcement"
+        }
+      ]
+    },
+    {
+      "id": "safety-training",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "openai.o1",
+      "text": "Safety training data was rebuilt, with new refusal prompts for areas such as biological threats, malware generation and jailbreaks.",
+      "sources": [
+        {
+          "id": "src.openai.o3-o4-mini-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o3-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o3-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o3-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o3-o4-mini-announcement",
+          "locator": "Access"
+        }
+      ]
+    }
+  },
+  "notes": "Previewed with o3-mini on 2024-12-20 in the Day 12 livestream of 12 Days of OpenAI and released with o4-mini on 2025-04-16. The 2026-06-11 deprecation names the snapshot o3-2025-04-16, the only snapshot listed on the docs page, with shutdown scheduled for 2026-12-11; retired is left empty until then. The docs say o3 is succeeded by GPT-5. The bare alias o3 is candidate because it also occurs in o3-mini and o3-pro contexts and outside AI. OpenAI's post Early access for safety testing (https://openai.com/index/early-access-for-safety-testing/, 2024-12-20) opened applications to test its next frontier models but does not name o3, so it is not cited."
+}
