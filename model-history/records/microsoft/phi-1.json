@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.phi-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "phi-1",
+  "name": "Phi-1",
+  "aliases": [
+    {
+      "text": "Phi-1",
+      "match": "auto"
+    },
+    {
+      "text": "microsoft/phi-1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.phi",
+  "generation": "1",
+  "categories": [
+    "language",
+    "code"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-1-model-card"
+      }
+    ],
+    "note": "Weights are still downloadable from Microsoft's Hugging Face organisation (checked 2026-10-01)."
+  },
+  "dates": {
+    "announced": {
+      "value": "2023-06-20",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-1-paper",
+          "locator": "Submission history, v1"
+        }
+      ]
+    },
+    "released": null,
+    "deprecated": null,
+    "retired": null,
+    "note": "Announced with the arXiv paper of 2023-06-20. The weights were published later on Hugging Face (microsoft/phi-1), but no Microsoft page states the day or month."
+  },
+  "summary": {
+    "text": "Phi-1 is a 1.3 billion parameter Transformer language model from Microsoft, specialised for basic Python coding and introduced in the paper Textbooks Are All You Need in June 2023. It was trained on textbook-quality web data plus synthetic textbooks and exercises generated with GPT-3.5, and its weights are published on Hugging Face under the MIT License.",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-1-paper"
+      },
+      {
+        "id": "src.microsoft.phi-1-model-card"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-1-model-card",
+          "locator": "Intended Uses"
+        }
+      ],
+      "note": "Prompts in code format."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-1-model-card",
+          "locator": "Intended Uses; Sample Code"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 1300000000,
+      "asStated": "1.3B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-1-paper",
+          "locator": "abstract"
+        },
+        {
+          "id": "src.microsoft.phi-1-model-card",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-1-model-card",
+          "locator": "License"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-1-model-card"
+        }
+      ]
+    }
+  },
+  "notes": "The paper writes the name in lowercase (phi-1); the Hugging Face card uses Phi-1. The Hugging Face repository was created on 2023-09-10 according to the Hugging Face API, which is not a stated release date, so dates.released is left empty. The card now states the MIT license; the repository commit history shows a Research License file was deleted on 2024-01-09. Training data included synthetic textbooks generated with OpenAI gpt-3.5-turbo-0301 (training data, not a model relation). The paper reports benchmark results."
+}

@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "id": "huggingface.idefics2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "idefics2",
+  "name": "Idefics2",
+  "aliases": [
+    {
+      "text": "Idefics2",
+      "match": "auto"
+    },
+    {
+      "text": "idefics2-8b",
+      "match": "auto"
+    },
+    {
+      "text": "idefics2-8b-base",
+      "match": "auto"
+    },
+    {
+      "text": "idefics2-8b-chatty",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "huggingface",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "huggingface.idefics",
+  "generation": "2",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.huggingface.idefics2-8b-model-card",
+        "locator": "Hub repository HuggingFaceM4/idefics2-8b, Files and versions"
+      }
+    ],
+    "note": "Weights of the base, instruct and chatty checkpoints are downloadable from the HuggingFaceM4 organisation on the Hub. Hugging Face publishes no deprecation page for its models."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-04-15",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics2-announcement",
+          "locator": "Published April 15, 2024"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "huggingface.idefics-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics2-announcement",
+          "locator": "second paragraph; Improvements over Idefics1"
+        },
+        {
+          "id": "src.huggingface.idefics2-8b-model-card",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": null
+    },
+    {
+      "type": "derived-from",
+      "target": "mistral.mistral-7b",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics2-announcement",
+          "locator": "language backbone"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Idefics2 is an 8B multimodal model from Hugging Face that takes interleaved text and images and generates text, published as open weights under Apache 2.0 in base, instruction-tuned and chatty checkpoints. It is built on Mistral-7B-v0.1 and SigLIP, handles images at native resolution up to 980 x 980 pixels, and Hugging Face says it has enhanced OCR compared with Idefics1.",
+    "sources": [
+      {
+        "id": "src.huggingface.idefics2-announcement"
+      },
+      {
+        "id": "src.huggingface.idefics2-8b-model-card",
+        "locator": "first paragraph"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "decreased",
+      "relativeTo": "huggingface.idefics-1",
+      "text": "A single 8B size instead of 9B and 80B; Hugging Face calls it 10x smaller than the 80B model.",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "huggingface.idefics-1",
+      "text": "Replaces gated cross-attention with Perceiver pooling and an MLP projection, and uses Mistral-7B-v0.1 and SigLIP so400m as backbones.",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "added",
+      "relativeTo": "huggingface.idefics-1",
+      "text": "Adds OCR, document and image-to-code training data, plus The Cauldron, a new instruction dataset compiled from 50 curated datasets.",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "licence",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "huggingface.idefics-1",
+      "text": "Released under Apache 2.0; Hugging Face lists the open licence as one of the improvements over Idefics1.",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics2-announcement",
+          "locator": "License"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics2-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.huggingface.idefics2-8b-model-card",
+          "locator": "Model Summary, Model type"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics2-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.huggingface.idefics2-8b-model-card",
+          "locator": "first paragraph; Uses"
+        }
+      ],
+      "note": "The model card says the models do not generate images."
+    },
+    "parameters": {
+      "value": 8000000000,
+      "asStated": "8B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics2-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.huggingface.idefics2-paper",
+          "locator": "abstract"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics2-announcement",
+          "locator": "License"
+        },
+        {
+          "id": "src.huggingface.idefics2-8b-model-card",
+          "locator": "first paragraph; License"
+        }
+      ],
+      "note": "Apache 2.0 licence."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics2-announcement",
+          "locator": "Getting Started with Idefics2"
+        }
+      ]
+    }
+  },
+  "notes": "One 8B size with three checkpoints: idefics2-8b-base, idefics2-8b (instruction fine-tuned) and idefics2-8b-chatty (further fine-tuned on long conversations). The base and instruct repositories were created on 2024-04-09; the chatty repository was created on 2024-05-02 and the chat version is first described in the Idefics2 paper (arXiv v1, 2024-05-03), so it is kept as an alias rather than a variant with its own date. Built on Mistral 7B v0.1 and Google's SigLIP so400m-patch14-384; those cross-organisation relations are not recorded here. The model card says Hugging Face hosted API endpoints for idefics2-8b and idefics2-8b-chatty through TGI; api is not recorded as access."
+}

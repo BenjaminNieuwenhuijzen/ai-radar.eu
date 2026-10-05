@@ -1,0 +1,1955 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.openai.12-days-day-12-livestream",
+      "type": "announcement",
+      "title": "OpenAI o3 and o3-mini—12 Days of OpenAI: Day 12",
+      "url": "https://www.youtube.com/watch?v=SKBG1sqdyIU",
+      "publishedAt": {
+        "value": "2024-12-20"
+      },
+      "notes": "Livestream recording on OpenAI's YouTube channel (@OpenAI), published 2024-12-20. The description says Sam Altman, Mark Chen, Hongyu Ren and guest Greg Kamradt introduce o3 and o3-mini, with a call for safety testing. OpenAI's page https://openai.com/12-days/ lists it as Day 12, o3 preview and call for safety researchers. Title and date checked against the video page metadata and the YouTube oEmbed response on 2026-10-01.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.amazon-bedrock-guide",
+      "type": "documentation",
+      "title": "OpenAI on Amazon Bedrock",
+      "url": "https://developers.openai.com/api/docs/guides/amazon-bedrock",
+      "notes": "Guide in the OpenAI API docs; on 2026-10-01 it named GPT-6 Sol, GPT-6 Luna and GPT-6 Astra as available through Amazon Bedrock, gave the Bedrock context window for GPT-5.6 Sol, Terra and Luna, and used GPT-5.6 Terra in its examples. Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-changelog",
+      "type": "changelog",
+      "title": "Changelog",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page in the OpenAI API docs (HTML title Changelog | OpenAI API); content as seen on 2026-10-01; earliest entry October 2023. The old address https://platform.openai.com/docs/changelog redirects here (301).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-deprecations",
+      "type": "deprecation-notice",
+      "title": "Deprecations",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page in the OpenAI API docs (HTML title Deprecations | OpenAI API); content as seen on 2026-10-01. The old address https://platform.openai.com/docs/deprecations redirects here (301). Two notices list gpt-4-1106-preview with different shutdown dates (2026-03-26 in the 2025-09-26 notice, October 23, 2026 in the 2026-04-22 notice).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-model-gpt-5-1",
+      "type": "documentation",
+      "title": "GPT-5.1",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.1",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model API documentation page (HTML title GPT-5.1 Model | OpenAI API). Living documentation page; content as seen on 2026-10-01, also readable as Markdown by appending .md.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-model-gpt-5-2",
+      "type": "documentation",
+      "title": "GPT-5.2",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.2",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model API documentation page (HTML title GPT-5.2 Model | OpenAI API). Living documentation page; content as seen on 2026-10-01, also readable as Markdown by appending .md.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-model-gpt-5-2-pro",
+      "type": "documentation",
+      "title": "GPT-5.2 Pro",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.2-pro",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model API documentation page (HTML title GPT-5.2 Pro Model | OpenAI API). Living documentation page; content as seen on 2026-10-01, also readable as Markdown by appending .md.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-model-gpt-5-3-chat-latest",
+      "type": "documentation",
+      "title": "GPT-5.3 Chat",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.3-chat-latest",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model API documentation page (HTML title GPT-5.3 Chat Model | OpenAI API). Living documentation page; content as seen on 2026-10-01, also readable as Markdown by appending .md. Describes gpt-5.3-chat-latest as the GPT-5.3 Instant snapshot used in ChatGPT and marks it deprecated.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-model-gpt-5-4",
+      "type": "documentation",
+      "title": "GPT-5.4",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.4",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model API documentation page (HTML title GPT-5.4 Model | OpenAI API). Living documentation page; content as seen on 2026-10-01, also readable as Markdown by appending .md.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-model-gpt-5-4-mini",
+      "type": "documentation",
+      "title": "GPT-5.4 Mini",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model API documentation page (HTML title GPT-5.4 Mini Model | OpenAI API). Living documentation page; content as seen on 2026-10-01, also readable as Markdown by appending .md.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-model-gpt-5-4-nano",
+      "type": "documentation",
+      "title": "GPT-5.4 nano",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model API documentation page (HTML title GPT-5.4 nano Model | OpenAI API). Living documentation page; content as seen on 2026-10-01, also readable as Markdown by appending .md.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-model-gpt-5-4-pro",
+      "type": "documentation",
+      "title": "GPT-5.4 Pro",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.4-pro",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model API documentation page (HTML title GPT-5.4 Pro Model | OpenAI API). Living documentation page; content as seen on 2026-10-01, also readable as Markdown by appending .md.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-model-gpt-5-5",
+      "type": "documentation",
+      "title": "GPT-5.5",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.5",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model API documentation page (HTML title GPT-5.5 Model | OpenAI API). Living documentation page; content as seen on 2026-10-01, also readable as Markdown by appending .md.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-model-gpt-5-5-pro",
+      "type": "documentation",
+      "title": "GPT-5.5 Pro",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.5-pro",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model API documentation page (HTML title GPT-5.5 Pro Model | OpenAI API). Living documentation page; content as seen on 2026-10-01, also readable as Markdown by appending .md.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.api-models",
+      "type": "documentation",
+      "title": "Models",
+      "url": "https://developers.openai.com/api/docs/models",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "API model catalog (HTML title Models | OpenAI API); living page, content as seen on 2026-10-01 via the Markdown version at https://developers.openai.com/api/docs/models.md, which lists GPT models, o-series reasoning models (o1, o3, o4-mini) and the open-weight gpt-oss-120b and gpt-oss-20b. The old address https://platform.openai.com/docs/models redirects here (301).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.chatgpt-and-whisper-apis-announcement",
+      "type": "announcement",
+      "title": "Introducing ChatGPT and Whisper APIs",
+      "url": "https://openai.com/index/introducing-chatgpt-and-whisper-apis/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2023-03-01",
+        "note": "Date line of the original post as captured on 2023-03-01 (archiveUrl). The live page shows only Updated: April 24, 2024, and the OpenAI RSS feed also gives 2024-04-24."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "archiveUrl": "https://web.archive.org/web/20230301204005/https://openai.com/blog/introducing-chatgpt-and-whisper-apis",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2023-03-01",
+      "notes": "Title from the HTML and og:title; the page headline now reads Introducing APIs for GPT-3.5 Turbo and Whisper. An update note dated April 24, 2024 says the ChatGPT API name was discontinued and that mentions of it refer to the GPT-3.5 Turbo API; the original section heading ChatGPT API now reads GPT-3.5 API. Originally published at https://openai.com/blog/introducing-chatgpt-and-whisper-apis, which redirects here (308, then 307). The archive capture of that original address (checked 2026-10-01) shows the same title, the date March 1, 2023, the authors and the statement that gpt-3.5-turbo is the model used in the ChatGPT product.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.chatgpt-announcement",
+      "type": "announcement",
+      "title": "Introducing ChatGPT",
+      "url": "https://openai.com/index/chatgpt/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2022-11-30"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "The page now carries a note that it introduced ChatGPT in 2022 and that ChatGPT has evolved substantially since then; the try link now points to chatgpt.com. Content read on 2026-10-01 from an Internet Archive capture of this URL dated 2026-10-01 (openai.com answers 403 to scripted requests).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.chatgpt-codex-changelog",
+      "type": "release-notes",
+      "title": "ChatGPT & Codex changelog",
+      "url": "https://learn.chatgpt.com/docs/changelog",
+      "notes": "Release notes for ChatGPT Work, Codex and the ChatGPT apps, with dated entries (YYYY-MM-DD). HTML title ChatGPT & Codex changelog | ChatGPT Learn. Living page, content as read on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.chatgpt-models-docs",
+      "type": "documentation",
+      "title": "Models",
+      "url": "https://learn.chatgpt.com/docs/models",
+      "notes": "ChatGPT and Codex product documentation (HTML title Models | ChatGPT Learn). Living page, content as read on 2026-10-01; it covers the models in ChatGPT Work and Codex, not the models used in ChatGPT conversations.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.chatgpt-pro-announcement",
+      "type": "announcement",
+      "title": "Introducing ChatGPT Pro",
+      "url": "https://openai.com/index/introducing-chatgpt-pro/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2024-12-05"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.chatgpt-release-notes",
+      "type": "release-notes",
+      "title": "ChatGPT — Release Notes",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "help.openai.com answers scripted requests with a Cloudflare challenge; read as seen on 2026-10-01 through a text-extraction reader. Living page, newest entries first (newest seen: October 1, 2026).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.chatgpt-whats-new",
+      "type": "release-notes",
+      "title": "What's new",
+      "url": "https://learn.chatgpt.com/docs/whats-new",
+      "notes": "Weekly digest of ChatGPT and Codex changes, one section per week (for example July 6–10, 2026). HTML title What's new | ChatGPT Learn. Living page, content as read on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.deprecations",
+      "type": "deprecation-notice",
+      "title": "Deprecations",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "notes": "Living page listing API deprecations with shutdown dates and recommended replacements; content as read on 2026-10-01. https://platform.openai.com/docs/deprecations redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.devday-2023-announcement",
+      "type": "announcement",
+      "title": "New models and developer products announced at DevDay",
+      "url": "https://openai.com/index/new-models-and-developer-products-announced-at-devday/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2023-11-06"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Originally published under https://openai.com/blog/new-models-and-developer-products-announced-at-devday; the address https://openai.com/blog/new-models-and-developer-products-announced-at-devday/ redirects here (307). Carries an update note saying a line about automatically upgrading gpt-3.5-turbo on December 11 was removed.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.finetune-transformer-lm-repo",
+      "type": "repository",
+      "title": "GitHub - openai/finetune-transformer-lm: Code and model for the paper \"Improving Language Understanding by Generative Pre-Training\"",
+      "url": "https://github.com/openai/finetune-transformer-lm",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Archived repository, created 2018-06-11 per the GitHub API, MIT licence. The model folder holds the pretrained weights as params_0.npy to params_9.npy plus the BPE vocabulary; params_0.npy answered on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.function-calling-and-api-updates",
+      "type": "announcement",
+      "title": "Function calling and other API updates",
+      "url": "https://openai.com/index/function-calling-and-other-api-updates/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2023-06-13"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Originally published at https://openai.com/blog/function-calling-and-other-api-updates, which redirects here (308, then 307). Introduces gpt-4-0613, gpt-4-32k-0613, gpt-3.5-turbo-0613 and gpt-3.5-turbo-16k.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-1-paper",
+      "type": "research-paper",
+      "title": "Improving Language Understanding by Generative Pre-Training",
+      "url": "https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "PDF hosted by OpenAI, authors Radford, Narasimhan, Salimans and Sutskever; the PDF itself carries no date. Linked as Read paper from the June 11, 2018 post.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-2-1-5b-release",
+      "type": "announcement",
+      "title": "GPT-2: 1.5B release",
+      "url": "https://openai.com/index/gpt-2-1-5b-release/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2019-11-05"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Content read on 2026-10-01 from an Internet Archive capture of this URL dated 2026-09-15 (openai.com answers 403 to scripted requests). Older address https://www.openai.com/blog/gpt-2-1-5b-release/ (linked from the GPT-2 repository README).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-2-6-month-follow-up",
+      "type": "blog-post",
+      "title": "GPT-2: 6-month follow-up",
+      "url": "https://openai.com/index/gpt-2-6-month-follow-up/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2019-08-20"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Content read on 2026-10-01 from an Internet Archive capture of this URL dated 2026-09-18 (openai.com answers 403 to scripted requests). Older address https://openai.com/blog/gpt-2-6-month-follow-up/ (linked from the GPT-2 repository README).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-2-announcement",
+      "type": "announcement",
+      "title": "Better language models and their implications",
+      "url": "https://openai.com/index/better-language-models/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2019-02-14"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Content read on 2026-10-01 from an Internet Archive capture of this URL dated 2026-09-28 (openai.com answers 403 to scripted requests). Contains a later section headed GPT-2 Interim Update, May 2019 announcing the release of the 345M model. The GPT-2 repository README links the older address https://openai.com/research/better-language-models/ and the model card https://openai.com/blog/better-language-models/.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-2-model-card",
+      "type": "model-card",
+      "title": "GPT-2 model card",
+      "url": "https://github.com/openai/gpt-2/blob/master/model_card.md",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2019-11",
+        "note": "Last updated: November 2019, as stated in the card."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model version section: 1.5 billion parameters as the fourth and largest version, with 124 million, 355 million and 774 million parameter models also released.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-2-paper",
+      "type": "research-paper",
+      "title": "Language Models are Unsupervised Multitask Learners",
+      "url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "GPT-2 paper PDF hosted by OpenAI, linked as Read paper from the February 14, 2019 post; no date in the PDF. The repository and model card link an older CloudFront address (d4mucfpksywv.cloudfront.net). Its parameter counts 117M and 345M were later said to be wrong in the GPT-2 repository README.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-2-repo",
+      "type": "repository",
+      "title": "GitHub - openai/gpt-2: Code for the paper \"Language Models are Unsupervised Multitask Learners\"",
+      "url": "https://github.com/openai/gpt-2",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Archived repository, created 2019-02-11 per the GitHub API, Modified MIT licence. download_model.py fetches checkpoints from openaipublic.blob.core.windows.net/gpt-2/models/ (124M, 355M, 774M, 1558M); the 1558M checkpoint answered HTTP 200 on 2026-10-01. The README notes that the original parameter counts were wrong and that small and medium were first called 117M and 345M.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-3-5-turbo-docs",
+      "type": "documentation",
+      "title": "GPT-3.5 Turbo",
+      "url": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the OpenAI API docs (HTML title GPT-3.5 Turbo Model | OpenAI API); living page, content as seen on 2026-10-01. The old address https://platform.openai.com/docs/models/gpt-3.5-turbo redirects here (301).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-3-5-turbo-fine-tuning-announcement",
+      "type": "announcement",
+      "title": "GPT-3.5 Turbo fine-tuning and API updates",
+      "url": "https://openai.com/index/gpt-3-5-turbo-fine-tuning-and-api-updates/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2023-08-22"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Originally published at https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates, which redirects here (308, then 307).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-3-5-turbo-instruct-docs",
+      "type": "documentation",
+      "title": "gpt-3.5-turbo-instruct",
+      "url": "https://developers.openai.com/api/docs/models/gpt-3.5-turbo-instruct",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the OpenAI API docs (HTML title gpt-3.5-turbo-instruct Model | OpenAI API); living page, content as seen on 2026-10-01. The old address https://platform.openai.com/docs/models/gpt-3.5-turbo-instruct redirects here (301).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-3-announcement",
+      "type": "blog-post",
+      "title": "Language models are few-shot learners",
+      "url": "https://openai.com/index/language-models-are-few-shot-learners/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2020-05-28"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Research page on openai.com with the paper abstract and a link to arXiv 2005.14165. Content read on 2026-10-01 from an Internet Archive capture of this URL dated 2026-07-03 (openai.com answers 403 to scripted requests).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-3-edit-insert-announcement",
+      "type": "announcement",
+      "title": "New GPT-3 capabilities: Edit & insert",
+      "url": "https://openai.com/index/gpt-3-edit-insert/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2022-03-15"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Says OpenAI released new versions of GPT-3 and Codex and that insert works with the latest versions, text-davinci-002 and code-davinci-002. Carries an unrelated update note dated May 16, 2025 about the Codex agent. Content read on 2026-10-01 from an Internet Archive capture of this URL dated 2026-09-30 (openai.com answers 403 to scripted requests).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-3-model-card",
+      "type": "model-card",
+      "title": "GPT-3 Model Card",
+      "url": "https://github.com/openai/gpt-3/blob/master/model-card.md",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2020-09",
+        "note": "Last updated: September 2020, as stated in the card."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "In the archived repository openai/gpt-3.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-3-paper",
+      "type": "research-paper",
+      "title": "Language Models are Few-Shot Learners",
+      "url": "https://arxiv.org/abs/2005.14165",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2020-05-28",
+        "note": "arXiv v1 submitted 28 May 2020; latest version v4 of 22 Jul 2020."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Paper by OpenAI researchers (Brown et al.) on arXiv. Section 2.1 says it uses the same model and architecture as GPT-2 with alternating dense and locally banded sparse attention, and that all models use a context window of 2048 tokens. Text read from the current version (v4).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4-1-announcement",
+      "type": "announcement",
+      "title": "Introducing GPT-4.1 in the API",
+      "url": "https://openai.com/index/gpt-4-1/",
+      "publishedAt": {
+        "value": "2025-04-14"
+      },
+      "archiveUrl": "https://web.archive.org/web/20260912032013/https://openai.com/index/gpt-4-1/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-09-12T03:20:13Z",
+      "notes": "Read on 2026-10-01 from the live page through a text-extraction service, because openai.com answers direct automated requests with 403. The Wayback availability API confirms the capture of 2026-09-12 (status 200). Announces GPT-4.1, GPT-4.1 mini and GPT-4.1 nano together and the deprecation of GPT-4.5 Preview in the API.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4-1-docs",
+      "type": "documentation",
+      "title": "GPT-4.1 Model",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4.1",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/gpt-4.1 redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4-1-mini-docs",
+      "type": "documentation",
+      "title": "GPT-4.1 Mini Model",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/gpt-4.1-mini redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4-1-nano-docs",
+      "type": "documentation",
+      "title": "GPT-4.1 nano Model",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4.1-nano",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/gpt-4.1-nano redirects here (301). The page marks the model as deprecated.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4-5-announcement",
+      "type": "announcement",
+      "title": "Introducing GPT-4.5",
+      "url": "https://openai.com/index/introducing-gpt-4-5/",
+      "publishedAt": {
+        "value": "2025-02-27"
+      },
+      "notes": "Read on 2026-10-01 from the live page through a text-extraction service, because openai.com answers direct automated requests with 403. The page now carries a note that the launch post is outdated.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4-5-preview-docs",
+      "type": "documentation",
+      "title": "GPT-4.5 Preview Model",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4.5-preview",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/gpt-4.5-preview redirects here (301). The page marks the model as deprecated.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4-5-system-card",
+      "type": "system-card",
+      "title": "OpenAI GPT-4.5 System Card",
+      "url": "https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf",
+      "publishedAt": {
+        "value": "2025-02-27"
+      },
+      "notes": "PDF; the cover gives February 27, 2025. It is linked from the system card page https://openai.com/index/gpt-4-5-system-card/ (dated February 27, 2025).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4-api-general-availability",
+      "type": "announcement",
+      "title": "GPT-4 API general availability and deprecation of older models in the Completions API",
+      "url": "https://openai.com/index/gpt-4-api-general-availability/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "The page now shows only Updated: April 24, 2024 (an update note about the discontinued ChatGPT API name), so publishedAt is left out; the OpenAI deprecations page dates this announcement July 06, 2023. Originally published at https://openai.com/blog/gpt-4-api-general-availability, which redirects here (308, then 307).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4-docs",
+      "type": "documentation",
+      "title": "GPT-4",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the OpenAI API docs (HTML title GPT-4 Model | OpenAI API); living page, content as seen on 2026-10-01. The old address https://platform.openai.com/docs/models/gpt-4 redirects here (301).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4-research",
+      "type": "announcement",
+      "title": "GPT-4",
+      "url": "https://openai.com/index/gpt-4-research/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2023-03-14"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Research announcement of GPT-4. Originally published at https://openai.com/research/gpt-4, which redirects here (308, then 307). Links the technical report (arXiv 2303.08774) and the GPT-4 system card PDF https://cdn.openai.com/papers/gpt-4-system-card.pdf (no date printed on it).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4-technical-report",
+      "type": "technical-report",
+      "title": "GPT-4 Technical Report",
+      "url": "https://arxiv.org/abs/2303.08774",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2023-03-15",
+        "note": "arXiv submission date of v1; v6 is dated 2024-03-04."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Authored by OpenAI; linked as Read paper from the GPT-4 research announcement. Section 2 states that the report gives no further details about architecture, including model size.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4-turbo-docs",
+      "type": "documentation",
+      "title": "GPT-4 Turbo",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4-turbo",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the OpenAI API docs (HTML title GPT-4 Turbo Model | OpenAI API); living page, content as seen on 2026-10-01. The old address https://platform.openai.com/docs/models/gpt-4-turbo redirects here (301). A separate page covers GPT-4 Turbo Preview (gpt-4-turbo-preview, snapshots gpt-4-0125-preview and gpt-4-1106-vision-preview).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4o-docs",
+      "type": "documentation",
+      "title": "GPT-4o",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4o",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the OpenAI API docs (HTML title GPT-4o Model | OpenAI API); living page, content as seen on 2026-10-01. The old address https://platform.openai.com/docs/models/gpt-4o redirects here (301).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4o-mini-announcement",
+      "type": "announcement",
+      "title": "GPT-4o mini: advancing cost-efficient intelligence",
+      "url": "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2024-07-18"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4o-mini-docs",
+      "type": "documentation",
+      "title": "GPT-4o Mini",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4o-mini",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the OpenAI API docs (HTML title GPT-4o Mini Model | OpenAI API); living page, content as seen on 2026-10-01. The old address https://platform.openai.com/docs/models/gpt-4o-mini redirects here (301).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4o-system-card",
+      "type": "system-card",
+      "title": "GPT-4o System Card",
+      "url": "https://openai.com/index/gpt-4o-system-card/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2024-08-08"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "HTML version; a PDF version is linked at https://cdn.openai.com/gpt-4o-system-card.pdf. The same card was also posted to arXiv as 2410.21276 (submitted 2024-10-25, authors OpenAI and others; not linked from the page).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-4v-system-card",
+      "type": "system-card",
+      "title": "GPT-4V(ision) system card",
+      "url": "https://openai.com/index/gpt-4v-system-card/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2023-09-25"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Page linking the PDF https://cdn.openai.com/papers/GPTV_System_Card.pdf, which is dated September 25, 2023 and describes GPT-4 with vision as a capability being made broadly available.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-1",
+      "type": "announcement",
+      "title": "GPT-5.1: A smarter, more conversational ChatGPT",
+      "url": "https://openai.com/index/gpt-5-1/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-11-12"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-1-for-developers",
+      "type": "announcement",
+      "title": "Introducing GPT-5.1 for developers",
+      "url": "https://openai.com/index/gpt-5-1-for-developers/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-11-13"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-1-system-card-addendum",
+      "type": "system-card",
+      "title": "GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum",
+      "url": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-11-12"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-2-system-card-update",
+      "type": "system-card",
+      "title": "Update to GPT-5 System Card: GPT-5.2",
+      "url": "https://openai.com/index/gpt-5-system-card-update-gpt-5-2/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-12-11"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself. The page links the full card at https://deploymentsafety.openai.com/gpt-5-2 (not read).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-3-instant",
+      "type": "announcement",
+      "title": "GPT-5.3 Instant: Smoother, more useful everyday conversations",
+      "url": "https://openai.com/index/gpt-5-3-instant/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-03-03"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-3-instant-system-card",
+      "type": "system-card",
+      "title": "GPT-5.3 Instant System Card",
+      "url": "https://openai.com/index/gpt-5-3-instant-system-card/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-03-03"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-5-4-mini-docs",
+      "type": "documentation",
+      "title": "GPT-5.4 Mini",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+      "notes": "Per-model page in the OpenAI API docs; used here only for comparison values (400,000 context window, Aug 31, 2025 knowledge cutoff). Living page, content as read on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-5-4-nano-docs",
+      "type": "documentation",
+      "title": "GPT-5.4 nano",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+      "notes": "Per-model page in the OpenAI API docs; used here only for comparison values (400,000 context window, Aug 31, 2025 knowledge cutoff). Living page, content as read on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-4-thinking-system-card",
+      "type": "system-card",
+      "title": "GPT-5.4 Thinking System Card",
+      "url": "https://openai.com/index/gpt-5-4-thinking-system-card/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-03-05"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-5-5-docs",
+      "type": "documentation",
+      "title": "GPT-5.5",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.5",
+      "notes": "Per-model page in the OpenAI API docs; used here only for comparison values (knowledge cutoff Dec 01, 2025). Living page, content as read on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-5-instant",
+      "type": "announcement",
+      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+      "url": "https://openai.com/index/gpt-5-5-instant/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-05-05"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself. Carries an update note dated June 9, 2026 about personalization for Go and Free users.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-5-instant-system-card",
+      "type": "system-card",
+      "title": "GPT-5.5 Instant System Card",
+      "url": "https://openai.com/index/gpt-5-5-instant-system-card/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-05-05"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-5-system-card",
+      "type": "system-card",
+      "title": "GPT-5.5 System Card",
+      "url": "https://openai.com/index/gpt-5-5-system-card/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-04-23"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself. The card says it was updated on April 24, 2026 with safeguards for the API deployment.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-5-6-august-updates-system-card",
+      "type": "system-card",
+      "title": "GPT-5.6 — August Updates",
+      "url": "https://deploymentsafety.openai.com/gpt-5-6-august-update",
+      "publishedAt": {
+        "value": "2026-08-06"
+      },
+      "notes": "Page on the OpenAI Deployment Safety Hub; states Published August 6, 2026, with a change log entry dated August 19, 2026. Describes the August versions of GPT-5.6 Sol and GPT-5.6 Luna released in ChatGPT. Canonical URL without trailing slash.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-5-6-launch",
+      "type": "announcement",
+      "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "publishedAt": {
+        "value": "2026-07-09"
+      },
+      "notes": "OpenAI launch post for general availability of GPT-5.6 Sol, Terra and Luna; states July 9, 2026. The heading uses non-breaking hyphens (GPT‑5.6). openai.com answers scripted requests with HTTP 403 (Cloudflare challenge); the content was read in the Wayback Machine capture recorded in archiveUrl, which shows the post as published.",
+      "archiveUrl": "https://web.archive.org/web/20260713164749/https://openai.com/index/gpt-5-6/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-07-13",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-5-6-luna-docs",
+      "type": "documentation",
+      "title": "GPT-5.6 Luna",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+      "notes": "Per-model page in the OpenAI API docs (HTML title GPT-5.6 Luna Model | OpenAI API). Living page, content as read on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-5-6-preview-system-card",
+      "type": "system-card",
+      "title": "GPT-5.6 Preview System Card",
+      "url": "https://deploymentsafety.openai.com/gpt-5-6-preview",
+      "publishedAt": {
+        "value": "2026-06-26"
+      },
+      "notes": "Page on the OpenAI Deployment Safety Hub; states Published June 26, 2026, with a change log entry dated August 19, 2026. Canonical URL without trailing slash. A banner points to the final GPT-5.6 System Card.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-5-6-sol-docs",
+      "type": "documentation",
+      "title": "GPT-5.6 Sol",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+      "notes": "Per-model page in the OpenAI API docs (HTML title GPT-5.6 Sol Model | OpenAI API). https://developers.openai.com/api/docs/models/gpt-5.6 redirects here. Living page, content as read on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-5-6-system-card",
+      "type": "system-card",
+      "title": "GPT-5.6 System Card",
+      "url": "https://deploymentsafety.openai.com/gpt-5-6",
+      "publishedAt": {
+        "value": "2026-07-09"
+      },
+      "notes": "Page on the OpenAI Deployment Safety Hub; states Published July 9, 2026, with change log entries dated August 3 and August 19, 2026. Covers GPT-5.6 Sol, Terra and Luna. Canonical URL without trailing slash.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-5-6-terra-docs",
+      "type": "documentation",
+      "title": "GPT-5.6 Terra",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+      "notes": "Per-model page in the OpenAI API docs (HTML title GPT-5.6 Terra Model | OpenAI API). Living page, content as read on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-announcement",
+      "type": "announcement",
+      "title": "Introducing GPT-5",
+      "url": "https://openai.com/index/introducing-gpt-5/",
+      "publishedAt": {
+        "value": "2025-08-07"
+      },
+      "archiveUrl": "https://web.archive.org/web/20260930043244/https://openai.com/index/introducing-gpt-5/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-09-30T04:32:44Z",
+      "notes": "Read on 2026-10-01 from the live page through a text-extraction service, because openai.com answers direct automated requests with 403. The Wayback availability API confirms the capture of 2026-09-30 (status 200). The page now carries a banner pointing to GPT-6.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-developers-announcement",
+      "type": "announcement",
+      "title": "Introducing GPT-5 for developers",
+      "url": "https://openai.com/index/introducing-gpt-5-for-developers/",
+      "publishedAt": {
+        "value": "2025-08-07"
+      },
+      "notes": "API launch post for gpt-5, gpt-5-mini and gpt-5-nano. Read on 2026-10-01 from the live page through a text-extraction service, because openai.com answers direct automated requests with 403.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-docs",
+      "type": "documentation",
+      "title": "GPT-5 Model",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/gpt-5 redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-mini-docs",
+      "type": "documentation",
+      "title": "GPT-5 Mini Model",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5-mini",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/gpt-5-mini redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-nano-docs",
+      "type": "documentation",
+      "title": "GPT-5 nano Model",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5-nano",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/gpt-5-nano redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-pro-docs",
+      "type": "documentation",
+      "title": "GPT-5 Pro Model",
+      "url": "https://developers.openai.com/api/docs/models/gpt-5-pro",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/gpt-5-pro redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-5-system-card",
+      "type": "system-card",
+      "title": "GPT-5 System Card",
+      "url": "https://cdn.openai.com/gpt-5-system-card.pdf",
+      "publishedAt": {
+        "value": "2025-08-13"
+      },
+      "notes": "PDF; the cover gives August 13, 2025, while the system card page https://openai.com/index/gpt-5-system-card/ is dated August 7, 2025 and now links its Read the System Card button to arXiv (https://arxiv.org/abs/2601.03267). Table 1 lists the GPT-5 models with the earlier models they succeed.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-6-1-sol-docs",
+      "type": "documentation",
+      "title": "GPT-6.1 Sol",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "notes": "Per-model page in the OpenAI API docs (HTML title GPT-6.1 Sol Model | OpenAI API). Living page, content as read on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-6-1-sol-launch",
+      "type": "announcement",
+      "title": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "notes": "OpenAI launch post for GPT-6.1 Sol (page heading GPT-6.1 Sol). The rendered page shows no publication date (page metadata gives September 29, 2026). openai.com answers scripted requests with HTTP 403 (Cloudflare challenge); the content was read in the Wayback Machine capture recorded in archiveUrl, which shows the post as published.",
+      "archiveUrl": "https://web.archive.org/web/20260930121054/https://openai.com/index/introducing-gpt-6-1-sol/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-09-30",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-6-1-sol-system-card-addendum",
+      "type": "system-card",
+      "title": "Addendum to GPT-6 Astra System Card: GPT-6.1 Sol",
+      "url": "https://deploymentsafety.openai.com/gpt-6-1-sol",
+      "publishedAt": {
+        "value": "2026-09-29"
+      },
+      "notes": "Page on the OpenAI Deployment Safety Hub; states Published September 29, 2026. Canonical URL without trailing slash.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-6-astra-docs",
+      "type": "documentation",
+      "title": "GPT-6 Astra",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "notes": "Per-model page in the OpenAI API docs (HTML title GPT-6 Astra Model | OpenAI API). Living page, content as read on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-6-astra-launch",
+      "type": "announcement",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "url": "https://openai.com/index/gpt-6-astra/",
+      "notes": "OpenAI launch post for GPT-6 Astra. The rendered page shows no publication date (page metadata gives September 3, 2026; the capture is from that day). openai.com answers scripted requests with HTTP 403 (Cloudflare challenge); the content was read in the Wayback Machine capture recorded in archiveUrl, which shows the post as published.",
+      "archiveUrl": "https://web.archive.org/web/20260903193913/https://openai.com/index/gpt-6-astra/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-09-03",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-6-astra-system-card",
+      "type": "system-card",
+      "title": "GPT-6 Astra System Card",
+      "url": "https://deploymentsafety.openai.com/gpt-6-astra",
+      "publishedAt": {
+        "value": "2026-09-03"
+      },
+      "notes": "Page on the OpenAI Deployment Safety Hub; states Published September 3, 2026. Its change log lists revisions dated September 9, 22 and 29, 2026; the September 22 revision added section 11 (GPT-6 Sol, GPT-6 Luna) and the September 29 revision a section on dots. The address with a trailing slash redirects to this canonical URL.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-6-luna-docs",
+      "type": "documentation",
+      "title": "GPT-6 Luna",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "notes": "Per-model page in the OpenAI API docs (HTML title GPT-6 Luna Model | OpenAI API). Living page, content as read on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-6-sol-docs",
+      "type": "documentation",
+      "title": "GPT-6 Sol",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+      "notes": "Per-model page in the OpenAI API docs (HTML title GPT-6 Sol Model | OpenAI API). On 2026-10-01 the page pointed to GPT-6.1 Sol as the newer Sol model. Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.gpt-6-sol-luna-launch",
+      "type": "announcement",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "notes": "OpenAI launch post for GPT-6 Sol and GPT-6 Luna. The page shows no publication date; other OpenAI pages list it under Sep 22, 2026, and the capture is from that day. openai.com answers scripted requests with HTTP 403 (Cloudflare challenge); the content was read in the Wayback Machine capture recorded in archiveUrl, which shows the post as published.",
+      "archiveUrl": "https://web.archive.org/web/20260922180252/https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-09-22",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-oss-120b-docs",
+      "type": "documentation",
+      "title": "gpt-oss-120b Model",
+      "url": "https://developers.openai.com/api/docs/models/gpt-oss-120b",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/gpt-oss-120b redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-oss-120b-hf",
+      "type": "model-hub-page",
+      "title": "openai/gpt-oss-120b",
+      "url": "https://huggingface.co/openai/gpt-oss-120b",
+      "notes": "Hugging Face model repository of the openai organisation. The Hub API gives creation on 2025-08-04 (UTC), licence apache-2.0, not gated; weight files listed when read on 2026-10-01. The model card says the models must be used with the harmony response format.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-oss-20b-docs",
+      "type": "documentation",
+      "title": "gpt-oss-20b Model",
+      "url": "https://developers.openai.com/api/docs/models/gpt-oss-20b",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/gpt-oss-20b redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-oss-20b-hf",
+      "type": "model-hub-page",
+      "title": "openai/gpt-oss-20b",
+      "url": "https://huggingface.co/openai/gpt-oss-20b",
+      "notes": "Hugging Face model repository of the openai organisation. The Hub API gives creation on 2025-08-04 (UTC), licence apache-2.0, not gated; weight files listed when read on 2026-10-01.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-oss-announcement",
+      "type": "announcement",
+      "title": "Introducing gpt-oss",
+      "url": "https://openai.com/index/introducing-gpt-oss/",
+      "publishedAt": {
+        "value": "2025-08-05"
+      },
+      "archiveUrl": "https://web.archive.org/web/20260916110949/https://openai.com/index/introducing-gpt-oss/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-09-16T11:09:49Z",
+      "notes": "Read on 2026-10-01 from the live page through a text-extraction service, because openai.com answers direct automated requests with 403. The Wayback availability API confirms the capture of 2026-09-16 (status 200).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-oss-model-card",
+      "type": "model-card",
+      "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+      "url": "https://cdn.openai.com/pdf/419b6906-9da6-406c-a19d-1bb078ac7637/oai_gpt-oss_model_card.pdf",
+      "publishedAt": {
+        "value": "2025-08-05"
+      },
+      "notes": "PDF; the cover gives August 5, 2025. The model card page https://openai.com/index/gpt-oss-model-card/ (dated August 5, 2025) links the arXiv record of the same document (src.openai.gpt-oss-model-card-arxiv).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-oss-model-card-arxiv",
+      "type": "model-card",
+      "title": "gpt-oss-120b & gpt-oss-20b Model Card",
+      "url": "https://arxiv.org/abs/2508.10925",
+      "publishedAt": {
+        "value": "2025-08-08",
+        "note": "arXiv submission date of v1; the document itself is dated August 5, 2025."
+      },
+      "notes": "arXiv record of the model card, author OpenAI; the Hugging Face model cards and OpenAI's model card page link this record. Only v1 existed when read on 2026-10-01.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.hello-gpt-4o",
+      "type": "announcement",
+      "title": "Hello GPT-4o",
+      "url": "https://openai.com/index/hello-gpt-4o/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2024-05-13"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Contains a ChatGPT-4o risk scorecard marked Updated May 8, 2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.help-chatgpt-release-notes",
+      "type": "release-notes",
+      "title": "ChatGPT — Release Notes",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "OpenAI Help Center article; living page, content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.help-model-release-notes",
+      "type": "release-notes",
+      "title": "Model Release Notes",
+      "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "OpenAI Help Center article; living page, content as seen on 2026-10-01; earliest entry July 18, 2024.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.improving-gpt-5-6-sol-in-chatgpt",
+      "type": "announcement",
+      "title": "Improving GPT-5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "publishedAt": {
+        "value": "2026-08-06"
+      },
+      "notes": "OpenAI post on the updated GPT-5.6 Sol in ChatGPT and GPT-5.6 Luna as the default for Free and Go users; states August 6, 2026. The published title uses a non-breaking hyphen in the first GPT-5.6. openai.com answers scripted requests with HTTP 403 (Cloudflare challenge); the content was read in the Wayback Machine capture recorded in archiveUrl, which shows the post as published.",
+      "archiveUrl": "https://web.archive.org/web/20260806190814/https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-08-06",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.instructgpt-announcement",
+      "type": "announcement",
+      "title": "Aligning language models to follow instructions",
+      "url": "https://openai.com/index/instruction-following/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2022-01-27"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Links the paper and the model card repository openai/following-instructions-human-feedback. Content read on 2026-10-01 from an Internet Archive capture of this URL dated 2026-09-26 (openai.com answers 403 to scripted requests).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.instructgpt-model-card",
+      "type": "model-card",
+      "title": "InstructGPT Model Card",
+      "url": "https://github.com/openai/following-instructions-human-feedback/blob/main/model-card.md",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2022-01",
+        "note": "Last updated: January 2022, as stated in the card."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "In the archived repository openai/following-instructions-human-feedback (created 2022-01-25 per the GitHub API), linked as View model card from the January 27, 2022 post.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.instructgpt-paper",
+      "type": "research-paper",
+      "title": "Training language models to follow instructions with human feedback",
+      "url": "https://arxiv.org/abs/2203.02155",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2022-03-04",
+        "note": "arXiv v1 submitted 4 Mar 2022."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Paper by OpenAI researchers (Ouyang et al.). An earlier PDF address https://cdn.openai.com/papers/Training_language_models_to_follow_instructions_with_human_feedback.pdf was not checked.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.introducing-gpt-5-2",
+      "type": "announcement",
+      "title": "Introducing GPT-5.2",
+      "url": "https://openai.com/index/introducing-gpt-5-2/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2025-12-11"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.introducing-gpt-5-4",
+      "type": "announcement",
+      "title": "Introducing GPT-5.4",
+      "url": "https://openai.com/index/introducing-gpt-5-4/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-03-05"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.introducing-gpt-5-4-mini-and-nano",
+      "type": "announcement",
+      "title": "Introducing GPT-5.4 mini and nano",
+      "url": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-03-17"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.introducing-gpt-5-5",
+      "type": "announcement",
+      "title": "Introducing GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-04-23"
+      },
+      "notes": "openai.com answers scripted requests with a Cloudflare challenge; page text read as seen on 2026-10-01 through a text-extraction reader, with the page date taken from the page itself. Carries an update note dated April 24, 2026 saying GPT-5.5 and GPT-5.5 Pro are now available in the API.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.introducing-openai",
+      "type": "announcement",
+      "title": "Introducing OpenAI",
+      "url": "https://openai.com/index/introducing-openai/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2015-12-11"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "archiveUrl": "https://web.archive.org/web/20260904073104/https://openai.com/index/introducing-openai/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-09-04",
+      "notes": "Founding announcement. openai.com answers scripted requests with a Cloudflare challenge, so the content was read in the Wayback capture of 2026-09-04: dated December 11, 2015, opens by calling OpenAI a non-profit artificial intelligence research company.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.language-unsupervised-announcement",
+      "type": "announcement",
+      "title": "Improving language understanding with unsupervised learning",
+      "url": "https://openai.com/index/language-unsupervised/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2018-06-11"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Research post on openai.com (openai.com answers 403 to scripted requests; content read on 2026-10-01 from an Internet Archive capture of this URL dated 2025-12-18). Links to the paper PDF and to the code and model repository openai/finetune-transformer-lm. Older address https://openai.com/blog/language-unsupervised/ (not checked).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.learning-to-reason-with-llms",
+      "type": "blog-post",
+      "title": "Learning to reason with LLMs",
+      "url": "https://openai.com/index/learning-to-reason-with-llms/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2024-09-12"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Research post presenting OpenAI o1 and releasing an early version, o1-preview.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.model-index-for-researchers",
+      "type": "documentation",
+      "title": "Model index for researchers",
+      "url": "https://beta.openai.com/docs/model-index-for-researchers",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "archived-primary",
+      "availability": "unavailable",
+      "archiveUrl": "https://web.archive.org/web/20221202005102/https://beta.openai.com/docs/model-index-for-researchers",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2022-12-02",
+      "notes": "OpenAI API documentation page, the address linked from Introducing ChatGPT (November 30, 2022). Later served at https://platform.openai.com/docs/model-index-for-researchers, which now redirects (302) to the researcher access program form; the beta address answers 403. The capture is a JavaScript page shell; its text was read on 2026-10-01 from the archived documentation bundle of the same build (static/js/341.6189bf7c.chunk.js, capture 20221202141047). Checked content: sections Models referred to as GPT 3.5, InstructGPT models (SFT, FeedME, PPO) and Models featured in OpenAI Research.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.model-release-notes",
+      "type": "release-notes",
+      "title": "Model Release Notes",
+      "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "help.openai.com answers scripted requests with a Cloudflare challenge; read as seen on 2026-10-01 through a text-extraction reader. Living page, newest entries first.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.new-embedding-models-and-api-updates",
+      "type": "announcement",
+      "title": "New embedding models and API updates",
+      "url": "https://openai.com/index/new-embedding-models-and-api-updates/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2024-01-25"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Announces gpt-4-0125-preview, the gpt-4-turbo-preview alias and the upcoming gpt-3.5-turbo-0125.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o1-and-new-tools-for-developers",
+      "type": "announcement",
+      "title": "OpenAI o1 and new tools for developers",
+      "url": "https://openai.com/index/o1-and-new-tools-for-developers/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2024-12-17",
+        "note": "From the page metadata (publication date text); the rendered article header shows no date. The API changelog lists the same release on Dec 17, 2024."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o1-docs",
+      "type": "documentation",
+      "title": "o1",
+      "url": "https://developers.openai.com/api/docs/models/o1",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the OpenAI API docs (HTML title o1 Model | OpenAI API); living page, content as seen on 2026-10-01. The old address https://platform.openai.com/docs/models/o1 redirects here (301).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o1-mini-announcement",
+      "type": "announcement",
+      "title": "OpenAI o1-mini",
+      "url": "https://openai.com/index/openai-o1-mini-advancing-cost-efficient-reasoning/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2024-09-12"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page, with the subtitle Advancing cost-efficient reasoning.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o1-mini-docs",
+      "type": "documentation",
+      "title": "o1-mini",
+      "url": "https://developers.openai.com/api/docs/models/o1-mini",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the OpenAI API docs (HTML title o1-mini Model | OpenAI API); living page, content as seen on 2026-10-01. The old address https://platform.openai.com/docs/models/o1-mini redirects here (301).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o1-preview-announcement",
+      "type": "announcement",
+      "title": "Introducing OpenAI o1-preview",
+      "url": "https://openai.com/index/introducing-openai-o1-preview/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2024-09-12"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Headline as shown on the page; the HTML title is Introducing OpenAI o1. Carries an update note dated September 17, 2024 about rate limits. Also announces o1-mini.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o1-preview-docs",
+      "type": "documentation",
+      "title": "o1 Preview",
+      "url": "https://developers.openai.com/api/docs/models/o1-preview",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the OpenAI API docs (HTML title o1 Preview Model | OpenAI API); living page, content as seen on 2026-10-01. The old address https://platform.openai.com/docs/models/o1-preview redirects here (301).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o1-pro-docs",
+      "type": "documentation",
+      "title": "o1-pro",
+      "url": "https://developers.openai.com/api/docs/models/o1-pro",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model page in the OpenAI API docs (HTML title o1-pro Model | OpenAI API); living page, content as seen on 2026-10-01. The old address https://platform.openai.com/docs/models/o1-pro redirects here (301).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o1-system-card",
+      "type": "system-card",
+      "title": "OpenAI o1 System Card",
+      "url": "https://openai.com/index/openai-o1-system-card/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "The page shows only Updated: December 5, 2024, so publishedAt is left out. It links the PDF https://cdn.openai.com/o1-system-card-20241205.pdf and the earlier PDFs https://cdn.openai.com/o1-system-card-20240917.pdf and https://cdn.openai.com/o1-preview-system-card-20240917.pdf. The same card is on arXiv as 2412.16720 (submitted 2024-12-21, author OpenAI). Covers o1 and o1-mini.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o3-docs",
+      "type": "documentation",
+      "title": "o3 Model",
+      "url": "https://developers.openai.com/api/docs/models/o3",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/o3 redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o3-mini-announcement",
+      "type": "announcement",
+      "title": "OpenAI o3-mini",
+      "url": "https://openai.com/index/openai-o3-mini/",
+      "publishedAt": {
+        "value": "2025-01-31"
+      },
+      "archiveUrl": "https://web.archive.org/web/20260914223050/https://openai.com/index/openai-o3-mini/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-09-14T22:30:50Z",
+      "notes": "The page heading adds the tagline Pushing the frontier of cost-effective reasoning. Read on 2026-10-01 from the live page through a text-extraction service, because openai.com answers direct automated requests with 403. The Wayback availability API confirms the capture of 2026-09-14 (status 200). Its link for the December 2024 preview points to https://openai.com/12-days/#day-12.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o3-mini-docs",
+      "type": "documentation",
+      "title": "o3-mini Model",
+      "url": "https://developers.openai.com/api/docs/models/o3-mini",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/o3-mini redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o3-mini-system-card",
+      "type": "system-card",
+      "title": "OpenAI o3-mini System Card",
+      "url": "https://cdn.openai.com/o3-mini-system-card-feb10.pdf",
+      "publishedAt": {
+        "value": "2025-01-31"
+      },
+      "notes": "PDF; the cover gives January 31, 2025 and the file name ends in feb10. It is linked from the system card page https://openai.com/index/o3-mini-system-card/ (OpenAI o3-mini System Card, dated January 31, 2025).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o3-o4-mini-announcement",
+      "type": "announcement",
+      "title": "Introducing OpenAI o3 and o4-mini",
+      "url": "https://openai.com/index/introducing-o3-and-o4-mini/",
+      "publishedAt": {
+        "value": "2025-04-16"
+      },
+      "archiveUrl": "https://web.archive.org/web/20260916020045/https://openai.com/index/introducing-o3-and-o4-mini/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-09-16T02:00:45Z",
+      "notes": "Read on 2026-10-01 from the live page through a text-extraction service, because openai.com answers direct automated requests with 403. The Wayback availability API confirms the capture of 2026-09-16 (status 200). The page carries update notes dated June 10, 2025 (o3-pro released), July 28, 2025 (SWE-Lancer results) and April 16, 2025 (evaluation correction).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o3-o4-mini-system-card",
+      "type": "system-card",
+      "title": "OpenAI o3 and o4-mini System Card",
+      "url": "https://cdn.openai.com/pdf/2221c875-02dc-4789-800b-e7758f3722c1/o3-and-o4-mini-system-card.pdf",
+      "publishedAt": {
+        "value": "2025-04-16"
+      },
+      "notes": "PDF; the cover gives April 16, 2025. The system card page https://openai.com/index/o3-o4-mini-system-card/ (dated April 16, 2025) now links its Read the System Card button to https://deploymentsafety.openai.com/o3 instead of this PDF.",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o3-pro-docs",
+      "type": "documentation",
+      "title": "o3-pro Model",
+      "url": "https://developers.openai.com/api/docs/models/o3-pro",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/o3-pro redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.o4-mini-docs",
+      "type": "documentation",
+      "title": "o4-mini Model",
+      "url": "https://developers.openai.com/api/docs/models/o4-mini",
+      "notes": "Model reference page in the OpenAI API docs; living page, content as read on 2026-10-01. https://platform.openai.com/docs/models/o4-mini redirects here (301).",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.openai-api-announcement",
+      "type": "announcement",
+      "title": "OpenAI API",
+      "url": "https://openai.com/index/openai-api/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2020-06-11"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Launch of the API in private beta; the page now carries a note that it introduced the OpenAI API in 2020. Content read on 2026-10-01 from an Internet Archive capture of this URL dated 2026-09-08 (openai.com answers 403 to scripted requests).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.path-to-astra",
+      "type": "blog-post",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "url": "https://openai.com/index/path-to-astra/",
+      "publishedAt": {
+        "value": "2026-09-01"
+      },
+      "notes": "OpenAI safety post ahead of the Astra release; states September 1, 2026. openai.com answers scripted requests with HTTP 403 (Cloudflare challenge); the content was read in the Wayback Machine capture recorded in archiveUrl, which shows the post as published.",
+      "archiveUrl": "https://web.archive.org/web/20260901212550/https://openai.com/index/path-to-astra/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-09-01",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.planning-for-agi-and-beyond",
+      "type": "blog-post",
+      "title": "Planning for AGI and beyond",
+      "url": "https://openai.com/index/planning-for-agi-and-beyond/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2023-02-24"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "archiveUrl": "https://web.archive.org/web/20260903152744/https://openai.com/index/planning-for-agi-and-beyond/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-09-03",
+      "notes": "Opens with the mission statement (ensure that artificial general intelligence benefits all of humanity). Read in the Wayback capture of 2026-09-03 because openai.com blocks scripted requests; the page carries an update note dated October 28, 2025.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.previewing-gpt-5-6-sol",
+      "type": "announcement",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "publishedAt": {
+        "value": "2026-06-26"
+      },
+      "notes": "OpenAI post announcing the limited preview of GPT-5.6 Sol, Terra and Luna; states June 26, 2026. openai.com answers scripted requests with HTTP 403 (Cloudflare challenge); the content was read in the Wayback Machine capture recorded in archiveUrl, which shows the post as published.",
+      "archiveUrl": "https://web.archive.org/web/20260927094826/https://openai.com/index/previewing-gpt-5-6-sol/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-09-27",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.responding-critical-cyber-capabilities",
+      "type": "blog-post",
+      "title": "Responding to the next frontier of critical cyber capabilities",
+      "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+      "publishedAt": {
+        "value": "2026-08-07"
+      },
+      "notes": "OpenAI security post that first named Astra as an upcoming model; states August 7, 2026. openai.com answers scripted requests with HTTP 403 (Cloudflare challenge); the content was read in the Wayback Machine capture recorded in archiveUrl, which shows the post as published.",
+      "archiveUrl": "https://web.archive.org/web/20260807170421/https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2026-08-07",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.structured-outputs-announcement",
+      "type": "announcement",
+      "title": "Introducing Structured Outputs in the API",
+      "url": "https://openai.com/index/introducing-structured-outputs-in-the-api/",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2024-08-06"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Introduces the gpt-4o-2024-08-06 snapshot.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.openai.using-gpt-6",
+      "type": "documentation",
+      "title": "Using GPT-6",
+      "url": "https://developers.openai.com/api/docs/guides/latest-model",
+      "notes": "Model guide in the OpenAI API docs (HTML title Using GPT-6 | OpenAI API). The latest-model address always describes the newest model family, so its content changes with each release; content as read on 2026-10-01, when it covered GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna.",
+      "lastCheckedAt": "2026-10-05"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.llama-3-1-nemotron-51b-instruct",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-3-1-nemotron-51b-instruct",
+  "name": "Llama-3.1-Nemotron-51B-Instruct",
+  "aliases": [
+    {
+      "text": "Llama-3.1-Nemotron-51B-Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "Llama 3.1-Nemotron-51B-Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-3.1-Nemotron-51B",
+      "match": "auto"
+    },
+    {
+      "text": "Llama 3.1-Nemotron-51B",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-3_1-Nemotron-51B-Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "nvidia/Llama-3_1-Nemotron-51B-Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "nvidia/llama-3.1-nemotron-51b-instruct",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.llama-3-1-nemotron-51b-instruct-model-card"
+      }
+    ],
+    "note": "Weights remain downloadable from NVIDIA's Hugging Face organisation. The NVIDIA-hosted API endpoint was deprecated as of 2025-10-10 (see milestones)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-09-23",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-51b-developer-blog",
+          "locator": "page date; first paragraph"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "api-endpoint-deprecated",
+      "label": "NVIDIA-hosted API endpoint deprecated",
+      "date": {
+        "value": "2025-10-10",
+        "sources": [
+          {
+            "id": "src.nvidia.llama-3-1-nemotron-51b-instruct-api-catalog",
+            "locator": "deprecation notice"
+          }
+        ],
+        "note": "Applies to the hosted API in the NVIDIA API catalog only, not to the downloadable weights."
+      }
+    }
+  ],
+  "summary": {
+    "text": "Llama-3.1-Nemotron-51B-Instruct is a 51-billion-parameter chat model from NVIDIA, released on 23 September 2024 and derived from Meta's Llama-3.1-70B through block-wise distillation and neural architecture search. It was offered as an NVIDIA NIM through an API and as open weights on Hugging Face; NVIDIA says it fits on a single H100 GPU.",
+    "sources": [
+      {
+        "id": "src.nvidia.llama-3-1-nemotron-51b-developer-blog"
+      },
+      {
+        "id": "src.nvidia.llama-3-1-nemotron-51b-instruct-model-card"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-51b-instruct-model-card",
+          "locator": "Model Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-51b-instruct-model-card",
+          "locator": "Model Output"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-51b-instruct-model-card",
+          "locator": "License; Quick Start"
+        }
+      ],
+      "note": "NVIDIA Open Model License, with the Llama 3.1 Community License Agreement as additional information."
+    },
+    "parameters": {
+      "value": 51000000000,
+      "asStated": "51B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-51b-developer-blog",
+          "locator": "Building the model with NAS"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-51b-developer-blog",
+          "locator": "Simplifying inference with NVIDIA NIM"
+        },
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-51b-instruct-model-card",
+          "locator": "Quick Start"
+        }
+      ],
+      "note": "Offered as an NVIDIA NIM microservice through the API at ai.nvidia.com and as weights on Hugging Face. The hosted endpoint was later deprecated."
+    }
+  },
+  "notes": "Built by NVIDIA from Meta's Llama-3.1-70B-Instruct through block-wise distillation and neural architecture search; that cross-organisation derivation is not recorded as a relation here. The blog writes Llama 3.1-Nemotron-51B(-Instruct); the Hugging Face repository uses Llama-3_1-Nemotron-51B-Instruct. Context window not stated by NVIDIA (the card gives 8192 only as the sequence length used during distillation), so left out. The Hugging Face repository was created on 2024-09-22 (UTC), a day before the blog.",
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "meta.llama-3-1",
+      "method": "distillation",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-1-nemotron-51b-instruct-model-card",
+          "locator": "derived from Llama-3.1-70B-Instruct"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-1-5-pro",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-1-5-pro",
+  "name": "Gemini 1.5 Pro",
+  "aliases": [
+    {
+      "text": "Gemini 1.5 Pro",
+      "match": "candidate"
+    },
+    {
+      "text": "gemini-1.5-pro-001",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-1.5-pro-latest",
+      "match": "candidate"
+    },
+    {
+      "text": "gemini-1.5-pro",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-pro",
+  "generation": "1.5",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "September 29, 2025"
+      },
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models: gemini-1.5-pro-001"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "google.gemini-2-5-flash",
+    "sources": [
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models: gemini-1.5-pro-001"
+      }
+    ],
+    "note": "Recommended upgrade for gemini-1.5-pro-001 on Agent Platform as listed when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-02-15",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-announcement"
+        }
+      ],
+      "note": "Released the same day in a limited private preview in AI Studio and Vertex AI."
+    },
+    "released": {
+      "value": "2024-05-23",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "May 23, 2024"
+        }
+      ],
+      "note": "General availability of gemini-1.5-pro-001 in the Gemini API.",
+      "alternatives": [
+        {
+          "value": "2024-05-24",
+          "sources": [
+            {
+              "id": "src.google.agent-platform-model-versions",
+              "locator": "Retired models: gemini-1.5-pro-001"
+            }
+          ],
+          "note": "Release date of gemini-1.5-pro-001 on Vertex AI (now Gemini Enterprise Agent Platform)."
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2025-09-29",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "September 29, 2025"
+        }
+      ],
+      "note": "Shutdown of the gemini-1.5-pro model code in the Gemini API, which ended Gemini 1.5 Pro in that API. The release notes do not give a separate shutdown date for gemini-1.5-pro-001 there.",
+      "alternatives": [
+        {
+          "value": "2025-05-24",
+          "sources": [
+            {
+              "id": "src.google.agent-platform-model-versions",
+              "locator": "Retired models: gemini-1.5-pro-001"
+            }
+          ],
+          "note": "Retirement date of gemini-1.5-pro-001 on Vertex AI."
+        }
+      ]
+    }
+  },
+  "milestones": [
+    {
+      "id": "public-preview",
+      "label": "Public preview in the Gemini API (gemini-1.5-pro-latest) in 180+ countries",
+      "date": {
+        "value": "2024-04-09",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "April 9, 2024"
+          },
+          {
+            "id": "src.google.gemini-1-5-pro-public-preview-developers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "context-2m-ga",
+      "label": "2M-token context window generally available in the Gemini API",
+      "date": {
+        "value": "2024-06-27",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "June 27, 2024"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemini-1-0-pro",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-announcement"
+        }
+      ],
+      "note": "Editorial link along the Pro tier: Google presents Gemini 1.5 as the next generation after Gemini 1.0 and compares 1.5 Pro with 1.0 Pro and 1.0 Ultra, without naming a direct predecessor."
+    }
+  ],
+  "summary": {
+    "text": "Gemini 1.5 Pro is a mid-size multimodal model in Google's Gemini Pro line and the first model of the Gemini 1.5 generation, announced in February 2024 and built on a Mixture-of-Experts architecture. Offered to developers through the Gemini API and Vertex AI, it takes text, images, audio and video, with a 128,000-token standard context window that later reached 2 million in the Gemini API.",
+    "sources": [
+      {
+        "id": "src.google.gemini-1-5-announcement"
+      },
+      {
+        "id": "src.google.gemini-1-5-pro-public-preview-developers"
+      },
+      {
+        "id": "src.google.gemini-api-release-notes"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "mixture-of-experts",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-0-pro",
+      "text": "Uses a Mixture-of-Experts architecture, which Google says makes the model more efficient to train and serve.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-announcement"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "google.gemini-1-0-pro",
+      "text": "Standard context window grows from 32,000 to 128,000 tokens, with up to 1 million in private preview and 2 million generally available in the Gemini API from June 2024.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-announcement"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "June 27, 2024"
+        }
+      ]
+    },
+    {
+      "id": "audio-video",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "google.gemini-1-0-pro",
+      "text": "Accepts audio (speech) and video alongside text and images; at API launch Gemini 1.0 Pro took text only, with images through the separate Pro Vision endpoint.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-pro-public-preview-developers"
+        },
+        {
+          "id": "src.google.gemini-pro-developers-announcement",
+          "locator": "Gemini Pro is available today"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-0-pro",
+      "text": "Google says 1.5 Pro reaches quality comparable to 1.0 Ultra while using less compute.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-announcement",
+          "locator": "Greater context, more helpful capabilities"
+        },
+        {
+          "id": "src.google.gemini-1-5-pro-public-preview-developers",
+          "locator": "Unlock new use cases with audio and video modalities"
+        },
+        {
+          "id": "src.google.gemini-1-5-technical-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Audio (speech) input reached the Gemini API with the public preview of 2024-04-09."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-private-preview-developers",
+          "locator": "1,000,000 tokens: Unlocking new use cases for developers"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-announcement",
+          "locator": "Introducing Gemini 1.5"
+        },
+        {
+          "id": "src.google.gemini-1-5-private-preview-developers",
+          "locator": "1,000,000 tokens: Unlocking new use cases for developers"
+        }
+      ],
+      "note": "Standard window at announcement; a limited group could use up to 1 million tokens in the private preview. The Gemini API release notes add a 2M window (waitlist 2024-05-14, generally available 2024-06-27)."
+    },
+    "features": [
+      {
+        "key": "long-context",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-1-5-announcement",
+            "locator": "Greater context, more helpful capabilities"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-announcement",
+          "locator": "Build and experiment with Gemini models"
+        },
+        {
+          "id": "src.google.vertex-ai-gemini-expands"
+        },
+        {
+          "id": "src.google.gemini-1-5-pro-public-preview-developers"
+        }
+      ],
+      "note": "Gemini API (Google AI Studio) and Vertex AI; private preview from 2024-02-15, public preview from 2024-04-09."
+    }
+  },
+  "notes": "First model of the Gemini 1.5 generation, built on a Mixture-of-Experts architecture. The record covers the February 2024 preview and the first stable version gemini-1.5-pro-001; the September 2024 update gemini-1.5-pro-002 is a separate record (google.gemini-1-5-pro-002). Later versions of the technical report describe an updated 1.5 Pro and compare it with the February version. Retirement: the generic gemini-1.5-pro model was shut down in the Gemini API on 2025-09-29; Vertex AI retired gemini-1.5-pro-001 on 2025-05-24. Prominence standard because 1.5 is a point version, although Google calls it a next-generation model."
+}

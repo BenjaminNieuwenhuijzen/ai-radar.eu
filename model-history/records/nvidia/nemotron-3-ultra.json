@@ -1,0 +1,336 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.nemotron-3-ultra",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nemotron-3-ultra",
+  "name": "Nemotron 3 Ultra",
+  "aliases": [
+    {
+      "text": "Nemotron 3 Ultra",
+      "match": "auto"
+    },
+    {
+      "text": "NVIDIA Nemotron 3 Ultra",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-3-Ultra",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron 3 Ultra 550B-A55B",
+      "match": "auto"
+    },
+    {
+      "text": "nemotron-3-ultra-550b-a55b",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron-ultra",
+  "generation": "3",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card"
+      }
+    ],
+    "note": "NVIDIA has no deprecation page for its open models; the weights were still downloadable from the NVIDIA organisation on Hugging Face on 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2025-12-15",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-family-press-release"
+        }
+      ],
+      "note": "Announced with the Nemotron 3 family, then described as about 500B parameters with up to 50B active and expected in the first half of 2026. Jensen Huang presented it again in the GTC Taipei keynote at COMPUTEX (live blog keynote recap dated May 31, 2026, 8:00 p.m. PT)."
+    },
+    "released": {
+      "value": "2026-06-04",
+      "sources": [
+        {
+          "id": "src.nvidia.gtc-taipei-computex-2026-live-blog",
+          "locator": "Thursday, June 4, 6:00 a.m. PT"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+          "locator": "Model Summary: Release Date; Release Date"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-ultra-research-page",
+          "locator": "Published"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "nvidia.llama-3-1-nemotron-ultra-253b-v1",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-ultra-research-page"
+        }
+      ],
+      "note": "Editorial link along the Ultra tier: NVIDIA does not name a predecessor; Llama-3.1-Nemotron-Ultra-253B-v1 was the previous Ultra-tier release."
+    }
+  ],
+  "summary": {
+    "text": "Nemotron 3 Ultra is an open-weights reasoning language model and the Ultra size of NVIDIA's Nemotron 3 family, with 550B total and 55B active parameters and a context length of up to 1M tokens. NVIDIA built it for long-running agents with contributions from the Nemotron Coalition and offered it as a download, on build.nvidia.com and through partners.",
+    "sources": [
+      {
+        "id": "src.nvidia.gtc-taipei-computex-2026-live-blog",
+        "locator": "Thursday, June 4, 6:00 a.m. PT"
+      },
+      {
+        "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+        "locator": "Model Summary"
+      },
+      {
+        "id": "src.nvidia.nemotron-3-ultra-research-page"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "hybrid-latent-moe",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "nvidia.llama-3-1-nemotron-ultra-253b-v1",
+      "text": "Uses a hybrid Mamba-attention LatentMoE architecture with multi-token prediction layers, pre-trained in NVFP4.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-ultra-research-page"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "aspect": "size",
+      "relativeTo": "nvidia.llama-3-1-nemotron-ultra-253b-v1",
+      "text": "550B total parameters, of which 55B are active per token.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+          "locator": "Model Summary: Total Parameters"
+        }
+      ]
+    },
+    {
+      "id": "context-1m",
+      "aspect": "context-length",
+      "relativeTo": "nvidia.llama-3-1-nemotron-ultra-253b-v1",
+      "text": "Supports a context length of up to 1M tokens.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+          "locator": "Model Summary: Context Length"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-budget",
+      "aspect": "reasoning",
+      "relativeTo": "nvidia.llama-3-1-nemotron-ultra-253b-v1",
+      "text": "Supports inference-time control of the reasoning budget.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-ultra-research-page",
+          "locator": "Key Features"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+          "locator": "Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+          "locator": "Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+            "locator": "Model Summary: Reasoning Mode"
+          },
+          {
+            "id": "src.nvidia.nemotron-3-ultra-research-page",
+            "locator": "Key Features"
+          }
+        ],
+        "note": "Reasoning can be switched on or off through the chat template; the research page also lists inference-time reasoning budget control."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+            "locator": "Model Summary: Best For"
+          }
+        ]
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+            "locator": "Model Summary: Supported Languages"
+          }
+        ],
+        "note": "English, French, Spanish, Italian, German, Japanese, Hindi, Korean, Brazilian Portuguese and Chinese."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-ultra-research-page",
+          "locator": "Open Source"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+          "locator": "License/Terms of Use"
+        }
+      ],
+      "note": "Released under the OpenMDW License Agreement, version 1.1."
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+          "locator": "Model Summary: Context Length"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-ultra-research-page",
+          "locator": "Key Highlights"
+        }
+      ],
+      "note": "Stated as up to 1M tokens."
+    },
+    "parameters": {
+      "value": 550000000000,
+      "asStated": "550B (55B active)",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+          "locator": "Model Summary: Total Parameters"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-ultra-research-page"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.gtc-taipei-computex-2026-live-blog",
+          "locator": "Thursday, June 4, 6:00 a.m. PT: Open and Customizable, Deployable Anywhere"
+        }
+      ],
+      "note": "Hugging Face, ModelScope, OpenRouter, build.nvidia.com as NVIDIA NIM microservices and partner platforms."
+    }
+  },
+  "variants": [
+    {
+      "id": "550b-a55b",
+      "name": "Nemotron 3 Ultra 550B-A55B",
+      "aliases": [
+        {
+          "text": "NVIDIA-Nemotron-3-Ultra-550B-A55B-BF16",
+          "match": "auto"
+        },
+        {
+          "text": "NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4",
+          "match": "auto"
+        }
+      ],
+      "note": "Post-trained model, published in BF16 and as an NVFP4 quantized checkpoint.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-ultra-research-page",
+          "locator": "Open Source: Checkpoints"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card"
+        }
+      ]
+    },
+    {
+      "id": "550b-a55b-base",
+      "name": "Nemotron 3 Ultra 550B-A55B Base",
+      "aliases": [
+        {
+          "text": "NVIDIA-Nemotron-3-Ultra-550B-A55B-Base-BF16",
+          "match": "auto"
+        }
+      ],
+      "note": "Pre-trained base checkpoint.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-ultra-research-page",
+          "locator": "Open Source: Checkpoints"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-ultra-550b-a55b-bf16-model-card",
+          "locator": "Training Methodology: Stage 1"
+        }
+      ]
+    }
+  ],
+  "notes": "The released size (550B total, 55B active) differs from the approximate size in the December 2025 announcement (about 500B, up to 50B active). NVIDIA calls it the final model of the Nemotron 3 family and says it was built with contributions from the Nemotron Coalition. The API id nemotron-3-ultra-550b-a55b is the build.nvidia.com model path linked from the model card. The research page also lists a GenRM checkpoint used for RLHF; it is not a variant. Technical report: https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Ultra-Technical-Report.pdf."
+}

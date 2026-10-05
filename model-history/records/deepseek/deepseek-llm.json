@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-llm",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-llm",
+  "name": "DeepSeek LLM",
+  "aliases": [
+    {
+      "text": "DeepSeek LLM",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek 67B",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek LLM 67B",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek LLM 7B",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-V1",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek",
+  "generation": null,
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-llm-67b-chat-hf"
+      },
+      {
+        "id": "src.deepseek.deepseek-llm-7b-base-hf"
+      },
+      {
+        "id": "src.deepseek.deepseek-llm-github",
+        "locator": "2. Model Downloads"
+      }
+    ],
+    "note": "Weights of all four models are still public and ungated on Hugging Face under the DeepSeek Model License."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-11-29",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-llm-github-initial-commit",
+          "locator": "commit date and README, 2. Model Downloads"
+        }
+      ],
+      "note": "No DeepSeek prose states the release day. The earliest commit of the official repository, dated 2023-11-29, already contains the README that says the 7B and 67B Base and Chat models are released to the public. The technical report followed on arXiv on 2024-01-05."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "DeepSeek LLM is a general-purpose language model series from DeepSeek, released as open weights in 7B and 67B sizes, each as a Base and a Chat model, under the DeepSeek Model License, which permits commercial use. DeepSeek says the models were trained from scratch on 2 trillion English and Chinese tokens; the model cards also link to DeepSeek's chat website.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-llm-github",
+        "locator": "1. Introduction; 2. Model Downloads; 8. License"
+      },
+      {
+        "id": "src.deepseek.deepseek-llm-67b-chat-hf",
+        "locator": "Chat With DeepSeek LLM link"
+      }
+    ]
+  },
+  "capabilities": {
+    "contextWindowTokens": {
+      "value": 4096,
+      "asStated": "4096",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-llm-github",
+          "locator": "2. Model Downloads, Sequence Length"
+        },
+        {
+          "id": "src.deepseek.deepseek-llm-paper",
+          "locator": "Table 2, Context Length"
+        }
+      ],
+      "note": "Given as sequence length (README) and context length (report) for all four models."
+    },
+    "parameters": {
+      "value": 67000000000,
+      "asStated": "67 billion",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-llm-github",
+          "locator": "1. Introduction"
+        },
+        {
+          "id": "src.deepseek.deepseek-llm-67b-base-hf",
+          "locator": "2. Model Summary"
+        }
+      ],
+      "note": "The 67B models; the 7B variants carry their own figure."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-llm-github",
+          "locator": "2. Model Downloads; 8. License"
+        },
+        {
+          "id": "src.deepseek.deepseek-llm-67b-base-hf"
+        }
+      ],
+      "note": "Released under the DeepSeek Model License, which permits commercial use; intermediate base-model checkpoints were also published on AWS S3."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-llm-github",
+          "locator": "badges; 2. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-llm-67b-chat-hf",
+          "locator": "Chat With DeepSeek LLM link"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "7b-base",
+      "name": "DeepSeek LLM 7B Base",
+      "aliases": [
+        {
+          "text": "DeepSeek LLM 7B Base",
+          "match": "auto"
+        },
+        {
+          "text": "deepseek-llm-7b-base",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 7000000000,
+          "asStated": "7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.deepseek.deepseek-llm-7b-base-hf",
+              "locator": "2. Model Summary"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-llm-github",
+          "locator": "2. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-llm-7b-base-hf"
+        }
+      ]
+    },
+    {
+      "id": "7b-chat",
+      "name": "DeepSeek LLM 7B Chat",
+      "aliases": [
+        {
+          "text": "DeepSeek LLM 7B Chat",
+          "match": "auto"
+        },
+        {
+          "text": "deepseek-llm-7b-chat",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 7000000000,
+          "asStated": "7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.deepseek.deepseek-llm-7b-chat-hf",
+              "locator": "2. Model Summary"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-llm-github",
+          "locator": "2. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-llm-7b-chat-hf"
+        }
+      ]
+    },
+    {
+      "id": "67b-base",
+      "name": "DeepSeek LLM 67B Base",
+      "aliases": [
+        {
+          "text": "DeepSeek LLM 67B Base",
+          "match": "auto"
+        },
+        {
+          "text": "deepseek-llm-67b-base",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-llm-github",
+          "locator": "2. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-llm-67b-base-hf"
+        }
+      ]
+    },
+    {
+      "id": "67b-chat",
+      "name": "DeepSeek LLM 67B Chat",
+      "aliases": [
+        {
+          "text": "DeepSeek LLM 67B Chat",
+          "match": "auto"
+        },
+        {
+          "text": "deepseek-llm-67b-chat",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-llm-github",
+          "locator": "2. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-llm-67b-chat-hf"
+        }
+      ]
+    }
+  ],
+  "notes": "Sizes 7B and 67B, each as Base and Chat, are inline variants of one release. Release day taken from the earliest repository commit (see dates.released.note); the arXiv report of 2024-01-05 is the first DeepSeek text with a stated date. The DeepSeek-V2 README labels the 67B model DeepSeek-V1 (Dense-67B); DeepSeek otherwise calls it DeepSeek LLM 67B or DeepSeek 67B. The 7B model uses multi-head attention, the 67B model grouped-query attention. Generation left empty: DeepSeek gives no generation number at release."
+}

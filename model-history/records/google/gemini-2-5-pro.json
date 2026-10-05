@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-2-5-pro",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-2-5-pro",
+  "name": "Gemini 2.5 Pro",
+  "aliases": [
+    {
+      "text": "Gemini 2.5 Pro",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.5-pro",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini 2.5 Pro Experimental",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.5-pro-exp-03-25",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.5-pro-preview-03-25",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.5-pro-preview-05-06",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.5-pro-preview-06-05",
+      "match": "auto"
+    },
+    {
+      "text": "2.5 Pro",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-pro",
+  "generation": "2.5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.google.gemini-2-5-pro-api-docs",
+        "locator": "notice at the top of the page"
+      },
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 2.5 models"
+      },
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "September 18, 2026"
+      },
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Models available for at least 12 months after release"
+      }
+    ],
+    "note": "Not deprecated in the Gemini API (no shutdown date announced), but since 2026-09-18 access to the 2.5 models is limited to users who used them before. On Gemini Enterprise Agent Platform the retirement of gemini-2.5-pro is scheduled for 2026-10-20, with gemini-3.8-flash or gemini-3.5-flash as replacements."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-03-25",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-announcement"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "March 25, 2025"
+        }
+      ],
+      "note": "Released as an experimental model (gemini-2.5-pro-exp-03-25); generally available on 2025-06-17."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "paid-preview",
+      "label": "Paid public preview (gemini-2.5-pro-preview-03-25)",
+      "date": {
+        "value": "2025-04-04",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "April 4, 2025"
+          }
+        ],
+        "alternatives": [
+          {
+            "value": "2025-03-03",
+            "sources": [
+              {
+                "id": "src.google.gemini-api-deprecations",
+                "locator": "Gemini 2.5 Pro models: gemini-2.5-pro-preview-03-25"
+              }
+            ],
+            "note": "Release date given on the deprecations page; it is earlier than the experimental release of 2025-03-25 reported by the release notes and the announcement."
+          }
+        ]
+      }
+    },
+    {
+      "id": "preview-05-06",
+      "label": "Updated preview (gemini-2.5-pro-preview-05-06)",
+      "date": {
+        "value": "2025-05-06",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "May 6, 2025"
+          },
+          {
+            "id": "src.google.gemini-api-deprecations",
+            "locator": "Gemini 2.5 Pro models"
+          }
+        ]
+      }
+    },
+    {
+      "id": "preview-06-05",
+      "label": "Updated preview (gemini-2.5-pro-preview-06-05)",
+      "date": {
+        "value": "2025-06-05",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "June 05, 2025"
+          },
+          {
+            "id": "src.google.gemini-api-deprecations",
+            "locator": "Gemini 2.5 Pro models"
+          }
+        ]
+      }
+    },
+    {
+      "id": "general-availability",
+      "label": "Generally available (gemini-2.5-pro)",
+      "date": {
+        "value": "2025-06-17",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "June 17, 2025"
+          },
+          {
+            "id": "src.google.gemini-2-5-family-expands-announcement"
+          },
+          {
+            "id": "src.google.gemini-2-5-thinking-model-updates-dev-blog"
+          },
+          {
+            "id": "src.google.gemini-api-deprecations",
+            "locator": "Gemini 2.5 Pro models"
+          },
+          {
+            "id": "src.google.agent-platform-model-versions",
+            "locator": "Models available for at least 12 months after release"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemini-2-0-pro",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-announcement"
+        }
+      ],
+      "note": "Editorial link along the Pro tier: the announcement names Gemini 2.0 Flash Thinking as Google's first thinking model and compares coding with Gemini 2.0 in general, but names no Pro predecessor; Gemini 2.0 Pro (experimental) was the most recent Pro model."
+    }
+  ],
+  "summary": {
+    "text": "Gemini 2.5 Pro is a multimodal reasoning model in Google's Gemini Pro line, first released as an experimental model on 25 March 2025 and generally available from 17 June 2025 in the Gemini API and the Gemini app. Google describes it as a thinking model that reasons through its thoughts before responding; since 18 September 2026 API access is limited to earlier users.",
+    "sources": [
+      {
+        "id": "src.google.gemini-2-5-announcement"
+      },
+      {
+        "id": "src.google.gemini-2-5-family-expands-announcement"
+      },
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "March 25, 2025; June 17, 2025; September 18, 2026"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "thinking",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "google.gemini-2-0-pro",
+      "text": "Built as a thinking model that reasons through its thoughts before responding; Google says it will build thinking into all its models.",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-announcement"
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-2-0-pro",
+      "text": "Google reports a large step up in coding performance over Gemini 2.0.",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-announcement"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "decreased",
+      "relativeTo": "google.gemini-2-0-pro",
+      "text": "Launched with a 1 million token context window and 2 million announced as coming soon; Gemini 2.0 Pro had 2 million.",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-announcement"
+        },
+        {
+          "id": "src.google.gemini-2-0-february-2025-announcement",
+          "locator": "2.0 Pro Experimental section"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-pro-api-docs",
+          "locator": "Supported data types"
+        },
+        {
+          "id": "src.google.gemini-2-5-pro-model-card",
+          "locator": "Model Information: Inputs"
+        }
+      ],
+      "note": "The Gemini API also accepts PDF files."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-pro-api-docs",
+          "locator": "Supported data types"
+        },
+        {
+          "id": "src.google.gemini-2-5-pro-model-card",
+          "locator": "Model Information: Outputs"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-2-5-announcement",
+            "locator": "second paragraph"
+          },
+          {
+            "id": "src.google.gemini-2-5-pro-api-docs",
+            "locator": "Capabilities: Thinking"
+          }
+        ],
+        "note": "Thinking model; the stable version has adaptive thinking with a configurable thinking budget."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-2-5-pro-api-docs",
+            "locator": "Capabilities"
+          }
+        ]
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-2-5-pro-api-docs",
+            "locator": "Capabilities"
+          }
+        ],
+        "note": "Code execution, search grounding and URL context in the Gemini API."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-pro-api-docs",
+          "locator": "Token limits: input token limit"
+        }
+      ],
+      "note": "The launch post gave 1 million tokens, with 2 million announced as coming soon."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-announcement",
+          "locator": "Introducing Gemini 2.5 Pro"
+        },
+        {
+          "id": "src.google.gemini-2-5-family-expands-announcement"
+        }
+      ],
+      "note": "Google AI Studio and Vertex AI (Gemini API) and the Gemini app."
+    }
+  },
+  "notes": "The stable gemini-2.5-pro of 2025-06-17 is the 06-05 preview without changes (developer blog). The experimental gemini-2.5-pro-exp-03-25 was shut down on 2025-06-26, when the 03-25 and 05-06 preview IDs began redirecting to gemini-2.5-pro; the three preview IDs have a shutdown date of 2025-12-02 on the deprecations page. Google's model card calls 2.5 Pro the next iteration in the Gemini 2.0 series. A separate Gemini 2.5 Deep Think model (own model card, 2025-08-01) reached Google AI Ultra subscribers through a toggle on 2.5 Pro in the Gemini app; it is not recorded here. Vertex AI is counted as Google's own API (api)."
+}

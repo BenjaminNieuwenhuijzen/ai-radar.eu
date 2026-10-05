@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "id": "google.palm-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "palm-2",
+  "name": "PaLM 2",
+  "aliases": [
+    {
+      "text": "PaLM 2",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.palm",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models: text-bison, chat-bison"
+      },
+      {
+        "id": "src.google.vertex-palm-2-for-text-reference",
+        "locator": "first paragraph"
+      },
+      {
+        "id": "src.google.vertex-palm-2-for-chat-reference",
+        "locator": "first paragraph"
+      }
+    ],
+    "note": "Retirement as listed for text-bison and chat-bison on Vertex AI (now Gemini Enterprise Agent Platform); archived Vertex AI references name these models PaLM 2 for Text and PaLM 2 for Chat. No current Google page gives the shutdown date of the PaLM API."
+  },
+  "replacedBy": {
+    "modelId": "google.gemini-2-5-flash-lite",
+    "sources": [
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models: text-bison, chat-bison"
+      },
+      {
+        "id": "src.google.vertex-palm-2-for-text-reference",
+        "locator": "first paragraph"
+      }
+    ],
+    "note": "Recommended upgrade for text-bison and chat-bison as listed when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-05-10",
+      "sources": [
+        {
+          "id": "src.google.palm-2-announcement"
+        }
+      ],
+      "note": "Announced at Google I/O and offered the same day in Bard, through PaLM API sign-ups and in Vertex AI."
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2025-04-21",
+      "sources": [
+        {
+          "id": "src.google.agent-platform-model-versions",
+          "locator": "Retired models: text-bison, chat-bison"
+        },
+        {
+          "id": "src.google.vertex-palm-2-for-text-reference",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.google.vertex-palm-2-for-chat-reference",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Vertex AI models text-bison (PaLM 2 for Text) and chat-bison (PaLM 2 for Chat)."
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.palm-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.palm-2-announcement",
+          "locator": "Introducing PaLM 2"
+        },
+        {
+          "id": "src.google.palm-2-technical-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "PaLM 2 is Google's second-generation PaLM language model, announced at Google I/O in May 2023 in four sizes named Gecko, Otter, Bison and Unicorn, and offered the same day in Bard, through the PaLM API and in Vertex AI. Google withheld its parameter counts; on Vertex AI the text-bison and chat-bison models were retired in April 2025.",
+    "sources": [
+      {
+        "id": "src.google.palm-2-announcement"
+      },
+      {
+        "id": "src.google.palm-2-technical-report"
+      },
+      {
+        "id": "src.google.agent-platform-model-versions"
+      },
+      {
+        "id": "src.google.vertex-palm-2-for-text-reference"
+      },
+      {
+        "id": "src.google.vertex-palm-2-for-chat-reference"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "multilingual",
+      "aspect": "languages",
+      "direction": "increased",
+      "relativeTo": "google.palm-1",
+      "text": "Pre-trained much more heavily on multilingual text spanning more than 100 languages; the data mix also adds more code, mathematics and parallel multilingual documents.",
+      "sources": [
+        {
+          "id": "src.google.palm-2-announcement"
+        },
+        {
+          "id": "src.google.palm-2-technical-report"
+        }
+      ]
+    },
+    {
+      "id": "objectives",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "google.palm-1",
+      "text": "Trained with a tuned mixture of pre-training objectives, following UL2; Google says this makes it more compute-efficient than PaLM, with faster inference.",
+      "sources": [
+        {
+          "id": "src.google.palm-2-technical-report"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "decreased",
+      "relativeTo": "google.palm-1",
+      "text": "Google says the biggest PaLM 2 model is significantly smaller than the biggest PaLM model, although it used more training compute; exact sizes were not disclosed.",
+      "sources": [
+        {
+          "id": "src.google.palm-2-technical-report"
+        }
+      ]
+    },
+    {
+      "id": "availability",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "google.palm-1",
+      "text": "Offered in Google products such as Bard and to developers through the PaLM API and Vertex AI, whereas PaLM was a research model.",
+      "sources": [
+        {
+          "id": "src.google.palm-2-announcement"
+        },
+        {
+          "id": "src.google.palm-paper",
+          "locator": "Table 30 (PaLM Model Card): Application"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.palm-2-technical-report",
+          "locator": "Table 31 (PaLM 2 Model Card): Input(s)"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.palm-2-technical-report",
+          "locator": "Table 31 (PaLM 2 Model Card): Output(s)"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.palm-2-announcement",
+            "locator": "Introducing PaLM 2"
+          }
+        ],
+        "note": "Trained more heavily on multilingual text spanning more than 100 languages."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [
+        {
+          "id": "src.google.palm-2-technical-report",
+          "locator": "section 1; Table 31 (PaLM 2 Model Card): Model Architecture, Model Stats"
+        }
+      ],
+      "note": "Google withheld model sizes; the report says only that the largest PaLM 2 model is significantly smaller than the largest PaLM model."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.palm-2-announcement",
+          "locator": "Powering over 25 Google products and features"
+        }
+      ],
+      "note": "PaLM API sign-ups for developers, Vertex AI for Google Cloud customers, and Bard."
+    }
+  },
+  "variants": [
+    {
+      "id": "gecko",
+      "name": "Gecko",
+      "sources": [
+        {
+          "id": "src.google.palm-2-announcement",
+          "locator": "A versatile family of models"
+        }
+      ],
+      "note": "Google says Gecko is light enough to run on mobile devices, also offline."
+    },
+    {
+      "id": "otter",
+      "name": "Otter",
+      "sources": [
+        {
+          "id": "src.google.palm-2-announcement",
+          "locator": "A versatile family of models"
+        }
+      ]
+    },
+    {
+      "id": "bison",
+      "name": "Bison",
+      "aliases": [
+        {
+          "text": "text-bison",
+          "match": "auto"
+        },
+        {
+          "text": "chat-bison",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.google.palm-2-announcement",
+          "locator": "A versatile family of models"
+        },
+        {
+          "id": "src.google.vertex-palm-2-for-text-reference",
+          "locator": "first paragraph; Model versions"
+        },
+        {
+          "id": "src.google.vertex-palm-2-for-chat-reference",
+          "locator": "first paragraph; Model versions"
+        },
+        {
+          "id": "src.google.agent-platform-model-versions",
+          "locator": "Retired models: text-bison, chat-bison"
+        }
+      ],
+      "note": "Archived Vertex AI references name text-bison PaLM 2 for Text (stable versions text-bison@001 of 2023-06-07 and text-bison@002 of 2023-12-06) and chat-bison PaLM 2 for Chat (chat-bison@001 of 2023-07-10, chat-bison@002 of 2023-12-06). The Agent Platform table lists both with release May 2023 and retirement 2025-04-21. Attributing these ids to the Bison size follows the ids; no source states it in so many words."
+    },
+    {
+      "id": "unicorn",
+      "name": "Unicorn",
+      "sources": [
+        {
+          "id": "src.google.palm-2-announcement",
+          "locator": "A versatile family of models"
+        },
+        {
+          "id": "src.google.vertex-palm-2-for-text-reference",
+          "locator": "first paragraph; Model versions"
+        }
+      ],
+      "aliases": [
+        {
+          "text": "text-unicorn",
+          "match": "auto"
+        }
+      ],
+      "note": "The archived PaLM 2 for Text reference lists text-unicorn (text-unicorn@001, released 2023-11-30) next to text-bison."
+    }
+  ],
+  "notes": "The four sizes are named in the announcement; Google did not publish their parameter counts. Specialised versions named in the announcement (Med-PaLM 2, Sec-PaLM) and the Codey models are not recorded. The technical report calls PaLM its predecessor. The PaLM 2 for Text and PaLM 2 for Chat reference pages on cloud.google.com no longer exist (one redirects to an unrelated page, the other returns 404), so they are cited through Internet Archive captures."
+}

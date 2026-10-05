@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.llama-3-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-3-2",
+  "name": "Llama 3.2",
+  "aliases": [
+    {
+      "text": "Llama 3.2",
+      "match": "auto"
+    },
+    {
+      "text": "Llama 3.2-Vision",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.llama",
+  "generation": "3.2",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.meta.llama-3-2-hf-collection"
+      }
+    ],
+    "note": "Meta publishes no deprecation page for Llama models; the weights of all four sizes and the quantized 1B and 3B builds are still listed in Meta's Hugging Face organisation (gated, license acceptance required) as seen on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-09-25",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-announcement",
+          "locator": "page date; Takeaways"
+        },
+        {
+          "id": "src.meta.llama-3-2-vision-model-card",
+          "locator": "Model Release Date"
+        },
+        {
+          "id": "src.meta.llama-models-repository",
+          "locator": "README, Llama Models table"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "meta.llama-3-1",
+      "method": "distillation",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-announcement",
+          "locator": "Lightweight models; Vision models"
+        },
+        {
+          "id": "src.meta.llama-3-2-model-card",
+          "locator": "Training Data"
+        },
+        {
+          "id": "src.meta.llama-3-2-vision-model-card",
+          "locator": "Model Architecture"
+        }
+      ],
+      "note": "The 1B and 3B models were pruned from Llama 3.1 8B and trained with logits from Llama 3.1 8B and 70B as token-level targets. The 11B and 90B Vision models start from pretrained Llama 3.1 text models and add a separately trained image adapter and encoder, leaving the language model weights unchanged."
+    },
+    {
+      "type": "successor-of",
+      "target": "meta.llama-3-1",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-announcement"
+        }
+      ],
+      "note": "Editorial link along the Llama 3 version line: the announcement presents Llama 3.2 as the release after the Llama 3.1 herd, without calling it a successor."
+    }
+  ],
+  "summary": {
+    "text": "Llama 3.2 is a set of open-weight Meta models released on 25 September 2024: text-only 1B and 3B models aimed at on-device use, and 11B and 90B Vision models, which Meta describes as the first Llama models to support vision tasks. The small models were distilled from Llama 3.1, and the Vision models add an image adapter to Llama 3.1 text models.",
+    "sources": [
+      {
+        "id": "src.meta.llama-3-2-announcement"
+      },
+      {
+        "id": "src.meta.llama-3-2-model-card"
+      },
+      {
+        "id": "src.meta.llama-3-2-vision-model-card"
+      },
+      {
+        "id": "src.meta.llama-3-2-hf-collection"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "meta.llama-3-1",
+      "text": "Adds image input in the 11B and 90B Vision models; for image plus text tasks English is the only supported language.",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-announcement",
+          "locator": "Vision models"
+        },
+        {
+          "id": "src.meta.llama-3-2-vision-model-card",
+          "locator": "Model Information"
+        }
+      ]
+    },
+    {
+      "id": "small-models",
+      "aspect": "size",
+      "direction": "added",
+      "relativeTo": "meta.llama-3-1",
+      "text": "Adds 1B and 3B text models for mobile and edge devices, enabled for Qualcomm and MediaTek hardware and optimised for Arm processors.",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-announcement",
+          "locator": "Takeaways; Lightweight models"
+        }
+      ]
+    },
+    {
+      "id": "quantized-builds",
+      "aspect": "efficiency",
+      "direction": "added",
+      "relativeTo": "meta.llama-3-1",
+      "text": "Quantized builds of the 1B and 3B Instruct models followed on 24 October 2024, limited to 8K context for mobile devices.",
+      "sources": [
+        {
+          "id": "src.meta.quantized-llama-models-announcement"
+        }
+      ]
+    },
+    {
+      "id": "eu-license",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "meta.llama-3-1",
+      "text": "The acceptable use policy does not grant the license rights for the multimodal models to individuals or companies based in the European Union.",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-acceptable-use-policy",
+          "locator": "paragraph on multimodal models after the list of prohibited uses"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-model-card",
+          "locator": "Model Information table, Input modalities"
+        }
+      ],
+      "note": "Applies to the 1B and 3B text models; the two Vision variants also accept images."
+    },
+    "outputModalities": {
+      "value": [
+        "text",
+        "code"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-model-card",
+          "locator": "Model Information table, Output modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-announcement",
+          "locator": "Takeaways (1B and 3B)"
+        },
+        {
+          "id": "src.meta.llama-3-2-model-card",
+          "locator": "Model Information table, Context Length (128k)"
+        },
+        {
+          "id": "src.meta.llama-3-2-vision-model-card",
+          "locator": "Model Information table, Context length (128k)"
+        }
+      ],
+      "note": "The quantized 1B and 3B builds of October 2024 are limited to 8k."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-announcement",
+          "locator": "Takeaways"
+        },
+        {
+          "id": "src.meta.llama-3-2-hf-collection"
+        },
+        {
+          "id": "src.meta.llama-3-2-acceptable-use-policy",
+          "locator": "paragraph on multimodal models after the list of prohibited uses"
+        }
+      ],
+      "note": "Weights under the custom Llama 3.2 Community License, after accepting the license. The acceptable use policy does not grant the license rights for the multimodal models to individuals or companies based in the European Union; end users of products that include them are exempt."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "cloud-partner",
+        "on-device",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-announcement",
+          "locator": "Takeaways"
+        },
+        {
+          "id": "src.meta.quantized-llama-models-announcement",
+          "locator": "Takeaways"
+        }
+      ],
+      "note": "On-device: the 1B and 3B models (and their quantized builds) target mobile and edge hardware. Consumer access: Meta says the Vision models can be tried in Meta AI."
+    }
+  },
+  "variants": [
+    {
+      "id": "llama-3-2-1b",
+      "name": "Llama 3.2 1B",
+      "aliases": [
+        {
+          "text": "Llama 3.2 1B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.2-1B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.2-1B-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.2-1B-Instruct-QLORA_INT4_EO8",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.2-1B-Instruct-SpinQuant_INT4_EO8",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 1230000000,
+          "asStated": "1B (1.23B)",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-2-model-card",
+              "locator": "Model Information table, Params"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-announcement",
+          "locator": "Takeaways; Lightweight models"
+        },
+        {
+          "id": "src.meta.llama-3-2-model-card",
+          "locator": "Model Information"
+        },
+        {
+          "id": "src.meta.quantized-llama-models-announcement"
+        },
+        {
+          "id": "src.meta.llama-3-2-hf-collection"
+        }
+      ],
+      "note": "Text-only, pretrained and instruction-tuned. Quantized QLoRA and SpinQuant builds of the Instruct model followed on 2024-10-24, with context limited to 8k."
+    },
+    {
+      "id": "llama-3-2-3b",
+      "name": "Llama 3.2 3B",
+      "aliases": [
+        {
+          "text": "Llama 3.2 3B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.2-3B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.2-3B-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.2-3B-Instruct-QLORA_INT4_EO8",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.2-3B-Instruct-SpinQuant_INT4_EO8",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 3210000000,
+          "asStated": "3B (3.21B)",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-2-model-card",
+              "locator": "Model Information table, Params"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-announcement",
+          "locator": "Takeaways; Lightweight models"
+        },
+        {
+          "id": "src.meta.llama-3-2-model-card",
+          "locator": "Model Information"
+        },
+        {
+          "id": "src.meta.quantized-llama-models-announcement"
+        },
+        {
+          "id": "src.meta.llama-3-2-hf-collection"
+        }
+      ],
+      "note": "Text-only, pretrained and instruction-tuned. Quantized QLoRA and SpinQuant builds of the Instruct model followed on 2024-10-24, with context limited to 8k."
+    },
+    {
+      "id": "llama-3-2-11b-vision",
+      "name": "Llama 3.2 11B Vision",
+      "aliases": [
+        {
+          "text": "Llama 3.2 11B Vision",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.2-11B-Vision",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.2-11B-Vision-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Llama 3.2 11B",
+          "match": "candidate"
+        }
+      ],
+      "capabilities": {
+        "inputModalities": {
+          "value": [
+            "text",
+            "image"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-2-vision-model-card",
+              "locator": "Model Information table, Input modalities"
+            },
+            {
+              "id": "src.meta.llama-3-2-announcement",
+              "locator": "Vision models"
+            }
+          ]
+        },
+        "outputModalities": {
+          "value": [
+            "text"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-2-vision-model-card",
+              "locator": "Model Information table, Output modalities"
+            }
+          ]
+        },
+        "parameters": {
+          "value": 10600000000,
+          "asStated": "11B (10.6)",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-2-vision-model-card",
+              "locator": "Model Information table, Params"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-announcement",
+          "locator": "Takeaways; Vision models"
+        },
+        {
+          "id": "src.meta.llama-3-2-vision-model-card",
+          "locator": "Model Information"
+        },
+        {
+          "id": "src.meta.llama-3-2-hf-collection"
+        }
+      ],
+      "note": "Pretrained and instruction-tuned. For image plus text tasks the model card lists English as the only supported language."
+    },
+    {
+      "id": "llama-3-2-90b-vision",
+      "name": "Llama 3.2 90B Vision",
+      "aliases": [
+        {
+          "text": "Llama 3.2 90B Vision",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.2-90B-Vision",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.2-90B-Vision-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Llama 3.2 90B",
+          "match": "candidate"
+        }
+      ],
+      "capabilities": {
+        "inputModalities": {
+          "value": [
+            "text",
+            "image"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-2-vision-model-card",
+              "locator": "Model Information table, Input modalities"
+            },
+            {
+              "id": "src.meta.llama-3-2-announcement",
+              "locator": "Vision models"
+            }
+          ]
+        },
+        "outputModalities": {
+          "value": [
+            "text"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-2-vision-model-card",
+              "locator": "Model Information table, Output modalities"
+            }
+          ]
+        },
+        "parameters": {
+          "value": 88800000000,
+          "asStated": "90B (88.8)",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-2-vision-model-card",
+              "locator": "Model Information table, Params"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.llama-3-2-announcement",
+          "locator": "Takeaways; Vision models"
+        },
+        {
+          "id": "src.meta.llama-3-2-vision-model-card",
+          "locator": "Model Information"
+        },
+        {
+          "id": "src.meta.llama-3-2-hf-collection"
+        }
+      ],
+      "note": "Pretrained and instruction-tuned. For image plus text tasks the model card lists English as the only supported language."
+    }
+  ],
+  "notes": "Released at Meta Connect 2024 as lightweight text-only 1B and 3B models and 11B and 90B Vision models, the first Llama models with image input. The text model card in llama-models now gives Oct 24, 2024 as Model Release Date, which is the date of the quantized 1B and 3B builds; the launch post, the Vision model card and the Hugging Face model cards of the base 1B and 3B models give September 25, 2024. Quantized builds are listed as aliases of the 1B and 3B variants, not as variants. The record-level input modality describes the text models; the Vision variants add image input."
+}

@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseekmoe-16b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseekmoe-16b",
+  "name": "DeepSeekMoE 16B",
+  "aliases": [
+    {
+      "text": "DeepSeekMoE 16B",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-MoE 16B",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeekMoE",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek",
+  "generation": null,
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-moe-16b-base-hf"
+      },
+      {
+        "id": "src.deepseek.deepseek-moe-16b-chat-hf"
+      }
+    ],
+    "note": "Weights are still public and ungated on Hugging Face under the DeepSeek Model License."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-01-11",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseekmoe-paper",
+          "locator": "submission history, v1; section 1, Public Release"
+        },
+        {
+          "id": "src.deepseek.deepseekmoe-github-initial-commit",
+          "locator": "commit date and README, 3. Model Downloads"
+        }
+      ],
+      "note": "The paper that announces the public release of the checkpoint was submitted to arXiv on 2024-01-11, the day of the first repository commit, which already contains the README with the download table. The current README is undated."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "DeepSeekMoE 16B is an open-weights mixture-of-experts language model from DeepSeek with 16.4B total and about 2.8B activated parameters, released as a Base and a Chat checkpoint with the DeepSeekMoE research paper. Its architecture combines fine-grained expert segmentation with shared experts that are always active.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseekmoe-github",
+        "locator": "1. Introduction; 3. Model Downloads"
+      },
+      {
+        "id": "src.deepseek.deepseekmoe-paper",
+        "locator": "section 5.1.2, Model Settings"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "moe-architecture",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-llm",
+      "text": "Uses a sparse mixture-of-experts architecture (DeepSeekMoE) instead of the dense transformer of DeepSeek LLM 7B.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseekmoe-paper"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "aspect": "efficiency",
+      "relativeTo": "deepseek.deepseek-llm",
+      "text": "DeepSeek reports results comparable with its dense DeepSeek 7B, trained on the same corpus, with about 40% of the computation.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseekmoe-github",
+          "locator": "1. Introduction"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "contextWindowTokens": {
+      "value": 4096,
+      "asStated": "4096",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseekmoe-github",
+          "locator": "3. Model Downloads, Sequence Length"
+        }
+      ],
+      "note": "Given as sequence length."
+    },
+    "parameters": {
+      "value": 16400000000,
+      "asStated": "16.4B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseekmoe-github",
+          "locator": "1. Introduction"
+        },
+        {
+          "id": "src.deepseek.deepseekmoe-paper",
+          "locator": "section 5.1.2, Model Settings"
+        }
+      ],
+      "note": "Total parameters of the mixture-of-experts model; the paper gives about 16.4B total and about 2.8B activated parameters."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseekmoe-github",
+          "locator": "3. Model Downloads; 5. License"
+        },
+        {
+          "id": "src.deepseek.deepseek-moe-16b-base-hf"
+        }
+      ],
+      "note": "DeepSeek Model License; commercial use permitted."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseekmoe-github",
+          "locator": "3. Model Downloads"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "base",
+      "name": "DeepSeekMoE 16B Base",
+      "aliases": [
+        {
+          "text": "DeepSeekMoE 16B Base",
+          "match": "auto"
+        },
+        {
+          "text": "deepseek-moe-16b-base",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.deepseek.deepseekmoe-github",
+          "locator": "3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-moe-16b-base-hf"
+        }
+      ]
+    },
+    {
+      "id": "chat",
+      "name": "DeepSeekMoE 16B Chat",
+      "aliases": [
+        {
+          "text": "DeepSeekMoE 16B Chat",
+          "match": "auto"
+        },
+        {
+          "text": "deepseek-moe-16b-chat",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.deepseek.deepseekmoe-github",
+          "locator": "3. Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-moe-16b-chat-hf"
+        }
+      ]
+    }
+  ],
+  "notes": "Research release that accompanied the DeepSeekMoE paper; Base and Chat are inline variants. DeepSeek-V2 later adopted the DeepSeekMoE architecture, an architecture link that is not recorded as a model relation. The paper also reports a 2B model and ongoing 145B experiments that were not released."
+}

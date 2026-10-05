@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v3-2-speciale",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v3-2-speciale",
+  "name": "DeepSeek-V3.2-Speciale",
+  "aliases": [
+    {
+      "text": "DeepSeek-V3.2-Speciale",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V3.2 Speciale",
+      "match": "auto"
+    },
+    {
+      "text": "V3.2-Speciale",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-v",
+  "generation": "3.2",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-2-speciale-hf",
+        "locator": "License"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-2-announcement",
+        "locator": "API Update"
+      }
+    ],
+    "note": "Weights are still public on DeepSeek's Hugging Face organisation under the MIT License. Its API access ran only on a temporary endpoint until 2025-12-15 15:59 UTC."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-12-01",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-announcement",
+          "locator": "page header 2025/12/01"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-12-01"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "variant-of",
+      "target": "deepseek.deepseek-v3-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-speciale-hf",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-2-paper",
+          "locator": "section 3, DeepSeek-V3.2 and DeepSeek-V3.2-Speciale"
+        }
+      ],
+      "note": "DeepSeek calls it a high-compute, experimental variant of DeepSeek-V3.2."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V3.2-Speciale is a high-compute variant of DeepSeek-V3.2 designed for deep reasoning tasks, announced with it on 1 December 2025 and released with open weights under the MIT License. It does not support tool calling, and at launch it was offered only through a temporary API endpoint until 15 December 2025.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v3-2-announcement"
+      },
+      {
+        "id": "src.deepseek.deepseek-v3-2-speciale-hf",
+        "locator": "Introduction; License"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "reasoning-only-training",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-2",
+      "text": "Trained only on reasoning data with a reduced length penalty in reinforcement learning, plus the DeepSeekMath-V2 dataset and reward method for mathematical proofs.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-paper",
+          "locator": "section 3, DeepSeek-V3.2 and DeepSeek-V3.2-Speciale"
+        }
+      ]
+    },
+    {
+      "id": "no-tool-calling",
+      "aspect": "tool-use",
+      "direction": "removed",
+      "relativeTo": "deepseek.deepseek-v3-2",
+      "text": "Does not support tool calling.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-speciale-hf",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "temporary-api-only",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-2",
+      "text": "Offered only through a temporary API endpoint until 15 December 2025, not in the DeepSeek app or web chat.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-announcement",
+          "locator": "API Update"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-announcement",
+          "locator": "Open Source Release"
+        },
+        {
+          "id": "src.deepseek.deepseek-v3-2-speciale-hf",
+          "locator": "License"
+        }
+      ],
+      "note": "MIT License for the repository and the weights."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v3-2-announcement"
+        }
+      ],
+      "note": "API-only at launch (not in the app or web chat), through a temporary endpoint without tool calls that ran until 2025-12-15."
+    }
+  },
+  "notes": "Announced together with DeepSeek-V3.2. The model card says DeepSeek-V3.2-Speciale has the same model structure as DeepSeek-V3.2-Exp and does not support tool calling; parameters and context window are not restated for it, so they are left out. The Hugging Face repository was created on 2025-11-28, which no DeepSeek page states in text. No dedicated API model name was given; it was reached through the base_url https://api.deepseek.com/v3.2_speciale_expires_on_20251215."
+}

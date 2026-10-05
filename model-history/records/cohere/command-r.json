@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.command-r",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "command-r",
+  "name": "Command R",
+  "aliases": [
+    {
+      "text": "command-r-03-2024",
+      "match": "auto"
+    },
+    {
+      "text": "c4ai-command-r-v01",
+      "match": "auto"
+    },
+    {
+      "text": "cohere.command-r-v1:0",
+      "match": "auto"
+    },
+    {
+      "text": "Command R",
+      "match": "candidate"
+    },
+    {
+      "text": "Command-R",
+      "match": "candidate"
+    },
+    {
+      "text": "command-r",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.command-r-series",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.cohere.deprecations",
+        "locator": "Deprecation History, 2025-09-15"
+      },
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Command table, status column"
+      },
+      {
+        "id": "src.cohere.changelog-major-command-deprecations",
+        "locator": "Deprecated Models"
+      }
+    ],
+    "note": "Applies to the hosted API ids command-r-03-2024 and alias command-r. The open weights (c4ai-command-r-v01) can still be downloaded from Hugging Face."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-03-11",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-announcement",
+          "locator": "page date; first paragraphs"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2024-03-24",
+          "sources": [
+            {
+              "id": "src.cohere.changelog-command-r",
+              "locator": "entry date"
+            }
+          ],
+          "note": "Date of the docs changelog entry for Command R."
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-09-15",
+      "sources": [
+        {
+          "id": "src.cohere.deprecations",
+          "locator": "Deprecation History, 2025-09-15"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, status column"
+        }
+      ],
+      "note": "Deprecated for new customers; existing users keep access until a shutdown date, which Cohere had not set as of 2026-10-01. The changelog announcement page is dated 2025-09-16."
+    },
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "cohere.command-1",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-announcement"
+        }
+      ],
+      "note": "Editorial link: Command R is the first R-series model after the original Command generation and its launch post compares it with Command, but Cohere names no predecessor."
+    }
+  ],
+  "summary": {
+    "text": "Command R is a text-only language model in Cohere's R series, launched on 11 March 2024 for large-scale production use, with a 128k-token context, retrieval-augmented generation with citations, tool use and a focus on 10 business languages. It was offered on the Cohere API, with 35-billion-parameter research weights on Hugging Face; the hosted model was deprecated on 15 September 2025.",
+    "sources": [
+      {
+        "id": "src.cohere.command-r-announcement"
+      },
+      {
+        "id": "src.cohere.hf-c4ai-command-r-v01"
+      },
+      {
+        "id": "src.cohere.deprecations"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "cohere.command-1",
+      "text": "Supports a context of up to 128k tokens, which Cohere presented as a longer context window.",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-announcement"
+        }
+      ]
+    },
+    {
+      "id": "tool-use",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "cohere.command-1",
+      "text": "Can use tools such as APIs, code interpreters and user-defined tools, and gives grounded RAG answers with citations.",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-announcement"
+        }
+      ]
+    },
+    {
+      "id": "open-weights",
+      "aspect": "licensing",
+      "relativeTo": "cohere.command-1",
+      "text": "Weights released for research use under CC-BY-NC; commercial use requires a licence from Cohere.",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-announcement"
+        },
+        {
+          "id": "src.cohere.hf-c4ai-command-r-v01"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "cohere.command-1",
+      "text": "Lower API list price than Command: 0.50 USD input and 1.50 USD output per million tokens, against 1.00 and 2.00 USD.",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-c4ai-command-r-v01",
+          "locator": "Model Details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-c4ai-command-r-v01",
+          "locator": "Model Details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-announcement",
+          "locator": "Longer Context Window and Improved Pricing"
+        },
+        {
+          "id": "src.cohere.hf-c4ai-command-r-v01",
+          "locator": "Model Summary"
+        },
+        {
+          "id": "src.cohere.docs-command-r",
+          "locator": "Description"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 35000000000,
+      "asStated": "35 billion",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-c4ai-command-r-v01",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-announcement",
+          "locator": "Continuing to Support the ML Research Community"
+        },
+        {
+          "id": "src.cohere.hf-c4ai-command-r-v01"
+        }
+      ],
+      "note": "Research release under CC-BY-NC 4.0; commercial use requires a Cohere licence."
+    },
+    "features": [
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-r-announcement",
+            "locator": "High Performance Retrieval-Augmented Generation (RAG)"
+          }
+        ],
+        "note": "Grounded generation with citations."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-r-announcement",
+            "locator": "Enabling Access to Tools"
+          }
+        ]
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-r-announcement",
+            "locator": "Speaking More Languages of Global Business"
+          }
+        ],
+        "note": "Optimized for 10 languages."
+      }
+    ],
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r-announcement",
+          "locator": "first section; Availability"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Using Command Models on Different Platforms"
+        },
+        {
+          "id": "src.cohere.hf-c4ai-command-r-v01"
+        }
+      ],
+      "note": "Hosted API at launch; cloud providers were announced for later. Amazon Bedrock id cohere.command-r-v1:0 per the platform table."
+    }
+  },
+  "notes": "Release date from the launch blog post (Mar 11, 2024); the docs changelog entry is dated 2024-03-24 (alternative). The Hugging Face repository was created on 2024-03-11. The API id became command-r-03-2024 when the August 2024 update arrived; the alias command-r points to it. Lifecycle follows the deprecations page; the weights stay downloadable on Hugging Face. The deprecation notice recommends command-r-08-2024, command-r-plus-08-2024 or command-a-03-2025 without pairing them, so replacedBy is left out. Context window 128,000 tokens per the docs page."
+}

@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.magistral-small-1-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "magistral-small-1-1",
+  "name": "Magistral Small 1.1",
+  "aliases": [
+    {
+      "text": "Magistral Small 1.1",
+      "match": "auto"
+    },
+    {
+      "text": "magistral-small-2507",
+      "match": "auto"
+    },
+    {
+      "text": "Magistral-Small-2507",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.magistral",
+  "generation": "1.1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-magistral-small-2507"
+      }
+    ],
+    "note": "Apache 2.0 weights are still downloadable from Mistral AI's Hugging Face organisation; the API model magistral-small-2507 was retired on 2025-11-30. The Legal Center lifecycle table lists the model as Retired."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-small-4",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Magistral Small 1.1, Alternative"
+      },
+      {
+        "id": "src.mistral.magistral-small-1-1-docs",
+        "locator": "Replacement"
+      }
+    ],
+    "note": "Replacement named for the API model when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-07-24",
+      "sources": [
+        {
+          "id": "src.mistral.changelog",
+          "locator": "July 24, 2025"
+        },
+        {
+          "id": "src.mistral.magistral-small-1-1-docs",
+          "locator": "release date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-10-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Magistral Small 1.1 (magistral-small-2507)"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Magistral Small 1.1 (magistral-small-2507)"
+        },
+        {
+          "id": "src.mistral.magistral-small-1-1-docs",
+          "locator": "Retirement date"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2025-10-31",
+          "sources": [
+            {
+              "id": "src.mistral.legal-magistral-small-1",
+              "locator": "Model Lifecycle table, Retirement Date"
+            }
+          ],
+          "note": "The Mistral Legal Center lifecycle table gives October 31, 2025 as retirement date, the date the docs models overview lists as deprecation date."
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.magistral-small",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.hf-magistral-small-2507",
+          "locator": "Updates compared with Magistral Small 1.0"
+        }
+      ],
+      "note": null
+    },
+    {
+      "type": "derived-from",
+      "target": "mistral.mistral-small-3-1",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.hf-magistral-small-2507",
+          "locator": "first paragraph and base_model metadata"
+        }
+      ],
+      "note": "Supervised fine-tuning on Magistral Medium traces followed by reinforcement learning, on top of Mistral Small 3.1 (2503)."
+    }
+  ],
+  "summary": {
+    "text": "Magistral Small 1.1 is an update of Magistral Small 1.0, Mistral AI's 24B-parameter reasoning model, released on 24 July 2025 as open weights under Apache 2.0 and as API model magistral-small-2507. The model card describes changes to tone, formatting and reasoning markup, and says performance is about the same as version 1.0.",
+    "sources": [
+      {
+        "id": "src.mistral.hf-magistral-small-2507"
+      },
+      {
+        "id": "src.mistral.changelog",
+        "locator": "July 24, 2025"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "tone-formatting",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "mistral.magistral-small",
+      "text": "Better tone and behaviour, with improved LaTeX and Markdown formatting and shorter answers to easy prompts.",
+      "sources": [
+        {
+          "id": "src.mistral.hf-magistral-small-2507"
+        }
+      ]
+    },
+    {
+      "id": "generation-loops",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "mistral.magistral-small",
+      "text": "Less likely to enter infinite generation loops.",
+      "sources": [
+        {
+          "id": "src.mistral.hf-magistral-small-2507"
+        }
+      ]
+    },
+    {
+      "id": "think-tokens",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "mistral.magistral-small",
+      "text": "Special [THINK] and [/THINK] tokens wrap the reasoning trace, and the reasoning prompt moved into the system prompt.",
+      "sources": [
+        {
+          "id": "src.mistral.hf-magistral-small-2507"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-small-1-1-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-small-1-1-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 40000,
+      "asStated": "40k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-small-1-1-docs",
+          "locator": "Context"
+        }
+      ],
+      "note": "The Hugging Face card states a 128k window but says performance may degrade past 40k and recommends a 40k maximum."
+    },
+    "parameters": {
+      "value": 24000000000,
+      "asStated": "24B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.hf-magistral-small-2507",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.magistral-small-1-1-docs",
+          "locator": "Weights table, Parameters (B)"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.hf-magistral-small-2507"
+        },
+        {
+          "id": "src.mistral.magistral-small-1-1-docs",
+          "locator": "Weights table"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.changelog",
+          "locator": "July 24, 2025"
+        },
+        {
+          "id": "src.mistral.hf-magistral-small-2507"
+        }
+      ]
+    }
+  },
+  "notes": "No announcement post; the changelog, the docs page and the Hugging Face card are the sources. Lifecycle reflects the open weights; the API dates come from the models overview."
+}

@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-large-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-large-3",
+  "name": "Mistral Large 3",
+  "aliases": [
+    {
+      "text": "Mistral Large 3",
+      "match": "auto"
+    },
+    {
+      "text": "mistral-large-2512",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Large-3-675B-Instruct-2512",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Large-3-675B-Base-2512",
+      "match": "auto"
+    },
+    {
+      "text": "Large 3",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-large",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-large-3-docs",
+        "locator": "GA badge"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Generalist models"
+      },
+      {
+        "id": "src.mistral.mistral-large-3-instruct-hf"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-12-02",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-3-announcement"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "December 2 (2025)"
+        },
+        {
+          "id": "src.mistral.mistral-large-3-docs",
+          "locator": "page header date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.mistral-large-24-11",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-3-announcement"
+        }
+      ],
+      "note": "Editorial link along the Mistral Large line: the announcement presents Mistral 3 as the next generation and Large 3 as Mistral's most capable model to date, without naming a predecessor; Mistral Large 24.11 was the previous Large release. The models overview lists Large 3 as the alternative for the retired Large 1.0 and 2.0 endpoints, but Medium 3.5 for Large 2.1 (24.11)."
+    }
+  ],
+  "summary": {
+    "text": "Mistral Large 3 is a sparse mixture-of-experts language model from Mistral AI with 675B total and 41B active parameters, released on 2 December 2025 with the Ministral 3 series as part of Mistral 3. It accepts text and images, has a 256k-token context window and is offered on Mistral's API, through cloud partners and as Apache 2.0 base and instruct weights.",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-3-announcement"
+      },
+      {
+        "id": "src.mistral.mistral-large-3-docs"
+      },
+      {
+        "id": "src.mistral.mistral-large-3-instruct-hf"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "mixture-of-experts",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-large-24-11",
+      "text": "Uses a sparse mixture-of-experts architecture with 41B of 675B parameters active; Mistral calls it its first mixture-of-experts model since Mixtral.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-3-announcement"
+        }
+      ]
+    },
+    {
+      "id": "context-256k",
+      "aspect": "context-length",
+      "relativeTo": "mistral.mistral-large-24-11",
+      "text": "Has a context window of 256k tokens.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-3-docs",
+          "locator": "Context"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-3-docs",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.mistral-large-3-instruct-hf",
+          "locator": "Key Features"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-3-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-3-docs",
+          "locator": "Context"
+        },
+        {
+          "id": "src.mistral.mistral-large-3-instruct-hf",
+          "locator": "Key Features: Large Context Window"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 675000000000,
+      "asStated": "675B total, 41B active",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-3-announcement"
+        },
+        {
+          "id": "src.mistral.mistral-large-3-docs",
+          "locator": "description"
+        },
+        {
+          "id": "src.mistral.mistral-large-3-instruct-hf",
+          "locator": "Key Features"
+        }
+      ],
+      "note": "Sparse mixture-of-experts. The Hugging Face card splits this into a 673B-parameter language model with 39B active and a 2.5B vision encoder."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-3-instruct-hf"
+        },
+        {
+          "id": "src.mistral.mistral-large-3-base-hf"
+        },
+        {
+          "id": "src.mistral.mistral-3-announcement"
+        }
+      ],
+      "note": "Base and instruct weights under Apache 2.0."
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mistral-large-3-docs",
+            "locator": "Features: Function Calling"
+          }
+        ]
+      }
+    ],
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-3-announcement",
+          "locator": "Available Today"
+        },
+        {
+          "id": "src.mistral.mistral-large-3-docs",
+          "locator": "Features: API endpoints; Weights"
+        }
+      ]
+    }
+  },
+  "notes": "Announced together with the Ministral 3 series in Introducing Mistral 3. The post says a reasoning version was coming soon; none was found in the docs, the changelog or the mistralai Hugging Face organisation by 2026-10-01. The Hugging Face card lists not being a dedicated reasoning model as a known limitation, so the reasoning category is not used. The docs page also lists the moving alias mistral-large-latest, which is not recorded."
+}

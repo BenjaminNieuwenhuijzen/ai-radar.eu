@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemma-3n",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemma-3n",
+  "name": "Gemma 3n",
+  "aliases": [
+    {
+      "text": "Gemma 3n",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemma",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.google.hf-gemma-3n-e4b-it"
+      },
+      {
+        "id": "src.google.gemma-3n-model-card",
+        "locator": "Resources and Technical Documentation"
+      }
+    ],
+    "note": "Weights remain downloadable from Google's Hugging Face organisation (checked 2026-10-01)."
+  },
+  "dates": {
+    "announced": {
+      "value": "2025-05-20",
+      "sources": [
+        {
+          "id": "src.google.gemma-3n-preview-announcement"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "May 20, 2025"
+        }
+      ]
+    },
+    "released": {
+      "value": "2025-06-26",
+      "sources": [
+        {
+          "id": "src.google.gemma-3n-developer-guide"
+        },
+        {
+          "id": "src.google.gemma-releases",
+          "locator": "June 26, 2025"
+        }
+      ],
+      "note": "Full release with open weights; an early preview was available from 2025-05-20."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "preview",
+      "label": "Preview in Google AI Studio, the Gemini API and Google AI Edge",
+      "date": {
+        "value": "2025-05-20",
+        "sources": [
+          {
+            "id": "src.google.gemma-3n-preview-announcement",
+            "locator": "Get Started: Preview Gemma 3n Today"
+          },
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "May 20, 2025"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "text": "Gemma 3n is a family of open-weight models from Google for on-device use, previewed on 20 May 2025 and fully released on 26 June 2025 in E2B and E4B sizes. Google presents it as a mobile-first architecture developed with Qualcomm, MediaTek and Samsung System LSI; it accepts text, image, audio and video input and returns text.",
+    "sources": [
+      {
+        "id": "src.google.gemma-3n-preview-announcement"
+      },
+      {
+        "id": "src.google.gemma-3n-developer-guide"
+      },
+      {
+        "id": "src.google.gemma-3n-model-card",
+        "locator": "Inputs and outputs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "architecture",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "google.gemma-3",
+      "text": "New mobile-first architecture with MatFormer nesting, Per-Layer Embeddings and KV cache sharing.",
+      "sources": [
+        {
+          "id": "src.google.gemma-3n-developer-guide",
+          "locator": "What's new in Gemma 3n?"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "google.gemma-3",
+      "text": "Adds audio input, for speech recognition and speech translation, next to text, image and video.",
+      "sources": [
+        {
+          "id": "src.google.gemma-3n-developer-guide"
+        }
+      ]
+    },
+    {
+      "id": "memory",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "google.gemma-3",
+      "text": "Google reports faster responses on mobile and a smaller memory footprint than Gemma 3 4B.",
+      "sources": [
+        {
+          "id": "src.google.gemma-3n-preview-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-3n-model-card",
+          "locator": "Description; Inputs and outputs"
+        },
+        {
+          "id": "src.google.gemma-3n-developer-guide",
+          "locator": "What's new in Gemma 3n?"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-3n-model-card",
+          "locator": "Inputs and outputs"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemma-3n-developer-guide",
+            "locator": "What's new in Gemma 3n?"
+          }
+        ],
+        "note": "140 languages for text and multimodal understanding of 35 languages."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.hf-gemma-3n-e4b-it"
+        },
+        {
+          "id": "src.google.gemma-3n-model-card",
+          "locator": "Description"
+        }
+      ],
+      "note": "Pre-trained and instruction-tuned weights under the Gemma Terms of Use; access on Hugging Face requires accepting the licence."
+    },
+    "contextWindowTokens": {
+      "value": 32000,
+      "asStated": "32K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-3n-model-card",
+          "locator": "Inputs and outputs"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "on-device",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemma-3n-developer-guide"
+        },
+        {
+          "id": "src.google.gemma-3n-preview-announcement",
+          "locator": "Get Started: Preview Gemma 3n Today"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "May 20, 2025"
+        }
+      ],
+      "note": "Designed to run on phones, tablets and laptops; gemma-3n-e4b-it is also offered in Google AI Studio and the Gemini API."
+    }
+  },
+  "variants": [
+    {
+      "id": "e2b",
+      "name": "Gemma 3n E2B",
+      "aliases": [
+        {
+          "text": "Gemma 3n E2B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-3n-E2B-it",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 5000000000,
+          "asStated": "5B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-3n-developer-guide",
+              "locator": "What's new in Gemma 3n?"
+            }
+          ],
+          "note": "Raw parameter count; Google gives an effective size of 2B."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.google.gemma-3n-developer-guide",
+          "locator": "What's new in Gemma 3n?"
+        },
+        {
+          "id": "src.google.gemma-releases",
+          "locator": "June 26, 2025"
+        }
+      ]
+    },
+    {
+      "id": "e4b",
+      "name": "Gemma 3n E4B",
+      "aliases": [
+        {
+          "text": "Gemma 3n E4B",
+          "match": "auto"
+        },
+        {
+          "text": "gemma-3n-e4b-it",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 8000000000,
+          "asStated": "8B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.google.gemma-3n-developer-guide",
+              "locator": "What's new in Gemma 3n?"
+            }
+          ],
+          "note": "Raw parameter count; Google gives an effective size of 4B."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.google.gemma-3n-developer-guide",
+          "locator": "What's new in Gemma 3n?"
+        },
+        {
+          "id": "src.google.hf-gemma-3n-e4b-it"
+        }
+      ]
+    }
+  ],
+  "notes": "Google presents Gemma 3n as its first open model on a new mobile-first architecture, built with Qualcomm, MediaTek and Samsung System LSI and shared with the next generation of Gemini Nano; no lineage relation to Gemma 3 is stated, so none is recorded. E2B and E4B are effective sizes (raw parameter counts 5B and 8B). The Gemma releases page lists only the 2025-06-26 release."
+}

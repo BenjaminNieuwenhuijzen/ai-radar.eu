@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-4-20",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-4-20",
+  "name": "Grok 4.20",
+  "aliases": [
+    {
+      "text": "Grok 4.20",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 4.20 Beta",
+      "match": "auto"
+    },
+    {
+      "text": "Grok 4.2",
+      "match": "candidate"
+    },
+    {
+      "text": "grok-4.20-0309-reasoning",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.20-0309-non-reasoning",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.20",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.20-0309",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.20-reasoning",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.20-beta",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.20-beta-0309",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4.20-experimental-beta-0304",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "4.20",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.xai.grok-4-20-docs",
+        "locator": "Details"
+      },
+      {
+        "id": "src.xai.models-overview",
+        "locator": "Text API Pricing"
+      }
+    ],
+    "note": "Listed as a current API model with pricing when checked on 2026-10-01; not named in any xAI retirement guide."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-02-17",
+      "sources": [
+        {
+          "id": "src.xai.grok-release-notes",
+          "locator": "entry of 2026-02-17, New Features: Grok 4.20 Beta"
+        }
+      ],
+      "note": "Released as Grok 4.20 Beta in the Grok apps; xAI published no announcement post for it."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "full-release-apps",
+      "label": "Full release in the Grok apps",
+      "date": {
+        "value": "2026-03-03",
+        "sources": [
+          {
+            "id": "src.xai.grok-release-notes",
+            "locator": "entry of 2026-03-03, New Features: Grok 4.20 fully released"
+          }
+        ]
+      }
+    },
+    {
+      "id": "api-release",
+      "label": "Live on the xAI API, together with Grok 4.20 Multi-agent",
+      "date": {
+        "value": "2026-03",
+        "sources": [
+          {
+            "id": "src.xai.api-release-notes",
+            "locator": "March: Grok 4.20 and Grok 4.20 Multi-agent are live"
+          }
+        ],
+        "note": "The release notes give the month only."
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-4-1",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-20-docs"
+        }
+      ],
+      "note": "Editorial link along the main Grok line: xAI published no announcement post for Grok 4.20 and its docs, release notes and system card name no predecessor; Grok 4.1 was the most recent main Grok release before it."
+    }
+  ],
+  "summary": {
+    "text": "Grok 4.20 is a language model in xAI's Grok line that takes text and images and returns text, first released as a beta in the Grok apps in February 2026 and on the xAI API in March 2026 as separate reasoning and non-reasoning models. xAI says it can run as a single agent or as several cooperating agents, offered as Grok 4.20 Multi-Agent.",
+    "sources": [
+      {
+        "id": "src.xai.grok-release-notes"
+      },
+      {
+        "id": "src.xai.api-release-notes"
+      },
+      {
+        "id": "src.xai.grok-4-20-docs"
+      },
+      {
+        "id": "src.xai.models-overview"
+      },
+      {
+        "id": "src.xai.grok-4-20-system-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "multi-agent",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "xai.grok-4-1",
+      "text": "Can run as a single agent or as a multi-agent system in which several agents work on one request and a leader agent returns the final answer.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-20-system-card",
+          "locator": "1 Introduction"
+        },
+        {
+          "id": "src.xai.multi-agent-guide",
+          "locator": "How Multi-agent Works"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-20-docs",
+          "locator": "At a glance: Modalities"
+        },
+        {
+          "id": "src.xai.grok-4-20-system-card",
+          "locator": "1.1 Capabilities and intended use"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-20-docs",
+          "locator": "At a glance: Modalities"
+        },
+        {
+          "id": "src.xai.grok-4-20-system-card",
+          "locator": "1.1 Capabilities and intended use"
+        }
+      ],
+      "note": "In the Grok apps the model can also call Grok Imagine to generate images (system card)."
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1,000,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-20-docs",
+          "locator": "At a glance: Context window"
+        }
+      ],
+      "note": "API figure; requests above 200K prompt tokens are billed at a higher rate."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-release-notes",
+          "locator": "entries of 2026-02-17 and 2026-03-03"
+        },
+        {
+          "id": "src.xai.grok-4-20-system-card",
+          "locator": "1.3 Release process"
+        },
+        {
+          "id": "src.xai.api-release-notes",
+          "locator": "March"
+        },
+        {
+          "id": "src.xai.google-cloud-vertex-ai-guide",
+          "locator": "Enable Grok models in Model Garden"
+        }
+      ],
+      "note": "The Vertex AI guide names the model Grok 4.2."
+    }
+  },
+  "variants": [
+    {
+      "id": "multi-agent",
+      "name": "Grok 4.20 Multi-Agent",
+      "aliases": [
+        {
+          "text": "Grok 4.20 Multi-Agent",
+          "match": "auto"
+        },
+        {
+          "text": "Grok 4.20 Multi-Agent Beta",
+          "match": "auto"
+        },
+        {
+          "text": "Grok 4.2 MA",
+          "match": "candidate"
+        },
+        {
+          "text": "grok-4.20-multi-agent-0309",
+          "match": "auto"
+        },
+        {
+          "text": "grok-4.20-multi-agent",
+          "match": "auto"
+        },
+        {
+          "text": "grok-4.20-multi-agent-latest",
+          "match": "auto"
+        },
+        {
+          "text": "grok-4.20-multi-agent-beta-0309",
+          "match": "auto"
+        },
+        {
+          "text": "grok-4.20-multi-agent-beta-latest",
+          "match": "auto"
+        },
+        {
+          "text": "grok-4.20-multi-agent-experimental-beta-0304",
+          "match": "auto"
+        },
+        {
+          "text": "grok-4.20-multi-agent-experimental-beta-latest",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2026-03",
+          "sources": [
+            {
+              "id": "src.xai.api-release-notes",
+              "locator": "March: Grok 4.20 and Grok 4.20 Multi-agent are live"
+            }
+          ],
+          "note": "Date of the API release; the release notes give the month only."
+        }
+      },
+      "lifecycle": {
+        "value": "preview",
+        "sources": [
+          {
+            "id": "src.xai.grok-4-20-multi-agent-docs",
+            "locator": "page heading"
+          },
+          {
+            "id": "src.xai.multi-agent-guide",
+            "locator": "beta notice at the top of the page"
+          }
+        ],
+        "note": "The model page is headed Grok 4.20 Multi-Agent Beta and the Multi Agent guide marks the feature as beta when checked on 2026-10-01."
+      },
+      "note": "Multi-agent deployment mode of Grok 4.20 (Grok 4.2 MA in the system card): several agents work on a request together and a leader agent returns the final answer; 4-agent and 16-agent setups. The Multi Agent guide says client-side function calling, custom tools and the Chat Completions API are not supported (built-in tools and remote MCP tools are), although the model page lists function calling.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-20-multi-agent-docs"
+        },
+        {
+          "id": "src.xai.multi-agent-guide",
+          "locator": "How Multi-agent Works; Limitations"
+        },
+        {
+          "id": "src.xai.grok-4-20-system-card",
+          "locator": "1 Introduction"
+        }
+      ]
+    }
+  ],
+  "notes": "No x.ai news post exists for Grok 4.20 (x.ai/news/grok-4-20 returns 404); dates come from the grok.com release notes and the API release notes. The system card (April 7, 2026) says that as of writing the model was available through the consumer web and mobile apps, although the API release notes list it as live in March 2026. On the API it is offered as separate reasoning and non-reasoning model ids (grok-4.20-0309-reasoning, grok-4.20-0309-non-reasoning), kept as aliases. xAI materials also use Grok 4.2 (system card: Grok 4.2 SA and Grok 4.2 MA; Vertex AI guide), kept as a candidate alias. Many further beta aliases are listed on the docs page."
+}

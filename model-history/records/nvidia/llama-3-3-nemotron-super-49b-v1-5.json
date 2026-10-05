@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.llama-3-3-nemotron-super-49b-v1-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-3-3-nemotron-super-49b-v1-5",
+  "name": "Llama-3.3-Nemotron-Super-49B-v1.5",
+  "aliases": [
+    {
+      "text": "Llama-3.3-Nemotron-Super-49B-v1.5",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-3_3-Nemotron-Super-49B-v1_5",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-3_3-Nemotron-Super-49B-v1_5-FP8",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-3_3-Nemotron-Super-49B-v1_5-NVFP4",
+      "match": "auto"
+    },
+    {
+      "text": "Llama Nemotron Super 49B v1.5",
+      "match": "auto"
+    },
+    {
+      "text": "Llama Nemotron Super v1.5",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron Super v1.5",
+      "match": "candidate"
+    },
+    {
+      "text": "Llama Nemotron Super",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron-super",
+  "generation": "1.5",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card"
+      }
+    ],
+    "note": "NVIDIA has no deprecation page for its open models; the weights were still downloadable from NVIDIA's Hugging Face organisation on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-07-25",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card",
+          "locator": "Release Date; Model Version"
+        },
+        {
+          "id": "src.nvidia.llama-nemotron-super-v1-5-blog",
+          "locator": "introduction (latest version released Friday) and closing line (originally ran July 25)"
+        }
+      ],
+      "note": "The developer blog header shows Jul 29, 2025, the date of an update with leaderboard information; the post says it first ran on July 25, the Friday on which the model was released."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "nvidia.llama-3-3-nemotron-super-49b-v1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card",
+          "locator": "Model Overview"
+        }
+      ],
+      "note": "The model card calls it a significantly upgraded version of Llama-3.3-Nemotron-Super-49B-v1; recorded as successor-of rather than revision-of because the version in the name changed to v1.5."
+    },
+    {
+      "type": "derived-from",
+      "target": "meta.llama-3-3",
+      "method": "distillation",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card",
+          "locator": "derived from Llama-3.3-70B-Instruct"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Llama-3.3-Nemotron-Super-49B-v1.5 is an open-weights NVIDIA reasoning language model of about 49 billion parameters, derived from Meta's Llama-3.3-70B-Instruct and released on Hugging Face and as a preview API on build.nvidia.com. NVIDIA calls it a significantly upgraded version of Super v1, post-trained for reasoning, chat and agentic tasks; reasoning is on by default and can be switched off.",
+    "sources": [
+      {
+        "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card"
+      },
+      {
+        "id": "src.nvidia.llama-nemotron-super-v1-5-blog"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "reasoning-data",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "nvidia.llama-3-3-nemotron-super-49b-v1",
+      "text": "Further post-trained on additional reasoning data; NVIDIA says this improves math, science, coding, function calling, instruction following and chat.",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-nemotron-super-v1-5-blog"
+        }
+      ]
+    },
+    {
+      "id": "tool-calling",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "nvidia.llama-3-3-nemotron-super-49b-v1",
+      "text": "NVIDIA trained tool calling with iterative DPO stages, and the model card provides a tool-call parser for serving the model with vLLM.",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card",
+          "locator": "Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card",
+          "locator": "Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card",
+            "locator": "Quick Start and Usage Recommendations"
+          }
+        ],
+        "note": "Reasoning on by default; /no_think in the system prompt switches it off."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card",
+            "locator": "Running a vLLM Server with Tool-call Support"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card",
+          "locator": "License/Terms of Use; Release Date"
+        }
+      ],
+      "note": "Weights published on Hugging Face under the NVIDIA Open Model License, with the Llama 3.3 Community License Agreement as additional information."
+    },
+    "contextWindowTokens": {
+      "value": 131072,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card",
+          "locator": "Model Overview; Input"
+        }
+      ],
+      "note": "The card also gives the figure as up to 131,072 tokens."
+    },
+    "parameters": {
+      "value": 49000000000,
+      "asStated": "49B",
+      "qualifier": "approximate",
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card",
+          "locator": "model name"
+        }
+      ],
+      "note": "Figure as given in the official model name; the card text gives no separate count."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.llama-3-3-nemotron-super-49b-v1-5-model-card",
+          "locator": "Release Date; Quick Start and Usage Recommendations"
+        },
+        {
+          "id": "src.nvidia.llama-nemotron-super-v1-5-blog",
+          "locator": "Get started with Llama Nemotron Super v1.5"
+        }
+      ],
+      "note": "Released on Hugging Face and as a preview API on build.nvidia.com; the blog said an NVIDIA NIM microservice would follow soon."
+    }
+  },
+  "notes": "Built by NVIDIA from Meta Llama-3.3-70B-Instruct with Neural Architecture Search and block-wise distillation; that cross-organisation lineage is not recorded as a relation here. FP8 (repository created 2025-07-31) and NVFP4 (repository created 2025-11-11) checkpoints are precision versions, kept as aliases (creation dates from the Hugging Face API). The NVIDIA developer blog date (2025-07-29) is the date of an update, not a conflicting release date."
+}

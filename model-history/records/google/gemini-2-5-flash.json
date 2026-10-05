@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-2-5-flash",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-2-5-flash",
+  "name": "Gemini 2.5 Flash",
+  "aliases": [
+    {
+      "text": "Gemini 2.5 Flash",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.5-flash",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.5-flash-preview-04-17",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.5-flash-preview-05-20",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.5-flash-preview-09-2025",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.5-flash-preview-09-25",
+      "match": "auto"
+    },
+    {
+      "text": "2.5 Flash",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-flash",
+  "generation": "2.5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.google.gemini-2-5-flash-api-docs",
+        "locator": "notice at the top of the page"
+      },
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 2.5 models"
+      },
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "September 18, 2026"
+      },
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Models available for at least 12 months after release"
+      }
+    ],
+    "note": "Not deprecated in the Gemini API (no shutdown date announced), but since 2026-09-18 access to the 2.5 models is limited to users who used them before. On Gemini Enterprise Agent Platform the retirement of gemini-2.5-flash is scheduled for 2026-10-20, with gemini-3.8-flash, gemini-3.5-flash-lite or gemini-3.1-flash-lite as replacements."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-04-17",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-flash-dev-blog"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "April 17, 2025"
+        }
+      ],
+      "note": "Released in preview (gemini-2.5-flash-preview-04-17); generally available on 2025-06-17."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "preview-05-20",
+      "label": "Updated preview (gemini-2.5-flash-preview-05-20)",
+      "date": {
+        "value": "2025-05-20",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "May 20, 2025"
+          },
+          {
+            "id": "src.google.gemini-api-deprecations",
+            "locator": "Gemini 2.5 Flash models"
+          }
+        ]
+      }
+    },
+    {
+      "id": "general-availability",
+      "label": "Generally available (gemini-2.5-flash)",
+      "date": {
+        "value": "2025-06-17",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "June 17, 2025"
+          },
+          {
+            "id": "src.google.gemini-2-5-family-expands-announcement"
+          },
+          {
+            "id": "src.google.gemini-2-5-thinking-model-updates-dev-blog"
+          },
+          {
+            "id": "src.google.gemini-api-deprecations",
+            "locator": "Gemini 2.5 Flash models"
+          },
+          {
+            "id": "src.google.agent-platform-model-versions",
+            "locator": "Models available for at least 12 months after release"
+          }
+        ]
+      }
+    },
+    {
+      "id": "preview-09-2025",
+      "label": "Updated preview (gemini-2.5-flash-preview-09-2025)",
+      "date": {
+        "value": "2025-09-25",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "September 25, 2025"
+          },
+          {
+            "id": "src.google.gemini-2-5-flash-september-2025-dev-blog"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemini-2-0-flash",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-flash-dev-blog",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Gemini 2.5 Flash is a multimodal reasoning model in Google's Gemini Flash line, released in preview on 17 April 2025 and generally available from 17 June 2025 in the Gemini API and the Gemini app. Google calls it its first fully hybrid reasoning model: thinking can be turned on or off and capped with a budget of up to 24,576 tokens.",
+    "sources": [
+      {
+        "id": "src.google.gemini-2-5-flash-dev-blog"
+      },
+      {
+        "id": "src.google.gemini-2-5-thinking-model-updates-dev-blog"
+      },
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "April 17, 2025; June 17, 2025"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "thinking",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "google.gemini-2-0-flash",
+      "text": "Adds controllable thinking: it can be switched on or off and capped with a thinking budget.",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-flash-dev-blog",
+          "locator": "Fine-grained controls to manage thinking"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-quality",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-2-0-flash",
+      "text": "Google says it improves reasoning over 2.0 Flash while keeping that model's speed when thinking is off.",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-flash-dev-blog",
+          "locator": "first paragraph"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-flash-api-docs",
+          "locator": "Supported data types"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-flash-api-docs",
+          "locator": "Supported data types"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-2-5-flash-dev-blog",
+            "locator": "first paragraph; Fine-grained controls to manage thinking"
+          },
+          {
+            "id": "src.google.gemini-2-5-flash-api-docs",
+            "locator": "Capabilities: Thinking"
+          }
+        ],
+        "note": "Hybrid reasoning: thinking can be turned on or off and capped with a thinking budget."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-2-5-flash-api-docs",
+            "locator": "Capabilities"
+          }
+        ]
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-2-5-flash-api-docs",
+            "locator": "Capabilities"
+          }
+        ],
+        "note": "Code execution, search grounding and URL context in the Gemini API."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-flash-api-docs",
+          "locator": "Token limits: input token limit"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-5-flash-dev-blog",
+          "locator": "Start building with Gemini 2.5 Flash today"
+        },
+        {
+          "id": "src.google.gemini-2-5-family-expands-announcement"
+        }
+      ],
+      "note": "Gemini API in Google AI Studio and Vertex AI, and the Gemini app."
+    }
+  },
+  "notes": "The stable gemini-2.5-flash of 2025-06-17 is the 05-20 preview without changes (developer blog). The 04-17 preview was to be turned off on 2025-07-15; the 05-20 preview had its shutdown announced for 2025-11-18, and the 09-2025 preview was shut down on 2026-02-17 (the release notes and deprecations page list it as gemini-2.5-flash-preview-09-25, kept as an alias). Google said the 09-2025 preview was not intended to become a new stable version, so it is kept as an alias and milestone, not as a separate record. Gemini 2.5 Flash Image, Live and TTS models share the name stem but are separate models and not recorded here. Vertex AI is counted as Google's own API (api)."
+}

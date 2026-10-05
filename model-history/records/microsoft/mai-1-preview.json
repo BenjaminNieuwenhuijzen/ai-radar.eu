@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.mai-1-preview",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mai-1-preview",
+  "name": "MAI-1-preview",
+  "aliases": [
+    {
+      "text": "MAI-1-preview",
+      "match": "auto"
+    },
+    {
+      "text": "MAI-1",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.mai",
+  "generation": "1",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "No current Microsoft source states the status as of 2026-10-01. The announcement of 2025-08-28 described public testing on LMArena and API access for trusted testers; the model is not listed on microsoft.ai/models or in the Microsoft Foundry retirement schedule and retired-models pages."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-08-28",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-two-in-house-models",
+          "locator": "page date; Try MAI-1-preview in LMArena"
+        }
+      ],
+      "note": "Made available on this date for public testing on LMArena and to trusted testers through API access on application, not as a general release."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "MAI-1-preview is a mixture-of-experts language model that Microsoft AI calls its first foundation model trained end to end in-house, announced on 28 August 2025. It was offered for public testing on LMArena and to trusted testers through an API, and Microsoft AI positions it for following instructions and answering everyday consumer queries.",
+    "sources": [
+      {
+        "id": "src.microsoft.mai-two-in-house-models"
+      }
+    ]
+  },
+  "capabilities": {
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Microsoft; the announcement describes an in-house mixture-of-experts model pre-trained and post-trained on about 15,000 NVIDIA H100 GPUs."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-two-in-house-models",
+          "locator": "Try MAI-1-preview in LMArena"
+        }
+      ],
+      "note": "API access for trusted testers on application. Public testing ran on the third-party evaluation platform LMArena; a rollout for certain text use cases in Copilot was announced as planned over the following weeks."
+    }
+  },
+  "notes": "Announced in the same post as the speech generation model MAI-Voice-1. Microsoft AI calls MAI-1-preview its first foundation model trained end to end in-house; no predecessor relation is recorded. Input modalities and context window are not stated in the announcement."
+}

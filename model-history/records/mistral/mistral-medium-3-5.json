@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-medium-3-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-medium-3-5",
+  "name": "Mistral Medium 3.5",
+  "aliases": [
+    {
+      "text": "Mistral Medium 3.5",
+      "match": "auto"
+    },
+    {
+      "text": "mistral-medium-3-5",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Medium-3.5-128B",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Medium 3.5 128B",
+      "match": "auto"
+    },
+    {
+      "text": "Medium 3.5",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-medium",
+  "generation": "3.5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-medium-3-5-docs",
+        "locator": "GA badge"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Generalist models"
+      },
+      {
+        "id": "src.mistral.mistral-medium-3-5-hf"
+      }
+    ],
+    "note": "The post of 2026-05-22 described it as a public preview in Le Chat and Mistral Vibe; the docs page shows it as GA."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-04-28",
+      "sources": [
+        {
+          "id": "src.mistral.changelog",
+          "locator": "April 28 (2026)"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-5-docs",
+          "locator": "page header date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "le-chat-vibe-default",
+      "label": "Public preview as default model in Le Chat and Mistral Vibe",
+      "date": {
+        "value": "2026-05-22",
+        "sources": [
+          {
+            "id": "src.mistral.mistral-medium-3-5-announcement"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.mistral-medium-3-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-5-hf",
+          "locator": "introduction"
+        },
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, Alternative column"
+        }
+      ],
+      "note": "The model card says it replaces its predecessor Mistral Medium 3.1, and Magistral, in Le Chat."
+    }
+  ],
+  "summary": {
+    "text": "Mistral Medium 3.5 is a dense 128B-parameter Mistral AI model that handles instruction following, reasoning and coding in one set of weights, with text and image input and a 256k-token context window. It was released on 28 April 2026 as open weights under a Modified MIT licence and on the API, and in May 2026 became the default model in Le Chat and Mistral Vibe, in public preview.",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-medium-3-5-hf"
+      },
+      {
+        "id": "src.mistral.changelog",
+        "locator": "April 28 (2026)"
+      },
+      {
+        "id": "src.mistral.mistral-medium-3-5-announcement"
+      },
+      {
+        "id": "src.mistral.mistral-medium-3-5-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "reasoning-effort",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "mistral.mistral-medium-3-1",
+      "text": "Adds reasoning effort set per request (none or high); the model card says it replaces Magistral in Le Chat.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-5-hf",
+          "locator": "Key Features; introduction"
+        }
+      ]
+    },
+    {
+      "id": "open-weights",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-medium-3-1",
+      "text": "Released as open weights under a Modified MIT licence; Mistral listed Medium 3.1 as Premier (commercial) with no weights link.",
+      "sources": [
+        {
+          "id": "src.mistral.changelog",
+          "locator": "April 28 (2026)"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-1-docs"
+        }
+      ]
+    },
+    {
+      "id": "context-256k",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "mistral.mistral-medium-3-1",
+      "text": "Context window grows from 128k to 256k tokens.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-5-docs",
+          "locator": "Context"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-1-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    {
+      "id": "parameters-128b",
+      "aspect": "size",
+      "relativeTo": "mistral.mistral-medium-3-1",
+      "text": "Dense model with 128B parameters; Mistral did not disclose a parameter count for Medium 3.1.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-5-hf",
+          "locator": "Key Features"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-1-docs"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-5-docs",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-5-hf",
+          "locator": "Key Features"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-5-docs",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-5-hf",
+          "locator": "Key Features"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-5-docs",
+          "locator": "Context"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-5-announcement",
+          "locator": "Mistral Medium 3.5 section"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 128000000000,
+      "asStated": "128B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-5-announcement",
+          "locator": "Mistral Medium 3.5 section"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-5-hf",
+          "locator": "Key Features"
+        }
+      ],
+      "note": "Dense model."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-5-hf"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "April 28 (2026)"
+        }
+      ],
+      "note": "Modified MIT licence, with exceptions for companies with large revenue according to the model card."
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mistral-medium-3-5-hf",
+            "locator": "Key Features; Recommended Settings"
+          },
+          {
+            "id": "src.mistral.changelog",
+            "locator": "April 28 (2026)"
+          }
+        ],
+        "note": "Configurable per request with the reasoning_effort parameter (none or high)."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mistral-medium-3-5-docs",
+            "locator": "Features: Function Calling"
+          }
+        ]
+      }
+    ],
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "open-weights-download",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-5-announcement",
+          "locator": "Get started"
+        }
+      ],
+      "note": "Le Chat and Mistral Vibe (remote agents and Work mode on the Pro, Team and Enterprise plans), the API, Hugging Face, and NVIDIA (build.nvidia.com and NVIDIA NIM)."
+    }
+  },
+  "notes": "Release date from the changelog and the docs page (open weights, 2026-04-28); an Internet Archive capture of the Hugging Face repository on 2026-04-29 is consistent with that (lead only). The blog post of 2026-05-22 launched it in public preview as the default model in Le Chat and Mistral Vibe; that launch is recorded as a milestone, not as the release date. Mistral calls it its first flagship merged model, combining instruction following, reasoning and coding in one set of weights; prominence is standard because it is a point version in the Medium 3 generation. The model card and blog also say it replaces Devstral 2 in the Vibe coding agent; no relation to Devstral or Magistral is recorded. The docs page lists the API names mistral-medium-3-5, mistral-medium-3 and mistral-medium-latest; mistral-medium-3 and mistral-medium-latest are not recorded as aliases because they also fit or move between other records."
+}

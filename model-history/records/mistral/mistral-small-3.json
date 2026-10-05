@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-small-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-small-3",
+  "name": "Mistral Small 3",
+  "aliases": [
+    {
+      "text": "Mistral Small 3",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Small 3.0",
+      "match": "auto"
+    },
+    {
+      "text": "mistral-small-2501",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Small-24B-Instruct-2501",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Small-24B-Base-2501",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-small",
+  "generation": "3",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mistral-small-24b-instruct-2501"
+      },
+      {
+        "id": "src.mistral.hf-mistral-small-24b-base-2501"
+      },
+      {
+        "id": "src.mistral.legal-mistral-small-3",
+        "locator": "Model Lifecycle: Mistral Small 3.0 Instruct and Base, status Active"
+      }
+    ],
+    "note": "Apache 2.0 weights are still downloadable from Mistral AI's Hugging Face organisation; the API model mistral-small-2501 was retired on 2025-11-30."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-small-4",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Small 3.0, Alternative"
+      },
+      {
+        "id": "src.mistral.mistral-small-3-0-docs",
+        "locator": "Replacement"
+      }
+    ],
+    "note": "Replacement named for the API model when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-01-30",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-announcement",
+          "locator": "page date; available on la Plateforme as mistral-small-2501"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "January 30, 2025"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-0-docs",
+          "locator": "release date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-11-06",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Small 3.0 (mistral-small-2501)"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Small 3.0 (mistral-small-2501)"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-0-docs",
+          "locator": "Retirement date"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.mistral-small-v24-09",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-announcement"
+        }
+      ],
+      "note": "Editorial link along the Mistral Small line: the announcement names no predecessor, and Mistral Small v24.09 (Mistral Small 2.0 in the docs) was the previous Mistral Small release."
+    }
+  ],
+  "summary": {
+    "text": "Mistral Small 3 is a 24B-parameter language model from Mistral AI, released with pretrained and instruction-tuned open weights under Apache 2.0 and offered via API on la Plateforme and through partners. Mistral AI describes it as latency-optimised, with far fewer layers than competing models, and says it was trained without reinforcement learning or synthetic data.",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-small-3-announcement"
+      },
+      {
+        "id": "src.mistral.hf-mistral-small-24b-instruct-2501"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "apache-licence",
+      "aspect": "licensing",
+      "relativeTo": "mistral.mistral-small-v24-09",
+      "text": "Released under Apache 2.0; Mistral AI said it would move away from MRL-licensed models for its general-purpose models.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-announcement"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "aspect": "size",
+      "relativeTo": "mistral.mistral-small-v24-09",
+      "text": "Has 24B parameters, published as a pretrained and an instruction-tuned checkpoint.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-announcement"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-24b-instruct-2501"
+        }
+      ]
+    },
+    {
+      "id": "fewer-layers",
+      "aspect": "architecture",
+      "relativeTo": "mistral.mistral-small-v24-09",
+      "text": "Mistral AI says it has far fewer layers than competing models, which reduces the time per forward pass.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-0-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-0-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 32000,
+      "asStated": "32k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-0-docs",
+          "locator": "Context"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-24b-instruct-2501",
+          "locator": "Key Features: Context Window"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 24000000000,
+      "asStated": "24B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-0-docs",
+          "locator": "Weights table, Parameters (B)"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-announcement",
+          "locator": "pretrained and instruction-tuned checkpoints under Apache 2.0"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-24b-instruct-2501"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-24b-base-2501"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-announcement",
+          "locator": "Using Mistral Small 3 on your preferred tech stack"
+        }
+      ],
+      "note": "At launch on la Plateforme, on Hugging Face, Ollama and Kaggle, and through Together AI, Fireworks AI and IBM watsonx."
+    }
+  },
+  "notes": "Named Mistral Small 3 at release; the docs and the Legal Center now call it Mistral Small 3.0 (version 25.01). Released as a pretrained (Mistral-Small-24B-Base-2501) and an instruction-tuned (Mistral-Small-24B-Instruct-2501) checkpoint; both are aliases, not variants. Lifecycle reflects the open weights; the API dates come from the models overview."
+}

@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.codestral-mamba",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "codestral-mamba",
+  "name": "Codestral Mamba",
+  "aliases": [
+    {
+      "text": "Codestral Mamba",
+      "match": "auto"
+    },
+    {
+      "text": "Codestral Mamba 7B",
+      "match": "auto"
+    },
+    {
+      "text": "codestral-mamba-2407",
+      "match": "auto"
+    },
+    {
+      "text": "open-codestral-mamba",
+      "match": "auto"
+    },
+    {
+      "text": "Mamba-Codestral-7B-v0.1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": null,
+  "categories": [
+    "language",
+    "code"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mamba-codestral-7b-v0-1"
+      },
+      {
+        "id": "src.mistral.docs-codestral-mamba-7b-0-1",
+        "locator": "Weights table"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Codestral Mamba 7B"
+      }
+    ],
+    "note": "Apache 2.0 weights remain downloadable from the mistralai Hugging Face organisation; the API endpoint open-codestral-mamba was deprecated and retired on 2025-06-06."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-07-16",
+      "sources": [
+        {
+          "id": "src.mistral.codestral-mamba-announcement",
+          "locator": "page date; last paragraph"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "July 16, 2024"
+        },
+        {
+          "id": "src.mistral.docs-codestral-mamba-7b-0-1",
+          "locator": "release date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-06-06",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Codestral Mamba 7B"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-06-06",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Codestral Mamba 7B"
+        },
+        {
+          "id": "src.mistral.docs-codestral-mamba-7b-0-1",
+          "locator": "Retirement date"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "text": "Codestral Mamba is a 7B code model from Mistral AI based on the Mamba architecture rather than a Transformer, which Mistral says gives linear-time inference. It was released under Apache 2.0 with weights on Hugging Face and offered for testing on la Plateforme; Mistral says it tested in-context retrieval up to 256k tokens.",
+    "sources": [
+      {
+        "id": "src.mistral.codestral-mamba-announcement"
+      },
+      {
+        "id": "src.mistral.docs-codestral-mamba-7b-0-1"
+      },
+      {
+        "id": "src.mistral.hf-mamba-codestral-7b-v0-1"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-codestral-mamba-7b-0-1",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-codestral-mamba-7b-0-1",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.codestral-mamba-announcement",
+          "locator": "fourth and fifth paragraphs"
+        },
+        {
+          "id": "src.mistral.hf-mamba-codestral-7b-v0-1"
+        }
+      ],
+      "note": "Apache 2.0."
+    },
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-codestral-mamba-7b-0-1",
+          "locator": "Context; Weights table"
+        }
+      ],
+      "note": "The announcement says Mistral tested in-context retrieval up to 256k tokens."
+    },
+    "parameters": {
+      "value": 7285403648,
+      "asStated": "7,285,403,648",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.codestral-mamba-announcement",
+          "locator": "fourth paragraph"
+        },
+        {
+          "id": "src.mistral.docs-codestral-mamba-7b-0-1",
+          "locator": "Weights table"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.codestral-mamba-announcement",
+          "locator": "fourth and fifth paragraphs"
+        }
+      ]
+    }
+  },
+  "notes": "Added by the verifier: released on 2024-07-16 together with Mathstral (changelog) and missing from the research output. familyId left null until the scope assigns a family (a Codestral family is the likely home). The announcement names the la Plateforme id codestral-mamba-2407; the changelog and docs use open-codestral-mamba. The overview names Codestral as the alternative without a version, so replacedBy is not recorded. Mistral says it was designed with help from Albert Gu and Tri Dao and is based on the Mamba architecture; no model relation is recorded."
+}

@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-6-astra",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-6-astra",
+  "name": "GPT-6 Astra",
+  "aliases": [
+    {
+      "text": "GPT-6 Astra",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-6-astra",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-6",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-astra",
+  "generation": "6",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.gpt-6-astra-docs",
+        "locator": "Snapshots"
+      },
+      {
+        "id": "src.openai.deprecations",
+        "locator": "Upcoming deprecations"
+      }
+    ],
+    "note": "Listed in the API model catalog and not on the deprecations page as read on 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2026-08-07",
+      "sources": [
+        {
+          "id": "src.openai.responding-critical-cyber-capabilities",
+          "locator": "second paragraph"
+        }
+      ],
+      "note": "OpenAI first named the model as Astra, one of its upcoming models, in a post on preliminary cybersecurity evaluations; the GPT-6 prefix appeared at launch. A further pre-release update, Path to Astra, followed on 2026-09-01."
+    },
+    "released": {
+      "value": "2026-09-03",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-astra-launch",
+          "locator": "introduction; Availability"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "September, 2026: Sep 3"
+        },
+        {
+          "id": "src.openai.gpt-6-astra-system-card",
+          "locator": "Published September 3, 2026; 1. Safety Overview"
+        }
+      ],
+      "note": "Rolled out first to a limited set of organizations, with wider availability in ChatGPT, the API and AWS over the following days (launch post); the API changelog lists the release on Sep 3."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-5-6-sol",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-astra-launch",
+          "locator": "Cybersecurity section (GPT-5.6 Sol called the previous frontier cyber-capable model)"
+        },
+        {
+          "id": "src.openai.gpt-6-astra-system-card",
+          "locator": "1. Safety Overview"
+        },
+        {
+          "id": "src.openai.path-to-astra",
+          "locator": "Assessing Astra’s cybersecurity capabilities"
+        }
+      ],
+      "note": "Editorial link: Astra opens a new tier above Sol, and no source names a direct predecessor. The launch post calls GPT-5.6 Sol the previous frontier cyber-capable model, the system card compares Astra throughout with GPT-5.6 Sol, and Path to Astra measures its cyber capabilities against GPT-5.6 Sol."
+    }
+  ],
+  "summary": {
+    "text": "GPT-6 Astra is the first model of OpenAI's GPT-6 generation, a reasoning language model for text and image input released on 3 September 2026 in ChatGPT Work, Codex, the API and Amazon Bedrock, after a first rollout to a limited set of organizations. OpenAI says it is its first model to reach the Critical level of cybersecurity capability under its Preparedness Framework.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-6-astra-docs"
+      },
+      {
+        "id": "src.openai.gpt-6-astra-launch"
+      },
+      {
+        "id": "src.openai.chatgpt-whats-new"
+      },
+      {
+        "id": "src.openai.amazon-bedrock-guide"
+      },
+      {
+        "id": "src.openai.gpt-6-astra-system-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "critical-cyber",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-6-sol",
+      "text": "Rated Critical in cybersecurity (GPT-5.6 Sol: High); OpenAI added misalignment monitoring to tool-using inference in external deployment.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-astra-system-card"
+        },
+        {
+          "id": "src.openai.responding-critical-cyber-capabilities"
+        },
+        {
+          "id": "src.openai.gpt-5-6-system-card"
+        }
+      ]
+    },
+    {
+      "id": "long-running-controls",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5-6-sol",
+      "text": "Adds async tool calling, mid-turn steering and changes of reasoning effort mid-conversation in the Responses API, which is also required for tool calling.",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "September, 2026: Sep 3"
+        }
+      ]
+    },
+    {
+      "id": "no-none-effort",
+      "aspect": "reasoning",
+      "direction": "removed",
+      "relativeTo": "openai.gpt-5-6-sol",
+      "text": "Drops the none reasoning effort level; custom temperature and top_p values and log probabilities are not supported either.",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "September, 2026: Sep 3"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-6-sol",
+      "text": "Knowledge cutoff of 30 April 2026, against 16 February 2026 for GPT-5.6 Sol.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-astra-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.gpt-5-6-sol-docs",
+          "locator": "Model details"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-astra-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-astra-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-6-astra-docs",
+            "locator": "description (reasoning.effort); Model details (reasoning token support)"
+          },
+          {
+            "id": "src.openai.gpt-6-astra-system-card",
+            "locator": "2. Model Data and Training"
+          }
+        ]
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-6-astra-docs",
+            "locator": "Supported features"
+          }
+        ],
+        "note": "Tool calling requires the Responses API (API changelog, Sep 3)."
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-6-astra-docs",
+            "locator": "description; Supported tools"
+          },
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "September, 2026: Sep 3"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1050000,
+      "asStated": "1,050,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-astra-docs",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The docs give 922,000 maximum input tokens and 128,000 maximum output tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-astra-launch",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "September, 2026: Sep 3"
+        },
+        {
+          "id": "src.openai.chatgpt-whats-new",
+          "locator": "August 31–September 4, 2026: Take on demanding work with GPT-6 Astra"
+        },
+        {
+          "id": "src.openai.amazon-bedrock-guide",
+          "locator": "How Bedrock availability works"
+        }
+      ]
+    }
+  },
+  "notes": "First model of generation 6 and of the Astra tier, which sits above Sol. The system card calls it the most capable model OpenAI has broadly deployed and its first model to reach the Critical level of cybersecurity capability under the Preparedness Framework. In ChatGPT it is offered in ChatGPT Work and Codex for Plus, Pro, Business and Enterprise (Enterprise needs an administrator to enable it); Pro, Business and Enterprise also get GPT-6 Astra Pro, a mode rather than a separate model. Pre-release posts: Responding to the next frontier of critical cyber capabilities (2026-08-07) and Path to Astra (2026-09-01). GPT-6 is also used as the family name (Using GPT-6), hence candidate. The openai.com posts were read through Wayback Machine captures."
+}

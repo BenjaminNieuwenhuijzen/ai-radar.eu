@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-medium-3-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-medium-3-1",
+  "name": "Mistral Medium 3.1",
+  "aliases": [
+    {
+      "text": "Mistral Medium 3.1",
+      "match": "auto"
+    },
+    {
+      "text": "mistral-medium-2508",
+      "match": "auto"
+    },
+    {
+      "text": "Medium 3.1",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-medium",
+  "generation": "3.1",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, Mistral Medium 3.1"
+      }
+    ],
+    "note": "The retirement date of 2026-08-31 in the models overview has passed; the docs model page still shows a Deprecated badge."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-medium-3-5",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, Alternative column"
+      },
+      {
+        "id": "src.mistral.mistral-medium-3-1-docs",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-08-12",
+      "sources": [
+        {
+          "id": "src.mistral.changelog",
+          "locator": "August 12 (2025)"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-1-docs",
+          "locator": "page header date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-05-22",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, Mistral Medium 3.1"
+        },
+        {
+          "id": "src.mistral.mistral-medium-3-1-docs",
+          "locator": "Deprecation date"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-08-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, Mistral Medium 3.1"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.mistral-medium-3",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-1-docs"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "August 12 (2025)"
+        }
+      ],
+      "note": "Editorial link along the Mistral Medium line: the docs describe Mistral Medium 3.1 as the frontier-class multimodal model released in August 2025 with improved tone and performance, without naming a predecessor; Mistral Medium 3 (May 2025) was the previous Medium release."
+    }
+  ],
+  "summary": {
+    "text": "Mistral Medium 3.1 is a multimodal language model from Mistral AI that takes text and image input and returns text, released on 12 August 2025 on Mistral's API under the commercial Premier licence category. Mistral described it as an update with improved tone and performance; it was retired on 31 August 2026, with Mistral Medium 3.5 named as the replacement.",
+    "sources": [
+      {
+        "id": "src.mistral.changelog",
+        "locator": "August 12 (2025)"
+      },
+      {
+        "id": "src.mistral.mistral-medium-3-1-docs"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, Mistral Medium 3.1"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "tone-and-performance",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-medium-3",
+      "text": "Mistral says the update improves tone and performance.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-1-docs"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-1-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-1-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-1-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Mistral AI."
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mistral-medium-3-1-docs",
+            "locator": "Features: Function Calling"
+          }
+        ]
+      }
+    ],
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-medium-3-1-docs",
+          "locator": "Features: API endpoints"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "August 12 (2025)"
+        }
+      ]
+    }
+  },
+  "notes": "No blog post found; the release is documented in the changelog and on the docs model page only. The docs model page shows modalities as icons (text and image in, text out). The docs label the model Premier (commercial licence) and give no weights link; openWeights is left out because no source states it explicitly. Deprecation and retirement are API dates from the models overview table (written 5/22/2026 and 8/31/2026)."
+}

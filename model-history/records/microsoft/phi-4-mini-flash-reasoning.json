@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.phi-4-mini-flash-reasoning",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "phi-4-mini-flash-reasoning",
+  "name": "Phi-4-mini-flash-reasoning",
+  "aliases": [
+    {
+      "text": "Phi-4-mini-flash-reasoning",
+      "match": "auto"
+    },
+    {
+      "text": "Phi4-mini-Flash-Reasoning",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.phi-reasoning",
+  "generation": "4",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-4-mini-flash-reasoning-model-card",
+        "locator": "weights and licence (MIT)"
+      }
+    ],
+    "note": "Weights remain downloadable from Microsoft's Hugging Face organisation (checked 2026-10-01). The model is not listed in the Microsoft Foundry retirement schedule."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-07-09",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-announcement",
+          "locator": "page date and first paragraph"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2025-06",
+          "sources": [
+            {
+              "id": "src.microsoft.phi-4-mini-flash-reasoning-model-card",
+              "locator": "Training, Model: Release date"
+            }
+          ],
+          "note": "The model card gives June 2025 as release date; the announcement of July 9, 2025 says the model is available from that day."
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "microsoft.phi-4-mini-reasoning",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-announcement",
+          "locator": "Efficiency without compromise; Phi-4-mini-flash-reasoning benchmarks"
+        },
+        {
+          "id": "src.microsoft.decoder-hybrid-decoder-paper",
+          "locator": "Abstract: compared with Phi4-mini-Reasoning"
+        }
+      ],
+      "note": "The announcement refers to a predecessor that, like this model, is a 3.8B open model for math reasoning, and compares the model directly with Phi-4-mini-reasoning. It also says the model follows Phi-4-mini but uses a new hybrid architecture; the model card describes its own pre-training run of 5T tokens, so no derived-from link to Phi-4-mini is recorded."
+    },
+    {
+      "type": "derived-from",
+      "target": "deepseek.deepseek-r1",
+      "method": "distillation",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-model-card"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Phi-4-mini-flash-reasoning is a 3.8-billion-parameter open model from Microsoft for math reasoning with a 64K-token context, released on 9 July 2025 on Azure AI Foundry, the NVIDIA API Catalog and Hugging Face. It uses the SambaY decoder-hybrid-decoder architecture, which combines Mamba state space layers, sliding window attention and Gated Memory Units, and targets edge and mobile use.",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-4-mini-flash-reasoning-announcement"
+      },
+      {
+        "id": "src.microsoft.phi-4-mini-flash-reasoning-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "sambay",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "microsoft.phi-4-mini-reasoning",
+      "text": "Replaces the dense Transformer with the SambaY decoder-hybrid-decoder architecture, which uses Gated Memory Units.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-announcement",
+          "locator": "Efficiency without compromise"
+        }
+      ]
+    },
+    {
+      "id": "throughput",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "microsoft.phi-4-mini-reasoning",
+      "text": "Microsoft says it decodes with higher throughput and lower latency than Phi-4-mini-reasoning, especially on long generations.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-announcement"
+        }
+      ]
+    },
+    {
+      "id": "context-64k",
+      "aspect": "context-length",
+      "direction": "decreased",
+      "relativeTo": "microsoft.phi-4-mini-reasoning",
+      "text": "Context length of 64K tokens, down from 128K for Phi-4-mini-reasoning.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-model-card",
+          "locator": "Training, Model: Context length"
+        },
+        {
+          "id": "src.microsoft.phi-4-mini-reasoning-model-card",
+          "locator": "Training, Model: Context length"
+        }
+      ]
+    },
+    {
+      "id": "no-rl",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "microsoft.phi-4-mini-reasoning",
+      "text": "Reasoning training ran without a reinforcement learning stage, according to Microsoft's paper.",
+      "sources": [
+        {
+          "id": "src.microsoft.decoder-hybrid-decoder-paper",
+          "locator": "Abstract"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-model-card",
+          "locator": "Training, Model: Inputs"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-model-card",
+          "locator": "Training, Model: Outputs"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 64000,
+      "asStated": "64K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-announcement",
+          "locator": "Efficiency without compromise"
+        },
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-model-card",
+          "locator": "Training, Model: Context length"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 3800000000,
+      "asStated": "3.8B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-model-card",
+          "locator": "Model Quality; Training, Model: Architecture"
+        },
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-announcement",
+          "locator": "Efficiency without compromise"
+        }
+      ],
+      "note": "The announcement writes 3.8 billion parameters."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-model-card",
+          "locator": "licence: MIT"
+        },
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-announcement",
+          "locator": "Efficiency without compromise"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-flash-reasoning-announcement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Azure AI Foundry (api), NVIDIA API Catalog (cloud-partner) and Hugging Face (open-weights-download) at release."
+    }
+  },
+  "notes": "Built on the SambaY decoder-hybrid-decoder architecture described in arXiv 2507.06607 (v1 2025-07-09). The model card says the reasoning-training data was synthetic math generated by a model from another organisation; that link is not recorded here."
+}

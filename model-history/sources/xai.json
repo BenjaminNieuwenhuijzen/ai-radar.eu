@@ -1,0 +1,758 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.xai.api-public-beta",
+      "type": "announcement",
+      "title": "API Public Beta",
+      "url": "https://x.ai/news/api",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "publishedAt": {
+        "value": "2024-11-04"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Originally published at https://x.ai/blog/api, which now redirects (308) here. Launches the public beta of the xAI API with the preview model grok-beta.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.api-release-notes",
+      "type": "release-notes",
+      "title": "Release Notes",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page of the xAI API docs (branded SpaceXAI Docs); content as seen on 2026-10-01 (page says last updated September 28, 2026). Entries are grouped by month and each carries a day; month groups from January to September carry no year and belong to 2026, older groups are labelled with their year (December 2025 and earlier); the earliest group is November 2024. The old address https://docs.x.ai/docs/release-notes redirects here (308).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.brand-guidelines",
+      "type": "other",
+      "title": "SpaceXAI Brand Guidelines",
+      "url": "https://x.ai/legal/brand-guidelines",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "publishedAt": {
+        "value": "2025-02-14",
+        "note": "Date shown on the page; the text has since been updated to the SpaceXAI name."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "HTML title is Brand Guidelines; the page heading reads SpaceXAI Brand Guidelines. States that SpaceXAI is the developer of Grok.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.company-page",
+      "type": "other",
+      "title": "Company: Accelerating Scientific Discovery",
+      "url": "https://x.ai/company",
+      "notes": "Living page, content as seen on 2026-10-01; the site is branded SpaceXAI. Includes a dated milestone timeline (Our path of progress), with Grok 3 API on Apr 3, 2025. The old address https://x.ai/about redirects here. Both returned 403 to a scripted request on 2026-10-02.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.google-cloud-vertex-ai-guide",
+      "type": "documentation",
+      "title": "Google Cloud Vertex AI",
+      "url": "https://docs.x.ai/developers/community/google-cloud-vertex-ai",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Integration guide in the xAI API docs for Grok on Google Cloud Vertex AI / Gemini Enterprise Agent Platform (Model Garden). Names Grok 4.2 and Grok 4.3 as example models and xai/grok-4.7 as an example model id. Living page, content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-1-5-announcement",
+      "type": "announcement",
+      "title": "Announcing Grok-1.5",
+      "url": "https://x.ai/news/grok-1.5",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "publishedAt": {
+        "value": "2024-03-28"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Originally published at https://x.ai/blog/grok-1.5, which now redirects (308) here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-1-5v-announcement",
+      "type": "announcement",
+      "title": "Grok-1.5 Vision Preview",
+      "url": "https://x.ai/news/grok-1.5v",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "publishedAt": {
+        "value": "2024-04-12"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Originally published at https://x.ai/blog/grok-1.5v, which now redirects (308) here. Also introduces the RealWorldQA benchmark dataset.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-1-github",
+      "type": "repository",
+      "title": "xai-org/grok-1: Grok open release",
+      "url": "https://github.com/xai-org/grok-1",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "xAI's GitHub repository with JAX example code and the model specifications of the Grok-1 open-weights model. The open-release post links https://github.com/xai-org/grok, which redirects (301) here. Repository created 2024-03-17 (GitHub API).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-1-hugging-face",
+      "type": "model-hub-page",
+      "title": "xai-org/grok-1",
+      "url": "https://huggingface.co/xai-org/grok-1",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model repository of the xai-org organisation on Hugging Face holding the Grok-1 weights (Apache 2.0). Its commit history starts on 2024-03-17; the card itself states no date.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-1-model-card",
+      "type": "model-card",
+      "title": "Grok-1 Model Card",
+      "url": "https://x.ai/news/grok/model-card",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "publishedAt": {
+        "value": "2023-11-03",
+        "note": "The page shows the date of the Announcing Grok post it belongs to."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Linked from the Announcing Grok post. The older address https://x.ai/model-card redirects here; https://x.ai/blog/grok/model-card returns 404.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-1-open-release",
+      "type": "announcement",
+      "title": "Open Release of Grok-1",
+      "url": "https://x.ai/news/grok-os",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "publishedAt": {
+        "value": "2024-03-17"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Originally published at https://x.ai/blog/grok-os, which now redirects (308) here. Announces the release of the Grok-1 base model weights and architecture under Apache 2.0.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-2-1212-announcement",
+      "type": "announcement",
+      "title": "Bringing Grok to Everyone",
+      "url": "https://x.ai/news/grok-1212",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "publishedAt": {
+        "value": "2024-12-12"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Originally published at https://x.ai/blog/grok-1212, which now redirects (308) here. Announces the new version of Grok-2 on X and the API models grok-2-1212 and grok-2-vision-1212.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-2-announcement",
+      "type": "announcement",
+      "title": "Grok-2 Beta Release",
+      "url": "https://x.ai/news/grok-2",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "publishedAt": {
+        "value": "2024-08-13"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Originally published at https://x.ai/blog/grok-2, which now redirects (308) here. Announces Grok-2 and Grok-2 mini together.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-2-hugging-face",
+      "type": "model-hub-page",
+      "title": "xai-org/grok-2",
+      "url": "https://huggingface.co/xai-org/grok-2",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model repository of the xai-org organisation on Hugging Face with the weights of Grok 2, described as a model trained and used at xAI in 2024; it does not say which Grok-2 version. The card states no date; the commit history shows the initial commit and weight uploads on 2025-08-22 (UTC) and the README on 2025-08-23. The README names the Grok 2 Community License Agreement; the LICENSE file is now titled xAI Community License Agreement (last updated November 4, 2025).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.grok-3-announcement",
+      "type": "announcement",
+      "title": "Grok 3 Beta — The Age of Reasoning Agents",
+      "url": "https://x.ai/news/grok-3",
+      "publishedAt": {
+        "value": "2025-02-19"
+      },
+      "notes": "HTML title carries the site name SpaceXAI; the post heading is used as title. The old address https://x.ai/blog/grok-3 is reported to redirect here (it returned 403 to a scripted request on 2026-10-02). Announces Grok 3 and Grok 3 mini and the beta reasoning models Grok 3 (Think) and Grok 3 mini (Think).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "archived-primary",
+      "availability": "active",
+      "id": "src.xai.grok-3-api-model-page",
+      "type": "documentation",
+      "title": "Grok 3",
+      "url": "https://docs.x.ai/docs/models/grok-3",
+      "archiveUrl": "https://web.archive.org/web/20250815030325/https://docs.x.ai/docs/models/grok-3",
+      "archiveProvider": "internet-archive",
+      "archivedAt": "2025-08-15",
+      "notes": "xAI API model page for grok-3; the URL now redirects to https://docs.x.ai/developers/models, which no longer lists the model. HTML title of the capture is the generic Welcome to the xAI documentation; the page heading Grok 3 is used. Checked in the capture on 2026-10-02: modalities drawn as icons, text to text; context window 131,072; model name grok-3 with aliases grok-3-latest and grok-3-beta; links a separate grok-3-fast listing.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.grok-4-1-announcement",
+      "type": "announcement",
+      "title": "Grok 4.1",
+      "url": "https://x.ai/news/grok-4-1",
+      "publishedAt": {
+        "value": "2025-11-17"
+      },
+      "notes": "Describes a silent rollout of preliminary builds from 1 to 14 November 2025 before the announcement. Links the Grok 4.1 model card.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.grok-4-1-fast-announcement",
+      "type": "announcement",
+      "title": "Grok 4.1 Fast and Agent Tools API",
+      "url": "https://x.ai/news/grok-4-1-fast",
+      "publishedAt": {
+        "value": "2025-11-19"
+      },
+      "notes": "Subtitle: Bringing the next generation of tool-calling agents to the xAI API.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.grok-4-1-model-card",
+      "type": "model-card",
+      "title": "Grok 4.1 Model Card",
+      "url": "https://data.x.ai/2025-11-17-grok-4-1-model-card.pdf",
+      "publishedAt": {
+        "value": "2025-11-17"
+      },
+      "notes": "PDF. Calls Grok 4.1 an update to Grok 4 and Grok 3 and describes the Thinking and Non-Thinking configurations.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-20-docs",
+      "type": "documentation",
+      "title": "Grok 4.20",
+      "url": "https://docs.x.ai/developers/models/grok-4.20",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model page in the xAI API docs (model name grok-4.20-0309-reasoning, aliases, modalities, context window, capabilities, pricing, regions). Living page, content as seen on 2026-10-01; a Markdown rendering is served at the same URL with .md appended.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-20-multi-agent-docs",
+      "type": "documentation",
+      "title": "Grok 4.20 Multi-Agent Beta",
+      "url": "https://docs.x.ai/developers/models/grok-4.20-multi-agent",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model page in the xAI API docs for grok-4.20-multi-agent-0309; the HTML title reads Grok 4.20 Multi Agent, the heading Grok 4.20 Multi-Agent Beta. Living page, content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-20-system-card",
+      "type": "system-card",
+      "title": "Grok 4.20 System Card",
+      "url": "https://data.x.ai/2026-04-07-grok-4-20-model-card.pdf",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-04-07"
+      },
+      "notes": "PDF, 8 pages, dated April 7, 2026 on the first page. It refers to the two deployment modes as Grok 4.2 SA and Grok 4.2 MA. Not linked from the x.ai/safety page when checked on 2026-10-01, which lists model cards for Grok 4.7, 4.6, 4.5, 4 Fast, Code Fast 1 and 4.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-3-amazon-bedrock",
+      "type": "announcement",
+      "title": "Grok on Amazon Bedrock",
+      "url": "https://x.ai/news/grok-amazon-bedrock",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-06-17"
+      },
+      "notes": "Announces that Grok 4.3 is generally available on Amazon Bedrock. The x.ai site is branded SpaceXAI.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-3-docs",
+      "type": "documentation",
+      "title": "Grok 4.3",
+      "url": "https://docs.x.ai/developers/models/grok-4.3",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model page in the xAI API docs (model name grok-4.3, alias grok-4.3-latest, modalities, context window, reasoning efforts, pricing). Living page, content as seen on 2026-10-01; it states no release date.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-5-announcement",
+      "type": "announcement",
+      "title": "Introducing Grok 4.5",
+      "url": "https://x.ai/news/grok-4-5",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-07-16"
+      },
+      "notes": "The page and the x.ai site are branded SpaceXAI (a doing-business-as name of XAI LLC per the Grok 4.5 model card). Contains benchmark charts with competitor figures.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-5-docs",
+      "type": "documentation",
+      "title": "Grok 4.5",
+      "url": "https://docs.x.ai/developers/models/grok-4.5",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model page in the xAI API docs (model name grok-4.5, aliases grok-4.5-latest and grok-build-latest, modalities, context window, reasoning efforts, pricing). Living page, content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-5-everywhere",
+      "type": "announcement",
+      "title": "Bringing Grok 4.5 to iOS, Android, Web, and X",
+      "url": "https://x.ai/news/grok-4-5-everywhere",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-07-22"
+      },
+      "notes": "Announces Grok 4.5 in the consumer apps: grok.com, X and the Grok apps for iOS and Android.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-5-model-card",
+      "type": "model-card",
+      "title": "Model Card: Grok 4.5",
+      "url": "https://media.x.ai/v1/website/4p5-5184fdf9.pdf",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-07-14"
+      },
+      "notes": "PDF linked as Grok 4.5 from https://x.ai/safety. The cover gives July 14, 2026 and Revision: 2026-07-20; the file name carries a content hash, so a later revision may get a new URL. The cover date is two days before the announcement of July 16, 2026.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-6-amazon-bedrock",
+      "type": "announcement",
+      "title": "Grok 4.6 on Amazon Bedrock",
+      "url": "https://x.ai/news/grok-4-6-amazon-bedrock",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-19"
+      },
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-6-announcement",
+      "type": "announcement",
+      "title": "Introducing Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-12"
+      },
+      "notes": "Branded SpaceXAI. Contains benchmark charts and an evaluation table with competitor figures.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-6-docs",
+      "type": "documentation",
+      "title": "Grok 4.6",
+      "url": "https://docs.x.ai/developers/models/grok-4.6",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model page in the xAI API docs (model name grok-4.6, modalities, context window, reasoning efforts, pricing). Living page, content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-6-microsoft-foundry",
+      "type": "announcement",
+      "title": "Grok 4.6 on Microsoft Foundry",
+      "url": "https://x.ai/news/grok-4-6-microsoft-foundry",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-26"
+      },
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-6-model-card",
+      "type": "model-card",
+      "title": "Model Card: Grok 4.6",
+      "url": "https://media.x.ai/v1/website/card-4p6-4cd2dc57.pdf",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-12"
+      },
+      "notes": "PDF linked as Grok 4.6 from https://x.ai/safety. The cover gives August 12, 2026 and Revision: 2026-08-17; a changelog dated August 17, 2026 lists corrections and added results. The file name carries a content hash, so a later revision may get a new URL.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-6-vertex-ai",
+      "type": "announcement",
+      "title": "Grok 4.6 on Gemini Enterprise Agent Platform",
+      "url": "https://x.ai/news/grok-4-6-vertex-ai",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-08-21"
+      },
+      "notes": "Google Cloud platform (Model Garden); the URL slug says vertex-ai.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-7-announcement",
+      "type": "announcement",
+      "title": "Introducing Grok 4.7",
+      "url": "https://x.ai/news/grok-4-7",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-09-21"
+      },
+      "notes": "Branded SpaceXAI. Contains a price-performance chart and a benchmark table with competitor figures.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-7-docs",
+      "type": "documentation",
+      "title": "Grok 4.7",
+      "url": "https://docs.x.ai/developers/models/grok-4.7",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model page in the xAI API docs (model name grok-4.7, modalities, context window, reasoning efforts, pricing). Living page, content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-7-model-card",
+      "type": "model-card",
+      "title": "Model Card: Grok 4.7",
+      "url": "https://media.x.ai/v1/website/card4p7-3a96f40b.pdf",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-09-21"
+      },
+      "notes": "PDF linked as Grok 4.7 from https://x.ai/safety. The cover gives September 21, 2026 and Revision: 2026-09-21; the file name carries a content hash, so a later revision may get a new URL.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-4-7-overview",
+      "type": "documentation",
+      "title": "Grok 4.7",
+      "url": "https://docs.x.ai/developers/grok-4-7",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Get Started overview page for Grok 4.7 in the xAI API docs (at a glance, knowledge cutoff, fast variant, where it runs); distinct from the per-model page at docs.x.ai/developers/models/grok-4.7. The older overview addresses docs.x.ai/developers/grok-4-5 and docs.x.ai/developers/grok-4-6 now redirect here. Living page, content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.grok-4-announcement",
+      "type": "announcement",
+      "title": "Grok 4",
+      "url": "https://x.ai/news/grok-4",
+      "publishedAt": {
+        "value": "2025-07-09"
+      },
+      "notes": "Also introduces Grok 4 Heavy and the SuperGrok Heavy tier. HTML title carries the site name SpaceXAI.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.grok-4-fast-announcement",
+      "type": "announcement",
+      "title": "Grok 4 Fast",
+      "url": "https://x.ai/news/grok-4-fast",
+      "publishedAt": {
+        "value": "2025-09-19"
+      },
+      "notes": "Subtitle: Pushing the Frontier of Cost-Efficient Intelligence. Links the Grok 4 Fast model card.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.grok-4-fast-model-card",
+      "type": "model-card",
+      "title": "Grok 4 Fast Model Card",
+      "url": "https://data.x.ai/2025-09-19-grok-4-fast-model-card.pdf",
+      "publishedAt": {
+        "value": "2025-09-19",
+        "note": "Last updated date on the card."
+      },
+      "notes": "PDF.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.grok-4-model-card",
+      "type": "model-card",
+      "title": "Grok 4 Model Card",
+      "url": "https://data.x.ai/2025-08-20-grok-4-model-card.pdf",
+      "publishedAt": {
+        "value": "2025-08-20",
+        "note": "Last updated date on the card; no earlier version is linked."
+      },
+      "notes": "PDF.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-announcement",
+      "type": "announcement",
+      "title": "Announcing Grok",
+      "url": "https://x.ai/news/grok",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "publishedAt": {
+        "value": "2023-11-03"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Originally published at https://x.ai/blog/grok, which now redirects (308) here. Introduces Grok and the Grok-1 model; links the Grok-1 model card. The site now brands its page titles SpaceXAI.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-build-0-1-api-announcement",
+      "type": "announcement",
+      "title": "Grok Build 0.1 on API",
+      "url": "https://x.ai/news/grok-build-0-1",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-05-29"
+      },
+      "notes": "Announces grok-build-0.1 on the xAI API in public beta and says it is the model that powers the Grok Build coding agent.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-build-0-1-docs",
+      "type": "documentation",
+      "title": "Grok Build 0.1",
+      "url": "https://docs.x.ai/developers/models/grok-build-0.1",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model page in the xAI API docs (model name grok-build-0.1; aliases grok-code-fast-1, grok-code-fast and grok-code-fast-1-0825, which point here since the May 15, 2026 retirement of grok-code-fast-1). Living page, content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.grok-code-fast-1-announcement",
+      "type": "announcement",
+      "title": "Grok Code Fast 1",
+      "url": "https://x.ai/news/grok-code-fast-1",
+      "publishedAt": {
+        "value": "2025-08-28"
+      },
+      "notes": "HTML title carries the site name SpaceXAI. Links the grok-code-fast-1 model card.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.grok-code-fast-1-model-card",
+      "type": "model-card",
+      "title": "Grok Code Fast 1 Model Card",
+      "url": "https://data.x.ai/2025-08-26-grok-code-fast-1-model-card.pdf",
+      "publishedAt": {
+        "value": "2025-08-26",
+        "note": "Last updated date on the card."
+      },
+      "notes": "PDF. Says the model is available through third-party partners and the enterprise-focused xAI API.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.grok-com-release-notes",
+      "type": "release-notes",
+      "title": "Grok",
+      "url": "https://grok.com/release-notes",
+      "notes": "Release notes of the Grok consumer apps; the HTML title is only Grok and the page is rendered client-side. Living page, earliest entry 2025-08-29 when seen on 2026-10-02. Entry used: aug-29-2025 (Grok 4 for anonymous users); the nov-18-2025 entry also lists Grok 4.1 and Grok 4 Fast.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.grok-release-notes",
+      "type": "release-notes",
+      "title": "Grok Release Notes",
+      "url": "https://grok.com/release-notes",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Release notes of the Grok consumer apps (grok.com), one dated entry per week; living page, content as seen on 2026-10-02 (entries from 2025-08-29 to 2026-09-12). The page is rendered client-side: the HTML title is only Grok, the page heading is Grok Release Notes. Entries are dated by an anchor such as feb-17-2026.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "id": "src.xai.may-15-2026-model-retirement",
+      "type": "deprecation-notice",
+      "title": "May 15, 2026 Model Retirement",
+      "url": "https://docs.x.ai/developers/migration/may-15-retirement",
+      "notes": "HTML title May 15, 2026 Model Retirement | SpaceXAI Docs; page heading Grok Model Retirement on May 15, 2026. Shows Last updated: September 2, 2026 and no publication date. Lists grok-4-1-fast-reasoning, grok-4-1-fast-non-reasoning, grok-4-fast-reasoning, grok-4-fast-non-reasoning, grok-4-0709, grok-code-fast-1, grok-3 and grok-imagine-image-pro as retired from the xAI API effective May 15, 2026 at 12:00 PM PT; the text slugs redirect to grok-4.3, grok-code-fast-1 to grok-build-0.1. grok-3-mini is not listed.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.may-15-2026-retirement-guide",
+      "type": "deprecation-notice",
+      "title": "Grok Model Retirement on May 15, 2026",
+      "url": "https://docs.x.ai/developers/migration/may-15-retirement",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Migration guide in the xAI API docs; HTML title May 15, 2026 Model Retirement. Lists the slugs retired on May 15, 2026 at 12:00 PM PT and their redirect targets (grok-4.3 for the Grok 3, Grok 4, Grok 4 Fast and Grok 4.1 Fast slugs; grok-build-0.1 for grok-code-fast-1). The page states no publication date.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.models-overview",
+      "type": "documentation",
+      "title": "Models",
+      "url": "https://docs.x.ai/developers/models",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Models and pricing overview of the xAI API docs; HTML title Grok Models & Pricing. Living page, content as seen on 2026-10-01 (text models listed: grok-4.7, grok-4.6, grok-4.5, grok-4.3, grok-4.20-0309-reasoning, grok-4.20-0309-non-reasoning, grok-build-0.1, grok-4.20-multi-agent-0309). https://docs.x.ai/docs/models redirects here.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.multi-agent-guide",
+      "type": "documentation",
+      "title": "Multi Agent",
+      "url": "https://docs.x.ai/developers/model-capabilities/text/multi-agent",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Guide to Realtime Multi-agent Research with the grok-4.20-multi-agent model in the xAI API docs, including how the agents and the leader agent work and the current limitations. Living page, content as seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.xai.xai-joins-spacex",
+      "type": "announcement",
+      "title": "xAI joins SpaceX",
+      "url": "https://x.ai/news/xai-joins-spacex",
+      "publisher": "xAI",
+      "publisherOrgId": "xai",
+      "publishedAt": {
+        "value": "2026-02-02"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Short post stating that SpaceX announced it has acquired xAI; links to https://spacex.com/updates#xai-joins-spacex for the full update.",
+      "lastCheckedAt": "2026-10-05"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "huggingface.zephyr-7b-alpha",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "zephyr-7b-alpha",
+  "name": "Zephyr 7B Alpha",
+  "aliases": [
+    {
+      "text": "Zephyr 7B Alpha",
+      "match": "auto"
+    },
+    {
+      "text": "Zephyr-7B-α",
+      "match": "auto"
+    },
+    {
+      "text": "zephyr-7b-alpha",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "huggingface",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "huggingface.zephyr",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.huggingface.zephyr-7b-alpha-model-card",
+        "locator": "Hub repository HuggingFaceH4/zephyr-7b-alpha, Files and versions"
+      }
+    ],
+    "note": "Weights are downloadable from the HuggingFaceH4 organisation on the Hub. Hugging Face publishes no deprecation page for its models."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-10",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-alpha-model-card",
+          "locator": "Hub commit history: repository created 2023-10-09, model card written 2023-10-10"
+        },
+        {
+          "id": "src.huggingface.zephyr-7b-beta-model-card",
+          "locator": "Performance table, row Zephyr-7b-alpha"
+        }
+      ],
+      "note": "No dated announcement by Hugging Face was found, so only the month is recorded. The repository was created on 2023-10-09 and the model card written on 2023-10-10; the Zephyr 7B beta card of 2023-10-26 already compares with this model."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Zephyr 7B Alpha is the first model in Hugging Face's Zephyr series of chat assistants, a 7B fine-tune of Mistral 7B v0.1 published as open weights under the MIT licence. Hugging Face says it removed the built-in alignment of its UltraChat and UltraFeedback training data, which made the model more helpful but also more likely to produce problematic text.",
+    "sources": [
+      {
+        "id": "src.huggingface.zephyr-7b-alpha-model-card"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-alpha-model-card",
+          "locator": "first paragraph; Model description"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-alpha-model-card",
+          "locator": "first paragraph; Model description"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 7000000000,
+      "asStated": "7B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-alpha-model-card",
+          "locator": "Model description, Model type"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-alpha-model-card",
+          "locator": "Model description, License"
+        }
+      ],
+      "note": "MIT licence; the commit history shows the licence set to MIT on 2023-10-13."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-alpha-model-card",
+          "locator": "Intended uses and limitations"
+        }
+      ]
+    }
+  },
+  "notes": "First model of the Zephyr series according to its model card; no predecessor relation recorded. Fine-tuned from Mistral AI's Mistral 7B v0.1; that cross-organisation relation is not recorded here. The card also uses the name Zephyr-7B-α.",
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "mistral.mistral-7b",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.zephyr-7b-alpha-model-card"
+        }
+      ]
+    }
+  ]
+}

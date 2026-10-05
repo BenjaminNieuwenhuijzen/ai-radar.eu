@@ -1,0 +1,531 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.opt",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "opt",
+  "name": "OPT",
+  "aliases": [
+    {
+      "text": "Open Pre-trained Transformer",
+      "match": "candidate"
+    },
+    {
+      "text": "Open Pretrained Transformer",
+      "match": "candidate"
+    },
+    {
+      "text": "OPT",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": null,
+  "generation": null,
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.meta.opt-hf-collection"
+      },
+      {
+        "id": "src.meta.metaseq-opt",
+        "locator": "README: Pretrained Model Weights"
+      }
+    ],
+    "note": "Weights of OPT-125M to OPT-66B are downloadable from Meta's facebook organisation on Hugging Face and through the links in the metaseq README (seen 2026-10-01). The metaseq repository itself is archived (read-only). OPT-175B is available on request only; see that variant."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2022-05-03",
+      "sources": [
+        {
+          "id": "src.meta.opt-175b-announcement",
+          "locator": "page date: May 3, 2022"
+        },
+        {
+          "id": "src.meta.opt-paper",
+          "locator": "Appendix D, Model Card: Model date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "OPT (Open Pre-trained Transformers) is a suite of decoder-only language models from Meta, ranging from 125 million to 175 billion parameters, released on 3 May 2022 together with the metaseq code used to train them. The sizes up to 66B were released for download under a non-commercial licence; OPT-175B went to approved researchers on request.",
+    "sources": [
+      {
+        "id": "src.meta.opt-paper"
+      },
+      {
+        "id": "src.meta.opt-175b-announcement"
+      },
+      {
+        "id": "src.meta.metaseq-opt",
+        "locator": "README: Pretrained Model Weights"
+      }
+    ]
+  },
+  "capabilities": {
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.opt-175b-announcement",
+          "locator": "Responsible publication with OPT-175B"
+        },
+        {
+          "id": "src.meta.opt-paper",
+          "locator": "Section 1 Introduction"
+        },
+        {
+          "id": "src.meta.metaseq-opt",
+          "locator": "README: Pretrained Model Weights"
+        }
+      ],
+      "note": "Applies to OPT-125M to OPT-66B, released for download under the non-commercial OPT-175B License Agreement. OPT-175B weights are shared with approved researchers on request."
+    },
+    "contextWindowTokens": {
+      "value": 2048,
+      "asStated": "2048",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.opt-paper",
+          "locator": "Section 2.2 Training Setup"
+        }
+      ],
+      "note": "The paper states that all OPT models were trained with a sequence length of 2048; it gives no separate context-window figure."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.opt-175b-announcement",
+          "locator": "Responsible publication with OPT-175B"
+        },
+        {
+          "id": "src.meta.metaseq-opt",
+          "locator": "README: Pretrained Model Weights"
+        }
+      ],
+      "note": "OPT-175B differs; see that variant."
+    }
+  },
+  "variants": [
+    {
+      "id": "opt-125m",
+      "name": "OPT-125M",
+      "aliases": [
+        {
+          "text": "OPT-125M",
+          "match": "auto"
+        },
+        {
+          "text": "facebook/opt-125m",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 125000000,
+          "asStated": "125M",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.metaseq-opt",
+              "locator": "README: Pretrained Model Weights"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.opt-175b-announcement",
+          "locator": "Responsible publication with OPT-175B"
+        },
+        {
+          "id": "src.meta.metaseq-opt",
+          "locator": "README: Pretrained Model Weights"
+        }
+      ]
+    },
+    {
+      "id": "opt-350m",
+      "name": "OPT-350M",
+      "aliases": [
+        {
+          "text": "OPT-350M",
+          "match": "auto"
+        },
+        {
+          "text": "facebook/opt-350m",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 350000000,
+          "asStated": "350M",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.metaseq-opt",
+              "locator": "README: Pretrained Model Weights"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.opt-175b-announcement",
+          "locator": "Responsible publication with OPT-175B"
+        },
+        {
+          "id": "src.meta.metaseq-opt",
+          "locator": "README: Pretrained Model Weights"
+        }
+      ]
+    },
+    {
+      "id": "opt-1-3b",
+      "name": "OPT-1.3B",
+      "aliases": [
+        {
+          "text": "OPT-1.3B",
+          "match": "auto"
+        },
+        {
+          "text": "facebook/opt-1.3b",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 1300000000,
+          "asStated": "1.3B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.metaseq-opt",
+              "locator": "README: Pretrained Model Weights"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.opt-175b-announcement",
+          "locator": "Responsible publication with OPT-175B"
+        },
+        {
+          "id": "src.meta.metaseq-opt",
+          "locator": "README: Pretrained Model Weights"
+        }
+      ]
+    },
+    {
+      "id": "opt-2-7b",
+      "name": "OPT-2.7B",
+      "aliases": [
+        {
+          "text": "OPT-2.7B",
+          "match": "auto"
+        },
+        {
+          "text": "facebook/opt-2.7b",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 2700000000,
+          "asStated": "2.7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.metaseq-opt",
+              "locator": "README: Pretrained Model Weights"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.opt-175b-announcement",
+          "locator": "Responsible publication with OPT-175B"
+        },
+        {
+          "id": "src.meta.metaseq-opt",
+          "locator": "README: Pretrained Model Weights"
+        }
+      ]
+    },
+    {
+      "id": "opt-6-7b",
+      "name": "OPT-6.7B",
+      "aliases": [
+        {
+          "text": "OPT-6.7B",
+          "match": "auto"
+        },
+        {
+          "text": "facebook/opt-6.7b",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 6700000000,
+          "asStated": "6.7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.metaseq-opt",
+              "locator": "README: Pretrained Model Weights"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.opt-175b-announcement",
+          "locator": "Responsible publication with OPT-175B"
+        },
+        {
+          "id": "src.meta.metaseq-opt",
+          "locator": "README: Pretrained Model Weights"
+        }
+      ]
+    },
+    {
+      "id": "opt-13b",
+      "name": "OPT-13B",
+      "aliases": [
+        {
+          "text": "OPT-13B",
+          "match": "auto"
+        },
+        {
+          "text": "facebook/opt-13b",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 13000000000,
+          "asStated": "13B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.metaseq-opt",
+              "locator": "README: Pretrained Model Weights"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.opt-175b-announcement",
+          "locator": "Responsible publication with OPT-175B"
+        },
+        {
+          "id": "src.meta.metaseq-opt",
+          "locator": "README: Pretrained Model Weights"
+        }
+      ]
+    },
+    {
+      "id": "opt-30b",
+      "name": "OPT-30B",
+      "aliases": [
+        {
+          "text": "OPT-30B",
+          "match": "auto"
+        },
+        {
+          "text": "facebook/opt-30b",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 30000000000,
+          "asStated": "30B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.metaseq-opt",
+              "locator": "README: Pretrained Model Weights"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.opt-175b-announcement",
+          "locator": "Responsible publication with OPT-175B"
+        },
+        {
+          "id": "src.meta.metaseq-opt",
+          "locator": "README: Pretrained Model Weights"
+        }
+      ]
+    },
+    {
+      "id": "opt-66b",
+      "name": "OPT-66B",
+      "aliases": [
+        {
+          "text": "OPT-66B",
+          "match": "auto"
+        },
+        {
+          "text": "facebook/opt-66b",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "announced": {
+          "value": "2022-05-03",
+          "sources": [
+            {
+              "id": "src.meta.opt-175b-announcement",
+              "locator": "Responsible publication with OPT-175B"
+            }
+          ],
+          "note": "The launch post listed the 66B model as to be released soon."
+        },
+        "released": {
+          "value": "2022-06-22",
+          "sources": [
+            {
+              "id": "src.meta.opt-66b-release"
+            }
+          ],
+          "note": "Day the pull request adding the OPT-66B download links was merged in Meta's metaseq repository (UTC). The facebook/opt-66b repo on Hugging Face was created on 2022-06-23 according to its repository metadata, which is not a stated date."
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 66000000000,
+          "asStated": "66B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.metaseq-opt",
+              "locator": "README: Pretrained Model Weights"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.opt-66b-release"
+        },
+        {
+          "id": "src.meta.metaseq-opt",
+          "locator": "README: Pretrained Model Weights"
+        }
+      ]
+    },
+    {
+      "id": "opt-175b",
+      "name": "OPT-175B",
+      "aliases": [
+        {
+          "text": "OPT-175B",
+          "match": "auto"
+        },
+        {
+          "text": "OPT 175B",
+          "match": "auto"
+        }
+      ],
+      "lifecycle": {
+        "value": "research-only",
+        "sources": [
+          {
+            "id": "src.meta.opt-175b-announcement",
+            "locator": "opening section"
+          },
+          {
+            "id": "src.meta.metaseq-opt",
+            "locator": "README: Pretrained Model Weights, request access"
+          }
+        ],
+        "note": "Access on request for research under the non-commercial OPT-175B License Agreement. The request form linked from the README was still online on 2026-10-01; no Meta page says whether requests are still granted."
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 175000000000,
+          "asStated": "175B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.metaseq-opt",
+              "locator": "README: Pretrained Model Weights"
+            },
+            {
+              "id": "src.meta.opt-175b-announcement",
+              "locator": "opening section"
+            }
+          ]
+        },
+        "access": {
+          "value": [
+            "research-only"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.opt-175b-announcement",
+              "locator": "opening section"
+            },
+            {
+              "id": "src.meta.opt-paper",
+              "locator": "Section 1 Introduction"
+            }
+          ]
+        }
+      },
+      "note": "Not on Hugging Face; Meta grants access to academic researchers, people at government, civil society and academic organisations, and industry research labs.",
+      "sources": [
+        {
+          "id": "src.meta.opt-175b-announcement"
+        },
+        {
+          "id": "src.meta.opt-paper",
+          "locator": "Section 1 Introduction"
+        }
+      ]
+    }
+  ],
+  "notes": "OPT names the whole suite; the launch post is titled after OPT-175B. The arXiv paper v1 was submitted on 2022-05-02, one day before the launch post; the paper's own model card gives May 3, 2022 as the release date, so no alternative release date is recorded. Smaller sizes were trained on the same data with similar settings as OPT-175B; intermediate checkpoints of 2.7B, 6.7B and 13B were added to the metaseq README later (December 2022). The Hugging Face model cards for facebook/opt-* say they were written by the Hugging Face team, so they are not used for facts. OPT-IML (instruction-tuned OPT, December 2022) is not covered by this record."
+}

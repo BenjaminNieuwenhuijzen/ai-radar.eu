@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.llama-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-2",
+  "name": "Llama 2",
+  "aliases": [
+    {
+      "text": "Llama 2",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-2",
+      "match": "auto"
+    },
+    {
+      "text": "LLaMA 2",
+      "match": "auto"
+    },
+    {
+      "text": "Llama 2-Chat",
+      "match": "auto"
+    },
+    {
+      "text": "Llama-2-Chat",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.llama",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.meta.llama-2-hf-collection"
+      },
+      {
+        "id": "src.meta.llama-2-7b-hf"
+      }
+    ],
+    "note": "Weights are downloadable from Meta's meta-llama organisation on Hugging Face after accepting the Llama 2 Community License (gated, seen 2026-10-01). Meta's former download page (llama.com/llama-downloads) now redirects to dev.meta.ai and shows no public content. The meta-llama/llama GitHub repository is marked deprecated; that concerns the code repository, not the model."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-07-18",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-announcement",
+          "locator": "page date: July 18, 2023; Takeaways"
+        },
+        {
+          "id": "src.meta.llama-2-paper",
+          "locator": "v1 submission date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "meta.llama-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-announcement",
+          "locator": "paragraphs on the demand for Llama 1 and the next version"
+        },
+        {
+          "id": "src.meta.llama-2-paper",
+          "locator": "Section 1 Introduction; Table 1"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Llama 2 is the second generation of Meta's Llama language models for text, released on 18 July 2023 at 7B, 13B and 70B parameters, each with a dialogue-tuned Llama 2-Chat version. Meta made the weights free for research and commercial use and, with Microsoft as preferred partner, offered the models through Azure, AWS, Hugging Face and other providers.",
+    "sources": [
+      {
+        "id": "src.meta.llama-2-announcement"
+      },
+      {
+        "id": "src.meta.llama-2-paper"
+      },
+      {
+        "id": "src.meta.llama-2-hf-collection"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "licensing",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "meta.llama-1",
+      "text": "Free for research and commercial use under the Llama 2 Community License, where Llama 1 was offered under a noncommercial research licence.",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-announcement"
+        },
+        {
+          "id": "src.meta.llama-2-7b-hf"
+        }
+      ]
+    },
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "meta.llama-1",
+      "text": "Context length doubled from 2k to 4k tokens.",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-paper",
+          "locator": "Table 1"
+        }
+      ]
+    },
+    {
+      "id": "chat-models",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "meta.llama-1",
+      "text": "Released with dialogue-tuned versions, Llama 2-Chat, trained with supervised fine-tuning and reinforcement learning from human feedback.",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-paper"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "meta.llama-1",
+      "text": "Trained on a new mix of publicly available data; the pretraining corpus grew by about 40 percent, to 2 trillion tokens.",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-paper",
+          "locator": "Section 1 Introduction; Table 1"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-model-card",
+          "locator": "Model Details: Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-model-card",
+          "locator": "Model Details: Output"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-announcement",
+          "locator": "paragraph beginning We're now ready to open source"
+        },
+        {
+          "id": "src.meta.llama-2-hf-collection"
+        }
+      ],
+      "note": "Weights for the pretrained and chat models are released under the Llama 2 Community License; download requires accepting it."
+    },
+    "contextWindowTokens": {
+      "value": 4096,
+      "asStated": "4k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-model-card",
+          "locator": "Model Details table: Context Length"
+        },
+        {
+          "id": "src.meta.llama-2-paper",
+          "locator": "Table 1"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-announcement",
+          "locator": "paragraph beginning We're now ready to open source"
+        }
+      ],
+      "note": "At launch: Azure AI model catalog, Amazon Web Services and Hugging Face, among other providers."
+    }
+  },
+  "variants": [
+    {
+      "id": "llama-2-7b",
+      "name": "Llama 2 7B",
+      "aliases": [
+        {
+          "text": "Llama 2 7B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-2-7b",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-2-7b-hf",
+          "match": "auto"
+        },
+        {
+          "text": "Llama 2-Chat 7B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-2-7b-chat",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-2-7b-chat-hf",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 7000000000,
+          "asStated": "7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-2-model-card",
+              "locator": "Model Details table: Params"
+            }
+          ]
+        }
+      },
+      "note": "Pretrained and chat-tuned (Llama 2-Chat) versions, each in original and Hugging Face transformers (-hf) format.",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-7b-hf"
+        },
+        {
+          "id": "src.meta.llama-2-model-card",
+          "locator": "Model Details: Variations"
+        }
+      ]
+    },
+    {
+      "id": "llama-2-13b",
+      "name": "Llama 2 13B",
+      "aliases": [
+        {
+          "text": "Llama 2 13B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-2-13b",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-2-13b-hf",
+          "match": "auto"
+        },
+        {
+          "text": "Llama 2-Chat 13B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-2-13b-chat",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-2-13b-chat-hf",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 13000000000,
+          "asStated": "13B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-2-model-card",
+              "locator": "Model Details table: Params"
+            }
+          ]
+        }
+      },
+      "note": "Pretrained and chat-tuned (Llama 2-Chat) versions, each in original and Hugging Face transformers (-hf) format.",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-13b-hf"
+        },
+        {
+          "id": "src.meta.llama-2-model-card",
+          "locator": "Model Details: Variations"
+        }
+      ]
+    },
+    {
+      "id": "llama-2-70b",
+      "name": "Llama 2 70B",
+      "aliases": [
+        {
+          "text": "Llama 2 70B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-2-70b",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-2-70b-hf",
+          "match": "auto"
+        },
+        {
+          "text": "Llama 2-Chat 70B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-2-70b-chat",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-2-70b-chat-hf",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 70000000000,
+          "asStated": "70B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-2-model-card",
+              "locator": "Model Details table: Params"
+            }
+          ]
+        }
+      },
+      "note": "Pretrained and chat-tuned (Llama 2-Chat) versions, each in original and Hugging Face transformers (-hf) format. The only released size that uses grouped-query attention, per the model card.",
+      "sources": [
+        {
+          "id": "src.meta.llama-2-70b-hf"
+        },
+        {
+          "id": "src.meta.llama-2-model-card",
+          "locator": "Model Details table and caption"
+        }
+      ]
+    }
+  ],
+  "notes": "Each size has a pretrained and a dialogue-tuned version (Llama 2-Chat); the chat versions are aliases of the size variants, not separate records. The paper also reports a 34B model that Meta did not release, delaying it for lack of time to red team. Meta said it planned updated fine-tuned models; no separately announced Llama 2 revision was found (the August 2023 updates in the llama repository concern the default system prompt and token sanitisation in the code). The announcement also appears in Meta's Newsroom (about.fb.com/news/2023/07/llama-2/). Llama Guard 7B, in the same Hugging Face collection, is a separate model."
+}

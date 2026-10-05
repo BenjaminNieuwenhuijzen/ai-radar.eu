@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-5-6-terra",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-5-6-terra",
+  "name": "GPT-5.6 Terra",
+  "aliases": [
+    {
+      "text": "GPT-5.6 Terra",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.6-terra",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-terra",
+  "generation": "5.6",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.gpt-5-6-terra-docs",
+        "locator": "Snapshots"
+      },
+      {
+        "id": "src.openai.deprecations",
+        "locator": "Upcoming deprecations (gpt-5.6-terra appears only as a recommended replacement)"
+      }
+    ],
+    "note": "Listed in the API model catalog and not deprecated on the deprecations page as read on 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2026-06-26",
+      "sources": [
+        {
+          "id": "src.openai.previewing-gpt-5-6-sol",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.openai.gpt-5-6-preview-system-card",
+          "locator": "Published June 26, 2026; 1. Introduction"
+        }
+      ],
+      "note": "Announced with GPT-5.6 Sol and GPT-5.6 Luna as a limited preview for a small group of trusted partners."
+    },
+    "released": {
+      "value": "2026-07-09",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-launch",
+          "locator": "first paragraph; Availability and pricing"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "July, 2026: Jul 9"
+        },
+        {
+          "id": "src.openai.gpt-5-6-system-card",
+          "locator": "Published July 9, 2026"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-5-4-mini",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-terra-docs",
+          "locator": "description; Quick comparison"
+        }
+      ],
+      "note": "The docs say GPT-5.6 Terra roughly corresponds to the mini model tier of earlier GPT-5 families and compare it with GPT-5.4 Mini, the most recent model in that tier."
+    }
+  ],
+  "summary": {
+    "text": "GPT-5.6 Terra is the middle tier of OpenAI's GPT-5.6 family, a reasoning language model for text and image input that OpenAI describes as a capable lower-cost option. Released on 9 July 2026 in ChatGPT, Codex, the API and Amazon Bedrock, it roughly corresponds to the mini tier of earlier GPT-5 families, according to the API docs.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-5-6-system-card"
+      },
+      {
+        "id": "src.openai.gpt-5-6-launch"
+      },
+      {
+        "id": "src.openai.gpt-5-6-terra-docs"
+      },
+      {
+        "id": "src.openai.chatgpt-whats-new"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "openai.gpt-5-4-mini",
+      "text": "Context window of 1,050,000 tokens, up from 400,000 in GPT-5.4 mini.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-terra-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.gpt-5-4-mini-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-4-mini",
+      "text": "Knowledge cutoff of 16 February 2026, against 31 August 2025 for GPT-5.4 mini.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-terra-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.gpt-5-4-mini-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    {
+      "id": "max-reasoning",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5-4-mini",
+      "text": "Supports the max reasoning effort level introduced with GPT-5.6.",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "July, 2026: Jul 9"
+        }
+      ]
+    },
+    {
+      "id": "tool-calling",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5-4-mini",
+      "text": "Gains the API features added with GPT-5.6, including Programmatic Tool Calling and multi-agent orchestration in beta.",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "July, 2026: Jul 9"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-terra-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-terra-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-5-6-terra-docs",
+            "locator": "description (reasoning.effort); Model details (reasoning token support)"
+          },
+          {
+            "id": "src.openai.gpt-5-6-system-card",
+            "locator": "2. Model Data and Training"
+          }
+        ]
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-5-6-terra-docs",
+            "locator": "Supported features"
+          }
+        ]
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-5-6-terra-docs",
+            "locator": "Supported tools"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1050000,
+      "asStated": "1,050,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-terra-docs",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The docs give 922,000 maximum input tokens and 128,000 maximum output tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-launch",
+          "locator": "Availability and pricing"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "July, 2026: Jul 9"
+        },
+        {
+          "id": "src.openai.chatgpt-whats-new",
+          "locator": "July 13–17, 2026: Use GPT-5.6 through Amazon Bedrock"
+        },
+        {
+          "id": "src.openai.amazon-bedrock-guide",
+          "locator": "examples with openai.gpt-5.6-terra"
+        }
+      ]
+    }
+  },
+  "notes": "Middle tier of the GPT-5.6 family (system card: a capable lower-cost option). The deprecations page names gpt-5.6-terra as the replacement for gpt-5-mini-2025-08-07 and several older small models. In Codex, a notice of 2026-07-31 named gpt-5.6-terra as the replacement for gpt-5.4 (not gpt-5.4-mini, which went to gpt-5.6-luna) ahead of their retirement from Codex with ChatGPT sign-in on 2026-08-31; the relation follows the API docs tier mapping instead. On 2026-07-30 its API price was cut by 20%. The openai.com posts were read through Wayback Machine captures."
+}

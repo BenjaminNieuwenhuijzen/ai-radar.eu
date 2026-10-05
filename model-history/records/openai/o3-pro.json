@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.o3-pro",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "o3-pro",
+  "name": "o3-pro",
+  "aliases": [
+    {
+      "text": "o3-pro",
+      "match": "auto"
+    },
+    {
+      "text": "OpenAI o3-pro",
+      "match": "auto"
+    },
+    {
+      "text": "o3-pro-2025-06-10",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.o-series",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.openai.deprecations",
+        "locator": "2026-06-11: GPT-5 and o3 model deprecations"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "openai.gpt-5-6-sol",
+    "sources": [
+      {
+        "id": "src.openai.deprecations",
+        "locator": "2026-06-11: GPT-5 and o3 model deprecations"
+      }
+    ],
+    "note": "The deprecations page recommends gpt-5.6-sol with reasoning.mode pro for o3-pro-2025-06-10."
+  },
+  "dates": {
+    "announced": {
+      "value": "2025-04-16",
+      "sources": [
+        {
+          "id": "src.openai.o3-o4-mini-announcement",
+          "locator": "Access"
+        }
+      ],
+      "note": "The o3 and o4-mini announcement said o3-pro would follow in a few weeks with full tool support."
+    },
+    "released": {
+      "value": "2025-06-10",
+      "sources": [
+        {
+          "id": "src.openai.o3-o4-mini-announcement",
+          "locator": "update note of June 10, 2025"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Jun 10, 2025"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-06-11",
+      "sources": [
+        {
+          "id": "src.openai.deprecations",
+          "locator": "2026-06-11: GPT-5 and o3 model deprecations"
+        }
+      ]
+    },
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "variant-of",
+      "target": "openai.o3",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.o3-o4-mini-announcement",
+          "locator": "update note of June 10, 2025"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Jun 10, 2025"
+        },
+        {
+          "id": "src.openai.o3-pro-docs",
+          "locator": "introduction"
+        }
+      ],
+      "note": "OpenAI describes o3-pro as a version of o3 that uses more compute to think longer."
+    }
+  ],
+  "summary": {
+    "text": "o3-pro is a version of OpenAI's o3 reasoning model that uses more compute to think longer, released on 10 June 2025 for ChatGPT Pro users and in the API. It accepts text and image input; the docs say it is offered only in the Responses API and that some requests can take several minutes.",
+    "sources": [
+      {
+        "id": "src.openai.o3-o4-mini-announcement"
+      },
+      {
+        "id": "src.openai.api-changelog"
+      },
+      {
+        "id": "src.openai.o3-pro-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "more-compute",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "openai.o3",
+      "text": "Uses more compute than o3 to think longer before answering; the docs say some requests can take several minutes.",
+      "sources": [
+        {
+          "id": "src.openai.o3-pro-docs"
+        },
+        {
+          "id": "src.openai.api-changelog"
+        }
+      ]
+    },
+    {
+      "id": "limited-access",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "openai.o3",
+      "text": "Limited to ChatGPT Pro users and, according to the docs, the Responses API.",
+      "sources": [
+        {
+          "id": "src.openai.o3-pro-docs"
+        },
+        {
+          "id": "src.openai.o3-o4-mini-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o3-pro-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o3-pro-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o3-pro-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o3-o4-mini-announcement",
+          "locator": "update note of June 10, 2025"
+        },
+        {
+          "id": "src.openai.o3-pro-docs",
+          "locator": "introduction"
+        }
+      ],
+      "note": "ChatGPT Pro users and the API; the docs say the Responses API only, while the changelog entry also tags the Batch API."
+    }
+  },
+  "notes": "Separate record because OpenAI released it under its own name and API id two months after o3. On 2025-08-07 OpenAI said GPT-5 pro replaced it (src.openai.gpt-5-announcement). The 2026-06-11 deprecation names o3-pro-2025-06-10 with shutdown scheduled for 2026-12-11; retired is left empty until then."
+}

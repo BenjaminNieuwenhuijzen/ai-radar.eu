@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-3-5-flash-lite",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-3-5-flash-lite",
+  "name": "Gemini 3.5 Flash-Lite",
+  "aliases": [
+    {
+      "text": "Gemini 3.5 Flash-Lite",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-3.5-flash-lite",
+      "match": "auto"
+    },
+    {
+      "text": "3.5 Flash-Lite",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-flash-lite",
+  "generation": "3.5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 3 models: gemini-3.5-flash-lite"
+      },
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Models available for at least 12 months after release"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-07-21",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-6-flash-3-5-flash-lite-announcement",
+          "locator": "3.6 Flash and 3.5 Flash-Lite: Get started today"
+        },
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "July 21, 2026"
+        },
+        {
+          "id": "src.google.agent-platform-gemini-3-5-flash-lite",
+          "locator": "Versions"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemini-3-1-flash-lite",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-5-flash-lite-model-card",
+          "locator": "Model Information: Model dependencies"
+        },
+        {
+          "id": "src.google.gemini-api-deprecations",
+          "locator": "Gemini 3 models: gemini-3.1-flash-lite"
+        },
+        {
+          "id": "src.google.gemini-3-6-flash-3-5-flash-lite-announcement",
+          "locator": "3.5 Flash-Lite: Built to scale agentic workflows"
+        }
+      ],
+      "note": "The model card says 3.5 Flash-Lite is based on Gemini 3.1 Flash-Lite, and the Gemini API deprecations page names gemini-3.5-flash-lite as the recommended replacement for gemini-3.1-flash-lite."
+    }
+  ],
+  "summary": {
+    "text": "Gemini 3.5 Flash-Lite is a multimodal reasoning model in Google's Flash-Lite line, released on 21 July 2026 through the Gemini API, Gemini Enterprise Agent Platform and the Gemini app. Based on Gemini 3.1 Flash-Lite, it takes text, image, audio, video and PDF input and returns text; Google aims it at low-latency, high-volume work such as agentic search and document processing.",
+    "sources": [
+      {
+        "id": "src.google.gemini-3-6-flash-3-5-flash-lite-announcement"
+      },
+      {
+        "id": "src.google.gemini-3-5-flash-lite-model-card"
+      },
+      {
+        "id": "src.google.gemini-api-model-gemini-3-5-flash-lite"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "computer-use",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "google.gemini-3-1-flash-lite",
+      "text": "Computer use is available as a built-in tool; the Gemini API model page lists it as a preview capability.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-6-flash-3-5-flash-lite-announcement"
+        },
+        {
+          "id": "src.google.gemini-api-model-gemini-3-5-flash-lite",
+          "locator": "Capabilities: Computer use"
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-3-1-flash-lite",
+      "text": "Google reports higher quality than 3.1 Flash-Lite across thinking levels in coding, agentic, long-context and real-world task evaluations.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-6-flash-3-5-flash-lite-announcement"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-3-1-flash-lite",
+      "text": "List price rose to 0.30 USD per million input tokens and 2.50 USD per million output tokens, from 0.25 USD and 1.50 USD for 3.1 Flash-Lite.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-5-flash-lite-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-5-flash-lite",
+          "locator": "Supported data types: Inputs"
+        },
+        {
+          "id": "src.google.gemini-3-5-flash-lite-model-card",
+          "locator": "Model Information: Inputs"
+        }
+      ],
+      "note": "PDF input is also listed."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-5-flash-lite",
+          "locator": "Supported data types: Output"
+        },
+        {
+          "id": "src.google.gemini-3-5-flash-lite-model-card",
+          "locator": "Model Information: Outputs"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-model-gemini-3-5-flash-lite",
+            "locator": "Capabilities: Thinking"
+          },
+          {
+            "id": "src.google.agent-platform-gemini-3-5-flash-lite",
+            "locator": "introduction: thinking levels"
+          }
+        ],
+        "note": "Configurable thinking levels; Agent Platform says the model defaults to minimal thinking."
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-3-6-flash-3-5-flash-lite-announcement",
+            "locator": "3.5 Flash-Lite: Built to scale agentic workflows"
+          },
+          {
+            "id": "src.google.gemini-api-model-gemini-3-5-flash-lite",
+            "locator": "Capabilities: Computer use"
+          }
+        ],
+        "note": "Listed as a preview capability on the Gemini API model page."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-5-flash-lite",
+          "locator": "Token limits: Input token limit"
+        },
+        {
+          "id": "src.google.agent-platform-gemini-3-5-flash-lite",
+          "locator": "Token limits: Context window"
+        }
+      ],
+      "note": "The model card gives a context window of up to 1M tokens; output is limited to 65,536 tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-6-flash-3-5-flash-lite-announcement",
+          "locator": "3.6 Flash and 3.5 Flash-Lite: Get started today"
+        },
+        {
+          "id": "src.google.gemini-3-5-flash-lite-model-card",
+          "locator": "Distribution"
+        }
+      ],
+      "note": "Gemini API (Google AI Studio, Android Studio), Gemini Enterprise Agent Platform and the Gemini app; the announcement says it was also rolling out in Google Search."
+    }
+  },
+  "notes": "Released on the same day and in the same post as Gemini 3.6 Flash; the post also announced Gemini 3.5 Flash Cyber, which has no record. The model card lists Gemini 3.1 Flash-Lite as the model it is based on; recorded as successor-of along the Flash-Lite line. Agent Platform lists a retirement date of July 21, 2027 or later, which is a planned earliest date, not a deprecation; the Gemini API deprecations page lists no shutdown date on 2026-10-01."
+}

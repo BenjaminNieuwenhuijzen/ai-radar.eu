@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-3-5-flash",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-3-5-flash",
+  "name": "Gemini 3.5 Flash",
+  "aliases": [
+    {
+      "text": "Gemini 3.5 Flash",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-3.5-flash",
+      "match": "auto"
+    },
+    {
+      "text": "3.5 Flash",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-flash",
+  "generation": "3.5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-models",
+        "locator": "Gemini 3, Stable"
+      },
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 3 models: gemini-3.5-flash"
+      },
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Models available for at least 12 months after release"
+      }
+    ],
+    "note": "Stable model with no shutdown date announced in the Gemini API; Agent Platform lists retirement on May 19, 2027 or later. The models overview calls it Google's legacy Flash model on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-05-19",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-5-announcement"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "May 19, 2026"
+        },
+        {
+          "id": "src.google.gemini-api-deprecations",
+          "locator": "gemini-3.5-flash: release date"
+        },
+        {
+          "id": "src.google.agent-platform-model-versions",
+          "locator": "gemini-3.5-flash: release date"
+        }
+      ],
+      "note": "Generally available from the first day, at Google I/O 2026."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemini-3-flash",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-5-flash-model-card",
+          "locator": "Model Information: Model dependencies"
+        },
+        {
+          "id": "src.google.gemini-api-whats-new-gemini-3-5",
+          "locator": "Migrate from Gemini 3 Flash Preview"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "May 19, 2026"
+        }
+      ],
+      "note": "The model card says Gemini 3.5 Flash is based on Gemini 3 Flash; the developer guide covers migration from Gemini 3 Flash Preview; gemini-flash-latest moved from gemini-3-flash-preview to this model."
+    }
+  ],
+  "summary": {
+    "text": "Gemini 3.5 Flash is a multimodal language model in Google's Gemini Flash line and the first model of the Gemini 3.5 series, generally available from 19 May 2026 in the Gemini API, Agent Platform, the Gemini app and AI Mode in Search, where it became the default. Google positions it for agentic, coding and long-running tasks, including running subagents.",
+    "sources": [
+      {
+        "id": "src.google.gemini-3-5-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "stable-release",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "google.gemini-3-flash",
+      "text": "Generally available as a stable model from release, whereas Gemini 3 Flash remained a preview model.",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-whats-new-gemini-3-5"
+        },
+        {
+          "id": "src.google.gemini-api-models",
+          "locator": "Gemini 3, Stable; Gemini 3, Preview"
+        }
+      ]
+    },
+    {
+      "id": "default-thinking",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "google.gemini-3-flash",
+      "text": "The default thinking effort is medium instead of high.",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-whats-new-gemini-3-5",
+          "locator": "Behavioral changes"
+        }
+      ]
+    },
+    {
+      "id": "multi-turn-reasoning",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "google.gemini-3-flash",
+      "text": "Keeps intermediate reasoning across multi-turn conversations automatically.",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-whats-new-gemini-3-5"
+        }
+      ]
+    },
+    {
+      "id": "safeguards",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "google.gemini-3-flash",
+      "text": "Google says the Gemini 3.5 series was developed under its Frontier Safety Framework, with strengthened cyber and CBRN safeguards.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-5-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-5-flash",
+          "locator": "Supported data types: Inputs"
+        },
+        {
+          "id": "src.google.gemini-3-5-flash-model-card",
+          "locator": "Inputs"
+        }
+      ],
+      "note": "PDF input is also supported."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-5-flash",
+          "locator": "Supported data types: Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-model-gemini-3-5-flash",
+            "locator": "Capabilities: Thinking"
+          },
+          {
+            "id": "src.google.gemini-api-whats-new-gemini-3-5",
+            "locator": "Behavioral changes"
+          }
+        ],
+        "note": "Thinking levels minimal, low, medium (default) and high."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-model-gemini-3-5-flash",
+            "locator": "Capabilities: Function calling"
+          }
+        ]
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "June 24, 2026"
+          },
+          {
+            "id": "src.google.gemini-api-model-gemini-3-5-flash",
+            "locator": "Capabilities: Computer use"
+          }
+        ],
+        "note": "Computer Use tool in public preview from 2026-06-24."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-5-flash",
+          "locator": "Token limits: Input token limit"
+        }
+      ],
+      "note": "Input token limit; the output limit is 65,536 tokens. The model card gives a context window of up to 1M."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-5-announcement",
+          "locator": "3.5 Flash is available today"
+        }
+      ],
+      "note": "API: the Gemini API (Google AI Studio, Android Studio), Google Antigravity and Gemini Enterprise Agent Platform. Consumer: the Gemini app and AI Mode in Search, where it became the default model."
+    }
+  },
+  "notes": "First model of the Gemini 3.5 series. The Gemini 3.5 Flash model page lists gemini-3-flash-preview as its preview version; Gemini 3 Flash is kept as its own record. Gemini 3.5 Flash Cyber (July 2026) is a different model, so news about it may also match the alias Gemini 3.5 Flash. Agent Platform access is counted under api."
+}

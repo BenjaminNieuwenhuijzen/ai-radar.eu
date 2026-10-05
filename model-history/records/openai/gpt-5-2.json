@@ -1,0 +1,383 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-5-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-5-2",
+  "name": "GPT-5.2",
+  "aliases": [
+    {
+      "text": "GPT-5.2",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.2-2025-12-11",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-5.2 Thinking",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-5.2 Instant",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.2-chat-latest",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.2-thinking",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.2-instant",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "5.2",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.api-model-gpt-5-2",
+        "locator": "Model details"
+      },
+      {
+        "id": "src.openai.api-deprecations"
+      }
+    ],
+    "note": "The API model gpt-5.2 is listed in the catalog as the previous flagship and is not on the deprecations page. GPT-5.2 Instant, Thinking and Pro were removed from ChatGPT on 2026-06-12, and the chat alias gpt-5.2-chat-latest was shut down on 2026-08-10."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-12-11",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-2",
+          "locator": "opening and Availability & pricing"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Dec 11 (2025)"
+        },
+        {
+          "id": "src.openai.chatgpt-release-notes",
+          "locator": "December 11, 2025"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "chatgpt-retirement",
+      "label": "Removed from ChatGPT",
+      "date": {
+        "value": "2026-06-12",
+        "sources": [
+          {
+            "id": "src.openai.chatgpt-release-notes",
+            "locator": "June 12, 2026: Retiring GPT-5.2 models"
+          }
+        ],
+        "note": "Actual removal date. Earlier announced plans named different days for individual models.",
+        "alternatives": [
+          {
+            "value": "2026-06-03",
+            "sources": [
+              {
+                "id": "src.openai.gpt-5-3-instant",
+                "locator": "Availability"
+              }
+            ],
+            "note": "Planned retirement of GPT-5.2 Instant as announced with GPT-5.3 Instant."
+          },
+          {
+            "value": "2026-06-05",
+            "sources": [
+              {
+                "id": "src.openai.introducing-gpt-5-4",
+                "locator": "Availability and pricing"
+              }
+            ],
+            "note": "Planned retirement of GPT-5.2 Thinking as announced with GPT-5.4."
+          }
+        ]
+      }
+    },
+    {
+      "id": "chat-alias-shutdown",
+      "label": "gpt-5.2-chat-latest shut down in the API",
+      "date": {
+        "value": "2026-08-10",
+        "sources": [
+          {
+            "id": "src.openai.api-deprecations",
+            "locator": "2026-05-08: gpt-5.2-chat-latest and gpt-5.3-chat-latest model snapshots"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-5-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Dec 11 (2025)"
+        },
+        {
+          "id": "src.openai.introducing-gpt-5-2",
+          "locator": "Availability & pricing"
+        },
+        {
+          "id": "src.openai.gpt-5-2-system-card-update",
+          "locator": "Introduction"
+        }
+      ],
+      "note": "The changelog describes GPT-5.2 as improving on the previous GPT-5.1, the system card update places it in the same GPT-5 series after GPT-5.1, and in ChatGPT GPT-5.1 moved to the legacy models."
+    }
+  ],
+  "summary": {
+    "text": "GPT-5.2 is an OpenAI model series for text and image input aimed at professional knowledge work, released on 11 December 2025 in ChatGPT as GPT-5.2 Instant, Thinking and Pro and in the API the same day. It added an xhigh reasoning effort level and moved the knowledge cutoff to August 2025.",
+    "sources": [
+      {
+        "id": "src.openai.introducing-gpt-5-2"
+      },
+      {
+        "id": "src.openai.api-model-gpt-5-2",
+        "locator": "Model details"
+      },
+      {
+        "id": "src.openai.api-changelog",
+        "locator": "Dec 11 (2025)"
+      },
+      {
+        "id": "src.openai.chatgpt-release-notes",
+        "locator": "December 11, 2025"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "xhigh-and-compaction",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5-1",
+      "text": "Adds an xhigh reasoning effort level, concise reasoning summaries and context management through compaction.",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Dec 11 (2025)"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-1",
+      "text": "Knowledge cutoff moves to 31 August 2025, from 30 September 2024 for GPT-5.1.",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-2"
+        },
+        {
+          "id": "src.openai.api-model-gpt-5-1"
+        }
+      ]
+    },
+    {
+      "id": "vision",
+      "aspect": "modality",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-1",
+      "text": "OpenAI reports better image understanding, especially reasoning over charts and understanding software interfaces.",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-2"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-1",
+      "text": "Higher API price than GPT-5.1: 1.75 USD input and 14 USD output per million tokens, against 1.25 and 10 USD.",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-2",
+          "locator": "Availability & pricing"
+        },
+        {
+          "id": "src.openai.api-model-gpt-5-1"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-2",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-2",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.api-model-gpt-5-2"
+          },
+          {
+            "id": "src.openai.introducing-gpt-5-2",
+            "locator": "Model naming across ChatGPT & API"
+          }
+        ],
+        "note": "Reasoning effort none (default), low, medium, high and the new xhigh."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.api-model-gpt-5-2",
+            "locator": "Supported features"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 400000,
+      "asStated": "400,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-2",
+          "locator": "Model details"
+        }
+      ],
+      "note": "API model gpt-5.2 (GPT-5.2 Thinking)."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-2",
+          "locator": "Availability & pricing"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "pro",
+      "name": "GPT-5.2 Pro",
+      "aliases": [
+        {
+          "text": "GPT-5.2 Pro",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-5.2-pro",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-5.2-pro-2025-12-11",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2025-12-11",
+          "sources": [
+            {
+              "id": "src.openai.introducing-gpt-5-2",
+              "locator": "Model naming across ChatGPT & API"
+            },
+            {
+              "id": "src.openai.api-model-gpt-5-2-pro",
+              "locator": "Snapshots"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "contextWindowTokens": {
+          "value": 400000,
+          "asStated": "400,000",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.openai.api-model-gpt-5-2-pro",
+              "locator": "Model details"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-2"
+        },
+        {
+          "id": "src.openai.api-model-gpt-5-2-pro"
+        }
+      ],
+      "note": "Released the same day in ChatGPT (paid plans) and in the Responses API as gpt-5.2-pro, with reasoning effort medium, high or xhigh. Removed from ChatGPT with the other GPT-5.2 models on 2026-06-12."
+    }
+  ],
+  "notes": "One record for GPT-5.2 Instant and GPT-5.2 Thinking (API gpt-5.2-chat-latest and gpt-5.2), with GPT-5.2 Pro as an inline variant. The capabilities describe the API model gpt-5.2. Knowledge cutoff per the API docs: Aug 31, 2025 (ChatGPT release notes: August 2025). GPT-5.2-Codex is out of scope. On 2026-02-03 OpenAI said GPT-5.2 ran about 40 percent faster in the API with unchanged weights (changelog)."
+}

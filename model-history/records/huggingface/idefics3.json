@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "id": "huggingface.idefics3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "idefics3",
+  "name": "Idefics3",
+  "aliases": [
+    {
+      "text": "Idefics3",
+      "match": "auto"
+    },
+    {
+      "text": "Idefics3-8B-Llama3",
+      "match": "auto"
+    },
+    {
+      "text": "Idefics3-8B",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "huggingface",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "huggingface.idefics",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.huggingface.idefics3-model-card",
+        "locator": "model repository (weights hosted on the Hub)"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-08",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics3-model-card",
+          "locator": "Hub commit history: repository created 2024-08-05; community tab: first discussion 2024-08-08"
+        },
+        {
+          "id": "src.huggingface.idefics3-paper",
+          "locator": "arXiv v1 of 22 Aug 2024; Introduction: model released alongside the training datasets"
+        }
+      ],
+      "note": "No dated announcement. The month follows from the Hub repository (created 2024-08-05; first public community discussion 2024-08-08) and the technical report (arXiv v1, 2024-08-22)."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "huggingface.idefics2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics3-model-card",
+          "locator": "introduction: improves upon Idefics1 and Idefics2"
+        },
+        {
+          "id": "src.huggingface.idefics3-paper",
+          "locator": "Introduction: its predecessor, Idefics2-8B"
+        }
+      ],
+      "note": null
+    },
+    {
+      "type": "derived-from",
+      "target": "meta.llama-3-1",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics3-model-card",
+          "locator": "parent model: Llama 3.1 8B Instruct"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Idefics3 is an 8B open-weight multimodal model from Hugging Face that takes interleaved images and text and produces text, built on Meta's Llama 3.1 8B Instruct and Google's SigLIP-SO400M and released under Apache 2.0. Hugging Face says it improves on Idefics2 in OCR, document understanding and visual reasoning, and released the Docmatix dataset with it.",
+    "sources": [
+      {
+        "id": "src.huggingface.idefics3-model-card"
+      },
+      {
+        "id": "src.huggingface.idefics3-paper"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "language-model",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "huggingface.idefics2",
+      "text": "Uses Llama 3.1 Instruct instead of Mistral-7B as the language model.",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics3-paper"
+        }
+      ]
+    },
+    {
+      "id": "image-tiles",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "huggingface.idefics2",
+      "text": "Encodes each image tile of up to 364x364 pixels with 169 visual tokens; larger images are split into tiles that are encoded separately.",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics3-model-card"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "huggingface.idefics2",
+      "text": "Fine-tuning data extends The Cauldron with further datasets, including Docmatix.",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics3-model-card"
+        }
+      ]
+    },
+    {
+      "id": "document-understanding",
+      "aspect": "other",
+      "relativeTo": "huggingface.idefics2",
+      "text": "Hugging Face reports a large improvement over Idefics2 in document understanding.",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics3-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics3-model-card",
+          "locator": "introduction; Model Summary: Model type"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics3-model-card",
+          "locator": "introduction"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 8000000000,
+      "asStated": "8B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics3-paper",
+          "locator": "Introduction: Idefics3-8B"
+        },
+        {
+          "id": "src.huggingface.idefics3-model-card",
+          "locator": "Uses: Idefics3-8B"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics3-model-card",
+          "locator": "introduction; License: checkpoints released under Apache 2.0"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.idefics3-model-card",
+          "locator": "How to Get Started"
+        }
+      ]
+    }
+  },
+  "notes": "Hub model id HuggingFaceM4/Idefics3-8B-Llama3. Built on Meta Llama 3.1 8B Instruct and Google SigLIP so400m-patch14-384 (parent models on the card); those cross-organisation relations are not recorded here. Post-training was supervised fine-tuning only, without RLHF (card). No blog post. Context window not stated by Hugging Face, so left out."
+}

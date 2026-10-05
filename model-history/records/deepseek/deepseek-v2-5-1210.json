@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v2-5-1210",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v2-5-1210",
+  "name": "DeepSeek-V2.5-1210",
+  "aliases": [
+    {
+      "text": "DeepSeek-V2.5-1210",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V2.5-1210",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V2.5",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-v",
+  "generation": "2.5",
+  "categories": [
+    "language"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v2-5-1210-hf"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2024-12-26"
+      }
+    ],
+    "note": "Weights are still public on Hugging Face. In the DeepSeek API, deepseek-chat moved to DeepSeek-V3 on 2024-12-26."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v3",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2024-12-26"
+      }
+    ],
+    "note": "In the DeepSeek API only: deepseek-chat was upgraded to DeepSeek-V3. The weights stay available."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-12-10",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-1210-announcement",
+          "locator": "news sidebar: DeepSeek-V2.5-1210 Release 2024/12/10"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-12-10"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-5-1210-news",
+          "locator": "page date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "deepseek.deepseek-v2-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-1210-hf",
+          "locator": "1. Introduction"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-5-1210-announcement"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-12-10"
+        }
+      ],
+      "note": "The model card calls it an upgraded version of DeepSeek-V2.5; DeepSeek announced it publicly as the last release of the V2.5 series."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V2.5-1210 is an upgraded version of DeepSeek-V2.5, released on 10 December 2024 behind deepseek-chat in the DeepSeek API and as open weights on Hugging Face. DeepSeek presented it as the last release of the V2.5 series; the model card documents function calling, JSON output and fill-in-the-middle completion.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-v2-5-1210-hf"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2024-12-10"
+      },
+      {
+        "id": "src.deepseek.deepseek-v2-5-1210-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "improvements",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v2-5",
+      "text": "DeepSeek reports improvements in maths, coding, writing and reasoning over DeepSeek-V2.5.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-1210-hf"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-12-10"
+        }
+      ]
+    },
+    {
+      "id": "file-upload-summarisation",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v2-5",
+      "text": "DeepSeek says the update improves the user experience for file upload and web page summarisation.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-1210-hf"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.deepseek-v2-5-1210-hf",
+            "locator": "Function calling"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v2-5-1210-hf",
+          "locator": "3. License"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-5-1210-announcement"
+        }
+      ],
+      "note": "Code under MIT; model use under the DeepSeek Model License, which supports commercial use."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2024-12-10"
+        },
+        {
+          "id": "src.deepseek.deepseek-v2-5-1210-hf"
+        }
+      ]
+    }
+  },
+  "notes": "Served through the API id deepseek-chat, which pointed to other models before and after, so that id is not an alias. DeepSeek V2.5 is candidate because it also names DeepSeek-V2.5. The announcement launched Internet Search in the web chat together with this model but does not say the web chat runs it, so consumer-app is left out. The model card refers to the DeepSeek-V2 paper for architecture details and states no parameter count or context window, so both are left out."
+}

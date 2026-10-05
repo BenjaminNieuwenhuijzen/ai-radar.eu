@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.llama-4-behemoth",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-4-behemoth",
+  "name": "Llama 4 Behemoth",
+  "aliases": [
+    {
+      "text": "Llama 4 Behemoth",
+      "match": "auto"
+    },
+    {
+      "text": "Behemoth",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.llama-4",
+  "generation": "4",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "announced",
+    "sources": [
+      {
+        "id": "src.meta.llama-4-announcement",
+        "locator": "Takeaways; opening paragraphs"
+      }
+    ],
+    "note": "Previewed while still in training; Meta said it was not yet releasing the model. No later Meta source reporting a release, weights or API access was found as of 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2025-04-05",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "page date; Takeaways"
+        }
+      ],
+      "note": "Previewed in the Llama 4 announcement as a teacher model that was still training; no release date was given."
+    },
+    "released": null,
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Llama 4 Behemoth is a mixture-of-experts model in Meta's Llama 4 line, previewed in April 2025 while still in training, which Meta said it was not yet releasing. Meta describes it as multimodal, with 16 experts and 288B of nearly two trillion parameters active, and used it as the teacher model for distilling Llama 4 Scout and Llama 4 Maverick.",
+    "sources": [
+      {
+        "id": "src.meta.llama-4-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "meta.llama-3-1",
+      "text": "Nearly two trillion total parameters, with 288B active per token; Meta presents it as taking Llama to new sizes.",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "Takeaways; Pushing Llama to new sizes: The 2T Behemoth"
+        }
+      ]
+    },
+    {
+      "id": "teacher-moe",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "meta.llama-3-1",
+      "text": "Mixture-of-experts model with 16 experts, trained as the teacher model for distilling the smaller Llama 4 models.",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "parameters": {
+      "value": 2000000000000,
+      "asStated": "288B active parameters, nearly two trillion total parameters",
+      "qualifier": "approximate",
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-4-announcement",
+          "locator": "Takeaways; Pushing Llama to new sizes: The 2T Behemoth"
+        }
+      ],
+      "note": "Mixture-of-experts model with 16 experts. Meta gives the total only as nearly two trillion (section heading: The 2T Behemoth); the value is that approximation."
+    }
+  },
+  "notes": "Previewed in the post The Llama 4 herd as the teacher model used for distillation of Llama 4 Scout and Llama 4 Maverick. Meta describes it as a multimodal mixture-of-experts model but published no input or output specification, model card or weights for it, so only language is recorded as category and no modalities, access or openWeights are given. Add a release date and capabilities if Meta ever releases it."
+}

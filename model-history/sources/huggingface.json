@@ -1,0 +1,519 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.huggingface.ai-action-plan-response-2025",
+      "type": "other",
+      "title": "Hugging Face Response to Request for Information on the Development of an Artificial Intelligence Action Plan",
+      "url": "https://huggingface.co/datasets/huggingface/policy-docs/resolve/main/2025_Hugging_Face_Response_to_AI_Action_Plan.pdf",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2025-03"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "PDF in the huggingface/policy-docs dataset on the Hugging Face Hub, linked from the blog post https://huggingface.co/blog/ai-action-wh-2025. The cover gives March 2025. The resolve URL answers 302 to a signed, expiring CDN address, so the stable Hub URL is kept. Facts used: the About Hugging Face section (community-driven U.S. company; hosts models and datasets; educational resources, courses and tooling) and the sentence saying it was founded in 2016.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.alignment-handbook",
+      "type": "repository",
+      "title": "The Alignment Handbook",
+      "url": "https://github.com/huggingface/alignment-handbook",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face GitHub repository; title from the README heading (GitHub page title: huggingface/alignment-handbook: Robust recipes to align language models with human and AI preferences). Living README. Its News section has dated release entries, as seen in October 2026: November 10, 2023 (training code for Zephyr-7b-beta), March 1, 2024 (Zephyr 7B Gemma), March 12, 2024 (StarChat2 15B), April 12, 2024 (Zephyr 141B (A35B)).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.idefics-80b-model-card",
+      "type": "model-card",
+      "title": "IDEFICS",
+      "url": "https://huggingface.co/HuggingFaceM4/idefics-80b",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card of the Hub repository HuggingFaceM4/idefics-80b; title from the card heading (HTML title: HuggingFaceM4/idefics-80b · Hugging Face). The same card text is used in the idefics-9b repository. The card states no date; the repository was created on 2023-07-05 (before the public announcement) and last changed on 2023-10-12.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.idefics-9b-model-card",
+      "type": "model-card",
+      "title": "IDEFICS",
+      "url": "https://huggingface.co/HuggingFaceM4/idefics-9b",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card of the Hub repository HuggingFaceM4/idefics-9b; same card text as HuggingFaceM4/idefics-80b. The card states no date; the repository was created on 2023-07-11 and last changed on 2023-10-12.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.idefics-announcement",
+      "type": "announcement",
+      "title": "Introducing IDEFICS: An Open Reproduction of State-of-the-Art Visual Language Model",
+      "url": "https://huggingface.co/blog/idefics",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2023-08-22"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face blog post. Title from the page heading; the HTML title reads Introducing IDEFICS: An Open Reproduction of State-of-the-art Visual Langage Model (sic).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.idefics2-8b-model-card",
+      "type": "model-card",
+      "title": "Idefics2",
+      "url": "https://huggingface.co/HuggingFaceM4/idefics2-8b",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card of the Hub repository HuggingFaceM4/idefics2-8b (created 2024-04-09); title from the card heading. Describes the idefics2-8b-base, idefics2-8b and idefics2-8b-chatty checkpoints. The card states no date.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.idefics2-announcement",
+      "type": "announcement",
+      "title": "Introducing Idefics2: A Powerful 8B Vision-Language Model for the community",
+      "url": "https://huggingface.co/blog/idefics2",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2024-04-15"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face blog post. Its resource list links the Idefics2 paper, which appeared on 2024-05-03, so the post was edited after publication.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.idefics2-paper",
+      "type": "research-paper",
+      "title": "What matters when building vision-language models?",
+      "url": "https://arxiv.org/abs/2405.02246",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2024-05-03"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv paper by the Hugging Face M4 team; one version, v1, submitted 2024-05-03. Describes the development of Idefics2 and the release of its base, instructed and chat versions.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.idefics3-model-card",
+      "type": "model-card",
+      "title": "HuggingFaceM4/Idefics3-8B-Llama3",
+      "url": "https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hub model page and card; the card heading reads Idefics3 and states no date. Hub commit history: repository created 2024-08-05; first public community discussion on 2024-08-08.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.idefics3-paper",
+      "type": "technical-report",
+      "title": "Building and better understanding vision-language models: insights and future directions",
+      "url": "https://arxiv.org/abs/2408.12637",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2024-08-22",
+        "note": "arXiv v1 submission date."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv paper by Hugging Face authors (Laurençon, Marafioti, Sanh, Tronchon); the Idefics3 model card links it as the technical report. Only v1 listed when seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.obelics-paper",
+      "type": "research-paper",
+      "title": "OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents",
+      "url": "https://arxiv.org/abs/2306.16527",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2023-06-21"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv paper by the Hugging Face M4 team with outside co-authors. v1 was submitted on 2023-06-21 and v2 on 2023-08-21; the v2 abstract names the 9 and 80 billion parameter models IDEFICS. Claims here rely on v2 (https://arxiv.org/abs/2306.16527v2).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.privacy-policy",
+      "type": "other",
+      "title": "Hugging Face Privacy Policy",
+      "url": "https://huggingface.co/privacy",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page; states Effective Date: March 28, 2023. Names Hugging Face SAS, headquartered at 9 rue des Colonnes, Paris, as the main establishment in the European Union. HTML title: Privacy Policy – Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smollm-1-7b-instruct-model-card",
+      "type": "model-card",
+      "title": "HuggingFaceTB/SmolLM-1.7B-Instruct",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM-1.7B-Instruct",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hub model page and card with an undated changelog for v0.1 and v0.2; v0.1 stays loadable as revision v0.1. Last card change 2024-08-18 (Hub commit history).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smollm-1-7b-model-card",
+      "type": "model-card",
+      "title": "HuggingFaceTB/SmolLM-1.7B",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM-1.7B",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hub model page and card; the card heading reads SmolLM and states no date. Hub commit history: repository created 2024-07-14. HuggingFaceTB/SmolLM-135M and HuggingFaceTB/SmolLM-360M carry a similar card.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smollm-announcement",
+      "type": "announcement",
+      "title": "SmolLM - blazingly fast and remarkably powerful",
+      "url": "https://huggingface.co/blog/smollm",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2024-07-16"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smollm-github",
+      "type": "repository",
+      "title": "huggingface/smollm",
+      "url": "https://github.com/huggingface/smollm",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hugging Face GitHub repository; the README is headed Smol Models and describes a family of efficient, fully open models from Hugging Face for text and vision that can run on-device (SmolLM3, SmolLM2, SmolLM, SmolVLM). HTML title: GitHub - huggingface/smollm: Everything about the SmolLM and SmolVLM family of models. Living page.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smollm2-1-7b-instruct-model-card",
+      "type": "model-card",
+      "title": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hub model page and card; the card heading reads SmolLM2. Has a Function calling section under Examples. Repository created 2024-10-31; first public community discussions on 2024-10-31 (Hub).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smollm2-1-7b-model-card",
+      "type": "model-card",
+      "title": "HuggingFaceTB/SmolLM2-1.7B",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-1.7B",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hub model page and card; the card heading reads SmolLM2 and states no date. Hub commit history: repository created 2024-10-30 (UTC), card written 2024-10-31; later card edits up to 2025-02-06.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smollm2-paper",
+      "type": "research-paper",
+      "title": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+      "url": "https://arxiv.org/abs/2502.02737",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2025-02-04",
+        "note": "arXiv v1 submission date."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv paper by Hugging Face authors; the SmolLM2 model cards link it. Only v1 listed when seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smollm3-3b-model-card",
+      "type": "model-card",
+      "title": "HuggingFaceTB/SmolLM3-3B",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hub model page and card of the instruct and reasoning model; the card heading reads SmolLM3. Repository created 2025-07-08 (Hub).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smollm3-announcement",
+      "type": "announcement",
+      "title": "SmolLM3: smol, multilingual, long-context reasoner",
+      "url": "https://huggingface.co/blog/smollm3",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2025-07-08"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smolvla-announcement",
+      "type": "announcement",
+      "title": "SmolVLA: Efficient Vision-Language-Action Model trained on Lerobot Community Data",
+      "url": "https://huggingface.co/blog/smolvla",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2025-06-03"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smolvla-base-model-card",
+      "type": "model-card",
+      "title": "lerobot/smolvla_base",
+      "url": "https://huggingface.co/lerobot/smolvla_base",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hub model page of the lerobot organisation (Hugging Face's LeRobot project); the card heading reads SmolVLA (LeRobot). Repository created 2025-06-01 (Hub).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smolvla-paper",
+      "type": "research-paper",
+      "title": "SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics",
+      "url": "https://arxiv.org/abs/2506.01844",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2025-06-02",
+        "note": "arXiv v1 submission date."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv paper; author affiliations Hugging Face, Sorbonne University, valeo.ai and ENS Paris-Saclay. Linked from the SmolVLA blog post and model card. Only v1 listed when seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smolvlm-256m-500m-announcement",
+      "type": "announcement",
+      "title": "SmolVLM Grows Smaller – Introducing the 256M & 500M Models!",
+      "url": "https://huggingface.co/blog/smolervlm",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2025-01-23"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smolvlm-256m-instruct-model-card",
+      "type": "model-card",
+      "title": "HuggingFaceTB/SmolVLM-256M-Instruct",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-256M-Instruct",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hub model page and card; the card heading reads SmolVLM-256M. Metadata lists SmolLM2-135M-Instruct and google/siglip-base-patch16-512 as base models.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smolvlm-500m-instruct-model-card",
+      "type": "model-card",
+      "title": "HuggingFaceTB/SmolVLM-500M-Instruct",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-500M-Instruct",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hub model page and card; the card heading reads SmolVLM-500M. Metadata lists SmolLM2-360M-Instruct and google/siglip-base-patch16-512 as base models.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smolvlm-announcement",
+      "type": "announcement",
+      "title": "SmolVLM - small yet mighty Vision Language Model",
+      "url": "https://huggingface.co/blog/smolvlm",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2024-11-26"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smolvlm-instruct-model-card",
+      "type": "model-card",
+      "title": "HuggingFaceTB/SmolVLM-Instruct",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM-Instruct",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hub model page and card; the card heading reads SmolVLM. Metadata lists SmolLM2-1.7B-Instruct and google/siglip-so400m-patch14-384 as base models. Repository created 2024-11-18 (Hub).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smolvlm-paper",
+      "type": "research-paper",
+      "title": "SmolVLM: Redefining small and efficient multimodal models",
+      "url": "https://arxiv.org/abs/2504.05299",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2025-04-07",
+        "note": "arXiv v1 submission date."
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv paper by Hugging Face authors (with Stanford University); covers the SmolVLM models from 256M to 2.2B parameters, including video understanding. Only v1 listed when seen on 2026-10-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smolvlm2-2-2b-instruct-model-card",
+      "type": "model-card",
+      "title": "HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-2.2B-Instruct",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hub model page and card; the card heading reads SmolVLM2 2.2B. Metadata lists HuggingFaceTB/SmolVLM-Instruct as base model. Repository created 2025-02-08 (Hub).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smolvlm2-500m-video-instruct-model-card",
+      "type": "model-card",
+      "title": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolVLM2-500M-Video-Instruct",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Hub model page and card; the card heading reads SmolVLM2-500M-Video. Metadata lists HuggingFaceTB/SmolVLM-500M-Instruct as base model. Repository created 2025-02-11 (Hub).",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.smolvlm2-announcement",
+      "type": "announcement",
+      "title": "SmolVLM2: Bringing Video Understanding to Every Device",
+      "url": "https://huggingface.co/blog/smolvlm2",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2025-02-20"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.terms-of-service",
+      "type": "other",
+      "title": "Terms of Service",
+      "url": "https://huggingface.co/terms-of-service",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Living page; states Effective Date: September 15, 2022 and names the contracting party as Hugging Face, Inc., a Delaware corporation. HTML title: Terms of Service – Hugging Face.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.zephyr-141b-model-card",
+      "type": "model-card",
+      "title": "Model Card for Zephyr 141B-A39B",
+      "url": "https://huggingface.co/HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card of the Hub repository HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1. The card states no date. Repository created 2024-04-10, card written 2024-04-11. Until 2024-04-18 the heading read Model Card for Zephyr 141B-A35B and the card gave 35B active parameters (version of 2024-04-12: commit ae6befe2e6e81c6eab238ff7921ffadfff169a10); commit a3be084543d278e61b64cd600f28157afc79ffd3 of 2024-04-18 corrected the active count to 39B and renamed the heading. The repository id keeps A35b.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.zephyr-7b-alpha-model-card",
+      "type": "model-card",
+      "title": "Model Card for Zephyr 7B Alpha",
+      "url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card of the Hub repository HuggingFaceH4/zephyr-7b-alpha (HTML title: HuggingFaceH4/zephyr-7b-alpha · Hugging Face). The card states no date. Its commit history shows the repository created on 2023-10-09, the card and thumbnail written on 2023-10-10 and the licence changed to MIT on 2023-10-13.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.zephyr-7b-beta-model-card",
+      "type": "model-card",
+      "title": "Model Card for Zephyr 7B β",
+      "url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-beta",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card of the Hub repository HuggingFaceH4/zephyr-7b-beta. The card states no date; the commit history shows the repository created on 2023-10-26 (duplicated from HuggingFaceH4-colab/zephyr-7b-beta-sharded) and the card written the same day. Links arXiv 2310.16944 as its technical report.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.zephyr-7b-gemma-model-card",
+      "type": "model-card",
+      "title": "Model Card for Zephyr 7B Gemma",
+      "url": "https://huggingface.co/HuggingFaceH4/zephyr-7b-gemma-v0.1",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Model card of the Hub repository HuggingFaceH4/zephyr-7b-gemma-v0.1. The card states no date; the commit history shows the repository created and the card written on 2024-03-01.",
+      "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.huggingface.zephyr-technical-report",
+      "type": "technical-report",
+      "title": "Zephyr: Direct Distillation of LM Alignment",
+      "url": "https://arxiv.org/abs/2310.16944",
+      "publisher": "Hugging Face",
+      "publisherOrgId": "huggingface",
+      "publishedAt": {
+        "value": "2023-10-25"
+      },
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "arXiv technical report by the Hugging Face H4 team; one version, v1, submitted 2023-10-25. It calls the model Zephyr-7B; the Zephyr 7B β model card links it as its technical report.",
+      "lastCheckedAt": "2026-10-05"
+    }
+  ]
+}

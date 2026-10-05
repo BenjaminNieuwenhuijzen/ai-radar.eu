@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-5-6-sol",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-5-6-sol",
+  "name": "GPT-5.6 Sol",
+  "aliases": [
+    {
+      "text": "GPT-5.6 Sol",
+      "match": "candidate"
+    },
+    {
+      "text": "gpt-5.6-sol",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-5.6",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-sol",
+  "generation": "5.6",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.gpt-5-6-sol-docs",
+        "locator": "Snapshots"
+      },
+      {
+        "id": "src.openai.deprecations",
+        "locator": "Upcoming deprecations (gpt-5.6-sol appears only as a recommended replacement)"
+      },
+      {
+        "id": "src.openai.chatgpt-models-docs",
+        "locator": "Recommended models"
+      }
+    ],
+    "note": "Listed in the API model catalog and not deprecated on the deprecations page as read on 2026-10-01. The ChatGPT models page says the GPT-5.6 models remain available in ChatGPT Work and Codex during the GPT-6 rollout."
+  },
+  "dates": {
+    "announced": {
+      "value": "2026-06-26",
+      "sources": [
+        {
+          "id": "src.openai.previewing-gpt-5-6-sol",
+          "locator": "first paragraphs"
+        },
+        {
+          "id": "src.openai.gpt-5-6-preview-system-card",
+          "locator": "Published June 26, 2026; 1. Introduction"
+        }
+      ],
+      "note": "Announced with GPT-5.6 Terra and GPT-5.6 Luna as a limited preview for a small group of trusted partners, before general availability."
+    },
+    "released": {
+      "value": "2026-07-09",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-launch",
+          "locator": "first paragraph; Availability and pricing"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "July, 2026: Jul 9"
+        },
+        {
+          "id": "src.openai.gpt-5-6-system-card",
+          "locator": "Published July 9, 2026"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-5-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-sol-docs",
+          "locator": "description; Quick comparison"
+        },
+        {
+          "id": "src.openai.gpt-5-6-system-card",
+          "locator": "1. Introduction; deployment simulation sections"
+        }
+      ],
+      "note": "The docs say GPT-5.6 Sol roughly corresponds to the unsuffixed model tier of earlier GPT-5 families and compare its price with GPT-5.5; the system card compares GPT-5.6 Sol directly with GPT-5.5 and simulates its deployment in place of GPT-5.5."
+    }
+  ],
+  "summary": {
+    "text": "GPT-5.6 Sol is the flagship of OpenAI's GPT-5.6 family, a reasoning language model for text and image input offered in ChatGPT, Codex, the API and Amazon Bedrock. Previewed with trusted partners on 26 June 2026 and released on 9 July 2026, it came with the new Sol, Terra and Luna tier names, Sol taking the place of the unsuffixed GPT-5 tier.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-5-6-system-card"
+      },
+      {
+        "id": "src.openai.previewing-gpt-5-6-sol"
+      },
+      {
+        "id": "src.openai.gpt-5-6-launch"
+      },
+      {
+        "id": "src.openai.gpt-5-6-sol-docs"
+      },
+      {
+        "id": "src.openai.chatgpt-whats-new"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "tool-calling",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5-5",
+      "text": "Adds Programmatic Tool Calling in the API and, in beta, multi-agent orchestration in the Responses API.",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "July, 2026: Jul 9"
+        }
+      ]
+    },
+    {
+      "id": "max-reasoning",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5-5",
+      "text": "Adds a max reasoning effort level, persisted reasoning and Pro mode in the API.",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "July, 2026: Jul 9"
+        }
+      ]
+    },
+    {
+      "id": "activation-classifiers",
+      "aspect": "safety",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5-5",
+      "text": "Served with newly added activation classifiers that watch the model in sensitive domains and can stop unsafe answers during generation.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-system-card"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-cutoff",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-5",
+      "text": "Knowledge cutoff of 16 February 2026, against 1 December 2025 for GPT-5.5.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-sol-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.gpt-5-5-docs",
+          "locator": "Model details"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-sol-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-sol-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-5-6-sol-docs",
+            "locator": "description (reasoning.effort); Model details (reasoning token support)"
+          },
+          {
+            "id": "src.openai.gpt-5-6-system-card",
+            "locator": "2. Model Data and Training"
+          }
+        ]
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-5-6-sol-docs",
+            "locator": "Supported features"
+          }
+        ]
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-5-6-sol-docs",
+            "locator": "Supported tools"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1050000,
+      "asStated": "1,050,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-sol-docs",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The docs give 922,000 maximum input tokens and 128,000 maximum output tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-6-launch",
+          "locator": "Availability and pricing"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "July, 2026: Jul 9"
+        },
+        {
+          "id": "src.openai.chatgpt-whats-new",
+          "locator": "July 13–17, 2026: Use GPT-5.6 through Amazon Bedrock"
+        },
+        {
+          "id": "src.openai.amazon-bedrock-guide",
+          "locator": "context window paragraph"
+        }
+      ]
+    }
+  },
+  "notes": "Flagship tier of GPT-5.6, the first OpenAI family named with the Sol, Terra and Luna tiers (preview post: the number identifies the generation, the tier names identify durable capability tiers). Prominence standard because it is a point version and, per the API docs, continues the unsuffixed GPT-5 tier under a new name; review if the Sol line should count as a new flagship line. The API alias gpt-5.6 routes to this model; GPT-5.6 is also the family name, hence candidate. An updated GPT-5.6 Sol for ChatGPT conversations followed on 2026-08-06 and has its own record (openai.gpt-5-6-sol-2026-08); Codex and ChatGPT Work kept this July version. The openai.com posts were read through Wayback Machine captures because openai.com answers scripted requests with HTTP 403."
+}

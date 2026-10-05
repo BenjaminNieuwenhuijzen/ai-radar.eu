@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v4-pro-0813",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v4-pro-0813",
+  "name": "DeepSeek-V4-Pro-0813",
+  "aliases": [
+    {
+      "text": "DeepSeek-V4-Pro-0813",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V4 Pro 0813",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-V4-Pro GA",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-V4-Pro",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek V4 Pro",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-pro",
+  "generation": "4",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.models-pricing",
+        "locator": "Model Details: Model version"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2026-09-10"
+      },
+      {
+        "id": "src.deepseek.hf-deepseek-v4-pro-0813",
+        "locator": "License"
+      }
+    ],
+    "note": "Served in the DeepSeek API as deepseek-v4-pro on 2026-10-01; weights downloadable from Hugging Face. The V4.1-Flash news post announced that deepseek-v4-pro requests would route to V4.1-Flash from 2026-09-14, but the change log entry of the same day says the V4 Pro API continues after 2026-09-14, and the pricing page still lists DeepSeek-V4-Pro-0813."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-08-13",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-pro-ga"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-08-13"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "deepseek.deepseek-v4-pro",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro-0813",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-08-13"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V4-Pro-0813 is the general-availability release of DeepSeek-V4-Pro, rolled out on 2026-08-13 in the DeepSeek app, web chat (Expert Mode) and API under the unchanged name deepseek-v4-pro, with weights under the MIT License. It keeps the preview's model structure and adds a DSpark speculative decoding module; DeepSeek describes much stronger agent capabilities.",
+    "sources": [
+      {
+        "id": "src.deepseek.news-v4-pro-ga"
+      },
+      {
+        "id": "src.deepseek.hf-deepseek-v4-pro-0813",
+        "locator": "Introduction; License"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "dspark-module",
+      "aspect": "architecture",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v4-pro",
+      "text": "Adds an attached DSpark speculative decoding module on top of the preview's model structure.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro-0813",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "responses-api",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v4-pro",
+      "text": "Natively supports the OpenAI Responses API format, adapted for Codex with a one-click setup script.",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log"
+        }
+      ]
+    },
+    {
+      "id": "agent-capabilities",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v4-pro",
+      "text": "DeepSeek reports improved agent capabilities over the preview, especially in production environments.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro-0813",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "peak-pricing",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v4-pro",
+      "text": "Released together with peak and off-peak API prices, with off-peak at half the peak rate, effective 2026-08-16 at 16:00 UTC.",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-pro-ga"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.models-pricing",
+          "locator": "Model Details: Features, Vision not supported"
+        }
+      ],
+      "note": "The API lists vision as not supported for deepseek-v4-pro."
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.news-v4-pro-ga"
+          },
+          {
+            "id": "src.deepseek.hf-deepseek-v4-pro-0813",
+            "locator": "Chat Template"
+          },
+          {
+            "id": "src.deepseek.models-pricing",
+            "locator": "Model Details: Thinking mode"
+          }
+        ],
+        "note": "Reasoning effort levels low, high and max; thinking and non-thinking modes in the API."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.models-pricing",
+            "locator": "Model Details: Features, Tool Calls"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.models-pricing",
+          "locator": "Model Details: Context length"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro-0813",
+          "locator": "License"
+        }
+      ],
+      "note": "Weights under the MIT License."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-pro-ga"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-08-13"
+        },
+        {
+          "id": "src.deepseek.hf-deepseek-v4-pro-0813",
+          "locator": "License"
+        }
+      ]
+    }
+  },
+  "notes": "Announced by DeepSeek as the GA release of DeepSeek-V4-Pro, rolled out on app, web (Expert Mode) and API under the unchanged model name deepseek-v4-pro. The card calls it the official release superseding the preview, built on the preview model structure with a DSpark speculative decoding module attached; no parameter count is restated for it, so parameters are left out. Peak and off-peak API pricing was introduced with it (effective 2026-08-16, 16:00 UTC). The Hugging Face repository was created on 2026-08-13 (hub metadata, not stated on a page)."
+}

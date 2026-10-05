@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-r1-0528",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-r1-0528",
+  "name": "DeepSeek-R1-0528",
+  "aliases": [
+    {
+      "text": "DeepSeek-R1-0528",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek R1-0528",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek R1 0528",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-r",
+  "generation": "1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-r1-0528-hf"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-08-21"
+      }
+    ],
+    "note": "Weights are still public on Hugging Face. In the DeepSeek API, deepseek-reasoner moved to the thinking mode of DeepSeek-V3.1 on 2025-08-21."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v3-1",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-08-21"
+      }
+    ],
+    "note": "In the DeepSeek API only: deepseek-reasoner was upgraded to DeepSeek-V3.1 (thinking mode). The weights stay available."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-05-28",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-0528-announcement",
+          "locator": "news sidebar: DeepSeek-R1-0528 Release 2025/05/28"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-05-28"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-0528-news",
+          "locator": "page date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "deepseek.deepseek-r1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-0528-hf",
+          "locator": "1. Introduction"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-0528-announcement"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-05-28"
+        }
+      ],
+      "note": "The model card calls it a minor version upgrade of DeepSeek R1."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-R1-0528 is a minor version upgrade of DeepSeek-R1, served behind deepseek-reasoner in the DeepSeek API from 28 May 2025, in the web chat and as open weights under the MIT License. DeepSeek says it reasons more deeply and hallucinates less, and unlike earlier R1 versions it supports a system prompt.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-r1-0528-hf"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2025-05-28"
+      },
+      {
+        "id": "src.deepseek.deepseek-r1-0528-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "json-function-calling",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-r1",
+      "text": "JSON output and function calling support are listed as part of the upgrade.",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-05-28"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-0528-announcement"
+        }
+      ]
+    },
+    {
+      "id": "deeper-reasoning",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-r1",
+      "text": "Deeper reasoning, which DeepSeek attributes to more compute and algorithmic optimisation in post-training; complex tasks may use more tokens.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-0528-hf"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2025-05-28"
+        }
+      ]
+    },
+    {
+      "id": "fewer-hallucinations",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-r1",
+      "text": "Fewer hallucinations, according to DeepSeek.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-0528-announcement"
+        }
+      ]
+    },
+    {
+      "id": "system-prompt",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-r1",
+      "text": "Supports a system prompt and no longer needs to be forced into its thinking pattern at the start of the output.",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-0528-hf"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.deepseek-r1-0528-announcement"
+          },
+          {
+            "id": "src.deepseek.api-change-log",
+            "locator": "Date: 2025-05-28"
+          }
+        ],
+        "note": "The release notes list JSON output and function calling support as part of this upgrade."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-0528-hf",
+          "locator": "5. License"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-0528-announcement"
+        }
+      ],
+      "note": "MIT License; commercial use and distillation supported."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-0528-announcement"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-0528-hf",
+          "locator": "3. Chat Website & API Platform"
+        }
+      ]
+    }
+  },
+  "notes": "Served in the API as deepseek-reasoner (not an alias, see DeepSeek-R1). The model card points to the DeepSeek-R1 repository for running it and does not restate parameters or context length, so they are left out. The distilled DeepSeek-R1-0528-Qwen3-8B, released with it, is built on Alibaba's Qwen3 8B Base and is not a record."
+}

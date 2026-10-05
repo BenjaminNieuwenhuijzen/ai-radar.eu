@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v4-flash-0731",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v4-flash-0731",
+  "name": "DeepSeek-V4-Flash-0731",
+  "aliases": [
+    {
+      "text": "DeepSeek-V4-Flash-0731",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek V4 Flash 0731",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-V4-Flash",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek V4 Flash",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-flash",
+  "generation": "4",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.hf-deepseek-v4-flash-0731",
+        "locator": "License"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2026-09-10"
+      }
+    ],
+    "note": "Weights remain downloadable from the deepseek-ai Hugging Face organisation. In the DeepSeek API the model was retired on 2026-09-10; the legacy name deepseek-v4-flash now routes to DeepSeek-V4.1-Flash."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v4-1-flash",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2026-09-10"
+      },
+      {
+        "id": "src.deepseek.news-v4-1-flash"
+      },
+      {
+        "id": "src.deepseek.models-pricing",
+        "locator": "footnote 1"
+      }
+    ],
+    "note": "In the DeepSeek API: V4-Flash was retired on 2026-09-10 and deepseek-v4-flash temporarily routes to DeepSeek-V4.1-Flash."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-07-31",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-07-31"
+        }
+      ],
+      "note": "Released in the DeepSeek API as a public beta under the unchanged model name deepseek-v4-flash; the V4-Pro API and the app and web models were not changed by this update."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "deepseek.deepseek-v4-flash",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-0731",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-07-31"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V4-Flash-0731 is the official, non-preview release of DeepSeek-V4-Flash, with open weights under the MIT License, served in the DeepSeek API from 2026-07-31 under the unchanged name deepseek-v4-flash. DeepSeek says it keeps the preview's architecture and size and differs in renewed post-training. It was retired in the API on 2026-09-10.",
+    "sources": [
+      {
+        "id": "src.deepseek.hf-deepseek-v4-flash-0731",
+        "locator": "Introduction; License"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2026-07-31; Date: 2026-09-10"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "dspark-module",
+      "aspect": "architecture",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v4-flash",
+      "text": "Ships with an attached DSpark speculative decoding module; DeepSeek says architecture and size are otherwise unchanged and only post-training was redone.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-0731",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-07-31"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-effort",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v4-flash",
+      "text": "Reasoning effort is set through a reasoning_effort parameter with three levels: low, high and max.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-0731",
+          "locator": "Chat Template"
+        }
+      ]
+    },
+    {
+      "id": "responses-api",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "deepseek.deepseek-v4-flash",
+      "text": "Natively supports the OpenAI Responses API format and is adapted for Codex.",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log"
+        }
+      ]
+    },
+    {
+      "id": "agentic-capabilities",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v4-flash",
+      "text": "DeepSeek reports substantially stronger agentic capabilities than the preview.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-0731",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.hf-deepseek-v4-flash-0731",
+            "locator": "Chat Template"
+          },
+          {
+            "id": "src.deepseek.api-change-log",
+            "locator": "Date: 2026-08-13"
+          }
+        ],
+        "note": "Reasoning effort levels low, high and max."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-0731",
+          "locator": "License"
+        }
+      ],
+      "note": "Weights under the MIT License."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-07-31"
+        },
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash-0731",
+          "locator": "License"
+        }
+      ]
+    }
+  },
+  "notes": "The card calls it the official release of DeepSeek-V4-Flash, superseding the preview, with the same model structure as DeepSeek-V4-Flash-DSpark (a speculative decoding module attached). The change log says it keeps the architecture and size of the preview and was only re-post-trained; no parameter count or context window is restated for it, so both are left out. Release date from the change log; the Hugging Face repository was also created on 2026-07-31 (hub metadata, not stated on a page). The API retirement on 2026-09-10 is recorded in notes and replacedBy, not as a retired date, because the weights remain available."
+}

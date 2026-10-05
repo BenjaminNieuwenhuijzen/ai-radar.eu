@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-5-3-instant",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-5-3-instant",
+  "name": "GPT-5.3 Instant",
+  "aliases": [
+    {
+      "text": "GPT-5.3 Instant",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.3-chat-latest",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.3-instant",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-5.3 Chat",
+      "match": "candidate"
+    },
+    {
+      "text": "GPT-5.3",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-instant",
+  "generation": "5.3",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-05-08: gpt-5.2-chat-latest and gpt-5.3-chat-latest model snapshots"
+      },
+      {
+        "id": "src.openai.chatgpt-release-notes",
+        "locator": "May 5, 2026: GPT-5.5 Instant in ChatGPT"
+      }
+    ],
+    "note": "Its only API form, gpt-5.3-chat-latest, was shut down on 2026-08-10. In ChatGPT it was replaced as the default by GPT-5.5 Instant on 2026-05-05 and stayed available to paid users for three months before retirement; no dated ChatGPT retirement entry was found."
+  },
+  "replacedBy": {
+    "modelId": "openai.gpt-5-5-instant",
+    "sources": [
+      {
+        "id": "src.openai.gpt-5-5-instant",
+        "locator": "Availability"
+      },
+      {
+        "id": "src.openai.chatgpt-release-notes",
+        "locator": "May 5, 2026: GPT-5.5 Instant in ChatGPT"
+      }
+    ],
+    "note": "GPT-5.5 Instant replaced it as the ChatGPT default and in the API as chat-latest. The deprecations page names gpt-5.6-sol as the replacement for gpt-5.3-chat-latest."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-03-03",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-3-instant",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Mar 3 (2026)"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-05-08",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2026-05-08: gpt-5.2-chat-latest and gpt-5.3-chat-latest model snapshots"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-08-10",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2026-05-08: gpt-5.2-chat-latest and gpt-5.3-chat-latest model snapshots"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-5-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-3-instant"
+        },
+        {
+          "id": "src.openai.gpt-5-3-instant-system-card",
+          "locator": "Introduction"
+        }
+      ],
+      "note": "The post compares GPT-5.3 Instant with GPT-5.2 Instant throughout and moves GPT-5.2 Instant to the legacy models; GPT-5.2 Instant is part of the GPT-5.2 record."
+    }
+  ],
+  "summary": {
+    "text": "GPT-5.3 Instant is an update to the Instant model in OpenAI's ChatGPT for text and image input, released on 3 March 2026 to all ChatGPT users and in the API as gpt-5.3-chat-latest. OpenAI says it refuses less often without need and adds fewer defensive preambles. No GPT-5.3 Thinking model was released.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-5-3-instant"
+      },
+      {
+        "id": "src.openai.api-model-gpt-5-3-chat-latest",
+        "locator": "Model details"
+      },
+      {
+        "id": "src.openai.gpt-5-4-thinking-system-card",
+        "locator": "Introduction"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "fewer-refusals",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-2",
+      "text": "OpenAI says it gives fewer unnecessary refusals and fewer defensive or moralizing caveats than GPT-5.2 Instant.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-3-instant"
+        }
+      ]
+    },
+    {
+      "id": "web-search",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-2",
+      "text": "OpenAI says it balances web search results better with its own knowledge, for example to put recent news in context.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-3-instant"
+        }
+      ]
+    },
+    {
+      "id": "hallucinations",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-2",
+      "text": "OpenAI reports fewer hallucinations in its internal evaluations, with or without web access.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-3-instant"
+        }
+      ]
+    },
+    {
+      "id": "style",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-2",
+      "text": "OpenAI describes a more focused conversational style with fewer unwarranted assumptions about user intent or emotions.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-3-instant"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-3-chat-latest",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-3-chat-latest",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.api-model-gpt-5-3-chat-latest",
+            "locator": "Supported features"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-3-chat-latest",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The docs also list a maximum of 272,000 input tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-3-instant",
+          "locator": "Availability"
+        }
+      ]
+    }
+  },
+  "notes": "Instant-only release: OpenAI released no GPT-5.3 Thinking (the GPT-5.4 Thinking system card says so). Updated in ChatGPT on 2026-03-16 (follow-up tone) and the API alias was repointed the same day (changelog). Knowledge cutoff per the API docs: Aug 31, 2025. GPT-5.3-Codex and GPT-5.3 Instant Mini (a ChatGPT rate-limit fallback) are out of scope."
+}

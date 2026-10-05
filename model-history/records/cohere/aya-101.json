@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.aya-101",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "aya-101",
+  "name": "Aya 101",
+  "aliases": [
+    {
+      "text": "Aya 101",
+      "match": "auto"
+    },
+    {
+      "text": "aya-101",
+      "match": "auto"
+    },
+    {
+      "text": "Aya-101",
+      "match": "auto"
+    },
+    {
+      "text": "Aya",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.aya",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.hf-aya-101"
+      }
+    ],
+    "note": "Open weights downloadable from Cohere Labs on Hugging Face; not offered as a hosted API model on the current models overview."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-02-13",
+      "sources": [
+        {
+          "id": "src.cohere.aya-announcement",
+          "locator": "page date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Aya 101 is a multilingual language model from Cohere For AI, Cohere's non-profit research lab, released on 13 February 2024 as open weights under Apache 2.0 and covering 101 languages. The 13-billion-parameter model uses the mT5-XXL architecture and came with the Aya Collection and Aya Dataset; Cohere says over 3,000 researchers from 119 countries took part in the project.",
+    "sources": [
+      {
+        "id": "src.cohere.aya-announcement"
+      },
+      {
+        "id": "src.cohere.hf-aya-101"
+      },
+      {
+        "id": "src.cohere.aya-model-paper"
+      }
+    ]
+  },
+  "capabilities": {
+    "parameters": {
+      "value": 13000000000,
+      "asStated": "13 billion",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-aya-101",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-announcement",
+          "locator": "How to Get Involved"
+        },
+        {
+          "id": "src.cohere.hf-aya-101"
+        }
+      ],
+      "note": "Released under Apache 2.0, together with the Aya datasets."
+    },
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.aya-announcement"
+          },
+          {
+            "id": "src.cohere.hf-aya-101",
+            "locator": "Model Summary"
+          },
+          {
+            "id": "src.cohere.aya-model-paper",
+            "locator": "abstract"
+          }
+        ],
+        "note": "Follows instructions in 101 languages."
+      }
+    ],
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-announcement",
+          "locator": "How to Get Involved"
+        },
+        {
+          "id": "src.cohere.hf-aya-101"
+        }
+      ],
+      "note": "The launch post also invited people to try the model in the Cohere Playground."
+    }
+  },
+  "notes": "Developed by Cohere For AI (renamed Cohere Labs in 2025). The launch post calls the model Aya, and the paper calls it the Aya model; the model card titles it Aya 101, and the Aya 23 announcement and technical report also use Aya 101, which is the name used here. The arXiv paper v1 is dated 2024-02-12 and the Hugging Face repository was created on 2024-02-08 (probably private before launch); neither is used as the release date. The model card says the architecture is the same as mT5-XXL, and the paper (section 3.1) says Aya fine-tunes the 13-billion-parameter mT5 model; this link to Google mT5 is recorded as a cross-organisation open question, not as a relation. Context window not stated by Cohere."
+}

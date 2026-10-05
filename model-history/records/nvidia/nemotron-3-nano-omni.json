@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.nemotron-3-nano-omni",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nemotron-3-nano-omni",
+  "name": "Nemotron 3 Nano Omni",
+  "aliases": [
+    {
+      "text": "Nemotron 3 Nano Omni",
+      "match": "auto"
+    },
+    {
+      "text": "NVIDIA Nemotron 3 Nano Omni",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-3-Nano-Omni-30B-A3B-Reasoning-NVFP4",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron-nano",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card"
+      }
+    ],
+    "note": "NVIDIA has no deprecation page for its open models; the weights were still downloadable from the NVIDIA organisation on Hugging Face on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-04-28",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-blog",
+          "locator": "At a Glance: Availability"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+          "locator": "Release Date"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-developer-blog"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "nvidia.nemotron-3-nano",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+          "locator": "Model Architecture: Network Architecture"
+        }
+      ],
+      "note": "Uses the Nemotron 3 Nano 30B-A3B language model as its backbone, combined with the C-RADIOv4-H vision encoder and a Parakeet speech encoder."
+    },
+    {
+      "type": "successor-of",
+      "target": "nvidia.nemotron-nano-2-vl",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-developer-blog",
+          "locator": "Figure 3"
+        }
+      ],
+      "note": "The developer blog compares its multimodal accuracy with the previous Nemotron Nano VL V2 model."
+    }
+  ],
+  "summary": {
+    "text": "Nemotron 3 Nano Omni is an open-weights multimodal reasoning model in NVIDIA's Nemotron 3 family that takes video, audio, images and text and produces text. It pairs the Nemotron 3 Nano 30B-A3B language model with vision and speech encoders; NVIDIA positions it as the perception sub-agent in agent systems and offered it as a download, on build.nvidia.com and via partners.",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-3-nano-omni-blog"
+      },
+      {
+        "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+        "locator": "Model Architecture: Network Architecture"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "audio-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "nvidia.nemotron-nano-2-vl",
+      "text": "Accepts audio input through a Parakeet speech encoder, alongside video, image and text input.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+          "locator": "Input(s)"
+        }
+      ]
+    },
+    {
+      "id": "nemotron-3-backbone",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "nvidia.nemotron-nano-2-vl",
+      "text": "Uses the Nemotron 3 Nano 30B-A3B hybrid mixture-of-experts language model as its backbone, with the C-RADIOv4-H vision encoder.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+          "locator": "Model Architecture: Network Architecture"
+        }
+      ]
+    },
+    {
+      "id": "context-256k",
+      "aspect": "context-length",
+      "relativeTo": "nvidia.nemotron-nano-2-vl",
+      "text": "Context window of up to 256K tokens.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+          "locator": "At a Glance: Max context"
+        }
+      ]
+    },
+    {
+      "id": "licence",
+      "aspect": "licensing",
+      "relativeTo": "nvidia.nemotron-nano-2-vl",
+      "text": "Released under the NVIDIA Open Model Agreement.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+          "locator": "License/Terms of Use"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+          "locator": "Input(s)"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-blog",
+          "locator": "At a Glance"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+          "locator": "Output(s)"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+            "locator": "At a Glance: Reasoning mode"
+          }
+        ],
+        "note": "On by default; can be toggled."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+            "locator": "Output(s)"
+          }
+        ],
+        "note": "The card says the model supports tool calling."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-blog",
+          "locator": "Open and Customizable, Deployable Anywhere"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+          "locator": "License/Terms of Use; Download Model Weights"
+        }
+      ],
+      "note": "Released under the NVIDIA Open Model Agreement in BF16, FP8 and NVFP4."
+    },
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-blog",
+          "locator": "At a Glance: Architecture"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+          "locator": "At a Glance: Max context"
+        }
+      ],
+      "note": "The model card writes 256k tokens."
+    },
+    "parameters": {
+      "value": 31000000000,
+      "asStated": "31B (~3B active per token)",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-reasoning-bf16-model-card",
+          "locator": "At a Glance; Model Architecture"
+        }
+      ],
+      "note": "NVIDIA names the architecture 30B-A3B in the blogs; the model card gives 31B total parameters (3.1 x 10^10) with about 3B active per token."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-nano-omni-blog",
+          "locator": "At a Glance: Availability; Open and Customizable, Deployable Anywhere"
+        }
+      ],
+      "note": "Hugging Face, OpenRouter, build.nvidia.com as an NVIDIA NIM microservice and partner platforms."
+    }
+  },
+  "notes": "The released checkpoints carry the suffix 30B-A3B-Reasoning; the model card gives Nemotron-3-Nano-Omni-30B-A3B-Reasoning as the model version, and its build.nvidia.com path is the same name in lower case (nemotron-3-nano-omni-30b-a3b-reasoning), so it is not listed as a separate alias. NVIDIA says Omni extends the Nemotron 3 family into multimodal and agentic domains. The model card says it was improved using several Qwen models and gpt-oss-120b (training data), which is not recorded as a relation. English only per the model card."
+}

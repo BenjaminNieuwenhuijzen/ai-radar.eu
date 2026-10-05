@@ -42,6 +42,354 @@
       "organizationId": "anthropic",
       "name": "Claude Mythos",
       "parentId": "anthropic.claude"
+    },
+    {
+      "id": "meta.llama",
+      "organizationId": "meta",
+      "name": "Llama",
+      "parentId": null
+    },
+    {
+      "id": "meta.llama-4",
+      "organizationId": "meta",
+      "name": "Llama 4",
+      "parentId": "meta.llama"
+    },
+    {
+      "id": "meta.muse",
+      "organizationId": "meta",
+      "name": "Muse",
+      "parentId": null
+    },
+    {
+      "id": "google.lamda",
+      "organizationId": "google",
+      "name": "LaMDA",
+      "parentId": null
+    },
+    {
+      "id": "google.palm",
+      "organizationId": "google",
+      "name": "PaLM",
+      "parentId": null
+    },
+    {
+      "id": "google.gemini",
+      "organizationId": "google",
+      "name": "Gemini",
+      "parentId": null
+    },
+    {
+      "id": "google.gemini-ultra",
+      "organizationId": "google",
+      "name": "Gemini Ultra",
+      "parentId": "google.gemini"
+    },
+    {
+      "id": "google.gemini-pro",
+      "organizationId": "google",
+      "name": "Gemini Pro",
+      "parentId": "google.gemini"
+    },
+    {
+      "id": "google.gemini-flash",
+      "organizationId": "google",
+      "name": "Gemini Flash",
+      "parentId": "google.gemini"
+    },
+    {
+      "id": "google.gemini-flash-lite",
+      "organizationId": "google",
+      "name": "Gemini Flash-Lite",
+      "parentId": "google.gemini"
+    },
+    {
+      "id": "google.gemini-nano",
+      "organizationId": "google",
+      "name": "Gemini Nano",
+      "parentId": "google.gemini"
+    },
+    {
+      "id": "google.gemma",
+      "organizationId": "google",
+      "name": "Gemma",
+      "parentId": null
+    },
+    {
+      "id": "mistral.mistral",
+      "organizationId": "mistral",
+      "name": "Mistral",
+      "parentId": null
+    },
+    {
+      "id": "mistral.mixtral",
+      "organizationId": "mistral",
+      "name": "Mixtral",
+      "parentId": "mistral.mistral"
+    },
+    {
+      "id": "mistral.mistral-small",
+      "organizationId": "mistral",
+      "name": "Mistral Small",
+      "parentId": "mistral.mistral"
+    },
+    {
+      "id": "mistral.mistral-medium",
+      "organizationId": "mistral",
+      "name": "Mistral Medium",
+      "parentId": "mistral.mistral"
+    },
+    {
+      "id": "mistral.mistral-large",
+      "organizationId": "mistral",
+      "name": "Mistral Large",
+      "parentId": "mistral.mistral"
+    },
+    {
+      "id": "mistral.pixtral",
+      "organizationId": "mistral",
+      "name": "Pixtral",
+      "parentId": "mistral.mistral"
+    },
+    {
+      "id": "mistral.ministral",
+      "organizationId": "mistral",
+      "name": "Ministral",
+      "parentId": "mistral.mistral"
+    },
+    {
+      "id": "mistral.magistral",
+      "organizationId": "mistral",
+      "name": "Magistral",
+      "parentId": "mistral.mistral"
+    },
+    {
+      "id": "huggingface.hugging-face-models",
+      "organizationId": "huggingface",
+      "name": "Hugging Face models",
+      "parentId": null
+    },
+    {
+      "id": "huggingface.zephyr",
+      "organizationId": "huggingface",
+      "name": "Zephyr",
+      "parentId": "huggingface.hugging-face-models"
+    },
+    {
+      "id": "huggingface.idefics",
+      "organizationId": "huggingface",
+      "name": "Idefics",
+      "parentId": "huggingface.hugging-face-models"
+    },
+    {
+      "id": "huggingface.smol-models",
+      "organizationId": "huggingface",
+      "name": "Smol Models",
+      "parentId": "huggingface.hugging-face-models"
+    },
+    {
+      "id": "huggingface.smollm",
+      "organizationId": "huggingface",
+      "name": "SmolLM",
+      "parentId": "huggingface.smol-models"
+    },
+    {
+      "id": "huggingface.smolvlm",
+      "organizationId": "huggingface",
+      "name": "SmolVLM",
+      "parentId": "huggingface.smol-models"
+    },
+    {
+      "id": "xai.grok",
+      "organizationId": "xai",
+      "name": "Grok",
+      "parentId": null
+    },
+    {
+      "id": "xai.grok-mini",
+      "organizationId": "xai",
+      "name": "Grok mini",
+      "parentId": "xai.grok"
+    },
+    {
+      "id": "xai.grok-fast",
+      "organizationId": "xai",
+      "name": "Grok Fast",
+      "parentId": "xai.grok"
+    },
+    {
+      "id": "openai.gpt",
+      "organizationId": "openai",
+      "name": "GPT",
+      "parentId": null
+    },
+    {
+      "id": "openai.gpt-mini",
+      "organizationId": "openai",
+      "name": "GPT mini",
+      "parentId": "openai.gpt"
+    },
+    {
+      "id": "openai.gpt-instant",
+      "organizationId": "openai",
+      "name": "GPT Instant",
+      "parentId": "openai.gpt"
+    },
+    {
+      "id": "openai.gpt-oss",
+      "organizationId": "openai",
+      "name": "gpt-oss",
+      "parentId": "openai.gpt"
+    },
+    {
+      "id": "openai.gpt-sol",
+      "organizationId": "openai",
+      "name": "GPT Sol",
+      "parentId": "openai.gpt"
+    },
+    {
+      "id": "openai.gpt-terra",
+      "organizationId": "openai",
+      "name": "GPT Terra",
+      "parentId": "openai.gpt"
+    },
+    {
+      "id": "openai.gpt-luna",
+      "organizationId": "openai",
+      "name": "GPT Luna",
+      "parentId": "openai.gpt"
+    },
+    {
+      "id": "openai.gpt-astra",
+      "organizationId": "openai",
+      "name": "GPT Astra",
+      "parentId": "openai.gpt"
+    },
+    {
+      "id": "openai.o-series",
+      "organizationId": "openai",
+      "name": "OpenAI o-series",
+      "parentId": null
+    },
+    {
+      "id": "microsoft.phi",
+      "organizationId": "microsoft",
+      "name": "Phi",
+      "parentId": null
+    },
+    {
+      "id": "microsoft.phi-multimodal",
+      "organizationId": "microsoft",
+      "name": "Phi multimodal",
+      "parentId": "microsoft.phi"
+    },
+    {
+      "id": "microsoft.phi-reasoning",
+      "organizationId": "microsoft",
+      "name": "Phi reasoning",
+      "parentId": "microsoft.phi"
+    },
+    {
+      "id": "microsoft.mai",
+      "organizationId": "microsoft",
+      "name": "MAI",
+      "parentId": null
+    },
+    {
+      "id": "microsoft.mai-thinking",
+      "organizationId": "microsoft",
+      "name": "MAI-Thinking",
+      "parentId": "microsoft.mai"
+    },
+    {
+      "id": "microsoft.mai-code",
+      "organizationId": "microsoft",
+      "name": "MAI-Code",
+      "parentId": "microsoft.mai"
+    },
+    {
+      "id": "nvidia.nemotron",
+      "organizationId": "nvidia",
+      "name": "Nemotron",
+      "parentId": null
+    },
+    {
+      "id": "nvidia.nemotron-nano",
+      "organizationId": "nvidia",
+      "name": "Nemotron Nano",
+      "parentId": "nvidia.nemotron"
+    },
+    {
+      "id": "nvidia.nemotron-super",
+      "organizationId": "nvidia",
+      "name": "Nemotron Super",
+      "parentId": "nvidia.nemotron"
+    },
+    {
+      "id": "nvidia.nemotron-ultra",
+      "organizationId": "nvidia",
+      "name": "Nemotron Ultra",
+      "parentId": "nvidia.nemotron"
+    },
+    {
+      "id": "nvidia.nemotron-lightning",
+      "organizationId": "nvidia",
+      "name": "Nemotron Lightning",
+      "parentId": "nvidia.nemotron"
+    },
+    {
+      "id": "cohere.command",
+      "organizationId": "cohere",
+      "name": "Command",
+      "parentId": null
+    },
+    {
+      "id": "cohere.command-r-series",
+      "organizationId": "cohere",
+      "name": "Command R series",
+      "parentId": "cohere.command"
+    },
+    {
+      "id": "cohere.command-a-family",
+      "organizationId": "cohere",
+      "name": "Command A family",
+      "parentId": "cohere.command"
+    },
+    {
+      "id": "cohere.aya",
+      "organizationId": "cohere",
+      "name": "Aya",
+      "parentId": null
+    },
+    {
+      "id": "deepseek.deepseek",
+      "organizationId": "deepseek",
+      "name": "DeepSeek",
+      "parentId": null
+    },
+    {
+      "id": "deepseek.deepseek-v",
+      "organizationId": "deepseek",
+      "name": "DeepSeek-V",
+      "parentId": "deepseek.deepseek"
+    },
+    {
+      "id": "deepseek.deepseek-r",
+      "organizationId": "deepseek",
+      "name": "DeepSeek-R",
+      "parentId": "deepseek.deepseek"
+    },
+    {
+      "id": "deepseek.deepseek-pro",
+      "organizationId": "deepseek",
+      "name": "DeepSeek Pro",
+      "parentId": "deepseek.deepseek-v"
+    },
+    {
+      "id": "deepseek.deepseek-flash",
+      "organizationId": "deepseek",
+      "name": "DeepSeek Flash",
+      "parentId": "deepseek.deepseek-v"
     }
   ]
 }

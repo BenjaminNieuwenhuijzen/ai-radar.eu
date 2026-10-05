@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.nemotron-4-4b-instruct",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nemotron-4-4b-instruct",
+  "name": "Nemotron-4 4B Instruct",
+  "aliases": [
+    {
+      "text": "Nemotron-4 4B Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-Mini-4B-Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "nvidia/Nemotron-Mini-4B-Instruct",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron",
+  "generation": "4",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-mini-4b-instruct-model-card"
+      }
+    ],
+    "note": "Weights remain downloadable from NVIDIA's Hugging Face organisation as Nemotron-Mini-4B-Instruct. The NVIDIA API catalog set a deprecation date for the hosted endpoint (see milestones)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-08-20",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-4b-instruct-ace-blog",
+          "locator": "page date; first section"
+        }
+      ],
+      "note": "Announced at Gamescom 2024; the blog of that day says the model is available as an NVIDIA NIM. The Hugging Face weights carry no stated date."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "api-endpoint-deprecated",
+      "label": "NVIDIA-hosted API endpoint deprecated",
+      "date": {
+        "value": "2026-08-25",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-mini-4b-instruct-api-catalog",
+            "locator": "deprecation notice"
+          }
+        ],
+        "note": "The notice, as seen on 2026-10-01, says the API will be deprecated on 08/25/2026. Applies to the hosted API only, not to the downloadable weights."
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "nvidia.nemotron-4-15b",
+      "method": "distillation",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-4b-instruct-ace-blog",
+          "locator": "NVIDIA ACE introduces an SLM purpose-built for roleplaying"
+        },
+        {
+          "id": "src.nvidia.nemotron-mini-4b-instruct-model-card",
+          "locator": "Model Overview"
+        }
+      ],
+      "note": "The card says it is a fine-tuned version of Minitron-4B-Base, which was pruned and distilled from Nemotron-4 15B."
+    }
+  ],
+  "summary": {
+    "text": "Nemotron-4 4B Instruct is a small language model from NVIDIA, announced on 20 August 2024 for NVIDIA ACE, its game-character technology, as an NVIDIA NIM for cloud and on-device use. NVIDIA says it was distilled from Nemotron-4 15B and tuned for role-play, retrieval-augmented generation and function calling; weights followed on Hugging Face as Nemotron-Mini-4B-Instruct.",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-4-4b-instruct-ace-blog"
+      },
+      {
+        "id": "src.nvidia.nemotron-mini-4b-instruct-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "decreased",
+      "relativeTo": "nvidia.nemotron-4-15b",
+      "text": "About 4 billion parameters by name, distilled from the 15-billion-parameter Nemotron-4 15B.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-4b-instruct-ace-blog"
+        },
+        {
+          "id": "src.nvidia.nemotron-mini-4b-instruct-model-card"
+        }
+      ]
+    },
+    {
+      "id": "on-device",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "nvidia.nemotron-4-15b",
+      "text": "Pruned, distilled and INT4-quantised by NVIDIA for on-device inference using about 2 GB of VRAM.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-4b-instruct-ace-blog"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "nvidia.nemotron-4-15b",
+      "text": "Instruction-tuned for function calling, role-play and retrieval-augmented generation; Nemotron-4 15B was a base model described in a report only.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-4b-instruct-ace-blog"
+        },
+        {
+          "id": "src.nvidia.nemotron-4-15b-technical-report"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-4-4b-instruct-ace-blog",
+            "locator": "NVIDIA ACE introduces an SLM purpose-built for roleplaying"
+          },
+          {
+            "id": "src.nvidia.nemotron-mini-4b-instruct-model-card",
+            "locator": "Model Overview; Prompt Format, Tool use"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-mini-4b-instruct-model-card",
+          "locator": "License; Usage"
+        }
+      ],
+      "note": "Published on Hugging Face under the NVIDIA Community Model License."
+    },
+    "contextWindowTokens": {
+      "value": 4096,
+      "asStated": "4,096 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-mini-4b-instruct-model-card",
+          "locator": "Model Overview"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 4000000000,
+      "asStated": "4B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-4b-instruct-ace-blog"
+        },
+        {
+          "id": "src.nvidia.nemotron-mini-4b-instruct-model-card"
+        }
+      ],
+      "note": "As given in NVIDIA's model name; neither source states a separate parameter count."
+    },
+    "access": {
+      "value": [
+        "api",
+        "on-device",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-4b-instruct-ace-blog",
+          "locator": "NVIDIA ACE introduces an SLM purpose-built for roleplaying"
+        },
+        {
+          "id": "src.nvidia.nemotron-mini-4b-instruct-model-card",
+          "locator": "Model Overview; Usage"
+        },
+        {
+          "id": "src.nvidia.nemotron-mini-4b-instruct-api-catalog"
+        }
+      ],
+      "note": "Offered as an NVIDIA NIM for cloud and on-device deployment (GeForce RTX PCs), hosted at build.nvidia.com, and later as weights on Hugging Face."
+    }
+  },
+  "notes": "Introduced in August 2024 as Nemotron-4 4B Instruct, part of NVIDIA ACE for game characters; the Hugging Face repository, the API catalog and the NGC resource use the name Nemotron-Mini-4B-Instruct, and the card links the ACE blog. The API id nvidia/nemotron-mini-4b-instruct differs from the repository name only in case. The intermediate Minitron-4B-Base model has no record. A later Hindi model (Nemotron-4-Mini-Hindi-4B) builds on the same base and is not covered here."
+}

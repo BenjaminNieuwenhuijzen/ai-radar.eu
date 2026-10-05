@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.nemotron-4-15b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nemotron-4-15b",
+  "name": "Nemotron-4 15B",
+  "aliases": [
+    {
+      "text": "Nemotron-4 15B",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-4-15B",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-4-15B-Base",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron",
+  "generation": "4",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "research-only",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-4-15b-technical-report"
+      }
+    ],
+    "note": "Described in a technical report only. As of 2026-10-01 no NVIDIA weight release (Hugging Face or NGC) or NVIDIA-hosted access for this model was found."
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-02-26",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-15b-technical-report",
+          "locator": "Submission history, v1"
+        }
+      ]
+    },
+    "released": null,
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "nvidia.nemotron-3-8b",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-15b-technical-report"
+        }
+      ],
+      "note": "Editorial link along the Nemotron generation numbers: the report introduces Nemotron-4 without naming Nemotron-3 8B as its predecessor."
+    }
+  ],
+  "summary": {
+    "text": "Nemotron-4 15B is a 15-billion-parameter multilingual language model from NVIDIA, described in a technical report posted on arXiv on 26 February 2024. It was trained on 8 trillion tokens of English, multilingual and source-code text; NVIDIA says it was built as a general-purpose model that fits on a single A100 or H100 GPU.",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-4-15b-technical-report"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "nvidia.nemotron-3-8b",
+      "text": "15 billion parameters, up from 8 billion for Nemotron-3 8B.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-15b-technical-report"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-8b-base-4k-model-card"
+        }
+      ]
+    },
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "nvidia.nemotron-3-8b",
+      "text": "Pre-trained on 8 trillion tokens covering 43 programming languages, against 3.8 trillion tokens and 37 programming languages for the Nemotron-3 8B base model.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-15b-technical-report"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-8b-base-4k-model-card"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "nvidia.nemotron-3-8b",
+      "text": "Uses grouped-query attention, rotary position embeddings and squared ReLU activations; NVIDIA's Nemotron-3 8B model cards describe a GPT-3 style network.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-15b-technical-report"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-8b-base-4k-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-4-15b-technical-report",
+            "locator": "Abstract; section 2, Data"
+          }
+        ],
+        "note": "Pre-training data covers 53 natural languages besides English and 43 programming languages."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 4096,
+      "asStated": "4096",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-15b-technical-report",
+          "locator": "Table 1, sequence length"
+        }
+      ],
+      "note": "Given as the sequence length in the report's hyper-parameter table."
+    },
+    "parameters": {
+      "value": 15000000000,
+      "asStated": "15 billion",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-4-15b-technical-report",
+          "locator": "Abstract; section 2"
+        }
+      ],
+      "note": "The report splits this into 3.2 billion embedding and 12.5 billion non-embedding parameters."
+    }
+  },
+  "notes": "Announced through the arXiv technical report (v1 2024-02-26, v2 2024-02-27). No released date: NVIDIA did not publish weights or a hosted service for this model. The Nemotron-4 340B report says Nemotron-4-340B-Base uses the same data blend as, and is similar in architecture to, Nemotron-4-15B-Base. NVIDIA says Nemotron-4 4B Instruct was distilled from it (relation stored on that record)."
+}

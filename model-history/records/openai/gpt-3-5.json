@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-3-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-3-5",
+  "name": "GPT-3.5",
+  "aliases": [
+    {
+      "text": "GPT-3.5",
+      "match": "auto"
+    },
+    {
+      "text": "GPT 3.5",
+      "match": "candidate"
+    },
+    {
+      "text": "code-davinci-002",
+      "match": "auto"
+    },
+    {
+      "text": "text-davinci-002",
+      "match": "auto"
+    },
+    {
+      "text": "text-davinci-003",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "3.5",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2023-07-06: GPT and embeddings"
+      }
+    ],
+    "note": "text-davinci-002 and text-davinci-003 (InstructGPT models) and code-davinci-002 (Base GPT models) are listed with shutdown on 2024-01-04."
+  },
+  "replacedBy": {
+    "modelId": "openai.gpt-3-5-turbo",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2023-07-06: GPT and embeddings"
+      }
+    ],
+    "note": "The deprecations page names gpt-3.5-turbo-instruct as the recommended replacement for text-davinci-002, text-davinci-003 and code-davinci-002."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2022-03-15",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-edit-insert-announcement",
+          "locator": "page date; first paragraph and insert section"
+        }
+      ],
+      "note": "OpenAI released text-davinci-002 and code-davinci-002 as new versions of GPT-3 and Codex in this post. It later grouped them with text-davinci-003 as the GPT-3.5 series (model index for researchers); the series was never announced under that name."
+    },
+    "deprecated": {
+      "value": "2023-07-06",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2023-07-06: GPT and embeddings"
+        }
+      ],
+      "note": "code-davinci-002 was already listed in the 2023-03-20 Codex models notice with shutdown on 2023-03-23; the 2023-07-06 notice lists it again with shutdown on 2024-01-04."
+    },
+    "retired": {
+      "value": "2024-01-04",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2023-07-06: GPT and embeddings"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-3",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.openai.model-index-for-researchers",
+          "locator": "Models referred to as GPT 3.5"
+        }
+      ],
+      "note": "Editorial link along the numbered GPT line: the model index describes the GPT-3.5 series as models trained on a blend of text and code from before Q4 2021, without naming a predecessor."
+    }
+  ],
+  "summary": {
+    "text": "GPT-3.5 is OpenAI's name for a series of API models trained on a blend of text and code from before the fourth quarter of 2021: the code completion base model code-davinci-002 and the instruction-tuned text-davinci-002 and text-davinci-003. The first two arrived in March 2022 as new versions of Codex and GPT-3; all three were shut down in January 2024.",
+    "sources": [
+      {
+        "id": "src.openai.model-index-for-researchers"
+      },
+      {
+        "id": "src.openai.gpt-3-edit-insert-announcement"
+      },
+      {
+        "id": "src.openai.api-deprecations"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "training-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-3",
+      "text": "Trained on a blend of text and code from before the fourth quarter of 2021.",
+      "sources": [
+        {
+          "id": "src.openai.model-index-for-researchers"
+        }
+      ]
+    },
+    {
+      "id": "insert",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "openai.gpt-3",
+      "text": "text-davinci-002 and code-davinci-002 can insert text into the middle of existing content, not only complete it.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-edit-insert-announcement"
+        }
+      ]
+    },
+    {
+      "id": "instruction-tuning",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "openai.gpt-3",
+      "text": "Includes instruction-tuned models: text-davinci-002, fine-tuned on demonstrations and rated samples, and text-davinci-003, trained with reinforcement learning.",
+      "sources": [
+        {
+          "id": "src.openai.model-index-for-researchers"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-edit-insert-announcement",
+          "locator": "insert section"
+        },
+        {
+          "id": "src.openai.model-index-for-researchers"
+        }
+      ]
+    }
+  },
+  "notes": "A series rather than a single model. Per the model index: code-davinci-002 is a base model for code completion, text-davinci-002 an InstructGPT model based on code-davinci-002, and text-davinci-003 an improvement on text-davinci-002 trained with PPO. The model index page no longer exists and is cited from an archive capture. No primary source for the release date of text-davinci-003 was found, so it is not recorded. Context window and parameters not recorded. Lifecycle and dates apply to the API models; replacedBy assumes gpt-3.5-turbo-instruct is covered by the GPT-3.5 Turbo record."
+}

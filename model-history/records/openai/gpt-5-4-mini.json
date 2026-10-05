@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-5-4-mini",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-5-4-mini",
+  "name": "GPT-5.4 mini",
+  "aliases": [
+    {
+      "text": "GPT-5.4 mini",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.4-mini",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.4-mini-2026-03-17",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-mini",
+  "generation": "5.4",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.api-model-gpt-5-4-mini"
+      },
+      {
+        "id": "src.openai.api-deprecations"
+      }
+    ],
+    "note": "GPT-5.4 mini is listed in the API model catalog and not on the deprecations page; its nano variant was deprecated on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-03-17",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-4-mini-and-nano",
+          "locator": "Availability & pricing"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Mar 17 (2026)"
+        }
+      ],
+      "note": "Release in the API and Codex, and in ChatGPT per the announcement; the ChatGPT release notes date the ChatGPT rollout one day later."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "chatgpt-rollout",
+      "label": "Rolled out in ChatGPT",
+      "date": {
+        "value": "2026-03-18",
+        "sources": [
+          {
+            "id": "src.openai.chatgpt-release-notes",
+            "locator": "March 18, 2026: GPT-5.4 mini in ChatGPT"
+          },
+          {
+            "id": "src.openai.model-release-notes",
+            "locator": "GPT-5.4 mini in ChatGPT (March 18, 2026)"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-4-mini-and-nano",
+          "locator": "opening paragraphs"
+        }
+      ],
+      "note": "The post presents GPT-5.4 mini as an improvement over GPT-5 mini and GPT-5.4 nano as an upgrade over GPT-5 nano; both are inline variants of the GPT-5 record."
+    }
+  ],
+  "summary": {
+    "text": "GPT-5.4 mini is a small OpenAI model for text and image input, released on 17 March 2026 with GPT-5.4 nano for high-volume workloads, in the API, Codex and ChatGPT. OpenAI says it brings many strengths of GPT-5.4 to a faster model. GPT-5.4 nano was offered only in the API and was deprecated on 1 October 2026.",
+    "sources": [
+      {
+        "id": "src.openai.introducing-gpt-5-4-mini-and-nano"
+      },
+      {
+        "id": "src.openai.api-model-gpt-5-4-mini",
+        "locator": "Model details"
+      },
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-10-01: GPT-5.3-Codex, GPT-5.1, GPT-5.4-Nano"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "speed",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5",
+      "text": "OpenAI says it runs more than twice as fast as GPT-5 mini while improving coding, reasoning, multimodal understanding and tool use.",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-4-mini-and-nano"
+        }
+      ]
+    },
+    {
+      "id": "tool-search-computer-use",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5",
+      "text": "Supports tool search and built-in computer use in the API; GPT-5.4 nano supports neither.",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Mar 17 (2026)"
+        }
+      ]
+    },
+    {
+      "id": "xhigh",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5",
+      "text": "Reasoning effort extends to xhigh; for GPT-5 mini the top setting was high.",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-4-mini-and-nano"
+        },
+        {
+          "id": "src.openai.api-model-gpt-5-4-mini"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-4-mini",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.introducing-gpt-5-4-mini-and-nano",
+          "locator": "Availability & pricing"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-4-mini",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.api-model-gpt-5-4-mini"
+          }
+        ],
+        "note": "Reasoning effort none (default), low, medium, high and xhigh."
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.introducing-gpt-5-4-mini-and-nano",
+            "locator": "Availability & pricing"
+          },
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Mar 17 (2026)"
+          }
+        ]
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.introducing-gpt-5-4-mini-and-nano",
+            "locator": "Availability & pricing"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 400000,
+      "asStated": "400,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-4-mini",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The announcement says 400k; the docs list a maximum of 272,000 input tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-4-mini-and-nano",
+          "locator": "Availability & pricing"
+        }
+      ],
+      "note": "In ChatGPT it is not in the model picker: Free and Go users reach it through the Thinking feature, other users as a rate-limit fallback for GPT-5.4 Thinking."
+    }
+  },
+  "variants": [
+    {
+      "id": "nano",
+      "name": "GPT-5.4 nano",
+      "aliases": [
+        {
+          "text": "GPT-5.4 nano",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-5.4-nano",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-5.4-nano-2026-03-17",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2026-03-17",
+          "sources": [
+            {
+              "id": "src.openai.introducing-gpt-5-4-mini-and-nano",
+              "locator": "Availability & pricing"
+            },
+            {
+              "id": "src.openai.api-changelog",
+              "locator": "Mar 17 (2026)"
+            }
+          ]
+        },
+        "deprecated": {
+          "value": "2026-10-01",
+          "sources": [
+            {
+              "id": "src.openai.api-deprecations",
+              "locator": "2026-10-01: GPT-5.3-Codex, GPT-5.1, GPT-5.4-Nano"
+            }
+          ]
+        }
+      },
+      "lifecycle": {
+        "value": "deprecated",
+        "sources": [
+          {
+            "id": "src.openai.api-deprecations",
+            "locator": "2026-10-01: GPT-5.3-Codex, GPT-5.1, GPT-5.4-Nano"
+          }
+        ],
+        "note": "Shutdown scheduled for 2027-04-01; recommended replacement gpt-6-luna."
+      },
+      "capabilities": {
+        "access": {
+          "value": [
+            "api"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.openai.introducing-gpt-5-4-mini-and-nano",
+              "locator": "Availability & pricing"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.openai.introducing-gpt-5-4-mini-and-nano"
+        },
+        {
+          "id": "src.openai.api-model-gpt-5-4-nano"
+        }
+      ],
+      "note": "Smallest and cheapest GPT-5.4-class model, released the same day in the API only. Supports compaction but not tool search or computer use (changelog). Same 400,000-token context window as GPT-5.4 mini."
+    }
+  ],
+  "notes": "Released twelve days after GPT-5.4 in its own post, so it has its own record; GPT-5.4 nano, released with it, is an inline variant. OpenAI describes the two as bringing many strengths of GPT-5.4 to faster, more efficient models, and calls nano the smallest version of GPT-5.4; no variant-of relation to GPT-5.4 is recorded because mini is a separately named tier. Knowledge cutoff per the API docs: Aug 31, 2025."
+}

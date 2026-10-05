@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-small-3-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-small-3-2",
+  "name": "Mistral Small 3.2",
+  "aliases": [
+    {
+      "text": "Mistral Small 3.2",
+      "match": "auto"
+    },
+    {
+      "text": "mistral-small-2506",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Small-3.2-24B-Instruct-2506",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-small",
+  "generation": "3.2",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mistral-small-3-2-24b-instruct-2506"
+      },
+      {
+        "id": "src.mistral.legal-mistral-small-3",
+        "locator": "Model Lifecycle: Mistral Small 3.2, status Active"
+      }
+    ],
+    "note": "Apache 2.0 weights are still downloadable from Mistral AI's Hugging Face organisation; the API model mistral-small-2506 was retired on 2026-07-31."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-small-4",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Small 3.2, Alternative"
+      },
+      {
+        "id": "src.mistral.mistral-small-3-2-docs",
+        "locator": "Replacement"
+      }
+    ],
+    "note": "Replacement named for the API model when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-06-20",
+      "sources": [
+        {
+          "id": "src.mistral.changelog",
+          "locator": "June 20, 2025"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-2-docs",
+          "locator": "release date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-04-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Small 3.2 (mistral-small-2506)"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-2-docs",
+          "locator": "Deprecation date"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-07-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Small 3.2 (mistral-small-2506)"
+        }
+      ]
+    }
+  },
+  "milestones": [
+    {
+      "id": "api-available",
+      "label": "API model mistral-small-2506 available",
+      "date": {
+        "value": "2025-06-23",
+        "sources": [
+          {
+            "id": "src.mistral.changelog",
+            "locator": "June 23, 2025"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.mistral-small-3-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.hf-mistral-small-3-2-24b-instruct-2506",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-2-docs",
+          "locator": "description: an update to the previous small model"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Mistral Small 3.2 is a minor update of Mistral Small 3.1 Instruct, a 24B-parameter model with text and image input, published as open weights under Apache 2.0 and offered as API model mistral-small-2506. Mistral AI says it follows precise instructions better, repeats itself less and has a more robust function-calling template.",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mistral-small-3-2-24b-instruct-2506"
+      },
+      {
+        "id": "src.mistral.mistral-small-3-2-docs"
+      },
+      {
+        "id": "src.mistral.changelog",
+        "locator": "June 23, 2025"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "instruction-following",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-small-3-1",
+      "text": "Mistral AI says it follows precise instructions better.",
+      "sources": [
+        {
+          "id": "src.mistral.hf-mistral-small-3-2-24b-instruct-2506"
+        }
+      ]
+    },
+    {
+      "id": "repetition",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-small-3-1",
+      "text": "Produces fewer infinite or repetitive generations, according to Mistral AI.",
+      "sources": [
+        {
+          "id": "src.mistral.hf-mistral-small-3-2-24b-instruct-2506"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-small-3-1",
+      "text": "Uses a more robust function-calling template.",
+      "sources": [
+        {
+          "id": "src.mistral.hf-mistral-small-3-2-24b-instruct-2506"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-2-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-2-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-2-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 24000000000,
+      "asStated": "24B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-2-docs",
+          "locator": "Weights table, Parameters (B)"
+        }
+      ],
+      "note": "The docs weights table gives 24 (billions); the Hugging Face repository name carries 24B."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.hf-mistral-small-3-2-24b-instruct-2506"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-2-docs",
+          "locator": "Weights table"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.changelog",
+          "locator": "June 23, 2025"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-3-2-24b-instruct-2506"
+        }
+      ]
+    }
+  },
+  "notes": "No announcement post; the changelog (release on 2025-06-20, API on 2025-06-23), the docs page and the Hugging Face card are the sources. Only an instruct checkpoint was published. Lifecycle reflects the open weights; the API dates come from the models overview, while the docs page badge still read Deprecated on 2026-10-01."
+}

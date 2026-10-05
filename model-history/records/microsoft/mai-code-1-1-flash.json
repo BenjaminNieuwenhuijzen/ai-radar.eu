@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.mai-code-1-1-flash",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mai-code-1-1-flash",
+  "name": "MAI-Code-1.1-Flash",
+  "aliases": [
+    {
+      "text": "MAI-Code-1.1-Flash",
+      "match": "auto"
+    },
+    {
+      "text": "MAI Code 1.1 Flash",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.mai-code",
+  "generation": "1.1",
+  "categories": [
+    "language",
+    "multimodal",
+    "code"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.microsoft.mai-code-1-1-flash-announcement",
+        "locator": "first paragraph"
+      },
+      {
+        "id": "src.microsoft.mai-code-model-page"
+      },
+      {
+        "id": "src.microsoft.github-changelog-mai-code-1-1-flash",
+        "locator": "Availability in GitHub Copilot"
+      }
+    ],
+    "note": "In production in GitHub Copilot; no deprecation notice found up to 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-08-11",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-1-flash-announcement",
+          "locator": "dateline"
+        },
+        {
+          "id": "src.microsoft.mai-code-1-1-flash-model-card",
+          "locator": "Model Summary: Release date"
+        },
+        {
+          "id": "src.microsoft.github-changelog-mai-code-1-1-flash"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "microsoft.mai-code-1-flash",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-1-flash-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.microsoft.github-changelog-mai-code-1-1-flash",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.microsoft.github-changelog-mai-code-1-flash-upcoming-deprecation"
+        },
+        {
+          "id": "src.microsoft.mai-code-repository",
+          "locator": "README: New Release - MAI-Code-1.1-Flash"
+        }
+      ],
+      "note": null
+    },
+    {
+      "type": "derived-from",
+      "target": "microsoft.mai-thinking-1",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-1-flash-model-card",
+          "locator": "Training disclosure; Model dependencies"
+        }
+      ],
+      "note": "Training started from MAI-Thinking-1's compressed 5B-active-parameter mid-training checkpoint, followed by supervised fine-tuning, a further mid-training phase and reinforcement learning."
+    }
+  ],
+  "summary": {
+    "text": "MAI-Code-1.1-Flash is a coding model from Microsoft AI, released on 11 August 2026 as the successor to MAI-Code-1-Flash and offered inside GitHub Copilot. It is a sparse mixture-of-experts model with 5 billion active and 138 billion total parameters that adds image input, and Microsoft says it uses fewer tokens per task at a quarter of the price.",
+    "sources": [
+      {
+        "id": "src.microsoft.mai-code-1-1-flash-announcement"
+      },
+      {
+        "id": "src.microsoft.mai-code-1-1-flash-model-card"
+      },
+      {
+        "id": "src.microsoft.github-changelog-mai-code-1-1-flash"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "microsoft.mai-code-1-flash",
+      "text": "Adds native image input; MAI-Code-1-Flash accepted text only.",
+      "sources": [
+        {
+          "id": "src.microsoft.github-changelog-mai-code-1-1-flash",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.microsoft.mai-code-1-1-flash-model-card",
+          "locator": "Model Summary: Inputs"
+        }
+      ]
+    },
+    {
+      "id": "token-efficiency",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "microsoft.mai-code-1-flash",
+      "text": "Microsoft says it uses about 25% fewer tokens per task and streams tokens about 25% faster in GitHub Copilot.",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-1-flash-announcement"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "microsoft.mai-code-1-flash",
+      "text": "Microsoft puts the price at a quarter of MAI-Code-1-Flash; GitHub lists a 73% lower list price.",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-1-flash-announcement"
+        },
+        {
+          "id": "src.microsoft.github-changelog-mai-code-1-1-flash"
+        }
+      ]
+    },
+    {
+      "id": "cli-dotnet-focus",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "microsoft.mai-code-1-flash",
+      "text": "Microsoft focused this version on command-line tasks in GitHub Copilot CLI and on .NET work, based on developer feedback.",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-1-flash-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-1-flash-model-card",
+          "locator": "Model Summary: Inputs"
+        },
+        {
+          "id": "src.microsoft.github-changelog-mai-code-1-1-flash",
+          "locator": "first paragraph"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-1-flash-model-card",
+          "locator": "Model Summary: Outputs"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256K tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-1-flash-model-card",
+          "locator": "Model Summary: Context length"
+        }
+      ],
+      "note": "The numeric value reads K as 1,000; the source does not say."
+    },
+    "parameters": {
+      "value": 138000000000,
+      "asStated": "138B total, 5B active",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-code-1-1-flash-model-card",
+          "locator": "Model Summary: Parameters"
+        }
+      ],
+      "note": "Sparse mixture-of-experts."
+    }
+  },
+  "notes": "Offered inside GitHub Copilot across all its clients; that channel does not map onto the access vocabulary, so access is left out. Price difference: Microsoft says one quarter of the price of 1.0, while GitHub lists a 73% lower list price. Pretraining cut-off December 2025 per the model card."
+}

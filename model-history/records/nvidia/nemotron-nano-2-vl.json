@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.nemotron-nano-2-vl",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nemotron-nano-2-vl",
+  "name": "Nemotron Nano 2 VL",
+  "aliases": [
+    {
+      "text": "Nemotron Nano 2 VL",
+      "match": "auto"
+    },
+    {
+      "text": "NVIDIA Nemotron Nano 2 VL",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron Nano V2 VL",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron Nano 12B V2 VL",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron Nano v2 12B VL",
+      "match": "auto"
+    },
+    {
+      "text": "NVIDIA-Nemotron-Nano-12B-v2-VL-BF16",
+      "match": "auto"
+    },
+    {
+      "text": "NVIDIA-Nemotron-Nano-12B-v2-VL-FP8",
+      "match": "auto"
+    },
+    {
+      "text": "NVIDIA-Nemotron-Nano-12B-v2-VL-NVFP4-QAD",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-Nano-12B-v2-VL",
+      "match": "auto"
+    },
+    {
+      "text": "NVIDIA-Nemotron-Nano-VL-12B-V2",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron-nano",
+  "generation": "2",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-nano-12b-v2-vl-model-card"
+      }
+    ],
+    "note": "NVIDIA has no deprecation page for its open models; the BF16, FP8 and NVFP4-QAD weights were still downloadable from NVIDIA's Hugging Face organisation on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-10-28",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-12b-v2-vl-model-card",
+          "locator": "Release Date"
+        },
+        {
+          "id": "src.nvidia.nemotron-vision-rag-guardrail-models-blog",
+          "locator": "Add multimodal understanding and reasoning with NVIDIA Nemotron Nano 2 VL"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "nvidia.nemotron-nano-2",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-v2-vl-technical-report",
+          "locator": "Abstract; 1 Introduction; 2 Model Architecture"
+        },
+        {
+          "id": "src.nvidia.nemotron-nano-12b-v2-vl-model-card",
+          "locator": "Model Architecture"
+        }
+      ],
+      "note": "Vision-language model built on the Nemotron Nano V2 12B reasoning LLM (NVIDIA-Nemotron-Nano-12B-v2) combined with a RADIO vision encoder and an MLP projector, trained in several supervised fine-tuning stages."
+    }
+  ],
+  "summary": {
+    "text": "Nemotron Nano 2 VL is a 12B open-weights vision-language model from NVIDIA that takes text, images and video and produces text, built on the Nemotron Nano 2 12B reasoning model with a RADIO vision encoder. NVIDIA presents it for document, multi-image and video understanding; it introduced Efficient Video Sampling and was offered on Hugging Face, build.nvidia.com and as an NVIDIA NIM.",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-vision-rag-guardrail-models-blog"
+      },
+      {
+        "id": "src.nvidia.nemotron-nano-12b-v2-vl-model-card"
+      },
+      {
+        "id": "src.nvidia.nemotron-nano-v2-vl-technical-report"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-video-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "nvidia.nemotron-nano-2",
+      "text": "Adds image and video input to the text-only Nemotron Nano 2 language model it is built on.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-12b-v2-vl-model-card"
+        },
+        {
+          "id": "src.nvidia.nemotron-nano-9b-v2-model-card",
+          "locator": "Input"
+        }
+      ]
+    },
+    {
+      "id": "efficient-video-sampling",
+      "aspect": "efficiency",
+      "direction": "added",
+      "relativeTo": "nvidia.nemotron-nano-2",
+      "text": "Introduces Efficient Video Sampling, which drops video patches that stay unchanged over time to cut token counts for long videos.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-v2-vl-technical-report"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-12b-v2-vl-model-card",
+          "locator": "Input"
+        }
+      ],
+      "note": "Up to four input images; video frames sampled at 2 FPS, 8 to 128 frames."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-12b-v2-vl-model-card",
+          "locator": "Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-nano-v2-vl-technical-report",
+            "locator": "1 Introduction; 4.3 Reasoning Budget Control"
+          }
+        ],
+        "note": "Supports reasoning-on and reasoning-off modes."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-12b-v2-vl-model-card",
+          "locator": "License/Terms of Use; Release Date"
+        },
+        {
+          "id": "src.nvidia.nemotron-nano-v2-vl-technical-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Checkpoints in BF16, FP8 and NVFP4 (QAD) under the NVIDIA Open Model License Agreement."
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-12b-v2-vl-model-card",
+          "locator": "Input: Input + Output Token"
+        },
+        {
+          "id": "src.nvidia.nemotron-nano-v2-vl-technical-report",
+          "locator": "1 Introduction"
+        }
+      ],
+      "note": "Stated as input plus output tokens."
+    },
+    "parameters": {
+      "value": 12600000000,
+      "asStated": "12.6B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-12b-v2-vl-model-card",
+          "locator": "Number of model parameters"
+        }
+      ],
+      "note": "NVIDIA's blog and technical report round this to 12B."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-nano-12b-v2-vl-model-card",
+          "locator": "Release Date"
+        },
+        {
+          "id": "src.nvidia.nemotron-vision-rag-guardrail-models-blog",
+          "locator": "Add multimodal understanding and reasoning with NVIDIA Nemotron Nano 2 VL"
+        }
+      ],
+      "note": "Hugging Face and build.nvidia.com; the blog also says it is available as an NVIDIA NIM."
+    }
+  },
+  "notes": "NVIDIA names Llama-3.1-Nemotron-Nano-VL-8B-V1 (June 2025) as its previous vision-language model; that model is out of scope, so no successor-of relation is recorded. The technical report says context grew from 16K in that model to 128K. BF16, FP8 and NVFP4-QAD are precision checkpoints, kept as aliases; the technical report names the weights Nemotron-Nano-12B-v2-VL and build.nvidia.com uses NVIDIA-Nemotron-Nano-VL-12B-V2. The Hugging Face repositories were created on 2025-10-21 and 2025-10-22 (Hugging Face API); the model card gives October 28th, 2025 as the release date."
+}

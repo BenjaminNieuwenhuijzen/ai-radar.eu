@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.command-a-reasoning",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "command-a-reasoning",
+  "name": "Command A Reasoning",
+  "aliases": [
+    {
+      "text": "Command A Reasoning",
+      "match": "auto"
+    },
+    {
+      "text": "command-a-reasoning-08-2025",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.command-a-family",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Command table: command-a-reasoning-08-2025, Status Live"
+      },
+      {
+        "id": "src.cohere.command-a-reasoning-hf"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-08-21",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-reasoning-blog",
+          "locator": "page date; Availability"
+        },
+        {
+          "id": "src.cohere.command-a-reasoning-changelog",
+          "locator": "entry date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "cohere.command-a",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-reasoning-hf",
+          "locator": "card metadata base_model CohereLabs/c4ai-command-a-03-2025"
+        }
+      ],
+      "note": "Recorded from the base_model metadata of Cohere's model card, classified as a fine-tune in the Hugging Face model tree; the card text does not describe the lineage."
+    }
+  ],
+  "summary": {
+    "text": "Command A Reasoning is Cohere's first reasoning model, a 111B-parameter text model in the Command A family released on 21 August 2025 on the Cohere platform, with open weights for non-commercial research use. It is a hybrid model whose thinking step can be switched on or off with a user-set token budget, and Cohere aims it at agentic tasks and tool use in 23 languages.",
+    "sources": [
+      {
+        "id": "src.cohere.command-a-reasoning-changelog"
+      },
+      {
+        "id": "src.cohere.command-a-reasoning-blog"
+      },
+      {
+        "id": "src.cohere.command-a-reasoning-hf"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "thinking-step",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "cohere.command-a",
+      "text": "Adds an optional thinking step before the answer that can be switched off, with a token budget to control compute.",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-reasoning-changelog",
+          "locator": "Customization Options"
+        },
+        {
+          "id": "src.cohere.command-a-reasoning-hf",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    {
+      "id": "max-output",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "cohere.command-a",
+      "text": "Maximum output rises to 32K tokens, from 8K for Command A.",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-reasoning-hf",
+          "locator": "Model Details: Input"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Modality"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-reasoning-hf",
+          "locator": "Model Details: Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-a-reasoning-changelog",
+            "locator": "Customization Options"
+          },
+          {
+            "id": "src.cohere.command-a-reasoning-hf",
+            "locator": "Model Summary"
+          }
+        ],
+        "note": "Hybrid model: thinking can be switched on or off, with a user-set token budget."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-a-reasoning-changelog",
+            "locator": "Key Features"
+          },
+          {
+            "id": "src.cohere.command-a-reasoning-hf",
+            "locator": "Tool Use Capabilities"
+          }
+        ]
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-a-reasoning-changelog",
+            "locator": "Key Features"
+          },
+          {
+            "id": "src.cohere.command-a-reasoning-hf",
+            "locator": "Model Details: Languages covered"
+          }
+        ],
+        "note": "23 languages."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Context Length"
+        },
+        {
+          "id": "src.cohere.command-a-reasoning-changelog",
+          "locator": "Technical Specifications"
+        },
+        {
+          "id": "src.cohere.command-a-reasoning-hf",
+          "locator": "Model Summary: Context length"
+        }
+      ],
+      "note": "Maximum output 32K tokens. The launch post says 128k on a single H100 or A100 and 256k on two or more GPUs."
+    },
+    "parameters": {
+      "value": 111000000000,
+      "asStated": "111B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-reasoning-docs",
+          "locator": "Description"
+        },
+        {
+          "id": "src.cohere.command-a-reasoning-changelog",
+          "locator": "opening paragraph"
+        },
+        {
+          "id": "src.cohere.command-a-reasoning-hf",
+          "locator": "Model Summary: Model Size"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-reasoning-hf",
+          "locator": "Model Summary"
+        },
+        {
+          "id": "src.cohere.command-a-reasoning-blog",
+          "locator": "Availability"
+        }
+      ],
+      "note": "Research release under CC-BY-NC 4.0 with Cohere Labs acceptable use policy; gated download on Hugging Face."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-a-reasoning-blog",
+          "locator": "Availability"
+        }
+      ]
+    }
+  },
+  "notes": "Cohere calls it its first reasoning model. Not listed as deprecated on the deprecations page as of 2026-10-01; that page's 2026-04-04 notice lists it among chat alternatives for the retired Aya Expanse 8B and Aya Vision 8B models. The Hugging Face repository was created on 2025-08-12, before launch; not used as a date. The launch post says it powers Cohere's North platform. The docs model page gives 4x H100 for production, the launch post a single H100 or A100 at 128k context."
+}

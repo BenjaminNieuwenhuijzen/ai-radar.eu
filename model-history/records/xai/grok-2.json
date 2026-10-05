@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-2",
+  "name": "Grok-2",
+  "aliases": [
+    {
+      "text": "Grok-2",
+      "match": "candidate"
+    },
+    {
+      "text": "Grok 2",
+      "match": "candidate"
+    },
+    {
+      "text": "sus-column-r",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok",
+  "generation": "2",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.xai.grok-2-hugging-face",
+        "locator": "Usage: Serving with SGLang"
+      }
+    ],
+    "note": "Refers to the Grok 2 weights that xAI published on Hugging Face in August 2025, which remain downloadable; xAI does not say which Grok-2 version they are. The xAI API models page lists no Grok-2 model (checked 2026-10-01), and xAI published no retirement notice for the August 2024 model in its products."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-08-13",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-announcement",
+          "locator": "page date; second paragraph"
+        }
+      ],
+      "note": "Released as an early preview in beta on X for Premium and Premium+ users; enterprise API access was announced for later in August 2024."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "weights-published",
+      "label": "Weights published on Hugging Face",
+      "date": {
+        "value": "2025-08",
+        "sources": [
+          {
+            "id": "src.xai.grok-2-hugging-face",
+            "locator": "commit history"
+          }
+        ],
+        "note": "The card gives no date; the repository's commit history shows the weights uploaded on 2025-08-22 (UTC) and the model card added on 2025-08-23. xAI describes the weights only as Grok 2, a model trained and used at xAI in 2024, so they may belong to the December 2024 revision instead."
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-1-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-announcement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Grok-2 is a language model from xAI with text and vision understanding, released on 13 August 2024 as an early beta on X for Premium and Premium+ subscribers, together with Grok-2 mini, with an enterprise API announced for later that month. In August 2025 xAI published weights it calls Grok 2 on Hugging Face under the Grok 2 Community License Agreement.",
+    "sources": [
+      {
+        "id": "src.xai.grok-2-announcement"
+      },
+      {
+        "id": "src.xai.grok-2-hugging-face"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "chat-coding-reasoning",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "xai.grok-1-5",
+      "text": "xAI reports improvements in chat, coding and reasoning over Grok-1.5.",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "tool-use",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "xai.grok-1-5",
+      "text": "xAI says it reasons better with retrieved content and is better at tool use.",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-announcement",
+          "locator": "Grok-2 language model and chat capabilities"
+        }
+      ]
+    },
+    {
+      "id": "vision",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "xai.grok-1-5",
+      "text": "xAI describes the model as having vision understanding; at launch, multimodal understanding on X and in the API was announced as coming soon.",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-announcement",
+          "locator": "Experience Grok with real-time information on X"
+        }
+      ]
+    },
+    {
+      "id": "enterprise-api",
+      "aspect": "availability",
+      "direction": "added",
+      "relativeTo": "xai.grok-1-5",
+      "text": "Offered through a new enterprise API, announced for later in August 2024, in addition to Grok on X.",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-announcement",
+          "locator": "Build with Grok using the Enterprise API"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-announcement",
+          "locator": "Experience Grok with real-time information on X"
+        }
+      ],
+      "note": "xAI says Grok-2 has text and vision understanding capabilities and reports results on visual tasks; at launch it described multimodal understanding on X and the API as coming soon."
+    },
+    "features": [
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.grok-2-announcement",
+            "locator": "Grok-2 language model and chat capabilities"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI; the Hugging Face card gives only the download size of the weights."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-hugging-face"
+        }
+      ],
+      "note": "Weights of Grok 2 under the Grok 2 Community License Agreement (now titled xAI Community License Agreement), published in August 2025; xAI does not say which Grok-2 version they are."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-2-announcement",
+          "locator": "second paragraph; Build with Grok using the Enterprise API"
+        },
+        {
+          "id": "src.xai.grok-2-hugging-face"
+        }
+      ],
+      "note": "At launch in beta on X for Premium and Premium+ users, with the enterprise API announced for later in August 2024; weights downloadable since August 2025."
+    }
+  },
+  "notes": "An early version was tested on the LMSYS Chatbot Arena under the name sus-column-r (per the announcement). Announced together with Grok-2 mini (xai.grok-2-mini). The December 2024 version is a separate record (xai.grok-2-2024-12). Version of the open weights: the Hugging Face repository is named grok-2 and does not say whether it holds the August or the December 2024 model."
+}

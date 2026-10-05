@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.muse-spark-1-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "muse-spark-1-1",
+  "name": "Muse Spark 1.1",
+  "aliases": [
+    {
+      "text": "Muse Spark 1.1",
+      "match": "auto"
+    },
+    {
+      "text": "muse-spark-1.1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.muse",
+  "generation": "1.1",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.meta.model-api-models",
+        "locator": "Available Muse Spark models"
+      }
+    ],
+    "note": "Listed as an available model in the Model API docs on 2026-10-01. The API launched as a public preview with this model; the docs no longer carry a preview label, although the marketing page at dev.meta.ai/models/muse-spark-1-1 still says public preview for US developers."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-07-09",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-1-1-blog"
+        },
+        {
+          "id": "src.meta.muse-spark-1-1-evaluation-report",
+          "locator": "cover page date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "meta.muse-spark",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-1-1-blog",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.meta.muse-spark-1-1-evaluation-report",
+          "locator": "Introduction"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Muse Spark 1.1 is a multimodal reasoning model in Meta's Muse series that Meta says is built for agentic tasks. It succeeded the first Muse Spark in Meta AI and launched with the public preview of the Meta Model API, which lists it as muse-spark-1.1 with text, image, video, audio and PDF input and a 1,048,576-token context window.",
+    "sources": [
+      {
+        "id": "src.meta.muse-spark-1-1-blog"
+      },
+      {
+        "id": "src.meta.muse-spark-1-1-evaluation-report",
+        "locator": "Introduction"
+      },
+      {
+        "id": "src.meta.model-api-models",
+        "locator": "Available Muse Spark models"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "public-api",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "meta.muse-spark",
+      "text": "First Muse model offered to developers through a public API: the public preview of the Meta Model API launched with it.",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-1-1-blog"
+        }
+      ]
+    },
+    {
+      "id": "computer-use-subagents",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "meta.muse-spark",
+      "text": "Adds trained computer use across applications and orchestration of parallel subagents, which Meta says makes complex projects faster than with Muse Spark.",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-1-1-blog",
+          "locator": "Agents; Computer Use"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "relativeTo": "meta.muse-spark",
+      "text": "Documented context window of 1 million tokens (1,048,576 in the API docs); Meta says the model compacts earlier work while keeping key steps.",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-1-1-blog",
+          "locator": "Agents"
+        },
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Available Muse Spark models"
+        }
+      ]
+    },
+    {
+      "id": "coding",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "meta.muse-spark",
+      "text": "Meta reports coding gains on real-world tasks in large codebases compared with the first Muse Spark model.",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-1-1-blog"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "video",
+        "audio"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Available Muse Spark models"
+        }
+      ],
+      "note": "The docs also list PDF input."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Available Muse Spark models"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.model-api-models",
+          "locator": "Available Muse Spark models"
+        },
+        {
+          "id": "src.meta.muse-spark-1-1-blog",
+          "locator": "Agents"
+        }
+      ],
+      "note": "The launch blog says a context window of 1 million tokens."
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.meta.model-api-reasoning",
+            "locator": "How it works"
+          }
+        ],
+        "note": "Reasoning model with adjustable reasoning_effort from minimal to xhigh; reasoning cannot be disabled."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.meta.muse-spark-1-1-blog",
+            "locator": "Agents"
+          },
+          {
+            "id": "src.meta.muse-spark-1-1-evaluation-report",
+            "locator": "abstract"
+          }
+        ]
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.meta.muse-spark-1-1-blog",
+            "locator": "Computer Use"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Meta."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.muse-spark-1-1-blog",
+          "locator": "third paragraph; Availability"
+        }
+      ],
+      "note": "API access through the public preview of the Meta Model API launched with this model; in the Meta AI app and on meta.ai it was available in Thinking mode."
+    }
+  },
+  "notes": "API id muse-spark-1.1 (Standard tier only; no Contributor tier per the models and pricing pages). The Model API models page calls it the original version, although the April 2026 Muse Spark preceded it in Meta AI."
+}

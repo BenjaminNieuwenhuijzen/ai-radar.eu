@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.command-r7b-arabic",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "command-r7b-arabic",
+  "name": "Command R7B Arabic",
+  "aliases": [
+    {
+      "text": "Command R7B Arabic",
+      "match": "auto"
+    },
+    {
+      "text": "command-r7b-arabic-02-2025",
+      "match": "auto"
+    },
+    {
+      "text": "c4ai-command-r7b-arabic-02-2025",
+      "match": "auto"
+    },
+    {
+      "text": "R7B Arabic",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.command-r-series",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.command-r7b-arabic-model-card"
+      }
+    ],
+    "note": "Open weights still downloadable from Cohere Labs on Hugging Face. The API id command-r7b-arabic-02-2025 linked from the announcement does not appear on Cohere's models overview or deprecations page as of 2026-10-01, so its API status is not documented."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02-27",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-arabic-announcement",
+          "locator": "date line; Availability"
+        },
+        {
+          "id": "src.cohere.changelog-command-r7b-arabic",
+          "locator": "February 27, 2025"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "variant-of",
+      "target": "cohere.command-r7b",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-arabic-announcement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Cohere presents it as a new version of its lightweight Command R7B model with advanced Arabic capabilities."
+    }
+  ],
+  "summary": {
+    "text": "Command R7B Arabic is a version of Cohere's Command R7B optimised for Modern Standard Arabic and English and aimed at enterprises in the Middle East and North Africa, released on the Cohere platform and as open weights on Hugging Face. It has a 128K-token context window and about 8 billion parameters.",
+    "sources": [
+      {
+        "id": "src.cohere.command-r7b-arabic-announcement"
+      },
+      {
+        "id": "src.cohere.command-r7b-arabic-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "arabic",
+      "aspect": "languages",
+      "direction": "changed",
+      "relativeTo": "cohere.command-r7b",
+      "text": "Cohere says it improves on Command R7B in all Arabic language dimensions, with no regression in the languages Command R7B already supported.",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-arabic-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-arabic-model-card",
+          "locator": "Model Details: Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-arabic-model-card",
+          "locator": "Model Details: Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-r7b-arabic-model-card",
+            "locator": "Multilingual RAG Capabilities"
+          },
+          {
+            "id": "src.cohere.changelog-command-r7b-arabic",
+            "locator": "Multilingual RAG Capabilities"
+          }
+        ],
+        "note": "Retrieval-augmented generation with in-line citations, trained for Arabic and English."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-r7b-arabic-announcement",
+            "locator": "Multilingual"
+          }
+        ],
+        "note": "The announcement mentions using external tools such as search engines, APIs and vector databases."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-arabic-model-card",
+          "locator": "Context length"
+        },
+        {
+          "id": "src.cohere.command-r7b-arabic-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.cohere.changelog-command-r7b-arabic"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 8000000000,
+      "asStated": "~8 billion parameters (7 billion transformer parameters + 1 billion embedding parameters)",
+      "qualifier": "approximate",
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-arabic-model-card",
+          "locator": "Model Size"
+        },
+        {
+          "id": "src.cohere.changelog-command-r7b-arabic",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "The model card summary calls it a 7 billion parameter model; its Model Size line and the release notes give about 8 billion in total."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-arabic-announcement",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.cohere.command-r7b-arabic-model-card"
+        }
+      ],
+      "note": "Research release under CC-BY-NC with Cohere Labs' Acceptable Use Policy; download is gated behind accepting the conditions."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-arabic-announcement",
+          "locator": "Availability"
+        }
+      ],
+      "note": "At release: Cohere platform (the announcement links the playground with model command-r7b-arabic-02-2025) and Hugging Face; the announcement also mentions Ollama."
+    }
+  },
+  "notes": "Optimised for Modern Standard Arabic and English. The release notes entry gives the model id c4ai-command-r7b-12-2024 for it, apparently a slip; the Hugging Face repository is c4ai-command-r7b-arabic-02-2025."
+}

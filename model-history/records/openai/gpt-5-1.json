@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-5-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-5-1",
+  "name": "GPT-5.1",
+  "aliases": [
+    {
+      "text": "GPT-5.1",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.1-2025-11-13",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-5.1 Thinking",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-5.1 Instant",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.1-chat-latest",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.1-thinking",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.1-instant",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-5.1 Auto",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "5.1",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-10-01: GPT-5.3-Codex, GPT-5.1, GPT-5.4-Nano"
+      }
+    ],
+    "note": "API model gpt-5.1 deprecated on 2026-10-01 with shutdown scheduled for 2027-04-01. GPT-5.1 Instant, Thinking and Pro were already removed from ChatGPT on 2026-03-11; the chat alias gpt-5.1-chat-latest was shut down on 2026-07-23."
+  },
+  "replacedBy": {
+    "modelId": "openai.gpt-6-sol",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-10-01: GPT-5.3-Codex, GPT-5.1, GPT-5.4-Nano"
+      }
+    ],
+    "note": "Recommended replacement for gpt-5.1 in the API. In ChatGPT, GPT-5.1 conversations moved to GPT-5.3 Instant, GPT-5.4 Thinking or GPT-5.4 Pro on 2026-03-11."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-11-12",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-1",
+          "locator": "rollout paragraph"
+        },
+        {
+          "id": "src.openai.chatgpt-release-notes",
+          "locator": "November 12, 2025: GPT-5.1 in ChatGPT"
+        }
+      ],
+      "note": "Start of the gradual ChatGPT rollout to paid users; the API followed on 2025-11-13."
+    },
+    "deprecated": {
+      "value": "2026-10-01",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2026-10-01: GPT-5.3-Codex, GPT-5.1, GPT-5.4-Nano"
+        }
+      ]
+    },
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "api-release",
+      "label": "Released in the API",
+      "date": {
+        "value": "2025-11-13",
+        "sources": [
+          {
+            "id": "src.openai.gpt-5-1-for-developers"
+          },
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Nov 13 (2025)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-in-chatgpt",
+      "label": "GPT-5.1 Pro released in ChatGPT",
+      "date": {
+        "value": "2025-11-19",
+        "sources": [
+          {
+            "id": "src.openai.chatgpt-release-notes",
+            "locator": "November 19, 2025: GPT-5.1 Pro"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chatgpt-retirement",
+      "label": "Removed from ChatGPT",
+      "date": {
+        "value": "2026-03-11",
+        "sources": [
+          {
+            "id": "src.openai.chatgpt-release-notes",
+            "locator": "March 11, 2026: Retiring GPT-5.1 models"
+          },
+          {
+            "id": "src.openai.model-release-notes",
+            "locator": "Retiring GPT-5.1 models (March 11, 2026)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "chat-alias-shutdown",
+      "label": "gpt-5.1-chat-latest shut down in the API",
+      "date": {
+        "value": "2026-07-23",
+        "sources": [
+          {
+            "id": "src.openai.api-deprecations",
+            "locator": "2026-04-22: Legacy GPT model snapshots (July 2026 shutdown)"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-1",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.openai.chatgpt-release-notes",
+          "locator": "November 12, 2025: GPT-5.1 in ChatGPT"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Nov 13 (2025)"
+        },
+        {
+          "id": "src.openai.gpt-5-1-system-card-addendum",
+          "locator": "Introduction"
+        }
+      ],
+      "note": "OpenAI presents GPT-5.1 as an upgrade of the GPT-5 series that replaces GPT-5 Instant and GPT-5 Thinking in ChatGPT."
+    }
+  ],
+  "summary": {
+    "text": "GPT-5.1 is an upgrade of OpenAI's GPT-5 series for text and image input, released in ChatGPT on 12 November 2025 as GPT-5.1 Instant and GPT-5.1 Thinking and in the API a day later. OpenAI says both adapt their thinking time to each question. The API model gpt-5.1 was deprecated on 1 October 2026.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-5-1"
+      },
+      {
+        "id": "src.openai.gpt-5-1-for-developers"
+      },
+      {
+        "id": "src.openai.api-model-gpt-5-1",
+        "locator": "Model details"
+      },
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-10-01: GPT-5.3-Codex, GPT-5.1, GPT-5.4-Nano"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "adaptive-reasoning",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5",
+      "text": "OpenAI says thinking time adapts more closely to task difficulty, and GPT-5.1 Instant is the first Instant model that can decide to think before answering.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-1"
+        }
+      ]
+    },
+    {
+      "id": "no-reasoning-default",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5",
+      "text": "In the API the default reasoning effort is a new setting called none, where GPT-5 defaulted to medium.",
+      "sources": [
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Nov 13 (2025)"
+        },
+        {
+          "id": "src.openai.gpt-5-1-for-developers",
+          "locator": "New no reasoning mode"
+        }
+      ]
+    },
+    {
+      "id": "new-tools",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "openai.gpt-5",
+      "text": "OpenAI introduced apply_patch and shell tools in the API alongside GPT-5.1, plus extended prompt caching with retention of up to 24 hours.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-1-for-developers"
+        }
+      ]
+    },
+    {
+      "id": "tone",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5",
+      "text": "OpenAI describes a warmer, more conversational default tone in ChatGPT and better adherence to instructions and custom instructions.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-1"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-1",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-1",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-5-1-for-developers",
+            "locator": "Adaptive reasoning; New no reasoning mode"
+          },
+          {
+            "id": "src.openai.api-model-gpt-5-1"
+          }
+        ],
+        "note": "Reasoning effort none (default), low, medium or high in the API."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.api-model-gpt-5-1",
+            "locator": "Supported features"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 400000,
+      "asStated": "400,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.api-model-gpt-5-1",
+          "locator": "Model details"
+        }
+      ],
+      "note": "API model gpt-5.1 (GPT-5.1 Thinking)."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-1",
+          "locator": "rollout paragraphs"
+        },
+        {
+          "id": "src.openai.gpt-5-1-for-developers",
+          "locator": "Pricing and availability"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "pro",
+      "name": "GPT-5.1 Pro",
+      "aliases": [
+        {
+          "text": "GPT-5.1 Pro",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "announced": {
+          "value": "2025-11-12",
+          "sources": [
+            {
+              "id": "src.openai.gpt-5-1",
+              "locator": "rollout paragraph"
+            }
+          ],
+          "note": "The GPT-5.1 post said GPT-5 Pro would be updated to GPT-5.1 Pro soon."
+        },
+        "released": {
+          "value": "2025-11-19",
+          "sources": [
+            {
+              "id": "src.openai.chatgpt-release-notes",
+              "locator": "November 19, 2025: GPT-5.1 Pro"
+            }
+          ]
+        },
+        "retired": {
+          "value": "2026-03-11",
+          "sources": [
+            {
+              "id": "src.openai.chatgpt-release-notes",
+              "locator": "March 11, 2026: Retiring GPT-5.1 models"
+            }
+          ]
+        }
+      },
+      "lifecycle": {
+        "value": "retired",
+        "sources": [
+          {
+            "id": "src.openai.chatgpt-release-notes",
+            "locator": "March 11, 2026: Retiring GPT-5.1 models"
+          }
+        ]
+      },
+      "capabilities": {
+        "access": {
+          "value": [
+            "consumer-app"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.openai.chatgpt-release-notes",
+              "locator": "November 19, 2025: GPT-5.1 Pro"
+            }
+          ],
+          "note": "Rolled out to ChatGPT Pro users; no GPT-5.1 Pro model appears in the API model catalog."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-release-notes",
+          "locator": "November 19, 2025: GPT-5.1 Pro"
+        }
+      ],
+      "note": "ChatGPT-only Pro version that replaced GPT-5 Pro for ChatGPT Pro users."
+    }
+  ],
+  "notes": "One record for the GPT-5.1 release in ChatGPT (GPT-5.1 Instant and GPT-5.1 Thinking) and the API, where GPT-5.1 Thinking is gpt-5.1 and GPT-5.1 Instant is gpt-5.1-chat-latest. The capabilities describe the API model gpt-5.1. GPT-5.1-Codex, GPT-5.1-Codex-Mini and GPT-5.1-Codex-Max are out of scope (code-specialised). Knowledge cutoff per the API docs: Sep 30, 2024. Scheduled API shutdown: 2027-04-01."
+}

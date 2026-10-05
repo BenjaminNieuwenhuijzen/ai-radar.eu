@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.instructgpt",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "instructgpt",
+  "name": "InstructGPT",
+  "aliases": [
+    {
+      "text": "InstructGPT",
+      "match": "auto"
+    },
+    {
+      "text": "text-davinci-001",
+      "match": "auto"
+    },
+    {
+      "text": "text-curie-001",
+      "match": "auto"
+    },
+    {
+      "text": "text-babbage-001",
+      "match": "auto"
+    },
+    {
+      "text": "text-ada-001",
+      "match": "auto"
+    },
+    {
+      "text": "davinci-instruct-beta",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "3",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2023-07-06: GPT and embeddings, InstructGPT models"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "openai.gpt-3-5-turbo",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2023-07-06: GPT and embeddings, InstructGPT models"
+      }
+    ],
+    "note": "The deprecations page names gpt-3.5-turbo-instruct as the recommended replacement for text-ada-001, text-babbage-001, text-curie-001 and text-davinci-001."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2022-01-27",
+      "sources": [
+        {
+          "id": "src.openai.instructgpt-announcement",
+          "locator": "page date; first and fourth paragraphs"
+        }
+      ],
+      "note": "Date on which OpenAI announced InstructGPT and made it the default language models on its API. The post says these models had been in beta on the API for more than a year, and that an earlier version was deployed in January 2021 (footnote A)."
+    },
+    "deprecated": {
+      "value": "2023-07-06",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2023-07-06: GPT and embeddings"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2024-01-04",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2023-07-06: GPT and embeddings, InstructGPT models"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "openai.gpt-3",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.instructgpt-announcement",
+          "locator": "Methods"
+        },
+        {
+          "id": "src.openai.instructgpt-model-card",
+          "locator": "Model Details"
+        },
+        {
+          "id": "src.openai.instructgpt-paper"
+        }
+      ],
+      "note": "Fine-tuned from GPT-3 with supervised learning on human demonstrations and reinforcement learning from human feedback."
+    }
+  ],
+  "summary": {
+    "text": "InstructGPT is a set of GPT-3 language models that OpenAI fine-tuned with human feedback to follow user instructions, offered through the OpenAI API, where they became the default language models in January 2022. The research models come in 1.3B, 6B and 175B sizes; OpenAI says the API versions used a slightly different fine-tuning procedure.",
+    "sources": [
+      {
+        "id": "src.openai.instructgpt-announcement"
+      },
+      {
+        "id": "src.openai.instructgpt-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "instruction-following",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-3",
+      "text": "Trained with labeler demonstrations, a reward model and PPO to do the task the user asks for, instead of only predicting the next word of internet text.",
+      "sources": [
+        {
+          "id": "src.openai.instructgpt-announcement"
+        }
+      ]
+    },
+    {
+      "id": "truthfulness-toxicity",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-3",
+      "text": "OpenAI says it makes up facts less often than GPT-3 and shows small decreases in toxic output.",
+      "sources": [
+        {
+          "id": "src.openai.instructgpt-announcement"
+        }
+      ]
+    },
+    {
+      "id": "api-default",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-3",
+      "text": "Replaced the GPT-3 base models as the default language models on the OpenAI API.",
+      "sources": [
+        {
+          "id": "src.openai.instructgpt-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "parameters": {
+      "value": 175000000000,
+      "asStated": "1.3B, 6B, and 175B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.instructgpt-model-card",
+          "locator": "Model Details"
+        }
+      ],
+      "note": "The three sizes in the paper and model card; value is the largest. OpenAI says the versions deployed on the API were fine-tuned with a slightly different procedure, and the model index lists no close API match for the paper models apart from davinci-instruct-beta (175B SFT)."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.instructgpt-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.openai.instructgpt-model-card",
+          "locator": "Model Use"
+        }
+      ]
+    }
+  },
+  "notes": "API ids: the model index for researchers lists davinci-instruct-beta (SFT) and text-davinci-001, text-curie-001 and text-babbage-001 (FeedME) as InstructGPT models; the deprecations page also groups text-ada-001 under InstructGPT models. The index and the deprecations page also list text-davinci-002 (and the deprecations page text-davinci-003) as InstructGPT models, but the index places them in the GPT-3.5 series, so they are aliases of openai.gpt-3-5. replacedBy assumes gpt-3.5-turbo-instruct is covered by the GPT-3.5 Turbo record. Lifecycle and dates apply to the API models."
+}

@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-6-1-sol",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-6-1-sol",
+  "name": "GPT-6.1 Sol",
+  "aliases": [
+    {
+      "text": "GPT-6.1 Sol",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-6.1-sol",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-6.1",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-sol",
+  "generation": "6.1",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.gpt-6-1-sol-docs",
+        "locator": "Snapshots"
+      },
+      {
+        "id": "src.openai.deprecations",
+        "locator": "Upcoming deprecations"
+      }
+    ],
+    "note": "Listed in the API model catalog and not on the deprecations page as read on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-09-29",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-1-sol-launch",
+          "locator": "Pricing and availability"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "September, 2026: Sep 29"
+        },
+        {
+          "id": "src.openai.gpt-6-1-sol-system-card-addendum",
+          "locator": "Published September 29, 2026; 1. Introduction"
+        },
+        {
+          "id": "src.openai.chatgpt-codex-changelog",
+          "locator": "2026-09-29: GPT-6.1 Sol in Codex and ChatGPT Work"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-6-sol",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-1-sol-launch",
+          "locator": "first paragraph (an upgrade to GPT-6 Sol)"
+        },
+        {
+          "id": "src.openai.gpt-6-sol-docs",
+          "locator": "description (GPT-6.1 Sol is the newer Sol model)"
+        },
+        {
+          "id": "src.openai.chatgpt-models-docs",
+          "locator": "GPT-6.1 Sol (compared with the previous Sol model)"
+        },
+        {
+          "id": "src.openai.using-gpt-6",
+          "locator": "introduction (migration from gpt-6-sol)"
+        }
+      ],
+      "note": "OpenAI calls GPT-6.1 Sol an upgrade to GPT-6 Sol; a new version number, so successor-of rather than revision-of."
+    }
+  ],
+  "summary": {
+    "text": "GPT-6.1 Sol is the first model of OpenAI's GPT-6.1 family, a reasoning language model for text and image input released on 29 September 2026 in the API and in ChatGPT Work and Codex for paid and Edu plans. OpenAI presents it as an upgrade to GPT-6 Sol at a fifth of GPT-6 Astra's standard token prices, and rates it Critical in cybersecurity.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-6-1-sol-system-card-addendum"
+      },
+      {
+        "id": "src.openai.gpt-6-1-sol-launch"
+      },
+      {
+        "id": "src.openai.api-changelog"
+      },
+      {
+        "id": "src.openai.chatgpt-models-docs"
+      },
+      {
+        "id": "src.openai.gpt-6-1-sol-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "critical-cyber",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-6-sol",
+      "text": "Rated Critical in cybersecurity, where GPT-6 Sol was rated High, and served with the GPT-6 Astra safeguards stack.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-1-sol-system-card-addendum"
+        },
+        {
+          "id": "src.openai.gpt-6-astra-system-card",
+          "locator": "11. GPT-6 Sol, GPT-6 Luna"
+        }
+      ]
+    },
+    {
+      "id": "no-none-effort",
+      "aspect": "reasoning",
+      "direction": "removed",
+      "relativeTo": "openai.gpt-6-sol",
+      "text": "Does not support the none reasoning effort level, which GPT-6 Sol supports.",
+      "sources": [
+        {
+          "id": "src.openai.using-gpt-6"
+        }
+      ]
+    },
+    {
+      "id": "responses-only-tools",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-6-sol",
+      "text": "Tool calling works only through the Responses API; GPT-6 Sol also allowed function calling in Chat Completions with reasoning effort none.",
+      "sources": [
+        {
+          "id": "src.openai.using-gpt-6"
+        }
+      ]
+    },
+    {
+      "id": "cached-input-price",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-6-sol",
+      "text": "Cached input costs 0.10 USD per million tokens, half of GPT-6 Sol's cached input price.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-1-sol-launch"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-1-sol-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-1-sol-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-6-1-sol-docs",
+            "locator": "description (reasoning.effort); Model details (reasoning token support)"
+          }
+        ]
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-6-1-sol-docs",
+            "locator": "description; Supported features"
+          }
+        ],
+        "note": "Tool calling only through the Responses API; Chat Completions is supported without tool calling."
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-6-1-sol-docs",
+            "locator": "description; Supported tools"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1050000,
+      "asStated": "1,050,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-1-sol-docs",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The docs give 922,000 maximum input tokens and 128,000 maximum output tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-1-sol-launch",
+          "locator": "Pricing and availability"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "September, 2026: Sep 29"
+        },
+        {
+          "id": "src.openai.chatgpt-models-docs",
+          "locator": "GPT-6.1 Sol"
+        }
+      ]
+    }
+  },
+  "notes": "The system card addendum calls GPT-6.1 the latest model family in the GPT-6 series. At launch it rolled out to Plus, Pro, Business, Enterprise and Edu in Codex and ChatGPT Work, not to ChatGPT conversations and not to Free and Go. Codex CLI 0.159.1 added it to its Amazon Bedrock catalogs (ChatGPT and Codex changelog, 2026-09-29), but OpenAI’s Bedrock guide did not list it on 2026-10-01, so cloud-partner is left out. The launch page shows no publication date; Sep 29, 2026 comes from the API changelog and the system card addendum. The openai.com post was read through a Wayback Machine capture."
+}

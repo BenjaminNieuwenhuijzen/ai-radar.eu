@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.mai-ds-r1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mai-ds-r1",
+  "name": "MAI-DS-R1",
+  "aliases": [
+    {
+      "text": "MAI-DS-R1",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.mai",
+  "generation": null,
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.microsoft.mai-ds-r1-model-card",
+        "locator": "weights and licence (MIT)"
+      }
+    ],
+    "note": "Weights remain downloadable from Microsoft's Hugging Face organisation (checked 2026-10-01). The hosted API on Microsoft Foundry was retired on 2026-02-27 (see milestones)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-04-17",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-ds-r1-announcement",
+          "locator": "page date and first paragraph"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null,
+    "note": "No retired date is recorded because the open weights stay available; the Foundry-hosted API retirement is a milestone."
+  },
+  "milestones": [
+    {
+      "id": "foundry-retirement",
+      "label": "Retired from Microsoft Foundry",
+      "date": {
+        "value": "2026-02-27",
+        "sources": [
+          {
+            "id": "src.microsoft.foundry-retired-models",
+            "locator": "Microsoft table: MAI-DS-R1"
+          }
+        ],
+        "note": "Suggested replacement on the page: any DeepSeek model available in the model catalog."
+      }
+    }
+  ],
+  "summary": {
+    "text": "MAI-DS-R1 is an open-weights reasoning model released by Microsoft on 17 April 2025: a version of DeepSeek-R1 that the Microsoft AI team post-trained to answer topics the original blocked and to improve its risk profile. The weights are on Hugging Face under the MIT licence; the hosted API on Azure AI Foundry was retired on 27 February 2026.",
+    "sources": [
+      {
+        "id": "src.microsoft.mai-ds-r1-announcement"
+      },
+      {
+        "id": "src.microsoft.mai-ds-r1-model-card"
+      },
+      {
+        "id": "src.microsoft.foundry-retired-models",
+        "locator": "Microsoft table: MAI-DS-R1"
+      }
+    ]
+  },
+  "capabilities": {
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-ds-r1-model-card",
+          "locator": "Model Architecture and Objective: Pre-trained Model Base"
+        }
+      ],
+      "note": "Microsoft states no parameter count for MAI-DS-R1 itself; the model card gives 671B only as the size of the pre-trained base model, DeepSeek-R1, from another organisation."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-ds-r1-announcement",
+          "locator": "first paragraph; Conclusion"
+        },
+        {
+          "id": "src.microsoft.mai-ds-r1-model-card",
+          "locator": "licence: MIT"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-ds-r1-announcement",
+          "locator": "first paragraph; Conclusion"
+        }
+      ],
+      "note": "At release: Azure AI Foundry hosted API and Hugging Face weights, including quantized versions. The Foundry API was retired on 2026-02-27."
+    }
+  },
+  "notes": "Added outside the decided scope: a DeepSeek-R1 model post-trained by the Microsoft AI team, released with open weights. Its base model belongs to another organisation; that derived-from link is not recorded here. Named MAI but not trained end to end by Microsoft AI, which calls MAI-1-preview its first such foundation model.",
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "deepseek.deepseek-r1",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.microsoft.mai-ds-r1-model-card"
+        }
+      ]
+    }
+  ]
+}

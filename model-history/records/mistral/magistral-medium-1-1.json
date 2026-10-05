@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.magistral-medium-1-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "magistral-medium-1-1",
+  "name": "Magistral Medium 1.1",
+  "aliases": [
+    {
+      "text": "Magistral Medium 1.1",
+      "match": "auto"
+    },
+    {
+      "text": "magistral-medium-2507",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.magistral",
+  "generation": "1.1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Magistral Medium 1.1 (magistral-medium-2507)"
+      },
+      {
+        "id": "src.mistral.magistral-medium-1-1-docs",
+        "locator": "status Retired"
+      }
+    ],
+    "note": "The docs models overview and the docs model page show the API model as retired on 2025-11-30; no weights were published. On 2026-10-01 the Legal Center lifecycle table still showed status Active, with October 31, 2025 as retirement date."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-medium-3-5",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Magistral Medium 1.1, Alternative"
+      },
+      {
+        "id": "src.mistral.magistral-medium-1-1-docs",
+        "locator": "Replacement"
+      }
+    ],
+    "note": "Replacement named for the API model when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-07-24",
+      "sources": [
+        {
+          "id": "src.mistral.changelog",
+          "locator": "July 24, 2025"
+        },
+        {
+          "id": "src.mistral.magistral-medium-1-1-docs",
+          "locator": "release date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-10-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Magistral Medium 1.1 (magistral-medium-2507)"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Magistral Medium 1.1 (magistral-medium-2507)"
+        },
+        {
+          "id": "src.mistral.magistral-medium-1-1-docs",
+          "locator": "Retirement date"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2025-10-31",
+          "sources": [
+            {
+              "id": "src.mistral.legal-magistral-medium-1",
+              "locator": "Model Lifecycle table, Retirement Date"
+            }
+          ],
+          "note": "The Mistral Legal Center lifecycle table gives October 31, 2025 as retirement date, the date the docs models overview lists as deprecation date."
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.magistral-medium",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-1-docs"
+        }
+      ],
+      "note": "Editorial link along the Magistral Medium line: the changelog and the docs list version 1.1 after 1.0 without naming a predecessor."
+    }
+  ],
+  "summary": {
+    "text": "Magistral Medium 1.1 is a reasoning model in Mistral AI's Magistral line, released on 24 July 2025 together with Magistral Small 1.1 and offered as API model magistral-medium-2507. The docs list text input, text output and a 40k context window.",
+    "sources": [
+      {
+        "id": "src.mistral.changelog",
+        "locator": "July 24, 2025"
+      },
+      {
+        "id": "src.mistral.magistral-medium-1-1-docs"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-1-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-1-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 40000,
+      "asStated": "40k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.magistral-medium-1-1-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Mistral AI."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.changelog",
+          "locator": "July 24, 2025"
+        },
+        {
+          "id": "src.mistral.magistral-medium-1-1-docs",
+          "locator": "API id magistral-medium-2507"
+        }
+      ]
+    }
+  },
+  "notes": "No announcement post; released together with Magistral Small 1.1 per the changelog. Mistral AI published benchmark results for it in the Magistral Small 1.1 model card."
+}

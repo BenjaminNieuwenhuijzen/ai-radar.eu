@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-1-0-ultra",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-1-0-ultra",
+  "name": "Gemini 1.0 Ultra",
+  "aliases": [
+    {
+      "text": "Gemini 1.0 Ultra",
+      "match": "auto"
+    },
+    {
+      "text": "Ultra 1.0",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini Ultra 1.0",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini Ultra",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-ultra",
+  "generation": "1.0",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "No Google deprecation or retirement notice found; the model is not listed on the Gemini API deprecations page or in the Agent Platform model versions tables as seen on 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2023-12-06",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-announcement",
+          "locator": "Introducing Gemini; Gemini Ultra coming soon"
+        }
+      ]
+    },
+    "released": {
+      "value": "2024-02-08",
+      "sources": [
+        {
+          "id": "src.google.bard-becomes-gemini",
+          "locator": "Access our most capable AI model with Gemini Advanced"
+        }
+      ],
+      "note": "In Gemini Advanced, under the name Ultra 1.0."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "api-and-vertex-ai",
+      "label": "Available to developers in the Gemini API and to Vertex AI customers via allowlist",
+      "date": {
+        "value": "2024-02-15",
+        "sources": [
+          {
+            "id": "src.google.gemini-1-5-announcement",
+            "locator": "A note from Sundar Pichai"
+          },
+          {
+            "id": "src.google.gemini-1-5-private-preview-developers",
+            "locator": "first paragraph"
+          },
+          {
+            "id": "src.google.vertex-ai-gemini-expands",
+            "locator": "Gemini 1.0 Ultra paragraph"
+          }
+        ],
+        "note": "In the Gemini API it rolled out to select developers and partners; the Cloud blog page shows February 16, 2024."
+      }
+    }
+  ],
+  "summary": {
+    "text": "Gemini 1.0 Ultra is the biggest of the three sizes of Google's Gemini 1.0 models, which Google describes as natively multimodal, announced in December 2023. It reached consumers as Ultra 1.0 in Gemini Advanced, part of the Google One AI Premium plan, in February 2024, and developers and Cloud customers a week later through the Gemini API and, via an allowlist, Vertex AI.",
+    "sources": [
+      {
+        "id": "src.google.gemini-1-announcement"
+      },
+      {
+        "id": "src.google.bard-becomes-gemini"
+      },
+      {
+        "id": "src.google.gemini-1-5-announcement"
+      },
+      {
+        "id": "src.google.vertex-ai-gemini-expands"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-technical-report",
+          "locator": "section 2, Table 1 and Figure 2"
+        },
+        {
+          "id": "src.google.bard-gemini-pro-announcement",
+          "locator": "Look out for Gemini Ultra"
+        }
+      ],
+      "note": "The technical report describes interleaved text, image, audio and video input for the Gemini 1.0 family; it notes that Ultra had not yet been evaluated on audio."
+    },
+    "contextWindowTokens": {
+      "value": 32768,
+      "asStated": "32k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-technical-report",
+          "locator": "section 2; section 5.1.5"
+        },
+        {
+          "id": "src.google.gemini-1-5-announcement",
+          "locator": "Greater context, more helpful capabilities"
+        }
+      ],
+      "note": "Stated for the Gemini 1.0 models as a family (trained with a sequence length of 32,768 tokens)."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.bard-becomes-gemini",
+          "locator": "Access our most capable AI model with Gemini Advanced"
+        },
+        {
+          "id": "src.google.vertex-ai-gemini-expands",
+          "locator": "Gemini 1.0 Ultra paragraph"
+        },
+        {
+          "id": "src.google.gemini-1-5-private-preview-developers",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Gemini Advanced (Google One AI Premium plan); Gemini API for select developers; Vertex AI via allowlist."
+    }
+  },
+  "notes": "Announced as Gemini Ultra, one of three sizes of Gemini 1.0; released as Ultra 1.0. At announcement Google said it would first give select customers, developers, partners and safety experts early access. The consumer offer was announced as Bard Advanced and launched as Gemini Advanced when Bard was renamed Gemini. Output modalities left out: the report says Gemini models can also produce images, which the launch posts do not describe. First Ultra model; no predecessor relation recorded."
+}

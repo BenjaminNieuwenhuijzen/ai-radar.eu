@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-2-0-flash-lite",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-2-0-flash-lite",
+  "name": "Gemini 2.0 Flash-Lite",
+  "aliases": [
+    {
+      "text": "Gemini 2.0 Flash-Lite",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.0-flash-lite",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.0-flash-lite-001",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.0-flash-lite-preview-02-05",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.0-flash-lite-preview",
+      "match": "auto"
+    },
+    {
+      "text": "2.0 Flash-Lite",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-flash-lite",
+  "generation": "2.0",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 2.0 models"
+      },
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "June 1, 2026"
+      },
+      {
+        "id": "src.google.gemini-2-0-flash-lite-api-docs",
+        "locator": "warning banner"
+      },
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "google.gemini-3-1-flash-lite",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 2.0 models"
+      },
+      {
+        "id": "src.google.gemini-2-0-flash-lite-api-docs",
+        "locator": "warning banner"
+      },
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models"
+      }
+    ],
+    "note": "Recommended replacement for gemini-2.0-flash-lite on the Gemini API deprecations page and the Agent Platform model versions page when checked on 2026-10-01. The deprecations page names gemini-2.5-flash-lite as the replacement for the earlier preview IDs."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02-05",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-february-2025-announcement",
+          "locator": "2.0 Flash-Lite section"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "February 5, 2025"
+        },
+        {
+          "id": "src.google.gemini-api-deprecations",
+          "locator": "Gemini 2.0 models: gemini-2.0-flash-lite-preview-02-05"
+        }
+      ],
+      "note": "Public preview (gemini-2.0-flash-lite-preview-02-05); generally available on 2025-02-25."
+    },
+    "deprecated": {
+      "value": "2026-02-18",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "February 18, 2026"
+        }
+      ],
+      "note": "Date of the deprecation announcement in the Gemini API release notes."
+    },
+    "retired": {
+      "value": "2026-06-01",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "June 1, 2026"
+        },
+        {
+          "id": "src.google.gemini-api-deprecations",
+          "locator": "Gemini 2.0 models"
+        },
+        {
+          "id": "src.google.agent-platform-model-versions",
+          "locator": "Retired models"
+        }
+      ]
+    }
+  },
+  "milestones": [
+    {
+      "id": "general-availability",
+      "label": "Generally available (gemini-2.0-flash-lite-001)",
+      "date": {
+        "value": "2025-02-25",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "February 25, 2025"
+          },
+          {
+            "id": "src.google.gemini-2-0-flash-family-ga-dev-blog"
+          },
+          {
+            "id": "src.google.gemini-api-deprecations",
+            "locator": "Gemini 2.0 models"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "text": "Gemini 2.0 Flash-Lite is a multimodal language model from Google, released in public preview on 5 February 2025 and generally available in the Gemini API, through Google AI Studio and Vertex AI, from 25 February. It took text, image, audio and video input with a context window of 1,048,576 tokens, returned text, and was shut down on 1 June 2026.",
+    "sources": [
+      {
+        "id": "src.google.gemini-2-0-february-2025-announcement"
+      },
+      {
+        "id": "src.google.gemini-2-0-flash-family-ga-dev-blog"
+      },
+      {
+        "id": "src.google.gemini-2-0-flash-lite-model-card",
+        "locator": "Model Information"
+      },
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "June 1, 2026"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "quality",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-flash",
+      "text": "Google says it offers better quality than Gemini 1.5 Flash at the same speed and cost.",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-february-2025-announcement",
+          "locator": "2.0 Flash-Lite section"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-flash",
+      "text": "Uses a single price per input type, dropping the split between short and long context prices used for Gemini 1.5 Flash.",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-family-expands-dev-blog"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-flash-lite-api-docs",
+          "locator": "Supported data types"
+        },
+        {
+          "id": "src.google.gemini-2-0-flash-lite-model-card",
+          "locator": "Model Information: Inputs"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-flash-lite-api-docs",
+          "locator": "Supported data types"
+        },
+        {
+          "id": "src.google.gemini-2-0-flash-lite-model-card",
+          "locator": "Model Information: Outputs"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-2-0-flash-lite-api-docs",
+            "locator": "Capabilities"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-flash-lite-api-docs",
+          "locator": "Token limits: input token limit"
+        },
+        {
+          "id": "src.google.gemini-2-0-flash-lite-model-card",
+          "locator": "Model Information: Inputs"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-february-2025-announcement",
+          "locator": "2.0 Flash-Lite section"
+        },
+        {
+          "id": "src.google.gemini-2-0-flash-family-ga-dev-blog"
+        }
+      ],
+      "note": "Gemini API in Google AI Studio and Vertex AI."
+    }
+  },
+  "notes": "First model of the Flash-Lite line. The Google for Developers post of 2025-02-05 calls it a new variant within the Gemini 2.0 family without naming a parent model, so no variant-of relation is recorded. Google compares it with Gemini 1.5 Flash (same speed and cost). Dates apply to the Gemini API; Agent Platform lists the same retirement date. Vertex AI is counted as Google's own API (api)."
+}

@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-large-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-large-2",
+  "name": "Mistral Large 2",
+  "aliases": [
+    {
+      "text": "Mistral Large 2",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Large 24.07",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral Large 2.0",
+      "match": "auto"
+    },
+    {
+      "text": "mistral-large-2407",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Large-Instruct-2407",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-large",
+  "generation": "2",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mistral-large-instruct-2407"
+      },
+      {
+        "id": "src.mistral.docs-mistral-large-2-0-24-07",
+        "locator": "description and Weights table"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Mistral Large 2.0"
+      }
+    ],
+    "note": "Instruct weights under the Mistral Research License remain downloadable from the mistralai Hugging Face organisation (gated, with automatic approval after accepting the licence conditions); the API endpoint mistral-large-2407 was deprecated on 2024-11-30 and retired on 2025-03-30."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-large-3",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Mistral Large 2.0, Alternative"
+      },
+      {
+        "id": "src.mistral.docs-mistral-large-2-0-24-07",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-07-24",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-2-announcement",
+          "locator": "page date; Try Mistral Large 2 on la Plateforme"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "July 24, 2024"
+        },
+        {
+          "id": "src.mistral.docs-mistral-large-2-0-24-07",
+          "locator": "release date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2024-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Mistral Large 2.0"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-03-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Mistral Large 2.0"
+        },
+        {
+          "id": "src.mistral.docs-mistral-large-2-0-24-07",
+          "locator": "Retirement date"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.mistral-large-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-2-announcement",
+          "locator": "first paragraph; Code & Reasoning"
+        }
+      ],
+      "note": "The announcement calls it the latest generation and compares it with the previous Mistral Large."
+    }
+  ],
+  "summary": {
+    "text": "Mistral Large 2 is the second generation of Mistral AI's Mistral Large language model, with 123 billion parameters and a 128k-token context window. It was offered on la Plateforme as mistral-large-2407, in le Chat and through cloud providers, and its instruct weights were published under the Mistral Research License for research and non-commercial use.",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-large-2-announcement"
+      },
+      {
+        "id": "src.mistral.hf-mistral-large-instruct-2407"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "research-weights",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-large-1",
+      "text": "Instruct weights were published for download under the Mistral Research License, for research and non-commercial use.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-2-announcement"
+        },
+        {
+          "id": "src.mistral.hf-mistral-large-instruct-2407"
+        }
+      ]
+    },
+    {
+      "id": "code-data",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-large-1",
+      "text": "Mistral says it trained the model on a very large proportion of code, drawing on its work on Codestral 22B and Codestral Mamba, and on a large share of multilingual data.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-large-1",
+      "text": "Mistral says function calling was enhanced, with support for parallel and sequential calls.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-2-announcement"
+        }
+      ]
+    },
+    {
+      "id": "hallucinations",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-large-1",
+      "text": "Mistral says it was fine-tuned to reduce hallucinations and to acknowledge when it cannot find a solution or lacks enough information.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-2-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mistral-large-2-0-24-07",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mistral-large-2-0-24-07",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mistral-large-2-announcement",
+            "locator": "Tool Use & Function Calling"
+          }
+        ],
+        "note": "Parallel and sequential function calls."
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mistral-large-2-announcement",
+            "locator": "Mistral Large 2; Language diversity"
+          }
+        ]
+      },
+      {
+        "key": "fine-tuning-available",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mistral-large-2-announcement",
+            "locator": "Try Mistral Large 2 on la Plateforme"
+          },
+          {
+            "id": "src.mistral.changelog",
+            "locator": "July 24, 2024"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-2-announcement",
+          "locator": "Mistral Large 2; Try Mistral Large 2 on la Plateforme"
+        },
+        {
+          "id": "src.mistral.hf-mistral-large-instruct-2407"
+        }
+      ],
+      "note": "Mistral Research License: research and non-commercial use; commercial self-deployment needs a Mistral Commercial License."
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-2-announcement",
+          "locator": "Mistral Large 2"
+        },
+        {
+          "id": "src.mistral.docs-mistral-large-2-0-24-07",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 123000000000,
+      "asStated": "123 billion",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-2-announcement",
+          "locator": "Mistral Large 2"
+        },
+        {
+          "id": "src.mistral.docs-mistral-large-2-0-24-07",
+          "locator": "Weights table"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "cloud-partner",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-2-announcement",
+          "locator": "Try Mistral Large 2 on la Plateforme; Access Mistral models through cloud service providers"
+        }
+      ]
+    }
+  },
+  "notes": "Version 24.07; the announcement introduced YY.MM versioning for all Mistral models. The docs now call it Mistral Large 2.0. The Hugging Face repository is gated with automatic approval; the weights are still downloadable, so lifecycle is available while the API endpoint is retired."
+}

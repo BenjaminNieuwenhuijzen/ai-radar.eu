@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.phi-3-vision",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "phi-3-vision",
+  "name": "Phi-3-vision",
+  "aliases": [
+    {
+      "text": "Phi-3-vision",
+      "match": "auto"
+    },
+    {
+      "text": "Phi-3-vision-128k-instruct",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.phi-multimodal",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-3-vision-model-card"
+      }
+    ],
+    "note": "Weights are still downloadable from Microsoft's Hugging Face organisation (checked 2026-10-01)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-05-21",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-build-2024",
+          "locator": "You can try Phi-3-vision today"
+        },
+        {
+          "id": "src.microsoft.phi-3-vision-model-card",
+          "locator": "Release dates"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "microsoft.phi-3",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-vision-model-card",
+          "locator": "Model, Architecture"
+        },
+        {
+          "id": "src.microsoft.phi-3-build-2024",
+          "locator": "Bringing multimodality to Phi-3"
+        }
+      ],
+      "note": "Built from the Phi-3-mini language model (variant mini of microsoft.phi-3) combined with an image encoder, connector and projector."
+    }
+  ],
+  "summary": {
+    "text": "Phi-3-vision is a 4.2 billion parameter multimodal model from Microsoft that accepts text and images and returns text, the first multimodal model in the Phi-3 family. Introduced at Microsoft Build on 21 May 2024, it builds on Phi-3-mini, was optimised for chart and diagram understanding, and has open weights on Hugging Face under the MIT License.",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-3-build-2024"
+      },
+      {
+        "id": "src.microsoft.phi-3-vision-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "microsoft.phi-3",
+      "text": "Adds image input to the Phi-3-mini language model through an image encoder, connector and projector, keeping a 128K-token context.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-vision-model-card"
+        },
+        {
+          "id": "src.microsoft.phi-3-build-2024"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-vision-model-card",
+          "locator": "Model, Inputs"
+        },
+        {
+          "id": "src.microsoft.phi-3-build-2024",
+          "locator": "Bringing multimodality to Phi-3"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-vision-model-card",
+          "locator": "Model, Outputs"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-vision-model-card",
+          "locator": "Model, Context length"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 4200000000,
+      "asStated": "4.2B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-build-2024",
+          "locator": "The Phi-3 family"
+        },
+        {
+          "id": "src.microsoft.phi-3-vision-model-card",
+          "locator": "Model, Architecture"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-vision-model-card",
+          "locator": "License"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-vision-model-card"
+        }
+      ]
+    }
+  },
+  "notes": "Introduced at Microsoft Build 2024 as the first multimodal model in the Phi-3 family; the Build post links a try-it page in Azure AI but lists only Phi-3-mini and Phi-3-medium under models as a service, so api access is not recorded. Not listed on the Retired Microsoft Foundry Models page. Version 3 of the Phi-3 technical report (arXiv 2404.14219v3) names OpenAI CLIP ViT-L/14 as the image encoder and phi-3-mini-128K-instruct as the decoder (cross-organisation component, not recorded as a relation). Microsoft reported benchmark results."
+}

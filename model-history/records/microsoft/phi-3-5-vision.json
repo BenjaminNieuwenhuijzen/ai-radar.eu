@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.phi-3-5-vision",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "phi-3-5-vision",
+  "name": "Phi-3.5-vision",
+  "aliases": [
+    {
+      "text": "Phi-3.5-vision",
+      "match": "auto"
+    },
+    {
+      "text": "Phi-3.5-vision-instruct",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.phi-multimodal",
+  "generation": "3.5",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-3-5-vision-instruct-model-card"
+      }
+    ],
+    "note": "Weights are still downloadable from Microsoft's Hugging Face organisation (checked 2026-10-01). Retired from Microsoft Foundry on 2025-08-30 (see milestones)."
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-08-22",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-announcement",
+          "locator": "page date"
+        }
+      ]
+    },
+    "released": {
+      "value": "2024-08",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-vision-instruct-model-card",
+          "locator": "Model, Release date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "foundry-retirement",
+      "label": "Retired from Microsoft Foundry",
+      "date": {
+        "value": "2025-08-30",
+        "sources": [
+          {
+            "id": "src.microsoft.foundry-retired-models",
+            "locator": "Microsoft table"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "microsoft.phi-3-vision",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-announcement",
+          "locator": "Phi-3.5-vision with Multi-frame Input"
+        }
+      ],
+      "note": "Editorial link along the vision line: the post says Phi-3.5-vision adds multi-frame understanding and improves single-image results, without naming Phi-3-vision as its predecessor."
+    }
+  ],
+  "summary": {
+    "text": "Phi-3.5-vision is a 4.2 billion parameter multimodal model from Microsoft that takes text and images and returns text, announced on 22 August 2024 with Phi-3.5-mini and Phi-3.5-MoE. It adds multi-frame input for comparing images and summarising image sets and video clips, and its weights are on Hugging Face under the MIT License.",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-3-5-announcement"
+      },
+      {
+        "id": "src.microsoft.phi-3-5-vision-instruct-model-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "multi-frame-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "microsoft.phi-3-vision",
+      "text": "Adds multi-frame input: the model can compare several images and summarise multi-image sets and video clips.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-announcement"
+        },
+        {
+          "id": "src.microsoft.phi-3-5-vision-instruct-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-vision-instruct-model-card",
+          "locator": "Model, Inputs"
+        }
+      ],
+      "note": "Single images, multiple images and video frames as image input."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-vision-instruct-model-card",
+          "locator": "Model, Outputs"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-vision-instruct-model-card",
+          "locator": "Model, Context length"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 4200000000,
+      "asStated": "4.2B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-vision-instruct-model-card",
+          "locator": "Model, Architecture"
+        },
+        {
+          "id": "src.microsoft.phi-3-technical-report",
+          "locator": "abstract (v4)"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-vision-instruct-model-card",
+          "locator": "License"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-3-5-vision-instruct-model-card"
+        }
+      ]
+    }
+  },
+  "notes": "Announced in the Phi-3.5 post of 2024-08-22; the model card gives Release date: August 2024. Sources disagree on the language model inside: the model card says it contains the Phi-3 Mini language model, while the Phi-3 technical report v4 says its decoder is phi-3.5-mini and calls it derived from phi-3.5-mini; no derived-from relation is recorded until this is settled. Image encoder CLIP ViT-L/14 from OpenAI per the report (cross-organisation component). Listed on the Retired Microsoft Foundry Models page (retired 2025-08-30), so it was offered in Foundry; the sources do not describe a serverless API, so api is not recorded. Microsoft reported benchmark results."
+}

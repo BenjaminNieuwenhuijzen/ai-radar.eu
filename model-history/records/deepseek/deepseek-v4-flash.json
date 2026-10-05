@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-v4-flash",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-v4-flash",
+  "name": "DeepSeek-V4-Flash",
+  "aliases": [
+    {
+      "text": "DeepSeek-V4-Flash (Preview)",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-V4-Flash-Preview",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-V4-Flash",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek V4 Flash",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek-V4",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek V4",
+      "match": "candidate"
+    },
+    {
+      "text": "DeepSeek-V4-Flash-DSpark",
+      "match": "candidate"
+    },
+    {
+      "text": "deepseek-chat",
+      "match": "candidate"
+    },
+    {
+      "text": "deepseek-reasoner",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-flash",
+  "generation": "4",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.deepseek.hf-deepseek-v4-flash",
+        "locator": "Model Downloads; License"
+      },
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2026-07-31"
+      }
+    ],
+    "note": "Preview weights remain downloadable from the deepseek-ai Hugging Face organisation. In the DeepSeek API the preview was replaced by DeepSeek-V4-Flash-0731 under the unchanged model name deepseek-v4-flash on 2026-07-31."
+  },
+  "replacedBy": {
+    "modelId": "deepseek.deepseek-v4-flash-0731",
+    "sources": [
+      {
+        "id": "src.deepseek.api-change-log",
+        "locator": "Date: 2026-07-31"
+      },
+      {
+        "id": "src.deepseek.hf-deepseek-v4-flash-0731",
+        "locator": "Introduction"
+      }
+    ],
+    "note": "In the DeepSeek API: DeepSeek-V4-Flash-0731 took over the model name deepseek-v4-flash on 2026-07-31; its card says it supersedes the preview."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-04-24",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-preview"
+        },
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-04-24"
+        },
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "General Information: Release date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "deepseek.deepseek-v3-2",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-04-24; Date: 2025-12-01"
+        },
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash",
+          "locator": "Base Model evaluation"
+        }
+      ],
+      "note": "Editorial link: from 2026-04-24 the legacy API names deepseek-chat and deepseek-reasoner, which had served DeepSeek-V3.2 since 2025-12-01, pointed to the non-thinking and thinking modes of deepseek-v4-flash; the card also compares base results with DeepSeek-V3.2. No source calls V4-Flash the successor of V3.2."
+    }
+  ],
+  "summary": {
+    "text": "DeepSeek-V4-Flash is an open-weights Mixture-of-Experts language model with 284B total and 13B active parameters, the smaller model of the DeepSeek-V4 preview released on 2026-04-24 alongside DeepSeek-V4-Pro. DeepSeek presents it as the faster, more economical option; it was offered in the API, the web chat and under the MIT License, with a 1M-token context.",
+    "sources": [
+      {
+        "id": "src.deepseek.news-v4-preview"
+      },
+      {
+        "id": "src.deepseek.hf-deepseek-v4-flash",
+        "locator": "Introduction; Model Downloads; License"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "hybrid-attention",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-2",
+      "text": "Uses the V4 hybrid attention design (Compressed Sparse Attention plus Heavily Compressed Attention), Manifold-Constrained Hyper-Connections and the Muon optimizer.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "parameters",
+      "aspect": "size",
+      "direction": "decreased",
+      "relativeTo": "deepseek.deepseek-v3-2",
+      "text": "284B total and 13B activated parameters, against 671B total and 37B activated for DeepSeek-V3.2-Base in the card's base-model table.",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash",
+          "locator": "Base Model evaluation"
+        }
+      ]
+    },
+    {
+      "id": "one-million-context",
+      "aspect": "context-length",
+      "relativeTo": "deepseek.deepseek-v3-2",
+      "text": "Supports a 1M-token context, which DeepSeek made the default across its official services with V4.",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-preview"
+        }
+      ]
+    },
+    {
+      "id": "legacy-api-names",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "deepseek.deepseek-v3-2",
+      "text": "Took over the legacy API names deepseek-chat and deepseek-reasoner from DeepSeek-V3.2, with those names scheduled to be discontinued on 2026-07-24.",
+      "sources": [
+        {
+          "id": "src.deepseek.api-change-log",
+          "locator": "Date: 2026-04-24; Date: 2025-12-01"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "Model properties: Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "Model properties: Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.hf-deepseek-v4-flash",
+            "locator": "Instruct Model: reasoning effort modes"
+          },
+          {
+            "id": "src.deepseek.news-v4-preview",
+            "locator": "API is Available Today"
+          },
+          {
+            "id": "src.deepseek.deepseek-v4-model-card",
+            "locator": "Model properties: Modalities"
+          }
+        ],
+        "note": "Non-think, Think High and Think Max modes; the API offers thinking and non-thinking modes."
+      },
+      {
+        "key": "long-context",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.deepseek.news-v4-preview"
+          },
+          {
+            "id": "src.deepseek.hf-deepseek-v4-flash",
+            "locator": "Introduction"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash",
+          "locator": "Model Downloads"
+        },
+        {
+          "id": "src.deepseek.news-v4-preview"
+        },
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "Model properties: Context length"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 284000000000,
+      "asStated": "284B total / 13B active",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-preview"
+        },
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash",
+          "locator": "Model Downloads"
+        },
+        {
+          "id": "src.deepseek.deepseek-v4-technical-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Mixture-of-Experts: 284B total parameters, 13B activated per token. The V4 model card PDF on the Transparency Center gives 285B total parameters instead."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash",
+          "locator": "License"
+        },
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "Methods of distribution and licenses"
+        },
+        {
+          "id": "src.deepseek.news-v4-preview"
+        }
+      ],
+      "note": "Weights and code under the MIT License."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.news-v4-preview"
+        },
+        {
+          "id": "src.deepseek.deepseek-v4-model-card",
+          "locator": "Methods of distribution and licenses"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "base",
+      "name": "DeepSeek-V4-Flash-Base",
+      "aliases": [
+        {
+          "text": "DeepSeek-V4-Flash-Base",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.deepseek.hf-deepseek-v4-flash",
+          "locator": "Model Downloads"
+        }
+      ],
+      "note": "Pre-trained base checkpoint (FP8 mixed precision), listed with the preview release at https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Base."
+    }
+  ],
+  "notes": "Released as a preview together with DeepSeek-V4-Pro (the web chat offered V4 via Expert Mode and Instant Mode; which model serves which mode is not stated). The legacy API names deepseek-chat and deepseek-reasoner routed to its non-thinking and thinking modes from 2026-04-24; DeepSeek announced they would be retired after 2026-07-24, 15:59 UTC (news post; the change log says discontinued on 2026-07-24). Parameter count: 284B in the Hugging Face card, the API news post and the report; 285B in the V4 model card PDF. The DeepSeek-V4-Flash-DSpark repository is the same checkpoint with a speculative decoding module attached, not a new model (its card says so)."
+}

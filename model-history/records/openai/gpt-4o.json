@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-4o",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-4o",
+  "name": "GPT-4o",
+  "aliases": [
+    {
+      "text": "GPT-4o",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4o-2024-05-13",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4o-2024-08-06",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4o-2024-11-20",
+      "match": "auto"
+    },
+    {
+      "text": "chatgpt-4o-latest",
+      "match": "auto"
+    },
+    {
+      "text": "ChatGPT-4o",
+      "match": "candidate"
+    },
+    {
+      "text": "GPT-4 Omni",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.openai.gpt-4o-docs",
+        "locator": "Model details; Snapshots"
+      },
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-04-22: Legacy GPT model snapshots; 2025-11-18: chatgpt-4o-latest snapshot"
+      },
+      {
+        "id": "src.openai.help-model-release-notes",
+        "locator": "Retiring GPT-4o and other legacy models (February 13, 2026)"
+      }
+    ],
+    "note": "API status on 2026-10-01: the gpt-4o alias and the snapshots gpt-4o-2024-08-06 and gpt-4o-2024-11-20 are not on the deprecations page; gpt-4o-2024-05-13 is deprecated with shutdown on October 23, 2026, and chatgpt-4o-latest was shut down on 2026-02-17. GPT-4o was retired from ChatGPT on 2026-02-13."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-05-13",
+      "sources": [
+        {
+          "id": "src.openai.hello-gpt-4o",
+          "locator": "Model availability"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "May 13, 2024"
+        }
+      ],
+      "note": "Text and image capabilities began rolling out in ChatGPT and the API on this day; audio and video capabilities were to follow."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "gpt-4o-2024-08-06",
+      "label": "Snapshot gpt-4o-2024-08-06 released with Structured Outputs",
+      "date": {
+        "value": "2024-08-06",
+        "sources": [
+          {
+            "id": "src.openai.structured-outputs-announcement",
+            "locator": "Introducing Structured Outputs in the API"
+          },
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Aug 6, 2024"
+          }
+        ]
+      }
+    },
+    {
+      "id": "advanced-voice",
+      "label": "Advanced Voice using GPT-4o native audio rolled out in ChatGPT",
+      "date": {
+        "value": "2024-09-24",
+        "sources": [
+          {
+            "id": "src.openai.help-model-release-notes",
+            "locator": "Advanced voice (September 24, 2024)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gpt-4o-2024-11-20",
+      "label": "Snapshot gpt-4o-2024-11-20 released",
+      "date": {
+        "value": "2024-11-20",
+        "sources": [
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Nov 20, 2024"
+          }
+        ]
+      }
+    },
+    {
+      "id": "retired-from-chatgpt",
+      "label": "Retired from ChatGPT",
+      "date": {
+        "value": "2026-02-13",
+        "sources": [
+          {
+            "id": "src.openai.help-model-release-notes",
+            "locator": "Retiring GPT-4o and other legacy models (February 13, 2026)"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-4-turbo",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.hello-gpt-4o",
+          "locator": "first paragraph; Model availability"
+        },
+        {
+          "id": "src.openai.gpt-4-turbo-docs",
+          "locator": "description"
+        }
+      ],
+      "note": "The announcement compares GPT-4o with GPT-4 Turbo throughout; the GPT-4 Turbo model page recommends a newer model like GPT-4o."
+    }
+  ],
+  "summary": {
+    "text": "GPT-4o is an OpenAI model released on 13 May 2024 in ChatGPT, including the free tier, and in the API. OpenAI describes it as an omni model trained end to end across text, vision and audio; at launch it offered text and image input with text output, and audio followed later, for example in ChatGPT Advanced Voice from September 2024.",
+    "sources": [
+      {
+        "id": "src.openai.hello-gpt-4o"
+      },
+      {
+        "id": "src.openai.help-model-release-notes"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "native-audio",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "openai.gpt-4-turbo",
+      "text": "OpenAI says it processes audio natively with text and images in one model trained end to end, where the earlier Voice Mode chained three separate models.",
+      "sources": [
+        {
+          "id": "src.openai.hello-gpt-4o"
+        }
+      ]
+    },
+    {
+      "id": "speed-price",
+      "aspect": "efficiency",
+      "relativeTo": "openai.gpt-4-turbo",
+      "text": "In the API it is twice as fast and half the price of GPT-4 Turbo, with five times higher rate limits.",
+      "sources": [
+        {
+          "id": "src.openai.hello-gpt-4o"
+        }
+      ]
+    },
+    {
+      "id": "tokenizer",
+      "aspect": "languages",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-4-turbo",
+      "text": "A new tokenizer needs fewer tokens for many non-English languages; OpenAI shows the biggest reductions for Indian languages such as Gujarati, Telugu and Tamil.",
+      "sources": [
+        {
+          "id": "src.openai.hello-gpt-4o"
+        }
+      ]
+    },
+    {
+      "id": "free-tier",
+      "aspect": "availability",
+      "direction": "added",
+      "relativeTo": "openai.gpt-4-turbo",
+      "text": "Offered in ChatGPT to free-tier users as well as paid plans.",
+      "sources": [
+        {
+          "id": "src.openai.hello-gpt-4o"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.hello-gpt-4o",
+          "locator": "Model safety and limitations; Model availability"
+        },
+        {
+          "id": "src.openai.gpt-4o-system-card",
+          "locator": "Introduction"
+        }
+      ],
+      "note": "Released modalities of the gpt-4o API model. OpenAI describes GPT-4o as an omni model trained end to end that accepts any combination of text, audio, image and video and can output text, audio and image (announcement, system card); audio reached users later through ChatGPT voice and separate audio and realtime API models."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4o-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-4o-docs",
+            "locator": "Supported features"
+          }
+        ]
+      },
+      {
+        "key": "fine-tuning-available",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Aug 20, 2024"
+          },
+          {
+            "id": "src.openai.gpt-4o-docs",
+            "locator": "Supported features"
+          }
+        ],
+        "note": "General availability of fine-tuning for gpt-4o-2024-08-06 from 2024-08-20."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.hello-gpt-4o",
+          "locator": "Model availability"
+        }
+      ]
+    }
+  },
+  "notes": "Announced and released on 2024-05-13. Dated API snapshots (2024-05-13, 2024-08-06, 2024-11-20) and the ChatGPT alias chatgpt-4o-latest are aliases, not separate records; OpenAI also shipped several unnamed GPT-4o updates in ChatGPT (help center model release notes). Audio and realtime models built on GPT-4o (gpt-4o-audio-preview, gpt-4o-realtime-preview) are not covered by this record. System card: src.openai.gpt-4o-system-card (2024-08-08)."
+}

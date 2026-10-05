@@ -1,0 +1,267 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-3-8-flash",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-3-8-flash",
+  "name": "Gemini 3.8 Flash",
+  "aliases": [
+    {
+      "text": "Gemini 3.8 Flash",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-3.8-flash",
+      "match": "auto"
+    },
+    {
+      "text": "3.8 Flash",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-flash",
+  "generation": "3.8",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 3 models: gemini-3.8-flash"
+      },
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Models available for shorter availability periods"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-09-02",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-8-flash-announcement",
+          "locator": "Gemini 3.8 Flash and Cyber: get started today"
+        },
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "September 2, 2026"
+        },
+        {
+          "id": "src.google.agent-platform-gemini-3-8-flash",
+          "locator": "Versions"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemini-3-7-flash",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-8-flash-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.google.gemini-3-8-flash-model-card",
+          "locator": "Model Information: Description; Model dependencies"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Gemini 3.8 Flash is a multimodal reasoning model in Google's Flash line with adjustable effort levels, released on 2 September 2026 and based on Gemini 3.7 Flash. Google aims it at long-horizon software engineering, autonomous agents and enterprise workflows; it was offered through the Gemini API, Google Antigravity, Stitch and Gemini Enterprise, and to Google AI Pro and Ultra subscribers.",
+    "sources": [
+      {
+        "id": "src.google.gemini-3-8-flash-announcement"
+      },
+      {
+        "id": "src.google.gemini-3-8-flash-model-card"
+      },
+      {
+        "id": "src.google.gemini-api-changelog",
+        "locator": "September 2, 2026"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "extra-reasoning",
+      "aspect": "reasoning",
+      "direction": "changed",
+      "relativeTo": "google.gemini-3-7-flash",
+      "text": "Takes extra reasoning steps and calls tools repeatedly on complex tasks, so Google says it can use more tokens at higher effort levels; 3.7 Flash stays supported.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-8-flash-announcement"
+        }
+      ]
+    },
+    {
+      "id": "task-improvements",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-3-7-flash",
+      "text": "Google says software engineering, agentic tasks and multi-step reasoning in specialised domains improved over 3.7 Flash.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-8-flash-model-card"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "google.gemini-3-7-flash",
+      "text": "Google reports that the Gemini 3.8 models are more robust against prompt-injection attacks.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-8-flash-announcement"
+        }
+      ]
+    },
+    {
+      "id": "consumer-access",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "google.gemini-3-7-flash",
+      "text": "Offered to Google AI Pro and Ultra subscribers in the Gemini app, AI Mode in Google Search and Gemini in Google Sheets, where 3.7 Flash reached consumers only through Gemini Spark.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-8-flash-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-8-flash",
+          "locator": "Supported data types: Inputs"
+        },
+        {
+          "id": "src.google.gemini-3-8-flash-model-card",
+          "locator": "Model Information: Inputs"
+        }
+      ],
+      "note": "PDF input is also listed."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-8-flash",
+          "locator": "Supported data types: Output"
+        },
+        {
+          "id": "src.google.gemini-3-8-flash-model-card",
+          "locator": "Model Information: Outputs"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-model-gemini-3-8-flash",
+            "locator": "Capabilities: Thinking"
+          },
+          {
+            "id": "src.google.gemini-3-8-flash-model-card",
+            "locator": "Model Information: Description"
+          },
+          {
+            "id": "src.google.agent-platform-gemini-3-8-flash",
+            "locator": "introduction: thinking_level note"
+          }
+        ],
+        "note": "Effort (thinking) levels low, medium (default) and high; minimal is not supported."
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-model-gemini-3-8-flash",
+            "locator": "Capabilities: Computer use"
+          }
+        ],
+        "note": "Listed as preview on the Gemini API model page."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-8-flash",
+          "locator": "Token limits: Input token limit"
+        },
+        {
+          "id": "src.google.agent-platform-gemini-3-8-flash",
+          "locator": "Token limits: Context window"
+        }
+      ],
+      "note": "The model card gives a context window of up to 1M tokens; output is limited to 65,536 tokens."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-8-flash-announcement",
+          "locator": "Gemini 3.8 Flash and Cyber: get started today"
+        },
+        {
+          "id": "src.google.gemini-3-8-flash-model-card",
+          "locator": "Distribution"
+        }
+      ],
+      "note": "Gemini API (Google AI Studio, Android Studio), Google Antigravity, Stitch and Gemini Enterprise; for Google AI Pro and Ultra subscribers in the Gemini app, AI Mode in Google Search and Gemini in Google Sheets."
+    }
+  },
+  "notes": "Announced together with Gemini 3.8 Flash Cyber, which Google says shares the same foundational intelligence and offers to trusted defenders through the Fairwind Program; Agent Platform lists gemini-3.8-flash-cyber with a release date of September 16, 2026. That model has no record. Headlines about Gemini 3.8 Flash Cyber or Gemini 3.8 Flash TTS can match the aliases of this record; exclude such posts if needed. The model card names Gemini 3.7 Flash as the model it is based on."
+}

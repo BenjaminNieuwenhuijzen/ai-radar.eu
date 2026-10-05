@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.o1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "o1",
+  "name": "o1",
+  "aliases": [
+    {
+      "text": "OpenAI o1",
+      "match": "auto"
+    },
+    {
+      "text": "o1-2024-12-17",
+      "match": "auto"
+    },
+    {
+      "text": "o1",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.o-series",
+  "generation": "1",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-04-22: Legacy GPT model snapshots"
+      }
+    ],
+    "note": "o1 (snapshot o1-2024-12-17) is scheduled to shut down in the API on October 23, 2026."
+  },
+  "replacedBy": {
+    "modelId": "openai.gpt-5-6-sol",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-04-22: Legacy GPT model snapshots"
+      }
+    ],
+    "note": "Substitute model listed for o1-2024-12-17 on the deprecations page when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2024-09-12",
+      "sources": [
+        {
+          "id": "src.openai.learning-to-reason-with-llms",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.openai.o1-preview-announcement",
+          "locator": "first paragraphs"
+        }
+      ],
+      "note": "Presented with evaluations on 2024-09-12, when only the early version o1-preview was released."
+    },
+    "released": {
+      "value": "2024-12-05",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-pro-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.openai.o1-system-card",
+          "locator": "PDF of December 5, 2024, section 2 (o1-dec5-release)"
+        },
+        {
+          "id": "src.openai.o1-and-new-tools-for-developers",
+          "locator": "OpenAI o1 in the API (model released in ChatGPT two weeks ago)"
+        }
+      ],
+      "note": "Released in ChatGPT on 2024-12-05, the day ChatGPT Pro launched with access to o1; the o1 System Card lists an o1-dec5-release checkpoint and the API post of 2024-12-17 refers to the ChatGPT release two weeks earlier. The API snapshot o1-2024-12-17 followed on 2024-12-17 as a new post-trained version."
+    },
+    "deprecated": {
+      "value": "2026-04-22",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2026-04-22: Legacy GPT model snapshots"
+        }
+      ]
+    },
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "api-release",
+      "label": "Released in the API as o1-2024-12-17 (usage tier 5)",
+      "date": {
+        "value": "2024-12-17",
+        "sources": [
+          {
+            "id": "src.openai.o1-and-new-tools-for-developers",
+            "locator": "OpenAI o1 in the API"
+          },
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Dec 17, 2024"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.o1-preview",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.o1-and-new-tools-for-developers",
+          "locator": "OpenAI o1 in the API"
+        },
+        {
+          "id": "src.openai.o1-system-card",
+          "locator": "Model data and training"
+        }
+      ],
+      "note": "OpenAI calls o1 the successor to o1-preview and the next model in the series."
+    }
+  ],
+  "summary": {
+    "text": "o1 is an OpenAI reasoning model, presented on 12 September 2024 and released in ChatGPT on 5 December 2024, when ChatGPT Pro launched with o1 pro mode, a version that uses more compute. A post-trained API snapshot, o1-2024-12-17, followed on 17 December 2024 with image input, function calling, Structured Outputs and a reasoning_effort parameter.",
+    "sources": [
+      {
+        "id": "src.openai.learning-to-reason-with-llms"
+      },
+      {
+        "id": "src.openai.chatgpt-pro-announcement"
+      },
+      {
+        "id": "src.openai.o1-and-new-tools-for-developers"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "openai.o1-preview",
+      "text": "Accepts image input in the API, where o1-preview took text only.",
+      "sources": [
+        {
+          "id": "src.openai.o1-and-new-tools-for-developers"
+        },
+        {
+          "id": "src.openai.o1-preview-docs"
+        }
+      ]
+    },
+    {
+      "id": "developer-features",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "openai.o1-preview",
+      "text": "Supports function calling, Structured Outputs and developer messages in the API.",
+      "sources": [
+        {
+          "id": "src.openai.o1-and-new-tools-for-developers"
+        }
+      ]
+    },
+    {
+      "id": "reasoning-tokens",
+      "aspect": "efficiency",
+      "relativeTo": "openai.o1-preview",
+      "text": "OpenAI says o1 uses on average 60 percent fewer reasoning tokens than o1-preview for a given request.",
+      "sources": [
+        {
+          "id": "src.openai.o1-and-new-tools-for-developers"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "openai.o1-preview",
+      "text": "Context window of 200,000 tokens with up to 100,000 output tokens, up from 128,000 tokens for o1-preview.",
+      "sources": [
+        {
+          "id": "src.openai.o1-docs"
+        },
+        {
+          "id": "src.openai.o1-preview-docs"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o1-docs",
+          "locator": "Model details"
+        },
+        {
+          "id": "src.openai.o1-and-new-tools-for-developers",
+          "locator": "OpenAI o1 in the API"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o1-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 200000,
+      "asStated": "200,000",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.o1-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.o1-and-new-tools-for-developers",
+            "locator": "OpenAI o1 in the API"
+          },
+          {
+            "id": "src.openai.o1-docs",
+            "locator": "Supported features"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-pro-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.openai.o1-and-new-tools-for-developers",
+          "locator": "OpenAI o1 in the API"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "o1-pro",
+      "name": "o1 pro mode",
+      "aliases": [
+        {
+          "text": "o1 pro mode",
+          "match": "auto"
+        },
+        {
+          "text": "o1-pro",
+          "match": "auto"
+        },
+        {
+          "text": "o1-pro-2025-03-19",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "announced": null,
+        "released": {
+          "value": "2024-12-05",
+          "sources": [
+            {
+              "id": "src.openai.chatgpt-pro-announcement",
+              "locator": "second paragraph"
+            }
+          ],
+          "note": "In ChatGPT Pro; released in the API as o1-pro on 2025-03-19."
+        },
+        "deprecated": {
+          "value": "2026-04-22",
+          "sources": [
+            {
+              "id": "src.openai.api-deprecations",
+              "locator": "2026-04-22: Legacy GPT model snapshots"
+            }
+          ]
+        },
+        "retired": null
+      },
+      "lifecycle": {
+        "value": "deprecated",
+        "sources": [
+          {
+            "id": "src.openai.api-deprecations",
+            "locator": "2026-04-22: Legacy GPT model snapshots"
+          }
+        ],
+        "note": "o1-pro (snapshot o1-pro-2025-03-19) is scheduled to shut down in the API on October 23, 2026."
+      },
+      "note": "Version of o1 that uses more compute to think longer, first offered as o1 pro mode in ChatGPT Pro and from 2025-03-19 as o1-pro in the API (Responses API only).",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-pro-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "Mar 19, 2025"
+        },
+        {
+          "id": "src.openai.o1-pro-docs",
+          "locator": "description"
+        }
+      ]
+    }
+  ],
+  "notes": "Announced on 2024-09-12 alongside the release of o1-preview, released in ChatGPT on 2024-12-05 (the day ChatGPT Pro launched) and in the API on 2024-12-17. o1 pro mode (o1-pro in the API) is an inline variant. The o1 System Card (page updated 2024-12-05) covers o1 and o1-mini. Lifecycle dates apply to the OpenAI API."
+}

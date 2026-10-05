@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.command-r7b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "command-r7b",
+  "name": "Command R7B",
+  "aliases": [
+    {
+      "text": "Command R7B",
+      "match": "auto"
+    },
+    {
+      "text": "command-r7b-12-2024",
+      "match": "auto"
+    },
+    {
+      "text": "c4ai-command-r7b-12-2024",
+      "match": "auto"
+    },
+    {
+      "text": "Cohere Labs Command R7B",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.command-r-series",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Command table: command-r7b-12-2024, Live"
+      },
+      {
+        "id": "src.cohere.command-r7b-model-card"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-12-13",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-announcement",
+          "locator": "date line; Get started"
+        },
+        {
+          "id": "src.cohere.changelog-command-r7b",
+          "locator": "December 13, 2024"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Command R7B is an open-weights language model with 7 billion parameters that Cohere presents as the final model of its R series, offered on the Cohere API and as a research release on Hugging Face. Like the other R series models it has a 128K-token context window and targets retrieval-augmented generation with citations, tool use and agents.",
+    "sources": [
+      {
+        "id": "src.cohere.command-r7b-announcement"
+      },
+      {
+        "id": "src.cohere.command-r7b-model-card"
+      },
+      {
+        "id": "src.cohere.changelog-command-r7b"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-model-card",
+          "locator": "Model Details: Input"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table: command-r7b-12-2024, Modality"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-model-card",
+          "locator": "Model Details: Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-r7b-announcement",
+            "locator": "Best-in-class RAG, tool use, and agents"
+          },
+          {
+            "id": "src.cohere.command-r7b-model-card",
+            "locator": "Tool Use Capabilities"
+          }
+        ],
+        "note": "Single- and multi-step tool use for agents."
+      },
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-r7b-announcement",
+            "locator": "Best-in-class RAG, tool use, and agents"
+          },
+          {
+            "id": "src.cohere.command-r7b-model-card",
+            "locator": "RAG Capabilities"
+          }
+        ],
+        "note": "Retrieval-augmented generation with in-line citations."
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.command-r7b-model-card",
+            "locator": "Model Details: Languages covered"
+          }
+        ],
+        "note": "Trained on 23 languages."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-model-card",
+          "locator": "Context length"
+        },
+        {
+          "id": "src.cohere.changelog-command-r7b"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table: command-r7b-12-2024"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 7000000000,
+      "asStated": "7 billion parameters",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-model-card",
+          "locator": "Model Size"
+        }
+      ],
+      "note": "As stated on the model card. The Command R7B Arabic card, built on the same architecture, splits its size into 7 billion transformer and 1 billion embedding parameters (about 8 billion in total)."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-announcement",
+          "locator": "Get started"
+        },
+        {
+          "id": "src.cohere.command-r7b-model-card"
+        },
+        {
+          "id": "src.cohere.command-a-technical-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Research release under CC-BY-NC with Cohere Labs' Acceptable Use Policy; download is gated behind accepting the conditions."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-r7b-announcement",
+          "locator": "Get started"
+        },
+        {
+          "id": "src.cohere.changelog-command-r7b"
+        }
+      ]
+    }
+  },
+  "notes": "Cohere calls it the smallest, fastest and final model of its R series. It opens a new small tier rather than continuing an earlier one, so no predecessor relation is recorded. Cohere's Command A technical report also covers Command R7B and says the two share capability and architectural similarities. The models overview lists no cloud-platform ids for it (N/A on Bedrock, SageMaker, Azure AI Foundry and OCI)."
+}

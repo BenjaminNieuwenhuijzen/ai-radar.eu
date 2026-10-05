@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "id": "meta.llama-3-3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-3-3",
+  "name": "Llama 3.3",
+  "aliases": [
+    {
+      "text": "Llama 3.3",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "meta",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "meta.llama",
+  "generation": "3.3",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.meta.llama-3-3-70b-instruct-hf"
+      },
+      {
+        "id": "src.meta.llama-3-3-docs",
+        "locator": "Download the Model"
+      }
+    ],
+    "note": "Applies to Llama 3.3 70B, whose weights are still listed in Meta's Hugging Face organisation (gated, license acceptance required) as seen on 2026-10-01. Meta publishes no deprecation page for Llama models. See the 8B variant for its own status."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-12-06",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-3-model-card",
+          "locator": "Model Release Date"
+        },
+        {
+          "id": "src.meta.llama-3-3-70b-instruct-hf",
+          "locator": "model card, Model Release Date; license, Version Release Date"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2024-12-04",
+          "sources": [
+            {
+              "id": "src.meta.llama-models-repository",
+              "locator": "README, Llama Models table, Launch date"
+            }
+          ],
+          "note": "Launch date given in the table of Meta's llama-models README; the model cards say December 6, 2024."
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "meta.llama-3-2",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-3-docs",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.meta.llama-3-3-model-card"
+        },
+        {
+          "id": "src.meta.future-of-ai-built-with-llama",
+          "locator": "An incredible year for Llama"
+        },
+        {
+          "id": "src.meta.llama-3-models-page",
+          "locator": "Llama 3 models"
+        }
+      ],
+      "note": "Editorial link: next point release in the Llama 3 line after Llama 3.2. Meta lists Llama 3, 3.1, 3.2 and 3.3 in that order and compares 3.3 with Llama 3.1 70B and, for text-only use, Llama 3.2 90B, without calling it a successor."
+    }
+  ],
+  "summary": {
+    "text": "Llama 3.3 is a text-only multilingual 70B model from Meta, released on 6 December 2024 as open weights under the custom Llama 3.3 Community License, in an instruction-tuned version only. Meta says it improves on Llama 3.1 70B; in April 2025 Meta added a Llama 3.3 8B model for fine-tuning in its Llama API preview.",
+    "sources": [
+      {
+        "id": "src.meta.llama-3-3-model-card"
+      },
+      {
+        "id": "src.meta.llama-3-3-docs"
+      },
+      {
+        "id": "src.meta.llama-3-3-70b-instruct-hf"
+      },
+      {
+        "id": "src.meta.llamacon-announcement",
+        "locator": "Introducing Llama API in preview"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "text-only",
+      "aspect": "modality",
+      "direction": "removed",
+      "relativeTo": "meta.llama-3-2",
+      "text": "Text-only, without the image input of the Llama 3.2 Vision models.",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-3-model-card",
+          "locator": "Model Information table, Input modalities"
+        }
+      ]
+    },
+    {
+      "id": "serving-cost",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "meta.llama-3-1",
+      "text": "Meta says it offers performance similar to Llama 3.1 405B at a fraction of the serving cost.",
+      "sources": [
+        {
+          "id": "src.meta.future-of-ai-built-with-llama",
+          "locator": "An incredible year for Llama"
+        }
+      ]
+    },
+    {
+      "id": "function-calling-format",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "meta.llama-3-1",
+      "text": "Uses the Llama 3.2 function-calling format, which Meta describes as more flexible than the Llama 3.1 format.",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-3-docs"
+        }
+      ]
+    },
+    {
+      "id": "instruct-only",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "meta.llama-3-1",
+      "text": "Released only as an instruction-tuned model, without a pretrained version.",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-3-docs",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-3-model-card",
+          "locator": "Model Information table, Input modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text",
+        "code"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-3-model-card",
+          "locator": "Model Information table, Output modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-3-model-card",
+          "locator": "Model Information table, Context length"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-3-70b-instruct-hf"
+        },
+        {
+          "id": "src.meta.llama-3-3-docs",
+          "locator": "Download the Model"
+        }
+      ],
+      "note": "Applies to Llama 3.3 70B, under the custom Llama 3.3 Community License after accepting the license."
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.meta.llama-3-3-70b-instruct-hf"
+        },
+        {
+          "id": "src.meta.llama-api-models",
+          "locator": "Llama-3.3-70B-Instruct"
+        }
+      ],
+      "note": "API access through Meta's Llama API, which listed Llama-3.3-70B-Instruct in 2025 (archived page)."
+    }
+  },
+  "variants": [
+    {
+      "id": "llama-3-3-70b",
+      "name": "Llama 3.3 70B",
+      "aliases": [
+        {
+          "text": "Llama 3.3 70B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.3-70B-Instruct",
+          "match": "auto"
+        },
+        {
+          "text": "Llama 3.3 70B Instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 70000000000,
+          "asStated": "70B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-3-3-model-card",
+              "locator": "Model Information table, Params"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.llama-3-3-model-card",
+          "locator": "Model Information"
+        },
+        {
+          "id": "src.meta.llama-3-3-docs",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.meta.llama-3-3-70b-instruct-hf"
+        },
+        {
+          "id": "src.meta.llama-3-models-page",
+          "locator": "Llama 3.3, Variations"
+        }
+      ],
+      "note": "Released only as an instruction-tuned model; Meta provides no pretrained version."
+    },
+    {
+      "id": "llama-3-3-8b",
+      "name": "Llama 3.3 8B",
+      "aliases": [
+        {
+          "text": "Llama 3.3 8B",
+          "match": "auto"
+        },
+        {
+          "text": "Llama-3.3-8B-Instruct",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "announced": {
+          "value": "2025-04-29",
+          "sources": [
+            {
+              "id": "src.meta.llamacon-announcement",
+              "locator": "Introducing Llama API in preview"
+            }
+          ]
+        },
+        "released": {
+          "value": null,
+          "sources": [],
+          "note": "No release date found. From 2025-04-29 Meta offered fine-tuning of the model in the limited free preview of the Llama API."
+        },
+        "deprecated": null,
+        "retired": null
+      },
+      "lifecycle": {
+        "value": "unknown",
+        "sources": [],
+        "note": "Offered only through the Llama API. The Llama API models page that listed it now redirects to the Meta Model API models page, which lists no Llama models (2026-10-01); no Meta deprecation notice was found."
+      },
+      "capabilities": {
+        "openWeights": {
+          "value": null,
+          "disclosure": "unknown",
+          "sources": [],
+          "note": "No Meta download of Llama 3.3 8B weights was found; unlike Llama 3.3 70B it was only offered through the Llama API."
+        },
+        "access": {
+          "value": [
+            "api"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llamacon-announcement",
+              "locator": "Introducing Llama API in preview"
+            },
+            {
+              "id": "src.meta.llama-api-models",
+              "locator": "Llama-3.3-8B-Instruct"
+            }
+          ]
+        },
+        "contextWindowTokens": {
+          "value": 128000,
+          "asStated": "128k tokens",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.meta.llama-api-models",
+              "locator": "Llama-3.3-8B-Instruct, Context window"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.meta.llamacon-announcement",
+          "locator": "Introducing Llama API in preview"
+        },
+        {
+          "id": "src.meta.llama-api-models",
+          "locator": "Llama-3.3-8B-Instruct"
+        }
+      ],
+      "note": "The archived Llama API documentation described it as a lightweight, fast variant of Llama 3.3 70B with a 128k-token context window and text input and output."
+    }
+  ],
+  "notes": "Released as a single text-only 70B instruction-tuned model; no dedicated announcement post was found on ai.meta.com, and Meta's December 19, 2024 year-end blog post mentions the release. Release date: the model cards say December 6, 2024; the llama-models README table says 12/04/2024 (kept as an alternative). The GitHub model card's opening line speaks of a pretrained and instruction-tuned 70B model, but Meta's Llama 3.3 docs page says only an instruction-tuned version is provided and Meta's Hugging Face organisation lists only Llama-3.3-70B-Instruct. Llama 3.3 8B was announced at LlamaCon on 2025-04-29 for fine-tuning in the Llama API preview; no public Meta repository for its weights was found on Hugging Face. Supported languages per the model card: English, German, French, Italian, Portuguese, Hindi, Spanish and Thai."
+}

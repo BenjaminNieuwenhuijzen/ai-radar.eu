@@ -1,0 +1,401 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.aya-expanse",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "aya-expanse",
+  "name": "Aya Expanse",
+  "aliases": [
+    {
+      "text": "Aya Expanse",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.aya",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Aya table: c4ai-aya-expanse-32b, Live"
+      },
+      {
+        "id": "src.cohere.aya-expanse-8b-model-card"
+      },
+      {
+        "id": "src.cohere.aya-expanse-32b-model-card"
+      }
+    ],
+    "note": "The 32B model is Live on the Cohere API; the 8B model was retired from the API on 2026-04-04, but the weights of both sizes remain downloadable from Cohere Labs on Hugging Face."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-10-24",
+      "sources": [
+        {
+          "id": "src.cohere.aya-expanse-announcement",
+          "locator": "date line; closing availability paragraph"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "whatsapp",
+      "label": "Aya Expanse available on WhatsApp",
+      "date": {
+        "value": "2025-01-16",
+        "sources": [
+          {
+            "id": "src.cohere.changelog-aya-expanse-whatsapp"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8b-api-retired",
+      "label": "Aya Expanse 8B retired from the Cohere API",
+      "date": {
+        "value": "2026-04-04",
+        "sources": [
+          {
+            "id": "src.cohere.deprecations",
+            "locator": "2026-04-04: Embed v2.0, Aya Expanse 8B"
+          },
+          {
+            "id": "src.cohere.changelog-aya-8b-retirement"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "cohere.aya-23",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.cohere.aya-23-8b-model-card",
+          "locator": "note at the top"
+        },
+        {
+          "id": "src.cohere.aya-23-35b-model-card",
+          "locator": "note at the top"
+        }
+      ],
+      "note": "The Aya 23 model cards call Aya 23 an older version of Aya and name Aya Expanse 8B and 32B as the latest versions."
+    }
+  ],
+  "summary": {
+    "text": "Aya Expanse is a family of multilingual open-weights language models from Cohere For AI, Cohere's research arm (now Cohere Labs), released in 8B and 32B sizes and aimed at 23 languages. The weights carry a non-commercial CC-BY-NC licence; the models were also offered on the Cohere API and, from January 2025, through WhatsApp.",
+    "sources": [
+      {
+        "id": "src.cohere.aya-expanse-announcement"
+      },
+      {
+        "id": "src.cohere.aya-expanse-8b-model-card"
+      },
+      {
+        "id": "src.cohere.aya-expanse-32b-model-card"
+      },
+      {
+        "id": "src.cohere.changelog-aya-expanse-whatsapp"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "training-recipe",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "cohere.aya-23",
+      "text": "Trained with a new recipe that Cohere says combines data arbitrage for synthetic multilingual data, multilingual preference training and model merging.",
+      "sources": [
+        {
+          "id": "src.cohere.aya-expanse-announcement"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "cohere.aya-23",
+      "text": "The 32B model has a 128K-token context window, against 8,192 tokens for Aya 23 35B; the 8B model has 8K.",
+      "sources": [
+        {
+          "id": "src.cohere.aya-expanse-32b-model-card",
+          "locator": "Model Details: Context length"
+        },
+        {
+          "id": "src.cohere.aya-23-35b-model-card"
+        },
+        {
+          "id": "src.cohere.aya-expanse-8b-model-card",
+          "locator": "Model Details: Context length"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-expanse-8b-model-card",
+          "locator": "Model Details: Input"
+        },
+        {
+          "id": "src.cohere.aya-expanse-32b-model-card",
+          "locator": "Model Details: Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-expanse-8b-model-card",
+          "locator": "Model Details: Output"
+        },
+        {
+          "id": "src.cohere.aya-expanse-32b-model-card",
+          "locator": "Model Details: Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.aya-expanse-announcement",
+            "locator": "first paragraph"
+          },
+          {
+            "id": "src.cohere.aya-expanse-32b-model-card",
+            "locator": "Supported Languages"
+          }
+        ],
+        "note": "23 languages."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-expanse-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.cohere.aya-expanse-8b-model-card"
+        },
+        {
+          "id": "src.cohere.aya-expanse-32b-model-card"
+        },
+        {
+          "id": "src.cohere.aya-expanse-technical-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Released under CC-BY-NC with Cohere Labs' Acceptable Use Policy; download is gated behind accepting the conditions."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.aya-expanse-announcement",
+          "locator": "closing availability paragraph"
+        },
+        {
+          "id": "src.cohere.changelog-aya-expanse-whatsapp"
+        }
+      ],
+      "note": "Cohere API platform, Kaggle and Hugging Face at release; chat access through WhatsApp from January 2025."
+    }
+  },
+  "variants": [
+    {
+      "id": "8b",
+      "name": "Aya Expanse 8B",
+      "aliases": [
+        {
+          "text": "Aya Expanse 8B",
+          "match": "auto"
+        },
+        {
+          "text": "c4ai-aya-expanse-8b",
+          "match": "auto"
+        },
+        {
+          "text": "aya-expanse-8b",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "contextWindowTokens": {
+          "value": 8000,
+          "asStated": "8K",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.cohere.aya-expanse-8b-model-card",
+              "locator": "Model Details: Context length"
+            },
+            {
+              "id": "src.cohere.models-overview",
+              "locator": "Aya table: c4ai-aya-expanse-8b"
+            }
+          ]
+        },
+        "parameters": {
+          "value": 8000000000,
+          "asStated": "8 billion parameters",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.cohere.aya-expanse-8b-model-card",
+              "locator": "Model Size"
+            },
+            {
+              "id": "src.cohere.aya-expanse-announcement",
+              "locator": "second paragraph"
+            },
+            {
+              "id": "src.cohere.aya-expanse-technical-report",
+              "locator": "Abstract"
+            }
+          ]
+        }
+      },
+      "lifecycle": {
+        "value": "available",
+        "sources": [
+          {
+            "id": "src.cohere.aya-expanse-8b-model-card"
+          },
+          {
+            "id": "src.cohere.deprecations",
+            "locator": "2026-04-04: Embed v2.0, Aya Expanse 8B"
+          }
+        ],
+        "note": "Weights still downloadable from Cohere Labs on Hugging Face; the API model c4ai-aya-expanse-8b was retired on 2026-04-04."
+      },
+      "sources": [
+        {
+          "id": "src.cohere.aya-expanse-8b-model-card"
+        },
+        {
+          "id": "src.cohere.aya-expanse-announcement"
+        }
+      ]
+    },
+    {
+      "id": "32b",
+      "name": "Aya Expanse 32B",
+      "aliases": [
+        {
+          "text": "Aya Expanse 32B",
+          "match": "auto"
+        },
+        {
+          "text": "c4ai-aya-expanse-32b",
+          "match": "auto"
+        },
+        {
+          "text": "aya-expanse-32b",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "contextWindowTokens": {
+          "value": 128000,
+          "asStated": "128K",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.cohere.aya-expanse-32b-model-card",
+              "locator": "Model Details: Context length"
+            },
+            {
+              "id": "src.cohere.models-overview",
+              "locator": "Aya table: c4ai-aya-expanse-32b"
+            }
+          ]
+        },
+        "parameters": {
+          "value": 32000000000,
+          "asStated": "32 billion parameters",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.cohere.aya-expanse-32b-model-card",
+              "locator": "Model Size"
+            },
+            {
+              "id": "src.cohere.aya-expanse-announcement",
+              "locator": "second paragraph"
+            },
+            {
+              "id": "src.cohere.aya-expanse-technical-report",
+              "locator": "Abstract"
+            }
+          ]
+        }
+      },
+      "lifecycle": {
+        "value": "available",
+        "sources": [
+          {
+            "id": "src.cohere.models-overview",
+            "locator": "Aya table: c4ai-aya-expanse-32b, Live"
+          },
+          {
+            "id": "src.cohere.aya-expanse-32b-model-card"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "id": "src.cohere.aya-expanse-32b-model-card"
+        },
+        {
+          "id": "src.cohere.aya-expanse-announcement"
+        }
+      ]
+    }
+  ],
+  "notes": "Two sizes released together (8B and 32B), recorded as inline variants. Announced by Cohere For AI, Cohere's research arm, since renamed Cohere Labs. Prominence milestone because Cohere's technical report presents Aya Expanse as a new generation of its Aya multilingual models, succeeding Aya 23 (editorial). The model cards say Aya Expanse pairs a pre-trained model from the Command family with Cohere's multilingual research recipe; no specific base model is named, so no derived-from relation is recorded. The announcement says open weights for 8b and 35b in one place, an apparent slip for 32B."
+}

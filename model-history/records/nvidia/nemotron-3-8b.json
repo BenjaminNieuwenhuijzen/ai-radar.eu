@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.nemotron-3-8b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nemotron-3-8b",
+  "name": "Nemotron-3 8B",
+  "aliases": [
+    {
+      "text": "Nemotron-3 8B",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-3-8B",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron 3 8B",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron",
+  "generation": "3",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-3-8b-base-4k-model-card",
+        "locator": "access notice; License"
+      }
+    ],
+    "note": "Weights remain on NVIDIA's Hugging Face organisation; downloads are gated with manual approval under the NVIDIA AI Foundation Models Community License Agreement."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-11-15",
+      "sources": [
+        {
+          "id": "src.nvidia.ai-foundry-azure-press-release",
+          "locator": "dateline; Curated, Optimized Models for Custom Generative AI"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-8b-developer-blog",
+          "locator": "page date; introduction"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Nemotron-3 8B is a family of 8-billion-parameter language models from NVIDIA, introduced on 15 November 2023 with its AI foundry service on Microsoft Azure: a base model, three chat models aligned with different methods and a question-answering model. The weights were offered through Hugging Face, the NGC catalog and the Azure AI model catalog under an NVIDIA community licence.",
+    "sources": [
+      {
+        "id": "src.nvidia.ai-foundry-azure-press-release"
+      },
+      {
+        "id": "src.nvidia.nemotron-3-8b-developer-blog"
+      },
+      {
+        "id": "src.nvidia.nemotron-3-8b-base-4k-model-card"
+      }
+    ]
+  },
+  "capabilities": {
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-8b-developer-blog",
+            "locator": "Nemotron-3-8B base"
+          },
+          {
+            "id": "src.nvidia.nemotron-3-8b-base-4k-model-card",
+            "locator": "Dataset & Training"
+          }
+        ],
+        "note": "NVIDIA says the base model is proficient in 53 languages."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-8b-base-4k-model-card",
+          "locator": "access notice"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-8b-developer-blog",
+          "locator": "introduction"
+        }
+      ],
+      "note": "Downloadable from Hugging Face and the NGC catalog after accepting the NVIDIA AI Foundation Models Community License Agreement; Hugging Face access is gated with manual approval."
+    },
+    "contextWindowTokens": {
+      "value": 4096,
+      "asStated": "4,096 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-8b-base-4k-model-card",
+          "locator": "Description"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 8000000000,
+      "asStated": "8 billion",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-8b-base-4k-model-card",
+          "locator": "Description"
+        },
+        {
+          "id": "src.nvidia.ai-foundry-azure-press-release",
+          "locator": "Curated, Optimized Models for Custom Generative AI"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-8b-developer-blog",
+          "locator": "introduction"
+        },
+        {
+          "id": "src.nvidia.ai-foundry-azure-press-release",
+          "locator": "Curated, Optimized Models for Custom Generative AI"
+        }
+      ],
+      "note": "Offered through the NVIDIA NGC catalog, Hugging Face and the Azure AI model catalog."
+    }
+  },
+  "variants": [
+    {
+      "id": "base-4k",
+      "name": "Nemotron-3-8B-Base-4k",
+      "aliases": [
+        {
+          "text": "Nemotron-3-8B-Base-4k",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-3-8B-Base",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/nemotron-3-8b-base-4k",
+          "match": "auto"
+        }
+      ],
+      "note": "Base completion model intended for customisation.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-8b-base-4k-model-card",
+          "locator": "Description; Intended use"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-8b-developer-blog",
+          "locator": "Table 1"
+        }
+      ]
+    },
+    {
+      "id": "chat-4k-sft",
+      "name": "Nemotron-3-8B-Chat-4k-SFT",
+      "aliases": [
+        {
+          "text": "Nemotron-3-8B-Chat-4k-SFT",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-3-8B-Chat-SFT",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/nemotron-3-8b-chat-4k-sft",
+          "match": "auto"
+        }
+      ],
+      "note": "Chat model instruction-tuned with supervised fine-tuning.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-8b-chat-4k-sft-model-card",
+          "locator": "Description"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-8b-developer-blog",
+          "locator": "Table 1"
+        }
+      ]
+    },
+    {
+      "id": "chat-4k-rlhf",
+      "name": "Nemotron-3-8B-Chat-4k-RLHF",
+      "aliases": [
+        {
+          "text": "Nemotron-3-8B-Chat-4k-RLHF",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-3-8B-Chat-RLHF",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/nemotron-3-8b-chat-4k-rlhf",
+          "match": "auto"
+        }
+      ],
+      "note": "Chat model tuned with reinforcement learning from human feedback, built on the SFT model.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-8b-chat-4k-rlhf-model-card",
+          "locator": "Description"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-8b-developer-blog",
+          "locator": "Table 1; Nemotron-3-8B chat"
+        }
+      ]
+    },
+    {
+      "id": "chat-4k-steerlm",
+      "name": "Nemotron-3-8B-Chat-4k-SteerLM",
+      "aliases": [
+        {
+          "text": "Nemotron-3-8B-Chat-4k-SteerLM",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-3-8B-Chat-SteerLM",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-3-8B-SteerLM",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/nemotron-3-8b-chat-4k-steerlm",
+          "match": "auto"
+        }
+      ],
+      "note": "Chat model customised with NVIDIA's SteerLM method, which lets users set response attributes at inference time.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-8b-chat-4k-steerlm-model-card",
+          "locator": "Description"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-8b-developer-blog",
+          "locator": "Table 1"
+        }
+      ]
+    },
+    {
+      "id": "qa-4k",
+      "name": "Nemotron-3-8B-QA-4k",
+      "aliases": [
+        {
+          "text": "Nemotron-3-8B-QA-4k",
+          "match": "auto"
+        },
+        {
+          "text": "Nemotron-3-8B-QA",
+          "match": "auto"
+        },
+        {
+          "text": "nvidia/nemotron-3-8b-qa-4k",
+          "match": "auto"
+        }
+      ],
+      "note": "Question-and-answer model fine-tuned to give concise answers.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-8b-qa-4k-model-card",
+          "locator": "Description"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-8b-developer-blog",
+          "locator": "Table 1"
+        }
+      ]
+    }
+  ],
+  "notes": "First public Nemotron model; no predecessor relation recorded. The five checkpoints (base, three chat models, QA) were released together as one family of differently tuned 8B models and are kept as inline variants. The blog uses short names without 4k (Nemotron-3-8B-Base, -Chat-SFT, -Chat-RLHF, -Chat-SteerLM, -QA); the Hugging Face cards use the -4k names. Nemotron 3 8B (spaced form, used by the Hugging Face collection) is a candidate alias because the later Nemotron 3 line uses the same spacing."
+}

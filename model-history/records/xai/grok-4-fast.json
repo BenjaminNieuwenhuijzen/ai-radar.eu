@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "xai.grok-4-fast",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "grok-4-fast",
+  "name": "Grok 4 Fast",
+  "aliases": [
+    {
+      "text": "Grok 4 Fast",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4-fast",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4-fast-reasoning",
+      "match": "auto"
+    },
+    {
+      "text": "grok-4-fast-non-reasoning",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "xai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "xai.grok-fast",
+  "generation": "4",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.xai.may-15-2026-model-retirement",
+        "locator": "list of retired models"
+      }
+    ],
+    "note": "grok-4-fast-reasoning and grok-4-fast-non-reasoning retired from the xAI API; requests are served by grok-4.3."
+  },
+  "replacedBy": {
+    "modelId": "xai.grok-4-3",
+    "sources": [
+      {
+        "id": "src.xai.may-15-2026-model-retirement",
+        "locator": "Recommended Replacements"
+      }
+    ],
+    "note": "The reasoning slug redirects to grok-4.3 with low reasoning effort, the non-reasoning slug with reasoning effort none."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-09-19",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-fast-announcement",
+          "locator": "header; availability sections"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2026-05-15",
+      "sources": [
+        {
+          "id": "src.xai.may-15-2026-model-retirement",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Effective 12:00 PM PT on the xAI API."
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "xai.grok-3-mini",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-fast-announcement",
+          "locator": "Advancing Cost-Efficient Intelligence"
+        }
+      ],
+      "note": "Editorial link along the cost-efficient tier: the announcement compares Grok 4 Fast with Grok 3 Mini and says it builds on learnings from Grok 4, without naming a predecessor or a derivation method."
+    }
+  ],
+  "summary": {
+    "text": "Grok 4 Fast is an xAI reasoning model that xAI describes as cost-efficient, released on 19 September 2025 in the Grok apps, including for free users, and on the xAI API with a 2-million-token context window. One set of weights serves both reasoning and non-reasoning responses, offered on the API as two model ids; both were retired on 15 May 2026.",
+    "sources": [
+      {
+        "id": "src.xai.grok-4-fast-announcement"
+      },
+      {
+        "id": "src.xai.grok-4-fast-model-card"
+      },
+      {
+        "id": "src.xai.may-15-2026-model-retirement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "unified-weights",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "xai.grok-3-mini",
+      "text": "Reasoning and non-reasoning modes run on the same model weights, steered by the system prompt, instead of separate models.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-fast-announcement",
+          "locator": "Unified Model: Reasoning and Non-Reasoning"
+        }
+      ]
+    },
+    {
+      "id": "tool-rl",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "xai.grok-3-mini",
+      "text": "Trained end to end with tool-use reinforcement learning to decide when to call tools such as code execution and web or X search.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-fast-announcement",
+          "locator": "Native Tool Use with SOTA Search"
+        }
+      ]
+    },
+    {
+      "id": "free-users",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "xai.grok-3-mini",
+      "text": "Offered to all Grok users including free users; xAI says this gave free users its latest model without restrictions for the first time.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-fast-announcement",
+          "locator": "Grok 4 Fast in grok.com, iOS, and Android apps"
+        }
+      ]
+    },
+    {
+      "id": "thinking-tokens",
+      "aspect": "efficiency",
+      "relativeTo": "xai.grok-4",
+      "text": "xAI reports results comparable to Grok 4 with substantially fewer thinking tokens on average.",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-fast-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.grok-4-fast-announcement",
+            "locator": "Unified Model: Reasoning and Non-Reasoning"
+          },
+          {
+            "id": "src.xai.grok-4-fast-model-card",
+            "locator": "1 Introduction"
+          }
+        ],
+        "note": "One set of weights handles reasoning and non-reasoning modes, steered by the system prompt; offered on the API as two model ids."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.xai.grok-4-fast-announcement",
+            "locator": "Native Tool Use with SOTA Search"
+          }
+        ],
+        "note": "Trained end to end with tool-use reinforcement learning, including web and X search."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 2000000,
+      "asStated": "2M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-fast-announcement",
+          "locator": "first paragraph; xAI API section"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by xAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.xai.grok-4-fast-announcement",
+          "locator": "Grok 4 Fast in grok.com, iOS, and Android apps; Grok 4 Fast on OpenRouter, Vercel AI Gateway, and the xAI API"
+        }
+      ]
+    }
+  },
+  "notes": "One unified model offered on the API as grok-4-fast-reasoning and grok-4-fast-non-reasoning (aliases); the announcement also uses grok-4-fast for its LMArena entry. The announcement names OpenRouter and Vercel AI Gateway as channels; these are aggregators, not recorded as cloud-partner. The xAI API release notes have no entry for Grok 4 Fast. The grok.com release notes mention Grok 4 Fast again in the entry of 2025-11-18. Lifecycle applies to the xAI API; no source states when it left the consumer apps. No deprecation notice date is given. Input and output modalities are left out, and multimodal is not set: the archived API model page that lists them could not be opened for this review, and the announcement does not state image input for the model itself."
+}

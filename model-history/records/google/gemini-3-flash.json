@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-3-flash",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-3-flash",
+  "name": "Gemini 3 Flash",
+  "aliases": [
+    {
+      "text": "Gemini 3 Flash",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-3-flash-preview",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini 3 Flash Preview",
+      "match": "auto"
+    },
+    {
+      "text": "3 Flash",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-flash",
+  "generation": "3",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "preview",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-models",
+        "locator": "Gemini 3, Preview"
+      },
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 3 models, Preview models: gemini-3-flash-preview"
+      },
+      {
+        "id": "src.google.agent-platform-gemini-3-flash",
+        "locator": "Versions: Launch stage"
+      }
+    ],
+    "note": "Still a preview model in the Gemini API and on Gemini Enterprise Agent Platform on 2026-10-01; no shutdown date announced."
+  },
+  "replacedBy": {
+    "modelId": "google.gemini-3-6-flash",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "gemini-3-flash-preview: recommended replacement"
+      }
+    ],
+    "note": "Recommended replacement as listed on the Gemini deprecations page when checked on 2026-10-01; no shutdown date announced."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-12-17",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-flash-announcement"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "December 17, 2025"
+        },
+        {
+          "id": "src.google.gemini-api-deprecations",
+          "locator": "gemini-3-flash-preview: release date"
+        },
+        {
+          "id": "src.google.agent-platform-gemini-3-flash",
+          "locator": "Versions: Release date"
+        }
+      ],
+      "note": "Released as a preview model for developers and enterprises; rollout in the Gemini app and AI Mode in Search started the same day."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemini-2-5-flash",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-flash-announcement",
+          "locator": "For everyone: Gemini 3 Flash is rolling out globally"
+        }
+      ],
+      "note": "The announcement says Gemini 3 Flash replaces 2.5 Flash as the default model in the Gemini app and builds on the Flash series."
+    },
+    {
+      "type": "derived-from",
+      "target": "google.gemini-3-pro",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-flash-model-card",
+          "locator": "Model Information: Model dependencies"
+        }
+      ],
+      "note": "The model card says Gemini 3 Flash is based on Gemini 3 Pro and built off its reasoning foundation; it does not name the method."
+    }
+  ],
+  "summary": {
+    "text": "Gemini 3 Flash is a multimodal language model in Google's Gemini Flash line, released in preview on 17 December 2025 through the Gemini API and Vertex AI and as the default model in the Gemini app. Google describes it as combining Gemini 3 Pro-level reasoning with the latency and cost of the Flash line. It was still a preview model on 1 October 2026.",
+    "sources": [
+      {
+        "id": "src.google.gemini-3-flash-announcement"
+      },
+      {
+        "id": "src.google.gemini-api-models"
+      },
+      {
+        "id": "src.google.gemini-api-deprecations"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "default-model",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "google.gemini-2-5-flash",
+      "text": "Replaced Gemini 2.5 Flash as the default model in the Gemini app and began rolling out as the default model for AI Mode in Search.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-flash-announcement"
+        }
+      ]
+    },
+    {
+      "id": "based-on-3-pro",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "google.gemini-2-5-flash",
+      "text": "Based on Gemini 3 Pro, according to Google's model card, which says it builds on that model's reasoning foundation.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-flash-model-card",
+          "locator": "Model Information: Model dependencies"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "google.gemini-2-5-flash",
+      "text": "Supports the Computer Use tool in the Gemini API, added on 29 January 2026.",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "January 29, 2026"
+        },
+        {
+          "id": "src.google.gemini-api-model-gemini-3-flash-preview",
+          "locator": "Capabilities: Computer use"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-flash-preview",
+          "locator": "Supported data types: Inputs"
+        },
+        {
+          "id": "src.google.gemini-3-flash-model-card",
+          "locator": "Inputs"
+        }
+      ],
+      "note": "PDF input is also supported."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-flash-preview",
+          "locator": "Supported data types: Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-model-gemini-3-flash-preview",
+            "locator": "Capabilities: Thinking"
+          },
+          {
+            "id": "src.google.gemini-3-flash-model-card",
+            "locator": "Description"
+          }
+        ],
+        "note": "Thinking levels set the balance between quality, cost and latency."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-model-gemini-3-flash-preview",
+            "locator": "Capabilities: Function calling"
+          }
+        ]
+      },
+      {
+        "key": "computer-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "January 29, 2026"
+          },
+          {
+            "id": "src.google.gemini-api-model-gemini-3-flash-preview",
+            "locator": "Capabilities: Computer use"
+          }
+        ],
+        "note": "Computer Use tool support added on 2026-01-29."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-flash-preview",
+          "locator": "Token limits: Input token limit"
+        }
+      ],
+      "note": "Input token limit; the output limit is 65,536 tokens. The model card gives a context window of up to 1M."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-flash-announcement",
+          "locator": "Try Gemini 3 Flash today"
+        }
+      ],
+      "note": "API: the Gemini API (Google AI Studio) and Vertex AI, in preview. Consumer: the Gemini app and AI Mode in Search."
+    }
+  },
+  "notes": "Announced and released on the same day. The gemini-flash-latest alias pointed to gemini-3-flash-preview from 2026-01-21 until 2026-05-19, when it moved to Gemini 3.5 Flash (release notes); that generic alias is not recorded. The Gemini 3.5 Flash model page lists gemini-3-flash-preview as its preview version, while the models overview and the deprecations page keep Gemini 3 Flash as a separate preview model; the 3.5 Flash guide says Gemini 3 Flash Preview remains available. The model card link on deepmind.google redirects to a PDF. Vertex AI access is counted under api."
+}

@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-small-3-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-small-3-1",
+  "name": "Mistral Small 3.1",
+  "aliases": [
+    {
+      "text": "Mistral Small 3.1",
+      "match": "auto"
+    },
+    {
+      "text": "mistral-small-2503",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Small-3.1-24B-Instruct-2503",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Small-3.1-24B-Base-2503",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-small",
+  "generation": "3.1",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mistral-small-3-1-24b-instruct-2503"
+      },
+      {
+        "id": "src.mistral.hf-mistral-small-3-1-24b-base-2503"
+      },
+      {
+        "id": "src.mistral.legal-mistral-small-3",
+        "locator": "Model Lifecycle: Mistral Small 3.1 Instruct and Base, status Active"
+      }
+    ],
+    "note": "Apache 2.0 weights are still downloadable from Mistral AI's Hugging Face organisation; the API model mistral-small-2503 was retired on 2025-11-30."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-small-4",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated table, Mistral Small 3.1, Alternative"
+      },
+      {
+        "id": "src.mistral.mistral-small-3-1-docs",
+        "locator": "Replacement"
+      }
+    ],
+    "note": "Replacement named for the API model when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-03-17",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-1-announcement",
+          "locator": "page date; Availability"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "March 17, 2025"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-1-docs",
+          "locator": "release date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2025-11-06",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Small 3.1 (mistral-small-2503)"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2025-11-30",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated table, Mistral Small 3.1 (mistral-small-2503)"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-1-docs",
+          "locator": "Retirement date"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.mistral-small-3",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-1-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-3-1-24b-instruct-2503",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Mistral Small 3.1 is a 24B-parameter model from Mistral AI that builds on Mistral Small 3, adding image understanding and a context window of up to 128k tokens. It was released with base and instruct open weights under Apache 2.0 and offered via API on La Plateforme and Google Cloud Vertex AI.",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-small-3-1-announcement"
+      },
+      {
+        "id": "src.mistral.hf-mistral-small-3-1-24b-instruct-2503"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "mistral.mistral-small-3",
+      "text": "Adds image input, so the model can understand images as well as text.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-1-announcement"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-3-1-24b-instruct-2503",
+          "locator": "Key Features: Vision"
+        }
+      ]
+    },
+    {
+      "id": "context-128k",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "mistral.mistral-small-3",
+      "text": "Context window of up to 128k tokens, up from 32k for Mistral Small 3.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-1-announcement"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-0-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    {
+      "id": "text-performance",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-small-3",
+      "text": "Mistral AI says text performance improved.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-1-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-1-docs",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-1-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-3-1-24b-instruct-2503",
+          "locator": "Key Features: Vision"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-1-docs",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-1-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-1-docs",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 24000000000,
+      "asStated": "24B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.hf-mistral-small-3-1-24b-instruct-2503",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.mistral-small-3-1-docs",
+          "locator": "Weights table, Parameters (B)"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-1-announcement",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-3-1-24b-instruct-2503"
+        },
+        {
+          "id": "src.mistral.hf-mistral-small-3-1-24b-base-2503"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-small-3-1-announcement",
+          "locator": "Availability"
+        }
+      ],
+      "note": "At launch on la Plateforme, on Hugging Face and on Google Cloud Vertex AI; NVIDIA NIM and Microsoft Azure AI Foundry were announced for the following weeks."
+    }
+  },
+  "notes": "Released as base and instruct checkpoints (aliases, not variants). Lifecycle reflects the open weights; the API dates come from the models overview."
+}

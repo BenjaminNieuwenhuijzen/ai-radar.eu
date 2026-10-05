@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-3-1-flash-lite",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-3-1-flash-lite",
+  "name": "Gemini 3.1 Flash-Lite",
+  "aliases": [
+    {
+      "text": "Gemini 3.1 Flash-Lite",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini 3.1 Flash Lite",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-3.1-flash-lite",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-3.1-flash-lite-preview",
+      "match": "auto"
+    },
+    {
+      "text": "3.1 Flash-Lite",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-flash-lite",
+  "generation": "3.1",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-models",
+        "locator": "Gemini 3, Stable"
+      },
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 3 models: gemini-3.1-flash-lite"
+      },
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Models available for at least 12 months after release"
+      }
+    ],
+    "note": "Generally available since 2026-05-07. The deprecations page lists 2027-05-07 as the earliest possible shutdown date and Agent Platform gives May 7, 2027 or later; no deprecation had been announced on 2026-10-01."
+  },
+  "replacedBy": {
+    "modelId": "google.gemini-3-5-flash-lite",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "gemini-3.1-flash-lite: recommended replacement"
+      }
+    ],
+    "note": "Recommended replacement as listed on the Gemini deprecations page when checked on 2026-10-01, next to an earliest shutdown date of May 7, 2027."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-03-03",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-1-flash-lite-announcement"
+        },
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "March 3, 2026"
+        },
+        {
+          "id": "src.google.gemini-api-deprecations",
+          "locator": "gemini-3.1-flash-lite-preview: release date"
+        }
+      ],
+      "note": "Released in preview as gemini-3.1-flash-lite-preview."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "general-availability",
+      "label": "Generally available as gemini-3.1-flash-lite",
+      "date": {
+        "value": "2026-05-07",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "May 7, 2026"
+          },
+          {
+            "id": "src.google.gemini-api-deprecations",
+            "locator": "gemini-3.1-flash-lite: release date"
+          },
+          {
+            "id": "src.google.agent-platform-model-versions",
+            "locator": "gemini-3.1-flash-lite: release date"
+          }
+        ],
+        "alternatives": [
+          {
+            "value": "2026-05-08",
+            "sources": [
+              {
+                "id": "src.google.gemini-3-1-flash-lite-ga-cloud-blog"
+              }
+            ],
+            "note": "Date of the Google Cloud blog post announcing general availability on Gemini Enterprise Agent Platform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "preview-shutdown",
+      "label": "Preview endpoint gemini-3.1-flash-lite-preview shut down",
+      "date": {
+        "value": "2026-05-25",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-release-notes",
+            "locator": "May 25, 2026"
+          },
+          {
+            "id": "src.google.gemini-api-deprecations",
+            "locator": "gemini-3.1-flash-lite-preview: shutdown date"
+          }
+        ],
+        "note": "Deprecation of the preview endpoint was announced on 2026-05-07, effective 2026-05-11."
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemini-2-5-flash-lite",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-release-notes",
+          "locator": "March 3, 2026; March 31, 2026"
+        },
+        {
+          "id": "src.google.gemini-api-deprecations",
+          "locator": "gemini-2.5-flash-lite-preview-09-2025: recommended replacement"
+        }
+      ],
+      "note": "Editorial link along the Flash-Lite tier: the release notes call it the first Flash-Lite model in the Gemini 3 series and name it the replacement for gemini-2.5-flash-lite-preview-09-2025, but Google does not call it a successor of Gemini 2.5 Flash-Lite; the launch post compares it with Gemini 2.5 Flash."
+    },
+    {
+      "type": "derived-from",
+      "target": "google.gemini-3-pro",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-1-flash-lite-model-card",
+          "locator": "Model Information: Model dependencies"
+        }
+      ],
+      "note": "The model card says Gemini 3.1 Flash-Lite is based on Gemini 3 Pro; it does not name the method."
+    }
+  ],
+  "summary": {
+    "text": "Gemini 3.1 Flash-Lite is a multimodal language model and the first Flash-Lite model of Google's Gemini 3 series, released in preview on 3 March 2026 in the Gemini API and Vertex AI and generally available since 7 May 2026. Google aims it at high-volume workloads such as translation and content moderation, with thinking levels as standard.",
+    "sources": [
+      {
+        "id": "src.google.gemini-3-1-flash-lite-announcement"
+      },
+      {
+        "id": "src.google.gemini-api-release-notes",
+        "locator": "March 3, 2026; May 7, 2026"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "based-on-3-pro",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "google.gemini-2-5-flash-lite",
+      "text": "Based on Gemini 3 Pro, according to Google's model card.",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-1-flash-lite-model-card",
+          "locator": "Model Information: Model dependencies"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-1-flash-lite",
+          "locator": "Supported data types: Inputs"
+        },
+        {
+          "id": "src.google.gemini-3-1-flash-lite-model-card",
+          "locator": "Inputs"
+        }
+      ],
+      "note": "PDF input is also supported."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-1-flash-lite",
+          "locator": "Supported data types: Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-3-1-flash-lite-announcement",
+            "locator": "Adaptive intelligence at scale for developers"
+          },
+          {
+            "id": "src.google.gemini-api-model-gemini-3-1-flash-lite",
+            "locator": "Capabilities: Thinking"
+          }
+        ],
+        "note": "Thinking levels come standard in Google AI Studio and Vertex AI."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-model-gemini-3-1-flash-lite",
+            "locator": "Capabilities: Function calling"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-model-gemini-3-1-flash-lite",
+          "locator": "Token limits: Input token limit"
+        }
+      ],
+      "note": "Input token limit; the output limit is 65,536 tokens. The model card gives a context window of up to 1M."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-1-flash-lite-announcement",
+          "locator": "second paragraph"
+        },
+        {
+          "id": "src.google.gemini-3-1-flash-lite-model-card",
+          "locator": "Distribution"
+        }
+      ],
+      "note": "API: the Gemini API (Google AI Studio) and Vertex AI. The launch post names only these; the model card also lists the Gemini app and AI Overviews in Search among its distribution channels."
+    }
+  },
+  "notes": "The preview endpoint gemini-3.1-flash-lite-preview (2026-03-03 to 2026-05-25) and the stable gemini-3.1-flash-lite are one record; Google did not present the GA version as a separate model. The deprecations page names gemini-3.1-flash-lite as recommended replacement for gemini-2.0-flash-lite and gemini-2.0-flash-lite-001 (shut down 2026-06-01) and for gemini-2.5-flash-lite-preview-09-2025 (shut down 2026-03-31). The Google Cloud GA post is dated 2026-05-08, a day after the Gemini API release note and the Agent Platform release date. Vertex AI access is counted under api."
+}

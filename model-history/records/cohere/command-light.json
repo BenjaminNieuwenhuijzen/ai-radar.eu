@@ -1,0 +1,226 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.command-light",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "command-light",
+  "name": "Command Light",
+  "aliases": [
+    {
+      "text": "command-light",
+      "match": "auto"
+    },
+    {
+      "text": "command-medium-nightly",
+      "match": "auto"
+    },
+    {
+      "text": "command-light-nightly",
+      "match": "auto"
+    },
+    {
+      "text": "command-medium",
+      "match": "auto"
+    },
+    {
+      "text": "cohere.command-light-text-v14",
+      "match": "auto"
+    },
+    {
+      "text": "Command Light",
+      "match": "candidate"
+    },
+    {
+      "text": "Cohere Command Light",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.command",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.cohere.deprecations",
+        "locator": "Deprecation History, 2025-09-15"
+      },
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Command table, status column"
+      },
+      {
+        "id": "src.cohere.changelog-major-command-deprecations",
+        "locator": "Deprecated Models"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-01-17",
+      "sources": [
+        {
+          "id": "src.cohere.changelog-command-nightly"
+        }
+      ],
+      "note": "Earliest Cohere source for the smaller Command model: the medium size of the nightly Command builds (command-medium-nightly per the 2023-04-26 renaming table). The name command-light dates from 2023-04-26."
+    },
+    "deprecated": {
+      "value": "2025-09-15",
+      "sources": [
+        {
+          "id": "src.cohere.deprecations",
+          "locator": "Deprecation History, 2025-09-15"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, status column"
+        }
+      ],
+      "note": "Deprecated for new customers; existing users keep access until a shutdown date, which Cohere had not set as of 2026-10-01. The changelog announcement page is dated 2025-09-16."
+    },
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "renamed",
+      "label": "API id command-medium renamed to command-light",
+      "date": {
+        "value": "2023-04-26",
+        "sources": [
+          {
+            "id": "src.cohere.changelog-model-names",
+            "locator": "renaming table"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "variant-of",
+      "target": "cohere.command-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.cohere.docs-command-command-light",
+          "locator": "paragraph below the Model Details table"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, command-light row"
+        }
+      ],
+      "note": "Cohere presents command-light and command as the two variants of the Command family and describes command-light as a smaller, faster version of command."
+    }
+  ],
+  "summary": {
+    "text": "Command Light is the smaller variant of Cohere's Command, a text-only language model with a 4k-token context that Cohere describes as faster and almost as capable. It first appeared on 17 January 2023 as the medium size of the nightly Command builds, took the name command-light in April 2023, was offered on the Cohere API, Amazon Bedrock and Oracle OCI, and was deprecated on 15 September 2025.",
+    "sources": [
+      {
+        "id": "src.cohere.docs-command-command-light"
+      },
+      {
+        "id": "src.cohere.changelog-command-nightly"
+      },
+      {
+        "id": "src.cohere.changelog-model-names"
+      },
+      {
+        "id": "src.cohere.models-overview"
+      },
+      {
+        "id": "src.cohere.deprecations"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "smaller-faster",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "cohere.command-1",
+      "text": "Cohere describes it as a smaller, faster version of Command that is almost as capable, and recommended it for developers who need fast responses.",
+      "sources": [
+        {
+          "id": "src.cohere.docs-command-command-light"
+        },
+        {
+          "id": "src.cohere.changelog-command-nightly"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.docs-command-command-light",
+          "locator": "Model Details table, Modality"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.docs-command-command-light",
+          "locator": "Model Details table, Modality"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 4000,
+      "asStated": "4k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.docs-command-command-light",
+          "locator": "Model Details table, Context Length"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Cohere."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.changelog-command-nightly"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Using Command Models on Different Platforms"
+        }
+      ],
+      "note": "Amazon Bedrock id cohere.command-light-text-v14 and Oracle OCI id cohere.command-light v15.6 per the platform table."
+    }
+  },
+  "notes": "Renamed from command-medium to command-light (and command-medium-nightly to command-light-nightly) on 2023-04-26 (src.cohere.changelog-model-names). No Cohere source gives a separate launch post. The deprecation notice recommends command-r-08-2024, command-r-plus-08-2024 or command-a-03-2025 without naming one, so replacedBy is left out."
+}

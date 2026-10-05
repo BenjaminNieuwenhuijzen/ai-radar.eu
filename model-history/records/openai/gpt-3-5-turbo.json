@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-3-5-turbo",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-3-5-turbo",
+  "name": "GPT-3.5 Turbo",
+  "aliases": [
+    {
+      "text": "GPT-3.5 Turbo",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-3.5-turbo",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-3.5-turbo-0301",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-3.5-turbo-0613",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-3.5-turbo-16k",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-3.5-turbo-16k-0613",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-3.5-turbo-1106",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-3.5-turbo-0125",
+      "match": "auto"
+    },
+    {
+      "text": "ChatGPT API",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "3.5",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-04-22: Legacy GPT model snapshots"
+      }
+    ],
+    "note": "gpt-3.5-turbo (default snapshot gpt-3.5-turbo-0125) is scheduled to shut down in the API on October 23, 2026. Older snapshots are already shut down: gpt-3.5-turbo-0301, -0613 and -16k-0613 on 2024-09-13, gpt-3.5-turbo-1106 on 2026-09-28."
+  },
+  "replacedBy": {
+    "modelId": "openai.gpt-5-6-terra",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-04-22: Legacy GPT model snapshots"
+      }
+    ],
+    "note": "Substitute model listed for gpt-3.5-turbo-0125 on the deprecations page when checked on 2026-10-01. The model page has recommended gpt-4o-mini in place of GPT-3.5 Turbo since July 2024."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-03-01",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-and-whisper-apis-announcement",
+          "locator": "date line of the original post (archive capture of 2023-03-01); GPT-3.5 API: Model; ChatGPT upgrades"
+        },
+        {
+          "id": "src.openai.function-calling-and-api-updates",
+          "locator": "Model deprecations: the initial versions announced in March"
+        }
+      ],
+      "note": "The live announcement shows only its update date (April 24, 2024); the day comes from the original post as archived on 2023-03-01. The first snapshot released that day is gpt-3.5-turbo-0301."
+    },
+    "deprecated": {
+      "value": "2026-04-22",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2026-04-22: Legacy GPT model snapshots"
+        }
+      ]
+    },
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "gpt-3-5-turbo-0613",
+      "label": "gpt-3.5-turbo-0613 with function calling and the 16K-context gpt-3.5-turbo-16k released",
+      "date": {
+        "value": "2023-06-13",
+        "sources": [
+          {
+            "id": "src.openai.function-calling-and-api-updates",
+            "locator": "GPT-3.5 Turbo"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fine-tuning",
+      "label": "Fine-tuning for GPT-3.5 Turbo available",
+      "date": {
+        "value": "2023-08-22",
+        "sources": [
+          {
+            "id": "src.openai.gpt-3-5-turbo-fine-tuning-announcement",
+            "locator": "first paragraph"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gpt-3-5-turbo-1106",
+      "label": "gpt-3.5-turbo-1106 released with a 16K context window by default",
+      "date": {
+        "value": "2023-11-06",
+        "sources": [
+          {
+            "id": "src.openai.devday-2023-announcement",
+            "locator": "Updated GPT-3.5 Turbo"
+          },
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Nov 6, 2023"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gpt-3-5-turbo-0125",
+      "label": "gpt-3.5-turbo-0125 released",
+      "date": {
+        "value": "2024-02-01",
+        "sources": [
+          {
+            "id": "src.openai.api-changelog",
+            "locator": "Feb 1, 2024"
+          }
+        ]
+      }
+    },
+    {
+      "id": "replaced-in-chatgpt",
+      "label": "Replaced by GPT-4o mini in ChatGPT",
+      "date": {
+        "value": "2024-07-18",
+        "sources": [
+          {
+            "id": "src.openai.gpt-4o-mini-announcement",
+            "locator": "Availability and pricing"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.chatgpt",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-and-whisper-apis-announcement",
+          "locator": "GPT-3.5 API: Model"
+        }
+      ],
+      "note": "Editorial link: the API announcement presents gpt-3.5-turbo as the ChatGPT model family, the same model used in the ChatGPT product, and names no predecessor."
+    }
+  ],
+  "summary": {
+    "text": "GPT-3.5 Turbo is an OpenAI language model released in the API on 1 March 2023 as gpt-3.5-turbo, which OpenAI said was the model used in the ChatGPT product, and first marketed as the ChatGPT API. It came with a chat endpoint that takes a list of messages and was priced at one tenth of OpenAI's existing GPT-3.5 models.",
+    "sources": [
+      {
+        "id": "src.openai.chatgpt-and-whisper-apis-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "api-access",
+      "aspect": "availability",
+      "direction": "added",
+      "relativeTo": "openai.chatgpt",
+      "text": "Makes the ChatGPT model available to developers through the OpenAI API, with dated snapshots such as gpt-3.5-turbo-0301 for pinning a version.",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-and-whisper-apis-announcement"
+        }
+      ]
+    },
+    {
+      "id": "cost",
+      "aspect": "efficiency",
+      "relativeTo": "openai.chatgpt",
+      "text": "OpenAI reported a 90 percent cost reduction for ChatGPT since December 2022 through system-wide optimisations and passed the savings on to API users.",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-and-whisper-apis-announcement"
+        }
+      ]
+    },
+    {
+      "id": "function-calling",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "openai.chatgpt",
+      "text": "Function calling was added with the gpt-3.5-turbo-0613 snapshot on 13 June 2023.",
+      "sources": [
+        {
+          "id": "src.openai.function-calling-and-api-updates"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-5-turbo-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-5-turbo-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 16385,
+      "asStated": "16,385",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-5-turbo-docs",
+          "locator": "Model details"
+        }
+      ],
+      "note": "For the default snapshot gpt-3.5-turbo-0125. The June 2023 post calls the original model the standard 4k version; a 16K version followed on 2023-06-13 and became the default with gpt-3.5-turbo-1106."
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.function-calling-and-api-updates",
+            "locator": "Function calling; GPT-3.5 Turbo"
+          }
+        ],
+        "note": "From gpt-3.5-turbo-0613 (2023-06-13)."
+      },
+      {
+        "key": "fine-tuning-available",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.gpt-3-5-turbo-fine-tuning-announcement",
+            "locator": "first paragraph"
+          },
+          {
+            "id": "src.openai.gpt-3-5-turbo-docs",
+            "locator": "Supported features"
+          }
+        ],
+        "note": "From 2023-08-22."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-and-whisper-apis-announcement",
+          "locator": "GPT-3.5 API: Model"
+        },
+        {
+          "id": "src.openai.gpt-4o-mini-announcement",
+          "locator": "Availability and pricing"
+        }
+      ],
+      "note": "The API announcement says gpt-3.5-turbo is the model used in the ChatGPT product; in ChatGPT it was offered as GPT-3.5 until GPT-4o mini took its place on 2024-07-18."
+    }
+  },
+  "variants": [
+    {
+      "id": "gpt-3-5-turbo-instruct",
+      "name": "gpt-3.5-turbo-instruct",
+      "aliases": [
+        {
+          "text": "gpt-3.5-turbo-instruct",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "announced": {
+          "value": "2023-07-06",
+          "sources": [
+            {
+              "id": "src.openai.api-deprecations",
+              "locator": "2023-07-06: GPT and embeddings"
+            },
+            {
+              "id": "src.openai.gpt-4-api-general-availability",
+              "locator": "Deprecation of older models in the Completions API"
+            }
+          ]
+        },
+        "released": null,
+        "deprecated": {
+          "value": "2025-09-26",
+          "sources": [
+            {
+              "id": "src.openai.api-deprecations",
+              "locator": "2025-09-26: Legacy GPT model snapshots"
+            }
+          ]
+        },
+        "retired": {
+          "value": "2026-09-28",
+          "sources": [
+            {
+              "id": "src.openai.api-deprecations",
+              "locator": "2025-09-26: Legacy GPT model snapshots"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "contextWindowTokens": {
+          "value": 4096,
+          "asStated": "4,096",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.openai.gpt-3-5-turbo-instruct-docs",
+              "locator": "Model details"
+            }
+          ]
+        }
+      },
+      "lifecycle": {
+        "value": "retired",
+        "sources": [
+          {
+            "id": "src.openai.api-deprecations",
+            "locator": "2025-09-26: Legacy GPT model snapshots"
+          }
+        ]
+      },
+      "note": "Completions-only model announced as an InstructGPT-style drop-in replacement for older completion models such as text-davinci-003; the GPT-3.5 Turbo model page lists it among its snapshots. The July 2023 post said it would be available in the coming weeks; no source read gives the release day.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-3-5-turbo-instruct-docs"
+        },
+        {
+          "id": "src.openai.gpt-3-5-turbo-docs",
+          "locator": "Snapshots"
+        }
+      ]
+    }
+  ],
+  "notes": "Released in the API as gpt-3.5-turbo and first marketed as the ChatGPT API (OpenAI discontinued that name in April 2024). The name GPT-3.5 Turbo is the one OpenAI uses now; the original post called the model the ChatGPT model family. Snapshots gpt-3.5-turbo-0301, -0613, -16k, -16k-0613, -1106 and -0125 are aliases; gpt-3.5-turbo-instruct is an inline variant. Lifecycle dates apply to the OpenAI API."
+}

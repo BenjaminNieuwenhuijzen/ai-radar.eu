@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.pixtral-large",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "pixtral-large",
+  "name": "Pixtral Large",
+  "aliases": [
+    {
+      "text": "Pixtral Large",
+      "match": "auto"
+    },
+    {
+      "text": "pixtral-large-2411",
+      "match": "auto"
+    },
+    {
+      "text": "Pixtral-Large-Instruct-2411",
+      "match": "auto"
+    },
+    {
+      "text": "pixtral-large-latest",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.pixtral",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-pixtral-large-instruct-2411"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Pixtral Large"
+      }
+    ],
+    "note": "Weights under the Mistral Research License remain downloadable from the mistralai Hugging Face organisation; the API endpoint pixtral-large-2411 was deprecated on 2026-02-27 and retired on 2026-05-31."
+  },
+  "replacedBy": {
+    "modelId": "mistral.mistral-medium-3-5",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Pixtral Large, Alternative"
+      },
+      {
+        "id": "src.mistral.docs-pixtral-large-24-11",
+        "locator": "Replacement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-11-18",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "page date; first paragraph"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "November 18, 2024"
+        },
+        {
+          "id": "src.mistral.docs-pixtral-large-24-11",
+          "locator": "release date"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-02-27",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Pixtral Large"
+        },
+        {
+          "id": "src.mistral.docs-pixtral-large-24-11",
+          "locator": "Deprecation date"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-05-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Pixtral Large"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "mistral.mistral-large-2",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "first paragraph; Pixtral Large in short"
+        },
+        {
+          "id": "src.mistral.hf-pixtral-large-instruct-2411",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Built on top of Mistral Large 2 (Mistral-Large-Instruct-2407) with a 123B multimodal decoder and a 1B vision encoder; Mistral does not name the training method."
+    },
+    {
+      "type": "successor-of",
+      "target": "mistral.pixtral-12b",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.hf-pixtral-large-instruct-2411",
+          "locator": "first paragraph"
+        }
+      ],
+      "note": "Mistral calls Pixtral Large the second model in its multimodal family, after Pixtral 12B."
+    }
+  ],
+  "summary": {
+    "text": "Pixtral Large is a 124B multimodal model from Mistral AI that takes text and images and outputs text, built on Mistral Large 2 with a 123B decoder and a 1B-parameter vision encoder. Mistral calls it the second model in its multimodal family; it was offered in le Chat, on the API and as weights under the Mistral Research License, with a commercial licence for commercial use.",
+    "sources": [
+      {
+        "id": "src.mistral.pixtral-large-announcement"
+      },
+      {
+        "id": "src.mistral.docs-pixtral-large-24-11",
+        "locator": "Modalities"
+      },
+      {
+        "id": "src.mistral.hf-pixtral-large-instruct-2411"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "parameters",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "mistral.pixtral-12b",
+      "text": "Grows to 124B parameters in total: a 123B multimodal decoder and a 1B-parameter vision encoder.",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement"
+        }
+      ]
+    },
+    {
+      "id": "large-2-decoder",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "mistral.pixtral-12b",
+      "text": "Its multimodal decoder is built on Mistral Large 2 instead of Mistral Nemo.",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement"
+        },
+        {
+          "id": "src.mistral.pixtral-12b-announcement"
+        }
+      ]
+    },
+    {
+      "id": "licence",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "mistral.pixtral-12b",
+      "text": "Released under the Mistral Research License and the Mistral Commercial License, whereas Pixtral 12B used Apache 2.0.",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement"
+        },
+        {
+          "id": "src.mistral.pixtral-12b-announcement"
+        }
+      ]
+    },
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "mistral.mistral-large-2",
+      "text": "Adds image input to the Mistral Large 2 text model; Mistral says it keeps the text-only understanding of Mistral Large 2.",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-pixtral-large-24-11",
+          "locator": "Modalities"
+        },
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "first paragraph"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-pixtral-large-24-11",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "first and second paragraphs; Use"
+        },
+        {
+          "id": "src.mistral.hf-pixtral-large-instruct-2411"
+        }
+      ],
+      "note": "Mistral Research License for research and educational use; Mistral Commercial License for commercial use."
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "Pixtral Large in short"
+        },
+        {
+          "id": "src.mistral.docs-pixtral-large-24-11",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 124000000000,
+      "asStated": "124B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.docs-pixtral-large-24-11",
+          "locator": "Weights table"
+        }
+      ],
+      "note": "123B multimodal decoder plus a 1B-parameter vision encoder."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.pixtral-large-announcement",
+          "locator": "Use"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "November 18, 2024"
+        }
+      ]
+    }
+  },
+  "notes": "Released together with Mistral Large 24.11 on 2024-11-18. The announcement page now has the HTML title [Deprecated] Pixtral Large. The le Chat update of the same day used Pixtral Large for document and image understanding (changelog)."
+}

@@ -1,0 +1,375 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-2-0-flash",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-2-0-flash",
+  "name": "Gemini 2.0 Flash",
+  "aliases": [
+    {
+      "text": "Gemini 2.0 Flash",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini 2.0 Flash Experimental",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.0-flash",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.0-flash-001",
+      "match": "auto"
+    },
+    {
+      "text": "gemini-2.0-flash-exp",
+      "match": "auto"
+    },
+    {
+      "text": "2.0 Flash",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-flash",
+  "generation": "2.0",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-changelog",
+        "locator": "June 1, 2026"
+      },
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 2.0 models"
+      },
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models: gemini-2.0-flash"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "google.gemini-3-6-flash",
+    "sources": [
+      {
+        "id": "src.google.gemini-api-deprecations",
+        "locator": "Gemini 2.0 models"
+      }
+    ],
+    "note": "Recommended replacement on the Gemini API deprecations page when checked on 2026-10-01. The Agent Platform page recommends gemini-3.1-flash-lite, and the June 1, 2026 release note pointed to gemini-3.5-flash or gemini-3.1-flash-lite."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-12-11",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-announcement",
+          "locator": "Gemini 2.0 Flash"
+        },
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "December 11, 2024"
+        }
+      ],
+      "note": "Experimental release (Gemini 2.0 Flash Experimental) in the Gemini API, Google AI Studio and Vertex AI, and in the Gemini app."
+    },
+    "deprecated": {
+      "value": "2026-02-18",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "February 18, 2026"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-06-01",
+      "sources": [
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "June 1, 2026"
+        },
+        {
+          "id": "src.google.gemini-api-deprecations",
+          "locator": "Gemini 2.0 models"
+        },
+        {
+          "id": "src.google.agent-platform-model-versions",
+          "locator": "Retired models: gemini-2.0-flash"
+        }
+      ]
+    }
+  },
+  "milestones": [
+    {
+      "id": "gemini-app-default",
+      "label": "Default model in the Gemini app",
+      "date": {
+        "value": "2025-01-30",
+        "sources": [
+          {
+            "id": "src.google.gemini-app-release-notes",
+            "locator": "2025.01.30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "general-availability",
+      "label": "Generally available (gemini-2.0-flash-001)",
+      "date": {
+        "value": "2025-02-05",
+        "sources": [
+          {
+            "id": "src.google.gemini-2-0-model-updates-february-2025"
+          },
+          {
+            "id": "src.google.gemini-api-changelog",
+            "locator": "February 5, 2025"
+          },
+          {
+            "id": "src.google.gemini-api-deprecations",
+            "locator": "Gemini 2.0 models"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "google.gemini-1-5-flash-002",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-announcement",
+          "locator": "Gemini 2.0 Flash"
+        },
+        {
+          "id": "src.google.gemini-2-0-flash-model-card",
+          "locator": "Model Information, Description"
+        },
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "November 21, 2024"
+        }
+      ],
+      "note": "Google says 2.0 Flash builds on and improves upon Gemini 1.5 Flash without naming a version; gemini-1.5-flash-002 was the current 1.5 Flash version at the time (the gemini-1.5-flash id pointed to it from 2024-11-21)."
+    }
+  ],
+  "summary": {
+    "text": "Gemini 2.0 Flash is the first model of Google's Gemini 2.0 family, released as an experimental model in December 2024 and generally available from February 2025 through the Gemini API, Google AI Studio and Vertex AI, and in the Gemini app. It accepts text, images, audio and video, and Google says it can natively call tools such as Google Search and code execution.",
+    "sources": [
+      {
+        "id": "src.google.gemini-2-0-announcement"
+      },
+      {
+        "id": "src.google.gemini-2-0-family-expands-developers"
+      },
+      {
+        "id": "src.google.gemini-2-0-model-updates-february-2025"
+      },
+      {
+        "id": "src.google.gemini-2-0-flash-model-card",
+        "locator": "Model Information, Inputs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "native-output",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "google.gemini-1-5-flash-002",
+      "text": "Adds native image and audio output, first limited to early-access partners; at general availability output was text only.",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-announcement",
+          "locator": "Gemini 2.0 Flash"
+        },
+        {
+          "id": "src.google.gemini-2-0-family-expands-developers",
+          "locator": "Model features"
+        }
+      ]
+    },
+    {
+      "id": "native-tools",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "google.gemini-1-5-flash-002",
+      "text": "Natively calls tools such as Google Search and code execution, alongside user-defined functions.",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-announcement",
+          "locator": "Gemini 2.0 Flash"
+        },
+        {
+          "id": "src.google.gemini-2-0-developers-announcement",
+          "locator": "3. Native tool use"
+        }
+      ]
+    },
+    {
+      "id": "live-api",
+      "aspect": "other",
+      "direction": "added",
+      "relativeTo": "google.gemini-1-5-flash-002",
+      "text": "Comes with a Multimodal Live API for real-time audio and video streaming input.",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-developers-announcement",
+          "locator": "4. Multimodal Live API"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-flash-002",
+      "text": "The model card says it builds on the sparse mixture-of-experts design of Gemini 1.5, with a refined architecture and new optimization methods.",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-flash-model-card"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-flash-model-card",
+          "locator": "Model Information, Inputs"
+        },
+        {
+          "id": "src.google.gemini-2-0-announcement",
+          "locator": "Gemini 2.0 Flash"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-flash-model-card",
+          "locator": "Model Information, Outputs"
+        },
+        {
+          "id": "src.google.gemini-2-0-family-expands-developers",
+          "locator": "Model features"
+        }
+      ],
+      "note": "Text output at general availability. Native image output and text-to-speech audio output were offered to early-access partners during the experimental phase; the model card calls image output experimental."
+    },
+    "contextWindowTokens": {
+      "value": 1048576,
+      "asStated": "1,048,576",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-flash-model-card",
+          "locator": "Model Information, Inputs"
+        },
+        {
+          "id": "src.google.gemini-2-0-family-expands-developers",
+          "locator": "Model features"
+        }
+      ],
+      "note": "The developer post gives 1 million tokens; the model card also gives an output limit of 8,192 tokens."
+    },
+    "features": [
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-2-0-announcement",
+            "locator": "Gemini 2.0 Flash"
+          },
+          {
+            "id": "src.google.gemini-2-0-developers-announcement",
+            "locator": "3. Native tool use"
+          }
+        ],
+        "note": "Native use of Google Search and code execution."
+      },
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-2-0-developers-announcement",
+            "locator": "3. Native tool use"
+          }
+        ]
+      },
+      {
+        "key": "real-time",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.google.gemini-2-0-developers-announcement",
+            "locator": "4. Multimodal Live API"
+          },
+          {
+            "id": "src.google.gemini-2-0-flash-model-card",
+            "locator": "Intended Usage and Limitations"
+          }
+        ],
+        "note": "Multimodal Live API with real-time audio and video streaming input."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-2-0-announcement",
+          "locator": "Gemini 2.0 Flash; Gemini 2.0 available in Gemini app"
+        },
+        {
+          "id": "src.google.gemini-2-0-model-updates-february-2025"
+        }
+      ],
+      "note": "Gemini API through Google AI Studio and Vertex AI; Gemini app."
+    }
+  },
+  "notes": "First model of the Gemini 2.0 family. Released as an experimental model on 2024-12-11 and generally available as gemini-2.0-flash-001 on 2025-02-05; the Gemini API deprecations page and the Agent Platform page give February 5, 2025 as the release date of the GA model ids. The experimental id gemini-2.0-flash-exp was scheduled for shutdown on 2025-12-09 (announced 2025-11-04 in the release notes). Deprecation of the GA ids was announced on 2026-02-18 and they were shut down on 2026-06-01. The model card states a knowledge cutoff of June 2024."
+}

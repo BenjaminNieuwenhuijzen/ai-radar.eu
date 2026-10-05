@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-4",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-4",
+  "name": "GPT-4",
+  "aliases": [
+    {
+      "text": "GPT-4",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4-0314",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-4-0613",
+      "match": "auto"
+    },
+    {
+      "text": "GPT-4V",
+      "match": "candidate"
+    },
+    {
+      "text": "GPT-4 with vision",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-04-22: Legacy GPT model snapshots"
+      },
+      {
+        "id": "src.openai.help-chatgpt-release-notes",
+        "locator": "April 10, 2025: Sunsetting GPT-4 in ChatGPT"
+      }
+    ],
+    "note": "gpt-4 (snapshot gpt-4-0613) is scheduled to shut down in the API on October 23, 2026. gpt-4-0314 was shut down on 2026-03-26 and the gpt-4-32k snapshots on 2025-06-06. GPT-4 was retired from ChatGPT on 2025-04-30."
+  },
+  "replacedBy": {
+    "modelId": "openai.gpt-5-6-sol",
+    "sources": [
+      {
+        "id": "src.openai.api-deprecations",
+        "locator": "2026-04-22: Legacy GPT model snapshots"
+      }
+    ],
+    "note": "Substitute model listed for gpt-4-0613 on the deprecations page when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2023-03-14",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-research",
+          "locator": "ChatGPT Plus; API"
+        },
+        {
+          "id": "src.openai.help-chatgpt-release-notes",
+          "locator": "March 14, 2023: Announcing GPT-4 in ChatGPT"
+        }
+      ],
+      "note": "Released in ChatGPT Plus and to developers from an API waitlist, with text input only at first."
+    },
+    "deprecated": {
+      "value": "2026-04-22",
+      "sources": [
+        {
+          "id": "src.openai.api-deprecations",
+          "locator": "2026-04-22: Legacy GPT model snapshots"
+        }
+      ]
+    },
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "gpt-4-0613",
+      "label": "gpt-4-0613 with function calling released",
+      "date": {
+        "value": "2023-06-13",
+        "sources": [
+          {
+            "id": "src.openai.function-calling-and-api-updates",
+            "locator": "GPT-4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "api-general-availability",
+      "label": "GPT-4 API generally available to existing paying developers",
+      "date": {
+        "value": "2023-07-06",
+        "sources": [
+          {
+            "id": "src.openai.api-deprecations",
+            "locator": "2023-07-06: GPT and embeddings"
+          },
+          {
+            "id": "src.openai.gpt-4-api-general-availability",
+            "locator": "GPT-4 API general availability"
+          }
+        ]
+      }
+    },
+    {
+      "id": "image-input-chatgpt",
+      "label": "Image input (GPT-4 with vision) rolling out in ChatGPT",
+      "date": {
+        "value": "2023-09-25",
+        "sources": [
+          {
+            "id": "src.openai.gpt-4v-system-card",
+            "locator": "Abstract"
+          },
+          {
+            "id": "src.openai.help-chatgpt-release-notes",
+            "locator": "September 25, 2023: New voice and image capabilities in ChatGPT"
+          }
+        ],
+        "note": "The system card describes GPT-4 with vision as a capability being made broadly available; the ChatGPT release notes of the same day announce image input for Plus users."
+      }
+    },
+    {
+      "id": "retired-from-chatgpt",
+      "label": "Retired from ChatGPT and replaced there by GPT-4o",
+      "date": {
+        "value": "2025-04-30",
+        "sources": [
+          {
+            "id": "src.openai.help-chatgpt-release-notes",
+            "locator": "April 10, 2025: Sunsetting GPT-4 in ChatGPT"
+          }
+        ],
+        "note": "Date announced in advance in the release note of April 10, 2025."
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-3-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-research",
+          "locator": "first paragraphs; Capabilities"
+        },
+        {
+          "id": "src.openai.gpt-4-technical-report",
+          "locator": "Abstract; Section 4"
+        }
+      ],
+      "note": "The research post compares GPT-4 with GPT-3.5 throughout and describes GPT-3.5 as the first test run of the training stack later used for GPT-4."
+    }
+  ],
+  "summary": {
+    "text": "GPT-4 is an OpenAI model that OpenAI describes as a large multimodal model taking image and text input and producing text. It was released on 14 March 2023 in ChatGPT Plus and through an API waitlist, with image input following later, and its technical report withholds details on architecture, model size, training compute and data.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-4-research"
+      },
+      {
+        "id": "src.openai.gpt-4-technical-report"
+      },
+      {
+        "id": "src.openai.gpt-4v-system-card"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "image-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "openai.gpt-3-5",
+      "text": "Accepts image input in addition to text; at launch image input was tested with a single partner, and it reached ChatGPT in September 2023.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-research"
+        },
+        {
+          "id": "src.openai.gpt-4v-system-card"
+        }
+      ]
+    },
+    {
+      "id": "disallowed-content",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-3-5",
+      "text": "OpenAI reports that after six months of alignment work GPT-4 responds less often to requests for disallowed content than GPT-3.5.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-research"
+        }
+      ]
+    },
+    {
+      "id": "instructions",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-3-5",
+      "text": "OpenAI says GPT-4 is more reliable and creative than GPT-3.5 and handles more nuanced instructions once tasks become complex.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-research"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-research",
+          "locator": "first paragraph; Visual inputs"
+        },
+        {
+          "id": "src.openai.gpt-4-technical-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Text input was released first; image input started in limited alpha and reached ChatGPT as GPT-4 with vision from 2023-09-25. The API model gpt-4 accepts text only according to its model page."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-research",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.openai.gpt-4-docs",
+          "locator": "Model details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 8192,
+      "asStated": "8,192",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-research",
+          "locator": "API"
+        },
+        {
+          "id": "src.openai.gpt-4-docs",
+          "locator": "Model details"
+        }
+      ],
+      "note": "The gpt-4-32k variant has 32,768 tokens."
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.openai.function-calling-and-api-updates",
+            "locator": "Function calling; GPT-4"
+          }
+        ],
+        "note": "From gpt-4-0613 (2023-06-13)."
+      }
+    ],
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-technical-report",
+          "locator": "Section 2"
+        }
+      ],
+      "note": "The technical report says it contains no further details about the architecture, including model size."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-research",
+          "locator": "ChatGPT Plus; API"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "gpt-4-32k",
+      "name": "GPT-4-32K",
+      "aliases": [
+        {
+          "text": "gpt-4-32k",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-4-32k-0314",
+          "match": "auto"
+        },
+        {
+          "text": "gpt-4-32k-0613",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "announced": null,
+        "released": {
+          "value": "2023-03-14",
+          "sources": [
+            {
+              "id": "src.openai.gpt-4-research",
+              "locator": "API"
+            }
+          ],
+          "note": "Limited access at launch."
+        },
+        "deprecated": {
+          "value": "2024-06-06",
+          "sources": [
+            {
+              "id": "src.openai.api-deprecations",
+              "locator": "2024-06-06: GPT-4-32K and Vision Preview models"
+            }
+          ]
+        },
+        "retired": {
+          "value": "2025-06-06",
+          "sources": [
+            {
+              "id": "src.openai.api-deprecations",
+              "locator": "2024-06-06: GPT-4-32K and Vision Preview models"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "contextWindowTokens": {
+          "value": 32768,
+          "asStated": "32,768",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.openai.gpt-4-research",
+              "locator": "API"
+            }
+          ]
+        }
+      },
+      "lifecycle": {
+        "value": "retired",
+        "sources": [
+          {
+            "id": "src.openai.api-deprecations",
+            "locator": "2024-06-06: GPT-4-32K and Vision Preview models"
+          }
+        ]
+      },
+      "note": "Long-context version announced with GPT-4; gpt-4-32k-0613 followed on 2023-06-13. From June 17, 2024 only existing users could keep using it.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-4-research",
+          "locator": "API"
+        },
+        {
+          "id": "src.openai.function-calling-and-api-updates",
+          "locator": "GPT-4"
+        }
+      ]
+    }
+  ],
+  "notes": "Announced and released on 2023-03-14 in ChatGPT Plus and through an API waitlist. The 32K-context gpt-4-32k is an inline variant. GPT-4 with vision (GPT-4V, system card of 2023-09-25) is treated as a capability rollout of this model, not a separate record. The research post and the technical report (arXiv 2303.08774) are both primary; the GPT-4 system card PDF linked from the post carries no date. Lifecycle dates apply to the OpenAI API."
+}

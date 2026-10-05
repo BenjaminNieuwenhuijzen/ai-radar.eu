@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.command-r-08-2024",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "command-r-08-2024",
+  "name": "Command R 08-2024",
+  "aliases": [
+    {
+      "text": "Command R 08-2024",
+      "match": "auto"
+    },
+    {
+      "text": "command-r-08-2024",
+      "match": "auto"
+    },
+    {
+      "text": "c4ai-command-r-08-2024",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.command-r-series",
+  "categories": [
+    "language"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Command table, command-r-08-2024 row: Live"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-08-30",
+      "sources": [
+        {
+          "id": "src.cohere.command-series-0824-announcement",
+          "locator": "page date"
+        },
+        {
+          "id": "src.cohere.changelog-command-august-refresh",
+          "locator": "entry date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "cohere.command-r",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.cohere.changelog-command-august-refresh",
+          "locator": "first paragraphs"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, command-r-08-2024 row"
+        },
+        {
+          "id": "src.cohere.command-series-0824-announcement"
+        },
+        {
+          "id": "src.cohere.docs-command-r",
+          "locator": "Command R August 2024 Release"
+        }
+      ],
+      "note": "Cohere calls it the updated Command R and an update of the Command R model."
+    }
+  ],
+  "summary": {
+    "text": "Command R 08-2024 is Cohere's August 2024 update of Command R, a text-only language model with a 128k-token context, released on 30 August 2024 on the Cohere API, Amazon SageMaker and Oracle OCI and on Microsoft Azure from September. Cohere reports higher throughput, lower latency and lower prices, and added Safety Modes in beta; 32-billion-parameter research weights are on Hugging Face.",
+    "sources": [
+      {
+        "id": "src.cohere.changelog-command-august-refresh"
+      },
+      {
+        "id": "src.cohere.command-series-0824-announcement"
+      },
+      {
+        "id": "src.cohere.changelog-refresh-models-azure"
+      },
+      {
+        "id": "src.cohere.hf-c4ai-command-r-08-2024"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "throughput-latency",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "cohere.command-r",
+      "text": "Cohere reports around 50 percent higher throughput and 20 percent lower latency, while needing half the hardware to serve it.",
+      "sources": [
+        {
+          "id": "src.cohere.changelog-command-august-refresh"
+        }
+      ]
+    },
+    {
+      "id": "safety-modes",
+      "aspect": "safety",
+      "direction": "added",
+      "relativeTo": "cohere.command-r",
+      "text": "Adds Safety Modes in beta, letting developers choose a strict or contextual mode or opt out.",
+      "sources": [
+        {
+          "id": "src.cohere.changelog-command-august-refresh"
+        }
+      ]
+    },
+    {
+      "id": "tool-choice",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "cohere.command-r",
+      "text": "Cohere reports better decisions about whether and which tool to use, and RAG can now run without citations.",
+      "sources": [
+        {
+          "id": "src.cohere.changelog-command-august-refresh"
+        }
+      ]
+    },
+    {
+      "id": "price",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "cohere.command-r",
+      "text": "API price lowered to 0.15 USD input and 0.60 USD output per million tokens, from 0.50 and 1.50 USD.",
+      "sources": [
+        {
+          "id": "src.cohere.changelog-command-august-refresh"
+        },
+        {
+          "id": "src.cohere.command-r-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-c4ai-command-r-08-2024",
+          "locator": "Model Details"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-c4ai-command-r-08-2024",
+          "locator": "Model Details"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Command table, Context Length"
+        },
+        {
+          "id": "src.cohere.hf-c4ai-command-r-08-2024",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 32000000000,
+      "asStated": "32 billion",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-c4ai-command-r-08-2024",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.hf-c4ai-command-r-08-2024"
+        }
+      ],
+      "note": "Research release under CC-BY-NC 4.0."
+    },
+    "features": [
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.changelog-command-august-refresh",
+            "locator": "Technical Details"
+          }
+        ]
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.changelog-command-august-refresh",
+            "locator": "Technical Details"
+          }
+        ]
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.hf-c4ai-command-r-08-2024",
+            "locator": "Model Summary"
+          }
+        ],
+        "note": "Trained on 23 languages, evaluated in 10."
+      }
+    ],
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.command-series-0824-announcement",
+          "locator": "Pricing and Availability"
+        },
+        {
+          "id": "src.cohere.changelog-refresh-models-azure"
+        },
+        {
+          "id": "src.cohere.hf-c4ai-command-r-08-2024"
+        }
+      ],
+      "note": "Cohere API, Amazon SageMaker and Oracle OCI at launch; Microsoft Azure from 2024-09-26."
+    }
+  },
+  "notes": "Same-name update announced publicly as a notable refresh, hence a separate record. The Hugging Face repository was created on 2024-08-19, probably private before launch; not used as a release date."
+}

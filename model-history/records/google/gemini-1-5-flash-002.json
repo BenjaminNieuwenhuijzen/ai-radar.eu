@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-1-5-flash-002",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gemini-1-5-flash-002",
+  "name": "Gemini-1.5-Flash-002",
+  "aliases": [
+    {
+      "text": "gemini-1.5-flash-002",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini 1.5 Flash-002",
+      "match": "auto"
+    },
+    {
+      "text": "Gemini 1.5 Flash",
+      "match": "candidate"
+    },
+    {
+      "text": "gemini-1.5-flash",
+      "match": "candidate"
+    },
+    {
+      "text": "gemini-1.5-flash-latest",
+      "match": "candidate"
+    },
+    {
+      "text": "gemini-1.5-flash-exp-0827",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-flash",
+  "generation": "1.5",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models: gemini-1.5-flash-002"
+      },
+      {
+        "id": "src.google.gemini-api-changelog",
+        "locator": "September 29, 2025"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "google.gemini-2-5-flash-lite",
+    "sources": [
+      {
+        "id": "src.google.agent-platform-model-versions",
+        "locator": "Retired models: gemini-1.5-flash-002"
+      }
+    ],
+    "note": "Recommended upgrade as listed on the Agent Platform model versions page when checked on 2026-10-01."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-09-24",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement"
+        },
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "September 24, 2024"
+        },
+        {
+          "id": "src.google.agent-platform-model-versions",
+          "locator": "Retired models: gemini-1.5-flash-002"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": {
+      "value": "2025-09-24",
+      "sources": [
+        {
+          "id": "src.google.agent-platform-model-versions",
+          "locator": "Retired models: gemini-1.5-flash-002"
+        }
+      ],
+      "note": "Retirement date of gemini-1.5-flash-002 on Google Cloud (Agent Platform, formerly Vertex AI).",
+      "alternatives": [
+        {
+          "value": "2025-09-29",
+          "sources": [
+            {
+              "id": "src.google.gemini-api-changelog",
+              "locator": "September 29, 2025"
+            }
+          ],
+          "note": "Shutdown of the gemini-1.5-flash model id on the Gemini API, which pointed to this version from 2024-11-21."
+        }
+      ]
+    }
+  },
+  "milestones": [
+    {
+      "id": "default-alias",
+      "label": "gemini-1.5-flash model id points to this version",
+      "date": {
+        "value": "2024-11-21",
+        "sources": [
+          {
+            "id": "src.google.gemini-api-changelog",
+            "locator": "November 21, 2024"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "google.gemini-1-5-flash",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement",
+          "locator": "first paragraphs"
+        },
+        {
+          "id": "src.google.gemini-api-changelog",
+          "locator": "September 24, 2024"
+        }
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "text": "Gemini-1.5-Flash-002 is an updated, production-ready version of Google's Gemini 1.5 Flash, released with Gemini-1.5-Pro-002 through Google AI Studio, the Gemini API and Vertex AI. Google says it builds on recent experimental releases; from November 2024 the gemini-1.5-flash model id in the Gemini API pointed to this version.",
+    "sources": [
+      {
+        "id": "src.google.gemini-1-5-002-models-announcement"
+      },
+      {
+        "id": "src.google.gemini-api-changelog",
+        "locator": "November 21, 2024"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "concise",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-flash",
+      "text": "Gives more concise answers by default, which Google says makes the model easier and cheaper to use.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement"
+        }
+      ]
+    },
+    {
+      "id": "safety-filters",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-flash",
+      "text": "Safety filters are no longer applied by default; developers choose the configuration.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement"
+        }
+      ]
+    },
+    {
+      "id": "latency",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-flash",
+      "text": "Google reports lower latency and faster output for 1.5 Flash, reached in the weeks before the release.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement"
+        }
+      ]
+    },
+    {
+      "id": "quality",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "google.gemini-1-5-flash",
+      "text": "Google reports quality improvements for the -002 models, notably in math, long context and vision.",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Google."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.gemini-1-5-002-models-announcement",
+          "locator": "first paragraphs"
+        }
+      ],
+      "note": "Gemini API through Google AI Studio and Vertex AI."
+    }
+  },
+  "notes": "Name as written in the announcement (Gemini-1.5-Flash-002). The release notes say gemini-1.5-flash-latest pointed to this version from 2024-09-24 and gemini-1.5-flash from 2024-11-21. The announcement says the update builds on the experimental releases of the preceding weeks (gemini-1.5-flash-exp-0827 in the release notes, kept as a candidate alias). Input modalities and context window are not restated in the -002 sources, so they are left out; see google.gemini-1-5-flash. No deprecation announcement date was found in live sources."
+}

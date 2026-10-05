@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft.phi-4-multimodal",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "phi-4-multimodal",
+  "name": "Phi-4-multimodal",
+  "aliases": [
+    {
+      "text": "Phi-4-multimodal",
+      "match": "auto"
+    },
+    {
+      "text": "Phi-4-multimodal-instruct",
+      "match": "auto"
+    },
+    {
+      "text": "Phi-4 Multimodal",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "microsoft",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "microsoft.phi-multimodal",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+        "locator": "weights and licence (MIT)"
+      },
+      {
+        "id": "src.microsoft.foundry-model-retirement-schedule",
+        "locator": "Foundry Models from partners and community, Microsoft: Phi-4-multimodal-instruct, GA, no retirement date"
+      }
+    ],
+    "note": "Weights remain downloadable from Microsoft's Hugging Face organisation; Microsoft Foundry lists the model as GA without a retirement date (checked 2026-10-01)."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02-26",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-multimodal-announcement",
+          "locator": "page date and first paragraph"
+        },
+        {
+          "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+          "locator": "Training, Model: Release date February 2025"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "microsoft.phi-4-mini",
+      "method": "adapter",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+          "locator": "Training, Model: Architecture"
+        },
+        {
+          "id": "src.microsoft.phi-4-mini-technical-report",
+          "locator": "Abstract; vision and speech/audio modality sections"
+        }
+      ],
+      "note": "Uses the pretrained Phi-4-mini-instruct language model as backbone, kept frozen, with added vision and speech encoders, projectors and modality-specific LoRA adapters (mixture of LoRAs)."
+    },
+    {
+      "type": "successor-of",
+      "target": "microsoft.phi-3-5-vision",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+          "locator": "Release Notes"
+        }
+      ],
+      "note": "Editorial link along the Phi multimodal line: the model card presents the release as a response to Phi-3 series feedback, where users had to chain a speech recognition model with the Mini and Vision models, but names no direct predecessor. Phi-3.5-vision was the latest Phi vision model before it."
+    }
+  ],
+  "summary": {
+    "text": "Phi-4-multimodal is a 5.6-billion-parameter model in Microsoft's Phi family that accepts text, image and audio input and produces text, released on 26 February 2025 with Phi-4-mini. It handles all three modalities in one model through a mixture of LoRAs on a Phi-4-mini backbone, and was offered in Azure AI Foundry, the NVIDIA API Catalog and as MIT-licensed open weights.",
+    "sources": [
+      {
+        "id": "src.microsoft.phi-4-mini-multimodal-announcement"
+      },
+      {
+        "id": "src.microsoft.phi-4-multimodal-instruct-model-card"
+      },
+      {
+        "id": "src.microsoft.phi-4-mini-technical-report"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "vision-speech-on-mini",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "microsoft.phi-4-mini",
+      "text": "Adds image and audio input to the Phi-4-mini language model, which stays frozen, through vision and speech encoders with LoRA adapters.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+          "locator": "Training, Model: Architecture"
+        },
+        {
+          "id": "src.microsoft.phi-4-mini-technical-report"
+        }
+      ]
+    },
+    {
+      "id": "speech-input",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "microsoft.phi-3-5-vision",
+      "text": "Adds speech and audio input; with the Phi-3 series, users had to put a separate speech recognition model in front of the Vision model.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+          "locator": "Release Notes"
+        }
+      ]
+    },
+    {
+      "id": "single-model",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "microsoft.phi-3-5-vision",
+      "text": "Processes text, vision and speech in a single model with a mixture of LoRAs, without separate pipelines per modality.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-multimodal-announcement"
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "aspect": "languages",
+      "direction": "changed",
+      "relativeTo": "microsoft.phi-3-5-vision",
+      "text": "Uses a larger vocabulary for multilingual support, with text input in 23 languages; vision input is English only.",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+          "locator": "Model Summary"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "audio"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+          "locator": "Model Summary; Training, Model: Inputs"
+        },
+        {
+          "id": "src.microsoft.phi-4-mini-multimodal-announcement",
+          "locator": "Natively built for multimodal experiences"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+          "locator": "Model Summary; Training, Model: Outputs"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+            "locator": "Primary Use Cases: Function and tool calling"
+          }
+        ]
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+            "locator": "Model Summary: supported languages per modality"
+          }
+        ],
+        "note": "Text in 23 languages, vision in English, audio in 8 languages according to the model card."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+          "locator": "Model Summary; Training, Model: Context length"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 5600000000,
+      "asStated": "5.6B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-multimodal-announcement",
+          "locator": "What is Phi-4-multimodal?"
+        },
+        {
+          "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+          "locator": "Training, Model: Architecture"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-multimodal-instruct-model-card",
+          "locator": "licence: MIT"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.microsoft.phi-4-mini-multimodal-announcement",
+          "locator": "first paragraph; Learn more about Phi-4"
+        }
+      ],
+      "note": "At launch: Azure AI Foundry (api), Hugging Face (open-weights-download) and the NVIDIA API Catalog (cloud-partner)."
+    }
+  },
+  "notes": "Announced and released together with Phi-4-mini. The announcement calls it Microsoft's first multimodal language model; the Phi product page says more precisely that it is the first Phi model that supports text, audio and vision inputs. The successor-of link to Phi-3.5-vision is editorial; on Microsoft Foundry the suggested replacement for the retired Phi-3.5-vision-instruct is Phi-4-mini-instruct, not this model. The vision encoder is based on SigLIP-400M (technical report), a model from another organisation; that link is not recorded here."
+}

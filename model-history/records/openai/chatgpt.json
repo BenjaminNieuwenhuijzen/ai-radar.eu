@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.chatgpt",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "chatgpt",
+  "name": "ChatGPT",
+  "aliases": [
+    {
+      "text": "ChatGPT",
+      "match": "never"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt",
+  "generation": "3.5",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "Launched as a free research preview; OpenAI publishes no retirement date for the original November 2022 model, which had no API id, and the ChatGPT product has since moved to other models."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2022-11-30",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-announcement",
+          "locator": "page date; third paragraph"
+        }
+      ],
+      "note": "Released as a free research preview."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "openai.gpt-3-5",
+      "method": "fine-tune",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-announcement",
+          "locator": "Methods"
+        }
+      ],
+      "note": "OpenAI says ChatGPT is fine-tuned from a model in the GPT-3.5 series, using RLHF with the same methods as InstructGPT."
+    }
+  ],
+  "summary": {
+    "text": "ChatGPT is a conversational language model from OpenAI, fine-tuned from a model in the GPT-3.5 series and offered from 30 November 2022 as a free research preview. OpenAI calls it a sibling model to InstructGPT and says it can answer follow-up questions, admit its mistakes, challenge incorrect premises and reject inappropriate requests.",
+    "sources": [
+      {
+        "id": "src.openai.chatgpt-announcement"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "dialogue-training",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-3-5",
+      "text": "Trained for dialogue: human trainers wrote conversations playing both user and assistant, mixed with the InstructGPT dataset converted to dialogue format.",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-announcement"
+        }
+      ]
+    },
+    {
+      "id": "research-preview",
+      "aspect": "availability",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-3-5",
+      "text": "Offered as a free research preview on the web instead of through the API.",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-announcement"
+        }
+      ]
+    },
+    {
+      "id": "safety-mitigations",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-3-5",
+      "text": "OpenAI says lessons from deploying GPT-3 and Codex informed its safety mitigations, including reductions in harmful and untruthful outputs through RLHF.",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.chatgpt-announcement",
+          "locator": "third paragraph"
+        }
+      ],
+      "note": "Free web research preview at launch."
+    }
+  },
+  "notes": "The record is the model OpenAI introduced on 2022-11-30, not the ChatGPT product as a whole; the alias ChatGPT is set to never because the product name covers many later models. OpenAI calls it a sibling model to InstructGPT. Prominence milestone is editorial: it opens the ChatGPT model line."
+}

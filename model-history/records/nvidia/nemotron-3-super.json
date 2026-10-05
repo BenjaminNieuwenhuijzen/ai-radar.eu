@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "id": "nvidia.nemotron-3-super",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "nemotron-3-super",
+  "name": "Nemotron 3 Super",
+  "aliases": [
+    {
+      "text": "Nemotron 3 Super",
+      "match": "auto"
+    },
+    {
+      "text": "NVIDIA Nemotron 3 Super",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron-3-Super",
+      "match": "auto"
+    },
+    {
+      "text": "Nemotron 3 Super 120B-A12B",
+      "match": "auto"
+    },
+    {
+      "text": "nemotron-3-super-120b-a12b",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "nvidia",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "nvidia.nemotron-super",
+  "generation": "3",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card"
+      }
+    ],
+    "note": "NVIDIA has no deprecation page for its open models; the weights were still downloadable from the NVIDIA organisation on Hugging Face on 2026-10-01."
+  },
+  "dates": {
+    "announced": {
+      "value": "2025-12-15",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-family-press-release"
+        }
+      ],
+      "note": "Announced with the Nemotron 3 family, then described as about 100B parameters with up to 10B active and expected in the first half of 2026."
+    },
+    "released": {
+      "value": "2026-03-11",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-blog"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card",
+          "locator": "Model Summary: Release Date; Release Date"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2026-03-10",
+          "sources": [
+            {
+              "id": "src.nvidia.nemotron-3-super-research-page",
+              "locator": "Published"
+            }
+          ],
+          "note": "Publication date shown on the NVIDIA Nemotron research page; the launch post and the model card give March 11, 2026."
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "nvidia.llama-3-3-nemotron-super-49b-v1-5",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-blog",
+          "locator": "Hybrid Architecture"
+        }
+      ],
+      "note": "Editorial link along the Super tier: the launch post compares the model with the previous Nemotron Super model without naming a version; Llama-3.3-Nemotron-Super-49B-v1.5 was the most recent Super release before it."
+    }
+  ],
+  "summary": {
+    "text": "Nemotron 3 Super is an open-weights reasoning language model in NVIDIA's Nemotron 3 family, with 120B total and 12B active parameters, a hybrid Mamba-Transformer mixture-of-experts design and a context window of up to 1M tokens. NVIDIA designed it for agentic systems and offered it as a download, on build.nvidia.com and through cloud partners.",
+    "sources": [
+      {
+        "id": "src.nvidia.nemotron-3-super-blog"
+      },
+      {
+        "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card",
+        "locator": "Model Summary"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "hybrid-latent-moe",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "nvidia.llama-3-3-nemotron-super-49b-v1-5",
+      "text": "Uses a hybrid Mamba-Transformer latent mixture-of-experts design with multi-token prediction, activating 12B of its 120B parameters per token.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-blog",
+          "locator": "Hybrid Architecture"
+        }
+      ]
+    },
+    {
+      "id": "context-1m",
+      "aspect": "context-length",
+      "relativeTo": "nvidia.llama-3-3-nemotron-super-49b-v1-5",
+      "text": "Supports a context window of up to 1M tokens.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card",
+          "locator": "Model Summary: Context Length"
+        }
+      ]
+    },
+    {
+      "id": "throughput-nvfp4",
+      "aspect": "efficiency",
+      "relativeTo": "nvidia.llama-3-3-nemotron-super-49b-v1-5",
+      "text": "NVIDIA reports higher throughput than the previous Nemotron Super model and says the model runs in NVFP4 precision on Blackwell GPUs.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-blog"
+        }
+      ]
+    },
+    {
+      "id": "open-training-data",
+      "aspect": "training-data",
+      "direction": "added",
+      "relativeTo": "nvidia.llama-3-3-nemotron-super-49b-v1-5",
+      "text": "NVIDIA published over 10 trillion tokens of pre- and post-training data and 15 reinforcement learning environments with the model.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-blog",
+          "locator": "Open Weights, Data and Recipes"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card",
+          "locator": "Input"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card",
+          "locator": "Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card",
+            "locator": "Model Summary: Reasoning Mode"
+          }
+        ],
+        "note": "Reasoning can be switched on or off through the chat template."
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-super-blog",
+            "locator": "Use in Agentic Systems"
+          },
+          {
+            "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card",
+            "locator": "Model Summary: Best For"
+          }
+        ]
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card",
+            "locator": "Model Summary: Supported Languages"
+          }
+        ],
+        "note": "English, French, German, Italian, Japanese, Spanish and Chinese."
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-blog",
+          "locator": "Open Weights, Data and Recipes"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card",
+          "locator": "License/Terms of Use"
+        }
+      ],
+      "note": "The launch post calls the licence permissive; the model card names the NVIDIA Nemotron Open Model License."
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card",
+          "locator": "Model Summary: Context Length"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-super-blog"
+        }
+      ],
+      "note": "Stated as up to 1M tokens."
+    },
+    "parameters": {
+      "value": 120000000000,
+      "asStated": "120B (12B active)",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card",
+          "locator": "Model Summary: Total Parameters"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-super-blog"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-blog",
+          "locator": "Availability"
+        }
+      ],
+      "note": "At launch: Hugging Face, build.nvidia.com, Perplexity and OpenRouter, Google Cloud Vertex AI and Oracle Cloud Infrastructure, and an NVIDIA NIM microservice; Amazon Bedrock and Microsoft Azure were announced as coming soon."
+    }
+  },
+  "variants": [
+    {
+      "id": "120b-a12b",
+      "name": "Nemotron 3 Super 120B-A12B",
+      "aliases": [
+        {
+          "text": "NVIDIA-Nemotron-3-Super-120B-A12B-BF16",
+          "match": "auto"
+        },
+        {
+          "text": "NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+          "match": "auto"
+        },
+        {
+          "text": "NVIDIA-Nemotron-3-Super-120B-A12B-NVFP4",
+          "match": "auto"
+        }
+      ],
+      "note": "Post-trained model, published in BF16 and as FP8 and NVFP4 quantized checkpoints.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-research-page",
+          "locator": "Open Source: Checkpoints"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card"
+        }
+      ]
+    },
+    {
+      "id": "120b-a12b-base",
+      "name": "Nemotron 3 Super 120B-A12B Base",
+      "aliases": [
+        {
+          "text": "NVIDIA-Nemotron-3-Super-120B-A12B-Base-BF16",
+          "match": "auto"
+        }
+      ],
+      "note": "Pre-trained base checkpoint.",
+      "sources": [
+        {
+          "id": "src.nvidia.nemotron-3-super-research-page",
+          "locator": "Open Source: Checkpoints"
+        },
+        {
+          "id": "src.nvidia.nemotron-3-super-120b-a12b-bf16-model-card",
+          "locator": "Training Methodology: Stage 1"
+        }
+      ]
+    }
+  ],
+  "notes": "NVIDIA writes the name with its company prefix (NVIDIA Nemotron 3 Super); the record name leaves it out. The API id nemotron-3-super-120b-a12b is the build.nvidia.com model path linked from the model card. Release date: the launch post and the model card say March 11, 2026; the research page shows March 10, 2026 (kept as an alternative); the Hugging Face repositories were created on 2026-03-10. The released size (120B total, 12B active) differs from the approximate size in the December 2025 announcement (about 100B, up to 10B active). The research page also lists Qwen3-Nemotron-235B-A22B-GenRM-2603 as the reward model used for RLHF; it is not a variant. A separate MTPv2 speculative decoding checkpoint (Nemotron-3-Super-120B-A12B-BF16-MTPv2) is not recorded as a variant. Technical report: https://research.nvidia.com/labs/nemotron/files/NVIDIA-Nemotron-3-Super-Technical-Report.pdf."
+}

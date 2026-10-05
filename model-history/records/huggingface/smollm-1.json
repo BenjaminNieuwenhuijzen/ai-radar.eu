@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "huggingface.smollm-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "smollm-1",
+  "name": "SmolLM",
+  "aliases": [
+    {
+      "text": "SmolLM",
+      "match": "candidate"
+    },
+    {
+      "text": "SmolLM1",
+      "match": "auto"
+    },
+    {
+      "text": "SmolLM-Instruct",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "huggingface",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "huggingface.smollm",
+  "generation": "1",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.huggingface.smollm-1-7b-model-card",
+        "locator": "model repository (weights hosted on the Hub)"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-07-16",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm-announcement",
+          "locator": "page date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "instruct-v0-2",
+      "label": "SmolLM-Instruct v0.2 released",
+      "date": {
+        "value": "2024-08-18",
+        "sources": [
+          {
+            "id": "src.huggingface.alignment-handbook",
+            "locator": "README, News: August 18, 2024"
+          },
+          {
+            "id": "src.huggingface.smollm-1-7b-instruct-model-card",
+            "locator": "Changelog, v0.2"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "text": "SmolLM is a family of small open-weight language models from Hugging Face in 135M, 360M and 1.7B sizes, each released as a base and an instruction-tuned checkpoint under Apache 2.0. Hugging Face trained them on its SmolLM-Corpus and presents them as small enough to run locally on devices from smartphones to laptops.",
+    "sources": [
+      {
+        "id": "src.huggingface.smollm-announcement"
+      },
+      {
+        "id": "src.huggingface.smollm-1-7b-model-card"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm-1-7b-model-card",
+          "locator": "Model Summary; Limitations"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm-1-7b-model-card",
+          "locator": "Model Summary; Limitations"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm-1-7b-model-card",
+          "locator": "License: Apache 2.0"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 2048,
+      "asStated": "2048 tokens",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm-announcement",
+          "locator": "Training: Hyperparameters choice"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download",
+        "on-device"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.huggingface.smollm-announcement",
+          "locator": "How to run locally"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "smollm-135m",
+      "name": "SmolLM-135M",
+      "aliases": [
+        {
+          "text": "SmolLM-135M",
+          "match": "auto"
+        },
+        {
+          "text": "SmolLM-135M-Instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 135000000,
+          "asStated": "135M",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smollm-announcement",
+              "locator": "TL;DR"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.huggingface.smollm-announcement",
+          "locator": "TL;DR; Training"
+        }
+      ],
+      "note": "Trained on 600B tokens; architecture modelled on MobileLLM with grouped-query attention, per the blog."
+    },
+    {
+      "id": "smollm-360m",
+      "name": "SmolLM-360M",
+      "aliases": [
+        {
+          "text": "SmolLM-360M",
+          "match": "auto"
+        },
+        {
+          "text": "SmolLM-360M-Instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 360000000,
+          "asStated": "360M",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smollm-announcement",
+              "locator": "TL;DR"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.huggingface.smollm-announcement",
+          "locator": "TL;DR; Training"
+        }
+      ],
+      "note": "Trained on 600B tokens; architecture modelled on MobileLLM with grouped-query attention, per the blog."
+    },
+    {
+      "id": "smollm-1-7b",
+      "name": "SmolLM-1.7B",
+      "aliases": [
+        {
+          "text": "SmolLM-1.7B",
+          "match": "auto"
+        },
+        {
+          "text": "SmolLM-1.7B-Instruct",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 1700000000,
+          "asStated": "1.7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.huggingface.smollm-announcement",
+              "locator": "TL;DR"
+            },
+            {
+              "id": "src.huggingface.smollm-1-7b-model-card",
+              "locator": "Model Summary"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "src.huggingface.smollm-announcement",
+          "locator": "TL;DR; Training"
+        },
+        {
+          "id": "src.huggingface.smollm-1-7b-model-card",
+          "locator": "Training"
+        }
+      ],
+      "note": "Trained on 1T tokens with a more conventional architecture than the two smaller sizes, per the blog."
+    }
+  ],
+  "notes": "Released in three sizes (135M, 360M, 1.7B), each as a base and an Instruct checkpoint; the Hub repositories were created on 2024-07-14 and 2024-07-15, the blog is dated 2024-07-16. The Instruct checkpoints were updated in place to v0.2 on 2024-08-18 (alignment handbook News, card changelog); v0.1 stays available as revision v0.1, so the update has no record of its own. Trained from scratch on SmolLM-Corpus, no base model. The id carries -1 because huggingface.smollm is the family id."
+}

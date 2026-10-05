@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "google.lamda-1",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "lamda-1",
+  "name": "LaMDA",
+  "aliases": [
+    {
+      "text": "LaMDA",
+      "match": "candidate"
+    },
+    {
+      "text": "Language Model for Dialogue Applications",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.lamda",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.google.bard-io-2023",
+        "locator": "second paragraph"
+      }
+    ],
+    "note": "No formal retirement notice. Bard, the only public way to use LaMDA, was moved to PaLM 2 by 2023-05-10 according to the source."
+  },
+  "dates": {
+    "announced": {
+      "value": "2021-05-18",
+      "sources": [
+        {
+          "id": "src.google.lamda-announcement"
+        }
+      ]
+    },
+    "released": null,
+    "deprecated": null,
+    "retired": null,
+    "note": "No release date recorded: Google presented LaMDA as research in 2021; the public could use it only through Bard (see milestones)."
+  },
+  "milestones": [
+    {
+      "id": "research-paper",
+      "label": "Research paper and Google Research blog post",
+      "date": {
+        "value": "2022-01-21",
+        "sources": [
+          {
+            "id": "src.google.lamda-research-blog"
+          }
+        ],
+        "note": "The first arXiv version of the paper is dated 2022-01-20."
+      }
+    },
+    {
+      "id": "bard-trusted-testers",
+      "label": "Bard, on a lightweight LaMDA, opened to trusted testers",
+      "date": {
+        "value": "2023-02-06",
+        "sources": [
+          {
+            "id": "src.google.bard-announcement",
+            "locator": "Introducing Bard"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bard-public",
+      "label": "Public sign-ups for Bard, on a lightweight LaMDA, in the US and UK",
+      "date": {
+        "value": "2023-03-21",
+        "sources": [
+          {
+            "id": "src.google.try-bard",
+            "locator": "About Bard; Sign up to try Bard"
+          }
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "text": "LaMDA (Language Model for Dialogue Applications) is a Google research language model trained on dialogue, announced in May 2021; its main version has 137 billion parameters. The public could use it only through Bard, which ran on a lightweight version of LaMDA from its February 2023 trusted-tester launch until Google moved Bard to PaLM 2 in May 2023.",
+    "sources": [
+      {
+        "id": "src.google.lamda-announcement"
+      },
+      {
+        "id": "src.google.lamda-paper"
+      },
+      {
+        "id": "src.google.bard-announcement"
+      },
+      {
+        "id": "src.google.try-bard"
+      },
+      {
+        "id": "src.google.bard-io-2023"
+      }
+    ]
+  },
+  "capabilities": {
+    "parameters": {
+      "value": 137000000000,
+      "asStated": "137B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.lamda-paper",
+          "locator": "Abstract; section 3"
+        }
+      ],
+      "note": "The main LaMDA model has 137B non-embedding parameters; the paper also trained 2B and 8B models to study scaling. Google did not state the size of the lightweight version used in Bard."
+    },
+    "access": {
+      "value": [
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.google.bard-announcement",
+          "locator": "Introducing Bard"
+        },
+        {
+          "id": "src.google.try-bard",
+          "locator": "About Bard"
+        }
+      ],
+      "note": "Only through Bard, as a lightweight version of LaMDA."
+    }
+  },
+  "notes": "Google never gave the first version a number; its successor was announced as LaMDA 2 (google.lamda-2). The Bard posts call the model a lightweight model version of LaMDA without naming a version; the March 2023 post links the 2021 LaMDA announcement, so the Bard dates are kept here as milestones. In February 2023 Google also said its Generative Language API would initially be powered by LaMDA; no source confirms a LaMDA-based API release. No predecessor relation recorded."
+}

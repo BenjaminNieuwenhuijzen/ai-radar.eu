@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-nemo",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "mistral-nemo",
+  "name": "Mistral NeMo",
+  "aliases": [
+    {
+      "text": "Mistral NeMo",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral NeMo 12B",
+      "match": "auto"
+    },
+    {
+      "text": "open-mistral-nemo-2407",
+      "match": "auto"
+    },
+    {
+      "text": "open-mistral-nemo",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Nemo-Instruct-2407",
+      "match": "auto"
+    },
+    {
+      "text": "Mistral-Nemo-Base-2407",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    },
+    {
+      "id": "nvidia",
+      "role": "co-developer"
+    }
+  ],
+  "familyId": "mistral.mistral",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.mistral.hf-mistral-nemo-instruct-2407"
+      },
+      {
+        "id": "src.mistral.hf-mistral-nemo-base-2407"
+      },
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Mistral Nemo 12B"
+      }
+    ],
+    "note": "Apache 2.0 weights remain downloadable from the mistralai Hugging Face organisation; the API endpoint open-mistral-nemo-2407 was deprecated on 2026-05-22 and retired on 2026-07-31."
+  },
+  "replacedBy": {
+    "modelId": "mistral.ministral-3",
+    "sources": [
+      {
+        "id": "src.mistral.models-overview",
+        "locator": "Deprecated & retired models table, row Mistral Nemo 12B, Alternative"
+      },
+      {
+        "id": "src.mistral.docs-mistral-nemo-12b-24-07",
+        "locator": "Replacement"
+      }
+    ],
+    "note": "Mistral names Ministral 3 8B, a variant of the Ministral 3 record."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-07-18",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-nemo-announcement",
+          "locator": "page date; first paragraph"
+        },
+        {
+          "id": "src.mistral.changelog",
+          "locator": "July 18, 2024"
+        },
+        {
+          "id": "src.mistral.docs-mistral-nemo-12b-24-07",
+          "locator": "release date"
+        },
+        {
+          "id": "src.nvidia.mistral-nemo-12b-announcement",
+          "locator": "first paragraph"
+        }
+      ]
+    },
+    "deprecated": {
+      "value": "2026-05-22",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Mistral Nemo 12B"
+        },
+        {
+          "id": "src.mistral.docs-mistral-nemo-12b-24-07",
+          "locator": "Deprecation date"
+        }
+      ]
+    },
+    "retired": {
+      "value": "2026-07-31",
+      "sources": [
+        {
+          "id": "src.mistral.models-overview",
+          "locator": "Deprecated & retired models table, row Mistral Nemo 12B"
+        }
+      ]
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "mistral.mistral-7b-v0-3",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-nemo-announcement",
+          "locator": "first paragraph; Instruction fine-tuning"
+        },
+        {
+          "id": "src.mistral.hf-mistral-nemo-base-2407",
+          "locator": "Key features"
+        }
+      ],
+      "note": "Mistral presents Mistral NeMo as a drop-in replacement for Mistral 7B and compares the two, without naming a Mistral 7B version; linking to v0.3, the Mistral 7B version current on la Plateforme at the time, is an editorial choice."
+    }
+  ],
+  "summary": {
+    "text": "Mistral NeMo is a 12B-parameter language model that Mistral AI built with NVIDIA, released with base and instruct weights under Apache 2.0 and offered on la Plateforme and as an NVIDIA NIM. It has a 128k-token context window, introduced the Tekken tokenizer, and Mistral presents it as a drop-in replacement for Mistral 7B.",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-nemo-announcement"
+      },
+      {
+        "id": "src.nvidia.mistral-nemo-12b-announcement"
+      },
+      {
+        "id": "src.mistral.hf-mistral-nemo-base-2407"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "parameters",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "mistral.mistral-7b-v0-3",
+      "text": "Has 12B parameters, up from 7B in Mistral 7B, while keeping a standard architecture that Mistral says lets it replace Mistral 7B as a drop-in.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-nemo-announcement"
+        }
+      ]
+    },
+    {
+      "id": "tekken-tokenizer",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-7b-v0-3",
+      "text": "Uses a new tokenizer, Tekken, based on Tiktoken, in place of the SentencePiece tokenizer of earlier Mistral models.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-nemo-announcement"
+        }
+      ]
+    },
+    {
+      "id": "fp8-inference",
+      "aspect": "efficiency",
+      "direction": "added",
+      "relativeTo": "mistral.mistral-7b-v0-3",
+      "text": "Trained with quantisation awareness to allow FP8 inference, which Mistral says comes without a loss in performance.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-nemo-announcement"
+        }
+      ]
+    },
+    {
+      "id": "multilingual",
+      "aspect": "languages",
+      "direction": "changed",
+      "relativeTo": "mistral.mistral-7b-v0-3",
+      "text": "Designed for multilingual use; Mistral names eleven languages, among them Chinese, Japanese, Korean, Arabic and Hindi.",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-nemo-announcement"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mistral-nemo-12b-24-07",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.docs-mistral-nemo-12b-24-07",
+          "locator": "Modalities"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "function-calling",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mistral-nemo-announcement",
+            "locator": "Multilingual Model for the Masses"
+          },
+          {
+            "id": "src.mistral.docs-mistral-nemo-12b-24-07",
+            "locator": "Features"
+          }
+        ]
+      },
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.mistral.mistral-nemo-announcement",
+            "locator": "Multilingual Model for the Masses"
+          }
+        ]
+      }
+    ],
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-nemo-announcement",
+          "locator": "second paragraph; Links"
+        },
+        {
+          "id": "src.mistral.hf-mistral-nemo-instruct-2407"
+        },
+        {
+          "id": "src.mistral.hf-mistral-nemo-base-2407"
+        }
+      ],
+      "note": "Base and instruct checkpoints under Apache 2.0."
+    },
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-nemo-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.docs-mistral-nemo-12b-24-07",
+          "locator": "Context"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 12000000000,
+      "asStated": "12B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-nemo-announcement",
+          "locator": "first paragraph"
+        },
+        {
+          "id": "src.mistral.docs-mistral-nemo-12b-24-07",
+          "locator": "Weights table"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-nemo-announcement",
+          "locator": "Links"
+        }
+      ]
+    }
+  },
+  "notes": "Name at release Mistral NeMo (the announcement also writes Mistral NeMO); the docs and changelog now write Mistral Nemo and Mistral Nemo 12B. Built in collaboration with NVIDIA (co-developer; NVIDIA's own post is src.nvidia.mistral-nemo-12b-announcement, which belongs in sources/nvidia.json). Also packaged as an NVIDIA NIM microservice on ai.nvidia.com, not recorded as cloud-partner access. The docs status badge still says Deprecated after the 2026-07-31 retirement given in the overview table."
+}

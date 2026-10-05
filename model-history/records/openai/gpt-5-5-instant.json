@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-5-5-instant",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "gpt-5-5-instant",
+  "name": "GPT-5.5 Instant",
+  "aliases": [
+    {
+      "text": "GPT-5.5 Instant",
+      "match": "auto"
+    },
+    {
+      "text": "gpt-5.5-instant",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-instant",
+  "generation": "5.5",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [
+      {
+        "id": "src.openai.improving-gpt-5-6-sol-in-chatgpt",
+        "locator": "Safety and availability"
+      },
+      {
+        "id": "src.openai.chatgpt-release-notes",
+        "locator": "August 6, 2026: Updates to GPT-5.6 in ChatGPT"
+      },
+      {
+        "id": "src.openai.api-deprecations"
+      }
+    ],
+    "note": "Never offered under its own API id: it was served through the moving alias chat-latest, which is not deprecated. On 2026-08-06 OpenAI said GPT-5.6 Luna would become the default for Free and Go users that week and that GPT-5.6 Sol now powers Instant responses for Plus and Pro users; no source states whether GPT-5.5 Instant is still selectable or retired."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-05-05",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-5-instant",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.openai.chatgpt-release-notes",
+          "locator": "May 5, 2026: GPT-5.5 Instant in ChatGPT"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "May 5 (2026)"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "openai.gpt-5-3-instant",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-5-instant",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.openai.gpt-5-5-instant-system-card",
+          "locator": "Introduction"
+        }
+      ],
+      "note": "Replaced GPT-5.3 Instant as the ChatGPT default; the system card notes there is no GPT-5.4 Instant, so GPT-5.3 Instant is the baseline."
+    }
+  ],
+  "summary": {
+    "text": "GPT-5.5 Instant is the Instant model of OpenAI's GPT-5.5 generation, released on 5 May 2026 as the default ChatGPT model for all users and offered in the API through the chat-latest alias. OpenAI says it gives more factually reliable and more concise answers than GPT-5.3 Instant and makes better use of past chats, files and Gmail to personalise answers.",
+    "sources": [
+      {
+        "id": "src.openai.gpt-5-5-instant"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "fewer-hallucinations",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-3-instant",
+      "text": "OpenAI reports fewer hallucinated and inaccurate claims than GPT-5.3 Instant in its internal evaluations.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-5-instant"
+        }
+      ]
+    },
+    {
+      "id": "concise-answers",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-3-instant",
+      "text": "OpenAI describes shorter, more direct answers with fewer follow-up questions, less formatting and fewer emojis.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-5-instant"
+        }
+      ]
+    },
+    {
+      "id": "personalisation",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-3-instant",
+      "text": "Makes better use of context from past chats, files and a connected Gmail account to personalise answers, first for Plus and Pro users on the web.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-5-instant"
+        }
+      ]
+    },
+    {
+      "id": "high-capability-safeguards",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "openai.gpt-5-3-instant",
+      "text": "First Instant model that OpenAI treats as High capability in cybersecurity and in biological and chemical risk, deployed with matching safeguards.",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-5-instant-system-card",
+          "locator": "Introduction"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-5-instant",
+          "locator": "Smarter, more accurate answers"
+        },
+        {
+          "id": "src.openai.chatgpt-release-notes",
+          "locator": "May 5, 2026: GPT-5.5 Instant in ChatGPT"
+        }
+      ],
+      "note": "OpenAI describes improved analysis of photo and image uploads."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by OpenAI."
+    },
+    "access": {
+      "value": [
+        "consumer-app",
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.openai.gpt-5-5-instant",
+          "locator": "Availability"
+        },
+        {
+          "id": "src.openai.api-changelog",
+          "locator": "May 5 (2026)"
+        }
+      ],
+      "note": "In the API only through the chat-latest alias."
+    }
+  },
+  "notes": "Instant model of the GPT-5.5 generation; GPT-5.5 Thinking is the GPT-5.5 record. Updated in ChatGPT and the API on 2026-05-28 and in ChatGPT on 2026-06-24 (release notes); the chat-latest alias was refreshed on 2026-05-28 (changelog). Context window not stated for the model itself: the chat-latest docs page describes whatever model the alias currently points to, so it is left out. GPT-5.5 Instant Mini (a ChatGPT rate-limit fallback, 2026-07-06) is out of scope."
+}

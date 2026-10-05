@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "deepseek.deepseek-r1-lite-preview",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "deepseek-r1-lite-preview",
+  "name": "DeepSeek-R1-Lite-Preview",
+  "aliases": [
+    {
+      "text": "DeepSeek-R1-Lite-Preview",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek R1 Lite Preview",
+      "match": "auto"
+    },
+    {
+      "text": "DeepSeek-R1-Lite",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "deepseek",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "deepseek.deepseek-r",
+  "generation": "1",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-r1-lite-preview-announcement"
+      }
+    ],
+    "note": "Offered only in the DeepSeek web chat at launch. DeepSeek promised open-source models and an API, but published nothing under this name and no withdrawal notice, so the current status is unknown."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-11-20",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-lite-preview-announcement",
+          "locator": "news sidebar: DeepSeek-R1-Lite Release 2024/11/20"
+        },
+        {
+          "id": "src.deepseek.deepseek-r1-lite-preview-news",
+          "locator": "page date"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "DeepSeek-R1-Lite-Preview is a preview of a DeepSeek reasoning model that went live in the DeepSeek web chat on 20 November 2024. DeepSeek highlighted that it shows its thought process in real time and said open-source models and an API would follow.",
+    "sources": [
+      {
+        "id": "src.deepseek.deepseek-r1-lite-preview-announcement"
+      }
+    ]
+  },
+  "capabilities": {
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by DeepSeek."
+    },
+    "access": {
+      "value": [
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.deepseek.deepseek-r1-lite-preview-announcement",
+          "locator": "Try it now at chat.deepseek.com"
+        }
+      ],
+      "note": "Web chat only at launch; DeepSeek said open-source models and an API would come later."
+    }
+  },
+  "notes": "No relation: DeepSeek's first public reasoning preview, before DeepSeek-R1. openWeights is left out because no weights were published under this name and no source states false. The news sidebar labels the page DeepSeek-R1-Lite Release."
+}

@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "id": "cohere.tiny-aya",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "tiny-aya",
+  "name": "Tiny Aya",
+  "aliases": [
+    {
+      "text": "Tiny Aya",
+      "match": "auto"
+    },
+    {
+      "text": "TinyAya",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "cohere",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "cohere.aya",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.cohere.models-overview",
+        "locator": "Aya table: tiny-aya-global, -earth, -fire, -water, Status Live"
+      },
+      {
+        "id": "src.cohere.tiny-aya-docs",
+        "locator": "How Can I Access Tiny Aya?"
+      },
+      {
+        "id": "src.cohere.tiny-aya-hf-collection"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-02-17",
+      "sources": [
+        {
+          "id": "src.cohere.tiny-aya-blog",
+          "locator": "page date; Try Tiny Aya Now"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Tiny Aya is a family of five 3.35B-parameter multilingual text models from Cohere Labs, Cohere's research arm, released on 17 February 2026 as open weights for non-commercial use; the four instruction-tuned models are also on the Cohere API. Next to a base and a global model, three versions focus on regional languages, and Cohere designed them to run locally, including on phones.",
+    "sources": [
+      {
+        "id": "src.cohere.tiny-aya-blog"
+      },
+      {
+        "id": "src.cohere.tiny-aya-docs"
+      },
+      {
+        "id": "src.cohere.tiny-aya-base-hf"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "languages",
+      "aspect": "languages",
+      "direction": "increased",
+      "relativeTo": "cohere.aya-expanse",
+      "text": "Supports 70 languages, against 23 for Aya Expanse; Cohere names no predecessor, so this is a comparison only.",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Aya table"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "decreased",
+      "relativeTo": "cohere.aya-expanse",
+      "text": "3.35B parameters, against 8B and 32B for the two Aya Expanse models.",
+      "sources": [
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Aya table"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.tiny-aya-base-hf",
+          "locator": "Model Details: Input"
+        },
+        {
+          "id": "src.cohere.tiny-aya-global-hf",
+          "locator": "Model Details: Input"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Aya table, Modality"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.tiny-aya-base-hf",
+          "locator": "Model Details: Output"
+        },
+        {
+          "id": "src.cohere.tiny-aya-global-hf",
+          "locator": "Model Details: Output"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "multilingual",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.cohere.tiny-aya-blog",
+            "locator": "What We're Releasing"
+          },
+          {
+            "id": "src.cohere.tiny-aya-docs",
+            "locator": "Supported Languages"
+          }
+        ],
+        "note": "70 languages per the docs; 70+ for the base model per the launch post."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 8000,
+      "asStated": "8K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.tiny-aya-docs",
+          "locator": "Model Variants table"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Aya table, Context Length"
+        },
+        {
+          "id": "src.cohere.tiny-aya-base-hf",
+          "locator": "Model Summary: Context length"
+        }
+      ],
+      "note": "Same for all five variants; maximum output 8K tokens."
+    },
+    "parameters": {
+      "value": 3350000000,
+      "asStated": "3.35B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.tiny-aya-blog",
+          "locator": "What We're Releasing"
+        },
+        {
+          "id": "src.cohere.tiny-aya-docs",
+          "locator": "Model Variants table"
+        },
+        {
+          "id": "src.cohere.tiny-aya-base-hf",
+          "locator": "Model Summary: Model Size"
+        },
+        {
+          "id": "src.cohere.tiny-aya-tech-report",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Same for all five variants."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.tiny-aya-blog",
+          "locator": "Try Tiny Aya Now"
+        },
+        {
+          "id": "src.cohere.tiny-aya-hf-collection"
+        },
+        {
+          "id": "src.cohere.tiny-aya-base-hf",
+          "locator": "Model Summary"
+        }
+      ],
+      "note": "Research release under CC-BY-NC 4.0 with Cohere Labs acceptable use policy; gated download on Hugging Face, also on Kaggle per the launch post."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.cohere.tiny-aya-blog",
+          "locator": "Try Tiny Aya Now"
+        },
+        {
+          "id": "src.cohere.tiny-aya-docs",
+          "locator": "How Can I Access Tiny Aya?"
+        }
+      ],
+      "note": "API access covers the four instruction-tuned variants only."
+    }
+  },
+  "variants": [
+    {
+      "id": "base",
+      "name": "Tiny Aya Base",
+      "aliases": [
+        {
+          "text": "TinyAya-Base",
+          "match": "auto"
+        },
+        {
+          "text": "tiny-aya-base",
+          "match": "auto"
+        }
+      ],
+      "note": "Pretrained foundation model covering 70+ languages per the launch post; the instruction-tuned variants are built on it. Downloadable weights only, not offered on the Cohere API.",
+      "sources": [
+        {
+          "id": "src.cohere.tiny-aya-blog",
+          "locator": "What We're Releasing"
+        },
+        {
+          "id": "src.cohere.tiny-aya-base-hf"
+        },
+        {
+          "id": "src.cohere.tiny-aya-docs",
+          "locator": "Model Variants"
+        }
+      ],
+      "capabilities": {
+        "access": {
+          "value": [
+            "open-weights-download"
+          ],
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.cohere.tiny-aya-docs",
+              "locator": "How Can I Access Tiny Aya?"
+            },
+            {
+              "id": "src.cohere.tiny-aya-base-hf"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "global",
+      "name": "Tiny Aya Global",
+      "aliases": [
+        {
+          "text": "TinyAya-Global",
+          "match": "auto"
+        },
+        {
+          "text": "tiny-aya-global",
+          "match": "auto"
+        }
+      ],
+      "note": "Instruction-tuned on top of the base model, balanced across languages and regions; the launch post says 67 supported languages, the docs say 70.",
+      "sources": [
+        {
+          "id": "src.cohere.tiny-aya-blog",
+          "locator": "What We're Releasing"
+        },
+        {
+          "id": "src.cohere.tiny-aya-global-hf"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Aya table"
+        }
+      ]
+    },
+    {
+      "id": "earth",
+      "name": "Tiny Aya Earth",
+      "aliases": [
+        {
+          "text": "TinyAya-Earth",
+          "match": "auto"
+        },
+        {
+          "text": "tiny-aya-earth",
+          "match": "auto"
+        }
+      ],
+      "note": "Region-specialized instruction-tuned variant for languages of Africa and West Asia.",
+      "sources": [
+        {
+          "id": "src.cohere.tiny-aya-blog",
+          "locator": "A Family of Specialized Models"
+        },
+        {
+          "id": "src.cohere.tiny-aya-earth-hf"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Aya table"
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "name": "Tiny Aya Fire",
+      "aliases": [
+        {
+          "text": "TinyAya-Fire",
+          "match": "auto"
+        },
+        {
+          "text": "tiny-aya-fire",
+          "match": "auto"
+        }
+      ],
+      "note": "Region-specialized instruction-tuned variant for South Asian languages.",
+      "sources": [
+        {
+          "id": "src.cohere.tiny-aya-blog",
+          "locator": "A Family of Specialized Models"
+        },
+        {
+          "id": "src.cohere.tiny-aya-fire-hf"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Aya table"
+        }
+      ]
+    },
+    {
+      "id": "water",
+      "name": "Tiny Aya Water",
+      "aliases": [
+        {
+          "text": "TinyAya-Water",
+          "match": "auto"
+        },
+        {
+          "text": "tiny-aya-water",
+          "match": "auto"
+        }
+      ],
+      "note": "Region-specialized instruction-tuned variant for European and Asia-Pacific languages.",
+      "sources": [
+        {
+          "id": "src.cohere.tiny-aya-blog",
+          "locator": "A Family of Specialized Models"
+        },
+        {
+          "id": "src.cohere.tiny-aya-water-hf"
+        },
+        {
+          "id": "src.cohere.models-overview",
+          "locator": "Aya table"
+        }
+      ]
+    }
+  ],
+  "notes": "Released by Cohere Labs, Cohere's research arm; the cards say developed by Cohere and Cohere Labs. Cohere names no predecessor, so no relation is recorded. Release date from the launch post; no docs changelog entry was found. The Hugging Face repositories were created on 2026-02-13 and the arXiv technical report v1 is dated 2026-03-12. Language count: the docs and models overview say 70 languages for every variant; the launch post says 70+ for the base model and 67 supported languages for Tiny Aya Global. GGUF repositories are quantizations, not variants."
+}
