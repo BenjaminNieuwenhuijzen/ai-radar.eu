@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "perplexity.sonar-deep-research",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "sonar-deep-research",
+  "name": "Sonar Deep Research",
+  "aliases": [
+    {
+      "text": "Sonar Deep Research",
+      "match": "auto"
+    },
+    {
+      "text": "sonar-deep-research",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "perplexity",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "perplexity.sonar-series",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.perplexity.migrate-from-sonar",
+        "locator": "introduction; How Sonar Chat Completions maps to Agent API presets"
+      },
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "July 2026: Sonar Chat Completions migration"
+      }
+    ],
+    "note": "Sonar Chat Completions support ended on 2026-09-27. Synchronous and streaming requests are being reformulated as Agent API requests (the migration guide maps Sonar Deep Research to the high preset); asynchronous Sonar requests, which Perplexity had added for this model, are no longer supported. The Agent API Models page lists no sonar-deep-research id."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02",
+      "qualifier": null,
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2025-02-26",
+          "locator": "Supported Models table"
+        },
+        {
+          "id": "src.perplexity.model-cards-2025-02-22",
+          "locator": "Supported Models table"
+        }
+      ],
+      "note": "No dated API announcement found. The API model list does not show sonar-deep-research in the capture of 2025-02-22 and does in the next capture, of 2025-02-26. Secondary sources giving 2025-03-15 conflict with these captures. The consumer Deep Research mode launched on 2025-02-14 as a product feature."
+    },
+    "deprecated": {
+      "value": "2026-07",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "July 2026: Sonar Chat Completions migration"
+        }
+      ],
+      "note": "Changelog entry tagged Deprecation, labelled July 2026 (month only). The migration guide gives 2026-09-27 as the end of Sonar Chat Completions support."
+    },
+    "retired": null
+  },
+  "summary": {
+    "text": "Sonar Deep Research is the research model of Perplexity's Sonar API, first listed in the API docs in late February 2025 and offered only through the API. Perplexity's docs say it runs dozens of searches over hundreds of sources and turns the findings into detailed reports; a reasoning_effort setting and an asynchronous API followed in May 2025.",
+    "sources": [
+      {
+        "id": "src.perplexity.model-cards-2025-02-26"
+      },
+      {
+        "id": "src.perplexity.model-cards-2025-03-16"
+      },
+      {
+        "id": "src.perplexity.changelog"
+      }
+    ]
+  },
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.perplexity.sonar-deep-research-model-page",
+            "locator": "Model Type; Pricing"
+          },
+          {
+            "id": "src.perplexity.changelog",
+            "locator": "May 2025: New: Reasoning Effort Parameter for Sonar Deep Research"
+          }
+        ],
+        "note": "Listed as a deep research and reasoning model with billed reasoning tokens; a reasoning effort parameter (low, medium, high) was added in May 2025."
+      },
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.perplexity.sonar-deep-research-model-page",
+            "locator": "Key Features"
+          }
+        ],
+        "note": "Runs exhaustive searches across hundreds of sources and writes a report."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.sonar-deep-research-model-page",
+          "locator": "Context Length"
+        }
+      ],
+      "note": "The model list captured on 2025-02-26, when the model first appeared, gave 60k; from March 2025 the docs give 128k."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Perplexity."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.sonar-deep-research-model-page",
+          "locator": "Test the Model"
+        }
+      ]
+    }
+  },
+  "notes": "API model for multi-step research reports, related to the consumer Deep Research mode launched on 2025-02-14 (https://www.perplexity.ai/hub/blog/introducing-perplexity-deep-research, which does not mention the API). It did not accept image input (image attachments guide, Limitations). An asynchronous API for it was added in May 2025."
+}

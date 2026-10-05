@@ -390,6 +390,24 @@
       "organizationId": "deepseek",
       "name": "DeepSeek Flash",
       "parentId": "deepseek.deepseek-v"
+    },
+    {
+      "id": "perplexity.pplx",
+      "organizationId": "perplexity",
+      "name": "PPLX",
+      "parentId": null
+    },
+    {
+      "id": "perplexity.sonar-series",
+      "organizationId": "perplexity",
+      "name": "Sonar",
+      "parentId": null
+    },
+    {
+      "id": "perplexity.sonar-reasoning-series",
+      "organizationId": "perplexity",
+      "name": "Sonar Reasoning",
+      "parentId": "perplexity.sonar-series"
     }
   ]
 }

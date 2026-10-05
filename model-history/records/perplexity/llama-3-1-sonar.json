@@ -1,0 +1,373 @@
+{
+  "schemaVersion": 1,
+  "id": "perplexity.llama-3-1-sonar",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "llama-3-1-sonar",
+  "name": "Llama 3.1 Sonar",
+  "aliases": [
+    {
+      "text": "Llama 3.1 Sonar",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "perplexity",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "perplexity.sonar-series",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "January 2025, API model deprecation notice"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-07",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "July 2024, Introducing New and Improved Sonar Models"
+        },
+        {
+          "id": "src.perplexity.changelog-new-and-improved-sonar-models"
+        }
+      ],
+      "note": "The live changelog gives the month only. The archived post’s createdAt is 2024-07-31T04:05Z, which is 30 July in US time, so no day is recorded."
+    },
+    "deprecated": {
+      "value": "2025-01",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "January 2025, API model deprecation notice"
+        }
+      ],
+      "note": "Month of the notice for the online ids. No notice was found for the chat ids."
+    },
+    "retired": {
+      "value": "2025-02-22",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "January 2025, API model deprecation notice"
+        }
+      ],
+      "note": "Applies to the online ids (small, large, huge). The chat ids were dropped from the model cards between the captures of 2024-11-18 and 2024-12-21 (see the variants); no dated removal notice was found."
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "perplexity.llama-3-sonar",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "July 2024, Introducing New and Improved Sonar Models"
+        },
+        {
+          "id": "src.perplexity.changelog-new-and-improved-sonar-models"
+        }
+      ],
+      "note": "The launch notice says the new models surpass the previous iteration and retires the llama-3-sonar ids in favour of the Llama 3.1 family."
+    }
+  ],
+  "summary": {
+    "text": "Llama 3.1 Sonar covers Perplexity API language models launched in July 2024: llama-3.1-sonar-small-128k and llama-3.1-sonar-large-128k as online (search) and chat ids, joined by August 2024 by an online-only huge model listed at 405B parameters. The online ids were removed on 22 February 2025 in favour of Sonar and Sonar Pro.",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog"
+      },
+      {
+        "id": "src.perplexity.changelog-new-and-improved-sonar-models"
+      },
+      {
+        "id": "src.perplexity.model-cards-2024-08"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "perplexity.llama-3-sonar",
+      "text": "Context length grew to 131,072 tokens for the chat ids and 127,072 for the online ids, from 32768 and 28000.",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2024-08",
+          "locator": "Context Length"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-05",
+          "locator": "Perplexity Models table, Context Length"
+        }
+      ]
+    },
+    {
+      "id": "huge-model",
+      "aspect": "size",
+      "direction": "added",
+      "relativeTo": "perplexity.llama-3-sonar",
+      "text": "Adds a third, online-only model, llama-3.1-sonar-huge-128k, listed at 405B parameters; it was on the API docs by August 2024.",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2024-08",
+          "locator": "Perplexity Sonar Models table"
+        }
+      ]
+    },
+    {
+      "id": "small-model-size",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "perplexity.llama-3-sonar",
+      "text": "The small model is listed at 8B parameters, where the Llama 3 Sonar small model was listed at 7B.",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2024-08",
+          "locator": "Parameter Count"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-05",
+          "locator": "Perplexity Models table, Parameter Count"
+        }
+      ]
+    },
+    {
+      "id": "performance-claim",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "perplexity.llama-3-sonar",
+      "text": "Perplexity says the new models surpass the performance of the previous iteration.",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-new-and-improved-sonar-models"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.perplexity.model-cards-2024-08",
+            "locator": "note under Perplexity Sonar Models"
+          }
+        ],
+        "note": "The Sonar (online) models have a search subsystem."
+      }
+    ],
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-new-and-improved-sonar-models"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "llama-3-1-sonar-small-128k",
+      "name": "llama-3.1-sonar-small-128k",
+      "aliases": [
+        {
+          "text": "llama-3.1-sonar-small-128k-online",
+          "match": "auto"
+        },
+        {
+          "text": "llama-3.1-sonar-small-128k-chat",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 8000000000,
+          "asStated": "8B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-08",
+              "locator": "Parameter Count"
+            }
+          ]
+        },
+        "contextWindowTokens": {
+          "value": 131072,
+          "asStated": "131,072",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-08",
+              "locator": "Context Length"
+            }
+          ],
+          "note": "131,072 for the chat id; 127,072 for the online id."
+        }
+      },
+      "note": "The chat id is on the model cards captured on 2024-11-18 and gone from those captured on 2024-12-21.",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-new-and-improved-sonar-models"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-08"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-11",
+          "locator": "Perplexity Chat Models"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-12"
+        }
+      ]
+    },
+    {
+      "id": "llama-3-1-sonar-large-128k",
+      "name": "llama-3.1-sonar-large-128k",
+      "aliases": [
+        {
+          "text": "llama-3.1-sonar-large-128k-online",
+          "match": "auto"
+        },
+        {
+          "text": "llama-3.1-sonar-large-128k-chat",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 70000000000,
+          "asStated": "70B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-08",
+              "locator": "Parameter Count"
+            }
+          ]
+        },
+        "contextWindowTokens": {
+          "value": 131072,
+          "asStated": "131,072",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-08",
+              "locator": "Context Length"
+            }
+          ],
+          "note": "131,072 for the chat id; 127,072 for the online id."
+        }
+      },
+      "note": "The chat id is on the model cards captured on 2024-11-18 and gone from those captured on 2024-12-21.",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-new-and-improved-sonar-models"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-08"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-11",
+          "locator": "Perplexity Chat Models"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-12"
+        }
+      ]
+    },
+    {
+      "id": "llama-3-1-sonar-huge-128k",
+      "name": "llama-3.1-sonar-huge-128k",
+      "aliases": [
+        {
+          "text": "llama-3.1-sonar-huge-128k-online",
+          "match": "auto"
+        }
+      ],
+      "dates": {
+        "released": {
+          "value": "2024-08",
+          "qualifier": "approximate",
+          "sources": [
+            {
+              "id": "src.perplexity.changelog-new-and-improved-sonar-models"
+            },
+            {
+              "id": "src.perplexity.model-cards-2024-08",
+              "locator": "Perplexity Sonar Models table"
+            }
+          ],
+          "note": "Not in the July 2024 launch notice; first listed on the model cards captured on 2024-08-19, the only capture between 2024-07-25 and that date. No dated announcement was found."
+        },
+        "retired": {
+          "value": "2025-02-22",
+          "sources": [
+            {
+              "id": "src.perplexity.changelog",
+              "locator": "January 2025, API model deprecation notice"
+            }
+          ]
+        }
+      },
+      "capabilities": {
+        "parameters": {
+          "value": 405000000000,
+          "asStated": "405B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-08",
+              "locator": "Parameter Count"
+            }
+          ]
+        },
+        "contextWindowTokens": {
+          "value": 127072,
+          "asStated": "127,072",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-08",
+              "locator": "Context Length"
+            }
+          ]
+        }
+      },
+      "note": "Online id only; no chat version was listed.",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2024-08"
+        }
+      ]
+    }
+  ],
+  "notes": "Perplexity calls these its latest Perplexity Sonar models and uses only the API ids; the name follows the ids and the changelog’s reference to the Llama-3.1 family. Perplexity does not state in these sources how the models relate to Meta’s Llama 3.1; the cross-organisation relation is not recorded. The January 2025 removal notice recommends the then new Sonar and Sonar Pro models; no replacedBy is set because those records are outside this batch."
+}

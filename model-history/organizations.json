@@ -142,7 +142,22 @@
       "type": "company",
       "parentId": null,
       "radarCompanyId": "perplexity",
-      "coverage": "tracked"
+      "coverage": "tracked",
+      "description": {
+        "text": "Perplexity offers an answer engine that gives cited answers, Perplexity Computer for multi-step research and workflow tasks, the Comet AI browser and an API platform for developers. It describes routing work across models from several providers and calls Sonar its in-house model, optimised for answer quality in its default search mode.",
+        "sources": [
+          {
+            "id": "src.perplexity.hub-home"
+          },
+          {
+            "id": "src.perplexity.meet-new-sonar"
+          }
+        ]
+      },
+      "website": "https://www.perplexity.ai",
+      "aliases": [
+        "Perplexity AI"
+      ]
     },
     {
       "id": "deepseek",

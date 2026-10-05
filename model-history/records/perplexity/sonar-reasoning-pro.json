@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "perplexity.sonar-reasoning-pro",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "sonar-reasoning-pro",
+  "name": "Sonar Reasoning Pro",
+  "aliases": [
+    {
+      "text": "Sonar Reasoning Pro",
+      "match": "auto"
+    },
+    {
+      "text": "sonar-reasoning-pro",
+      "match": "auto"
+    },
+    {
+      "text": "Sonar Pro Reasoning",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "perplexity",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "perplexity.sonar-reasoning-series",
+  "categories": [
+    "language",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "deprecated",
+    "sources": [
+      {
+        "id": "src.perplexity.migrate-from-sonar",
+        "locator": "introduction; How Sonar Chat Completions maps to Agent API presets"
+      },
+      {
+        "id": "src.perplexity.changelog",
+        "locator": "July 2026: Sonar Chat Completions migration"
+      }
+    ],
+    "note": "Sonar Chat Completions support ended on 2026-09-27. Synchronous and streaming requests keep working but are being reformulated as Agent API requests, rolling out gradually by model; the migration guide maps this model to the low preset. The Agent API Models page lists no id for this model."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-02",
+      "qualifier": "uncertain",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2025-02-05",
+          "locator": "Supported Models table"
+        },
+        {
+          "id": "src.perplexity.model-cards-2025-01-30",
+          "locator": "Supported Models table"
+        }
+      ],
+      "note": "No dated announcement found. The API model list does not show sonar-reasoning-pro in the capture of 2025-01-30 and does in the next capture, of 2025-02-05, so a release on 2025-01-30 or 2025-01-31 cannot be ruled out. Secondary sources giving 2025-03-07 conflict with these captures."
+    },
+    "deprecated": {
+      "value": "2026-07",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog",
+          "locator": "July 2026: Sonar Chat Completions migration"
+        }
+      ],
+      "note": "Changelog entry tagged Deprecation, labelled July 2026 (month only). The migration guide gives 2026-09-27 as the end of Sonar Chat Completions support."
+    },
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "deepseek.deepseek-r1",
+      "method": "other",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2025-04-05"
+        }
+      ],
+      "note": "Perplexity says it is powered by DeepSeek R1; the method is not stated."
+    }
+  ],
+  "summary": {
+    "text": "Sonar Reasoning Pro is a reasoning model in Perplexity's Sonar API, first listed in the API docs in early February 2025, that returns its chain of thought in the response. Perplexity's docs say it is powered by DeepSeek R1 and aimed at complex, multi-step topics; Perplexity recommended it in place of R1 1776 and Sonar Reasoning when those left the API.",
+    "sources": [
+      {
+        "id": "src.perplexity.model-cards-2025-02-05"
+      },
+      {
+        "id": "src.perplexity.model-cards-2025-03-16"
+      },
+      {
+        "id": "src.perplexity.sonar-reasoning-pro-model-page"
+      },
+      {
+        "id": "src.perplexity.changelog"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "deepseek-r1",
+      "aspect": "other",
+      "relativeTo": "perplexity.sonar-reasoning",
+      "text": "Perplexity's docs describe it as powered by DeepSeek R1 with chain of thought.",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2025-03-16",
+          "locator": "Model descriptions: sonar-reasoning-pro"
+        }
+      ]
+    },
+    {
+      "id": "max-output",
+      "aspect": "other",
+      "relativeTo": "perplexity.sonar-reasoning",
+      "text": "Has an 8k maximum output, a limit the docs state for this model and Sonar Pro but not for Sonar Reasoning.",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2025-02-05",
+          "locator": "Supported Models table"
+        }
+      ]
+    },
+    {
+      "id": "citations",
+      "aspect": "other",
+      "relativeTo": "perplexity.sonar-reasoning",
+      "text": "Gives on average twice as many citations as Sonar Reasoning, according to Perplexity's model page.",
+      "sources": [
+        {
+          "id": "src.perplexity.sonar-reasoning-pro-model-page"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.perplexity.sonar-reasoning-pro-model-page",
+            "locator": "Model Type; Key Features"
+          },
+          {
+            "id": "src.perplexity.model-cards-2025-02-05",
+            "locator": "notes under the table"
+          },
+          {
+            "id": "src.perplexity.model-cards-2025-04-05",
+            "locator": "Reasoning Models"
+          }
+        ],
+        "note": "Outputs a think section with reasoning tokens before the answer."
+      },
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.perplexity.sonar-reasoning-pro-model-page",
+            "locator": "Key Features"
+          }
+        ],
+        "note": "Web search with citations; about twice as many citations on average as Sonar Reasoning."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 127000,
+      "asStated": "127k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2025-02-05",
+          "locator": "Supported Models table"
+        }
+      ],
+      "note": "Listed as 127k at launch with a maximum output of 8k; the model list from 2025-02-22 and the model page give 128k."
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Perplexity."
+    },
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.sonar-reasoning-pro-model-page",
+          "locator": "Test the Model"
+        }
+      ]
+    }
+  },
+  "notes": "Higher tier of the Sonar reasoning models. Perplexity named it the replacement for Sonar Reasoning (December 2025) and for R1 1776 (August 2025, where the changelog calls it Sonar Pro Reasoning); those links are stored as replacedBy on the older records. The April 2025 model list describes it as powered by DeepSeek R1 with chain of thought; that cross-organisation link is not stored in this record."
+}

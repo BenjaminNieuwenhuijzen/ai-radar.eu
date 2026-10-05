@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "id": "perplexity.sonar-2024-02",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-01",
+  "slug": "sonar-2024-02",
+  "name": "Sonar (February 2024)",
+  "aliases": [
+    {
+      "text": "Sonar (February 2024)",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "perplexity",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "perplexity.sonar-series",
+  "categories": [
+    "language"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "retired",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog-model-deprecation-notice-2024-05"
+      },
+      {
+        "id": "src.perplexity.changelog-2024-12",
+        "locator": "Model Deprecation Notice, April 2024"
+      }
+    ]
+  },
+  "replacedBy": {
+    "modelId": "perplexity.llama-3-sonar",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog-model-deprecation-notice-2024-05"
+      }
+    ],
+    "note": "The notice recommends switching to models from the Llama 3 family, among them llama-3-sonar-small-32k and llama-3-sonar-large-32k."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2024-02-23",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-api-updates-february-2024",
+          "locator": "Announcing Our Newest Model; page data createdAt"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-03",
+          "locator": "Perplexity Models table"
+        }
+      ],
+      "note": "Day of the changelog post that announced the launch, from its createdAt timestamp (2024-02-23T23:21Z, the same calendar day in US time); the visible page shows only a relative date (about 16 hours ago in the capture of 2024-02-24 15:43Z)."
+    },
+    "deprecated": {
+      "value": "2024-05",
+      "qualifier": "uncertain",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-model-deprecation-notice-2024-05",
+          "locator": "page data createdAt 2024-05-07T03:53Z"
+        }
+      ],
+      "alternatives": [
+        {
+          "value": "2024-04",
+          "sources": [
+            {
+              "id": "src.perplexity.changelog-2024-12",
+              "locator": "Model Deprecation Notice, April 2024"
+            }
+          ],
+          "note": "The changelog files the same notice under April 2024."
+        }
+      ],
+      "note": "Month of the deprecation notice."
+    },
+    "retired": {
+      "value": "2024-05-14",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-model-deprecation-notice-2024-05"
+        },
+        {
+          "id": "src.perplexity.changelog-2024-12",
+          "locator": "Model Deprecation Notice, April 2024"
+        }
+      ],
+      "note": "The notice gives May 14 without a year; it was published in 2024."
+    }
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "perplexity.pplx-online-llms",
+      "basis": "editorial",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-api-updates-february-2024",
+          "locator": "Announcing Our Newest Model; Model Deprecation Notice"
+        }
+      ],
+      "note": "Perplexity does not call these models successors of the PPLX online models; the launch post says they surpass its earlier models and announces the removal of pplx-70b-online."
+    }
+  ],
+  "summary": {
+    "text": "Sonar (February 2024) refers to Perplexity's sonar-small and sonar-medium language models, launched on 23 February 2024 on the Perplexity API, each as a chat id and a search-enhanced online id. The API docs listed them at 7B and 8x7B parameters without naming base models. All four ids were removed on 14 May 2024.",
+    "sources": [
+      {
+        "id": "src.perplexity.changelog-api-updates-february-2024"
+      },
+      {
+        "id": "src.perplexity.model-cards-2024-03"
+      },
+      {
+        "id": "src.perplexity.changelog-model-deprecation-notice-2024-05"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-length",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "perplexity.pplx-online-llms",
+      "text": "Context length of 16384 tokens for the chat ids and 12000 for the online ids, up from 4096 for the PPLX online models at release.",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2024-03",
+          "locator": "Perplexity Models table, Context Length"
+        },
+        {
+          "id": "src.perplexity.model-cards-2023-12",
+          "locator": "Supported Models table"
+        }
+      ]
+    },
+    {
+      "id": "larger-tier",
+      "aspect": "size",
+      "direction": "changed",
+      "relativeTo": "perplexity.pplx-online-llms",
+      "text": "The larger tier, sonar-medium, is listed at 8x7B parameters in mixture-of-experts notation; the larger PPLX online model was pplx-70b-online.",
+      "sources": [
+        {
+          "id": "src.perplexity.model-cards-2024-03",
+          "locator": "Perplexity Models table, Parameter Count"
+        }
+      ]
+    },
+    {
+      "id": "efficiency-claim",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "perplexity.pplx-online-llms",
+      "text": "Perplexity says the new models surpass its earlier models in cost-efficiency, speed and performance.",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-api-updates-february-2024",
+          "locator": "Announcing Our Newest Model"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "features": [
+      {
+        "key": "retrieval",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.perplexity.changelog-api-updates-february-2024",
+            "locator": "Announcing Our Newest Model"
+          }
+        ],
+        "note": "The online ids are described as search-enhanced versions of the chat ids."
+      }
+    ],
+    "access": {
+      "value": [
+        "api"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-api-updates-february-2024"
+        }
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "sonar-small",
+      "name": "sonar-small",
+      "aliases": [
+        {
+          "text": "sonar-small-chat",
+          "match": "auto"
+        },
+        {
+          "text": "sonar-small-online",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": 7000000000,
+          "asStated": "7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-03",
+              "locator": "Perplexity Models table, Parameter Count"
+            }
+          ]
+        },
+        "contextWindowTokens": {
+          "value": 16384,
+          "asStated": "16384",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-03",
+              "locator": "Perplexity Models table, Context Length"
+            }
+          ],
+          "note": "16384 for sonar-small-chat; 12000 for sonar-small-online."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-api-updates-february-2024"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-03"
+        }
+      ]
+    },
+    {
+      "id": "sonar-medium",
+      "name": "sonar-medium",
+      "aliases": [
+        {
+          "text": "sonar-medium-chat",
+          "match": "auto"
+        },
+        {
+          "text": "sonar-medium-online",
+          "match": "auto"
+        }
+      ],
+      "capabilities": {
+        "parameters": {
+          "value": null,
+          "asStated": "8x7B",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-03",
+              "locator": "Perplexity Models table, Parameter Count"
+            }
+          ],
+          "note": "Mixture-of-experts notation as stated; no total parameter count is given."
+        },
+        "contextWindowTokens": {
+          "value": 16384,
+          "asStated": "16384",
+          "qualifier": null,
+          "disclosure": "official",
+          "sources": [
+            {
+              "id": "src.perplexity.model-cards-2024-03",
+              "locator": "Perplexity Models table, Context Length"
+            }
+          ],
+          "note": "16384 for sonar-medium-chat; 12000 for sonar-medium-online."
+        }
+      },
+      "sources": [
+        {
+          "id": "src.perplexity.changelog-api-updates-february-2024"
+        },
+        {
+          "id": "src.perplexity.model-cards-2024-03"
+        }
+      ]
+    }
+  ],
+  "notes": "Perplexity used only the API ids (sonar-small-chat, sonar-small-online, sonar-medium-chat, sonar-medium-online) and called them its latest Perplexity models; the name is an editorial disambiguation from the later Sonar model of January 2025. The model cards captured on 2024-03-01 also mention sonar-1-small-online and sonar-1-medium-online in a note; those ids are not documented elsewhere and are not recorded. Perplexity does not name the base models, only the parameter counts 7B and 8x7B. The May 2024 notice pairs pplx-7b-chat/pplx-7b-online with sonar-small and pplx-8x7b-chat/pplx-8x7b-online with sonar-medium among models and model name aliases; the pplx-8x7b ids are not recorded. The February 2024 post URL now redirects to the general changelog, which no longer carries the entry; the archived copy is used."
+}
