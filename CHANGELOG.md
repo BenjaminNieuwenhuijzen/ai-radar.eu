@@ -262,7 +262,7 @@ scheduled GitHub Action.
 - English README, MIT license, `.gitignore`, and all code comments translated to
   English.
 
-[Unreleased]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/compare/v2.1.0...HEAD
-[2.1.0]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/compare/v2.0.0...v2.1.0
-[2.0.0]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/compare/v1.0.0...v2.0.0
-[1.0.0]: https://github.com/BenjaminNieuwenhuijzen/ai-updates-dashboard/releases/tag/v1.0.0
+[Unreleased]: https://github.com/BenjaminNieuwenhuijzen/ai-radar.eu/compare/v2.1.0...HEAD
+[2.1.0]: https://github.com/BenjaminNieuwenhuijzen/ai-radar.eu/compare/v2.0.0...v2.1.0
+[2.0.0]: https://github.com/BenjaminNieuwenhuijzen/ai-radar.eu/compare/v1.0.0...v2.0.0
+[1.0.0]: https://github.com/BenjaminNieuwenhuijzen/ai-radar.eu/releases/tag/v1.0.0
