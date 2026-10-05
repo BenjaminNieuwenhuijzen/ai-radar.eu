@@ -197,6 +197,21 @@
       "firstSeenIn": "df6ed39"
     },
     {
+      "modelId": "anthropic.claude-opus-4-7",
+      "variantId": null,
+      "postId": "qa09onb5wg",
+      "link": "https://www.anthropic.com/research/project-fetch-phase-two",
+      "title": "Project Fetch: Phase two",
+      "publishedAt": "2026-06-18T00:00:00Z",
+      "dateOnly": true,
+      "company": "Anthropic",
+      "source": "Research",
+      "method": "auto",
+      "alias": "claude opus 4.7",
+      "firstSeenAt": "2026-10-05T05:42:45Z",
+      "firstSeenIn": "dcab53f"
+    },
+    {
       "modelId": "anthropic.claude-opus-5",
       "variantId": null,
       "postId": "14gqd9hn03f",
