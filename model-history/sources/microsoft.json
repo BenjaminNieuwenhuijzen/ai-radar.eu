@@ -579,8 +579,9 @@
       "publisher": "Microsoft",
       "publisherOrgId": "microsoft",
       "provenance": "primary",
-      "availability": "unknown",
-      "notes": "Hugging Face model card. 7B parameters, alternating dense and blocksparse attention, text input, 8K context, MIT license; says the model weight is released on May 21, 2024."
+      "availability": "active",
+      "notes": "Hugging Face model card. 7B parameters, alternating dense and blocksparse attention, text input, 8K context, MIT license; says the model weight is released on May 21, 2024.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.microsoft.phi-3-technical-report",
@@ -605,8 +606,9 @@
       "publisher": "Microsoft",
       "publisherOrgId": "microsoft",
       "provenance": "primary",
-      "availability": "unknown",
-      "notes": "Hugging Face model card. 4.2B parameters; image encoder, connector, projector and the Phi-3 Mini language model; text and image input; 128K context; MIT license; says the model weight is released on May 21, 2024."
+      "availability": "active",
+      "notes": "Hugging Face model card. 4.2B parameters; image encoder, connector, projector and the Phi-3 Mini language model; text and image input; 128K context; MIT license; says the model weight is released on May 21, 2024.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.microsoft.phi-4-announcement",
@@ -646,8 +648,9 @@
       "publisher": "Microsoft",
       "publisherOrgId": "microsoft",
       "provenance": "primary",
-      "availability": "unknown",
-      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence). Living page; content as seen on 2026-10-01. The Training section gives Release date: June 2025 and training in May 2025."
+      "availability": "active",
+      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence). Living page; content as seen on 2026-10-01. The Training section gives Release date: June 2025 and training in May 2025.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.microsoft.phi-4-mini-instruct-model-card",
@@ -657,8 +660,9 @@
       "publisher": "Microsoft",
       "publisherOrgId": "microsoft",
       "provenance": "primary",
-      "availability": "unknown",
-      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence). Living page; content as seen on 2026-10-01. The Training section gives Release date: February 2025, training between November and December 2024 and a public-data cutoff of June 2024."
+      "availability": "active",
+      "notes": "Model card in Microsoft's Hugging Face organisation (MIT licence). Living page; content as seen on 2026-10-01. The Training section gives Release date: February 2025, training between November and December 2024 and a public-data cutoff of June 2024.",
+      "lastCheckedAt": "2026-10-05"
     },
     {
       "id": "src.microsoft.phi-4-mini-multimodal-announcement",
