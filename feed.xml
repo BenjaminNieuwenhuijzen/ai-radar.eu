@@ -5,19 +5,299 @@
 <link>https://ai-radar.eu/</link>
 <description>Combined updates from leading AI companies.</description>
 <language>en</language>
-<lastBuildDate>Tue, 06 Oct 2026 06:22:12 GMT</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 15:13:53 GMT</lastBuildDate>
 <item>
-<title>[Google News] DeepSeek set to raise at least $15 billion in Tencent-backed funding - The Straits Times</title>
-<link>https://news.google.com/rss/articles/CBMitwFBVV95cUxNQng0ZXVMNEpVTWFxMm43X2ZHQy1PWnBVU2tCcHctZ2FXY0NnVDQwM0lpc21mQ2hXTUM2T29QbnJTWlY4U2prMDBPRFpudUFIeTdFSkQycTNMT050VElyb0VmYWxsRnFwQ2ttcFB6TXBZa2o2a3FfckVGTzlkVFZWa1ZQVzJCamI2UXEyRndoSG9hWU9sREZDR1RvU3RKLW10MWI3eGJPYjFDU0JXOFkyRU1YTmhhcDg?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitwFBVV95cUxNQng0ZXVMNEpVTWFxMm43X2ZHQy1PWnBVU2tCcHctZ2FXY0NnVDQwM0lpc21mQ2hXTUM2T29QbnJTWlY4U2prMDBPRFpudUFIeTdFSkQycTNMT050VElyb0VmYWxsRnFwQ2ttcFB6TXBZa2o2a3FfckVGTzlkVFZWa1ZQVzJCamI2UXEyRndoSG9hWU9sREZDR1RvU3RKLW10MWI3eGJPYjFDU0JXOFkyRU1YTmhhcDg?oc=5</guid>
+<title>[Research] Unlocking Earth AI’s planetary geospatial foundation models for global public health</title>
+<link>https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/</link>
+<guid isPermaLink="false">https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/</guid>
+<pubDate>Tue, 06 Oct 2026 15:05:11 +0000</pubDate>
+
+</item>
+<item>
+<title>[Developer] Control How Your GPU Shares Work with Green Contexts</title>
+<link>https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/control-how-your-gpu-shares-work-with-green-contexts/</guid>
+<pubDate>Tue, 06 Oct 2026 15:00:00 GMT</pubDate>
+<description>GPU applications increasingly consist of multiple independent components running at the same time within a single process: a latency-sensitive operator...</description>
+</item>
+<item>
+<title>[Google News] DeepSeek nears $12B funding round led by Tencen... - Pluang</title>
+<link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdUNZVFI1R1dZY3JRaHh3VWJCMkp1ZlVfaEdNaUFpcXlIdjNMdC15MVUtUm1WRXNIbVZrbDlqbWkyTWVPdlJYUUFRQUxXckNtcS1tSVJlTklIN2thQmczWExXcUFVU05RWm1jYmFiSE4tMnJCTDZuYk5WUjd2elo1WnhrSTVqVGdCZ05FTG9ZcUxaclA4cTBXY0s5OUdiYm5iLVF2dVVzSk0?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdUNZVFI1R1dZY3JRaHh3VWJCMkp1ZlVfaEdNaUFpcXlIdjNMdC15MVUtUm1WRXNIbVZrbDlqbWkyTWVPdlJYUUFRQUxXckNtcS1tSVJlTklIN2thQmczWExXcUFVU05RWm1jYmFiSE4tMnJCTDZuYk5WUjd2elo1WnhrSTVqVGdCZ05FTG9ZcUxaclA4cTBXY0s5OUdiYm5iLVF2dVVzSk0?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 14:35:19 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] There must be stricter guidelines on artificial intelligence - ballstatedaily.com</title>
+<link>https://news.google.com/rss/articles/CBMiygFBVV95cUxPREZJMXdZZU5CcFVoeXlGU0dRSTdCTzdLZ3RRUHp4dGVvcGhpQUtEbnkwTHRJWlUxUUhZYkhRcXV5eWIzUjZZMWg0V2RabURCU1ZUWkI1am1EVTlxOTh1VW84Slc4emExOUNvZ09oVTNZQXdybEdneUNrSXZUdG1pbk5YUkdQYjFkdWFPdlRJN0xmSUxXSkJkbkZka0NEQUFaeEtvSE5LaTFlUzc3VS1udEZEZlN3NktiRWhxc1NGSkw5SzJtX0xKdXJn?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiygFBVV95cUxPREZJMXdZZU5CcFVoeXlGU0dRSTdCTzdLZ3RRUHp4dGVvcGhpQUtEbnkwTHRJWlUxUUhZYkhRcXV5eWIzUjZZMWg0V2RabURCU1ZUWkI1am1EVTlxOTh1VW84Slc4emExOUNvZ09oVTNZQXdybEdneUNrSXZUdG1pbk5YUkdQYjFkdWFPdlRJN0xmSUxXSkJkbkZka0NEQUFaeEtvSE5LaTFlUzc3VS1udEZEZlN3NktiRWhxc1NGSkw5SzJtX0xKdXJn?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 14:03:44 GMT</pubDate>
+
+</item>
+<item>
+<title>[YouTube] The NVIDIA GTC Berlin keynote is almost here.</title>
+<link>https://www.youtube.com/shorts/v0d-7DOxUNU</link>
+<guid isPermaLink="false">https://www.youtube.com/shorts/v0d-7DOxUNU</guid>
+<pubDate>Tue, 06 Oct 2026 13:36:55 GMT</pubDate>
+<description>NVIDIA founder and CEO Jensen Huang takes the stage at the Tempodrom on October 21 at 11 AM CEST. Watch the livestream from anywhere. Add it to your calendar: https://nvda.ws/3TjKELG</description>
+</item>
+<item>
+<title>[Google News] DeepSeek considers doubling latest funding round to up to USD 15bln, reports CNBC citing sources - newsquawk.com</title>
+<link>https://news.google.com/rss/articles/CBMiywFBVV95cUxNVWxZM2Q5ZEVla3JDZmp6LVloZzYya3pUaloxTlpwdDQ0QjFhMndXZWo1VlVFdlk2WUlmaWc1VEtpVzVDSmg5cUVqZzlfWVdLaGNwRV8waUhhUDgyV1ZnLUo4emE4cFZEUkxmZ1FiWjVxWXJwT2JzaU5FSFE5dTF3NjN3Y2IweU5nMGlORGp2cnNVRGQ2TEp0S3NVQnREUjZNVm82TlZFcDZlUDRyemprTTBsZkJwbEQ0M19IYXFmdUxMTHJGUjlhWHdWMA?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiywFBVV95cUxNVWxZM2Q5ZEVla3JDZmp6LVloZzYya3pUaloxTlpwdDQ0QjFhMndXZWo1VlVFdlk2WUlmaWc1VEtpVzVDSmg5cUVqZzlfWVdLaGNwRV8waUhhUDgyV1ZnLUo4emE4cFZEUkxmZ1FiWjVxWXJwT2JzaU5FSFE5dTF3NjN3Y2IweU5nMGlORGp2cnNVRGQ2TEp0S3NVQnREUjZNVm82TlZFcDZlUDRyemprTTBsZkJwbEQ0M19IYXFmdUxMTHJGUjlhWHdWMA?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 13:20:01 GMT</pubDate>
+
+</item>
+<item>
+<title>[Blog] Why Telecom Operators Are Building Their AI Strategy on Open Models</title>
+<link>https://blogs.nvidia.com/blog/telecom-operators-open-models/</link>
+<guid isPermaLink="false">https://blogs.nvidia.com/blog/telecom-operators-open-models/</guid>
+<pubDate>Tue, 06 Oct 2026 13:00:19 +0000</pubDate>
+<description>Telecom operators are increasingly building their AI strategies on open models — and the reasons go beyond mere cost. Open models give telcos the ability to trust, control and customize AI across their most critical workloads — from autonomous networks to customer care. NVIDIA’s latest State of AI i</description>
+</item>
+<item>
+<title>[Google News] Moonshot AI Prepares Hong Kong IPO as DeepSeek's Funding Round Draws Oversubscribed Demand - IndexBox</title>
+<link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZFhsbFJ6UmkwRHRxMEZBd0k4VHM2SXNRbUFNWnNBYzU2ZDVvOXl0NGdpeDU5bldDSTMtQkFvUEVZT3BFTWtSTUhKQS1aajdPenRSSUVsMUZMUW1IX1R3Z1U4QTdua0sxaG1uZUJXN1MwamFtLXUySHNPb3dTODhKNXlDOHZSQTRJVV95S01pNkEyVUhsaVVLZ0VJckRMUzU4V21idU5USjE5U1Y4RnRLTldxb1BkRmpYODY0?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZFhsbFJ6UmkwRHRxMEZBd0k4VHM2SXNRbUFNWnNBYzU2ZDVvOXl0NGdpeDU5bldDSTMtQkFvUEVZT3BFTWtSTUhKQS1aajdPenRSSUVsMUZMUW1IX1R3Z1U4QTdua0sxaG1uZUJXN1MwamFtLXUySHNPb3dTODhKNXlDOHZSQTRJVV95S01pNkEyVUhsaVVLZ0VJckRMUzU4V21idU5USjE5U1Y4RnRLTldxb1BkRmpYODY0?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 12:51:27 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Is Moonshot AI Cheap at $50 Billion? Depends Who You Compare It To - BeInCrypto</title>
+<link>https://news.google.com/rss/articles/CBMihAFBVV95cUxON0l2T3pLck5ETTgydzdKR1hwLU1zblRNTTQwOHdXY19VZ0NJMkhZcnV3dlZzbUNra09jVnRWTDZqS3dpZ0xmOHVVbVpXWjRodjJMS054S3JjZEZfS0ExQ2VJNEE4cmdiRElSNk5lcEg1NnJiVm8wSXpPY2FRWWJVT0xYWUI?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMihAFBVV95cUxON0l2T3pLck5ETTgydzdKR1hwLU1zblRNTTQwOHdXY19VZ0NJMkhZcnV3dlZzbUNra09jVnRWTDZqS3dpZ0xmOHVVbVpXWjRodjJMS054S3JjZEZfS0ExQ2VJNEE4cmdiRElSNk5lcEg1NnJiVm8wSXpPY2FRWWJVT0xYWUI?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 12:28:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Reflection's Beam becomes the most capable open-weight model built outside China - the-decoder.com</title>
+<link>https://news.google.com/rss/articles/CBMipwFBVV95cUxPN1VIZUZYM0otSk1PNTZmT1N5Zi1UOHN3ZFhwb0p3XzR6LThTNjlDSG9uM2pyYjhjaDNNMnNFSGZOUVFkcms4SHFaLTRiUjBxY19kYXFvZ25zOEFHR2ZZT19ob0xUcTBiV3JsRDJPNUF0Q2NXZHZnSUozNFF5WEZsRnRqQ1NDaF9RTEo1ZWlEYUpNM2ZqdG1aeDVzcm9lLUtoelh6eGZxUQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMipwFBVV95cUxPN1VIZUZYM0otSk1PNTZmT1N5Zi1UOHN3ZFhwb0p3XzR6LThTNjlDSG9uM2pyYjhjaDNNMnNFSGZOUVFkcms4SHFaLTRiUjBxY19kYXFvZ25zOEFHR2ZZT19ob0xUcTBiV3JsRDJPNUF0Q2NXZHZnSUozNFF5WEZsRnRqQ1NDaF9RTEo1ZWlEYUpNM2ZqdG1aeDVzcm9lLUtoelh6eGZxUQ?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 12:13:25 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] The 'DeepSeek of the West' finally has a model - The Rundown AI</title>
+<link>https://news.google.com/rss/articles/CBMihgFBVV95cUxNcWRnVDlMUnV0aTNHR01oWG8tajFJN2Zmd1JkSkNUWjRIUXVLTVFPUFdKZzhQWklfcy15NXRkdVFXUG5fNHZqZ0hoWXFiNTd3QXRYMFRNOTVMOGp6VUtaQVVRSDM3Vk9tR3VqYXZielhOYkhVQ2R3VWZ6czZEd01ISGgwRnEyQQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMihgFBVV95cUxNcWRnVDlMUnV0aTNHR01oWG8tajFJN2Zmd1JkSkNUWjRIUXVLTVFPUFdKZzhQWklfcy15NXRkdVFXUG5fNHZqZ0hoWXFiNTd3QXRYMFRNOTVMOGp6VUtaQVVRSDM3Vk9tR3VqYXZielhOYkhVQ2R3VWZ6czZEd01ISGgwRnEyQQ?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 12:04:10 GMT</pubDate>
+
+</item>
+<item>
+<title>[News] Introducing Mistral Large 4</title>
+<link>https://mistral.ai/news/mistral-large-4/</link>
+<guid isPermaLink="false">https://mistral.ai/news/mistral-large-4/</guid>
+<pubDate>Tue, 06 Oct 2026 12:00:27 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek to Raise at Least $12 Billion in Tencent-Backed Funding - Bloomberg.com</title>
+<link>https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXVsa1AtZXBYRFRpZG9IQ1JKcW5qVjZiLVNsUDhRc2hJRWJVYlZ1cXR3TGdKS2NOb3hkZ3dFM1lCdjFEWW05YjJPMl85cGwxWFZhbWdWSnNMVGJTem1RY2c5azlLbS1kRnhqdE5tY1NBWVZwM1BDUHV4RWxvcmVzdkdNVEY3VXlqQVF4N0diNU9WUjVJT3VGOU9lNVFEY0VhZlIyMG1yaE96Ui1xOFlwYlJLS28?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXVsa1AtZXBYRFRpZG9IQ1JKcW5qVjZiLVNsUDhRc2hJRWJVYlZ1cXR3TGdKS2NOb3hkZ3dFM1lCdjFEWW05YjJPMl85cGwxWFZhbWdWSnNMVGJTem1RY2c5azlLbS1kRnhqdE5tY1NBWVZwM1BDUHV4RWxvcmVzdkdNVEY3VXlqQVF4N0diNU9WUjVJT3VGOU9lNVFEY0VhZlIyMG1yaE96Ui1xOFlwYlJLS28?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 11:41:46 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] McDonald's Accused of Price Fixing Using Artificial Intelligence — Reuters - UA.NEWS</title>
+<link>https://news.google.com/rss/articles/CBMioAFBVV95cUxOSklhRk1PLW5aaU1DS3BpN3pVRXF2aExIZDVYWkRmenB2T0phTGhEX3RMRkotYTFjUDdHTzhFV3dTRmxYSi02YzFZTmJFTnJIZjJCanVsWERsR3FmZjUxYWxPd0FHczZWUzYxU0dWVmpYYjNfVjNOaWV1d3pRS0FCblNaZGdMYVFqWUpWWEZJdHRhUTEtTC1mYko0Z2FxTzNj?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMioAFBVV95cUxOSklhRk1PLW5aaU1DS3BpN3pVRXF2aExIZDVYWkRmenB2T0phTGhEX3RMRkotYTFjUDdHTzhFV3dTRmxYSi02YzFZTmJFTnJIZjJCanVsWERsR3FmZjUxYWxPd0FHczZWUzYxU0dWVmpYYjNfVjNOaWV1d3pRS0FCblNaZGdMYVFqWUpWWEZJdHRhUTEtTC1mYko0Z2FxTzNj?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 11:25:15 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] CATL and Tencent back Deepseek's ballooning funding round as the AI startup eyes a 2027 IPO - the-decoder.com</title>
+<link>https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0xkd1h4bkRWSXVfbGhxNmRueVA5b09wQUZUaGRsWENLblR2WXBxVVVyZmlJbmVrQzdpTmdXbGtSV0loaFhXVUNsRnlXT3VjME9CR3lHLWNXaWZUWE9zdjR1YjhsWEQxSzdDQURiZ25tSUd3SFFCTXpJaHh4dXp5ZDB2RmMtLWRrdGRMdnY1MEdmcnZnOGRQcWQ5QUdpVkVsMy0yQWdUMjhOdkJpdC1KRjVZUThsQQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitgFBVV95cUxQd0xkd1h4bkRWSXVfbGhxNmRueVA5b09wQUZUaGRsWENLblR2WXBxVVVyZmlJbmVrQzdpTmdXbGtSV0loaFhXVUNsRnlXT3VjME9CR3lHLWNXaWZUWE9zdjR1YjhsWEQxSzdDQURiZ25tSUd3SFFCTXpJaHh4dXp5ZDB2RmMtLWRrdGRMdnY1MEdmcnZnOGRQcWQ5QUdpVkVsMy0yQWdUMjhOdkJpdC1KRjVZUThsQQ?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 11:23:08 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] AI may soon be in more healthcare processes in Utah under new state agreements - Utah News Dispatch</title>
+<link>https://news.google.com/rss/articles/CBMikgFBVV95cUxNNVZaSHN4WGFJSUt4dkpXR0FqeUhvY2tSc2tmaFY0c1VGV2hDdHZlcTZmaTdEVzFDVWV0RjFmUTd6ejdDQjNNSndKclZaLTRTWHVhT3p3ekRxZkdzZGRjcHQ0dG13NTI4Ylg5cTV2M3NxRUJhMWZrOVJTY2hwaDNBcE5kYUExVnJoQ3Etd0o0Q3FSUQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMikgFBVV95cUxNNVZaSHN4WGFJSUt4dkpXR0FqeUhvY2tSc2tmaFY0c1VGV2hDdHZlcTZmaTdEVzFDVWV0RjFmUTd6ejdDQjNNSndKclZaLTRTWHVhT3p3ekRxZkdzZGRjcHQ0dG13NTI4Ylg5cTV2M3NxRUJhMWZrOVJTY2hwaDNBcE5kYUExVnJoQ3Etd0o0Q3FSUQ?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 11:07:48 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Watch OpenAI, DeepSeek &amp; Moonshot Chase Billions in New AI Funding - Bloomberg.com</title>
+<link>https://news.google.com/rss/articles/CBMifkFVX3lxTE1OWEZPMWdULWFmYlhoXzAwNG00QVJjMDVWdVdPWFFMRFQyaDVuRFAzNmwwWm55LTRJdlp3ZFNpcFhpaXVyX0stMldKRkZYYW8taGFVdU81eFRMQm5GbEZWMzY2WjlzSW9uQnNFb0pueEEtWmlPVVpPY2ItQmRWUQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMifkFVX3lxTE1OWEZPMWdULWFmYlhoXzAwNG00QVJjMDVWdVdPWFFMRFQyaDVuRFAzNmwwWm55LTRJdlp3ZFNpcFhpaXVyX0stMldKRkZYYW8taGFVdU81eFRMQm5GbEZWMzY2WjlzSW9uQnNFb0pueEEtWmlPVVpPY2ItQmRWUQ?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 10:59:19 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Reflection AI's Beam: What It Means for Rivals [2026] - shattered.io</title>
+<link>https://news.google.com/rss/articles/CBMiekFVX3lxTE80Z01mUGFTUWpjQlNCakF3UF9TbFFYN2xEX1NRb3JHUklSOTlmX3M5bWVRblI4NGhTVzB1eUFadVpZMUx2dzZvWFJra2wzRDRoV3VUSkl1LTJleFNVdlNEUV9wS0tkYnJRb1BySmFEbnc5aXNRU1ZDY1Fn?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiekFVX3lxTE80Z01mUGFTUWpjQlNCakF3UF9TbFFYN2xEX1NRb3JHUklSOTlmX3M5bWVRblI4NGhTVzB1eUFadVpZMUx2dzZvWFJra2wzRDRoV3VUSkl1LTJleFNVdlNEUV9wS0tkYnJRb1BySmFEbnc5aXNRU1ZDY1Fn?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 10:41:19 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] FILE PHOTO: Illustration shows Deepseek logo - The Daily News | Texas' Oldest Newspaper</title>
+<link>https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcElicE8zSHpSUzVTdjllXzE2dDBTQ1RkSDVwLUd3SUNJaEpjOVViWEN2Tk5zMEZWeHB1Z1NlOEYxODlhQkRFd1k1RzRMdm9paU5DajZUWjc0RGUwRmZ2Y2dSVGFvYjRERVJ5b3UwTm1yOVlrbFpuT2lncTI0dzZ2dXcwMGo5WHQtUlpqMVA5TEdKSkNqMkZMTGlFQTRfYlJscGV3aUVnYWNESHBtUmg5TTBTbVoxR2RPUGpvbjVQZ3pORzR3dnZweTJBN0lqTUZIN1NHbQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi1AFBVV95cUxOcElicE8zSHpSUzVTdjllXzE2dDBTQ1RkSDVwLUd3SUNJaEpjOVViWEN2Tk5zMEZWeHB1Z1NlOEYxODlhQkRFd1k1RzRMdm9paU5DajZUWjc0RGUwRmZ2Y2dSVGFvYjRERVJ5b3UwTm1yOVlrbFpuT2lncTI0dzZ2dXcwMGo5WHQtUlpqMVA5TEdKSkNqMkZMTGlFQTRfYlJscGV3aUVnYWNESHBtUmg5TTBTbVoxR2RPUGpvbjVQZ3pORzR3dnZweTJBN0lqTUZIN1NHbQ?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 10:38:32 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek set to raise at least $12 billion in funding backed by Tencent and CATL - Proactive financial news</title>
+<link>https://news.google.com/rss/articles/CBMi5AFBVV95cUxObDVqWDhXeElWZXJfNDZLN2RPRlI2ZzJUVWFkRmtKN2psUnVMcHQ0VFVTTmtkN01rbmxLR0hwbkZjTW9ReWwweWdzNGgxa2FsWGJjdC1kX0dERGNVSm9mbVRCcEUtWDQ4b3RFUTlEcHhJMGFLbk5kbW9EZWFFR3c4c0FicG51QnNqTV9NcHBqdmJhWUFhdkdYSlNfTlBzMHlXV05RV1EtUGVBU1A4bHdCVDZiNldZd0xQYjhBblZSYms3ZlNpa1NZcjA4dFM4YkwzVlJtNk41UVYwRXppS0VDekZCQ2c?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi5AFBVV95cUxObDVqWDhXeElWZXJfNDZLN2RPRlI2ZzJUVWFkRmtKN2psUnVMcHQ0VFVTTmtkN01rbmxLR0hwbkZjTW9ReWwweWdzNGgxa2FsWGJjdC1kX0dERGNVSm9mbVRCcEUtWDQ4b3RFUTlEcHhJMGFLbk5kbW9EZWFFR3c4c0FicG51QnNqTV9NcHBqdmJhWUFhdkdYSlNfTlBzMHlXV05RV1EtUGVBU1A4bHdCVDZiNldZd0xQYjhBblZSYms3ZlNpa1NZcjA4dFM4YkwzVlJtNk41UVYwRXppS0VDekZCQ2c?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 09:34:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Chinese AI funding surges as us rivals pursue trillion-dollar valuations - CoinDesk</title>
+<link>https://news.google.com/rss/articles/CBMiugFBVV95cUxPcXRfZ2lJMWhTbVhFdy1oR3Fwb05QXzcxZ1A5RzMybGZiRnpPczZISkxNRGVGTjN6Ym90UDdRLTJ2VlVPSXBwalNXR0tDMVliUG9SNWJDVzlpbUpRbnItZU1Bdnc0dmRDZ2wxdU92WkNsUHQ0RW5iNV93YWh0cm1Qa2o5R1dQM3B4SzRfOVg0bkZ6WmFlS1RnbmNYcnJPXzV2TjZvUkxxZWVaQVQ4dHFDQWNzVUpUYnNUX1E?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiugFBVV95cUxPcXRfZ2lJMWhTbVhFdy1oR3Fwb05QXzcxZ1A5RzMybGZiRnpPczZISkxNRGVGTjN6Ym90UDdRLTJ2VlVPSXBwalNXR0tDMVliUG9SNWJDVzlpbUpRbnItZU1Bdnc0dmRDZ2wxdU92WkNsUHQ0RW5iNV93YWh0cm1Qa2o5R1dQM3B4SzRfOVg0bkZ6WmFlS1RnbmNYcnJPXzV2TjZvUkxxZWVaQVQ4dHFDQWNzVUpUYnNUX1E?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 09:25:36 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Moonshot AI eyes Hong Kong IPO in early 2027 after a $50bn valuation - Euronews.com</title>
+<link>https://news.google.com/rss/articles/CBMivAFBVV95cUxNT1RranZCbmdUYnRyUEoweGZvVVFqTkYxOVc0QlI1TTJOSzRiM3hYdm9GTEhFem5YNkdTNzlqQkdyQUJXNlcxTmlkWnRjWGhheTJHdmZWZkt2U3lWUE9IUHA5MzVJZmp3ekJKSTJIRXRkSms3MjVkUkNtUW15UklJd0JtWW1nUFI4VW9uNElQUjBySmFUYlduOEhKaEc0NzVWN1VtcUw5SHBnMkhJdms5VTFGQTJKdHBkQmYxNw?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivAFBVV95cUxNT1RranZCbmdUYnRyUEoweGZvVVFqTkYxOVc0QlI1TTJOSzRiM3hYdm9GTEhFem5YNkdTNzlqQkdyQUJXNlcxTmlkWnRjWGhheTJHdmZWZkt2U3lWUE9IUHA5MzVJZmp3ekJKSTJIRXRkSms3MjVkUkNtUW15UklJd0JtWW1nUFI4VW9uNElQUjBySmFUYlduOEhKaEc0NzVWN1VtcUw5SHBnMkhJdms5VTFGQTJKdHBkQmYxNw?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 08:56:37 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Moonshot AI eyes Hong Kong IPO after $50 billion valuation as DeepSeek raises capital - AOL.com</title>
+<link>https://news.google.com/rss/articles/CBMifEFVX3lxTE9DejFXZEdiOXhuUndGQ1FZT2hZakxZV0w5Yy0xWmtvX3J0RjlDVXAwem5mZkNNRHg5R05WV01wYXVwZkhIS0s5RWRYRldNQl9NVXFQQ3hVYlZjZ09idkNaOHN4a1E0TWhsb1IybTh6WnZZakNzekMtV2tQZ00?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMifEFVX3lxTE9DejFXZEdiOXhuUndGQ1FZT2hZakxZV0w5Yy0xWmtvX3J0RjlDVXAwem5mZkNNRHg5R05WV01wYXVwZkhIS0s5RWRYRldNQl9NVXFQQ3hVYlZjZ09idkNaOHN4a1E0TWhsb1IybTh6WnZZakNzekMtV2tQZ00?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 08:56:37 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek's Latest Funding Round Could Reach RMB 100 Billion as Tencent and CATL Double Down - finance.biggo.com</title>
+<link>https://news.google.com/rss/articles/CBMidkFVX3lxTE02dWxQUkRwYldaeEFkelFRY21QQi1QcDFsd3ppM3diNi1JMTJJX285LTVvcEQxRFQxRVpDbm9MS3IzVGlBWXV0SmlDLUItTFJfa3dfallFQUFkRG5jMjJsUXpteXVLdlZjUGdLZkNPNHZsZTdvcUE?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTE02dWxQUkRwYldaeEFkelFRY21QQi1QcDFsd3ppM3diNi1JMTJJX285LTVvcEQxRFQxRVpDbm9MS3IzVGlBWXV0SmlDLUItTFJfa3dfallFQUFkRG5jMjJsUXpteXVLdlZjUGdLZkNPNHZsZTdvcUE?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 08:55:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Watch Out OpenAI, Anthropic: DeepSeek, Moonshot Raise Fresh Capital As Chinese Open-Weight AI Models Gain US Users - TradingView</title>
+<link>https://news.google.com/rss/articles/CBMiggJBVV95cUxNZDhtRW5keDlMZTZ5VlI0ZGhmcGhFcHFDOXhYSzNVZmFzU1Y1YU1JZGkwT29GbFZQb2VYRG9lTnVhUzZVRXlXQXJ0b21ORVJmd2xiU0drRjRqWDM5VzFpdExCMGIyeTJ6MmRFWENtYkloNElnRENFLU5WOWUtbTlOSlg1Y09TSkhhWjVNVUh5S3pTdFptTnFZZ3lLTl8tZ203U0trZnVNcmJCVjkzNjVEUjJqY0JYZnRzMnlSQjBid3NEYlN5SjRBLXpXcUFBUVVHekR0NHJuTFk4SFVxYUxXcVRfN1VSR1hoWWkxdmJGNmNJckYzU1RjeU5SSVdTYzFmOGc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiggJBVV95cUxNZDhtRW5keDlMZTZ5VlI0ZGhmcGhFcHFDOXhYSzNVZmFzU1Y1YU1JZGkwT29GbFZQb2VYRG9lTnVhUzZVRXlXQXJ0b21ORVJmd2xiU0drRjRqWDM5VzFpdExCMGIyeTJ6MmRFWENtYkloNElnRENFLU5WOWUtbTlOSlg1Y09TSkhhWjVNVUh5S3pTdFptTnFZZ3lLTl8tZ203U0trZnVNcmJCVjkzNjVEUjJqY0JYZnRzMnlSQjBid3NEYlN5SjRBLXpXcUFBUVVHekR0NHJuTFk4SFVxYUxXcVRfN1VSR1hoWWkxdmJGNmNJckYzU1RjeU5SSVdTYzFmOGc?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 08:17:05 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek Close to Securing At Least $11.94 Billion in Latest Funding Round - marketscreener.com</title>
+<link>https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnY4Y0JrNTd1a2hNRHcxMjJ5Wk1WcXQ2VFl5X0hQLXhjclVEbTRHZFJBSGFVUGpfZzNHYS1NbFdxZlNMNHNWNGZ1Z0FWWXprWTI5ZDVKck9HMVBHNXJYdW9SUGpPaGNzY1FGa1BzdGtiR0RSUWNNUUxmdllnV3oyUHZXdU1rR2R5LXhoTWlaUm5sa0FIRUVsQzh1aEVkRmJfSmo2Nk9TS1gzemFmOFRDOHZiN0g4RVhncFpRZzRnWElGTXhK?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMixAFBVV95cUxQZnY4Y0JrNTd1a2hNRHcxMjJ5Wk1WcXQ2VFl5X0hQLXhjclVEbTRHZFJBSGFVUGpfZzNHYS1NbFdxZlNMNHNWNGZ1Z0FWWXprWTI5ZDVKck9HMVBHNXJYdW9SUGpPaGNzY1FGa1BzdGtiR0RSUWNNUUxmdllnV3oyUHZXdU1rR2R5LXhoTWlaUm5sa0FIRUVsQzh1aEVkRmJfSmo2Nk9TS1gzemFmOFRDOHZiN0g4RVhncFpRZzRnWElGTXhK?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 08:13:43 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek Reported To Raise US$11 Billion In Latest Funding Round - BusinessToday Malaysia</title>
+<link>https://news.google.com/rss/articles/CBMirAFBVV95cUxQN2JQT3BKV0NhdkVMSmU0dTJzbENNZDBSVnFFMzZNYmxkaHYxMDZnYlNoMTV3elFpQi1fNFdTN0MzZFFqb1JvX1dDODdBQkJIbmlQQU50Yms3NXZuTnluaFNqNFFTX01Xd2Q1aXkwbElHWE80T0F1amRlU1pJRVFoOTZ2LW9Ea0lja0pUd0R6U0dRSjRtQUUza1l2V1RScENrVkc4UzlDNjA2YTlu?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxQN2JQT3BKV0NhdkVMSmU0dTJzbENNZDBSVnFFMzZNYmxkaHYxMDZnYlNoMTV3elFpQi1fNFdTN0MzZFFqb1JvX1dDODdBQkJIbmlQQU50Yms3NXZuTnluaFNqNFFTX01Xd2Q1aXkwbElHWE80T0F1amRlU1pJRVFoOTZ2LW9Ea0lja0pUd0R6U0dRSjRtQUUza1l2V1RScENrVkc4UzlDNjA2YTlu?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 07:56:55 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek Nears $12 Bn Funding Raise With Tencent Backing: Report - analyticsindiamag.com</title>
+<link>https://news.google.com/rss/articles/CBMiogFBVV95cUxNRGY2ZThjakJOZjVIemxoejBsREE2cG9HcTg4YmthRHZ6UktucHVkQmJnT3RuWGdzVm1lTV82dHBJdno2RTJjaUVFUGZzUHQ1S1dqNnREcUt3R242LXduNWF5b191dVFjWGxnSnVlWWZzNV9faHhaOURzekk5bkRDOXpTRDdoclRqcU83bFZrYmxEMUx4aWFMVWlGZkRLUzB6UHc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiogFBVV95cUxNRGY2ZThjakJOZjVIemxoejBsREE2cG9HcTg4YmthRHZ6UktucHVkQmJnT3RuWGdzVm1lTV82dHBJdno2RTJjaUVFUGZzUHQ1S1dqNnREcUt3R242LXduNWF5b191dVFjWGxnSnVlWWZzNV9faHhaOURzekk5bkRDOXpTRDdoclRqcU83bFZrYmxEMUx4aWFMVWlGZkRLUzB6UHc?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 07:52:08 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Nvidia-Backed Reflection AI Targets Low-Cost Chinese Models Like DeepSeek and Kimi - Benzinga</title>
+<link>https://news.google.com/rss/articles/CBMipAFBVV95cUxOUUdNbzk3OUNsZlNoWGZjZmhkZ0xNRjZrU05hMXphczJ4aDNvaDhMNlVDS1pYVzBHcU9DYUl3Yl9qVGtOeUZiS0JTNmVWck1weHh1ZTJFNDRHeV91dkRxSUx4WFBGLVVNRnBXMHVoc29pZklhczRwckcwMFhnaWVSQ0JYWWd1MnU1ektXOVZkTm9QbzR0cHlVUWRlUWJzTldoZEJwOQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMipAFBVV95cUxOUUdNbzk3OUNsZlNoWGZjZmhkZ0xNRjZrU05hMXphczJ4aDNvaDhMNlVDS1pYVzBHcU9DYUl3Yl9qVGtOeUZiS0JTNmVWck1weHh1ZTJFNDRHeV91dkRxSUx4WFBGLVVNRnBXMHVoc29pZklhczRwckcwMFhnaWVSQ0JYWWd1MnU1ektXOVZkTm9QbzR0cHlVUWRlUWJzTldoZEJwOQ?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 07:28:35 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Indonesia Targets Technology and Artificial Intelligence to Drive $300 Billion Downstreaming Strategy - streamlinefeed.co.ke</title>
+<link>https://news.google.com/rss/articles/CBMizwFBVV95cUxOTjF3NlBINS1zTXlJRnpVZExoT3l6N05feElENWs2aTFvU2prSjdnVnNjV0xCMlpIYUdWT3RlRnppQ1dSY3NvaHhIb0ZnWUVhX05rM3UzN094YVBzLUgxSUM5aUJiOW40V3lCU0ZnN0JTZEJ1a29Xb205RXZkQjR2SUdQLVF3b3lMNWptR09ndkotWWJZa2FGanhncmRzTFhTUG5OUlRsb0FRdUMzWUN4OGN5endLOVQ4dzdfWkQ1T29mUndnZ2VwZWVReklFaWc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMizwFBVV95cUxOTjF3NlBINS1zTXlJRnpVZExoT3l6N05feElENWs2aTFvU2prSjdnVnNjV0xCMlpIYUdWT3RlRnppQ1dSY3NvaHhIb0ZnWUVhX05rM3UzN094YVBzLUgxSUM5aUJiOW40V3lCU0ZnN0JTZEJ1a29Xb205RXZkQjR2SUdQLVF3b3lMNWptR09ndkotWWJZa2FGanhncmRzTFhTUG5OUlRsb0FRdUMzWUN4OGN5endLOVQ4dzdfWkQ1T29mUndnZ2VwZWVReklFaWc?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 07:10:38 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek’s funding round could approach $15 billion as investor demand surges - calcalistech.com</title>
+<link>https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wOTV4cTA0T291WTByeUo3Ync3YzBJdTd4S1ZtcEhzOVdkd2Iyb1JtTHU0YTRvNWRGTXI2M3NLZnBEWnFpeTdnQW1NcTFYQnVlMHZDVnhkcFMwdFl3U2N5dHpkZDFXZ1k?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5wOTV4cTA0T291WTByeUo3Ync3YzBJdTd4S1ZtcEhzOVdkd2Iyb1JtTHU0YTRvNWRGTXI2M3NLZnBEWnFpeTdnQW1NcTFYQnVlMHZDVnhkcFMwdFl3U2N5dHpkZDFXZ1k?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 06:51:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Blog] Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance</title>
+<link>https://huggingface.co/blog/tiiuae/falcon-emirati</link>
+<guid isPermaLink="false">https://huggingface.co/blog/tiiuae/falcon-emirati</guid>
+<pubDate>Tue, 06 Oct 2026 06:44:39 GMT</pubDate>
+<description>A Blog post by Technology Innovation Institute on Hugging Face</description>
+</item>
+<item>
+<title>[Google News] Reflection AI Beam: America's Answer to DeepSeek and Kimi - trendingtopics.eu</title>
+<link>https://news.google.com/rss/articles/CBMidkFVX3lxTE01SlBSMTBQTnh2ZnJfT09VM2FHVVRjeDBDMl83Y1ctNkxFelBTQU9ibGtad2E3UkFLbEdZbzdscUxJY2hiRXdRam1WSHM4S1NHU1BNYWJRQUtCR0JxSDZUbGtBX293TXh1dm9lVlI1TlY4QjE1dWc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTE01SlBSMTBQTnh2ZnJfT09VM2FHVVRjeDBDMl83Y1ctNkxFelBTQU9ibGtad2E3UkFLbEdZbzdscUxJY2hiRXdRam1WSHM4S1NHU1BNYWJRQUtCR0JxSDZUbGtBX293TXh1dm9lVlI1TlY4QjE1dWc?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 06:36:33 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] What is Beam? The buzzy American AI model being called the 'DeepSeek of the West' - Business Insider</title>
+<link>https://news.google.com/rss/articles/CBMilgFBVV95cUxNcG5FaHI0by01OGZSRFd1cWpCN0lnaE96ZTBVX1l0eUlTYVJRcFJPMThmRFVpX2U3RzlMbkkyTFh3bnBhUUR1WjhhWGVGbS0zVXdldm1NckJheFNhQXJyUkZ4R3hCTHJzNWpVamVRWllHRUx2MTRoRmtZZWN5N2NKTDRPWVd0c2pZQi15V0R0UkhBcnNXYUE?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMilgFBVV95cUxNcG5FaHI0by01OGZSRFd1cWpCN0lnaE96ZTBVX1l0eUlTYVJRcFJPMThmRFVpX2U3RzlMbkkyTFh3bnBhUUR1WjhhWGVGbS0zVXdldm1NckJheFNhQXJyUkZ4R3hCTHJzNWpVamVRWllHRUx2MTRoRmtZZWN5N2NKTDRPWVd0c2pZQi15V0R0UkhBcnNXYUE?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 06:31:33 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek Eyes 80 Billion Yuan in Fresh Raise Led by Amperex, Tencent - marketscreener.com</title>
+<link>https://news.google.com/rss/articles/CBMivAFBVV95cUxPa2tNeWgzSVM3Q3RQcUo1ZHgxREFPc09ZQjY5MTlXWUNnekRNY1VWYnFwVnUweWVodF9kSXpjbGh6SzViRjZfd3ExMVhpREdqMGZ3QXZNYy1QbmJWMVZCZGNDQ2pjQVdZODlYSjh6RTg1dHJ0S1pRZnI1UXp1blF0OUFJdFdPcEFEcFVjUFVsZmpnLWV5bTczSVVMdGY2THFwNmJad1NDR2x3aC1CbWoyd3o0WktkMVB5Mi1KaQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivAFBVV95cUxPa2tNeWgzSVM3Q3RQcUo1ZHgxREFPc09ZQjY5MTlXWUNnekRNY1VWYnFwVnUweWVodF9kSXpjbGh6SzViRjZfd3ExMVhpREdqMGZ3QXZNYy1QbmJWMVZCZGNDQ2pjQVdZODlYSjh6RTg1dHJ0S1pRZnI1UXp1blF0OUFJdFdPcEFEcFVjUFVsZmpnLWV5bTczSVVMdGY2THFwNmJad1NDR2x3aC1CbWoyd3o0WktkMVB5Mi1KaQ?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 06:19:22 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek to raise at least $12 billion in Tencent-backed funding - The Economic Times</title>
+<link>https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEhuTmpTYkRzZHhQWF9XdjBBbVFZT2l2R2FjVEZGTVRud3JBbFh6RWdhNm5RcnVyN0FDTjNyWWlMcEo3cXVCakFmaTJuTUZGenBlMXRZZTdCT0lNVkRLZWNTVC11SzZiX0xtRnFFM0J1a01EUnRXNUI5LW5ROFBrQ2JyWExiaDE4QTZoOWtJVW9YRUFZa0xxWUdPWkFHYllpWnhTV2JqY1FpLUZXdnMxUHREeEU4elprMFNXdFVlaHhzR1BuaXhXbzhDZTdjdHpIZDhfcGxIbWZBZWpzQW1z?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi3wFBVV95cUxPdEhuTmpTYkRzZHhQWF9XdjBBbVFZT2l2R2FjVEZGTVRud3JBbFh6RWdhNm5RcnVyN0FDTjNyWWlMcEo3cXVCakFmaTJuTUZGenBlMXRZZTdCT0lNVkRLZWNTVC11SzZiX0xtRnFFM0J1a01EUnRXNUI5LW5ROFBrQ2JyWExiaDE4QTZoOWtJVW9YRUFZa0xxWUdPWkFHYllpWnhTV2JqY1FpLUZXdnMxUHREeEU4elprMFNXdFVlaHhzR1BuaXhXbzhDZTdjdHpIZDhfcGxIbWZBZWpzQW1z?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 06:11:02 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek Nears A $12 Billion Funding Round - Finimize</title>
+<link>https://news.google.com/rss/articles/CBMiekFVX3lxTE8zaUlGU3Jlak9DYlVZWUxadUl4cmY4M29STHNqcVdBQ1habmhKOXhzVmxuaDZvaFNRczZ2YmExOF9vQUdvSHkxU1Z1UkNQa2Q5bHptYkhtcFhZd1MzanBYSHo2VlNmOFQ4SWFVaVB4RlRZalFUazVicEF3?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiekFVX3lxTE8zaUlGU3Jlak9DYlVZWUxadUl4cmY4M29STHNqcVdBQ1habmhKOXhzVmxuaDZvaFNRczZ2YmExOF9vQUdvSHkxU1Z1UkNQa2Q5bHptYkhtcFhZd1MzanBYSHo2VlNmOFQ4SWFVaVB4RlRZalFUazVicEF3?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 06:10:24 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Korea Artificial Intelligence Association posts AI policy proposal for parliamentary audit - 디지털투데이</title>
+<link>https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTWdod0VlN01SeFlzRDVMalBpYl9WV0hPWHZTMmt4OUVXQjh4REhqSVktNnJ1U1gxckdBUF9maXA1cWZXUXBIM0p3TGxxLUhRaEI2bGlQVUoyWDc5dFVGWi1HaG9CRFVvX25xdmlVQVhMczhoYmM1Xy1jV2gxbXEtYUVrNXhfbU5RX2psWXc0bV9KUW5ITWtYZC16N1ljVVByRmNlejA2XzR6SVN1OVJPZ09HN2kwd012bklCM083enZ3NDQ0Sm5SYjQwVUd6NUVOeEE?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi0gFBVV95cUxOTWdod0VlN01SeFlzRDVMalBpYl9WV0hPWHZTMmt4OUVXQjh4REhqSVktNnJ1U1gxckdBUF9maXA1cWZXUXBIM0p3TGxxLUhRaEI2bGlQVUoyWDc5dFVGWi1HaG9CRFVvX25xdmlVQVhMczhoYmM1Xy1jV2gxbXEtYUVrNXhfbU5RX2psWXc0bV9KUW5ITWtYZC16N1ljVVByRmNlejA2XzR6SVN1OVJPZ09HN2kwd012bklCM083enZ3NDQ0Sm5SYjQwVUd6NUVOeEE?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 06:07:52 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek Secures at Least $11.9 Billion in Funding Round Led by Tencent and CATL - finance.biggo.com</title>
+<link>https://news.google.com/rss/articles/CBMidkFVX3lxTFB5T0pJaDFRSWxJOWdlMVktbDAxVC0tbmY5Wi0zTkxIVjZDdGtYYVM5UURLTVl5bnJSSEdUUTJ4dVoyWUVtdTVOWDVCbUFWbHVFT2drUTMyVzltT1ZJcmhlUVNGeHdicDZJdWhrRjRCeDZfVzhUUVE?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTFB5T0pJaDFRSWxJOWdlMVktbDAxVC0tbmY5Wi0zTkxIVjZDdGtYYVM5UURLTVl5bnJSSEdUUTJ4dVoyWUVtdTVOWDVCbUFWbHVFT2drUTMyVzltT1ZJcmhlUVNGeHdicDZJdWhrRjRCeDZfVzhUUVE?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 06:05:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek set to raise at least $15 billion in Tencent-backed funding - straitstimes.com</title>
+<link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeE1vRm1fanU5emZvZmU4cjFzLUk2dERtSTZzbFNlSklUNW5VUjZUcGU1NTNianljS2lUYTFJUmx4cEdBVWhWNVg5WGJlbFViUUUzcE9xcTE0NHVISWl1WmJTT3FVMDVuNGNoS3I1UE1PZFF3SGxzdVlvdzYyb2w2TnVIOTB2QUJMZ0hQVGVFYzR4R1FodHFfLVNzclFoRVc3NmprU1l1clY?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeE1vRm1fanU5emZvZmU4cjFzLUk2dERtSTZzbFNlSklUNW5VUjZUcGU1NTNianljS2lUYTFJUmx4cEdBVWhWNVg5WGJlbFViUUUzcE9xcTE0NHVISWl1WmJTT3FVMDVuNGNoS3I1UE1PZFF3SGxzdVlvdzYyb2w2TnVIOTB2QUJMZ0hQVGVFYzR4R1FodHFfLVNzclFoRVc3NmprU1l1clY?oc=5</guid>
 <pubDate>Tue, 06 Oct 2026 06:02:00 GMT</pubDate>
 
 </item>
 <item>
-<title>[Google News] DeepSeek set to raise at least $12 bln in Tencent, CATL-led round- Bloomberg - Yahoo Finance</title>
-<link>https://news.google.com/rss/articles/CBMilgFBVV95cUxPME9jQmVpOFJYVVU5OFRhU2dfUzdXR3ZjUkQxeWtGbnR0QmxUaU8zZ2J3d2k4WWZhdlFhaUxoTU94ZlJBUjBseU1jTDFWamtmVU9zSGV5UkstMmREcEJTZm9JTmd1V3VKTDJNNmhOck5MX1RsNDJ0MVZGQUpGeFVNZ250VHBTNThLcUtiYTA4NWQ0bDZIUHc?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMilgFBVV95cUxPME9jQmVpOFJYVVU5OFRhU2dfUzdXR3ZjUkQxeWtGbnR0QmxUaU8zZ2J3d2k4WWZhdlFhaUxoTU94ZlJBUjBseU1jTDFWamtmVU9zSGV5UkstMmREcEJTZm9JTmd1V3VKTDJNNmhOck5MX1RsNDJ0MVZGQUpGeFVNZ250VHBTNThLcUtiYTA4NWQ0bDZIUHc?oc=5</guid>
-<pubDate>Tue, 06 Oct 2026 05:56:00 GMT</pubDate>
+<title>[Google News] DeepSeek and Moonshot AI: China’s A.I. Stars Head for the Stock Market - trendingtopics.eu</title>
+<link>https://news.google.com/rss/articles/CBMiZkFVX3lxTE55a3V5bE13N3NVbUV6WEpadnk2ai1LM0I1LWlJZGJmR3hMLVB4NUpvTVZjWlF5WkEtT3p1MlcwaGViNW1RSXhOS3ZjTUxRbk1jZU9maWpxNDdwNUxERmVWNWszcnNmdw?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiZkFVX3lxTE55a3V5bE13N3NVbUV6WEpadnk2ai1LM0I1LWlJZGJmR3hMLVB4NUpvTVZjWlF5WkEtT3p1MlcwaGViNW1RSXhOS3ZjTUxRbk1jZU9maWpxNDdwNUxERmVWNWszcnNmdw?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 05:59:38 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek set to raise at least $12 bln in Tencent, CATL-led round- Bloomberg - Yahoo Finance UK</title>
+<link>https://news.google.com/rss/articles/CBMiggFBVV95cUxPYlRQU3NfT0hBaWRGaU1RTjhXU1hLUGNJQnBvQUt0NUtJRVVRZnE0OF8xb0VRMzRjQXRWVG5FVW9jVF9fTDE0enBJZjNaU0JQZFFnVXUzYkN2ZXVuZGo0R2lKb2x2Q2VNT1U0VTdQemdubzM5cVdHR2NVY05DWFdScHRR?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiggFBVV95cUxPYlRQU3NfT0hBaWRGaU1RTjhXU1hLUGNJQnBvQUt0NUtJRVVRZnE0OF8xb0VRMzRjQXRWVG5FVW9jVF9fTDE0enBJZjNaU0JQZFFnVXUzYkN2ZXVuZGo0R2lKb2x2Q2VNT1U0VTdQemdubzM5cVdHR2NVY05DWFdScHRR?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 05:58:10 GMT</pubDate>
 
 </item>
 <item>
@@ -28,6 +308,13 @@
 
 </item>
 <item>
+<title>[Google News] DeepSeek to raise at least US$12 billion in Tencent-backed funding - The Business Times</title>
+<link>https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbWdTSmRvMTEzWERIaDVibDRzZE4tdnNRb2toQzNFT3c2enJ1QUEtS081a2ZIYWQzZnFLOHhJXzJnM1hjT1BFUUxlNWJsdVh1NFZ5NXN4N21jQ0M5OFRYT0tfbUtZSXQ2MnhfTWhsS0ZFa2dwZVV3N3lVa2pQT0xkdmtuU2trUlJIUjFSTDM2Sy1YUnZUTVlzNkN3ZUV5dGVaVUJiUW5VUHpad2JjN1BicDhtLWVQSGNsM0h6ZEdQMTdiaVE?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbWdTSmRvMTEzWERIaDVibDRzZE4tdnNRb2toQzNFT3c2enJ1QUEtS081a2ZIYWQzZnFLOHhJXzJnM1hjT1BFUUxlNWJsdVh1NFZ5NXN4N21jQ0M5OFRYT0tfbUtZSXQ2MnhfTWhsS0ZFa2dwZVV3N3lVa2pQT0xkdmtuU2trUlJIUjFSTDM2Sy1YUnZUTVlzNkN3ZUV5dGVaVUJiUW5VUHpad2JjN1BicDhtLWVQSGNsM0h6ZEdQMTdiaVE?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 05:49:00 GMT</pubDate>
+
+</item>
+<item>
 <title>[Google News] Deepseek To Raise At Least $12 Billion In Tencent-Backed Funding- Bloomberg News - TradingView</title>
 <link>https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa2UwSmtLUE5jOVBJUGtNUmFLdUcyQ0hnSlpDS2lzcVhyUkhZU01rOG5GcUFRRGlNQmlRbnZVNUw1NmNsdE1MbXlIWV80Y3pNUVZNNFMyZm5MN3NwTVI1WWRVdkhWZ1dfa2JPZUNsQXdNclRQVDBUOHVJcHVpLVFabXdJOE9IX1BSTGZuYUpvNG1wYko1YzI4VTR6VG43SC14Y3JZX21yZTVLdWJCZkNkb3dzN05tRDJVRzlLYzVTTTQ0dkVQTy1qWjhFNjhJZFdteTZBOFhGcFFzd2o5NlM1R0N3?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi4gFBVV95cUxOa2UwSmtLUE5jOVBJUGtNUmFLdUcyQ0hnSlpDS2lzcVhyUkhZU01rOG5GcUFRRGlNQmlRbnZVNUw1NmNsdE1MbXlIWV80Y3pNUVZNNFMyZm5MN3NwTVI1WWRVdkhWZ1dfa2JPZUNsQXdNclRQVDBUOHVJcHVpLVFabXdJOE9IX1BSTGZuYUpvNG1wYko1YzI4VTR6VG43SC14Y3JZX21yZTVLdWJCZkNkb3dzN05tRDJVRzlLYzVTTTQ0dkVQTy1qWjhFNjhJZFdteTZBOFhGcFFzd2o5NlM1R0N3?oc=5</guid>
@@ -35,31 +322,17 @@
 
 </item>
 <item>
-<title>[Google News] DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - reuters.com</title>
-<link>https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ0hfa1A1NjJCNExCcDJkTmFQOTMtOTV5MU9ZSDQ4M0pUTDBBUzdTNjVTMHpkMUROdG5qWVBXaVcza29USWdhRHd0dDcyRmdBSDBYYVYzYzVSeVN4WlhkN2pURGk4blpRaFpTYUpjeHhwTDBuQ0dmTWJKNnJIM3dmSEhFUC1TQWltODdoY1ZLSmh4MmNMakhOOXl4RHAzTXM5ckx0NTVoZ2dwc0dDaDRRVVRjSTFBc053cjVMOTl6b1VVcW5rNU9MWk9CdGk?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ0hfa1A1NjJCNExCcDJkTmFQOTMtOTV5MU9ZSDQ4M0pUTDBBUzdTNjVTMHpkMUROdG5qWVBXaVcza29USWdhRHd0dDcyRmdBSDBYYVYzYzVSeVN4WlhkN2pURGk4blpRaFpTYUpjeHhwTDBuQ0dmTWJKNnJIM3dmSEhFUC1TQWltODdoY1ZLSmh4MmNMakhOOXl4RHAzTXM5ckx0NTVoZ2dwc0dDaDRRVVRjSTFBc053cjVMOTl6b1VVcW5rNU9MWk9CdGk?oc=5</guid>
-<pubDate>Tue, 06 Oct 2026 05:25:00 GMT</pubDate>
+<title>[Google News] DeepSeek Set to Raise $12 Billion in Funding as IPO Plans Take Shape - asiabusinessoutlook.com</title>
+<link>https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQUozSVVfOXY1SU9CbDNmeEJLSXRhdFJNVUVtNFpFdUNXWnZDUU5BSk03bWdWaGh0anBieUNSN2ZOM2ZvY2dGRmtPZXdsdEhMemt3ZDUzN2VDdl9zSlJXVk9VSzV1dXN6SXY5cnZQM3pDUGhtRXFfWmVEbGQySGdwR204YnBjaDRucWJrQkFBUUR4dVd2MC1wVnVzV1k2bXBwaVA3RDViRVBLVzFHMjRaR0F4bTRQMmwxcFV5SFJmZXpIUQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQUozSVVfOXY1SU9CbDNmeEJLSXRhdFJNVUVtNFpFdUNXWnZDUU5BSk03bWdWaGh0anBieUNSN2ZOM2ZvY2dGRmtPZXdsdEhMemt3ZDUzN2VDdl9zSlJXVk9VSzV1dXN6SXY5cnZQM3pDUGhtRXFfWmVEbGQySGdwR204YnBjaDRucWJrQkFBUUR4dVd2MC1wVnVzV1k2bXBwaVA3RDViRVBLVzFHMjRaR0F4bTRQMmwxcFV5SFJmZXpIUQ?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 05:33:50 GMT</pubDate>
 
 </item>
 <item>
-<title>[Google News] DeepSeek to Raise at Least $12 Billion in Tencent-Backed Funding - Bloomberg.com</title>
-<link>https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXVsa1AtZXBYRFRpZG9IQ1JKcW5qVjZiLVNsUDhRc2hJRWJVYlZ1cXR3TGdKS2NOb3hkZ3dFM1lCdjFEWW05YjJPMl85cGwxWFZhbWdWSnNMVGJTem1RY2c5azlLbS1kRnhqdE5tY1NBWVZwM1BDUHV4RWxvcmVzdkdNVEY3VXlqQVF4N0diNU9WUjVJT3VGOU9lNVFEY0VhZlIyMG1yaE96Ui1xOFlwYlJLS28?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitAFBVV95cUxQQXVsa1AtZXBYRFRpZG9IQ1JKcW5qVjZiLVNsUDhRc2hJRWJVYlZ1cXR3TGdKS2NOb3hkZ3dFM1lCdjFEWW05YjJPMl85cGwxWFZhbWdWSnNMVGJTem1RY2c5azlLbS1kRnhqdE5tY1NBWVZwM1BDUHV4RWxvcmVzdkdNVEY3VXlqQVF4N0diNU9WUjVJT3VGOU9lNVFEY0VhZlIyMG1yaE96Ui1xOFlwYlJLS28?oc=5</guid>
-<pubDate>Tue, 06 Oct 2026 05:00:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Opinion | India's Gen Z Faces Down The Artificial Intelligence Future - NDTV</title>
-<link>https://news.google.com/rss/articles/CBMinAFBVV95cUxPcm1uZmE4MlJHeXdGaHlYQ3BUV1NVcE5Obnp1Wmd1UkhMeTdBT0dGclFwd0p2emdkRkVDQW1ab3J5NXJHejBlX3N2VUJvZkJleVNtWk1rOFlmanVIRGtuOHhtby1NNkplZUozTzE5Y1NQUWxTU1NrM3hISTlyem1NXzVzcGQ4RTdCWVhtdk16MEFBdUFad3VvRTFMRTXSAaQBQVVfeXFMT0NnVWxETGItVGZYNUJwczJpcFUybE1DRERFUnNCcHUxWEtnT1hNT0k1SWVQcEZiS3dqcHlYVUE4SjJGcGYwMWJaWEVjb2poSlhMQXN6LWowRUdGVTBkTnVBVTN6V2hNY3ZVUmV5cmpaMWJ4a3dMUnhodHFNYVVyV25PZVVYU2RuVUNTa2N5dGtSUEVJeU9VZzBUUTExM0wzaXQwYTI?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMinAFBVV95cUxPcm1uZmE4MlJHeXdGaHlYQ3BUV1NVcE5Obnp1Wmd1UkhMeTdBT0dGclFwd0p2emdkRkVDQW1ab3J5NXJHejBlX3N2VUJvZkJleVNtWk1rOFlmanVIRGtuOHhtby1NNkplZUozTzE5Y1NQUWxTU1NrM3hISTlyem1NXzVzcGQ4RTdCWVhtdk16MEFBdUFad3VvRTFMRTXSAaQBQVVfeXFMT0NnVWxETGItVGZYNUJwczJpcFUybE1DRERFUnNCcHUxWEtnT1hNT0k1SWVQcEZiS3dqcHlYVUE4SjJGcGYwMWJaWEVjb2poSlhMQXN6LWowRUdGVTBkTnVBVTN6V2hNY3ZVUmV5cmpaMWJ4a3dMUnhodHFNYVVyV25PZVVYU2RuVUNTa2N5dGtSUEVJeU9VZzBUUTExM0wzaXQwYTI?oc=5</guid>
-<pubDate>Tue, 06 Oct 2026 04:23:52 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Lei Jun Backs a 31-Year-Old Exceptional Female Leader with a Significant Stake in Her Venture - 36 Kr</title>
-<link>https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtdlJ0TDlnazllMGdXR0ZNVFp5elE4VXBBVE04WEtycHNDMnZSX0NvdE1BX09UdTZSbmcyendDb3BlQkRDaldtcEt5blRGN2Z1dWRJ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtdlJ0TDlnazllMGdXR0ZNVFp5elE4VXBBVE04WEtycHNDMnZSX0NvdE1BX09UdTZSbmcyendDb3BlQkRDaldtcEt5blRGN2Z1dWRJ?oc=5</guid>
-<pubDate>Tue, 06 Oct 2026 04:23:04 GMT</pubDate>
+<title>[Google News] DeepSeek to raise at least $12 billion in Tencent-backed funding, Bloomberg News reports - The Star</title>
+<link>https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSXNWNVpNNnFlRVR6QlpDemd6VVRZalpuUlBvSDVNOFpnRnY1VDI0M3RvMzNiRklmeC1qM2dYZEpoekZzWkZ2NkJBQmRLY0xsUW84NDhIUDZqS0xheGthb3Q5bmZ2eER4RFhKRG9WNzZDT2VMb2REWmNGblNrcnBram5nZjJmNW5MOU9FNUhfTkZGdGpGcGp3eUc3ckN0QlUyVHVmNXBiOXNVSWVFZGoxRFF3OTVpelRVWUFkNERaVFJmYVNtdVhhc0FmdnBDam9NYTd0bXRn?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSXNWNVpNNnFlRVR6QlpDemd6VVRZalpuUlBvSDVNOFpnRnY1VDI0M3RvMzNiRklmeC1qM2dYZEpoekZzWkZ2NkJBQmRLY0xsUW84NDhIUDZqS0xheGthb3Q5bmZ2eER4RFhKRG9WNzZDT2VMb2REWmNGblNrcnBram5nZjJmNW5MOU9FNUhfTkZGdGpGcGp3eUc3ckN0QlUyVHVmNXBiOXNVSWVFZGoxRFF3OTVpelRVWUFkNERaVFJmYVNtdVhhc0FmdnBDam9NYTd0bXRn?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 05:33:00 GMT</pubDate>
 
 </item>
 <item>
@@ -70,38 +343,38 @@
 
 </item>
 <item>
-<title>[Google News] News | AI firm Sierra grows San Francisco footprint again after one of city’s biggest office deals - CoStar</title>
-<link>https://news.google.com/rss/articles/CBMiywFBVV95cUxNYms5aUlEZ003cDE5WVNxd0pSSlEtOGtzdHNnd0lOSzVmQm4xRXJkdmQ3VVNIa3FrWnlZcWw2UDBsZUVwblVzbnByX0Y5V3FidG9nWFRFdWtMbDBFbzVlMUx1d1VYdzFNMzlWdGNBcDVUUjJCUzdmcVpFUUZkRzdqZkF5aURJNWZKMWRSeVgzT0E4OTkxR3Fwc0NHM295em9iRlJUMUVFYTRiVkpJbFMxV0Fmb05hZHFCb010UFU5blEzbmt0dXVvemw0UQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiywFBVV95cUxNYms5aUlEZ003cDE5WVNxd0pSSlEtOGtzdHNnd0lOSzVmQm4xRXJkdmQ3VVNIa3FrWnlZcWw2UDBsZUVwblVzbnByX0Y5V3FidG9nWFRFdWtMbDBFbzVlMUx1d1VYdzFNMzlWdGNBcDVUUjJCUzdmcVpFUUZkRzdqZkF5aURJNWZKMWRSeVgzT0E4OTkxR3Fwc0NHM295em9iRlJUMUVFYTRiVkpJbFMxV0Fmb05hZHFCb010UFU5blEzbmt0dXVvemw0UQ?oc=5</guid>
-<pubDate>Tue, 06 Oct 2026 01:51:57 GMT</pubDate>
-
-</item>
-<item>
 <title>[Google News] AI apocalypse? Most Louisiana candidates for Congress stay vague on regulation - Louisiana Illuminator</title>
 <link>https://news.google.com/rss/articles/CBMitgFBVV95cUxOVzRWWFM2b0pBTTIySVRPVlNHRjZTaWRNXzNaYnMzbV9VVTFURDJXdWRiblF2cW1sUFMtSFM1WUFlTzFlLWxqR1J0RlQ1NERZN0xzMF8tVVEtcjc4YkhGUjBpWUJhTF9PemJVVDdhODV0ZEtHaXVPWEN0TlFkU2E1aWlfRUMwcE1idzlOOHhhMWhjcU5aM2hPY2c3c1dyeTdBMDU4ZGtIX1IwMzJ3b1JDTmY5MTFMQQ?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMitgFBVV95cUxOVzRWWFM2b0pBTTIySVRPVlNHRjZTaWRNXzNaYnMzbV9VVTFURDJXdWRiblF2cW1sUFMtSFM1WUFlTzFlLWxqR1J0RlQ1NERZN0xzMF8tVVEtcjc4YkhGUjBpWUJhTF9PemJVVDdhODV0ZEtHaXVPWEN0TlFkU2E1aWlfRUMwcE1idzlOOHhhMWhjcU5aM2hPY2c3c1dyeTdBMDU4ZGtIX1IwMzJ3b1JDTmY5MTFMQQ?oc=5</guid>
-<pubDate>Tue, 06 Oct 2026 01:00:33 GMT</pubDate>
+<pubDate>Tue, 06 Oct 2026 02:55:05 GMT</pubDate>
 
 </item>
 <item>
-<title>[Google News] He Botched The Epstein Files. Now He’s Trump’s Intelligence And AI Lead. - levernews.com</title>
+<title>[Google News] Beam Joins Open-Weight AI Efficiency Race [2026] - shattered.io</title>
+<link>https://news.google.com/rss/articles/CBMia0FVX3lxTE5UYThyb3NHWnN5WFAzVE81VjlCdS10UWlyX0ZIclFLTWZLXzh3dkhfY1NUV0ZUZ3JGS0luRFVzU1ZOZnRrSnViSlpHUnFNNk1qTU9iM3pkY1J6VEJDQWNSdHJ4bUEyWk1YeFpV?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMia0FVX3lxTE5UYThyb3NHWnN5WFAzVE81VjlCdS10UWlyX0ZIclFLTWZLXzh3dkhfY1NUV0ZUZ3JGS0luRFVzU1ZOZnRrSnViSlpHUnFNNk1qTU9iM3pkY1J6VEJDQWNSdHJ4bUEyWk1YeFpV?oc=5</guid>
+<pubDate>Tue, 06 Oct 2026 02:21:46 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] He Botched The Epstein Files. Now He’s Trump’s Intelligence And AI Lead. - The Lever</title>
 <link>https://news.google.com/rss/articles/CBMimwFBVV95cUxNeHdZejB5OVM5WHpVWTNHNUFJYjV1SkFWMFFXZTNpcDBrQWZURGRORnRJckM4d196OGxzWDJCWGJEbjRJNzA1Ynp6Mlgzejk5V1oyX0w2US1oSFF6MVZRbDdFdXZxY3hyUURlaUQ0bXdJTlVCWDRSTDdsODh0NjVCdW5JMEFsckk0TjBPN0hjX2JjMXFwSnd6bGJ1Zw?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMimwFBVV95cUxNeHdZejB5OVM5WHpVWTNHNUFJYjV1SkFWMFFXZTNpcDBrQWZURGRORnRJckM4d196OGxzWDJCWGJEbjRJNzA1Ynp6Mlgzejk5V1oyX0w2US1oSFF6MVZRbDdFdXZxY3hyUURlaUQ0bXdJTlVCWDRSTDdsODh0NjVCdW5JMEFsckk0TjBPN0hjX2JjMXFwSnd6bGJ1Zw?oc=5</guid>
 <pubDate>Tue, 06 Oct 2026 00:44:06 GMT</pubDate>
 
 </item>
 <item>
+<title>[YouTube] Building a custom website to stay on top of business with ChatGPT</title>
+<link>https://www.youtube.com/shorts/q0_JXcrx3jk</link>
+<guid isPermaLink="false">https://www.youtube.com/shorts/q0_JXcrx3jk</guid>
+<pubDate>Tue, 06 Oct 2026 00:36:28 GMT</pubDate>
+<description>This furniture shop is popular. So popular that it's tough to keep track of all of the inbound requests. ChatGPT can fix that. Victor Nunez Rodriguez visited Philadelphia Table Company in Philly to help him build a tool to stay on top of it all. Do you have something you wish existed? Drop your idea</description>
+</item>
+<item>
 <title>[Google News] AI whistleblowers encourage NYC Council to enforce more regulation - New York Daily News</title>
 <link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVHBQVDBnOWRNRW5CTGFuSkdRVGpaRFFRRFo2eDR5U2xiM3ZrQ2VPd3o5VEVFNU1iZTE1OTc0WWtQQWNseGk0RGNqd0F0QTZpaURabHprU3gtNTFEMHF5M01RVE5TNnhvTGxRTHpGbDk2UV9OODEyUFliSjJaRDJsZGJZS1RlQ3UyeWtEc2Z1dmlJai0yaXQ1bW9qUmZrWHdFREZWVS1NblZPZw?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVHBQVDBnOWRNRW5CTGFuSkdRVGpaRFFRRFo2eDR5U2xiM3ZrQ2VPd3o5VEVFNU1iZTE1OTc0WWtQQWNseGk0RGNqd0F0QTZpaURabHprU3gtNTFEMHF5M01RVE5TNnhvTGxRTHpGbDk2UV9OODEyUFliSjJaRDJsZGJZS1RlQ3UyeWtEc2Z1dmlJai0yaXQ1bW9qUmZrWHdFREZWVS1NblZPZw?oc=5</guid>
 <pubDate>Tue, 06 Oct 2026 00:34:44 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Reflection AI Beam: 501B-Param Open Model Debuts [2026] - tech-insider.org</title>
-<link>https://news.google.com/rss/articles/CBMie0FVX3lxTE5aSWhVSUszemNLQm5jWnhIODUwSjgtdloyZjJ2LTlZVzh6dlBzQ1J4a3RvSFpFTld4MVY0UzUxaXBCOUNkUUh0WlRYUGlfeDRDRUlkZ2NVUHd6c1ZRYU9ULTZEcXJkVWgwVmk5b2hZZTkxRjd1dGd0d3B2MA?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMie0FVX3lxTE5aSWhVSUszemNLQm5jWnhIODUwSjgtdloyZjJ2LTlZVzh6dlBzQ1J4a3RvSFpFTld4MVY0UzUxaXBCOUNkUUh0WlRYUGlfeDRDRUlkZ2NVUHd6c1ZRYU9ULTZEcXJkVWgwVmk5b2hZZTkxRjd1dGd0d3B2MA?oc=5</guid>
-<pubDate>Tue, 06 Oct 2026 00:13:12 GMT</pubDate>
 
 </item>
 <item>
@@ -112,31 +385,31 @@
 
 </item>
 <item>
-<title>[Google News] AI Completes Work, But Does Achievement Fade? - 조선일보</title>
-<link>https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSTl2MVg5X252YWpHWVpmWHpvUWRnc2UyVjVzLXIzdXFWYUYydE9fNkFQRlJhd2xBcHZLNE1BYVZFVTQ2LVN5VV96cnBxRnZfM2drMzI0d1lFRXdjRlVHN2NkcXFOaVluZ2tsZkUyczB1bU1sc3B6LThWMEw2OWxkOVE0QlI2VndS?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSTl2MVg5X252YWpHWVpmWHpvUWRnc2UyVjVzLXIzdXFWYUYydE9fNkFQRlJhd2xBcHZLNE1BYVZFVTQ2LVN5VV96cnBxRnZfM2drMzI0d1lFRXdjRlVHN2NkcXFOaVluZ2tsZkUyczB1bU1sc3B6LThWMEw2OWxkOVE0QlI2VndS?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 23:18:58 GMT</pubDate>
+<title>[Blog] Multilingual Bridges: How Data Mixing Unlocks In-Language Reasoning</title>
+<link>https://cohere.com/blog/building-multilingual-bridges</link>
+<guid isPermaLink="false">https://cohere.com/blog/building-multilingual-bridges</guid>
+<pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+<description>When a reasoning model gets an answer wrong, you’d read its reasoning to find out why. But what if that reasoning is in a language you don't speak?</description>
+</item>
+<item>
+<title>[Google News] News | AI firm Sierra grows San Francisco footprint again after one of city’s biggest office deals - CoStar</title>
+<link>https://news.google.com/rss/articles/CBMiywFBVV95cUxNYms5aUlEZ003cDE5WVNxd0pSSlEtOGtzdHNnd0lOSzVmQm4xRXJkdmQ3VVNIa3FrWnlZcWw2UDBsZUVwblVzbnByX0Y5V3FidG9nWFRFdWtMbDBFbzVlMUx1d1VYdzFNMzlWdGNBcDVUUjJCUzdmcVpFUUZkRzdqZkF5aURJNWZKMWRSeVgzT0E4OTkxR3Fwc0NHM295em9iRlJUMUVFYTRiVkpJbFMxV0Fmb05hZHFCb010UFU5blEzbmt0dXVvemw0UQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiywFBVV95cUxNYms5aUlEZ003cDE5WVNxd0pSSlEtOGtzdHNnd0lOSzVmQm4xRXJkdmQ3VVNIa3FrWnlZcWw2UDBsZUVwblVzbnByX0Y5V3FidG9nWFRFdWtMbDBFbzVlMUx1d1VYdzFNMzlWdGNBcDVUUjJCUzdmcVpFUUZkRzdqZkF5aURJNWZKMWRSeVgzT0E4OTkxR3Fwc0NHM295em9iRlJUMUVFYTRiVkpJbFMxV0Fmb05hZHFCb010UFU5blEzbmt0dXVvemw0UQ?oc=5</guid>
+<pubDate>Mon, 05 Oct 2026 23:29:26 GMT</pubDate>
 
 </item>
 <item>
-<title>[Google News] US urged to collaborate more in the field of AI - chinadaily.com.cn</title>
-<link>https://news.google.com/rss/articles/CBMifkFVX3lxTE1MNmZQZHZnSmNaZl9ad3NlTDc3NnE2VjNQQlY3VThBS2ljVGxOSmJZa3J6Ym9rZUd2OW9Bdzc5Qnc3VUFvT3NmWHFTbXFVUGxhYmJ2eVhjakk0NU5OdnIzaDRuUTA1RmFhbk1qSzctR2YtRHJmX1N4TU9NS3B6QQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMifkFVX3lxTE1MNmZQZHZnSmNaZl9ad3NlTDc3NnE2VjNQQlY3VThBS2ljVGxOSmJZa3J6Ym9rZUd2OW9Bdzc5Qnc3VUFvT3NmWHFTbXFVUGxhYmJ2eVhjakk0NU5OdnIzaDRuUTA1RmFhbk1qSzctR2YtRHJmX1N4TU9NS3B6QQ?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 22:59:36 GMT</pubDate>
+<title>[Google News] In NYC, Mamdani cedes AI regulation lane - Politico</title>
+<link>https://news.google.com/rss/articles/CBMikwFBVV95cUxNNTZCd1NqdHNnZU9mbmVBa2k3VVp4a1p3dGxJVTdGNFZaWUU1eGgzTnVST3N5Y25pZ0pqb2hQMmc1cGlqemVka3Zib2QwMUV0RlA3LVNvQ1prR0RtZFFxaklqUFhjaEFfZTBFX3FIZ3ZKN1NaVGZpZjNTbVkxT0NuYUFYdElyT3ZJeWk1Slp0eExQOWc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMikwFBVV95cUxNNTZCd1NqdHNnZU9mbmVBa2k3VVp4a1p3dGxJVTdGNFZaWUU1eGgzTnVST3N5Y25pZ0pqb2hQMmc1cGlqemVka3Zib2QwMUV0RlA3LVNvQ1prR0RtZFFxaklqUFhjaEFfZTBFX3FIZ3ZKN1NaVGZpZjNTbVkxT0NuYUFYdElyT3ZJeWk1Slp0eExQOWc?oc=5</guid>
+<pubDate>Mon, 05 Oct 2026 23:07:00 GMT</pubDate>
 
 </item>
 <item>
-<title>[Google News] AI expert Gary Marcus warns 'reckless' technology could lead to deaths as he calls for more regulation - Fox Business</title>
+<title>[Google News] AI expert Gary Marcus warns 'reckless' technology could lead to deaths as he calls for more regulation - foxbusiness.com</title>
 <link>https://news.google.com/rss/articles/CBMitAFBVV95cUxNVU9sV3ZyMHZpajNZZEdJXy04SWdqLWdvd1BXLW81NVZNajF6VXlBaDBpSnZFM3BPUTNwS01WcmZ2QmpXXzZ2ckg2bTlBSHdrMzNJOUdIeElJX0pXMnhWQ29tMDRZeWFhQ2RaZmNBaFNGVWFpYzhyUEZLOTJzY0hHSmd6MUpqT2V3TEZvSXBFRjBnYWNWcmZsNjBEaVMyeVhicHpxWlZ5d3hxRm5kQXNfRzZEa2zSAboBQVVfeXFMTmZBTkJqMU9YV084V05Ed05GMXFjY1lWa3BDNF83dUJzbFpxR1VjWU94dkRSb2dYRkU2anRaeWdTdDJka0lGZ1dVUW9RSFFTWmpKY2VNY1NMRFRLOEwySVg3aVBVdnljd05mT3dvSzVzTzlsLUV5bXZ4ZXNKT1lBMDc5ZlhiRGdSMmtyemt2OUNfLTA2MU4tc3NnNUhlVXBobVVXcDNfR09Rb0hNbnBKNzRKY28zOUFib2d3?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMitAFBVV95cUxNVU9sV3ZyMHZpajNZZEdJXy04SWdqLWdvd1BXLW81NVZNajF6VXlBaDBpSnZFM3BPUTNwS01WcmZ2QmpXXzZ2ckg2bTlBSHdrMzNJOUdIeElJX0pXMnhWQ29tMDRZeWFhQ2RaZmNBaFNGVWFpYzhyUEZLOTJzY0hHSmd6MUpqT2V3TEZvSXBFRjBnYWNWcmZsNjBEaVMyeVhicHpxWlZ5d3hxRm5kQXNfRzZEa2zSAboBQVVfeXFMTmZBTkJqMU9YV084V05Ed05GMXFjY1lWa3BDNF83dUJzbFpxR1VjWU94dkRSb2dYRkU2anRaeWdTdDJka0lGZ1dVUW9RSFFTWmpKY2VNY1NMRFRLOEwySVg3aVBVdnljd05mT3dvSzVzTzlsLUV5bXZ4ZXNKT1lBMDc5ZlhiRGdSMmtyemt2OUNfLTA2MU4tc3NnNUhlVXBobVVXcDNfR09Rb0hNbnBKNzRKY28zOUFib2d3?oc=5</guid>
 <pubDate>Mon, 05 Oct 2026 22:48:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Keep Your AI On The Ball: A Policyholder’s Guide To Artificial Intelligence Insurance Coverage - Pryor Cashman LLP</title>
-<link>https://news.google.com/rss/articles/CBMizwFBVV95cUxQOHkzaXhlX0xaNUc2R0NWT1oxSzZfcmhsSzBLaGhRQjY3VkJENDNobkt1dS1ZZkp0YmdVSmJtV2k0UGhmSmNfTkk3NXR1eW54S0h6aU5MWnFQQmlQcWtKZ0I2VTRGbEROZGViQVVWTDk4azZoUlBRMlNNNnczUlYwRFlGV2xFb0xEaC13Yy1kUHg3X1UyMjFGYlpFQ2dnWXJvYi0wNm9LbjFjM3VVbG9QTXI5cVBCcWhCY1Nfbm1Rd0E1VDdwc3lVS2RNd0cyU0U?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMizwFBVV95cUxQOHkzaXhlX0xaNUc2R0NWT1oxSzZfcmhsSzBLaGhRQjY3VkJENDNobkt1dS1ZZkp0YmdVSmJtV2k0UGhmSmNfTkk3NXR1eW54S0h6aU5MWnFQQmlQcWtKZ0I2VTRGbEROZGViQVVWTDk4azZoUlBRMlNNNnczUlYwRFlGV2xFb0xEaC13Yy1kUHg3X1UyMjFGYlpFQ2dnWXJvYi0wNm9LbjFjM3VVbG9QTXI5cVBCcWhCY1Nfbm1Rd0E1VDdwc3lVS2RNd0cyU0U?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 21:18:34 GMT</pubDate>
 
 </item>
 <item>
@@ -147,284 +420,11 @@
 
 </item>
 <item>
-<title>[Google News] Nvidia-backed Reflection unveils first AI model to take on Chinese open models - Fort Worth Star-Telegram</title>
-<link>https://news.google.com/rss/articles/CBMic0FVX3lxTE5KcjRjMTVjalJvb1RfR0F0NjhKYl9Ma2pFcWFRa2ZFbFJQRHJ1QWF2YTZ4Sm93cnQ1UklrcmhHSGFjaTNwMzNZZmdYVWxkVGlDcXl5VnozamFYXzI0cXlSZEdfWXk3T2ZOc0FOeUt2aWNSNVU?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMic0FVX3lxTE5KcjRjMTVjalJvb1RfR0F0NjhKYl9Ma2pFcWFRa2ZFbFJQRHJ1QWF2YTZ4Sm93cnQ1UklrcmhHSGFjaTNwMzNZZmdYVWxkVGlDcXl5VnozamFYXzI0cXlSZEdfWXk3T2ZOc0FOeUt2aWNSNVU?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 21:02:07 GMT</pubDate>
+<title>[Google News] ‘The clock on AI regulation is ticking’, warns UN rights chief - UN News</title>
+<link>https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VVDZMN2NVNDFBOGRBUWRKWjZIVFFmVVBPSHhvUmhoNWhHNGxwWFdjSnROYzNFcXJ6dXJON0tHdjdVbXNEWmFLWDJ1dVctU1hzNzExM3Z1QQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiV0FVX3lxTE1VVDZMN2NVNDFBOGRBUWRKWjZIVFFmVVBPSHhvUmhoNWhHNGxwWFdjSnROYzNFcXJ6dXJON0tHdjdVbXNEWmFLWDJ1dVctU1hzNzExM3Z1QQ?oc=5</guid>
+<pubDate>Mon, 05 Oct 2026 20:11:23 GMT</pubDate>
 
-</item>
-<item>
-<title>[Google News] Reflection AI's 5B Open Model Challenges China [2026] - tech-insider.org</title>
-<link>https://news.google.com/rss/articles/CBMid0FVX3lxTE5OMlNSTElWS19ObmJERUFmVzI1MHRpeXcybExyT29xd1hyM0J3UVBoUEViLTdrYnFCaEE1dnlGQzBKUkFidTZOVW9rQm54ajAweHVndzdDODlPNXM4QVA2SFZTOU5LXzlBZmY5dFVVUEtMSTJnNkxr?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMid0FVX3lxTE5OMlNSTElWS19ObmJERUFmVzI1MHRpeXcybExyT29xd1hyM0J3UVBoUEViLTdrYnFCaEE1dnlGQzBKUkFidTZOVW9rQm54ajAweHVndzdDODlPNXM4QVA2SFZTOU5LXzlBZmY5dFVVUEtMSTJnNkxr?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 19:24:18 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Reflection’s founders on building a DeepSeek of the West - sources.news</title>
-<link>https://news.google.com/rss/articles/CBMidkFVX3lxTFBfOURaUldkQW9fWTRyR2VRUUxuTElKUXpvQkhPa2E5TFJ5M1pJMU92VFk4TUF4Ri1XNnlFWHBsYXJpSnJGYzJPZVRNeHVILVRYZW1USEFGZks2NEZmaEllRDg2cWdmaWZXMHoxTVVZMXdMN200QkE?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTFBfOURaUldkQW9fWTRyR2VRUUxuTElKUXpvQkhPa2E5TFJ5M1pJMU92VFk4TUF4Ri1XNnlFWHBsYXJpSnJGYzJPZVRNeHVILVRYZW1USEFGZks2NEZmaEllRDg2cWdmaWZXMHoxTVVZMXdMN200QkE?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 19:01:48 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Reflection AI unveils its first open model, Beam. Could it be America’s best chance to compete with China? - fortune.com</title>
-<link>https://news.google.com/rss/articles/CBMiswFBVV95cUxOZENvRHJUb3JKWEFMQWsySkliYk9MOTF1VUxqdi1kMl81Sm8wWjNXMUpHNUMxTWRoSFl2OWo0d3VWeFNaSFJIUGJLMXNVWmRINlgwWDdwLU04c3VnSmotYlBlYkEzX2FTc1ZSejBManV1UVEwOFRHTm1NNlZTbndjRHNZS2JYUmQyXy1OM0dYZzhOZjJlWVk5N0szejFrUkNaNDRnV2tXQjFzSEozNXZJc01uMA?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiswFBVV95cUxOZENvRHJUb3JKWEFMQWsySkliYk9MOTF1VUxqdi1kMl81Sm8wWjNXMUpHNUMxTWRoSFl2OWo0d3VWeFNaSFJIUGJLMXNVWmRINlgwWDdwLU04c3VnSmotYlBlYkEzX2FTc1ZSejBManV1UVEwOFRHTm1NNlZTbndjRHNZS2JYUmQyXy1OM0dYZzhOZjJlWVk5N0szejFrUkNaNDRnV2tXQjFzSEozNXZJc01uMA?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 19:00:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] In The Know: Oklahoma gubernatorial candidates debate education, healthcare and artificial intelligence | Oklahoma schools set guardrails for AI in the classroom | The problem with Oklahoma’s property tax ‘fixes’ - Oklahoma Policy Institute</title>
-<link>https://news.google.com/rss/articles/CBMiV0FVX3lxTE9fOUUxaXZWYjJvVXYtYmFwa2pPUEJzTmFTNUNveVF5eWVESFFraFhiSWxBRnJtbDgtMVBIM0lDTHpram9iNXhudElhblBvM0ItNXBBSGYzRQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiV0FVX3lxTE9fOUUxaXZWYjJvVXYtYmFwa2pPUEJzTmFTNUNveVF5eWVESFFraFhiSWxBRnJtbDgtMVBIM0lDTHpram9iNXhudElhblBvM0ItNXBBSGYzRQ?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 18:31:05 GMT</pubDate>
-
-</item>
-<item>
-<title>[YouTube] Release Recap - Automation’s Early Footprint Understanding How Agentic Tools Match with Work Tasks</title>
-<link>https://www.youtube.com/watch?v=lTjpGzINWPg</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=lTjpGzINWPg</guid>
-<pubDate>Mon, 05 Oct 2026 18:31:01 GMT</pubDate>
-<description>​Join us as Campbell Lund, Research Scholar at Cohere Labs, and Zanele Munyikwa, Research Fellow at Cohere Labs, discuss their latest project: building the Agentic Task Ecosystem (ATE) dataset. ​Campbell and Zanele will share insights from the creation and analysis of ATE—a supply-side measure of au</description>
-</item>
-<item>
-<title>[YouTube] Meet the New Codex CLI</title>
-<link>https://www.youtube.com/watch?v=PUBc2G0Tj5E</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=PUBc2G0Tj5E</guid>
-<pubDate>Mon, 05 Oct 2026 18:29:08 GMT</pubDate>
-<description>Take a look at the latest Codex CLI updates and the refreshed terminal experience. Follow a walkthrough of the new interface and ways to work with Codex.</description>
-</item>
-<item>
-<title>[Google News] The 552B DeepSeek V4.1-Flash Model Offers A Peak Output Of 494 Tokens/Second When Powered By An At-Home Rig Spanning 4x NVIDIA DGX Spark Units - wccftech.com</title>
-<link>https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQjNNanZJSTNHWlZvemptMHd0UTNrSkhwNkhDc3N2eVZ4SG9wOHZ2U3QwNmZKMVAzcHp4ejNQOVk5QzVNUkxkQ2R5ZkxOZldGS21xLXdQUFBrN3cwbEtlVU5kTlh0LXFjRnZiUFhXWTlRc2VpWEx2UUNZZ092QnNNQTVHN2l5MkFaWTVoTHhVOGdzalJKc1dzeEdJcnhwaHRmTU52NDhJMzVpTTBic19VRktrcmItRmlZVFNWb2dwTmp4aHpDaTdabXhUc0w3U0sxbS1aVFg0ODV6VTd4UlgxS3dOaGVYUzRoUHoxNUYxS1dkbi1ZNVNJ0gH8AUFVX3lxTE8zUWhzamVfTmswMzNsbnFJaEhaMHhjX1dGV0kySDRGQm11ekxaNkc2bFBkX2dXZHhRVjNncUp2TlA4TnVuMDNZY3dRSUlFdG5GendCZ2lyVlkzLU92ZTB5VFpDR1NOTGxjMjFNN1kwOTBPU2hTQUQwWnVEV0JzSjM4U1BjbUZfRzFmcElUdFRrWmhycnc0d2d2bWQtM0tVM3drMmd0Nk9OVUdUcDhpa08ycVR4NW9PSE5yOTFsVTRFc0t2WVZhTzNKUU40TS13ZE1VelBVQ0NJT1NIUXc4LV83SWYxc1diU1RaUTc5QUgyMVVxRUZuaXZGVWJIcw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi9wFBVV95cUxNQjNNanZJSTNHWlZvemptMHd0UTNrSkhwNkhDc3N2eVZ4SG9wOHZ2U3QwNmZKMVAzcHp4ejNQOVk5QzVNUkxkQ2R5ZkxOZldGS21xLXdQUFBrN3cwbEtlVU5kTlh0LXFjRnZiUFhXWTlRc2VpWEx2UUNZZ092QnNNQTVHN2l5MkFaWTVoTHhVOGdzalJKc1dzeEdJcnhwaHRmTU52NDhJMzVpTTBic19VRktrcmItRmlZVFNWb2dwTmp4aHpDaTdabXhUc0w3U0sxbS1aVFg0ODV6VTd4UlgxS3dOaGVYUzRoUHoxNUYxS1dkbi1ZNVNJ0gH8AUFVX3lxTE8zUWhzamVfTmswMzNsbnFJaEhaMHhjX1dGV0kySDRGQm11ekxaNkc2bFBkX2dXZHhRVjNncUp2TlA4TnVuMDNZY3dRSUlFdG5GendCZ2lyVlkzLU92ZTB5VFpDR1NOTGxjMjFNN1kwOTBPU2hTQUQwWnVEV0JzSjM4U1BjbUZfRzFmcElUdFRrWmhycnc0d2d2bWQtM0tVM3drMmd0Nk9OVUdUcDhpa08ycVR4NW9PSE5yOTFsVTRFc0t2WVZhTzNKUU40TS13ZE1VelBVQ0NJT1NIUXc4LV83SWYxc1diU1RaUTc5QUgyMVVxRUZuaXZGVWJIcw?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 16:46:30 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Utah allows AI startup to prescribe acne medication without a doctor’s direct oversight - Los Angeles Times</title>
-<link>https://news.google.com/rss/articles/CBMivAFBVV95cUxPUzZUeDlMaGduOVNZT01tNjNudF9CS3h0d0ZIRGJidHI5UUMwdXREdUJ4UTFqVTE0VGVXS0FZYVhSb09ZaVI5SzVzRUYtb1BVcDlhNl9VYkhtaXlwd0s3SVNTUzZiR3FIcUl4UUFzbDdyQWlsTzNHTHdEaE9Ec0YzcGhyTE9OOTJoenJ0aVJFMHBxYUJoY001V1NhTU9fVE9tN0oxeC11WU80ZlBfMzdtVi13cHozdWJ6VTdjRQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivAFBVV95cUxPUzZUeDlMaGduOVNZT01tNjNudF9CS3h0d0ZIRGJidHI5UUMwdXREdUJ4UTFqVTE0VGVXS0FZYVhSb09ZaVI5SzVzRUYtb1BVcDlhNl9VYkhtaXlwd0s3SVNTUzZiR3FIcUl4UUFzbDdyQWlsTzNHTHdEaE9Ec0YzcGhyTE9OOTJoenJ0aVJFMHBxYUJoY001V1NhTU9fVE9tN0oxeC11WU80ZlBfMzdtVi13cHozdWJ6VTdjRQ?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 15:56:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[MIT Tech Review] Connecting AI agents to enterprise knowledge</title>
-<link>https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/</link>
-<guid isPermaLink="false">https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/</guid>
-<pubDate>Mon, 05 Oct 2026 15:47:52 +0000</pubDate>
-<description>For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to re</description>
-</item>
-<item>
-<title>[News] Our approach to EU text provenance rules</title>
-<link>https://openai.com/index/eu-text-provenance</link>
-<guid isPermaLink="false">https://openai.com/index/eu-text-provenance</guid>
-<pubDate>Mon, 05 Oct 2026 15:00:00 GMT</pubDate>
-<description>How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.</description>
-</item>
-<item>
-<title>[MIT Tech Review] Bringing predictive analytics to the agentic AI era</title>
-<link>https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/</link>
-<guid isPermaLink="false">https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/</guid>
-<pubDate>Mon, 05 Oct 2026 13:29:32 +0000</pubDate>
-<description>In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from pr</description>
-</item>
-<item>
-<title>[Blog] From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps</title>
-<link>https://blogs.nvidia.com/blog/ai-breast-cancer-startups/</link>
-<guid isPermaLink="false">https://blogs.nvidia.com/blog/ai-breast-cancer-startups/</guid>
-<pubDate>Mon, 05 Oct 2026 13:00:57 +0000</pubDate>
-<description>Breast cancer is the most commonly diagnosed cancer among American women — yet the gaps in care are wide. A majority of women over age 40 skip the recommended annual screening. Radiologists are reading more mammograms with fewer colleagues. And when a diagnosis arrives, the tests that inform treatme</description>
-</item>
-<item>
-<title>[Google News] Piracy Is Preserving Films Studios Won't Fix - StartupHub.ai</title>
-<link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbU50TFVxcE45OFk0TE5FNEQtc3ItRHB1ZkRFWG5FY0V1dXI0alVCM3RGR2FEdnA5UTg3ZmZOakxjRXV6QzgyQkwtXzE1b08yenhHMVZXdl9tbmtLTWxjenl5eXFHYWx6X3hNdl9CY0hsZ3pxUUk0WVROYnZTVlZOMTZYTkFTdUk5M1Q0WF9RdFpGbU81QVIyQUJYZFVoNW05Q3VqaGxFeVpQWjQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbU50TFVxcE45OFk0TE5FNEQtc3ItRHB1ZkRFWG5FY0V1dXI0alVCM3RGR2FEdnA5UTg3ZmZOakxjRXV6QzgyQkwtXzE1b08yenhHMVZXdl9tbmtLTWxjenl5eXFHYWx6X3hNdl9CY0hsZ3pxUUk0WVROYnZTVlZOMTZYTkFTdUk5M1Q0WF9RdFpGbU81QVIyQUJYZFVoNW05Q3VqaGxFeVpQWjQ?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 12:11:19 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek cuts China’s AI gap with US rivals to just 3% - YourStory.com</title>
-<link>https://news.google.com/rss/articles/CBMic0FVX3lxTE9HUm5yM3RXeWF4SjBTN0FsMnNRckh5YVpDbFNMQm9zUmU2eEZpOWpENFBvSFlndGZuWnZ0MXFtZnNkTVctRFQ2NV9Ya0FfX2FjMWJCaTlfSjhKLWVCX3c5ZkdrRVJpakp3VmZ6aVhOWUJ6SWc?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMic0FVX3lxTE9HUm5yM3RXeWF4SjBTN0FsMnNRckh5YVpDbFNMQm9zUmU2eEZpOWpENFBvSFlndGZuWnZ0MXFtZnNkTVctRFQ2NV9Ya0FfX2FjMWJCaTlfSjhKLWVCX3c5ZkdrRVJpakp3VmZ6aVhOWUJ6SWc?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 10:07:37 GMT</pubDate>
-
-</item>
-<item>
-<title>[News] Building advertising for the way people use AI</title>
-<link>https://openai.com/index/new-chatgpt-ads-format-and-measurement</link>
-<guid isPermaLink="false">https://openai.com/index/new-chatgpt-ads-format-and-measurement</guid>
-<pubDate>Mon, 05 Oct 2026 10:00:00 GMT</pubDate>
-<description>OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.</description>
-</item>
-<item>
-<title>[Google News] US: Trump unveils ‘Super Intelligence Force’ to oversee AI policy - Tribune Online</title>
-<link>https://news.google.com/rss/articles/CBMilgFBVV95cUxOaW9WTG93VU9PYkhFOE1IY0pBTjZPdmNaNjdFd0pLSDZBeklPTmZrXzlCdjZYaGpWQ2VfdGNVRTZSeXkxLS1yTUstQksya2VtMTJJamp1OTJmczhPbUtzNEVha3E3Vmx5dGlSZFhmbV9WOHJFVmN4MjBnTFdhdzRIbnlNYXhISXdVc0w1LWVqT1RmQmFGS3fSAZsBQVVfeXFMTTE2Q3poaThiQVBPaTdveGFnb0RUbmtjdWtGSWVkSmx6T0pqVnNKRVZ2YnEyc3VoUmJQZk1rQWNRNFp2NmhGUlROYU53YlZwc0J5bmVhY24zTmtXejUzMnViVHN6UlA5NDkzRlBrQTU1S2pyNTVCZkdZWHM4SUt1SDA3c192RkdpOHA0YW1DNXF0OGRGcVpvRnNQclk?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMilgFBVV95cUxOaW9WTG93VU9PYkhFOE1IY0pBTjZPdmNaNjdFd0pLSDZBeklPTmZrXzlCdjZYaGpWQ2VfdGNVRTZSeXkxLS1yTUstQksya2VtMTJJamp1OTJmczhPbUtzNEVha3E3Vmx5dGlSZFhmbV9WOHJFVmN4MjBnTFdhdzRIbnlNYXhISXdVc0w1LWVqT1RmQmFGS3fSAZsBQVVfeXFMTTE2Q3poaThiQVBPaTdveGFnb0RUbmtjdWtGSWVkSmx6T0pqVnNKRVZ2YnEyc3VoUmJQZk1rQWNRNFp2NmhGUlROYU53YlZwc0J5bmVhY24zTmtXejUzMnViVHN6UlA5NDkzRlBrQTU1S2pyNTVCZkdZWHM4SUt1SDA3c192RkdpOHA0YW1DNXF0OGRGcVpvRnNQclk?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 09:07:55 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Phishing: TA419 targets AI Policy experts - SecNews.gr</title>
-<link>https://news.google.com/rss/articles/CBMidkFVX3lxTE9uLXBpZVpzMG1Vc2Q5dTVTV3R0VGRIc01samJwNk9XZmVDMkdTVHBXMDg3V0tGMkkzQ21qWWVmbnNpbF93cWx3Q0c4SDMwNllWT0J2SmI3X21aUTUyWGt1azIzRlJFN3RWbDh2NGVRZ3lfMmk4YXc?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTE9uLXBpZVpzMG1Vc2Q5dTVTV3R0VGRIc01samJwNk9XZmVDMkdTVHBXMDg3V0tGMkkzQ21qWWVmbnNpbF93cWx3Q0c4SDMwNllWT0J2SmI3X21aUTUyWGt1azIzRlJFN3RWbDh2NGVRZ3lfMmk4YXc?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 08:44:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] America's Answer to DeepSeek Arrives - marketscreener.com</title>
-<link>https://news.google.com/rss/articles/CBMikwFBVV95cUxOSUhtbzlxMG5RQmtZYS11RE51TFNhQWFRS0tFTndybnV6ZmVkNUx4Q25aRUdqUFdhYkp2a2p2WHdWd0pDdGVHdmM3REQ0SWZSR29WSFVZbE42TzhSa3VFUXpvUlg0S0h1V2NBUkc5N250Yjd6eFZJWjFDbFVKXy00YS1nd2JPQUFVSmYzcGVCc2VPOU0?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMikwFBVV95cUxOSUhtbzlxMG5RQmtZYS11RE51TFNhQWFRS0tFTndybnV6ZmVkNUx4Q25aRUdqUFdhYkp2a2p2WHdWd0pDdGVHdmM3REQ0SWZSR29WSFVZbE42TzhSa3VFUXpvUlg0S0h1V2NBUkc5N250Yjd6eFZJWjFDbFVKXy00YS1nd2JPQUFVSmYzcGVCc2VPOU0?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 08:29:27 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] The US and China will have a red phone for AI emergencies, while Europe is left to watch - Bruegel</title>
-<link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb2l5SU92cGZ3Y2NybXNpZkthRWVId2FRUXJ4ZjhTQnU4bXI3Z0lfNWZobUF3Zzl5Q2dPc3lxSmdvTGRhamdjX1FmcTZIaGszZDVkYXZlMk94cnRXTHl6c1RTR0xvVV9JYzdrWm8zZFRfR2kwcWU2RTZFVV80bUF5bXEyQkR2TlNEZGl0dnpYNXBkWUVSN3pjb2FUN0oyNkVsUGI4NnlUZkdNZw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqgFBVV95cUxNb2l5SU92cGZ3Y2NybXNpZkthRWVId2FRUXJ4ZjhTQnU4bXI3Z0lfNWZobUF3Zzl5Q2dPc3lxSmdvTGRhamdjX1FmcTZIaGszZDVkYXZlMk94cnRXTHl6c1RTR0xvVV9JYzdrWm8zZFRfR2kwcWU2RTZFVV80bUF5bXEyQkR2TlNEZGl0dnpYNXBkWUVSN3pjb2FUN0oyNkVsUGI4NnlUZkdNZw?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 08:28:41 GMT</pubDate>
-
-</item>
-<item>
-<title>[MIT Tech Review] People really hate AI, so why can’t they get enough?</title>
-<link>https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/</link>
-<guid isPermaLink="false">https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/</guid>
-<pubDate>Mon, 05 Oct 2026 08:00:00 +0000</pubDate>
-<description>Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI…</description>
-</item>
-<item>
-<title>[Google News] Malaysia plans first AI law in 2027 as scrutiny intensifies - The Economic Times</title>
-<link>https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbmtUUk9kSmhxQVVDRFctNFh0YVRyRlZad3JHVUJXczFBXzZtOGoxSF84cjdrQlI5alY5Q3VMTUVKenBQeTZxQlEtY1E5V0JKQnc5ZllILXc4WHFEUzZKZ0x3aFRQRUhyTUE3MUcwV05IUWRodjJOQVpETTJhQy0xYlIwMWZMYUFSQjJkaUpHRXpLR3pOOFNYN0NZeUdlWlB4VHFXSTRmRXNpTE1vZjJ1ajBmUEozMjh5VnpFbzUzd1F2OHdOTjM2VnBQNjJESXJWUnlKbVlsSzNNYnE5LW5N0gHfAUFVX3lxTFBua1RST2RKaHFBVUNEVy00WHRhVHJGVlp3ckdVQldzMUFfNm04ajFIXzhyN2tCUjlqVjlDdUxNRUp6cFB5NnFCUS1jUTlXQkpCdzlmWUgtdzhYcURTNkpnTHdoVFBFSHJNQTcxRzBXTkhRZGh2Mk5BWkRNMmFDLTFiUjAxZkxhQVJCMmRpSkdFektHek44U1g3Q1l5R2VaUHhUcVdJNGZFc2lMTW9mMnVqMGZQSjMyOHlWekVvNTN3UXY4d05OMzZWcFA2MkRJclZSeUptWWxLM01icTktbk0?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi3wFBVV95cUxQbmtUUk9kSmhxQVVDRFctNFh0YVRyRlZad3JHVUJXczFBXzZtOGoxSF84cjdrQlI5alY5Q3VMTUVKenBQeTZxQlEtY1E5V0JKQnc5ZllILXc4WHFEUzZKZ0x3aFRQRUhyTUE3MUcwV05IUWRodjJOQVpETTJhQy0xYlIwMWZMYUFSQjJkaUpHRXpLR3pOOFNYN0NZeUdlWlB4VHFXSTRmRXNpTE1vZjJ1ajBmUEozMjh5VnpFbzUzd1F2OHdOTjM2VnBQNjJESXJWUnlKbVlsSzNNYnE5LW5N0gHfAUFVX3lxTFBua1RST2RKaHFBVUNEVy00WHRhVHJGVlp3ckdVQldzMUFfNm04ajFIXzhyN2tCUjlqVjlDdUxNRUp6cFB5NnFCUS1jUTlXQkpCdzlmWUgtdzhYcURTNkpnTHdoVFBFSHJNQTcxRzBXTkhRZGh2Mk5BWkRNMmFDLTFiUjAxZkxhQVJCMmRpSkdFektHek44U1g3Q1l5R2VaUHhUcVdJNGZFc2lMTW9mMnVqMGZQSjMyOHlWekVvNTN3UXY4d05OMzZWcFA2MkRJclZSeUptWWxLM01icTktbk0?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 07:07:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] U.S.-China AI Gap Narrows to 3% as DeepSeek Matches Anthropic's Performance - finance.biggo.com</title>
-<link>https://news.google.com/rss/articles/CBMidkFVX3lxTE94NERTV0tyNUlrVVMzbWMzeDJlQjdXeU9IOTNUNm5GTjMtVTgxX2dKSl94OEJhN2VmVDlHS2lRTlg5eFVIMzVPdXVaVVpCZjNiQnBQZTE0cTBVWm1jeGFiV2ltTFd4SDZWSDNYUEktZl9RdDdHdXc?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTE94NERTV0tyNUlrVVMzbWMzeDJlQjdXeU9IOTNUNm5GTjMtVTgxX2dKSl94OEJhN2VmVDlHS2lRTlg5eFVIMzVPdXVaVVpCZjNiQnBQZTE0cTBVWm1jeGFiV2ltTFd4SDZWSDNYUEktZl9RdDdHdXc?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 06:35:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek Harness challenges Agent lock-in with Claude Code Mods bridge and open plugin architecture - digitimes</title>
-<link>https://news.google.com/rss/articles/CBMigAFBVV95cUxPVzFSUjZaVEdFaVFqNFFMcDM1TnU1U2RBQlFYMDA0OFh2NUFRcFNhOWluLVhuemlFMDYxcUkwV3pVOWZCblBabHE5bnZuc0VmQkx2XzU3NGpQcndGVE85R1hYajRiZEpEcHItWXZvVG42aXBCZW1jWlZqMHh4QWtocA?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMigAFBVV95cUxPVzFSUjZaVEdFaVFqNFFMcDM1TnU1U2RBQlFYMDA0OFh2NUFRcFNhOWluLVhuemlFMDYxcUkwV3pVOWZCblBabHE5bnZuc0VmQkx2XzU3NGpQcndGVE85R1hYajRiZEpEcHItWXZvVG42aXBCZW1jWlZqMHh4QWtocA?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 04:08:26 GMT</pubDate>
-
-</item>
-<item>
-<title>[MIT Tech Review] EmTech Future 2026: When AI Meets Everything</title>
-<link>https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/</link>
-<guid isPermaLink="false">https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/</guid>
-<pubDate>Mon, 05 Oct 2026 04:00:00 +0000</pubDate>
-<description>Yossi Matias, Vice President &amp; Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields. Step inside the newsroom with our MIT Technology Review editors for sharp an</description>
-</item>
-<item>
-<title>[Google News] US lead in AI over China narrows after DeepSeek gains, Bloomberg Intelligence says - The Straits Times</title>
-<link>https://news.google.com/rss/articles/CBMiygFBVV95cUxQUXg4V0FvdVN1TmJrb0JxM2VuTEE4WFNfRXNZcHFES0RWcWFRWlJKT0hPNG0xRkZ1aUZTYW9JUTNLQVRhV0JlV1dPekZaVE82cFVUTThNYWpYS2x0OHltSDVEZW5reTRPdnY2LVZsaFpNQnhUSGs1clBkZjF4bk1GaDB5NW9HQWY4eUNMUUFhVWNqeWdQQU9fUU5lZkR2YWowcjdPemVfcFpYMjNQQV8xU2stYmt6NHFfRUwwZ0dMcDJBWFRTYWdWQlBB?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiygFBVV95cUxQUXg4V0FvdVN1TmJrb0JxM2VuTEE4WFNfRXNZcHFES0RWcWFRWlJKT0hPNG0xRkZ1aUZTYW9JUTNLQVRhV0JlV1dPekZaVE82cFVUTThNYWpYS2x0OHltSDVEZW5reTRPdnY2LVZsaFpNQnhUSGs1clBkZjF4bk1GaDB5NW9HQWY4eUNMUUFhVWNqeWdQQU9fUU5lZkR2YWowcjdPemVfcFpYMjNQQV8xU2stYmt6NHFfRUwwZ0dMcDJBWFRTYWdWQlBB?oc=5</guid>
-<pubDate>Mon, 05 Oct 2026 00:30:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Hub] 9 RAG Examples Based on Real-World Use Cases and Architectures</title>
-<link>https://www.perplexity.ai/hub/blog/rag-example</link>
-<guid isPermaLink="false">https://www.perplexity.ai/hub/blog/rag-example</guid>
-<pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-
-</item>
-<item>
-<title>[Blog] North 2: Enterprise AI without compromises</title>
-<link>https://cohere.com/blog/introducing-north-2</link>
-<guid isPermaLink="false">https://cohere.com/blog/introducing-north-2</guid>
-<pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-<description>North 2 is Cohere’s biggest upgrade yet — unifying enterprise‑grade security, intelligence, cost governance, and full‑stack control into a single agentic AI platform that runs wherever your data lives.</description>
-</item>
-<item>
-<title>[Blog] Cohere and PwC partner to accelerate secure enterprise AI adoption</title>
-<link>https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption</link>
-<guid isPermaLink="false">https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption</guid>
-<pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-<description>Bringing together secure, sovereign AI and transformation expertise to help organizations move from pilots to production</description>
-</item>
-<item>
-<title>[Google News] US lead in AI over China narrows after DeepSeek gains: report - businesstimes.com.sg</title>
-<link>https://news.google.com/rss/articles/CBMipwFBVV95cUxQUkp6Ulk5YW9zWnBFV01KNFpEWnJJUzBXOGlkT0duRW1IOVZmeHFBX1htNVpqQTJOTi14eUl5SWF5c2RVc3loLXBCanBBU0xjLUdIWGhMQ2EwNGVRTkg2LUJNeThKSlcyeW1mNUJJbU50MmpFVXEtUFljR2V6SE9DVGdtenl2SzNXM1loOXA3eENNV0NMVERic25NdzBmSU9EQkVEMDJidw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMipwFBVV95cUxQUkp6Ulk5YW9zWnBFV01KNFpEWnJJUzBXOGlkT0duRW1IOVZmeHFBX1htNVpqQTJOTi14eUl5SWF5c2RVc3loLXBCanBBU0xjLUdIWGhMQ2EwNGVRTkg2LUJNeThKSlcyeW1mNUJJbU50MmpFVXEtUFljR2V6SE9DVGdtenl2SzNXM1loOXA3eENNV0NMVERic25NdzBmSU9EQkVEMDJidw?oc=5</guid>
-<pubDate>Sun, 04 Oct 2026 22:22:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] US Lead in AI Over China Narrows After DeepSeek Gains, BI Says - Yahoo Finance</title>
-<link>https://news.google.com/rss/articles/CBMijgFBVV95cUxPT0pzOUtrNjJMeG1zaG45NGJCYTQwTXVfbkZmbFRtWVVkdmZVMGtITEZyMlh4SS1zOFhRWmkwWUxzeTlEeXBjUldsYjJWRlZYTWY4UzBGS1RjTFVrWGUyYjlMa2hZV2l5ZEEyaTRMMzlCT2E0bDZacE1WUUNjaC1xNTE0MTFQUUpJbF9Sb0FB?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMijgFBVV95cUxPT0pzOUtrNjJMeG1zaG45NGJCYTQwTXVfbkZmbFRtWVVkdmZVMGtITEZyMlh4SS1zOFhRWmkwWUxzeTlEeXBjUldsYjJWRlZYTWY4UzBGS1RjTFVrWGUyYjlMa2hZV2l5ZEEyaTRMMzlCT2E0bDZacE1WUUNjaC1xNTE0MTFQUUpJbF9Sb0FB?oc=5</guid>
-<pubDate>Sun, 04 Oct 2026 21:03:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] US Lead in AI Over China Narrows After DeepSeek Gains, BI Says - Bloomberg.com</title>
-<link>https://news.google.com/rss/articles/CBMisgFBVV95cUxQR2V3czFPc2lFaTExcF9XUEY0TXE0R0dqaEs1VmxCQ3kwcjBkT0kxUG1LbEYxQWhXREFNQXYtZ2MzVDFUaS1YTzFTTS1yUU9DQS01U1IyaVp2dmJoR0ctcU9hcjFnRUo3LTdLMUY4UGJMSnVSTXVnZFVCV0Exc3RwNDlxQnVQQkNQbVZZcmg5bGIxeUhpSDZoV3lyR1VKVDZWbHd1VjNpM2dNMFUzS1lrMEZ3?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMisgFBVV95cUxQR2V3czFPc2lFaTExcF9XUEY0TXE0R0dqaEs1VmxCQ3kwcjBkT0kxUG1LbEYxQWhXREFNQXYtZ2MzVDFUaS1YTzFTTS1yUU9DQS01U1IyaVp2dmJoR0ctcU9hcjFnRUo3LTdLMUY4UGJMSnVSTXVnZFVCV0Exc3RwNDlxQnVQQkNQbVZZcmg5bGIxeUhpSDZoV3lyR1VKVDZWbHd1VjNpM2dNMFUzS1lrMEZ3?oc=5</guid>
-<pubDate>Sun, 04 Oct 2026 21:03:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek and Huawei Take Aim at Nvidia’s Formidable Moat - Bloomberg.com</title>
-<link>https://news.google.com/rss/articles/CBMirwFBVV95cUxQV2RfbFVfcGZjd0Vpc25BaDdsZlo0ZFV2N3VieG5IM294VUhGOTZkaWtPdXFSZTBsVDlPaFp6UWMzZWpGZFpwZjlGMXBDLW9DX1A2SDlxeGxSbGZBMnF6MW1vc1V2RGFlMk0wVnZKaThRc1ZQWGt3emh4TkdwWWEtdzEydzBLclY0Q1hUWnZMemNyS1BiOFQydjNiY0gtd0I3eEN4bjY5bVdxU2V5Tm5V?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMirwFBVV95cUxQV2RfbFVfcGZjd0Vpc25BaDdsZlo0ZFV2N3VieG5IM294VUhGOTZkaWtPdXFSZTBsVDlPaFp6UWMzZWpGZFpwZjlGMXBDLW9DX1A2SDlxeGxSbGZBMnF6MW1vc1V2RGFlMk0wVnZKaThRc1ZQWGt3emh4TkdwWWEtdzEydzBLclY0Q1hUWnZMemNyS1BiOFQydjNiY0gtd0I3eEN4bjY5bVdxU2V5Tm5V?oc=5</guid>
-<pubDate>Sun, 04 Oct 2026 18:00:07 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Cutthroat AI Competition: DeepSeek Unveils New Holiday Update, Harness Launches Latest Version Now Available - 36 Kr</title>
-<link>https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Wcm03MC01V1pzaTlPaDQ2ckFaaFFWM25yT0ZpbDRnUnVoa1R1R0xvVURHcVBiX3lvOC1NRU1TV3NCS3doV05HX1JsdHNiOVF2a3ZB?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Wcm03MC01V1pzaTlPaDQ2ckFaaFFWM25yT0ZpbDRnUnVoa1R1R0xvVURHcVBiX3lvOC1NRU1TV3NCS3doV05HX1JsdHNiOVF2a3ZB?oc=5</guid>
-<pubDate>Sun, 04 Oct 2026 09:44:36 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek Harness v0.2 Brings Official Desktop Apps to Its Open-Source Agent Harness - MarkTechPost</title>
-<link>https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR2pDSEd6bmF4TEVoQnBHZjR4M3ZEbDJ4MjVWLVpPaGpMdFg1R05UbkE3MWx1RTBYdEctclZ1NXgxa2ZJWmJ3aDIyZFVLWkZQZ0FzcHpVUzZWZjZEOGtqUkpNMkhsUV9UaWUwOVFwdkRmYkZkLU9oWVhqV3VBVkdqdFpCUFNFR3hGZ3BselNkQktZRTFxTEhPX0RpN3hhb0VsOHpiZmpkZWw4VlA0eDU2M3BOdUhhU1dNRm5OcUZydmNCUdIBwgFBVV95cUxNR2pDSEd6bmF4TEVoQnBHZjR4M3ZEbDJ4MjVWLVpPaGpMdFg1R05UbkE3MWx1RTBYdEctclZ1NXgxa2ZJWmJ3aDIyZFVLWkZQZ0FzcHpVUzZWZjZEOGtqUkpNMkhsUV9UaWUwOVFwdkRmYkZkLU9oWVhqV3VBVkdqdFpCUFNFR3hGZ3BselNkQktZRTFxTEhPX0RpN3hhb0VsOHpiZmpkZWw4VlA0eDU2M3BOdUhhU1dNRm5OcUZydmNCUQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR2pDSEd6bmF4TEVoQnBHZjR4M3ZEbDJ4MjVWLVpPaGpMdFg1R05UbkE3MWx1RTBYdEctclZ1NXgxa2ZJWmJ3aDIyZFVLWkZQZ0FzcHpVUzZWZjZEOGtqUkpNMkhsUV9UaWUwOVFwdkRmYkZkLU9oWVhqV3VBVkdqdFpCUFNFR3hGZ3BselNkQktZRTFxTEhPX0RpN3hhb0VsOHpiZmpkZWw4VlA0eDU2M3BOdUhhU1dNRm5OcUZydmNCUdIBwgFBVV95cUxNR2pDSEd6bmF4TEVoQnBHZjR4M3ZEbDJ4MjVWLVpPaGpMdFg1R05UbkE3MWx1RTBYdEctclZ1NXgxa2ZJWmJ3aDIyZFVLWkZQZ0FzcHpVUzZWZjZEOGtqUkpNMkhsUV9UaWUwOVFwdkRmYkZkLU9oWVhqV3VBVkdqdFpCUFNFR3hGZ3BselNkQktZRTFxTEhPX0RpN3hhb0VsOHpiZmpkZWw4VlA0eDU2M3BOdUhhU1dNRm5OcUZydmNCUQ?oc=5</guid>
-<pubDate>Sun, 04 Oct 2026 04:49:42 GMT</pubDate>
-
-</item>
-<item>
-<title>[Blog] The Agent Said It Was Done. The Database Disagreed.</title>
-<link>https://huggingface.co/blog/microsoft/thinkingbox</link>
-<guid isPermaLink="false">https://huggingface.co/blog/microsoft/thinkingbox</guid>
-<pubDate>Sat, 03 Oct 2026 22:56:48 GMT</pubDate>
-<description>A Blog post by Microsoft on Hugging Face</description>
-</item>
-<item>
-<title>[Google News] NVIDIA Heavily Backs “U.S. DeepSeek” as It Prepares to Release Open-Source Model - 富途牛牛</title>
-<link>https://news.google.com/rss/articles/CBMiowFBVV95cUxPMnZhcjNtb0dQV0tkSXlGck9SQWJJMmFqbWZ1ZWhxMmdhU0pKQW5nSENGYjNsNUpWLXBvVHpXTXlqY1FKaVNrS0s2dzJQTjU2aGlBM0NrcmlLa3YxemJfM185SVB2Q0pzbmlmUzUwUE4yaHM0ekdHa0VqVmp1NkdPVTdndWRTWTg2Tl94NzZjTU5aX1hPLXB4aWg1N0JrM3lDRl9J?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiowFBVV95cUxPMnZhcjNtb0dQV0tkSXlGck9SQWJJMmFqbWZ1ZWhxMmdhU0pKQW5nSENGYjNsNUpWLXBvVHpXTXlqY1FKaVNrS0s2dzJQTjU2aGlBM0NrcmlLa3YxemJfM185SVB2Q0pzbmlmUzUwUE4yaHM0ekdHa0VqVmp1NkdPVTdndWRTWTg2Tl94NzZjTU5aX1hPLXB4aWg1N0JrM3lDRl9J?oc=5</guid>
-<pubDate>Sat, 03 Oct 2026 13:12:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[YouTube] Unlocking Lossless speedups in LLMs via discrete diffusion, with Subham Sahoo</title>
-<link>https://www.youtube.com/watch?v=lZmgfPMyWg8</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=lZmgfPMyWg8</guid>
-<pubDate>Fri, 02 Oct 2026 21:21:00 GMT</pubDate>
-<description>​Unlocking Lossless speedups in LLMs via discrete diffusions Talk by Subham Sahoo, Sr. Research Scientist, MBZUAI - IFM Hosted by Saurabh Dash, Research Engineer, Cohere Labs Autoregressive models deliver high-quality generation but remain slow due to sequential decoding. Diffusion language models p</description>
-</item>
-<item>
-<title>[YouTube] Alexander Panfilov - Stolen Thoughts Stealing Reasoning Traces from Proprietary LLM APIs</title>
-<link>https://www.youtube.com/watch?v=BUO7Lly6MwY</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=BUO7Lly6MwY</guid>
-<pubDate>Fri, 02 Oct 2026 17:36:28 GMT</pubDate>
-<description>​Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and limit information leakage. Rather than storing these traces server-side, providers return them to the client as blocks of encrypted text, which the clie</description>
-</item>
-<item>
-<title>[YouTube] Release Recap - Building Multilingual Bridges Data Mixing as the Pillar of Generalization</title>
-<link>https://www.youtube.com/watch?v=bE6A5hOnM_8</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=bE6A5hOnM_8</guid>
-<pubDate>Fri, 02 Oct 2026 17:28:03 GMT</pubDate>
-<description>​Join us as Mehrnaz Mofakhami, Research Scholar at Cohere Labs, discusses her latest paper, “Building Multilingual Bridges: Data Mixing as the Pillar of Generalization for In-Language Reasoning.” ​Mehrnaz will share insights from the research, explore what the findings mean for multilingual reasonin</description>
 </item>
 </channel>
 </rss>
