@@ -392,6 +392,21 @@
       "firstSeenIn": "43a90e1"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "mjtkeqgq6y",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOclJTd1BfR0owekozV1h5WW41djd3RUI2b25OZUx0eEdRX2FFQ2FSSG5EclE2RS02MWtYSkU1T2gzeVFxZUNJWUZxYldDaWFaUWFOZXRibzVZR3AzZWxHSFN6QVBMSlpOYnc4akxkckppNDNlS1VSUTl0QW9QMmVBWWdsMGkwaWVQYS11TWFpYUV5ajJMVEZfVTBHbVA4ZEhCQ1hsbDhNR0dPR1VDS2RNQ3g0Wi1hTjJ4dVdSVjJVVnBfdG5BSElDV1B5ZTM?oc=5",
+      "title": "US-China AI Gap Hits 3%, and DeepSeek V4.1 Flash Now Leads on Agentic Coding Benchmarks",
+      "publishedAt": "2026-10-06T15:44:04Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Tech Times",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-06T21:00:09Z",
+      "firstSeenIn": "4b409e6"
+    },
+    {
       "modelId": "google.gemini-3-5-flash",
       "variantId": null,
       "postId": "16gd1ei2g8d",
