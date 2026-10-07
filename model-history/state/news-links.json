@@ -407,6 +407,21 @@
       "firstSeenIn": "4b409e6"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1z0v2ka3iae",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xSjM4b3lYb1BaM2dUU0xVZ2QyRkdBR0VsZ2ltTWdBZ3FYSFBYUVBsdHNzNFRyM092dUZDRUlGRGVYUFZIZ3I0VUx1TDRSTWJpdlkwN2JQSGs?oc=5",
+      "title": "DeepSeek V4.1 Flash Q4 Requires 294 GB of RAM vs 152 GB for Q2",
+      "publishedAt": "2026-10-07T08:47:08Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Geeky Gadgets",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-07T17:26:30Z",
+      "firstSeenIn": "fe327cd"
+    },
+    {
       "modelId": "google.gemini-3-5-flash",
       "variantId": null,
       "postId": "16gd1ei2g8d",
