@@ -122,6 +122,21 @@
       "firstSeenIn": "df6ed39"
     },
     {
+      "modelId": "anthropic.claude-haiku-5-5",
+      "variantId": null,
+      "postId": "1x12uhvth3t",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQVdhWEdwdi0zb09CWUNCV2xuU3BOdVRpbzYzZzN4T3J6MDlGVms1d3Yxaml1OG9ZQ3o5bmxlYU5WSWlvZTEyZDRSQ2hxWnBhX3FlMnhHYjdmMVRNWkpWM2Vha2llQmFGQTNQSzFOMktBZWZib193OXJmcDFUa0QtX1JrNXIyaDJBLWpCTEkxaVBqVkJU?oc=5",
+      "title": "DeepSeek V4.1 Flash vs Haiku 5.5 vs Gemini Flash",
+      "publishedAt": "2026-10-08T04:47:02Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "https://tech-insider.org/",
+      "method": "auto",
+      "alias": "haiku 5.5",
+      "firstSeenAt": "2026-10-08T06:05:40Z",
+      "firstSeenIn": "c375eb5"
+    },
+    {
       "modelId": "anthropic.claude-mythos-5",
       "variantId": null,
       "postId": "23oi8ei3zel",
@@ -420,6 +435,21 @@
       "alias": "deepseek v4.1 flash",
       "firstSeenAt": "2026-10-07T17:26:30Z",
       "firstSeenIn": "fe327cd"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1x12uhvth3t",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQVdhWEdwdi0zb09CWUNCV2xuU3BOdVRpbzYzZzN4T3J6MDlGVms1d3Yxaml1OG9ZQ3o5bmxlYU5WSWlvZTEyZDRSQ2hxWnBhX3FlMnhHYjdmMVRNWkpWM2Vha2llQmFGQTNQSzFOMktBZWZib193OXJmcDFUa0QtX1JrNXIyaDJBLWpCTEkxaVBqVkJU?oc=5",
+      "title": "DeepSeek V4.1 Flash vs Haiku 5.5 vs Gemini Flash",
+      "publishedAt": "2026-10-08T04:47:02Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "https://tech-insider.org/",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-08T06:05:40Z",
+      "firstSeenIn": "c375eb5"
     },
     {
       "modelId": "google.gemini-3-5-flash",
