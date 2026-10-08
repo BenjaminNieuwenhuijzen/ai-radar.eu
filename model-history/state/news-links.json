@@ -1052,6 +1052,21 @@
       "firstSeenIn": "dcab53f"
     },
     {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "xcixtiugur",
+      "link": "https://openai.com/index/pollo-ai",
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "publishedAt": "2026-10-08T12:00:00Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-10-08T19:58:09Z",
+      "firstSeenIn": "44ac5b7"
+    },
+    {
       "modelId": "openai.gpt-6-luna",
       "variantId": null,
       "postId": "1pqkx8dqi5g",
