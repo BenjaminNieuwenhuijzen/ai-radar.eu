@@ -137,6 +137,21 @@
       "firstSeenIn": "c375eb5"
     },
     {
+      "modelId": "anthropic.claude-haiku-5-5",
+      "variantId": null,
+      "postId": "10hlglz79nt",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2Z1FRYUI4T29GRXNpVVZpZ0VMWVBabHY5Q1I1NTZXOU5UM2w1aGVIWDF5TTYwU3hjd3k2NFFIeFhHb25VWTlZV2x6VW95Q0NHeXFaVkU5OXllY0Mz?oc=5",
+      "title": "Did Claude Haiku 5.5 Just DESTROY GPT-6.1 Luna & DeepSeek V4.1 Flash? (The 90% Price Cut Shockwave)",
+      "publishedAt": "2026-10-08T16:45:09Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "YouTube",
+      "method": "auto",
+      "alias": "claude haiku 5.5",
+      "firstSeenAt": "2026-10-09T22:39:34Z",
+      "firstSeenIn": "11e7dc4"
+    },
+    {
       "modelId": "anthropic.claude-mythos-5",
       "variantId": null,
       "postId": "23oi8ei3zel",
@@ -450,6 +465,21 @@
       "alias": "deepseek v4.1 flash",
       "firstSeenAt": "2026-10-08T06:05:40Z",
       "firstSeenIn": "c375eb5"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "10hlglz79nt",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2Z1FRYUI4T29GRXNpVVZpZ0VMWVBabHY5Q1I1NTZXOU5UM2w1aGVIWDF5TTYwU3hjd3k2NFFIeFhHb25VWTlZV2x6VW95Q0NHeXFaVkU5OXllY0Mz?oc=5",
+      "title": "Did Claude Haiku 5.5 Just DESTROY GPT-6.1 Luna & DeepSeek V4.1 Flash? (The 90% Price Cut Shockwave)",
+      "publishedAt": "2026-10-08T16:45:09Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "YouTube",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-09T22:39:34Z",
+      "firstSeenIn": "11e7dc4"
     },
     {
       "modelId": "google.gemini-3-5-flash",
@@ -797,6 +827,21 @@
       "firstSeenIn": "dcab53f"
     },
     {
+      "modelId": "openai.gpt-6-1-sol",
+      "variantId": null,
+      "postId": "cexhfkydji",
+      "link": "https://openai.com/index/asana-browser-agent",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "publishedAt": "2026-10-09T07:00:00Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6.1 sol",
+      "firstSeenAt": "2026-10-09T22:39:34Z",
+      "firstSeenIn": "11e7dc4"
+    },
+    {
       "modelId": "openai.gpt-6-astra",
       "variantId": null,
       "postId": "1oom5hlb4su",
@@ -1065,6 +1110,21 @@
       "alias": "gpt-6 astra",
       "firstSeenAt": "2026-10-08T19:58:09Z",
       "firstSeenIn": "44ac5b7"
+    },
+    {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "cexhfkydji",
+      "link": "https://openai.com/index/asana-browser-agent",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "publishedAt": "2026-10-09T07:00:00Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-10-09T22:39:34Z",
+      "firstSeenIn": "11e7dc4"
     },
     {
       "modelId": "openai.gpt-6-luna",
