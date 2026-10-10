@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "id": "mistral.mistral-large-4",
+  "coverage": "stub",
+  "lastReviewedAt": "2026-10-10",
+  "slug": "mistral-large-4",
+  "name": "Mistral Large 4",
+  "aliases": [
+    {
+      "text": "Mistral Large 4",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "mistral",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "mistral.mistral-large",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "announced",
+    "sources": [
+      {
+        "id": "src.mistral.mistral-large-4-announcement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": {
+      "value": "2026-10-06",
+      "sources": [
+        {
+          "id": "src.mistral.mistral-large-4-announcement"
+        }
+      ]
+    },
+    "released": null,
+    "deprecated": null,
+    "retired": null
+  },
+  "notes": "Added automatically from Mistral AI's own news item (title, date and link only). The routine could not open the page, so nothing else is claimed; to be completed from the announcement and the documentation."
+}

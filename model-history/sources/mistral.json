@@ -1457,6 +1457,20 @@
       "availability": "active",
       "notes": "NVIDIA Blog post by Kari Briski (HTML title ends with | NVIDIA Blog). Says Mistral AI and NVIDIA released Mistral NeMo 12B that day and that it was trained on NVIDIA DGX Cloud. Belongs in sources/nvidia.json.",
       "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.mistral.mistral-large-4-announcement",
+      "type": "announcement",
+      "title": "Introducing Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "publisher": "Mistral AI",
+      "publisherOrgId": "mistral",
+      "publishedAt": {
+        "value": "2026-10-06"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Known only from Mistral AI's own news feed as listed on AI Radar (title, link and date). The page itself was not opened when the record was written, so the daily source check has to confirm it."
     }
   ]
 }
