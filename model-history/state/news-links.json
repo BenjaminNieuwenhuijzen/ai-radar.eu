@@ -707,6 +707,21 @@
       "firstSeenIn": "dcab53f"
     },
     {
+      "modelId": "mistral.mistral-large-4",
+      "variantId": null,
+      "postId": "2epwgdgbtkd",
+      "link": "https://mistral.ai/news/mistral-large-4/",
+      "title": "Introducing Mistral Large 4",
+      "publishedAt": "2026-10-06T12:00:27Z",
+      "dateOnly": false,
+      "company": "Mistral AI",
+      "source": "News",
+      "method": "auto",
+      "alias": "mistral large 4",
+      "firstSeenAt": "2026-10-10T12:33:53Z",
+      "firstSeenIn": "e648af0"
+    },
+    {
       "modelId": "mistral.mistral-medium-3-5",
       "variantId": null,
       "postId": "1cpe61vkvvt",
