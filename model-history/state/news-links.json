@@ -482,6 +482,21 @@
       "firstSeenIn": "11e7dc4"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "b1zn5ylpid",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUk5DLU53ZzBjVVMwVHZnY19hUDl6SXN5T2JUcXIybWZxQ2c5TFR4SDVkUER5RzhzUno2aG1pdGdmN3lwakFQb3lpcGlmajdXeEtnR0k3ZTJDMk9Cb3A4aHIybm1QbGNEVk83VlFKU0hRTm43MHRtb1B5TVJlODJGZVU3OXdmempFaGFIUjdUYTlEejhJ?oc=5",
+      "title": "Lenovo's TianxiCode Agent and DeepSeek-V4.1-Flash Top SWE-bench-Live Lite at 71%, Verified",
+      "publishedAt": "2026-10-10T02:40:46Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Pandaily",
+      "method": "auto",
+      "alias": "deepseek-v4.1-flash",
+      "firstSeenAt": "2026-10-10T05:54:08Z",
+      "firstSeenIn": "f3be8da"
+    },
+    {
       "modelId": "google.gemini-3-5-flash",
       "variantId": null,
       "postId": "16gd1ei2g8d",
@@ -765,6 +780,21 @@
       "alias": "gpt-4.1",
       "firstSeenAt": "2026-10-05T05:42:45Z",
       "firstSeenIn": "dcab53f"
+    },
+    {
+      "modelId": "openai.gpt-4o",
+      "variantId": null,
+      "postId": "7yvudmpztr",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMXJHSlRaTmJXeThjOHp1MzU3VmpDLXFIUjRfaC1jdUNRY1ZOcGU4SUdVT3oxbk05MlZRYXhDanhid0F6dUp3cUZjTmFKVF90QWhiNXBRRko4YXlEdTlaa0d5WGpzemxHcUUtZUFjcm5GLVJUd1hjM1NSZEtPeEo3b3h4c2VyT0VRaVVubFUtMGtDdjNIU1FuOGJJT3RDc1ROSWRRQ2xJUndEOThxczNpN1lXVTk?oc=5",
+      "title": "AI Passes the Doctor’s Exam: How GPT-4o and DeepSeek Conquered China’s Toughest Medical Test",
+      "publishedAt": "2026-10-10T02:28:54Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Bioengineer.org",
+      "method": "auto",
+      "alias": "gpt-4o",
+      "firstSeenAt": "2026-10-10T05:54:08Z",
+      "firstSeenIn": "f3be8da"
     },
     {
       "modelId": "openai.gpt-5-2",
