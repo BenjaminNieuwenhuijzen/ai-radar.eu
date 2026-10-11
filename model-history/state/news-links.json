@@ -497,6 +497,21 @@
       "firstSeenIn": "f3be8da"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1y6ceq8247f",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMmV0X3hDcW12NDFmN3RRem9ieGxsSGZOdm9kaHRvc2dCN2h1NVdGTTBXRnpyQnk5YTFDcDRfcjl6SXNlb0hJajlrMnlGYmxYcngtdFJJUlB2dFFTdDdFYmFGUS1mVFN4eWU5Z1JnYkZFSXhpbHlmRUFaWThKbWhJVjJ3aHpQN3dPaUdEcHNDallUeEctNnZ6NUhPUlQyTVRUSnRaZ1QtaFk3anJ2dExXdENJdG5RaHhrdDdJXzBWUVptNUZLNmEtSE9ndjM?oc=5",
+      "title": "Dolphin: Inference API goes live with DeepSeek V4.1 Flash - 11 Oct 2026",
+      "publishedAt": "2026-10-11T17:00:10Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "TradingView",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-11T18:55:41Z",
+      "firstSeenIn": "0873072"
+    },
+    {
       "modelId": "google.gemini-3-5-flash",
       "variantId": null,
       "postId": "16gd1ei2g8d",
