@@ -527,6 +527,21 @@
       "firstSeenIn": "0873072"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "r9qbg6qac1",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1RdGZsZEs5YVNnTWlhVHc3aU1PbXBfUy1uWS1NOGdhcmlIVW05VmxqdXRBYnluTThyNEJreXZscFUxTi1ZOE5mM1FnbWh0S3ViV18teTQxbHE0eUxCSXk4OEFyc0ZNS212ckdWTA?oc=5",
+      "title": "DeepSeek V4.1 Flash API Setup Guide (2026)",
+      "publishedAt": "2026-10-12T10:10:33Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "https://tech-insider.org/",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-12T23:00:59Z",
+      "firstSeenIn": "e6a0d66"
+    },
+    {
       "modelId": "google.gemini-3-5-flash",
       "variantId": null,
       "postId": "16gd1ei2g8d",
