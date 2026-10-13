@@ -542,6 +542,36 @@
       "firstSeenIn": "e6a0d66"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1mw9yqwbmga",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0UEdweFR5Rm1qZ0wtaUlFTUdwLU1QOXVzUDhMOUd2NUpPcjJFUHhpZzMzdjRHbHpVWk9rUGMwX0JPeWgwU281NFRZY1puM2hWR0xuTDZ5MW45UUFWeXpR?oc=5",
+      "title": "DeepSeek V4.1 Flash: Specs, Price & Is It Free?",
+      "publishedAt": "2026-10-13T07:29:59Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-13T15:59:57Z",
+      "firstSeenIn": "8807afb"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1wxlh6iopio",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9DRlFZT0dBNjRZVjhvM1BiUWdwVXQwdVBnRWhEWVBPM21Ld0dVUGtmS2lRTjhCZ2lXT3QwVTF5eVBrbEplN0xYYWMxQzJudjg1clpRejFvazQ3QmlyMndaTFhiODdSYjYyVVZaLXBWSzZVWlNJbFE?oc=5",
+      "title": "MiMo-V2.6-Pro vs DeepSeek V4.1 Flash: A Ceiling Against a Price",
+      "publishedAt": "2026-10-13T10:44:59Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-13T15:59:57Z",
+      "firstSeenIn": "8807afb"
+    },
+    {
       "modelId": "google.gemini-3-5-flash",
       "variantId": null,
       "postId": "16gd1ei2g8d",
