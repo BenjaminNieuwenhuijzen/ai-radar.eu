@@ -1142,6 +1142,21 @@
       "firstSeenIn": "11e7dc4"
     },
     {
+      "modelId": "openai.gpt-6-1-sol",
+      "variantId": null,
+      "postId": "20auz1cb00f",
+      "link": "https://openai.com/index/third-moment-research",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "publishedAt": "2026-10-14T07:00:00Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6.1 sol",
+      "firstSeenAt": "2026-10-14T18:38:50Z",
+      "firstSeenIn": "d4f251d"
+    },
+    {
       "modelId": "openai.gpt-6-astra",
       "variantId": null,
       "postId": "1oom5hlb4su",
@@ -1440,6 +1455,36 @@
       "alias": "gpt-6 astra",
       "firstSeenAt": "2026-10-13T21:16:04Z",
       "firstSeenIn": "beef2e1"
+    },
+    {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "20auz1cb00f",
+      "link": "https://openai.com/index/third-moment-research",
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "publishedAt": "2026-10-14T07:00:00Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-10-14T18:38:50Z",
+      "firstSeenIn": "d4f251d"
+    },
+    {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "227p0446p3m",
+      "link": "https://openai.com/index/amp-beyond-coding",
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "publishedAt": "2026-10-14T12:00:00Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-10-14T18:38:50Z",
+      "firstSeenIn": "d4f251d"
     },
     {
       "modelId": "openai.gpt-6-luna",
