@@ -5,7 +5,56 @@
 <link>https://ai-radar.eu/</link>
 <description>Combined updates from leading AI companies.</description>
 <language>en</language>
-<lastBuildDate>Thu, 15 Oct 2026 17:02:16 GMT</lastBuildDate>
+<lastBuildDate>Thu, 15 Oct 2026 21:24:15 GMT</lastBuildDate>
+<item>
+<title>[YouTube] Build more personal sites with Codex</title>
+<link>https://www.youtube.com/watch?v=KJ_7KPKlO_Q</link>
+<guid isPermaLink="false">https://www.youtube.com/watch?v=KJ_7KPKlO_Q</guid>
+<pubDate>Thu, 15 Oct 2026 20:48:59 GMT</pubDate>
+<description>Keep your team's Sites up to date and make them personal to each visitor. Connect scheduled tasks to refresh site data automatically and let your users connect their plugins for a personalized view of your site. To try it out, just ask Codex.</description>
+</item>
+<item>
+<title>[Blog] Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint</title>
+<link>https://huggingface.co/blog/ibm-granite/granite-switch-4-1</link>
+<guid isPermaLink="false">https://huggingface.co/blog/ibm-granite/granite-switch-4-1</guid>
+<pubDate>Thu, 15 Oct 2026 20:34:01 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek Restores Services After Nearly Five-Hour Outage - Caixin Global</title>
+<link>https://news.google.com/rss/articles/CBMisAFBVV95cUxOejhVZUpyUjNxYWNHcUZLVDJhMHk3anVwUGQzVWhvaVZia2lVN3BDUmh0WGJaWlBuU0hZRi1OS0ItNkM1ZGVRYjVTdDhOMzZNS1JSV2RFRW5VX2JmOFpHM0h3YVVfZmx6RGszWGppV1ZQMFJzQmttZEJmSm1ncnE0RzBfbVo2d3BwYXpLcUxBcS0tWGVVVnkyeG0xem1WZWJFUUh0cVE5LUwtYVpOWGt3bg?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMisAFBVV95cUxOejhVZUpyUjNxYWNHcUZLVDJhMHk3anVwUGQzVWhvaVZia2lVN3BDUmh0WGJaWlBuU0hZRi1OS0ItNkM1ZGVRYjVTdDhOMzZNS1JSV2RFRW5VX2JmOFpHM0h3YVVfZmx6RGszWGppV1ZQMFJzQmttZEJmSm1ncnE0RzBfbVo2d3BwYXpLcUxBcS0tWGVVVnkyeG0xem1WZWJFUUh0cVE5LUwtYVpOWGt3bg?oc=5</guid>
+<pubDate>Thu, 15 Oct 2026 20:12:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[YouTube] GPT-Live-1.1 has new voices and better accents.</title>
+<link>https://www.youtube.com/watch?v=GyO8Ao7yKJc</link>
+<guid isPermaLink="false">https://www.youtube.com/watch?v=GyO8Ao7yKJc</guid>
+<pubDate>Thu, 15 Oct 2026 18:24:44 GMT</pubDate>
+<description>New voices. Better accents. And less "checking..." GPT-Live-1.1 brings these updates to Voice in ChatGPT, Codex, and dots, with new voices in French, German, Hindi, Mexican Spanish, Korean, and Japanese. Rolling out today to all users. Coming soon to the API.</description>
+</item>
+<item>
+<title>[Developer] NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning</title>
+<link>https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/</guid>
+<pubDate>Thu, 15 Oct 2026 18:01:00 GMT</pubDate>
+<description>Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...</description>
+</item>
+<item>
+<title>[Developer] Scale Agentic Coding Workflows with Meta’s Muse Spark Open on NVIDIA GB300 NVL72</title>
+<link>https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/scale-agentic-coding-workflows-with-metas-muse-spark-open-on-nvidia-gb300-nvl72/</guid>
+<pubDate>Thu, 15 Oct 2026 18:00:01 GMT</pubDate>
+<description>Meta launches Muse Spark Open, a coding-optimized 816B mixture-of-experts (MoE) model with 42B active parameters and a 1M token context window. Trained on...</description>
+</item>
+<item>
+<title>[Newsroom] Volvo Cars and NVIDIA Expand Partnership to Advance Safe Automated Driving</title>
+<link>https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving</link>
+<guid isPermaLink="false">https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving</guid>
+<pubDate>Thu, 15 Oct 2026 17:30:00 GMT</pubDate>
+<description>Volvo Cars today announced it is expanding its partnership with NVIDIA to unlock new levels of safety in automated driving technology in future cars from Volvo, building on the companies’ decade-long collaboration.</description>
+</item>
 <item>
 <title>[Blog] Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark</title>
 <link>https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/</link>
@@ -49,6 +98,13 @@
 <description>Small teams, short runway, and constant pressure to ship faster — it’s the reality we see every day among the founders we work with at Google for Startups. When you are building a company from the ground up, every hour spent on operational overhead or infrastructure plumbing is an hour taken away fr</description>
 </item>
 <item>
+<title>[Research] Proof-based general-purpose computing with Magnetar</title>
+<link>https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/</link>
+<guid isPermaLink="false">https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/</guid>
+<pubDate>Thu, 15 Oct 2026 16:00:00 +0000</pubDate>
+<description>Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages, major speed gains, and quantum-resistant security. The post Proof-based general-purpose computing </description>
+</item>
+<item>
 <title>[Google News] What is StepFun, Number Two on OpenRouter’s LLM Leaderboard? - AI Magazine</title>
 <link>https://news.google.com/rss/articles/CBMijgFBVV95cUxPT3hfLW1LT0t3VHZGTVktRVFFVWxpWS1YSlNidnRMeS1qWWdpblIxZlhjYjRHYTJPNXY1akNmSWtxTHFzSGpkR1NyTzBlYXRoalFZemJ3XzBtZ0czeG1scGNmWTFFSUpqX3NJZEFPVFJibEVUQmtOWXdsQVNYMXdoX3dCM2Y0STA5enUzWm53?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijgFBVV95cUxPT3hfLW1LT0t3VHZGTVktRVFFVWxpWS1YSlNidnRMeS1qWWdpblIxZlhjYjRHYTJPNXY1akNmSWtxTHFzSGpkR1NyTzBlYXRoalFZemJ3XzBtZ0czeG1scGNmWTFFSUpqX3NJZEFPVFJibEVUQmtOWXdsQVNYMXdoX3dCM2Y0STA5enUzWm53?oc=5</guid>
@@ -70,13 +126,6 @@
 <description>NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for</description>
 </item>
 <item>
-<title>[Developer] NVIDIA Nemotron 3.5 Super VL Powers Specialized Agents with Multimodal Reasoning</title>
-<link>https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/</link>
-<guid isPermaLink="false">https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/</guid>
-<pubDate>Thu, 15 Oct 2026 15:00:00 GMT</pubDate>
-<description>Always-on agents are taking on longer, more complex enterprise workflows. A single request can involve reading a document, checking information across sources,...</description>
-</item>
-<item>
 <title>[YouTube] Weeks to Hours: SentinelOne on Cybersecurity Research with OpenAI</title>
 <link>https://www.youtube.com/shorts/3IVo-MNwk2I</link>
 <guid isPermaLink="false">https://www.youtube.com/shorts/3IVo-MNwk2I</guid>
@@ -88,13 +137,6 @@
 <link>https://www.youtube.com/watch?v=BOTAeAU5ExQ</link>
 <guid isPermaLink="false">https://www.youtube.com/watch?v=BOTAeAU5ExQ</guid>
 <pubDate>Thu, 15 Oct 2026 14:12:09 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] FSB Says Banks Need to Have Company-Wide AI Regulation - PYMNTS.com</title>
-<link>https://news.google.com/rss/articles/CBMisgFBVV95cUxNWEp4VkdRNl9pcVFveGVtQXlwWFAtMlE0TlZTWUtCNDJIcVJVRDI2THUtRWxiOFFLd2w4eURIUnhUdE1xSjNOWV9jTGdqYkhqZ1d2NjZOTmgxdDlvVWZEOXJkOHliODZKVk0zV2Q2aW9iNUNLdThjRHZzaFZ5dnNsU3ZvN1p0VVBsck1SQVZQekRJNDR5VjlHcFE1UzhwZ09pbjRZMjUzdGVQNktWcV9aUDV3?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMisgFBVV95cUxNWEp4VkdRNl9pcVFveGVtQXlwWFAtMlE0TlZTWUtCNDJIcVJVRDI2THUtRWxiOFFLd2w4eURIUnhUdE1xSjNOWV9jTGdqYkhqZ1d2NjZOTmgxdDlvVWZEOXJkOHliODZKVk0zV2Q2aW9iNUNLdThjRHZzaFZ5dnNsU3ZvN1p0VVBsck1SQVZQekRJNDR5VjlHcFE1UzhwZ09pbjRZMjUzdGVQNktWcV9aUDV3?oc=5</guid>
-<pubDate>Thu, 15 Oct 2026 13:09:01 GMT</pubDate>
 
 </item>
 <item>
@@ -196,7 +238,7 @@
 <description>A Blog post by Swiss AI Initiative on Hugging Face</description>
 </item>
 <item>
-<title>[Google News] DeepSeek servers suffer global outage, mysterious Harness accounts emerge simultaneously - 36 Kr</title>
+<title>[Google News] DeepSeek servers suffer global outage, mysterious Harness accounts emerge simultaneously - 36Kr</title>
 <link>https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KVHVoRGF3VUtBalJIOEJCSnlhRmM3b0M1alpZb0h5OGZRLVZaZ0MwczRwOGdfVTVxbDctRFdRdEZfRVFpNk9QOWpGRUVNVHA1ZUkw?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KVHVoRGF3VUtBalJIOEJCSnlhRmM3b0M1alpZb0h5OGZRLVZaZ0MwczRwOGdfVTVxbDctRFdRdEZfRVFpNk9QOWpGRUVNVHA1ZUkw?oc=5</guid>
 <pubDate>Thu, 15 Oct 2026 06:42:09 GMT</pubDate>
@@ -224,6 +266,13 @@
 <description>The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology eco</description>
 </item>
 <item>
+<title>[Google News] [Blog] Artificial Intelligence in Mauritius: Progress, Regulation, and the Road Ahead - Defimedia</title>
+<link>https://news.google.com/rss/articles/CBMinAFBVV95cUxQQkR1QmFEalFCUEl1NnRtOFJzTFJfX08tQ2hNNnF1NTVON3JHMFIwQmUyNVM2bHRHUVdsakJXbWJNU0lrQm5VUDlha0FDdmFZb2xJNmxWdFBrUnJLZVAyLVRhSmtDcUhldkk1V08weEwtV2dTc3RaTDNrWGhvbFpvV1BmNkZNLXVRNWk3aUY2UG5oNTdLNHNkbERmX2w?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMinAFBVV95cUxQQkR1QmFEalFCUEl1NnRtOFJzTFJfX08tQ2hNNnF1NTVON3JHMFIwQmUyNVM2bHRHUVdsakJXbWJNU0lrQm5VUDlha0FDdmFZb2xJNmxWdFBrUnJLZVAyLVRhSmtDcUhldkk1V08weEwtV2dTc3RaTDNrWGhvbFpvV1BmNkZNLXVRNWk3aUY2UG5oNTdLNHNkbERmX2w?oc=5</guid>
+<pubDate>Thu, 15 Oct 2026 03:04:36 GMT</pubDate>
+
+</item>
+<item>
 <title>[Google News] Baisley opposes stricter artificial intelligence regulation - 9News</title>
 <link>https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRlMxOWw1RGRMU1g3THllSnRRa1VOZVR4VFBHYWRvT3JRV2dTTFBIMWtyTF9zQkNlM2ZFZFdIQ0gyc0hIbVEyOGhYSmswcGVtNnlKTUdqa3J1QWdJekZxRVZ2UlRROXpObmFiTkh5X2x6SmY1SFdjN1hwSng3ZVBhLVNGYV9CUGlEY0k4N3Y3TUpxYTNfZHZfRE5fdjJGZ0lGZDJPVGhXRW95QktTcTkzdTdIUVkxRGxWWnI3NUNpeXBjYUhkUjFGTzBLOVBTYjQteGNxRHdGSUI?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMi2AFBVV95cUxQRlMxOWw1RGRMU1g3THllSnRRa1VOZVR4VFBHYWRvT3JRV2dTTFBIMWtyTF9zQkNlM2ZFZFdIQ0gyc0hIbVEyOGhYSmswcGVtNnlKTUdqa3J1QWdJekZxRVZ2UlRROXpObmFiTkh5X2x6SmY1SFdjN1hwSng3ZVBhLVNGYV9CUGlEY0k4N3Y3TUpxYTNfZHZfRE5fdjJGZ0lGZDJPVGhXRW95QktTcTkzdTdIUVkxRGxWWnI3NUNpeXBjYUhkUjFGTzBLOVBTYjQteGNxRHdGSUI?oc=5</guid>
@@ -236,6 +285,20 @@
 <guid isPermaLink="false">https://about.fb.com/news/2026/10/more-than-three-quarters-of-small-business-owners-say-ai-makes-them-more-productive-but-most-need-more-guidance/</guid>
 <pubDate>Thu, 15 Oct 2026 00:50:50 +0000</pubDate>
 <description>New Meta research across nine APAC markets shows how AI is helping small businesses grow, compete with larger rivals and reach customers across borders. The post More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance appeared first on Meta Ne</description>
+</item>
+<item>
+<title>[News] An update on independent evaluators</title>
+<link>https://www.anthropic.com/news/an-update-on-independent-evaluators</link>
+<guid isPermaLink="false">https://www.anthropic.com/news/an-update-on-independent-evaluators</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+<description>Anthropic announces updates to embedding independent evaluators</description>
+</item>
+<item>
+<title>[Blog] Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta</title>
+<link>https://huggingface.co/blog/meta-muse-spark-open</link>
+<guid isPermaLink="false">https://huggingface.co/blog/meta-muse-spark-open</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+
 </item>
 <item>
 <title>[Blog] Welcome FLUX.3 Image Klein in Diffusers</title>
@@ -257,6 +320,13 @@
 <guid isPermaLink="false">https://cohere.com/blog/ai-roi</guid>
 <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
 <description>AI ROI can be difficult to forecast and measure. Learn how enterprises can assess AI costs, quantify financial value, and build more credible ROI estimates.</description>
+</item>
+<item>
+<title>[Blog] AI for utilities requires capability and control</title>
+<link>https://cohere.com/blog/ai-for-utilities-requires-capability-and-control</link>
+<guid isPermaLink="false">https://cohere.com/blog/ai-for-utilities-requires-capability-and-control</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+<description>Learn what utility companies should consider before deploying AI, and see how North can help meet the sector's security, data, and operational needs.</description>
 </item>
 <item>
 <title>[Blog] Agent sprawl: How to manage agent proliferation in the enterprise</title>
@@ -299,13 +369,6 @@
 <guid isPermaLink="false">https://www.youtube.com/shorts/mGQHufCewjc</guid>
 <pubDate>Wed, 14 Oct 2026 21:50:16 GMT</pubDate>
 <description>Tonight in London, our CEO Jensen Huang celebrated the people behind the UK’s AI ecosystem and announced new investments in Boltz, Foresight, Hiverge, Prima Mente, and Riverlane. Boltz, a London-based AI startup founded by MIT researchers, builds biomolecular models and AI agents that help scientist</description>
-</item>
-<item>
-<title>[Google News] Ultramarine 1 Flash vs DeepSeek V4 Flash: Cost per Task - OrcaRouter</title>
-<link>https://news.google.com/rss/articles/CBMie0FVX3lxTFByRW5rLVJERWRodkFSS2dhdnNuQ2cyT2prYm01Qng0VFV5V3IwSTh5cTMwT0k1VlZ0ZmdDUFJnX1VNX081QzU2RmxScWZhNnA1QUhrZkE4Xy1RZjhCZE1fRThFRGVmMjBvU0lYLTlQYkdLNHNPSlpCS2duRQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMie0FVX3lxTFByRW5rLVJERWRodkFSS2dhdnNuQ2cyT2prYm01Qng0VFV5V3IwSTh5cTMwT0k1VlZ0ZmdDUFJnX1VNX081QzU2RmxScWZhNnA1QUhrZkE4Xy1RZjhCZE1fRThFRGVmMjBvU0lYLTlQYkdLNHNPSlpCS2duRQ?oc=5</guid>
-<pubDate>Wed, 14 Oct 2026 20:19:18 GMT</pubDate>
-
 </item>
 <item>
 <title>[YouTube] RTX 5090 vs M5 Ultra: Which AI Powerhouse Wins?</title>
@@ -362,69 +425,6 @@
 <guid isPermaLink="false">https://www.youtube.com/shorts/PZxbaIp8PzE</guid>
 <pubDate>Wed, 14 Oct 2026 17:47:37 GMT</pubDate>
 <description>Running a restaurant is a 24/7 commitment. And apparently finding catering clients is just as time-consuming. Nick Baumann visited Richard at @thedumplingprince in Toronto to put ChatGPT to work on a catering deck and automated outreach. It didn't get an apron. 👉🛠️ Wish something existed? Drop you</description>
-</item>
-<item>
-<title>[Google News] Journalism and artificial intelligence: Cored wants to strengthen media self-regulation - Seneweb</title>
-<link>https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaFBXVTNmbUdkbk5oMUVPaGhhcXlEa2pwUlRRSEl5ZkpyWXhvNTJHSjc1aGFGVnQ3a21QWFpwMXlROUxFSFZ2X1pNVmJhMGQxZ0ZaSFZBOWQwWkJxM3JlQTg0TFp6LXJ4UUhPZTNYYWRobk1KOWo0OU1seHF4bzJjY0hOU0pONUc0VDJMNVhrei01OUNZRGdqT3JqTlVJSk5aNTVIWFlaQVp6cFN3SzVpa1pyMHRGU09vZU1WMTJaT2V6MnVtQVBjc2ZXVXVXNE9DLU1aTFJBeGt6Nlh3bDI4dS1xOExDZTA?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaFBXVTNmbUdkbk5oMUVPaGhhcXlEa2pwUlRRSEl5ZkpyWXhvNTJHSjc1aGFGVnQ3a21QWFpwMXlROUxFSFZ2X1pNVmJhMGQxZ0ZaSFZBOWQwWkJxM3JlQTg0TFp6LXJ4UUhPZTNYYWRobk1KOWo0OU1seHF4bzJjY0hOU0pONUc0VDJMNVhrei01OUNZRGdqT3JqTlVJSk5aNTVIWFlaQVp6cFN3SzVpa1pyMHRGU09vZU1WMTJaT2V6MnVtQVBjc2ZXVXVXNE9DLU1aTFJBeGt6Nlh3bDI4dS1xOExDZTA?oc=5</guid>
-<pubDate>Wed, 14 Oct 2026 17:16:41 GMT</pubDate>
-
-</item>
-<item>
-<title>[YouTube] How NVIDIA AI Is Transforming Chip Design and Manufacturing</title>
-<link>https://www.youtube.com/watch?v=rBN0PDfJWIc</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=rBN0PDfJWIc</guid>
-<pubDate>Wed, 14 Oct 2026 16:46:00 GMT</pubDate>
-<description>Demand for advanced chips is accelerating, bringing greater complexity to semiconductor design and manufacturing. See how NVIDIA accelerated computing and AI are helping the industry build the AI-defined fab. Explore how NVIDIA CUDA-X libraries, AI physics models, digital twins, AI agents, and robot</description>
-</item>
-<item>
-<title>[Research] Putting Earth AI to work: Geospatial agents for our planet's biggest challenges</title>
-<link>https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/</link>
-<guid isPermaLink="false">https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/</guid>
-<pubDate>Wed, 14 Oct 2026 16:14:00 +0000</pubDate>
-
-</item>
-<item>
-<title>[Research] Analyzing technical documents with Deep Review</title>
-<link>https://research.google/blog/analyzing-technical-documents-with-deep-review/</link>
-<guid isPermaLink="false">https://research.google/blog/analyzing-technical-documents-with-deep-review/</guid>
-<pubDate>Wed, 14 Oct 2026 16:14:00 +0000</pubDate>
-
-</item>
-<item>
-<title>[Research] Research@ 2026: 10 ways we're amplifying human ingenuity</title>
-<link>https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/</link>
-<guid isPermaLink="false">https://research.google/blog/research-2026-10-ways-were-amplifying-human-ingenuity/</guid>
-<pubDate>Wed, 14 Oct 2026 16:14:00 +0000</pubDate>
-
-</item>
-<item>
-<title>[Blog] HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost</title>
-<link>https://huggingface.co/blog/allenai/hiro-acev2</link>
-<guid isPermaLink="false">https://huggingface.co/blog/allenai/hiro-acev2</guid>
-<pubDate>Wed, 14 Oct 2026 16:12:42 GMT</pubDate>
-
-</item>
-<item>
-<title>[Developer] Optimizing Agent Reliability and Tool Calling Efficiency for Chip Design Using NVIDIA NeMo Gym</title>
-<link>https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/</link>
-<guid isPermaLink="false">https://developer.nvidia.com/blog/optimizing-agent-reliability-and-tool-calling-efficiency-for-chip-design-using-nvidia-nemo-gym/</guid>
-<pubDate>Wed, 14 Oct 2026 16:10:45 GMT</pubDate>
-<description>AI agents offer remarkable productivity gains in complex chip design workflows, but their tendency to generate plausible yet incorrect artifacts makes...</description>
-</item>
-<item>
-<title>[Newsroom] NVIDIA and Semiconductor Leaders Advance AI Across Chip Design and Manufacturing for AI-Defined Fabs</title>
-<link>https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs</link>
-<guid isPermaLink="false">https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs</guid>
-<pubDate>Wed, 14 Oct 2026 16:10:00 GMT</pubDate>
-<description>NVIDIA today announced semiconductor leaders are adopting NVIDIA CUDA-X™ libraries — including the new NVIDIA cuPotential library, which developers can use to build AI agents that simulate how atoms and molecules interact — to advance AI-defined fabs.</description>
-</item>
-<item>
-<title>[Newsroom] Meta, Milan’s Pinacoteca di Brera, and EssilorLuxottica Expand Access to Art Through AI Glasses</title>
-<link>https://about.fb.com/news/2026/10/meta-milans-pinacoteca-di-brera-and-essilorluxottica-expand-access-to-art-through-ai-glasses/</link>
-<guid isPermaLink="false">https://about.fb.com/news/2026/10/meta-milans-pinacoteca-di-brera-and-essilorluxottica-expand-access-to-art-through-ai-glasses/</guid>
-<pubDate>Wed, 14 Oct 2026 16:00:57 +0000</pubDate>
-<description>Today, Meta, Pinacoteca di Brera and EssilorLuxottica are proud to launch “Sensing Art – Discovering Masterpieces Beyond What Meets the Eye.” This pilot aims to explore how AI glasses can make art more accessible for people who are blind or with low vision – in collaboration with the some of Italy’s</description>
 </item>
 </channel>
 </rss>
