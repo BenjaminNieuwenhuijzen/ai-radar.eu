@@ -572,6 +572,21 @@
       "firstSeenIn": "8807afb"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "22meuk95r1r",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOC1NX2JRVFdCSkliVFdadFEzLTJaOVNnRXRVTlRxZXc0Y2pJS1ZsRU5lTmQxSk1DQkNoWHhRRUxXdHNPRXNmdU5UUGhqUUVXY2ZYRWEycC1heVlyMmg4d3p6R3huTVhIMjY4SW9FZ0JVcXBadW1yTHJkNnFKOV9taXkyS080aW1KTWVRRmtIMFRTNTZQSUNRaW9lWXl5Y0tvOTVodS1YTWc0Tnpx?oc=5",
+      "title": "OpenCode provides free access to DeepSeek V4.1 Flash with a 200K context limit.",
+      "publishedAt": "2026-10-15T10:22:38Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "KuCoin",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-15T11:30:19Z",
+      "firstSeenIn": "dd8072e"
+    },
+    {
       "modelId": "google.gemini-3-5-flash",
       "variantId": null,
       "postId": "16gd1ei2g8d",
