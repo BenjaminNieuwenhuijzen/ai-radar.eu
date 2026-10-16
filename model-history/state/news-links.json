@@ -182,6 +182,21 @@
       "firstSeenIn": "df6ed39"
     },
     {
+      "modelId": "anthropic.claude-mythos-5",
+      "variantId": null,
+      "postId": "rcbmd03u3k",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE93bzlUX25uTTdNZjJOZHo2NWtKRVZfV0RtR19UQkJ6bUFjdXFEVlA4VXBTekhHbEo2czllalJ2cFFfN0FwbllMSHNISHV2N0NkQTB0NUZMeEh3Wkp0NE1RRkE2UFFmaUt4Ykh3d2hyVnVUaHc?oc=5",
+      "title": "Claude Mythos 5 vs DeepSeek V4 Pro: A 15× Price Gap, and Only One of Them Is Cheap at What It Is Good At",
+      "publishedAt": "2026-10-16T20:49:18Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude mythos 5",
+      "firstSeenAt": "2026-10-16T21:09:32Z",
+      "firstSeenIn": "0114476"
+    },
+    {
       "modelId": "anthropic.claude-opus-4-6",
       "variantId": null,
       "postId": "j3x47b0qlj",
