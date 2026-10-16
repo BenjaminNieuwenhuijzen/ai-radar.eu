@@ -5,19 +5,96 @@
 <link>https://ai-radar.eu/</link>
 <description>Combined updates from leading AI companies.</description>
 <language>en</language>
-<lastBuildDate>Fri, 16 Oct 2026 13:16:16 GMT</lastBuildDate>
+<lastBuildDate>Fri, 16 Oct 2026 18:04:31 GMT</lastBuildDate>
+<item>
+<title>[YouTube] Put ChatGPT to work on shared team tasks</title>
+<link>https://www.youtube.com/watch?v=OMxEUdIgsQc</link>
+<guid isPermaLink="false">https://www.youtube.com/watch?v=OMxEUdIgsQc</guid>
+<pubDate>Fri, 16 Oct 2026 18:00:49 GMT</pubDate>
+<description>Set up recurring work your team can manage together with team tasks in ChatGPT. Follow a legal team's daily intake workflow—from reviewing incoming requests and checking deadlines to refining shared instructions for the next run. Tasks run in the cloud, so teammates can review results, improve the w</description>
+</item>
+<item>
+<title>[YouTube] Thiemo Wandel - Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation</title>
+<link>https://www.youtube.com/watch?v=G0pOjA1kfMU</link>
+<guid isPermaLink="false">https://www.youtube.com/watch?v=G0pOjA1kfMU</guid>
+<pubDate>Fri, 16 Oct 2026 17:12:08 GMT</pubDate>
+<description>​Monocular depth estimation is a ubiquitous yet highly ill-posed computer vision task, with downstream applications in scene reconstruction, computational photography, and robotics, among others. Despite the field's maturity, recent models still struggle to generalize to out-of-distribution inputs a</description>
+</item>
+<item>
+<title>[Developer] Code, Test, and Deploy on One Machine with NVIDIA RTX Spark</title>
+<link>https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/code-test-and-deploy-on-one-machine-with-nvidia-rtx-spark/</guid>
+<pubDate>Fri, 16 Oct 2026 17:00:00 GMT</pubDate>
+<description>AI agents are changing how software gets built. Developers have gone from writing every line of code by hand to directing agents that write most of the code. As...</description>
+</item>
+<item>
+<title>[Cloud AI] Architecting autonomy: A design pattern for high-compute, governed agents in biotech</title>
+<link>https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/</link>
+<guid isPermaLink="false">https://cloud.google.com/blog/topics/healthcare-life-sciences/architecting-scalable-agentic-biotech-workloads/</guid>
+<pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
+<description>In production systems today, most AI agents operate as lightweight dispatchers. They parse a prompt, make an API call, retrieve a record, and hand back control. Their execution is fast, stateless and cheap. Biotechnology does not work this way. Folding a protein target, screening a 50,000 compound l</description>
+</item>
+<item>
+<title>[Cloud AI] Four evaluation engineering lessons learned from building agent plugins</title>
+<link>https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons/</link>
+<guid isPermaLink="false">https://cloud.google.com/blog/topics/developers-practitioners/four-eval-engineering-lessons/</guid>
+<pubDate>Fri, 16 Oct 2026 16:00:00 +0000</pubDate>
+<description>The real challenge of building an agentic system isn't the construction, it's the measurement. Evaluation engineering is a critical foundation for building reliable AI systems. Setting up systematic, repeatable tests to measure your agent’s true behavior can be the difference between shipping a tool</description>
+</item>
+<item>
+<title>[YouTube] Andy Zeyi Liu - Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization</title>
+<link>https://www.youtube.com/watch?v=H-xkKoLQUZc</link>
+<guid isPermaLink="false">https://www.youtube.com/watch?v=H-xkKoLQUZc</guid>
+<pubDate>Fri, 16 Oct 2026 15:51:29 GMT</pubDate>
+<description>​Joint-Embedding Predictive Architecture (JEPA) world models learn a compact latent representation of the world that supports prediction and planning, but their capability to learn physics and generate physically realistic dynamics remains hitherto untested. In this work, we introduce SemiGroup-JEPA</description>
+</item>
+<item>
+<title>[Google News] China's DeepSeek hit by 5-hour AI service outage - Nikkei Asia</title>
+<link>https://news.google.com/rss/articles/CBMitwFBVV95cUxPSm4tNU0xUDJDckV6eGp3OHp6eUZCaGVERjBTLXNNS0VGZVpKcFRzR1ZCMmNvS3lBN3FEMkpJTHR6R3NtYXZjZVc2UU41Wm5YeHhWZzctd25uQkpoUUIteDlFRlR1X0xjdWtxV0E0dVN5cGdmUHhIQ2g5SGtVcW5WbDFXR21JOE5vWHpRWGNlWWtNay1TeUZfNlZPdjdRdkh2dy1MeWtPeEtNRXlOTjBRQk1WTEt6Vm8?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitwFBVV95cUxPSm4tNU0xUDJDckV6eGp3OHp6eUZCaGVERjBTLXNNS0VGZVpKcFRzR1ZCMmNvS3lBN3FEMkpJTHR6R3NtYXZjZVc2UU41Wm5YeHhWZzctd25uQkpoUUIteDlFRlR1X0xjdWtxV0E0dVN5cGdmUHhIQ2g5SGtVcW5WbDFXR21JOE5vWHpRWGNlWWtNay1TeUZfNlZPdjdRdkh2dy1MeWtPeEtNRXlOTjBRQk1WTEt6Vm8?oc=5</guid>
+<pubDate>Fri, 16 Oct 2026 15:21:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] New Startup Aims to Bring AI and Robotics to Material Manufacturing - Industrial Equipment News</title>
+<link>https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSUhLZGotNFRFMXhjNjQtclZSVUZCOFNSSzA0MUdwUzhBS1M5NmNSSmlJbDZxLVRTU1BRVUtTYzAzd0FhSjNPZUM3THcyd2FMSjZmT29QaEhOUU5XcnZZUlYyeUdOT0hINnBzeFp1eEcybklQN29VR2p1WnlaUEZlSHZ4c3h0Mm0xQm5XTGtPRGRPbS0zamdzLURaTUZjc014TjgtOUR3di1yMkg5N2YzbzJSXzJzNUk1T0duV2Z1SV9Mcm8?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSUhLZGotNFRFMXhjNjQtclZSVUZCOFNSSzA0MUdwUzhBS1M5NmNSSmlJbDZxLVRTU1BRVUtTYzAzd0FhSjNPZUM3THcyd2FMSjZmT29QaEhOUU5XcnZZUlYyeUdOT0hINnBzeFp1eEcybklQN29VR2p1WnlaUEZlSHZ4c3h0Mm0xQm5XTGtPRGRPbS0zamdzLURaTUZjc014TjgtOUR3di1yMkg5N2YzbzJSXzJzNUk1T0duV2Z1SV9Mcm8?oc=5</guid>
+<pubDate>Fri, 16 Oct 2026 15:11:15 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Microsoft MAI-Base-2: 2.8T Params, 12x DeepSeek Gain [2026] - https://tech-insider.org/</title>
+<link>https://news.google.com/rss/articles/CBMic0FVX3lxTE9QbGkyZlUzZ0NZREhreFk4azNtdUN6eFBLYUl6SnZ4bmFvTVVKeG05a1hVYXh2aUhwTGdqSWtoMWtSTlQ0cTlRZjF0YnJsYm9VS0VuMFktYkMzOEQ2OHI4dUREZUIwcmlLVFlETzEtZkk4YVU?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMic0FVX3lxTE9QbGkyZlUzZ0NZREhreFk4azNtdUN6eFBLYUl6SnZ4bmFvTVVKeG05a1hVYXh2aUhwTGdqSWtoMWtSTlQ0cTlRZjF0YnJsYm9VS0VuMFktYkMzOEQ2OHI4dUREZUIwcmlLVFlETzEtZkk4YVU?oc=5</guid>
+<pubDate>Fri, 16 Oct 2026 14:49:46 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Digital Governance Summit to discuss Artificial Intelligence, Romania's Strategic Compass - Agerpres</title>
+<link>https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYTlua3pfMHJJaHh0N0JES1pURnRZd1k5TnRVa3luTVIxUUhmb08yMWp5Yk1ROV9JSk9mMkZBQl9CbUlzRnNpOHRVZHhPZ2h2UUVUTzJJelozV0V3UzZ4UXF1U0poVlVWelB1NkRsT05PX2JEZThMNWZPZE1Qd3JGbzlyRWVfSXE0c1lLR2tiQ0VpTlcydjRkNzUtS2hJbDBJT0ZPRlFfX3p4MzlMbEQ3MWpJZFFISHRfUG1TZmZURWNmeWhqcWZfYXFMeVN1UEtsLUE?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYTlua3pfMHJJaHh0N0JES1pURnRZd1k5TnRVa3luTVIxUUhmb08yMWp5Yk1ROV9JSk9mMkZBQl9CbUlzRnNpOHRVZHhPZ2h2UUVUTzJJelozV0V3UzZ4UXF1U0poVlVWelB1NkRsT05PX2JEZThMNWZPZE1Qd3JGbzlyRWVfSXE0c1lLR2tiQ0VpTlcydjRkNzUtS2hJbDBJT0ZPRlFfX3p4MzlMbEQ3MWpJZFFISHRfUG1TZmZURWNmeWhqcWZfYXFMeVN1UEtsLUE?oc=5</guid>
+<pubDate>Fri, 16 Oct 2026 14:07:46 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Step 5 Preview vs DeepSeek V4.1 Flash: Price vs Licence - OrcaRouter</title>
+<link>https://news.google.com/rss/articles/CBMid0FVX3lxTFBXNVE4V2hiNHhyRk5qeGZ2aU5lM3pjLVpELTl1VVJUc1BYeF80NTZrcVhOalJUTWlfN0JETUs2ODRYdXdoVHotZllhdEpvdjJnV0NwX0lFaU5SU25DMk84RWp4NDVJTFdYTTFNSFNwNExSNjR5eVlJ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMid0FVX3lxTFBXNVE4V2hiNHhyRk5qeGZ2aU5lM3pjLVpELTl1VVJUc1BYeF80NTZrcVhOalJUTWlfN0JETUs2ODRYdXdoVHotZllhdEpvdjJnV0NwX0lFaU5SU25DMk84RWp4NDVJTFdYTTFNSFNwNExSNjR5eVlJ?oc=5</guid>
+<pubDate>Fri, 16 Oct 2026 13:38:36 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] China Reportedly Planning AI Export Controls, Citing National Security - PCMag UK</title>
+<link>https://news.google.com/rss/articles/CBMiogFBVV95cUxQRk15MFgxdHVPbmFjazBvSXFHMm1zbHhuNWYzb1p6LUJUbEw3QmhwcEluVEhaMnhwUWhYOVVGOWRhZU5kbkYyaTV3R3N1bXJLUnk5TTBrdkR0V3pwQ3RLTk83bndSWllUeGkzRWpFcmZIak9PVEpnWE9IekNMbVhnZmNVOXRnTy1SNWVHemRSSEV2aTVLTjZ0N3Z2aFN3OVM0dHc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiogFBVV95cUxQRk15MFgxdHVPbmFjazBvSXFHMm1zbHhuNWYzb1p6LUJUbEw3QmhwcEluVEhaMnhwUWhYOVVGOWRhZU5kbkYyaTV3R3N1bXJLUnk5TTBrdkR0V3pwQ3RLTk83bndSWllUeGkzRWpFcmZIak9PVEpnWE9IekNMbVhnZmNVOXRnTy1SNWVHemRSSEV2aTVLTjZ0N3Z2aFN3OVM0dHc?oc=5</guid>
+<pubDate>Fri, 16 Oct 2026 13:06:48 GMT</pubDate>
+
+</item>
 <item>
 <title>[Google News] Muse Spark vs DeepSeek V4.1 Pro: One Shipped, One Did Not - OrcaRouter</title>
 <link>https://news.google.com/rss/articles/CBMib0FVX3lxTE5XQ3psRVRhXzBveTQ3UUZ4UDgzRzNnZVRrVTlQYXFSSHl6eHloN1VIM3RjTUptRGVhMk93b1E2ZG1tNS1XdXBGNUlXc3BDdEhSRGxzNXJJV2pSYkkzWWl0Q2tUS1MxNkpveHBDa2c5dw?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMib0FVX3lxTE5XQ3psRVRhXzBveTQ3UUZ4UDgzRzNnZVRrVTlQYXFSSHl6eHloN1VIM3RjTUptRGVhMk93b1E2ZG1tNS1XdXBGNUlXc3BDdEhSRGxzNXJJV2pSYkkzWWl0Q2tUS1MxNkpveHBDa2c5dw?oc=5</guid>
 <pubDate>Fri, 16 Oct 2026 12:41:03 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Future of Artificial Intelligence: Job Impact and Regulation Trends - The Cryptonomist</title>
-<link>https://news.google.com/rss/articles/CBMieEFVX3lxTFBWXzR1OG1HY2hKVnc1U3F3NFFmV2JvMVJyVmVKY0FXX2tVZkY3Qk80UGRJdHNUX2I0bE1WTkdKcy1kTmtDVVJEaVAyN29wZmg2WWhhazVzeVpJOXdNeXg2Q3Jkb1lfODREUTdHR3RHdEVoV0prSHZKLQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMieEFVX3lxTFBWXzR1OG1HY2hKVnc1U3F3NFFmV2JvMVJyVmVKY0FXX2tVZkY3Qk80UGRJdHNUX2I0bE1WTkdKcy1kTmtDVVJEaVAyN29wZmg2WWhhazVzeVpJOXdNeXg2Q3Jkb1lfODREUTdHR3RHdEVoV0prSHZKLQ?oc=5</guid>
-<pubDate>Fri, 16 Oct 2026 12:01:49 GMT</pubDate>
 
 </item>
 <item>
@@ -189,6 +266,13 @@
 <description>We caught up with creators and developers at the @Windows Surface event to hear what they’re looking forward to building, creating, and playing.</description>
 </item>
 <item>
+<title>[Research] Designing more efficient quantum circuits with Claude</title>
+<link>https://www.anthropic.com/research/designing-efficient-quantum-circuits</link>
+<guid isPermaLink="false">https://www.anthropic.com/research/designing-efficient-quantum-circuits</guid>
+<pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+<description>Working largely on its own, Claude designed quantum circuits that improve on the best published versions, in some cases by an order of magnitude or more.</description>
+</item>
+<item>
 <title>[Blog] Welcome Beam: a 501B open model you can own, customize, and scale</title>
 <link>https://huggingface.co/blog/reflection-beam</link>
 <guid isPermaLink="false">https://huggingface.co/blog/reflection-beam</guid>
@@ -341,90 +425,6 @@
 <guid isPermaLink="false">https://openai.com/index/teaching-students-to-think-and-learn-through-questions</guid>
 <pubDate>Thu, 15 Oct 2026 13:00:00 GMT</pubDate>
 <description>Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.</description>
-</item>
-<item>
-<title>[Gemini] An intelligent new shopping cart</title>
-<link>https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/</link>
-<guid isPermaLink="false">https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/</guid>
-<pubDate>Thu, 15 Oct 2026 13:00:00 +0000</pubDate>
-<description>Universal Cart helps make holiday shopping easier. It’s now available in the U.S. across Search and the Gemini app.</description>
-</item>
-<item>
-<title>[Google News] Artificial intelligence meets business intelligence: the anatomy of inflation - Bank Underground</title>
-<link>https://news.google.com/rss/articles/CBMiugFBVV95cUxONVJKUkZ5d203eE85ai1FRlBnZDdISENVbmRCREdFeGkyR3BmVzV5Z24yR25TcVhTdXFNeDBSd1R5ZzZONV9TdVpSYmtzaGZra2gycmozRUtEYlp5WmgtaUxSM3lLMDR1WElETjk5ZXZueTRoeWZmal85c09xeUx3SmJkeGdLYjR0ZmRmdmxmR0U1aXlfcjJSR3hVY0FvVkZ2WWxRa3k5Y3k3ZThOcFNKYUNkeUZvN29XelE?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiugFBVV95cUxONVJKUkZ5d203eE85ai1FRlBnZDdISENVbmRCREdFeGkyR3BmVzV5Z24yR25TcVhTdXFNeDBSd1R5ZzZONV9TdVpSYmtzaGZra2gycmozRUtEYlp5WmgtaUxSM3lLMDR1WElETjk5ZXZueTRoeWZmal85c09xeUx3SmJkeGdLYjR0ZmRmdmxmR0U1aXlfcjJSR3hVY0FvVkZ2WWxRa3k5Y3k3ZThOcFNKYUNkeUZvN29XelE?oc=5</guid>
-<pubDate>Thu, 15 Oct 2026 13:00:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek suffers another major outage as company offers user refunds - South China Morning Post</title>
-<link>https://news.google.com/rss/articles/CBMitwFBVV95cUxQei1iZTlCN1NrVzJOYmNjMmFjejVKU05obGxmdHkwbG1YWFNRclFyV1NacmJ3Q1o5RUVPMkRVNWsxTlJJQ2V0SEF4YTdDV05lUHgzSURSc0QwVF9LeE4wRmplUUFwSzZkYjJGUGhjalQ1SHZhWk5mTmlNcGxLZWtGLU5UcHI4NTJpWENQZThBS0xsQ3lsSENabmhKQlhEN1JBWlVwZnU1UWRVVExYWU1mU2xqUEVlbjDSAbcBQVVfeXFMUGRtSmxxc3hJSkFKeF80MkVyVGRFMG1ISlZlV0RjbUZfS05Ra1U1azZjeWFJX1UycUxvSjlqcnVnZFFicHhTODVpeXdiUDBMcnMyQ3IyXzRqaTFDUm11VFhTS2JndTVGdTJYQ3c1bHl4clJHaC16V3VHNldpZVNPWlJvUmxBTHJMU1Q5Y2F5R2tlYk93WlZiVTc3U1RsRVhjWnRaX3JxOVNRR3IwQ01WLXlPSF9BZS1Z?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitwFBVV95cUxQei1iZTlCN1NrVzJOYmNjMmFjejVKU05obGxmdHkwbG1YWFNRclFyV1NacmJ3Q1o5RUVPMkRVNWsxTlJJQ2V0SEF4YTdDV05lUHgzSURSc0QwVF9LeE4wRmplUUFwSzZkYjJGUGhjalQ1SHZhWk5mTmlNcGxLZWtGLU5UcHI4NTJpWENQZThBS0xsQ3lsSENabmhKQlhEN1JBWlVwZnU1UWRVVExYWU1mU2xqUEVlbjDSAbcBQVVfeXFMUGRtSmxxc3hJSkFKeF80MkVyVGRFMG1ISlZlV0RjbUZfS05Ra1U1azZjeWFJX1UycUxvSjlqcnVnZFFicHhTODVpeXdiUDBMcnMyQ3IyXzRqaTFDUm11VFhTS2JndTVGdTJYQ3c1bHl4clJHaC16V3VHNldpZVNPWlJvUmxBTHJMU1Q5Y2F5R2tlYk93WlZiVTc3U1RsRVhjWnRaX3JxOVNRR3IwQ01WLXlPSF9BZS1Z?oc=5</guid>
-<pubDate>Thu, 15 Oct 2026 12:55:26 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Building Resilience Against Artificial Intelligence–Enabled Biological Threats - RAND</title>
-<link>https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zSUhkbkwweF9XQ19GZ0JlRG5feWhhdC04S0tpWU96UFp3SVVmZVM3X1doTEEwZWJwNlNIRDdKQy15dUJJNVgxVXVEZVU5UGdDYnU3N2ZQbERaVzFJd2hnNUx1dXpGQzZt?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiaEFVX3lxTE1zSUhkbkwweF9XQ19GZ0JlRG5feWhhdC04S0tpWU96UFp3SVVmZVM3X1doTEEwZWJwNlNIRDdKQy15dUJJNVgxVXVEZVU5UGdDYnU3N2ZQbERaVzFJd2hnNUx1dXpGQzZt?oc=5</guid>
-<pubDate>Thu, 15 Oct 2026 12:27:31 GMT</pubDate>
-
-</item>
-<item>
-<title>[Agent Framework] Vector stores in Agent Framework for Python: familiar foundations, streamlined for agents</title>
-<link>https://devblogs.microsoft.com/agent-framework/vector-stores-in-python-agent-framework-familiar-foundations-streamlined-for-agents/</link>
-<guid isPermaLink="false">https://devblogs.microsoft.com/agent-framework/vector-stores-in-python-agent-framework-familiar-foundations-streamlined-for-agents/</guid>
-<pubDate>Thu, 15 Oct 2026 12:10:05 +0000</pubDate>
-<description>Vector stores have been part of the Python experience in Semantic Kernel for some time. With Microsoft Agent Framework, we have ported that work forward rather than starting over. This post focuses on Python. For the .NET equivalent, see Use vector stores in .NET AI apps. The foundation remains fami</description>
-</item>
-<item>
-<title>[Google News] DeepSeek offers compensation after restoring from service outage - CGTN</title>
-<link>https://news.google.com/rss/articles/CBMivgFBVV95cUxQZGVneDhiTm5jdHBlcUFmaXVaREQxN0FWY0ZaVFY0RkZQSUJickxlSUlFTEoxRE9HREc3SXZTYmFqNjRsclZ0eVBBQUFLMEVpVnZna3dSQThLZkVpbG5FOVI3QTE3bmQ3UnlZLTAya05CX0pVbW40NUhObk9NY0poejBTNldEVTVwbWdRV2thcFprMFhOai0tQ3RvbHJNcDZocHFkd1BIUmVtaEJweXlBSlppT0dnVTBMeDF0Q1pR?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivgFBVV95cUxQZGVneDhiTm5jdHBlcUFmaXVaREQxN0FWY0ZaVFY0RkZQSUJickxlSUlFTEoxRE9HREc3SXZTYmFqNjRsclZ0eVBBQUFLMEVpVnZna3dSQThLZkVpbG5FOVI3QTE3bmQ3UnlZLTAya05CX0pVbW40NUhObk9NY0poejBTNldEVTVwbWdRV2thcFprMFhOai0tQ3RvbHJNcDZocHFkd1BIUmVtaEJweXlBSlppT0dnVTBMeDF0Q1pR?oc=5</guid>
-<pubDate>Thu, 15 Oct 2026 12:04:20 GMT</pubDate>
-
-</item>
-<item>
-<title>[News] Introducing Timestral</title>
-<link>https://mistral.ai/news/timestral/</link>
-<guid isPermaLink="false">https://mistral.ai/news/timestral/</guid>
-<pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
-<description>State-of-the-art probabilistic forecasting in four sizes (5M–209M params), CPU-efficient, zero-shot ready.</description>
-</item>
-<item>
-<title>[Google News] DeepSeek Refunds a Full Week of API Fees After Nearly Five-Hour Outage; Some Users Get Up to 3,000 Yuan - BigGo Finance</title>
-<link>https://news.google.com/rss/articles/CBMidkFVX3lxTE0yaEdTSXhLNUh4QTcxa3kwWTBvWmFDeGlIRGJnckthTWFKQktYcDBRcVNiS0hDaVRSY1d2OTJYa1c4UUNlR01SODBfU2FXNkRmd09kb2pYaXlVSHlSOGdacDUzZVlxNXlicmpydEVWc3RtQkR0aVE?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTE0yaEdTSXhLNUh4QTcxa3kwWTBvWmFDeGlIRGJnckthTWFKQktYcDBRcVNiS0hDaVRSY1d2OTJYa1c4UUNlR01SODBfU2FXNkRmd09kb2pYaXlVSHlSOGdacDUzZVlxNXlicmpydEVWc3RtQkR0aVE?oc=5</guid>
-<pubDate>Thu, 15 Oct 2026 11:05:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek Went Down for 5 Hours. The Silence Afterward Is the Real Story. - Vocal</title>
-<link>https://news.google.com/rss/articles/CBMimAFBVV95cUxPeHJhZlJ4bFJmdllpS2NTclBIOFpQU1hnTjktdlNHUElOUGRFbHJoVDBKbEVMRmgza01wMFRTcmxaXzVtVEprTzlhRVlBR0Myb0tTWGNmUGhFdWhIWmlhVzBfS1FESzFteWxpblJvanFtLXB2SnFmUU9lSzdWQWkzUHZZams0NVdBS2FoZG81M1l1WW02d05OQw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMimAFBVV95cUxPeHJhZlJ4bFJmdllpS2NTclBIOFpQU1hnTjktdlNHUElOUGRFbHJoVDBKbEVMRmgza01wMFRTcmxaXzVtVEprTzlhRVlBR0Myb0tTWGNmUGhFdWhIWmlhVzBfS1FESzFteWxpblJvanFtLXB2SnFmUU9lSzdWQWkzUHZZams0NVdBS2FoZG81M1l1WW02d05OQw?oc=5</guid>
-<pubDate>Thu, 15 Oct 2026 10:36:16 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] OpenCode provides free access to DeepSeek V4.1 Flash with a 200K context limit. - KuCoin</title>
-<link>https://news.google.com/rss/articles/CBMirAFBVV95cUxNOC1NX2JRVFdCSkliVFdadFEzLTJaOVNnRXRVTlRxZXc0Y2pJS1ZsRU5lTmQxSk1DQkNoWHhRRUxXdHNPRXNmdU5UUGhqUUVXY2ZYRWEycC1heVlyMmg4d3p6R3huTVhIMjY4SW9FZ0JVcXBadW1yTHJkNnFKOV9taXkyS080aW1KTWVRRmtIMFRTNTZQSUNRaW9lWXl5Y0tvOTVodS1YTWc0Tnpx?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxNOC1NX2JRVFdCSkliVFdadFEzLTJaOVNnRXRVTlRxZXc0Y2pJS1ZsRU5lTmQxSk1DQkNoWHhRRUxXdHNPRXNmdU5UUGhqUUVXY2ZYRWEycC1heVlyMmg4d3p6R3huTVhIMjY4SW9FZ0JVcXBadW1yTHJkNnFKOV9taXkyS080aW1KTWVRRmtIMFRTNTZQSUNRaW9lWXl5Y0tvOTVodS1YTWc0Tnpx?oc=5</guid>
-<pubDate>Thu, 15 Oct 2026 10:22:38 GMT</pubDate>
-
-</item>
-<item>
-<title>[Blog] NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute</title>
-<link>https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/</link>
-<guid isPermaLink="false">https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/</guid>
-<pubDate>Thu, 15 Oct 2026 10:00:12 +0000</pubDate>
-<description>Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career</description>
-</item>
-<item>
-<title>[Google News] DeepSeek servers suffer global outage, mysterious Harness accounts emerge simultaneously - 36Kr</title>
-<link>https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KVHVoRGF3VUtBalJIOEJCSnlhRmM3b0M1alpZb0h5OGZRLVZaZ0MwczRwOGdfVTVxbDctRFdRdEZfRVFpNk9QOWpGRUVNVHA1ZUkw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KVHVoRGF3VUtBalJIOEJCSnlhRmM3b0M1alpZb0h5OGZRLVZaZ0MwczRwOGdfVTVxbDctRFdRdEZfRVFpNk9QOWpGRUVNVHA1ZUkw?oc=5</guid>
-<pubDate>Thu, 15 Oct 2026 06:42:09 GMT</pubDate>
-
 </item>
 </channel>
 </rss>
