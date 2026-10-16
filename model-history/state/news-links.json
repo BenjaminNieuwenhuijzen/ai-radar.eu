@@ -617,6 +617,21 @@
       "firstSeenIn": "5046132"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1duakdib6v1",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXNVE4V2hiNHhyRk5qeGZ2aU5lM3pjLVpELTl1VVJUc1BYeF80NTZrcVhOalJUTWlfN0JETUs2ODRYdXdoVHotZllhdEpvdjJnV0NwX0lFaU5SU25DMk84RWp4NDVJTFdYTTFNSFNwNExSNjR5eVlJ?oc=5",
+      "title": "Step 5 Preview vs DeepSeek V4.1 Flash: Price vs Licence",
+      "publishedAt": "2026-10-16T13:38:36Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-16T18:04:31Z",
+      "firstSeenIn": "401f305"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
