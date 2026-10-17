@@ -647,6 +647,21 @@
       "firstSeenIn": "401f305"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "9lmrmen7ap",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQMjBtNG5jOGtJNDMtWHYtVXo1RU44LWJlNTZrNkhxajRYd0JOMkdXLXV3ZlZwQTVidkoyWjJKbUNvS0U2UXdRdjZmNE9KWHhlTUR0Y2xmWWhTRm9MbFpuQm5NUEtyejJqWXZhYmRjWmdVTFZ0RFlVR2JwMTNqOUgtb3NxeHU2dUJVcHpTaUN5WFFCQkIzWXZhZGJVVXpUV0RfQUNxNjNLSngteWVuaVVEckhkWmNVbjF1QVQ4b2FoTHYxVmh0eko4T0ZKSG91c3ZWTlE?oc=5",
+      "title": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
+      "publishedAt": "2026-10-17T10:38:38Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "The Decoder",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-17T12:12:27Z",
+      "firstSeenIn": "e4ef644"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
