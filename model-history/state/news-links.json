@@ -287,6 +287,21 @@
       "firstSeenIn": "df6ed39"
     },
     {
+      "modelId": "anthropic.claude-opus-5",
+      "variantId": null,
+      "postId": "9dgriqrhqg",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1NHR4NkxqMkFFdzk4ZXkzSU9YQllkODJkbGFzSVhmODlwMkF3bUZjREdtQzNFQjg2c0NHaDVEQ1VWVXpGREpjOWVvcVpFLWhZQ21FV29QSXM1SnlaNVA5RlFDaS1HLVdHZjhRSnh2NGg?oc=5",
+      "title": "DeepSeek V4.1 Flash Update Tops Claude Opus 5 on Code-Fixing Benchmark at Unchanged Pricing",
+      "publishedAt": "2026-10-17T09:59:46Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "XenoSpectrum",
+      "method": "auto",
+      "alias": "claude opus 5",
+      "firstSeenAt": "2026-10-18T04:35:16Z",
+      "firstSeenIn": "d3b813d"
+    },
+    {
       "modelId": "anthropic.claude-opus-5-5",
       "variantId": null,
       "postId": "1mm9etcvfuk",
@@ -660,6 +675,21 @@
       "alias": "deepseek v4.1 flash",
       "firstSeenAt": "2026-10-16T18:04:31Z",
       "firstSeenIn": "401f305"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "9dgriqrhqg",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1NHR4NkxqMkFFdzk4ZXkzSU9YQllkODJkbGFzSVhmODlwMkF3bUZjREdtQzNFQjg2c0NHaDVEQ1VWVXpGREpjOWVvcVpFLWhZQ21FV29QSXM1SnlaNVA5RlFDaS1HLVdHZjhRSnh2NGg?oc=5",
+      "title": "DeepSeek V4.1 Flash Update Tops Claude Opus 5 on Code-Fixing Benchmark at Unchanged Pricing",
+      "publishedAt": "2026-10-17T09:59:46Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "XenoSpectrum",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-18T04:35:16Z",
+      "firstSeenIn": "d3b813d"
     },
     {
       "modelId": "deepseek.deepseek-v4-1-flash",
@@ -1260,6 +1290,21 @@
       "alias": "gpt-5.2",
       "firstSeenAt": "2026-10-05T05:42:45Z",
       "firstSeenIn": "dcab53f"
+    },
+    {
+      "modelId": "openai.gpt-5-5",
+      "variantId": null,
+      "postId": "28wuxixte9n",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQNzNWWTVsMlV1V0dOZGw4YWZFZXRybi1nWFBwVWxYbmZoVm8xUUwyWk52TDRoVzhqVUt6U21WMDBMVGc0OWh5Q1NQcVhDQTRxUzBZdDl4VXlpQ05ja0xKVGpBWXVIck5TVmZYOW04QVI2alIxOFVaZ0pWYjlUSjBWbHZ1cjM3LW8xRFJmVTZvSXpKMTJBT3RELWRhclJuMFhNcXZoTzBteklackQxUTNKMHJIbE1SQ0VDZEJOU2kyUzVDV1pfbFJ1LUdNbjhPSjhtSlQ1YnRnaExHWjJNZktKeG1JMWJRbE1zWWZCU1puanVQVDBzZ1HSAfsBQVVfeXFMTlhpdmdOaXNjclJuZjcxSDBjbE0xSERObXowZkI3bi0tcXlzQWcxei1DLVhaMWdRTXhPclBFMFhQVGI4V1VmOVB6N3VYWXFQN0FYUDNKNi1iZ1VQRnVFLVhOdWlpcEZLNmt3dTRnNkROczdVRTY4bWxCbnFfaXNybEcwYWk4cmN2bHI4bFByS3Z6RzJPcHRsZDBTMU9GUkxEUm96d1ZCZ0dCRzU5OV9sLTQzUDBxSXBYS1BSTUREcVAySGdSNndLdUFnWHUxYmJPRTBWLXhzSE5yZ21uaTdrcUx3VEtSZC1NLWRYVW92MThFVEJmb09lel9fQk0?oc=5",
+      "title": "DeepSeek’s Post-Training Lead Declares “Entering the Era of Democratized Wish-Driven Coding” As V4.1-Flash-1017 Model Smokes OpenAI’s GPT-5.5 Sol",
+      "publishedAt": "2026-10-17T19:01:05Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Wccftech",
+      "method": "auto",
+      "alias": "gpt-5.5",
+      "firstSeenAt": "2026-10-18T04:35:16Z",
+      "firstSeenIn": "d3b813d"
     },
     {
       "modelId": "openai.gpt-5-6-luna",
