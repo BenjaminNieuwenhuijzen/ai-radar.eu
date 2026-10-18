@@ -737,6 +737,21 @@
       "firstSeenIn": "425ec04"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1ra389qgd5f",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9XRmFGeVVVd1YtVlh0ZEM4cXE4eVBjZnpnNGJCN2dwbEVLOXdVMVpoRlAyVWh1YUtFNjBNNTBPOWowYWFpSkhrU0UxT0Q0SFMyY2kyRmZDRXdpSGEteG5obVNxUmN4UVJfeFZUTTA2UVJTNnlabkVPVXp3?oc=5",
+      "title": "DeepSeek V4.1 Flash takes on frontier AI models at a fraction of the cost",
+      "publishedAt": "2026-10-17T22:53:55Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Crypto Briefing",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-18T15:53:07Z",
+      "firstSeenIn": "57cebf9"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
