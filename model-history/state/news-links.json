@@ -752,6 +752,21 @@
       "firstSeenIn": "57cebf9"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1kwc6rbzkin",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSFQxYXEtNWluMnNTV2UyYmJyUmUzd1JFUzlhMlFqa0d1RXotMU5DNFBWM0xnanFkQUd1YXNfcnNxT3JfVnpQbHhsSmxIaWJiNXIyU3BLZnJmMDNXTzA5cTJQcU93d2k3MzlGUXdJVEJhVlhsdEs4RlBHOWM4X2JRNDRBakZVcFJQTThqSExfeFRaYWRuMWhGUEFnTGs1dw?oc=5",
+      "title": "DeepSeek V4.1 Flash 1017: Scores, Rivals and Costs",
+      "publishedAt": "2026-10-18T15:47:20Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Medium",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-18T22:26:52Z",
+      "firstSeenIn": "692a0c6"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
