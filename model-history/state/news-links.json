@@ -332,6 +332,21 @@
       "firstSeenIn": "1167eee"
     },
     {
+      "modelId": "anthropic.claude-opus-5",
+      "variantId": null,
+      "postId": "10ncnjg0wrw",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOM3JzM3V4SnNLeTJiUFQ1LXozbnBUMGpMV2hISjR3WUtSU09EVDQzV2lGVnFuQ3d4T08zS1lCSDNiN0ZMckVPLWZ3aERsYU1IM1BhVHdfSjNpLWtlSktXemswajhUaktvWGFxbFFSdUxjMUVDbDNUMTN1ZHNob195emVVMVJucDhGRjhzUTZ6VGpnRFhPckM3T0tHTDU1Y0FQZktZY2JDdjFZWi1YRFlzMFg3bXZ3UkZna1ZBZEJYdHZxWENqbk9EMWR4b1hIS3VGdTE3MU1nd3Q1V2dlMDZxQnRWSUx1NDM2ZHRYcG8zU01kLVE?oc=5",
+      "title": "MiniMax's new M3.1 Flash beats DeepSeek and Opus 5 on a key business benchmark at lower cost — but with a high hallucination rate",
+      "publishedAt": "2026-10-19T19:38:49Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "VentureBeat",
+      "method": "auto",
+      "alias": "opus 5",
+      "firstSeenAt": "2026-10-19T19:57:32Z",
+      "firstSeenIn": "cab022b"
+    },
+    {
       "modelId": "anthropic.claude-opus-5-5",
       "variantId": null,
       "postId": "1mm9etcvfuk",
@@ -1440,6 +1455,36 @@
       "alias": "gpt-5.5",
       "firstSeenAt": "2026-10-18T04:35:16Z",
       "firstSeenIn": "d3b813d"
+    },
+    {
+      "modelId": "openai.gpt-5-5",
+      "variantId": null,
+      "postId": "1p0xy5o7nk8",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5LbXA0VzlSbEV5RzRJS2tqQ0VsSTlIUU53ZGhyM2NENmItcGJLdFU2TFhNNXhyZm51OEtsNTVpWldTeEpaRndpU2hEOTVMbXo1ZmVOVW5ZVFNYWUdNS2w0?oc=5",
+      "title": "The Model Swap Workshop: GPT-5.5 vs Kimi vs DeepSeek vs Mistral｜AI Engineer",
+      "publishedAt": "2026-10-19T14:55:28Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "finance.biggo.com",
+      "method": "auto",
+      "alias": "gpt-5.5",
+      "firstSeenAt": "2026-10-19T19:57:32Z",
+      "firstSeenIn": "cab022b"
+    },
+    {
+      "modelId": "openai.gpt-5-5",
+      "variantId": null,
+      "postId": "11ifhxm1cja",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zRGF2Q2tqUlg0dFFQWjhTOE1CZ19PYnhXVmVTaDVncGFWN1FPbkNkeC1nTmR1NUZka3ZOX1p6OTZJREg1TG53cjFmVkhmbGwtcUo1SThPZWtkdDg?oc=5",
+      "title": "Microsoft's Pamela Fox Tests GPT-5.5 vs Kimi, DeepSeek and Mistral: Swapping AI Models Is Easy Until You Actually Measure Them",
+      "publishedAt": "2026-10-19T16:08:00Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "BigGo Finance",
+      "method": "auto",
+      "alias": "gpt-5.5",
+      "firstSeenAt": "2026-10-19T19:57:32Z",
+      "firstSeenIn": "cab022b"
     },
     {
       "modelId": "openai.gpt-5-6-luna",
