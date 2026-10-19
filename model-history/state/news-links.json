@@ -272,6 +272,21 @@
       "firstSeenIn": "dcab53f"
     },
     {
+      "modelId": "anthropic.claude-opus-4-7",
+      "variantId": null,
+      "postId": "1s9w9axhjmq",
+      "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "publishedAt": "2026-10-19T09:08:05Z",
+      "dateOnly": false,
+      "company": "Across AI",
+      "source": "MIT Tech Review",
+      "method": "auto",
+      "alias": "claude opus 4.7",
+      "firstSeenAt": "2026-10-19T13:17:03Z",
+      "firstSeenIn": "1167eee"
+    },
+    {
       "modelId": "anthropic.claude-opus-5",
       "variantId": null,
       "postId": "14gqd9hn03f",
@@ -300,6 +315,21 @@
       "alias": "claude opus 5",
       "firstSeenAt": "2026-10-18T04:35:16Z",
       "firstSeenIn": "d3b813d"
+    },
+    {
+      "modelId": "anthropic.claude-opus-5",
+      "variantId": null,
+      "postId": "v087t1e684",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUU5CclFtcklSZkRUQUU4TkpwMVhMZnlEUkVyUXlXWVVyYkdZbERuVU1xb19Sd1Z4ZWVJMVI5M1ZZdGVpNUVtRk9aWkJldzh3UjVOdHhzMzNzUzlVbUtUV2duWV9PTC1WOHd6c2NxLVRSQkFuRWNXSHh0ejZrLUdPaVE4RQ?oc=5",
+      "title": "😺 DeepSeek's free model edged Opus 5 at coding",
+      "publishedAt": "2026-10-19T10:01:41Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "The Neuron",
+      "method": "auto",
+      "alias": "opus 5",
+      "firstSeenAt": "2026-10-19T13:17:03Z",
+      "firstSeenIn": "1167eee"
     },
     {
       "modelId": "anthropic.claude-opus-5-5",
@@ -795,6 +825,51 @@
       "alias": "v4.1-flash",
       "firstSeenAt": "2026-10-19T04:41:59Z",
       "firstSeenIn": "c362929"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "2724l9lpvyd",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE80aWlUUWdvakV4S01fTDh0VUtJc01hdXBCeXhvc0dZZTZkdC1aQ3Q0SjZqMDhmVVJnZ2Nwb0NkZVNKeU1yRENBVktKRFpqNmV4MzRIanJHSEFNV1dNdU5uRFZ1eTRaVW1pbnpN?oc=5",
+      "title": "New DeepSeek V4.1 Flash 1017 Hits 300 Tokens per Second in Tests",
+      "publishedAt": "2026-10-19T07:19:49Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Geeky Gadgets",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-19T13:17:03Z",
+      "firstSeenIn": "1167eee"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "3x6oeyszbo",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPM3poU2VWWEY5aUMyc014amNMdlJUVFpoYllGWmVUejBTTUppSWxDbWtnSnhSamRXVDVMWmhSWG93YS00dnU2MlZaQkZDa2J0Zzk4ZXd1NUhxNGs1SUdETm1xby1tUklPRWN4Y05qNy14elU3R3pTWFE1YzdHWldzQzhiT2VreW9LZ0tMbGRwb0U1Vm5MYlp2MkNIREVUV215WFN6dQ?oc=5",
+      "title": "DeepSeek V4.1 Flash update enables wish-driven programming",
+      "publishedAt": "2026-10-19T07:32:11Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Techzine Global",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-19T13:17:03Z",
+      "firstSeenIn": "1167eee"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "77escuvjfk",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcGN3MDZMbWFpS0JWX2N2Q0ljWUVlWm5MaHhKQk4xVnN4YnFxSzJraDg5OTZMcUItaE13RmxrcWlGQ1RLSWhFTFYta2xXLXh1akJ3bzJFLXZPN2hVMUM5ZUhDWWl1Y0dwRXNibDNGRllOanNTclB6LVFseXVmWVloNzNzSlBReHlBaWhvbHFtb1ltX3BhUktKUWNqdnozZw?oc=5",
+      "title": "DeepSeek updates V4.1-Flash model to improve performance",
+      "publishedAt": "2026-10-19T12:28:15Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Silicon Republic",
+      "method": "auto",
+      "alias": "v4.1-flash",
+      "firstSeenAt": "2026-10-19T13:17:03Z",
+      "firstSeenIn": "1167eee"
     },
     {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
