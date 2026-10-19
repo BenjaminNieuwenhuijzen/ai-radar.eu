@@ -754,6 +754,21 @@
     {
       "modelId": "deepseek.deepseek-v4-1-flash",
       "variantId": null,
+      "postId": "1bux102uzwr",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVjR2MWZ0X29qZXdQMDNCZ1hJdlpRcG1UbHZ6a1JYbV92UjZ0X3RETklPX3VDWkF0Mk1Mc1QtWlpod1hqT3RxZ0drQlB1bVlLLVd4dVRrdV9JZ0xOekl0cTNsR1ZyakppWG4yYTNsenY3VzJWSkhvWEdzTjlnRFZxdkVCbU8ySGg4b0VvQi1pa2dEU2RaYU9PUUJPbE9DZ1VLUWVkUmNqUQ?oc=5",
+      "title": "DeepSeek V4.1 Flash 1017: Scores, Rivals and Costs",
+      "publishedAt": "2026-10-18T15:47:20Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Medium",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-19T04:41:59Z",
+      "firstSeenIn": "c362929"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
       "postId": "1kwc6rbzkin",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSFQxYXEtNWluMnNTV2UyYmJyUmUzd1JFUzlhMlFqa0d1RXotMU5DNFBWM0xnanFkQUd1YXNfcnNxT3JfVnpQbHhsSmxIaWJiNXIyU3BLZnJmMDNXTzA5cTJQcU93d2k3MzlGUXdJVEJhVlhsdEs4RlBHOWM4X2JRNDRBakZVcFJQTThqSExfeFRaYWRuMWhGUEFnTGs1dw?oc=5",
       "title": "DeepSeek V4.1 Flash 1017: Scores, Rivals and Costs",
@@ -765,6 +780,21 @@
       "alias": "deepseek v4.1 flash",
       "firstSeenAt": "2026-10-18T22:26:52Z",
       "firstSeenIn": "692a0c6"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1etpd6wmzuo",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTVpONkFFTks2bFROQXBrcHBJb1BGczJIbUtaU3hhdTl0Q2M0U1JUWllzUlRzdEJZM3o4UE9UbWFTUlpoQjRIQjY3clhteDRaOFU3emRReDZHVE9NVlBpNlBoMWFzZjIzOXBxazA2TFJhRVRPQ1RHZW9KbDV1MEhwTm1vTW5IVGc1MkdOd1NPaERJbWJRb1JIbDBnLWYwRjAyR251T0hTRkg3d0tCRmF3?oc=5",
+      "title": "DeepSeek releases updated V4.1-Flash model it says completes tasks faster",
+      "publishedAt": "2026-10-18T22:34:00Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "SiliconANGLE",
+      "method": "auto",
+      "alias": "v4.1-flash",
+      "firstSeenAt": "2026-10-19T04:41:59Z",
+      "firstSeenIn": "c362929"
     },
     {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
