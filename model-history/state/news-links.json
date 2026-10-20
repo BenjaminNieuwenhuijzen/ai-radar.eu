@@ -887,6 +887,21 @@
       "firstSeenIn": "1167eee"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "26ydxve32fl",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MU1NnVms3UTZVaUxGN09xS190T3JNeGtxTG41dXZxVkduY2tQVUd3X1ltM3FWRTBqN0Z0Wml3S2JuNDR4T3B1UnR4bndoWVlLcF9NeXpwTklxcGQ5cjdWNWc0azZWSmRiaW41NndZcE9zMmRCUlE?oc=5",
+      "title": "DeepSeek's Cheaper V4.1-Flash Model Rattles Samsung, SK hynix as Kospi Slides",
+      "publishedAt": "2026-10-19T18:25:00Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "BigGo Finance",
+      "method": "auto",
+      "alias": "v4.1-flash",
+      "firstSeenAt": "2026-10-20T04:52:30Z",
+      "firstSeenIn": "d724a13"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
