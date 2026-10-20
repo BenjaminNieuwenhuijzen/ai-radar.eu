@@ -25,4 +25,14 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add feed.xml data.json img
           if [ -f digest.json ]; then git add digest.json; fi
-          git diff --cached --quiet || (git commit -m "Update feed data" && git pull --rebase && git push)
+          git diff --cached --quiet && exit 0
+          git commit -m "Update feed data"
+          # Another writer (model-history, source-health, a manual push) may have pushed in
+          # the meantime; they touch other files, so a rebase is enough. The retry also
+          # covers a transient network or GitHub error on the pull or push.
+          for i in 1 2 3; do
+            if git pull --rebase && git push; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 10
+          done
+          exit 1
