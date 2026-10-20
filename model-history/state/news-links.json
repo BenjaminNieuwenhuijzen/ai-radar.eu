@@ -122,6 +122,36 @@
       "firstSeenIn": "df6ed39"
     },
     {
+      "modelId": "anthropic.claude-fable-5-1",
+      "variantId": null,
+      "postId": "1fufao0x924",
+      "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "title": "Introducing Claude Mythos and Fable 5.1",
+      "publishedAt": "2026-09-15T00:00:00Z",
+      "dateOnly": true,
+      "company": "Anthropic",
+      "source": "News",
+      "method": "auto",
+      "alias": "fable 5.1",
+      "firstSeenAt": "2026-10-20T21:38:23Z",
+      "firstSeenIn": "6e27569"
+    },
+    {
+      "modelId": "anthropic.claude-haiku-5-5",
+      "variantId": null,
+      "postId": "vgjfmavblk",
+      "link": "https://www.anthropic.com/claude-haiku-5-5",
+      "title": "Introducing Claude Haiku 5.5",
+      "publishedAt": "2026-10-07T00:00:00Z",
+      "dateOnly": true,
+      "company": "Anthropic",
+      "source": "News",
+      "method": "auto",
+      "alias": "claude haiku 5.5",
+      "firstSeenAt": "2026-10-20T21:38:23Z",
+      "firstSeenIn": "6e27569"
+    },
+    {
       "modelId": "anthropic.claude-haiku-5-5",
       "variantId": null,
       "postId": "1x12uhvth3t",
@@ -257,6 +287,21 @@
       "firstSeenIn": "df6ed39"
     },
     {
+      "modelId": "anthropic.claude-opus-4-6",
+      "variantId": null,
+      "postId": "1wbs6jbow58",
+      "link": "https://www.anthropic.com/research/eval-awareness-browsecomp",
+      "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+      "publishedAt": "2026-03-06T00:00:00Z",
+      "dateOnly": true,
+      "company": "Anthropic",
+      "source": "Engineering",
+      "method": "auto",
+      "alias": "claude opus 4.6",
+      "firstSeenAt": "2026-10-20T21:38:23Z",
+      "firstSeenIn": "6e27569"
+    },
+    {
       "modelId": "anthropic.claude-opus-4-7",
       "variantId": null,
       "postId": "qa09onb5wg",
@@ -300,6 +345,21 @@
       "alias": "claude opus 5",
       "firstSeenAt": "2026-10-02T05:38:27Z",
       "firstSeenIn": "df6ed39"
+    },
+    {
+      "modelId": "anthropic.claude-opus-5",
+      "variantId": null,
+      "postId": "1o79efwh9",
+      "link": "https://www.anthropic.com/claude-opus-5-5",
+      "title": "Introducing Claude Opus 5.5",
+      "publishedAt": "2026-09-22T00:00:00Z",
+      "dateOnly": true,
+      "company": "Anthropic",
+      "source": "News",
+      "method": "auto",
+      "alias": "opus 5",
+      "firstSeenAt": "2026-10-20T21:38:23Z",
+      "firstSeenIn": "6e27569"
     },
     {
       "modelId": "anthropic.claude-opus-5",
@@ -349,6 +409,21 @@
     {
       "modelId": "anthropic.claude-opus-5-5",
       "variantId": null,
+      "postId": "1o79efwh9",
+      "link": "https://www.anthropic.com/claude-opus-5-5",
+      "title": "Introducing Claude Opus 5.5",
+      "publishedAt": "2026-09-22T00:00:00Z",
+      "dateOnly": true,
+      "company": "Anthropic",
+      "source": "News",
+      "method": "auto",
+      "alias": "claude opus 5.5",
+      "firstSeenAt": "2026-10-20T21:38:23Z",
+      "firstSeenIn": "6e27569"
+    },
+    {
+      "modelId": "anthropic.claude-opus-5-5",
+      "variantId": null,
       "postId": "1mm9etcvfuk",
       "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/claude-opus-5-5-comes-to-microsoft-foundry-for-long-running-coding-and-knowledge/4558051",
       "title": "Claude Opus 5.5 comes to Microsoft Foundry for long-running coding and knowledge work",
@@ -392,6 +467,21 @@
       "firstSeenIn": "38917f4"
     },
     {
+      "modelId": "anthropic.claude-opus-5-5",
+      "variantId": null,
+      "postId": "e8f4y02dm7",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/claude-opus-55-and-claude-sonnet-55-available-in-antigravity/",
+      "title": "Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity",
+      "publishedAt": "2026-10-20T16:00:00Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "Cloud AI",
+      "method": "auto",
+      "alias": "claude opus 5.5",
+      "firstSeenAt": "2026-10-20T21:38:23Z",
+      "firstSeenIn": "6e27569"
+    },
+    {
       "modelId": "anthropic.claude-sonnet-4-6",
       "variantId": null,
       "postId": "1vrjdhknhjd",
@@ -420,6 +510,51 @@
       "alias": "claude sonnet 5",
       "firstSeenAt": "2026-10-02T05:38:27Z",
       "firstSeenIn": "df6ed39"
+    },
+    {
+      "modelId": "anthropic.claude-sonnet-5",
+      "variantId": null,
+      "postId": "1bicyjlwetc",
+      "link": "https://www.anthropic.com/claude-sonnet-5-5",
+      "title": "Introducing Claude Sonnet 5.5",
+      "publishedAt": "2026-09-28T00:00:00Z",
+      "dateOnly": true,
+      "company": "Anthropic",
+      "source": "News",
+      "method": "auto",
+      "alias": "claude sonnet 5",
+      "firstSeenAt": "2026-10-20T21:38:23Z",
+      "firstSeenIn": "6e27569"
+    },
+    {
+      "modelId": "anthropic.claude-sonnet-5-5",
+      "variantId": null,
+      "postId": "1bicyjlwetc",
+      "link": "https://www.anthropic.com/claude-sonnet-5-5",
+      "title": "Introducing Claude Sonnet 5.5",
+      "publishedAt": "2026-09-28T00:00:00Z",
+      "dateOnly": true,
+      "company": "Anthropic",
+      "source": "News",
+      "method": "auto",
+      "alias": "claude sonnet 5.5",
+      "firstSeenAt": "2026-10-20T21:38:23Z",
+      "firstSeenIn": "6e27569"
+    },
+    {
+      "modelId": "anthropic.claude-sonnet-5-5",
+      "variantId": null,
+      "postId": "e8f4y02dm7",
+      "link": "https://cloud.google.com/blog/products/ai-machine-learning/claude-opus-55-and-claude-sonnet-55-available-in-antigravity/",
+      "title": "Claude Opus 5.5 and Claude Sonnet 5.5 are now available in Google Antigravity",
+      "publishedAt": "2026-10-20T16:00:00Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "Cloud AI",
+      "method": "auto",
+      "alias": "claude sonnet 5.5",
+      "firstSeenAt": "2026-10-20T21:38:23Z",
+      "firstSeenIn": "6e27569"
     },
     {
       "modelId": "cohere.aya-expanse",
@@ -900,6 +1035,21 @@
       "alias": "v4.1-flash",
       "firstSeenAt": "2026-10-20T04:52:30Z",
       "firstSeenIn": "d724a13"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "4u5m2htfud",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5haVA3YkRqOWtGcWIwRXJiV0lQbWdvRE44ZVBJMGdlWGx4Tmh3d3ptbUVhYXRzQWZNaGFEV2NUblViMURic3JLa21BN0pxb01qTG90cmhBZjFmWENyN0VxaEJ2VUZWRFdVMW9pNk4tSkpCQQ?oc=5",
+      "title": "Latest open artifacts (#25): DeepSeek V4.1 Flash 1017, American-made models, and new regulatory controls in the US & China",
+      "publishedAt": "2026-10-20T17:04:21Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Interconnects AI",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-20T21:38:23Z",
+      "firstSeenIn": "6e27569"
     },
     {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
