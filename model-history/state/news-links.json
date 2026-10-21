@@ -1502,6 +1502,21 @@
       "firstSeenIn": "9d1963b"
     },
     {
+      "modelId": "mistral.mistral-large-4",
+      "variantId": null,
+      "postId": "2h5zmsirk9",
+      "link": "https://www.youtube.com/watch?v=hD51W2txi1Y",
+      "title": "Introducing Mistral Large 4, Le Chonk.",
+      "publishedAt": "2026-10-21T13:05:17Z",
+      "dateOnly": false,
+      "company": "Mistral AI",
+      "source": "YouTube",
+      "method": "auto",
+      "alias": "mistral large 4",
+      "firstSeenAt": "2026-10-21T13:49:35Z",
+      "firstSeenIn": "f4357e1"
+    },
+    {
       "modelId": "mistral.mistral-medium-3-5",
       "variantId": null,
       "postId": "1cpe61vkvvt",
