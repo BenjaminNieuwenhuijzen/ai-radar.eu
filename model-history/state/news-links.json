@@ -1727,6 +1727,21 @@
       "firstSeenIn": "d4f251d"
     },
     {
+      "modelId": "openai.gpt-6-1-sol",
+      "variantId": null,
+      "postId": "3izrzegsdw",
+      "link": "https://openai.com/index/terminal-x",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "publishedAt": "2026-10-20T07:00:00Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6.1 sol",
+      "firstSeenAt": "2026-10-21T07:40:42Z",
+      "firstSeenIn": "829b39f"
+    },
+    {
       "modelId": "openai.gpt-6-astra",
       "variantId": null,
       "postId": "1oom5hlb4su",
