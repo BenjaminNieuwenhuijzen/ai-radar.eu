@@ -182,6 +182,21 @@
       "firstSeenIn": "11e7dc4"
     },
     {
+      "modelId": "anthropic.claude-haiku-5-5",
+      "variantId": null,
+      "postId": "2fjtailartl",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92aG9NVDJ3NTRDRERmQWM1LVJyR1hyMXl4VkE1NWpJS2twTTZjZFFlNTVNT3J6OHJhaEJtSkNtT1hIdTBDUk93TVZSUFZmNHhKM1BnN2tDd29oQmxrYkE?oc=5",
+      "title": "DeepSeek V4.1-Flash-1017 vs. Claude Haiku 5.5: More accurate at a fraction of the price",
+      "publishedAt": "2026-10-22T14:27:30Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "The New Stack",
+      "method": "auto",
+      "alias": "claude haiku 5.5",
+      "firstSeenAt": "2026-10-22T17:11:55Z",
+      "firstSeenIn": "e2b28ad"
+    },
+    {
       "modelId": "anthropic.claude-mythos-5",
       "variantId": null,
       "postId": "23oi8ei3zel",
