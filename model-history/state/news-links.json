@@ -1532,6 +1532,21 @@
       "firstSeenIn": "f4357e1"
     },
     {
+      "modelId": "mistral.mistral-large-4",
+      "variantId": null,
+      "postId": "2d4nzau3xfo",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPN1hlSUJENkV6eFRCbEVzMl8zU3p4YjBTQ1dra0RTU2QyWnh3ZlVYZDB6cUNqdXNtUjFDZFZNYkpIVy1DV0F6S0tNdXpFZ3BkMWZLYXZaZ3VOUkczanNSS2RDUkZYWmhqUVZwRXhPaHB5LTc1dDVRM3IxSjBGNnl4djlEV2NCeV9uVWh5UWN5VQ?oc=5",
+      "title": "DeepSeek vs Mistral Large 4 vs Cohere: 9x Price Gap [2026]",
+      "publishedAt": "2026-10-22T00:44:58Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "tech-insider.org",
+      "method": "auto",
+      "alias": "mistral large 4",
+      "firstSeenAt": "2026-10-22T04:47:01Z",
+      "firstSeenIn": "5c04e3c"
+    },
+    {
       "modelId": "mistral.mistral-medium-3-5",
       "variantId": null,
       "postId": "1cpe61vkvvt",
