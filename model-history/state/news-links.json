@@ -257,6 +257,21 @@
       "firstSeenIn": "0114476"
     },
     {
+      "modelId": "anthropic.claude-mythos-5",
+      "variantId": null,
+      "postId": "1swp5wdrxe0",
+      "link": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+      "title": "An alignment assessment of the UK AISI cybertesting incident",
+      "publishedAt": "2026-10-23T00:00:00Z",
+      "dateOnly": true,
+      "company": "Anthropic",
+      "source": "Research",
+      "method": "auto",
+      "alias": "mythos 5",
+      "firstSeenAt": "2026-10-23T18:22:39Z",
+      "firstSeenIn": "1f20cfe"
+    },
+    {
       "modelId": "anthropic.claude-opus-4-6",
       "variantId": null,
       "postId": "j3x47b0qlj",
