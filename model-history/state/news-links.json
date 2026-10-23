@@ -1082,6 +1082,21 @@
       "firstSeenIn": "c1e0206"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "m8q4e6rhdy",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1hXzRkYV95cGlSbW1xVTJQdjZYd2Q4YkFyUWxyLTdvdDUxMk5IOHdGSGNGZXVWYnQ2V2M5cG1JdFhuN0Z2NTZLb3hKRUUwSEI5dnBYdW5MZE10VXVtX1ZaYktaUTFBM2FoWGt4RXVvLTRGRFdPNFRfbU5kVG0?oc=5",
+      "title": "MiniMax M3.1 Flash vs DeepSeek V4.1 Flash: Both Open, Only One Is MIT",
+      "publishedAt": "2026-10-23T05:39:13Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-23T07:33:35Z",
+      "firstSeenIn": "1cecd97"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
