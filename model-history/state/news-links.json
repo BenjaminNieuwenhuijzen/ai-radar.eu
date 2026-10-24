@@ -1112,6 +1112,21 @@
       "firstSeenIn": "1cecd97"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "v2ycmjppfd",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY090eXJQd0ZTaEI3VkxQWUJoVm1fOU9fcGVZV19XMXcxU1dMZ3VOWmZmYk9rZy1MZ1FFMGkyXy14S015S3NxMGI0Mk1sVUpCbjN0ZVJnU3hEMld0OVh2cnE1YzdyTDJyTWhDTWR0ZUxlbXlXTENuUkFCYUJ4RmstR1pmMmZtek5sSGM1a1JGakxZbzQyWEhwWVQ4ZlctVTg0?oc=5",
+      "title": "DeepSeek V4.1 Flash 1017 AI Improves on Coding and Cost ut Still Lags on Facts",
+      "publishedAt": "2026-10-24T15:39:51Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "WinBuzzer",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-24T15:58:09Z",
+      "firstSeenIn": "2d8f77e"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
