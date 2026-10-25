@@ -512,6 +512,21 @@
       "firstSeenIn": "6e27569"
     },
     {
+      "modelId": "anthropic.claude-opus-5-5",
+      "variantId": null,
+      "postId": "r150ra9r8w",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE83bEFBTFNmbmZldFRKQzl2RTg2dGowemxhdGl2dldia1haTVZETFVZTFgyWVR3cWtDb2hyMjFTQnE2VTVnTzVjbk1jVEw2YjNyLXk2ZTM3UTUtZ2VPR3JSNl9wZVpEdkhSLVdtSlJ3OVJ5bEdoNWc?oc=5",
+      "title": "Claude Opus 5.5 vs DeepSeek V4.1 Pro: One Model, One Name",
+      "publishedAt": "2026-10-25T13:37:24Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude opus 5.5",
+      "firstSeenAt": "2026-10-25T16:20:46Z",
+      "firstSeenIn": "1ed0a25"
+    },
+    {
       "modelId": "anthropic.claude-sonnet-4-6",
       "variantId": null,
       "postId": "1vrjdhknhjd",
