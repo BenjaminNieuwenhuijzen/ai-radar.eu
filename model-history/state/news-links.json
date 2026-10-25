@@ -1127,6 +1127,21 @@
       "firstSeenIn": "2d8f77e"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "kc293kg359",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE54OGJFNWViWjZPblRjLS05UW1ZaG1Ga2hoTzlhbFNKN1RSSEpybU9ocHVzX2JHU0VnMTU3blVtSGFrNXVHUDJsYUp1d29VQjVwUU1SQ1ZXdV9OTzFuYXNuN3U3SkFTdUM4S19oaUI4Wm95eGI4Qmc?oc=5",
+      "title": "Kimi K3.1 Pro vs DeepSeek V4.1 Flash: Sixteen Index Points for Thirteen Times the Price",
+      "publishedAt": "2026-10-25T08:08:10Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-25T11:30:22Z",
+      "firstSeenIn": "b6ea859"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
