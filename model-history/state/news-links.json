@@ -1172,6 +1172,36 @@
       "firstSeenIn": "b6ea859"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1wrl9cfgmol",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03MWRPMDBDUU44aGNzMU1rNWRRYU45ZU5YbFRJeXhkTVJUdzl1OElUZzRBcW5mQlBqa3NRMDlEbFptUTJDYnJXdEpaUnQ1S1NNZHlxMUhGNnZRZ09hNnR5VVMtSG9OZ0pvMXdjNldHSGgyaUpBUTlSQ0N1T0ItUQ?oc=5",
+      "title": "DeepSeek V4.1 Flash 1017's Quiet FrontierMath Jump",
+      "publishedAt": "2026-10-26T09:37:16Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-26T15:12:37Z",
+      "firstSeenIn": "6062a7b"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "zqq4zu3hwz",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeVc2YVptaUl0SGdRdU95RHQtMUYtLWZTNkVxeTg5amlpVUpfTE5ieGhuS19wcGl2QU8xVGxOUFhBSWNkN2dlS2pfWVFfM1c1b3hIT0UwUExDMk9Rb1JfYXRUWG94WURlRTN2MnVtNVdiaUQ1RTlxYkJOZUJFRHhsM1AtSVdrWWRydm1fV2h5bzdCZDA?oc=5",
+      "title": "DeepSeek V4.1 Flash vs Kimi K3.1 vs MiniMax: 13x Gap [2026]",
+      "publishedAt": "2026-10-26T12:52:25Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "tech-insider.org",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-26T15:12:37Z",
+      "firstSeenIn": "6062a7b"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
