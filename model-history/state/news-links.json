@@ -1189,6 +1189,21 @@
     {
       "modelId": "deepseek.deepseek-v4-1-flash",
       "variantId": null,
+      "postId": "rk9vkxdb62",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1lSTVmRmJpM2FvNUY1aFpqNXZ6Sld0UEJNSWdBem1xeTRXVWlYUHozemFoR01mYUtCb3RybUFma0V3LVNpSVB0TGR5RU16eDBDeHh3djZsUHA0aU1uNEY5M1NMTFgxUWxNNkNRRnlZVGJ5OWphQkNTWWdXSGQ?oc=5",
+      "title": "What Abliteration Actually Changes in DeepSeek V4.1 Flash",
+      "publishedAt": "2026-10-26T12:18:47Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-26T21:01:56Z",
+      "firstSeenIn": "afcf8e5"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
       "postId": "zqq4zu3hwz",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeVc2YVptaUl0SGdRdU95RHQtMUYtLWZTNkVxeTg5amlpVUpfTE5ieGhuS19wcGl2QU8xVGxOUFhBSWNkN2dlS2pfWVFfM1c1b3hIT0UwUExDMk9Rb1JfYXRUWG94WURlRTN2MnVtNVdiaUQ1RTlxYkJOZUJFRHhsM1AtSVdrWWRydm1fV2h5bzdCZDA?oc=5",
       "title": "DeepSeek V4.1 Flash vs Kimi K3.1 vs MiniMax: 13x Gap [2026]",
@@ -2295,6 +2310,21 @@
       "alias": "gpt-6 astra",
       "firstSeenAt": "2026-10-21T23:20:44Z",
       "firstSeenIn": "c1e0206"
+    },
+    {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "1lrb1c2i3k8",
+      "link": "https://www.youtube.com/shorts/bXNTUB209KE",
+      "title": "Using AI Agents to Teach Robots to Walk in Simulation #NVIDIAGTC #Microducks #Robotics",
+      "publishedAt": "2026-10-26T16:00:24Z",
+      "dateOnly": false,
+      "company": "NVIDIA",
+      "source": "YouTube",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-10-26T21:01:56Z",
+      "firstSeenIn": "afcf8e5"
     },
     {
       "modelId": "openai.gpt-6-luna",
