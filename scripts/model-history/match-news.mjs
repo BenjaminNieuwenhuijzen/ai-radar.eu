@@ -315,7 +315,7 @@ export function emitReport(report, summary = report) {
    equals it or starts with it at a word boundary ("gemini 2.5" is known from "gemini 2.5 pro"). */
 const V = "\\d+(?:\\.\\d+)?";
 export const NEW_NAME_RE = new RegExp("(?<![a-z0-9])(?:" + [
-  `gpt-${V}o?(?:[ -](?:mini|nano|pro|turbo))?`, `o\\d(?:-(?:mini|pro|preview))?`, `gpt-oss`,
+  `gpt-${V}o?(?:[ -](?:mini|nano|pro|turbo|instant|sol|luna|terra|astra))?`, `o\\d(?:-(?:mini|pro|preview))?`, `gpt-oss`,
   `claude (?:(?:opus|sonnet|haiku|fable|mythos) ${V}|${V}(?: (?:opus|sonnet|haiku))?)`,
   `gemini ${V}(?: (?:pro|flash|ultra|nano)(?:[ -]lite)?)?`, `gemma ${V}n?`, `llama ${V}`, `grok[ -]${V}(?: (?:mini|fast|heavy))?`,
   `(?:mistral|magistral|ministral|pixtral|mixtral)(?: (?:large|medium|small))? ${V}`, `deepseek[ -](?:v${V}|r\\d+)`,

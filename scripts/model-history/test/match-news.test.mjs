@@ -482,18 +482,20 @@ test("possible new models: versioned names in titles that no record, variant or 
   const ds = loadDataset(BASIC);
   ds.models.push({ id: "openai.gpt-5", name: "GPT-5", aliases: [{ text: "gpt-5-2025-08-07", match: "auto" }],
     variants: [{ id: "mini", name: "GPT-5 mini", aliases: [{ text: "GPT-5 nano", match: "never" }] }] },
-    { id: "google.gemini-2-5-pro", name: "Gemini 2.5 Pro" });
+    { id: "google.gemini-2-5-pro", name: "Gemini 2.5 Pro" }, { id: "openai.gpt-6-1-sol", name: "GPT-6.1 Sol" });
   const item = (title, date = "2026-09-20T10:00:00Z", n = title) => ({ title, link: `https://example.org/${encodeURIComponent(n)}`, date, company: "x", source: "y" });
   const items = [item("Introducing GPT-6"), item("GPT-6 in practice", "2026-09-28T10:00:00Z"), item("GPT-5 mini and GPT-5 nano for everyone"),
     item("What GPT-5 means"), item("Gemini 2.5 rollout"), item("Gemini 3.8 Flash arrives"), item("Claude Opus 4.10 is not a thing either"),
-    item("GPT-5.2 prompting guide"), item("Nothing versioned here"), item("Llama 3.1 405B weights")];
+    item("GPT-5.2 prompting guide"), item("Nothing versioned here"), item("Llama 3.1 405B weights"),
+    item("Introducing GPT-6.1 Terra"), item("GPT-6.1 Sol and GPT-6.1 for teams")];
   const found = newModelNames(items, ds);
   const names = found.map(x => x.name);
   assert.deepEqual(names.slice(0, 1), ["gpt-6"], "most titles first");
   assert.equal(found[0].count, 2);
   assert.match(found[0].title, /in practice/, "the latest title is the example");
   for (const n of ["gemini 3.8 flash", "gpt-5.2", "llama 3.1", "claude opus 4.10"]) assert.ok(names.includes(n), n);
-  for (const n of ["gpt-5", "gpt-5 mini", "gpt-5 nano", "gemini 2.5"]) assert.ok(!names.includes(n), `${n} is known (name, variant, never-alias or prefix of a name)`);
+  assert.ok(names.includes("gpt-6.1 terra"), "a new tier of a known version is new, not the known bare version");
+  for (const n of ["gpt-5", "gpt-5 mini", "gpt-5 nano", "gemini 2.5", "gpt-6.1", "gpt-6.1 sol"]) assert.ok(!names.includes(n), `${n} is known (name, variant, never-alias or prefix of a name)`);
   assert.ok(knownNames(ds).has("gpt-5 nano"), "never aliases count as known: the curator decided");
   const rep = formatReport({ newNames: found });
   assert.match(rep, /#### Possible new models/);
