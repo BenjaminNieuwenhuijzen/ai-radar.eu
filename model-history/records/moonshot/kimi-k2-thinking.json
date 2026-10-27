@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "moonshot.kimi-k2-thinking",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "kimi-k2-thinking",
+  "name": "Kimi K2 Thinking",
+  "aliases": [
+    {
+      "text": "Kimi K2 Thinking",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-K2-Thinking",
+      "match": "auto"
+    },
+    {
+      "text": "kimi-k2-thinking",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "moonshot",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "moonshot.kimi-k",
+  "generation": "2",
+  "categories": [
+    "language",
+    "reasoning",
+    "agentic"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k2-thinking-hf"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-11-06",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-thinking-blog"
+        },
+        {
+          "id": "src.moonshot.kimi-k2-thinking-hf"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "moonshot.kimi-k2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-thinking-hf",
+          "locator": "Model Introduction"
+        }
+      ],
+      "method": "fine-tune",
+      "note": "Built on the Kimi K2 architecture (1T total, 32B activated) and trained as a thinking agent."
+    }
+  ],
+  "summary": {
+    "text": "Kimi K2 Thinking is an open-weight thinking-agent version of Kimi K2, released on 2025-11-06. Moonshot AI says it reasons step by step while using tools, keeps working across 200 to 300 sequential tool calls, has a 256K context window and ships with native INT4 quantisation.",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k2-thinking-blog"
+      },
+      {
+        "id": "src.moonshot.kimi-k2-thinking-hf",
+        "locator": "Model Introduction"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "thinking",
+      "aspect": "reasoning",
+      "direction": "added",
+      "relativeTo": "moonshot.kimi-k2",
+      "text": "Adds long step-by-step thinking interleaved with tool calls.",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-thinking-blog"
+        }
+      ]
+    },
+    {
+      "id": "int4",
+      "aspect": "efficiency",
+      "direction": "changed",
+      "relativeTo": "moonshot.kimi-k2",
+      "text": "Ships with native INT4 weights from quantisation-aware training.",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-thinking-hf",
+          "locator": "Model Introduction"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-thinking-hf"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-thinking-hf"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.moonshot.kimi-k2-thinking-blog"
+          }
+        ]
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.moonshot.kimi-k2-thinking-blog"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-thinking-hf",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 1000000000000,
+      "asStated": "1T",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-thinking-hf",
+          "locator": "Model Summary"
+        }
+      ],
+      "note": "Mixture-of-Experts with 32B activated parameters."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-thinking-hf",
+          "locator": "License"
+        }
+      ],
+      "note": "Modified MIT License."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-thinking-blog"
+        },
+        {
+          "id": "src.moonshot.kimi-k2-thinking-hf"
+        }
+      ]
+    }
+  }
+}

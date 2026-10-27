@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "moonshot.kimi-audio",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "kimi-audio",
+  "name": "Kimi-Audio",
+  "aliases": [
+    {
+      "text": "Kimi-Audio",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi Audio",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-Audio-7B-Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-Audio-7B",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "moonshot",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "moonshot.kimi-audio",
+  "categories": [
+    "audio-speech"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-audio-7b-instruct-hf"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-04-25",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-audio-github"
+        },
+        {
+          "id": "src.moonshot.kimi-audio-paper"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Kimi-Audio is an open-source audio foundation model for audio understanding, generation and conversation, released on 2025-04-25 with Kimi-Audio-7B-Instruct weights and a technical report. Moonshot AI says it was pre-trained on more than 13 million hours of audio and combines continuous acoustic features with discrete semantic tokens.",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-audio-paper",
+        "locator": "Abstract"
+      },
+      {
+        "id": "src.moonshot.kimi-audio-github"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "audio",
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-audio-paper",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "audio",
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-audio-paper",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-audio-7b-instruct-hf"
+        },
+        {
+          "id": "src.moonshot.kimi-audio-github"
+        }
+      ]
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-audio-7b-instruct-hf"
+        }
+      ]
+    }
+  },
+  "notes": "The language backbone is initialised from Qwen2.5-7B according to the technical report; Alibaba's Qwen models are not in Model History, so no derived-from relation is recorded. The weights licence was not checked."
+}

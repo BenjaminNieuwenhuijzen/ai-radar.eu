@@ -408,6 +408,42 @@
       "organizationId": "perplexity",
       "name": "Sonar Reasoning",
       "parentId": "perplexity.sonar-series"
+    },
+    {
+      "id": "moonshot.kimi",
+      "organizationId": "moonshot",
+      "name": "Kimi",
+      "parentId": null
+    },
+    {
+      "id": "moonshot.kimi-k",
+      "organizationId": "moonshot",
+      "name": "Kimi K",
+      "parentId": "moonshot.kimi"
+    },
+    {
+      "id": "moonshot.kimi-vl",
+      "organizationId": "moonshot",
+      "name": "Kimi-VL",
+      "parentId": "moonshot.kimi"
+    },
+    {
+      "id": "moonshot.kimi-audio",
+      "organizationId": "moonshot",
+      "name": "Kimi-Audio",
+      "parentId": "moonshot.kimi"
+    },
+    {
+      "id": "moonshot.kimi-dev",
+      "organizationId": "moonshot",
+      "name": "Kimi-Dev",
+      "parentId": "moonshot.kimi"
+    },
+    {
+      "id": "moonshot.kimi-linear",
+      "organizationId": "moonshot",
+      "name": "Kimi Linear",
+      "parentId": "moonshot.kimi"
     }
   ]
 }

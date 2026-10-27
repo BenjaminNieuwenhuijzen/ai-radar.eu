@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "moonshot.kimi-k1-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "kimi-k1-5",
+  "name": "Kimi k1.5",
+  "aliases": [
+    {
+      "text": "Kimi k1.5",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-k1.5",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi k1.5 long-CoT",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "moonshot",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "moonshot.kimi",
+  "generation": "1.5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "unknown",
+    "sources": [],
+    "note": "No current availability statement was found; the model was offered in the Kimi app and on the Kimi platform at release, and no weights were published."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-01-20",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k1-5-github"
+        }
+      ],
+      "note": "The repository announces the model on 2025-01-20; the arXiv report followed on 2025-01-22."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Kimi k1.5 is a multimodal reasoning model trained with reinforcement learning, released with a technical report on 2025-01-20. Moonshot AI describes long-context scaling of reinforcement learning and long-to-short methods for its long and short chain-of-thought modes. No weights were published.",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k1-5-paper",
+        "locator": "Abstract"
+      },
+      {
+        "id": "src.moonshot.kimi-k1-5-github"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k1-5-paper",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k1-5-paper",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.moonshot.kimi-k1-5-paper",
+            "locator": "Abstract"
+          }
+        ],
+        "note": "Long and short chain-of-thought modes."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128k",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k1-5-paper",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "The report scales the reinforcement-learning context window to 128k."
+    },
+    "openWeights": {
+      "value": false,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k1-5-github"
+        }
+      ],
+      "note": "The repository holds the report only."
+    }
+  },
+  "notes": "The lifecycle is left unknown rather than inferred from later Kimi releases."
+}

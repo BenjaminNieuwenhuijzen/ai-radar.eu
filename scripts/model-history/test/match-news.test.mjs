@@ -487,13 +487,14 @@ test("possible new models: versioned names in titles that no record, variant or 
   const items = [item("Introducing GPT-6"), item("GPT-6 in practice", "2026-09-28T10:00:00Z"), item("GPT-5 mini and GPT-5 nano for everyone"),
     item("What GPT-5 means"), item("Gemini 2.5 rollout"), item("Gemini 3.8 Flash arrives"), item("Claude Opus 4.10 is not a thing either"),
     item("GPT-5.2 prompting guide"), item("Nothing versioned here"), item("Llama 3.1 405B weights"),
-    item("Introducing GPT-6.1 Terra"), item("GPT-6.1 Sol and GPT-6.1 for teams")];
+    item("Introducing GPT-6.1 Terra"), item("GPT-6.1 Sol and GPT-6.1 for teams"), item("Kimi K3.1 Pro vs Kimi K2.5: what changed"),
+    item("Kimi Antonelli wins in Austin")];
   const found = newModelNames(items, ds);
   const names = found.map(x => x.name);
   assert.deepEqual(names.slice(0, 1), ["gpt-6"], "most titles first");
   assert.equal(found[0].count, 2);
   assert.match(found[0].title, /in practice/, "the latest title is the example");
-  for (const n of ["gemini 3.8 flash", "gpt-5.2", "llama 3.1", "claude opus 4.10"]) assert.ok(names.includes(n), n);
+  for (const n of ["gemini 3.8 flash", "gpt-5.2", "llama 3.1", "claude opus 4.10", "kimi k3.1 pro", "kimi k2.5"]) assert.ok(names.includes(n), n);
   assert.ok(names.includes("gpt-6.1 terra"), "a new tier of a known version is new, not the known bare version");
   for (const n of ["gpt-5", "gpt-5 mini", "gpt-5 nano", "gemini 2.5", "gpt-6.1", "gpt-6.1 sol"]) assert.ok(!names.includes(n), `${n} is known (name, variant, never-alias or prefix of a name)`);
   assert.ok(knownNames(ds).has("gpt-5 nano"), "never aliases count as known: the curator decided");

@@ -318,7 +318,7 @@ export const NEW_NAME_RE = new RegExp("(?<![a-z0-9])(?:" + [
   `gpt-${V}o?(?:[ -](?:mini|nano|pro|turbo|instant|sol|luna|terra|astra))?`, `o\\d(?:-(?:mini|pro|preview))?`, `gpt-oss`,
   `claude (?:(?:opus|sonnet|haiku|fable|mythos) ${V}|${V}(?: (?:opus|sonnet|haiku))?)`,
   `gemini ${V}(?: (?:pro|flash|ultra|nano)(?:[ -]lite)?)?`, `gemma ${V}n?`, `llama ${V}`, `grok[ -]${V}(?: (?:mini|fast|heavy))?`,
-  `(?:mistral|magistral|ministral|pixtral|mixtral)(?: (?:large|medium|small))? ${V}`, `deepseek[ -](?:v${V}|r\\d+)`,
+  `(?:mistral|magistral|ministral|pixtral|mixtral)(?: (?:large|medium|small))? ${V}`, `deepseek[ -](?:v${V}|r\\d+)`, `kimi[ -]k${V}(?:[ -](?:pro|thinking|code|highspeed|turbo))?`,
   `phi-${V}(?:-(?:mini|reasoning|multimodal))?`, `nemotron(?:[ -]${V})?(?: (?:nano|super|ultra))?`,
   `command (?:a(?: (?:vision|reasoning))?|r7b|r\\+?)`, `aya (?:expanse|vision|${V})`, `sonar(?: (?:pro|reasoning(?: pro)?|deep research))?`,
   `smollm${V}?`, `smolvlm${V}?`
