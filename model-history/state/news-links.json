@@ -1982,6 +1982,36 @@
       "firstSeenIn": "e97084b"
     },
     {
+      "modelId": "openai.gpt-6-1-terra",
+      "variantId": null,
+      "postId": "13vew9qpyo3",
+      "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "title": "Introducing GPT-6.1 Terra",
+      "publishedAt": "2026-10-26T00:00:00Z",
+      "dateOnly": true,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6.1 terra",
+      "firstSeenAt": "2026-10-27T07:52:57Z",
+      "firstSeenIn": "f2aaf1e"
+    },
+    {
+      "modelId": "openai.gpt-6-1-terra",
+      "variantId": null,
+      "postId": "204fix88p2j",
+      "link": "https://www.youtube.com/watch?v=tTuk4pGnT0A",
+      "title": "GPT-6.1 Terra is now in orbit",
+      "publishedAt": "2026-10-26T18:12:28Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "YouTube",
+      "method": "auto",
+      "alias": "gpt-6.1 terra",
+      "firstSeenAt": "2026-10-27T07:52:57Z",
+      "firstSeenIn": "f2aaf1e"
+    },
+    {
       "modelId": "openai.gpt-6-astra",
       "variantId": null,
       "postId": "1oom5hlb4su",
