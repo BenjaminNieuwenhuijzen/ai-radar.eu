@@ -1950,6 +1950,20 @@
       "url": "https://developers.openai.com/api/docs/guides/latest-model",
       "notes": "Model guide in the OpenAI API docs (HTML title Using GPT-6 | OpenAI API). The latest-model address always describes the newest model family, so its content changes with each release; content as read on 2026-10-01, when it covered GPT-6 Astra, GPT-6.1 Sol and GPT-6 Luna.",
       "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.openai.gpt-6-1-terra-announcement",
+      "type": "announcement",
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2026-10-26"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Known only from OpenAI's own news feed as listed on AI Radar (title, link and date). The page itself was not opened when the record was written, so the daily source check has to confirm it."
     }
   ]
 }

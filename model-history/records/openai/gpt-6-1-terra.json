@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "openai.gpt-6-1-terra",
+  "coverage": "stub",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "gpt-6-1-terra",
+  "name": "GPT-6.1 Terra",
+  "aliases": [
+    {
+      "text": "GPT-6.1 Terra",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "openai",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "openai.gpt-terra",
+  "generation": "6.1",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "announced",
+    "sources": [
+      {
+        "id": "src.openai.gpt-6-1-terra-announcement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": {
+      "value": "2026-10-26",
+      "sources": [
+        {
+          "id": "src.openai.gpt-6-1-terra-announcement"
+        }
+      ]
+    },
+    "released": null,
+    "deprecated": null,
+    "retired": null
+  },
+  "notes": "Added from OpenAI's own news item (title, date and link only). The page could not be opened when the record was written, so nothing else is claimed; to be completed from the announcement and the documentation."
+}
