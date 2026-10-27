@@ -1,0 +1,541 @@
+{
+  "schemaVersion": 1,
+  "sources": [
+    {
+      "id": "src.moonshot.website",
+      "type": "other",
+      "title": "Moonshot AI",
+      "url": "https://www.moonshot.ai/",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Company website. Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.huggingface-organization",
+      "type": "model-hub-page",
+      "title": "moonshotai (Moonshot AI)",
+      "url": "https://huggingface.co/moonshotai",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Hugging Face organisation page listing the open-weight Kimi models. Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.wikipedia",
+      "type": "encyclopedia",
+      "title": "Moonshot AI",
+      "url": "https://en.wikipedia.org/wiki/Moonshot_AI",
+      "publisher": "Wikipedia",
+      "provenance": "secondary",
+      "availability": "unknown",
+      "notes": "Encyclopedia article: Beijing-based company founded in 2023 by Yang Zhilin, Zhou Xinyu and Wu Yuxin. Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k1-5-paper",
+      "type": "technical-report",
+      "title": "Kimi k1.5: Scaling Reinforcement Learning with LLMs",
+      "url": "https://arxiv.org/abs/2501.12599",
+      "publisher": "arXiv (Kimi Team)",
+      "publisherOrgId": "moonshot",
+      "publishedAt": {
+        "value": "2025-01-22"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Technical report by the Kimi Team; arXiv v1 submitted 2025-01-22. Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k1-5-github",
+      "type": "repository",
+      "title": "MoonshotAI/Kimi-k1.5",
+      "url": "https://github.com/MoonshotAI/Kimi-k1.5",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Release repository with the report; no weights. Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-vl-paper",
+      "type": "technical-report",
+      "title": "Kimi-VL Technical Report",
+      "url": "https://arxiv.org/abs/2504.07491",
+      "publisher": "arXiv (Kimi Team)",
+      "publisherOrgId": "moonshot",
+      "publishedAt": {
+        "value": "2025-04-10"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-vl-github",
+      "type": "repository",
+      "title": "MoonshotAI/Kimi-VL",
+      "url": "https://github.com/MoonshotAI/Kimi-VL",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-vl-a3b-instruct-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-VL-A3B-Instruct",
+      "url": "https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-vl-a3b-thinking-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-VL-A3B-Thinking",
+      "url": "https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-audio-paper",
+      "type": "technical-report",
+      "title": "Kimi-Audio Technical Report",
+      "url": "https://arxiv.org/abs/2504.18425",
+      "publisher": "arXiv (Kimi Team)",
+      "publisherOrgId": "moonshot",
+      "publishedAt": {
+        "value": "2025-04-25"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-audio-github",
+      "type": "repository",
+      "title": "MoonshotAI/Kimi-Audio",
+      "url": "https://github.com/MoonshotAI/Kimi-Audio",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Release repository; its news section dates the release of the inference code and Kimi-Audio-7B-Instruct weights to 2025-04-25. Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-audio-7b-instruct-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-Audio-7B-Instruct",
+      "url": "https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-dev-72b-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-Dev-72B",
+      "url": "https://huggingface.co/moonshotai/Kimi-Dev-72B",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-dev-github",
+      "type": "repository",
+      "title": "MoonshotAI/Kimi-Dev",
+      "url": "https://github.com/MoonshotAI/Kimi-Dev",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-blog",
+      "type": "blog-post",
+      "title": "Kimi K2: Open Agentic Intelligence",
+      "url": "https://moonshotai.github.io/Kimi-K2/",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "publishedAt": {
+        "value": "2025-07-11"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-github",
+      "type": "repository",
+      "title": "MoonshotAI/Kimi-K2",
+      "url": "https://github.com/MoonshotAI/Kimi-K2",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-instruct-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-K2-Instruct",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-base-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-K2-Base",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Base",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-paper",
+      "type": "technical-report",
+      "title": "Kimi K2: Open Agentic Intelligence",
+      "url": "https://arxiv.org/abs/2507.20534",
+      "publisher": "arXiv (Kimi Team)",
+      "publisherOrgId": "moonshot",
+      "publishedAt": {
+        "value": "2025-07-28"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-instruct-0905-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-K2-Instruct-0905",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-linear-paper",
+      "type": "research-paper",
+      "title": "Kimi Linear: An Expressive, Efficient Attention Architecture",
+      "url": "https://arxiv.org/abs/2510.26692",
+      "publisher": "arXiv (Kimi Team)",
+      "publisherOrgId": "moonshot",
+      "publishedAt": {
+        "value": "2025-10-30"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-linear-github",
+      "type": "repository",
+      "title": "MoonshotAI/Kimi-Linear",
+      "url": "https://github.com/MoonshotAI/Kimi-Linear",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-linear-48b-a3b-instruct-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-Linear-48B-A3B-Instruct",
+      "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-thinking-blog",
+      "type": "blog-post",
+      "title": "Kimi K2 Thinking",
+      "url": "https://moonshotai.github.io/Kimi-K2/thinking.html",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "publishedAt": {
+        "value": "2025-11-06"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-thinking-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-K2-Thinking",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-5-blog",
+      "type": "blog-post",
+      "title": "Kimi K2.5 Tech Blog: Visual Agentic Intelligence",
+      "url": "https://www.kimi.ai/blog/kimi-k2-5",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "publishedAt": {
+        "value": "2026-01-27"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-5-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-K2.5",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.5",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-5-github",
+      "type": "repository",
+      "title": "MoonshotAI/Kimi-K2.5",
+      "url": "https://github.com/MoonshotAI/Kimi-K2.5",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Repository titled Open Visual Agentic Intelligence. Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-5-paper",
+      "type": "technical-report",
+      "title": "Kimi K2.5: Visual Agentic Intelligence",
+      "url": "https://arxiv.org/abs/2602.02276",
+      "publisher": "arXiv (Kimi Team)",
+      "publisherOrgId": "moonshot",
+      "publishedAt": {
+        "value": "2026-02"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.simonwillison-kimi-k2-5",
+      "type": "blog-post",
+      "title": "Kimi K2.5: Visual Agentic Intelligence",
+      "url": "https://simonwillison.net/2026/Jan/27/kimi-k25/",
+      "publisher": "Simon Willison",
+      "publishedAt": {
+        "value": "2026-01-27"
+      },
+      "provenance": "secondary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-6-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-K2.6",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-6-model-page",
+      "type": "documentation",
+      "title": "Kimi K2.6",
+      "url": "https://www.kimi.com/ai-models/kimi-k2-6",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Kimi product page for the model (the search result was the Korean version, /ko/ai-models/kimi-k2-6). Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.marktechpost-kimi-k2-6",
+      "type": "news-article",
+      "title": "Moonshot AI Releases Kimi K2.6 with Long-Horizon Coding, Agent Swarm Scaling to 300 Sub-Agents and 4,000 Coordinated Steps",
+      "url": "https://www.marktechpost.com/2026/04/20/moonshot-ai-releases-kimi-k2-6-with-long-horizon-coding-agent-swarm-scaling-to-300-sub-agents-and-4000-coordinated-steps/",
+      "publisher": "MarkTechPost",
+      "publishedAt": {
+        "value": "2026-04-20"
+      },
+      "provenance": "secondary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kilo-kimi-k2-6",
+      "type": "blog-post",
+      "title": "Kimi K2.6 Has Arrived: An Open-Weight Powerhouse for Agentic Work",
+      "url": "https://blog.kilo.ai/p/kimi-k26-has-arrived-an-open-weight",
+      "publisher": "Kilo Code",
+      "provenance": "secondary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k2-7-code-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-K2.7-Code",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Repository name taken from community quantisations that name moonshotai/Kimi-K2.7-Code as their base. Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.marktechpost-kimi-k2-7-code",
+      "type": "news-article",
+      "title": "Moonshot AI Releases Kimi K2.7-Code: a Coding Model Reporting +21.8% on Kimi Code Bench v2 Over K2.6",
+      "url": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
+      "publisher": "MarkTechPost",
+      "publishedAt": {
+        "value": "2026-06-12"
+      },
+      "provenance": "secondary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.devops-kimi-k2-7-code",
+      "type": "news-article",
+      "title": "Moonshot AI's Kimi K2.7-Code Targets Token Efficiency in Agentic Coding",
+      "url": "https://devops.com/moonshot-ais-kimi-k2-7-code-targets-token-efficiency-in-agentic-coding",
+      "publisher": "DevOps.com",
+      "provenance": "secondary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k3-blog",
+      "type": "blog-post",
+      "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
+      "url": "https://www.kimi.ai/blog/kimi-k3",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "publishedAt": {
+        "value": "2026-07-16"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Launch post: a 2.8T-parameter model built on Kimi Delta Attention and Attention Residuals, with native vision and a 1-million-token context window, available on Kimi.com, Kimi Work, Kimi Code and the Kimi API. Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k3-hf",
+      "type": "model-card",
+      "title": "moonshotai/Kimi-K3",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Model card: code and weights under the Kimi K3 License; 2.8T total and 104B activated parameters. Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k3-github",
+      "type": "repository",
+      "title": "MoonshotAI/Kimi-K3",
+      "url": "https://github.com/MoonshotAI/Kimi-K3",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Holds the technical report (k3_tech_report.pdf), published with the weights. Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.fortune-kimi-k3",
+      "type": "news-article",
+      "title": "Moonshot's Kimi K3 pushes Chinese AI into Fable-level territory",
+      "url": "https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/",
+      "publisher": "Fortune",
+      "publishedAt": {
+        "value": "2026-07-16"
+      },
+      "provenance": "secondary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.geopolitechs-kimi-k3-weights",
+      "type": "news-article",
+      "title": "Moonshot released Kimi K3 model weights and technical report",
+      "url": "https://www.geopolitechs.org/p/moonshot-released-kimi-k3-model-weights",
+      "publisher": "Geopolitechs",
+      "provenance": "secondary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.kimi-k3-1-pro-blog",
+      "type": "blog-post",
+      "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "publisher": "Moonshot AI",
+      "publisherOrgId": "moonshot",
+      "publishedAt": {
+        "value": "2026-10-23"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Launch post: a post-trained version of Kimi K3 with a 1M-token context window and a 2-3x faster Highspeed variant, live on Kimi.ai, Kimi Work, Kimi Code and the Kimi API; full weights promised by 2026-11-04. Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.techmeme-kimi-k3-1-pro",
+      "type": "news-article",
+      "title": "Moonshot unveils Kimi K3.1 Pro, a 3T-class open-weight model with a 1M-token context window, and K3.1 Pro Highspeed, with full weights to be released by Nov. 4",
+      "url": "https://www.techmeme.com/261023/p15",
+      "publisher": "Techmeme",
+      "publishedAt": {
+        "value": "2026-10-23"
+      },
+      "provenance": "secondary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    },
+    {
+      "id": "src.moonshot.techtimes-kimi-k3-1-pro",
+      "type": "news-article",
+      "title": "Kimi K3.1 Pro Scores 4th of 215 AI Models; Moonshot Scrubs Cyberattack Data Before Open Weights",
+      "url": "https://www.techtimes.com/articles/329470/20261026/kimi-k31-pro-scores-4th-215-ai-models-moonshot-scrubs-cyberattack-data-before-open-weights.htm",
+      "publisher": "Tech Times",
+      "publishedAt": {
+        "value": "2026-10-26"
+      },
+      "provenance": "secondary",
+      "availability": "unknown",
+      "notes": "Found by web search on 2026-10-27; the authoring environment could not open the page, so availability is left to the daily source-health check."
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "id": "moonshot.kimi-k3",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "kimi-k3",
+  "name": "Kimi K3",
+  "aliases": [
+    {
+      "text": "Kimi K3",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-K3",
+      "match": "auto"
+    },
+    {
+      "text": "kimi-k3",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "moonshot",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "moonshot.kimi-k",
+  "generation": "3",
+  "categories": [
+    "multimodal",
+    "agentic",
+    "code",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k3-blog"
+      },
+      {
+        "id": "src.moonshot.kimi-k3-hf"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-07-16",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-blog"
+        },
+        {
+          "id": "src.moonshot.fortune-kimi-k3"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "open-weights",
+      "label": "Kimi K3 weights and technical report released",
+      "date": {
+        "value": "2026-07-27",
+        "sources": [
+          {
+            "id": "src.moonshot.kimi-k3-github"
+          },
+          {
+            "id": "src.moonshot.geopolitechs-kimi-k3-weights"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "moonshot.kimi-k2-6",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-blog"
+        }
+      ],
+      "note": "The next flagship generation after the K2 line."
+    }
+  ],
+  "summary": {
+    "text": "Kimi K3 is a 2.8-trillion-parameter Mixture-of-Experts model with native vision and a 1-million-token context window, launched on 2026-07-16 in Kimi and the Kimi API, with weights following on 2026-07-27. Moonshot AI says it is built on a new architecture of Kimi Delta Attention and Attention Residuals.",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k3-blog"
+      },
+      {
+        "id": "src.moonshot.kimi-k3-hf"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "architecture",
+      "aspect": "architecture",
+      "direction": "changed",
+      "relativeTo": "moonshot.kimi-k2-6",
+      "text": "New architecture combining Kimi Delta Attention with Attention Residuals.",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-blog"
+        }
+      ]
+    },
+    {
+      "id": "size",
+      "aspect": "size",
+      "direction": "increased",
+      "relativeTo": "moonshot.kimi-k2-6",
+      "text": "Grows from 1T to 2.8T total parameters, with 104B activated.",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-hf"
+        }
+      ]
+    },
+    {
+      "id": "context-1m",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "moonshot.kimi-k2-6",
+      "text": "Context window grows to 1 million tokens.",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-blog"
+        }
+      ]
+    },
+    {
+      "id": "licence",
+      "aspect": "licensing",
+      "direction": "changed",
+      "relativeTo": "moonshot.kimi-k2-6",
+      "text": "Weights under a new custom Kimi K3 License instead of a Modified MIT License.",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-hf"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-blog"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-hf"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "long-context",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.moonshot.kimi-k3-blog"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1-million-token",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-blog"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 2800000000000,
+      "asStated": "2.8T",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-blog"
+        },
+        {
+          "id": "src.moonshot.kimi-k3-hf"
+        }
+      ],
+      "note": "Mixture-of-Experts with 104B activated parameters, per the model card."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-hf"
+        }
+      ],
+      "note": "Code and weights under the custom Kimi K3 License."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-blog"
+        },
+        {
+          "id": "src.moonshot.kimi-k3-hf"
+        }
+      ]
+    }
+  }
+}

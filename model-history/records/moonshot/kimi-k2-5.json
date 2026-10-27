@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "moonshot.kimi-k2-5",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "kimi-k2-5",
+  "name": "Kimi K2.5",
+  "aliases": [
+    {
+      "text": "Kimi K2.5",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-K2.5",
+      "match": "auto"
+    },
+    {
+      "text": "kimi-k2.5",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "moonshot",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "moonshot.kimi-k",
+  "generation": "2.5",
+  "categories": [
+    "multimodal",
+    "agentic",
+    "code",
+    "reasoning"
+  ],
+  "prominence": "milestone",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k2-5-hf"
+      },
+      {
+        "id": "src.moonshot.kimi-k2-5-blog"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-01-27",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-5-blog"
+        },
+        {
+          "id": "src.moonshot.simonwillison-kimi-k2-5"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "milestones": [
+    {
+      "id": "technical-report",
+      "label": "Kimi K2.5 technical report on arXiv",
+      "date": {
+        "value": "2026-02",
+        "sources": [
+          {
+            "id": "src.moonshot.kimi-k2-5-paper"
+          }
+        ]
+      }
+    }
+  ],
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "moonshot.kimi-k2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-5-blog"
+        }
+      ],
+      "method": "continued-pretraining",
+      "note": "Continued pre-training from Kimi K2 on mixed visual and text tokens."
+    }
+  ],
+  "summary": {
+    "text": "Kimi K2.5 is an open-weight native multimodal agentic model released on 2026-01-27. Moonshot AI built it by continued pre-training of Kimi K2 on about 15 trillion mixed visual and text tokens, and introduced an Agent Swarm mode in which the model coordinates sub-agents in parallel.",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k2-5-blog"
+      },
+      {
+        "id": "src.moonshot.kimi-k2-5-hf"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "native-vision",
+      "aspect": "modality",
+      "direction": "added",
+      "relativeTo": "moonshot.kimi-k2",
+      "text": "Adds native image and video understanding, trained jointly with text.",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-5-blog"
+        }
+      ]
+    },
+    {
+      "id": "agent-swarm",
+      "aspect": "tool-use",
+      "direction": "added",
+      "relativeTo": "moonshot.kimi-k2",
+      "text": "Adds Agent Swarm, in which the model plans and runs parallel sub-agents.",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-5-blog"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-5-blog"
+        },
+        {
+          "id": "src.moonshot.kimi-k2-5-hf"
+        }
+      ],
+      "note": "Video input is described as experimental."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-5-hf"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.moonshot.kimi-k2-5-hf"
+          }
+        ]
+      },
+      {
+        "key": "tool-use",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.moonshot.kimi-k2-5-blog"
+          }
+        ]
+      }
+    ],
+    "parameters": {
+      "value": 1000000000000,
+      "asStated": "1T",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-5-hf"
+        }
+      ],
+      "note": "Mixture-of-Experts with 32B activated parameters."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-5-hf"
+        },
+        {
+          "id": "src.moonshot.kimi-k2-5-github"
+        }
+      ],
+      "note": "Modified MIT License."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-5-blog"
+        },
+        {
+          "id": "src.moonshot.kimi-k2-5-hf"
+        }
+      ]
+    }
+  },
+  "notes": "The context window was not confirmed from an official source while writing this record and is left out."
+}

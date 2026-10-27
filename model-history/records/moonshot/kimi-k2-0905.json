@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "moonshot.kimi-k2-0905",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "kimi-k2-0905",
+  "name": "Kimi-K2-Instruct-0905",
+  "aliases": [
+    {
+      "text": "Kimi-K2-Instruct-0905",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi K2 0905",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi K2-0905",
+      "match": "auto"
+    },
+    {
+      "text": "kimi-k2-0905-preview",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "moonshot",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "moonshot.kimi-k",
+  "generation": "2",
+  "categories": [
+    "language",
+    "agentic",
+    "code"
+  ],
+  "prominence": "minor",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k2-instruct-0905-hf"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-09-05",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-instruct-0905-hf"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "revision-of",
+      "target": "moonshot.kimi-k2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-instruct-0905-hf",
+          "locator": "Model Introduction"
+        }
+      ],
+      "note": "The card calls it the latest, most capable version of Kimi K2."
+    }
+  ],
+  "summary": {
+    "text": "Kimi-K2-Instruct-0905 is an updated Kimi K2 instruct model released on 2025-09-05. Moonshot AI says it improves agentic coding and front-end programming and extends the context window from 128K to 256K tokens; the architecture of 1 trillion total and 32 billion activated parameters is unchanged.",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k2-instruct-0905-hf",
+        "locator": "Model Introduction"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "context-256k",
+      "aspect": "context-length",
+      "direction": "increased",
+      "relativeTo": "moonshot.kimi-k2",
+      "text": "Context window extended from 128K to 256K tokens.",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-instruct-0905-hf",
+          "locator": "Model Introduction"
+        }
+      ]
+    },
+    {
+      "id": "agentic-coding",
+      "aspect": "other",
+      "direction": "changed",
+      "relativeTo": "moonshot.kimi-k2",
+      "text": "Moonshot AI reports better agentic coding and front-end programming.",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-instruct-0905-hf",
+          "locator": "Model Introduction"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-instruct-0905-hf"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-instruct-0905-hf"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 256000,
+      "asStated": "256K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-instruct-0905-hf",
+          "locator": "Model Summary"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 1000000000000,
+      "asStated": "1T",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-instruct-0905-hf",
+          "locator": "Model Summary"
+        }
+      ],
+      "note": "Mixture-of-Experts with 32B activated parameters."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-instruct-0905-hf",
+          "locator": "License"
+        }
+      ],
+      "note": "Modified MIT License."
+    },
+    "access": {
+      "value": [
+        "api",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-instruct-0905-hf"
+        }
+      ]
+    }
+  }
+}

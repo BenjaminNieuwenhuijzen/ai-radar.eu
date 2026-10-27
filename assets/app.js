@@ -94,7 +94,8 @@ const ABOUT_RULES = [
   ["Perplexity", /\bPerplexity\b/],
   ["Mistral AI", /\bMistral\b/],
   ["Cohere", /\bCohere\b/],
-  ["DeepSeek", /\bDeepSeek\b/i]
+  ["DeepSeek", /\bDeepSeek\b/i],
+  ["Moonshot AI (Kimi)", /\b(Moonshot AI|Kimi)\b(?! (Antonelli|R\u00e4ikk\u00f6nen|Raikkonen))/]
 ];
 // The company mentioned earliest in the title wins, else earliest in the summary;
 // "" when neither names a tracked company. On a tie the first rule listed wins.
@@ -178,7 +179,7 @@ const $ = id => document.getElementById(id);
 /* Heuristic: flag posts that seem to be about a new or updated AI model.
    Signals: a model name with a version number, a known model name, or a
    model word combined with a release word. Not foolproof. */
-const VERSION_PAT = /\b(gpt|claude|gemini|gemma|llama|grok|mistral|codex|sonar|veo|imagen|sora|deepseek|qwen|opus|sonnet|haiku|fable|mythos)[ -]?v?\d+(\.\d+)?\b/i;
+const VERSION_PAT = /\b(gpt|claude|gemini|gemma|llama|grok|mistral|codex|sonar|veo|imagen|sora|deepseek|qwen|kimi[ -]?k|opus|sonnet|haiku|fable|mythos)[ -]?v?\d+(\.\d+)?\b/i;
 const NAMED_MODEL = /\b(voxtral|magistral|sam[ -]?\d|glm-?\d|olmo\w*|diffusiongemma|gpt-image|seamless interaction|dinov?\d|granite[ -]?\d|molmo\w*|phi-?\d|qwen|paddleocr|speciesnet|weathernext|alphafold|alphago)\b/i;
 const MODEL_WORDS = /\b(model|llm|foundation model|frontier model|reasoning model|multimodal|vision model|weights|checkpoint)\b/i;
 const RELEASE_WORDS = /\b(introduc\w+|announc\w+|releas\w+|launch\w*|unveil\w*|now available|general availability|preview|upgrade\w*|updated?|new (model|family|version))\b/i;

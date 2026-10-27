@@ -10,6 +10,15 @@ can see exactly what changed between any two versions.
 ## [Unreleased]
 
 ### Added
+- **Moonshot AI (Kimi)** as the 13th tracked company. It publishes no RSS feed, so its card
+  is fed by a Google News query on "Moonshot AI" and the versioned Kimi models (bare "Kimi"
+  also finds Formula 1 drivers) and is labelled a community source. Across AI posts about
+  Moonshot AI or Kimi show its logo, and "Kimi K…" names count as model releases.
+- Model History covers Moonshot AI: 13 Kimi models from Kimi k1.5 (January 2025) to Kimi K3
+  and Kimi K3.1 Pro (October 2026), in six families, with 45 sources. The sources were found
+  by web search and could not be opened while writing, so they start as "unknown" and show
+  "Evidence incomplete" until the daily source-health check has confirmed them. "Kimi K…"
+  names in AI Radar titles now open `new-model` issues like the other model lines.
 - Model History now covers all 12 tracked companies: Google, OpenAI, Mistral AI, DeepSeek, xAI,
   Microsoft, NVIDIA, Cohere, Meta, Hugging Face and Perplexity joined Anthropic (279 models,
   952 sources), with relations across organisations (for example R1 1776 → DeepSeek-R1).

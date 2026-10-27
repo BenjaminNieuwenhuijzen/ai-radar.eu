@@ -8,7 +8,7 @@ This folder holds the curated data behind **Model History**, the part of AI Rada
 
 | Path | Kind | Who writes it |
 |---|---|---|
-| `organizations.json` | curated: organisations (the 12 tracked companies, plus any external lab or unit) | curator only |
+| `organizations.json` | curated: organisations (the 13 tracked companies, plus any external lab or unit) | curator only |
 | `families.json` | curated: model families ("Orbit", nested series) | curator only |
 | `records/<route-org>/<id-after-the-first-dot>.json` | curated: one file per model | curator only |
 | `sources/<top-level-org>.json`, `sources/shared.json` | curated: the source register (one file per top-level organisation, `shared.json` for sources about several) | curator only |
@@ -63,7 +63,7 @@ Aliases drive the news matching. They default to `match: "candidate"` (reported,
 
 - **Ids never change.** The `<orgId>` in a model id is the organisation at the time of entry. After an acquisition or reorganisation the id stays; only `organizations`, the folder and the route move, and the old path goes into `previousRoutes`.
 - A slug is `[a-z0-9-]` without dots, unique within the top-level organisation: "Orbit 2.5" becomes `orbit-2-5`. A renamed slug keeps the old one in `previousSlugs`, so the old URL gets a redirect page.
-- The 12 tracked companies use their AI Radar ids (`openai`, `anthropic`, `google`, …) with `coverage: "tracked"`. Any other organisation gets `coverage: "external"` and `radarCompanyId: null`; a unit gets `type: "unit"` and a `parentId`.
+- The 13 tracked companies use their AI Radar ids (`openai`, `anthropic`, `google`, …) with `coverage: "tracked"`. Any other organisation gets `coverage: "external"` and `radarCompanyId: null`; a unit gets `type: "unit"` and a `parentId`.
 
 ## Dates
 

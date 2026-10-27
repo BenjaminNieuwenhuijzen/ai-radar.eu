@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "moonshot.kimi-k2-6",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "kimi-k2-6",
+  "name": "Kimi K2.6",
+  "aliases": [
+    {
+      "text": "Kimi K2.6",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-K2.6",
+      "match": "auto"
+    },
+    {
+      "text": "kimi-k2.6",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "moonshot",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "moonshot.kimi-k",
+  "generation": "2.6",
+  "categories": [
+    "multimodal",
+    "agentic",
+    "code"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k2-6-hf"
+      },
+      {
+        "id": "src.moonshot.kimi-k2-6-model-page"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-04-20",
+      "sources": [
+        {
+          "id": "src.moonshot.marktechpost-kimi-k2-6"
+        },
+        {
+          "id": "src.moonshot.kilo-kimi-k2-6"
+        },
+        {
+          "id": "src.moonshot.kimi-k2-6-hf"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "moonshot.kimi-k2-5",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.moonshot.marktechpost-kimi-k2-6"
+        },
+        {
+          "id": "src.moonshot.kimi-k2-6-model-page"
+        }
+      ],
+      "note": "Agent Swarm grows from 100 sub-agents and 1,500 steps in K2.5 to 300 and 4,000."
+    }
+  ],
+  "summary": {
+    "text": "Kimi K2.6 is an open-weight native multimodal agentic model released on 2026-04-20, with 1 trillion total and 32 billion activated parameters. Moonshot AI positions it for long-horizon coding and says its Agent Swarm scales to 300 sub-agents and 4,000 coordinated steps.",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k2-6-model-page"
+      },
+      {
+        "id": "src.moonshot.kimi-k2-6-hf"
+      },
+      {
+        "id": "src.moonshot.marktechpost-kimi-k2-6"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "swarm-scale",
+      "aspect": "tool-use",
+      "direction": "changed",
+      "relativeTo": "moonshot.kimi-k2-5",
+      "text": "Agent Swarm scales to 300 sub-agents and 4,000 coordinated steps, up from 100 and 1,500.",
+      "sources": [
+        {
+          "id": "src.moonshot.marktechpost-kimi-k2-6"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-6-hf"
+        }
+      ],
+      "note": "Video input is described as experimental and only available through the official API."
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-6-hf"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "reasoning-mode",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.moonshot.kimi-k2-6-hf"
+          }
+        ],
+        "note": "Thinking and non-thinking modes."
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 262144,
+      "asStated": "262,144",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-6-hf"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 1000000000000,
+      "asStated": "1T",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-6-hf"
+        }
+      ],
+      "note": "Mixture-of-Experts with 32B activated parameters."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-6-hf"
+        }
+      ],
+      "note": "Modified MIT License."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app",
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k2-6-hf"
+        },
+        {
+          "id": "src.moonshot.kimi-k2-6-model-page"
+        }
+      ]
+    }
+  }
+}

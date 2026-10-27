@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "moonshot.kimi-dev-72b",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "kimi-dev-72b",
+  "name": "Kimi-Dev-72B",
+  "aliases": [
+    {
+      "text": "Kimi-Dev-72B",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi Dev 72B",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-Dev",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "moonshot",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "moonshot.kimi-dev",
+  "categories": [
+    "code",
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-dev-72b-hf"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-06-16",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-dev-72b-hf"
+        },
+        {
+          "id": "src.moonshot.kimi-dev-github"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Kimi-Dev-72B is an open-weight coding model for software-engineering tasks such as issue resolution, released on 2025-06-16. Moonshot AI built it on Qwen2.5-72B and optimised it with large-scale reinforcement learning on repository patches checked by test suites.",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-dev-72b-hf"
+      },
+      {
+        "id": "src.moonshot.kimi-dev-github"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-dev-72b-hf"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text",
+        "code"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-dev-72b-hf"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 72000000000,
+      "asStated": "72B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-dev-72b-hf"
+        }
+      ]
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-dev-72b-hf"
+        }
+      ],
+      "note": "Released under the MIT License, subject to the Qwen licence of the base model."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-dev-72b-hf"
+        }
+      ]
+    }
+  },
+  "notes": "Based on Alibaba's Qwen2.5-72B, which is not in Model History, so no derived-from relation is recorded."
+}

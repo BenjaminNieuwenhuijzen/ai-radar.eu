@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "moonshot.kimi-vl",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "kimi-vl",
+  "name": "Kimi-VL",
+  "aliases": [
+    {
+      "text": "Kimi-VL",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi VL",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-VL-A3B",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "moonshot",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "moonshot.kimi-vl",
+  "categories": [
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-vl-a3b-instruct-hf"
+      },
+      {
+        "id": "src.moonshot.kimi-vl-a3b-thinking-hf"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-04-10",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-vl-paper"
+        },
+        {
+          "id": "src.moonshot.kimi-vl-github"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "variants": [
+    {
+      "id": "a3b-instruct",
+      "name": "Kimi-VL-A3B-Instruct",
+      "aliases": [
+        {
+          "text": "Kimi-VL-A3B-Instruct",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-vl-a3b-instruct-hf"
+        }
+      ]
+    },
+    {
+      "id": "a3b-thinking",
+      "name": "Kimi-VL-A3B-Thinking",
+      "aliases": [
+        {
+          "text": "Kimi-VL-A3B-Thinking",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-vl-a3b-thinking-hf"
+        }
+      ],
+      "note": "Long chain-of-thought variant trained with supervised fine-tuning and reinforcement learning."
+    }
+  ],
+  "summary": {
+    "text": "Kimi-VL is an open-weight vision-language Mixture-of-Experts model with 16B total and 2.8B activated parameters, released on 2025-04-10 as Kimi-VL-A3B-Instruct and Kimi-VL-A3B-Thinking. Moonshot AI describes a MoonViT vision encoder for native-resolution images and a 128K context window.",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-vl-paper",
+        "locator": "Abstract"
+      },
+      {
+        "id": "src.moonshot.kimi-vl-a3b-instruct-hf"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image",
+        "video"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-vl-paper",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-vl-paper",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "long-context",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.moonshot.kimi-vl-paper",
+            "locator": "Abstract"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 128000,
+      "asStated": "128K",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-vl-paper",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 16000000000,
+      "asStated": "16B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-vl-paper",
+          "locator": "Abstract"
+        }
+      ],
+      "note": "Mixture-of-Experts; 2.8B parameters activated in the language decoder."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-vl-a3b-instruct-hf"
+        }
+      ],
+      "note": "Weights on Hugging Face under the MIT License."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-vl-a3b-instruct-hf"
+        }
+      ]
+    }
+  }
+}

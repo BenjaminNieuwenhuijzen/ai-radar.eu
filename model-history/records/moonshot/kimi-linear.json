@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "moonshot.kimi-linear",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "kimi-linear",
+  "name": "Kimi Linear",
+  "aliases": [
+    {
+      "text": "Kimi Linear",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-Linear",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-Linear-48B-A3B-Instruct",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-Linear-48B-A3B-Base",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "moonshot",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "moonshot.kimi-linear",
+  "categories": [
+    "language"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "research-only",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-linear-48b-a3b-instruct-hf"
+      },
+      {
+        "id": "src.moonshot.kimi-linear-paper"
+      }
+    ],
+    "note": "Released as open weights with a research paper; no Kimi app or API offering was found."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2025-10-30",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-linear-paper"
+        },
+        {
+          "id": "src.moonshot.kimi-linear-github"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "summary": {
+    "text": "Kimi Linear is a hybrid linear-attention architecture, released on 2025-10-30 with Kimi-Linear-48B-A3B models of 48B total and 3B activated parameters. Moonshot AI says its Kimi Delta Attention reduces the KV cache by up to 75% and supports a 1M-token context.",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-linear-paper",
+        "locator": "Abstract"
+      },
+      {
+        "id": "src.moonshot.kimi-linear-48b-a3b-instruct-hf"
+      }
+    ]
+  },
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-linear-48b-a3b-instruct-hf"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-linear-48b-a3b-instruct-hf"
+        }
+      ]
+    },
+    "features": [
+      {
+        "key": "long-context",
+        "disclosure": "official",
+        "sources": [
+          {
+            "id": "src.moonshot.kimi-linear-48b-a3b-instruct-hf"
+          }
+        ]
+      }
+    ],
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-linear-48b-a3b-instruct-hf"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 48000000000,
+      "asStated": "48B",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-linear-48b-a3b-instruct-hf"
+        }
+      ],
+      "note": "Mixture-of-Experts with 3B activated parameters."
+    },
+    "openWeights": {
+      "value": true,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-linear-48b-a3b-instruct-hf"
+        }
+      ],
+      "note": "MIT License."
+    },
+    "access": {
+      "value": [
+        "open-weights-download"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-linear-48b-a3b-instruct-hf"
+        }
+      ]
+    }
+  },
+  "notes": "Kimi Delta Attention later became part of the Kimi K3 architecture, according to the K3 launch post."
+}

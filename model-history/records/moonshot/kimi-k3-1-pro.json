@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "id": "moonshot.kimi-k3-1-pro",
+  "coverage": "full",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "kimi-k3-1-pro",
+  "name": "Kimi K3.1 Pro",
+  "aliases": [
+    {
+      "text": "Kimi K3.1 Pro",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi-K3.1-Pro",
+      "match": "auto"
+    },
+    {
+      "text": "kimi-k3.1-pro",
+      "match": "auto"
+    },
+    {
+      "text": "Kimi K3.1",
+      "match": "candidate"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "moonshot",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "moonshot.kimi-k",
+  "generation": "3.1",
+  "categories": [
+    "multimodal",
+    "agentic",
+    "code",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k3-1-pro-blog"
+      }
+    ]
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-10-23",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-1-pro-blog"
+        },
+        {
+          "id": "src.moonshot.techmeme-kimi-k3-1-pro"
+        }
+      ],
+      "note": "Announced on 2026-10-23 (US time), already 2026-10-24 in China; some reports use the later date."
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "derived-from",
+      "target": "moonshot.kimi-k3",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-1-pro-blog"
+        }
+      ],
+      "method": "fine-tune",
+      "note": "Further post-training of the Kimi K3 base; the architecture is unchanged."
+    }
+  ],
+  "variants": [
+    {
+      "id": "highspeed",
+      "name": "Kimi K3.1 Pro Highspeed",
+      "aliases": [
+        {
+          "text": "Kimi K3.1 Pro Highspeed",
+          "match": "auto"
+        },
+        {
+          "text": "K3.1 Pro Highspeed",
+          "match": "auto"
+        }
+      ],
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-1-pro-blog"
+        },
+        {
+          "id": "src.moonshot.techmeme-kimi-k3-1-pro"
+        }
+      ],
+      "note": "Moonshot AI says it runs 2 to 3 times faster."
+    }
+  ],
+  "summary": {
+    "text": "Kimi K3.1 Pro is a post-trained version of Kimi K3, released on 2026-10-23 in Kimi.ai, Kimi Work, Kimi Code and the Kimi API together with a faster Highspeed variant. It keeps the 1M-token context window; Moonshot AI says it removed cyber-related training data and promised full weights by 2026-11-04.",
+    "sources": [
+      {
+        "id": "src.moonshot.kimi-k3-1-pro-blog"
+      },
+      {
+        "id": "src.moonshot.techmeme-kimi-k3-1-pro"
+      },
+      {
+        "id": "src.moonshot.techtimes-kimi-k3-1-pro"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "post-training",
+      "aspect": "training-data",
+      "direction": "changed",
+      "relativeTo": "moonshot.kimi-k3",
+      "text": "More post-training compute, with large-scale joint reinforcement learning across many domains.",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-1-pro-blog"
+        }
+      ]
+    },
+    {
+      "id": "cyber-data-removed",
+      "aspect": "safety",
+      "direction": "changed",
+      "relativeTo": "moonshot.kimi-k3",
+      "text": "Cyber-related training data removed to limit offensive cyber capability of the open weights.",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-1-pro-blog"
+        },
+        {
+          "id": "src.moonshot.techtimes-kimi-k3-1-pro"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-1-pro-blog"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-1-pro-blog"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M-token",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-1-pro-blog"
+        },
+        {
+          "id": "src.moonshot.techmeme-kimi-k3-1-pro"
+        }
+      ]
+    },
+    "parameters": {
+      "value": 2800000000000,
+      "asStated": "2.8T",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-1-pro-blog"
+        }
+      ],
+      "note": "Mixture-of-Experts with 104B activated parameters, as for Kimi K3."
+    },
+    "access": {
+      "value": [
+        "api",
+        "consumer-app"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.moonshot.kimi-k3-1-pro-blog"
+        }
+      ]
+    }
+  },
+  "notes": "Open weights are promised by 2026-11-04 but were not yet published on 2026-10-27, so openWeights is left out; add it with the Hugging Face source once the weights are out."
+}

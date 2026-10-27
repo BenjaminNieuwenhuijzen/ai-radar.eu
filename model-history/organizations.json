@@ -404,6 +404,36 @@
         "Cohere Inc.",
         "Cohere AI"
       ]
+    },
+    {
+      "id": "moonshot",
+      "name": "Moonshot AI",
+      "type": "company",
+      "parentId": null,
+      "radarCompanyId": "moonshot",
+      "coverage": "tracked",
+      "description": {
+        "text": "Moonshot AI (月之暗面) is an AI company based in Beijing, China, founded in 2023 by Yang Zhilin, Zhou Xinyu and Wu Yuxin. It develops the Kimi assistant, offered on the web, in apps and through the Kimi API, and the Kimi models, many of which it releases with open weights on Hugging Face.",
+        "sources": [
+          {
+            "id": "src.moonshot.website"
+          },
+          {
+            "id": "src.moonshot.wikipedia"
+          },
+          {
+            "id": "src.moonshot.huggingface-organization"
+          }
+        ]
+      },
+      "website": "https://www.moonshot.ai/",
+      "aliases": [
+        "Moonshot",
+        "Kimi",
+        "MoonshotAI",
+        "月之暗面",
+        "Beijing Moonshot AI Technology Co., Ltd."
+      ]
     }
   ]
 }

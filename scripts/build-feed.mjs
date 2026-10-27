@@ -65,6 +65,11 @@ const FEEDS = [
   { company: "DeepSeek", source: "Releases", url: "https://github.com/deepseek-ai/DeepSeek-V3/releases.atom" },
   { company: "DeepSeek", source: "Releases", url: "https://github.com/deepseek-ai/DeepSeek-R1/releases.atom" },
   { company: "DeepSeek", source: "Google News", url: "https://news.google.com/rss/search?q=%22DeepSeek%22&hl=en-US&gl=US&ceid=US:en" },
+  // Moonshot AI (Kimi) — no native RSS: kimi.com/blog has no feed, and model weights land on
+  // Hugging Face without GitHub releases. A Google News query on the company and its
+  // versioned Kimi models keeps the card current; bare "Kimi" is left out because it also
+  // finds Formula 1 drivers. Added 2026-10-27.
+  { company: "Moonshot AI (Kimi)", source: "Google News", url: "https://news.google.com/rss/search?q=%22Moonshot%20AI%22%20OR%20%22Kimi%20AI%22%20OR%20%22Kimi%20K2%22%20OR%20%22Kimi%20K3%22%20OR%20%22Kimi%20K4%22&hl=en-US&gl=US&ceid=US:en" },
   // Across AI — the cross-industry card: the wider AI world (policy, funding, society,
   // emerging labs). A tuned Google News query is the always-on baseline; it is capped
   // via `max` so it cannot flood the combined email feed, and gated by `aiFilter`
@@ -97,7 +102,7 @@ const nextCronSlot = date => new Date(
 // article body — so a headline may carry no AI signal at all. Keep only items whose
 // visible text (title + summary) is recognisably about AI. Company names cover posts
 // like "OpenAI faces lawsuit" that name no generic AI term.
-const AI_RELEVANT = /\bA\.?I\.?\b|artificial[\s-]+intelligence|machine learning|\bLLM\b|\bGPT\b|\bAGI\b|GenAI|superintelligence|chatbot|\bgenerative\b|deep learning|neural net|foundation model|Copilot|OpenAI|\bAnthropic\b|DeepMind|\bGemini\b|\bClaude\b|\bMistral\b|NVIDIA|Hugging Face|DeepSeek|Perplexity|\bxAI\b|\bMeta\b|Microsoft/i;
+const AI_RELEVANT = /\bA\.?I\.?\b|artificial[\s-]+intelligence|machine learning|\bLLM\b|\bGPT\b|\bAGI\b|GenAI|superintelligence|chatbot|\bgenerative\b|deep learning|neural net|foundation model|Copilot|OpenAI|\bAnthropic\b|DeepMind|\bGemini\b|\bClaude\b|\bMistral\b|NVIDIA|Hugging Face|DeepSeek|Moonshot AI|Kimi K\d|Perplexity|\bxAI\b|\bMeta\b|Microsoft/i;
 
 // "Across AI" items cover the wider industry, but many still centre on one tracked
 // company; `about` names it so the dashboard can show that company's logo. The front
@@ -108,6 +113,8 @@ const AI_RELEVANT = /\bA\.?I\.?\b|artificial[\s-]+intelligence|machine learning|
 // and Codex are whole words ("Sorafenib", "Soraya"). The Anthropic rule skips a name
 // after a hyphen ("Jean-Claude") without lookbehind, which older browsers cannot parse;
 // its match then starts one character early, which never changes which company is first.
+// Kimi is case-sensitive and skips the Formula 1 drivers Kimi Antonelli and Kimi Räikkönen;
+// "Moonshot" alone is an ordinary word, so only "Moonshot AI" counts.
 const ABOUT_RULES = [
   ["OpenAI", /\b(OpenAI|ChatGPT|GPT-?\d)/i],
   ["OpenAI", /\b(Sora|Codex)\b/],
@@ -121,7 +128,8 @@ const ABOUT_RULES = [
   ["Perplexity", /\bPerplexity\b/],
   ["Mistral AI", /\bMistral\b/],
   ["Cohere", /\bCohere\b/],
-  ["DeepSeek", /\bDeepSeek\b/i]
+  ["DeepSeek", /\bDeepSeek\b/i],
+  ["Moonshot AI (Kimi)", /\b(Moonshot AI|Kimi)\b(?! (Antonelli|R\u00e4ikk\u00f6nen|Raikkonen))/]
 ];
 // The company mentioned earliest in the title wins, else earliest in the summary;
 // "" when neither names a tracked company. On a tie the first rule listed wins.
