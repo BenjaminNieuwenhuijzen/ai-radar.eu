@@ -1742,6 +1742,21 @@
       "firstSeenIn": "b2f4281"
     },
     {
+      "modelId": "google.gemini-4-argon",
+      "variantId": null,
+      "postId": "10ugcrxm856",
+      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-4-argon-in-action/",
+      "title": "8 examples of Gemini 4 Argon in action",
+      "publishedAt": "2026-10-27T15:00:00Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "Gemini",
+      "method": "auto",
+      "alias": "gemini 4 argon",
+      "firstSeenAt": "2026-10-27T20:43:24Z",
+      "firstSeenIn": "9ba4ae9"
+    },
+    {
       "modelId": "google.gemma-4",
       "variantId": "12b",
       "postId": "283qclyt6vr",
@@ -2655,6 +2670,21 @@
       "alias": "gpt-6.1 terra",
       "firstSeenAt": "2026-10-27T14:41:17Z",
       "firstSeenIn": "fcd8643"
+    },
+    {
+      "modelId": "openai.gpt-6-1-terra",
+      "variantId": null,
+      "postId": "vgl604jgmo",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPVmtUWEh4RXdUNnh3eG1rS3ZDSEk5S21UWERnUmFsbTBpTzVJOWpHc3pKN1ZCMmIwUXk4YjBaVnJVRGxrS19zZElFTzZFNXhfd1dsbjc3UndsSUFZbkpFc0VWV0hwcURoQkZyQ0p3di11LWNhYlVYNWU4NlBBOUpxaWhoeTA0R0thOTB1eXMyb0lOSlBCQWlv?oc=5",
+      "title": "Haiku 5.5 vs GPT-6.1 Terra vs DeepSeek: $0.10 vs $1 [2026]",
+      "publishedAt": "2026-10-27T12:11:59Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "https://tech-insider.org/",
+      "method": "auto",
+      "alias": "gpt-6.1 terra",
+      "firstSeenAt": "2026-10-27T20:43:24Z",
+      "firstSeenIn": "9ba4ae9"
     },
     {
       "modelId": "openai.gpt-6-astra",
