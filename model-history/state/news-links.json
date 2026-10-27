@@ -2357,6 +2357,21 @@
       "firstSeenIn": "e97084b"
     },
     {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "zbtncu21c4",
+      "link": "https://www.youtube.com/watch?v=inrYeej3Big",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "publishedAt": "2026-10-26T22:03:06Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "YouTube",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-10-27T07:52:57Z",
+      "firstSeenIn": "f2aaf1e"
+    },
+    {
       "modelId": "openai.gpt-6-luna",
       "variantId": null,
       "postId": "1pqkx8dqi5g",
