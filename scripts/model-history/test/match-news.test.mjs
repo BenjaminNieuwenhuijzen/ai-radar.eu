@@ -503,3 +503,15 @@ test("possible new models: versioned names in titles that no record, variant or 
   assert.match(rep, /- "gpt-6" · 2 titles · latest: \[GPT-6 in practice\]/);
   assert.ok(!formatReport({}).includes("Possible new models"), "no section without names");
 });
+
+test("possible new models: the word after a known name is tried, so new tiers and variants are not missed", () => {
+  const ds = loadDataset(BASIC);
+  ds.models.push({ id: "google.gemini-3-8-flash", name: "Gemini 3.8 Flash" }, { id: "google.gemini-2-5-pro", name: "Gemini 2.5 Pro" },
+    { id: "openai.gpt-6-1-sol", name: "GPT-6.1 Sol" }, { id: "google.gemini-4-argon", name: "Gemini 4 Argon" });
+  const item = title => ({ title, link: `https://example.org/${encodeURIComponent(title)}`, date: "2026-10-20T10:00:00Z", company: "x", source: "y" });
+  const names = newModelNames(["Introducing Gemini 3.8 Live with Live Avatar", "Gemini 3.8 text-to-speech says hello",
+    "Introducing Gemini 3.8 Flash Cyber", "GPT-6.1 Sol helps teams", "Gemini 2.5 Pro Is Here", "Gemini 3.8 Flash and Gemini 4 Argon",
+    "Gemini 4 Argon comes to the app", "Gemini 3.8 405B weights"].map(item), ds).map(x => x.name).sort();
+  assert.deepEqual(names, ["gemini 3.8 flash cyber", "gemini 3.8 live", "gemini 3.8 text-to-speech"],
+    "any word after a prefix-only name, a capitalised one after a known name; no linking words, sizes or known names");
+});
