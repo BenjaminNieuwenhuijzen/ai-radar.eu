@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-3-5-flash-cyber",
+  "coverage": "stub",
+  "lastReviewedAt": "2026-10-27",
+  "slug": "gemini-3-5-flash-cyber",
+  "name": "Gemini 3.5 Flash Cyber",
+  "aliases": [
+    {
+      "text": "Gemini 3.5 Flash Cyber",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini-flash",
+  "generation": "3.5",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "announced",
+    "sources": [
+      {
+        "id": "src.google.gemini-3-5-flash-cyber-announcement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": {
+      "value": "2026-07-17",
+      "sources": [
+        {
+          "id": "src.google.gemini-3-5-flash-cyber-announcement"
+        }
+      ]
+    },
+    "released": null,
+    "deprecated": null,
+    "retired": null
+  },
+  "notes": "Added automatically from Google's own news item (title, date and link only). The routine could not open the page, so nothing else is claimed; to be completed from the announcement and the documentation."
+}

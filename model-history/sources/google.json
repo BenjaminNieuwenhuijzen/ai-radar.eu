@@ -1881,6 +1881,34 @@
       "archivedAt": "2024-01-01",
       "notes": "Vertex AI model API reference for PaLM 2 for Text; HTML title Text | Vertex AI | Google Cloud. The original address now redirects to the unrelated Text embeddings API page of Gemini Enterprise Agent Platform, so the page is cited through the Internet Archive capture of 2024-01-01, which shows the PaLM 2 for Text (text-bison, text-unicorn) description and the stable version table.",
       "lastCheckedAt": "2026-10-05"
+    },
+    {
+      "id": "src.google.gemini-3-5-flash-cyber-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemini 3.5 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-07-17"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Known only from Google's own news feed as listed on AI Radar (title, link and date). The page itself was not opened when the record was written, so the daily source check has to confirm it."
+    },
+    {
+      "id": "src.google.gemini-3-8-live-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-09-15"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Known only from Google's own news feed as listed on AI Radar (title, link and date). The page itself was not opened when the record was written, so the daily source check has to confirm it."
     }
   ]
 }
