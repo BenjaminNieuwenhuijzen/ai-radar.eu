@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T09:21:20Z",
+  "generated": "2026-10-27T09:20:20Z",
   "schemaVersion": 1,
   "sources": {
     "src.anthropic.100k-context-windows-announcement": {
@@ -291,14 +291,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 193211,
+        "bytes": 196157,
         "title": "Introducing Claude 3.5 Sonnet \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -322,14 +322,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": null,
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -353,14 +353,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 220531,
+        "bytes": 223523,
         "title": "Claude 3.7 Sonnet and Claude Code \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -371,12 +371,12 @@
       "archiveState": null,
       "archiveSuggestion": null,
       "consecutiveFailures": 0,
-      "finalUrl": "https://www-cdn.anthropic.com/9ff93dfa8f445c932415d335c88852ef47f1201e/claude-3-7-sonnet-system-card.pdf",
+      "finalUrl": "https://assets.claude.com/9ff93dfa8f445c932415d335c88852ef47f1201e.pdf",
       "firstCheckedAt": "2026-10-02T10:02:38Z",
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -407,14 +407,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 226203,
+        "bytes": 229173,
         "title": "Introducing the next generation of Claude \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -438,14 +438,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 165791,
+        "bytes": 168761,
         "title": "Claude 3 Haiku: our fastest model yet \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -456,12 +456,12 @@
       "archiveState": null,
       "archiveSuggestion": null,
       "consecutiveFailures": 0,
-      "finalUrl": "https://www-cdn.anthropic.com/c6a80a657af445f40e31afac050f3bf76d3b1404/Claude%203%20Model%20Card.pdf",
+      "finalUrl": "https://assets.claude.com/c6a80a657af445f40e31afac050f3bf76d3b1404.pdf",
       "firstCheckedAt": "2026-10-02T10:02:38Z",
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -492,14 +492,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 216774,
+        "bytes": 220768,
         "title": "Introducing Claude 4 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -510,12 +510,12 @@
       "archiveState": null,
       "archiveSuggestion": null,
       "consecutiveFailures": 0,
-      "finalUrl": "https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285/Claude%204%20System%20Card.pdf",
+      "finalUrl": "https://assets.claude.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf",
       "firstCheckedAt": "2026-10-02T10:02:38Z",
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -546,14 +546,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Fable 5.1 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -577,14 +577,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -608,14 +608,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Fable 5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -639,7 +639,7 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
       "lastDefinitiveAt": "2026-10-08T10:55:33Z",
       "lastFingerprint": {
         "bytes": 262144,
@@ -670,14 +670,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -701,14 +701,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 203756,
+        "bytes": 206726,
         "title": "Introducing Claude Haiku 4.5 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -732,14 +732,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Haiku 4.5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -750,12 +750,12 @@
       "archiveState": null,
       "archiveSuggestion": null,
       "consecutiveFailures": 0,
-      "finalUrl": "https://www-cdn.anthropic.com/7aad69bf12627d42234e01ee7c36305dc2f6a970/Claude%20Haiku%204.5%20System%20Card.pdf",
+      "finalUrl": "https://assets.claude.com/7aad69bf12627d42234e01ee7c36305dc2f6a970.pdf",
       "firstCheckedAt": "2026-10-02T10:02:38Z",
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -786,14 +786,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 164693,
+        "bytes": 167650,
         "title": "Releasing Claude Instant 1.2 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -817,14 +817,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Mythos 5.1 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -848,14 +848,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Mythos 5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -879,14 +879,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 178748,
+        "bytes": 181718,
         "title": "Claude Opus 4.1 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -897,12 +897,12 @@
       "archiveState": null,
       "archiveSuggestion": null,
       "consecutiveFailures": 0,
-      "finalUrl": "https://www-cdn.anthropic.com/9fa30625273bafdf5af82c93719d7ca606485a16/Claude%204.1%20System%20Card.pdf",
+      "finalUrl": "https://assets.claude.com/9fa30625273bafdf5af82c93719d7ca606485a16.pdf",
       "firstCheckedAt": "2026-10-02T10:02:38Z",
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -933,14 +933,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Claude Opus 4.5 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -964,14 +964,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 4.5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -982,12 +982,12 @@
       "archiveState": null,
       "archiveSuggestion": null,
       "consecutiveFailures": 0,
-      "finalUrl": "https://www-cdn.anthropic.com/bf10f64990cfda0ba858290be7b8cc6317685f47/Claude%20Opus%204.5%20System%20Card.pdf",
+      "finalUrl": "https://assets.claude.com/bf10f64990cfda0ba858290be7b8cc6317685f47.pdf",
       "firstCheckedAt": "2026-10-02T10:02:38Z",
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -1018,14 +1018,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 4.6 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1049,14 +1049,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 4.6 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1080,14 +1080,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Claude Opus 4.7 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1111,14 +1111,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 4.7 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1142,14 +1142,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 219419,
+        "bytes": 222237,
         "title": "Introducing Claude Opus 4.8 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1173,14 +1173,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 4.8 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1204,14 +1204,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Claude Opus 5.5 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1235,14 +1235,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 5.5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1266,14 +1266,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Claude Opus 5 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1297,14 +1297,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1328,14 +1328,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 162709,
+        "bytes": 165635,
         "title": "Introducing Claude Pro \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1359,14 +1359,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 261265,
+        "bytes": 262144,
         "title": "Introducing Claude Sonnet 4.5 \\ Anthropic",
-        "truncated": false
+        "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1390,14 +1390,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Sonnet 4.5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1408,12 +1408,12 @@
       "archiveState": null,
       "archiveSuggestion": null,
       "consecutiveFailures": 0,
-      "finalUrl": "https://www-cdn.anthropic.com/963373e433e489a87a10c823c52a0a013e9172dd/Claude%20Sonnet%204.5%20System%20Card.pdf",
+      "finalUrl": "https://assets.claude.com/963373e433e489a87a10c823c52a0a013e9172dd.pdf",
       "firstCheckedAt": "2026-10-02T10:02:38Z",
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -1444,14 +1444,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 246196,
+        "bytes": 249593,
         "title": "Introducing Sonnet 4.6 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1475,14 +1475,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Sonnet 4.6 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1506,14 +1506,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Claude Sonnet 5.5 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1537,14 +1537,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Sonnet 5.5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1568,14 +1568,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 242003,
+        "bytes": 244993,
         "title": "Introducing Claude Sonnet 5 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1599,14 +1599,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Sonnet 5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1630,14 +1630,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 204045,
+        "bytes": 203418,
         "title": "Company \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1661,14 +1661,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Model deprecations - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1692,14 +1692,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Models overview - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1723,14 +1723,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 251323,
+        "bytes": 252320,
         "title": "Project Glasswing: Securing critical software for the AI era \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1754,14 +1754,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 228448,
+        "bytes": 231426,
         "title": "Redeploying Claude Fable 5 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1785,14 +1785,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-21T08:52:25Z",
-      "lastDefinitiveAt": "2026-10-21T08:52:25Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Anthropic’s Transparency Hub \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-21T08:52:25Z",
+      "lastOkAt": "2026-10-27T09:20:20Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -10709,17 +10709,17 @@
       },
       "archiveState": "active",
       "archiveSuggestion": null,
-      "consecutiveFailures": 7,
+      "consecutiveFailures": 8,
       "finalUrl": "https://docs.cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text-chat",
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": "2026-10-05T10:50:37Z",
       "firstFingerprint": null,
       "httpStatus": 404,
-      "lastCheckedAt": "2026-10-24T08:24:07Z",
-      "lastDefinitiveAt": "2026-10-24T08:24:07Z",
+      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
       "lastFingerprint": {
-        "bytes": 96608,
-        "title": "404 | Stranica nije pronađena | Google Cloud Documentation",
+        "bytes": 97315,
+        "title": "404 | Không tìm thấy trang | Google Cloud Documentation",
         "truncated": false
       },
       "lastOkAt": null,
