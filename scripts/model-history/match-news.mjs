@@ -312,7 +312,12 @@ export function emitReport(report, summary = report) {
    Versioned names of the tracked companies' model lines in feed titles that no record knows
    yet: the curator's to-do list for new releases. Report only; nothing is linked or stored.
    A name is known when a record name, variant name or alias (any match value, "never" too)
-   equals it or starts with it at a word boundary ("gemini 2.5" is known from "gemini 2.5 pro"). */
+   equals it or starts with it at a word boundary ("gemini 2.5" is known from "gemini 2.5 pro").
+   A known name is not the end of it: a new tier or variant usually adds one word to it
+   ("GPT-6.1 Terra" next to "GPT-6.1 Sol", "Gemini 3.8 Live" next to "Gemini 3.8 Flash"), and
+   no fixed suffix list keeps up with that. So the next word is tried as well: any word after a
+   name that is known only as the start of a longer one, a capitalised word after a name that
+   is known as such. Linking words and sizes are not tried. */
 const V = "\\d+(?:\\.\\d+)?";
 export const NEW_NAME_RE = new RegExp("(?<![a-z0-9])(?:" + [
   `gpt-${V}o?(?:[ -](?:mini|nano|pro|turbo|instant|sol|luna|terra|astra))?`, `o\\d(?:-(?:mini|pro|preview))?`, `gpt-oss`,
@@ -333,16 +338,32 @@ export function knownNames(ds) {
   }
   return out;
 }
+const NOT_A_SUFFIX = new Set(("a an and are as at available be by can comes for from gets has in is it its " +
+  "launches model models new now of on or the to vs versus was with").split(" "));
+// The word after a matched name, or null. The cased title must line up with the normalized one
+// (it does unless NFKC or lowercasing changed a length); otherwise case counts as unknown.
+function nextWord(t, cased, end) {
+  const w = /^ ([a-z][a-z0-9+]*(?:-[a-z0-9+]+)*)(?![a-z0-9])/.exec(t.slice(end));
+  if (!w || NOT_A_SUFFIX.has(w[1])) return null;
+  const c = cased.length === t.length ? cased[end + 1] : "";
+  return { word: w[1], capitalised: c !== "" && c !== c.toLowerCase() };
+}
 export function newModelNames(items, ds) {
-  const known = [...knownNames(ds)];
+  const known = [...knownNames(ds)], exact = new Set(known);
   const isKnown = n => known.some(k => k === n || (k.startsWith(n) && /^[ -]/.test(k.slice(n.length))));
   const found = new Map();
   for (const it of arr(items)) {
     const v = itemView(it);
     if (!v) continue;
-    for (const m of normalize(v.title).matchAll(NEW_NAME_RE)) {
-      const n = m[0];
-      if (isKnown(n)) continue;
+    const t = normalize(v.title);
+    const cased = String(v.title).normalize("NFKC").replace(/[\u2010-\u2015\u2212]/g, "-").replace(/\s+/g, " ").trim();
+    for (const m of t.matchAll(NEW_NAME_RE)) {
+      let n = m[0];
+      if (isKnown(n)) {
+        const w = nextWord(t, cased, m.index + n.length);
+        if (!w || (exact.has(n) && !w.capitalised) || isKnown(`${n} ${w.word}`)) continue;
+        n = `${n} ${w.word}`;
+      }
       const e = found.get(n) || { name: n, count: 0, title: v.title, link: v.link, publishedAt: v.publishedAt };
       e.count++;
       if (v.publishedAt > e.publishedAt) Object.assign(e, { title: v.title, link: v.link, publishedAt: v.publishedAt });
