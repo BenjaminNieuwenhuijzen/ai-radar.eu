@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T09:20:20Z",
+  "generated": "2026-10-27T11:01:34Z",
   "schemaVersion": 1,
   "sources": {
     "src.anthropic.100k-context-windows-announcement": {
@@ -19510,6 +19510,1377 @@
       "stateSince": null,
       "url": "https://x.com/MistralAI/status/1733150512395038967"
     },
+    "src.moonshot.devops-kimi-k2-7-code": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261006070118",
+        "url": "https://web.archive.org/web/20261006070118/https://devops.com/moonshot-ais-kimi-k2-7-code-targets-token-efficiency-in-agentic-coding",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 403,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 5813,
+        "title": "Just a moment...",
+        "truncated": false
+      },
+      "lastOkAt": null,
+      "lastResult": "blocked",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://devops.com/moonshot-ais-kimi-k2-7-code-targets-token-efficiency-in-agentic-coding"
+    },
+    "src.moonshot.fortune-kimi-k3": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260717021030",
+        "url": "https://web.archive.org/web/20260717021030/https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Moonshot’s Kimi K3 pushes Chinese AI into Fable-level territory | Fortune",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Moonshot’s Kimi K3 pushes Chinese AI into Fable-level territory | Fortune",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://fortune.com/2026/07/16/moonshots-kimi-k3-pushes-chinese-ai-into-fable-level-territory/"
+    },
+    "src.moonshot.geopolitechs-kimi-k3-weights": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260730081119",
+        "url": "https://web.archive.org/web/20260730081119/https://www.geopolitechs.org/p/moonshot-released-kimi-k3-model-weights",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 224344,
+        "title": "Moonshot released Kimi K3 model weights and technical report",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 224344,
+        "title": "Moonshot released Kimi K3 model weights and technical report",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://www.geopolitechs.org/p/moonshot-released-kimi-k3-model-weights"
+    },
+    "src.moonshot.huggingface-organization": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261023181813",
+        "url": "https://web.archive.org/web/20261023181813/https://huggingface.co/moonshotai",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai (Moonshot AI)",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai (Moonshot AI)",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai"
+    },
+    "src.moonshot.kilo-kimi-k2-6": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260514201038",
+        "url": "https://web.archive.org/web/20260514201038/https://blog.kilo.ai/p/kimi-k26-has-arrived-an-open-weight",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 153635,
+        "title": "Kimi K2.6 Has Arrived: An Open-Weight Powerhouse for Agentic Work",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 153635,
+        "title": "Kimi K2.6 Has Arrived: An Open-Weight Powerhouse for Agentic Work",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://blog.kilo.ai/p/kimi-k26-has-arrived-an-open-weight"
+    },
+    "src.moonshot.kimi-audio-7b-instruct-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260916210046",
+        "url": "https://web.archive.org/web/20260916210046/https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 168051,
+        "title": "moonshotai/Kimi-Audio-7B-Instruct · Hugging Face",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 168051,
+        "title": "moonshotai/Kimi-Audio-7B-Instruct · Hugging Face",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-Audio-7B-Instruct"
+    },
+    "src.moonshot.kimi-audio-github": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260729181312",
+        "url": "https://web.archive.org/web/20260729181312/https://github.com/MoonshotAI/Kimi-Audio",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-Audio: Kimi-Audio, an open-source audio foundation model excelling in audio understanding, generation, and conversation · GitHub",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-Audio: Kimi-Audio, an open-source audio foundation model excelling in audio understanding, generation, and conversation · GitHub",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://github.com/MoonshotAI/Kimi-Audio"
+    },
+    "src.moonshot.kimi-audio-paper": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20250429001631",
+        "url": "https://web.archive.org/web/20250429001631/https://arxiv.org/abs/2504.18425",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 47888,
+        "title": "[2504.18425] Kimi-Audio Technical Report",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 47888,
+        "title": "[2504.18425] Kimi-Audio Technical Report",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://arxiv.org/abs/2504.18425"
+    },
+    "src.moonshot.kimi-dev-72b-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261002180946",
+        "url": "https://web.archive.org/web/20261002180946/https://huggingface.co/moonshotai/Kimi-Dev-72B",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 213604,
+        "title": "moonshotai/Kimi-Dev-72B · Hugging Face",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 213604,
+        "title": "moonshotai/Kimi-Dev-72B · Hugging Face",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-Dev-72B"
+    },
+    "src.moonshot.kimi-dev-github": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260727102859",
+        "url": "https://web.archive.org/web/20260727102859/https://github.com/MoonshotAI/Kimi-Dev",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-Dev: open-source coding LLM for software engineering tasks · GitHub",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-Dev: open-source coding LLM for software engineering tasks · GitHub",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://github.com/MoonshotAI/Kimi-Dev"
+    },
+    "src.moonshot.kimi-k1-5-github": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260902164911",
+        "url": "https://web.archive.org/web/20260902164911/https://github.com/MoonshotAI/Kimi-k1.5",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 244947,
+        "title": "GitHub - MoonshotAI/Kimi-k1.5 · GitHub",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 244947,
+        "title": "GitHub - MoonshotAI/Kimi-k1.5 · GitHub",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://github.com/MoonshotAI/Kimi-k1.5"
+    },
+    "src.moonshot.kimi-k1-5-paper": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20250123030057",
+        "url": "https://web.archive.org/web/20250123030057/https://arxiv.org/abs/2501.12599",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 57749,
+        "title": "[2501.12599] Kimi k1.5: Scaling Reinforcement Learning with LLMs",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 57749,
+        "title": "[2501.12599] Kimi k1.5: Scaling Reinforcement Learning with LLMs",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://arxiv.org/abs/2501.12599"
+    },
+    "src.moonshot.kimi-k2-5-blog": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260818011727",
+        "url": "https://web.archive.org/web/20260818011727/https://www.kimi.ai/blog/kimi-k2-5",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Kimi K2.5 Tech Blog: Visual Agentic Intelligence",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Kimi K2.5 Tech Blog: Visual Agentic Intelligence",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://www.kimi.ai/blog/kimi-k2-5"
+    },
+    "src.moonshot.kimi-k2-5-github": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260913090518",
+        "url": "https://web.archive.org/web/20260913090518/https://github.com/MoonshotAI/Kimi-K2.5",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-K2.5: Open Visual Agentic Intelligence · GitHub",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-K2.5: Open Visual Agentic Intelligence · GitHub",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://github.com/MoonshotAI/Kimi-K2.5"
+    },
+    "src.moonshot.kimi-k2-5-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261016235942",
+        "url": "https://web.archive.org/web/20261016235942/https://huggingface.co/moonshotai/Kimi-K2.5",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K2.5 · Hugging Face",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K2.5 · Hugging Face",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.5"
+    },
+    "src.moonshot.kimi-k2-5-paper": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260203045552",
+        "url": "https://web.archive.org/web/20260203045552/https://arxiv.org/abs/2602.02276",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 95459,
+        "title": "[2602.02276] Kimi K2.5: Visual Agentic Intelligence",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 95459,
+        "title": "[2602.02276] Kimi K2.5: Visual Agentic Intelligence",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://arxiv.org/abs/2602.02276"
+    },
+    "src.moonshot.kimi-k2-6-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261016141105",
+        "url": "https://web.archive.org/web/20261016141105/https://huggingface.co/moonshotai/Kimi-K2.6",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K2.6 · Hugging Face",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K2.6 · Hugging Face",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6"
+    },
+    "src.moonshot.kimi-k2-6-model-page": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261016150421",
+        "url": "https://web.archive.org/web/20261016150421/https://www.kimi.com/ai-models/kimi-k2-6",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Kimi K2.6 | 编程与智能体领域的领先开源模型",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Kimi K2.6 | 编程与智能体领域的领先开源模型",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://www.kimi.com/ai-models/kimi-k2-6"
+    },
+    "src.moonshot.kimi-k2-7-code-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261016141105",
+        "url": "https://web.archive.org/web/20261016141105/https://huggingface.co/moonshotai/Kimi-K2.7-Code",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K2.7-Code · Hugging Face",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K2.7-Code · Hugging Face",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code"
+    },
+    "src.moonshot.kimi-k2-base-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261001221758",
+        "url": "https://web.archive.org/web/20261001221758/https://huggingface.co/moonshotai/Kimi-K2-Base",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 238571,
+        "title": "moonshotai/Kimi-K2-Base · Hugging Face",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 238571,
+        "title": "moonshotai/Kimi-K2-Base · Hugging Face",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Base"
+    },
+    "src.moonshot.kimi-k2-blog": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20250711154206",
+        "url": "https://web.archive.org/web/20250711154206/https://moonshotai.github.io/Kimi-K2/",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 1316,
+        "title": "Kimi K2: Open Agentic Intelligence",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 1316,
+        "title": "Kimi K2: Open Agentic Intelligence",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://moonshotai.github.io/Kimi-K2/"
+    },
+    "src.moonshot.kimi-k2-github": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261021015238",
+        "url": "https://web.archive.org/web/20261021015238/https://github.com/MoonshotAI/Kimi-K2",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-K2: Kimi K2 is the large language model series developed by Moonshot AI team · GitHub",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-K2: Kimi K2 is the large language model series developed by Moonshot AI team · GitHub",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://github.com/MoonshotAI/Kimi-K2"
+    },
+    "src.moonshot.kimi-k2-instruct-0905-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261015072111",
+        "url": "https://web.archive.org/web/20261015072111/https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K2-Instruct-0905 · Hugging Face",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K2-Instruct-0905 · Hugging Face",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905"
+    },
+    "src.moonshot.kimi-k2-instruct-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261016004205",
+        "url": "https://web.archive.org/web/20261016004205/https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K2-Instruct · Hugging Face",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K2-Instruct · Hugging Face",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct"
+    },
+    "src.moonshot.kimi-k2-paper": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20250729022817",
+        "url": "https://web.archive.org/web/20250729022817/https://arxiv.org/abs/2507.20534",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 76234,
+        "title": "[2507.20534] Kimi K2: Open Agentic Intelligence",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 76234,
+        "title": "[2507.20534] Kimi K2: Open Agentic Intelligence",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://arxiv.org/abs/2507.20534"
+    },
+    "src.moonshot.kimi-k2-thinking-blog": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20251106151022",
+        "url": "https://web.archive.org/web/20251106151022/https://moonshotai.github.io/Kimi-K2/thinking.html",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 1135,
+        "title": "Kimi K2 Thinking",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 1135,
+        "title": "Kimi K2 Thinking",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://moonshotai.github.io/Kimi-K2/thinking.html"
+    },
+    "src.moonshot.kimi-k2-thinking-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261016235954",
+        "url": "https://web.archive.org/web/20261016235954/https://huggingface.co/moonshotai/Kimi-K2-Thinking",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K2-Thinking · Hugging Face",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K2-Thinking · Hugging Face",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking"
+    },
+    "src.moonshot.kimi-k3-1-pro-blog": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261023171150",
+        "url": "https://web.archive.org/web/20261023171150/https://www.kimi.ai/blog/kimi-k3-1-pro",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+    },
+    "src.moonshot.kimi-k3-blog": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260817145048",
+        "url": "https://web.archive.org/web/20260817145048/https://www.kimi.ai/blog/kimi-k3",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://www.kimi.ai/blog/kimi-k3"
+    },
+    "src.moonshot.kimi-k3-github": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261012150959",
+        "url": "https://web.archive.org/web/20261012150959/https://github.com/MoonshotAI/Kimi-K3",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-K3: Open Frontier Intelligence · GitHub",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-K3: Open Frontier Intelligence · GitHub",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://github.com/MoonshotAI/Kimi-K3"
+    },
+    "src.moonshot.kimi-k3-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261025155905",
+        "url": "https://web.archive.org/web/20261025155905/https://huggingface.co/moonshotai/Kimi-K3",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K3 · Hugging Face",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-K3 · Hugging Face",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3"
+    },
+    "src.moonshot.kimi-linear-48b-a3b-instruct-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261002142116",
+        "url": "https://web.archive.org/web/20261002142116/https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 231065,
+        "title": "moonshotai/Kimi-Linear-48B-A3B-Instruct · Hugging Face",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 231065,
+        "title": "moonshotai/Kimi-Linear-48B-A3B-Instruct · Hugging Face",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-Linear-48B-A3B-Instruct"
+    },
+    "src.moonshot.kimi-linear-github": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260508015336",
+        "url": "https://web.archive.org/web/20260508015336/https://github.com/MoonshotAI/Kimi-Linear",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-Linear · GitHub",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-Linear · GitHub",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://github.com/MoonshotAI/Kimi-Linear"
+    },
+    "src.moonshot.kimi-linear-paper": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20251031030712",
+        "url": "https://web.archive.org/web/20251031030712/https://arxiv.org/abs/2510.26692",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 52073,
+        "title": "[2510.26692] Kimi Linear: An Expressive, Efficient Attention Architecture",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 52073,
+        "title": "[2510.26692] Kimi Linear: An Expressive, Efficient Attention Architecture",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://arxiv.org/abs/2510.26692"
+    },
+    "src.moonshot.kimi-vl-a3b-instruct-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261001173348",
+        "url": "https://web.archive.org/web/20261001173348/https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-VL-A3B-Instruct · Hugging Face",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "moonshotai/Kimi-VL-A3B-Instruct · Hugging Face",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-VL-A3B-Instruct"
+    },
+    "src.moonshot.kimi-vl-a3b-thinking-hf": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261002182148",
+        "url": "https://web.archive.org/web/20261002182148/https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 230758,
+        "title": "moonshotai/Kimi-VL-A3B-Thinking · Hugging Face",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 230758,
+        "title": "moonshotai/Kimi-VL-A3B-Thinking · Hugging Face",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://huggingface.co/moonshotai/Kimi-VL-A3B-Thinking"
+    },
+    "src.moonshot.kimi-vl-github": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260605111701",
+        "url": "https://web.archive.org/web/20260605111701/https://github.com/MoonshotAI/Kimi-VL",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-VL: Kimi-VL: Mixture-of-Experts Vision-Language Model for Multimodal Reasoning, Long-Context Understanding, and Strong Agent Capabilities · GitHub",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "GitHub - MoonshotAI/Kimi-VL: Kimi-VL: Mixture-of-Experts Vision-Language Model for Multimodal Reasoning, Long-Context Understanding, and Strong Agent Capabilities · GitHub",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://github.com/MoonshotAI/Kimi-VL"
+    },
+    "src.moonshot.kimi-vl-paper": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20250411013115",
+        "url": "https://web.archive.org/web/20250411013115/https://arxiv.org/abs/2504.07491",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 58161,
+        "title": "[2504.07491] Kimi-VL Technical Report",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 58161,
+        "title": "[2504.07491] Kimi-VL Technical Report",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://arxiv.org/abs/2504.07491"
+    },
+    "src.moonshot.marktechpost-kimi-k2-6": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260422021153",
+        "url": "https://web.archive.org/web/20260422021153/https://www.marktechpost.com/2026/04/20/moonshot-ai-releases-kimi-k2-6-with-long-horizon-coding-agent-swarm-scaling-to-300-sub-agents-and-4000-coordinated-steps/",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 403,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 6094,
+        "title": "Just a moment...",
+        "truncated": false
+      },
+      "lastOkAt": null,
+      "lastResult": "blocked",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://www.marktechpost.com/2026/04/20/moonshot-ai-releases-kimi-k2-6-with-long-horizon-coding-agent-swarm-scaling-to-300-sub-agents-and-4000-coordinated-steps/"
+    },
+    "src.moonshot.marktechpost-kimi-k2-7-code": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260613072047",
+        "url": "https://web.archive.org/web/20260613072047/https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 403,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 6004,
+        "title": "Just a moment...",
+        "truncated": false
+      },
+      "lastOkAt": null,
+      "lastResult": "blocked",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://www.marktechpost.com/2026/06/12/moonshot-ai-releases-kimi-k2-7-code-a-coding-model-reporting-21-8-on-kimi-code-bench-v2-over-k2-6/"
+    },
+    "src.moonshot.simonwillison-kimi-k2-5": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260127154505",
+        "url": "https://web.archive.org/web/20260127154505/https://simonwillison.net/2026/Jan/27/kimi-k25/",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 19148,
+        "title": "Kimi K2.5: Visual Agentic Intelligence",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 19148,
+        "title": "Kimi K2.5: Visual Agentic Intelligence",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://simonwillison.net/2026/Jan/27/kimi-k25/"
+    },
+    "src.moonshot.techmeme-kimi-k3-1-pro": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 403,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 4914,
+        "title": "Attention Required! | Cloudflare",
+        "truncated": false
+      },
+      "lastOkAt": null,
+      "lastResult": "blocked",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://www.techmeme.com/261023/p15"
+    },
+    "src.moonshot.techtimes-kimi-k3-1-pro": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Kimi K3.1 Pro Scores 4th of 215 AI Models; Moonshot Scrubs Cyberattack Data Before Open Weights",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Kimi K3.1 Pro Scores 4th of 215 AI Models; Moonshot Scrubs Cyberattack Data Before Open Weights",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://www.techtimes.com/articles/329470/20261026/kimi-k31-pro-scores-4th-215-ai-models-moonshot-scrubs-cyberattack-data-before-open-weights.htm"
+    },
+    "src.moonshot.website": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261026042408",
+        "url": "https://web.archive.org/web/20261026042408/https://www.moonshot.ai/",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 94599,
+        "title": "Moonshot AI",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 94599,
+        "title": "Moonshot AI",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://www.moonshot.ai/"
+    },
+    "src.moonshot.wikipedia": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261008071921",
+        "url": "https://web.archive.org/web/20261008071921/https://en.wikipedia.org/wiki/Moonshot_AI",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Moonshot AI - Wikipedia",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Moonshot AI - Wikipedia",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-27T11:01:34Z",
+      "url": "https://en.wikipedia.org/wiki/Moonshot_AI"
+    },
     "src.nvidia.about": {
       "archiveCheck": null,
       "archiveState": null,
@@ -24804,6 +26175,33 @@
       "state": "active",
       "stateSince": "2026-10-07T10:34:22Z",
       "url": "https://deploymentsafety.openai.com/gpt-6-1-sol"
+    },
+    "src.openai.gpt-6-1-terra-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20261026201059",
+        "url": "https://web.archive.org/web/20261026201059/https://openai.com/index/introducing-gpt-6-1-terra",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-27T11:01:34Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 403,
+      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 9954,
+        "title": null,
+        "truncated": false
+      },
+      "lastOkAt": null,
+      "lastResult": "blocked",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra"
     },
     "src.openai.gpt-6-astra-docs": {
       "archiveCheck": null,
