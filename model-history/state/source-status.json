@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T11:01:34Z",
+  "generated": "2026-10-28T10:00:21Z",
   "schemaVersion": 1,
   "sources": {
     "src.anthropic.100k-context-windows-announcement": {
@@ -8362,6 +8362,37 @@
       "stateSince": "2026-10-05T10:50:37Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/"
     },
+    "src.google.gemini-3-5-flash-cyber-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260721153654",
+        "url": "https://web.archive.org/web/20260721153654/https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-28T10:00:21Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 143318,
+        "title": "Introducing Gemini 3.5 Flash Cyber — Google DeepMind",
+        "truncated": false
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-28T10:00:21Z",
+      "lastDefinitiveAt": "2026-10-28T10:00:21Z",
+      "lastFingerprint": {
+        "bytes": 143318,
+        "title": "Introducing Gemini 3.5 Flash Cyber — Google DeepMind",
+        "truncated": false
+      },
+      "lastOkAt": "2026-10-28T10:00:21Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-28T10:00:21Z",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/"
+    },
     "src.google.gemini-3-5-flash-lite-model-card": {
       "archiveCheck": null,
       "archiveState": null,
@@ -8640,6 +8671,37 @@
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
       "url": "https://deepmind.google/models/model-cards/gemini-3-8-flash/"
+    },
+    "src.google.gemini-3-8-live-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": {
+        "timestamp": "20260915174107",
+        "url": "https://web.archive.org/web/20260915174107/https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+        "via": "wayback-cdx-api"
+      },
+      "consecutiveFailures": 0,
+      "finalUrl": null,
+      "firstCheckedAt": "2026-10-28T10:00:21Z",
+      "firstFailureAt": null,
+      "firstFingerprint": {
+        "bytes": 262144,
+        "title": "Gemini 3.8 Live & Gemini 3.8 Live Extended Thinking",
+        "truncated": true
+      },
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-28T10:00:21Z",
+      "lastDefinitiveAt": "2026-10-28T10:00:21Z",
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Gemini 3.8 Live & Gemini 3.8 Live Extended Thinking",
+        "truncated": true
+      },
+      "lastOkAt": "2026-10-28T10:00:21Z",
+      "lastResult": "ok",
+      "state": "active",
+      "stateSince": "2026-10-28T10:00:21Z",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
     },
     "src.google.gemini-3-announcement": {
       "archiveCheck": null,
