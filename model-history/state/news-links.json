@@ -587,6 +587,21 @@
       "firstSeenIn": "fcd8643"
     },
     {
+      "modelId": "anthropic.claude-opus-5-5",
+      "variantId": null,
+      "postId": "1ybhd348yfd",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVU81TndRdEFCY1U1YWt2NlZOWENVNXdWU1F3b21vMmc4VmFsbzg4S2poVnNXT2xob3MtQVdUUldNNVVtUGpnN3VpeEJaVktHZzVtN3Y0dmg5UHM4TG9sVjRsdVRfZndBNVJzN2tyU0N6UE1LNUN6QnNrdm95TkdndHdCdlo?oc=5",
+      "title": "Kimi K3.1 Pro vs Opus 5.5 vs Astra: Winner [2026]",
+      "publishedAt": "2026-10-28T12:56:33Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "https://tech-insider.org/",
+      "method": "auto",
+      "alias": "opus 5.5",
+      "firstSeenAt": "2026-10-28T16:38:51Z",
+      "firstSeenIn": "c31b962"
+    },
+    {
       "modelId": "anthropic.claude-sonnet-4-6",
       "variantId": null,
       "postId": "1vrjdhknhjd",
@@ -1275,6 +1290,21 @@
       "alias": "deepseek v4.1 flash",
       "firstSeenAt": "2026-10-26T15:12:37Z",
       "firstSeenIn": "6062a7b"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "6hi5dq7g29",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwUUtpQlpVT05Sa3FoV3lMTFZKSy10MEdXTlBUOVI4cWZBQjNYVjh2Q1RsODlCb0xGQ2dCbEEybTlWUzVveUtXWmVyZHJTcGIwVDdaR3lJS1dhdzJGMXA2eVVPaklSaUZFSHRB?oc=5",
+      "title": "Deepseek V4.1 Flash Hits 1,286 Tokens per Second in New Tests",
+      "publishedAt": "2026-10-28T12:20:03Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Geeky Gadgets",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-28T16:38:51Z",
+      "firstSeenIn": "c31b962"
     },
     {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
@@ -2314,6 +2344,21 @@
     {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
+      "postId": "95nargof49",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE00bFdneGs3RGxZR2t3N1g5N3lXeEdZbzdjQUhtU01FUDhBUUhLU3c5aFFaYjR4Y2RzLU1xcUNFZlBwWDE5ZlRxaWI5QTQtQkVaZHhmU3hQeGdWd21SNmlGUmJhbGd1ZFJRVHQ5TmVGU1I3MnQ4MEtZbg?oc=5",
+      "title": "Kimi K3.1 Pro vs MiniMax M3.1 Flash: A Diferença de Preço Diminui",
+      "publishedAt": "2026-10-26T12:37:30Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-10-28T16:38:51Z",
+      "firstSeenIn": "c31b962"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
       "postId": "15lv3sd58n9",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBlanZ5emFVVUNaVFNPYnVRa0NkVjh3MV9lZWRTbGZUQ0VzRzluWTVlWldRT3BmYkcxQ0I3OFNqMzVuYTVvOW1iNXpFWjV4VzBORDZ5dFlMZnNGakFYbU9YN25PSGx3SEE?oc=5",
       "title": "Kimi K3.1 Pro vs Grok 4.7: Same Accuracy, 72% More Cost",
@@ -2445,6 +2490,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-10-27T14:41:17Z",
       "firstSeenIn": "fcd8643"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "1ybhd348yfd",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVU81TndRdEFCY1U1YWt2NlZOWENVNXdWU1F3b21vMmc4VmFsbzg4S2poVnNXT2xob3MtQVdUUldNNVVtUGpnN3VpeEJaVktHZzVtN3Y0dmg5UHM4TG9sVjRsdVRfZndBNVJzN2tyU0N6UE1LNUN6QnNrdm95TkdndHdCdlo?oc=5",
+      "title": "Kimi K3.1 Pro vs Opus 5.5 vs Astra: Winner [2026]",
+      "publishedAt": "2026-10-28T12:56:33Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "https://tech-insider.org/",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-10-28T16:38:51Z",
+      "firstSeenIn": "c31b962"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
