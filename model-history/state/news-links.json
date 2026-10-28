@@ -1459,6 +1459,21 @@
     {
       "modelId": "google.gemini-3-8-flash",
       "variantId": null,
+      "postId": "1esy43qs70x",
+      "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "publishedAt": "2026-09-23T15:25:14Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "DeepMind",
+      "method": "auto",
+      "alias": "gemini 3.8 flash",
+      "firstSeenAt": "2026-10-28T22:36:47Z",
+      "firstSeenIn": "66b41be"
+    },
+    {
+      "modelId": "google.gemini-3-8-flash",
+      "variantId": null,
       "postId": "1mnyoryd8ck",
       "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/",
       "title": "See what 4 builders are making with Gemini 3.8 Flash",
@@ -2505,6 +2520,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-10-28T16:38:51Z",
       "firstSeenIn": "c31b962"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "148o71ovgo0",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9tNkhBNVVLdHFIMDZKNkV3LUVxbzJwS1oxVkNoUlp2RmkwbmRkejBQWE4zb01Xejg4TnlRYlZyOU1jSVUxVFoxWmxJNnhIMElwdTJVVTBOSHNRMnMy?oc=5",
+      "title": "NEAR Protocol Announces Launch of Kimi K3.1 Pro on AI Cloud",
+      "publishedAt": "2026-10-28T20:59:48Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Cryptonews.net",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-10-28T22:36:47Z",
+      "firstSeenIn": "66b41be"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
