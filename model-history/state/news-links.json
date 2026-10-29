@@ -1802,6 +1802,36 @@
       "firstSeenIn": "9ba4ae9"
     },
     {
+      "modelId": "google.gemini-4-carbon",
+      "variantId": null,
+      "postId": "1zaeilc1ozz",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "title": "Gemini 4 Carbon: our next frontier model",
+      "publishedAt": "2026-10-28T17:00:00Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "Gemini",
+      "method": "auto",
+      "alias": "gemini 4 carbon",
+      "firstSeenAt": "2026-10-28T22:36:47Z",
+      "firstSeenIn": "66b41be"
+    },
+    {
+      "modelId": "google.gemini-4-carbon",
+      "variantId": null,
+      "postId": "4xhmzdax09",
+      "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "title": "Gemini 4 Carbon: Our next frontier model",
+      "publishedAt": "2026-10-28T17:00:58Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "DeepMind",
+      "method": "auto",
+      "alias": "gemini 4 carbon",
+      "firstSeenAt": "2026-10-28T22:36:47Z",
+      "firstSeenIn": "66b41be"
+    },
+    {
       "modelId": "google.gemma-4",
       "variantId": "12b",
       "postId": "283qclyt6vr",
