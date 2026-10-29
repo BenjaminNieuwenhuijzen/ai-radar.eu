@@ -1909,6 +1909,20 @@
       "provenance": "primary",
       "availability": "unknown",
       "notes": "Known only from Google's own news feed as listed on AI Radar (title, link and date). The page itself was not opened when the record was written, so the daily source check has to confirm it."
+    },
+    {
+      "id": "src.google.gemini-4-carbon-announcement",
+      "type": "announcement",
+      "title": "Gemini 4 Carbon: our next frontier model",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-10-28"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Known only from Google's own news feed as listed on AI Radar (title, link and date). The page itself was not opened when the record was written, so the daily source check has to confirm it."
     }
   ]
 }
