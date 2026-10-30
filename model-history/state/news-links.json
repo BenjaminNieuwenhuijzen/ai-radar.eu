@@ -1547,6 +1547,21 @@
       "firstSeenIn": "dcab53f"
     },
     {
+      "modelId": "google.gemini-3-8-flash",
+      "variantId": null,
+      "postId": "9431ojujd8",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBacE5fbGF0bHR5N0ktd1ZQS1BYSW9zRWRvMUtkbDF2c2J4RXhYbWNVcmFYbmpWY08tVFZxNE91QjMwR3VhR2hJbnZoTExqaURXR2VYSTlFekdrTC1OcEk4SnVYY0hISmhNRGdiWmJHWFNla2NGZjlJ?oc=5",
+      "title": "V4.1 Pro vs Gemini 3.8 Flash: Cheap Tier",
+      "publishedAt": "2026-10-30T08:42:09Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 3.8 flash",
+      "firstSeenAt": "2026-10-30T12:57:01Z",
+      "firstSeenIn": "16da74a"
+    },
+    {
       "modelId": "google.gemini-3-8-live",
       "variantId": null,
       "postId": "167vldacd5t",
@@ -1605,6 +1620,21 @@
       "alias": "gemini 3.8 live",
       "firstSeenAt": "2026-10-27T07:52:57Z",
       "firstSeenIn": "f2aaf1e"
+    },
+    {
+      "modelId": "google.gemini-3-8-text-to-speech",
+      "variantId": null,
+      "postId": "2b01tgei7ht",
+      "link": "https://www.youtube.com/watch?v=FL6mI_Br-mc",
+      "title": "Create your own voices with Gemini 3.8 text-to-speech",
+      "publishedAt": "2026-09-23T15:23:38Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "DeepMind video",
+      "method": "auto",
+      "alias": "gemini 3.8 text-to-speech",
+      "firstSeenAt": "2026-10-30T12:57:01Z",
+      "firstSeenIn": "16da74a"
     },
     {
       "modelId": "google.gemini-3-8-text-to-speech",
@@ -2100,6 +2130,21 @@
       "alias": "mistral large 4",
       "firstSeenAt": "2026-10-30T05:50:37Z",
       "firstSeenIn": "ea79ec3"
+    },
+    {
+      "modelId": "mistral.mistral-large-4",
+      "variantId": null,
+      "postId": "u1bgkvhya0",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85ajhfMXNIa0lqa0xOUTA2cEJpdGxwU1VSWlhySTZLUTYtYWhKRVZ4UkxjVEwzbHZ6QjRmOENxWGJlUFYyNEMtWjBScVRHYkw1czZhbkJmUVdoakZpU3RGeHdlZmdlYTlMc3ZkM242OEM?oc=5",
+      "title": "Mistral Large 4 vs Kimi K3.1 Pro: Two Multimodal Flagships, One Licence Apart",
+      "publishedAt": "2026-10-30T06:48:57Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "mistral large 4",
+      "firstSeenAt": "2026-10-30T12:57:01Z",
+      "firstSeenIn": "16da74a"
     },
     {
       "modelId": "mistral.mistral-medium-3-5",
@@ -2835,6 +2880,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-10-30T05:50:37Z",
       "firstSeenIn": "ea79ec3"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "u1bgkvhya0",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85ajhfMXNIa0lqa0xOUTA2cEJpdGxwU1VSWlhySTZLUTYtYWhKRVZ4UkxjVEwzbHZ6QjRmOENxWGJlUFYyNEMtWjBScVRHYkw1czZhbkJmUVdoakZpU3RGeHdlZmdlYTlMc3ZkM242OEM?oc=5",
+      "title": "Mistral Large 4 vs Kimi K3.1 Pro: Two Multimodal Flagships, One Licence Apart",
+      "publishedAt": "2026-10-30T06:48:57Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-10-30T12:57:01Z",
+      "firstSeenIn": "16da74a"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
@@ -4110,6 +4170,21 @@
       "alias": "grok 4.7",
       "firstSeenAt": "2026-10-27T14:41:17Z",
       "firstSeenIn": "fcd8643"
+    },
+    {
+      "modelId": "xai.grok-4-7",
+      "variantId": null,
+      "postId": "5w4caelaga",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBoUEJlQk1wN0t3d0xOR2Fpd0pmaFNVSTRXWWFXaXFyOG1heU5yTG5kR0J4U1RrejNYem5RX3dpMkVJTl9JeVd5YWwxMnhxNHdDR3VuUlJLelFDcmpmeHVvOFpla2c4YTdYQTZfdA?oc=5",
+      "title": "V4.1 Pro vs Grok 4.7: A Third the Price",
+      "publishedAt": "2026-10-30T08:41:40Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "grok 4.7",
+      "firstSeenAt": "2026-10-30T12:57:01Z",
+      "firstSeenIn": "16da74a"
     }
   ]
 }
