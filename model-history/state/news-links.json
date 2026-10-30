@@ -1309,6 +1309,21 @@
     {
       "modelId": "deepseek.deepseek-v4-1-flash",
       "variantId": null,
+      "postId": "1urnm5vvzzg",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBrS2FiLTZmODM5RkhEYk9PV1doaTdKSnYwYlc5TTNXZ1J5MEJxclFXYzZaMlluMUlPczVWVGNDZGVCUE4tamgxdnMxMXhfM2Yxc09iZ1ZjQnlEUkR6OU84NHVvSUFHYThvcWR6NDlFdFgxbmhZUlBLSmRB?oc=5",
+      "title": "DeepSeek V4.1 Flash vs. GLM 5.3 Flash: Benchmarks, Pricing, and Speed",
+      "publishedAt": "2026-10-28T02:28:59Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Intelligent Living",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-30T19:23:56Z",
+      "firstSeenIn": "6811974"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
       "postId": "1ek1kp1067b",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wM2xEOWgtZWNtOVZTMTdVdjg5ZzF0ek5Geko0MkhXLW91czhWTkFXQk52U29jQTJOYTFiaGR5NXFaRXJEdmNCT0ctYmVRR0cyVWhRZ2V6MEdfWG04TTZXVGNCa2NnN1pMd2pDRUlCclh4eGliU1hRWWxIdw?oc=5",
       "title": "DeepSeek-V4.1-Flash: Update Overview and Guide to DeepSeek Harness",
@@ -1365,6 +1380,21 @@
       "alias": "deepseek v4.1 flash",
       "firstSeenAt": "2026-10-29T13:02:24Z",
       "firstSeenIn": "3362c53"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1ulsjeay2cd",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa1ZON3I5eEJIMnMtdWV2c2NlOURoZy1Ic3I2QW5Bd3FuZjV2ZzVPb19IVGJGWmpCWTdFUmhaWWw3SWVRQ3R6T0NDclQzLV9kUHRmTHB6eFViM0REQTFFVl9CNHpGcGVnZF9qa1FqRDlQVEVFZWw0TlJxRWlDbG1hd3FzNEI1X2piUnc?oc=5",
+      "title": "Kimi K3.1 Pro und DeepSeek V4.1-Flash wurden einem Bericht zufolge auf GPT-6 Astra trainiert – was das belegt",
+      "publishedAt": "2026-10-30T11:05:44Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "v4.1-flash",
+      "firstSeenAt": "2026-10-30T19:23:56Z",
+      "firstSeenIn": "6811974"
     },
     {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
@@ -2897,6 +2927,21 @@
       "firstSeenIn": "16da74a"
     },
     {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "1ulsjeay2cd",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa1ZON3I5eEJIMnMtdWV2c2NlOURoZy1Ic3I2QW5Bd3FuZjV2ZzVPb19IVGJGWmpCWTdFUmhaWWw3SWVRQ3R6T0NDclQzLV9kUHRmTHB6eFViM0REQTFFVl9CNHpGcGVnZF9qa1FqRDlQVEVFZWw0TlJxRWlDbG1hd3FzNEI1X2piUnc?oc=5",
+      "title": "Kimi K3.1 Pro und DeepSeek V4.1-Flash wurden einem Bericht zufolge auf GPT-6 Astra trainiert – was das belegt",
+      "publishedAt": "2026-10-30T11:05:44Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-10-30T19:23:56Z",
+      "firstSeenIn": "6811974"
+    },
+    {
       "modelId": "nvidia.nemotron-3-5-lightning",
       "variantId": null,
       "postId": "llxbmn8ygy",
@@ -3900,6 +3945,21 @@
       "alias": "gpt-6 astra",
       "firstSeenAt": "2026-10-29T23:58:36Z",
       "firstSeenIn": "fe40f12"
+    },
+    {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "1ulsjeay2cd",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNa1ZON3I5eEJIMnMtdWV2c2NlOURoZy1Ic3I2QW5Bd3FuZjV2ZzVPb19IVGJGWmpCWTdFUmhaWWw3SWVRQ3R6T0NDclQzLV9kUHRmTHB6eFViM0REQTFFVl9CNHpGcGVnZF9qa1FqRDlQVEVFZWw0TlJxRWlDbG1hd3FzNEI1X2piUnc?oc=5",
+      "title": "Kimi K3.1 Pro und DeepSeek V4.1-Flash wurden einem Bericht zufolge auf GPT-6 Astra trainiert – was das belegt",
+      "publishedAt": "2026-10-30T11:05:44Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-10-30T19:23:56Z",
+      "firstSeenIn": "6811974"
     },
     {
       "modelId": "openai.gpt-6-luna",
