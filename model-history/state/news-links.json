@@ -1607,6 +1607,21 @@
       "firstSeenIn": "f2aaf1e"
     },
     {
+      "modelId": "google.gemini-3-8-text-to-speech",
+      "variantId": null,
+      "postId": "1esy43qs70x",
+      "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "publishedAt": "2026-09-23T15:25:14Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "DeepMind",
+      "method": "auto",
+      "alias": "gemini 3.8 text-to-speech",
+      "firstSeenAt": "2026-10-30T05:50:37Z",
+      "firstSeenIn": "ea79ec3"
+    },
+    {
       "modelId": "google.gemini-4-argon",
       "variantId": null,
       "postId": "m47p6xb083",
