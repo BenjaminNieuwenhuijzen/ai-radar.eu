@@ -2072,6 +2072,21 @@
       "firstSeenIn": "ee982cc"
     },
     {
+      "modelId": "mistral.mistral-large-4",
+      "variantId": null,
+      "postId": "2ats33l1sjv",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUYU9ZUnRKeUNpWFJuS18yUkx4TW41dnJSVEJxeHhuMVFVMVJ2UWctbUlSOEJwcWV5SXpjR0ZVVnVkT2NRQ0dpZ2tTMWIwY0RlOUxFei1GUHdER3JXMXFEWk9BWDJhbmRGT1d6SUdUVUVZVW8?oc=5",
+      "title": "Mistral Large 4 vs DeepSeek V4 Pro: Two Open Flagships, and a Price Gap That Is Not the Point",
+      "publishedAt": "2026-10-30T01:52:46Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "mistral large 4",
+      "firstSeenAt": "2026-10-30T05:50:37Z",
+      "firstSeenIn": "ea79ec3"
+    },
+    {
       "modelId": "mistral.mistral-medium-3-5",
       "variantId": null,
       "postId": "1cpe61vkvvt",
@@ -2749,6 +2764,21 @@
     {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
+      "postId": "1qjxnkh72hb",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAwTGtCbHBlZnNQMm1KMnU5azdXQkJISjNraGJWWnhndGV3UkF3SnF5Uld5cXZldWVaQ1EyWkdGTlk0S1lqTEVHeGYxRmZQWkFEcHJwX3F1d25nQmFlTlhmNU5B?oc=5",
+      "title": "Kimi K3.1 Pro Pricing: $2/$10, a 943K Output Cap, and Weights That Do Not Exist Yet",
+      "publishedAt": "2026-10-29T15:29:43Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-10-30T05:50:37Z",
+      "firstSeenIn": "ea79ec3"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
       "postId": "2czn0e06gb4",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1Bb0k4dERJZmR2Q0VzbmtxUUVISGRUblpYY2Jra1kzMVdXXzVjaWFZTURtMFZVMVNtU3VCMlJKUHVXMjBhTzhDM3l2dHJKWE1BZlJZNUhScS01bWZ2U2R3c0F6V2E1Zw?oc=5",
       "title": "Kimi K3.1 Pro Preisgestaltung: $2, $10 und ein Ausgabelimit von 943K",
@@ -2775,6 +2805,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-10-29T19:39:32Z",
       "firstSeenIn": "ee982cc"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "2cnkgs1jy8l",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb0dlcjNYbjZzSmlhNDhqbUw1MWtueWplT0dUOEV1bDlwZFdpbDV3eFAxS2lRSnM0cWxiOUNtMnFsbVhZYmtuWHZ1ZG9tXzRDYnpNNDI4WVhjUDVrU0JzZ28yNnpYVEFEQ19SRzhkNXNvWlF3cmU4a2Jib1FEOG1INDcxZWEzSlhFT1hZWE40d0E1ejFvQ2xfMXZiRXEtSWhaZGYtQkRJTEZodEdabmR3NkFSWQ?oc=5",
+      "title": "ZenMux Introduces Kimi K3.1 Pro for Long-Context AI Workflows",
+      "publishedAt": "2026-10-29T20:57:42Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "USA Today",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-10-30T05:50:37Z",
+      "firstSeenIn": "ea79ec3"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
