@@ -2282,6 +2282,21 @@
       "firstSeenIn": "3362c53"
     },
     {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "26hzz0uo2kc",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ3F3WldrY083RGpjYTlpRXlSVHZCZy1QcUppZ2N2UmpwbXlJUjJwcWx1NUF5TV9ZT1VDRWxmbU1qSWFsbEtTZGlSSEI1OXNaNEtISTlXaUpKVDlBal84ZEw0UE1QeGxGOTdNN2ZYem5sLWpvcHRnS1JURUdMaXlnUkhJQmhhdmc4YU43X1VB?oc=5",
+      "title": "Nvidia B200 Costs Up to 2.3x AMD MI355X per Kimi K3 Token",
+      "publishedAt": "2026-10-31T20:05:05Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "FourWeekMBA",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-10-31T23:27:21Z",
+      "firstSeenIn": "e058a93"
+    },
+    {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
       "postId": "1i1wrbxhi2u",
