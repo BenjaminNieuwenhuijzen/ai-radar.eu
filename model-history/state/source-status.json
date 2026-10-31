@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T10:27:19Z",
+  "generated": "2026-10-31T09:57:02Z",
   "schemaVersion": 1,
   "sources": {
     "src.anthropic.100k-context-windows-announcement": {
@@ -8703,6 +8703,29 @@
       "stateSince": "2026-10-28T10:00:21Z",
       "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
     },
+    "src.google.gemini-3-8-text-to-speech-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "firstCheckedAt": "2026-10-31T09:57:02Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS",
+        "truncated": true
+      },
+      "lastOkAt": null,
+      "lastResult": "moved",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/"
+    },
     "src.google.gemini-3-announcement": {
       "archiveCheck": null,
       "archiveState": null,
@@ -11190,14 +11213,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Idefics2: A Powerful 8B Vision-Language Model for the community",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -11221,14 +11244,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 41084,
+        "bytes": 39925,
         "title": "[2405.02246] What matters when building vision-language models?",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11252,14 +11275,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 262144,
+        "bytes": 258756,
         "title": "HuggingFaceM4/Idefics3-8B-Llama3 · Hugging Face",
-        "truncated": true
+        "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11283,14 +11306,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 41157,
+        "bytes": 41341,
         "title": "[2408.12637] Building and better understanding vision-language models: insights and future directions",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11314,14 +11337,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 42718,
         "title": "[2306.16527] OBELICS: An Open Web-Scale Filtered Dataset of Interleaved Image-Text Documents",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11345,14 +11368,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 108964,
+        "bytes": 108508,
         "title": "Privacy Policy – Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11376,14 +11399,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 233277,
+        "bytes": 232564,
         "title": "HuggingFaceTB/SmolLM-1.7B-Instruct · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11407,14 +11430,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 241588,
+        "bytes": 232890,
         "title": "HuggingFaceTB/SmolLM-1.7B · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11438,14 +11461,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "SmolLM - blazingly fast and remarkably powerful",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11469,14 +11492,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - huggingface/smollm: Everything about the SmolLM and SmolVLM family of models · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11500,14 +11523,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "HuggingFaceTB/SmolLM2-1.7B-Instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11531,14 +11554,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 246019,
+        "bytes": 237808,
         "title": "HuggingFaceTB/SmolLM2-1.7B · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11562,14 +11585,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 44578,
+        "bytes": 44005,
         "title": "[2502.02737] SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11593,14 +11616,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "HuggingFaceTB/SmolLM3-3B · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11624,14 +11647,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "SmolLM3: smol, multilingual, long-context reasoner",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11655,14 +11678,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "SmolVLA: Efficient Vision-Language-Action Model trained on Lerobot Community Data",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11686,14 +11709,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 180229,
+        "bytes": 179584,
         "title": "lerobot/smolvla_base · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11717,14 +11740,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 45178,
+        "bytes": 44019,
         "title": "[2506.01844] SmolVLA: A Vision-Language-Action Model for Affordable and Efficient Robotics",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11748,14 +11771,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "SmolVLM Grows Smaller – Introducing the 256M & 500M Models!",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11779,14 +11802,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "HuggingFaceTB/SmolVLM-256M-Instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11810,14 +11833,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 251944,
+        "bytes": 251495,
         "title": "HuggingFaceTB/SmolVLM-500M-Instruct · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11841,14 +11864,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "SmolVLM - small yet mighty Vision Language Model",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11872,14 +11895,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 247385,
+        "bytes": 246730,
         "title": "HuggingFaceTB/SmolVLM-Instruct · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11903,14 +11926,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 44690,
+        "bytes": 44104,
         "title": "[2504.05299] SmolVLM: Redefining small and efficient multimodal models",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11934,14 +11957,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "HuggingFaceTB/SmolVLM2-2.2B-Instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11965,14 +11988,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "HuggingFaceTB/SmolVLM2-500M-Video-Instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -11996,14 +12019,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "SmolVLM2: Bringing Video Understanding to Every Device",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12027,14 +12050,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 114694,
+        "bytes": 114250,
         "title": "Terms of Service – Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12058,14 +12081,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 245965,
+        "bytes": 245263,
         "title": "HuggingFaceH4/zephyr-orpo-141b-A35b-v0.1 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12089,14 +12112,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "HuggingFaceH4/zephyr-7b-alpha · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12120,14 +12143,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "HuggingFaceH4/zephyr-7b-beta · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12151,14 +12174,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "HuggingFaceH4/zephyr-7b-gemma-v0.1 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12182,14 +12205,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 44129,
+        "bytes": 43543,
         "title": "[2310.16944] Zephyr: Direct Distillation of LM Alignment",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12213,14 +12236,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Company Info | Meta",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12244,14 +12267,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 200263,
+        "bytes": 200346,
         "title": "Ten years of FAIR: Advancing the state-of-the-art through open research",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12275,14 +12298,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "fb-20211231",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12306,14 +12329,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "meta-20251231",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12337,14 +12360,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 41471,
+        "bytes": 41477,
         "title": "fb-20211028",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12368,14 +12391,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 200702,
+        "bytes": 200792,
         "title": "The future of AI: Built with Llama",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12399,14 +12422,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 175459,
+        "bytes": 175558,
         "title": "Introducing LLaMA: A foundational, 65-billion-parameter language model",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12430,14 +12453,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 262144,
+        "bytes": 232846,
         "title": "llama/MODEL_CARD.md at llama_v1 · meta-llama/llama · GitHub",
-        "truncated": true
+        "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12461,14 +12484,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 41588,
+        "bytes": 40429,
         "title": "[2302.13971] LLaMA: Open and Efficient Foundation Language Models",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12488,7 +12511,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": null,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": null,
       "lastOkAt": null,
@@ -12515,14 +12538,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 255639,
+        "bytes": 246927,
         "title": "meta-llama/Llama-2-13b · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12546,14 +12569,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 240454,
+        "bytes": 239768,
         "title": "meta-llama/Llama-2-70b · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12577,14 +12600,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 262144,
+        "bytes": 257099,
         "title": "meta-llama/Llama-2-7b · Hugging Face",
-        "truncated": true
+        "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12608,14 +12631,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 188761,
+        "bytes": 188873,
         "title": "Meta and Microsoft Introduce the Next Generation of Llama",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12639,14 +12662,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 166873,
+        "bytes": 166445,
         "title": "Llama 2 Family - a meta-llama Collection",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12670,14 +12693,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 262144,
+        "bytes": 234563,
         "title": "llama-models/models/llama2/MODEL_CARD.md at main · meta-llama/llama-models · GitHub",
-        "truncated": true
+        "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12701,14 +12724,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 53587,
+        "bytes": 52428,
         "title": "[2307.09288] Llama 2: Open Foundation and Fine-Tuned Chat Models",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12732,14 +12755,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 217466,
+        "bytes": 217586,
         "title": "Introducing Llama 3.1: Our most capable models to date",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12763,14 +12786,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 160339,
+        "bytes": 159911,
         "title": "Llama 3.1 - a meta-llama Collection",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12794,14 +12817,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "llama-models/models/llama3_1/MODEL_CARD.md at main · meta-llama/llama-models · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12825,14 +12848,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 235775,
+        "bytes": 198591,
         "title": "llama-models/models/llama3_2/USE_POLICY.md at main · meta-llama/llama-models · GitHub",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12856,14 +12879,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 226893,
+        "bytes": 227005,
         "title": "Llama 3.2: Revolutionizing edge AI and vision with open, customizable models",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12887,14 +12910,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 177135,
+        "bytes": 176707,
         "title": "Llama 3.2 - a meta-llama Collection",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12918,14 +12941,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "llama-models/models/llama3_2/MODEL_CARD.md at main · meta-llama/llama-models · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12949,14 +12972,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "llama-models/models/llama3_2/MODEL_CARD_VISION.md at main · meta-llama/llama-models · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -12980,14 +13003,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "meta-llama/Llama-3.3-70B-Instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13011,14 +13034,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 207940,
+        "bytes": 207554,
         "title": "Llama 3.3 | Model Cards and Prompt formats",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13042,14 +13065,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "llama-models/models/llama3_3/MODEL_CARD.md at main · meta-llama/llama-models · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13073,14 +13096,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 189319,
+        "bytes": 189438,
         "title": "The Llama 3 Herd of Models | Research - AI at Meta",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13104,14 +13127,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "llama3/MODEL_CARD.md at main · meta-llama/llama3 · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13135,14 +13158,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Open-source AI Models for Any Application | Llama 3",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13166,14 +13189,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 212343,
+        "bytes": 212413,
         "title": "The Llama 4 herd: The beginning of a new era of natively multimodal AI innovation",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13197,14 +13220,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "meta-llama/Llama-4-Maverick-17B-128E-Instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13228,14 +13251,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "llama-models/models/llama4/MODEL_CARD.md at main · meta-llama/llama-models · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13259,14 +13282,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Llama 4 | Model Cards and Prompt formats",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13290,14 +13313,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Unmatched Performance and Efficiency | Llama 4",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13321,14 +13344,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "meta-llama/Llama-4-Scout-17B-16E-Instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13346,14 +13369,14 @@
           "truncated": true
         },
         "httpStatus": 200,
-        "lastCheckedAt": "2026-10-25T08:43:03Z",
-        "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+        "lastCheckedAt": "2026-10-31T09:57:02Z",
+        "lastDefinitiveAt": "2026-10-31T09:57:02Z",
         "lastFingerprint": {
           "bytes": 262144,
           "title": "Models",
           "truncated": true
         },
-        "lastOkAt": "2026-10-25T08:43:03Z",
+        "lastOkAt": "2026-10-31T09:57:02Z",
         "lastResult": "ok",
         "stateSince": "2026-10-06T10:46:31Z",
         "url": "https://web.archive.org/web/20250914141440/https://llama.developer.meta.com/docs/models"
@@ -13366,7 +13389,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -13397,14 +13420,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 179178,
+        "bytes": 178791,
         "title": "Llama Models",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13428,14 +13451,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - meta-llama/llama-models: Utilities intended for use with Llama models. · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13459,14 +13482,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 179755,
+        "bytes": 179873,
         "title": "Everything we announced at our first-ever LlamaCon",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13490,14 +13513,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 216742,
+        "bytes": 216842,
         "title": "Introducing Meta Llama 3: The most capable openly available LLM to date",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13521,14 +13544,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 125541,
+        "bytes": 125115,
         "title": "Meta Llama 3 - a meta-llama Collection",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13548,7 +13571,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": null,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": null,
       "lastOkAt": null,
@@ -13575,14 +13598,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Models - Meta Model API",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13606,14 +13629,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Reasoning - Meta Model API",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13637,14 +13660,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 172394,
+        "bytes": 171159,
         "title": "Introducing Muse Code and Muse Spark 1.2 | Meta AI Research",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13668,14 +13691,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "meta-models/Muse-Glimmer-30B · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13699,14 +13722,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 164148,
+        "bytes": 164188,
         "title": "Introducing Muse Glimmer: An Open Agentic Model That Runs on Your Device | Meta AI Research",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13730,14 +13753,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 143810,
+        "bytes": 145329,
         "title": "Muse Glimmer - Meta Model API",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13761,14 +13784,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 208067,
+        "bytes": 208165,
         "title": "Introducing Muse Spark 1.1",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13792,14 +13815,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": null,
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13823,14 +13846,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 189400,
+        "bytes": 189441,
         "title": "Introducing Muse Spark 1.3 | Meta AI Research",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13854,14 +13877,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 212814,
+        "bytes": 213058,
         "title": "Introducing Muse Spark: Scaling Towards Personal Superintelligence",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13885,14 +13908,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Muse Spark: Meta's Most Powerful Model Yet",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13916,14 +13939,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": null,
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13947,14 +13970,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Democratizing access to large-scale language models with OPT-175B",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -13978,14 +14001,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "OPT-66B Release by suchenzang · Pull Request #171 · facebookresearch/metaseq · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14009,14 +14032,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 166072,
+        "bytes": 165640,
         "title": "OPT - a facebook Collection",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14040,14 +14063,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 43352,
         "title": "[2205.01068] OPT: Open Pre-trained Transformer Language Models",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14071,14 +14094,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 192489,
+        "bytes": 192581,
         "title": "Introducing quantized Llama models with increased speed and a reduced memory footprint",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14102,14 +14125,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 237490,
         "title": "About Microsoft - Stories",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14133,14 +14156,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 45482,
+        "bytes": 44896,
         "title": "[2507.06607] Decoder-Hybrid-Decoder Architecture for Efficient Reasoning with Long Generation",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14164,14 +14187,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 154604,
         "title": "Facts About Microsoft - Stories",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14195,14 +14218,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 73523,
+        "bytes": 74703,
         "title": "Model retirement schedule - Microsoft Foundry | Microsoft Learn",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14226,14 +14249,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 182341,
+        "bytes": 183695,
         "title": "Foundry Models sold by Azure - Microsoft Foundry | Microsoft Learn",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14257,14 +14280,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 61302,
         "title": "Retired Microsoft Foundry Models - Microsoft Foundry | Microsoft Learn",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14288,14 +14311,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 109919,
+        "bytes": 110748,
         "title": "MAI-Code-1.1-Flash available in GitHub Copilot - GitHub Changelog",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14319,14 +14342,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 108121,
+        "bytes": 108950,
         "title": "MAI-Code-1-Flash for Copilot Business and Copilot Enterprise - GitHub Changelog",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14350,14 +14373,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 99540,
+        "bytes": 100369,
         "title": "MAI-Code-1-Flash deprecated - GitHub Changelog",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14381,14 +14404,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 139692,
+        "bytes": 111281,
         "title": "MAI-Code-1-Flash is now available for GitHub Copilot - GitHub Changelog",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14412,14 +14435,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 101629,
+        "bytes": 102458,
         "title": "MAI-Code-1-Flash available on more Copilot surfaces - GitHub Changelog",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14443,14 +14466,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 99879,
+        "bytes": 100708,
         "title": "Upcoming deprecation of MAI-Code-1-Flash - GitHub Changelog",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14470,14 +14493,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 177138,
         "title": null,
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14501,14 +14524,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 233930,
+        "bytes": 233294,
         "title": "Introducing MAI-Code-1-Flash | Microsoft AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14532,14 +14555,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 233298,
+        "bytes": 232662,
         "title": "Introducing MAI-Thinking-1 | Microsoft AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14557,14 +14580,14 @@
           "truncated": false
         },
         "httpStatus": 200,
-        "lastCheckedAt": "2026-10-25T08:43:03Z",
-        "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+        "lastCheckedAt": "2026-10-31T09:57:02Z",
+        "lastDefinitiveAt": "2026-10-31T09:57:02Z",
         "lastFingerprint": {
-          "bytes": 214272,
+          "bytes": 214276,
           "title": "Introducing MAI-Thinking-1 | Microsoft AI",
           "truncated": false
         },
-        "lastOkAt": "2026-10-25T08:43:03Z",
+        "lastOkAt": "2026-10-31T09:57:02Z",
         "lastResult": "ok",
         "stateSince": "2026-10-06T10:46:31Z",
         "url": "https://web.archive.org/web/20260604010359/https://microsoft.ai/news/introducing-mai-thinking-1/"
@@ -14581,14 +14604,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 233298,
+        "bytes": 232662,
         "title": "Introducing MAI-Thinking-1 | Microsoft AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14612,14 +14635,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 222547,
+        "bytes": 221911,
         "title": "MAI-Code-1.1-Flash: Better, faster, at a quarter of the cost | Microsoft AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14643,14 +14666,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 192890,
         "title": null,
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14674,14 +14697,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 208117,
         "title": null,
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14705,14 +14728,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "MAI-Code-1.1-Flash | Microsoft AI",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14736,14 +14759,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 262144,
+        "bytes": 241576,
         "title": "GitHub - microsoft/MAI-Code: Official repo for MAI-Code models, where we publish MAI-Code model releases and updates and engage with developer community on issues and feedback. · GitHub",
-        "truncated": true
+        "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14767,14 +14790,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing MAI-DS-R1 | Microsoft Community Hub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14798,14 +14821,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 242428,
+        "bytes": 241831,
         "title": "microsoft/MAI-DS-R1 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14829,14 +14852,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 81660,
         "title": "Deploy and use MAI-Thinking-1 in Microsoft Foundry - Microsoft Foundry | Microsoft Learn",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14860,14 +14883,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 83558,
         "title": null,
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14891,14 +14914,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": null,
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14922,14 +14945,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 226007,
+        "bytes": 225372,
         "title": "Two in-house models in support of our mission | Microsoft AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14953,14 +14976,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 134113,
         "title": "Mustafa Suleyman, DeepMind and Inflection Co-founder, joins Microsoft to lead Copilot - The Official Microsoft Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -14984,14 +15007,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 260354,
+        "bytes": 251674,
         "title": "microsoft/phi-1_5 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15015,14 +15038,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 42954,
+        "bytes": 42368,
         "title": "[2309.05463] Textbooks Are All You Need II: phi-1.5 technical report",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15046,14 +15069,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 248679,
+        "bytes": 239960,
         "title": "microsoft/phi-1 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15077,14 +15100,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 43504,
+        "bytes": 42345,
         "title": "[2306.11644] Textbooks Are All You Need",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15108,14 +15131,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 223350,
+        "bytes": 223476,
         "title": "Phi-2: The surprising power of small language models - Microsoft Research",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15139,14 +15162,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 250818,
+        "bytes": 242138,
         "title": "microsoft/phi-2 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15170,14 +15193,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Phi-3.5 SLMs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15201,14 +15224,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "microsoft/Phi-3.5-mini-instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15232,14 +15255,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "microsoft/Phi-3.5-MoE-instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15263,14 +15286,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "microsoft/Phi-3.5-vision-instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15294,14 +15317,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Phi-3: Redefining what's possible with SLMs | Microsoft Azure Blog",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15325,14 +15348,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "New models added to the Phi-3 family, available on Microsoft Azure | Microsoft Azure Blog",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15356,14 +15379,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "microsoft/Phi-3-medium-4k-instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15387,14 +15410,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "microsoft/Phi-3-mini-4k-instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15418,14 +15441,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 225085,
+        "bytes": 224563,
         "title": "microsoft/Phi-3-small-8k-instruct · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15449,14 +15472,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 65710,
+        "bytes": 64551,
         "title": "[2404.14219] Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15480,14 +15503,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 251435,
+        "bytes": 242736,
         "title": "microsoft/Phi-3-vision-128k-instruct · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15511,14 +15534,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Phi-4: Microsoft’s Newest Small Language Model Specializing in Complex Reasoning | Microsoft Community Hub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15542,14 +15565,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Reasoning reimagined: Introducing Phi-4-mini-flash-reasoning | Microsoft Azure Blog",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15573,14 +15596,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 236753,
+        "bytes": 236118,
         "title": "microsoft/Phi-4-mini-flash-reasoning · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15604,14 +15627,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "microsoft/Phi-4-mini-instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15635,14 +15658,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Empowering innovation: The next generation of the Phi family | Microsoft Azure Blog",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15666,14 +15689,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "microsoft/Phi-4-mini-reasoning · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15697,14 +15720,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 43311,
         "title": "[2504.21233] Phi-4-Mini-Reasoning: Exploring the Limits of Small Reasoning Language Models in Math",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15728,14 +15751,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 55792,
+        "bytes": 55206,
         "title": "[2503.01743] Phi-4-Mini Technical Report: Compact yet Powerful Multimodal Language Models via Mixture-of-LoRAs",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15759,14 +15782,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "microsoft/phi-4 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15790,14 +15813,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "microsoft/Phi-4-multimodal-instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15821,14 +15844,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "One year of Phi: Small language models making big leaps in AI | Microsoft Azure Blog",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15852,14 +15875,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "microsoft/Phi-4-reasoning · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15883,14 +15906,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "microsoft/Phi-4-reasoning-plus · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15914,14 +15937,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 45754,
+        "bytes": 45168,
         "title": "[2504.21318] Phi-4-reasoning Technical Report",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15945,14 +15968,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 227690,
+        "bytes": 227057,
         "title": "microsoft/Phi-4-reasoning-vision-15B · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -15976,14 +15999,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model - Microsoft Research",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16007,14 +16030,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 42310,
         "title": "[2603.03975] Phi-4-reasoning-vision-15B Technical Report",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16038,14 +16061,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 44177,
+        "bytes": 43591,
         "title": "[2412.08905] Phi-4 Technical Report",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16069,14 +16092,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 245324,
+        "bytes": 240059,
         "title": "microsoft/Phi-mini-MoE-instruct · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16100,14 +16123,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Phi Open Models - Small Language Models | Microsoft Azure",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16131,14 +16154,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Phi Open Models - Small Language Models | Microsoft Azure",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16162,14 +16185,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 249412,
+        "bytes": 241449,
         "title": "microsoft/Phi-tiny-MoE-instruct · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16193,14 +16216,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 225661,
+        "bytes": 225025,
         "title": "Building a hill-climbing machine: Launching seven new MAI models | Microsoft AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16224,14 +16247,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 45680,
+        "bytes": 45278,
         "title": "[2506.18349] SlimMoE: Structured Compression of Large MoE Models via Expert Slimming and Distillation",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16255,14 +16278,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "About Mistral | Open, frontier AI for all.",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16286,14 +16309,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 160661,
+        "bytes": 163844,
         "title": "AI in abundance | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16317,14 +16340,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 158659,
+        "bytes": 161842,
         "title": "Au Large | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16348,14 +16371,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Changelog | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16379,14 +16402,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 149319,
+        "bytes": 152502,
         "title": "Codestral Mamba | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16410,14 +16433,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Codestral Mamba 7B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16441,14 +16464,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mathstral 7B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16472,14 +16495,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Ministral 3B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16503,14 +16526,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Ministral 8B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16534,14 +16557,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Large 2.0 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16565,14 +16588,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Large 2.1 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16596,14 +16619,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Nemo 12B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16627,14 +16650,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Small 2.0 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16658,14 +16681,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Pixtral 12B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16689,14 +16712,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Pixtral Large - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16720,14 +16743,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 183819,
+        "bytes": 183173,
         "title": "mistralai/Magistral-Small-2506 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16751,14 +16774,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 182401,
+        "bytes": 181708,
         "title": "mistralai/Magistral-Small-2507 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16782,14 +16805,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 135460,
+        "bytes": 134807,
         "title": "mistralai/Mamba-Codestral-7B-v0.1 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16813,14 +16836,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 161741,
+        "bytes": 161135,
         "title": "mistralai/Mathstral-7B-v0.1 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16844,14 +16867,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "mistralai/Ministral-8B-Instruct-2410 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16875,14 +16898,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 254668,
+        "bytes": 254029,
         "title": "mistralai/Mistral-7B-Instruct-v0.1 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16906,14 +16929,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 262144,
+        "bytes": 258081,
         "title": "mistralai/Mistral-7B-Instruct-v0.2 · Hugging Face",
-        "truncated": true
+        "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16937,14 +16960,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 197315,
+        "bytes": 196917,
         "title": "mistralai/Mistral-7B-Instruct-v0.3 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16968,14 +16991,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 249363,
+        "bytes": 239445,
         "title": "mistralai/Mistral-7B-v0.1 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -16999,14 +17022,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 153541,
+        "bytes": 152900,
         "title": "mistralai/Mistral-7B-v0.3 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17030,14 +17053,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "mistralai/Mistral-Large-Instruct-2407 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17061,14 +17084,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 238725,
+        "bytes": 238290,
         "title": "mistralai/Mistral-Large-Instruct-2411 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17092,14 +17115,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 172134,
+        "bytes": 171524,
         "title": "mistralai/Mistral-Nemo-Base-2407 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17123,14 +17146,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "mistralai/Mistral-Nemo-Instruct-2407 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17154,14 +17177,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 187972,
+        "bytes": 187303,
         "title": "mistralai/Mistral-Small-24B-Base-2501 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17185,14 +17208,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 213620,
+        "bytes": 212950,
         "title": "mistralai/Mistral-Small-24B-Instruct-2501 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17216,14 +17239,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 152117,
+        "bytes": 151466,
         "title": "mistralai/Mistral-Small-3.1-24B-Base-2503 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17247,14 +17270,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 238078,
+        "bytes": 237337,
         "title": "mistralai/Mistral-Small-3.1-24B-Instruct-2503 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17278,14 +17301,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 212875,
+        "bytes": 212236,
         "title": "mistralai/Mistral-Small-3.2-24B-Instruct-2506 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17309,14 +17332,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 242634,
+        "bytes": 242047,
         "title": "mistralai/Mistral-Small-Instruct-2409 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17340,14 +17363,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 213826,
+        "bytes": 213190,
         "title": "mistralai/Mixtral-8x22B-Instruct-v0.1 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17371,14 +17394,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 140911,
+        "bytes": 140226,
         "title": "mistralai/Mixtral-8x22B-v0.1 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17402,14 +17425,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 200245,
+        "bytes": 198838,
         "title": "mistralai/Mixtral-8x7B-Instruct-v0.1 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17433,14 +17456,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 173452,
+        "bytes": 172815,
         "title": "mistralai/Mixtral-8x7B-v0.1 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17464,14 +17487,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 170563,
+        "bytes": 169882,
         "title": "mistralai/Pixtral-12B-2409 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17495,14 +17518,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 191276,
+        "bytes": 190581,
         "title": "mistralai/Pixtral-Large-Instruct-2411 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17526,14 +17549,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 150802,
+        "bytes": 153985,
         "title": "La Plateforme | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17557,14 +17580,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 149718,
+        "bytes": 152901,
         "title": "Le Chat | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17588,14 +17611,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 154448,
+        "bytes": 157631,
         "title": "Introducing Le Chat Enterprise | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17619,14 +17642,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 54964,
         "title": "Legal Center",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17650,14 +17673,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 53877,
         "title": "Legal Center",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17681,14 +17704,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 54431,
         "title": "Legal Center",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17712,14 +17735,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 49403,
         "title": "Legal Center",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17743,14 +17766,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 49409,
         "title": "Legal Center",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17774,14 +17797,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 54790,
         "title": "Legal Center",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17805,14 +17828,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 49329,
         "title": "Legal Center",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17836,14 +17859,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 49397,
         "title": "Legal Center",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17867,14 +17890,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 57458,
         "title": "Legal Center",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17898,14 +17921,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 50384,
         "title": "Legal Center",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17929,14 +17952,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 50398,
         "title": "Legal Center",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -17991,14 +18014,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 157489,
+        "bytes": 160672,
         "title": "Magistral | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18022,14 +18045,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Magistral Medium 1.0 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18053,14 +18076,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Magistral Medium 1.1 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18084,14 +18107,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Magistral Medium 1.2 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18115,14 +18138,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 56488,
+        "bytes": 55329,
         "title": "[2506.10910] Magistral",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18145,16 +18168,16 @@
         "title": "Magistral Small 1.0 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "httpStatus": null,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-19T09:17:53Z",
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Magistral Small 1.0 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-19T09:17:53Z",
-      "lastResult": "error",
+      "lastOkAt": "2026-10-31T09:57:02Z",
+      "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
       "url": "https://docs.mistral.ai/models/magistral-small-1-0-25-06"
@@ -18177,14 +18200,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Magistral Small 1.1 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18208,14 +18231,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Magistral Small 1.2 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18239,14 +18262,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 231933,
+        "bytes": 231289,
         "title": "mistralai/Magistral-Small-2509 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18270,14 +18293,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 149776,
+        "bytes": 152959,
         "title": "MathΣtral | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18301,14 +18324,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Ministral 3 14B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18332,14 +18355,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Ministral 3 3B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18363,14 +18386,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Ministral 3 8B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18394,14 +18417,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 133747,
+        "bytes": 133319,
         "title": "Ministral 3 - a mistralai Collection",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18425,14 +18448,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 61026,
+        "bytes": 60440,
         "title": "[2601.08584] Ministral 3",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18456,14 +18479,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 158062,
+        "bytes": 161245,
         "title": "Un Ministral, des Ministraux | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18487,14 +18510,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 188983,
+        "bytes": 192166,
         "title": "Introducing Mistral 3 | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18518,14 +18541,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral 7B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18549,14 +18572,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral 7B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18580,14 +18603,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral 7B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18611,14 +18634,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 169362,
+        "bytes": 172545,
         "title": "Mistral 7B",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18642,14 +18665,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 42955,
+        "bytes": 42369,
         "title": "[2310.06825] Mistral 7B",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18673,14 +18696,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - mistralai/mistral-inference: Official inference library for Mistral models · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18704,14 +18727,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Large 1.0 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18735,14 +18758,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 163028,
+        "bytes": 166211,
         "title": "Large Enough | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18766,14 +18789,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 147837,
+        "bytes": 147135,
         "title": "mistralai/Mistral-Large-3-675B-Base-2512 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18797,14 +18820,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Large 3 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18828,14 +18851,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 236929,
+        "bytes": 236175,
         "title": "mistralai/Mistral-Large-3-675B-Instruct-2512 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18890,14 +18913,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Medium 1.0 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18921,14 +18944,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Medium 3.1 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18952,14 +18975,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 181881,
+        "bytes": 185064,
         "title": "Remote agents in Vibe. Powered by Mistral Medium 3.5. | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -18983,14 +19006,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Medium 3.5 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19014,14 +19037,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "mistralai/Mistral-Medium-3.5-128B · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19045,14 +19068,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 165251,
+        "bytes": 168434,
         "title": "Medium is the new large. | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19076,14 +19099,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Medium 3 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19107,14 +19130,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 153149,
+        "bytes": 156332,
         "title": "Mistral NeMo | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19138,14 +19161,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Next - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19169,14 +19192,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Small 1.0 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19200,14 +19223,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Small 3.0 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19231,14 +19254,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 164045,
+        "bytes": 167228,
         "title": "Mistral Small 3.1 | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19262,14 +19285,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Small 3.1 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19293,14 +19316,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Small 3.2 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19324,14 +19347,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 171953,
+        "bytes": 175136,
         "title": "Mistral Small 3 | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19355,14 +19378,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 178108,
+        "bytes": 181291,
         "title": "Introducing Mistral Small 4 | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19386,14 +19409,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mistral Small 4 - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19417,14 +19440,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "mistralai/Mistral-Small-4-119B-2603 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19448,14 +19471,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 153975,
+        "bytes": 157158,
         "title": "Cheaper, Better, Faster, Stronger | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19479,14 +19502,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mixtral 8x22B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19510,14 +19533,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Mixtral 8x7B - Mistral AI | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19541,14 +19564,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 155601,
+        "bytes": 158784,
         "title": "Mixtral of experts | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19572,14 +19595,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 46189,
+        "bytes": 45603,
         "title": "[2401.04088] Mixtral of Experts",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19603,14 +19626,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Models Overview | Mistral Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19634,14 +19657,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 236367,
+        "bytes": 239550,
         "title": "[Deprecated] Pixtral 12B | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19665,14 +19688,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 48089,
+        "bytes": 47503,
         "title": "[2410.07073] Pixtral 12B",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19696,14 +19719,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 171663,
+        "bytes": 174846,
         "title": "[Deprecated] Pixtral Large | Mistral AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -19723,7 +19746,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": null,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": null,
       "lastOkAt": null,
@@ -19746,7 +19769,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": null,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": null,
       "lastOkAt": null,
@@ -21144,14 +21167,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "About Us: Company Leadership, History, Jobs, News | NVIDIA",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21175,14 +21198,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 75170,
+        "bytes": 74597,
         "title": "NVIDIA Introduces Generative AI Foundry Service on Microsoft Azure for Enterprises and Startups Worldwide | NVIDIA Newsroom",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21206,14 +21229,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Contact Us: Americas Locations & Regional Offices | NVIDIA",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21237,14 +21260,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Our History: Innovations Over the Years | NVIDIA",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21268,14 +21291,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 260336,
+        "bytes": 260080,
         "title": "NVIDIA GTC Taipei at COMPUTEX: Live Updates on What’s Next in AI | NVIDIA Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21299,14 +21322,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 45398,
+        "bytes": 44812,
         "title": "[2410.01257] HelpSteer2-Preference: Complementing Ratings with Preferences",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21330,14 +21353,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Advancing the Accuracy-Efficiency Frontier with Llama-3.1-Nemotron-51B | NVIDIA Technical Blog",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21361,14 +21384,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 142475,
+        "bytes": 142384,
         "title": "llama-3.1-nemotron-51b-instruct Model by NVIDIA | NVIDIA NIM",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21392,14 +21415,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "nvidia/Llama-3_1-Nemotron-51B-Instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21423,14 +21446,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 211962,
+        "bytes": 211870,
         "title": "llama-3.1-nemotron-70b-instruct Model by NVIDIA | NVIDIA NIM",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21454,14 +21477,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21485,14 +21508,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 212985,
+        "bytes": 212294,
         "title": "nvidia/Llama-3.1-Nemotron-70B-Instruct · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21516,14 +21539,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 249842,
+        "bytes": 249801,
         "title": "New Reward Model Helps Improve LLM Alignment with Human Preferences | NVIDIA Technical Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21547,14 +21570,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 230800,
+        "bytes": 230708,
         "title": "llama-3.1-nemotron-nano-4b-v1.1 Model by NVIDIA | NVIDIA NIM",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21578,14 +21601,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "nvidia/Llama-3.1-Nemotron-Nano-4B-v1.1 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21609,14 +21632,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 223831,
+        "bytes": 223739,
         "title": "llama-3.1-nemotron-nano-8b-v1 Model by NVIDIA | NVIDIA NIM",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21640,14 +21663,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "nvidia/Llama-3.1-Nemotron-Nano-8B-v1 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21671,14 +21694,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 258269,
+        "bytes": 249560,
         "title": "nvidia/Llama-3_1-Nemotron-Ultra-253B-CPT-v1 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21702,14 +21725,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 232742,
+        "bytes": 232650,
         "title": "llama-3.1-nemotron-ultra-253b-v1 Model by NVIDIA | NVIDIA NIM",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21733,14 +21756,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "nvidia/Llama-3_1-Nemotron-Ultra-253B-v1 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21764,14 +21787,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "nvidia/Llama-3_3-Nemotron-Super-49B-v1_5 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21795,14 +21818,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 239386,
+        "bytes": 239294,
         "title": "llama-3.3-nemotron-super-49b-v1 Model by NVIDIA | NVIDIA NIM",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21826,14 +21849,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "nvidia/Llama-3_3-Nemotron-Super-49B-v1 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
@@ -21857,14 +21880,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-25T08:43:03Z",
-      "lastDefinitiveAt": "2026-10-25T08:43:03Z",
+      "lastCheckedAt": "2026-10-31T09:57:02Z",
+      "lastDefinitiveAt": "2026-10-31T09:57:02Z",
       "lastFingerprint": {
-        "bytes": 172488,
+        "bytes": 171978,
         "title": "Supercharge Edge AI with High Accuracy Reasoning Using Llama Nemotron Nano 4B",
         "truncated": false
       },
-      "lastOkAt": "2026-10-25T08:43:03Z",
+      "lastOkAt": "2026-10-31T09:57:02Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-06T10:46:31Z",
