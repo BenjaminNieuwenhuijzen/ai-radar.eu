@@ -1324,6 +1324,21 @@
     {
       "modelId": "deepseek.deepseek-v4-1-flash",
       "variantId": null,
+      "postId": "5a8frjih21",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FX21yQ056RjQ5QTVqUW9pQjF2WHA5NmtLc3F2U0pYLWIwdllUb1ZXcV9Gc3N4dXR5V3BxWEp6aGJEaHFDSVNIaXlaR1JqZnJ2Y2V1ZXMyeU40SkFnMXk3MUN0NzNiWmJmbG9IRmQ0VTJCUXJnQVRV?oc=5",
+      "title": "DeepSeek V4.1 Flash Released: Benchmarks, Pricing, and What Happens to V4 Pro",
+      "publishedAt": "2026-10-28T04:08:21Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Intelligent Living",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-10-31T18:34:24Z",
+      "firstSeenIn": "f4bb8b5"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
       "postId": "1ek1kp1067b",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wM2xEOWgtZWNtOVZTMTdVdjg5ZzF0ek5Geko0MkhXLW91czhWTkFXQk52U29jQTJOYTFiaGR5NXFaRXJEdmNCT0ctYmVRR0cyVWhRZ2V6MEdfWG04TTZXVGNCa2NnN1pMd2pDRUlCclh4eGliU1hRWWxIdw?oc=5",
       "title": "DeepSeek-V4.1-Flash: Update Overview and Guide to DeepSeek Harness",
@@ -2940,6 +2955,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-10-30T19:23:56Z",
       "firstSeenIn": "6811974"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "1itwcvyythk",
+      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQQWNodkI3ZkR6NWhnOU1MTnRjbTBkVHN5T3lyMXRCT2JxU2FRa1Fmc2lkajNteFAyZFNXSlhEd2U0Sm1FVTA1ZDByZldNUUtnZHpPU0dFQThUMi1nUUpXWjV5d3VXSHNFMUpjZE9TLUxZM1R1ZUI4cG9heTZ1TWdtd2JXckZqTThobGZFSTRRS05YaFFZUlU1cUx5dVY4SXowY2lhTTR3OVBBY09SbE5TNDBDbTZiRk5mVllXYUZmUzlxQkRiZEFCVnMxMU5wR09yQlMzUV9RMWEweGxMMjRGT3d4WmpwRHB2VGpsaGg0dTh5TVlfMGJQWWdZaTl3aFZvZjJ3YlE0dEhqamQyOEtKaVlhZk5GUE5QQXQ1ZjVlSnVJbjF4eHhnaGVQSUxqU1hyLVHSAbcCQVVfeXFMUGJURFMtd2N1d040bG5ncWVJYzNLVTFEdC02M2JyUnZIbWI0aWVGa0dTNk5Qd0RNYlNCYWJOUWxMQ1NqUEFpeWRPYzUyRjlnd2F1Ym8wQjZXQkN6eWc4LUNYS2FTQVNaWmdYWEJqYTZhNnQ3UWdLVTBoVDM4NERJOHg4eUFXT0F2Z3NNYTN0clNhc1U3eTJsX3pEUXplYktac3hhZUZ2XzFHNHlXS1BXazdHTEZUN3JDTk9WQWVyeGFPODUzZV9zY05MNGxtV25yR3d2c25TWmxmR2RwRTFITkJ2TW5XV3kyX1JtQnFVYlViY2VfTjUyTXN1TjgyaWVZSlotM2FMQmloU3p6NEdjR3cxZnpJelhnRDR6OXItM0dyUnIzNVF6WDBxdTR2bmoycGw1djJ4Rm8?oc=5",
+      "title": "OpenAI Teases GPT-6.1 Astra Amid Relentless Hype Around The Mysterious GPT-6.2 Betelgeuse Model, As Another Evidence Surfaces Showing Kimi K3.1 Pro And GLM-5.3 As Products Of Distillation",
+      "publishedAt": "2026-10-31T17:11:35Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Wccftech",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-10-31T18:34:24Z",
+      "firstSeenIn": "f4bb8b5"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
