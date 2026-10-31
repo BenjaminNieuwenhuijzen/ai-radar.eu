@@ -17,6 +17,10 @@
     {
       "text": "claude-opus-5-5",
       "match": "auto"
+    },
+    {
+      "text": "claude opus 5.5 performance",
+      "match": "never"
     }
   ],
   "organizations": [
