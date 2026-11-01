@@ -3949,6 +3949,21 @@
     {
       "modelId": "openai.gpt-6-astra",
       "variantId": null,
+      "postId": "2gmff4i60xk",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVEJLajBCYnNDa2ZnekVscWJpWG5aMVpkTTVrZnhWcXBiN2x1UWNzLTl1Wk9KQko1VHJNNkFEM1o2ZTZEQVdUdnAwOFZCbnRndm9ONk9lS3dYQVNJNlJxbHdXTkNDeTN1S2dBY0c4YTFsSU1VQVU3enRWeUFmaWxGeGJTWFA4QnhzVnVtZEw1ak0?oc=5",
+      "title": "Report alleges DeepSeek and Moonshot used GPT-6 Astra outputs",
+      "publishedAt": "2026-10-29T07:00:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "NeoTeo",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-11-01T23:36:50Z",
+      "firstSeenIn": "13b53a0"
+    },
+    {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
       "postId": "1rb894hqr1h",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVGdlcnFTYUlESWtFQ2VuTXpNUk5uZDNBTURiMFJVZlhWRUJ4VkdfX2lHZGRXMmY1a2dCdzBHQW00bFZsaFhraDNOTlpybWxTZkU2bkJzRmdERWlnWTh1ZE5icjNQTzNIVGV4SGlYUHA0NThma0tkOGFhSFVUd0lldjZzUUlxaUdQOWhGS0hLYjlpUXppSWhIdE1LUHlDTkRLX1VCajdscDdHWW4yb1lkWmRaSi1OYzU5?oc=5",
       "title": "DeepSeek and Moonshot AI are reportedly using GPT-6 Astra for training",
