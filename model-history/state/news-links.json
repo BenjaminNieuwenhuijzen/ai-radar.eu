@@ -3964,6 +3964,21 @@
     {
       "modelId": "openai.gpt-6-astra",
       "variantId": null,
+      "postId": "remzqtdstl",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBLNUxUc1hlQUdTelNCaGMwNjk0OHduNWd3WXh2TkpaZ2lzQW1iQ1BDS29NQV90THdEVjJjdGM4Q3FhdnpXeFNWLXB6dHRLZGJyX25ISHNCQQ?oc=5",
+      "title": "DeepSeek, Moonshot AI accused of distilling OpenAI's GPT-6 Astra without permission",
+      "publishedAt": "2026-10-29T10:50:01Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "헤럴드경제",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-11-01T13:26:00Z",
+      "firstSeenIn": "d0eee2f"
+    },
+    {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
       "postId": "1wdrnpjf1h3",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1yd3l6bkZjdmFScnBQZ2stajJiRndEZzVpTXFZdFo4cnVpOGJOam1zbG9QZ04tcURWNGpjX3ZVbk5CRzBYNWEzSkdza3Y2QWVQLUh3cVM2S2ZMSS1reHJuVkZsMVI0bHZEcm1pbHFtNFVqQ0N1a2ZfYlNrTjRXZw?oc=5",
       "title": "DeepSeek and Moonshot Reportedly Distilled GPT-6 Astra",
