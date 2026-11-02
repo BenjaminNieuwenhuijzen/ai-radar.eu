@@ -1547,6 +1547,21 @@
       "firstSeenIn": "dcab53f"
     },
     {
+      "modelId": "google.gemini-3-5-transcribe",
+      "variantId": null,
+      "postId": "2xodeh28kh",
+      "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "publishedAt": "2026-08-26T17:01:00Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "DeepMind",
+      "method": "auto",
+      "alias": "gemini 3.5 transcribe",
+      "firstSeenAt": "2026-11-02T06:04:40Z",
+      "firstSeenIn": "e7e081f"
+    },
+    {
       "modelId": "google.gemini-3-6-flash",
       "variantId": null,
       "postId": "81qbu5vq12",
