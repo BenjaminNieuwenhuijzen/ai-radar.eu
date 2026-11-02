@@ -1937,6 +1937,20 @@
       "provenance": "primary",
       "availability": "unknown",
       "notes": "Known only from Google's own news feed as listed on AI Radar (title, link and date). The page itself was not opened when the record was written, so the daily source check has to confirm it."
+    },
+    {
+      "id": "src.google.gemini-3-5-transcribe-announcement",
+      "type": "announcement",
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-08-26"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Known only from Google's own news feed as listed on AI Radar (title, link and date). The page itself was not opened when the record was written, so the daily source check has to confirm it."
     }
   ]
 }
