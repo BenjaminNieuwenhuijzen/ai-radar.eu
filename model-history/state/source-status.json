@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T10:47:24Z",
+  "generated": "2026-11-02T11:40:29Z",
   "schemaVersion": 1,
   "sources": {
     "src.anthropic.100k-context-windows-announcement": {
@@ -291,14 +291,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 196157,
+        "bytes": 163373,
         "title": "Introducing Claude 3.5 Sonnet \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -322,14 +322,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": null,
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -353,14 +353,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 223523,
+        "bytes": 190086,
         "title": "Claude 3.7 Sonnet and Claude Code \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -376,7 +376,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -407,14 +407,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 229173,
+        "bytes": 192795,
         "title": "Introducing the next generation of Claude \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -438,14 +438,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 168761,
+        "bytes": 138731,
         "title": "Claude 3 Haiku: our fastest model yet \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -461,7 +461,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -492,14 +492,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 220768,
+        "bytes": 186832,
         "title": "Introducing Claude 4 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -515,7 +515,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -546,14 +546,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Fable 5.1 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -577,14 +577,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -608,14 +608,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Fable 5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -639,7 +639,7 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": "2026-10-08T10:55:33Z",
       "lastFingerprint": {
         "bytes": 262144,
@@ -670,14 +670,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Fable 5 and Claude Mythos 5 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -701,14 +701,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 206726,
+        "bytes": 172032,
         "title": "Introducing Claude Haiku 4.5 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -732,14 +732,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Haiku 4.5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -755,7 +755,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -786,14 +786,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 167650,
+        "bytes": 137492,
         "title": "Releasing Claude Instant 1.2 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -817,14 +817,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Mythos 5.1 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -848,14 +848,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Mythos 5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -879,14 +879,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 181718,
+        "bytes": 151413,
         "title": "Claude Opus 4.1 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -902,7 +902,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -933,14 +933,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 262144,
+        "bytes": 237853,
         "title": "Introducing Claude Opus 4.5 \\ Anthropic",
-        "truncated": true
+        "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -964,14 +964,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 4.5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -987,7 +987,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -1018,14 +1018,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 4.6 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1049,14 +1049,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 4.6 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1080,14 +1080,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 262144,
+        "bytes": 245035,
         "title": "Introducing Claude Opus 4.7 \\ Anthropic",
-        "truncated": true
+        "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1111,14 +1111,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 4.7 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1142,14 +1142,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 222237,
+        "bytes": 185083,
         "title": "Introducing Claude Opus 4.8 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1173,14 +1173,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 4.8 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1204,14 +1204,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Claude Opus 5.5 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1235,14 +1235,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 5.5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1266,14 +1266,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 262144,
+        "bytes": 244450,
         "title": "Introducing Claude Opus 5 \\ Anthropic",
-        "truncated": true
+        "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1297,14 +1297,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Opus 5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1328,14 +1328,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 165635,
+        "bytes": 135782,
         "title": "Introducing Claude Pro \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1359,14 +1359,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 262144,
+        "bytes": 224122,
         "title": "Introducing Claude Sonnet 4.5 \\ Anthropic",
-        "truncated": true
+        "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1390,14 +1390,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Sonnet 4.5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1413,7 +1413,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -1444,14 +1444,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 249593,
+        "bytes": 210525,
         "title": "Introducing Sonnet 4.6 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1475,14 +1475,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Sonnet 4.6 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1506,14 +1506,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Claude Sonnet 5.5 \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1537,14 +1537,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Sonnet 5.5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1568,14 +1568,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 244993,
+        "bytes": 205799,
         "title": "Introducing Claude Sonnet 5 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1599,14 +1599,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Claude Sonnet 5 - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1630,14 +1630,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 203418,
+        "bytes": 159063,
         "title": "Company \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1661,14 +1661,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Model deprecations - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1692,14 +1692,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Models overview - Claude Platform Docs",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1723,14 +1723,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 252320,
+        "bytes": 211934,
         "title": "Project Glasswing: Securing critical software for the AI era \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1754,14 +1754,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 231426,
+        "bytes": 198931,
         "title": "Redeploying Claude Fable 5 \\ Anthropic",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -1785,14 +1785,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T09:20:20Z",
-      "lastDefinitiveAt": "2026-10-27T09:20:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Anthropic’s Transparency Hub \\ Anthropic",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T09:20:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-02T10:02:38Z",
@@ -10953,17 +10953,17 @@
       },
       "archiveState": "active",
       "archiveSuggestion": null,
-      "consecutiveFailures": 9,
+      "consecutiveFailures": 10,
       "finalUrl": "https://docs.cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text-chat",
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": "2026-10-05T10:50:37Z",
       "firstFingerprint": null,
       "httpStatus": 404,
-      "lastCheckedAt": "2026-10-30T10:27:19Z",
-      "lastDefinitiveAt": "2026-10-30T10:27:19Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 98712,
-        "title": "404 | पेज नहीं मिला | Google Cloud Documentation",
+        "bytes": 96996,
+        "title": "404 | Pagina niet gevonden | Google Cloud Documentation",
         "truncated": false
       },
       "lastOkAt": null,
@@ -19792,7 +19792,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 403,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 5813,
@@ -19823,14 +19823,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Moonshot’s Kimi K3 pushes Chinese AI into Fable-level territory | Fortune",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -19854,14 +19854,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 224344,
+        "bytes": 223000,
         "title": "Moonshot released Kimi K3 model weights and technical report",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -19885,14 +19885,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "moonshotai (Moonshot AI)",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -19916,14 +19916,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 153635,
+        "bytes": 152301,
         "title": "Kimi K2.6 Has Arrived: An Open-Weight Powerhouse for Agentic Work",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -19947,14 +19947,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 168051,
+        "bytes": 167373,
         "title": "moonshotai/Kimi-Audio-7B-Instruct · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -19978,14 +19978,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - MoonshotAI/Kimi-Audio: Kimi-Audio, an open-source audio foundation model excelling in audio understanding, generation, and conversation · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20009,14 +20009,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 47888,
+        "bytes": 47486,
         "title": "[2504.18425] Kimi-Audio Technical Report",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20040,14 +20040,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 213604,
+        "bytes": 212935,
         "title": "moonshotai/Kimi-Dev-72B · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20071,14 +20071,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 262144,
+        "bytes": 253449,
         "title": "GitHub - MoonshotAI/Kimi-Dev: open-source coding LLM for software engineering tasks · GitHub",
-        "truncated": true
+        "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20102,14 +20102,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 244947,
+        "bytes": 207520,
         "title": "GitHub - MoonshotAI/Kimi-k1.5 · GitHub",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20133,14 +20133,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 57749,
+        "bytes": 57163,
         "title": "[2501.12599] Kimi k1.5: Scaling Reinforcement Learning with LLMs",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20164,14 +20164,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Kimi K2.5 Tech Blog: Visual Agentic Intelligence",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20195,14 +20195,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - MoonshotAI/Kimi-K2.5: Open Visual Agentic Intelligence · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20226,14 +20226,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "moonshotai/Kimi-K2.5 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20257,14 +20257,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 95459,
+        "bytes": 94300,
         "title": "[2602.02276] Kimi K2.5: Visual Agentic Intelligence",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20288,14 +20288,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "moonshotai/Kimi-K2.6 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20319,14 +20319,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Kimi K2.6 | 编程与智能体领域的领先开源模型",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20350,14 +20350,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "moonshotai/Kimi-K2.7-Code · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20381,14 +20381,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 238571,
+        "bytes": 237908,
         "title": "moonshotai/Kimi-K2-Base · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20412,14 +20412,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 1316,
         "title": "Kimi K2: Open Agentic Intelligence",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20443,14 +20443,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - MoonshotAI/Kimi-K2: Kimi K2 is the large language model series developed by Moonshot AI team · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20474,14 +20474,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "moonshotai/Kimi-K2-Instruct-0905 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20505,14 +20505,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "moonshotai/Kimi-K2-Instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20536,14 +20536,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 76234,
+        "bytes": 75648,
         "title": "[2507.20534] Kimi K2: Open Agentic Intelligence",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20567,14 +20567,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 1135,
         "title": "Kimi K2 Thinking",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20598,14 +20598,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "moonshotai/Kimi-K2-Thinking · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20629,14 +20629,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Kimi K3.1 Pro Tech Blog: Advancing Open Intelligence",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20660,14 +20660,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Kimi K3 Tech Blog: Open Frontier Intelligence",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20691,14 +20691,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - MoonshotAI/Kimi-K3: Open Frontier Intelligence · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20722,14 +20722,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "moonshotai/Kimi-K3 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20753,14 +20753,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 231065,
+        "bytes": 231155,
         "title": "moonshotai/Kimi-Linear-48B-A3B-Instruct · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20784,14 +20784,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 262144,
+        "bytes": 247494,
         "title": "GitHub - MoonshotAI/Kimi-Linear · GitHub",
-        "truncated": true
+        "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20815,14 +20815,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 52073,
+        "bytes": 51487,
         "title": "[2510.26692] Kimi Linear: An Expressive, Efficient Attention Architecture",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20846,14 +20846,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "moonshotai/Kimi-VL-A3B-Instruct · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20877,14 +20877,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 230758,
+        "bytes": 230128,
         "title": "moonshotai/Kimi-VL-A3B-Thinking · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20908,14 +20908,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - MoonshotAI/Kimi-VL: Kimi-VL: Mixture-of-Experts Vision-Language Model for Multimodal Reasoning, Long-Context Understanding, and Strong Agent Capabilities · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20939,14 +20939,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 58161,
+        "bytes": 57002,
         "title": "[2504.07491] Kimi-VL Technical Report",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -20965,8 +20965,8 @@
       "firstCheckedAt": "2026-10-27T11:01:34Z",
       "firstFailureAt": null,
       "firstFingerprint": null,
-      "httpStatus": 403,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "httpStatus": null,
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 6094,
@@ -20992,8 +20992,8 @@
       "firstCheckedAt": "2026-10-27T11:01:34Z",
       "firstFailureAt": null,
       "firstFingerprint": null,
-      "httpStatus": 403,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "httpStatus": null,
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 6004,
@@ -21024,14 +21024,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 19148,
+        "bytes": 19320,
         "title": "Kimi K2.5: Visual Agentic Intelligence",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -21040,14 +21040,18 @@
     "src.moonshot.techmeme-kimi-k3-1-pro": {
       "archiveCheck": null,
       "archiveState": null,
-      "archiveSuggestion": null,
+      "archiveSuggestion": {
+        "timestamp": "20261024080414",
+        "url": "https://web.archive.org/web/20261024080414/https://www.techmeme.com/261023/p15",
+        "via": "wayback-cdx-api"
+      },
       "consecutiveFailures": 0,
       "finalUrl": null,
       "firstCheckedAt": "2026-10-27T11:01:34Z",
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 403,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 4914,
@@ -21074,14 +21078,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Kimi K3.1 Pro Scores 4th of 215 AI Models; Moonshot Scrubs Cyberattack Data Before Open Weights",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -21105,14 +21109,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 94599,
+        "bytes": 94742,
         "title": "Moonshot AI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -21136,14 +21140,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
-      "lastDefinitiveAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Moonshot AI - Wikipedia",
         "truncated": true
       },
-      "lastOkAt": "2026-10-27T11:01:34Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-27T11:01:34Z",
@@ -26458,7 +26462,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 403,
-      "lastCheckedAt": "2026-10-27T11:01:34Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 9954,
@@ -31473,14 +31477,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-26T09:21:20Z",
-      "lastDefinitiveAt": "2026-10-26T09:21:20Z",
+      "lastCheckedAt": "2026-11-02T11:40:29Z",
+      "lastDefinitiveAt": "2026-11-02T11:40:29Z",
       "lastFingerprint": {
-        "bytes": 82494,
+        "bytes": 82757,
         "title": "xAI joins SpaceX | SpaceXSI",
         "truncated": false
       },
-      "lastOkAt": "2026-10-26T09:21:20Z",
+      "lastOkAt": "2026-11-02T11:40:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-07T10:34:22Z",
