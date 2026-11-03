@@ -2614,6 +2614,21 @@
     {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
+      "postId": "1mzn8mdb9k7",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1EOFBhTVFoaExxVHdRSVF2UUpGTzdKa0QtUEdTVW1ocFJWWnpGU0FVZXFMRklKWEJZYndPTW5feG9QblotTV9pTmFuSjJHYWlOYWI4OHJZN0swRzJDemF5azk0S1V6WHlvUXdYQjBLajNhQi1zTW1WRUJn?oc=5",
+      "title": "Kimi K3.1 Pro Debuts Fourth Globally, Three Points Off the Lead",
+      "publishedAt": "2026-10-24T07:00:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Intelligent Living",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-03T06:49:13Z",
+      "firstSeenIn": "fe2b825"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
       "postId": "1xvv0yupwp1",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE56TnRtQUM5aGt3VmxXMWlQM283RW9hZWZ6bldzTEdrcFlaNTZ5ODQtZk9Ld1FTSC0tMVZvZnZaRHk5ZDY3dEpZM0ktRGREVXNWY0xUMkU5NnVtSThncFpuY3Qxb2NSVkdBV3RYOHE0X2lmSU5NSTVCbmRn?oc=5",
       "title": "Kimi K3.1 Pro: 1M Context vs Opus 5.5’s $4/$20 [2026]",
@@ -3195,6 +3210,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-02T06:04:40Z",
       "firstSeenIn": "e7e081f"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "bqekdf2a0",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaXZnQ1VPbTVMaHJOX2NKSUl3T1hxem9OT1dGc3M1OVlPZVE1OWRSS2ZhaV8wdC1OWndieXZPd1NLaF85WUstRWlNNWRIR0xTUlVEcVVLOTZwNGZ3X0hiNzBxRGhoOGxHWXdVeE5PR3hNeDlFazJ3eWdkdzJQLXprUzRLRkJjZkhjdDhUcjhjUVpMc0JpRW1hdW1MdGZ6Q2JBQV9XTXl1MFF4aDNyUF9CcmpTVUN3YWl6YkcySmlKTEtKdVRjVGtHRWR3VE9BbEF5?oc=5",
+      "title": "Moonshot apologises after botched Kimi K3.1 Pro launch, restores user quotas",
+      "publishedAt": "2026-10-27T06:00:10Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "South China Morning Post",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-03T06:49:13Z",
+      "firstSeenIn": "fe2b825"
     },
     {
       "modelId": "moonshot.kimi-k3-1-pro",
