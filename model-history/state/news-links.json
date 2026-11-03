@@ -2314,6 +2314,21 @@
     {
       "modelId": "moonshot.kimi-k3",
       "variantId": null,
+      "postId": "1fcuuswpte5",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY1RDRlk4T0ZDd1k3UkNjdjJvZThOaFhQOGc0TEZjWlA0WDB5T3c4R1l2djZQdERNM1F1NHQzU3ZqcjFDb2UxQzViQVE4b210NnJtUGdmQjlKTGxKQUVTZEdIbkJtNjhqNU1GYWk1QnV4bnpCaENoYkUweTN4SHpOQ3lCUmVKcUI5OXBtUVdiNHNqSElUYl9pR3EwNGRPR2JoZVpCNGFUemhqSEt1dUpz?oc=5",
+      "title": "UK AISI / CAISI Preliminary Assessment of Kimi K3's Cyber Capabilities",
+      "publishedAt": "2026-07-23T07:00:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "National Institute of Standards and Technology (.gov)",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-03T16:15:48Z",
+      "firstSeenIn": "f0d620b"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
       "postId": "1mi19ssqh5n",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQSzFUSDlrSXkwUk90a2N2MXhSZFVwcXIxQkJNS1J3V2RQTktNSXZPR0pGX1F3ZFRHcW9zWlU1ME92SE9NdS02ZVV4SkNEODlIYjR4TW9pVktCUlhFaExpLWZNRG5IcGZTU1ZvU1duUTZnekx2TDBxVVQyc2ZkT3NyWkVNaWlJbmRSb2NNbUpuMy1Zc3FCNnU4Tml0WTFEOUp6RE4yZFZ5a29yd3ZmeDdWa050d0VrR1RNUzB2MHFOTVdLUQ?oc=5",
       "title": "Kimi K3's full weights are here, but they're 'open' with a caveat: What enterprises should know",
@@ -2340,6 +2355,21 @@
       "alias": "kimi k3",
       "firstSeenAt": "2026-11-02T23:31:50Z",
       "firstSeenIn": "5a6ccd8"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "ckjgm90lrf",
+      "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxQUXpwUEpYUTc0OHFCYVpwa182MWt5VFp1WTZfaVhGM2hnT1ctYTNuUDlYc2xqMGRmeElNRHJkWjBTNUNWUEQyR3l4WmN5dFc5ZjRSay03T2xVbDlGd1BDLVFCcUw1YUlWc3B1bE1TaGVxWnAxYUt6dXdlNGdaNkMxUnJmYzExdzBKbml5RElIcFlyQ29KOVVEdjcwYTRsakVBLTZ4c3oxdlZ6OWNieUt1ZExYekV1c2phWEk5SEpUWWVXekl0Q2ZwMGl2WTRfVkplSEx4YzFoZmlSemdHWFZ6bk9xNHhhTVVUd0hzQXRqeUM4cDFOQmZfSEd0NVduLVFiek5yVlJyVzN3SzQ2Z3B6eUR3UU9YbHFuQ2k4dDY1RDBoUTlzVHNWbjNmMkZ1UjBiUjlERWtpd3phN3NlUnFIME53Q1JzYW1CUU5FWDI5OW5OTnF2NFJJNHhFQkdHR0tmSGtrT1UtV01oMlcy?oc=5",
+      "title": "Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run",
+      "publishedAt": "2026-07-27T07:00:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Tom's Hardware",
+      "method": "auto",
+      "alias": "kimi-k3",
+      "firstSeenAt": "2026-11-03T16:15:48Z",
+      "firstSeenIn": "f0d620b"
     },
     {
       "modelId": "moonshot.kimi-k3",
