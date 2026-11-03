@@ -559,6 +559,21 @@
     {
       "modelId": "anthropic.claude-opus-5-5",
       "variantId": null,
+      "postId": "2dpcop4jkg0",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ3hIVEJReWhldnNyNVRzeGhuZjdJNHh6X1dkSG9CbkliWXducy14dlhrdk0yM09mLTJNcmtRak5JRTlCSW5oVm1vVnY0ZDJod0ZZZmxCd2JScllXdHVvLXlLR1BsOFNuLXBsWGhWWjNoMm1tY0FoN3BaM2F4LUpLZjFVNTI4VmNySFBneWNCWFMxSFRDNUhiWW1WVzhITUIy?oc=5",
+      "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
+      "publishedAt": "2026-10-23T07:00:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "The Decoder",
+      "method": "auto",
+      "alias": "claude opus 5.5",
+      "firstSeenAt": "2026-11-03T21:50:21Z",
+      "firstSeenIn": "d90813a"
+    },
+    {
+      "modelId": "anthropic.claude-opus-5-5",
+      "variantId": null,
       "postId": "1ws5w6we436",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLUdRdUVWU0tTX1FyTEhlWkVrX1FJd2tQTmVyamkxcjFkYTh4bXA3c1V0ZHdJc3F5UlNPYk9lMzNneXlObGFMSU9QSXRFNFI1SURhN2FXS2lxQjYwQkpjMDZLS04tOFcxUHl6NTlaMERkSFZ1cVQ4ZHlRcFVWUFM5UDVJLUZmSWxiMDlCS2dkLUp1SVZDYnhwaWw3bXFRVUE?oc=5",
       "title": "How Kimi K3.1 Pro stacks up against Claude Opus 5.5 and GPT-6 Astra",
@@ -1455,6 +1470,21 @@
       "alias": "v4.1-flash",
       "firstSeenAt": "2026-10-30T19:23:56Z",
       "firstSeenIn": "6811974"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "21qkkuoduu2",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORXJiejlQNkFkN2xsVlU4OFRKWU80amRyV3M1OWpqMmNCRVhDbXExdzM2SjZzQ3ZwYlA1S1lERDJaNUZXTjVoY2Q5eWhKZEVUQVFDY2hnaFpZdkVPdTRvTDB0YkpEVElJYTJxaUFXTzZuRjdIVFpvY2hFWEJuUUx0SlFNZVFGQy1pREtpNE43Tk8wcldvX1ZSQkVKRkpraW14aTA2OVR5d2o?oc=5",
+      "title": "Huawei Cloud to Retire openPangu-2.0 Models From MaaS, Recommends DeepSeek-V4.1-Flash and GLM-5.3",
+      "publishedAt": "2026-11-03T20:55:27Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Pandaily",
+      "method": "auto",
+      "alias": "deepseek-v4.1-flash",
+      "firstSeenAt": "2026-11-03T21:50:21Z",
+      "firstSeenIn": "d90813a"
     },
     {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
@@ -2550,6 +2580,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-02T15:54:31Z",
       "firstSeenIn": "b004c6a"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "2dpcop4jkg0",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ3hIVEJReWhldnNyNVRzeGhuZjdJNHh6X1dkSG9CbkliWXducy14dlhrdk0yM09mLTJNcmtRak5JRTlCSW5oVm1vVnY0ZDJod0ZZZmxCd2JScllXdHVvLXlLR1BsOFNuLXBsWGhWWjNoMm1tY0FoN3BaM2F4LUpLZjFVNTI4VmNySFBneWNCWFMxSFRDNUhiWW1WVzhITUIy?oc=5",
+      "title": "Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5",
+      "publishedAt": "2026-10-23T07:00:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "The Decoder",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-03T21:50:21Z",
+      "firstSeenIn": "d90813a"
     },
     {
       "modelId": "moonshot.kimi-k3-1-pro",
@@ -4590,6 +4635,21 @@
       "alias": "gpt-6 astra",
       "firstSeenAt": "2026-10-30T19:23:56Z",
       "firstSeenIn": "6811974"
+    },
+    {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "11brpjo2z6e",
+      "link": "https://www.youtube.com/watch?v=NCxD-qsQcN0",
+      "title": "TamaGPT",
+      "publishedAt": "2026-11-03T18:30:30Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "YouTube",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-11-03T21:50:21Z",
+      "firstSeenIn": "d90813a"
     },
     {
       "modelId": "openai.gpt-6-luna",
