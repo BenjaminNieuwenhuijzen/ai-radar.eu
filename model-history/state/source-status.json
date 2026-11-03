@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T11:40:29Z",
+  "generated": "2026-11-03T11:19:37Z",
   "schemaVersion": 1,
   "sources": {
     "src.anthropic.100k-context-windows-announcement": {
@@ -8380,14 +8380,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-28T10:00:21Z",
-      "lastDefinitiveAt": "2026-10-28T10:00:21Z",
+      "lastCheckedAt": "2026-11-03T11:19:37Z",
+      "lastDefinitiveAt": "2026-11-03T11:19:37Z",
       "lastFingerprint": {
-        "bytes": 143318,
+        "bytes": 143294,
         "title": "Introducing Gemini 3.5 Flash Cyber — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-10-28T10:00:21Z",
+      "lastOkAt": "2026-11-03T11:19:37Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-28T10:00:21Z",
@@ -8454,6 +8454,29 @@
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
       "url": "https://deepmind.google/models/model-cards/gemini-3-5-flash/"
+    },
+    "src.google.gemini-3-5-transcribe-announcement": {
+      "archiveCheck": null,
+      "archiveState": null,
+      "archiveSuggestion": null,
+      "consecutiveFailures": 0,
+      "finalUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "firstCheckedAt": "2026-11-03T11:19:37Z",
+      "firstFailureAt": null,
+      "firstFingerprint": null,
+      "httpStatus": 200,
+      "lastCheckedAt": "2026-11-03T11:19:37Z",
+      "lastDefinitiveAt": null,
+      "lastFingerprint": {
+        "bytes": 262144,
+        "title": "Introducing Gemini 3.5 Transcribe",
+        "truncated": true
+      },
+      "lastOkAt": null,
+      "lastResult": "moved",
+      "state": "unknown",
+      "stateSince": null,
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/"
     },
     "src.google.gemini-3-6-flash-3-5-flash-lite-announcement": {
       "archiveCheck": null,
@@ -8690,14 +8713,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-10-28T10:00:21Z",
-      "lastDefinitiveAt": "2026-10-28T10:00:21Z",
+      "lastCheckedAt": "2026-11-03T11:19:37Z",
+      "lastDefinitiveAt": "2026-11-03T11:19:37Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.8 Live & Gemini 3.8 Live Extended Thinking",
         "truncated": true
       },
-      "lastOkAt": "2026-10-28T10:00:21Z",
+      "lastOkAt": "2026-11-03T11:19:37Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-28T10:00:21Z",
