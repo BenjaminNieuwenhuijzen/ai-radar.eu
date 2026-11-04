@@ -1487,6 +1487,21 @@
       "firstSeenIn": "d90813a"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "qct2iei2ei",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbjRMWFB0dE45ZDBIaTB3cVo3dHlYM256ZWtQdlUzdHprNGQ1NkpkRFFDdUJDYVlwQ0NYMDNLTV9EN3ByeXVJazUya0t4Nlo2ODlvdzJjZjF1ZDZTS1dMZ05IakRqWlVVeEtMSHpuYjNHOEhoUmRmTGpJanpFb3JQc0Y3Z1U2cXpkUzg0X1AzMmNLeXc?oc=5",
+      "title": "NVIDIA's DeepSeek-V4.1-Flash NVFP4 Model: Everything You Need to Know",
+      "publishedAt": "2026-11-04T08:05:06Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "HackerNoon",
+      "method": "auto",
+      "alias": "deepseek-v4.1-flash",
+      "firstSeenAt": "2026-11-04T12:09:34Z",
+      "firstSeenIn": "6f43f9f"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
