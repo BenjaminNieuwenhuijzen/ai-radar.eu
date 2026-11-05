@@ -3634,6 +3634,21 @@
     {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
+      "postId": "yotwj0wiam",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42bkxXM3JiUGQzNHR0eFVTdHVXMlFqUWNGVnRlQ01rZzY5bXhmMTRETFBUZV9KRzF1Q0JjR0NNcTBBMWVIOTVfYlFaNVR1R2dIdFRKbXNtOG5FR3ZjNkhCYU5XN1V6SklKUGdGWg?oc=5",
+      "title": "Moonshot AI's Kimi K3.1 Pro Deployed on AMD Instinct MI355X GPUs",
+      "publishedAt": "2026-11-04T17:09:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Blockchain News",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-05T00:55:58Z",
+      "firstSeenIn": "09edefe"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
       "postId": "1qej8ahhj14",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTHQ4NHB1UzdCSTFVdkJ6QmFJSEN6QkdidWxHMFN1c0RtekZDQy0wQlZlMUR4cXRnOHExTXEtbXI4cmNZTEwwcm43ZkZBamIzU2VRZE92dlIxX3ZSOEZhcDF4VVN1ekhsbUJrajhTdHZGX25IaEk4RldzNjRVbzRvX2Y1MHFrXzhvMVdzbjZQaw?oc=5",
       "title": "Kimi K3.1 Pro Weights Out; Leads Opus 5.5 on 16 of 37 Tests",
@@ -3660,6 +3675,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-04T19:47:21Z",
       "firstSeenIn": "a32dbf6"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "1l0t5uk4bxc",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5USUlNYUhZRkU1MW80bXhLMUxqUGowY3FZdFF0WS03akRJajhMZkFhYWhBOEo5THdneFlmYmJZd1dZMURVV2FnbGZ6bjY1MFZoamwxaEpQTGZWOTJLaFo1aGg3UGhxNXBHRkE?oc=5",
+      "title": "Ripple 65B Preview vs Kimi K3.1 Pro: No Shared Exam",
+      "publishedAt": "2026-11-04T19:42:28Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-05T00:55:58Z",
+      "firstSeenIn": "09edefe"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
@@ -3915,6 +3945,36 @@
       "alias": "gpt-6.1 sol",
       "firstSeenAt": "2026-10-27T14:41:17Z",
       "firstSeenIn": "fcd8643"
+    },
+    {
+      "modelId": "openai.gpt-6-1-sol",
+      "variantId": null,
+      "postId": "fbgb7y842h",
+      "link": "https://openai.com/index/devrev-enterprise-self-service",
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "publishedAt": "2026-11-04T00:00:00Z",
+      "dateOnly": true,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6.1 sol",
+      "firstSeenAt": "2026-11-05T00:55:58Z",
+      "firstSeenIn": "09edefe"
+    },
+    {
+      "modelId": "openai.gpt-6-1-sol",
+      "variantId": null,
+      "postId": "15ls45hu9k5",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUWHZCZURqUWZEbHNMNVJtUWN2aWpIcVdiLXVFU1VmejdMVFlMZ2hxX2dzd3FYM0MxNnBLRl82RTVRZUpVVU5rblRtTW9yMmZtSjZFRTRVeXRWLWhSZzRlLTJxaw?oc=5",
+      "title": "GPT-6.1 Sol vs Kimi K4: The Model That Never Existed",
+      "publishedAt": "2026-11-04T22:38:42Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gpt-6.1 sol",
+      "firstSeenAt": "2026-11-05T00:55:58Z",
+      "firstSeenIn": "09edefe"
     },
     {
       "modelId": "openai.gpt-6-1-terra",
