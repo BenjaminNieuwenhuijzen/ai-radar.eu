@@ -2327,6 +2327,21 @@
       "firstSeenIn": "16da74a"
     },
     {
+      "modelId": "mistral.mistral-large-4",
+      "variantId": null,
+      "postId": "rocg6qwd8m",
+      "link": "https://www.youtube.com/watch?v=sVYk3YL9SBs",
+      "title": "Mistral Studio: Agents, apps and workflows for enterprise AI you control",
+      "publishedAt": "2026-11-05T15:51:44Z",
+      "dateOnly": false,
+      "company": "Mistral AI",
+      "source": "YouTube",
+      "method": "auto",
+      "alias": "mistral large 4",
+      "firstSeenAt": "2026-11-05T18:02:49Z",
+      "firstSeenIn": "36ab2b4"
+    },
+    {
       "modelId": "mistral.mistral-medium-3-5",
       "variantId": null,
       "postId": "1cpe61vkvvt",
@@ -3619,6 +3634,21 @@
     {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
+      "postId": "1rwbimhta3n",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMFNjQ1dJbHRhTDg0d1ZBYzVlUHI4M1lMeXp4Unk5QThnUVJwd1VuTTlsZmhJVGJQbW1WMkVKWkRSNHRFMV94eFpfcnJkMW0xZ01OYUFDWU1Td3lobzBYX0tJWXRmLWVZQ3Q3WFROTlBReDRVM3FmMHJKckgwaWJLUmtNTW1GRXZwMEQwdkJsSQ?oc=5",
+      "title": "Kimi K3.1 Pro Open Weights: 2.8T Parameters, 1M Context",
+      "publishedAt": "2026-11-01T09:52:47Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "shattered.io",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-05T18:02:49Z",
+      "firstSeenIn": "36ab2b4"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
       "postId": "scfptqrime",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RbmFzdlMwY3REU1AxMkppb1lIUlpVVWdOd1N6NWF6NlNHRVBSV1ByeV9XUGpfQi1tbmZYcWh5Vl9EVXZLU096aWxGYmNyZWd6WXdnY0s4M3Z2WllQMWtDczBxblZxX2lBY0VBeWRn?oc=5",
       "title": "Build a Kimi K3.1 Pro Agent: 13 Steps, 90 Min [2026]",
@@ -3780,6 +3810,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-05T09:30:57Z",
       "firstSeenIn": "e9cb783"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "9dnb1mrcf0",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FV2ROOGlfZC1mOU1EUTFyVjdIMlBnSElscXdfNDNiU2JkYlMxUHVhWnd0aE5NUzlVcjQtc3plaFdWSmpVcWpkc1pNSkF3bWpsa2JZSUtYUkVVTDQ?oc=5",
+      "title": "Moonshot AI Publishes Kimi K3.1 Pro Weights on Hugging Face",
+      "publishedAt": "2026-11-05T11:04:21Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "www.tokenpost.com",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-05T18:02:49Z",
+      "firstSeenIn": "36ab2b4"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
