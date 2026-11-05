@@ -2672,6 +2672,21 @@
       "firstSeenIn": "a32dbf6"
     },
     {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "18lugzqto39",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVFFzS0ZCRWRYMmE1NFVlcHM2SEpzUHVhcFB6SGZHTkpodUdFMzRoRkZ6UE9GMVUzWVgyeEZZVVo4OU9IZ05CMnBCel90c2liSVdyalpaRjhPVmg3c0NIQnB1NllldS1hMWxwZ1ZtMnhtaEkyNTM2Rm9HeU5pSG5EYjZhUlRjenIza0ZQMEtJY2h6YXBYLVZwc1ZOWTU3UG8ybEwxanhJYjQ3cm8?oc=5",
+      "title": "Skymizer and MiTAC to Showcase Single-Server Kimi K3 Platform at SC26",
+      "publishedAt": "2026-11-05T20:47:53Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "HPCwire",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-05T23:39:34Z",
+      "firstSeenIn": "9847ef4"
+    },
+    {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
       "postId": "1xcjm3bhqws",
@@ -4980,6 +4995,21 @@
       "alias": "gpt-6 astra",
       "firstSeenAt": "2026-11-03T21:50:21Z",
       "firstSeenIn": "d90813a"
+    },
+    {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "p606v4vmux",
+      "link": "https://openai.com/index/merge-builds-with-openai",
+      "title": "Merge builds product and business tools with OpenAI technology",
+      "publishedAt": "2026-11-05T08:00:00Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-11-05T23:39:34Z",
+      "firstSeenIn": "9847ef4"
     },
     {
       "modelId": "openai.gpt-6-luna",
