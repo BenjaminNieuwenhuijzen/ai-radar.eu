@@ -17,6 +17,14 @@
     {
       "text": "GPT-6",
       "match": "candidate"
+    },
+    {
+      "text": "GPT-6 Astra outputs",
+      "match": "never"
+    },
+    {
+      "text": "GPT-6 Astra after",
+      "match": "never"
     }
   ],
   "organizations": [
