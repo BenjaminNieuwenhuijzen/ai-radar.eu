@@ -227,6 +227,21 @@
       "firstSeenIn": "fcd8643"
     },
     {
+      "modelId": "anthropic.claude-haiku-5-5",
+      "variantId": null,
+      "postId": "2fcuaawx93g",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaUdzbkZuODhtNnEwZkw2OXJPWWhYVzhzQmdrc2xYbmJJZHpJdGNXQ3Axb002QmV2ZGk1b0JHZ0ItVXRNYUJiYkJleDhHVVQ5bUp1ZmctQzM5Z2tzOTZKeGtHQk1GcU80LXRocXlFTVctTnhtY04tbVItTExYVHJleks0STZJRV9PSzk1TEhlczFvS2Vidmc?oc=5",
+      "title": "DeepSeek V4.1 Flash vs Gemini 4 Argon vs Haiku 5.5 [2026]",
+      "publishedAt": "2026-11-07T00:28:41Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "tech-insider.org",
+      "method": "auto",
+      "alias": "haiku 5.5",
+      "firstSeenAt": "2026-11-07T01:58:00Z",
+      "firstSeenIn": "2e764fd"
+    },
+    {
       "modelId": "anthropic.claude-mythos-5",
       "variantId": null,
       "postId": "23oi8ei3zel",
@@ -1532,6 +1547,21 @@
       "firstSeenIn": "e9cb783"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "2fcuaawx93g",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaUdzbkZuODhtNnEwZkw2OXJPWWhYVzhzQmdrc2xYbmJJZHpJdGNXQ3Axb002QmV2ZGk1b0JHZ0ItVXRNYUJiYkJleDhHVVQ5bUp1ZmctQzM5Z2tzOTZKeGtHQk1GcU80LXRocXlFTVctTnhtY04tbVItTExYVHJleks0STZJRV9PSzk1TEhlczFvS2Vidmc?oc=5",
+      "title": "DeepSeek V4.1 Flash vs Gemini 4 Argon vs Haiku 5.5 [2026]",
+      "publishedAt": "2026-11-07T00:28:41Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "tech-insider.org",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-07T01:58:00Z",
+      "firstSeenIn": "2e764fd"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
@@ -2100,6 +2130,21 @@
       "alias": "gemini 4 argon",
       "firstSeenAt": "2026-10-27T20:43:24Z",
       "firstSeenIn": "9ba4ae9"
+    },
+    {
+      "modelId": "google.gemini-4-argon",
+      "variantId": null,
+      "postId": "2fcuaawx93g",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNaUdzbkZuODhtNnEwZkw2OXJPWWhYVzhzQmdrc2xYbmJJZHpJdGNXQ3Axb002QmV2ZGk1b0JHZ0ItVXRNYUJiYkJleDhHVVQ5bUp1ZmctQzM5Z2tzOTZKeGtHQk1GcU80LXRocXlFTVctTnhtY04tbVItTExYVHJleks0STZJRV9PSzk1TEhlczFvS2Vidmc?oc=5",
+      "title": "DeepSeek V4.1 Flash vs Gemini 4 Argon vs Haiku 5.5 [2026]",
+      "publishedAt": "2026-11-07T00:28:41Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "tech-insider.org",
+      "method": "auto",
+      "alias": "gemini 4 argon",
+      "firstSeenAt": "2026-11-07T01:58:00Z",
+      "firstSeenIn": "2e764fd"
     },
     {
       "modelId": "google.gemini-4-carbon",
