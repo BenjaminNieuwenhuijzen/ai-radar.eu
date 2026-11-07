@@ -3859,6 +3859,21 @@
     {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
+      "postId": "1357flew82l",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQaVRQQ2Rab1lJRVN0aDFoRzZZOFA3aWFWbDFweW5EaktIUjJ6MnBra0laY1hQR1FhVU5WMkNSbVpzakdIdEVwT2wtdHhuRmN4V3ZaLVkyaTRxQS04bGJsMDhNY1hTREN1bEdtQUpUZVN2c2l0eEJ3a0lhRHpSUDl2YXZ3bw?oc=5",
+      "title": "The weight of the 'Kimi K3.1 Pro' will be made publicly available for free.",
+      "publishedAt": "2026-11-05T03:59:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "GIGAZINE",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-07T08:49:07Z",
+      "firstSeenIn": "8035233"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
       "postId": "je90hhnkjf",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zWlB0WjBqMGFLdm04WlBHU1NoT3hHUXNhS3V3eEQ1M1c5UEQtc055N2k1T2dSR1RiX084MXk2NWZ5bzBfRVp0QjMycU1sZ0ZjbllsU1F4T2x6QTNIQldIMFN1dUtQUVRJWUNUN3BXZTFRV19NalE?oc=5",
       "title": "Moonshot AI Releases Full 1.56TB Weights of Kimi K3.1 Pro for Free, Permits Commercial Use With Conditions",
@@ -3945,6 +3960,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-06T06:47:43Z",
       "firstSeenIn": "581b99f"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "3va69fsoju",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE90NUFoVVJpd2tVUWY1TjJ3dDNlVnE5dzlkcEtRc3hISXhzN2p4M0NnM3FXS3lQeTNzamg0bGF0ZEVsdTBCOEJ6T29EYjRkMENlQkF6NUdFc3FfaUJZYVVnYlYzZ2tFcUdieTRPUFZPOUF3UVE?oc=5",
+      "title": "Moonshot AI Releases Kimi K3.1 Pro Weights: A 2.8-Trillion-Parameter Model Shipping at About 1.56TB",
+      "publishedAt": "2026-11-06T04:32:44Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "XenoSpectrum",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-07T08:49:07Z",
+      "firstSeenIn": "8035233"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
