@@ -3977,6 +3977,21 @@
       "firstSeenIn": "8035233"
     },
     {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "1khytck7tzc",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcWJhX01BVVZlVnVZLW1kX0JQVjg3aExnUGFCUHhQYzg5dG9ZWlBJR245dVY3MUczQXpMZllrNWF1NUdmZVU2YXVQWWxDdHFEMDlnXzB2SnNGN2NvaEhwVGt5UXlsWXVabll2V1RKMUhCOUl2ZHJ1MWdYczItbVg0bVBzXzNDdzBXWEE?oc=5",
+      "title": "Moore Threads Adds Day-Zero Kimi K3.1 Pro Support on MTT S5000 GPUs",
+      "publishedAt": "2026-11-07T01:58:16Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Pandaily",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-07T16:28:09Z",
+      "firstSeenIn": "e8ea897"
+    },
+    {
       "modelId": "nvidia.nemotron-3-5-lightning",
       "variantId": null,
       "postId": "llxbmn8ygy",
@@ -4260,6 +4275,21 @@
       "alias": "gpt-6.1 sol",
       "firstSeenAt": "2026-11-06T06:47:43Z",
       "firstSeenIn": "581b99f"
+    },
+    {
+      "modelId": "openai.gpt-6-1-sol",
+      "variantId": null,
+      "postId": "1rbmemuglf7",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBETjc1QkFDSFpKeTdWZTE3TldHOXVMb1EzN0JBMnd5Uzc0OUtCMnhDSVNxT3JRNlVDRnU4cDF3Mlg1SkZwTGtKal9xTG9VN2Fid2hYS1FtUDFmenZwNzhmUVAzRzA?oc=5",
+      "title": "GPT-6.1 Sol vs Grok 4.8: Only One of Them Exists Today",
+      "publishedAt": "2026-11-04T22:31:29Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gpt-6.1 sol",
+      "firstSeenAt": "2026-11-07T16:28:09Z",
+      "firstSeenIn": "e8ea897"
     },
     {
       "modelId": "openai.gpt-6-1-sol",
