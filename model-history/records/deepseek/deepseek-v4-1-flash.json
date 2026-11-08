@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "deepseek.deepseek-v4-1-flash",
   "coverage": "full",
-  "lastReviewedAt": "2026-10-01",
+  "lastReviewedAt": "2026-11-08",
   "slug": "deepseek-v4-1-flash",
   "name": "DeepSeek-V4.1-Flash",
   "aliases": [
@@ -25,6 +25,10 @@
     {
       "text": "deepseek-flash",
       "match": "candidate"
+    },
+    {
+      "text": "deepseek v4.1 pricing",
+      "match": "never"
     }
   ],
   "organizations": [
