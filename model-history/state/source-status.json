@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T10:45:42Z",
+  "generated": "2026-11-09T12:06:44Z",
   "schemaVersion": 1,
   "sources": {
     "src.anthropic.100k-context-windows-announcement": {
@@ -8380,14 +8380,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-03T11:19:37Z",
-      "lastDefinitiveAt": "2026-11-03T11:19:37Z",
+      "lastCheckedAt": "2026-11-09T12:06:44Z",
+      "lastDefinitiveAt": "2026-11-09T12:06:44Z",
       "lastFingerprint": {
         "bytes": 143294,
         "title": "Introducing Gemini 3.5 Flash Cyber — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-03T11:19:37Z",
+      "lastOkAt": "2026-11-09T12:06:44Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-28T10:00:21Z",
@@ -8465,7 +8465,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-03T11:19:37Z",
+      "lastCheckedAt": "2026-11-09T12:06:44Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -8713,14 +8713,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-03T11:19:37Z",
-      "lastDefinitiveAt": "2026-11-03T11:19:37Z",
+      "lastCheckedAt": "2026-11-09T12:06:44Z",
+      "lastDefinitiveAt": "2026-11-09T12:06:44Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.8 Live & Gemini 3.8 Live Extended Thinking",
         "truncated": true
       },
-      "lastOkAt": "2026-11-03T11:19:37Z",
+      "lastOkAt": "2026-11-09T12:06:44Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-28T10:00:21Z",
