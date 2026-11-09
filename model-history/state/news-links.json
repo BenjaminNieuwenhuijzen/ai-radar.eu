@@ -1562,6 +1562,21 @@
       "firstSeenIn": "2e764fd"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "unzg4jkoni",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SV01pZ1ktQTJOSWR5azJpb0lxdmlkcXAydEcxZVViUE5sYkpDWFUwMVdSTHhhVTBNUUlMcUxZNldEdkJVdG5UcEk1VWFiZURkNjZLUUxkRGtqSXJXYzlMQWw5RzVvalBBbXBaaENTU2U?oc=5",
+      "title": "DeepSeek V4.1 Flash Reaches 72.8% in Cyber-Intrusion Benchmark, Close Behind OpenAI's GPT-6 Sol Daybreak",
+      "publishedAt": "2026-11-09T01:15:26Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "XenoSpectrum",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-09T09:50:15Z",
+      "firstSeenIn": "29604fd"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
@@ -2760,6 +2775,21 @@
       "alias": "kimi k3",
       "firstSeenAt": "2026-11-05T23:39:34Z",
       "firstSeenIn": "9847ef4"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "15gp8qpxa54",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNem5td0M5cFlvOVcxZWNPMmFKTHFLMnY0bU1hOXpMaWJxRnI1WHpJZGg3VG1RSkNwS1ZKRS1tdkwySTg4cVhmQ3FiWlFRMDlrZDNhSTFnVFNzQTBhVkFTOVVDdWw2M3luamVSbndhcDUyMzg0aXZPY3ZyNy12c1JBc0hUNXZPazA?oc=5",
+      "title": "Kimi K3 Gets India-Only Inference on Amazon Bedrock",
+      "publishedAt": "2026-11-09T04:01:05Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Elets CIO",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-09T09:50:15Z",
+      "firstSeenIn": "29604fd"
     },
     {
       "modelId": "moonshot.kimi-k3-1-pro",
@@ -5265,6 +5295,21 @@
       "alias": "gpt-6 sol",
       "firstSeenAt": "2026-10-05T05:42:45Z",
       "firstSeenIn": "dcab53f"
+    },
+    {
+      "modelId": "openai.gpt-6-sol",
+      "variantId": null,
+      "postId": "unzg4jkoni",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SV01pZ1ktQTJOSWR5azJpb0lxdmlkcXAydEcxZVViUE5sYkpDWFUwMVdSTHhhVTBNUUlMcUxZNldEdkJVdG5UcEk1VWFiZURkNjZLUUxkRGtqSXJXYzlMQWw5RzVvalBBbXBaaENTU2U?oc=5",
+      "title": "DeepSeek V4.1 Flash Reaches 72.8% in Cyber-Intrusion Benchmark, Close Behind OpenAI's GPT-6 Sol Daybreak",
+      "publishedAt": "2026-11-09T01:15:26Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "XenoSpectrum",
+      "method": "auto",
+      "alias": "gpt-6 sol",
+      "firstSeenAt": "2026-11-09T09:50:15Z",
+      "firstSeenIn": "29604fd"
     },
     {
       "modelId": "openai.gpt-oss-1",
