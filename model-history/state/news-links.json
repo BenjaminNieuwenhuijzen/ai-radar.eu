@@ -2432,6 +2432,21 @@
       "firstSeenIn": "36ab2b4"
     },
     {
+      "modelId": "mistral.mistral-large-4",
+      "variantId": null,
+      "postId": "1i0f40gtcnl",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQc1BIUm5EQ1A1OXdLVGNZd3dGdm1QV0tLMjRSZk5DWEllSTJQS05xSHhQTG5aSnR3NnNJMFB0dndwSFZMeldLbmwySVNENWd5UzlYR1dROG9Edi1sTE1DNWJQdlRpLWQyTEFOU3ZGa2VYMElvLVNhN1dTMWhhdUtQV0lQa0stUQ?oc=5",
+      "title": "DeepSeek API Pricing vs Mistral Large 4 [2026]",
+      "publishedAt": "2026-11-09T12:25:27Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "shattered.io",
+      "method": "auto",
+      "alias": "mistral large 4",
+      "firstSeenAt": "2026-11-09T20:45:49Z",
+      "firstSeenIn": "f663a69"
+    },
+    {
       "modelId": "mistral.mistral-medium-3-5",
       "variantId": null,
       "postId": "1cpe61vkvvt",
@@ -2640,6 +2655,21 @@
       "alias": "kimi k3",
       "firstSeenAt": "2026-11-02T23:31:50Z",
       "firstSeenIn": "5a6ccd8"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "1cc7yrzy40h",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcEhPOVRWZ25kVXA0VlpBaGpJdzRGdHNXY2JJM29sTWVZTEhJQkwxQVl5ZFB6NXhESlBiZXB3V1dwR1E1V2tFenp3aDFfbG5rQjRta1NuT1JwSzlGRE1NTHdvb0gybzFLQ0NqOXdiVXNUUVl2cXdfaFM5Y2hlZHJ4R2lEMlA1RXQzSFVueQ?oc=5",
+      "title": "Kimi K3 is now available in GitHub Copilot",
+      "publishedAt": "2026-08-06T07:00:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "The GitHub Blog",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-09T20:45:49Z",
+      "firstSeenIn": "f663a69"
     },
     {
       "modelId": "moonshot.kimi-k3",
@@ -3795,6 +3825,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-02T23:31:50Z",
       "firstSeenIn": "5a6ccd8"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "28olq91pvlk",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcV9JYkNIa3RMNEpnTjRFX0EzUG1sNG90dWJsek1XT3prVUJJOFFHU3l2ZWxZTkIwbGQxMDBrQmJXVUxEemo2MUcxenlxWkdGaHBZSVJZQUpxWlZYM1ZLRjg4LWJkYkZjSXZVdXJ1Xzl0SmJ4TE5GM3lpazEzQ1VvRFZnM3d3ZDJsaWg0X3l3REtqc3M?oc=5",
+      "title": "Kimi K3.1 Pro open weights: release and terms",
+      "publishedAt": "2026-11-04T08:00:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "NeoTeo",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-09T20:45:49Z",
+      "firstSeenIn": "f663a69"
     },
     {
       "modelId": "moonshot.kimi-k3-1-pro",
