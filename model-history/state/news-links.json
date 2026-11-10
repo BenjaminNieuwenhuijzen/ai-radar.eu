@@ -1847,6 +1847,21 @@
       "firstSeenIn": "581b99f"
     },
     {
+      "modelId": "google.gemini-3-8-flash",
+      "variantId": null,
+      "postId": "1soeqcvquto",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1yT1pVWU9rWEVDcFhoTXcxN25oZFE4ZmpyblAySHBJMmNsaEdXX0hrbktlUGpXTG1icDJXVFpLTF9uNVJSTTgyRE9EMEkxek1LMUVGbW5fTjd0ZjQyWHU4VXcycW1TbldLdDB4ODh0dXgwdHlGOGc?oc=5",
+      "title": "ERNIE Light DT 1.0 vs Qwen 3.8 Flash: Dearer, Text Only",
+      "publishedAt": "2026-11-10T20:39:46Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "3.8 flash",
+      "firstSeenAt": "2026-11-10T20:51:13Z",
+      "firstSeenIn": "8b2e6db"
+    },
+    {
       "modelId": "google.gemini-3-8-live",
       "variantId": null,
       "postId": "167vldacd5t",
@@ -2250,6 +2265,51 @@
       "alias": "gemini 4 carbon",
       "firstSeenAt": "2026-10-29T05:49:14Z",
       "firstSeenIn": "4f78371"
+    },
+    {
+      "modelId": "google.gemini-4-carbon",
+      "variantId": null,
+      "postId": "c41p2rs3gg",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "title": "Gemini 4 Carbon is now available",
+      "publishedAt": "2026-11-10T16:00:00Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "Gemini",
+      "method": "auto",
+      "alias": "gemini 4 carbon",
+      "firstSeenAt": "2026-11-10T20:51:13Z",
+      "firstSeenIn": "8b2e6db"
+    },
+    {
+      "modelId": "google.gemini-4-carbon",
+      "variantId": null,
+      "postId": "1ckm6f51x6y",
+      "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "title": "Gemini 4 Carbon is now available",
+      "publishedAt": "2026-11-10T16:03:47Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "DeepMind",
+      "method": "auto",
+      "alias": "gemini 4 carbon",
+      "firstSeenAt": "2026-11-10T20:51:13Z",
+      "firstSeenIn": "8b2e6db"
+    },
+    {
+      "modelId": "google.gemini-4-carbon",
+      "variantId": null,
+      "postId": "mfwzpfcnbz",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCcVNFMmVlNkVnTTZCZmhUX2o2b25NbmMtUUpQTlpMRFV5QXFXejBDdGtjczZkUEQtSExnem9Mb0xyZXh1VXVuM3c2cXlVM2xSbXY0cXZDZFNPZUxzWGhqLWd6c2RRMHZ5YlZCNExvV1BHV1E?oc=5",
+      "title": "Gemini 4 Carbon vs DeepSeek V4 Pro: What 37 Index Points and 4.4x the Cost Per Task Actually Buy",
+      "publishedAt": "2026-11-10T17:34:58Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 4 carbon",
+      "firstSeenAt": "2026-11-10T20:51:13Z",
+      "firstSeenIn": "8b2e6db"
     },
     {
       "modelId": "google.gemma-4",
@@ -4140,6 +4200,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-10T04:09:09Z",
       "firstSeenIn": "f744b70"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "1x2b6tispqh",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQWVlRVJORHdHUnE4R3pnYm01NzJVNEtrRUdNMUxpdS02azZVS3hzSE5ERjRBVXJzOVZMa1FEajJuRVhhUF9menUybndPdzJ2MXo1UFlZUl9sVTdBLUhWVkgtaHhVMHk2SlNMem1GbVNHaDZEak9ReG02UmY3X0trd1phMWQ?oc=5",
+      "title": "Kimi K3.1 Pro Coder Arrives at 775 GB, Built to Fit One GPU",
+      "publishedAt": "2026-11-10T14:31:32Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Pasquale Pillitteri",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-10T20:51:13Z",
+      "firstSeenIn": "8b2e6db"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
