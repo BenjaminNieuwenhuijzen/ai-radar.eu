@@ -806,6 +806,45 @@
       "availability": "active",
       "notes": "Model Report section with one summary table per model (description, release month, access surfaces, modalities, knowledge cutoff). Living page; content as seen on 2026-10-01. https://www.anthropic.com/transparency shows the same content.",
       "lastCheckedAt": "2026-10-01"
+    },
+    {
+      "id": "src.anthropic.claude-fable-5-2-mythos-5-2-announcement",
+      "type": "announcement",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "publishedAt": {
+        "value": "2026-11-09"
+      },
+      "notes": "Page dated November 9, 2026. Lives outside /news/.",
+      "lastCheckedAt": "2026-11-10"
+    },
+    {
+      "id": "src.anthropic.claude-fable-5-2-docs",
+      "type": "documentation",
+      "title": "Claude Fable 5.2",
+      "url": "https://platform.claude.com/docs/en/models/fable-5-2/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-11-10"
+    },
+    {
+      "id": "src.anthropic.claude-mythos-5-2-docs",
+      "type": "documentation",
+      "title": "Claude Mythos 5.2",
+      "url": "https://platform.claude.com/docs/en/models/mythos-5-2/overview",
+      "publisher": "Anthropic",
+      "publisherOrgId": "anthropic",
+      "provenance": "primary",
+      "availability": "active",
+      "notes": "Per-model reference page in the Claude Platform docs (status, release date, model IDs, context window, input and output). Living page.",
+      "lastCheckedAt": "2026-11-10"
     }
   ]
 }

@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "id": "anthropic.claude-mythos-5-2",
+  "coverage": "full",
+  "lastReviewedAt": "2026-11-10",
+  "slug": "claude-mythos-5-2",
+  "name": "Claude Mythos 5.2",
+  "aliases": [
+    {
+      "text": "Claude Mythos 5.2",
+      "match": "auto"
+    },
+    {
+      "text": "Mythos 5.2",
+      "match": "auto"
+    },
+    {
+      "text": "claude-mythos-5-2",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "anthropic",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "anthropic.claude-mythos",
+  "generation": "5.2",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "available",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-mythos-5-2-docs",
+        "locator": "Availability: Status"
+      }
+    ],
+    "note": "Available only to organizations verified through Anthropic's verification programs."
+  },
+  "dates": {
+    "announced": null,
+    "released": {
+      "value": "2026-11-09",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-2-docs",
+          "locator": "Availability: Released"
+        },
+        {
+          "id": "src.anthropic.claude-fable-5-2-mythos-5-2-announcement"
+        }
+      ]
+    },
+    "deprecated": null,
+    "retired": null
+  },
+  "relations": [
+    {
+      "type": "successor-of",
+      "target": "anthropic.claude-mythos-5-1",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-2-mythos-5-2-announcement",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "type": "variant-of",
+      "target": "anthropic.claude-fable-5-2",
+      "basis": "sourced",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-2-mythos-5-2-announcement",
+          "locator": "Introduction"
+        },
+        {
+          "id": "src.anthropic.claude-mythos-5-2-docs"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "text": "Claude Mythos 5.2 is a language model in Anthropic's Claude Mythos line and the successor to Claude Mythos 5.1, released on 9 November 2026. Anthropic describes it as the same underlying model as Claude Fable 5.2 and offers it to organizations verified through its Cyber and Life Sciences Verification Programs; specifications and prices match Fable 5.2.",
+    "sources": [
+      {
+        "id": "src.anthropic.claude-fable-5-2-mythos-5-2-announcement",
+        "locator": "Introduction"
+      },
+      {
+        "id": "src.anthropic.claude-mythos-5-2-docs"
+      }
+    ]
+  },
+  "changes": [
+    {
+      "id": "price-speed",
+      "aspect": "other",
+      "direction": "changed",
+      "text": "Anthropic states outputs are up to 30% faster than the 5.1 models, at 8 USD per million input and 40 USD per million output tokens, plus an optional fast mode at 16 and 80 USD.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-2-mythos-5-2-announcement",
+          "locator": "Introduction"
+        }
+      ]
+    },
+    {
+      "id": "safeguards",
+      "aspect": "safety",
+      "direction": "changed",
+      "text": "Anthropic describes Mythos 5.2 as the same model as Fable 5.2, offered to verified organizations, and reports stronger protections against distillation attacks.",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-fable-5-2-mythos-5-2-announcement",
+          "locator": "Safety and alignment"
+        }
+      ]
+    }
+  ],
+  "capabilities": {
+    "inputModalities": {
+      "value": [
+        "text",
+        "image"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-2-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "outputModalities": {
+      "value": [
+        "text"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-2-docs",
+          "locator": "Capabilities: Input and output"
+        }
+      ]
+    },
+    "contextWindowTokens": {
+      "value": 1000000,
+      "asStated": "1M",
+      "qualifier": null,
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-2-docs",
+          "locator": "Capabilities: Context window"
+        }
+      ]
+    },
+    "parameters": {
+      "value": null,
+      "disclosure": "not-disclosed",
+      "sources": [],
+      "note": "Not disclosed by Anthropic."
+    },
+    "access": {
+      "value": [
+        "api",
+        "cloud-partner"
+      ],
+      "disclosure": "official",
+      "sources": [
+        {
+          "id": "src.anthropic.claude-mythos-5-2-docs",
+          "locator": "Availability: Platforms"
+        }
+      ],
+      "note": "Available only to organizations verified through Anthropic's verification programs."
+    }
+  }
+}
