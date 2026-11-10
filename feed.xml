@@ -5,13 +5,188 @@
 <link>https://ai-radar.eu/</link>
 <description>Combined updates from leading AI companies.</description>
 <language>en</language>
-<lastBuildDate>Tue, 10 Nov 2026 04:09:09 GMT</lastBuildDate>
+<lastBuildDate>Tue, 10 Nov 2026 12:41:36 GMT</lastBuildDate>
+<item>
+<title>[DeepMind] Introducing AlphaProof Code: a breakthrough in verifying complex software at depth</title>
+<link>https://deepmind.google/blog/introducing-alphaproof-code/</link>
+<guid isPermaLink="false">https://deepmind.google/blog/introducing-alphaproof-code/</guid>
+<pubDate>Tue, 10 Nov 2026 12:02:28 +0000</pubDate>
+<description>AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.</description>
+</item>
+<item>
+<title>[News] Helping caregivers use AI in everyday life</title>
+<link>https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</link>
+<guid isPermaLink="false">https://openai.com/index/helping-caregivers-use-ai-in-everyday-life</guid>
+<pubDate>Tue, 10 Nov 2026 12:00:00 GMT</pubDate>
+<description>OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.</description>
+</item>
+<item>
+<title>[Google News] Documents show Moonshot AI renting Nvidia B300 servers in China - The Next Web</title>
+<link>https://news.google.com/rss/articles/CBMic0FVX3lxTE80SV90WUR5VUlMNUsyMll5T29ldF9HQmg4THh5ZmxPS0hDSVFZZlpGb3ZRNTFaRklWMGZQdlNTWnRhMGY2MXI1Y2xkR0hLM3MxTi1scUllNnQwVUkta0ZTcmgwSmVCU0kwRzNZemtwZnI4SFU?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMic0FVX3lxTE80SV90WUR5VUlMNUsyMll5T29ldF9HQmg4THh5ZmxPS0hDSVFZZlpGb3ZRNTFaRklWMGZQdlNTWnRhMGY2MXI1Y2xkR0hLM3MxTi1scUllNnQwVUkta0ZTcmgwSmVCU0kwRzNZemtwZnI4SFU?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 11:27:41 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] China's Moonshot AI Appears to Have Leased 32 of Nvidia's Most Advanced B300 Servers, Raising Questions of Export-Control Workaround - BigGo Finance</title>
+<link>https://news.google.com/rss/articles/CBMidkFVX3lxTE5uSWwyZ0EyeWZTNXdyZktZNFNwTldMaDdiQmZXYXc5OEpGa0NWS1Q4U0hvSzdCZHhJZ05KOW55cXRwSlJDTDJoX2tiSmxuQXV1cGZfcFF0VlV4RkxhSE54QnZsdkxkOUlyQWpDVGN0QTNOSHV2X3c?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTE5uSWwyZ0EyeWZTNXdyZktZNFNwTldMaDdiQmZXYXc5OEpGa0NWS1Q4U0hvSzdCZHhJZ05KOW55cXRwSlJDTDJoX2tiSmxuQXV1cGZfcFF0VlV4RkxhSE54QnZsdkxkOUlyQWpDVGN0QTNOSHV2X3c?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 10:35:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Commission calls for stricter regulation of AI assistants in France - Le Monde.fr</title>
+<link>https://news.google.com/rss/articles/CBMi0gFBVV95cUxNN0Z2c3RscXFLMG50ZUVqTjk4UU1kREhOMzhVTmtmYWdPUGZyckdDenNkZ1VuSnVMak5UdXozRTBRUllfSXctUEx5cTJPWGNvRnZyYnFfZzFIM3BpRWI4YTNOUlZLcURLYjRleDZWd1c0RWpBTHkyVnJLTkwyX0ZWS1JSTXFZLUhuMTFqbGU1YUxfR1o5Y0wzcUhDbDFrd1BJM2pyNWlIWjlybVZRdXpab3B6UUVfTUNXbXJkTHhRS2Rpd04xdUFqcm1QbDNZaHdlb3c?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi0gFBVV95cUxNN0Z2c3RscXFLMG50ZUVqTjk4UU1kREhOMzhVTmtmYWdPUGZyckdDenNkZ1VuSnVMak5UdXozRTBRUllfSXctUEx5cTJPWGNvRnZyYnFfZzFIM3BpRWI4YTNOUlZLcURLYjRleDZWd1c0RWpBTHkyVnJLTkwyX0ZWS1JSTXFZLUhuMTFqbGU1YUxfR1o5Y0wzcUhDbDFrd1BJM2pyNWlIWjlybVZRdXpab3B6UUVfTUNXbXJkTHhRS2Rpd04xdUFqcm1QbDNZaHdlb3c?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 10:15:08 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Shocker! China's Moonshot has access to top NVIDIA AI chips - NewsBytes</title>
+<link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZG01OVdDV0ZWLVVoVFlTcHN5UFE1T0FhT1VPQ1NBZ096VGt0THY5bVB6ZTlzUFl5YkM3eng3SElCMTVxbFY1Um41OWFFNS1QS2pjSEhaMWZsakR4cENXQVNKWWZBU19UQ3NldU9iR3picWppb21wdTh5VExKczVWaWpYN2x2dVVreVZKM0N3MU1xb1Q1cFVxVFdmR1BtMjQzUzU3NkdwU1Jvdw?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZG01OVdDV0ZWLVVoVFlTcHN5UFE1T0FhT1VPQ1NBZ096VGt0THY5bVB6ZTlzUFl5YkM3eng3SElCMTVxbFY1Um41OWFFNS1QS2pjSEhaMWZsakR4cENXQVNKWWZBU19UQ3NldU9iR3picWppb21wdTh5VExKczVWaWpYN2x2dVVreVZKM0N3MU1xb1Q1cFVxVFdmR1BtMjQzUzU3NkdwU1Jvdw?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 09:24:10 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Moonshot AI Secures $65M Nvidia B300 GPUs Amid Regulatory Scruti - GuruFocus</title>
+<link>https://news.google.com/rss/articles/CBMirgFBVV95cUxNc0Y5elZVM1RBRkV1bWl1cFg5OGduVW1RaVBoSjFIVHZRY0pDVVNSRnpjeHhtUlN1MGFJaWlVRGNwOGNrODlpWWM3WjRlQU9OUEJlRkJiNVpfMERRbE50eWR3QVBYTUMxeXN6em1uNXNzWm1ycWF1aDdVWFk3Zm1JSEtodzJLdGZHeWJxRjQyeDdVU1hDeTEweW5sOWctQUtKUDBaLWJSUFRrUThmcmc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMirgFBVV95cUxNc0Y5elZVM1RBRkV1bWl1cFg5OGduVW1RaVBoSjFIVHZRY0pDVVNSRnpjeHhtUlN1MGFJaWlVRGNwOGNrODlpWWM3WjRlQU9OUEJlRkJiNVpfMERRbE50eWR3QVBYTUMxeXN6em1uNXNzWm1ycWF1aDdVWFk3Zm1JSEtodzJLdGZHeWJxRjQyeDdVU1hDeTEweW5sOWctQUtKUDBaLWJSUFRrUThmcmc?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 09:03:15 GMT</pubDate>
+
+</item>
+<item>
+<title>[News] Closing the AI guidance gap in education</title>
+<link>https://openai.com/index/closing-ai-guidance-gap-education</link>
+<guid isPermaLink="false">https://openai.com/index/closing-ai-guidance-gap-education</guid>
+<pubDate>Tue, 10 Nov 2026 09:00:00 GMT</pubDate>
+<description>New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning.</description>
+</item>
+<item>
+<title>[Google News] International film congress in Tallinn focuses on funding and artificial intelligence - ERR</title>
+<link>https://news.google.com/rss/articles/CBMitwFBVV95cUxNVkdPWkFUTzVRc0hsWVRfSkdPRUpLN2tETTRCU0FlRmNsWWJJVk12c2R6amNPS2loVm9qT3JCMjJZRU1pYVR6dVd4aGQ3YlJPbDF1aXlibWUzMXptT25FTGxEbXVhYXNHRTNleDNtdjRwUFVVM3lmU2NEUlhzUjg4ay1IQW4zLXk1MUJ1bFBEZVMtRlB3TkFUVDBKbERsTDlUemRiWUoyUnhQMzN2eGVoYXRYenRfaVU?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitwFBVV95cUxNVkdPWkFUTzVRc0hsWVRfSkdPRUpLN2tETTRCU0FlRmNsWWJJVk12c2R6amNPS2loVm9qT3JCMjJZRU1pYVR6dVd4aGQ3YlJPbDF1aXlibWUzMXptT25FTGxEbXVhYXNHRTNleDNtdjRwUFVVM3lmU2NEUlhzUjg4ay1IQW4zLXk1MUJ1bFBEZVMtRlB3TkFUVDBKbERsTDlUemRiWUoyUnhQMzN2eGVoYXRYenRfaVU?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 08:55:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Nvidia’s China Spy Fallout Deepens: Report Says Moonshot AI Accessed NVDA’s Advanced Chips Despite Export Controls - TradingView</title>
+<link>https://news.google.com/rss/articles/CBMihAJBVV95cUxQTnhobzhEQnYwLVYyNTUyN2M4Zk1ydXNJdmlDTk56eHpkSjd2MnFYUnU4bzlHb3dZbElDTW5nakNhSkZPbGpQUXctR2huYUpRUF9sT1l6RDMwVWNkYkIzZV90Zl82TlVfNGdjUkRLcVc1bm5Ycm8yRldId01mYTQ4b0ZFU2ZYbW96RXYwYnd6bGNKSTRIVXJqdUJmRHoyb1UyUWJoS2cyNTFNTkgteEgyc3FrM252Rko1X3ZKM0VUMzhUNVVBbWVWUnJkZlRrVTIwbENwM0FhTHlWTWU4aFhaclU5amVaamZvU1c5cGZoaThKbV9VSkd0LUx0V29xUXQ2d0FpXw?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMihAJBVV95cUxQTnhobzhEQnYwLVYyNTUyN2M4Zk1ydXNJdmlDTk56eHpkSjd2MnFYUnU4bzlHb3dZbElDTW5nakNhSkZPbGpQUXctR2huYUpRUF9sT1l6RDMwVWNkYkIzZV90Zl82TlVfNGdjUkRLcVc1bm5Ycm8yRldId01mYTQ4b0ZFU2ZYbW96RXYwYnd6bGNKSTRIVXJqdUJmRHoyb1UyUWJoS2cyNTFNTkgteEgyc3FrM252Rko1X3ZKM0VUMzhUNVVBbWVWUnJkZlRrVTIwbENwM0FhTHlWTWU4aFhaclU5amVaamZvU1c5cGZoaThKbV9VSkd0LUx0V29xUXQ2d0FpXw?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 08:48:56 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Nvidia’s China Spy Fallout Deepens: Report Says Moonshot AI Accessed NVDA’s Advanced Chips Despite Export Controls - Stocktwits</title>
+<link>https://news.google.com/rss/articles/CBMiiAJBVV95cUxOU0RXZGlXTTVMN01RWGkyN25wOGw5VDlfN1ZnYnJVMllWdUFqcHYzQm5UNTZKMW5nWmllQ1dJckstUlB3ZXJBeGs2U0tvU1JYWk5aT3BQcFAyU1N5VEF3V01yS3R6RkUyeDl2UzA0TVNib01BQXh1MjBFalNTTmdLbEJxOXRyTWdmdWl6WWxNLWZxMFBfNGoxRFpxNlJHRjJnbFJqOHdfYzh0bk81ZURfbDZUNmVQbkVnYjVyR3FzZGVVbTRrUDJNNVZIM01uaDlxWXY2T0dHeGFhVzRXTXJCNXNSc0hQdlhjakZtWXV5Z1dvVE5kMS1YaUhPRGRkYzhlQ2sxZjFtdW0?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiiAJBVV95cUxOU0RXZGlXTTVMN01RWGkyN25wOGw5VDlfN1ZnYnJVMllWdUFqcHYzQm5UNTZKMW5nWmllQ1dJckstUlB3ZXJBeGs2U0tvU1JYWk5aT3BQcFAyU1N5VEF3V01yS3R6RkUyeDl2UzA0TVNib01BQXh1MjBFalNTTmdLbEJxOXRyTWdmdWl6WWxNLWZxMFBfNGoxRFpxNlJHRjJnbFJqOHdfYzh0bk81ZURfbDZUNmVQbkVnYjVyR3FzZGVVbTRrUDJNNVZIM01uaDlxWXY2T0dHeGFhVzRXTXJCNXNSc0hQdlhjakZtWXV5Z1dvVE5kMS1YaUhPRGRkYzhlQ2sxZjFtdW0?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 08:48:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek Agentic Harness Reaches 1.5 Million Users - Silicon UK</title>
+<link>https://news.google.com/rss/articles/CBMiakFVX3lxTE5nbWVIdG5nM1l6RXNMNGFGbEFPVHdiZmVHUFFxaV9xaU1GRVd3VUlxTU9raGx3LTdjTjZla0hhRl8wQTNBMmh1emNrdndYa2FfOERCNHJNS1NFTHlnQ3lUMml6aVlDWjZvWmc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiakFVX3lxTE5nbWVIdG5nM1l6RXNMNGFGbEFPVHdiZmVHUFFxaV9xaU1GRVd3VUlxTU9raGx3LTdjTjZla0hhRl8wQTNBMmh1emNrdndYa2FfOERCNHJNS1NFTHlnQ3lUMml6aVlDWjZvWmc?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 08:32:32 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] China’s Moonshot AI rents advanced Nvidia chips: Bloomberg (NVDA:NASDAQ) - Seeking Alpha</title>
+<link>https://news.google.com/rss/articles/CBMimgFBVV95cUxQRlpRekZkdGhKYndfaEhzaWFWaGRON0tYeDBtVUljQjJheHRRbXA2d3RYRUV4Wk1aRUJ4RlZEell5R2xuWGx0d2M5UEtTN2x0SXByLUFIM1NsUGYwa0dmZFNERVZDaVk5QXJGYlo1NG81X1pSbHFkdGRfYnQ3TmVNLXhPUXJ1bEJOWDlnOS1TdC02d3VnMlV2RmJ3?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMimgFBVV95cUxQRlpRekZkdGhKYndfaEhzaWFWaGRON0tYeDBtVUljQjJheHRRbXA2d3RYRUV4Wk1aRUJ4RlZEell5R2xuWGx0d2M5UEtTN2x0SXByLUFIM1NsUGYwa0dmZFNERVZDaVk5QXJGYlo1NG81X1pSbHFkdGRfYnQ3TmVNLXhPUXJ1bEJOWDlnOS1TdC02d3VnMlV2RmJ3?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 08:16:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] China’s Moonshot AI Rents Nvidia’s Top AI Chips Despite U.S. Ban - TipRanks</title>
+<link>https://news.google.com/rss/articles/CBMilgFBVV95cUxPN050d2pPR2VaS0cyeDlTWURfaVRrRlcxTm96OFN0TWlPcHRRNk5KTTA0Q2hzOEJUVFVXQkRjRGJ0cC1icl8wM1dqMnhjOEx1QWVYS2ZpUHBmUVUwblR1SklRRHV3dUlCaTR6dFo3cWg5NEJjSWZlellCUWhBblROeGRGMVo0dFhvdTFaTnlFYTEyNkV6ZGc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMilgFBVV95cUxPN050d2pPR2VaS0cyeDlTWURfaVRrRlcxTm96OFN0TWlPcHRRNk5KTTA0Q2hzOEJUVFVXQkRjRGJ0cC1icl8wM1dqMnhjOEx1QWVYS2ZpUHBmUVUwblR1SklRRHV3dUlCaTR6dFo3cWg5NEJjSWZlellCUWhBblROeGRGMVo0dFhvdTFaTnlFYTEyNkV6ZGc?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 08:15:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] How China gets the Nvidia chips it needs to develop AI - Hong Kong Free Press HKFP</title>
+<link>https://news.google.com/rss/articles/CBMikwFBVV95cUxOUlI3RGdiMkdHTXkwU3lfQ3hqU2c1ajhuZU9mM1N1OUEwNk5fT0thTlo5R0NPQXlWSWsycExDTU5tYXdlcWI1Ql8xZy1sR1dZeWV3VmgwUXpDal94Vk1yeDdpV09Ic0M4YmFITlc0VVFTeGo4bXRCWDBkWUtObFNUbmgzajBqdUNUa0t0d2hNS0xSM0k?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMikwFBVV95cUxOUlI3RGdiMkdHTXkwU3lfQ3hqU2c1ajhuZU9mM1N1OUEwNk5fT0thTlo5R0NPQXlWSWsycExDTU5tYXdlcWI1Ql8xZy1sR1dZeWV3VmgwUXpDal94Vk1yeDdpV09Ic0M4YmFITlc0VVFTeGo4bXRCWDBkWUtObFNUbmgzajBqdUNUa0t0d2hNS0xSM0k?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 08:10:07 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] AI Agents Steal OpenAI and DeepSeek API Keys From Exposed Servers While Harvesting Data of 5,132 Chinese St... - GBHackers News</title>
+<link>https://news.google.com/rss/articles/CBMiV0FVX3lxTFAxQVJ2LXBkb1J2ZzNfOE5ZXzE3XzdDMGliNXEzTkhrcFN5SHNSNksxdm80c25Wc3NZSU1fV2xBR2tUaExmeUNXeDdEeVlhMkM1RUxfMktTWdIBXEFVX3lxTE5sc2JtWjV5ZWk0U1daUTV4bGVpN0dId1lnRnotbmlRMlh3VjRwVGZaS2hIQ29GS2V1eURqNVNBcUgtLXFJVTNYSXJfWmRQY3FZMnc1dlZrSk1rcXEt?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiV0FVX3lxTFAxQVJ2LXBkb1J2ZzNfOE5ZXzE3XzdDMGliNXEzTkhrcFN5SHNSNksxdm80c25Wc3NZSU1fV2xBR2tUaExmeUNXeDdEeVlhMkM1RUxfMktTWdIBXEFVX3lxTE5sc2JtWjV5ZWk0U1daUTV4bGVpN0dId1lnRnotbmlRMlh3VjRwVGZaS2hIQ29GS2V1eURqNVNBcUgtLXFJVTNYSXJfWmRQY3FZMnc1dlZrSk1rcXEt?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 07:50:51 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] China's Moonshot AI rents Nvidia advanced chips: Bloomberg - The Standard (HK)</title>
+<link>https://news.google.com/rss/articles/CBMiswFBVV95cUxQN2pjQXd1eUZMLUVUOVE4enNRTGItcjhLdHlmcWxYY0ZLa0w1b05kdzhURHZscnVla0d6SmgySEwxMWt4LVZtYTRtem9oWnBEOFpnOUQ5NjlhcnJrY2x0ajJPUHpSLVlvdzh6YUhNSUtBUXliV2hmZWlmU211aXVJY25DYThJMzdxaEN5bnhKbmRJUjJDaHdad05PTzRHOUVzcW1HeG9GSEtZbHJtSVFxTzA2WQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiswFBVV95cUxQN2pjQXd1eUZMLUVUOVE4enNRTGItcjhLdHlmcWxYY0ZLa0w1b05kdzhURHZscnVla0d6SmgySEwxMWt4LVZtYTRtem9oWnBEOFpnOUQ5NjlhcnJrY2x0ajJPUHpSLVlvdzh6YUhNSUtBUXliV2hmZWlmU211aXVJY25DYThJMzdxaEN5bnhKbmRJUjJDaHdad05PTzRHOUVzcW1HeG9GSEtZbHJtSVFxTzA2WQ?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 07:45:34 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Moonshot AI Leased 32 B300 Servers in August as Chinese AI Still Relies on Nvidia Hardware - BigGo Finance</title>
+<link>https://news.google.com/rss/articles/CBMidkFVX3lxTE9aLUswUG96S2tYNXdBSXA1MFRVVHpfRXRSbEtEalYzUk5HQTJiT2JoV1lLUDZNc1RPWjc5UHB4M0RUTXMxY3hhOWppSUZqWi0tX0dtNTI0OG9sVG5WYzV6eGszLThETk9ZMGRoVzU1SjhFd3ZMRUE?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTE9aLUswUG96S2tYNXdBSXA1MFRVVHpfRXRSbEtEalYzUk5HQTJiT2JoV1lLUDZNc1RPWjc5UHB4M0RUTXMxY3hhOWppSUZqWi0tX0dtNTI0OG9sVG5WYzV6eGszLThETk9ZMGRoVzU1SjhFd3ZMRUE?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 07:05:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Anthropic Must Face Lawsuit Over Claude Subscription Marketing - NDTV</title>
+<link>https://news.google.com/rss/articles/CBMitwFBVV95cUxNbDNZNERZOEYtaUNKNTRUT3gzY1FybFAzakZVcWRrOExhcjE1SjY2ZHJ4R2NoaWZUOTRtTy0wRDNWSjFIYW5nUGxuazB3TmV0NGFqcW1wSmVFWlFhTDRtN1I3RlVxWTY3TEVUOHl4c1FSaWhkeVJJUkxPdGRGeW9wWElsdTRrdWlPT1BOeXVNRTlnOUJPVDJSWFFJTlVMVXNrS25oa3RjSmdpbmQyU09WTmM0UjBBdWPSAb8BQVVfeXFMTUlYbS1SZFpKTzFJcWlJNzJCeDdZMGdnT0lsZGVHQ1JLaVRKYmhGck9mUTlYb211VU5MalRycVVRRHZjSlYxNzhxcy16YUxUZ1g2dGZZYUthbVpOdGhOQ3l4V1R5NHJoY1l6OHFqQ1JPUFhFR3VGV3BmMTh2Rndja180XzR2Vzk2YTlsYmEwU3VmQmtjOUpjREZDOTNrMW1fdmFnbW1aSHY2VXRxbVlPcTVIVFhGaHQtUWNYSHI3TUU?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitwFBVV95cUxNbDNZNERZOEYtaUNKNTRUT3gzY1FybFAzakZVcWRrOExhcjE1SjY2ZHJ4R2NoaWZUOTRtTy0wRDNWSjFIYW5nUGxuazB3TmV0NGFqcW1wSmVFWlFhTDRtN1I3RlVxWTY3TEVUOHl4c1FSaWhkeVJJUkxPdGRGeW9wWElsdTRrdWlPT1BOeXVNRTlnOUJPVDJSWFFJTlVMVXNrS25oa3RjSmdpbmQyU09WTmM0UjBBdWPSAb8BQVVfeXFMTUlYbS1SZFpKTzFJcWlJNzJCeDdZMGdnT0lsZGVHQ1JLaVRKYmhGck9mUTlYb211VU5MalRycVVRRHZjSlYxNzhxcy16YUxUZ1g2dGZZYUthbVpOdGhOQ3l4V1R5NHJoY1l6OHFqQ1JPUFhFR3VGV3BmMTh2Rndja180XzR2Vzk2YTlsYmEwU3VmQmtjOUpjREZDOTNrMW1fdmFnbW1aSHY2VXRxbVlPcTVIVFhGaHQtUWNYSHI3TUU?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 06:13:51 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Moonshot AI rents Nvidia’s top AI chips in China, documents show - The Economic Times</title>
+<link>https://news.google.com/rss/articles/CBMiywFBVV95cUxONzUyVHBnNjFMaGhWaW52OW90NTRXRXVKd0NvX0NINllydl9zTHJ2TEw4VzFlNzJwRV9NaWJCNWN0cldKRXFaOWFJbXB6YW5sZlZYX3kxOENFWm8tV1RIQ19BSEdjaVBtMzFmV0RZMVRlZ2lHQi01MWZEMDRudmVMaUtUUG1SazlrV0Y3ekdHajFhNFVMZ3BWYUkxcDBGMngyYVZkQVplaWdRR1hmbERIODBtMGxBMk8yREV4UElqWi1OWldIbEZXWHVwSdIB0AFBVV95cUxPbU55SUVtN0h3WFFfT2phWlBxVHhWbjE0UWZVOTlLd043RWFSYk1wVEM5M0JZVFFIVEhucFVFbUZ6MnMydGdQOXpmYXloY0N5X29RZHdHeUllX0EzaHhUTFRBMG5HbDFoT0l1V1czM1BFbjRzUndCODRLVnFnenBnUVpvT1V0MUVnTTN6TWZiWTRnY1VNdWhvS1VkaWdJNTNtcm1LQkpZamlUZE9RQjRiWmNvSUlnbEVwVjJGUHg1VlJBN2o4b3duaUhBYmQwTjNG?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiywFBVV95cUxONzUyVHBnNjFMaGhWaW52OW90NTRXRXVKd0NvX0NINllydl9zTHJ2TEw4VzFlNzJwRV9NaWJCNWN0cldKRXFaOWFJbXB6YW5sZlZYX3kxOENFWm8tV1RIQ19BSEdjaVBtMzFmV0RZMVRlZ2lHQi01MWZEMDRudmVMaUtUUG1SazlrV0Y3ekdHajFhNFVMZ3BWYUkxcDBGMngyYVZkQVplaWdRR1hmbERIODBtMGxBMk8yREV4UElqWi1OWldIbEZXWHVwSdIB0AFBVV95cUxPbU55SUVtN0h3WFFfT2phWlBxVHhWbjE0UWZVOTlLd043RWFSYk1wVEM5M0JZVFFIVEhucFVFbUZ6MnMydGdQOXpmYXloY0N5X29RZHdHeUllX0EzaHhUTFRBMG5HbDFoT0l1V1czM1BFbjRzUndCODRLVnFnenBnUVpvT1V0MUVnTTN6TWZiWTRnY1VNdWhvS1VkaWdJNTNtcm1LQkpZamlUZE9RQjRiWmNvSUlnbEVwVjJGUHg1VlJBN2o4b3duaUhBYmQwTjNG?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 05:52:43 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Moonshot AI rents Nvidia’s top chips in China, Bloomberg reports - Yahoo Finance</title>
+<link>https://news.google.com/rss/articles/CBMilwFBVV95cUxQNUE2ZW1sSzVETTZ3aUhHbzEtMjJtc3pNVm15Qi1FQ2JNMWRweVRZMGF4TUxDWWNZckdVc2MzaUlwSlM3RXhRRi1QLWdhMmd0SnBOdFQtOG40YU1YTk8zYXhmeEdFM3liektfNTIyQzB2aUNTYWF6blJqQ2xCeHdXaXFJRlB1NHlkMGdvdVhPWEFnMEtLNFVF?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMilwFBVV95cUxQNUE2ZW1sSzVETTZ3aUhHbzEtMjJtc3pNVm15Qi1FQ2JNMWRweVRZMGF4TUxDWWNZckdVc2MzaUlwSlM3RXhRRi1QLWdhMmd0SnBOdFQtOG40YU1YTk8zYXhmeEdFM3liektfNTIyQzB2aUNTYWF6blJqQ2xCeHdXaXFJRlB1NHlkMGdvdVhPWEFnMEtLNFVF?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 05:43:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Self-Hosted LLM vs API: $0.70 to $2.00 Input [2026] - shattered.io</title>
+<link>https://news.google.com/rss/articles/CBMiowFBVV95cUxQMExTb2szUUFFU043Zjd6TWZHbUhlSEMzSUNoYVR1SE52RzMzSC04aGlGd1czc2hyQ1VfTjFyMEx4Zktjbjl5dTZES0J5aklDd3BOU0FXYnM3aEhHUXNDOU1vUGt3aWl3V1I3Vi1SMTdpWWp4Y2VBbVg0RUFNWXlhQzhCR2NVdE9QbV9sY0kwV2dSdFByRFpFZlhXZ0ZHWjlObHJR?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiowFBVV95cUxQMExTb2szUUFFU043Zjd6TWZHbUhlSEMzSUNoYVR1SE52RzMzSC04aGlGd1czc2hyQ1VfTjFyMEx4Zktjbjl5dTZES0J5aklDd3BOU0FXYnM3aEhHUXNDOU1vUGt3aWl3V1I3Vi1SMTdpWWp4Y2VBbVg0RUFNWXlhQzhCR2NVdE9QbV9sY0kwV2dSdFByRFpFZlhXZ0ZHWjlObHJR?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 05:13:24 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Muse Wonder vs Kimi K4: one is on sale, one is a rumour - OrcaRouter</title>
+<link>https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kTDdTWXM5UWhOVDFqbFNQX090MGg2R0VMR213VFkxVUwtLTk5VDhXbVZJb2lhQTNkREQwekZJaFpOdGpvZ0F6VERIcnc4RkRKQm1YdEtMdFJJTGN2Yk9hbVRLTQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiY0FVX3lxTE1kTDdTWXM5UWhOVDFqbFNQX090MGg2R0VMR213VFkxVUwtLTk5VDhXbVZJb2lhQTNkREQwekZJaFpOdGpvZ0F6VERIcnc4RkRKQm1YdEtMdFJJTGN2Yk9hbVRLTQ?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 03:45:39 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Martinsville school board tables proposed AI policy until December - WSET</title>
+<link>https://news.google.com/rss/articles/CBMitwFBVV95cUxQT2FaMy0tOVktNUNSZTd1UERySC1Fa3ZSZ1ZmUWtaQ2k0cmFGR1NPMW9mbkFmLTVhcjgySFRSZUVpc1FKNVNlV1Iza1ZteDhsUGNJS3lNSVV0UUhNUm96eEhRRmhBbUk1NTk4aDNYUjhoS1R5Y05yblVuV0hIeW1kN3JpanlpVWVMZ1dYRmx0Vk53T2FUNGxpelUxS040b0hZd3NEbWpibENBbmFURHhaZXYyNzRNbXc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitwFBVV95cUxQT2FaMy0tOVktNUNSZTd1UERySC1Fa3ZSZ1ZmUWtaQ2k0cmFGR1NPMW9mbkFmLTVhcjgySFRSZUVpc1FKNVNlV1Iza1ZteDhsUGNJS3lNSVV0UUhNUm96eEhRRmhBbUk1NTk4aDNYUjhoS1R5Y05yblVuV0hIeW1kN3JpanlpVWVMZ1dYRmx0Vk53T2FUNGxpelUxS040b0hZd3NEbWpibENBbmFURHhaZXYyNzRNbXc?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 03:24:56 GMT</pubDate>
+
+</item>
 <item>
 <title>[Google News] CXMT chairman's reported DeepSeek investment spotlights China's semiconductor capital network - digitimes</title>
 <link>https://news.google.com/rss/articles/CBMijwFBVV95cUxQOG1BZTRYLVVaSTVuNi1aaTBuQkNhVVkxRjA0Ml9WT2J4bVhHNDREd2dIQlpNTGE1OTFod3k0b1dSb3lMZG1EVmZMb2dPUjV6OGFaZFE1Sko4QnJ1d3ZpTlF2Ymt5YS15ZHFKdFJMX0t0YUtKS2xmRlk0LThCLXFYTnVVTURlbGg0Z1lXVnFIYw?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMijwFBVV95cUxQOG1BZTRYLVVaSTVuNi1aaTBuQkNhVVkxRjA0Ml9WT2J4bVhHNDREd2dIQlpNTGE1OTFod3k0b1dSb3lMZG1EVmZMb2dPUjV6OGFaZFE1Sko4QnJ1d3ZpTlF2Ymt5YS15ZHFKdFJMX0t0YUtKS2xmRlk0LThCLXFYTnVVTURlbGg0Z1lXVnFIYw?oc=5</guid>
 <pubDate>Tue, 10 Nov 2026 03:11:24 GMT</pubDate>
 
+</item>
+<item>
+<title>[YouTube] Kuken Industries searches 70 years of drawings in minutes</title>
+<link>https://www.youtube.com/watch?v=FNTz0CdqL6g</link>
+<guid isPermaLink="false">https://www.youtube.com/watch?v=FNTz0CdqL6g</guid>
+<pubDate>Tue, 10 Nov 2026 02:41:23 GMT</pubDate>
+<description>Kuken Industries is using the OpenAI API to help engineers search 70 years of drawings in minutes. Built with Recursive, a Japanese AI startup and an official OpenAI partner, the system gives teams more time to mentor younger engineers and take on more demanding work. ➡️ Read how Kuken Industries is</description>
 </item>
 <item>
 <title>[Google News] Nota optimizes Kimi K3.1 Pro to cut GPU costs by up to 20% - Chosunbiz</title>
@@ -42,24 +217,17 @@
 
 </item>
 <item>
-<title>[Google News] DeepSeek’s AI agent platform hits 1.54 million users a day - The Star</title>
-<link>https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaVp0YkpOR1NTM2xSTjZta2UtVXRDbHRSdXJyU0dwQ0dnTzFzVXJzdjBBT2NlNF9lT1pDT29DMlZ6VmtYZlBzaElpTlVIRFlpcXpIS05SaHNYdVEyS1BpNXp2bkFmbURkNXQtNFJSaEF2RWV5NTY5YkE3U3NFbzNPY3dXMTB0NWVHSkd5cDhNUEJueUdSV1F5aDlBeTY5N1Q4QlVrb19qRkxnZVNROTZuT1RubGxQdlhM?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaVp0YkpOR1NTM2xSTjZta2UtVXRDbHRSdXJyU0dwQ0dnTzFzVXJzdjBBT2NlNF9lT1pDT29DMlZ6VmtYZlBzaElpTlVIRFlpcXpIS05SaHNYdVEyS1BpNXp2bkFmbURkNXQtNFJSaEF2RWV5NTY5YkE3U3NFbzNPY3dXMTB0NWVHSkd5cDhNUEJueUdSV1F5aDlBeTY5N1Q4QlVrb19qRkxnZVNROTZuT1RubGxQdlhM?oc=5</guid>
-<pubDate>Tue, 10 Nov 2026 00:09:36 GMT</pubDate>
-
+<title>[News] Anthropic launches roadshow for proposed initial public offering</title>
+<link>https://www.anthropic.com/news/roadshow-launch</link>
+<guid isPermaLink="false">https://www.anthropic.com/news/roadshow-launch</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+<description>Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.</description>
 </item>
 <item>
 <title>[Google News] FDA Artificial Intelligence &amp; AI/ML Device Rules - CASRAI</title>
 <link>https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Tam1YcTFGYi1hM0xVY2FFZ0tjSVJnRjNLb1Y0M0lxblhJTWdXOG1obDc1QVlza2JsTkVXMVdBcG5VaVdESGppWE1PdFhLOFJ4cV92U2FnaTltbjU1akRTVVVvaw?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiY0FVX3lxTE5Tam1YcTFGYi1hM0xVY2FFZ0tjSVJnRjNLb1Y0M0lxblhJTWdXOG1obDc1QVlza2JsTkVXMVdBcG5VaVdESGppWE1PdFhLOFJ4cV92U2FnaTltbjU1akRTVVVvaw?oc=5</guid>
 <pubDate>Mon, 09 Nov 2026 23:46:52 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Martinsville school board to consider optional AI policy for classroom use - WSET</title>
-<link>https://news.google.com/rss/articles/CBMitwFBVV95cUxQT2FaMy0tOVktNUNSZTd1UERySC1Fa3ZSZ1ZmUWtaQ2k0cmFGR1NPMW9mbkFmLTVhcjgySFRSZUVpc1FKNVNlV1Iza1ZteDhsUGNJS3lNSVV0UUhNUm96eEhRRmhBbUk1NTk4aDNYUjhoS1R5Y05yblVuV0hIeW1kN3JpanlpVWVMZ1dYRmx0Vk53T2FUNGxpelUxS040b0hZd3NEbWpibENBbmFURHhaZXYyNzRNbXc?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitwFBVV95cUxQT2FaMy0tOVktNUNSZTd1UERySC1Fa3ZSZ1ZmUWtaQ2k0cmFGR1NPMW9mbkFmLTVhcjgySFRSZUVpc1FKNVNlV1Iza1ZteDhsUGNJS3lNSVV0UUhNUm96eEhRRmhBbUk1NTk4aDNYUjhoS1R5Y05yblVuV0hIeW1kN3JpanlpVWVMZ1dYRmx0Vk53T2FUNGxpelUxS040b0hZd3NEbWpibENBbmFURHhaZXYyNzRNbXc?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 23:41:52 GMT</pubDate>
 
 </item>
 <item>
@@ -168,13 +336,6 @@
 <description>Throughout my career in cybersecurity and infrastructure protection — both in government and now at Google Cloud — I have consistently seen that friction between new and existing technology is often a barrier to progress. A new piece of software or service may work wonderfully on its own but then it</description>
 </item>
 <item>
-<title>[Google News] Anthropic must face lawsuit over Claude subscription marketing - The Economic Times</title>
-<link>https://news.google.com/rss/articles/CBMi3gFBVV95cUxNN2N0OFc3SU04SlRtMnNNOHlrZ0NxMElhWmhWc3ZCMHBON2lQUzdDcm1KS2EtbER4S00wUGhQQ0prUnZMMzlpQXRQcUVIVkpaejVWOVp3MUNxTFcyX05ISUExNEhodWRQZGpqOFp2OTRzUWdPbXJaR2h6VEhLd2lYdzVFOGZqSGI0bElJTVNwc1JKenlGU1p1TWI5RWxaS0hFNkE2cVlXbGZUV0RjOUIxOWNsWUo1UEV4eFEtQVRjMFNlbW15REpKTFpkZEg1U2JYTnR2WnFuQkdZeXRyelHSAeMBQVVfeXFMTXZNNUxPaU1xU3Z6XzZhR0taclZtUWxQUHQ1LWpPMnFjcTRpSmNRendqb0tKRFdFSldENlVzNVZFcjg3SURQZFFZY3ZieXZFQnJudnhkX1pqZXdnMzFMcExYbUtBYzRoZnA1QldiNEp1VndJVzhtREdwa3lDQ3NzMXdsa0txRTlSWE5xQm5VUE9rSnNBaFlac2lGQ0tQSlVqYmU5d3NrSTFHNC1rRlRQMGNrb2RHOTF5UW9Kd3BOd3FRMEs3cnJzNFl0a3M2SGtDOXBOdXc2UnBLcWpOSFpTbmk5SWs?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi3gFBVV95cUxNN2N0OFc3SU04SlRtMnNNOHlrZ0NxMElhWmhWc3ZCMHBON2lQUzdDcm1KS2EtbER4S00wUGhQQ0prUnZMMzlpQXRQcUVIVkpaejVWOVp3MUNxTFcyX05ISUExNEhodWRQZGpqOFp2OTRzUWdPbXJaR2h6VEhLd2lYdzVFOGZqSGI0bElJTVNwc1JKenlGU1p1TWI5RWxaS0hFNkE2cVlXbGZUV0RjOUIxOWNsWUo1UEV4eFEtQVRjMFNlbW15REpKTFpkZEg1U2JYTnR2WnFuQkdZeXRyelHSAeMBQVVfeXFMTXZNNUxPaU1xU3Z6XzZhR0taclZtUWxQUHQ1LWpPMnFjcTRpSmNRendqb0tKRFdFSldENlVzNVZFcjg3SURQZFFZY3ZieXZFQnJudnhkX1pqZXdnMzFMcExYbUtBYzRoZnA1QldiNEp1VndJVzhtREdwa3lDQ3NzMXdsa0txRTlSWE5xQm5VUE9rSnNBaFlac2lGQ0tQSlVqYmU5d3NrSTFHNC1rRlRQMGNrb2RHOTF5UW9Kd3BOd3FRMEs3cnJzNFl0a3M2SGtDOXBOdXc2UnBLcWpOSFpTbmk5SWs?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 16:23:43 GMT</pubDate>
-
-</item>
-<item>
 <title>[Google News] What Is Open-Weight AI? How It Works and Why It Matters - Built In</title>
 <link>https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4TUpDOGZvTTNueURManJDWHFxejdCY2h3ZFlwdkFlWTcyTnF2MUplMVhrOUwtWmhuQW1qWkxRd1d2WEo3dmNtdTNKOGhCUUNFbzRISkpB?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4TUpDOGZvTTNueURManJDWHFxejdCY2h3ZFlwdkFlWTcyTnF2MUplMVhrOUwtWmhuQW1qWkxRd1d2WEo3dmNtdTNKOGhCUUNFbzRISkpB?oc=5</guid>
@@ -196,7 +357,7 @@
 
 </item>
 <item>
-<title>[YouTube] Your Landing Page Is Confusing, I Fixed It!</title>
+<title>[YouTube] Your Landing Page Is Confusing, We Fixed It!</title>
 <link>https://www.youtube.com/watch?v=u918WArMPVY</link>
 <guid isPermaLink="false">https://www.youtube.com/watch?v=u918WArMPVY</guid>
 <pubDate>Mon, 09 Nov 2026 14:00:23 GMT</pubDate>
@@ -252,13 +413,6 @@
 
 </item>
 <item>
-<title>[Google News] IntellCore Institute sets out to transform artificial intelligence training for professionals in English-speaking markets - openPR.com</title>
-<link>https://news.google.com/rss/articles/CBMikwFBVV95cUxNTzZJVmFNMDZZdVRzNEVWNzlFU1Z4a3kyMHpNYWZYY0NydUI2M1hpNXZib0lNX2dHeVdKczZHZG5ySlhZRmNuakhUMGlNZWtOdzlScnM0NElfcFp3S0xmQW5vb3BGVC1oNW51R2ZuRmhCdDc4ZUVhTFFwVWEtWlpqZlB0aXJ1QVZPZXROWE1nS2djNGc?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMikwFBVV95cUxNTzZJVmFNMDZZdVRzNEVWNzlFU1Z4a3kyMHpNYWZYY0NydUI2M1hpNXZib0lNX2dHeVdKczZHZG5ySlhZRmNuakhUMGlNZWtOdzlScnM0NElfcFp3S0xmQW5vb3BGVC1oNW51R2ZuRmhCdDc4ZUVhTFFwVWEtWlpqZlB0aXJ1QVZPZXROWE1nS2djNGc?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 12:02:07 GMT</pubDate>
-
-</item>
-<item>
 <title>[Newsroom] Expanding Teen Account Protections to Teens Around the World</title>
 <link>https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/</link>
 <guid isPermaLink="false">https://about.fb.com/news/2026/11/expanding-teen-account-protections-to-teens-around-the-world/</guid>
@@ -270,160 +424,6 @@
 <link>https://news.google.com/rss/articles/CBMidkFVX3lxTE1yWTFCaFNXaHc2MkJtcWp2eWhGUDZWY3FzQ01zWnNxamVGYnVVaGlUQ0YtNFo5X0hSVGY3WWlwMkU2RTF3UFFXNzlFNE5zWE9fNkRfNm14cUx1ckI5ckF4X3ViQnlUYjRFM0pzcml6R25XT3VyQ1E?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTE1yWTFCaFNXaHc2MkJtcWp2eWhGUDZWY3FzQ01zWnNxamVGYnVVaGlUQ0YtNFo5X0hSVGY3WWlwMkU2RTF3UFFXNzlFNE5zWE9fNkRfNm14cUx1ckI5ckF4X3ViQnlUYjRFM0pzcml6R25XT3VyQ1E?oc=5</guid>
 <pubDate>Mon, 09 Nov 2026 10:35:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek Harness reports over 1.5 million daily active users, focusing on building out ecosystems, expanding user base: expert - Global Times</title>
-<link>https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSbDFrY2F5RjY3WDVMS3lDTG55TWFSZENlNWFmTGtfZWpaMGwzalVoX0RTUnBuY0dUSHNQTVhtbENJaF9ZWEdjSGx4UFVFVkNkdmFXTWpReG5jY01BUGJ6SFJ3?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiYkFVX3lxTFBSbDFrY2F5RjY3WDVMS3lDTG55TWFSZENlNWFmTGtfZWpaMGwzalVoX0RTUnBuY0dUSHNQTVhtbENJaF9ZWEdjSGx4UFVFVkNkdmFXTWpReG5jY01BUGJ6SFJ3?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 09:01:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] K Semiconductor startup Revelion will build an artificial intelligence (AI) infrastructure that uses.. - 매일경제</title>
-<link>https://news.google.com/rss/articles/CBMiS0FVX3lxTE1KNTJOOFk5d0dCV2ZDNEdicXRNUzFKU29QdE54WFZEa05ZeXR5bS1FWG91ajEzek15bFc5WHhYNVBMSU9vMExtbko3aw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiS0FVX3lxTE1KNTJOOFk5d0dCV2ZDNEdicXRNUzFKU29QdE54WFZEa05ZeXR5bS1FWG91ajEzek15bFc5WHhYNVBMSU9vMExtbko3aw?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 08:40:06 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek’s AI agent platform hits 1.54 million daily users - The Business Times</title>
-<link>https://news.google.com/rss/articles/CBMirAFBVV95cUxOY0xLME1wRHc1czhCSFpJckpMclJ5V1VIcFJFc0pGM25mOU5Pa3d4MWxZUmt5N182dHNIYTdSUlRKbzkxLThoZDh1eG9qcWsxTmwxcE9WcTFZTDJ2TDJmRDlnbmNaSnZVZ1J4MnMzemlaSnpyTTF4VUZDazVfeUQ0U1J0TFk3VkczeGktM2tsSHBDRExMZmMwUG1qV3ZkUVNqU01vQUhVeldtYk5B?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxOY0xLME1wRHc1czhCSFpJckpMclJ5V1VIcFJFc0pGM25mOU5Pa3d4MWxZUmt5N182dHNIYTdSUlRKbzkxLThoZDh1eG9qcWsxTmwxcE9WcTFZTDJ2TDJmRDlnbmNaSnZVZ1J4MnMzemlaSnpyTTF4VUZDazVfeUQ0U1J0TFk3VkczeGktM2tsSHBDRExMZmMwUG1qV3ZkUVNqU01vQUhVeldtYk5B?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 08:30:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Mirendil unveils Mirendil-Base, one researcher and under $10M - Pasquale Pillitteri</title>
-<link>https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTndyZmtHMVVLUUs2Q2w3N1ZsdTJ5amlJaWhDWUpGYVAxOThuWUNOZlVCMmFQdVBfaTg0dW9MekdiQ2NXYk9oV2pYS0RLX25oLVZ5MlY3a1VxWjVGeEgyLXBjT0VNZUR4VGR3aGVPZGdfMVVjd0xFN0djU0VIc1RlYlNHdnVCVy1PWVVn?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTndyZmtHMVVLUUs2Q2w3N1ZsdTJ5amlJaWhDWUpGYVAxOThuWUNOZlVCMmFQdVBfaTg0dW9MekdiQ2NXYk9oV2pYS0RLX25oLVZ5MlY3a1VxWjVGeEgyLXBjT0VNZUR4VGR3aGVPZGdfMVVjd0xFN0djU0VIc1RlYlNHdnVCVy1PWVVn?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 08:26:50 GMT</pubDate>
-
-</item>
-<item>
-<title>[Blog] NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum</title>
-<link>https://blogs.nvidia.com/blog/korean-startup-investments-msit/</link>
-<guid isPermaLink="false">https://blogs.nvidia.com/blog/korean-startup-investments-msit/</guid>
-<pubDate>Mon, 09 Nov 2026 08:00:53 +0000</pubDate>
-<description>Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Representatives from the Ministry of Science and ICT and NVIDIA met with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also ann</description>
-</item>
-<item>
-<title>[News] CodeRabbit scales agentic software development and ships 20x more</title>
-<link>https://openai.com/index/coderabbit-codex-daybreak</link>
-<guid isPermaLink="false">https://openai.com/index/coderabbit-codex-daybreak</guid>
-<pubDate>Mon, 09 Nov 2026 08:00:00 GMT</pubDate>
-<description>CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.</description>
-</item>
-<item>
-<title>[News] Kuken Industries searches 70 years of drawings in minutes</title>
-<link>https://openai.com/index/kuken</link>
-<guid isPermaLink="false">https://openai.com/index/kuken</guid>
-<pubDate>Mon, 09 Nov 2026 08:00:00 GMT</pubDate>
-<description>Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.</description>
-</item>
-<item>
-<title>[Google News] DeepSeek Harness active users quadruple as plugin ecosystem expands - digitimes</title>
-<link>https://news.google.com/rss/articles/CBMinwFBVV95cUxNR0RuRnlDTC12RElVUnNmLUpMaXgxYTg0cldjLWdnaWZmbVNZVl9JamVXTUkxQmRHdHRUeHZ2YlVRaS1BVVNfcHRyS0VPYVR1cUd2NUtZZ2w5ajlsZWFfaVVFelo0eGdoaHJjTGY4OFBGbjNOeXZXQWlzQnZublA3elJ6Sm91b1poY1l1WlNiaEt0Tm5NM3RwVlE2QWVPb3M?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMinwFBVV95cUxNR0RuRnlDTC12RElVUnNmLUpMaXgxYTg0cldjLWdnaWZmbVNZVl9JamVXTUkxQmRHdHRUeHZ2YlVRaS1BVVNfcHRyS0VPYVR1cUd2NUtZZ2w5ajlsZWFfaVVFelo0eGdoaHJjTGY4OFBGbjNOeXZXQWlzQnZublA3elJ6Sm91b1poY1l1WlNiaEt0Tm5NM3RwVlE2QWVPb3M?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 07:15:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek’s AI agent push gains speed as Harness tops 1.5 million daily users - South China Morning Post</title>
-<link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYUlFWGhzSVJHVWJFNG5qVno4Y2pKR3RHWGU4dmU2YjNDUHFoaDFESWtDai1CTW5BQWI3Y3VZZ0ZReURjU2thNktuRXRZWFJhUWhqSVM2ZGNSTUMzRVNxbWdGbTJHWlIzZzhDUHhBaDdHVzhIWVVjQko5UXN4WDJ2SmFNVk5EaE5aLThZY1dIRlB6VDFxc3N5a19uZ0JEQnBaZlhzRGFlVzNPTG14Qi1mYTJCOWtlVHVNakI0UlljUWU?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYUlFWGhzSVJHVWJFNG5qVno4Y2pKR3RHWGU4dmU2YjNDUHFoaDFESWtDai1CTW5BQWI3Y3VZZ0ZReURjU2thNktuRXRZWFJhUWhqSVM2ZGNSTUMzRVNxbWdGbTJHWlIzZzhDUHhBaDdHVzhIWVVjQko5UXN4WDJ2SmFNVk5EaE5aLThZY1dIRlB6VDFxc3N5a19uZ0JEQnBaZlhzRGFlVzNPTG14Qi1mYTJCOWtlVHVNakI0UlljUWU?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 07:00:04 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Hackers used DeepSeek AI in massive global cyberattack - Bangkok Post</title>
-<link>https://news.google.com/rss/articles/CBMiogFBVV95cUxPbEg1WFo1aHR3dTJoS0tEbFQ5N2V2WkN2R18yVF9qTHdiNmpNRERQX2w3Tm5rYlB3M0ttRnFhZmFIMEdWS3AyWHc3d1JGUXNub0Y1NzFfMGNVcW5MNVRSOEx1bVU5dHluS2VIUFQzODlrRUJNX2RLVThRM0dRSTFET19xYzNEX3luV3MwcWtCYjl4cjU1T2Z2MU1fM3pvVHRuakE?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiogFBVV95cUxPbEg1WFo1aHR3dTJoS0tEbFQ5N2V2WkN2R18yVF9qTHdiNmpNRERQX2w3Tm5rYlB3M0ttRnFhZmFIMEdWS3AyWHc3d1JGUXNub0Y1NzFfMGNVcW5MNVRSOEx1bVU5dHluS2VIUFQzODlrRUJNX2RLVThRM0dRSTFET19xYzNEX3luV3MwcWtCYjl4cjU1T2Z2MU1fM3pvVHRuakE?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 06:56:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] RBA expects artificial intelligence to affect jobs, but be inflation neutral - AFR</title>
-<link>https://news.google.com/rss/articles/CBMitwFBVV95cUxOVk5HTzhBOG42UzI2RVBtbndZQXZ3SXRZQUs2SVRxMUExLTcxc0JLT3B0azVyU3ZjbHgtM1pHZlpYck5RQng4cXR2NjdNN2RZZkEtNk0tMldCcVFNNm1tQ2FiWmJ2cHNEMlczQk9iT2dNMHlOdmRvMFNkWU9xdllZcHJQWTdGQjVXVXNVdVpNdklGMXVLbHJ0QnRSN01KM3hOWWRPZkVEbzdxMm9zR2JNVS0wMkY4MFU?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMitwFBVV95cUxOVk5HTzhBOG42UzI2RVBtbndZQXZ3SXRZQUs2SVRxMUExLTcxc0JLT3B0azVyU3ZjbHgtM1pHZlpYck5RQng4cXR2NjdNN2RZZkEtNk0tMldCcVFNNm1tQ2FiWmJ2cHNEMlczQk9iT2dNMHlOdmRvMFNkWU9xdllZcHJQWTdGQjVXVXNVdVpNdklGMXVLbHJ0QnRSN01KM3hOWWRPZkVEbzdxMm9zR2JNVS0wMkY4MFU?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 06:54:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] LG AI Research opens K-EXAONE 2.5 API free of charge - The Korea Times</title>
-<link>https://news.google.com/rss/articles/CBMirAFBVV95cUxPMUZWb1ZtU0dXZ3RmeDhJZVRVZTd3NkRsSUdMZzUwM05FenZrbHFnU2s0eGx0SnZfbUM2d2xBWGZ1cFBjVmtXd2daejBZNXZ4aTFJdG9kWHRsRzVTRlFqVFByT3J1cmFBWTMtQm5yYkNCRF9aUmNGcnpTWXFwdmhHVHRZamdraHlOMjcyZ0c1MFpRNGoyeGk3LXhkWklFZXpweWFKMGY1VU9nbF9R0gGyAUFVX3lxTE95WFQ2YTJHWnNkc29DUkFCel93djRSMW8wTmhLOFBHLW1udjMxNXNWVVRGSzZYeHpnQWpzOGNKZUlZSjZnenZwMExzQldlQ0plREs4cVdWd2FVMHB4UTRQZkIyUnRsU19nQXRaSWNESjFxVmlTTldkZUdpN0J4d3k5bmZkU3VaVW1ZXy1qdm5ZZXJzRGVaVExfN3BHNGliLUp1SE1aY0w0eUJpSnhOZlQ2ZkE?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxPMUZWb1ZtU0dXZ3RmeDhJZVRVZTd3NkRsSUdMZzUwM05FenZrbHFnU2s0eGx0SnZfbUM2d2xBWGZ1cFBjVmtXd2daejBZNXZ4aTFJdG9kWHRsRzVTRlFqVFByT3J1cmFBWTMtQm5yYkNCRF9aUmNGcnpTWXFwdmhHVHRZamdraHlOMjcyZ0c1MFpRNGoyeGk3LXhkWklFZXpweWFKMGY1VU9nbF9R0gGyAUFVX3lxTE95WFQ2YTJHWnNkc29DUkFCel93djRSMW8wTmhLOFBHLW1udjMxNXNWVVRGSzZYeHpnQWpzOGNKZUlZSjZnenZwMExzQldlQ0plREs4cVdWd2FVMHB4UTRQZkIyUnRsU19nQXRaSWNESjFxVmlTTldkZUdpN0J4d3k5bmZkU3VaVW1ZXy1qdm5ZZXJzRGVaVExfN3BHNGliLUp1SE1aY0w0eUJpSnhOZlQ2ZkE?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 05:29:03 GMT</pubDate>
-
-</item>
-<item>
-<title>[YouTube] DeepSeek Harness (DSH) EXPLAINED | Everything Is a Plugin</title>
-<link>https://www.youtube.com/watch?v=9F9x3MufdMQ</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=9F9x3MufdMQ</guid>
-<pubDate>Mon, 09 Nov 2026 05:15:35 GMT</pubDate>
-<description>In this video we take a deep dive into DeepSeek Harness (DSH), DeepSeek's open-source agent harness, built on the Cordis plugin system around one idea: everything is a plugin, including the agent loop, the tools, and even the system prompt. We start with a quick tour of the new Electron desktop appl</description>
-</item>
-<item>
-<title>[Google News] DeepSeek's open-source Harness agent hits 1.54M daily users in under three months, with an official plugin marketplace planned - Dealroom</title>
-<link>https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUTEtcEF6VDk0ajZWRmwyWVRkWkRoTkpZeDFmZVQzVEdvZ3dCT2pSYzRSaGJuYWhrME9zSDNxNzA1SlJzVTRjbUwtY2UyTmJWWFhKNnJnSWJQRlRoRGJ5ZnpSMExuS0ZZWWxHbHU0NmRFaC04ZFNlWFQ0ZWhBeUlGcktiUTdvNXpDQ0JTVkVVUkFqblZmYXY3c1U5T0twSXRiTGdvbG5hRmVqNVpraFNqX2RBTDYtcm1iZmIzeHhZMXhETkdRNGlZWjVYV1Z4dE5LT0h2MUxKeGlfcFNTM2RTUWJnWFQtVl9rbGpjdWFvVTQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUTEtcEF6VDk0ajZWRmwyWVRkWkRoTkpZeDFmZVQzVEdvZ3dCT2pSYzRSaGJuYWhrME9zSDNxNzA1SlJzVTRjbUwtY2UyTmJWWFhKNnJnSWJQRlRoRGJ5ZnpSMExuS0ZZWWxHbHU0NmRFaC04ZFNlWFQ0ZWhBeUlGcktiUTdvNXpDQ0JTVkVVUkFqblZmYXY3c1U5T0twSXRiTGdvbG5hRmVqNVpraFNqX2RBTDYtcm1iZmIzeHhZMXhETkdRNGlZWjVYV1Z4dE5LT0h2MUxKeGlfcFNTM2RTUWJnWFQtVl9rbGpjdWFvVTQ?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 05:10:05 GMT</pubDate>
-
-</item>
-<item>
-<title>[Blog] Korea Advances Physical AI Across Industries With NVIDIA</title>
-<link>https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/</link>
-<guid isPermaLink="false">https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/</guid>
-<pubDate>Mon, 09 Nov 2026 05:00:40 +0000</pubDate>
-<description>Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. The</description>
-</item>
-<item>
-<title>[Blog] Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA</title>
-<link>https://blogs.nvidia.com/blog/korea-secure-agentic-ai/</link>
-<guid isPermaLink="false">https://blogs.nvidia.com/blog/korea-secure-agentic-ai/</guid>
-<pubDate>Mon, 09 Nov 2026 05:00:39 +0000</pubDate>
-<description>As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure A</description>
-</item>
-<item>
-<title>[Blog] From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration</title>
-<link>https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/</link>
-<guid isPermaLink="false">https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/</guid>
-<pubDate>Mon, 09 Nov 2026 05:00:04 +0000</pubDate>
-<description>NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU co</description>
-</item>
-<item>
-<title>[Blog] NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production</title>
-<link>https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/</link>
-<guid isPermaLink="false">https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/</guid>
-<pubDate>Mon, 09 Nov 2026 05:00:00 +0000</pubDate>
-<description>NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies. As models grow beyond the capacity of a single GPU, they must be split across multiple GPU</description>
-</item>
-<item>
-<title>[Newsroom] NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion</title>
-<link>https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion</link>
-<guid isPermaLink="false">https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion</guid>
-<pubDate>Mon, 09 Nov 2026 05:00:00 GMT</pubDate>
-<description>NVIDIA, Rebellions and SK Telecom today announced a collaboration to advance Korea’s sovereign AI infrastructure — using NVIDIA NVLink Fusion™ to bring together NVIDIA’s open infrastructure platform, Rebellions’ Korean-designed AI processors and SK Telecom’s AI data center, model and service capabil</description>
-</item>
-<item>
-<title>[Google News] Kimi K3 Gets India-Only Inference on Amazon Bedrock - Elets CIO</title>
-<link>https://news.google.com/rss/articles/CBMihwFBVV95cUxNem5td0M5cFlvOVcxZWNPMmFKTHFLMnY0bU1hOXpMaWJxRnI1WHpJZGg3VG1RSkNwS1ZKRS1tdkwySTg4cVhmQ3FiWlFRMDlrZDNhSTFnVFNzQTBhVkFTOVVDdWw2M3luamVSbndhcDUyMzg0aXZPY3ZyNy12c1JBc0hUNXZPazA?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMihwFBVV95cUxNem5td0M5cFlvOVcxZWNPMmFKTHFLMnY0bU1hOXpMaWJxRnI1WHpJZGg3VG1RSkNwS1ZKRS1tdkwySTg4cVhmQ3FiWlFRMDlrZDNhSTFnVFNzQTBhVkFTOVVDdWw2M3luamVSbndhcDUyMzg0aXZPY3ZyNy12c1JBc0hUNXZPazA?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 04:01:05 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] DeepSeek's Harness Framework reaches 1.54 million DAU in three months, with daily token usage exceeding 92 trillion. - KuCoin</title>
-<link>https://news.google.com/rss/articles/CBMivgFBVV95cUxPeFFLQUxfTVNXdnY4U2xTQUZJbDRkVEtuZkZoZ3EzUkJJUzNqQnhydmZPenBqTV9pUWRrWWFKX1VzeDVmamNoM1FyOGJzYmNoeEtIeU5aZDc2c3c4Q05DTHhEWTlVWWc3eDNKV293Uk83WmxRbXRCZzRrYW0zSmpaeUVRQ1hkUWk1LWlOS3J4MXhneXRTT09vSDl0THJxbmtDN1NQWWhxM2w4N0UycEpTcXBVdGsyQ2xJRm12eWpn?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivgFBVV95cUxPeFFLQUxfTVNXdnY4U2xTQUZJbDRkVEtuZkZoZ3EzUkJJUzNqQnhydmZPenBqTV9pUWRrWWFKX1VzeDVmamNoM1FyOGJzYmNoeEtIeU5aZDc2c3c4Q05DTHhEWTlVWWc3eDNKV293Uk83WmxRbXRCZzRrYW0zSmpaeUVRQ1hkUWk1LWlOS3J4MXhneXRTT09vSDl0THJxbmtDN1NQWWhxM2w4N0UycEpTcXBVdGsyQ2xJRm12eWpn?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 03:53:36 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Chinese AI Secures 89% of Open AI Market - 조선일보</title>
-<link>https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNWk0Z0JOcWl3bjQ3Q1pjSU1uVGhndnBGRWt1WE5sdUhXUlBLSFhBSFY4LVBMMnZuTl9OMzlJWUhUWkxxYk1YcVZEQUpmTm1ib3AwVHE2WEpnS0EwVk9UaVd2NVllaGhkaENUQVZGX05WbUJnQ0dteVQ2R3A2VjROTWRJdDRZRl9M?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNWk0Z0JOcWl3bjQ3Q1pjSU1uVGhndnBGRWt1WE5sdUhXUlBLSFhBSFY4LVBMMnZuTl9OMzlJWUhUWkxxYk1YcVZEQUpmTm1ib3AwVHE2WEpnS0EwVk9UaVd2NVllaGhkaENUQVZGX05WbUJnQ0dteVQ2R3A2VjROTWRJdDRZRl9M?oc=5</guid>
-<pubDate>Mon, 09 Nov 2026 03:35:48 GMT</pubDate>
 
 </item>
 </channel>
