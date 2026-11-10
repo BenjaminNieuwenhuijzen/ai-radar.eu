@@ -4127,6 +4127,21 @@
       "firstSeenIn": "4aa55bb"
     },
     {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "1pgjvhd1g1s",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5kNlRaNjBrUjZ1SjhzZTRFNmxIeDZRMzRwc19UcEN6ZzdWTmxvWUM4SXB3TExnSUlSX2VSc0xpOC1IT2tUV3hMLVJZMXlINjhHS0wxcmJHbEZLUXI1RnBxaVd1RjVOTWlBbC03cEltQWlKQlZCcjVNY0Fn0gGOAUFVX3lxTE9rYkt1S2Q2bFgxU2VvLUYyazNtSk1KbWhhT1k0eEhzc3lOSjBPZkdSa2JnSU9zLTVYMTdWXy02V0YwUndUa3FGbTIxbGtvS3pnc3RTUVFnVXh0WFA0Y3F6X1Z4aFBQeWVBc1NqVS16d2FaRWZsOG1YOUVwN3hqZERGYnhLSFRORzZWTFNkZVE?oc=5",
+      "title": "Nota optimizes Kimi K3.1 Pro to cut GPU costs by up to 20%",
+      "publishedAt": "2026-11-10T01:33:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Chosunbiz",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-10T04:09:09Z",
+      "firstSeenIn": "f744b70"
+    },
+    {
       "modelId": "nvidia.nemotron-3-5-lightning",
       "variantId": null,
       "postId": "llxbmn8ygy",
