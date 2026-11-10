@@ -152,6 +152,36 @@
       "firstSeenIn": "fcd8643"
     },
     {
+      "modelId": "anthropic.claude-fable-5-2",
+      "variantId": null,
+      "postId": "1cn5yzeii0d",
+      "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "dateOnly": true,
+      "company": "Anthropic",
+      "source": "News",
+      "method": "auto",
+      "alias": "claude fable 5.2",
+      "firstSeenAt": "2026-11-09T20:45:49Z",
+      "firstSeenIn": "f663a69"
+    },
+    {
+      "modelId": "anthropic.claude-fable-5-2",
+      "variantId": null,
+      "postId": "1gc9bb09j3e",
+      "link": "https://www.anthropic.com/research/claude-electronics-design",
+      "title": "Testing Claude on real-world electronics design",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "dateOnly": true,
+      "company": "Anthropic",
+      "source": "Research",
+      "method": "auto",
+      "alias": "claude fable 5.2",
+      "firstSeenAt": "2026-11-09T20:45:49Z",
+      "firstSeenIn": "f663a69"
+    },
+    {
       "modelId": "anthropic.claude-haiku-5-5",
       "variantId": null,
       "postId": "vgjfmavblk",
@@ -315,6 +345,21 @@
       "alias": "mythos 5",
       "firstSeenAt": "2026-10-23T18:22:39Z",
       "firstSeenIn": "1f20cfe"
+    },
+    {
+      "modelId": "anthropic.claude-mythos-5-2",
+      "variantId": null,
+      "postId": "1cn5yzeii0d",
+      "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "publishedAt": "2026-11-09T00:00:00Z",
+      "dateOnly": true,
+      "company": "Anthropic",
+      "source": "News",
+      "method": "auto",
+      "alias": "claude mythos 5.2",
+      "firstSeenAt": "2026-11-09T20:45:49Z",
+      "firstSeenIn": "f663a69"
     },
     {
       "modelId": "anthropic.claude-opus-4-6",
