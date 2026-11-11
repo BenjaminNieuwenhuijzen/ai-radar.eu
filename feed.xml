@@ -5,13 +5,111 @@
 <link>https://ai-radar.eu/</link>
 <description>Combined updates from leading AI companies.</description>
 <language>en</language>
-<lastBuildDate>Wed, 11 Nov 2026 09:27:21 GMT</lastBuildDate>
+<lastBuildDate>Wed, 11 Nov 2026 17:55:50 GMT</lastBuildDate>
 <item>
 <title>[News] Gilbert + Tobin rethinks the business of law with AI</title>
 <link>https://openai.com/index/gilbert-tobin-sam-nickless</link>
 <guid isPermaLink="false">https://openai.com/index/gilbert-tobin-sam-nickless</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
 <description>A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.</description>
+</item>
+<item>
+<title>[Cloud AI] Introducing new AI functions for AlloyDB: ai.classify and ai.extract</title>
+<link>https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai/</link>
+<guid isPermaLink="false">https://cloud.google.com/blog/products/databases/ai-classify-and-ai-extract-functions-in-alloydb-ai/</guid>
+<pubDate>Wed, 11 Nov 2026 17:00:00 +0000</pubDate>
+<description>Transactional databases store vast amounts of unstructured text — clinical notes, customer reviews, support tickets, invoices, and property descriptions. Historically, working with this text meant building complex application code: You had to export data from the database, call external model endpoi</description>
+</item>
+<item>
+<title>[Cloud AI] Don’t just prompt AI — architect it: Introducing the Professional Agentic Architect Certification</title>
+<link>https://cloud.google.com/blog/topics/training-certifications/google-cloud-agentic-architect-certification-dont-just-prompt-ai-design-it/</link>
+<guid isPermaLink="false">https://cloud.google.com/blog/topics/training-certifications/google-cloud-agentic-architect-certification-dont-just-prompt-ai-design-it/</guid>
+<pubDate>Wed, 11 Nov 2026 17:00:00 +0000</pubDate>
+<description>It just got easier to prove your expertise in building production-ready agents. Today, Google Cloud is introducing the Professional Agentic Architect certification as the latest milestone in our Gemini Agent Ready (GEAR) initiative. Nearly one million developers are using GEAR to skill up on agents,</description>
+</item>
+<item>
+<title>[Gemini] Talk it through with Gemini, now on Apple CarPlay</title>
+<link>https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/</link>
+<guid isPermaLink="false">https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/</guid>
+<pubDate>Wed, 11 Nov 2026 17:00:00 +0000</pubDate>
+<description>Gemini is now available on Apple CarPlay.</description>
+</item>
+<item>
+<title>[Developer] Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory</title>
+<link>https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/</guid>
+<pubDate>Wed, 11 Nov 2026 17:00:00 GMT</pubDate>
+<description>As teams deploy and scale AI workloads using NVIDIA Dynamo, Kubeflow, or Slurm, tracking what actually runs requires visibility beyond the platform...</description>
+</item>
+<item>
+<title>[Google AI] Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.</title>
+<link>https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/</link>
+<guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/</guid>
+<pubDate>Wed, 11 Nov 2026 16:00:00 +0000</pubDate>
+<description>Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.</description>
+</item>
+<item>
+<title>[Google News] Do the maths: AI is no longer a specialist policy area - Civil Service World</title>
+<link>https://news.google.com/rss/articles/CBMi1wFBVV95cUxQc0taNkZWOEk4UHNtcDR6Qy1mQ0F3cHB5eXU1Sy05Zk9uSk9HekstQUduLWhiS05Cb1BfR0xQRmpNbWJucmE1bzAxZGY0MVFlMmQ5WmlvbUM1Y1UwaFlSOXNoS2NiYTRHQzUxWjZ0SjFsVTV0NktXX2JKbEJqdE9vcWN1STFNd3QzT1JwRS1LTG1LWW5DQkg4aGpmSEtJeGtyU0RLM2tsZENCUlg4YlpQSFRPcFJtN2Fsck9peldrYjhoQ0NscHJPQ25Kdl9kRzVmajVaNm5PTQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi1wFBVV95cUxQc0taNkZWOEk4UHNtcDR6Qy1mQ0F3cHB5eXU1Sy05Zk9uSk9HekstQUduLWhiS05Cb1BfR0xQRmpNbWJucmE1bzAxZGY0MVFlMmQ5WmlvbUM1Y1UwaFlSOXNoS2NiYTRHQzUxWjZ0SjFsVTV0NktXX2JKbEJqdE9vcWN1STFNd3QzT1JwRS1LTG1LWW5DQkg4aGpmSEtJeGtyU0RLM2tsZENCUlg4YlpQSFRPcFJtN2Fsck9peldrYjhoQ0NscHJPQ25Kdl9kRzVmajVaNm5PTQ?oc=5</guid>
+<pubDate>Wed, 11 Nov 2026 15:39:51 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Non-Consensual Deepfake Content Surges 1,600% in Two Years - 조선일보</title>
+<link>https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaU1lOE1uLWFNVC1JQ05HNC1BQ1k4V1pLUzdQZkVCMkFCMTNrakFzUHBMWDlHQ3V5Wm1aSUR1Q2FyYVppVDFfLW0tRURTUUVKdWlSRVpRMUNfVV82SFVaUWRWYTBPeVUxRVlLTmFucTctc25yaEpra0ZEamo0VjVzWXMwSWJlV1RM?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaU1lOE1uLWFNVC1JQ05HNC1BQ1k4V1pLUzdQZkVCMkFCMTNrakFzUHBMWDlHQ3V5Wm1aSUR1Q2FyYVppVDFfLW0tRURTUUVKdWlSRVpRMUNfVV82SFVaUWRWYTBPeVUxRVlLTmFucTctc25yaEpra0ZEamo0VjVzWXMwSWJlV1RM?oc=5</guid>
+<pubDate>Wed, 11 Nov 2026 15:39:26 GMT</pubDate>
+
+</item>
+<item>
+<title>[DeepMind] AlphaGenome 2: Deciphering how cells read DNA to better understand disease</title>
+<link>https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/</link>
+<guid isPermaLink="false">https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/</guid>
+<pubDate>Wed, 11 Nov 2026 15:00:15 +0000</pubDate>
+<description>Predicting how DNA sequences and their variations impact specific human cell types and disease.</description>
+</item>
+<item>
+<title>[Google News] Retail’s all in on a DeepSeek repeat - Sherwood News</title>
+<link>https://news.google.com/rss/articles/CBMidEFVX3lxTFBUUC14dEdGNlMwZWNLM1YxNHlxc2E4SGtFdnJlSnlBY3N5MGZncjIzaHZHQ29oenNtcnJNNTlWUklnMFVPR2R1elB5ZFVlWXBhRmdMQTIxQjdmT2RiUDVQMHpLMkZmV3BGbGZDVXozb29ORzh3?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidEFVX3lxTFBUUC14dEdGNlMwZWNLM1YxNHlxc2E4SGtFdnJlSnlBY3N5MGZncjIzaHZHQ29oenNtcnJNNTlWUklnMFVPR2R1elB5ZFVlWXBhRmdMQTIxQjdmT2RiUDVQMHpLMkZmV3BGbGZDVXozb29ORzh3?oc=5</guid>
+<pubDate>Wed, 11 Nov 2026 14:18:54 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Anthropic’s I.P.O. and the Clubby Business of A.I. - The New York Times</title>
+<link>https://news.google.com/rss/articles/CBMihAFBVV95cUxQU2JLM2NpM2tmaXR1MTJvb0VXczItSHBOaTdacGVsSDRPRzBHbWJYLTk4ZWY3enJISGdreml2aElvRk5oYm9UbWsxRWRxcnVCc0xobHJtYW1tSzhwRmhZUWE3Vmt2MlNTSTVuVS1hUzlTLVBQaFMyQ2hpS24yWlNOM0czR2Y?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMihAFBVV95cUxQU2JLM2NpM2tmaXR1MTJvb0VXczItSHBOaTdacGVsSDRPRzBHbWJYLTk4ZWY3enJISGdreml2aElvRk5oYm9UbWsxRWRxcnVCc0xobHJtYW1tSzhwRmhZUWE3Vmt2MlNTSTVuVS1hUzlTLVBQaFMyQ2hpS24yWlNOM0czR2Y?oc=5</guid>
+<pubDate>Wed, 11 Nov 2026 13:40:36 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek, 5 China AI Rivals Run at $11B; Anthropic at $81B - FourWeekMBA</title>
+<link>https://news.google.com/rss/articles/CBMiigFBVV95cUxQOE1aVGVNT3p1b0dCaTJtU1dpbEhocElqcVo0MjNiejJ4dDdhaFhQTEJzZFM1ZVJxRGt5NmVrMUpNRU03cFZXU2pfZG9ndDVCYndPVFNPYnYtZUVfNy1kY3c5M0djMDAxdWRDTDFFV0VlV2ppek51eWdkTGRFcWVtNXR6aUlDXzhjdGc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiigFBVV95cUxQOE1aVGVNT3p1b0dCaTJtU1dpbEhocElqcVo0MjNiejJ4dDdhaFhQTEJzZFM1ZVJxRGt5NmVrMUpNRU03cFZXU2pfZG9ndDVCYndPVFNPYnYtZUVfNy1kY3c5M0djMDAxdWRDTDFFV0VlV2ppek51eWdkTGRFcWVtNXR6aUlDXzhjdGc?oc=5</guid>
+<pubDate>Wed, 11 Nov 2026 13:06:53 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Moonshot AI (MOONSHOT) Price Prediction: Neutral funding meets soft momentum as price sits just above support - blockchain.news</title>
+<link>https://news.google.com/rss/articles/CBMirAFBVV95cUxNcjdBV3FSbEpnRnBlUkljV015SUhTVkVfaG1FRjBXRXk0WDc3Y09tOFdJcjV0c1pGcVhvb05vd2RueTdTUEs2SVZCMUdJNUQwRy1RcjdDSENCUFhpTS1ZTldpR0lZYlFZQU9rU3B0ZEpRZTFNZmJ4S29wZUY3ZF85RzR4eUcxWGhLbnZCYWhlUU1qUTVjMldEcV9LSUZVRjRrYnNZaWhuNjVLUGVl?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMirAFBVV95cUxNcjdBV3FSbEpnRnBlUkljV015SUhTVkVfaG1FRjBXRXk0WDc3Y09tOFdJcjV0c1pGcVhvb05vd2RueTdTUEs2SVZCMUdJNUQwRy1RcjdDSENCUFhpTS1ZTldpR0lZYlFZQU9rU3B0ZEpRZTFNZmJ4S29wZUY3ZF85RzR4eUcxWGhLbnZCYWhlUU1qUTVjMldEcV9LSUZVRjRrYnNZaWhuNjVLUGVl?oc=5</guid>
+<pubDate>Wed, 11 Nov 2026 12:30:58 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Why a Powerful Neural Network Can Perform Poorly: What a Harness is and How it Changes AI Agents’ Capabilities - Incrypted</title>
+<link>https://news.google.com/rss/articles/CBMib0FVX3lxTE5KT1F1SURjZ01rRFZTR21QbDZHX0diN3ZZZm9KSU9iN3l6UWJ4UzF3T0h5YmJPNWFSeVBzdndDaVFJZVdOb1pnMC11ZHFUd3FMclJTWlNKVlB0Z2t6NXhjU3dQV1M0OTRnUHAwWi0wdw?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMib0FVX3lxTE5KT1F1SURjZ01rRFZTR21QbDZHX0diN3ZZZm9KSU9iN3l6UWJ4UzF3T0h5YmJPNWFSeVBzdndDaVFJZVdOb1pnMC11ZHFUd3FMclJTWlNKVlB0Z2t6NXhjU3dQV1M0OTRnUHAwWi0wdw?oc=5</guid>
+<pubDate>Wed, 11 Nov 2026 09:47:54 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Moonshot AI reportedly accessed restricted Nvidia chips in China despite US ban - digitimes</title>
+<link>https://news.google.com/rss/articles/CBMikgFBVV95cUxORDktNDkwaVVERDJRZTNBSTFqRWFiekJyTXl3MjJadDk3LWxlemI5d1p0N3BMSlROaXhzUWpROFpLdjVQckxWcmFEYk9OUEdRbUVOeTJFUUY5eFVCaE0zbGpIZVM2SjhxY2VQWVlRak0tTklrXy1IaG5XNmkzTU4yNkdUXzdTMjVwVHE2QTJhQUpPZw?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMikgFBVV95cUxORDktNDkwaVVERDJRZTNBSTFqRWFiekJyTXl3MjJadDk3LWxlemI5d1p0N3BMSlROaXhzUWpROFpLdjVQckxWcmFEYk9OUEdRbUVOeTJFUUY5eFVCaE0zbGpIZVM2SjhxY2VQWVlRak0tTklrXy1IaG5XNmkzTU4yNkdUXzdTMjVwVHE2QTJhQUpPZw?oc=5</guid>
+<pubDate>Wed, 11 Nov 2026 09:18:11 GMT</pubDate>
+
 </item>
 <item>
 <title>[Google AI] Experience the art and legacy of Dr. Esther Mahlangu</title>
@@ -21,11 +119,25 @@
 <description>A new online archive of Esther Mahlangu’s life and art is now on Google Arts &amp; Culture.</description>
 </item>
 <item>
+<title>[Google News] Qwen4 Max vs Qwen4-Max Preview: One of These Names Has Never Shipped - OrcaRouter</title>
+<link>https://news.google.com/rss/articles/CBMicEFVX3lxTFBGenRXalJFSnhTTkpvTUdGMlhPVkpFSXoyakhpUmZ5Vk5MMDJCNFMxZ3BKbTZibXZQZEx0WDdzb2VZQkllRFRqdkg1Zjc2Y214TU5GOHpMalBMZkxQcFBaQmMwVG9BZWZ1Mm5PeEVTTXE?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMicEFVX3lxTFBGenRXalJFSnhTTkpvTUdGMlhPVkpFSXoyakhpUmZ5Vk5MMDJCNFMxZ3BKbTZibXZQZEx0WDdzb2VZQkllRFRqdkg1Zjc2Y214TU5GOHpMalBMZkxQcFBaQmMwVG9BZWZ1Mm5PeEVTTXE?oc=5</guid>
+<pubDate>Wed, 11 Nov 2026 08:29:38 GMT</pubDate>
+
+</item>
+<item>
 <title>[News] ChatGPT Plus for veterans and servicemembers</title>
 <link>https://openai.com/index/chatgpt-plus-for-veterans</link>
 <guid isPermaLink="false">https://openai.com/index/chatgpt-plus-for-veterans</guid>
 <pubDate>Wed, 11 Nov 2026 08:00:00 GMT</pubDate>
 <description>More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.</description>
+</item>
+<item>
+<title>[Google News] NVIDIA Corporation | History, GPUs, &amp; Artificial Intelligence - Britannica</title>
+<link>https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5</guid>
+<pubDate>Wed, 11 Nov 2026 07:57:00 GMT</pubDate>
+
 </item>
 <item>
 <title>[Google News] Qwen4-Max vs Qwen 4: a tier against a family of names - OrcaRouter</title>
@@ -40,6 +152,13 @@
 <guid isPermaLink="false">https://www.youtube.com/watch?v=il0dgxjpoC0</guid>
 <pubDate>Wed, 11 Nov 2026 06:39:06 GMT</pubDate>
 <description>Learn about quantization in this livestream and get started with quantization using llama.cpp and vLLM. Program: - Introduction to Quantization, Merve Noyan, Hugging Face - Calibration based quantization, Colin Kealty (aka bartowski), RedHat - Quantization Aware Distillation, Maxime Labonne, Aditya </description>
+</item>
+<item>
+<title>[Google News] How Governments Worldwide Are Shaping What AI Can Say About Politics - The Good Men Project</title>
+<link>https://news.google.com/rss/articles/CBMiswFBVV95cUxQSDBwOWN2bVVHajhULTNYd1JDRHhwNlo0dXdlY3I3SVVyM3IyeTFuYlJCOTk5QkxCOWsyZEZyZFkxUF9pek5aTHVYWXdiN2RFTUZUODZoUEpHSmQ5ODNhNWpqT2hUbFRKT25oM2praW9FWUJWa1RscmQyWlJfaHBDeTNuRkJ5emYyQV9wU0hPQkRRWVRXbDlTOTFMZGlTNnR6azQ1SnlHM0FROHFFd2ZKbV9QUQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiswFBVV95cUxQSDBwOWN2bVVHajhULTNYd1JDRHhwNlo0dXdlY3I3SVVyM3IyeTFuYlJCOTk5QkxCOWsyZEZyZFkxUF9pek5aTHVYWXdiN2RFTUZUODZoUEpHSmQ5ODNhNWpqT2hUbFRKT25oM2praW9FWUJWa1RscmQyWlJfaHBDeTNuRkJ5emYyQV9wU0hPQkRRWVRXbDlTOTFMZGlTNnR6azQ1SnlHM0FROHFFd2ZKbV9QUQ?oc=5</guid>
+<pubDate>Wed, 11 Nov 2026 06:05:50 GMT</pubDate>
+
 </item>
 <item>
 <title>[Google News] 5 Open LLM Leaderboards Compared: Best Pick [2026] - shattered.io</title>
@@ -61,13 +180,6 @@
 <guid isPermaLink="false">https://blogs.nvidia.com/blog/ai-recycling-startups/</guid>
 <pubDate>Wed, 11 Nov 2026 03:00:20 +0000</pubDate>
 <description>Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills.</description>
-</item>
-<item>
-<title>[Google News] MIDM K 3.0 Pro vs Qwen 4 Max: One Ships, One Is Still a Slide - OrcaRouter</title>
-<link>https://news.google.com/rss/articles/CBMia0FVX3lxTFB3RkRvRDdIZUZYZnpMRDBpdE03RlBvMXRBQWRYZTlUWmRZNWlTT2Z3X3I5WlBlZU05OWR3MjZwMEVmMHlVYV9tVDVtQnRiYm1oTnhyVGtGdnBzc01wREdiYnItbGc0S295R3lV?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMia0FVX3lxTFB3RkRvRDdIZUZYZnpMRDBpdE03RlBvMXRBQWRYZTlUWmRZNWlTT2Z3X3I5WlBlZU05OWR3MjZwMEVmMHlVYV9tVDVtQnRiYm1oTnhyVGtGdnBzc01wREdiYnItbGc0S295R3lV?oc=5</guid>
-<pubDate>Wed, 11 Nov 2026 02:38:48 GMT</pubDate>
-
 </item>
 <item>
 <title>[Google News] MIDM K 3.0 Pro vs Kimi K3.1 Pro: $0.56 vs $10 Output - OrcaRouter</title>
@@ -102,6 +214,13 @@
 <link>https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aMmZoX0VhX1MzUjI1RU80aEFFU2lya2tRYnBpdTBMQnRveVgzWnBBMTViYjJmaTlSLTNQamg3LXFNLUdsZ2RyYnlPUXNuak15ZUQzb1FtWnAzRUhM?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiXEFVX3lxTE9aMmZoX0VhX1MzUjI1RU80aEFFU2lya2tRYnBpdTBMQnRveVgzWnBBMTViYjJmaTlSLTNQamg3LXFNLUdsZ2RyYnlPUXNuak15ZUQzb1FtWnAzRUhM?oc=5</guid>
 <pubDate>Wed, 11 Nov 2026 01:47:51 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] PAN 2 vs LFM2.5-2.6B-Base: Checkpoints, Not Products - OrcaRouter</title>
+<link>https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tRVVTLVpIblJ4SlpYTFRiNklTLVYwQy1pNmRyaVotVkc3NElORHR4cFpzTmZSbE9sV2U0YkZVV2JWSFk2Q3RRbU5rS1FZRHYyZFJNUlItQlF0Ry1XOEhXak1pdm9VN1k?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tRVVTLVpIblJ4SlpYTFRiNklTLVYwQy1pNmRyaVotVkc3NElORHR4cFpzTmZSbE9sV2U0YkZVV2JWSFk2Q3RRbU5rS1FZRHYyZFJNUlItQlF0Ry1XOEhXak1pdm9VN1k?oc=5</guid>
+<pubDate>Wed, 11 Nov 2026 01:45:41 GMT</pubDate>
 
 </item>
 <item>
@@ -196,6 +315,27 @@
 
 </item>
 <item>
+<title>[Blog] Token Pooling-Aware Training for Multi-Vector Embedding Models</title>
+<link>https://huggingface.co/blog/token-pooling</link>
+<guid isPermaLink="false">https://huggingface.co/blog/token-pooling</guid>
+<pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Online Travel Agencies’ Shares Drop Following OpenAI Acquisition of Travel Startup Odessia - PYMNTS.com</title>
+<link>https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQS1XN2NoU1c0OWFtQUJfeV9MNEhOaWNCUFRWZFRLMGxKY0NyaVVLQlVjWjZkYkVkLU4yY0czWlZsUmFjWXhkMEZOTFpiZ3F2WjMzbGdlWTJtaHMtS21TbHMtVE1MeFR4Ni1Samgtc1NNUjhsTWNxQUNQRHdVMFNkYW9ITkJRWXRPSHJrRnVOWmVJNTl4Z25UcWlsSkJZVFF1LVdvZlQyTHhBNDRJazdiSFdDX3k2cWgwanZ2cmMtcy1XbGdaVXpaRzlqS3lrQmw5RVhJNllRSF9MRE15dk9YMA?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi4AFBVV95cUxPQS1XN2NoU1c0OWFtQUJfeV9MNEhOaWNCUFRWZFRLMGxKY0NyaVVLQlVjWjZkYkVkLU4yY0czWlZsUmFjWXhkMEZOTFpiZ3F2WjMzbGdlWTJtaHMtS21TbHMtVE1MeFR4Ni1Samgtc1NNUjhsTWNxQUNQRHdVMFNkYW9ITkJRWXRPSHJrRnVOWmVJNTl4Z25UcWlsSkJZVFF1LVdvZlQyTHhBNDRJazdiSFdDX3k2cWgwanZ2cmMtcy1XbGdaVXpaRzlqS3lrQmw5RVhJNllRSF9MRE15dk9YMA?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 23:41:26 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Company says engineer stole secrets, asked AI how to get away with it - Reuters</title>
+<link>https://news.google.com/rss/articles/CBMivgFBVV95cUxQdlJDb2pGcm9lYUxla19fekhhTzhnUWRIYThMRm4teTlwMURuU2RKa3B2a1JycmN1cXA2WVBfS3J3Yy11YU5KNUlqZGdUNXAteDRuUXRjZDFpbmJFcUxkR0ZUWFVOdDJVWGxNYnVCbjUtektwRURXZjZLd3NvNlFVdk1TUEs2RVVuUUlubmxONzlaMGoyOUVVdkktdFI3Vjh4V1puandFMTJNZ1F2SndDMW9IczhGUlhUMEFkRUlB?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivgFBVV95cUxQdlJDb2pGcm9lYUxla19fekhhTzhnUWRIYThMRm4teTlwMURuU2RKa3B2a1JycmN1cXA2WVBfS3J3Yy11YU5KNUlqZGdUNXAteDRuUXRjZDFpbmJFcUxkR0ZUWFVOdDJVWGxNYnVCbjUtektwRURXZjZLd3NvNlFVdk1TUEs2RVVuUUlubmxONzlaMGoyOUVVdkktdFI3Vjh4V1puandFMTJNZ1F2SndDMW9IczhGUlhUMEFkRUlB?oc=5</guid>
+<pubDate>Tue, 10 Nov 2026 22:55:00 GMT</pubDate>
+
+</item>
+<item>
 <title>[YouTube] Introducing Perplexity teammates</title>
 <link>https://www.youtube.com/watch?v=8S1XRdVXTYE</link>
 <guid isPermaLink="false">https://www.youtube.com/watch?v=8S1XRdVXTYE</guid>
@@ -273,13 +413,6 @@
 
 </item>
 <item>
-<title>[Google News] This crypto firm lets AI agents take the first vote on startup deals - TheStreet</title>
-<link>https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNm9OSUZQVENLZWhrdDRuY0hWSHNDZFVBR0ZralR1R2doWkh4RW1kb1pzTFVrcjVmSGxfYlVhSUJTOGhITXFtTmR2Z2FkRFpoeVdKWGs1WUo2OTFITXlpanpDTVRtZVg2bFpBVGhwUktYOXltLUJqMVEwclg3dkd0Q05rWE5pUU5vejVWTWtqYzRPWnZmMUNlUTktVktycEl4cnVkVTQzWWhLc1BmU2hVQWlWTHZremlhOWE1TTBkLVB1d3c?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNm9OSUZQVENLZWhrdDRuY0hWSHNDZFVBR0ZralR1R2doWkh4RW1kb1pzTFVrcjVmSGxfYlVhSUJTOGhITXFtTmR2Z2FkRFpoeVdKWGs1WUo2OTFITXlpanpDTVRtZVg2bFpBVGhwUktYOXltLUJqMVEwclg3dkd0Q05rWE5pUU5vejVWTWtqYzRPWnZmMUNlUTktVktycEl4cnVkVTQzWWhLc1BmU2hVQWlWTHZremlhOWE1TTBkLVB1d3c?oc=5</guid>
-<pubDate>Tue, 10 Nov 2026 17:57:20 GMT</pubDate>
-
-</item>
-<item>
 <title>[Google News] Gemini 4 Carbon vs DeepSeek V4 Pro: What 37 Index Points and 4.4x the Cost Per Task Actually Buy - OrcaRouter</title>
 <link>https://news.google.com/rss/articles/CBMic0FVX3lxTFBCcVNFMmVlNkVnTTZCZmhUX2o2b25NbmMtUUpQTlpMRFV5QXFXejBDdGtjczZkUEQtSExnem9Mb0xyZXh1VXVuM3c2cXlVM2xSbXY0cXZDZFNPZUxzWGhqLWd6c2RRMHZ5YlZCNExvV1BHV1E?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMic0FVX3lxTFBCcVNFMmVlNkVnTTZCZmhUX2o2b25NbmMtUUpQTlpMRFV5QXFXejBDdGtjczZkUEQtSExnem9Mb0xyZXh1VXVuM3c2cXlVM2xSbXY0cXZDZFNPZUxzWGhqLWd6c2RRMHZ5YlZCNExvV1BHV1E?oc=5</guid>
@@ -292,139 +425,6 @@
 <guid isPermaLink="false">https://www.youtube.com/watch?v=N5YLi8Ar3Wg</guid>
 <pubDate>Tue, 10 Nov 2026 17:00:21 GMT</pubDate>
 <description>Quantum computers have a deployment problem. Aegiq is solving it. The Sheffield-based startup is building photonic quantum computers designed to connect over standard fiber networks and manufacture using standard semiconductor processes — making quantum hardware practical to deploy at scale, not jus</description>
-</item>
-<item>
-<title>[YouTube] NVIDIA Alpamayo 2 Edge is here, bringing adaptive AI reasoning in real-time to the vehicle. 🚘</title>
-<link>https://www.youtube.com/shorts/OZ5KXB6kHUg</link>
-<guid isPermaLink="false">https://www.youtube.com/shorts/OZ5KXB6kHUg</guid>
-<pubDate>Tue, 10 Nov 2026 16:08:39 GMT</pubDate>
-<description>From yielding to pedestrians to making room for an oncoming bus, watch how it plans driving paths and explains its decisions when needed. Developers can build on this open model to create the next generation of autonomous vehicles, with AI they can adapt to their own fleets.</description>
-</item>
-<item>
-<title>[YouTube] Greg Brockman on how OpenAI uses frontier models for cyber defense</title>
-<link>https://www.youtube.com/shorts/sSyzj08Cy2U</link>
-<guid isPermaLink="false">https://www.youtube.com/shorts/sSyzj08Cy2U</guid>
-<pubDate>Tue, 10 Nov 2026 16:07:53 GMT</pubDate>
-
-</item>
-<item>
-<title>[DeepMind] Gemini 4 Carbon is now available</title>
-<link>https://deepmind.google/blog/gemini-4-carbon-is-now-available/</link>
-<guid isPermaLink="false">https://deepmind.google/blog/gemini-4-carbon-is-now-available/</guid>
-<pubDate>Tue, 10 Nov 2026 16:03:47 +0000</pubDate>
-
-</item>
-<item>
-<title>[YouTube] Greg Brockman on how OpenAI uses frontier models for cyber defense</title>
-<link>https://www.youtube.com/watch?v=vdEGZYIvFiI</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=vdEGZYIvFiI</guid>
-<pubDate>Tue, 10 Nov 2026 16:02:15 GMT</pubDate>
-
-</item>
-<item>
-<title>[Blog] NVIDIA Expands Open Source Commitment With OpenShell Donation and New AI Infrastructure</title>
-<link>https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/</link>
-<guid isPermaLink="false">https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/</guid>
-<pubDate>Tue, 10 Nov 2026 16:00:03 +0000</pubDate>
-<description>Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open source at KubeCon + CloudNativeCon, the flagship conference f</description>
-</item>
-<item>
-<title>[Gemini] Introducing the Multimodal Knowledge Agent benchmark</title>
-<link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/</link>
-<guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/</guid>
-<pubDate>Tue, 10 Nov 2026 16:00:00 +0000</pubDate>
-<description>We’re launching Multimodal Knowledge Agent, a new benchmark to evaluate how agents reason across visually-complex multimodal tasks.</description>
-</item>
-<item>
-<title>[Gemini] Gemini 4 Carbon is now available</title>
-<link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/</link>
-<guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/</guid>
-<pubDate>Tue, 10 Nov 2026 16:00:00 +0000</pubDate>
-
-</item>
-<item>
-<title>[Developer] Running AV Reasoning Models Within Onboard Compute and Latency Limits</title>
-<link>https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/</link>
-<guid isPermaLink="false">https://developer.nvidia.com/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/</guid>
-<pubDate>Tue, 10 Nov 2026 16:00:00 GMT</pubDate>
-<description>Autonomous vehicle (AV) developers need reasoning models that can operate within the compute and latency constraints of an onboard system. Larger models provide...</description>
-</item>
-<item>
-<title>[Google News] DeepSeek, other China AI firms have just 10% the revenue of OpenAI, Anthropic - Nikkei Asia</title>
-<link>https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0g2Zm9GNXc1b1ZsX1BhSG9VdmNkcFBXWHlCWWpGT0hHSTdIRU9QN3lXc1BBYUJTSlVOcGFvcVk0XzZFRnd3ZVdPdTJwekRFS1ZWXzV1dnhQdzZDRVVXZkxtYXNUUDUxdmM4MTJpVm9HdVNySzBLY2gxM0hkZGU3TXJKMTVJdFZHS05sNG1Ucmp0NXB5ZVVfU0EtNnRJSVNlckVENGw0TUlaMlJtOXdFY3poWnVWa0pFTkNpLWlJU3VzS3Q5RGZISlpGWXhnWU9tX21JcEY4T194Zw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb0g2Zm9GNXc1b1ZsX1BhSG9VdmNkcFBXWHlCWWpGT0hHSTdIRU9QN3lXc1BBYUJTSlVOcGFvcVk0XzZFRnd3ZVdPdTJwekRFS1ZWXzV1dnhQdzZDRVVXZkxtYXNUUDUxdmM4MTJpVm9HdVNySzBLY2gxM0hkZGU3TXJKMTVJdFZHS05sNG1Ucmp0NXB5ZVVfU0EtNnRJSVNlckVENGw0TUlaMlJtOXdFY3poWnVWa0pFTkNpLWlJU3VzS3Q5RGZISlpGWXhnWU9tX21JcEY4T194Zw?oc=5</guid>
-<pubDate>Tue, 10 Nov 2026 15:44:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[YouTube] How CodeRabbit uses OpenAI to review AI-generated code</title>
-<link>https://www.youtube.com/watch?v=ZTxzWJeGFAA</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=ZTxzWJeGFAA</guid>
-<pubDate>Tue, 10 Nov 2026 15:05:40 GMT</pubDate>
-<description>CodeRabbit co-founder and CEO Harjot Gill explains how the team uses OpenAI models to help teams understand, review, and secure code produced by AI agents and decide what’s ready to ship. He also shares how CodeRabbit used Codex to ship 20x more software over 6 months with the same engineering team.</description>
-</item>
-<item>
-<title>[Developer] Agent Substrate: Advancing Kubernetes for Agents at Scale</title>
-<link>https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/</link>
-<guid isPermaLink="false">https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale/</guid>
-<pubDate>Tue, 10 Nov 2026 15:00:00 GMT</pubDate>
-<description>AI agents spend most of their time idle, waiting on a human prompt, a tool result or a model response. Kubernetes wasn’t built for that. Running one Pod per...</description>
-</item>
-<item>
-<title>[Developer] Start and Restore GPU Workloads in Seconds with NVIDIA Snapshot</title>
-<link>https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/</link>
-<guid isPermaLink="false">https://developer.nvidia.com/blog/start-and-restore-gpu-workloads-in-seconds-with-nvidia-snapshot/</guid>
-<pubDate>Tue, 10 Nov 2026 15:00:00 GMT</pubDate>
-<description>NVIDIA Snapshot, a new open-source component of the NVIDIA DSX AI Factory Platform, makes initialized GPU workloads reusable across inference...</description>
-</item>
-<item>
-<title>[Developer] Manage Kubernetes Clusters for GPU Infrastructure with NVIDIA Kubernetes Engine</title>
-<link>https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/</link>
-<guid isPermaLink="false">https://developer.nvidia.com/blog/manage-kubernetes-clusters-for-gpu-infrastructure-with-nvidia-kubernetes-engine/</guid>
-<pubDate>Tue, 10 Nov 2026 15:00:00 GMT</pubDate>
-<description>NVIDIA is announcing two open source projects for building and operating managed Kubernetes services on GPU infrastructure—NVIDIA Kubernetes Engine (NVKE) and...</description>
-</item>
-<item>
-<title>[Google News] Moonshot AI rented 32 Nvidia B300 servers housed in China, Bloomberg reports; Moonshot disputes the documents - MLQ.ai</title>
-<link>https://news.google.com/rss/articles/CBMixwFBVV95cUxNamg0MXVFNDhDX3BFTEE4ZDNDY3ktcHdoR3VLcS1QZU9LeTJFcFBYb0cxS19XUl9GMGlIcmloMUxNWnJiTHBBX0k1NEFpYm9nMUl1TXJQWmtLYjZlT1I1X1lnY3RfS3FpRGxvdWw2ZmhxcTNQcDFKV2VVM3oyUlNRSW9oR2FjakQ0Uy1Hc0FGVTJHTFJib2pVNW53N0VMVHpQclpLZlVRUEt6dFlpY2NnN3NWNmdtdGl0S3pQcURRdFRrTUppbzYw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMixwFBVV95cUxNamg0MXVFNDhDX3BFTEE4ZDNDY3ktcHdoR3VLcS1QZU9LeTJFcFBYb0cxS19XUl9GMGlIcmloMUxNWnJiTHBBX0k1NEFpYm9nMUl1TXJQWmtLYjZlT1I1X1lnY3RfS3FpRGxvdWw2ZmhxcTNQcDFKV2VVM3oyUlNRSW9oR2FjakQ0Uy1Hc0FGVTJHTFJib2pVNW53N0VMVHpQclpLZlVRUEt6dFlpY2NnN3NWNmdtdGl0S3pQcURRdFRrTUppbzYw?oc=5</guid>
-<pubDate>Tue, 10 Nov 2026 14:54:22 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Kimi K3.1 Pro Coder Arrives at 775 GB, Built to Fit One GPU - Pasquale Pillitteri</title>
-<link>https://news.google.com/rss/articles/CBMihAFBVV95cUxPQWVlRVJORHdHUnE4R3pnYm01NzJVNEtrRUdNMUxpdS02azZVS3hzSE5ERjRBVXJzOVZMa1FEajJuRVhhUF9menUybndPdzJ2MXo1UFlZUl9sVTdBLUhWVkgtaHhVMHk2SlNMem1GbVNHaDZEak9ReG02UmY3X0trd1phMWQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMihAFBVV95cUxPQWVlRVJORHdHUnE4R3pnYm01NzJVNEtrRUdNMUxpdS02azZVS3hzSE5ERjRBVXJzOVZMa1FEajJuRVhhUF9menUybndPdzJ2MXo1UFlZUl9sVTdBLUhWVkgtaHhVMHk2SlNMem1GbVNHaDZEak9ReG02UmY3X0trd1phMWQ?oc=5</guid>
-<pubDate>Tue, 10 Nov 2026 14:31:32 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google AI] We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.</title>
-<link>https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/</link>
-<guid isPermaLink="false">https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/</guid>
-<pubDate>Tue, 10 Nov 2026 14:00:00 +0000</pubDate>
-<description>Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.</description>
-</item>
-<item>
-<title>[Google News] Moonshot AI rented restricted Nvidia AI chips inside China, documents show - Quartz</title>
-<link>https://news.google.com/rss/articles/CBMickFVX3lxTFB0M3I2X29STjU3RnZPdUdOb2k3ZmVTVlhlSzhwVEJqYWJTSVVCRUw0cGZObWlnNW5sSmhNelFwRGhQbk1wU3VFaEtoNDluNmxkalY3RU4xR2dyd3Q0c2FxWlRqamxUNkdVMkFpQ0dSdFBsZw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMickFVX3lxTFB0M3I2X29STjU3RnZPdUdOb2k3ZmVTVlhlSzhwVEJqYWJTSVVCRUw0cGZObWlnNW5sSmhNelFwRGhQbk1wU3VFaEtoNDluNmxkalY3RU4xR2dyd3Q0c2FxWlRqamxUNkdVMkFpQ0dSdFBsZw?oc=5</guid>
-<pubDate>Tue, 10 Nov 2026 13:31:15 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Israeli AI security startup Bay raises $50 million - Reuters</title>
-<link>https://news.google.com/rss/articles/CBMinAFBVV95cUxQR1FUM21STWZfakdFdy1yUEE3dHhGTUtoazJLcHAtZ3hlVXRvbEV5LVA0YXAwRlVGQ05qQ0Z1azV5Wk5wTWFVVXdKZ0FjSy04bkxlcDc5N2xsMFp2eUs5RzF6endfbXA0Ymt3WGo2UllEYzB1aWZmT0I2Smd1MVFBaHBtZzFWZC1pci1icms2cFJFZWxOTVg0aWpyaDU?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMinAFBVV95cUxQR1FUM21STWZfakdFdy1yUEE3dHhGTUtoazJLcHAtZ3hlVXRvbEV5LVA0YXAwRlVGQ05qQ0Z1azV5Wk5wTWFVVXdKZ0FjSy04bkxlcDc5N2xsMFp2eUs5RzF6endfbXA0Ymt3WGo2UllEYzB1aWZmT0I2Smd1MVFBaHBtZzFWZC1pci1icms2cFJFZWxOTVg0aWpyaDU?oc=5</guid>
-<pubDate>Tue, 10 Nov 2026 13:10:38 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google AI] Google Cloud launches Gemini for healthcare.</title>
-<link>https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/</link>
-<guid isPermaLink="false">https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/</guid>
-<pubDate>Tue, 10 Nov 2026 13:00:00 +0000</pubDate>
-<description>Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.</description>
 </item>
 </channel>
 </rss>
