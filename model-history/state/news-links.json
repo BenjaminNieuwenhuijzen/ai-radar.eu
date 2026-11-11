@@ -2312,6 +2312,21 @@
       "firstSeenIn": "8b2e6db"
     },
     {
+      "modelId": "google.gemini-4-carbon",
+      "variantId": null,
+      "postId": "2a80bnnfp47",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CWU9OR0JTTFJqR1dnTWtfTXA4c1daelYtXzlzbUNkTGJnSW5iUThvdnhiRGNKNTg5QWtOd1F3RnZ4OXB1MTVwSy1GVzhKck5UbXZjU3FiVXVkT2FfWEpQX0kycy01Ry03?oc=5",
+      "title": "Gemini 4 Carbon vs Kimi K3: Closed vs 2.8T Weights",
+      "publishedAt": "2026-11-11T00:20:15Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 4 carbon",
+      "firstSeenAt": "2026-11-11T01:58:12Z",
+      "firstSeenIn": "2dd1d9e"
+    },
+    {
       "modelId": "google.gemma-4",
       "variantId": "12b",
       "postId": "283qclyt6vr",
@@ -2925,6 +2940,21 @@
       "alias": "kimi k3",
       "firstSeenAt": "2026-11-09T09:50:15Z",
       "firstSeenIn": "29604fd"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "2a80bnnfp47",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9CWU9OR0JTTFJqR1dnTWtfTXA4c1daelYtXzlzbUNkTGJnSW5iUThvdnhiRGNKNTg5QWtOd1F3RnZ4OXB1MTVwSy1GVzhKck5UbXZjU3FiVXVkT2FfWEpQX0kycy01Ry03?oc=5",
+      "title": "Gemini 4 Carbon vs Kimi K3: Closed vs 2.8T Weights",
+      "publishedAt": "2026-11-11T00:20:15Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-11T01:58:12Z",
+      "firstSeenIn": "2dd1d9e"
     },
     {
       "modelId": "moonshot.kimi-k3-1-pro",
@@ -4215,6 +4245,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-10T20:51:13Z",
       "firstSeenIn": "8b2e6db"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": "highspeed",
+      "postId": "luif0bbpmz",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS0lvMi1tYVdtd21LWWJiTTRmeGdWMUZaam5GUzlEdlNKN0toSkJnRWZqVVhZbWl2dm9vR3BxYzRhUEtkcl82eFlDeF80bTJCcDdMTzVTajg3RzVyaFNZQmFsMWg2aFRCSUdnZ1V2SFJvTGZINlpRbXNXVDVkM3ZVdlFoTFBBbUpGQ29j?oc=5",
+      "title": "AWS Makes Kimi K3.1 Pro Highspeed Available on Amazon Bedrock",
+      "publishedAt": "2026-11-11T01:31:06Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Unite.AI",
+      "method": "auto",
+      "alias": "kimi k3.1 pro highspeed",
+      "firstSeenAt": "2026-11-11T01:58:12Z",
+      "firstSeenIn": "2dd1d9e"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
