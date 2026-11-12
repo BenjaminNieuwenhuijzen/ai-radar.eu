@@ -4248,6 +4248,21 @@
     },
     {
       "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "2bo4ooyxl5g",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU2hGMmxMbEowUFJId01GM2tWekRqZURpT1ZjcjhiZUdzRFV1SEJ5OXRCRms2THkyVC1MbkQxZDBXNHlUY0lNeVdaX1lLZ08zQTg0ZHl5b0xiOGFDM19WakZ2QmFCU0djQlRCQ3I1THZTd3IxX0Q5bW5TdXV0enNkSjJkZmR4S09xRDlhTHo0bmItaXEz?oc=5",
+      "title": "Introducing Kimi K3.1 Pro on Amazon Bedrock | Amazon Web Services",
+      "publishedAt": "2026-11-11T01:07:19Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Amazon Web Services (AWS)",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-12T00:45:16Z",
+      "firstSeenIn": "056ee51"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": "highspeed",
       "postId": "luif0bbpmz",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNS0lvMi1tYVdtd21LWWJiTTRmeGdWMUZaam5GUzlEdlNKN0toSkJnRWZqVVhZbWl2dm9vR3BxYzRhUEtkcl82eFlDeF80bTJCcDdMTzVTajg3RzVyaFNZQmFsMWg2aFRCSUdnZ1V2SFJvTGZINlpRbXNXVDVkM3ZVdlFoTFBBbUpGQ29j?oc=5",
@@ -4425,6 +4440,21 @@
       "alias": "gpt-5.6 luna",
       "firstSeenAt": "2026-10-21T23:20:44Z",
       "firstSeenIn": "c1e0206"
+    },
+    {
+      "modelId": "openai.gpt-5-6-luna",
+      "variantId": null,
+      "postId": "100p51r415r",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBZMG13TnhaaUd3T0prTmp4XzBvWTNRWWFXd1dKUERzcFhOY00ySDMzUzh6WjF2TlNzQVo3bnN4aU1OWG9zajZRdHk2UHhmWnZPcWF6VTlBdmd2am1XLUlqZm90Tm1yUHZ3alNCb0czcXdvY216bERkdHd3?oc=5",
+      "title": "ERNIE 5.5 Flash Preview vs GPT-5.6 Luna: A Retired Card",
+      "publishedAt": "2026-11-11T22:01:06Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gpt-5.6 luna",
+      "firstSeenAt": "2026-11-12T00:45:16Z",
+      "firstSeenIn": "056ee51"
     },
     {
       "modelId": "openai.gpt-6-1-sol",
