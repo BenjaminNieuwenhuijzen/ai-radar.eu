@@ -1922,6 +1922,21 @@
       "firstSeenIn": "8b2e6db"
     },
     {
+      "modelId": "google.gemini-3-8-flash",
+      "variantId": null,
+      "postId": "291hfkna2x",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85ZDFVLW9qRW5fVTUzNmxVeDg3dmxDQUp2VUFORzUyaVV0RGdQbFR5eHpiOWNnMDdzOXV4eGdNaElVcXlaWnNrdW5SQ19rSUVrcjVVYmp4VUwxMUVTNXY0WXdtQlVLZFlKVFNrOG5UeUV4emU2RFJ3?oc=5",
+      "title": "Gemini 4 Hydrogen vs Gemini 3.8 Flash: what breaks",
+      "publishedAt": "2026-11-12T23:32:54Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 3.8 flash",
+      "firstSeenAt": "2026-11-13T17:46:35Z",
+      "firstSeenIn": "e3d8890"
+    },
+    {
       "modelId": "google.gemini-3-8-live",
       "variantId": null,
       "postId": "167vldacd5t",
@@ -2282,6 +2297,21 @@
       "firstSeenIn": "2e764fd"
     },
     {
+      "modelId": "google.gemini-4-argon",
+      "variantId": null,
+      "postId": "70ue762hsv",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1tbTA5S0ZqVDY3MnVEWV9aS0xrODFXRmswb0VMVGRhc3QyOGpPQkdlNlJTazlJWXFUZEVYWnhZeE90OGNxUF90NzRwNURGb0pjNklpbXBPQ0FwWUttYjVBRGtGVmp0dUZ0SjBLQ2hyLXJNT09y?oc=5",
+      "title": "Gemini 4 Hydrogen vs Gemini 4 Argon: the thinking-budget gap",
+      "publishedAt": "2026-11-13T05:43:06Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 4 argon",
+      "firstSeenAt": "2026-11-13T17:46:35Z",
+      "firstSeenIn": "e3d8890"
+    },
+    {
       "modelId": "google.gemini-4-carbon",
       "variantId": null,
       "postId": "1zaeilc1ozz",
@@ -2445,6 +2475,36 @@
       "alias": "gemini 4 hydrogen",
       "firstSeenAt": "2026-11-13T09:33:12Z",
       "firstSeenIn": "8857789"
+    },
+    {
+      "modelId": "google.gemini-4-hydrogen",
+      "variantId": null,
+      "postId": "291hfkna2x",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE85ZDFVLW9qRW5fVTUzNmxVeDg3dmxDQUp2VUFORzUyaVV0RGdQbFR5eHpiOWNnMDdzOXV4eGdNaElVcXlaWnNrdW5SQ19rSUVrcjVVYmp4VUwxMUVTNXY0WXdtQlVLZFlKVFNrOG5UeUV4emU2RFJ3?oc=5",
+      "title": "Gemini 4 Hydrogen vs Gemini 3.8 Flash: what breaks",
+      "publishedAt": "2026-11-12T23:32:54Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 4 hydrogen",
+      "firstSeenAt": "2026-11-13T17:46:35Z",
+      "firstSeenIn": "e3d8890"
+    },
+    {
+      "modelId": "google.gemini-4-hydrogen",
+      "variantId": null,
+      "postId": "70ue762hsv",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1tbTA5S0ZqVDY3MnVEWV9aS0xrODFXRmswb0VMVGRhc3QyOGpPQkdlNlJTazlJWXFUZEVYWnhZeE90OGNxUF90NzRwNURGb0pjNklpbXBPQ0FwWUttYjVBRGtGVmp0dUZ0SjBLQ2hyLXJNT09y?oc=5",
+      "title": "Gemini 4 Hydrogen vs Gemini 4 Argon: the thinking-budget gap",
+      "publishedAt": "2026-11-13T05:43:06Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 4 hydrogen",
+      "firstSeenAt": "2026-11-13T17:46:35Z",
+      "firstSeenIn": "e3d8890"
     },
     {
       "modelId": "google.gemini-4-hydrogen",
@@ -5700,6 +5760,36 @@
       "alias": "gpt-6 cyber",
       "firstSeenAt": "2026-11-09T09:50:15Z",
       "firstSeenIn": "29604fd"
+    },
+    {
+      "modelId": "openai.gpt-6-cyber",
+      "variantId": null,
+      "postId": "1k8jjiwu3aj",
+      "link": "https://www.youtube.com/shorts/pfbfZKxUEDQ",
+      "title": "How Mozilla strengthens Firefox security with GPT-6 Cyber",
+      "publishedAt": "2026-11-13T16:38:23Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "YouTube",
+      "method": "auto",
+      "alias": "gpt-6 cyber",
+      "firstSeenAt": "2026-11-13T17:46:35Z",
+      "firstSeenIn": "e3d8890"
+    },
+    {
+      "modelId": "openai.gpt-6-cyber",
+      "variantId": null,
+      "postId": "7y9va6fjhx",
+      "link": "https://www.youtube.com/watch?v=PkAmyub12K8",
+      "title": "How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities",
+      "publishedAt": "2026-11-13T16:56:45Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "YouTube",
+      "method": "auto",
+      "alias": "gpt-6 cyber",
+      "firstSeenAt": "2026-11-13T17:46:35Z",
+      "firstSeenIn": "e3d8890"
     },
     {
       "modelId": "openai.gpt-6-luna",
