@@ -1951,6 +1951,20 @@
       "provenance": "primary",
       "availability": "unknown",
       "notes": "Known only from Google's own news feed as listed on AI Radar (title, link and date). The page itself was not opened when the record was written, so the daily source check has to confirm it."
+    },
+    {
+      "id": "src.google.gemini-4-hydrogen-announcement",
+      "type": "announcement",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "publisher": "Google",
+      "publisherOrgId": "google",
+      "publishedAt": {
+        "value": "2026-11-12"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Known only from Google's own news feed as listed on AI Radar (title, link and date). The page itself was not opened when the record was written, so the daily source check has to confirm it."
     }
   ]
 }

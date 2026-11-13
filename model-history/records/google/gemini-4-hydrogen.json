@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "google.gemini-4-hydrogen",
+  "coverage": "stub",
+  "lastReviewedAt": "2026-11-13",
+  "slug": "gemini-4-hydrogen",
+  "name": "Gemini 4 Hydrogen",
+  "aliases": [
+    {
+      "text": "Gemini 4 Hydrogen",
+      "match": "auto"
+    }
+  ],
+  "organizations": [
+    {
+      "id": "google",
+      "role": "developer",
+      "primary": true
+    }
+  ],
+  "familyId": "google.gemini",
+  "generation": "4",
+  "categories": [
+    "language",
+    "multimodal",
+    "reasoning"
+  ],
+  "prominence": "standard",
+  "lifecycle": {
+    "value": "announced",
+    "sources": [
+      {
+        "id": "src.google.gemini-4-hydrogen-announcement"
+      }
+    ]
+  },
+  "dates": {
+    "announced": {
+      "value": "2026-11-12",
+      "sources": [
+        {
+          "id": "src.google.gemini-4-hydrogen-announcement"
+        }
+      ]
+    },
+    "released": null,
+    "deprecated": null,
+    "retired": null
+  },
+  "notes": "Added automatically from Google's own news item (title, date and link only). The routine could not open the page, so nothing else is claimed; to be completed from the announcement and the documentation."
+}
