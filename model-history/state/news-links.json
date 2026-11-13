@@ -182,6 +182,51 @@
       "firstSeenIn": "f663a69"
     },
     {
+      "modelId": "anthropic.claude-fable-5-2",
+      "variantId": null,
+      "postId": "8jq2fss91",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKT18yR2NWTnIyN2dVVTVCcGVPNGRLTDl5N3UtcnBSR0lQdUhCa3Zvb0daZDJXRmF0eW92enJzdFlEWV9fWlc4SDNSUk15d1d5RWZOWDRSSGlYUkkwa2RwOTFCejFlYXJuTVE?oc=5",
+      "title": "How to Use Claude Fable 5.2: API Setup, Effort Levels and Cost",
+      "publishedAt": "2026-11-13T08:23:45Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude fable 5.2",
+      "firstSeenAt": "2026-11-13T09:33:12Z",
+      "firstSeenIn": "8857789"
+    },
+    {
+      "modelId": "anthropic.claude-fable-5-2",
+      "variantId": null,
+      "postId": "8d44rt2egt",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41TmtINEhMU0FBTXltWWtueFZBTmY5bU11dHlvOGw5S1VmNlJwQ3ljNWlWd09sZ1pxcERmWXVDSUUxM3FnRjU2cHBON1QzWTZlY19qNVg0aTg5VUZ3YWNkbzh2SzQ?oc=5",
+      "title": "Claude Fable 5.2 review: 65 on AA v5.0.1 and the bill",
+      "publishedAt": "2026-11-13T08:23:52Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude fable 5.2",
+      "firstSeenAt": "2026-11-13T09:33:12Z",
+      "firstSeenIn": "8857789"
+    },
+    {
+      "modelId": "anthropic.claude-fable-5-2",
+      "variantId": null,
+      "postId": "1bv8ii3j5ul",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAwX1FHZ0RWTkpyZUg1WGRwWHhqU2V2bTJrUTNJNHlWOGdxYXFnWDBDb2pTaUFkdDZJeWJnd2ljNGk5Mkk4RW9UemNjWVdzQnhSbEthOF9ZRUhQVmthTFN3bkgwUTJaOE1j?oc=5",
+      "title": "Claude Fable 5.2 benchmark: 65 on AA v5.0.1 explained",
+      "publishedAt": "2026-11-13T08:24:00Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude fable 5.2",
+      "firstSeenAt": "2026-11-13T09:33:12Z",
+      "firstSeenIn": "8857789"
+    },
+    {
       "modelId": "anthropic.claude-haiku-5-5",
       "variantId": null,
       "postId": "vgjfmavblk",
@@ -1622,6 +1667,21 @@
       "firstSeenIn": "29604fd"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "277teuqo52m",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPR1pvMzVTSG1nSk1FR2NxcFp6cGZ0WEl5TExpNEFOT09RZUFHVTYweEJXRmZ3NVFCOWtwZGR6OWstM1FhWmJnWFdDX2FTRTVaUU9xbHVHY08xdWV2VWZ6MEV0bE5oQW13eHh3enpjMnU5b0JWM0ZZaVVRN2pzaXpuVlpqUmtLMTZkVmNCQU12WERlTDFHRFpIQUl6cW9aZGFFdGpILU1fVU5ya3NaUVVBTy04NTZ3UG1aMjVEb0ZpWXFWLUpRTGJERA?oc=5",
+      "title": "Artificial Analysis v5 Index: Tencent Hunyuan Hy4 Scores 35, Outperforming DeepSeek V4.1 Flash 1017",
+      "publishedAt": "2026-11-13T08:24:30Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "KuCoin",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-13T09:33:12Z",
+      "firstSeenIn": "8857789"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
@@ -2955,6 +3015,21 @@
       "alias": "kimi k3",
       "firstSeenAt": "2026-11-11T01:58:12Z",
       "firstSeenIn": "2dd1d9e"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "1rszrswpf17",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZm1QRUJPUXBpUjVVcEtLdktJUW9udjZQU1JrQTc3TmpkaFN6Q09HSDlZZjVRaW9UelVuY0dGdU9kV0s0QWVtUzc4MDNWZFgyZG9RQzhBZmd2cUVoWGZESlJPV0I0Rk82Y1J1UFgxc2U1VGowaUUwTEFYOFBMZFJNbDFzZHdXZzZoS0VJeTdIZGJ3QngzYWZqU0dFLXJDZ2hqU3JRdXlzYw?oc=5",
+      "title": "Andrew Yao and Yang Zhilin Co-Author TCSExam as Kimi K3 Adds an Edge to a Graph Record",
+      "publishedAt": "2026-11-13T02:34:50Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Pandaily",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-13T09:33:12Z",
+      "firstSeenIn": "8857789"
     },
     {
       "modelId": "moonshot.kimi-k3-1-pro",
