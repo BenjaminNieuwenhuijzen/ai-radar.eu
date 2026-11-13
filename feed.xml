@@ -5,19 +5,187 @@
 <link>https://ai-radar.eu/</link>
 <description>Combined updates from leading AI companies.</description>
 <language>en</language>
-<lastBuildDate>Fri, 13 Nov 2026 09:33:12 GMT</lastBuildDate>
+<lastBuildDate>Fri, 13 Nov 2026 17:46:35 GMT</lastBuildDate>
 <item>
-<title>[Google News] 'Hidden signature' of NVIDIA chips found on 6 Chinese AI models, claims researcher | Elon Musk reacted with a thinking face emoji | Inshorts - Inshorts</title>
-<link>https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWlIwaTRkWE54a214bDNMX2psWmZOMERUOGFMY2MxNnZZcndlclFBdHd1RDRwMFpNMnVodTh5OUFhTktwTk82Wmp0X2dBcU14VGRpX24wb01BZHVNOTZia0Rkd0JMUDR1UkpUNXVERFQyU2VwaHUyVk16NlFyU0w0NmlweGJlakg3Sm9YaWcydHdwdW5LTWhhVk9EaHN3ZGFxa3R1cFptSXlDOU9ReFB3eVJ4YTU0UUYxVGFBMnRvbXB1U03SAcgBQVVfeXFMTjBSS3hObW9DWVVneEhRZlViRzhzbGxYeUsxbHRpNGFwTWF6Wkl0N1dEbGhEa184WFBoN05DNElXcVlBNHR0QURnYUtIa1RRYUdFQ1Z2QkZyQ1RsYmVtR2tYRUdVNktIUEI1Und3ZjlUZG9SM2xud3V4T1NFeW9VT2FVTzY5OVhuV3I4QlRvODJYYkItNVpRZzJlS2ZqT2x1NmEzVTJxX2Fabm53djJuV3IyRGJUSjYwdXFXb05aeFBWLXdjcEIzd0k?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWlIwaTRkWE54a214bDNMX2psWmZOMERUOGFMY2MxNnZZcndlclFBdHd1RDRwMFpNMnVodTh5OUFhTktwTk82Wmp0X2dBcU14VGRpX24wb01BZHVNOTZia0Rkd0JMUDR1UkpUNXVERFQyU2VwaHUyVk16NlFyU0w0NmlweGJlakg3Sm9YaWcydHdwdW5LTWhhVk9EaHN3ZGFxa3R1cFptSXlDOU9ReFB3eVJ4YTU0UUYxVGFBMnRvbXB1U03SAcgBQVVfeXFMTjBSS3hObW9DWVVneEhRZlViRzhzbGxYeUsxbHRpNGFwTWF6Wkl0N1dEbGhEa184WFBoN05DNElXcVlBNHR0QURnYUtIa1RRYUdFQ1Z2QkZyQ1RsYmVtR2tYRUdVNktIUEI1Und3ZjlUZG9SM2xud3V4T1NFeW9VT2FVTzY5OVhuV3I4QlRvODJYYkItNVpRZzJlS2ZqT2x1NmEzVTJxX2Fabm53djJuV3IyRGJUSjYwdXFXb05aeFBWLXdjcEIzd0k?oc=5</guid>
-<pubDate>Fri, 13 Nov 2026 09:21:46 GMT</pubDate>
+<title>[Blog] XYBench: Helping with the problem behind the question</title>
+<link>https://huggingface.co/blog/allenai/xybench</link>
+<guid isPermaLink="false">https://huggingface.co/blog/allenai/xybench</guid>
+<pubDate>Fri, 13 Nov 2026 17:02:35 GMT</pubDate>
+<description>A Blog post by Ai2 on Hugging Face</description>
+</item>
+<item>
+<title>[Cloud AI] New AI agent observability and governance across BigQuery and Looker</title>
+<link>https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/</link>
+<guid isPermaLink="false">https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker/</guid>
+<pubDate>Fri, 13 Nov 2026 17:00:00 +0000</pubDate>
+<description>As enterprises move AI agents from experimental prototypes into production, data and platform teams are discovering that deploying an agent is only half the battle — you also need to see how it reasons, which data it touches, and what it costs to run. Today, we are announcing expanded AI agent obser</description>
+</item>
+<item>
+<title>[Gemini] Connect Google Wallet to Gemini for personal finance insights</title>
+<link>https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/</link>
+<guid isPermaLink="false">https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/</guid>
+<pubDate>Fri, 13 Nov 2026 17:00:00 +0000</pubDate>
+<description>All Gemini app users in the U.S. can connect Google Wallet to get responses informed by their spending habits.</description>
+</item>
+<item>
+<title>[Developer] When One GPU Isn’t Enough: Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM</title>
+<link>https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/</guid>
+<pubDate>Fri, 13 Nov 2026 17:00:00 GMT</pubDate>
+<description>Running a frontier-scale model locally means keeping all its weights in GPU memory; the largest models no longer fit on one machine. Two NVIDIA DGX Stations...</description>
+</item>
+<item>
+<title>[Developer] Adapt Human Motion for Robots with NVIDIA SOMA Retargeter</title>
+<link>https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/</link>
+<guid isPermaLink="false">https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/</guid>
+<pubDate>Fri, 13 Nov 2026 17:00:00 GMT</pubDate>
+<description>Human motion offers roboticists a great starting point for teaching humanoid robots how to move. A human demonstration captures the coordination and timing...</description>
+</item>
+<item>
+<title>[YouTube] How Mozilla uses GPT-6 Cyber to find and fix Firefox vulnerabilities</title>
+<link>https://www.youtube.com/watch?v=PkAmyub12K8</link>
+<guid isPermaLink="false">https://www.youtube.com/watch?v=PkAmyub12K8</guid>
+<pubDate>Fri, 13 Nov 2026 16:56:45 GMT</pubDate>
+<description>Mozilla is combining decades of security engineering with AI agents to strengthen Firefox’s defenses. Brian Grinstead joins OpenAI’s Clint Gibler to discuss how the team prioritizes investigations, tests and verifies vulnerabilities, finds related bug patterns, and helps engineers develop fixes. The</description>
+</item>
+<item>
+<title>[Google News] Ghana Faces Governance Readiness Gap as Artificial Intelligence Deployment Outpaces Oversight - Bioengineer.org</title>
+<link>https://news.google.com/rss/articles/CBMiugFBVV95cUxQc0h4bTI0anRYd3RmWU5uSi1nTmNmbDdJYWNhclRuMFhHQlFzTUU3dFU0UVlJeUFoamt2aWtqU3JRZkpXN2FyZnA0SlZyVDJyMlh6a05GNlRJT20wQkl2NDFlcVNUQW5CbXRpLVlaWWpkb29uaE9XYnFOeEVPU3FZZEdmUDJnNmpxRklfYmRISzQwVzNiRmU1ZmZ6dnhEZWpKZkZfQ1ozZ0k0VVQ3dHJzVk5jY05ESFdyM3c?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiugFBVV95cUxQc0h4bTI0anRYd3RmWU5uSi1nTmNmbDdJYWNhclRuMFhHQlFzTUU3dFU0UVlJeUFoamt2aWtqU3JRZkpXN2FyZnA0SlZyVDJyMlh6a05GNlRJT20wQkl2NDFlcVNUQW5CbXRpLVlaWWpkb29uaE9XYnFOeEVPU3FZZEdmUDJnNmpxRklfYmRISzQwVzNiRmU1ZmZ6dnhEZWpKZkZfQ1ozZ0k0VVQ3dHJzVk5jY05ESFdyM3c?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 16:40:56 GMT</pubDate>
 
 </item>
 <item>
-<title>[Google News] DeepSeek Unmanned Entrepreneurship: Innovative AI-Powered Autonomous Business Solutions - 36氪</title>
+<title>[Google News] The Ministry of Health will determine which artificial intelligence will be allowed in medicine: some systems may be banned - Судово-юридична газета</title>
+<link>https://news.google.com/rss/articles/CBMizgFBVV95cUxPQWNaVnJWb0VIZE5JV01lNGJiVkJlSmpUd1lTVTIxcjY3c2lWNkY4cGtNTXBzYzhncURxZEN0MnRtTXMzbHA3dnNHNExMMVNFYUpaeG1WWTJNZ3VHNUpQWlZFS3prSWdHRDZEV2ltQU5MUE9iMTZtN1BjWU9uenpHdGtZMHp3LXBQdGZGMlljbi02dW5Ib2pqdW5QRFpnb1haVUlxc3BOWTI2NG5vZl9Ick93b3dXS292bVFia1hfa01OSEMwN2c5ZXNsclY0dw?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMizgFBVV95cUxPQWNaVnJWb0VIZE5JV01lNGJiVkJlSmpUd1lTVTIxcjY3c2lWNkY4cGtNTXBzYzhncURxZEN0MnRtTXMzbHA3dnNHNExMMVNFYUpaeG1WWTJNZ3VHNUpQWlZFS3prSWdHRDZEV2ltQU5MUE9iMTZtN1BjWU9uenpHdGtZMHp3LXBQdGZGMlljbi02dW5Ib2pqdW5QRFpnb1haVUlxc3BOWTI2NG5vZl9Ick93b3dXS292bVFia1hfa01OSEMwN2c5ZXNsclY0dw?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 16:39:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[YouTube] How Mozilla strengthens Firefox security with GPT-6 Cyber</title>
+<link>https://www.youtube.com/shorts/pfbfZKxUEDQ</link>
+<guid isPermaLink="false">https://www.youtube.com/shorts/pfbfZKxUEDQ</guid>
+<pubDate>Fri, 13 Nov 2026 16:38:23 GMT</pubDate>
+<description>Mozilla’s Brian Grinstead shares how early testing with GPT-6 Cyber identified new vulnerabilities and opportunities to strengthen Firefox’s defenses, helping the team work toward an ambitious goal: zero bugs. Watch the full conversation with OpenAI’s Clint Gibler to learn more.</description>
+</item>
+<item>
+<title>[Google News] DeepSeek Turns Its Whole App Into an API With Search, File Reading, Voice and Safety Built In - Startup Fortune</title>
+<link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMk5aU2dlc2J1dGk2SnZjX2tjNXZ5cHRrN3hsNnFVT3F2ZFMxZG9yaUZjamI1U3Y1UHU5SnlDbDRhT1QteGF4MENqM29kRXZvSHByTXhxUGNGQXdhdjFFUVFEbG5lTHlvWndUWk04ZFo5VmFObXdJaVpNWjIyS0NMWkx4THhENHdlWFNoYmVKSUdGcFBTYzR6RVM1RHRKYzYtN1lGbTRBRVlFQ290OEFqWFdMamEyblppcWtz?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMk5aU2dlc2J1dGk2SnZjX2tjNXZ5cHRrN3hsNnFVT3F2ZFMxZG9yaUZjamI1U3Y1UHU5SnlDbDRhT1QteGF4MENqM29kRXZvSHByTXhxUGNGQXdhdjFFUVFEbG5lTHlvWndUWk04ZFo5VmFObXdJaVpNWjIyS0NMWkx4THhENHdlWFNoYmVKSUdGcFBTYzR6RVM1RHRKYzYtN1lGbTRBRVlFQ290OEFqWFdMamEyblppcWtz?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 16:25:29 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek AI Model Files Point to Training on Nvidia Blackwell Chips - WinBuzzer</title>
+<link>https://news.google.com/rss/articles/CBMinAFBVV95cUxNbS1wYjJXbTRMbnA5aWI3eEpkRHdMUmp2MlJJaFVJajF6STNMMTRLVGNIRlV1RG9FOGlPSVg5MU1qVUszYjJBRUlGUHViRnd3ZTdXZ3lkRnVUSkR6SEotX1JFdzB6U1dranF2Sm9mVVVrMlgydmVCM2NVV3NsMkxfX3RTRTFQNW1YbU9rWHJxbXBsRm5MTGJfU25Za0U?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMinAFBVV95cUxNbS1wYjJXbTRMbnA5aWI3eEpkRHdMUmp2MlJJaFVJajF6STNMMTRLVGNIRlV1RG9FOGlPSVg5MU1qVUszYjJBRUlGUHViRnd3ZTdXZ3lkRnVUSkR6SEotX1JFdzB6U1dranF2Sm9mVVVrMlgydmVCM2NVV3NsMkxfX3RTRTFQNW1YbU9rWHJxbXBsRm5MTGJfU25Za0U?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 15:42:36 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek And Moonshot AI Models Appear To Carry Hidden NVIDIA Blackwell Fingerprints In Their Starting Weights, Pointing To Training Clusters Of 3,000 To 4,500 GPUs - Wccftech</title>
+<link>https://news.google.com/rss/articles/CBMikAJBVV95cUxQdHdIZmpkYmZOcGFLSG1hN2tDZFp0NkFrY1RDTUhfUldHakZKbjZQYzJqTnF6bE9rWHB4S19rOXVmMVpFMjYxSTVRVmJIRm16dWFHSkx2WU5EY3VwOHF0T0k4S0hFZmR6ZUlCOXBKNUpUTUZNSUpxckc2XzVwV3ZybEFEN3dfMHcwNWdsNkJaY01uQW9rUXlObmZsbW54ZndKekQ3U3psMjVDQmRCOUIzQWVrMHVBaW9Gbm9lXzc1bHNTU2w0dWtndlNpbl9TRzdCTjdrbHQ5OXpja0lubEZFd25vc2U4ak81M2p1REJha2dDc1MxTnhyb09YZWZlTVk5MF9wbjRVVldiNTJkSTZGStIBlgJBVV95cUxPWEpnZk12S1VGS0doVzdrM0RrQzRLaTM1MzlSazVWYWFkNlh5NlU1VW9yTjJOZ1VReHJnbEVhb19QcF9oaGdJTjZzdUJid3BKTTRpakpOaWJZQldkdTg3cm1IQ1RkZ2VVMTBPUGt1Sl9TUzNJSnFKSG83YXBza0ZMSXdiTGx4Y3NRUTNlQnA1N01sNkM3eEdydmJIX0N5UDZLRC13NGRIUUc0dHpiYVQ2SUtRbTlYX1JHUVRaeEtadHRMVDJKT3RFSm1YTE5xMlhWakQ4ai1pWUhuWnlyZm9Pb2ttZjQzdy1LeVJGWnRZODVnd3ljYncyQjlDLWdwYlZmdXlsUF9YaWRISUw4T0xxR3BFOXoyUQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMikAJBVV95cUxQdHdIZmpkYmZOcGFLSG1hN2tDZFp0NkFrY1RDTUhfUldHakZKbjZQYzJqTnF6bE9rWHB4S19rOXVmMVpFMjYxSTVRVmJIRm16dWFHSkx2WU5EY3VwOHF0T0k4S0hFZmR6ZUlCOXBKNUpUTUZNSUpxckc2XzVwV3ZybEFEN3dfMHcwNWdsNkJaY01uQW9rUXlObmZsbW54ZndKekQ3U3psMjVDQmRCOUIzQWVrMHVBaW9Gbm9lXzc1bHNTU2w0dWtndlNpbl9TRzdCTjdrbHQ5OXpja0lubEZFd25vc2U4ak81M2p1REJha2dDc1MxTnhyb09YZWZlTVk5MF9wbjRVVldiNTJkSTZGStIBlgJBVV95cUxPWEpnZk12S1VGS0doVzdrM0RrQzRLaTM1MzlSazVWYWFkNlh5NlU1VW9yTjJOZ1VReHJnbEVhb19QcF9oaGdJTjZzdUJid3BKTTRpakpOaWJZQldkdTg3cm1IQ1RkZ2VVMTBPUGt1Sl9TUzNJSnFKSG83YXBza0ZMSXdiTGx4Y3NRUTNlQnA1N01sNkM3eEdydmJIX0N5UDZLRC13NGRIUUc0dHpiYVQ2SUtRbTlYX1JHUVRaeEtadHRMVDJKT3RFSm1YTE5xMlhWakQ4ai1pWUhuWnlyZm9Pb2ttZjQzdy1LeVJGWnRZODVnd3ljYncyQjlDLWdwYlZmdXlsUF9YaWRISUw4T0xxR3BFOXoyUQ?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 15:09:02 GMT</pubDate>
+
+</item>
+<item>
+<title>[News] Introducing ChatGPT Wallet</title>
+<link>https://openai.com/index/introducing-chatgpt-wallet</link>
+<guid isPermaLink="false">https://openai.com/index/introducing-chatgpt-wallet</guid>
+<pubDate>Fri, 13 Nov 2026 15:00:00 GMT</pubDate>
+<description>Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.</description>
+</item>
+<item>
+<title>[Blog] llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem</title>
+<link>https://huggingface.co/blog/ggml-org/llama-cpp-v1</link>
+<guid isPermaLink="false">https://huggingface.co/blog/ggml-org/llama-cpp-v1</guid>
+<pubDate>Fri, 13 Nov 2026 14:05:22 GMT</pubDate>
+<description>A Blog post by ggml-org on Hugging Face</description>
+</item>
+<item>
+<title>[Google News] DeepSeek Report Puts Nvidia's Chip Exports in Focus - Yahoo Finance</title>
+<link>https://news.google.com/rss/articles/CBMimgFBVV95cUxPazNtTkZtVUJOc3ZhMkZFNWhtNTlPdlI4QlVuaHdsTFdDZkNvWDQwaU9Xemc0SVNTWlA3VngyNFV6WlVVekM1SXNWMnNBamM4ZTUwZFVBU250MC1VVTFHc1pCcG90ZFA5RzN5NUJUUzh0UlZTY2JrZDVhMm84Z2tFNVI0eklNVGFNZF9PY1RQOFRkQ0RjaHFTZ1VB?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMimgFBVV95cUxPazNtTkZtVUJOc3ZhMkZFNWhtNTlPdlI4QlVuaHdsTFdDZkNvWDQwaU9Xemc0SVNTWlA3VngyNFV6WlVVekM1SXNWMnNBamM4ZTUwZFVBU250MC1VVTFHc1pCcG90ZFA5RzN5NUJUUzh0UlZTY2JrZDVhMm84Z2tFNVI0eklNVGFNZF9PY1RQOFRkQ0RjaHFTZ1VB?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 13:56:27 GMT</pubDate>
+
+</item>
+<item>
+<title>[Blog] How AI Is Helping Care Teams Get Patients the Right Care, Sooner</title>
+<link>https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/</link>
+<guid isPermaLink="false">https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/</guid>
+<pubDate>Fri, 13 Nov 2026 13:00:42 +0000</pubDate>
+<description>From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients a</description>
+</item>
+<item>
+<title>[Google News] Nvidia Rubin Runs DeepSeek at 58x GB300, but 2.7x at Peak - FourWeekMBA</title>
+<link>https://news.google.com/rss/articles/CBMijAFBVV95cUxOTnROdnVfYTNscUgwcFlVRW42NXJ1dXRQbEFaRkFnd3pvSTFKTzV6cXl4bi1NRkRBS3hoS0p4ZzBBdlJKdGJzTVZIUVNoTEJGbjhBUGNYS1pMMlhXRlRrX2p6ZWIzSkRLVGxtQlBsbkVITVhqMFZnTThMMDZnLXZwemxMU2ZQV0dCSFh2Mg?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMijAFBVV95cUxOTnROdnVfYTNscUgwcFlVRW42NXJ1dXRQbEFaRkFnd3pvSTFKTzV6cXl4bi1NRkRBS3hoS0p4ZzBBdlJKdGJzTVZIUVNoTEJGbjhBUGNYS1pMMlhXRlRrX2p6ZWIzSkRLVGxtQlBsbkVITVhqMFZnTThMMDZnLXZwemxMU2ZQV0dCSFh2Mg?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 12:48:01 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Video | DeepSeek, Megaspeed And Nvidia: Unravelling The Alice Huang Connection - NDTV</title>
+<link>https://news.google.com/rss/articles/CBMipgFBVV95cUxPYVpLWll0N2RaUjNOU09aTzFRU2ZTWVM1cWt0aVlncktRWHJvZnFkM0tFSE9xZVZOYld4c3k4bEx4d1I1ZXprVHlIODBjb3FFdVkxUnRxa2pJTGwteXBWRlFfTGVIRHMwckRJQk5yV3E3NHJfeDRpWWNocTFVVzBxVDBPVkE4Y2dVNXdQMG9EM0FUX2tUWS11dzA5Rjh3SUpnNk5GZ2FR?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMipgFBVV95cUxPYVpLWll0N2RaUjNOU09aTzFRU2ZTWVM1cWt0aVlncktRWHJvZnFkM0tFSE9xZVZOYld4c3k4bEx4d1I1ZXprVHlIODBjb3FFdVkxUnRxa2pJTGwteXBWRlFfTGVIRHMwckRJQk5yV3E3NHJfeDRpWWNocTFVVzBxVDBPVkE4Y2dVNXdQMG9EM0FUX2tUWS11dzA5Rjh3SUpnNk5GZ2FR?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 12:36:50 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Traces of NVIDIA's Blackwell-Generation Chips Found in Chinese AI Models, Revealing Procurement Under Export Controls - BigGo Finance</title>
+<link>https://news.google.com/rss/articles/CBMidkFVX3lxTFA1c0VPdWs0anhZMGhzd1F0WHBqaGVWRGN3NDczS1JaSjNSNVkwSllUSjlfaTh0VWVCaVBqOUM3a25LSDR5VU54RnhnT090S1lVWllxTm9NNm9JT0hTNlp5NnhwRUxiLVJ6TXJIUU12Zm0tS212R3c?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTFA1c0VPdWs0anhZMGhzd1F0WHBqaGVWRGN3NDczS1JaSjNSNVkwSllUSjlfaTh0VWVCaVBqOUM3a25LSDR5VU54RnhnT090S1lVWllxTm9NNm9JT0hTNlp5NnhwRUxiLVJ6TXJIUU12Zm0tS212R3c?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 11:55:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Meta, TikTok and Google resist Indonesia’s proposal to regulate artificial intelligence in copyright law - ET CIO SEA</title>
+<link>https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaTRlOHVldmp6aWFfaHVVWEdoaGV0a2JtM000dE1QdHBtZHJMZXREdkJLSXh6X05uMEdOTnNxcWhJZHBtaUlUSDFSazR3X2NXRVVJeG1iY2NVYnBtcloyYzE2M0dqUnpGZi00bmdpT3ctOGhxd1V1Vm5HX0hrRFg4UW83TUZQWjQyRTV6dW96dmdiWnNkcmZDZkVwRlFlM29JZnlQcU9yX3RScWp6ZGhCeTZSMkFTQXVhN1V0T2p5VVFEX2tIUkFhX1dHUW5iLUJmdkg4MjhlSXY1QlROMFZ2M3hPTVRTdnJ0ZEpqS01sa3I3NFJhMm9sNm1LUXI?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaTRlOHVldmp6aWFfaHVVWEdoaGV0a2JtM000dE1QdHBtZHJMZXREdkJLSXh6X05uMEdOTnNxcWhJZHBtaUlUSDFSazR3X2NXRVVJeG1iY2NVYnBtcloyYzE2M0dqUnpGZi00bmdpT3ctOGhxd1V1Vm5HX0hrRFg4UW83TUZQWjQyRTV6dW96dmdiWnNkcmZDZkVwRlFlM29JZnlQcU9yX3RScWp6ZGhCeTZSMkFTQXVhN1V0T2p5VVFEX2tIUkFhX1dHUW5iLUJmdkg4MjhlSXY1QlROMFZ2M3hPTVRTdnJ0ZEpqS01sa3I3NFJhMm9sNm1LUXI?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 11:49:55 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek Investment Raises Nvidia Security Questions - varindia</title>
+<link>https://news.google.com/rss/articles/CBMiigFBVV95cUxQaWdEem1rY3JqNk52YXBCUExORGVjMi1rVmhTX09KNXZQM3NpVEZCWHk4alRNTFdZNlZCcEpaR1dMeEFuUWVnMGp0UFlvUXMxVFVqX04zUUxHaGpoWFBhaDZiczBVQnM3Y2xXSnJ0VWNjM2dITHc3SHFnalc4b0RNZ2NHc3dPVFF1Znc?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiigFBVV95cUxQaWdEem1rY3JqNk52YXBCUExORGVjMi1rVmhTX09KNXZQM3NpVEZCWHk4alRNTFdZNlZCcEpaR1dMeEFuUWVnMGp0UFlvUXMxVFVqX04zUUxHaGpoWFBhaDZiczBVQnM3Y2xXSnJ0VWNjM2dITHc3SHFnalc4b0RNZ2NHc3dPVFF1Znc?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 11:34:29 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Jews are having the wrong conversation about artificial intelligence - eJewishPhilanthropy</title>
+<link>https://news.google.com/rss/articles/CBMiowFBVV95cUxOTDNyM0RKUDlOaHMzUlNTZzVRUkZfN195Q1d0NjkwVVA0WXRzaUNQcTU4eERrNDVEVGhVdlpZcVRaQXFZYXYzQVFQeFhhY1FUallhdHphb2EyNlh3bTFYaDQwNEktZjc5UHJfVjV0eDJlbTBXM3lHLVpFYU5oeGdiREJWTnlqRlRCaFZaR2YzZ0dTRVlVdWtnUXBpVnc5N1R3TWpR?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiowFBVV95cUxOTDNyM0RKUDlOaHMzUlNTZzVRUkZfN195Q1d0NjkwVVA0WXRzaUNQcTU4eERrNDVEVGhVdlpZcVRaQXFZYXYzQVFQeFhhY1FUallhdHphb2EyNlh3bTFYaDQwNEktZjc5UHJfVjV0eDJlbTBXM3lHLVpFYU5oeGdiREJWTnlqRlRCaFZaR2YzZ0dTRVlVdWtnUXBpVnc5N1R3TWpR?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 10:45:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Companies Linked to Alice Huang Invested in DeepSeek - The Information</title>
+<link>https://news.google.com/rss/articles/CBMikAFBVV95cUxQcUd1UjBUazNfWGU3aGU2TTdsVG5HN3FwZGdORUxjeWh0TkFkNENGYUJuT0VlT2hfU1ctSWRPQWxtZ3lMRjlNMHAybktTSV9nTENwTVNfc0FsNlZOLTVySjZlUDZTbngtVFpyTWhBOFd1SXJnYl9UNFhvU3BUNURQOTZvNF9YZUZEalZUWjNEemI?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMikAFBVV95cUxQcUd1UjBUazNfWGU3aGU2TTdsVG5HN3FwZGdORUxjeWh0TkFkNENGYUJuT0VlT2hfU1ctSWRPQWxtZ3lMRjlNMHAybktTSV9nTENwTVNfc0FsNlZOLTVySjZlUDZTbngtVFpyTWhBOFd1SXJnYl9UNFhvU3BUNURQOTZvNF9YZUZEalZUWjNEemI?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 09:49:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Moonshot AI Begins Offshore Restructuring as It Weighs 2027 Hong Kong IPO - www.tokenpost.com</title>
+<link>https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VOXVSOXMwd3ctZDJwRF9KUjFiWlZacmFzU09sTVVob3phSW1oOUR1MFBPdkM4eGUxdmV0cWRycWFUeWQ3M0hpTEdoVl9CYUxPUm5FZzZBZ00?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VOXVSOXMwd3ctZDJwRF9KUjFiWlZacmFzU09sTVVob3phSW1oOUR1MFBPdkM4eGUxdmV0cWRycWFUeWQ3M0hpTEdoVl9CYUxPUm5FZzZBZ00?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 09:13:28 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] DeepSeek Unmanned Entrepreneurship: Innovative AI-Powered Autonomous Business Solutions - 36Kr</title>
 <link>https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oNDE4amRNYU1lQTZzTnQ0U0pNZllDUkJYSk42UmI1MjZfc0xYT1dmVGRrM093bUowNFpTeHlyRHBIZkJIWVV5UlhCc1FIZ1EzU1ZB?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oNDE4amRNYU1lQTZzTnQ0U0pNZllDUkJYSk42UmI1MjZfc0xYT1dmVGRrM093bUowNFpTeHlyRHBIZkJIWVV5UlhCc1FIZ1EzU1ZB?oc=5</guid>
-<pubDate>Fri, 13 Nov 2026 09:12:05 GMT</pubDate>
+<pubDate>Fri, 13 Nov 2026 09:11:43 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] NVIDIA Corporation | History, GPUs, &amp; Artificial Intelligence - Britannica</title>
+<link>https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 09:01:00 GMT</pubDate>
 
 </item>
 <item>
@@ -84,6 +252,13 @@
 
 </item>
 <item>
+<title>[Google News] Forensic Analysis Links Chinese AI Models To Restricted Nvidia Chips - Dataconomy</title>
+<link>https://news.google.com/rss/articles/CBMilAFBVV95cUxOa2QybXZmOVRBUDdwbmNpa2pMZnF1emxjX1N1TGljWTlNWW5pdHQzaXVjaEV2Nnl3ZEhfczkxMkhTX2VJa0tUaWFhLXRlVkt3S1hvWDRsQzlhd2NXSFNnMk1rVmh0R0hvclZkMVE0VTlFTk1lWTluUncwenBtTXh6QkJWNnp4bVNUNnh4TXVVS215Rnl6?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMilAFBVV95cUxOa2QybXZmOVRBUDdwbmNpa2pMZnF1emxjX1N1TGljWTlNWW5pdHQzaXVjaEV2Nnl3ZEhfczkxMkhTX2VJa0tUaWFhLXRlVkt3S1hvWDRsQzlhd2NXSFNnMk1rVmh0R0hvclZkMVE0VTlFTk1lWTluUncwenBtTXh6QkJWNnp4bVNUNnh4TXVVS215Rnl6?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 07:29:39 GMT</pubDate>
+
+</item>
+<item>
 <title>[Google News] Tell 1 vs Qwen 3.8: 72 ms contro un tool calling migliore - OrcaRouter</title>
 <link>https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VbVBOVy04V2dicFJHV19udDJNQ3cwYmxVZm9oSVlNLURlUVFBeVpVby0xd0dONFhwQ1lXU2ozdmQ0cUFLT1pvQXprQnpndWhSU0RUbEJfOTQ5YU5PelRneUt3?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VbVBOVy04V2dicFJHV19udDJNQ3cwYmxVZm9oSVlNLURlUVFBeVpVby0xd0dONFhwQ1lXU2ozdmQ0cUFLT1pvQXprQnpndWhSU0RUbEJfOTQ5YU5PelRneUt3?oc=5</guid>
@@ -98,10 +273,10 @@
 
 </item>
 <item>
-<title>[Google News] DeepSeek Investment Raises Nvidia Security Questions - varindia</title>
-<link>https://news.google.com/rss/articles/CBMiigFBVV95cUxQaWdEem1rY3JqNk52YXBCUExORGVjMi1rVmhTX09KNXZQM3NpVEZCWHk4alRNTFdZNlZCcEpaR1dMeEFuUWVnMGp0UFlvUXMxVFVqX04zUUxHaGpoWFBhaDZiczBVQnM3Y2xXSnJ0VWNjM2dITHc3SHFnalc4b0RNZ2NHc3dPVFF1Znc?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiigFBVV95cUxQaWdEem1rY3JqNk52YXBCUExORGVjMi1rVmhTX09KNXZQM3NpVEZCWHk4alRNTFdZNlZCcEpaR1dMeEFuUWVnMGp0UFlvUXMxVFVqX04zUUxHaGpoWFBhaDZiczBVQnM3Y2xXSnJ0VWNjM2dITHc3SHFnalc4b0RNZ2NHc3dPVFF1Znc?oc=5</guid>
-<pubDate>Fri, 13 Nov 2026 06:58:57 GMT</pubDate>
+<title>[Google News] EU leaders seek to tackle challenges at first ever AI summit - Reuters</title>
+<link>https://news.google.com/rss/articles/CBMipAFBVV95cUxOMy10dU5kazRqbk9PSWxUbGRiUm53LU9sLXBHVnBNUW0xbElWLVVoUG9udExuMGlYZ2xldnlOQUJpMzNpNjEzN0N2TllYaUJkQzFDZG5QSXRKZWQwZlF5cUVTWlI3NVZUWkpra0diZGNtT2F3WnRFZ3ZKd3VvQ250c2tOM2VHOFlFMlRYTm5jbGZ4R0ZWaDNQc1ljR2R4SVU4Umo0NQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMipAFBVV95cUxOMy10dU5kazRqbk9PSWxUbGRiUm53LU9sLXBHVnBNUW0xbElWLVVoUG9udExuMGlYZ2xldnlOQUJpMzNpNjEzN0N2TllYaUJkQzFDZG5QSXRKZWQwZlF5cUVTWlI3NVZUWkpra0diZGNtT2F3WnRFZ3ZKd3VvQ250c2tOM2VHOFlFMlRYTm5jbGZ4R0ZWaDNQc1ljR2R4SVU4Umo0NQ?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 06:06:00 GMT</pubDate>
 
 </item>
 <item>
@@ -116,6 +291,13 @@
 <link>https://news.google.com/rss/articles/CBMid0FVX3lxTE1ad0NSWUZaRllwTXhsbHhLNzJmMndVSTE4QU5saWk4VjlMSEJ2OU1TWV91cTlnY0I2WllqXzBValdWLUFOMkNabWVVNUxKeUhJSnJZd0p1cVNqLVNiWktTZkdRNnk3R2NqVE1vbFVqenB6c0YyY2dn?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMid0FVX3lxTE1ad0NSWUZaRllwTXhsbHhLNzJmMndVSTE4QU5saWk4VjlMSEJ2OU1TWV91cTlnY0I2WllqXzBValdWLUFOMkNabWVVNUxKeUhJSnJZd0p1cVNqLVNiWktTZkdRNnk3R2NqVE1vbFVqenB6c0YyY2dn?oc=5</guid>
 <pubDate>Fri, 13 Nov 2026 05:59:50 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] Gemini 4 Hydrogen vs Gemini 4 Argon: the thinking-budget gap - OrcaRouter</title>
+<link>https://news.google.com/rss/articles/CBMidEFVX3lxTE1tbTA5S0ZqVDY3MnVEWV9aS0xrODFXRmswb0VMVGRhc3QyOGpPQkdlNlJTazlJWXFUZEVYWnhZeE90OGNxUF90NzRwNURGb0pjNklpbXBPQ0FwWUttYjVBRGtGVmp0dUZ0SjBLQ2hyLXJNT09y?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMidEFVX3lxTE1tbTA5S0ZqVDY3MnVEWV9aS0xrODFXRmswb0VMVGRhc3QyOGpPQkdlNlJTazlJWXFUZEVYWnhZeE90OGNxUF90NzRwNURGb0pjNklpbXBPQ0FwWUttYjVBRGtGVmp0dUZ0SjBLQ2hyLXJNT09y?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 05:43:06 GMT</pubDate>
 
 </item>
 <item>
@@ -151,6 +333,13 @@
 <link>https://news.google.com/rss/articles/CBMidkFVX3lxTFBXR3ZweG13VU9PTTR4SENmVmdYM29lMXcwLWY5eDNtVUdjdl9XWkVTcTg0SjdTQUNaeFIyYTFWRmxMbm96NEdwMy1ObUVTSWRrN2cxQVV6c2FSRWhVZlk0YmNvT0dfVmNTLWFHSTBiZjhyUVBuMEE?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMidkFVX3lxTFBXR3ZweG13VU9PTTR4SENmVmdYM29lMXcwLWY5eDNtVUdjdl9XWkVTcTg0SjdTQUNaeFIyYTFWRmxMbm96NEdwMy1ObUVTSWRrN2cxQVV6c2FSRWhVZlk0YmNvT0dfVmNTLWFHSTBiZjhyUVBuMEE?oc=5</guid>
 <pubDate>Fri, 13 Nov 2026 03:25:00 GMT</pubDate>
+
+</item>
+<item>
+<title>[Google News] From personal scandal to national security probe: how Nvidia chips reached China's AI giants - digitimes</title>
+<link>https://news.google.com/rss/articles/CBMikAFBVV95cUxOM1ZwOTZwc3N3TUJKT2huQktYLU1DYmFsczZYaWQwbXFkc3pFMzAwU2xDUHdqWmxSTmQ4OERDR1QzRjNlS3czM0FobUtSem54Sjh1d1lFTy13TmlzLUVPVGtNSWRqekYwZV9wd1oyb0xzQnVMOGFoWl8tVEw3Sm1QdzNzLVUxY0lRUWNWMktqUVo?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMikAFBVV95cUxOM1ZwOTZwc3N3TUJKT2huQktYLU1DYmFsczZYaWQwbXFkc3pFMzAwU2xDUHdqWmxSTmQ4OERDR1QzRjNlS3czM0FobUtSem54Sjh1d1lFTy13TmlzLUVPVGtNSWRqekYwZV9wd1oyb0xzQnVMOGFoWl8tVEw3Sm1QdzNzLVUxY0lRUWNWMktqUVo?oc=5</guid>
+<pubDate>Fri, 13 Nov 2026 03:24:26 GMT</pubDate>
 
 </item>
 <item>
@@ -203,6 +392,13 @@
 
 </item>
 <item>
+<title>[Blog] Cohere Expands Its Sovereign AI Platform with AISLE and cubic</title>
+<link>https://cohere.com/blog/cohere-expands-its-sovereign-ai-platform-with-aisle-and-cubic</link>
+<guid isPermaLink="false">https://cohere.com/blog/cohere-expands-its-sovereign-ai-platform-with-aisle-and-cubic</guid>
+<pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+<description>Expanding the sovereign AI platform with new capabilities for cyber defense, secure software development, and mission-critical enterprise workflows</description>
+</item>
+<item>
 <title>[Google News] A DeepSeek Moment for Biotech - Bloomberg.com</title>
 <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZVlOSEkxNGstaTM2Q3VEanN0czdKVk5RSmFUVUVvcUR2ZFRYb1N5TjRMa0owOUxoVmQwRWZlYmtKd1V5Q0I5ZFNGOE54ZXIwaGF6R0JleEtrTVg2OG5jSXFiTXJKaUk5aDI2Vy16R0pINEt0eFVWX2ZyemJuV2Fla1ZzaWVCa0c5Q1AzR19tRWpJM2U2TlhCYi1pdjdUY3FpQXV1Y2FwSUduTEk?oc=5</link>
 <guid isPermaLink="false">https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZVlOSEkxNGstaTM2Q3VEanN0czdKVk5RSmFUVUVvcUR2ZFRYb1N5TjRMa0owOUxoVmQwRWZlYmtKd1V5Q0I5ZFNGOE54ZXIwaGF6R0JleEtrTVg2OG5jSXFiTXJKaUk5aDI2Vy16R0pINEt0eFVWX2ZyemJuV2Fla1ZzaWVCa0c5Q1AzR19tRWpJM2U2TlhCYi1pdjdUY3FpQXV1Y2FwSUduTEk?oc=5</guid>
@@ -217,213 +413,17 @@
 
 </item>
 <item>
-<title>[Google News] Breaking News as Researcher Says Six Chinese AI Models Carry the Fingerprint of Banned Nvidia Chips - Startup Fortune</title>
-<link>https://news.google.com/rss/articles/CBMixgFBVV95cUxQdy1MRFpHNTNiR1BiMzZrX3M5cTlBdm1OT3M0VzUxR0hDbkRUMkN3Z1U0UC1nOXM2QUVOTHl2ckhMOUtZUmZMMkRxTUNxd0JnOVdiM0FlYVotWVVYWUV2b2JvQmt6akRiOFBQOTdYbHFuRHFleDM3UU9rUmVyRHFHRXdZQW5UUkROblVBZS12QlYyMERfRTBrNjFaYVpMTGVJdkZtSFdrWUh6VG5nTmpRX1U5TGxvM0hXWkVrQXBEMm96dlN1RkE?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMixgFBVV95cUxQdy1MRFpHNTNiR1BiMzZrX3M5cTlBdm1OT3M0VzUxR0hDbkRUMkN3Z1U0UC1nOXM2QUVOTHl2ckhMOUtZUmZMMkRxTUNxd0JnOVdiM0FlYVotWVVYWUV2b2JvQmt6akRiOFBQOTdYbHFuRHFleDM3UU9rUmVyRHFHRXdZQW5UUkROblVBZS12QlYyMERfRTBrNjFaYVpMTGVJdkZtSFdrWUh6VG5nTmpRX1U5TGxvM0hXWkVrQXBEMm96dlN1RkE?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 23:14:01 GMT</pubDate>
+<title>[Google News] Gemini 4 Hydrogen vs Gemini 3.8 Flash: what breaks - OrcaRouter</title>
+<link>https://news.google.com/rss/articles/CBMid0FVX3lxTE85ZDFVLW9qRW5fVTUzNmxVeDg3dmxDQUp2VUFORzUyaVV0RGdQbFR5eHpiOWNnMDdzOXV4eGdNaElVcXlaWnNrdW5SQ19rSUVrcjVVYmp4VUwxMUVTNXY0WXdtQlVLZFlKVFNrOG5UeUV4emU2RFJ3?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMid0FVX3lxTE85ZDFVLW9qRW5fVTUzNmxVeDg3dmxDQUp2VUFORzUyaVV0RGdQbFR5eHpiOWNnMDdzOXV4eGdNaElVcXlaWnNrdW5SQ19rSUVrcjVVYmp4VUwxMUVTNXY0WXdtQlVLZFlKVFNrOG5UeUV4emU2RFJ3?oc=5</guid>
+<pubDate>Thu, 12 Nov 2026 23:32:54 GMT</pubDate>
 
 </item>
 <item>
-<title>[YouTube] Cyber at the Frontier</title>
-<link>https://www.youtube.com/watch?v=YmxpxJZvm4M</link>
-<guid isPermaLink="false">https://www.youtube.com/watch?v=YmxpxJZvm4M</guid>
-<pubDate>Thu, 12 Nov 2026 22:37:14 GMT</pubDate>
-<description>A live keynote featuring OpenAI's latest cyber announcements.</description>
-</item>
-<item>
-<title>[Google News] Alice Huang-linked firms invest in DeepSeek to supply Nvidia Blackwell chips - 디지털투데이</title>
-<link>https://news.google.com/rss/articles/CBMivwFBVV95cUxPWWtLN2JmQ1c1d21mS3RDekRvY3BuTWFtUzJJVWs4Ny1zWmpkU19oZFc1ZVMwN1VkUmVGTG1JcjdTQ05QTnpQTkJYOGNOV2h1bmJmcHdtTTNGVDlYY0RYblZxTnRfZVhWbDlYYWtwSzNtSnVZeXJMZlktaHllMG1pdHNNUXg4d0xQXzRERUMtWVZVcUZjdkxMRjN2Z3UxZnJueGhjTmk2Vkd4WHpTU213akphX0dBSHg2VnhGbUlNVQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivwFBVV95cUxPWWtLN2JmQ1c1d21mS3RDekRvY3BuTWFtUzJJVWs4Ny1zWmpkU19oZFc1ZVMwN1VkUmVGTG1JcjdTQ05QTnpQTkJYOGNOV2h1bmJmcHdtTTNGVDlYY0RYblZxTnRfZVhWbDlYYWtwSzNtSnVZeXJMZlktaHllMG1pdHNNUXg4d0xQXzRERUMtWVZVcUZjdkxMRjN2Z3UxZnJueGhjTmk2Vkd4WHpTU213akphX0dBSHg2VnhGbUlNVQ?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 22:33:54 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Companies tied to Alice Huang invested in DeepSeek to supply Nvidia chips - report By Investing.com - Investing.com</title>
-<link>https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYVd3Q3lIdEV3SDZXOEplWGdxZFNGWTZGaGloUjlZQzduOUtieU9Ua2o1RWJsVWtaWUJmVUh4QUdFQ0xUeG1VZ01TTm00T0UzeVRxNXl0N3V4ay05UHVnR0F3bExsM0FBNHpsaVZCLTR0RzlPbG80VlFSU2QxeW1rR2p5N09DTkQ5SDZTRTUxbzIyRTJtVkg5TkdRZ2lEZURCNzdEMXR4VTVLUUVxb1pHaHh3QVpXbFZpYU9nZTcwQUMteWhtajF4UUQtMHNqQTBnVmVvMQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYVd3Q3lIdEV3SDZXOEplWGdxZFNGWTZGaGloUjlZQzduOUtieU9Ua2o1RWJsVWtaWUJmVUh4QUdFQ0xUeG1VZ01TTm00T0UzeVRxNXl0N3V4ay05UHVnR0F3bExsM0FBNHpsaVZCLTR0RzlPbG80VlFSU2QxeW1rR2p5N09DTkQ5SDZTRTUxbzIyRTJtVkg5TkdRZ2lEZURCNzdEMXR4VTVLUUVxb1pHaHh3QVpXbFZpYU9nZTcwQUMteWhtajF4UUQtMHNqQTBnVmVvMQ?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 22:18:34 GMT</pubDate>
-
-</item>
-<item>
-<title>[Research] Microsoft Research Focus – Edition #98</title>
-<link>https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98/</link>
-<guid isPermaLink="false">https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-98/</guid>
-<pubDate>Thu, 12 Nov 2026 21:31:57 +0000</pubDate>
-<description>What's new in research at Microsoft? Host Anson Ho explores the latest, including AI-powered universal translation, a breakthrough in a 31-year-old mathematics challenge, and advances making AI coding agents faster and more efficient. The post Microsoft Research Focus – Edition #98 appeared first on</description>
-</item>
-<item>
-<title>[Google News] OpenAI, Google, Anthropic hit with lawsuit seeking halt to frontier AI development - Reuters</title>
-<link>https://news.google.com/rss/articles/CBMivwFBVV95cUxPWTR4ak5BdnRmV3hzYTZOcVhBYklWU01YRmtLak03b2hmeC1PMTd5blRQWUkxR2Q1ZXZWRC0xNkNxVDVoN2VOdTVlX1hFMXgwS1Y5TW1fUGt4NThQaEhRVFdna1YxUDhLTnBYUFJ6WTlFajlLM1BZTTRwNk5sWFMydkZtMlJNUnU4MWlDcUN6QmNtVHdUT1pLNXd6QXc4QVk0WmMtM1JxWU5XVC1PUGRIMVJNY2wzN1Z1d2N6WWJkbw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivwFBVV95cUxPWTR4ak5BdnRmV3hzYTZOcVhBYklWU01YRmtLak03b2hmeC1PMTd5blRQWUkxR2Q1ZXZWRC0xNkNxVDVoN2VOdTVlX1hFMXgwS1Y5TW1fUGt4NThQaEhRVFdna1YxUDhLTnBYUFJ6WTlFajlLM1BZTTRwNk5sWFMydkZtMlJNUnU4MWlDcUN6QmNtVHdUT1pLNXd6QXc4QVk0WmMtM1JxWU5XVC1PUGRIMVJNY2wzN1Z1d2N6WWJkbw?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 20:35:49 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] US nonprofits sue tech giants to halt AI development - Al Jazeera</title>
-<link>https://news.google.com/rss/articles/CBMimgFBVV95cUxOUzh3Xzg0ek1tUjktMHMxV1pIR014ckFIT202VFUwTGpDMC0tOWZKaFRkQVg5UzkzaE9VWVVxcnFpclVOU05PZElkMUJXT19qS1NQTE5UbUFPMUFnRDVTeW9oUkpSbkFMcy02WUZwRm44eVV4ZGJNMGxjaEM0TGZ1cVgzejFmaU1sc1diV2R6UDlMZTB1UnYzcXpR0gGfAUFVX3lxTE96N2UydjlyZ3Vmbm9RemR1SGxrMjdQRXFOQ0ZHaUFxOHVlRmVoR3dHV3poMUtuSnNVWEtVWFlpR3RubjRNTkxPVkxSQ1lRNkZsbmozcVYydWRjaTBwM0M1Y21SNWVZNFRzSkZtYVM1OTV6VDFFZkhkSWxyT3BEakZMRkMzeEpzNVhBcXBpY3hIOUw1WlpBMlZLLWpieTZlUQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMimgFBVV95cUxOUzh3Xzg0ek1tUjktMHMxV1pIR014ckFIT202VFUwTGpDMC0tOWZKaFRkQVg5UzkzaE9VWVVxcnFpclVOU05PZElkMUJXT19qS1NQTE5UbUFPMUFnRDVTeW9oUkpSbkFMcy02WUZwRm44eVV4ZGJNMGxjaEM0TGZ1cVgzejFmaU1sc1diV2R6UDlMZTB1UnYzcXpR0gGfAUFVX3lxTE96N2UydjlyZ3Vmbm9RemR1SGxrMjdQRXFOQ0ZHaUFxOHVlRmVoR3dHV3poMUtuSnNVWEtVWFlpR3RubjRNTkxPVkxSQ1lRNkZsbmozcVYydWRjaTBwM0M1Y21SNWVZNFRzSkZtYVM1OTV6VDFFZkhkSWxyT3BEakZMRkMzeEpzNVhBcXBpY3hIOUw1WlpBMlZLLWpieTZlUQ?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 20:24:22 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Moonshot Executive Says AI Agents Could Handle Long-Horizon Tasks Within Months - Caixin Global</title>
-<link>https://news.google.com/rss/articles/CBMizwFBVV95cUxNRlJLTVUwUV9FWVZZZjVMQkdTZkRKX3MwUjZUaU9rTVJfZjRYZm9HRXFQWVA0cnlhTGt3NFNPVHJ6Q1BGaEpxbUFNWjZyM2s3YlVUek43eUx2V3RpZDFYLVBXa1YyV3FHMllFZTZtMEpvc0ZhY2NoUTJmS0lJdC11Q29zdG5veTFXZXhqRFgxeWNCRGdNUXo2ZzRyUkttMU1RbzB3Sy1vTUNfSVZmd0lvdzUyYnNsaXdsSTAtcWNKV0NYMEJST0dXUkZyZ0doRlU?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMizwFBVV95cUxNRlJLTVUwUV9FWVZZZjVMQkdTZkRKX3MwUjZUaU9rTVJfZjRYZm9HRXFQWVA0cnlhTGt3NFNPVHJ6Q1BGaEpxbUFNWjZyM2s3YlVUek43eUx2V3RpZDFYLVBXa1YyV3FHMllFZTZtMEpvc0ZhY2NoUTJmS0lJdC11Q29zdG5veTFXZXhqRFgxeWNCRGdNUXo2ZzRyUkttMU1RbzB3Sy1vTUNfSVZmd0lvdzUyYnNsaXdsSTAtcWNKV0NYMEJST0dXUkZyZ0doRlU?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 20:18:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[MIT Tech Review] Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility</title>
-<link>https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/</link>
-<guid isPermaLink="false">https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/</guid>
-<pubDate>Thu, 12 Nov 2026 20:16:24 +0000</pubDate>
-<description>Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review in an interview on Thursday, even while an industry group claimed they were “pote</description>
-</item>
-<item>
-<title>[News] How Amplitude ships product improvements in 1–2 days with OpenAI</title>
-<link>https://openai.com/business/customer-stories/amplitude</link>
-<guid isPermaLink="false">https://openai.com/business/customer-stories/amplitude</guid>
-<pubDate>Thu, 12 Nov 2026 20:00:00 GMT</pubDate>
-<description>Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.</description>
-</item>
-<item>
-<title>[Blog] LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B</title>
-<link>https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite</link>
-<guid isPermaLink="false">https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite</guid>
-<pubDate>Thu, 12 Nov 2026 19:07:35 GMT</pubDate>
-
-</item>
-<item>
-<title>[DeepMind] Introducing Gemini 4 Hydrogen</title>
-<link>https://deepmind.google/blog/introducing-gemini-4-hydrogen/</link>
-<guid isPermaLink="false">https://deepmind.google/blog/introducing-gemini-4-hydrogen/</guid>
-<pubDate>Thu, 12 Nov 2026 18:00:50 +0000</pubDate>
-
-</item>
-<item>
-<title>[Google AI] Google Search gets a major upgrade with Gemini 4 Hydrogen</title>
-<link>https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/</link>
-<guid isPermaLink="false">https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/</guid>
-<pubDate>Thu, 12 Nov 2026 18:00:00 +0000</pubDate>
-<description>We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.</description>
-</item>
-<item>
-<title>[Gemini] Gemini 4 Hydrogen: everyday coding and agentic workflows for developers</title>
-<link>https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/</link>
-<guid isPermaLink="false">https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-hydrogen/</guid>
-<pubDate>Thu, 12 Nov 2026 18:00:00 +0000</pubDate>
-<description>Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.</description>
-</item>
-<item>
-<title>[Gemini] Introducing Gemini 4 Hydrogen</title>
-<link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/</link>
-<guid isPermaLink="false">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/</guid>
-<pubDate>Thu, 12 Nov 2026 18:00:00 +0000</pubDate>
-
-</item>
-<item>
-<title>[Google News] DouBao Work Expands Multi-Model Support Amid Office Agent Competition - KuCoin</title>
-<link>https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVcyNzBpdlUxZFVwakVjdXpwUnJnOXh0dExINWRhb0VUV1NoV21DNXRnMWFKMURWdHdSYW9OMlRiaUZrMWtfakhRSDB4VFBZQkJ3dlRXQlByTUlFV1hOdzlObDMzMW52cE0ydFMxcWplVjNWa3huN0xWNzZpWXFfaUNmUFh0T3A4bnRGcE93M0pZRWxSS0JkUHdUWEZjUjVuNmFRUzd3?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMipgFBVV95cUxQRVcyNzBpdlUxZFVwakVjdXpwUnJnOXh0dExINWRhb0VUV1NoV21DNXRnMWFKMURWdHdSYW9OMlRiaUZrMWtfakhRSDB4VFBZQkJ3dlRXQlByTUlFV1hOdzlObDMzMW52cE0ydFMxcWplVjNWa3huN0xWNzZpWXFfaUNmUFh0T3A4bnRGcE93M0pZRWxSS0JkUHdUWEZjUjVuNmFRUzd3?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 17:22:05 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Artificial Intelligence Expands Epidemiological Reasoning but Demands Rigorous Human Evaluation - Bioengineer.org</title>
-<link>https://news.google.com/rss/articles/CBMivAFBVV95cUxObF9GZGREWEktSTdKb2FRbDN2aF9UWFhHSjZabHNWSDRKSGZRM3pYdWNZcm9BNEw4VThHUkt0ZmZiTTJSbWNuTEVkejN1QXNwZlVPWjB1Zm9pZmxiS0FkQ0lva1FnQV9nU0RxUEoycW04LTAxY2doYktQTnFxcGV1SS1TNWdmc3IyY2lYLUk1Mjk2cU5Va1NMR1hPZlZFNS1rWkZnN2Mxd1NCb1BLTHBoNW5uM1NZU1pGaF9pVA?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMivAFBVV95cUxObF9GZGREWEktSTdKb2FRbDN2aF9UWFhHSjZabHNWSDRKSGZRM3pYdWNZcm9BNEw4VThHUkt0ZmZiTTJSbWNuTEVkejN1QXNwZlVPWjB1Zm9pZmxiS0FkQ0lva1FnQV9nU0RxUEoycW04LTAxY2doYktQTnFxcGV1SS1TNWdmc3IyY2lYLUk1Mjk2cU5Va1NMR1hPZlZFNS1rWkZnN2Mxd1NCb1BLTHBoNW5uM1NZU1pGaF9pVA?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 17:21:39 GMT</pubDate>
-
-</item>
-<item>
-<title>[Gemini] Get quick answers from Gemini on any website.</title>
-<link>https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/</link>
-<guid isPermaLink="false">https://blog.google/innovation-and-ai/products/gemini-app/research-with-gemini-in-chrome/</guid>
-<pubDate>Thu, 12 Nov 2026 17:00:00 +0000</pubDate>
-<description>Get quick answers with Gemini in Chrome. Summarize articles, compare products, and explain complex topics directly in your side panel. Try it now.</description>
-</item>
-<item>
-<title>[Google News] DeepSeek Got Investment Tied to Megaspeed Case, Report Says - FourWeekMBA</title>
-<link>https://news.google.com/rss/articles/CBMijwFBVV95cUxPSEt5cF9BeXdLSE5iM2NnZDFpVVp3SVdzczFLMXU1YmJ4Q3NMNnZjWUZETHpwWnRGYnBETEpxME91VFNMaHNLZXlJREpXSHluajdtRVBQUjlOZUtoYjdtbkRGam9pUTJ3RU1nVWF5ZllSdnV5X2Y5bEhvRXlfRTZqSXNPeFk0SXZ2dXBVNWJoNA?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMijwFBVV95cUxPSEt5cF9BeXdLSE5iM2NnZDFpVVp3SVdzczFLMXU1YmJ4Q3NMNnZjWUZETHpwWnRGYnBETEpxME91VFNMaHNLZXlJREpXSHluajdtRVBQUjlOZUtoYjdtbkRGam9pUTJ3RU1nVWF5ZllSdnV5X2Y5bEhvRXlfRTZqSXNPeFk0SXZ2dXBVNWJoNA?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 16:26:53 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Kazakhstan-linked hackers used an AI agent running DeepSeek to spy on Central Asian governments, CloudSEK says - MLQ.ai</title>
-<link>https://news.google.com/rss/articles/CBMiygFBVV95cUxNQXBBczl1NkhzbXZhQjRfNGxwLW1JMDRpRXV1c3hfZk1VMHlCSS1vd0I0R3l1bHk3VHkyVXNnRUN2eDRDd042UVJvTWM4YlJPekdLM0dPNlhtZlZ3REJrTFI3amREaGx2TzZyY3dlbWVURlZORXFQd0JNTVc1cTNoOTdjS1BfZUJzVzlyRVBPb0RBUFJzd3U0WVFmNkRXQU9TR1hMSWxwaTdjSFF5MXdzOGp6TEZTM1JmXzlUU3hjMUNCLTMyeGM0WVJB?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiygFBVV95cUxNQXBBczl1NkhzbXZhQjRfNGxwLW1JMDRpRXV1c3hfZk1VMHlCSS1vd0I0R3l1bHk3VHkyVXNnRUN2eDRDd042UVJvTWM4YlJPekdLM0dPNlhtZlZ3REJrTFI3amREaGx2TzZyY3dlbWVURlZORXFQd0JNTVc1cTNoOTdjS1BfZUJzVzlyRVBPb0RBUFJzd3U0WVFmNkRXQU9TR1hMSWxwaTdjSFF5MXdzOGp6TEZTM1JmXzlUU3hjMUNCLTMyeGM0WVJB?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 16:14:59 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Alice Huang’s companies reportedly invest in DeepSeek and promise it Nvidia chips - Cryptonews.net</title>
-<link>https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nN0dLc21rLVBqeENrQm5xRjh2VjlTWHZmaHVKbEpDdkJaMndfbVY0bi14V2trVDdQbUc2THFmeS1qMm9lQVFmcmN6MVBPdUh2c0ZXSERxNmRMUQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nN0dLc21rLVBqeENrQm5xRjh2VjlTWHZmaHVKbEpDdkJaMndfbVY0bi14V2trVDdQbUc2THFmeS1qMm9lQVFmcmN6MVBPdUh2c0ZXSERxNmRMUQ?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 16:14:43 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Alice Huang-tied companies made $14M investment in DeepSeek: report - Seeking Alpha</title>
-<link>https://news.google.com/rss/articles/CBMipgFBVV95cUxONFpzYUtjcnM3T2wzUzBwOGZEdE1kZEQyQnlCQnkwcU5SZEg0ZVNKVWN2Z0xVcUlibTJmczZvU2pQSGVnaHh0cktfWGNrZDRqWS1jdDU0bjFzTTM5SFl0WkhhNnJWdUdiRmlFdk05aEZCLTNOaGJkNWpiTC15VTlmaGEyREVORlJOeFlQNFk2X3Z4RXpZSjR3cG10RXZhYUtJZzdkXzlB?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMipgFBVV95cUxONFpzYUtjcnM3T2wzUzBwOGZEdE1kZEQyQnlCQnkwcU5SZEg0ZVNKVWN2Z0xVcUlibTJmczZvU2pQSGVnaHh0cktfWGNrZDRqWS1jdDU0bjFzTTM5SFl0WkhhNnJWdUdiRmlFdk05aEZCLTNOaGJkNWpiTC15VTlmaGEyREVORlJOeFlQNFk2X3Z4RXpZSjR3cG10RXZhYUtJZzdkXzlB?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 15:42:34 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Nvidia Chips Promised by Alice Huang's Companies to DeepSeek - marketscreener.com</title>
-<link>https://news.google.com/rss/articles/CBMiswFBVV95cUxQeVhJWm1lSGZlanQxTGtGMmdaWk1BMXhadFBkOWpqNW5fSEVUdjFwbDNLZzJWU0pfR0lDQkNYT2U4QjhyY0JJVURkVkNPdTdNZEF2bmlobGtQZjZxZGVoZmpBeDlPSmZOcWhVbHpHdTZTTGIxVHJkQWFSdXFoZ1pRdm9KTW5pdVloWjcwLURUelhLbzRIdkM2UGp3TjVKTWRxU1prWjBvUVdGWElUVlBVSkJJRQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiswFBVV95cUxQeVhJWm1lSGZlanQxTGtGMmdaWk1BMXhadFBkOWpqNW5fSEVUdjFwbDNLZzJWU0pfR0lDQkNYT2U4QjhyY0JJVURkVkNPdTdNZEF2bmlobGtQZjZxZGVoZmpBeDlPSmZOcWhVbHpHdTZTTGIxVHJkQWFSdXFoZ1pRdm9KTW5pdVloWjcwLURUelhLbzRIdkM2UGp3TjVKTWRxU1prWjBvUVdGWElUVlBVSkJJRQ?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 15:28:45 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Chinese 'spy' Alice Huang's companies invested in DeepSeek, promised Nvidia's Blackwell chips - The Times of India</title>
-<link>https://news.google.com/rss/articles/CBMijwJBVV95cUxNOVpSazE1Rm9BMkllc0EtWm0walphRGFGams2SmdVSGVZUGsxQWE5RUdqazM0UXZXTGtjYkl0bmpuR083d2EwSTVmTlJvdnBjZ2o2ZnQ4WndWVDNCbkQ4UUViQU1UbWNyRVlGQy1hYVctX2JiT0RPV0kzZWdQSjc3NGRQNGNpM05aYURpZEp6eHdhQmVHdm0xUFM3RHlNN1BISTN5NzVvWnRkZWN0c3YydkhBYXc3NmMwa1VxSWpwUFpvUXZkTkt4ZjJBQ05acEJjRHcwWnd2RV9vMUZBNEVqLUlMWUN6a1FDNWNDUUNQQW9uZllYSkR6WXQ3T09nVkZRODJEYzJMMnV0NnIzdEhr0gGUAkFVX3lxTE95V3hDYU8xYlNGNjVTSFdwN1B6UjNidFd0cU1UZEpfM1hUZGFDQ2VTUHZwclc4MFJrNkNWQ0ZSUnVZT1VOMmlnZGxYcUstVGg5R2tPYldxeF81Nl83MmE4UWlyLWVxaUdYOGlrYVhYWWoyeGNPMHVNa0JvZlowc01aOG5KRlRjd2RaSE9oeVlzRlkyQXdvZ19IYXRJODJaT3dvWUtMS0xaWmlUYVN5eW1wVmcyNlY3T2hfQ0tnMkxuY2R0UnIyd1NsZEo0SG50R1ZBWlpwOE0xTzlIMVR5dXI0bFVMaHl1Q1puVWRmdGxiZlNVREl6NU5ieVdCemVTUVU3N0tUVDZzZnFldmhpeXlMVHJlTw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMijwJBVV95cUxNOVpSazE1Rm9BMkllc0EtWm0walphRGFGams2SmdVSGVZUGsxQWE5RUdqazM0UXZXTGtjYkl0bmpuR083d2EwSTVmTlJvdnBjZ2o2ZnQ4WndWVDNCbkQ4UUViQU1UbWNyRVlGQy1hYVctX2JiT0RPV0kzZWdQSjc3NGRQNGNpM05aYURpZEp6eHdhQmVHdm0xUFM3RHlNN1BISTN5NzVvWnRkZWN0c3YydkhBYXc3NmMwa1VxSWpwUFpvUXZkTkt4ZjJBQ05acEJjRHcwWnd2RV9vMUZBNEVqLUlMWUN6a1FDNWNDUUNQQW9uZllYSkR6WXQ3T09nVkZRODJEYzJMMnV0NnIzdEhr0gGUAkFVX3lxTE95V3hDYU8xYlNGNjVTSFdwN1B6UjNidFd0cU1UZEpfM1hUZGFDQ2VTUHZwclc4MFJrNkNWQ0ZSUnVZT1VOMmlnZGxYcUstVGg5R2tPYldxeF81Nl83MmE4UWlyLWVxaUdYOGlrYVhYWWoyeGNPMHVNa0JvZlowc01aOG5KRlRjd2RaSE9oeVlzRlkyQXdvZ19IYXRJODJaT3dvWUtMS0xaWmlUYVN5eW1wVmcyNlY3T2hfQ0tnMkxuY2R0UnIyd1NsZEo0SG50R1ZBWlpwOE0xTzlIMVR5dXI0bFVMaHl1Q1puVWRmdGxiZlNVREl6NU5ieVdCemVTUVU3N0tUVDZzZnFldmhpeXlMVHJlTw?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 15:28:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Huang's lover said to have ties to DeepSeek - Breakingthenews.net</title>
-<link>https://news.google.com/rss/articles/CBMikgFBVV95cUxQSjFzMGl0MHIxUTZISGNCeHVrTjYzTUtKRnIxZ0dBczNQdGJEdjRkWTlQM202MW1oSDZlQ0FGcGdrSWZSX2VFUERVQl83dGpxejFoaEhxenJaejJLN1lJVWVoUk9nYnZjN2V6SGZVdWZlMVBnMDhzS2xqZ3Q5VE1MQVJQSFJqUkRzZ2pxX2JJbUptdw?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMikgFBVV95cUxQSjFzMGl0MHIxUTZISGNCeHVrTjYzTUtKRnIxZ0dBczNQdGJEdjRkWTlQM202MW1oSDZlQ0FGcGdrSWZSX2VFUERVQl83dGpxejFoaEhxenJaejJLN1lJVWVoUk9nYnZjN2V6SGZVdWZlMVBnMDhzS2xqZ3Q5VE1MQVJQSFJqUkRzZ2pxX2JJbUptdw?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 15:15:08 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Huang's lover said to have ties to DeepSeek - Howl.Link</title>
-<link>https://news.google.com/rss/articles/CBMiO0FVX3lxTFBVUUZaVDdvM2g3Q2pOWlNYYnFRb0VMWHR4VXNGSk5acDJaOHkzb2dxa0tfQVVFSmYxMW5J?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiO0FVX3lxTFBVUUZaVDdvM2g3Q2pOWlNYYnFRb0VMWHR4VXNGSk5acDJaOHkzb2dxa0tfQVVFSmYxMW5J?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 15:15:08 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Alice Huang-Linked Firms Invest in DeepSeek, Promise Nvidia Chip Supply - bloomingbit</title>
-<link>https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UdTREenhKWTBLMkIzb0xNRkd5UUVnSGEzMU1HUGlHWlF3TkRoQ1FtUHl1bVpvNmgxX0Y5a0RFMHN0RFFTbmtzRVJ5eThIeDFEMEVWcg?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UdTREenhKWTBLMkIzb0xNRkd5UUVnSGEzMU1HUGlHWlF3TkRoQ1FtUHl1bVpvNmgxX0Y5a0RFMHN0RFFTbmtzRVJ5eThIeDFEMEVWcg?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 15:14:59 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Advocacy groups sue AI giants to freeze new models, warning of ‘catastrophic’ risks - AP News</title>
-<link>https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU3o4X0NMQVZxQ3g1Z216LW05QnZDQ2ZLZEc5cUhtU3NJSTJkWVoxTWsxUWUtNW05Ti04UHdCNEVKcnVZVEhnNXZoUks0N3BodVpGMjdYMEtUaFRHQnRwNUViNzdxUnEyWXVXMlgyeWQzaTg0N0NuRFFCbEFpM3pMaHViWFlvV1RVNEdfXzdEQWdwdFNSbkRIQU0yX3Q4aW1WTFhiNDNEWTFWcTlJYVJsMDVBaWNhV2g0Si1jcEdJRkRnQQ?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU3o4X0NMQVZxQ3g1Z216LW05QnZDQ2ZLZEc5cUhtU3NJSTJkWVoxTWsxUWUtNW05Ti04UHdCNEVKcnVZVEhnNXZoUks0N3BodVpGMjdYMEtUaFRHQnRwNUViNzdxUnEyWXVXMlgyeWQzaTg0N0NuRFFCbEFpM3pMaHViWFlvV1RVNEdfXzdEQWdwdFNSbkRIQU0yX3Q4aW1WTFhiNDNEWTFWcTlJYVJsMDVBaWNhV2g0Si1jcEdJRkRnQQ?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 15:03:00 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Alice Huang's Companies Invested In Deepseek, Promising Nvidia Chips - The Information - TradingView</title>
-<link>https://news.google.com/rss/articles/CBMi6AFBVV95cUxOYk1BM1hrQnVqVEwyc1JBQkVLRXlRQmpHSUNpOWpvdGtJVnBxdVlfRWF2c0FSOFJNbGo3Zm5WM09oSmNlUmZiektWbWhwa0cwQl9mbHRocFRoYTNWSHY1OXdfdC1BQndaUWc3aXBQU3BMenpiQ0toSmJxVHQxSzFpcGJxMmZ4ckp3VWJzX05zaWhfcGVialBjekJhLXRHUGtpYkxmSUxKeHZadG1zd3JzTzRLMXZnaWxmdkZTbGhOOVZYVXlSZkY2OTJ4V2tQMEQ0MkxOS3E4eEk3S3ZtZjI1TUZabnVhSk5T?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi6AFBVV95cUxOYk1BM1hrQnVqVEwyc1JBQkVLRXlRQmpHSUNpOWpvdGtJVnBxdVlfRWF2c0FSOFJNbGo3Zm5WM09oSmNlUmZiektWbWhwa0cwQl9mbHRocFRoYTNWSHY1OXdfdC1BQndaUWc3aXBQU3BMenpiQ0toSmJxVHQxSzFpcGJxMmZ4ckp3VWJzX05zaWhfcGVialBjekJhLXRHUGtpYkxmSUxKeHZadG1zd3JzTzRLMXZnaWxmdkZTbGhOOVZYVXlSZkY2OTJ4V2tQMEQ0MkxOS3E4eEk3S3ZtZjI1TUZabnVhSk5T?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 15:01:53 GMT</pubDate>
-
-</item>
-<item>
-<title>[Google News] Alice Huang’s Companies Invested in DeepSeek, Promising Nvidia Chips - The Information</title>
-<link>https://news.google.com/rss/articles/CBMipgFBVV95cUxPU0I5U0RkdzVQajJOaFZYNmtVRWlkcVFtcWZtUGxHWVJmMllka0FIbjBYclNGRm42Zl9nOTlHUm90SVRQR2JMa0JObV85WmMybHltQXZWdU55a0l2Z041SEhyQWdrU2JSSGQ2bDhPMGh4c2hJdVRwajFJNml1dmFhV3VJMTIxN3V4WnRDdTVXaGZuS1JOOThpRnl1VWRSQmYwRkVvaE5B?oc=5</link>
-<guid isPermaLink="false">https://news.google.com/rss/articles/CBMipgFBVV95cUxPU0I5U0RkdzVQajJOaFZYNmtVRWlkcVFtcWZtUGxHWVJmMllka0FIbjBYclNGRm42Zl9nOTlHUm90SVRQR2JMa0JObV85WmMybHltQXZWdU55a0l2Z041SEhyQWdrU2JSSGQ2bDhPMGh4c2hJdVRwajFJNml1dmFhV3VJMTIxN3V4WnRDdTVXaGZuS1JOOThpRnl1VWRSQmYwRkVvaE5B?oc=5</guid>
-<pubDate>Thu, 12 Nov 2026 15:00:00 GMT</pubDate>
+<title>[Google News] Harris County wants to expand AI in government. Could your personal information be at risk? - Click2Houston</title>
+<link>https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTnd4WmptQmZQNERGUkw1WXRqZ0RYVmstcUEwZFIweWUxcEpNckFaOWtWR080TjVwVEJXVzBkc21TU240S0ZxSUhMamRYRHF4Vk84LTYzQ2FMMkExLURyb01PZ0xQa0N1WC1aVFpHVjVyM0RnWXVXUm52NUp1aXRuQjV2cXZQQUZTSVF2QUw0dGVsZlc5SXFPeUk2RVVDWmFUMUNYdUZEQVVHSVpMMEdGcjd0bDRWVzU5UzhYc2FtYWlMRkFaYWJEaWZSZHBjRkxnODdQaWo4cGJzUQ?oc=5</link>
+<guid isPermaLink="false">https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTnd4WmptQmZQNERGUkw1WXRqZ0RYVmstcUEwZFIweWUxcEpNckFaOWtWR080TjVwVEJXVzBkc21TU240S0ZxSUhMamRYRHF4Vk84LTYzQ2FMMkExLURyb01PZ0xQa0N1WC1aVFpHVjVyM0RnWXVXUm52NUp1aXRuQjV2cXZQQUZTSVF2QUw0dGVsZlc5SXFPeUk2RVVDWmFUMUNYdUZEQVVHSVpMMEdGcjd0bDRWVzU5UzhYc2FtYWlMRkFaYWJEaWZSZHBjRkxnODdQaWo4cGJzUQ?oc=5</guid>
+<pubDate>Thu, 12 Nov 2026 23:24:25 GMT</pubDate>
 
 </item>
 </channel>
