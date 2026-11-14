@@ -947,6 +947,21 @@
       "firstSeenIn": "dcab53f"
     },
     {
+      "modelId": "deepseek.deepseek-v3",
+      "variantId": null,
+      "postId": "16qa9iz2g04",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY1NoZUNUeGl1UWtheFVUTl9XVDYxeWpUN0RtTVJPbFdJSE10NVBTVTFZNXFFdXdTaTRHbWVMYUY3UnNueER5emJzRVFOR0JQYVVYUUdaZFJBNWt1T1BaTkozYjktaklhSGFhLXVscmcycTF4dklXYm0tX3lJUGlRekpZaExfcmJRXzFoV1BYRQ?oc=5",
+      "title": "DeepSeek V3 Architecture Rebuilt in 190 Lines of Pure JAX",
+      "publishedAt": "2026-11-14T18:02:57Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "news.lavx.hu",
+      "method": "auto",
+      "alias": "deepseek v3",
+      "firstSeenAt": "2026-11-14T20:45:23Z",
+      "firstSeenIn": "2b09cec"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-1-flash",
       "variantId": null,
       "postId": "d6oe0gq0h5",
@@ -3195,6 +3210,21 @@
       "alias": "kimi k3",
       "firstSeenAt": "2026-11-14T15:06:40Z",
       "firstSeenIn": "4c34615"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "1pfcqi50sg6",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN2cxbm1oTW5EclR6Y2k4Y1RMeTREQTM2ZHRNaTVjMF9rRW5HdHo1bEFLUFc4VXJVTGlWdldWcEtTUW9VemVTRkJXZl91N01jd1JhNnNLcW5HaFoybHdNc2VabE9FbThOaklHZTdmemRGb3NsVVdJMDZaQ3ljSFYzbHYzM1dUYm5O?oc=5",
+      "title": "AWS Trainium Gets SGLang: 17 Models, Kimi-K3 on 3 Nodes",
+      "publishedAt": "2026-11-14T18:35:49Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "FourWeekMBA",
+      "method": "auto",
+      "alias": "kimi-k3",
+      "firstSeenAt": "2026-11-14T20:45:23Z",
+      "firstSeenIn": "2b09cec"
     },
     {
       "modelId": "moonshot.kimi-k3-1-pro",
