@@ -1682,6 +1682,21 @@
       "firstSeenIn": "8857789"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "2b2wesbtu4t",
+      "link": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxORmVNQ0JsdXR6NHc5aF9tNENEV2RwRGJKZGNheDJNRkZYS05oOVV2VV9lRTA5cTFhckFpZmFnZUtDWFlRTEJLejlTVzlxTDRBVHRzbUJtYVBRcmlDMjJkVmtaTl9YMWlNdWZFdGt4eTgyUHpyMHFxVnVXUTlSVm9HYWxqVGNaWUVzbElpZUtsT3d5X21fODJmYmZDdnpZWFJESFNaZFNqTF83aEw2UVdHWU1BSUg4TDJucnNBYUppX242cnJQaWF4T3l2dDdhVm54MmRNV2NJVHo4NnhTLThqT2xQUVhRbjBTdUJKNTlkSF8zblhUUEd6SjFkRHlMOU53eHJTREI1VzdyVXlmMmdBdkc2ejFQODdsUTlpUjJHYkxoaUNHUkgwTnIyX29nZF9VNTFBc1gxd2puZm9kc1lGSTUyTU9aQ004ZmlUNk9DbE1Fa3lnUTR5SzVKaHdXbklXcmNMUGx4a2V4QQ?oc=5",
+      "title": "Lawyer upgrades eight-V100 private AI server to run 80% of DeepSeek V4.1 Flash at 4-bit NVFP4 precision — adds 1TB of RAM, an Nvidia RTX 3090, and fixes crashes caused by a bad PSU",
+      "publishedAt": "2026-11-14T12:50:00Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Tom's Hardware",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-14T15:06:40Z",
+      "firstSeenIn": "4c34615"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
@@ -3165,6 +3180,21 @@
       "alias": "kimi k3",
       "firstSeenAt": "2026-11-13T09:33:12Z",
       "firstSeenIn": "8857789"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "2gk6bb4wtq4",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdmJaM1Q4UmxCbnlpNkJQUDN1aVBnVGRma09teGJMU0dnODdQMUV1UVNPUmJialV4WjBILVdRMERfTHF3WURPcDFkdUNXM3RlNDlzVUViWEFHcVlXTEk1Z1U0R3ptWmk0c1pxOG1KVUZnWS1RT1d3ODRFLWJvV2ZKX2lWbEdLZUozWGRj?oc=5",
+      "title": "Banned Blackwell Chips Tied to Kimi K3, DeepSeek V4: 4 Gaps",
+      "publishedAt": "2026-11-14T14:48:45Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "shattered.io",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-14T15:06:40Z",
+      "firstSeenIn": "4c34615"
     },
     {
       "modelId": "moonshot.kimi-k3-1-pro",
