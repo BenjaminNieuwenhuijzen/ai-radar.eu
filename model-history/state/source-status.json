@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T10:55:27Z",
+  "generated": "2026-11-15T11:29:17Z",
   "schemaVersion": 1,
   "sources": {
     "src.anthropic.100k-context-windows-announcement": {
@@ -8469,14 +8469,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-09T12:06:44Z",
-      "lastDefinitiveAt": "2026-11-09T12:06:44Z",
+      "lastCheckedAt": "2026-11-15T11:29:17Z",
+      "lastDefinitiveAt": "2026-11-15T11:29:17Z",
       "lastFingerprint": {
         "bytes": 143294,
         "title": "Introducing Gemini 3.5 Flash Cyber — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-09T12:06:44Z",
+      "lastOkAt": "2026-11-15T11:29:17Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-28T10:00:21Z",
@@ -8554,7 +8554,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-09T12:06:44Z",
+      "lastCheckedAt": "2026-11-15T11:29:17Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -8802,14 +8802,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-09T12:06:44Z",
-      "lastDefinitiveAt": "2026-11-09T12:06:44Z",
+      "lastCheckedAt": "2026-11-15T11:29:17Z",
+      "lastDefinitiveAt": "2026-11-15T11:29:17Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.8 Live & Gemini 3.8 Live Extended Thinking",
         "truncated": true
       },
-      "lastOkAt": "2026-11-09T12:06:44Z",
+      "lastOkAt": "2026-11-15T11:29:17Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-28T10:00:21Z",
@@ -14830,7 +14830,7 @@
         "url": "https://web.archive.org/web/20261009133329/https://microsoft.ai/pdf/MAI-Code-1-Flash-Model-Card.PDF",
         "via": "wayback-availability-api"
       },
-      "consecutiveFailures": 1,
+      "consecutiveFailures": 2,
       "finalUrl": null,
       "firstCheckedAt": "2026-10-06T10:46:31Z",
       "firstFailureAt": "2026-11-12T11:50:22Z",
@@ -14840,8 +14840,8 @@
         "truncated": false
       },
       "httpStatus": 404,
-      "lastCheckedAt": "2026-11-12T11:50:22Z",
-      "lastDefinitiveAt": "2026-11-12T11:50:22Z",
+      "lastCheckedAt": "2026-11-15T11:29:17Z",
+      "lastDefinitiveAt": "2026-11-15T11:29:17Z",
       "lastFingerprint": {
         "bytes": 146,
         "title": "404 Not Found",
@@ -15016,7 +15016,7 @@
         "url": "https://web.archive.org/web/20260611194314/https://microsoft.ai/pdf/MAI-Thinking-1-Model-Card.PDF",
         "via": "wayback-cdx-api"
       },
-      "consecutiveFailures": 1,
+      "consecutiveFailures": 2,
       "finalUrl": null,
       "firstCheckedAt": "2026-10-06T10:46:31Z",
       "firstFailureAt": "2026-11-12T11:50:22Z",
@@ -15026,8 +15026,8 @@
         "truncated": false
       },
       "httpStatus": 404,
-      "lastCheckedAt": "2026-11-12T11:50:22Z",
-      "lastDefinitiveAt": "2026-11-12T11:50:22Z",
+      "lastCheckedAt": "2026-11-15T11:29:17Z",
+      "lastDefinitiveAt": "2026-11-15T11:29:17Z",
       "lastFingerprint": {
         "bytes": 146,
         "title": "404 Not Found",
