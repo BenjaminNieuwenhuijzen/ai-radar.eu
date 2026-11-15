@@ -5792,6 +5792,21 @@
       "firstSeenIn": "9847ef4"
     },
     {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "rclgv5rgwp",
+      "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "title": "A step toward defining the Standard Model on a lattice",
+      "publishedAt": "2026-11-15T22:00:01Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-11-15T22:50:25Z",
+      "firstSeenIn": "3a3fbda"
+    },
+    {
       "modelId": "openai.gpt-6-cyber",
       "variantId": null,
       "postId": "2c2498s2yid",
