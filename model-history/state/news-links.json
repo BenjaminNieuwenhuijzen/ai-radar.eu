@@ -1712,6 +1712,21 @@
       "firstSeenIn": "4c34615"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "10qz2z6t0hf",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CM05GdnQ2VTQ4RFdnTEx5MnNEVTdxdUJGRnUzWlppc1dVU3NHLXBYVEQ1UzczWUN6UWEtVXZKMVAzUFBiRTR4RWFhOFYzcFRWMTYtRHQ2cEFILUxoeF82VkgtZV9jd1lTaTZ5YWV1azdrNG1VX2U3ZnFYUEY?oc=5",
+      "title": "Qwen4-Max vs Kimi K3.1 Pro vs DeepSeek V4.1 Flash: Which should you use?",
+      "publishedAt": "2026-11-16T04:45:39Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Kingy AI",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-16T06:32:15Z",
+      "firstSeenIn": "f0d95b7"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
@@ -4560,6 +4575,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-11T09:27:21Z",
       "firstSeenIn": "eb12a4f"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "10qz2z6t0hf",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CM05GdnQ2VTQ4RFdnTEx5MnNEVTdxdUJGRnUzWlppc1dVU3NHLXBYVEQ1UzczWUN6UWEtVXZKMVAzUFBiRTR4RWFhOFYzcFRWMTYtRHQ2cEFILUxoeF82VkgtZV9jd1lTaTZ5YWV1azdrNG1VX2U3ZnFYUEY?oc=5",
+      "title": "Qwen4-Max vs Kimi K3.1 Pro vs DeepSeek V4.1 Flash: Which should you use?",
+      "publishedAt": "2026-11-16T04:45:39Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Kingy AI",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-16T06:32:15Z",
+      "firstSeenIn": "f0d95b7"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
