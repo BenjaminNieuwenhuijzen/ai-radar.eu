@@ -152,6 +152,36 @@
       "firstSeenIn": "fcd8643"
     },
     {
+      "modelId": "anthropic.claude-fable-5-1",
+      "variantId": null,
+      "postId": "28b1gaw21qj",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbVU5WFYxSDZnYXZKNmMxdjlXTEk2X2ZoYXJGY2lXaEdIdG5fTVRmTXpMMjUwR1dZLU53OXFzZDhFSmpLZDh6OE05RUtNTDIxbTdNTW5oNTRwS2RfYnNHR0QwWHg3TU4zcGViMFBfWXdXblA4ZjluVzlUM2c1OWpiUmlteXlpT3VJZ01sM2VoMHJyaXNiZzNPOFZBU0gteHdZakU2dGxIZ0M?oc=5",
+      "title": "Alibaba drops Qwen4-Max, beats Claude Fable 5.1, Kimi K3.1 Pro",
+      "publishedAt": "2026-11-16T03:50:08Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "NewsBytes",
+      "method": "auto",
+      "alias": "claude fable 5.1",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
+    },
+    {
+      "modelId": "anthropic.claude-fable-5-1",
+      "variantId": null,
+      "postId": "28j6fa3vdev",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbGtQNG13eU4zcGpEbEdDbGdLWW9qdk1XZWU2MlNYU2NKTExpOWNtT29LMXBKcEhvOFNkcGF2dlRjQWhYUkp6Vl8zNlY5UmcwcmlTbU1WZndZc3l4dGRXbldSMjV1QWk3bWVMUDNTZXRHam1sSDVzd1dIYmxPX3ZUVk1qOVlSMFJZenZLa2xjWlNSa0ItNGtvVFJPbWRMcUZ1Z0x4bng1akRXWDRZYjNkcnNDZ3poLUx4dGhj0gHAAUFVX3lxTE1vS0xFdFFrVVFzeGRIOWlXTUEwckVpY2xTeS1mUEVyZlhtZUIzR3NBZVAxRnJ5eUNPR0dnaDRBWjE4OUVYRjhVQjV4U1RGd3p3YWJ3VTRLaTBrUEl0MlpwR2o1NW14ZkZrcEhUSzJ6QTZmejFGUGJXbGFoZHp0MzBpSjk5amppY2tBUldKbmszQzJzSlhQcmtCbmMzWUNrNnFZbnVveWhlNFdCMkZLYng2bG01OXppT1pKNkI2R0tITA?oc=5",
+      "title": "Alibaba unveils new AI model; claims it beat Claude Fable 5.1, Kimi K3.1 Pro | Firm said Qwen4-Max outperforms Qwen3.8-Max | Inshorts",
+      "publishedAt": "2026-11-16T06:52:59Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Inshorts",
+      "method": "auto",
+      "alias": "claude fable 5.1",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
+    },
+    {
       "modelId": "anthropic.claude-fable-5-2",
       "variantId": null,
       "postId": "1cn5yzeii0d",
@@ -315,6 +345,21 @@
       "alias": "haiku 5.5",
       "firstSeenAt": "2026-11-07T01:58:00Z",
       "firstSeenIn": "2e764fd"
+    },
+    {
+      "modelId": "anthropic.claude-haiku-5-5",
+      "variantId": null,
+      "postId": "nyvukaipdz",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5haE05NWFiX0hkVEdfZzc1bDJzc0UtdDdwVzRsbHFlWmF3REUyekxSMHJkVnFpZUI5aWlwYkFRR2ZWTnZSOER4TGdIMnk1b2N0b2xLVS1SRXVYbDBVeEx2czBhZUxENTJVbzJKZmM1Qks0TGVM?oc=5",
+      "title": "Sage-S2.1-Flash vs Claude Haiku 5.5: the 100K cliff",
+      "publishedAt": "2026-11-16T09:57:55Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude haiku 5.5",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
     },
     {
       "modelId": "anthropic.claude-mythos-5",
@@ -795,6 +840,36 @@
       "alias": "opus 5.5",
       "firstSeenAt": "2026-11-04T19:47:21Z",
       "firstSeenIn": "a32dbf6"
+    },
+    {
+      "modelId": "anthropic.claude-opus-5-5",
+      "variantId": null,
+      "postId": "kod477f4sm",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNmgzUWlEaWRINjNmWmJPa0JKWUFzWllxOFJTV204RUpvOTNBMkwzS3VlYW54akNCUk1ZbW41bzFhLS14djRDU0pZcWpnemIwUDhxdlFINEhZcFlQNjdPRExELXpLSnRiUmo4YU40cXRYaG1yWHpTNGduNXlyUG8ydmxVLVRaRHN3NkhYSkJYOFBpM2Z0aEZjZ0FGZHBabVFjNUpQdjZUWHhrQQ?oc=5",
+      "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
+      "publishedAt": "2026-11-16T16:58:45Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "The Decoder",
+      "method": "auto",
+      "alias": "opus 5.5",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
+    },
+    {
+      "modelId": "anthropic.claude-opus-5-5",
+      "variantId": null,
+      "postId": "14104mp54gf",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uZWxtckE0ZWJvRWpOZ1FQeXdVekhpTmVFY21JanVPbmh5b0xZbzVYZGY2V2RCYzQ2M29TaUdIMEttaV9uenhKbk1PWDBXaldaakpOZnR1NHFQSEJpbENjUjBhNWRza0k?oc=5",
+      "title": "Qwen 4 vs Claude Opus 5.5: 16 Points, Priced Per Answer",
+      "publishedAt": "2026-11-16T18:03:38Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude opus 5.5",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
     },
     {
       "modelId": "anthropic.claude-sonnet-4-6",
@@ -1727,6 +1802,36 @@
       "firstSeenIn": "f0d95b7"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1hswn6mvp1p",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1na3NKVl9JMXN2bXdMVHVLY2R3VU5vcy1lQzAxZjVzeFZ4bEF5eEp5T0JwVTFuWmZHV2NHYmNfNXNPSnpaT3RsNERoNVdHakk3VXItYVk2S20zZXN6RVRhQ1pFb2lWNENjX1lyeVBucExwME8wQmJlRQ?oc=5",
+      "title": "Sage-S2.1-Flash vs DeepSeek V4.1 Flash: one shared table",
+      "publishedAt": "2026-11-16T10:00:01Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "29mg8b3zbpo",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1vRVBfYUtuYUxlYWRaVmloV1hzTWE3Q3RRRDBhNHBRLWFtTXJ4MzhYLVAwYWc5SjBkYzUydEpEMEZCbG1obVprU2NkeFFHREZyNnZMdXhuZGJNalFHVmtIdU5WOEZIVkpwNUNSMVM4V1JwUjFJdTBMY1ZsOA?oc=5",
+      "title": "Hy4 flash vs DeepSeek V4.1 Flash: price, evidence, fit",
+      "publishedAt": "2026-11-16T11:12:21Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
@@ -1980,6 +2085,21 @@
       "alias": "gemini 3.8 flash",
       "firstSeenAt": "2026-11-13T17:46:35Z",
       "firstSeenIn": "e3d8890"
+    },
+    {
+      "modelId": "google.gemini-3-8-flash",
+      "variantId": null,
+      "postId": "2e5rka9h6m3",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IWHNwdlFpOUY1THZzYl9rdllKWmNLbDBLNTFIQTBkNHVNNDA5VFlTckVaM0tCcktBcmdtMHNibEFBUEx1ekNzRDhscWJBWGNSUFRtNEZLMWY4Z05ORHZHaXg5dFZMNTlTOTJHTURyMGZTNjZ5?oc=5",
+      "title": "Sage-S2.1-Flash vs Gemini 3.8 Flash: no price, no score",
+      "publishedAt": "2026-11-16T10:03:52Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 3.8 flash",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
     },
     {
       "modelId": "google.gemini-3-8-live",
@@ -2355,6 +2475,21 @@
       "alias": "gemini 4 argon",
       "firstSeenAt": "2026-11-13T17:46:35Z",
       "firstSeenIn": "e3d8890"
+    },
+    {
+      "modelId": "google.gemini-4-argon",
+      "variantId": null,
+      "postId": "g8bdyaeljx",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBibENFcm1xY0RpUWo0eHAxaGg0MUtGR1NsWG5tWFpYUW45TVFRbDYyVWVNSkxOeXp3Sm92aU5rdDQ5YkFjeVNuVGpfczRwN1BOQXNfZUdoRnVnOE9xZkVxaEhxLUhldw?oc=5",
+      "title": "Qwen 4 vs Gemini 4 Argon: The 4.3% That Decides More Than the Seven Points",
+      "publishedAt": "2026-11-16T18:11:22Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 4 argon",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
     },
     {
       "modelId": "google.gemini-4-carbon",
@@ -4579,6 +4714,21 @@
     {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
+      "postId": "28b1gaw21qj",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbVU5WFYxSDZnYXZKNmMxdjlXTEk2X2ZoYXJGY2lXaEdIdG5fTVRmTXpMMjUwR1dZLU53OXFzZDhFSmpLZDh6OE05RUtNTDIxbTdNTW5oNTRwS2RfYnNHR0QwWHg3TU4zcGViMFBfWXdXblA4ZjluVzlUM2c1OWpiUmlteXlpT3VJZ01sM2VoMHJyaXNiZzNPOFZBU0gteHdZakU2dGxIZ0M?oc=5",
+      "title": "Alibaba drops Qwen4-Max, beats Claude Fable 5.1, Kimi K3.1 Pro",
+      "publishedAt": "2026-11-16T03:50:08Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "NewsBytes",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
       "postId": "10qz2z6t0hf",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CM05GdnQ2VTQ4RFdnTEx5MnNEVTdxdUJGRnUzWlppc1dVU3NHLXBYVEQ1UzczWUN6UWEtVXZKMVAzUFBiRTR4RWFhOFYzcFRWMTYtRHQ2cEFILUxoeF82VkgtZV9jd1lTaTZ5YWV1azdrNG1VX2U3ZnFYUEY?oc=5",
       "title": "Qwen4-Max vs Kimi K3.1 Pro vs DeepSeek V4.1 Flash: Which should you use?",
@@ -4590,6 +4740,66 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-16T06:32:15Z",
       "firstSeenIn": "f0d95b7"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "28j6fa3vdev",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbGtQNG13eU4zcGpEbEdDbGdLWW9qdk1XZWU2MlNYU2NKTExpOWNtT29LMXBKcEhvOFNkcGF2dlRjQWhYUkp6Vl8zNlY5UmcwcmlTbU1WZndZc3l4dGRXbldSMjV1QWk3bWVMUDNTZXRHam1sSDVzd1dIYmxPX3ZUVk1qOVlSMFJZenZLa2xjWlNSa0ItNGtvVFJPbWRMcUZ1Z0x4bng1akRXWDRZYjNkcnNDZ3poLUx4dGhj0gHAAUFVX3lxTE1vS0xFdFFrVVFzeGRIOWlXTUEwckVpY2xTeS1mUEVyZlhtZUIzR3NBZVAxRnJ5eUNPR0dnaDRBWjE4OUVYRjhVQjV4U1RGd3p3YWJ3VTRLaTBrUEl0MlpwR2o1NW14ZkZrcEhUSzJ6QTZmejFGUGJXbGFoZHp0MzBpSjk5amppY2tBUldKbmszQzJzSlhQcmtCbmMzWUNrNnFZbnVveWhlNFdCMkZLYng2bG01OXppT1pKNkI2R0tITA?oc=5",
+      "title": "Alibaba unveils new AI model; claims it beat Claude Fable 5.1, Kimi K3.1 Pro | Firm said Qwen4-Max outperforms Qwen3.8-Max | Inshorts",
+      "publishedAt": "2026-11-16T06:52:59Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Inshorts",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "18gljqgp5h5",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQUk00Q0dmLVhCaEwzRlZqNmJrX1RLd1NzSTAyMHZxVnVqenllOHNRcHprMW9DZEZZOFJOM2ktcVFKQ2ZoNk1wejgxX3djVzEzWWN6dFc4X2swcnBwN19VN0VENkM4WDc5SmtpYkZLQ1FrUW8zbm8yUmwwVkNCSjJadDEwRF9uS01USWdfS1VuTkwzV2plQzZDVEpaeUpDWW9kdXM4RDNzd05yN1JSWmF5bXhxekc3X3dKS2VaTVFySDRxclZkbW9KX0F5TUlMRDZNMzZ5OWNnRzJRNFN4cDR0cjAyYUVoZWNtNnpwSmcta0VFMzNyX01SbFdsVjRRUlA3akpiVDNqdmhCSGRWZEM2c05R0gGXAkFVX3lxTE5rWGdLekNOTGJCZ3pTTzdlVDEzZ05zWFJsbnZyMU5mcTBZZ2Z5UjhGb0kyTEdPMXZFLVRDekpBRkJEcUNsbU13bEd4Z3VubjZ3WGp4Z3RnT0phdS1TVmtvQzZtTDRnekM1N1pmZGNBVmJuSGZvY3NsZkw4OWRoU05ncjNsTjBDVHlPSzlUTkszb3MteURCZXRuaFJ3bmNlRW9JUDZBTUI5RmFXQ1ZDOG53Mks3Z0g3cmRybGRWTnRKVXpFS0FKdDM5bVBNZHd5N0hqTEYyZFphYkxObU1NR2gxTHlTcTA4bE11VFlDcGdFdzN1bktmLWMzUTdLZWoxY3BNS1AzbVJNUHNXblo1Wlpnelk3TjBvSQ?oc=5",
+      "title": "Alibaba’s New Qwen4-Max Fails To Overtake Moonshot’s Kimi K3.1 Pro, Retaining The Same Parameter Count With A Lower Price And Revamped Native-Vision MoE Architecture",
+      "publishedAt": "2026-11-16T10:49:18Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Wccftech",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "kod477f4sm",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNmgzUWlEaWRINjNmWmJPa0JKWUFzWllxOFJTV204RUpvOTNBMkwzS3VlYW54akNCUk1ZbW41bzFhLS14djRDU0pZcWpnemIwUDhxdlFINEhZcFlQNjdPRExELXpLSnRiUmo4YU40cXRYaG1yWHpTNGduNXlyUG8ydmxVLVRaRHN3NkhYSkJYOFBpM2Z0aEZjZ0FGZHBabVFjNUpQdjZUWHhrQQ?oc=5",
+      "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
+      "publishedAt": "2026-11-16T16:58:45Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "The Decoder",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "1nko0vkfntq",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqamV2dEY3WGdHcTZMZkxSejhVM3ZFdnk1SnZFVFZqLXFnZ2FGUVhUSEM3UGlOVFlVbHloemVSanY1OXNjUEhZZVotLWMzTEs5WHBZczZMZ0dBNHdPWHF4dk1sYVg?oc=5",
+      "title": "Qwen 4 vs Kimi K3.1 Pro: $3.27 Against $3.68 Per Task",
+      "publishedAt": "2026-11-16T17:55:59Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
@@ -4935,6 +5145,21 @@
       "alias": "gpt-6.1 sol",
       "firstSeenAt": "2026-11-11T09:27:21Z",
       "firstSeenIn": "eb12a4f"
+    },
+    {
+      "modelId": "openai.gpt-6-1-sol",
+      "variantId": null,
+      "postId": "19lj4bsh244",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2b1JVRnRBSWZtOU1PWC1SeU9Ebi16WXNDbjE5R0MxajNQbUdRRjlmby1OaS1qNW8tSUNYcWFObk5lUUZ1Uy1wMnZpT3ZQc0NlME8zek42dmdrSVRSa0pzOU5B?oc=5",
+      "title": "Qwen 4 vs GPT-6.1 Sol: A Third the Cost Per Index Point",
+      "publishedAt": "2026-11-16T18:16:43Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gpt-6.1 sol",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
     },
     {
       "modelId": "openai.gpt-6-1-terra",
@@ -6210,6 +6435,21 @@
       "alias": "grok 4.7",
       "firstSeenAt": "2026-10-30T12:57:01Z",
       "firstSeenIn": "16da74a"
+    },
+    {
+      "modelId": "xai.grok-4-7",
+      "variantId": null,
+      "postId": "1wr9ap0o17u",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5iWEJKRGpTeURudjZKWTg0VlRTVUVpWlVmYU1ReFJlWFlua01mb2VOUlpUUFdxeXFySXlwcXFGdXp6V1ZYVE9zLTdFVFNnQmVWTElCci1lSjc0ZGlMd0E?oc=5",
+      "title": "Qwen 4 vs Grok 4.7: The 200K Token Line Decides the Bill",
+      "publishedAt": "2026-11-16T17:53:22Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "grok 4.7",
+      "firstSeenAt": "2026-11-16T18:34:33Z",
+      "firstSeenIn": "c4b82d5"
     }
   ]
 }
