@@ -872,6 +872,21 @@
       "firstSeenIn": "c4b82d5"
     },
     {
+      "modelId": "anthropic.claude-opus-5-5",
+      "variantId": null,
+      "postId": "1dmr64p0yhr",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05cEpDVm1xcTh0UVV4SGV5cExWYTBWTGVCaC1RSHR6amNYdXpFRWw5YUlNTzZsWFNLSmpXNXBJdkhpTEhUc1ItemdfNmFLNUhqTVNqSmh4R1lxQVNwR2R3dnFfZWlPdDRTR1R3UQ?oc=5",
+      "title": "Qwen4-Max vs Claude Opus 5.5: Five Rungs vs One Score",
+      "publishedAt": "2026-11-17T07:59:22Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude opus 5.5",
+      "firstSeenAt": "2026-11-17T13:28:46Z",
+      "firstSeenIn": "b1e17d5"
+    },
+    {
       "modelId": "anthropic.claude-sonnet-4-6",
       "variantId": null,
       "postId": "1vrjdhknhjd",
