@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T12:02:05Z",
+  "generated": "2026-11-17T12:26:46Z",
   "schemaVersion": 1,
   "sources": {
     "src.anthropic.100k-context-windows-announcement": {
@@ -1909,14 +1909,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "About Our Company | Cohere",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -1940,14 +1940,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/aya-23-35B · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -1971,14 +1971,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/aya-23-8B · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2002,14 +2002,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "C4AI Launches Aya 23, 8B and 35B Parameter Open Weights Release",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2033,14 +2033,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 43725,
+        "bytes": 43152,
         "title": "[2405.15032] Aya 23: Open Weight Releases to Further Multilingual Progress",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2064,14 +2064,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "C4AI Launches Aya, an LLM Covering More Than 100 Languages",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2095,14 +2095,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/aya-expanse-32b · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2126,14 +2126,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/aya-expanse-8b · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2157,14 +2157,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Cohere For AI, Cohere’s research arm, announces Aya Expanse",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2188,14 +2188,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 47252,
         "title": "[2412.04261] Aya Expanse: Combining Research Breakthroughs for a New Multilingual Frontier",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2219,14 +2219,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 42421,
         "title": "[2402.07827] Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2250,14 +2250,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Aya | Cohere Labs",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2281,14 +2281,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/aya-vision-32b · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2312,14 +2312,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/aya-vision-8b · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2343,14 +2343,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Cohere For AI Launches Aya Vision, a Multilingual Multimodal AI Model",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2374,14 +2374,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 45573,
         "title": "[2505.08751] Aya Vision: Advancing the Frontier of Multilingual Multimodality",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2405,14 +2405,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 107659,
+        "bytes": 107685,
         "title": "Retirement of Embed v2.0 and Aya Expanse / Vision 8B | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2436,14 +2436,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 105472,
+        "bytes": 105498,
         "title": "Aya Expanse is Available on WhatsApp! | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2467,14 +2467,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 105658,
+        "bytes": 105684,
         "title": "Our Groundbreaking Multimodal Model, Aya Vision, is Here! | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2498,14 +2498,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 106316,
+        "bytes": 106342,
         "title": "Announcing Command A | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2529,14 +2529,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 110723,
+        "bytes": 110749,
         "title": "Command models get an August refresh | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2560,14 +2560,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 106658,
+        "bytes": 106684,
         "title": "Current Model Upgrades + New Command Beta Model | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2591,14 +2591,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 108671,
+        "bytes": 108697,
         "title": "Command Model Nightly Available! | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2622,14 +2622,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 107382,
+        "bytes": 107408,
         "title": "Command R: Retrieval-Augmented Generation at Scale | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2653,14 +2653,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 105743,
+        "bytes": 105769,
         "title": "Announcing Command R7b | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2684,14 +2684,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 142892,
+        "bytes": 142918,
         "title": "Cohere Releases Arabic-Optimized Command Model! | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2715,14 +2715,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 107910,
+        "bytes": 107936,
         "title": "Announcing Major Command Deprecations | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2746,14 +2746,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 107180,
+        "bytes": 107206,
         "title": "Cohere Model Names Are Changing! | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2777,14 +2777,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 107447,
+        "bytes": 107534,
         "title": "Refreshed Command R and R+ models now on Azure | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2808,14 +2808,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Command A: Max performance, minimal compute | Cohere Blog",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2839,14 +2839,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/c4ai-command-a-03-2025 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2870,14 +2870,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Command A+ | Cohere",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2901,14 +2901,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 108484,
+        "bytes": 108510,
         "title": "Announcing Cohere's Command A+ | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2932,14 +2932,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 193093,
+        "bytes": 193181,
         "title": "Cohere's Command A+ Model | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2963,14 +2963,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/command-a-plus-05-2026-bf16 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -2994,14 +2994,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Cohere Releases Command A+ for Sovereign AI | Cohere",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3025,14 +3025,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Command A Reasoning: Control for AI Agents | Cohere",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3056,14 +3056,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 122691,
+        "bytes": 122717,
         "title": "Announcing Cohere's Command A Reasoning Model | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3087,14 +3087,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 179034,
+        "bytes": 179118,
         "title": "Cohere's Command A Reasoning Model | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3118,14 +3118,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/command-a-reasoning-08-2025 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3149,14 +3149,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 80852,
         "title": "[2504.00698] Command A: An Enterprise-Ready Large Language Model",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3180,14 +3180,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Command A Translate: Secure Enterprise Translation | Cohere",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3211,14 +3211,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 115766,
+        "bytes": 115792,
         "title": "Announcing Cohere's Command A Translate Model | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3242,14 +3242,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 200303,
+        "bytes": 200389,
         "title": "Cohere's Command A Translate Model | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3273,14 +3273,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/command-a-translate-08-2025 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3304,14 +3304,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Command A Vision: Multimodal AI for Business | Cohere",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3335,14 +3335,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 120946,
+        "bytes": 120972,
         "title": "Announcing Cohere's Command A Vision Model | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3366,14 +3366,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 181040,
+        "bytes": 181127,
         "title": "Cohere's Command A Vision Model | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3397,14 +3397,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 231783,
+        "bytes": 233322,
         "title": "CohereLabs/command-a-vision-07-2025 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3428,14 +3428,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Command R: RAG at Production Scale",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3459,14 +3459,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Command R+: A Scalable LLM Built for Business | Cohere Blog",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3490,14 +3490,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Command R7B: Fast and efficient generative AI | Cohere Blog",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3521,14 +3521,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Command R7B Arabic",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3552,14 +3552,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/c4ai-command-r7b-arabic-02-2025 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3583,14 +3583,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/c4ai-command-r7b-12-2024 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3614,14 +3614,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Updates to the Command R Series",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3645,14 +3645,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 188079,
+        "bytes": 188167,
         "title": "Deprecations | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3676,14 +3676,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 178205,
+        "bytes": 178292,
         "title": "Cohere's Command and Command Light | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3707,14 +3707,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 198781,
+        "bytes": 198866,
         "title": "Cohere's Command R Model | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3738,14 +3738,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 201731,
+        "bytes": 201817,
         "title": "Cohere's Command R+ Model | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3769,14 +3769,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/aya-101 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3800,14 +3800,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/aya-23-35B · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3831,14 +3831,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/aya-23-8B · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3862,14 +3862,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/c4ai-command-r-08-2024 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3893,14 +3893,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/c4ai-command-r-plus · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3924,14 +3924,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/c4ai-command-r-plus-08-2024 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3955,14 +3955,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/c4ai-command-r-v01 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -3986,14 +3986,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "An Overview of Cohere's Models | Cohere",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4017,14 +4017,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Research | Cohere Labs",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4048,14 +4048,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 259135,
+        "bytes": 260177,
         "title": "CohereLabs/tiny-aya-base · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4079,14 +4079,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Cohere Labs Launches Tiny Aya for Multilingual AI | Cohere",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4110,14 +4110,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 191967,
+        "bytes": 192052,
         "title": "Tiny Aya | Cohere",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4141,14 +4141,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/tiny-aya-earth · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4172,14 +4172,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/tiny-aya-fire · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4203,14 +4203,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/tiny-aya-global · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4234,14 +4234,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 144433,
+        "bytes": 144364,
         "title": "Tiny Aya - a CohereLabs Collection",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4265,14 +4265,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 42907,
         "title": "[2603.11510] Tiny Aya: Bridging Scale and Multilingual Depth",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4296,14 +4296,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "CohereLabs/tiny-aya-water · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4327,14 +4327,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 54140,
+        "bytes": 57618,
         "title": "Change Log | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4358,14 +4358,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 182923,
+        "bytes": 183695,
         "title": "deepseek-ai/deepseek-llm-67b-base · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4389,14 +4389,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 195795,
+        "bytes": 196680,
         "title": "deepseek-ai/deepseek-llm-67b-chat · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4420,14 +4420,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 190960,
+        "bytes": 191734,
         "title": "deepseek-ai/deepseek-llm-7b-base · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4451,14 +4451,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 205298,
+        "bytes": 206063,
         "title": "deepseek-ai/deepseek-llm-7b-chat · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4482,14 +4482,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - deepseek-ai/DeepSeek-LLM: DeepSeek LLM: Let there be answers · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4513,14 +4513,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "chore: rebase commits · deepseek-ai/DeepSeek-LLM@f8b3d77 · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4544,14 +4544,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 53688,
         "title": "[2401.02954] DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4575,14 +4575,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 200490,
+        "bytes": 201523,
         "title": "deepseek-ai/deepseek-moe-16b-base · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4606,14 +4606,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 207786,
+        "bytes": 208883,
         "title": "deepseek-ai/deepseek-moe-16b-chat · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4637,14 +4637,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 21882,
+        "bytes": 22111,
         "title": "DeepSeek-R1-0528 Release | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4668,14 +4668,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-R1-0528 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4699,14 +4699,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 103119,
+        "bytes": 103120,
         "title": "DeepSeek | DeepSeek-R1-0528 Release",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4730,14 +4730,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 23720,
+        "bytes": 23949,
         "title": "DeepSeek-R1 Release | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4761,14 +4761,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - deepseek-ai/DeepSeek-R1 · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4792,14 +4792,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-R1 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4823,14 +4823,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 22278,
+        "bytes": 22507,
         "title": "🚀 DeepSeek-R1-Lite-Preview is now live: unleashing supercharged reasoning power! | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4850,14 +4850,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 104319,
+        "bytes": 104320,
         "title": "DeepSeek | DeepSeek-R1-Lite-Preview is Now Live: Unleashing Supercharged Reasoning Power!",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4881,14 +4881,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 109162,
+        "bytes": 109163,
         "title": "DeepSeek | DeepSeek-R1 Release",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4912,14 +4912,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 75710,
         "title": "[2501.12948] DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4943,14 +4943,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Release DeepSeek-R1 · deepseek-ai/DeepSeek-R1@23807ce · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -4974,14 +4974,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-R1-Zero · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5005,14 +5005,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 22603,
+        "bytes": 22832,
         "title": "🚀 DeepSeek V2.5: The Grand Finale 🎉 | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5036,14 +5036,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 236899,
+        "bytes": 237923,
         "title": "deepseek-ai/DeepSeek-V2.5-1210 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5067,14 +5067,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 103493,
+        "bytes": 103494,
         "title": "DeepSeek | DeepSeek V2.5: The Grand Finale",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5098,14 +5098,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 28676,
+        "bytes": 28905,
         "title": "DeepSeek-V2.5: A New Open-Source Model Combining General and Coding Capabilities | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5129,14 +5129,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V2.5 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5160,14 +5160,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 222762,
+        "bytes": 223816,
         "title": "deepseek-ai/DeepSeek-V2-Chat-0628 · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5191,14 +5191,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V2-Chat · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5222,14 +5222,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - deepseek-ai/DeepSeek-V2: DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5253,14 +5253,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V2 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5284,14 +5284,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 252277,
+        "bytes": 253389,
         "title": "deepseek-ai/DeepSeek-V2-Lite-Chat · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5315,14 +5315,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 248650,
+        "bytes": 249719,
         "title": "deepseek-ai/DeepSeek-V2-Lite · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5346,14 +5346,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 67380,
         "title": "[2405.04434] DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5377,14 +5377,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 21846,
+        "bytes": 22075,
         "title": "DeepSeek-V3-0324 Release | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5408,14 +5408,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V3-0324 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5439,14 +5439,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 102491,
+        "bytes": 102492,
         "title": "DeepSeek | DeepSeek-V3-0324 Release",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5470,14 +5470,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 25657,
+        "bytes": 25886,
         "title": "DeepSeek-V3.1 Release | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5501,14 +5501,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 252078,
+        "bytes": 253158,
         "title": "deepseek-ai/DeepSeek-V3.1-Base · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5532,14 +5532,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V3.1 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5563,14 +5563,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 21989,
+        "bytes": 22218,
         "title": "DeepSeek-V3.1-Terminus | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5594,14 +5594,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V3.1-Terminus · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5625,14 +5625,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 24335,
+        "bytes": 24564,
         "title": "DeepSeek-V3.2 Release | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5656,14 +5656,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 24134,
+        "bytes": 24363,
         "title": "Introducing DeepSeek-V3.2-Exp | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5687,14 +5687,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 171237,
+        "bytes": 172313,
         "title": "deepseek-ai/DeepSeek-V3.2-Exp-Base · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5718,14 +5718,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V3.2-Exp · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5749,14 +5749,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 164155,
+        "bytes": 163470,
         "title": "DeepSeek-V3.2-Exp/DeepSeek_V3_2.pdf at main · deepseek-ai/DeepSeek-V3.2-Exp · GitHub",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5780,14 +5780,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V3.2 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5811,14 +5811,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 160544,
         "title": null,
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5842,14 +5842,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 82979,
         "title": "[2512.02556] DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5873,14 +5873,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 206725,
+        "bytes": 207799,
         "title": "deepseek-ai/DeepSeek-V3.2-Speciale · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5904,14 +5904,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 24852,
+        "bytes": 25081,
         "title": "🚀 Introducing DeepSeek-V3 | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5935,14 +5935,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 208675,
+        "bytes": 209565,
         "title": "deepseek-ai/DeepSeek-V3-Base · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5966,14 +5966,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - deepseek-ai/DeepSeek-V3 · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -5997,14 +5997,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V3 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6028,14 +6028,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 109045,
+        "bytes": 109046,
         "title": "DeepSeek | Introducing DeepSeek-V3",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6059,14 +6059,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 73356,
         "title": "[2412.19437] DeepSeek-V3 Technical Report",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6090,14 +6090,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 188998,
         "title": null,
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6121,14 +6121,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 92823,
         "title": "[2606.19348] DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6152,14 +6152,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - deepseek-ai/DeepSeek-MoE: DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6179,14 +6179,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "initial commit · deepseek-ai/DeepSeek-MoE@1c8e791 · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6210,14 +6210,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 43743,
         "title": "[2401.06066] DeepSeekMoE: Towards Ultimate Expert Specialization in Mixture-of-Experts Language Models",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6241,14 +6241,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V4.1-Flash · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6272,14 +6272,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V4-Flash · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6303,14 +6303,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V4-Flash-0731 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6334,14 +6334,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 256998,
+        "bytes": 254070,
         "title": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp · Hugging Face",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6365,14 +6365,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V4-Pro · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6396,14 +6396,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai/DeepSeek-V4-Pro-0813 · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6427,14 +6427,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "deepseek-ai (DeepSeek)",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6458,14 +6458,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 16023,
         "title": "Model Mechanism and Training Methods of DeepSeek",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6489,14 +6489,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 27549,
+        "bytes": 29133,
         "title": "Models & Pricing | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6520,14 +6520,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 27504,
+        "bytes": 27733,
         "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6551,14 +6551,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 24865,
+        "bytes": 25094,
         "title": "DeepSeek-V4-Flash-Vision-Exp Release: Multimodal API Now Live | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6582,14 +6582,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 27014,
+        "bytes": 27243,
         "title": "DeepSeek V4 Preview Release | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6613,14 +6613,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 22866,
+        "bytes": 23095,
         "title": "DeepSeek-V4-Pro GA Release | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6644,14 +6644,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 48935,
         "title": "DeepSeek Privacy Policy",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6675,14 +6675,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 106308,
+        "bytes": 106309,
         "title": "DeepSeek | Transparency Center",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6706,14 +6706,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 16480,
+        "bytes": 16516,
         "title": "V3.1-Terminus Comparison Testing | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6737,14 +6737,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 83653,
+        "bytes": 87145,
         "title": "Vision | DeepSeek API Docs",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6768,14 +6768,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 111554,
+        "bytes": 111765,
         "title": "DeepSeek | Into the Unknown",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6799,14 +6799,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.1 Pro | Gemini Enterprise Agent Platform | Google Cloud Documentation",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6821,7 +6821,7 @@
         "via": "wayback-cdx-api"
       },
       "consecutiveFailures": 0,
-      "finalUrl": null,
+      "finalUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash-lite?hl=pt-br",
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": null,
       "firstFingerprint": {
@@ -6830,7 +6830,7 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-11-11T11:26:40Z",
       "lastFingerprint": {
         "bytes": 262144,
@@ -6838,7 +6838,7 @@
         "truncated": true
       },
       "lastOkAt": "2026-11-11T11:26:40Z",
-      "lastResult": "ok",
+      "lastResult": "moved",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-5-flash-lite"
@@ -6861,14 +6861,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.6 Flash | Gemini Enterprise Agent Platform | Google Cloud Documentation",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -6883,7 +6883,7 @@
         "via": "wayback-cdx-api"
       },
       "consecutiveFailures": 0,
-      "finalUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-7-flash?hl=id",
+      "finalUrl": null,
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": null,
       "firstFingerprint": {
@@ -6892,15 +6892,15 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-10-30T10:27:19Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.7 Flash | Gemini Enterprise Agent Platform | Google Cloud Documentation",
         "truncated": true
       },
-      "lastOkAt": "2026-10-30T10:27:19Z",
-      "lastResult": "moved",
+      "lastOkAt": "2026-11-17T12:26:46Z",
+      "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-7-flash"
@@ -6914,7 +6914,7 @@
         "via": "wayback-cdx-api"
       },
       "consecutiveFailures": 0,
-      "finalUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash?hl=es-419",
+      "finalUrl": null,
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": null,
       "firstFingerprint": {
@@ -6923,15 +6923,15 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-10-30T10:27:19Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.8 Flash | Gemini Enterprise Agent Platform | Google Cloud Documentation",
         "truncated": true
       },
-      "lastOkAt": "2026-10-30T10:27:19Z",
-      "lastResult": "moved",
+      "lastOkAt": "2026-11-17T12:26:46Z",
+      "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-8-flash"
@@ -6945,7 +6945,7 @@
         "via": "wayback-availability-api"
       },
       "consecutiveFailures": 0,
-      "finalUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-flash?hl=ko",
+      "finalUrl": null,
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": null,
       "firstFingerprint": {
@@ -6954,15 +6954,15 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-05T11:29:26Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3 Flash | Gemini Enterprise Agent Platform | Google Cloud Documentation",
         "truncated": true
       },
-      "lastOkAt": "2026-11-05T11:29:26Z",
-      "lastResult": "moved",
+      "lastOkAt": "2026-11-17T12:26:46Z",
+      "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/3-flash"
@@ -6976,7 +6976,7 @@
         "via": "wayback-cdx-api"
       },
       "consecutiveFailures": 0,
-      "finalUrl": null,
+      "finalUrl": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions?hl=de",
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": null,
       "firstFingerprint": {
@@ -6985,15 +6985,15 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-11-11T11:26:40Z",
       "lastFingerprint": {
         "bytes": 262144,
-        "title": "Model versions and lifecycle | Gemini Enterprise Agent Platform | Google Cloud Documentation",
+        "title": "Modellversionen und -lebenszyklus | Gemini Enterprise Agent Platform | Google Cloud Documentation",
         "truncated": true
       },
       "lastOkAt": "2026-11-11T11:26:40Z",
-      "lastResult": "ok",
+      "lastResult": "moved",
       "state": "active",
       "stateSince": "2026-10-11T10:18:42Z",
       "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions"
@@ -7016,14 +7016,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Join us in the AI Test Kitchen",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7047,14 +7047,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 148729,
         "title": "Android Developers Blog: A New Foundation for AI on Android",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-24T08:24:07Z",
@@ -7078,14 +7078,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Google AI updates: Bard and new AI features in Search",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7109,14 +7109,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Google Bard is now Gemini: How to try Ultra 1.0 and new mobile app",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7140,14 +7140,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Google Bard: How to try the new Gemini AI model",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7171,14 +7171,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Bard updates from Google I/O 2023: Images, new features",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7202,14 +7202,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 168322,
+        "bytes": 169053,
         "title": "About Google DeepMind — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7233,14 +7233,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 141353,
+        "bytes": 142058,
         "title": "Model cards — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7264,14 +7264,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 198547,
+        "bytes": 215199,
         "title": "Fairwind Program — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7295,14 +7295,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Gemini: Google’s most capable AI model yet",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7326,14 +7326,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 43003,
+        "bytes": 46736,
         "title": "Updated production-ready Gemini models, reduced 1.5 Pro pricing, increased rate limits, and more - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7357,14 +7357,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Gemini 1.5, Google's next-generation AI model",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7388,14 +7388,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 38681,
+        "bytes": 42414,
         "title": "Gemini 1.5 Flash-8B is now production ready - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7419,14 +7419,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 41852,
+        "bytes": 45585,
         "title": "Gemini 1.5 Flash price drop with tuning rollout complete, and more - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7450,14 +7450,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 39668,
+        "bytes": 43401,
         "title": "Gemini 1.5 Pro and 1.5 Flash GA, 1.5 Flash tuning support, higher rate limits, and more API updates - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7481,14 +7481,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 46200,
+        "bytes": 46251,
         "title": "Gemini 1.5: Our next-generation model, now available for Private Preview in Google AI Studio - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7512,14 +7512,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 42838,
+        "bytes": 44749,
         "title": "Gemini 1.5 Pro Now Available in 180+ Countries; with Native Audio Understanding, System Instructions, JSON Mode and more - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7543,14 +7543,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 232193,
         "title": "[2403.05530] Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7574,14 +7574,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Gemini: Google’s most capable AI model yet",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7605,14 +7605,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "[2312.11805] Gemini: A Family of Highly Capable Multimodal Models",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7636,14 +7636,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Google introduces Gemini 2.0: A new AI model for the agentic era",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7667,14 +7667,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 51058,
+        "bytes": 54791,
         "title": "The next chapter of the Gemini era for developers - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7698,14 +7698,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 40703,
+        "bytes": 44436,
         "title": "Gemini 2.0: Flash, Flash-Lite and Pro - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7729,14 +7729,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 40703,
+        "bytes": 44436,
         "title": "Gemini 2.0: Flash, Flash-Lite and Pro - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7760,14 +7760,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 2.0 model updates: 2.0 Flash, Flash-Lite, Pro Experimental",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7791,14 +7791,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 41385,
+        "bytes": 45118,
         "title": "Start building with Gemini 2.0 Flash and Flash-Lite - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7822,10 +7822,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-30T10:27:19Z",
       "lastFingerprint": {
-        "bytes": 39386,
+        "bytes": 39004,
         "title": "Gemini 2.0 Flash-Lite - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -7853,14 +7853,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 168161,
         "title": null,
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7884,14 +7884,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 198404,
         "title": null,
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7915,14 +7915,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 2.0 model updates: 2.0 Flash, Flash-Lite, Pro Experimental",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7946,14 +7946,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 2.5: Our newest Gemini model with thinking",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -7977,14 +7977,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 2.5 model family expands",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8008,10 +8008,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-18T08:19:53Z",
       "lastFingerprint": {
-        "bytes": 40528,
+        "bytes": 40146,
         "title": "Gemini 2.5 Flash - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -8039,14 +8039,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 45657,
+        "bytes": 49390,
         "title": "Start building with Gemini 2.5 Flash - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8070,10 +8070,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-05T10:50:37Z",
       "lastFingerprint": {
-        "bytes": 40234,
+        "bytes": 39871,
         "title": "Gemini 2.5 Flash-Lite - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -8101,14 +8101,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 39810,
+        "bytes": 43543,
         "title": "Gemini 2.5 Flash-Lite is now stable and generally available - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8132,14 +8132,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": null,
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8163,14 +8163,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 37889,
+        "bytes": 41622,
         "title": "Continuing to bring you our latest models, with an improved Gemini 2.5 Flash and Flash-Lite release - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8194,10 +8194,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-30T10:27:19Z",
       "lastFingerprint": {
-        "bytes": 40322,
+        "bytes": 39939,
         "title": "Gemini 2.5 Pro - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -8225,14 +8225,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": null,
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8256,14 +8256,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 43312,
+        "bytes": 47045,
         "title": "Gemini 2.5: Updates to our family of thinking models - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8287,14 +8287,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.1 Flash Lite: Our most cost-effective AI model yet",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8318,14 +8318,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 250679,
+        "bytes": 250981,
         "title": "Gemini 3.1 Flash-Lite is now generally available | Google Cloud Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8349,14 +8349,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 154185,
+        "bytes": 154682,
         "title": "Gemini 3.1 Flash-Lite - Model Card — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8380,14 +8380,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.1 Pro: Announcing our latest Gemini AI model",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8411,14 +8411,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 160579,
+        "bytes": 161076,
         "title": "Gemini 3.1 Pro - Model Card — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8442,14 +8442,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.5: frontier intelligence with action",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8504,14 +8504,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 153571,
+        "bytes": 154068,
         "title": "Gemini 3.5 Flash-Lite - Model Card — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8535,14 +8535,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 153935,
+        "bytes": 154432,
         "title": "Gemini 3.5 Flash - Model Card — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8589,14 +8589,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8620,14 +8620,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8651,14 +8651,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 154661,
+        "bytes": 155158,
         "title": "Gemini 3.6 Flash - Model Card — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8682,14 +8682,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.7 Flash: our most intelligent workhorse model",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8713,14 +8713,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 159471,
+        "bytes": 159968,
         "title": "Gemini 3.7 Flash - Model Card — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8744,14 +8744,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8775,14 +8775,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 155561,
+        "bytes": 156058,
         "title": "Gemini 3.8 Flash - Model Card — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8860,14 +8860,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3: Introducing the latest Gemini AI model from Google",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8891,14 +8891,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Gemini 3 Flash: Benchmarks, global availability",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8922,14 +8922,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": null,
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8953,14 +8953,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": null,
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -8984,10 +8984,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-30T10:27:19Z",
       "lastFingerprint": {
-        "bytes": 39476,
+        "bytes": 39112,
         "title": "Gemini 3 Pro preview - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9015,14 +9015,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Gemini 4 Argon",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9108,10 +9108,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-24T08:24:07Z",
       "lastFingerprint": {
-        "bytes": 103444,
+        "bytes": 105890,
         "title": "Release notes - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9139,10 +9139,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-30T10:27:19Z",
       "lastFingerprint": {
-        "bytes": 53541,
+        "bytes": 53510,
         "title": "Gemini deprecations - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9170,10 +9170,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-18T08:19:53Z",
       "lastFingerprint": {
-        "bytes": 46665,
+        "bytes": 46184,
         "title": "Gemini 3.1 Flash-Lite - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9201,10 +9201,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-11T10:18:42Z",
       "lastFingerprint": {
-        "bytes": 40737,
+        "bytes": 40367,
         "title": "Gemini 3.1 Pro preview - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9232,10 +9232,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-30T10:27:19Z",
       "lastFingerprint": {
-        "bytes": 40114,
+        "bytes": 39730,
         "title": "Gemini 3.5 Flash - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9263,10 +9263,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-30T10:27:19Z",
       "lastFingerprint": {
-        "bytes": 40183,
+        "bytes": 39780,
         "title": "Gemini 3.5 Flash-Lite - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9294,10 +9294,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-24T08:24:07Z",
       "lastFingerprint": {
-        "bytes": 40329,
+        "bytes": 39903,
         "title": "Gemini 3.6 Flash - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9325,10 +9325,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-24T08:24:07Z",
       "lastFingerprint": {
-        "bytes": 40133,
+        "bytes": 39732,
         "title": "Gemini 3.7 Flash - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9356,10 +9356,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-30T10:27:19Z",
       "lastFingerprint": {
-        "bytes": 39997,
+        "bytes": 39631,
         "title": "Gemini 3.8 Flash - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9387,10 +9387,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-30T10:27:19Z",
       "lastFingerprint": {
-        "bytes": 39967,
+        "bytes": 39604,
         "title": "Gemini 3 Flash preview - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9418,10 +9418,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-24T08:24:07Z",
       "lastFingerprint": {
-        "bytes": 59956,
+        "bytes": 60798,
         "title": "Models - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9449,10 +9449,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-24T08:24:07Z",
       "lastFingerprint": {
-        "bytes": 103446,
+        "bytes": 105888,
         "title": "Release notes - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9480,10 +9480,10 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-10-18T08:19:53Z",
       "lastFingerprint": {
-        "bytes": 77117,
+        "bytes": 76663,
         "title": "What's new in Gemini 3.5 Flash - Gemini API | Google AI Studio",
         "truncated": false
       },
@@ -9511,14 +9511,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini gets 1.5 Flash, a new related content feature and more",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9542,14 +9542,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Access the latest 2.0 experimental models in the Gemini app.",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9573,14 +9573,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini app updates: Deep Research, connected apps, personalization",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9604,14 +9604,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "‎Gemini Apps’ release updates & improvements",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9635,14 +9635,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Google Gemini API: New developer and enterprise AI products",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9666,14 +9666,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "google/gemma-1.1-2b-it · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9697,14 +9697,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "google/gemma-1.1-7b-it · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9728,14 +9728,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "google/gemma-2-27b · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9759,14 +9759,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 48567,
+        "bytes": 52300,
         "title": "Smaller, Safer, More Transparent: Advancing Responsible AI with Gemma - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9790,14 +9790,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "google/gemma-2-2b · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9821,14 +9821,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "google/gemma-2-9b · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9852,14 +9852,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Google launches Gemma 2, its next generation of open models",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9874,7 +9874,7 @@
         "via": "wayback-cdx-api"
       },
       "consecutiveFailures": 0,
-      "finalUrl": null,
+      "finalUrl": "https://gemma.ai/models/gemma-2/",
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": null,
       "firstFingerprint": {
@@ -9883,15 +9883,15 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-11-11T11:26:40Z",
       "lastFingerprint": {
-        "bytes": 153929,
-        "title": "Gemma 2 model card | Google AI for Developers",
+        "bytes": 126128,
+        "title": "Gemma 2 model card - Gemma Documentation",
         "truncated": false
       },
       "lastOkAt": "2026-11-11T11:26:40Z",
-      "lastResult": "ok",
+      "lastResult": "moved",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
       "url": "https://ai.google.dev/gemma/docs/core/model_card_2"
@@ -9914,14 +9914,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 73449,
+        "bytes": 74022,
         "title": "[2408.00118] Gemma 2: Improving Open Language Models at a Practical Size",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9945,14 +9945,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "google/gemma-2b · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -9976,14 +9976,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 46989,
+        "bytes": 50722,
         "title": "Introducing Gemma 3 270M: The compact model for hyper-efficient AI - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10007,14 +10007,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemma 3: Google’s new open model based on Gemini 2.0",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10038,14 +10038,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 47866,
+        "bytes": 51599,
         "title": "Introducing Gemma 3: The Developer Guide - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10060,7 +10060,7 @@
         "via": "wayback-cdx-api"
       },
       "consecutiveFailures": 0,
-      "finalUrl": null,
+      "finalUrl": "https://gemma.ai/models/gemma-3/",
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": null,
       "firstFingerprint": {
@@ -10069,15 +10069,15 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-11-11T11:26:40Z",
       "lastFingerprint": {
-        "bytes": 172220,
-        "title": "Gemma 3 model card | Google AI for Developers",
+        "bytes": 139158,
+        "title": "Gemma 3 model card - Gemma Documentation",
         "truncated": false
       },
       "lastOkAt": "2026-11-11T11:26:40Z",
-      "lastResult": "ok",
+      "lastResult": "moved",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
       "url": "https://ai.google.dev/gemma/docs/core/model_card_3"
@@ -10100,14 +10100,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 76475,
         "title": "[2503.19786] Gemma 3 Technical Report",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10131,14 +10131,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 55886,
+        "bytes": 59619,
         "title": "Introducing Gemma 3n: The developer guide - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10153,7 +10153,7 @@
         "via": "wayback-cdx-api"
       },
       "consecutiveFailures": 0,
-      "finalUrl": null,
+      "finalUrl": "https://gemma.ai/models/gemma-3n/model-card/",
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": null,
       "firstFingerprint": {
@@ -10162,15 +10162,15 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-11-11T11:26:40Z",
       "lastFingerprint": {
-        "bytes": 158415,
-        "title": "Gemma 3n model card | Google AI for Developers",
+        "bytes": 126942,
+        "title": "Gemma 3n model card - Gemma Documentation",
         "truncated": false
       },
       "lastOkAt": "2026-11-11T11:26:40Z",
-      "lastResult": "ok",
+      "lastResult": "moved",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
       "url": "https://ai.google.dev/gemma/docs/gemma-3n/model_card"
@@ -10193,14 +10193,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 45816,
+        "bytes": 49549,
         "title": "Announcing Gemma 3n preview: powerful, efficient, mobile-first AI - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10224,14 +10224,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Gemma 4 12B",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10255,14 +10255,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemma 4: Our most capable open models to date",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10286,14 +10286,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 200646,
+        "bytes": 205534,
         "title": "Gemma 4 - a google Collection",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10308,7 +10308,7 @@
         "via": "wayback-cdx-api"
       },
       "consecutiveFailures": 0,
-      "finalUrl": null,
+      "finalUrl": "https://gemma.ai/models/gemma-4/model-card/",
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": null,
       "firstFingerprint": {
@@ -10317,15 +10317,15 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-11-11T11:26:40Z",
       "lastFingerprint": {
-        "bytes": 167990,
-        "title": "Gemma 4 model card | Google AI for Developers",
+        "bytes": 134137,
+        "title": "Gemma 4 model card - Gemma Documentation",
         "truncated": false
       },
       "lastOkAt": "2026-11-11T11:26:40Z",
-      "lastResult": "ok",
+      "lastResult": "moved",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
       "url": "https://ai.google.dev/gemma/docs/core/model_card_4"
@@ -10348,14 +10348,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 95188,
         "title": "[2607.02770] Gemma 4 Technical Report",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10379,14 +10379,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "google/gemma-7b · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10410,14 +10410,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemma: Google introduces new state-of-the-art open models",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10441,14 +10441,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 45321,
+        "bytes": 47235,
         "title": "Gemma Family Expands with Models Tailored for Developers and Researchers - Google Developers Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10463,7 +10463,7 @@
         "via": "wayback-cdx-api"
       },
       "consecutiveFailures": 0,
-      "finalUrl": null,
+      "finalUrl": "https://gemma.ai/models/releases/",
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": null,
       "firstFingerprint": {
@@ -10472,15 +10472,15 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": "2026-11-11T11:26:40Z",
       "lastFingerprint": {
-        "bytes": 140379,
-        "title": "Gemma releases | Google AI for Developers",
+        "bytes": 109063,
+        "title": "Releases - Gemma Documentation",
         "truncated": false
       },
       "lastOkAt": "2026-11-11T11:26:40Z",
-      "lastResult": "ok",
+      "lastResult": "moved",
       "state": "active",
       "stateSince": "2026-10-18T08:19:53Z",
       "url": "https://ai.google.dev/gemma/docs/releases"
@@ -10503,14 +10503,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 60027,
+        "bytes": 59441,
         "title": "[2403.08295] Gemma: Open Models Based on Gemini Research and Technology",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10534,14 +10534,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Google DeepMind: Bringing together two world-class AI teams",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10565,14 +10565,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "google/gemma-3-27b-it · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10596,14 +10596,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "google/gemma-3n-E4B-it · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10627,14 +10627,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Google I/O 2022: Advancing knowledge and computing",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10658,14 +10658,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 1.5 Pro updates, 1.5 Flash debut and 2 new Gemma models",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10689,14 +10689,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10720,14 +10720,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "LaMDA: our breakthrough conversation technology",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10751,14 +10751,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 52643,
         "title": "[2201.08239] LaMDA: Language Models for Dialog Applications",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10782,14 +10782,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 179759,
+        "bytes": 180196,
         "title": "LaMDA: Towards Safe, Grounded, and High-Quality Dialog Models for Everything",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10813,14 +10813,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 100468,
+        "bytes": 100450,
         "title": "How we started and where we are today - Google - About Google",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10844,14 +10844,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Google AI: What to know about the PaLM 2 large language model",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10875,14 +10875,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 64801,
+        "bytes": 64215,
         "title": "[2305.10403] PaLM 2 Technical Report",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10906,14 +10906,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 194939,
+        "bytes": 195089,
         "title": "Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrou",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10937,14 +10937,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 53605,
+        "bytes": 53032,
         "title": "[2204.02311] PaLM: Scaling Language Modeling with Pathways",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10968,14 +10968,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 194939,
+        "bytes": 195089,
         "title": "Pathways Language Model (PaLM): Scaling to 540 Billion Parameters for Breakthrou",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -10999,14 +10999,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Google Pixel December feature drop: New Gemini AI-powered updates",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -11030,14 +11030,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Sign up to try Bard from Google",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -11061,14 +11061,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 232696,
+        "bytes": 232979,
         "title": "Gemini on Vertex AI expands | Google Cloud Blog",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -11086,31 +11086,31 @@
           "truncated": true
         },
         "httpStatus": 200,
-        "lastCheckedAt": "2026-11-11T11:26:40Z",
-        "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+        "lastCheckedAt": "2026-11-17T12:26:46Z",
+        "lastDefinitiveAt": "2026-11-17T12:26:46Z",
         "lastFingerprint": {
           "bytes": 262144,
           "title": "Text chat | Vertex AI | Google Cloud",
           "truncated": true
         },
-        "lastOkAt": "2026-11-11T11:26:40Z",
+        "lastOkAt": "2026-11-17T12:26:46Z",
         "lastResult": "ok",
         "stateSince": "2026-10-05T10:50:37Z",
         "url": "https://web.archive.org/web/20231208072835/https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text-chat"
       },
       "archiveState": "active",
       "archiveSuggestion": null,
-      "consecutiveFailures": 14,
+      "consecutiveFailures": 15,
       "finalUrl": "https://docs.cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text-chat",
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": "2026-10-05T10:50:37Z",
       "firstFingerprint": null,
       "httpStatus": 404,
-      "lastCheckedAt": "2026-11-14T10:55:27Z",
-      "lastDefinitiveAt": "2026-11-14T10:55:27Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 97179,
-        "title": "404 | Pagina nu a fost găsită. | Google Cloud Documentation",
+        "bytes": 97125,
+        "title": "404 | Stránka nenalezena | Google Cloud Documentation",
         "truncated": false
       },
       "lastOkAt": null,
@@ -11131,14 +11131,14 @@
           "truncated": true
         },
         "httpStatus": 200,
-        "lastCheckedAt": "2026-11-11T11:26:40Z",
-        "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+        "lastCheckedAt": "2026-11-17T12:26:46Z",
+        "lastDefinitiveAt": "2026-11-17T12:26:46Z",
         "lastFingerprint": {
           "bytes": 262144,
           "title": "Text | Vertex AI | Google Cloud",
           "truncated": true
         },
-        "lastOkAt": "2026-11-11T11:26:40Z",
+        "lastOkAt": "2026-11-17T12:26:46Z",
         "lastResult": "ok",
         "stateSince": "2026-10-05T10:50:37Z",
         "url": "https://web.archive.org/web/20240101182211/https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/text"
@@ -11151,7 +11151,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -11169,12 +11169,12 @@
       "archiveState": null,
       "archiveSuggestion": null,
       "consecutiveFailures": 0,
-      "finalUrl": "https://us.aws.cdn.hf.co/xet-bridge-us/660d6b222461f72aa26a8518/e088d91eae5e58c9de19f3e3b8e8c36ef74dd662ee9a128232596ac63a077748?xip=KGYQuR1zryQ&response-content-type=application%2Fpdf&response-content-disposition=inline%3B+filename*%3DUTF-8%27%272025_Hugging_Face_Response_to_AI_Action_Plan.pdf%3B+filename%3D%222025_Hugging_Face_Response_to_AI_Action_Plan.pdf%22%3B&X-Xet-Cas-Uid=public&user_id=public&Expires=1794400598&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjYwZDZiMjIyNDYxZjcyYWEyNmE4NTE4L2UwODhkOTFlYWU1ZTU4YzlkZTE5ZjNlM2I4ZThjMzZlZjc0ZGQ2NjJlZTlhMTI4MjMyNTk2YWM2M2EwNzc3NDhcXD94aXA9S0dZUXVSMXpyeVEmcmVzcG9uc2UtY29udGVudC10eXBlPWFwcGxpY2F0aW9uJTJGcGRmJnJlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249aW5saW5lJTNCK2ZpbGVuYW1lJTJBJTNEVVRGLTglMjclMjcyMDI1X0h1Z2dpbmdfRmFjZV9SZXNwb25zZV90b19BSV9BY3Rpb25fUGxhbi5wZGYlM0IrZmlsZW5hbWUlM0QlMjIyMDI1X0h1Z2dpbmdfRmFjZV9SZXNwb25zZV90b19BSV9BY3Rpb25fUGxhbi5wZGYlMjIlM0ImWC1YZXQtQ2FzLVVpZD1wdWJsaWMmdXNlcl9pZD1wdWJsaWMiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVwb2NoVGltZSI6MTc5NDQwMDU5OH19fV19&Signature=MEUCIQDUo5BP4gqyPBMa9CTTcmvoRw85IDjyhjFv0X7pyL4DYQIgMPyKtb7PMhjYuQC%7ESz3v5Il52hFD6iAT%7EhnCstaPjqg_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
+      "finalUrl": "https://us.aws.cdn.hf.co/xet-bridge-us/660d6b222461f72aa26a8518/e088d91eae5e58c9de19f3e3b8e8c36ef74dd662ee9a128232596ac63a077748?X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%272025_Hugging_Face_Response_to_AI_Action_Plan.pdf%3B+filename%3D%222025_Hugging_Face_Response_to_AI_Action_Plan.pdf%22%3B&response-content-type=application%2Fpdf&user_id=public&xip=3oVPuhZizXM&Expires=1794922598&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjYwZDZiMjIyNDYxZjcyYWEyNmE4NTE4L2UwODhkOTFlYWU1ZTU4YzlkZTE5ZjNlM2I4ZThjMzZlZjc0ZGQ2NjJlZTlhMTI4MjMyNTk2YWM2M2EwNzc3NDhcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3MjAyNV9IdWdnaW5nX0ZhY2VfUmVzcG9uc2VfdG9fQUlfQWN0aW9uX1BsYW4ucGRmJTNCK2ZpbGVuYW1lJTNEJTIyMjAyNV9IdWdnaW5nX0ZhY2VfUmVzcG9uc2VfdG9fQUlfQWN0aW9uX1BsYW4ucGRmJTIyJTNCJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1hcHBsaWNhdGlvbiUyRnBkZiZ1c2VyX2lkPXB1YmxpYyZ4aXA9M29WUHVoWml6WE0iLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVwb2NoVGltZSI6MTc5NDkyMjU5OH19fV19&Signature=MEUCIQCg9gfC4qCUTWSNfPQsONZEyJ4FU2NAs1RVxzEp9FycrgIgfFwxr3v2-ZavWlY3srboZllPI-IWZaHJsn-7oCzviMI_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256",
       "firstCheckedAt": "2026-10-05T10:50:37Z",
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -11205,14 +11205,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "GitHub - huggingface/alignment-handbook: Robust recipes to align language models with human and AI preferences · GitHub",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -11236,14 +11236,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "HuggingFaceM4/idefics-80b · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -11267,14 +11267,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "HuggingFaceM4/idefics-9b · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -11298,14 +11298,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
-        "bytes": 246320,
+        "bytes": 249055,
         "title": "Introducing IDEFICS: An Open Reproduction of State-of-the-art Visual Langage Model",
         "truncated": false
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -11329,14 +11329,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "HuggingFaceM4/idefics2-8b · Hugging Face",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-05T10:50:37Z",
@@ -19029,14 +19029,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-11T11:26:40Z",
-      "lastDefinitiveAt": "2026-11-11T11:26:40Z",
+      "lastCheckedAt": "2026-11-17T12:26:46Z",
+      "lastDefinitiveAt": "2026-11-17T12:26:46Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Introducing Mistral Large 4 | Mistral",
         "truncated": true
       },
-      "lastOkAt": "2026-11-11T11:26:40Z",
+      "lastOkAt": "2026-11-17T12:26:46Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-11T10:18:42Z",
