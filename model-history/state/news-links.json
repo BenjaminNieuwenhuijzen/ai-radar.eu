@@ -2612,6 +2612,21 @@
       "firstSeenIn": "2dd1d9e"
     },
     {
+      "modelId": "google.gemini-4-carbon",
+      "variantId": null,
+      "postId": "xaoc0cjqf9",
+      "link": "https://blog.google/products-and-platforms/products/gemini/gemini-4-carbon-builders/",
+      "title": "See what 5 builders are making with Gemini 4 Carbon",
+      "publishedAt": "2026-11-17T21:00:00Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "Gemini",
+      "method": "auto",
+      "alias": "gemini 4 carbon",
+      "firstSeenAt": "2026-11-17T22:25:55Z",
+      "firstSeenIn": "b6039c6"
+    },
+    {
       "modelId": "google.gemini-4-hydrogen",
       "variantId": null,
       "postId": "14ttyo3ca9j",
@@ -3390,6 +3405,21 @@
       "alias": "kimi-k3",
       "firstSeenAt": "2026-11-14T20:45:23Z",
       "firstSeenIn": "2b09cec"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "4rnyz8vy62",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZmNKeVR6eUh3U3dQMkRFTXc0dmd0MGFoQkZiLWtqWW4yRVN6QjhPWkxCcUNTVmszclFYbE1jTWdWY0FWVUE5dEhjQmNpOTdaLXpHVDJxRmllLXBPTEljRVI4VWNmNXNqdElOWFZXSVNHczBSLXJ4UVFoTENMVV9QSEZIWnhBRUdDU0hkTUo0cGJwdw?oc=5",
+      "title": "Kimi K3 India inference: AWS routing explained",
+      "publishedAt": "2026-11-17T05:01:34Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "NeoTeo",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-17T22:25:55Z",
+      "firstSeenIn": "b6039c6"
     },
     {
       "modelId": "moonshot.kimi-k3-1-pro",
@@ -4815,6 +4845,36 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-16T18:34:33Z",
       "firstSeenIn": "c4b82d5"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "19e3wwmrb6s",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CTjJNOEpnSm42VnZPdFlDMEZaQmdvQ3JRcUhwMm4zM1ZtZ2VHVDhHdHdTaGU3SVNRcHBqSjZ0cnJ2SVZvSy1MbU9vbTE3V0l3TjZvSmwzUU9WSEp5Uzl1ODMyODlpOXp5YVQ2M3pNOUtkMWZK?oc=5",
+      "title": "Kimi K3.1 Pro Coder quantization: size and test claims",
+      "publishedAt": "2026-11-17T11:21:38Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "NeoTeo",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-17T22:25:55Z",
+      "firstSeenIn": "b6039c6"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "jxpc6qhmjm",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbDlrZmVZbDU2ZXVhQzRDTUx4dWxmUEhfbGtURV90NExZdVdaYThhdXZwOHM2Qm1qQVhsU013RTNOOVRRcFZoa00xYkEyNWwyTm1sSmstU3J5bGRLWEV3Qkp2TkRoTm1LSkUxcWhKbTNKcGVmZnlkVmxWQWxtLURWQlNKcXFkRXoy?oc=5",
+      "title": "Qwen4 Max Scores Close to Kimi K3.1 Pro at Lower Cost",
+      "publishedAt": "2026-11-17T17:02:08Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "WinBuzzer",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-17T22:25:55Z",
+      "firstSeenIn": "b6039c6"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
