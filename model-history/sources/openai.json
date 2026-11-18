@@ -1978,6 +1978,20 @@
       "provenance": "primary",
       "availability": "unknown",
       "notes": "Known only from OpenAI's own news feed as listed on AI Radar (title, link and date). The page itself was not opened when the record was written, so the daily source check has to confirm it."
+    },
+    {
+      "id": "src.openai.gpt-6-2-astra-sol-announcement",
+      "type": "announcement",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "publisher": "OpenAI",
+      "publisherOrgId": "openai",
+      "publishedAt": {
+        "value": "2026-11-17"
+      },
+      "provenance": "primary",
+      "availability": "unknown",
+      "notes": "Known only from OpenAI's own news feed as listed on AI Radar (title, link and date). The page itself was not opened when the record was written, so the daily source check has to confirm it."
     }
   ]
 }
