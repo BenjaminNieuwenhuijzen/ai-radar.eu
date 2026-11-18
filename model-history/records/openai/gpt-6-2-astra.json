@@ -9,6 +9,10 @@
     {
       "text": "GPT-6.2 Astra",
       "match": "auto"
+    },
+    {
+      "text": "GPT-6.2",
+      "match": "never"
     }
   ],
   "organizations": [
