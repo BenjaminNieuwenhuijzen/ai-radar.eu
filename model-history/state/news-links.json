@@ -902,6 +902,21 @@
       "firstSeenIn": "20338a3"
     },
     {
+      "modelId": "anthropic.claude-opus-5-5",
+      "variantId": null,
+      "postId": "hutlkgbwd3",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5dWp3ZkJkYml4NmxiUmEzcFBqOEs4UWNUVnk1R2dDTzUtcHJWaF83bDE3dXVDeGhrVXFJb3hQLUx5LTMzaFR3MjdDamxJay1vZ2dlbkd5cThYdjVvWHlNNjYxVVRXUmNWMllRRg?oc=5",
+      "title": "MAI Code 2 vs Claude Opus 5.5: What the 96% Claim Omits",
+      "publishedAt": "2026-11-18T11:56:45Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude opus 5.5",
+      "firstSeenAt": "2026-11-18T17:17:26Z",
+      "firstSeenIn": "63ad42c"
+    },
+    {
       "modelId": "anthropic.claude-sonnet-4-6",
       "variantId": null,
       "postId": "1vrjdhknhjd",
@@ -1080,6 +1095,21 @@
       "alias": "deepseek-v3",
       "firstSeenAt": "2026-11-18T07:30:44Z",
       "firstSeenIn": "20338a3"
+    },
+    {
+      "modelId": "deepseek.deepseek-v3",
+      "variantId": null,
+      "postId": "6abthd4f71",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORzNYYUVGcGpiUnhBLWNkSjgtU3VJZGFvajJwQUFwYlQtRXJwOTAteXBuRGh3M3NQYXBvam5NOWNwdGZ2U2trRjJqc2pnWXpaWnZHaFNOX2JpU1JVa0ZWMEVuc0toTGl1bGQzb2VLa0k0SkpQV2hpVlRtYXJDTGthUG45b1pXelVXT19DRkJJVEFRNlJPaC1fdHNpZEpxYUc0V2haNHNmQWsyaDIzcE5JMXJESnVTbjRUS19wMl9SVndqV3JBS3pJU1FDczZCUG56cDZ2bl8xMDh1aUE?oc=5",
+      "title": "GPT-5.4, Qwen3.7 Max and DeepSeek V3 Picked Copycat MCP Server Tool Over Real One in All 50 Trials",
+      "publishedAt": "2026-11-18T08:19:45Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Tech Times",
+      "method": "auto",
+      "alias": "deepseek v3",
+      "firstSeenAt": "2026-11-18T17:17:26Z",
+      "firstSeenIn": "63ad42c"
     },
     {
       "modelId": "deepseek.deepseek-v4-1-flash",
@@ -1875,6 +1905,21 @@
       "alias": "deepseek v4.1 flash",
       "firstSeenAt": "2026-11-16T18:34:33Z",
       "firstSeenIn": "c4b82d5"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1eansqv0iye",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU3g3cG55S3FkUzdadl9CODI5V2ZMRkVPbWEtSHBMUTR5Z2dQcjk3RThjTmFLOFU1cDlWb2tWNDl5S1hKUVYxU1ZXMTE1WU1aN29QZEgzMkJoSm1jZG1zbWNTdlc3ZHBrT1lsV2hlUjBSYkhuMmc4S1ZTR3I0a0lGQld4cURSNEVnT0cxMWwweS1IWDA0azBSVVBDWFBhRGZvQS1JNkFaTDE4eXRSMWdfZHVHUlBxSVU?oc=5",
+      "title": "Lebrel Brings Uncensored DeepSeek V4.1 Flash From $0.13 per Million Input Tokens, Adds Alibaba's Qwen4-Max on Day One",
+      "publishedAt": "2026-11-18T04:25:52Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Carroll County Mirror-Democrat",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-18T17:17:26Z",
+      "firstSeenIn": "63ad42c"
     },
     {
       "modelId": "deepseek.deepseek-v4-1-flash",
@@ -4922,6 +4967,21 @@
       "firstSeenIn": "b6039c6"
     },
     {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "bbrtyiqhkj",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tY1dHQ19oaS1hdDJwXzhTcl81STI4cFRGVHFYQ0JUamYwOUdfRUk3LVpJWVBtYllsQzZvQU00cWNiZlpKUlZEWkpqWnJHWEpqZTk5Z29yOXVVbzByS2VaM2psOTE?oc=5",
+      "title": "Qwen4-Max vs Kimi K3.1 Pro: What a 41-Cent Gap Means",
+      "publishedAt": "2026-11-18T05:20:10Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-18T17:17:26Z",
+      "firstSeenIn": "63ad42c"
+    },
+    {
       "modelId": "nvidia.nemotron-3-5-lightning",
       "variantId": null,
       "postId": "llxbmn8ygy",
@@ -4995,6 +5055,21 @@
       "alias": "gpt-5.2",
       "firstSeenAt": "2026-10-05T05:42:45Z",
       "firstSeenIn": "dcab53f"
+    },
+    {
+      "modelId": "openai.gpt-5-4",
+      "variantId": null,
+      "postId": "6abthd4f71",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORzNYYUVGcGpiUnhBLWNkSjgtU3VJZGFvajJwQUFwYlQtRXJwOTAteXBuRGh3M3NQYXBvam5NOWNwdGZ2U2trRjJqc2pnWXpaWnZHaFNOX2JpU1JVa0ZWMEVuc0toTGl1bGQzb2VLa0k0SkpQV2hpVlRtYXJDTGthUG45b1pXelVXT19DRkJJVEFRNlJPaC1fdHNpZEpxYUc0V2haNHNmQWsyaDIzcE5JMXJESnVTbjRUS19wMl9SVndqV3JBS3pJU1FDczZCUG56cDZ2bl8xMDh1aUE?oc=5",
+      "title": "GPT-5.4, Qwen3.7 Max and DeepSeek V3 Picked Copycat MCP Server Tool Over Real One in All 50 Trials",
+      "publishedAt": "2026-11-18T08:19:45Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Tech Times",
+      "method": "auto",
+      "alias": "gpt-5.4",
+      "firstSeenAt": "2026-11-18T17:17:26Z",
+      "firstSeenIn": "63ad42c"
     },
     {
       "modelId": "openai.gpt-5-5",
@@ -6255,6 +6330,21 @@
       "alias": "gpt-6 astra",
       "firstSeenAt": "2026-11-15T22:50:25Z",
       "firstSeenIn": "3a3fbda"
+    },
+    {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "nvfq8cavk5",
+      "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "title": "Advancing chip design with OpenAI models",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "dateOnly": true,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-11-18T17:17:26Z",
+      "firstSeenIn": "63ad42c"
     },
     {
       "modelId": "openai.gpt-6-cyber",
