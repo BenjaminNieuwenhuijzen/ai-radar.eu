@@ -887,6 +887,21 @@
       "firstSeenIn": "b1e17d5"
     },
     {
+      "modelId": "anthropic.claude-opus-5-5",
+      "variantId": null,
+      "postId": "11kv750lzn9",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WcV9VWlhxdW1sRW9ZSHR3c2FmemlHU3FYLU5lcXVaSkhfeThoUUI0LUJDcHg4akZHQUhLTldmMGY3WlExcjktSmJaNS1pQUZtZ0RHY0xySk9wUmVNNTIxajVWUm9rQXRtaWJMdTc0SFZnWDA?oc=5",
+      "title": "GPT-6.2 Sol Pro vs Claude Opus 5.5: 2 Points, 10x Bill",
+      "publishedAt": "2026-11-17T19:55:38Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude opus 5.5",
+      "firstSeenAt": "2026-11-18T07:30:44Z",
+      "firstSeenIn": "20338a3"
+    },
+    {
       "modelId": "anthropic.claude-sonnet-4-6",
       "variantId": null,
       "postId": "1vrjdhknhjd",
@@ -1050,6 +1065,21 @@
       "alias": "deepseek v3",
       "firstSeenAt": "2026-11-14T20:45:23Z",
       "firstSeenIn": "2b09cec"
+    },
+    {
+      "modelId": "deepseek.deepseek-v3",
+      "variantId": null,
+      "postId": "1sspwoo8kuk",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUS1oa25kdERDNUVjb0tGck44SnNhZGM5eTlmOV9tbmRyRk4yLTZHQ1RlVk9raDJsS1ZsZkNRLVY0RXJGMDA4Ni1iVGRlVi1nN0xyZ3JmYjBJRTJFMmFkbHA0RzJIQVlPeGNMLWp6Rm02QkNGUjhoaG9ZV2hTXzhWTzVQSFN4NS1YTmxVOXdDNnNkdzItbnZQenFIZktBNHV0SEh6MFpOSWtfN1lmbVZoLW85Q2w4ZlBuSG8ydE0tbTFxcWVMOWtaMlZDT2o?oc=5",
+      "title": "CoreWeave Reports 2.7x Speedup with Vera Rubin Over GB200 on MLPerf DeepSeek-V3 Benchmark",
+      "publishedAt": "2026-11-18T06:33:45Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "HPCwire",
+      "method": "auto",
+      "alias": "deepseek-v3",
+      "firstSeenAt": "2026-11-18T07:30:44Z",
+      "firstSeenIn": "20338a3"
     },
     {
       "modelId": "deepseek.deepseek-v4-1-flash",
@@ -1845,6 +1875,21 @@
       "alias": "deepseek v4.1 flash",
       "firstSeenAt": "2026-11-16T18:34:33Z",
       "firstSeenIn": "c4b82d5"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "175jvm5w2ka",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQQ3hDQWF3RlFOalIxZFB2N2l4ZEs4bkMzeEtJTEFxbkFpSmhSdDlxRzQ2QkxUQTFFekE2MTNvaGtxd2NlQWkwV292RzUyUFcyRmhyYUpzRGlKS1FieEd1Rm1aR09sTnZidmEtWjdxdmNyZXc0Qi1ZOTk1eFRTTUloVDRoX2JTb1FSLWFISWM5cktDVVdrZEVMcFROaGZiUmU1ekFneV9Sc1lyMGdUM1M2QUllNmJ1bDhacDZjczN6V21RM1BKWjdfeDhQLXhVQTlURE5OY09OZE5yM29aSXZZN1ZTbjVobW85N1NwUm9uRDdQZUZscEFuaE9fMTl5M01mSkxpTQ?oc=5",
+      "title": "Lebrel Brings Uncensored DeepSeek V4.1 Flash From $0.13 per Million Input Tokens, Adds Alibaba's Qwen4-Max on Day One",
+      "publishedAt": "2026-11-18T04:56:54Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "markets.businessinsider.com",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-18T07:30:44Z",
+      "firstSeenIn": "20338a3"
     },
     {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
@@ -5400,6 +5445,21 @@
       "alias": "gpt-6.2 sol",
       "firstSeenAt": "2026-11-17T22:25:55Z",
       "firstSeenIn": "b6039c6"
+    },
+    {
+      "modelId": "openai.gpt-6-2-sol",
+      "variantId": null,
+      "postId": "11kv750lzn9",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WcV9VWlhxdW1sRW9ZSHR3c2FmemlHU3FYLU5lcXVaSkhfeThoUUI0LUJDcHg4akZHQUhLTldmMGY3WlExcjktSmJaNS1pQUZtZ0RHY0xySk9wUmVNNTIxajVWUm9rQXRtaWJMdTc0SFZnWDA?oc=5",
+      "title": "GPT-6.2 Sol Pro vs Claude Opus 5.5: 2 Points, 10x Bill",
+      "publishedAt": "2026-11-17T19:55:38Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gpt-6.2 sol",
+      "firstSeenAt": "2026-11-18T07:30:44Z",
+      "firstSeenIn": "20338a3"
     },
     {
       "modelId": "openai.gpt-6-astra",
