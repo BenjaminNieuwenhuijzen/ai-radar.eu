@@ -2882,6 +2882,36 @@
       "firstSeenIn": "8857789"
     },
     {
+      "modelId": "google.gemini-4-neon",
+      "variantId": null,
+      "postId": "2aciehax3do",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "title": "Introducing Gemini 4 Neon",
+      "publishedAt": "2026-11-18T21:00:00Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "Gemini",
+      "method": "auto",
+      "alias": "gemini 4 neon",
+      "firstSeenAt": "2026-11-19T00:24:50Z",
+      "firstSeenIn": "d1103af"
+    },
+    {
+      "modelId": "google.gemini-4-neon",
+      "variantId": null,
+      "postId": "slthr82zs2",
+      "link": "https://deepmind.google/blog/introducing-gemini-4-neon/",
+      "title": "Introducing Gemini 4 Neon",
+      "publishedAt": "2026-11-18T21:35:43Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "DeepMind",
+      "method": "auto",
+      "alias": "gemini 4 neon",
+      "firstSeenAt": "2026-11-19T00:24:50Z",
+      "firstSeenIn": "d1103af"
+    },
+    {
       "modelId": "google.gemma-4",
       "variantId": "12b",
       "postId": "283qclyt6vr",
