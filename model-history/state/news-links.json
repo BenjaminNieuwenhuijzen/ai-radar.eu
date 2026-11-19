@@ -917,6 +917,21 @@
       "firstSeenIn": "63ad42c"
     },
     {
+      "modelId": "anthropic.claude-opus-5-5",
+      "variantId": null,
+      "postId": "1f3jhadkeav",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWWFHNkJ3Q1o2TGxmZ0xaaWJkUGhNQkRXckpPOXVDWXVYTnViUVZpaHVqNENmN2FSOXpSTDlpX2pDRGxxOTl4Y25vZ1FPOEJ5elJ4UmxLWW1PQlhYZC1yb2hTNHNJV0YwRUlQUU05WVJXbkJQU3lkN1oxU1hwb3BpeEYwbw?oc=5",
+      "title": "Claude Opus 5.5: Seven Weeks Running an AI Company",
+      "publishedAt": "2026-11-18T23:59:31Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude opus 5.5",
+      "firstSeenAt": "2026-11-19T00:24:50Z",
+      "firstSeenIn": "d1103af"
+    },
+    {
       "modelId": "anthropic.claude-sonnet-4-6",
       "variantId": null,
       "postId": "1vrjdhknhjd",
@@ -1909,6 +1924,21 @@
     {
       "modelId": "deepseek.deepseek-v4-1-flash",
       "variantId": null,
+      "postId": "417ehwp8x4",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxOQWZkbEZzQVpsOGNuanRCZm8xZEM3Z2pmVThLZ0ZncEl4M196WjJJWGNNR3VOOVhiUWxOWVIzeV9WM3dDQndxSUUtM0FjY3ZEbXhWR3Y2N0ZxWk5kWEU1WDNmdzJ4XzVTRUtnNm5HczgzTEgzQXZhQlRQSDlrbDFiVGhTRl9lOXkyd195VDBHeW5kR1N0ZW1SaEstNFo0ai1neERNdUh5ZWlHUHNYV3ktenp4UDJHOWFmYTNGVzhUVmJ4d2l4eHRkYkNjSjdSNUU1dnNJTFU0Z2VRVlNfdWJOZ3BqN3hpY1cxVHBBU3FteFY2ZV80RzNVSDh0TS1IVmViSnNjVWpIc3pmaGxRTk9WMzgwc1UzZw?oc=5",
+      "title": "Lebrel Brings Uncensored DeepSeek V4.1 Flash From $0.13 per",
+      "publishedAt": "2026-11-18T04:25:00Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "GlobeNewswire",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-19T00:24:50Z",
+      "firstSeenIn": "d1103af"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
       "postId": "1eansqv0iye",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU3g3cG55S3FkUzdadl9CODI5V2ZMRkVPbWEtSHBMUTR5Z2dQcjk3RThjTmFLOFU1cDlWb2tWNDl5S1hKUVYxU1ZXMTE1WU1aN29QZEgzMkJoSm1jZG1zbWNTdlc3ZHBrT1lsV2hlUjBSYkhuMmc4S1ZTR3I0a0lGQld4cURSNEVnT0cxMWwweS1IWDA0azBSVVBDWFBhRGZvQS1JNkFaTDE4eXRSMWdfZHVHUlBxSVU?oc=5",
       "title": "Lebrel Brings Uncensored DeepSeek V4.1 Flash From $0.13 per Million Input Tokens, Adds Alibaba's Qwen4-Max on Day One",
@@ -2055,6 +2085,21 @@
       "alias": "gemini 3.6 flash",
       "firstSeenAt": "2026-10-05T05:42:45Z",
       "firstSeenIn": "dcab53f"
+    },
+    {
+      "modelId": "google.gemini-3-6-flash",
+      "variantId": null,
+      "postId": "s0kmsx8y4j",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81YVZHUFhJbXhaTjdKektFYnZwNk9JOFJCZ3hnOXRPa21kNzE3M2txbG5XM1dnVlZFakhxQ2I3Z1lsckRrM1dYT3BNU1hNbFNaNjlHTEdYbHVJcWpmWnBQS2ZZX0J4SUpSQlJhUG9seTVXc3psSXZ1TQ?oc=5",
+      "title": "MiniMax M3.1 Flash vs Gemini 3.6 Flash: 8x the Output",
+      "publishedAt": "2026-11-18T16:57:26Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 3.6 flash",
+      "firstSeenAt": "2026-11-19T00:24:50Z",
+      "firstSeenIn": "d1103af"
     },
     {
       "modelId": "google.gemini-3-7-flash",
@@ -2715,6 +2760,21 @@
       "alias": "gemini 4 carbon",
       "firstSeenAt": "2026-11-17T22:25:55Z",
       "firstSeenIn": "b6039c6"
+    },
+    {
+      "modelId": "google.gemini-4-carbon",
+      "variantId": null,
+      "postId": "c9ic32znos",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44U3RISkdkSmhkNnJLcHdRS2xNQmJ0a0VnNzYwTHNSaWtyVU5qbWxpMDA5eUU2YmZtSFBuOVlxTjhrM09YR2lMM0I2a0F4NEQxS1ItN2pKLVVkRnVxcXhVSTJNUHhSZG1SaElBTg?oc=5",
+      "title": "MAI Code 2 vs Gemini 4 Carbon: One Discount Expires First",
+      "publishedAt": "2026-11-18T12:01:14Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 4 carbon",
+      "firstSeenAt": "2026-11-19T00:24:50Z",
+      "firstSeenIn": "d1103af"
     },
     {
       "modelId": "google.gemini-4-hydrogen",
@@ -4982,6 +5042,21 @@
       "firstSeenIn": "63ad42c"
     },
     {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "1mpds7d4uhl",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Fb1FQYVRHcmxhTnZmZ0REaTJvQ0k0em56MmdzQ29DTWdldDYtQmJKUTQxdXF5Qko4TEt6VjZYc25pUW1FSy1jVnc0ZnczQjREZEVGMVktbkVrakgwTUpkMlgtT3BtbHR6NEE?oc=5",
+      "title": "MAI Code 2 vs Kimi K3.1 Pro: Price vs a Real Score",
+      "publishedAt": "2026-11-18T19:59:53Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-19T00:24:50Z",
+      "firstSeenIn": "d1103af"
+    },
+    {
       "modelId": "nvidia.nemotron-3-5-lightning",
       "variantId": null,
       "postId": "llxbmn8ygy",
@@ -5535,6 +5610,21 @@
       "alias": "gpt-6.2 sol",
       "firstSeenAt": "2026-11-18T07:30:44Z",
       "firstSeenIn": "20338a3"
+    },
+    {
+      "modelId": "openai.gpt-6-2-sol",
+      "variantId": null,
+      "postId": "7rp3qajlv5",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDWXU0cVQ5cVdGY3c1dm9SUlVxaEtISnFRbGp1bzJLc2lqb240UkFFT2FqZnctN0lianBNcVNHOUdyM21aUEJwdXlDYlpkd1JqX2lRRzVGWWVqRG1oVGgxNVZqamRkUm95bmR0d19SeTRuZG9IVk1YTkhn?oc=5",
+      "title": "GPT-6.2 Sol Ultrafast, Measured: 126 Tokens a Second and No Sign of the 4.5×",
+      "publishedAt": "2026-11-18T16:42:52Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gpt-6.2 sol",
+      "firstSeenAt": "2026-11-19T00:24:50Z",
+      "firstSeenIn": "d1103af"
     },
     {
       "modelId": "openai.gpt-6-astra",
