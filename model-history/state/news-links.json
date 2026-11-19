@@ -3004,6 +3004,21 @@
     {
       "modelId": "google.gemini-4-neon",
       "variantId": null,
+      "postId": "2ynzmzuw91",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BUk5weE5yN3NuRjNmYVc4VUxuRnMweGRNcW1sdDJYLXBrUkpYa0YwMGhVdmVCNlFtN0Q4U0VzbTM2bHNvRUtVSGlhRVQwcE5LYkRmQVFqUXBBZTE0UHMwTXE3ZTZsMEpFNmc?oc=5",
+      "title": "Gemini 4 Neon Lands at $3/$15, Pricier Than Carbon Today",
+      "publishedAt": "2026-11-19T00:45:26Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 4 neon",
+      "firstSeenAt": "2026-11-19T20:38:55Z",
+      "firstSeenIn": "7e4f0a1"
+    },
+    {
+      "modelId": "google.gemini-4-neon",
+      "variantId": null,
       "postId": "6ftow0amn8",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wX2VZckF1RUoxRl9OWlcyUGpJN2pGODVYRFNvbk11OFlVVkM0VU15U1c1R0dfWFZHdS1Bc0YwYVYzOXJXbFhveDR6NzdyLWZrRzE2eFcxcWhVdE5fTWpyOEZoQUVETHBmWWhrdnZ5UlA?oc=5",
       "title": "Gemini 4 Neon vs Gemini 4 Carbon: Cost per Token vs Task",
@@ -3015,6 +3030,21 @@
       "alias": "gemini 4 neon",
       "firstSeenAt": "2026-11-19T10:23:49Z",
       "firstSeenIn": "c6c69ce"
+    },
+    {
+      "modelId": "google.gemini-4-neon",
+      "variantId": null,
+      "postId": "vjwdjtp1yc",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xdnJlMHJ3bjAtWmhwQUNBaGZ1SGxYY1kzYzZqOTM4WEFzU3hyNzNKR0d1OU5IVkptTHlFM0xwYjRzRWJMeWFKOHlLQ1ZNcm1nWjc1c3IxcHdGZk5WWEVVOWtseDN1MlNZUjVkZXEyM1hzdw?oc=5",
+      "title": "Gemini 4 Neon: What 'Adapted From Carbon' Leaves Undefined",
+      "publishedAt": "2026-11-19T17:13:01Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 4 neon",
+      "firstSeenAt": "2026-11-19T20:38:55Z",
+      "firstSeenIn": "7e4f0a1"
     },
     {
       "modelId": "google.gemma-4",
