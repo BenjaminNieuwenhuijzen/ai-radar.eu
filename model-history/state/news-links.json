@@ -844,6 +844,21 @@
     {
       "modelId": "anthropic.claude-opus-5-5",
       "variantId": null,
+      "postId": "3yzz6lpsj6",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12anZVdFdiUWVsYUZzcVZGaW1XcE9QMC1OcmQ4U2diQUttb3dtS1c3WlBDYjZwX1V5VnN1QnBrZFBvUGRWWS1KTTZkVTEzdkVkZHlUQV9uWmVpTmE1VEVtNzZnM05wdTlFbVdmYkln?oc=5",
+      "title": "Qwen4-Max Benchmarks vs Opus 5.5, GPT-6.1 and Kimi K3.1",
+      "publishedAt": "2026-11-15T16:00:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "GitHub",
+      "method": "auto",
+      "alias": "opus 5.5",
+      "firstSeenAt": "2026-11-20T03:16:59Z",
+      "firstSeenIn": "8692fed"
+    },
+    {
+      "modelId": "anthropic.claude-opus-5-5",
+      "variantId": null,
       "postId": "kod477f4sm",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNmgzUWlEaWRINjNmWmJPa0JKWUFzWllxOFJTV204RUpvOTNBMkwzS3VlYW54akNCUk1ZbW41bzFhLS14djRDU0pZcWpnemIwUDhxdlFINEhZcFlQNjdPRExELXpLSnRiUmo4YU40cXRYaG1yWHpTNGduNXlyUG8ydmxVLVRaRHN3NkhYSkJYOFBpM2Z0aEZjZ0FGZHBabVFjNUpQdjZUWHhrQQ?oc=5",
       "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
