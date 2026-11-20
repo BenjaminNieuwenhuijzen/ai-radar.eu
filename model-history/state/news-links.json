@@ -2057,6 +2057,21 @@
       "firstSeenIn": "20338a3"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1v3vawsqglk",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeWpwS1ZudW0zMUNyNWVGcTQzbm1YSEozTnhnYl8zRDQxcDRDOWM3dVlYd2d1NTNVcjBBcUR3QmFXa0g4ejk1X25hWmtmWnpfRzhKanRXdV9rNHVXamp2bWdXUEdqVGhjRmxuUmdlNkV1MUd0WC1rYlVWMkd4UWIwb25mSFEzWjBv?oc=5",
+      "title": "Lawyer’s $9,450 server runs all DeepSeek V4.1 Flash experts on 12 used Nvidia V100s",
+      "publishedAt": "2026-11-20T12:40:22Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Mezha.net",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-20T12:55:11Z",
+      "firstSeenIn": "e1b03d6"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
