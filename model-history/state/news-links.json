@@ -2059,6 +2059,36 @@
     {
       "modelId": "deepseek.deepseek-v4-1-flash",
       "variantId": null,
+      "postId": "26ko88f7yf2",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCaVdRLUpKZjRqY09hQ0Rkd1dMam1ISGJkWWN4MjlFY3FGMGcybzZoUUZRSHhORVp0Q2o5bFQ3T1pSLWNOSHdRYU1zR2VNREpKanZSU0hCSzF5NnVoMXpnSWdiNGM?oc=5",
+      "title": "Optimizing DeepSeek-V4.1-Flash PD & Colocate Serving on H20-3e",
+      "publishedAt": "2026-11-19T22:14:30Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "LMSYS Org",
+      "method": "auto",
+      "alias": "deepseek-v4.1-flash",
+      "firstSeenAt": "2026-11-20T21:50:57Z",
+      "firstSeenIn": "58b07c6"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1kgyjmcppun",
+      "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxPRGRRRi1qSEtZVUk3TjFzdFhwUWhHZVVZWEUwbjcwa0RzeEFYLTJaOUUzS2RxSUJNdmdpcG5QenhZcnNuRFh3RDI1cEl5dHBOZDZDSjVrVF9hMGhEaU9uOG9WNVNiQUpCLUNkWXEyX0hqdk5ERkIxMFIzRm1BUEg3eFB4bUFocEJycTNYaENSVWFHZFp4LTlzaWdGTHFaZkhXNjBIV0dmWWdoZkE5U2tpdFN3ejFfcUdDdXVUMEZiT01MbzFEdWpjdjdzSk5BcGo3aE5xYjQ0eGpEVGVvd1ppT182ZGx4N1lLNXRBekl0V29Yd3lfNlhIM3BrcVhMRGlVd2dRMjY4ZTNvTmxnRVNTSlk3bWFFbWVrOVN2ZzJTQUExblFwUW5YZjRRa01XWURRU3YtZGVpNlNGTXR4RC10VkI1ZDBTdDY1QXZOLTFzSUtBTXNUR0VoSG9teXIyYm9Edk5SWVE2OWM4Zk5rUXRWMXQtbHNlaWpITklRYjROVDRJZmhBU1ByY3VyOXU?oc=5",
+      "title": "Lawyer’s $9,450 private AI server of 12 used Nvidia V100s now runs every DeepSeek V4.1 Flash expert at 4-bit NVFP4 — up to 184 tokens per second on code, and long documents start answering in about half the time",
+      "publishedAt": "2026-11-20T12:30:00Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Tom's Hardware",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-20T21:50:57Z",
+      "firstSeenIn": "58b07c6"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
       "postId": "1v3vawsqglk",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeWpwS1ZudW0zMUNyNWVGcTQzbm1YSEozTnhnYl8zRDQxcDRDOWM3dVlYd2d1NTNVcjBBcUR3QmFXa0g4ejk1X25hWmtmWnpfRzhKanRXdV9rNHVXamp2bWdXUEdqVGhjRmxuUmdlNkV1MUd0WC1rYlVWMkd4UWIwb25mSFEzWjBv?oc=5",
       "title": "Lawyer’s $9,450 server runs all DeepSeek V4.1 Flash experts on 12 used Nvidia V100s",
@@ -5252,6 +5282,21 @@
       "firstSeenIn": "d1103af"
     },
     {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "1rjqvknqup9",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE45NXBTaGFGOTdWM0ZSYlM1LVZhYWlSUnY2VThjOTRiWlJGQXhQTldOdW5HZ1JGdC1MLWZ0clBTclIwRGtXaDd6ZG5fVTdvdGRvb2plTEwtTkxSV21XczNoZzd2MWtEYlFkN2M0?oc=5",
+      "title": "Hy4 vs Kimi K3.1 Pro: Open Weights, One You Can Run",
+      "publishedAt": "2026-11-20T12:08:07Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-20T21:50:57Z",
+      "firstSeenIn": "58b07c6"
+    },
+    {
       "modelId": "nvidia.nemotron-3-5-lightning",
       "variantId": null,
       "postId": "llxbmn8ygy",
@@ -6660,6 +6705,21 @@
       "alias": "gpt-6 astra",
       "firstSeenAt": "2026-11-18T17:17:26Z",
       "firstSeenIn": "63ad42c"
+    },
+    {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "148wx0vq56q",
+      "link": "https://openai.com/business/customer-stories/hebbia",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "dateOnly": true,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-11-20T21:50:57Z",
+      "firstSeenIn": "58b07c6"
     },
     {
       "modelId": "openai.gpt-6-cyber",
