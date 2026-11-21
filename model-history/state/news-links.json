@@ -3797,6 +3797,36 @@
       "firstSeenIn": "b6039c6"
     },
     {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "13ji3ab9ru",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPVmlvUDFBUy1XbVF1YVRLdjNObTRlbTJGejEwRzBwSlJpRWo1cWk1ODBtSjNDeDR3a2NadUphUzljcGc0cTNlZy1CZ3pSenhvQ1ptR3hvN05zckdCOWYwQTRLa3VQUWN4SmFpTVRDS0ZsUFhvOUxXMERNMnJLdlJNZEM4Y1lOY2pDSlJha1JyYzhOVWE3VjhYcjk1OTlzbDJvdTNya2hmcnVIeVBmdHRwalVxSTRZOUtvRnhYMUpValhJTDhGaDFCV3FmNllRakQ5U1F4V3dKSTFqUGZzV1NNMFhFb3k2bnM?oc=5",
+      "title": "Two NVIDIA GeForce RTX 3090 GPUs and Intel Optane run 2.8-trillion-parameter Kimi K3 at 3.11 tokens/sec",
+      "publishedAt": "2026-11-19T16:40:06Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "TweakTown",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-21T20:33:13Z",
+      "firstSeenIn": "613eb5e"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "2c7fsikqjxd",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQmdsODQ1aEpxWkhMbk9ITXFxajBoOUhCOWlWNHJKR0VTbF9mXzlELWNMbFY0dThySzdWblpYRkpScE1HOGk2UFhFMy1GOVc4M0daS2RKanFxTXc5VVJSaGFKR1dPOUM0UE1uU254SFNTUVNHUVBkQTBoUzZ5LTQ2TTBwMTFuVjh3bnNQbFhaTkRsOHp3VHVPXy1wWVFOTlhJUGVIVUdSTTE4cDZPOGc?oc=5",
+      "title": "Homelab build runs Moonshot Kimi K3 at 3.11 tokens per second with two RTX 3090s",
+      "publishedAt": "2026-11-21T12:51:52Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "news.lavx.hu",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-21T20:33:13Z",
+      "firstSeenIn": "613eb5e"
+    },
+    {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
       "postId": "1xcjm3bhqws",
