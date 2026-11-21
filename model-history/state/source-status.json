@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T12:10:09Z",
+  "generated": "2026-11-21T11:45:29Z",
   "schemaVersion": 1,
   "sources": {
     "src.anthropic.100k-context-windows-announcement": {
@@ -8473,14 +8473,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-15T11:29:17Z",
-      "lastDefinitiveAt": "2026-11-15T11:29:17Z",
+      "lastCheckedAt": "2026-11-21T11:45:29Z",
+      "lastDefinitiveAt": "2026-11-21T11:45:29Z",
       "lastFingerprint": {
-        "bytes": 143294,
+        "bytes": 143661,
         "title": "Introducing Gemini 3.5 Flash Cyber — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-15T11:29:17Z",
+      "lastOkAt": "2026-11-21T11:45:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-28T10:00:21Z",
@@ -8558,7 +8558,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-15T11:29:17Z",
+      "lastCheckedAt": "2026-11-21T11:45:29Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -8806,14 +8806,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-15T11:29:17Z",
-      "lastDefinitiveAt": "2026-11-15T11:29:17Z",
+      "lastCheckedAt": "2026-11-21T11:45:29Z",
+      "lastDefinitiveAt": "2026-11-21T11:45:29Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.8 Live & Gemini 3.8 Live Extended Thinking",
         "truncated": true
       },
-      "lastOkAt": "2026-11-15T11:29:17Z",
+      "lastOkAt": "2026-11-21T11:45:29Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-28T10:00:21Z",
@@ -14865,7 +14865,7 @@
         "url": "https://web.archive.org/web/20261009133329/https://microsoft.ai/pdf/MAI-Code-1-Flash-Model-Card.PDF",
         "via": "wayback-availability-api"
       },
-      "consecutiveFailures": 3,
+      "consecutiveFailures": 4,
       "finalUrl": null,
       "firstCheckedAt": "2026-10-06T10:46:31Z",
       "firstFailureAt": "2026-11-12T11:50:22Z",
@@ -14875,8 +14875,8 @@
         "truncated": false
       },
       "httpStatus": 404,
-      "lastCheckedAt": "2026-11-18T12:14:13Z",
-      "lastDefinitiveAt": "2026-11-18T12:14:13Z",
+      "lastCheckedAt": "2026-11-21T11:45:29Z",
+      "lastDefinitiveAt": "2026-11-21T11:45:29Z",
       "lastFingerprint": {
         "bytes": 146,
         "title": "404 Not Found",
@@ -14884,8 +14884,8 @@
       },
       "lastOkAt": "2026-11-06T11:28:51Z",
       "lastResult": "gone",
-      "state": "active",
-      "stateSince": "2026-10-06T10:46:31Z",
+      "state": "unavailable",
+      "stateSince": "2026-11-21T11:45:29Z",
       "url": "https://microsoft.ai/pdf/MAI-Code-1-Flash-Model-Card.PDF"
     },
     "src.microsoft.mai-code-model-page": {
