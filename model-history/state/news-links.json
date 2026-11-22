@@ -2117,6 +2117,21 @@
       "firstSeenIn": "e1b03d6"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "2cd7lexzgvw",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNmhfSGp2M0hYSmxjSjY0R1JwcHNQc1A2YzU1VnptOEotdFl3azZJRlJuWWNubjdta2NnbzdoaEZzYnMybGxBNHZKQ09hVmliZVBTalVTVF93OHhFdGU0NEVoWW95c0N0TjBmdWx0U1VTTGF5VUJ2UGxmX0ZPUlljX3NR?oc=5",
+      "title": "LingSante-3.1-flash vs DeepSeek V4.1 Flash: Who Wins?",
+      "publishedAt": "2026-11-22T19:11:34Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-22T23:37:53Z",
+      "firstSeenIn": "9cc8f77"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
