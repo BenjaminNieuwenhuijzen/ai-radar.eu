@@ -3842,6 +3842,21 @@
       "firstSeenIn": "613eb5e"
     },
     {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "1155n8fbxoz",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdXo3a3dKRVlneExCMzAwZ2JDSHlPUDVHelZrUTJfeXctcVI5ckRYRE8zWlRXR21ydldteWNIYVBRRzZ3YUc4dWplWWtqTFdpS3F6NnFLWTJ1ZlIzelVzNGtERHdsV2k3U2FMWGE5a0lnbms0S251MXZxTUNzX1c0eXlDWlJQZ3k3ZzB1UE5UMlo3Q0pKWC00NWZ0VnBjUmpnRTNid0FGVjlycWNFeHYwbmNHUUhKZEctOXpCX25GT0tYSWR2Q1dJUmlvNA?oc=5",
+      "title": "Two RTX 3090s and a RAM Drive Push a 2.8-Trillion-Parameter Kimi K3 to 3.11 Tokens per Second on Optane",
+      "publishedAt": "2026-11-22T10:09:45Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Hardware Busters",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-22T17:51:21Z",
+      "firstSeenIn": "49e8089"
+    },
+    {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
       "postId": "1xcjm3bhqws",
