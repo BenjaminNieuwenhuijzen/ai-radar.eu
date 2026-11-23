@@ -3182,6 +3182,21 @@
       "firstSeenIn": "dcab53f"
     },
     {
+      "modelId": "google.gemma-4",
+      "variantId": null,
+      "postId": "261ppoj1ufy",
+      "link": "https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models/",
+      "title": "Data + AI Anywhere: AlloyDB Omni integration with local models",
+      "publishedAt": "2026-11-23T17:00:00Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "Cloud AI",
+      "method": "auto",
+      "alias": "gemma 4",
+      "firstSeenAt": "2026-11-23T20:15:03Z",
+      "firstSeenIn": "ba64ae9"
+    },
+    {
       "modelId": "meta.muse-glimmer",
       "variantId": null,
       "postId": "1373d5qh329",
@@ -3630,6 +3645,21 @@
       "alias": "kimi k3",
       "firstSeenAt": "2026-11-09T20:45:49Z",
       "firstSeenIn": "f663a69"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "1xl5qfktnrt",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcVV2NHktZTJRaGx4MDdTTElOeFJ2clpfay1zb1B6Nlp2cUFPVmI3WUVQQ1JMSlZ5N0QwYnN6eTdteV9tR0JOVTRTVm52MWhBTmc1YVc3UzJvNFB1dERxM014TTg0SGQxSGVhckZ1NUxkRHYwTDFoXzBlLUQ4U3BJb3B1QXBFaHNreVkyMmJ5Y3piYzA?oc=5",
+      "title": "China’s Kimi K3 Broke Out of Its Sandbox to Look Up Test Answers",
+      "publishedAt": "2026-08-07T07:00:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Decrypt",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-23T20:15:03Z",
+      "firstSeenIn": "ba64ae9"
     },
     {
       "modelId": "moonshot.kimi-k3",
@@ -6915,6 +6945,36 @@
       "alias": "gpt-6 cyber",
       "firstSeenAt": "2026-11-13T17:46:35Z",
       "firstSeenIn": "e3d8890"
+    },
+    {
+      "modelId": "openai.gpt-6-cyber",
+      "variantId": null,
+      "postId": "1xwbih0h6sl",
+      "link": "https://www.youtube.com/watch?v=MpsO8Ds8uyo",
+      "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+      "publishedAt": "2026-11-23T20:02:15Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "YouTube",
+      "method": "auto",
+      "alias": "gpt-6 cyber",
+      "firstSeenAt": "2026-11-23T20:15:03Z",
+      "firstSeenIn": "ba64ae9"
+    },
+    {
+      "modelId": "openai.gpt-6-cyber",
+      "variantId": null,
+      "postId": "vspd7ov6t0",
+      "link": "https://www.youtube.com/shorts/w-ltt0Np2cY",
+      "title": "Investigating Linux Vulnerabilities with GPT-6 Cyber",
+      "publishedAt": "2026-11-23T20:03:11Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "YouTube",
+      "method": "auto",
+      "alias": "gpt-6 cyber",
+      "firstSeenAt": "2026-11-23T20:15:03Z",
+      "firstSeenIn": "ba64ae9"
     },
     {
       "modelId": "openai.gpt-6-luna",
