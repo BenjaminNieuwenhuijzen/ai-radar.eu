@@ -2089,6 +2089,21 @@
     {
       "modelId": "deepseek.deepseek-v4-1-flash",
       "variantId": null,
+      "postId": "2cxy0gt5fl1",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3bmJMYlpqRHllUXN3S2JMT2xCT0tHTzNqRnB6cnd3QXVldlMxN3Ztc0VraWo0VFY4SnRnaUxPS21pdEpVNG9HN2dheU9zbkNwZ204MlVzQWUzaDFEbDhIMGxIc1d6QQ?oc=5",
+      "title": "Optimizing DeepSeek-V4.1-Flash PD & Colocate Serving on H20-3e",
+      "publishedAt": "2026-11-19T22:14:30Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "LMSYS Org",
+      "method": "auto",
+      "alias": "deepseek-v4.1-flash",
+      "firstSeenAt": "2026-11-23T07:40:28Z",
+      "firstSeenIn": "eaad6fa"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
       "postId": "1kgyjmcppun",
       "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxPRGRRRi1qSEtZVUk3TjFzdFhwUWhHZVVZWEUwbjcwa0RzeEFYLTJaOUUzS2RxSUJNdmdpcG5QenhZcnNuRFh3RDI1cEl5dHBOZDZDSjVrVF9hMGhEaU9uOG9WNVNiQUpCLUNkWXEyX0hqdk5ERkIxMFIzRm1BUEg3eFB4bUFocEJycTNYaENSVWFHZFp4LTlzaWdGTHFaZkhXNjBIV0dmWWdoZkE5U2tpdFN3ejFfcUdDdXVUMEZiT01MbzFEdWpjdjdzSk5BcGo3aE5xYjQ0eGpEVGVvd1ppT182ZGx4N1lLNXRBekl0V29Yd3lfNlhIM3BrcVhMRGlVd2dRMjY4ZTNvTmxnRVNTSlk3bWFFbWVrOVN2ZzJTQUExblFwUW5YZjRRa01XWURRU3YtZGVpNlNGTXR4RC10VkI1ZDBTdDY1QXZOLTFzSUtBTXNUR0VoSG9teXIyYm9Edk5SWVE2OWM4Zk5rUXRWMXQtbHNlaWpITklRYjROVDRJZmhBU1ByY3VyOXU?oc=5",
       "title": "Lawyer’s $9,450 private AI server of 12 used Nvidia V100s now runs every DeepSeek V4.1 Flash expert at 4-bit NVFP4 — up to 184 tokens per second on code, and long documents start answering in about half the time",
@@ -2130,6 +2145,21 @@
       "alias": "deepseek v4.1 flash",
       "firstSeenAt": "2026-11-22T23:37:53Z",
       "firstSeenIn": "9cc8f77"
+    },
+    {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "buahbb50xi",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRWR1bjNFZUR3cmRhRldGYi01RjRHSUIxbXBzTVVWMnJOMDVBTGhXREhTWG1DMFVKd1hPcXZQamVTWGJQLXc3WkFFVFYxdDVRVVl2elFRWE1SczBhQ0tNWnV5dW1qMkVCc0U4UWNvcE9PczNsaWxDMnE1djRybDZTdTNvQjRuQQ?oc=5",
+      "title": "LingSante-3.1-flash vs DeepSeek V4.1 Flash: Who Wins?",
+      "publishedAt": "2026-11-22T19:11:34Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-23T07:40:28Z",
+      "firstSeenIn": "eaad6fa"
     },
     {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
@@ -5385,6 +5415,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-20T21:50:57Z",
       "firstSeenIn": "58b07c6"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "2bd6jz6o3us",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA4Sm5tbzBEUlM3d3V2ZkFEYkpUbHlOWkZzc2IxTWJnMXRURm1OeE05NUN1b2VmbVBaSFhjOV90WmNLNjg0d3MtOVp5OFpIckRucTFKcFpmYkVMME9DWjJiWnQwSnpaZw?oc=5",
+      "title": "GLM-5.4 vs Kimi K3.1 Pro: Open Weights vs a Paid Seat",
+      "publishedAt": "2026-11-23T07:01:58Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-23T07:40:28Z",
+      "firstSeenIn": "eaad6fa"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
