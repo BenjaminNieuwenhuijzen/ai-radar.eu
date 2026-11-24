@@ -3182,6 +3182,21 @@
       "firstSeenIn": "7e4f0a1"
     },
     {
+      "modelId": "google.gemini-4-neon",
+      "variantId": null,
+      "postId": "1neuhu81w4u",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-neon-builders/",
+      "title": "See what 5 builders are making with Gemini 4 Neon",
+      "publishedAt": "2026-11-24T16:00:00Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "Gemini",
+      "method": "auto",
+      "alias": "gemini 4 neon",
+      "firstSeenAt": "2026-11-24T17:46:30Z",
+      "firstSeenIn": "246e1e2"
+    },
+    {
       "modelId": "google.gemma-4",
       "variantId": "12b",
       "postId": "283qclyt6vr",
