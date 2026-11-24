@@ -5209,6 +5209,21 @@
     {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
+      "postId": "1dsn0vmo5ym",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBRLUp5c2ExSVFlYTBRWHBLTmY3Zllici1TclVZdEZHU1ljRjM2MFFiWlphSkdidWx3Z0NBcnRQUFVaZw?oc=5",
+      "title": "Kimi K3.1-Pro goes open-weights",
+      "publishedAt": "2026-11-07T08:00:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Digg",
+      "method": "auto",
+      "alias": "kimi k3.1-pro",
+      "firstSeenAt": "2026-11-24T04:49:48Z",
+      "firstSeenIn": "4170671"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
       "postId": "12oqvatd246",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTS1oQ3R3c2pRRUNhc3pTWmtRWkJueEtPVVZEa3RrUENjY0ZOTGE2SmVOZEN1YWtlWWlwUWJuR19fdTc1LUxMRjZRcFYwQ0MwdjdHSW5fTDdGU0RzYW11R0lVREtfVklaa1JZdEhnTkk2bEZPRXNoLThtdzRDanFHdkdrZEZqNWYwNTdXMA?oc=5",
       "title": "Huawei Ascend Adapts Kimi K3.1 Pro for LoRA Fine-Tuning on a 128-Card Atlas 950 SuperPoD",
