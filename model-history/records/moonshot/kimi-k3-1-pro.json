@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "moonshot.kimi-k3-1-pro",
   "coverage": "full",
-  "lastReviewedAt": "2026-10-27",
+  "lastReviewedAt": "2026-11-24",
   "slug": "kimi-k3-1-pro",
   "name": "Kimi K3.1 Pro",
   "aliases": [
@@ -40,6 +40,14 @@
     },
     {
       "text": "kimi k3.1 pro deployed",
+      "match": "never"
+    },
+    {
+      "text": "kimi k3.1 pro across",
+      "match": "never"
+    },
+    {
+      "text": "kimi k3.1 pro goes",
       "match": "never"
     }
   ],

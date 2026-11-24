@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "moonshot.kimi-k3",
   "coverage": "full",
-  "lastReviewedAt": "2026-10-27",
+  "lastReviewedAt": "2026-11-24",
   "slug": "kimi-k3",
   "name": "Kimi K3",
   "aliases": [
@@ -17,6 +17,10 @@
     {
       "text": "kimi-k3",
       "match": "auto"
+    },
+    {
+      "text": "kimi k3 platform",
+      "match": "never"
     }
   ],
   "organizations": [
