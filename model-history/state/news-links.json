@@ -3092,6 +3092,21 @@
       "firstSeenIn": "8857789"
     },
     {
+      "modelId": "google.gemini-4-hydrogen",
+      "variantId": null,
+      "postId": "1g2shc8i3js",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-hydrogen-builders/",
+      "title": "See what 6 builders are making with Gemini 4 Hydrogen",
+      "publishedAt": "2026-11-23T18:00:00Z",
+      "dateOnly": false,
+      "company": "Google (AI & DeepMind)",
+      "source": "Gemini",
+      "method": "auto",
+      "alias": "gemini 4 hydrogen",
+      "firstSeenAt": "2026-11-24T04:49:48Z",
+      "firstSeenIn": "4170671"
+    },
+    {
       "modelId": "google.gemini-4-neon",
       "variantId": null,
       "postId": "2aciehax3do",
@@ -3870,6 +3885,21 @@
       "alias": "kimi-k3",
       "firstSeenAt": "2026-11-14T20:45:23Z",
       "firstSeenIn": "2b09cec"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
+      "postId": "23u0l8vun8h",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcVkwQVNPRlVoVHdDZXFSZG4yUXM4aHM3RmlKNF8yWnhDbXBMZS14WUlzZnNvYjNaMGh4em1Kb1NRdG1RSHdpa0daQnpwTmxpMHdxTzNNQzRNYTUtd0h3b0c2dXNpTnlRVnBndUtxSGFrVWowOG5NVlFPTUhGUGFfckZ5dTV1YnFrSnlVZURORGR0NGtPNldBVUVxUG04X0lBVTJ1ZDd3?oc=5",
+      "title": "Misalignment signals in Kimi K3: What probes flag and where they peak",
+      "publishedAt": "2026-11-16T16:58:33Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Microsoft",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-24T04:49:48Z",
+      "firstSeenIn": "4170671"
     },
     {
       "modelId": "moonshot.kimi-k3",
@@ -5462,6 +5492,21 @@
       "firstSeenIn": "eaad6fa"
     },
     {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "1pdlf9w73pk",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ZTThna1RsX05Qal9EZkx3eG90YTU3MVFtT3RLZ1F4dDFLRVNiQU5ra3ZvY0JlWGpkOThmbDVPR2VVQzJNQWhOVWxsc2tuTlRFXzdvdlhVYTNJTFd2QUV6M3E0SDdENlRXQ1lRa1I5SG1Qd0ZrNXc?oc=5",
+      "title": "China's Moonshot AI \"Kimi K3.1 Pro\" Closes In on US Frontier Models: Real-World Testing Reveals Its Strengths and Adoption Barriers",
+      "publishedAt": "2026-11-24T00:55:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "BigGo Finance",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-24T04:49:48Z",
+      "firstSeenIn": "4170671"
+    },
+    {
       "modelId": "nvidia.nemotron-3-5-lightning",
       "variantId": null,
       "postId": "llxbmn8ygy",
@@ -5835,6 +5880,21 @@
       "alias": "gpt-6.1 sol",
       "firstSeenAt": "2026-11-16T18:34:33Z",
       "firstSeenIn": "c4b82d5"
+    },
+    {
+      "modelId": "openai.gpt-6-1-sol",
+      "variantId": null,
+      "postId": "1wbavj0l3gd",
+      "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "publishedAt": "2026-11-23T08:00:00Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6.1 sol",
+      "firstSeenAt": "2026-11-24T04:49:48Z",
+      "firstSeenIn": "4170671"
     },
     {
       "modelId": "openai.gpt-6-1-terra",
@@ -6887,6 +6947,21 @@
       "firstSeenIn": "58b07c6"
     },
     {
+      "modelId": "openai.gpt-6-astra",
+      "variantId": null,
+      "postId": "1wbavj0l3gd",
+      "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "publishedAt": "2026-11-23T08:00:00Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6 astra",
+      "firstSeenAt": "2026-11-24T04:49:48Z",
+      "firstSeenIn": "4170671"
+    },
+    {
       "modelId": "openai.gpt-6-cyber",
       "variantId": null,
       "postId": "2c2498s2yid",
@@ -7020,6 +7095,21 @@
       "alias": "gpt-6 luna",
       "firstSeenAt": "2026-11-06T06:47:43Z",
       "firstSeenIn": "581b99f"
+    },
+    {
+      "modelId": "openai.gpt-6-luna",
+      "variantId": null,
+      "postId": "1wbavj0l3gd",
+      "link": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+      "title": "Richpanel helps companies automate 50% of support in 30 days",
+      "publishedAt": "2026-11-23T08:00:00Z",
+      "dateOnly": false,
+      "company": "OpenAI",
+      "source": "News",
+      "method": "auto",
+      "alias": "gpt-6 luna",
+      "firstSeenAt": "2026-11-24T04:49:48Z",
+      "firstSeenIn": "4170671"
     },
     {
       "modelId": "openai.gpt-6-sol",
