@@ -5224,6 +5224,21 @@
     {
       "modelId": "moonshot.kimi-k3-1-pro",
       "variantId": null,
+      "postId": "1gtjtxb2hiu",
+      "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE43Skd4YTREdEZoeXpRNmhUSl95a25tMUpWYThXSklyY2Y1LVpEcWNnN2JZTGJPSTRtM3VvbDNkMjBLQQ?oc=5",
+      "title": "Moonshot AI unveils Kimi K3.1 Pro, plans open weights by Nov. 4",
+      "publishedAt": "2026-11-07T05:11:06Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Digg",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-25T02:30:15Z",
+      "firstSeenIn": "9e3732c"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
       "postId": "1dsn0vmo5ym",
       "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBRLUp5c2ExSVFlYTBRWHBLTmY3Zllici1TclVZdEZHU1ljRjM2MFFiWlphSkdidWx3Z0NBcnRQUFVaZw?oc=5",
       "title": "Kimi K3.1-Pro goes open-weights",
@@ -5535,6 +5550,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-24T04:49:48Z",
       "firstSeenIn": "4170671"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "xxdl3263lp",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tcXRwcTVHdlJlX1dTZnJtdDZXbE9xZ3FDSGN3RU5TYkRiOTdSR0FNNjdDOHRQcml6NVVyN0N0REplY0RFWmd3a2pxcW5PN2JEWkRfU0FOaW13VDF1cGhST3VfZGlwQkdRQS1Z?oc=5",
+      "title": "Solar Pro 4 vs Kimi K3.1 Pro: 33 Points and an Eighth the Output Price",
+      "publishedAt": "2026-11-25T00:44:56Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-25T02:30:15Z",
+      "firstSeenIn": "9e3732c"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
