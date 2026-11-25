@@ -437,6 +437,21 @@
       "firstSeenIn": "1f20cfe"
     },
     {
+      "modelId": "anthropic.claude-mythos-5",
+      "variantId": null,
+      "postId": "2dnhsivljlx",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyeEgxRUhoSmtSNk51b194UU82RktXR2pzOWRFbmhRdTZEaUpENWtaWURwRnpPRFkxdnBkYndjZWhGSmtoMTh0QW9WZkN6V0RGNjVEYldMOUx0OWl3dEhlbWczNUsxVkhwM25SaVktRDM?oc=5",
+      "title": "Kimi K3.1 Pro vs Claude Mythos 5: Open Weights vs a Gated Model",
+      "publishedAt": "2026-11-25T04:42:32Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude mythos 5",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
+    },
+    {
       "modelId": "anthropic.claude-mythos-5-2",
       "variantId": null,
       "postId": "1cn5yzeii0d",
@@ -1095,6 +1110,21 @@
       "alias": "claude sonnet 5.5",
       "firstSeenAt": "2026-10-20T21:38:23Z",
       "firstSeenIn": "6e27569"
+    },
+    {
+      "modelId": "anthropic.claude-sonnet-5-5",
+      "variantId": null,
+      "postId": "3qx9gws2aq",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xVTVwaWZ4b2lhWXNaTzM1SDBEa2E3a2t2THJSR2EtVVBZTi1kenNZd0t4WDdhNDFiSV82enR3VGFhV1EtWldwOWJrVHhWRnJhLW1SblJtSEJMV21yWXJ5djlybTNobzVNVExxbmJ3cGRWSkU?oc=5",
+      "title": "Kimi K3.1 Pro vs Claude Sonnet 5.5: Cost per Task Gap",
+      "publishedAt": "2026-11-25T04:44:45Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "claude sonnet 5.5",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
     },
     {
       "modelId": "cohere.aya-expanse",
@@ -2837,6 +2867,21 @@
       "firstSeenIn": "c4b82d5"
     },
     {
+      "modelId": "google.gemini-4-argon",
+      "variantId": null,
+      "postId": "17qgmlzqqvk",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45Y29qeHJoUDlWY1c3SEtmQjNOeTlwX3RQYUptV1lkTVdIeDJ3bW5zOGppblg5ekNBQWJhTDBCVVdxU1lTdEhETlVBaGxhSDM0c21yczAxdzYyUjJOTXFxZFVLSndUX1hobkVJNl9nWQ?oc=5",
+      "title": "Kimi K3.1 Pro vs Gemini 4 Argon: Price Doubles Dec 1",
+      "publishedAt": "2026-11-25T04:47:05Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 4 argon",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
+    },
+    {
       "modelId": "google.gemini-4-carbon",
       "variantId": null,
       "postId": "1zaeilc1ozz",
@@ -2985,6 +3030,21 @@
       "alias": "gemini 4 carbon",
       "firstSeenAt": "2026-11-19T10:23:49Z",
       "firstSeenIn": "c6c69ce"
+    },
+    {
+      "modelId": "google.gemini-4-carbon",
+      "variantId": null,
+      "postId": "20uprgk4f1r",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YT3RRVVFvcEVBOTR6eHVfTzlwRVpnU1ZMcGV0eHlkSFNCUzBRUjE3NDlGQl9zdlpiUlA5SWppWmd0N3Zlejd1Z0NYamtCVmZNNGd3Q1hqdlIzQjVuVnFQenlfMy1CTFpwN2J5Nmw4c3g?oc=5",
+      "title": "Kimi K3.1 Pro vs Gemini 4 Carbon: 13 Points Cost $4.08 More",
+      "publishedAt": "2026-11-25T04:50:12Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gemini 4 carbon",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
     },
     {
       "modelId": "google.gemini-4-hydrogen",
@@ -5567,6 +5627,111 @@
       "firstSeenIn": "9e3732c"
     },
     {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "jdyorx7zx",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Jd0tlOU9pQjhwT2E3TmhXX1pBLUFnRmtuZXRFcE01TGU2dGdQRkZVb3pienhmbUNtLURualh4aUdfN1FyN3ZYNEpyOUF1azFJREQxalpyYktDRk83SXFqNmdPdjZaSDg5?oc=5",
+      "title": "Kimi K3.1 Pro vs GPT-6 Sol: Same Price, Different Work",
+      "publishedAt": "2026-11-25T04:35:43Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "c67ol7vnob",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTalB2ZWZna0FpWUt3eEl0VjRSVEdUSE9DWnJ5d0FKejZhNjZqT1JWeDIwYm9RZXd3UGtVckRJREVzYjU3X21iTW9tOTVheTc4TUN3d1R0NFBhdVhTYjVZeWpUdnVCOW8?oc=5",
+      "title": "Kimi K3.1 Pro vs Grok 4.8: 12 Points Over Grok 4.7",
+      "publishedAt": "2026-11-25T04:37:54Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "1i8x39wh3lv",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JVUI5TzZXLTAwbWJsTDFtNU1vLXRwWGc2aVp4SXBjb3dmbm1XVTYtMG1Kb19vOWFqMHBTVkNQWUZvSWJiTS1SNWxvenRfYUZ4MWNjOUVwVktTdllSVGVYY0lZX3VpWWFZd0JONFZiTTBqNEdTc2tiX2FycFZjWDA?oc=5",
+      "title": "Gimme Kimi Phase 1: $60 of Kimi K3.1 Pro Usage for $10",
+      "publishedAt": "2026-11-25T04:40:06Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "2dnhsivljlx",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAyeEgxRUhoSmtSNk51b194UU82RktXR2pzOWRFbmhRdTZEaUpENWtaWURwRnpPRFkxdnBkYndjZWhGSmtoMTh0QW9WZkN6V0RGNjVEYldMOUx0OWl3dEhlbWczNUsxVkhwM25SaVktRDM?oc=5",
+      "title": "Kimi K3.1 Pro vs Claude Mythos 5: Open Weights vs a Gated Model",
+      "publishedAt": "2026-11-25T04:42:32Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "3qx9gws2aq",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xVTVwaWZ4b2lhWXNaTzM1SDBEa2E3a2t2THJSR2EtVVBZTi1kenNZd0t4WDdhNDFiSV82enR3VGFhV1EtWldwOWJrVHhWRnJhLW1SblJtSEJMV21yWXJ5djlybTNobzVNVExxbmJ3cGRWSkU?oc=5",
+      "title": "Kimi K3.1 Pro vs Claude Sonnet 5.5: Cost per Task Gap",
+      "publishedAt": "2026-11-25T04:44:45Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "17qgmlzqqvk",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45Y29qeHJoUDlWY1c3SEtmQjNOeTlwX3RQYUptV1lkTVdIeDJ3bW5zOGppblg5ekNBQWJhTDBCVVdxU1lTdEhETlVBaGxhSDM0c21yczAxdzYyUjJOTXFxZFVLSndUX1hobkVJNl9nWQ?oc=5",
+      "title": "Kimi K3.1 Pro vs Gemini 4 Argon: Price Doubles Dec 1",
+      "publishedAt": "2026-11-25T04:47:05Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "20uprgk4f1r",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YT3RRVVFvcEVBOTR6eHVfTzlwRVpnU1ZMcGV0eHlkSFNCUzBRUjE3NDlGQl9zdlpiUlA5SWppWmd0N3Zlejd1Z0NYamtCVmZNNGd3Q1hqdlIzQjVuVnFQenlfMy1CTFpwN2J5Nmw4c3g?oc=5",
+      "title": "Kimi K3.1 Pro vs Gemini 4 Carbon: 13 Points Cost $4.08 More",
+      "publishedAt": "2026-11-25T04:50:12Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "kimi k3.1 pro",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
+    },
+    {
       "modelId": "nvidia.nemotron-3-5-lightning",
       "variantId": null,
       "postId": "llxbmn8ygy",
@@ -7202,6 +7367,21 @@
       "firstSeenIn": "29604fd"
     },
     {
+      "modelId": "openai.gpt-6-sol",
+      "variantId": null,
+      "postId": "jdyorx7zx",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Jd0tlOU9pQjhwT2E3TmhXX1pBLUFnRmtuZXRFcE01TGU2dGdQRkZVb3pienhmbUNtLURualh4aUdfN1FyN3ZYNEpyOUF1azFJREQxalpyYktDRk83SXFqNmdPdjZaSDg5?oc=5",
+      "title": "Kimi K3.1 Pro vs GPT-6 Sol: Same Price, Different Work",
+      "publishedAt": "2026-11-25T04:35:43Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "gpt-6 sol",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
+    },
+    {
       "modelId": "openai.gpt-oss-1",
       "variantId": null,
       "postId": "nbjt8e9uij",
@@ -7455,6 +7635,21 @@
       "alias": "grok 4.7",
       "firstSeenAt": "2026-11-16T18:34:33Z",
       "firstSeenIn": "c4b82d5"
+    },
+    {
+      "modelId": "xai.grok-4-7",
+      "variantId": null,
+      "postId": "c67ol7vnob",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTalB2ZWZna0FpWUt3eEl0VjRSVEdUSE9DWnJ5d0FKejZhNjZqT1JWeDIwYm9RZXd3UGtVckRJREVzYjU3X21iTW9tOTVheTc4TUN3d1R0NFBhdVhTYjVZeWpUdnVCOW8?oc=5",
+      "title": "Kimi K3.1 Pro vs Grok 4.8: 12 Points Over Grok 4.7",
+      "publishedAt": "2026-11-25T04:37:54Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "grok 4.7",
+      "firstSeenAt": "2026-11-25T14:23:33Z",
+      "firstSeenIn": "2b38415"
     }
   ]
 }
