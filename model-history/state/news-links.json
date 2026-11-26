@@ -2192,6 +2192,21 @@
       "firstSeenIn": "eaad6fa"
     },
     {
+      "modelId": "deepseek.deepseek-v4-1-flash",
+      "variantId": null,
+      "postId": "1k7kytaafkq",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZDU0V1pjSTVQREM2S0h0dHZPT1ZsZ283bUNWY2owcVFmUlV4ZVJoc1o4SDN4RUwyOHJFb3hqT253d0d4bnF3UEpWWWJlWDZmLVJhR3pMM0RzbFNfTGdHUnpCQVFPbENXTUJCNnpKcG5xVFVyam9PUWQtOWpVT3gyOTVZcw?oc=5",
+      "title": "ERNIE 5.5 Flash Preview vs DeepSeek V4.1 Flash: Which Wins",
+      "publishedAt": "2026-11-26T06:38:28Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "OrcaRouter",
+      "method": "auto",
+      "alias": "deepseek v4.1 flash",
+      "firstSeenAt": "2026-11-26T10:55:58Z",
+      "firstSeenIn": "20eb6d2"
+    },
+    {
       "modelId": "deepseek.deepseek-v4-flash-vision-exp",
       "variantId": null,
       "postId": "2878bgrt01m",
@@ -5730,6 +5745,21 @@
       "alias": "kimi k3.1 pro",
       "firstSeenAt": "2026-11-25T14:23:33Z",
       "firstSeenIn": "2b38415"
+    },
+    {
+      "modelId": "moonshot.kimi-k3-1-pro",
+      "variantId": null,
+      "postId": "bv7ziik2nh",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdkVIbWhMMDRRWnRVTnZzelFpUzdTcFF2MVlTRTF2bXJKRVhxLW4zOW00dURzblYycFk2N2F4VXdzUW5TamNZbVhlNW5PbUVWN0UzYzhxTFpjS1YtaEVXQ2F0RENmVzU5bTlfQ05JSmtHMFVQU0NQR1pkUWRCQXpLa05Hd2FBOTBxaFVzM2lva0NJX0VzSDZHNW1LWkVOS2VjdFJQNlduRUYzWDVU?oc=5",
+      "title": "Distilling Kimi-K3.1-Pro Into Qwen3.8-27B: 93% for $260",
+      "publishedAt": "2026-11-26T00:00:00Z",
+      "dateOnly": true,
+      "company": "Moonshot AI (Kimi)",
+      "source": "explainx.ai",
+      "method": "auto",
+      "alias": "kimi-k3.1-pro",
+      "firstSeenAt": "2026-11-26T10:55:58Z",
+      "firstSeenIn": "20eb6d2"
     },
     {
       "modelId": "nvidia.nemotron-3-5-lightning",
