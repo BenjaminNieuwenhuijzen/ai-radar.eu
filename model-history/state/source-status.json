@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26T13:07:49Z",
+  "generated": "2026-11-27T13:05:55Z",
   "schemaVersion": 1,
   "sources": {
     "src.anthropic.100k-context-windows-announcement": {
@@ -8473,14 +8473,14 @@
         "truncated": false
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-21T11:45:29Z",
-      "lastDefinitiveAt": "2026-11-21T11:45:29Z",
+      "lastCheckedAt": "2026-11-27T13:05:55Z",
+      "lastDefinitiveAt": "2026-11-27T13:05:55Z",
       "lastFingerprint": {
         "bytes": 143661,
         "title": "Introducing Gemini 3.5 Flash Cyber — Google DeepMind",
         "truncated": false
       },
-      "lastOkAt": "2026-11-21T11:45:29Z",
+      "lastOkAt": "2026-11-27T13:05:55Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-28T10:00:21Z",
@@ -8558,7 +8558,7 @@
       "firstFailureAt": null,
       "firstFingerprint": null,
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-21T11:45:29Z",
+      "lastCheckedAt": "2026-11-27T13:05:55Z",
       "lastDefinitiveAt": null,
       "lastFingerprint": {
         "bytes": 262144,
@@ -8806,14 +8806,14 @@
         "truncated": true
       },
       "httpStatus": 200,
-      "lastCheckedAt": "2026-11-21T11:45:29Z",
-      "lastDefinitiveAt": "2026-11-21T11:45:29Z",
+      "lastCheckedAt": "2026-11-27T13:05:55Z",
+      "lastDefinitiveAt": "2026-11-27T13:05:55Z",
       "lastFingerprint": {
         "bytes": 262144,
         "title": "Gemini 3.8 Live & Gemini 3.8 Live Extended Thinking",
         "truncated": true
       },
-      "lastOkAt": "2026-11-21T11:45:29Z",
+      "lastOkAt": "2026-11-27T13:05:55Z",
       "lastResult": "ok",
       "state": "active",
       "stateSince": "2026-10-28T10:00:21Z",
@@ -15051,7 +15051,7 @@
         "url": "https://web.archive.org/web/20260611194314/https://microsoft.ai/pdf/MAI-Thinking-1-Model-Card.PDF",
         "via": "wayback-cdx-api"
       },
-      "consecutiveFailures": 4,
+      "consecutiveFailures": 5,
       "finalUrl": null,
       "firstCheckedAt": "2026-10-06T10:46:31Z",
       "firstFailureAt": "2026-11-12T11:50:22Z",
@@ -15061,8 +15061,8 @@
         "truncated": false
       },
       "httpStatus": 404,
-      "lastCheckedAt": "2026-11-24T14:15:58Z",
-      "lastDefinitiveAt": "2026-11-24T14:15:58Z",
+      "lastCheckedAt": "2026-11-27T13:05:55Z",
+      "lastDefinitiveAt": "2026-11-27T13:05:55Z",
       "lastFingerprint": {
         "bytes": 146,
         "title": "404 Not Found",
