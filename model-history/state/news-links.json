@@ -3874,6 +3874,21 @@
     {
       "modelId": "moonshot.kimi-k3",
       "variantId": null,
+      "postId": "yxjge0q1k1",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZW5IcXZZR2FLZGk4Y01WcmE2dVZWWXlLRWctVi1iX05ISXQwaWtsVEJXQ2RwV3hPRkhNWFlQSi11Yk5xbk9SSWRoUFh3UERBdmtCOFphSmJ2WTRBeHBmUzJrYncwWTVRV05uLVNSejlzN1N5ZnpYVmFVYWp3WmEtbjktTVJ2TkgwdTJTQjQtUFgyVVBWazV5UVhnSXRJeWVzdnJXcGcxNGFtLUhKSGY0?oc=5",
+      "title": "Introducing India-based inference for Kimi K3 on Amazon Bedrock | Artificial Intelligence",
+      "publishedAt": "2026-11-03T08:00:00Z",
+      "dateOnly": false,
+      "company": "Moonshot AI (Kimi)",
+      "source": "Amazon Web Services (AWS)",
+      "method": "auto",
+      "alias": "kimi k3",
+      "firstSeenAt": "2026-11-27T04:16:43Z",
+      "firstSeenIn": "b06c214"
+    },
+    {
+      "modelId": "moonshot.kimi-k3",
+      "variantId": null,
       "postId": "179y2bfvizz",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sT3RXV05OMGdlNjZ5eE95QXlYTDM4RzZ6aU55cEdvYzN1ZnN5YlpCQXI5RkRiLUhyWXBCeFlPQmo3bFBtcXc2RmxFYjZta3F1azJJQ0V2TE41RWplNlM2dg?oc=5",
       "title": "Kimi K3.1 vs Kimi K3: What the Open Weights Say That the Launch Post Did Not",
@@ -5835,6 +5850,21 @@
       "alias": "gpt-5.2",
       "firstSeenAt": "2026-10-05T05:42:45Z",
       "firstSeenIn": "dcab53f"
+    },
+    {
+      "modelId": "openai.gpt-5-2",
+      "variantId": null,
+      "postId": "gzsy9bs706",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQnBhVnJmQVg4dHExZjlGRWdZWDJTTDdUY002bU9CaWJYYzVzZ2d2RnlhZnpJMkdvUmdlMnhoVGo5dlNHUWlPT0syNFVYcEEwNFpSZjloMXdhVkV0ZnNNNUtxZUFEd0p2WXlacS1JR05LRXJ0Um02WE5IVjFVSDRFTG9UdjJ0VkVBdlVkejI1UkVGd1lselhXTVVqWWxJU0xWbHZKUWtjWFVoYlk4eC00U0pkMjNBQ00?oc=5",
+      "title": "GPT-5.2 and DeepSeek Lead in Pneumonia Education Quality While Exceeding Reading Thresholds",
+      "publishedAt": "2026-11-26T21:58:35Z",
+      "dateOnly": false,
+      "company": "DeepSeek",
+      "source": "Bioengineer.org",
+      "method": "auto",
+      "alias": "gpt-5.2",
+      "firstSeenAt": "2026-11-27T04:16:43Z",
+      "firstSeenIn": "b06c214"
     },
     {
       "modelId": "openai.gpt-5-4",
